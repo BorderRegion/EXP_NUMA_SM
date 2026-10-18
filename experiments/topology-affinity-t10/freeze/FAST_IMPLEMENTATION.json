@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-10-18T08:17:55.634954+00:00",
+  "hashes": {
+    "src/qualify.py": "218923c6c8a739c177a1f9e82db4f6c1e54e6ff7eb4d3dc0664ab618f6161085",
+    "src/shared_runtime.py": "751798294d9bbb2dda75ac65ff3c1f9766b3c9fae0f410082ed4b5d26e41e8db",
+    "src/audit.py": "ad38da2c37bc203c270b1a7794ea9964e5c729bd3ac18e9f0524a6a3900f89be",
+    "src/common.py": "54e1b58b51d71a9ee3f46980a0ae4cbac066d1fbe985d54bbab9add50966b9ce",
+    "src/run_shared.py": "fa58c9f19f9c009cc71eba268290bf120690c5360f4696ba0f02840176ceda0a",
+    "src/runtime.py": "705e0cf0dc667a5ef3f2cce1ab9e38f378b9cb51656655a47c26401f6e63c4c2",
+    "src/run_fast.py": "80d36ad41c08b3912db81d8f0c676a5a60ba588d0492144ceda6b2d2584aa25d",
+    "src/full_direction.py": "80dede25836012c7f4560d36569640ff5de3821ee666d20fbf75381258483ca1",
+    "src/campaign.py": "16b6f049f4b6c0a4cccc99c8216e7ac840aacabbefa0b730d47d819cb1bddb43",
+    "src/types.hpp": "6eb117f2eb045aab68b67988b06e9a1a394b4ceb728dced06b4c925dfe91b355",
+    "src/worker.py": "e90423878ebe3fd8fd92badb324a609da78abc62c6dfff9c03643ae75f8a1c0d",
+    "src/fast_experiment.py": "2924127e200debbf716ececa857529075faf5681471313abdb448ac33556d282",
+    "src/build.py": "aaad9bab9670d15782fdc086d92c8c6c14762ddd0005c019b4c85100292a66b7",
+    "src/fast_calibrate.py": "5b0ffda03d31bfa266a5ed6b3314208796a3a4d8069b73becb197346fff6e4f1",
+    "src/probe_api.cu": "bb18e5f00532c36b106ae415ca9c4b1fd9cf6b01824bf0811abb1bc319836056",
+    "src/experiment.py": "ad27d9cadc55200553fc1a37a54d89075ca792f31fcbdb92127425211b996a88",
+    "src/calibrate.py": "bd21c3bfb556a6961250f951aaae244b1c921c496b5b6c9ae79fde8be4139a78",
+    "src/shared_experiment.py": "2530573ef731b736810ae261323a3d58afdc8ac76f2c1d907672d247ce7d7bab",
+    "src/probe.cu": "3ab81a0c64a4987a760a764be984bfd84dff9f9f94b966a9255d40e32c029013",
+    "src/nvml_state.py": "4bd85f03f65821332180cb785751a5c5e005f3a7b3c9cf5014f088bead2ad1b7",
+    "src/analyze.py": "135b0c1b85ab1ad40f64f10116fb62511d046fc2e8be374357cd7613e042b9de",
+    "src/fast_fit.cpp": "0ab8282f0b69337627ce621895c42ffb8dcf46df4ed3b1e4449307c896510af2",
+    "src/topology_math.py": "9d9f8bbd471d6a22e8b121be2ec1cc98aba114aba1283834bb53b012dfb698ef",
+    "src/analyze_full.py": "5c95e77c541abc17743b972a9194acbd891658cc305a4c9fc5f9232ff0994c41",
+    "src/shared_graph.cpp": "1ad99c7fee4ac8f4178fd5c4776635f7cfb214f8130e7d109c3717df7d4f13ab",
+    "src/resume.py": "dd29bc7a4c52144f24ec02a358477d384beed99216cfc2e098d4e2986a4b08d1",
+    "build/fast_fit.so": "9e7e36b55e92ba4d705e6b59ae2a1f5c9efce3dec748401fce4e68e24cbfb26f"
+  },
+  "protocol_sha256": "7fe0015b8a9bb3236570836222cbe52d038881f2cca3b3d25b7b40c740bb2515"
+}

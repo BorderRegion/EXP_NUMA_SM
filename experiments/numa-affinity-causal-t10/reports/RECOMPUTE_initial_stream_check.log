@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-affinity-causal-t10/src/recompute.py", line 111, in <module>
+    if __name__=='__main__':run('--audit-only' not in sys.argv)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-affinity-causal-t10/src/recompute.py", line 10, in run
+    assert 'Unable to find injection library' in (RUN/'memcheck/stderr.log').read_text() and by['memcheck']['worker_seconds']<1
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

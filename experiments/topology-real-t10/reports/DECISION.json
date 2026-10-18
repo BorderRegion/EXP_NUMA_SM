@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETED",
+  "new_baseline": 54,
+  "new_baseline_plan": {
+    "offset": 17,
+    "page": 17,
+    "family": "RND07"
+  },
+  "address_specific_gate": {
+    "batch": false,
+    "freshbatch": false
+  },
+  "placement_gate": {
+    "batch": false,
+    "freshbatch": false
+  },
+  "default": "BASE54 retained; any positive conditional result still requires independent replication",
+  "formal_kernel_sha256": "10a0201ea5138c70fb96975cb3ec36d11adeb9d63841f63b2f763f619c2e4104",
+  "no_outcomes_removed": true,
+  "interpretation": "Conservative reading of frozen20 main contrasts, plus compatible-with-zero identical-parameter A/A for TUNED; not a new test or historical multiplicity adjustment. Address-specific prediction does not by itself identify a physical NUMA mechanism."
+}

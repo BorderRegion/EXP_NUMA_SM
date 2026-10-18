@@ -1,0 +1,306 @@
+[
+  {
+    "case_id": "moe_layer-007",
+    "blocks": 6,
+    "variants": {
+      "CUBLAS_EAGER_REQUEST": {
+        "mean_ready_ms": 1.3300612116230088,
+        "block_means": [
+          1.3148883347184892,
+          1.3287852675603062,
+          1.3299394076966564,
+          1.334898963023079,
+          1.3140619685145793,
+          1.3577933282249433
+        ]
+      },
+      "CUBLAS_GRAPH_REQUEST": {
+        "mean_ready_ms": 1.3377426490706057,
+        "block_means": [
+          1.331789868117994,
+          1.3407420078692667,
+          1.3345190370728233,
+          1.3411196084689436,
+          1.316389428666298,
+          1.3618959442283085
+        ]
+      }
+    },
+    "graph_over_eager_ready": {
+      "ratio": 1.0057839005278655,
+      "ci95": [
+        1.0029476640917776,
+        1.009065734138818
+      ],
+      "independent_blocks": 6,
+      "bootstrap_draws": 20000,
+      "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE"
+    },
+    "effects_by_controller_condition": {
+      "100W": {
+        "ratio": 1.0057839005278655,
+        "ci95": [
+          1.0029476640917776,
+          1.009065734138818
+        ],
+        "independent_blocks": 6,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE"
+      }
+    },
+    "scope": "SYNTHETIC_POST_ROUTE_FIXED_COUNTS_HOT; one output-ready boundary wait per request; not full model"
+  },
+  {
+    "case_id": "moe_layer-008",
+    "blocks": 6,
+    "variants": {
+      "CUBLAS_EAGER_REQUEST": {
+        "mean_ready_ms": 2.2109641462672394,
+        "block_means": [
+          2.198933593717811,
+          2.2044850084057543,
+          2.20678368850713,
+          2.2219825395950465,
+          2.185166501249114,
+          2.248433546128581
+        ]
+      },
+      "CUBLAS_GRAPH_REQUEST": {
+        "mean_ready_ms": 2.2042246025648637,
+        "block_means": [
+          2.2043204824058193,
+          2.1958972881748196,
+          2.1911843678026344,
+          2.203695468551814,
+          2.184142969781533,
+          2.2461070386725623
+        ]
+      }
+    },
+    "graph_over_eager_ready": {
+      "ratio": 0.9969516230721844,
+      "ci95": [
+        0.9939752285800864,
+        0.9998363636380588
+      ],
+      "independent_blocks": 6,
+      "bootstrap_draws": 20000,
+      "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE"
+    },
+    "effects_by_controller_condition": {
+      "100W": {
+        "ratio": 0.9969516230721844,
+        "ci95": [
+          0.9939752285800864,
+          0.9998363636380588
+        ],
+        "independent_blocks": 6,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE"
+      }
+    },
+    "scope": "SYNTHETIC_POST_ROUTE_FIXED_COUNTS_HOT; one output-ready boundary wait per request; not full model"
+  },
+  {
+    "case_id": "moe_layer-009",
+    "blocks": 6,
+    "variants": {
+      "CUBLAS_EAGER_REQUEST": {
+        "mean_ready_ms": 1.7643538637154659,
+        "block_means": [
+          1.6623033595806191,
+          1.756375889726769,
+          1.8609601024763833,
+          1.6687712582097447,
+          1.733333353740818,
+          1.9043792185584607
+        ]
+      },
+      "CUBLAS_GRAPH_REQUEST": {
+        "mean_ready_ms": 1.76604060554079,
+        "block_means": [
+          1.663763969190768,
+          1.7393911946328444,
+          1.868385187435706,
+          1.6725477103136654,
+          1.732831406798141,
+          1.9193241648736148
+        ]
+      }
+    },
+    "graph_over_eager_ready": {
+      "ratio": 1.000822132010361,
+      "ci95": [
+        0.9961409166743412,
+        1.0046812159131586
+      ],
+      "independent_blocks": 6,
+      "bootstrap_draws": 20000,
+      "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE"
+    },
+    "effects_by_controller_condition": {
+      "100W": {
+        "ratio": 1.000822132010361,
+        "ci95": [
+          0.9961409166743412,
+          1.0046812159131586
+        ],
+        "independent_blocks": 6,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE"
+      }
+    },
+    "scope": "SYNTHETIC_POST_ROUTE_FIXED_COUNTS_HOT; one output-ready boundary wait per request; not full model"
+  },
+  {
+    "case_id": "moe_layer-016",
+    "blocks": 6,
+    "variants": {
+      "CUBLAS_EAGER_REQUEST": {
+        "mean_ready_ms": 8.224569632830026,
+        "block_means": [
+          8.174823125045805,
+          8.31338863235942,
+          8.14476427194677,
+          8.208242570390212,
+          8.21820475084678,
+          8.287994446391167
+        ]
+      },
+      "CUBLAS_GRAPH_REQUEST": {
+        "mean_ready_ms": 8.24296364798253,
+        "block_means": [
+          8.222783797236843,
+          8.26810844296233,
+          8.187466647996189,
+          8.222349163816034,
+          8.2538358126385,
+          8.303238023245285
+        ]
+      }
+    },
+    "graph_over_eager_ready": {
+      "ratio": 1.0022522539757386,
+      "ci95": [
+        0.9988373024409591,
+        1.004815188154852
+      ],
+      "independent_blocks": 6,
+      "bootstrap_draws": 20000,
+      "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE"
+    },
+    "effects_by_controller_condition": {
+      "100W": {
+        "ratio": 1.0022522539757386,
+        "ci95": [
+          0.9988373024409591,
+          1.004815188154852
+        ],
+        "independent_blocks": 6,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE"
+      }
+    },
+    "scope": "SYNTHETIC_POST_ROUTE_FIXED_COUNTS_HOT; one output-ready boundary wait per request; not full model"
+  },
+  {
+    "case_id": "moe_layer-017",
+    "blocks": 6,
+    "variants": {
+      "CUBLAS_EAGER_REQUEST": {
+        "mean_ready_ms": 40.18036888233686,
+        "block_means": [
+          42.253588631638195,
+          39.286138039415164,
+          39.01801835036167,
+          42.26090574184127,
+          39.29852989813298,
+          38.965032632631846
+        ]
+      },
+      "CUBLAS_GRAPH_REQUEST": {
+        "mean_ready_ms": 40.03189950553102,
+        "block_means": [
+          42.10846608521024,
+          39.13796070446551,
+          38.844113780896805,
+          42.08667878151573,
+          39.14289253179959,
+          38.871285149298274
+        ]
+      }
+    },
+    "graph_over_eager_ready": {
+      "ratio": 0.9963077325248338,
+      "ci95": [
+        0.9958513859618418,
+        0.9968794595911703
+      ],
+      "independent_blocks": 6,
+      "bootstrap_draws": 20000,
+      "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE"
+    },
+    "effects_by_controller_condition": {
+      "100W": {
+        "ratio": 0.9963077325248338,
+        "ci95": [
+          0.9958513859618418,
+          0.9968794595911703
+        ],
+        "independent_blocks": 6,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE"
+      }
+    },
+    "scope": "SYNTHETIC_POST_ROUTE_FIXED_COUNTS_HOT; one output-ready boundary wait per request; not full model"
+  },
+  {
+    "case_id": "moe_layer-024",
+    "blocks": 5,
+    "variants": {
+      "CUBLAS_GRAPH_REQUEST": {
+        "mean_ready_ms": 134.7859159368454,
+        "block_means": [
+          129.99957441411425,
+          136.82217135010433,
+          136.6205683118551,
+          128.39392355408563,
+          142.09334205406776
+        ]
+      },
+      "CUBLAS_EAGER_REQUEST": {
+        "mean_ready_ms": 133.49798693679986,
+        "block_means": [
+          127.81985444325983,
+          138.84823915509514,
+          135.0353664204249,
+          129.09063664164933,
+          136.6958380235701
+        ]
+      }
+    },
+    "graph_over_eager_ready": {
+      "ratio": 1.0094836465439587,
+      "ci95": [
+        0.9935010468707546,
+        1.0258638597739789
+      ],
+      "independent_blocks": 5,
+      "bootstrap_draws": 20000,
+      "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE"
+    },
+    "effects_by_controller_condition": {
+      "100W": {
+        "ratio": 1.0094836465439587,
+        "ci95": [
+          0.9935010468707546,
+          1.0258638597739789
+        ],
+        "independent_blocks": 5,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE"
+      }
+    },
+    "scope": "SYNTHETIC_POST_ROUTE_FIXED_COUNTS_HOT; one output-ready boundary wait per request; not full model"
+  }
+]

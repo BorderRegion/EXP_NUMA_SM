@@ -1,0 +1,29 @@
+from runlib import *
+import csv,collections
+out=ROOT/'derived/t10_supplement';out.mkdir(exist_ok=True)
+idx={r['run_id']:r for r in map(json.loads,(ROOT/'run_index.jsonl').read_text().splitlines())}
+rows=[]
+for s in csv.DictReader(open(ROOT/'derived/t10/session_summaries.csv')):
+ r=idx[s['run_id']];p=ROOT/r['path'];s.update(requested_at=r['start_utc'],end_utc=r['end_utc'],worker_seconds=r['worker_seconds'],order=r['config']['policies'],temperature_clock_before=(p/'health_before.csv').read_text().strip(),temperature_clock_after=(p/'health_after.csv').read_text().strip());rows.append(s)
+rows.sort(key=lambda s:(s['requested_at'],s['order'].index(s['policy'])))
+with open(out/'old_E4_context.csv','w') as f:w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+rates={str(f.parent.relative_to(ROOT)):json.loads(f.read_text()) for f in (ROOT/'preregistration').glob('W*/*/plan_card.json')}
+(out/'old_rate_cards.json').write_text(json.dumps(rates,indent=2))
+text='''# T10 旧证据的补充解释（S0）
+
+本文件仅做只读解释，原 CSV、统计、输出和最终状态均不变。本轮补充使用独立 S1/S2/S3 数据集。
+
+- 原 48 个 E4 进程块、144 个 session 的顺序、均值、请求时间、进程时长和设备快照在 `derived/t10_supplement/old_E4_context.csv`。N 全部首位；快照不是每个 phase 内的轨迹，不能据此认定热降频。旧统计保留为 original_statistic。
+- 旧 K2 地址 `(task*1024+lane+(j%8)*128)%cache_n` 不依赖 loaded value。小/中/大档唯一输入集合为 1/2/4 MiB，每 task 4 KiB，分别重复 2/8/16 次。大档等于本机 L2 标称容量；未证明 DRAM 服务。
+- 旧 K3 是完整连续输入读、变换和输出写，三档输入/输出分别为 2/16/128 MiB（每份），每个 word 被访问一次；它与 K2 不是同一个内存实验，也不等于依赖链延迟。
+- G1/G3 既有实际 SM 集合一致，去重为一个 CONTROLLED_SM_GROUP。逻辑 SM 号和公开 Green 组不证明物理 GPC、显存控制器或裁剪原因。
+- W1 类别来自 8 个开发相机的平均 tile 列表长度三分位；W2 来自每固定行块的 nnz。不同 task 交替分配组，缺少同 task 的完整组间交换，因此速率包含任务组成、顺序和状态。并发单类速率对混合类别的外推也未独立证明。
+- 旧率表、单速率和 M/R 表重合率完整保存在 `old_rate_cards.json`；没有重标定或改表。它们衡量类型化容量估计，不是地址亲和图。
+- W2 正式 N 是 cuSPARSE；自写普通 row Native 固定 4 行/task，ca-GrQc mapped 为 4，web-Google mapped 为 216。新 E_FULL 采用 mapped 同 body、同粒度，避免把库内核差距算为分配收益。W1 E_FULL 同样调用原 mapped tile body。
+- 原索引 requested 窗口有 28 对重叠；runlib 的 flock 串行执行。end 减 worker 时长的估计执行窗口没有超过 1ms 的重叠。该估计不是新时间戳实测；新运行补四时间点、PID 和 UUID。
+- 原 render_ms 的 max(group event)不是完整跨上下文 makespan。dispatch_cpu_ms 包含等待上游，不能与 upstream 直接相加。继续用 CPU input-ready→output-ready 为主指标。
+
+轻量包独立复算（标准库脚本经阅读后在本机执行）四个主比较与原报告完全一致，绝对差为零；这确认统计计算一致，不消除实验设计混杂。完整结果：`environment/review_addendum_independent_audit.json`。
+'''
+for k,v in rates.items():text+=f"\n{k}: M/R重合率={v['plan_overlap_M_R']:.6f}; typed rates={v['rates']}; single={v['single_rate']}。\n"
+(ROOT/'reports/T10_EVIDENCE_ADDENDUM.md').write_text(text)

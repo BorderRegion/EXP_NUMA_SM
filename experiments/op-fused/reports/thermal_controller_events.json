@@ -1,0 +1,32 @@
+[
+  {
+    "epoch_s": 1792047944.270897,
+    "power_limit_w": 100,
+    "message": "Protection: temp=80 rpm=3629; fan full and cap 100 W"
+  },
+  {
+    "epoch_s": 1792048300.827591,
+    "power_limit_w": 125,
+    "message": "Protection recovered; quiet cap 125 W restored"
+  },
+  {
+    "epoch_s": 1792048366.951664,
+    "power_limit_w": 100,
+    "message": "Protection: temp=80 rpm=3629; fan full and cap 100 W"
+  },
+  {
+    "epoch_s": 1792057094.414512,
+    "power_limit_w": 125,
+    "message": "Protection recovered; quiet cap 125 W restored"
+  },
+  {
+    "epoch_s": 1792057222.667281,
+    "power_limit_w": 100,
+    "message": "Protection: temp=80 rpm=3629; fan full and cap 100 W"
+  },
+  {
+    "epoch_s": 1792059586.544621,
+    "power_limit_w": 125,
+    "message": "Protection recovered; quiet cap 125 W restored"
+  }
+]

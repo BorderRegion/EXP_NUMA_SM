@@ -1,0 +1,202 @@
+{
+  "version": "20261017-selective-v1",
+  "platform": "T10_LOCAL_ONLY",
+  "purpose": "有据地决定保持原生、全设备计算分解或选择性资源匹配；不是预设NUMA成立",
+  "wall_budget_minutes": 510,
+  "wall_hard_stop_minutes": 540,
+  "gpu_worker_cap_minutes": 330,
+  "budget_clock": "从本机Codex开始本任务起的连续墙时，含阅读/实现/编译/等待/测量/分析，不在阶段间清零",
+  "stages": [
+    {
+      "id": "S0",
+      "minutes": 30,
+      "goal": "核对现有工程、100W状态与冻结输入"
+    },
+    {
+      "id": "S1",
+      "minutes": 90,
+      "goal": "原生直达/惰性资源/共同算子接口与资格"
+    },
+    {
+      "id": "S2",
+      "minutes": 90,
+      "goal": "基线选型、全部动作校准、资源关系卡"
+    },
+    {
+      "id": "S3",
+      "minutes": 30,
+      "goal": "同复杂度选择规则、交叉验证与测试前冻结"
+    },
+    {
+      "id": "S4",
+      "minutes": 120,
+      "goal": "新形状及回归上的动作与选择器验证"
+    },
+    {
+      "id": "S5",
+      "minutes": 90,
+      "goal": "实际请求混合、FFN、摊销及必要消融"
+    },
+    {
+      "id": "S6",
+      "minutes": 60,
+      "goal": "复算、恢复、报告；包含20分钟机动"
+    }
+  ],
+  "network": false,
+  "new_paid_spend_authorized": 0,
+  "primary_power_w": 100,
+  "power_control": "沿用已批准的支持范围内安全控制；保留温控/风扇保护；本轮不新增125W矩阵",
+  "code_scope": {
+    "new_math_kernel": false,
+    "new_attention_adapter": false,
+    "new_independent_scheduler_kernel": false,
+    "new_per_task_lut": false,
+    "max_production_groups_per_selected_action": 2,
+    "diag_in_timed_kernel": false,
+    "new_executors": 0
+  },
+  "existing_recipe_ids": [
+    0,
+    2,
+    3
+  ],
+  "split_candidates": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "actions": [
+    {
+      "id": "LIB",
+      "kind": 3,
+      "placement": false,
+      "description": "冻结的本机生产库路径"
+    },
+    {
+      "id": "SINGLE",
+      "kind": 4,
+      "placement": false,
+      "description": "原全设备成熟CUTLASS S=1"
+    },
+    {
+      "id": "SPLIT",
+      "kind": 0,
+      "placement": false,
+      "description": "全设备成熟parallel split-K；与位置动作相同recipe/S"
+    },
+    {
+      "id": "PC0_0",
+      "kind": 1,
+      "placement": true,
+      "partition": 0,
+      "pi": 0,
+      "slab": 1,
+      "dependency": "ALL_PRODUCERS_BEFORE_REDUCERS",
+      "description": "旧算术tile owner/slab、已验证生产数学体；不新增kernel"
+    },
+    {
+      "id": "PC0_1",
+      "kind": 1,
+      "placement": true,
+      "partition": 0,
+      "pi": 1,
+      "slab": 1,
+      "dependency": "ALL_PRODUCERS_BEFORE_REDUCERS",
+      "description": "旧算术tile owner/slab、已验证生产数学体；不新增kernel"
+    },
+    {
+      "id": "PC1_0",
+      "kind": 1,
+      "placement": true,
+      "partition": 1,
+      "pi": 0,
+      "slab": 1,
+      "dependency": "ALL_PRODUCERS_BEFORE_REDUCERS",
+      "description": "旧算术tile owner/slab、已验证生产数学体；不新增kernel"
+    },
+    {
+      "id": "PC1_1",
+      "kind": 1,
+      "placement": true,
+      "partition": 1,
+      "pi": 1,
+      "slab": 1,
+      "dependency": "ALL_PRODUCERS_BEFORE_REDUCERS",
+      "description": "旧算术tile owner/slab、已验证生产数学体；不新增kernel"
+    },
+    {
+      "id": "PC2_0",
+      "kind": 1,
+      "placement": true,
+      "partition": 2,
+      "pi": 0,
+      "slab": 1,
+      "dependency": "ALL_PRODUCERS_BEFORE_REDUCERS",
+      "description": "旧算术tile owner/slab、已验证生产数学体；不新增kernel"
+    },
+    {
+      "id": "PC2_1",
+      "kind": 1,
+      "placement": true,
+      "partition": 2,
+      "pi": 1,
+      "slab": 1,
+      "dependency": "ALL_PRODUCERS_BEFORE_REDUCERS",
+      "description": "旧算术tile owner/slab、已验证生产数学体；不新增kernel"
+    }
+  ],
+  "calibration_blocks": 2,
+  "action_calibration_blocks": 3,
+  "test_blocks": 6,
+  "calibration_requests_cap": 32,
+  "test_requests_cap": 128,
+  "test_requests_floor": 8,
+  "request_target_ms": 200,
+  "phase_warmup_min_replays": 8,
+  "phase_warmup_target_ms": 20,
+  "conditioning_s_per_superblock": 60,
+  "selectors": [
+    "BASE",
+    "SHAPE",
+    "RESOURCE",
+    "PERMUTED_RESOURCE"
+  ],
+  "feature_model": {
+    "model": "per-action standardized ridge on log microseconds",
+    "ridge_lambda": 1.0,
+    "hyperparameter_search": false,
+    "error_margin": "leave-one-whole-shape-out paired prediction error; 90th percentile absolute error",
+    "selection_min_fraction": 0.01,
+    "selection_min_us": 0.5,
+    "unknown_horizon": "不得宣称初始化已摊销；提供steady和单独生命周期列"
+  },
+  "supported_envelope": {
+    "M": [
+      1,
+      512
+    ],
+    "N": [
+      1024,
+      12288
+    ],
+    "K": [
+      4096,
+      32768
+    ]
+  },
+  "stop_rules": "只有设备故障/未授权操作/真实数值失败需要暂停相关分支；普通阴性照常完成既定测试",
+  "baseline_source_archive": "T10_PC_HANDOFF_LLM_RESULTS_20261016_SMALL.zip",
+  "planned_counts": {
+    "base_calibration_max": 720,
+    "placement_calibration_max": 576,
+    "resource_card_cell_episodes": 256,
+    "formal_action_main": 1296,
+    "formal_action_anchors": 288,
+    "deployment_traces": 72,
+    "ffn_chain_phases": 96,
+    "ood_bypass_phases": 36,
+    "tuner_lifecycle_phases": 72
+  }
+}

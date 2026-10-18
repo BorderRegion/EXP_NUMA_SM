@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "figures": [
+    "01_hierarchy.png",
+    "02_operator_stages.png",
+    "03_setup_cost.png",
+    "04_net_sessions.png",
+    "05_topology_residual.png"
+  ],
+  "review": "Inspected all five rendered PNGs. Added interval/accounting captions and shortened operator y-label to avoid the footnote. Re-rendered and inspected modified figures; final labels and captions do not overlap."
+}

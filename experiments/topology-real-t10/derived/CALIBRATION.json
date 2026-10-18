@@ -1,0 +1,1557 @@
+[
+  {
+    "worker": "dev_0",
+    "phase": "dev",
+    "scope": "batch",
+    "kind": "calibration",
+    "setup_ms": 14.144983,
+    "flags_va": 135492427317248,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 54,
+      "POOL": 54
+    },
+    "fit": {
+      "finalists": [
+        54,
+        45,
+        87,
+        11
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "45": [
+          0.0005604077266858631,
+          -0.008435418900852754
+        ],
+        "87": [
+          -0.0239768949230994,
+          -0.007882829052461737
+        ],
+        "11": [
+          -0.00778086948976231,
+          -0.010011155246140602
+        ]
+      },
+      "eligible": [],
+      "fallback": true
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "dev_0",
+    "phase": "dev",
+    "scope": "batch",
+    "kind": "shadow",
+    "setup_ms": 13.508584,
+    "flags_va": 135492435705856,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 110,
+      "TUNED_AA": 110,
+      "PAIR_ONLY": 44,
+      "PLACE_ONLY": 21,
+      "WRONG": 120,
+      "POOL": 120
+    },
+    "fit": {
+      "finalists": [
+        54,
+        111,
+        110,
+        21
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "111": [
+          -0.003723356775025888,
+          0.0031177962429620454
+        ],
+        "110": [
+          0.0029508079269893184,
+          0.0004783579161220519
+        ],
+        "21": [
+          -0.0033286014923211704,
+          -0.002147113385166155
+        ]
+      },
+      "eligible": [
+        110
+      ],
+      "fallback": false
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "dev_0",
+    "phase": "dev",
+    "scope": "freshbatch",
+    "kind": "calibration",
+    "setup_ms": 35.970916,
+    "flags_va": 135492427317248,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 45,
+      "TUNED_AA": 45,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 54,
+      "WRONG": 44,
+      "POOL": 44
+    },
+    "fit": {
+      "finalists": [
+        54,
+        45,
+        21,
+        120
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "45": [
+          0.0011691007502860895,
+          0.0026608886352312844
+        ],
+        "21": [
+          -0.0017662294926671374,
+          -0.000954449712593064
+        ],
+        "120": [
+          -0.001730951923500923,
+          -0.0007778297612274221
+        ]
+      },
+      "eligible": [
+        45
+      ],
+      "fallback": false
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "dev_0",
+    "phase": "dev",
+    "scope": "freshbatch",
+    "kind": "shadow",
+    "setup_ms": 28.679826,
+    "flags_va": 135492435705856,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 87,
+      "TUNED_AA": 87,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 87,
+      "WRONG": 78,
+      "POOL": 87
+    },
+    "fit": {
+      "finalists": [
+        54,
+        87,
+        111,
+        110
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "87": [
+          0.004848496876190156,
+          0.003994798703984781
+        ],
+        "111": [
+          0.0016580798632437332,
+          0.0038173602434976583
+        ],
+        "110": [
+          0.0032507688348488717,
+          0.0011280506786726097
+        ]
+      },
+      "eligible": [
+        87,
+        111,
+        110
+      ],
+      "fallback": false
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "dev_1",
+    "phase": "dev",
+    "scope": "batch",
+    "kind": "calibration",
+    "setup_ms": 24.934971,
+    "flags_va": 140100960780288,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 87,
+      "WRONG": 54,
+      "POOL": 54
+    },
+    "fit": {
+      "finalists": [
+        54,
+        45,
+        87,
+        78
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "45": [
+          -0.001183317559527386,
+          -0.0038108544545354395
+        ],
+        "87": [
+          -0.009143777737921854,
+          -0.008148259734105934
+        ],
+        "78": [
+          -0.004283896409905008,
+          -0.007839775836699037
+        ]
+      },
+      "eligible": [],
+      "fallback": true
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "dev_1",
+    "phase": "dev",
+    "scope": "batch",
+    "kind": "shadow",
+    "setup_ms": 17.009489,
+    "flags_va": 140100969168896,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 111,
+      "TUNED_AA": 111,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 120,
+      "WRONG": 110,
+      "POOL": 120
+    },
+    "fit": {
+      "finalists": [
+        54,
+        120,
+        111,
+        110
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "120": [
+          0.004344088811377711,
+          0.00037188806414567566
+        ],
+        "111": [
+          0.00935518584203443,
+          0.0045434713774985536
+        ],
+        "110": [
+          0.0063425688091565124,
+          0.003918624419276373
+        ]
+      },
+      "eligible": [
+        120,
+        111,
+        110
+      ],
+      "fallback": false
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "dev_1",
+    "phase": "dev",
+    "scope": "freshbatch",
+    "kind": "calibration",
+    "setup_ms": 19.870514,
+    "flags_va": 140100960780288,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 54,
+      "WRONG": 44,
+      "POOL": 54
+    },
+    "fit": {
+      "finalists": [
+        54,
+        45,
+        44,
+        77
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "45": [
+          0.002379949032795814,
+          -0.001001425861939742
+        ],
+        "44": [
+          -0.002421205290902062,
+          -0.002000797908866203
+        ],
+        "77": [
+          -0.002368674384176539,
+          -0.0020533647887355233
+        ]
+      },
+      "eligible": [],
+      "fallback": true
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "dev_1",
+    "phase": "dev",
+    "scope": "freshbatch",
+    "kind": "shadow",
+    "setup_ms": 20.003794,
+    "flags_va": 140100969168896,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 111,
+      "TUNED_AA": 111,
+      "PAIR_ONLY": 44,
+      "PLACE_ONLY": 120,
+      "WRONG": 110,
+      "POOL": 120
+    },
+    "fit": {
+      "finalists": [
+        54,
+        120,
+        111,
+        87
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "120": [
+          0.0014715866245005316,
+          0.0009975876235241987
+        ],
+        "111": [
+          0.001787418528937046,
+          0.002787686525668409
+        ],
+        "87": [
+          0.0012084785617196836,
+          0.0026822152930559007
+        ]
+      },
+      "eligible": [
+        111,
+        87
+      ],
+      "fallback": false
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_0",
+    "phase": "confirm",
+    "scope": "batch",
+    "kind": "calibration",
+    "setup_ms": 26.791955,
+    "flags_va": 139129157320704,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 44,
+      "POOL": 54
+    },
+    "fit": {
+      "finalists": [
+        54,
+        45,
+        77,
+        44
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "45": [
+          -0.00033562124126618187,
+          -0.0006145072513880079
+        ],
+        "77": [
+          -0.006725601063687914,
+          -0.004950481131300255
+        ],
+        "44": [
+          -0.008874090392775758,
+          -0.007489973429502195
+        ]
+      },
+      "eligible": [],
+      "fallback": true
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_0",
+    "phase": "confirm",
+    "scope": "batch",
+    "kind": "shadow",
+    "setup_ms": 18.958802,
+    "flags_va": 139129165709312,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 110,
+      "TUNED_AA": 110,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 21,
+      "WRONG": 120,
+      "POOL": 120
+    },
+    "fit": {
+      "finalists": [
+        54,
+        110,
+        21,
+        120
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "110": [
+          0.0020078221504340465,
+          0.004789510219494808
+        ],
+        "21": [
+          -0.0018334347110100513,
+          0.002890497300608752
+        ],
+        "120": [
+          -0.012314456873842028,
+          0.005629554218784971
+        ]
+      },
+      "eligible": [
+        110
+      ],
+      "fallback": false
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_0",
+    "phase": "confirm",
+    "scope": "freshbatch",
+    "kind": "calibration",
+    "setup_ms": 20.018588,
+    "flags_va": 139129157320704,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 45,
+      "TUNED_AA": 45,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 87,
+      "WRONG": 54,
+      "POOL": 54
+    },
+    "fit": {
+      "finalists": [
+        54,
+        45,
+        87,
+        120
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "45": [
+          0.0016841888427734375,
+          0.0021022235392098576
+        ],
+        "87": [
+          -0.0020973633846076423,
+          -0.0026154831674758405
+        ],
+        "120": [
+          -0.005746508255022542,
+          -0.0009954969042559325
+        ]
+      },
+      "eligible": [
+        45
+      ],
+      "fallback": false
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_0",
+    "phase": "confirm",
+    "scope": "freshbatch",
+    "kind": "shadow",
+    "setup_ms": 19.824045,
+    "flags_va": 139129165709312,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 54,
+      "POOL": 54
+    },
+    "fit": {
+      "finalists": [
+        54,
+        21,
+        111,
+        12
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "21": [
+          0.0018870523106118142,
+          0.0008367217981064545
+        ],
+        "111": [
+          -0.0008364156123602529,
+          0.0013604030741127815
+        ],
+        "12": [
+          -0.0021405641436087475,
+          0.0029346901010733895
+        ]
+      },
+      "eligible": [],
+      "fallback": true
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_1",
+    "phase": "confirm",
+    "scope": "batch",
+    "kind": "calibration",
+    "setup_ms": 21.375853,
+    "flags_va": 136009635332096,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 54,
+      "WRONG": 44,
+      "POOL": 54
+    },
+    "fit": {
+      "finalists": [
+        54,
+        45,
+        77,
+        120
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "45": [
+          -0.0083940408947909,
+          -0.0010314573299601282
+        ],
+        "77": [
+          -0.0060327205369009596,
+          0.0010335136377777054
+        ],
+        "120": [
+          -0.009883767029434165,
+          -0.0008728897486404152
+        ]
+      },
+      "eligible": [],
+      "fallback": true
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_1",
+    "phase": "confirm",
+    "scope": "batch",
+    "kind": "shadow",
+    "setup_ms": 16.924334,
+    "flags_va": 136009643720704,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 110,
+      "TUNED_AA": 110,
+      "PAIR_ONLY": 44,
+      "PLACE_ONLY": 21,
+      "WRONG": 110,
+      "POOL": 110
+    },
+    "fit": {
+      "finalists": [
+        54,
+        110,
+        11,
+        111
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "110": [
+          0.004785274817411311,
+          0.010958465359367064
+        ],
+        "11": [
+          0.004911812904480284,
+          0.005544403552040222
+        ],
+        "111": [
+          0.004595557582643073,
+          0.006559097223596488
+        ]
+      },
+      "eligible": [
+        110,
+        11,
+        111
+      ],
+      "fallback": false
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_1",
+    "phase": "confirm",
+    "scope": "freshbatch",
+    "kind": "calibration",
+    "setup_ms": 20.076343,
+    "flags_va": 136009635332096,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 21,
+      "TUNED_AA": 21,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 21,
+      "POOL": 21
+    },
+    "fit": {
+      "finalists": [
+        54,
+        45,
+        21,
+        120
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "45": [
+          0.003054379373434557,
+          -0.012286403604968799
+        ],
+        "21": [
+          0.0005252547598300072,
+          0.003987997025228784
+        ],
+        "120": [
+          -0.0012584640407876657,
+          0.002094956649851598
+        ]
+      },
+      "eligible": [
+        21
+      ],
+      "fallback": false
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_1",
+    "phase": "confirm",
+    "scope": "freshbatch",
+    "kind": "shadow",
+    "setup_ms": 19.792438,
+    "flags_va": 136009643720704,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 120,
+      "WRONG": 54,
+      "POOL": 54
+    },
+    "fit": {
+      "finalists": [
+        54,
+        120,
+        110,
+        87
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "120": [
+          -0.0009968571129772563,
+          0.0011029864581753035
+        ],
+        "110": [
+          0.0005255482236725673,
+          -0.00026225292115888976
+        ],
+        "87": [
+          0.00031525263600706843,
+          0.0016816722482682067
+        ]
+      },
+      "eligible": [],
+      "fallback": true
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_2",
+    "phase": "confirm",
+    "scope": "batch",
+    "kind": "calibration",
+    "setup_ms": 13.672561,
+    "flags_va": 132910111784960,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 44,
+      "POOL": 54
+    },
+    "fit": {
+      "finalists": [
+        54,
+        45,
+        77,
+        21
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "45": [
+          -0.0027139904695753225,
+          -0.005109752879182805
+        ],
+        "77": [
+          -0.003111787747533068,
+          -0.00764515356571438
+        ],
+        "21": [
+          -0.0020767172336223494,
+          0.005000425534582353
+        ]
+      },
+      "eligible": [],
+      "fallback": true
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_2",
+    "phase": "confirm",
+    "scope": "batch",
+    "kind": "shadow",
+    "setup_ms": 13.983734,
+    "flags_va": 132910120173568,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 110,
+      "TUNED_AA": 110,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 120,
+      "WRONG": 111,
+      "POOL": 110
+    },
+    "fit": {
+      "finalists": [
+        54,
+        110,
+        120,
+        111
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "110": [
+          0.0026344815162979707,
+          0.006541703756115069
+        ],
+        "120": [
+          -0.014129861636370866,
+          0.005659220364755635
+        ],
+        "111": [
+          0.0022344488618866176,
+          0.006381144009085071
+        ]
+      },
+      "eligible": [
+        110,
+        111
+      ],
+      "fallback": false
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_2",
+    "phase": "confirm",
+    "scope": "freshbatch",
+    "kind": "calibration",
+    "setup_ms": 36.048763,
+    "flags_va": 132910111784960,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 54,
+      "WRONG": 45,
+      "POOL": 45
+    },
+    "fit": {
+      "finalists": [
+        54,
+        45,
+        78,
+        77
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "45": [
+          0.002103946456302186,
+          0.0008551062588531
+        ],
+        "78": [
+          -0.00042680267906702873,
+          -0.0020249443986430915
+        ],
+        "77": [
+          -0.0038284225980041997,
+          -0.0008891282449289273
+        ]
+      },
+      "eligible": [],
+      "fallback": true
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_2",
+    "phase": "confirm",
+    "scope": "freshbatch",
+    "kind": "shadow",
+    "setup_ms": 29.003698,
+    "flags_va": 132910120173568,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 110,
+      "TUNED_AA": 110,
+      "PAIR_ONLY": 44,
+      "PLACE_ONLY": 120,
+      "WRONG": 111,
+      "POOL": 111
+    },
+    "fit": {
+      "finalists": [
+        54,
+        111,
+        12,
+        110
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "111": [
+          -0.006741553318498683,
+          0.006798880222774084
+        ],
+        "12": [
+          0.001274221190189051,
+          0.004403428621744254
+        ],
+        "110": [
+          0.0046168092363143565,
+          0.006404793075341697
+        ]
+      },
+      "eligible": [
+        12,
+        110
+      ],
+      "fallback": false
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_3",
+    "phase": "confirm",
+    "scope": "batch",
+    "kind": "calibration",
+    "setup_ms": 13.600322,
+    "flags_va": 124502579085312,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 54,
+      "POOL": 54
+    },
+    "fit": {
+      "finalists": [
+        54,
+        87,
+        45,
+        21
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "87": [
+          0.006615707243105673,
+          -0.011006465292905498
+        ],
+        "45": [
+          0.011371842595851556,
+          -0.0094263524645678
+        ],
+        "21": [
+          0.0108052048451448,
+          -0.011085332976779716
+        ]
+      },
+      "eligible": [],
+      "fallback": true
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_3",
+    "phase": "confirm",
+    "scope": "batch",
+    "kind": "shadow",
+    "setup_ms": 13.501055,
+    "flags_va": 124502587473920,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 110,
+      "TUNED_AA": 110,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 21,
+      "WRONG": 120,
+      "POOL": 120
+    },
+    "fit": {
+      "finalists": [
+        54,
+        110,
+        111,
+        21
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "110": [
+          0.0016736995745747496,
+          0.005820516005354381
+        ],
+        "111": [
+          0.0005572780475042727,
+          0.0050191747275081244
+        ],
+        "21": [
+          -0.0035677536346121475,
+          0.0046189445725892675
+        ]
+      },
+      "eligible": [
+        110,
+        111
+      ],
+      "fallback": false
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_3",
+    "phase": "confirm",
+    "scope": "freshbatch",
+    "kind": "calibration",
+    "setup_ms": 35.406666,
+    "flags_va": 124502579085312,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 54,
+      "WRONG": 45,
+      "POOL": 45
+    },
+    "fit": {
+      "finalists": [
+        54,
+        45,
+        78,
+        44
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "45": [
+          -0.001709109333386527,
+          0.0008552820318414867
+        ],
+        "78": [
+          -0.002242017016400366,
+          0.0012120673081206235
+        ],
+        "44": [
+          -0.0024194926486487134,
+          -0.00042711005281559355
+        ]
+      },
+      "eligible": [],
+      "fallback": true
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_3",
+    "phase": "confirm",
+    "scope": "freshbatch",
+    "kind": "shadow",
+    "setup_ms": 28.213103,
+    "flags_va": 124502587473920,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 111,
+      "TUNED_AA": 111,
+      "PAIR_ONLY": 44,
+      "PLACE_ONLY": 120,
+      "WRONG": 111,
+      "POOL": 110
+    },
+    "fit": {
+      "finalists": [
+        54,
+        111,
+        12,
+        11
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "111": [
+          0.005798858216834235,
+          0.0063705225919969966
+        ],
+        "12": [
+          0.005333922679333192,
+          0.005762038192155039
+        ],
+        "11": [
+          0.0029088250157529583,
+          0.004154816292387897
+        ]
+      },
+      "eligible": [
+        111,
+        12,
+        11
+      ],
+      "fallback": false
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_4",
+    "phase": "confirm",
+    "scope": "batch",
+    "kind": "calibration",
+    "setup_ms": 13.750285,
+    "flags_va": 131201721434112,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 87,
+      "WRONG": 54,
+      "POOL": 54
+    },
+    "fit": {
+      "finalists": [
+        54,
+        45,
+        87,
+        77
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "45": [
+          -0.006635079658357079,
+          -0.00023811573454390889
+        ],
+        "87": [
+          -0.004905823529427256,
+          -0.0025346208326887387
+        ],
+        "77": [
+          -0.0035654544111594078,
+          -0.006469373077814811
+        ]
+      },
+      "eligible": [],
+      "fallback": true
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_4",
+    "phase": "confirm",
+    "scope": "batch",
+    "kind": "shadow",
+    "setup_ms": 13.721191,
+    "flags_va": 131201729822720,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 120,
+      "TUNED_AA": 120,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 111,
+      "POOL": 120
+    },
+    "fit": {
+      "finalists": [
+        54,
+        110,
+        12,
+        120
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "110": [
+          0.00015954154870767567,
+          0.002782586186758307
+        ],
+        "12": [
+          -0.00618165069550658,
+          -0.0030036859803876936
+        ],
+        "120": [
+          0.0009578611143252758,
+          0.005420511661301086
+        ]
+      },
+      "eligible": [
+        120
+      ],
+      "fallback": false
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_4",
+    "phase": "confirm",
+    "scope": "freshbatch",
+    "kind": "calibration",
+    "setup_ms": 31.788787,
+    "flags_va": 131201721434112,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 77,
+      "TUNED_AA": 77,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 87,
+      "POOL": 77
+    },
+    "fit": {
+      "finalists": [
+        54,
+        44,
+        77,
+        78
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "44": [
+          0.0027716381267359758,
+          0.005168601959507857
+        ],
+        "77": [
+          0.005125855011945513,
+          0.004893171376688876
+        ],
+        "78": [
+          0.004496958706383003,
+          0.0033613992283232363
+        ]
+      },
+      "eligible": [
+        44,
+        77,
+        78
+      ],
+      "fallback": false
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_4",
+    "phase": "confirm",
+    "scope": "freshbatch",
+    "kind": "shadow",
+    "setup_ms": 25.836572,
+    "flags_va": 131201729822720,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 110,
+      "TUNED_AA": 110,
+      "PAIR_ONLY": 44,
+      "PLACE_ONLY": 120,
+      "WRONG": 110,
+      "POOL": 110
+    },
+    "fit": {
+      "finalists": [
+        54,
+        110,
+        44,
+        11
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "110": [
+          0.00673050344410564,
+          0.009297379862982291
+        ],
+        "44": [
+          0.005275057641734637,
+          0.005117770226971352
+        ],
+        "11": [
+          0.00803232075026461,
+          0.0058250975662270665
+        ]
+      },
+      "eligible": [
+        110,
+        44,
+        11
+      ],
+      "fallback": false
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_5",
+    "phase": "confirm",
+    "scope": "batch",
+    "kind": "calibration",
+    "setup_ms": 25.378344,
+    "flags_va": 140322084487168,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 44,
+      "POOL": 54
+    },
+    "fit": {
+      "finalists": [
+        54,
+        45,
+        21,
+        77
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "45": [
+          -0.0009747070039809458,
+          -0.00018311013317862113
+        ],
+        "21": [
+          -0.0007921232348729879,
+          -0.004496919711994507
+        ],
+        "77": [
+          -0.014780061010173928,
+          -0.006006973551783257
+        ]
+      },
+      "eligible": [],
+      "fallback": true
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_5",
+    "phase": "confirm",
+    "scope": "batch",
+    "kind": "shadow",
+    "setup_ms": 17.536268,
+    "flags_va": 140322092875776,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 120,
+      "WRONG": 44,
+      "POOL": 44
+    },
+    "fit": {
+      "finalists": [
+        54,
+        120,
+        110,
+        111
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "120": [
+          -0.0021889974190022476,
+          0.02309042619278534
+        ],
+        "110": [
+          -0.004126704762323685,
+          0.02209678442756835
+        ],
+        "111": [
+          -0.0032798774078988124,
+          0.02160062785922201
+        ]
+      },
+      "eligible": [],
+      "fallback": true
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_5",
+    "phase": "confirm",
+    "scope": "freshbatch",
+    "kind": "calibration",
+    "setup_ms": 20.039857,
+    "flags_va": 140322084487168,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 87,
+      "WRONG": 54,
+      "POOL": 44
+    },
+    "fit": {
+      "finalists": [
+        54,
+        45,
+        87,
+        21
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "45": [
+          -0.003676068453803527,
+          0.002105261150159299
+        ],
+        "87": [
+          -0.0035714700728599613,
+          -0.0012589261269092544
+        ],
+        "21": [
+          -0.0053997215320964465,
+          -0.00031505400857900767
+        ]
+      },
+      "eligible": [],
+      "fallback": true
+    },
+    "calibration_operator_calls": 1856
+  },
+  {
+    "worker": "confirm_5",
+    "phase": "confirm",
+    "scope": "freshbatch",
+    "kind": "shadow",
+    "setup_ms": 19.713829,
+    "flags_va": 140322092875776,
+    "mapping": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 111,
+      "TUNED_AA": 111,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 21,
+      "WRONG": 120,
+      "POOL": 120
+    },
+    "fit": {
+      "finalists": [
+        54,
+        110,
+        111,
+        21
+      ],
+      "round_gains": {
+        "54": [
+          0.0,
+          0.0
+        ],
+        "110": [
+          0.000419520654140193,
+          0.003306377961043827
+        ],
+        "111": [
+          5.239583977023621e-05,
+          0.0036751536859236378
+        ],
+        "21": [
+          -0.0006810460371533544,
+          0.00015691669325179625
+        ]
+      },
+      "eligible": [
+        110,
+        111
+      ],
+      "fallback": false
+    },
+    "calibration_operator_calls": 1856
+  }
+]

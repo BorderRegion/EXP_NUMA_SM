@@ -1,0 +1,99 @@
+{
+  "offline_training_and_fit_seconds": 3.3209952730103396,
+  "logical_mailbox_arena_bytes": 2097152,
+  "allocated_alignment_storage_bytes": 4194304,
+  "method_other_tensor_scratch_bytes": 896,
+  "native_tensor_scratch_bytes": 897,
+  "output_bytes_per_vocab_entry": 4,
+  "rows": [
+    {
+      "V": 32768,
+      "page": 17,
+      "baseline": "NATIVE",
+      "paired_mean_saving_us": -1.1145332733790079,
+      "baseline_plan_ms": 50.88380799861625,
+      "method_plan_ms": 91.92806197097525,
+      "observed_setup_difference_ms": 41.044253972359,
+      "offline_model_reused_break_even_requests": null,
+      "recalibrate_this_device_break_even_requests": null
+    },
+    {
+      "V": 32768,
+      "page": 17,
+      "baseline": "IDENTITY",
+      "paired_mean_saving_us": 0.03199990590413412,
+      "baseline_plan_ms": 100.75402801157907,
+      "method_plan_ms": 91.92806197097525,
+      "observed_setup_difference_ms": -8.825966040603817,
+      "offline_model_reused_break_even_requests": 0,
+      "recalibrate_this_device_break_even_requests": 103781408
+    },
+    {
+      "V": 65536,
+      "page": 17,
+      "baseline": "NATIVE",
+      "paired_mean_saving_us": 0.29319993654886883,
+      "baseline_plan_ms": 46.74748703837395,
+      "method_plan_ms": 91.58005099743605,
+      "observed_setup_difference_ms": 44.8325639590621,
+      "offline_model_reused_break_even_requests": 152908,
+      "recalibrate_this_device_break_even_requests": 11479634
+    },
+    {
+      "V": 65536,
+      "page": 17,
+      "baseline": "IDENTITY",
+      "paired_mean_saving_us": 0.004266719023386638,
+      "baseline_plan_ms": 96.6059299535118,
+      "method_plan_ms": 91.58005099743605,
+      "observed_setup_difference_ms": -5.025878956075758,
+      "offline_model_reused_break_even_requests": 0,
+      "recalibrate_this_device_break_even_requests": 778348716
+    },
+    {
+      "V": 131072,
+      "page": 17,
+      "baseline": "NATIVE",
+      "paired_mean_saving_us": 3.307066718737284,
+      "baseline_plan_ms": 47.436375985853374,
+      "method_plan_ms": 99.92960502859205,
+      "observed_setup_difference_ms": 52.493229042738676,
+      "offline_model_reused_break_even_requests": 15874,
+      "recalibrate_this_device_break_even_requests": 1020085
+    },
+    {
+      "V": 131072,
+      "page": 17,
+      "baseline": "IDENTITY",
+      "paired_mean_saving_us": 0.2364000916481018,
+      "baseline_plan_ms": 90.8603859716095,
+      "method_plan_ms": 99.92960502859205,
+      "observed_setup_difference_ms": 9.069219056982547,
+      "offline_model_reused_break_even_requests": 38364,
+      "recalibrate_this_device_break_even_requests": 14086562
+    },
+    {
+      "V": 262144,
+      "page": 17,
+      "baseline": "NATIVE",
+      "paired_mean_saving_us": 8.020133145650227,
+      "baseline_plan_ms": 47.86190204322338,
+      "method_plan_ms": 93.37666304782033,
+      "observed_setup_difference_ms": 45.51476100459695,
+      "offline_model_reused_break_even_requests": 5676,
+      "recalibrate_this_device_break_even_requests": 419758
+    },
+    {
+      "V": 262144,
+      "page": 17,
+      "baseline": "IDENTITY",
+      "paired_mean_saving_us": -0.045733328660329184,
+      "baseline_plan_ms": 92.07383199827746,
+      "method_plan_ms": 93.37666304782033,
+      "observed_setup_difference_ms": 1.302831049542874,
+      "offline_model_reused_break_even_requests": null,
+      "recalibrate_this_device_break_even_requests": null
+    }
+  ],
+  "limitations": "Descriptive point estimates across3 setup processes and6 timing processes, not a cold-start confidence guarantee. Negative measured setup differences are retained but clamped to0 only in break-even arithmetic. Calibration cost is this research implementation including host/I/O, not an optimized production lower bound. Gains conditional on measured allocation/stream contract."
+}

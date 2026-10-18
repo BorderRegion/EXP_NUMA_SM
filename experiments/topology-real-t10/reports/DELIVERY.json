@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "full": {
+    "path": "/home/ubuntu/下载/T10_REAL_KERNEL_AFFINITY_20261018.zip",
+    "bytes": 26951078,
+    "sha256": "b5832e8e167af86124f2106f89cd42fd255f8dca87002dd57f68765e22f385e6",
+    "files": 2683
+  },
+  "small": {
+    "path": "/home/ubuntu/下载/T10_REAL_KERNEL_AFFINITY_20261018_SMALL.zip",
+    "bytes": 789300,
+    "sha256": "0b6aee175cd82b09956448473630d335c0c39fc7ca26eb08d3fade718897b23b",
+    "files": 68
+  },
+  "checks": "CRC, per-file SHA256, full independent extracted CPU recompute, post-recompute hashes"
+}

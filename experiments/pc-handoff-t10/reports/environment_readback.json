@@ -1,0 +1,9 @@
+{
+  "torch": "2.8.0",
+  "numpy": "2.5.3",
+  "nvidia-cuda-runtime-cu12": "12.8.90",
+  "nvidia-cublas-cu12": "12.8.4.1",
+  "nvidia-cuda-cupti-cu12": "12.8.90",
+  "time": "2026-10-16T12:41:35.810177+00:00",
+  "driver_query": "uuid, name, driver_version, memory.total [MiB], pci.bus_id, power.limit [W], enforced.power.limit [W]\nGPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5, Tesla T10, 580.178.04, 15360 MiB, 00000000:01:00.0, 100.00 W, 100.00 W\n"
+}

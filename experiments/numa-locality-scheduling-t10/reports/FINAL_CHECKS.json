@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-17T16:33:31.426446+00:00",
+  "workers": 31,
+  "worker_seconds": 1270.1678670539986,
+  "temperature_c_range": [
+    63,
+    72
+  ],
+  "limit_mw": [
+    100000
+  ],
+  "active_workers": [],
+  "frozen_hashes": "PASS",
+  "CPU_recompute": "PASS",
+  "figures_visual_QA": {
+    "final_gain": "PASS",
+    "address_controls": "PASS",
+    "earlier_routes": "PASS"
+  },
+  "gpu": "index, name, power.limit [W], temperature.gpu, utilization.gpu [%], memory.used [MiB]\n0, Tesla T10, 100.00 W, 66, 0 %, 212 MiB\n"
+}

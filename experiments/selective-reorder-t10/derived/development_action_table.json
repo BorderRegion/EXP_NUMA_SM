@@ -1,0 +1,4706 @@
+[
+  {
+    "case": "D01",
+    "shape": [
+      2,
+      2048,
+      6144
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 181.85559375,
+    "block_cpu_us": [
+      313.55415625,
+      100.6498125,
+      131.3628125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D01",
+    "shape": [
+      2,
+      2048,
+      6144
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 195.535140625,
+    "block_cpu_us": [
+      173.15215625000002,
+      217.91812499999997
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D01",
+    "shape": [
+      2,
+      2048,
+      6144
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 180.32390625000002,
+    "block_cpu_us": [
+      309.85118750000004,
+      114.586625,
+      116.53390625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D01",
+    "shape": [
+      2,
+      2048,
+      6144
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 257.40025,
+    "block_cpu_us": [
+      308.46171875000005,
+      333.22890625,
+      130.51012500000002
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D01",
+    "shape": [
+      2,
+      2048,
+      6144
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 241.03115625,
+    "block_cpu_us": [
+      121.0495,
+      336.23071875000005,
+      265.81325
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D01",
+    "shape": [
+      2,
+      2048,
+      6144
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 263.24093750000003,
+    "block_cpu_us": [
+      131.88840625,
+      334.18584375,
+      323.6485625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D01",
+    "shape": [
+      2,
+      2048,
+      6144
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 262.9095729166667,
+    "block_cpu_us": [
+      321.29393749999997,
+      146.50593750000002,
+      320.92884375000006
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D01",
+    "shape": [
+      2,
+      2048,
+      6144
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 326.00930208333335,
+    "block_cpu_us": [
+      311.99209375000004,
+      332.92078125,
+      333.11503125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D01",
+    "shape": [
+      2,
+      2048,
+      6144
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 270.5515625,
+    "block_cpu_us": [
+      139.41878125,
+      333.70815625,
+      338.52774999999997
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D02",
+    "shape": [
+      2,
+      2048,
+      12288
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 328.70365625,
+    "block_cpu_us": [
+      201.58334375,
+      604.24484375,
+      180.28278124999997
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D02",
+    "shape": [
+      2,
+      2048,
+      12288
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 471.8782656249999,
+    "block_cpu_us": [
+      408.168125,
+      535.5884062499999
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D02",
+    "shape": [
+      2,
+      2048,
+      12288
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 348.56898958333335,
+    "block_cpu_us": [
+      218.48062499999997,
+      218.7548125,
+      608.47153125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D02",
+    "shape": [
+      2,
+      2048,
+      12288
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 501.1991770833333,
+    "block_cpu_us": [
+      619.4505624999999,
+      263.729,
+      620.41796875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D02",
+    "shape": [
+      2,
+      2048,
+      12288
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 620.164875,
+    "block_cpu_us": [
+      620.0579062500001,
+      620.88515625,
+      619.5515625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D02",
+    "shape": [
+      2,
+      2048,
+      12288
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 621.7350833333334,
+    "block_cpu_us": [
+      621.3471875,
+      620.57515625,
+      623.28290625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D02",
+    "shape": [
+      2,
+      2048,
+      12288
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 507.5906458333333,
+    "block_cpu_us": [
+      282.70121874999995,
+      619.93740625,
+      620.1333125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D02",
+    "shape": [
+      2,
+      2048,
+      12288
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 496.9488645833333,
+    "block_cpu_us": [
+      622.5505625000001,
+      620.6985625,
+      247.59746875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D02",
+    "shape": [
+      2,
+      2048,
+      12288
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 620.4687291666668,
+    "block_cpu_us": [
+      620.162,
+      620.4055000000001,
+      620.8386875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D03",
+    "shape": [
+      2,
+      2048,
+      24576
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 613.10309375,
+    "block_cpu_us": [
+      1121.0634375,
+      363.771875,
+      354.47396875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D03",
+    "shape": [
+      2,
+      2048,
+      24576
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 919.87446875,
+    "block_cpu_us": [
+      831.397875,
+      1008.3510625
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D03",
+    "shape": [
+      2,
+      2048,
+      24576
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 934.4422604166666,
+    "block_cpu_us": [
+      442.07528125,
+      1180.4368125,
+      1180.8146875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D03",
+    "shape": [
+      2,
+      2048,
+      24576
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 1193.2896250000001,
+    "block_cpu_us": [
+      1193.840875,
+      1191.8,
+      1194.228
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D03",
+    "shape": [
+      2,
+      2048,
+      24576
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 1193.5403958333334,
+    "block_cpu_us": [
+      1194.7700312499999,
+      1192.7736875,
+      1193.0774687500002
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D03",
+    "shape": [
+      2,
+      2048,
+      24576
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 1194.1098125,
+    "block_cpu_us": [
+      1193.7261250000001,
+      1195.8186875000001,
+      1192.784625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D03",
+    "shape": [
+      2,
+      2048,
+      24576
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 1193.6557291666666,
+    "block_cpu_us": [
+      1194.40184375,
+      1194.14503125,
+      1192.4203125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D03",
+    "shape": [
+      2,
+      2048,
+      24576
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 1191.9015729166665,
+    "block_cpu_us": [
+      1194.077875,
+      1191.1583437499999,
+      1190.4685
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D03",
+    "shape": [
+      2,
+      2048,
+      24576
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 1195.3822916666668,
+    "block_cpu_us": [
+      1197.1619687500001,
+      1196.2366875,
+      1192.74821875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D04",
+    "shape": [
+      2,
+      6144,
+      6144
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 265.3811458333334,
+    "block_cpu_us": [
+      265.44309375,
+      264.9004375,
+      265.79990625000005
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D04",
+    "shape": [
+      2,
+      6144,
+      6144
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 471.98009375,
+    "block_cpu_us": [
+      449.8346875,
+      494.1255
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D04",
+    "shape": [
+      2,
+      6144,
+      6144
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 796.1690416666667,
+    "block_cpu_us": [
+      412.91203125000004,
+      955.70690625,
+      1019.8881875000001
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D04",
+    "shape": [
+      2,
+      6144,
+      6144
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 977.4918958333333,
+    "block_cpu_us": [
+      940.1637812499999,
+      985.3579062499999,
+      1006.9540000000001
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D04",
+    "shape": [
+      2,
+      6144,
+      6144
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 750.9518020833334,
+    "block_cpu_us": [
+      895.2400312500001,
+      958.57890625,
+      399.03646875000004
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D04",
+    "shape": [
+      2,
+      6144,
+      6144
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 999.4545625000001,
+    "block_cpu_us": [
+      979.3033125000001,
+      1013.1970312500001,
+      1005.86334375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D04",
+    "shape": [
+      2,
+      6144,
+      6144
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 1081.5790520833332,
+    "block_cpu_us": [
+      1063.2133749999998,
+      1078.95584375,
+      1102.5679375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D04",
+    "shape": [
+      2,
+      6144,
+      6144
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 616.5112291666667,
+    "block_cpu_us": [
+      428.45106250000003,
+      422.44925,
+      998.633375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D04",
+    "shape": [
+      2,
+      6144,
+      6144
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 1002.2214479166665,
+    "block_cpu_us": [
+      946.52775,
+      1030.8791875000002,
+      1029.2574062499998
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D05",
+    "shape": [
+      2,
+      6144,
+      12288
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 913.7235520833333,
+    "block_cpu_us": [
+      532.22503125,
+      528.1885,
+      1680.7571249999999
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D05",
+    "shape": [
+      2,
+      6144,
+      12288
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 1545.30775,
+    "block_cpu_us": [
+      906.5359375,
+      2184.0795625
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D05",
+    "shape": [
+      2,
+      6144,
+      12288
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 2099.4721770833335,
+    "block_cpu_us": [
+      2117.6108437499997,
+      2097.19709375,
+      2083.60859375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D05",
+    "shape": [
+      2,
+      6144,
+      12288
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 2113.9568020833335,
+    "block_cpu_us": [
+      2124.69265625,
+      2125.1066250000003,
+      2092.071125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D05",
+    "shape": [
+      2,
+      6144,
+      12288
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 2153.0444375,
+    "block_cpu_us": [
+      2127.959625,
+      2170.17878125,
+      2160.9949062500004
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D05",
+    "shape": [
+      2,
+      6144,
+      12288
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 1638.6097395833333,
+    "block_cpu_us": [
+      2104.50025,
+      2119.66790625,
+      691.6610625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D05",
+    "shape": [
+      2,
+      6144,
+      12288
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 2136.6158333333333,
+    "block_cpu_us": [
+      2139.8335625,
+      2103.82884375,
+      2166.1850937500003
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D05",
+    "shape": [
+      2,
+      6144,
+      12288
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 2182.8768854166665,
+    "block_cpu_us": [
+      2177.20153125,
+      2195.356125,
+      2176.073
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D05",
+    "shape": [
+      2,
+      6144,
+      12288
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 2163.7814375,
+    "block_cpu_us": [
+      2184.18325,
+      2131.2992812499997,
+      2175.8617812499997
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D06",
+    "shape": [
+      2,
+      6144,
+      24576
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 2562.4344583333336,
+    "block_cpu_us": [
+      1061.9699375,
+      3300.1216875,
+      3325.2117500000004
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D06",
+    "shape": [
+      2,
+      6144,
+      24576
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 4214.5823125,
+    "block_cpu_us": [
+      4084.1844687499997,
+      4344.98015625
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D06",
+    "shape": [
+      2,
+      6144,
+      24576
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 4295.292937499999,
+    "block_cpu_us": [
+      4298.826499999999,
+      4297.930375,
+      4289.1219375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D06",
+    "shape": [
+      2,
+      6144,
+      24576
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 3621.516625,
+    "block_cpu_us": [
+      2259.66321875,
+      4256.48215625,
+      4348.404500000001
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D06",
+    "shape": [
+      2,
+      6144,
+      24576
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 3973.0548645833337,
+    "block_cpu_us": [
+      4322.19275,
+      3302.2016875000004,
+      4294.770156250001
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D06",
+    "shape": [
+      2,
+      6144,
+      24576
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 3672.1437812500003,
+    "block_cpu_us": [
+      4297.52946875,
+      2397.5398125,
+      4321.3620625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D06",
+    "shape": [
+      2,
+      6144,
+      24576
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 4279.0840625,
+    "block_cpu_us": [
+      4255.0263125,
+      4274.98490625,
+      4307.24096875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D06",
+    "shape": [
+      2,
+      6144,
+      24576
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 3726.957875,
+    "block_cpu_us": [
+      4280.726125,
+      4410.2181875,
+      2489.9293125000004
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D06",
+    "shape": [
+      2,
+      6144,
+      24576
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 4327.017104166666,
+    "block_cpu_us": [
+      4245.776593750001,
+      4351.451312499999,
+      4383.82340625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D07",
+    "shape": [
+      12,
+      2048,
+      6144
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 121.68090624999998,
+    "block_cpu_us": [
+      117.41515625,
+      116.55909375,
+      131.06846875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D07",
+    "shape": [
+      12,
+      2048,
+      6144
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 161.72359375000002,
+    "block_cpu_us": [
+      160.81515625,
+      162.63203125
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D07",
+    "shape": [
+      12,
+      2048,
+      6144
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 176.73829166666667,
+    "block_cpu_us": [
+      183.6555,
+      168.44400000000002,
+      178.115375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D07",
+    "shape": [
+      12,
+      2048,
+      6144
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 156.00114583333334,
+    "block_cpu_us": [
+      172.0783125,
+      165.6088125,
+      130.3163125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D07",
+    "shape": [
+      12,
+      2048,
+      6144
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 160.20684375,
+    "block_cpu_us": [
+      134.4506875,
+      182.62396875,
+      163.54587500000002
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D07",
+    "shape": [
+      12,
+      2048,
+      6144
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 151.82148958333335,
+    "block_cpu_us": [
+      132.59371875000002,
+      149.28684375,
+      173.58390625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D07",
+    "shape": [
+      12,
+      2048,
+      6144
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 169.71015624999998,
+    "block_cpu_us": [
+      182.14059375,
+      184.3105625,
+      142.67931249999998
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D07",
+    "shape": [
+      12,
+      2048,
+      6144
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 163.72997916666665,
+    "block_cpu_us": [
+      177.49368750000002,
+      130.45915624999998,
+      183.23709374999999
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D07",
+    "shape": [
+      12,
+      2048,
+      6144
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 172.59491666666668,
+    "block_cpu_us": [
+      156.49681249999998,
+      181.5003125,
+      179.787625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D08",
+    "shape": [
+      12,
+      2048,
+      12288
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 261.6,
+    "block_cpu_us": [
+      252.45821875000001,
+      278.3371875,
+      254.00459375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D08",
+    "shape": [
+      12,
+      2048,
+      12288
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 373.183265625,
+    "block_cpu_us": [
+      292.013875,
+      454.35265625
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D08",
+    "shape": [
+      12,
+      2048,
+      12288
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 357.86780208333334,
+    "block_cpu_us": [
+      340.83084375,
+      357.25715625,
+      375.51540625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D08",
+    "shape": [
+      12,
+      2048,
+      12288
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 315.26575,
+    "block_cpu_us": [
+      356.5499375,
+      252.01996875,
+      337.22734375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D08",
+    "shape": [
+      12,
+      2048,
+      12288
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 332.0081875,
+    "block_cpu_us": [
+      403.16946875,
+      345.7285,
+      247.12659374999998
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D08",
+    "shape": [
+      12,
+      2048,
+      12288
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 351.29973958333335,
+    "block_cpu_us": [
+      324.94659375,
+      370.65765625000006,
+      358.29496874999995
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D08",
+    "shape": [
+      12,
+      2048,
+      12288
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 348.3186770833333,
+    "block_cpu_us": [
+      352.60759375,
+      345.90646875,
+      346.44196875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D08",
+    "shape": [
+      12,
+      2048,
+      12288
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 323.22894791666664,
+    "block_cpu_us": [
+      232.13818750000002,
+      368.86253124999996,
+      368.68612499999995
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D08",
+    "shape": [
+      12,
+      2048,
+      12288
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 353.68447916666673,
+    "block_cpu_us": [
+      356.865,
+      335.0550625,
+      369.133375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D09",
+    "shape": [
+      12,
+      2048,
+      24576
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 778.5353333333333,
+    "block_cpu_us": [
+      606.50265625,
+      1146.07621875,
+      583.0271250000001
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D09",
+    "shape": [
+      12,
+      2048,
+      24576
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 737.7832500000001,
+    "block_cpu_us": [
+      858.6790625000001,
+      616.8874375
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D09",
+    "shape": [
+      12,
+      2048,
+      24576
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 638.0730625,
+    "block_cpu_us": [
+      707.80303125,
+      727.14028125,
+      479.27587500000004
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D09",
+    "shape": [
+      12,
+      2048,
+      24576
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 747.0718333333334,
+    "block_cpu_us": [
+      466.48643749999997,
+      758.83771875,
+      1015.89134375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D09",
+    "shape": [
+      12,
+      2048,
+      24576
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 849.2733020833333,
+    "block_cpu_us": [
+      1348.79434375,
+      484.58225,
+      714.4433125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D09",
+    "shape": [
+      12,
+      2048,
+      24576
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 1073.8518958333334,
+    "block_cpu_us": [
+      727.3408125000001,
+      732.39203125,
+      1761.82284375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D09",
+    "shape": [
+      12,
+      2048,
+      24576
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 907.4819479166667,
+    "block_cpu_us": [
+      1210.03565625,
+      727.92265625,
+      784.48753125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D09",
+    "shape": [
+      12,
+      2048,
+      24576
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 1362.8735937499998,
+    "block_cpu_us": [
+      1680.4799062499999,
+      1706.7728124999999,
+      701.3680625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D09",
+    "shape": [
+      12,
+      2048,
+      24576
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 1040.2426354166666,
+    "block_cpu_us": [
+      759.38603125,
+      740.5158125,
+      1620.8260625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D10",
+    "shape": [
+      12,
+      6144,
+      6144
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 902.4016458333332,
+    "block_cpu_us": [
+      906.16528125,
+      909.740125,
+      891.29953125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D10",
+    "shape": [
+      12,
+      6144,
+      6144
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 490.78517187499995,
+    "block_cpu_us": [
+      463.19446875,
+      518.375875
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D10",
+    "shape": [
+      12,
+      6144,
+      6144
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 744.3440312500001,
+    "block_cpu_us": [
+      1103.61709375,
+      360.21284375000005,
+      769.20215625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D10",
+    "shape": [
+      12,
+      6144,
+      6144
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 808.1803333333334,
+    "block_cpu_us": [
+      538.58265625,
+      793.08765625,
+      1092.8706875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D10",
+    "shape": [
+      12,
+      6144,
+      6144
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 845.9904375,
+    "block_cpu_us": [
+      361.400625,
+      1087.18003125,
+      1089.3906562500001
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D10",
+    "shape": [
+      12,
+      6144,
+      6144
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 620.7795937500001,
+    "block_cpu_us": [
+      1098.7445000000002,
+      411.13550000000004,
+      352.45878125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D10",
+    "shape": [
+      12,
+      6144,
+      6144
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 882.1596145833332,
+    "block_cpu_us": [
+      642.3389999999999,
+      1102.9041874999998,
+      901.23565625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D10",
+    "shape": [
+      12,
+      6144,
+      6144
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 888.3689687499999,
+    "block_cpu_us": [
+      470.2061875,
+      1114.0258749999998,
+      1080.8748437499999
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D10",
+    "shape": [
+      12,
+      6144,
+      6144
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 1110.7709687499998,
+    "block_cpu_us": [
+      1176.88125,
+      981.6443125000001,
+      1173.7873437499998
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D11",
+    "shape": [
+      12,
+      6144,
+      12288
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 1751.4706770833334,
+    "block_cpu_us": [
+      1728.31828125,
+      1767.9158125,
+      1758.1779374999999
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D11",
+    "shape": [
+      12,
+      6144,
+      12288
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 1554.7841875,
+    "block_cpu_us": [
+      901.677375,
+      2207.8909999999996
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D11",
+    "shape": [
+      12,
+      6144,
+      12288
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 1705.2941666666666,
+    "block_cpu_us": [
+      721.8742187500001,
+      2196.04159375,
+      2197.9666875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D11",
+    "shape": [
+      12,
+      6144,
+      12288
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 1932.0862916666665,
+    "block_cpu_us": [
+      1436.8285625,
+      2189.0626875,
+      2170.367625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D11",
+    "shape": [
+      12,
+      6144,
+      12288
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 2209.728760416667,
+    "block_cpu_us": [
+      2209.4025,
+      2210.609125,
+      2209.17465625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D11",
+    "shape": [
+      12,
+      6144,
+      12288
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 1746.2968125,
+    "block_cpu_us": [
+      2174.6471874999997,
+      854.9756875,
+      2209.2675624999997
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D11",
+    "shape": [
+      12,
+      6144,
+      12288
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 2194.8977083333334,
+    "block_cpu_us": [
+      2166.4654687499997,
+      2208.3035624999998,
+      2209.92409375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D11",
+    "shape": [
+      12,
+      6144,
+      12288
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 1704.8246770833332,
+    "block_cpu_us": [
+      2209.0785312499997,
+      2209.4698125,
+      695.9256875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D11",
+    "shape": [
+      12,
+      6144,
+      12288
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 2205.2984479166666,
+    "block_cpu_us": [
+      2192.16640625,
+      2212.56484375,
+      2211.16409375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D12",
+    "shape": [
+      12,
+      6144,
+      24576
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 3437.5092083333334,
+    "block_cpu_us": [
+      3434.6295625,
+      3437.18625,
+      3440.7118125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D12",
+    "shape": [
+      12,
+      6144,
+      24576
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 3497.8235,
+    "block_cpu_us": [
+      2536.4726874999997,
+      4459.1743125
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D12",
+    "shape": [
+      12,
+      6144,
+      24576
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 3999.7598125000004,
+    "block_cpu_us": [
+      4273.13475,
+      3455.97078125,
+      4270.17390625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D12",
+    "shape": [
+      12,
+      6144,
+      24576
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 4296.31534375,
+    "block_cpu_us": [
+      4294.3366875,
+      4297.85921875,
+      4296.750125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D12",
+    "shape": [
+      12,
+      6144,
+      24576
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 4296.479625,
+    "block_cpu_us": [
+      4302.372218750001,
+      4294.4803437499995,
+      4292.5863125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D12",
+    "shape": [
+      12,
+      6144,
+      24576
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 3863.081291666667,
+    "block_cpu_us": [
+      3000.9733125,
+      4295.08321875,
+      4293.18734375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D12",
+    "shape": [
+      12,
+      6144,
+      24576
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 4296.196989583333,
+    "block_cpu_us": [
+      4300.20284375,
+      4289.68821875,
+      4298.69990625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D12",
+    "shape": [
+      12,
+      6144,
+      24576
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 3405.593875,
+    "block_cpu_us": [
+      4289.03225,
+      2922.907375,
+      3004.842
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D12",
+    "shape": [
+      12,
+      6144,
+      24576
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 4292.485625,
+    "block_cpu_us": [
+      4296.14165625,
+      4294.24490625,
+      4287.0703125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D13",
+    "shape": [
+      48,
+      2048,
+      6144
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 167.50066666666666,
+    "block_cpu_us": [
+      154.52675,
+      165.81228125,
+      182.16296875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D13",
+    "shape": [
+      48,
+      2048,
+      6144
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 169.224828125,
+    "block_cpu_us": [
+      171.19490625,
+      167.25475
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D13",
+    "shape": [
+      48,
+      2048,
+      6144
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 172.34703125,
+    "block_cpu_us": [
+      171.66765625,
+      155.71837499999998,
+      189.65506249999999
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D13",
+    "shape": [
+      48,
+      2048,
+      6144
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 171.49557291666665,
+    "block_cpu_us": [
+      157.93925,
+      176.9980625,
+      179.54940625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D13",
+    "shape": [
+      48,
+      2048,
+      6144
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 176.32165625000002,
+    "block_cpu_us": [
+      173.50140625,
+      180.94028125,
+      174.52328125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D13",
+    "shape": [
+      48,
+      2048,
+      6144
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 173.7478125,
+    "block_cpu_us": [
+      176.84015625,
+      155.84078125,
+      188.5625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D13",
+    "shape": [
+      48,
+      2048,
+      6144
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 172.07265625,
+    "block_cpu_us": [
+      185.1989375,
+      170.767625,
+      160.25140625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D13",
+    "shape": [
+      48,
+      2048,
+      6144
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 158.51694791666668,
+    "block_cpu_us": [
+      141.20809375,
+      146.05534375000002,
+      188.28740625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D13",
+    "shape": [
+      48,
+      2048,
+      6144
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 166.31787500000004,
+    "block_cpu_us": [
+      186.696625,
+      171.14521875000003,
+      141.11178125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D14",
+    "shape": [
+      48,
+      2048,
+      12288
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 347.3061354166667,
+    "block_cpu_us": [
+      313.2615625,
+      362.87015625000004,
+      365.78668749999997
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D14",
+    "shape": [
+      48,
+      2048,
+      12288
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 565.6723125,
+    "block_cpu_us": [
+      320.3694375,
+      810.9751875
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D14",
+    "shape": [
+      48,
+      2048,
+      12288
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 336.5144270833333,
+    "block_cpu_us": [
+      341.8046875,
+      337.79290625,
+      329.94568749999996
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D14",
+    "shape": [
+      48,
+      2048,
+      12288
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 527.8017395833334,
+    "block_cpu_us": [
+      344.76903125,
+      893.98359375,
+      344.65259375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D14",
+    "shape": [
+      48,
+      2048,
+      12288
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 385.04928125,
+    "block_cpu_us": [
+      405.02028125000004,
+      383.38678125,
+      366.74078125000005
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D14",
+    "shape": [
+      48,
+      2048,
+      12288
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 393.72565625,
+    "block_cpu_us": [
+      393.82462499999997,
+      405.74359375000006,
+      381.60875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D14",
+    "shape": [
+      48,
+      2048,
+      12288
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 345.29562500000003,
+    "block_cpu_us": [
+      386.49359375000006,
+      393.04459375,
+      256.3486875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D14",
+    "shape": [
+      48,
+      2048,
+      12288
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 293.6752604166666,
+    "block_cpu_us": [
+      252.12374999999997,
+      336.19321874999997,
+      292.7088125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D14",
+    "shape": [
+      48,
+      2048,
+      12288
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 348.37068750000003,
+    "block_cpu_us": [
+      378.41075,
+      259.60509375000004,
+      407.09621875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D15",
+    "shape": [
+      48,
+      2048,
+      24576
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 1250.6985000000002,
+    "block_cpu_us": [
+      1496.190125,
+      762.6271562500001,
+      1493.27821875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D15",
+    "shape": [
+      48,
+      2048,
+      24576
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 1361.2138437499998,
+    "block_cpu_us": [
+      1266.1930312499999,
+      1456.23465625
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D15",
+    "shape": [
+      48,
+      2048,
+      24576
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 1088.4101458333332,
+    "block_cpu_us": [
+      1729.074125,
+      826.1988125,
+      709.9575
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D15",
+    "shape": [
+      48,
+      2048,
+      24576
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 1497.1003020833334,
+    "block_cpu_us": [
+      748.94,
+      1870.43415625,
+      1871.92675
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D15",
+    "shape": [
+      48,
+      2048,
+      24576
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 1120.5264583333335,
+    "block_cpu_us": [
+      804.4165,
+      835.75734375,
+      1721.40553125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D15",
+    "shape": [
+      48,
+      2048,
+      24576
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 1434.4743437500001,
+    "block_cpu_us": [
+      1719.795125,
+      833.9900937499999,
+      1749.6378125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D15",
+    "shape": [
+      48,
+      2048,
+      24576
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 1151.86071875,
+    "block_cpu_us": [
+      1205.0036249999998,
+      528.1933437499999,
+      1722.3851875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D15",
+    "shape": [
+      48,
+      2048,
+      24576
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 1381.85690625,
+    "block_cpu_us": [
+      1778.1826875000002,
+      1852.8536875,
+      514.5343437500001
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D15",
+    "shape": [
+      48,
+      2048,
+      24576
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 1000.5424895833333,
+    "block_cpu_us": [
+      489.614375,
+      789.25609375,
+      1722.757
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D16",
+    "shape": [
+      48,
+      6144,
+      6144
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 422.01916666666665,
+    "block_cpu_us": [
+      416.868375,
+      445.1483125,
+      404.0408125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D16",
+    "shape": [
+      48,
+      6144,
+      6144
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 792.3613593749999,
+    "block_cpu_us": [
+      387.804,
+      1196.91871875
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D16",
+    "shape": [
+      48,
+      6144,
+      6144
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 774.9768645833334,
+    "block_cpu_us": [
+      622.3843125000001,
+      462.58353124999996,
+      1239.9627500000001
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D16",
+    "shape": [
+      48,
+      6144,
+      6144
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 1020.8399583333334,
+    "block_cpu_us": [
+      1266.35440625,
+      1261.0894374999998,
+      535.0760312499999
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D16",
+    "shape": [
+      48,
+      6144,
+      6144
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 538.7689583333334,
+    "block_cpu_us": [
+      550.84440625,
+      654.82028125,
+      410.6421875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D16",
+    "shape": [
+      48,
+      6144,
+      6144
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 608.6215416666665,
+    "block_cpu_us": [
+      523.1890625,
+      708.0593437499999,
+      594.61621875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D16",
+    "shape": [
+      48,
+      6144,
+      6144
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 491.9868333333334,
+    "block_cpu_us": [
+      419.8856875,
+      574.3351875000001,
+      481.739625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D16",
+    "shape": [
+      48,
+      6144,
+      6144
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 516.5045624999999,
+    "block_cpu_us": [
+      580.4957812499999,
+      411.16503124999997,
+      557.852875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D16",
+    "shape": [
+      48,
+      6144,
+      6144
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 581.1742604166666,
+    "block_cpu_us": [
+      577.7373749999999,
+      601.6481875,
+      564.13721875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D17",
+    "shape": [
+      48,
+      6144,
+      12288
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 1423.3825,
+    "block_cpu_us": [
+      1804.75503125,
+      1804.6994375,
+      660.69303125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D17",
+    "shape": [
+      48,
+      6144,
+      12288
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 1763.3942968750002,
+    "block_cpu_us": [
+      1092.335,
+      2434.4535937500004
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D17",
+    "shape": [
+      48,
+      6144,
+      12288
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 2358.9480937499998,
+    "block_cpu_us": [
+      2355.216,
+      2373.163625,
+      2348.46465625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D17",
+    "shape": [
+      48,
+      6144,
+      12288
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 2088.09221875,
+    "block_cpu_us": [
+      2207.5342499999997,
+      2361.6010625,
+      1695.14134375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D17",
+    "shape": [
+      48,
+      6144,
+      12288
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 1613.9363645833334,
+    "block_cpu_us": [
+      1576.948125,
+      892.6996875,
+      2372.1612812500002
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D17",
+    "shape": [
+      48,
+      6144,
+      12288
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 2287.7291145833333,
+    "block_cpu_us": [
+      2410.3741875,
+      2366.53290625,
+      2086.28025
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D17",
+    "shape": [
+      48,
+      6144,
+      12288
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 2359.9428020833334,
+    "block_cpu_us": [
+      2375.4890000000005,
+      2355.2369687500004,
+      2349.1024375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D17",
+    "shape": [
+      48,
+      6144,
+      12288
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 1554.9154166666665,
+    "block_cpu_us": [
+      776.7162500000001,
+      2366.9295624999995,
+      1521.1004375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D17",
+    "shape": [
+      48,
+      6144,
+      12288
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 2171.15421875,
+    "block_cpu_us": [
+      2372.7251562499996,
+      2128.16546875,
+      2012.5720312500002
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D18",
+    "shape": [
+      48,
+      6144,
+      24576
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 3104.1678020833333,
+    "block_cpu_us": [
+      3552.22778125,
+      2205.0101875,
+      3555.2654374999997
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D18",
+    "shape": [
+      48,
+      6144,
+      24576
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 3277.68946875,
+    "block_cpu_us": [
+      2863.9925000000003,
+      3691.3864375
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D18",
+    "shape": [
+      48,
+      6144,
+      24576
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 4638.9053125,
+    "block_cpu_us": [
+      4636.67478125,
+      4643.27021875,
+      4636.7709374999995
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D18",
+    "shape": [
+      48,
+      6144,
+      24576
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 4651.014666666666,
+    "block_cpu_us": [
+      4645.68259375,
+      4659.89940625,
+      4647.4619999999995
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D18",
+    "shape": [
+      48,
+      6144,
+      24576
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 4070.849385416667,
+    "block_cpu_us": [
+      2903.5039374999997,
+      4657.503375,
+      4651.540843750001
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D18",
+    "shape": [
+      48,
+      6144,
+      24576
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 4396.675416666667,
+    "block_cpu_us": [
+      4326.863531249999,
+      4206.5948125,
+      4656.56790625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D18",
+    "shape": [
+      48,
+      6144,
+      24576
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 4468.3333125,
+    "block_cpu_us": [
+      4651.2150624999995,
+      4408.21175,
+      4345.573125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D18",
+    "shape": [
+      48,
+      6144,
+      24576
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 4006.9497499999998,
+    "block_cpu_us": [
+      4641.3769375,
+      4654.01021875,
+      2725.4620937500003
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D18",
+    "shape": [
+      48,
+      6144,
+      24576
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 4375.764864583333,
+    "block_cpu_us": [
+      4582.7536875,
+      3896.9016250000004,
+      4647.63928125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D19",
+    "shape": [
+      192,
+      2048,
+      6144
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 217.4500104166667,
+    "block_cpu_us": [
+      201.4605,
+      249.75834375,
+      201.1311875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D19",
+    "shape": [
+      192,
+      2048,
+      6144
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 283.8493125,
+    "block_cpu_us": [
+      295.98625000000004,
+      271.71237499999995
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D19",
+    "shape": [
+      192,
+      2048,
+      6144
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 336.83321875,
+    "block_cpu_us": [
+      354.88025,
+      307.865625,
+      347.75378125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D19",
+    "shape": [
+      192,
+      2048,
+      6144
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 347.5757291666667,
+    "block_cpu_us": [
+      348.44859375,
+      355.31212500000004,
+      338.96646875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D19",
+    "shape": [
+      192,
+      2048,
+      6144
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 311.3630729166667,
+    "block_cpu_us": [
+      368.87171875,
+      305.90590625,
+      259.31159375000004
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D19",
+    "shape": [
+      192,
+      2048,
+      6144
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 322.91709375,
+    "block_cpu_us": [
+      328.68965625,
+      354.0638125,
+      285.9978125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D19",
+    "shape": [
+      192,
+      2048,
+      6144
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 346.07419791666666,
+    "block_cpu_us": [
+      319.97237500000006,
+      366.78,
+      351.47021874999996
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D19",
+    "shape": [
+      192,
+      2048,
+      6144
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 289.742,
+    "block_cpu_us": [
+      265.49146874999997,
+      240.83993750000002,
+      362.89459375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D19",
+    "shape": [
+      192,
+      2048,
+      6144
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 328.32208333333335,
+    "block_cpu_us": [
+      311.88796875,
+      337.83378125,
+      335.2445
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D20",
+    "shape": [
+      192,
+      2048,
+      12288
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 547.2073854166666,
+    "block_cpu_us": [
+      587.8380625,
+      414.91450000000003,
+      638.8695937499999
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D20",
+    "shape": [
+      192,
+      2048,
+      12288
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 646.144,
+    "block_cpu_us": [
+      643.6306875,
+      648.6573125
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D20",
+    "shape": [
+      192,
+      2048,
+      12288
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 820.9006979166667,
+    "block_cpu_us": [
+      841.78471875,
+      805.02225,
+      815.895125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D20",
+    "shape": [
+      192,
+      2048,
+      12288
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 861.4589166666666,
+    "block_cpu_us": [
+      856.52059375,
+      847.8176249999999,
+      880.03853125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D20",
+    "shape": [
+      192,
+      2048,
+      12288
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 800.36621875,
+    "block_cpu_us": [
+      843.15434375,
+      788.53515625,
+      769.40915625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D20",
+    "shape": [
+      192,
+      2048,
+      12288
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 802.6467916666667,
+    "block_cpu_us": [
+      757.9455,
+      863.0433125,
+      786.9515625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D20",
+    "shape": [
+      192,
+      2048,
+      12288
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 820.0695416666667,
+    "block_cpu_us": [
+      803.263375,
+      814.277625,
+      842.667625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D20",
+    "shape": [
+      192,
+      2048,
+      12288
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 615.9353645833334,
+    "block_cpu_us": [
+      422.7440624999999,
+      860.260125,
+      564.80190625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D20",
+    "shape": [
+      192,
+      2048,
+      12288
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 839.8371354166667,
+    "block_cpu_us": [
+      770.4084062500001,
+      843.9987187500001,
+      905.10428125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D21",
+    "shape": [
+      192,
+      2048,
+      24576
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 2099.9879895833333,
+    "block_cpu_us": [
+      1611.33065625,
+      2242.6681875000004,
+      2445.965125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D21",
+    "shape": [
+      192,
+      2048,
+      24576
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 1532.3425625,
+    "block_cpu_us": [
+      1505.447125,
+      1559.238
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D21",
+    "shape": [
+      192,
+      2048,
+      24576
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 2221.518125,
+    "block_cpu_us": [
+      2036.77053125,
+      2071.18978125,
+      2556.5940625000003
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D21",
+    "shape": [
+      192,
+      2048,
+      24576
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 2580.95528125,
+    "block_cpu_us": [
+      2514.8811562500005,
+      2470.6806874999997,
+      2757.304
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D21",
+    "shape": [
+      192,
+      2048,
+      24576
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 2568.1151041666667,
+    "block_cpu_us": [
+      2048.126125,
+      3068.88196875,
+      2587.33721875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D21",
+    "shape": [
+      192,
+      2048,
+      24576
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 2603.912895833333,
+    "block_cpu_us": [
+      2631.51559375,
+      2624.1600625,
+      2556.0630312499998
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D21",
+    "shape": [
+      192,
+      2048,
+      24576
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 3104.10475,
+    "block_cpu_us": [
+      2740.3617187500004,
+      3046.81803125,
+      3525.1345
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D21",
+    "shape": [
+      192,
+      2048,
+      24576
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 2632.413875,
+    "block_cpu_us": [
+      2854.4241875000002,
+      2359.6372812500003,
+      2683.18015625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D21",
+    "shape": [
+      192,
+      2048,
+      24576
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 2642.3502395833334,
+    "block_cpu_us": [
+      2528.6225937500003,
+      2533.6248750000004,
+      2864.80325
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D22",
+    "shape": [
+      192,
+      6144,
+      6144
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 634.7972083333333,
+    "block_cpu_us": [
+      520.91925,
+      704.98071875,
+      678.49165625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D22",
+    "shape": [
+      192,
+      6144,
+      6144
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 1077.76734375,
+    "block_cpu_us": [
+      1003.8743125000001,
+      1151.660375
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D22",
+    "shape": [
+      192,
+      6144,
+      6144
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 1118.7915520833333,
+    "block_cpu_us": [
+      886.2654375,
+      1429.2914375,
+      1040.81778125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D22",
+    "shape": [
+      192,
+      6144,
+      6144
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 1151.6232708333334,
+    "block_cpu_us": [
+      822.533375,
+      1434.1195937500001,
+      1198.21684375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D22",
+    "shape": [
+      192,
+      6144,
+      6144
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 951.8027604166667,
+    "block_cpu_us": [
+      1068.28190625,
+      904.5989374999999,
+      882.5274374999999
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D22",
+    "shape": [
+      192,
+      6144,
+      6144
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 1114.3864479166666,
+    "block_cpu_us": [
+      992.934,
+      1597.2821875,
+      752.94315625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D22",
+    "shape": [
+      192,
+      6144,
+      6144
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 1168.9744166666667,
+    "block_cpu_us": [
+      1515.8303437499999,
+      1120.6836250000001,
+      870.40928125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D22",
+    "shape": [
+      192,
+      6144,
+      6144
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 1207.8405104166666,
+    "block_cpu_us": [
+      599.843625,
+      1437.10796875,
+      1586.5699375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D22",
+    "shape": [
+      192,
+      6144,
+      6144
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 821.70896875,
+    "block_cpu_us": [
+      1034.27753125,
+      604.5041875,
+      826.3451875000001
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D23",
+    "shape": [
+      192,
+      6144,
+      12288
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 2637.5164375,
+    "block_cpu_us": [
+      2233.6198125,
+      2642.71184375,
+      3036.21765625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D23",
+    "shape": [
+      192,
+      6144,
+      12288
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 2611.6583437500003,
+    "block_cpu_us": [
+      2546.8067499999997,
+      2676.5099375000004
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D23",
+    "shape": [
+      192,
+      6144,
+      12288
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 4681.752666666667,
+    "block_cpu_us": [
+      4339.2033437499995,
+      4709.70690625,
+      4996.347750000001
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D23",
+    "shape": [
+      192,
+      6144,
+      12288
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 4424.857458333333,
+    "block_cpu_us": [
+      4047.92103125,
+      4265.72890625,
+      4960.922437499999
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D23",
+    "shape": [
+      192,
+      6144,
+      12288
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 4474.143479166667,
+    "block_cpu_us": [
+      4496.1889375,
+      4086.9444687500004,
+      4839.29703125
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D23",
+    "shape": [
+      192,
+      6144,
+      12288
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 4438.2279895833335,
+    "block_cpu_us": [
+      4596.040625,
+      4424.24725,
+      4294.396093750001
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D23",
+    "shape": [
+      192,
+      6144,
+      12288
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 4419.639322916667,
+    "block_cpu_us": [
+      4302.1650625,
+      4699.3248125,
+      4257.42809375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D23",
+    "shape": [
+      192,
+      6144,
+      12288
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 4585.126020833333,
+    "block_cpu_us": [
+      4948.20865625,
+      4463.31409375,
+      4343.855312500001
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D23",
+    "shape": [
+      192,
+      6144,
+      12288
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 4254.1867812499995,
+    "block_cpu_us": [
+      4099.53728125,
+      4262.9255625,
+      4400.0975
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D24",
+    "shape": [
+      192,
+      6144,
+      24576
+    ],
+    "action": "LIB",
+    "n_blocks": 3,
+    "mean_cpu_us": 7711.211302083334,
+    "block_cpu_us": [
+      7596.927531249999,
+      7463.757625,
+      8072.9487500000005
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D24",
+    "shape": [
+      192,
+      6144,
+      24576
+    ],
+    "action": "SINGLE",
+    "n_blocks": 2,
+    "mean_cpu_us": 5924.954250000001,
+    "block_cpu_us": [
+      5787.70234375,
+      6062.20615625
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D24",
+    "shape": [
+      192,
+      6144,
+      24576
+    ],
+    "action": "SPLIT",
+    "n_blocks": 3,
+    "mean_cpu_us": 10993.860281250001,
+    "block_cpu_us": [
+      11190.502781250001,
+      11011.1171875,
+      10779.960875
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D24",
+    "shape": [
+      192,
+      6144,
+      24576
+    ],
+    "action": "PC0_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 10484.977208333336,
+    "block_cpu_us": [
+      9965.53259375,
+      10972.659187500001,
+      10516.739843750001
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D24",
+    "shape": [
+      192,
+      6144,
+      24576
+    ],
+    "action": "PC0_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 11023.228427083333,
+    "block_cpu_us": [
+      11163.98690625,
+      10839.73225,
+      11065.966124999999
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D24",
+    "shape": [
+      192,
+      6144,
+      24576
+    ],
+    "action": "PC1_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 10875.44953125,
+    "block_cpu_us": [
+      10519.94040625,
+      10968.60134375,
+      11137.80684375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D24",
+    "shape": [
+      192,
+      6144,
+      24576
+    ],
+    "action": "PC1_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 10490.666010416668,
+    "block_cpu_us": [
+      10691.912937500001,
+      10132.137999999999,
+      10647.947093750001
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D24",
+    "shape": [
+      192,
+      6144,
+      24576
+    ],
+    "action": "PC2_0",
+    "n_blocks": 3,
+    "mean_cpu_us": 10719.773302083333,
+    "block_cpu_us": [
+      10383.796437500001,
+      10805.22503125,
+      10970.2984375
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  },
+  {
+    "case": "D24",
+    "shape": [
+      192,
+      6144,
+      24576
+    ],
+    "action": "PC2_1",
+    "n_blocks": 3,
+    "mean_cpu_us": 10751.599354166667,
+    "block_cpu_us": [
+      10834.75759375,
+      10773.262812500001,
+      10646.77765625
+    ],
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "scope": "Development calibration used for fitting; not confirmation"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "full": {
+    "path": "/home/ubuntu/下载/T10_NUMA_SCHEDULING_AND_VECTOR_KERNEL_20261018.zip",
+    "bytes": 29929275,
+    "sha256": "f4e9e7943e09647ffb2f0ea79bc285fcb672f72a86abbe0a7f89a2ab09d19701",
+    "manifest_entries": 2200,
+    "crc": "PASS",
+    "hashes": "PASS"
+  },
+  "small": {
+    "path": "/home/ubuntu/下载/T10_NUMA_SCHEDULING_AND_VECTOR_KERNEL_20261018_SMALL.zip",
+    "bytes": 579848,
+    "sha256": "f6f0cb04ee235289c9e1d16281282610632061709fb47eda11bb73f7f79eea85",
+    "manifest_entries": 100,
+    "crc": "PASS",
+    "hashes": "PASS"
+  },
+  "extracted_directory": "/tmp/t10-numa-scheduling-qa-b5wpmawt/T10_NUMA_SCHEDULING_AND_VECTOR_KERNEL_20261018",
+  "CPU_only_returncode": 0,
+  "CPU_only_seconds": 18.707724152016453,
+  "CPU_only_stdout_last": "ALL_STAGES_FROZEN_SELECTIONS_AND_RAW_RESULTS_RECOMPUTED_PASS",
+  "post_recompute_all_hashes": "PASS",
+  "temporary_extraction_removed_after_verified_QA": true,
+  "extraction_cleanup_utc": "2026-10-17T16:35:00.969059+00:00"
+}

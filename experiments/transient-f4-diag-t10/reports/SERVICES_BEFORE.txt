@@ -1,0 +1,24 @@
+COMMAND ['systemctl', 'status', 't10-quiet-fan.service', 't10-thermal-guard.service', '--no-pager']
+RETURN 4
+● t10-quiet-fan.service - Tesla T10 temperature based CHA_FAN quiet curve
+     Loaded: loaded (/etc/systemd/system/t10-quiet-fan.service; enabled; preset: enabled)
+     Active: active (running) since Thu 2026-10-15 21:11:34 CST; 1 day 17h ago
+   Main PID: 1762378 (python3)
+     Status: "GPU 62 C; CHA_FAN 2566 RPM; duty 139/255; protection False"
+      Tasks: 2 (limit: 34861)
+     Memory: 20.4M (peak: 21.2M)
+        CPU: 3min 6.773s
+     CGroup: /system.slice/t10-quiet-fan.service
+             └─1762378 /usr/bin/python3 -u /usr/local/sbin/t10_quiet_fan.py
+
+Oct 17 14:33:17 SDB-T10 python3[1762378]: {"gpu_temp_c": 62, "cha_fan_rpm": 2547, "pwm": 139, "power_protection": false}
+Oct 17 14:33:32 SDB-T10 python3[1762378]: {"gpu_temp_c": 62, "cha_fan_rpm": 2551, "pwm": 139, "power_protection": false}
+Oct 17 14:33:47 SDB-T10 python3[1762378]: {"gpu_temp_c": 62, "cha_fan_rpm": 2532, "pwm": 139, "power_protection": false}
+Oct 17 14:34:02 SDB-T10 python3[1762378]: {"gpu_temp_c": 62, "cha_fan_rpm": 2556, "pwm": 139, "power_protection": false}
+Oct 17 14:34:17 SDB-T10 python3[1762378]: {"gpu_temp_c": 62, "cha_fan_rpm": 2547, "pwm": 139, "power_protection": false}
+Oct 17 14:34:32 SDB-T10 python3[1762378]: {"gpu_temp_c": 62, "cha_fan_rpm": 2551, "pwm": 139, "power_protection": false}
+Oct 17 14:34:47 SDB-T10 python3[1762378]: {"gpu_temp_c": 62, "cha_fan_rpm": 2556, "pwm": 139, "power_protection": false}
+Oct 17 14:35:02 SDB-T10 python3[1762378]: {"gpu_temp_c": 62, "cha_fan_rpm": 2547, "pwm": 139, "power_protection": false}
+Oct 17 14:35:17 SDB-T10 python3[1762378]: {"gpu_temp_c": 62, "cha_fan_rpm": 2551, "pwm": 139, "power_protection": false}
+Oct 17 14:35:32 SDB-T10 python3[1762378]: {"gpu_temp_c": 62, "cha_fan_rpm": 2566, "pwm": 139, "power_protection": false}
+Unit t10-thermal-guard.service could not be found.

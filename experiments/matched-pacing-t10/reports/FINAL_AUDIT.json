@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T11:20:48.442128+00:00",
+  "formal_complete": true,
+  "completed_formal_blocks": 4,
+  "new_gpu_minutes": 5.288288763432259,
+  "prior_gpu_minutes": 323.95379307176626,
+  "cumulative_gpu_minutes": 329.2420818351985,
+  "new_cap_minutes": 5.75,
+  "cumulative_cap_minutes": 330,
+  "workers": [
+    {
+      "key": "M0_SMOKE",
+      "status": "COMPLETED",
+      "worker_s": 5.1588343139737844
+    },
+    {
+      "key": "M1_block_0",
+      "status": "COMPLETED",
+      "worker_s": 78.1655309459893
+    },
+    {
+      "key": "M1_block_1",
+      "status": "COMPLETED",
+      "worker_s": 77.87278099398827
+    },
+    {
+      "key": "M1_block_2",
+      "status": "COMPLETED",
+      "worker_s": 77.93000713799847
+    },
+    {
+      "key": "M1_block_3",
+      "status": "COMPLETED",
+      "worker_s": 78.17017241398571
+    }
+  ],
+  "numerical_records": 40,
+  "source_snapshot_hash_checks": 107,
+  "all_previous_files_unchanged": true,
+  "all_execution_sources_frozen": true,
+  "identical_previous_binaries": true,
+  "identical_input_fixture": true,
+  "fixed_idle_cpu_only_s": 720.489775806,
+  "wall_minutes": 21.470682176966026,
+  "clock_lock": "NOT_RUN_NO_ADMIN",
+  "hardware_cache_counters": "NOT_RUN_ADMIN_ONLY",
+  "system_settings_changed": false,
+  "scope": "Fixed idle preparation has no GPU context or reservation; counted separately in walltime. No fullcold/hotfactorial or adaptivepolicy validation."
+}

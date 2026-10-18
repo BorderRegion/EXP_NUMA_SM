@@ -1,0 +1,44 @@
+[
+  {
+    "scope": "batch",
+    "control": "BASE",
+    "estimated_requests": null,
+    "observed_gross_gain_pct": -0.004342715003786177,
+    "note": "Postprocessing of frozen full-horizon data; arithmetic-mean time extrapolation, not a validated lifetime or extra trial. All warmup/update cost rates assumed unchanged."
+  },
+  {
+    "scope": "batch",
+    "control": "STATIC",
+    "estimated_requests": 313093.0623566339,
+    "observed_gross_gain_pct": 0.8997658445644936,
+    "note": "Postprocessing of frozen full-horizon data; arithmetic-mean time extrapolation, not a validated lifetime or extra trial. All warmup/update cost rates assumed unchanged."
+  },
+  {
+    "scope": "batch",
+    "control": "SHADOW",
+    "estimated_requests": 338117.9960858875,
+    "observed_gross_gain_pct": 0.8362762306839194,
+    "note": "Postprocessing of frozen full-horizon data; arithmetic-mean time extrapolation, not a validated lifetime or extra trial. All warmup/update cost rates assumed unchanged."
+  },
+  {
+    "scope": "freshbatch",
+    "control": "BASE",
+    "estimated_requests": null,
+    "observed_gross_gain_pct": -0.008692346865420367,
+    "note": "Postprocessing of frozen full-horizon data; arithmetic-mean time extrapolation, not a validated lifetime or extra trial. All warmup/update cost rates assumed unchanged."
+  },
+  {
+    "scope": "freshbatch",
+    "control": "STATIC",
+    "estimated_requests": null,
+    "observed_gross_gain_pct": -0.07202294235001028,
+    "note": "Postprocessing of frozen full-horizon data; arithmetic-mean time extrapolation, not a validated lifetime or extra trial. All warmup/update cost rates assumed unchanged."
+  },
+  {
+    "scope": "freshbatch",
+    "control": "SHADOW",
+    "estimated_requests": 1134461.8547223536,
+    "observed_gross_gain_pct": 0.22835120271729473,
+    "note": "Postprocessing of frozen full-horizon data; arithmetic-mean time extrapolation, not a validated lifetime or extra trial. All warmup/update cost rates assumed unchanged."
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "platform": "t10",
+  "expected_label": "NVIDIA Tesla T10 16GB",
+  "expected_cc": [
+    7,
+    5
+  ],
+  "expected_sm": null,
+  "expected_l2_mib": null,
+  "reference_only": true,
+  "cluster_path": "not_expected_query_actual"
+}

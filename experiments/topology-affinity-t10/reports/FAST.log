@@ -1,0 +1,25 @@
+fs_qualification COMPLETED 3.799
+fs_memcheck COMPLETED 5.01
+fast_0 COMPLETED 94.242
+fast_1 COMPLETED 97.057
+fast_2 COMPLETED 98.241
+fast_3 COMPLETED 98.684
+fast_4 COMPLETED 98.37
+fast_5 COMPLETED 99.176
+fast OPERATOR [{'candidate': 'GPC_ADDR', 'scope': 'batch', 'gain_pct': 0.24378734471823113, 'ci95': [-0.01198332716249311, 0.4637677072231801], 'positive_processes': 5}, {'candidate': 'ALL_ADDR', 'scope': 'batch', 'gain_pct': 0.999284632221155, 'ci95': [0.7165260772009715, 1.2679909972127748], 'positive_processes': 6}, {'candidate': 'GPC_ADDR', 'scope': 'fresh', 'gain_pct': 0.18387203493010093, 'ci95': [0.06874223359372995, 0.3010249225950286], 'positive_processes': 5}, {'candidate': 'ALL_ADDR', 'scope': 'fresh', 'gain_pct': 0.6707907715302787, 'ci95': [0.3489937849414712, 0.9478716166131625], 'positive_processes': 5}, {'candidate': 'GPC_ADDR', 'scope': 'freshbatch', 'gain_pct': -0.2627974750222722, 'ci95': [-1.0761649838517702, 0.3478722913722618], 'positive_processes': 4}, {'candidate': 'ALL_ADDR', 'scope': 'freshbatch', 'gain_pct': -0.30955309421531124, 'ci95': [-1.1748991979926933, 0.5332768916315095], 'positive_processes': 4}, {'candidate': 'GPC_ADDR', 'scope': 'ready', 'gain_pct': 0.3549234934936462, 'ci95': [-0.028455985360499845, 0.7779984130065358], 'positive_processes': 4}, {'candidate': 'ALL_ADDR', 'scope': 'ready', 'gain_pct': 0.9600756098064834, 'ci95': [0.5849932790708786, 1.3394711656390823], 'positive_processes': 6}]
+Traceback (most recent call last):
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/topology-affinity-t10/src/analyze.py", line 114, in <module>
+    phase=sys.argv[1];operator(phase,'--select' in sys.argv);micro(phase)
+                                                             ^^^^^^^^^^^^
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/topology-affinity-t10/src/analyze.py", line 72, in micro
+    train=z['train_'+unit];validation=z['validation_'+unit]
+                                      ~^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projects/leetgpu-lab/.venv/lib/python3.12/site-packages/numpy/lib/_npyio_impl.py", line 243, in __getitem__
+    raise KeyError(f"{key} is not a file in the archive") from None
+KeyError: 'validation_cycles is not a file in the archive'
+Traceback (most recent call last):
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/topology-affinity-t10/src/run_fast.py", line 11, in <module>
+    subprocess.run([PYTHON,ROOT/'src/analyze.py','fast'],check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/ubuntu/projects/leetgpu-lab/.venv/bin/python3', PosixPath('/home/ubuntu/文档/ChatGPT/numa_gpu/topology-affinity-t10/src/analyze.py'), 'fast']' returned non-zero exit status 1.

@@ -1,0 +1,12 @@
+{
+  "status": "PLANNING_ONLY",
+  "total_plans": 216,
+  "counts": {
+    "grouped": 96,
+    "dense_control": 24,
+    "heterogeneous_k": 12,
+    "attention_decode": 48,
+    "prefill_control": 12,
+    "moe_layer": 24
+  }
+}

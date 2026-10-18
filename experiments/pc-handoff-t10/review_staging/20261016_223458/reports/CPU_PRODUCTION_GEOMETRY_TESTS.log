@@ -1,0 +1,8 @@
+test_compact_reducer_complete_nonduplicated (test_production_layout.Geometry.test_compact_reducer_complete_nonduplicated) ... ok
+test_owner_packing_bijection (test_production_layout.Geometry.test_owner_packing_bijection) ... ok
+test_planned_shapes_balance_valid_work (test_production_layout.Geometry.test_planned_shapes_balance_valid_work) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.439s
+
+OK

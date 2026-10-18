@@ -1,0 +1,14 @@
+请阅读本包 REVIEW_T10_OP_FUSED.md 和 CODEX_T10_IMPLEMENTATION_RECOVERY.md。
+本轮原生基线作为有限成果验收；FULL尚未实现，保留IMPLEMENTATION_OR_RESOURCE_LIMITED，不换题或给新方法判NO-GO。
+
+下一优先级是完整、可修改、合格的SM75 Tensor Core grouped数学主体。
+本地资源不足就一次列清所需完整源码/依赖/构建与验收方式，完成CPU接口后结束；不再扩展孤立LIB矩阵，也不反复请求联网。
+资源齐备后直接接续CORE→同体BAL/CACHE→唯一FULL→合法fusion→完整层与原正式分支，不逐小步等待。
+
+新调度放在成熟visitor，sideband放到已有合法producer；不新增外置小planner kernel、调度D2H、每expert CPU发射或Green上下文切换。
+Graph不等于fusion，库内必要merge保留；主目标是完整时间，而不是节点越少越好。
+
+先用实际body报告q=1/q>1适用域，保留旧work_budget作为参考，任何规则修订在候选计时前登记，不能看测试赢家改参数。
+保留温控保护，只记录既有100/125W状态，不改功耗/风扇或删除慢块。
+继续原16小时总账，余量约12.72小时，CPU开发另记；本机离线、不SSH、不自动下载或租卡。
+最终一次交付已实现方法的真实源码变化、同融合强基线、完整层和资源/方法结论，不用更多原生PASS替代实现。

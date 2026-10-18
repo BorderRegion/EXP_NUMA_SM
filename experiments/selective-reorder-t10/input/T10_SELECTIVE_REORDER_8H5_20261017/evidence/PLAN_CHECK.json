@@ -1,0 +1,7 @@
+{
+  "status": "CPU_PLAN_CHECK_PASS",
+  "shape_count": 52,
+  "wall_minutes": 510,
+  "formal_action_phases_max": 1584,
+  "does_not_establish": "GPU correctness, device capability or performance"
+}

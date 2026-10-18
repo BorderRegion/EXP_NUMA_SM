@@ -1,0 +1,22 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'sparse_digest' for 'sm_75'
+ptxas info    : Function properties for sparse_digest
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 2048 bytes smem, 372 bytes cmem[0]
+ptxas info    : Compiling entry function 'vector_input' for 'sm_75'
+ptxas info    : Function properties for vector_input
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function 'spmv_rows' for 'sm_75'
+ptxas info    : Function properties for spmv_rows
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 54 registers, 424 bytes cmem[0]
+
+In file included from /home/ubuntu/projects/leetgpu-lab/.venv/lib/python3.12/site-packages/nvidia/cusparse/include/cusparse.h:59,
+                 from /home/ubuntu/文档/ChatGPT/numa_gpu/src/sparse_runner.cpp:2:
+/home/ubuntu/projects/leetgpu-lab/.venv/lib/python3.12/site-packages/nvidia/cuda_runtime/include/cuda_fp16.h:4492:10: fatal error: nv/target: No such file or directory
+ 4492 | #include <nv/target>
+      |          ^~~~~~~~~~~
+compilation terminated.
+
+build failed /home/ubuntu/文档/ChatGPT/numa_gpu/build/sparse_20261014T140416Z

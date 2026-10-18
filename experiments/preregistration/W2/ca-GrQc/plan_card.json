@@ -1,0 +1,28 @@
+{
+  "scope": "DEVICE_PLAN_FIXED_CSR",
+  "rates": [
+    [
+      418922.69677512447,
+      753955.6962025317,
+      1686703.564001358
+    ],
+    [
+      470113.9541387025,
+      924316.40625,
+      1951086.9565217393
+    ]
+  ],
+  "single_rate": [
+    696656.0801941329,
+    806113.7237855705
+  ],
+  "source": "runs/t10/W2_calibration/t10_20261014T140716Z_ef4a9fc4",
+  "plan_overlap_M_R": 0.513348588863463,
+  "plan_hashes": {
+    "R": "ccfa56ba78e97daea516c4e1384785551369fcf9aa9a787f351ceca7657cd051",
+    "M": "84e22f318b524614e4dcaff2136967fa90a9da9516698f647199039be1fe2d39",
+    "I": "2d8d8c1f1ce78383a473d5ad06b299f0bfa866601712ed1a18f81b5b40e04fd9",
+    "L": "7f4fe435ad3fb36d882ef189456720bbd646303a41a058fd583d2517cfe9716f",
+    "P": "e6a543f0ffbae9c344f35d38e1fdb58fe95e1220c1d496ddf98e688e8a968c54"
+  }
+}

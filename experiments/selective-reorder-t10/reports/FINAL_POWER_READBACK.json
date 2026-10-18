@@ -1,0 +1,34 @@
+{
+  "at": "2026-10-16T18:36:37.650975+00:00",
+  "status": "PASS_UNCHANGED_100W_PROTECTION_ACTIVE",
+  "files": [
+    {
+      "path": "/usr/local/sbin/t10_quiet_fan.py",
+      "before": "62b61184c6e085ea1092ecbe38cc44adb1eabd3ea62139f9f282611de5dfe401",
+      "after": "62b61184c6e085ea1092ecbe38cc44adb1eabd3ea62139f9f282611de5dfe401",
+      "unchanged": true
+    },
+    {
+      "path": "/etc/systemd/system/t10-quiet-fan.service",
+      "before": "8a2c60e3c3ac6459bd8f7b5a8cbd1670f2bdbc1ccd2e56e0c88561e81b83eb13",
+      "after": "8a2c60e3c3ac6459bd8f7b5a8cbd1670f2bdbc1ccd2e56e0c88561e81b83eb13",
+      "unchanged": true
+    },
+    {
+      "path": "/etc/systemd/system/t10-quiet-power.service",
+      "before": "ee571ae87c68ce8e6b8f0ab04e0ce6bed12469d4e75b525d181ffc77a9cfc489",
+      "after": "ee571ae87c68ce8e6b8f0ab04e0ce6bed12469d4e75b525d181ffc77a9cfc489",
+      "unchanged": true
+    },
+    {
+      "path": "/etc/systemd/system/t10-quiet-power.service.d/90-op-fused-fixed100.conf",
+      "before": "f5d5270a2e03f8b8d4bba042e44afaf6e26e7d78e7a1b67d5fb5c862c51bdbf5",
+      "after": "f5d5270a2e03f8b8d4bba042e44afaf6e26e7d78e7a1b67d5fb5c862c51bdbf5",
+      "unchanged": true
+    }
+  ],
+  "services": "active\nactive\n",
+  "device": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5, 100.00, 100.00, 63, 1065, 6300\n",
+  "compute_apps": "pid, process_name, used_gpu_memory [MiB]\n1697361, /usr/libexec/gnome-remote-desktop-daemon, 205 MiB\n",
+  "controls_changed": false
+}

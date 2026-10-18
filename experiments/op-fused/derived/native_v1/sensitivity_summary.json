@@ -1,0 +1,36 @@
+{
+  "comparisons": 600,
+  "anchor_direction_flips": 65,
+  "flips_by_cohort": {
+    "layer_request": 6,
+    "native": 51,
+    "strong": 8
+  },
+  "timing_windows": {
+    "native": {
+      "phases": 4248,
+      "under_50ms": 1217,
+      "within_50_200ms": 1609,
+      "over_200ms": 1422,
+      "min_ms": 1.5832959413528442,
+      "max_ms": 40565.67578125
+    },
+    "layer_request": {
+      "phases": 140,
+      "under_50ms": 0,
+      "within_50_200ms": 24,
+      "over_200ms": 116,
+      "min_ms": 163.38662385940552,
+      "max_ms": 18595.193351745605
+    },
+    "strong": {
+      "phases": 1248,
+      "under_50ms": 188,
+      "within_50_200ms": 495,
+      "over_200ms": 565,
+      "min_ms": 16.446624755859375,
+      "max_ms": 18939.475212097168
+    }
+  },
+  "note": "Direction flips near1 are sensitivity flags, not evidence of an algorithm effect. Original primary estimates remain primary. All request durations here sum measured device spans; they are not one uninterrupted batch."
+}

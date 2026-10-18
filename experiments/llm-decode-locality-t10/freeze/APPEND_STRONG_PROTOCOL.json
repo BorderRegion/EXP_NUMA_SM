@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-10-17T15:01:06.536746+00:00",
+  "motivation": "Stronger control: immutable original attention binary + separate append vs modified fused append. Retain modified separated comparator to reveal kernel body overhead. All geometry choices unchanged.",
+  "confirmation_processes": 4,
+  "offsets": [
+    0,
+    69632
+  ],
+  "blocks": 30,
+  "replays": 8,
+  "policies": [
+    "LEGACY_SEPARATE",
+    "MODIFIED_SEPARATE",
+    "FUSED_APPEND",
+    "LEGACY_ATTENTION_ONLY",
+    "MODIFIED_ATTENTION_ONLY"
+  ],
+  "anchors": "LEGACY_SEPARATE before and after each random block",
+  "scope": "Full KV update at lengths[b]-1 plus decode output; Q/new KV already on device. Fixed valid length per timing condition, four Q/new-KV input slots. Dynamic length growth checked separately, not whole-model token throughput. ATTENTION_ONLY omits append and is a lower-bound diagnostic, not a fair complete-workload competitor.",
+  "seeds": "7700000+process*10000+case_index*101; disjoint from every previous stage",
+  "gpu_worker_budget": "shared existing 1800 seconds, no new budget",
+  "no_filtering": true
+}

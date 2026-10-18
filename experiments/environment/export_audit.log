@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "formal_blocks": 48,
+  "formal_build_cohorts": {
+    "E4_W1": [
+      "renderer_20261014T140212Z"
+    ],
+    "E4_W2": [
+      "sparse_20261014T140520Z"
+    ]
+  },
+  "unique_run_ids": true,
+  "successful_correctness_records_pass": true,
+  "retained_full_samples_identical": true,
+  "full_sample_triplets_verified": 24,
+  "all_E3_loaded_maps_match_frozen_plans": true,
+  "actual_timed_source_and_binary_hashes_match": true,
+  "steady_contract_zero": true,
+  "health_ranges": {
+    "temperature_c": [
+      38.0,
+      79.0
+    ],
+    "sm_mhz": [
+      300.0,
+      1590.0
+    ],
+    "power_w": [
+      12.27,
+      89.11
+    ],
+    "memory_mib": [
+      2.0,
+      2.0
+    ]
+  },
+  "design_limits": [
+    "E3 policies are fresh processes paired by randomized batch, not shared allocation blocks.",
+    "E4 limited confirmation has only an initial N anchor, no timed trailing N drift anchor; R/M order randomized.",
+    "Six process blocks per condition on one device remain exploratory.",
+    "Common diagnostic digest and selected full readback are outside primary timer; no E5 instrumentation ablation.",
+    "No clock locking or power/thermal intervention. Capacity is effective service rate, not isolated physical-unit speed.",
+    "Initial CPU planner construction and isolated context setup wall times were not instrumented.",
+    "No physical GPC labels; no claim of fine physical placement in application runs."
+  ]
+}

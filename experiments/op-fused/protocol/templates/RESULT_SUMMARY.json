@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "platform": null,
+  "protocol_id": "OPERATOR_FUSED_SCHEDULING_DUAL_20261015",
+  "method_commit": null,
+  "method_logic_hash": null,
+  "backend_versions": {},
+  "dtype_contract": null,
+  "actual_coverage": {},
+  "claims": [],
+  "paired_effects": [],
+  "outcome": null,
+  "budget": {
+    "worker_s": null,
+    "gpu_busy_s": null,
+    "cpu_only_s": null,
+    "paid_cost": null
+  },
+  "limitations": [],
+  "artifact_status": "EMPTY_TEMPLATE_NOT_A_RESULT"
+}

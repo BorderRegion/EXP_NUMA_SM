@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-17T12:34:38.166356+00:00",
+  "files": {
+    "src/run_v2.py": "49f100849e276d448a30217fd0841adc52f68cfdcae6c9c12630e8e9aaf9f300",
+    "src/build_v2.py": "22dde8b84308bbc74b3798318e899eabed1f5cd540a67200c258b4ae1a4ca72e",
+    "src/common.py": "b347b30c3645091f5b0c1b42d47bd34b8e7a93a8111475bd67a74b4bf1922ad2",
+    "src/run_confirmation.py": "fdf9ed1267e93f9e45b2ed953aad60d7efa40c51e450cd32ae0a01ab437c94b9",
+    "src/freeze_v2.py": "9d793588b8d5623705117620c0c87bfcc2a8992bd11a37466baed574797fcc8f",
+    "src/figures.py": "0742e43e1e984cebd05fc6823870693d582bf6ce5e6fb2fc1641cb295d7887b5",
+    "src/analysis_lib.py": "9d9f8bbd471d6a22e8b121be2ec1cc98aba114aba1283834bb53b012dfb698ef",
+    "src/types.hpp": "6eb117f2eb045aab68b67988b06e9a1a394b4ceb728dced06b4c925dfe91b355",
+    "src/runner.cpp": "0893eddc78bda995a48a71a03abb7a9fc1364c64ebc31ff16f79b8219f9a5de9",
+    "src/worker.py": "c9651ebed82b453f798d47af85e6e92b7deeea75bf61db085b7af179b51643f1",
+    "src/build.py": "f9847315c4c29031f05f6e491bc805b01a4c1cb97a438a4041f79ddfd0838782",
+    "src/kernels.cu": "5044c26bc7978f38f28c386be7e5a40dc635179c7202f3b8ea20049576fdd155",
+    "src/run_v3.py": "6f61239b27871061e2eba1b8453db7ca083e98868c4b7e4d3cb6b543ff347f41",
+    "src/freeze_mapping.py": "758a6e9c81c1210111d838362f1b6a058780ea07d6927d7cfd3eff213910af9a",
+    "src/nvml_state.py": "4bd85f03f65821332180cb785751a5c5e005f3a7b3c9cf5014f088bead2ad1b7",
+    "src/analyze.py": "97c796fadc6532a51993c85c70a09fdbcb8ab04d718d77f60e641fff083a38c0",
+    "src/make_plans.py": "4c5632ad367baba3b46c5076deb28c0b21ce76918c3a227762f53e0a0de5a172",
+    "src/v3_lib.py": "29b7f74a2fa8c84e9f0cdfdef27d194b17a8139055cb15b0110594c446260255",
+    "build_v3/kernels_v3.cu": "bdeb4380380eae7fe0c2676cebb7ce45cd15d26a9833edb86a331cc2c4090361",
+    "build_v3/compile.log": "b82599921d8586372d6186ababbf3e9a83254e2d7bf0afad742c4f1bf359def2",
+    "build_v3/types.hpp": "6eb117f2eb045aab68b67988b06e9a1a394b4ceb728dced06b4c925dfe91b355",
+    "build_v3/probe.sass.txt": "ce582d04073af3dc889147a349cf127ca11c79390153bbaecb405e3ceca3549f",
+    "build_v3/probe.cubin": "eb740c0ed098fafb0b97ab82cbd03bacd7c20cc72e930489f562c98b71f36004",
+    "build_v3/build.json": "1d5be8b3baa7a1135d5511f3f98ba1608dcd089d087ee42992c9dd5be7eb1031",
+    "build_v3/runner": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313"
+  }
+}

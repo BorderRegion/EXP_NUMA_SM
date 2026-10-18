@@ -1,0 +1,162 @@
+[
+  {
+    "scope": "batch",
+    "choice": 11,
+    "log_time": 5.369781634877748
+  },
+  {
+    "scope": "batch",
+    "choice": 12,
+    "log_time": 5.355981978624354
+  },
+  {
+    "scope": "batch",
+    "choice": 13,
+    "log_time": 5.3737455482928205
+  },
+  {
+    "scope": "batch",
+    "choice": 21,
+    "log_time": 5.367649577665982
+  },
+  {
+    "scope": "batch",
+    "choice": 44,
+    "log_time": 5.366162429588584
+  },
+  {
+    "scope": "batch",
+    "choice": 45,
+    "log_time": 5.361510926356665
+  },
+  {
+    "scope": "batch",
+    "choice": 46,
+    "log_time": 5.369596935379002
+  },
+  {
+    "scope": "batch",
+    "choice": 54,
+    "log_time": 5.3630419429338705
+  },
+  {
+    "scope": "batch",
+    "choice": 77,
+    "log_time": 5.36486551283822
+  },
+  {
+    "scope": "batch",
+    "choice": 78,
+    "log_time": 5.3651886081222715
+  },
+  {
+    "scope": "batch",
+    "choice": 79,
+    "log_time": 5.35861149405853
+  },
+  {
+    "scope": "batch",
+    "choice": 87,
+    "log_time": 5.367026517928705
+  },
+  {
+    "scope": "batch",
+    "choice": 110,
+    "log_time": 5.372895924093218
+  },
+  {
+    "scope": "batch",
+    "choice": 111,
+    "log_time": 5.371563362319599
+  },
+  {
+    "scope": "batch",
+    "choice": 112,
+    "log_time": 5.3748918847316425
+  },
+  {
+    "scope": "batch",
+    "choice": 120,
+    "log_time": 5.368348032115203
+  },
+  {
+    "scope": "freshbatch",
+    "choice": 11,
+    "log_time": 5.760341349337984
+  },
+  {
+    "scope": "freshbatch",
+    "choice": 12,
+    "log_time": 5.758772307289862
+  },
+  {
+    "scope": "freshbatch",
+    "choice": 13,
+    "log_time": 5.764739785524311
+  },
+  {
+    "scope": "freshbatch",
+    "choice": 21,
+    "log_time": 5.758981638703246
+  },
+  {
+    "scope": "freshbatch",
+    "choice": 44,
+    "log_time": 5.757416886229268
+  },
+  {
+    "scope": "freshbatch",
+    "choice": 45,
+    "log_time": 5.754945872459899
+  },
+  {
+    "scope": "freshbatch",
+    "choice": 46,
+    "log_time": 5.783963139653058
+  },
+  {
+    "scope": "freshbatch",
+    "choice": 54,
+    "log_time": 5.755872597665405
+  },
+  {
+    "scope": "freshbatch",
+    "choice": 77,
+    "log_time": 5.755450638956961
+  },
+  {
+    "scope": "freshbatch",
+    "choice": 78,
+    "log_time": 5.757965770533948
+  },
+  {
+    "scope": "freshbatch",
+    "choice": 79,
+    "log_time": 5.763305952712928
+  },
+  {
+    "scope": "freshbatch",
+    "choice": 87,
+    "log_time": 5.7748274670843855
+  },
+  {
+    "scope": "freshbatch",
+    "choice": 110,
+    "log_time": 5.761386045883648
+  },
+  {
+    "scope": "freshbatch",
+    "choice": 111,
+    "log_time": 5.759445547077094
+  },
+  {
+    "scope": "freshbatch",
+    "choice": 112,
+    "log_time": 5.766000087355915
+  },
+  {
+    "scope": "freshbatch",
+    "choice": 120,
+    "log_time": 5.758392161467537
+  }
+]

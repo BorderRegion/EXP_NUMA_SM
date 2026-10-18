@@ -1,0 +1,46 @@
+{
+  "device": {
+    "command": [
+      "nvidia-smi",
+      "-q",
+      "-d",
+      "CLOCK,POWER,PERFORMANCE"
+    ],
+    "returncode": 0,
+    "stdout": "\n==============NVSMI LOG==============\n\nTimestamp                                              : Sat Oct 17 17:50:38 2026\nDriver Version                                         : 580.178.04\nCUDA Version                                           : 13.0\n\nAttached GPUs                                          : 1\nGPU 00000000:01:00.0\n    Performance State                                  : P0\n    Clocks Event Reasons\n        Idle                                           : Not Active\n        Applications Clocks Setting                    : Not Active\n        SW Power Cap                                   : Not Active\n        HW Slowdown                                    : Not Active\n            HW Thermal Slowdown                        : Not Active\n            HW Power Brake Slowdown                    : Not Active\n        Sync Boost                                     : Not Active\n        SW Thermal Slowdown                            : Not Active\n        Display Clock Setting                          : Not Active\n    Clocks Event Reasons Counters\n        SW Power Capping                               : 138076328582 us\n        Sync Boost                                     : 0 us\n        SW Thermal Slowdown                            : 0 us\n        HW Thermal Slowdown                            : 0 us\n        HW Power Braking                               : 0 us\n    Sparse Operation Mode                              : N/A\n    GPU Power Readings\n        Average Power Draw                             : N/A\n        Instantaneous Power Draw                       : 55.39 W\n        Current Power Limit                            : 100.00 W\n        Requested Power Limit                          : 100.00 W\n        Default Power Limit                            : 150.00 W\n        Min Power Limit                                : 100.00 W\n        Max Power Limit                                : 150.00 W\n    Power Samples\n        Duration                                       : 2.37 sec\n        Number of Samples                              : 119\n        Max                                            : 58.08 W\n        Min                                            : 54.95 W\n        Avg                                            : 55.54 W\n    GPU Memory Power Readings \n        Average Power Draw                             : N/A\n        Instantaneous Power Draw                       : N/A\n    Module Power Readings\n        Average Power Draw                             : N/A\n        Instantaneous Power Draw                       : N/A\n        Current Power Limit                            : N/A\n        Requested Power Limit                          : N/A\n        Default Power Limit                            : N/A\n        Min Power Limit                                : N/A\n        Max Power Limit                                : N/A\n    Clocks\n        Graphics                                       : 1065 MHz\n        SM                                             : 1065 MHz\n        Memory                                         : 6300 MHz\n        Video                                          : 990 MHz\n    Applications Clocks\n        Graphics                                       : 1065 MHz\n        Memory                                         : 6301 MHz\n    Default Applications Clocks\n        Graphics                                       : 1065 MHz\n        Memory                                         : 6301 MHz\n    Deferred Clocks\n        Memory                                         : N/A\n    Max Clocks\n        Graphics                                       : 1590 MHz\n        SM                                             : 1590 MHz\n        Memory                                         : 6301 MHz\n        Video                                          : 1470 MHz\n    Max Customer Boost Clocks\n        Graphics                                       : 1590 MHz\n    SM Clock Samples\n        Duration                                       : Not Found\n        Number of Samples                              : Not Found\n        Max                                            : Not Found\n        Min                                            : Not Found\n        Avg                                            : Not Found\n    Memory Clock Samples\n        Duration                                       : Not Found\n        Number of Samples                              : Not Found\n        Max                                            : Not Found\n        Min                                            : Not Found\n        Avg                                            : Not Found\n    Clock Policy\n        Auto Boost                                     : N/A\n        Auto Boost Default                             : N/A\n\n",
+    "stderr": ""
+  },
+  "fan": {
+    "command": [
+      "systemctl",
+      "status",
+      "t10-quiet-fan.service",
+      "--no-pager"
+    ],
+    "returncode": 0,
+    "stdout": "● t10-quiet-fan.service - Tesla T10 temperature based CHA_FAN quiet curve\n     Loaded: loaded (/etc/systemd/system/t10-quiet-fan.service; enabled; preset: enabled)\n     Active: active (running) since Thu 2026-10-15 21:11:34 CST; 1 day 20h ago\n   Main PID: 1762378 (python3)\n     Status: \"GPU 69 C; CHA_FAN 2854 RPM; duty 159/255; protection False\"\n      Tasks: 2 (limit: 34861)\n     Memory: 20.7M (peak: 21.2M)\n        CPU: 3min 21.114s\n     CGroup: /system.slice/t10-quiet-fan.service\n             └─1762378 /usr/bin/python3 -u /usr/local/sbin/t10_quiet_fan.py\n\nOct 17 17:48:10 SDB-T10 python3[1762378]: {\"gpu_temp_c\": 70, \"cha_fan_rpm\": 2872, \"pwm\": 163, \"power_protection\": false}\nOct 17 17:48:25 SDB-T10 python3[1762378]: {\"gpu_temp_c\": 71, \"cha_fan_rpm\": 2960, \"pwm\": 166, \"power_protection\": false}\nOct 17 17:48:40 SDB-T10 python3[1762378]: {\"gpu_temp_c\": 72, \"cha_fan_rpm\": 2973, \"pwm\": 170, \"power_protection\": false}\nOct 17 17:48:55 SDB-T10 python3[1762378]: {\"gpu_temp_c\": 72, \"cha_fan_rpm\": 3013, \"pwm\": 170, \"power_protection\": false}\nOct 17 17:49:10 SDB-T10 python3[1762378]: {\"gpu_temp_c\": 73, \"cha_fan_rpm\": 3117, \"pwm\": 177, \"power_protection\": false}\nOct 17 17:49:25 SDB-T10 python3[1762378]: {\"gpu_temp_c\": 73, \"cha_fan_rpm\": 3183, \"pwm\": 178, \"power_protection\": false}\nOct 17 17:49:40 SDB-T10 python3[1762378]: {\"gpu_temp_c\": 72, \"cha_fan_rpm\": 3054, \"pwm\": 170, \"power_protection\": false}\nOct 17 17:49:55 SDB-T10 python3[1762378]: {\"gpu_temp_c\": 71, \"cha_fan_rpm\": 2980, \"pwm\": 166, \"power_protection\": false}\nOct 17 17:50:10 SDB-T10 python3[1762378]: {\"gpu_temp_c\": 70, \"cha_fan_rpm\": 2941, \"pwm\": 163, \"power_protection\": false}\nOct 17 17:50:25 SDB-T10 python3[1762378]: {\"gpu_temp_c\": 69, \"cha_fan_rpm\": 2922, \"pwm\": 159, \"power_protection\": false}\n",
+    "stderr": ""
+  },
+  "kernel": {
+    "command": [
+      "journalctl",
+      "-k",
+      "--since",
+      "2026-10-17 17:23:52",
+      "--no-pager"
+    ],
+    "returncode": 0,
+    "stdout": "-- No entries --\n",
+    "stderr": ""
+  },
+  "apps": {
+    "command": [
+      "nvidia-smi",
+      "--query-compute-apps=pid,process_name,used_memory",
+      "--format=csv"
+    ],
+    "returncode": 0,
+    "stdout": "pid, process_name, used_gpu_memory [MiB]\n1697361, /usr/libexec/gnome-remote-desktop-daemon, 205 MiB\n",
+    "stderr": ""
+  }
+}

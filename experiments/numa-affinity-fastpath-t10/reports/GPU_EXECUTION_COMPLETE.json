@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE",
+  "created_utc": "2026-10-18T04:08:34.351371+00:00",
+  "run": "20261018T025123Z",
+  "workers": 67,
+  "worker_seconds": 3045.1427814055933,
+  "numerical_checks": 58297,
+  "gpu_experiments_running": false,
+  "original_fast_attention_baseline_preserved": true,
+  "default_affinity_enabled": false,
+  "conclusion": "Conditional warm-input SM pairing gain; fresh-input and batch robustness failed; physical NUMA topology and deployable net acceleration not established."
+}

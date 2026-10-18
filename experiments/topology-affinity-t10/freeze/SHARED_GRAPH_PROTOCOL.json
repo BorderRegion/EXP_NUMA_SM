@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-10-18T08:08:11.903054+00:00",
+  "reason": "Development A/A using separate graph objects showed percent-level differences; remove graph/stream/event object differences by retargeting a single executable. Confirmation performance has not been inspected when planning this supplement.",
+  "role": "Preplanned before this supplementary stage; original primary confirmation preserved separately. No successful old result is replaced.",
+  "processes": 6,
+  "seed": 930000000,
+  "blocks": 16,
+  "replays": 8,
+  "V": 131072,
+  "page": 17,
+  "scopes": [
+    "ready",
+    "fresh",
+    "batch",
+    "freshbatch"
+  ],
+  "policies": "same18 as primary, random-best controls frozen from original development",
+  "binary": "unchanged original fast kernel; only CPU graph-management helper is new",
+  "method": "same graph executable/stream/event handles per input slot; change224-byte Schedule via official CUDA graph parameter update; verify parameter bytes; apply update also to A/A controls",
+  "overhead": "measure every CPU update separately; hot replay excludes one-time installation, one-shot update+first-host time also reported; calibration/setup amortization mandatory",
+  "calibration": "same frozen allocation-specific algorithm; no operator-feedback fitting",
+  "statistics": "same32 primary comparisons for this supplement;95% descriptive and99.84375% family intervals",
+  "budget": "shares original3600 worker-second limit"
+}

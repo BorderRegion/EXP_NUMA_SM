@@ -1,0 +1,32 @@
+NEXT supplement_address.py ['dev']
+S2 t10_20261015T050837Z_d43d4d7a SUCCESS 
+S2 t10_20261015T050922Z_4f27b83c SUCCESS 
+S2 t10_20261015T051053Z_5cce204e SUCCESS 
+NEXT analyze_address_probe.py ['dev']
+{
+  "frozen_at": "2026-10-15T05:11:40.935940+00:00",
+  "window_bytes": 65536,
+  "valid_group_matrix": true,
+  "quality": {
+    "4096": {
+      "valid": true,
+      "mean_spearman": 0.8838892961876832,
+      "minimum_sm_coverage": 56
+    },
+    "65536": {
+      "valid": true,
+      "mean_spearman": 0.9828071420813357,
+      "minimum_sm_coverage": 56
+    }
+  },
+  "rule": "dev-only registered coverage and split-round correlation rule; no physical domain identification"
+}
+NEXT supplement_address.py ['confirm']
+S2 t10_20261015T051140Z_f01a65d0 SUCCESS 
+Traceback (most recent call last):
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/tools/continue_supplement.py", line 11, in <module>
+    print('NEXT',script,args,flush=True);subprocess.run([sys.executable,str(ROOT/'tools'/script),*args],check=True)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/ubuntu/projects/leetgpu-lab/.venv/bin/python3', '/home/ubuntu/文档/ChatGPT/numa_gpu/tools/supplement_address.py', 'confirm']' died with <Signals.SIGTERM: 15>.

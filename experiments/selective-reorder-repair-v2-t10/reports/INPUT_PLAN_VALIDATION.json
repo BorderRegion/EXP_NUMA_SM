@@ -1,0 +1,13 @@
+{
+  "status": "CPU_PLAN_VALIDATED_NOT_GPU_RUN",
+  "shapes": 52,
+  "quartets": {
+    "CALIBRATION": 1152,
+    "EVALUATION": 2304,
+    "PC_DIRECT": 144
+  },
+  "main_windows": 14400,
+  "wall_minutes": 510,
+  "gpu_minutes": 240,
+  "all_new_cases_in_every_trace": true
+}

@@ -1,0 +1,5 @@
+{
+  "issue": "Initial CPU audit looked for the expected sanitizer tool-path failure only in stderr; tool emitted it in stdout.",
+  "repair": "Audit both captured streams; no GPU rerun or data changes.",
+  "preserved_log": "reports/RECOMPUTE_initial_stream_check.log"
+}

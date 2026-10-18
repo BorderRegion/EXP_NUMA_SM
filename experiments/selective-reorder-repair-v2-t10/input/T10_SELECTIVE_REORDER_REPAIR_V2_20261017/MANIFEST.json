@@ -1,0 +1,140 @@
+{
+  "version": "20261017-repair-v2",
+  "files": [
+    {
+      "path": "CODEX_MASTER_TASK.md",
+      "bytes": 6258,
+      "sha256": "7600f1d6d1de64d58ecb1a63f07c01fe455498647efe6549be4f10a8be8892f5"
+    },
+    {
+      "path": "COPY_TO_CODEX.txt",
+      "bytes": 1947,
+      "sha256": "5a6f817517271633fd8da50f9932c55e8b7de00be798a616553da75bf54d795d"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 2335,
+      "sha256": "abc2e5741baaedb514860d6488263594c14a3c1ab6ac24deeefb61d4f73fcabd"
+    },
+    {
+      "path": "VALIDATION_REPORT.md",
+      "bytes": 2021,
+      "sha256": "f4186d8b929b7de1cb09e7623e90ff010a51d7f5850fe06da96c106f7aaeb785"
+    },
+    {
+      "path": "campaign.json",
+      "bytes": 1899,
+      "sha256": "32b8d0d1c156f477a1255de75cadefc935eb825e76e0008c66be611c21466d90"
+    },
+    {
+      "path": "docs/01_MEASUREMENT_REPAIR.md",
+      "bytes": 5856,
+      "sha256": "776313d0e00578d9d7dcae67b4b68affe8d68ae5e7d315444478cf41512640e3"
+    },
+    {
+      "path": "docs/02_RELATIVE_POLICY.md",
+      "bytes": 6004,
+      "sha256": "f104187e58e46dcfad71c68bab0b3bf253c60f89dbab194dc707e452c35fbd17"
+    },
+    {
+      "path": "docs/03_RUNTIME_AND_ABLATION.md",
+      "bytes": 4646,
+      "sha256": "5b1048226af06c1b3413833cfafd244109d6c5dd55e201e0e2c4cb826c21a525"
+    },
+    {
+      "path": "docs/04_MATRIX_LOGGING.md",
+      "bytes": 4471,
+      "sha256": "a16be01581b5f9a102107d5341be3455961740b6ed029d96b60e37785f314f8c"
+    },
+    {
+      "path": "docs/05_EVIDENCE_AND_LIMITS.md",
+      "bytes": 2412,
+      "sha256": "3e99cb283d129c31c05a25b7ebd1b140c8d1168f49b81f55695029e8e13843fc"
+    },
+    {
+      "path": "patches/BASELINE_HASHES.json",
+      "bytes": 547,
+      "sha256": "2838e5aae40b3dbb46a1b479caf19db4efbf6f513e4eb617ef194fe0dbc1e460"
+    },
+    {
+      "path": "patches/CPU_PATCH_CHECK.json",
+      "bytes": 190,
+      "sha256": "8f82931a52f63dcaa15dbeaaef36c619adaee107d45682078948a19e204d2242"
+    },
+    {
+      "path": "patches/legacy_allocation_free_and_skip_unused.patch",
+      "bytes": 2852,
+      "sha256": "3aa6e751591708673015607df54d106a39a08020093ca953c368f3245a4a08e0"
+    },
+    {
+      "path": "plans/actions.json",
+      "bytes": 101,
+      "sha256": "b3191c0e215df9cab55f6a67d9f51befe6240bf943cc6c2505b29850040c6948"
+    },
+    {
+      "path": "plans/cases.json",
+      "bytes": 12476,
+      "sha256": "bf807b854213addbbb7c5e7e1c1e2aaf939aec7a06295515be6a558fb3c0a1fa"
+    },
+    {
+      "path": "plans/ffn.json",
+      "bytes": 819,
+      "sha256": "46b96287eab0635d8788ca69a1c7bc7a61b7d5b3ae840fda425acddafd3dc80e"
+    },
+    {
+      "path": "plans/legacy_action_recipes.json",
+      "bytes": 7881,
+      "sha256": "20df0f5f0e057353d46904786534fbe099c0a92b5d5d65e3083ab58298c142a5"
+    },
+    {
+      "path": "plans/pair_orders.json",
+      "bytes": 720003,
+      "sha256": "963e53aa83c66556c8de242b1cbc3ab81169983019f949cc569e61521ea301a4"
+    },
+    {
+      "path": "plans/traces.json",
+      "bytes": 5429,
+      "sha256": "b57131f24c4aaf1043c49ef2a8a7835d1c0903e614e5cc139c3a92358f8d4df9"
+    },
+    {
+      "path": "reference/decision_core.hpp",
+      "bytes": 2328,
+      "sha256": "38d0841d0daea2351a22a231ab1a8d61a9d8d0009a1de88975540c8e36d3a1e3"
+    },
+    {
+      "path": "reference/paired_runner.hpp",
+      "bytes": 1601,
+      "sha256": "2cceb458009afbd18573c7b6ef444830c62cf05c4d08c87465d89956f5e6d2eb"
+    },
+    {
+      "path": "reference/paired_stats.py",
+      "bytes": 3577,
+      "sha256": "16a27a3717412738d5bde57a9abb1a499f2ae3249ef855e99e97fe6b5473f2f9"
+    },
+    {
+      "path": "reference/relative_policy.py",
+      "bytes": 13268,
+      "sha256": "1133f3f0a468b8f538ee282ddca8fea7c7a4cdf05c9b42e693a6322c4b9059a4"
+    },
+    {
+      "path": "tests/CPP_REFERENCE_CHECK.json",
+      "bytes": 163,
+      "sha256": "19f33c09d46bdfa84ade10de6bb1d0b16e438e2189d4f18110787b77cf62b32d"
+    },
+    {
+      "path": "tests/test_host.cpp",
+      "bytes": 794,
+      "sha256": "01e0a98bed6f702b90ea52b2e56a45a6dad3bc8465050d5820a7983625c97a18"
+    },
+    {
+      "path": "tests/test_reference.py",
+      "bytes": 7420,
+      "sha256": "af48e04ac0b847915228eea553c4c6b81379f22eb005ed4a064df648e6cf882b"
+    },
+    {
+      "path": "tools/check_plan.py",
+      "bytes": 1296,
+      "sha256": "d1eef6cac72c0201af794054dd6c2d6cb3691ec988b185230da04bf3b50957d4"
+    }
+  ]
+}

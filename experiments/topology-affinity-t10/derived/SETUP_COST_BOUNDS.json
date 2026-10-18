@@ -1,0 +1,114 @@
+[
+  {
+    "process": "dev_0",
+    "start_ns": 1792310184541767497,
+    "end_ns": 1792310186153975040,
+    "gross_setup_ms": 1612.207543,
+    "queue_plus_fit_lower_bound_ms": 1545.8241180167533,
+    "definition": "Gross: allocation metadata write to frozen usable maps, including conditioning and research I/O. Lower bound omits host copying/checking/serialization."
+  },
+  {
+    "process": "dev_1",
+    "start_ns": 1792310257443053921,
+    "end_ns": 1792310259094193920,
+    "gross_setup_ms": 1651.139999,
+    "queue_plus_fit_lower_bound_ms": 1586.6663449560292,
+    "definition": "Gross: allocation metadata write to frozen usable maps, including conditioning and research I/O. Lower bound omits host copying/checking/serialization."
+  },
+  {
+    "process": "confirm_0",
+    "start_ns": 1792310447556995816,
+    "end_ns": 1792310449201630208,
+    "gross_setup_ms": 1644.634392,
+    "queue_plus_fit_lower_bound_ms": 1588.3924390072934,
+    "definition": "Gross: allocation metadata write to frozen usable maps, including conditioning and research I/O. Lower bound omits host copying/checking/serialization."
+  },
+  {
+    "process": "confirm_1",
+    "start_ns": 1792310526360810190,
+    "end_ns": 1792310528074289152,
+    "gross_setup_ms": 1713.478962,
+    "queue_plus_fit_lower_bound_ms": 1650.4546820069663,
+    "definition": "Gross: allocation metadata write to frozen usable maps, including conditioning and research I/O. Lower bound omits host copying/checking/serialization."
+  },
+  {
+    "process": "confirm_2",
+    "start_ns": 1792310605031432391,
+    "end_ns": 1792310606656178944,
+    "gross_setup_ms": 1624.746553,
+    "queue_plus_fit_lower_bound_ms": 1565.9425689955242,
+    "definition": "Gross: allocation metadata write to frozen usable maps, including conditioning and research I/O. Lower bound omits host copying/checking/serialization."
+  },
+  {
+    "process": "confirm_3",
+    "start_ns": 1792310684001576557,
+    "end_ns": 1792310685762778880,
+    "gross_setup_ms": 1761.202323,
+    "queue_plus_fit_lower_bound_ms": 1694.5399930118583,
+    "definition": "Gross: allocation metadata write to frozen usable maps, including conditioning and research I/O. Lower bound omits host copying/checking/serialization."
+  },
+  {
+    "process": "confirm_4",
+    "start_ns": 1792310763404134818,
+    "end_ns": 1792310765040438016,
+    "gross_setup_ms": 1636.303198,
+    "queue_plus_fit_lower_bound_ms": 1567.972277989611,
+    "definition": "Gross: allocation metadata write to frozen usable maps, including conditioning and research I/O. Lower bound omits host copying/checking/serialization."
+  },
+  {
+    "process": "confirm_5",
+    "start_ns": 1792310842280875428,
+    "end_ns": 1792310843921832192,
+    "gross_setup_ms": 1640.956764,
+    "queue_plus_fit_lower_bound_ms": 1580.6756930542178,
+    "definition": "Gross: allocation metadata write to frozen usable maps, including conditioning and research I/O. Lower bound omits host copying/checking/serialization."
+  },
+  {
+    "process": "shared_0",
+    "start_ns": 1792310998228486619,
+    "end_ns": 1792310999835457024,
+    "gross_setup_ms": 1606.970405,
+    "queue_plus_fit_lower_bound_ms": 1546.3127410039306,
+    "definition": "Gross: allocation metadata write to frozen usable maps, including conditioning and research I/O. Lower bound omits host copying/checking/serialization."
+  },
+  {
+    "process": "shared_1",
+    "start_ns": 1792311008865856387,
+    "end_ns": 1792311010467799808,
+    "gross_setup_ms": 1601.943421,
+    "queue_plus_fit_lower_bound_ms": 1544.5686769671738,
+    "definition": "Gross: allocation metadata write to frozen usable maps, including conditioning and research I/O. Lower bound omits host copying/checking/serialization."
+  },
+  {
+    "process": "shared_2",
+    "start_ns": 1792311019540170865,
+    "end_ns": 1792311021187706880,
+    "gross_setup_ms": 1647.536015,
+    "queue_plus_fit_lower_bound_ms": 1589.726314006839,
+    "definition": "Gross: allocation metadata write to frozen usable maps, including conditioning and research I/O. Lower bound omits host copying/checking/serialization."
+  },
+  {
+    "process": "shared_3",
+    "start_ns": 1792311030189788492,
+    "end_ns": 1792311031918860800,
+    "gross_setup_ms": 1729.072308,
+    "queue_plus_fit_lower_bound_ms": 1668.3567110449076,
+    "definition": "Gross: allocation metadata write to frozen usable maps, including conditioning and research I/O. Lower bound omits host copying/checking/serialization."
+  },
+  {
+    "process": "shared_4",
+    "start_ns": 1792311041108175263,
+    "end_ns": 1792311042726257920,
+    "gross_setup_ms": 1618.082657,
+    "queue_plus_fit_lower_bound_ms": 1559.590260963887,
+    "definition": "Gross: allocation metadata write to frozen usable maps, including conditioning and research I/O. Lower bound omits host copying/checking/serialization."
+  },
+  {
+    "process": "shared_5",
+    "start_ns": 1792311051743616639,
+    "end_ns": 1792311053435461120,
+    "gross_setup_ms": 1691.844481,
+    "queue_plus_fit_lower_bound_ms": 1626.5671100118198,
+    "definition": "Gross: allocation metadata write to frozen usable maps, including conditioning and research I/O. Lower bound omits host copying/checking/serialization."
+  }
+]

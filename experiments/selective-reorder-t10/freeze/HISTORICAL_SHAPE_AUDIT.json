@@ -1,0 +1,303 @@
+{
+  "scope": "Available local files named *cases*.json or *plan*.json, excluding vendor/run/staging/new campaign; not a guarantee against unindexed history.",
+  "files_read": [
+    "./op-fused/protocol/validation/plan_check.json",
+    "./op-fused/protocol/validation/initial_plan_check.json",
+    "./op-fused/implementation_same_q_v2/20261015T171030Z/cases_v2.json",
+    "./op-fused/implementation_same_q_v2/20261015T171030Z/input/OP_FUSED_T10_SAME_Q_AND_BACKBONE_20261016/cases_v2.json",
+    "./op-fused/reports/cpu_plan_check.json",
+    "./GPU_COMPUTE_TOPOLOGY_DUAL_20261014/validation/plan_check.json",
+    "./numa-first-v3/input/NUMA_FIRST_COMPILED_CAMPAIGN_20261016_V3/planned_counts.json",
+    "./preregistration/W1/train/plan_card.json",
+    "./preregistration/W2/web-Google/plan_card.json",
+    "./preregistration/W2/ca-GrQc/plan_card.json",
+    "./preregistration/E3/d1_l1/plan_card.json",
+    "./preregistration/E3/d0_l1/plan_card.json",
+    "./preregistration/E3/d2_l0/plan_card.json",
+    "./pc-handoff-t10/input/T10_PC_HANDOFF_LLM_20261016/plans/gemm_cases.json",
+    "./pc-handoff-t10/input/T10_PC_HANDOFF_LLM_20261016/plans/attention_cases.json",
+    "./preregistration/E3/d0_l0/plan_card.json",
+    "./preregistration/E3/d2_l1/plan_card.json",
+    "./preregistration/E3/d1_l0/plan_card.json",
+    "./pc-handoff-t10/freeze/layer_plan.json",
+    "./preregistration/W1/bonsai/plan_card.json"
+  ],
+  "cases": [
+    {
+      "case": "D01",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D02",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D03",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D04",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D05",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D06",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D07",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D08",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D09",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D10",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D11",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D12",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D13",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D14",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D15",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D16",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D17",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D18",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D19",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D20",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D21",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D22",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D23",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "D24",
+      "cohort": "development",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "T01",
+      "cohort": "confirmation",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "T02",
+      "cohort": "confirmation",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "T03",
+      "cohort": "confirmation",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "T04",
+      "cohort": "confirmation",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "T05",
+      "cohort": "confirmation",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "T06",
+      "cohort": "confirmation",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "T07",
+      "cohort": "confirmation",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "T08",
+      "cohort": "confirmation",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "T09",
+      "cohort": "confirmation",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "T10",
+      "cohort": "confirmation",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "T11",
+      "cohort": "confirmation",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "T12",
+      "cohort": "confirmation",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "T13",
+      "cohort": "confirmation",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "T14",
+      "cohort": "confirmation",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "T15",
+      "cohort": "confirmation",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "T16",
+      "cohort": "confirmation",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "R_G002",
+      "cohort": "regression",
+      "historical_exact_MNK_matches": [
+        "./pc-handoff-t10/input/T10_PC_HANDOFF_LLM_20261016/plans/gemm_cases.json"
+      ]
+    },
+    {
+      "case": "R_G005",
+      "cohort": "regression",
+      "historical_exact_MNK_matches": [
+        "./pc-handoff-t10/input/T10_PC_HANDOFF_LLM_20261016/plans/gemm_cases.json"
+      ]
+    },
+    {
+      "case": "R_G008",
+      "cohort": "regression",
+      "historical_exact_MNK_matches": [
+        "./pc-handoff-t10/input/T10_PC_HANDOFF_LLM_20261016/plans/gemm_cases.json"
+      ]
+    },
+    {
+      "case": "R_G012",
+      "cohort": "regression",
+      "historical_exact_MNK_matches": [
+        "./pc-handoff-t10/input/T10_PC_HANDOFF_LLM_20261016/plans/gemm_cases.json"
+      ]
+    },
+    {
+      "case": "R_G017",
+      "cohort": "regression",
+      "historical_exact_MNK_matches": [
+        "./pc-handoff-t10/input/T10_PC_HANDOFF_LLM_20261016/plans/gemm_cases.json"
+      ]
+    },
+    {
+      "case": "R_G021",
+      "cohort": "regression",
+      "historical_exact_MNK_matches": [
+        "./pc-handoff-t10/input/T10_PC_HANDOFF_LLM_20261016/plans/gemm_cases.json"
+      ]
+    },
+    {
+      "case": "R_G026",
+      "cohort": "regression",
+      "historical_exact_MNK_matches": [
+        "./pc-handoff-t10/input/T10_PC_HANDOFF_LLM_20261016/plans/gemm_cases.json"
+      ]
+    },
+    {
+      "case": "R_G039",
+      "cohort": "regression",
+      "historical_exact_MNK_matches": [
+        "./pc-handoff-t10/input/T10_PC_HANDOFF_LLM_20261016/plans/gemm_cases.json"
+      ]
+    },
+    {
+      "case": "O01",
+      "cohort": "ood_bypass",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "O02",
+      "cohort": "ood_bypass",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "O03",
+      "cohort": "ood_bypass",
+      "historical_exact_MNK_matches": []
+    },
+    {
+      "case": "O04",
+      "cohort": "ood_bypass",
+      "historical_exact_MNK_matches": []
+    }
+  ]
+}

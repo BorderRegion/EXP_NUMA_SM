@@ -1,0 +1,7 @@
+MANIFEST_PASS 590
+analyze.py 0 , 'scope': 'Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects.'}), ('D', None, {'blocks': 6, 'ratios': [0.9905409244455081, 0.9108027263355892, 0.8367163677484222, 0.6971668857306568, 0.8782859390459189, 0.756249382886717], 'geomean_ratio': 0.8393030228682126, 'exploratory_ci95': [0.7616924403251897, 0.919770535584653], 'scope': 'Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects.'})]
+OBSERVER [{'block': 0, 'order': 'ABBA', 'A_1Hz_means': [675.9218917240601, 696.8430757769759], 'B_20Hz_means': [673.8476994597029, 691.9386678996648], 'B_over_A': 0.9949446584868467, 'scope': 'Two independentprocessblocks; observationandhistory mayinteract; not universaltooloverhead'}, {'block': 1, 'order': 'BAAB', 'A_1Hz_means': [677.9352840317101, 669.1372354124749], 'B_20Hz_means': [641.860997962248, 674.3773175980172], 'B_over_A': 0.9768328429455415, 'scope': 'Two independentprocessblocks; observationandhistory mayinteract; not universaltooloverhead'}]
+
+analyze_profiles.py 0 PROFILE_ATTRIBUTION [('S3_profile_0', 16746, 16746, 16746, [('A', 0, 0), ('B', 0, 0), ('A', 0, 0), ('C', 0, 0), ('A', 0, 0), ('D', 0, 0), ('A', 0, 0)]), ('S3_profile_1', 17121, 17121, 17121, [('A', 0, 0), ('D', 0, 0), ('A', 0, 0), ('C', 0, 0), ('A', 0, 0), ('B', 0, 0), ('A', 0, 0)])]
+
+ALL_DERIVED_RECOMPUTATION_PASS

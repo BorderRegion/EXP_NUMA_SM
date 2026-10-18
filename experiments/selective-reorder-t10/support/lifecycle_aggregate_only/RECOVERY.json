@@ -1,0 +1,9 @@
+{
+  "status": "EXACT_HASH_VERIFIED",
+  "matches_workers": [
+    "S5_lifecycle_0",
+    "S5_lifecycle_1"
+  ],
+  "sha256": "fd388c908de463925c4048e470aa2896593df3dd7b88fbb26694cd0f6c41b046",
+  "change": "Later version retains per-request timing arrays after the measured call; all scientific plan/timing/H code is identical."
+}

@@ -1,0 +1,110 @@
+--- previous_production/backend.py
++++ selective-reorder-t10/src/backend.py
+@@ -16,41 +16,45 @@
+ lib.pc_drop.argtypes=[P];lib.pc_run.argtypes=[P,DP];lib.pc_batch.argtypes=[P,I,DP];lib.pc_nodes.argtypes=[P,C.POINTER(I)]
+ def check(code):
+  if code:raise RuntimeError(lib.pc_error().decode())
++lib.sr_ensure_resources.argtypes=[P,I];lib.sr_runtime_state.argtypes=[P,C.POINTER(I)]
++lib.sr_run_async.argtypes=[P];lib.sr_wait.argtypes=[P]
+ class Engine:
+- def __init__(self,mode=-1):
++ def __init__(self,mode=-2,diagnostic=False):
+   torch.cuda.init();t=time.perf_counter();self.ptr=lib.pc_create(str(BUILD).encode(),mode)
+   if not self.ptr:raise RuntimeError(lib.pc_error().decode())
+-  self.init_ms=(time.perf_counter()-t)*1000;a=(I*10)();check(lib.pc_groups(self.ptr,a));self.quad=list(a[:4]);self.halves=[list(a[4+2*i:6+2*i]) for i in range(3)]
++  self.init_ms=(time.perf_counter()-t)*1000;self.membership={};self.roster_ms=0;self.refresh()
++  if diagnostic:self.validate_roster()
++ def refresh(self):
++  a=(I*10)();check(lib.pc_groups(self.ptr,a));self.quad=list(a[:4]);self.halves=[list(a[4+2*i:6+2*i]) for i in range(3)]
+   costs=(C.c_double*4)();check(lib.pc_setup_costs(self.ptr,costs));self.setup_costs=dict(driver_init_ms=costs[0],resource_enumeration_ms=costs[1],green_create_ms=costs[2],live_green_contexts=int(costs[3]))
+-  self.membership={};buf=torch.empty(512,device='cuda',dtype=torch.int32);host=(C.c_uint*512)()
++ def ensure(self,partition):check(lib.sr_ensure_resources(self.ptr,partition));self.refresh()
++ def state(self):
++  a=(I*5)();check(lib.sr_runtime_state(self.ptr,a));return dict(zip(['enumerated_2sm_resources','green_contexts','math_module_loaded','diag_module_loaded','blas_loaded'],list(a)))
++ def validate_roster(self):
++  t=time.perf_counter();buf=torch.empty(512,device='cuda',dtype=torch.int32);host=(C.c_uint*512)()
+   for g in sorted(set(x for x in self.quad+sum(self.halves,[]) if x>=0)):
+-   found=set()
++   if g in self.membership:continue
++   found=set();expected=14 if g in self.quad else 28
+    for _ in range(8):
+     check(lib.pc_roster(self.ptr,g,buf.data_ptr(),host,512));found.update(host)
+-    if len(found)==(14 if g in self.quad else 28):break
+-   expected=14 if g in self.quad else 28
+-   if len(found)!=expected:raise RuntimeError(f'resource roster {g}: {len(found)}/{expected}')
+-   self.membership[g]=sorted(found)
+-  for hs in [x for x in self.halves if x[0]>=0]:assert len(set(self.membership[hs[0]])|set(self.membership[hs[1]]))==56 and not set(self.membership[hs[0]])&set(self.membership[hs[1]])
+-  self.roster_ms=(time.perf_counter()-t)*1000-self.init_ms
++    if len(found)==expected:break
++   assert len(found)==expected,(g,len(found),expected);self.membership[g]=sorted(found)
++  self.roster_ms+=(time.perf_counter()-t)*1000;del buf
+  def close(self):
+   if self.ptr:check(lib.pc_destroy(self.ptr));self.ptr=None
+ class Data:
+- def __init__(self,m,n,k,s=16,seed=1,ring=4,chain=False,deployment_workspace_words=None):
++ def __init__(self,m,n,k,s=8,seed=1,ring=4,chain=False,workspace_words=0,workspace_slots=1,diagnostic=False):
+   self.m,self.n,self.k=m,n,k;self.seed=seed;self.ring=ring;self.chain=chain
+-  free,total=torch.cuda.mem_get_info();need=2*(ring*m*k+n*k)+4*(m*n*ring)+4*((m+127)//128*128)*((n+127)//128*128)*s*2+(128<<20)
+-  if deployment_workspace_words is not None:need=2*(ring*m*k+n*k)+4*m*n*2+4*deployment_workspace_words
++  free,total=torch.cuda.mem_get_info();need=2*(ring*m*k+n*k)+4*m*n*2+4*workspace_words*workspace_slots
+   if chain:need+=2*n*k+2*m*n+4*m*k
+   if free-need<max(2<<30,.15*total):raise MemoryError(f'headroom expected {free-need}')
+   t=time.perf_counter();gen=torch.Generator(device='cpu').manual_seed(seed)
+   self.ha=[((torch.rand((m,k),generator=gen)*2-1)/math.sqrt(k)).half() for _ in range(ring)]
+   self.hb=(torch.rand((n,k),generator=gen)*2-1).half();self.a=[x.cuda() for x in self.ha];self.b=self.hb.cuda()
+   self.d=torch.empty((m,n),device='cuda',dtype=torch.float32);self.c=torch.zeros_like(self.d)
+-  self.wsize=((m+127)//128*128)*((n+127)//128*128)*s
+-  self.w=torch.empty(self.wsize*2 if deployment_workspace_words is None else max(1,deployment_workspace_words),device='cuda',dtype=torch.float32)
+-  self.trace=torch.full(((max(4096,((m+31)//32)*((n+63)//64)*(s+64)*5) if deployment_workspace_words is None else 1),),-1,device='cuda',dtype=torch.int32)
+-  self.scratch=torch.arange((128<<20)//4 if deployment_workspace_words is None else 1,device='cuda',dtype=torch.int32);self.scratchout=torch.empty(256*128,device='cuda',dtype=torch.int32)
+-  self.act=self.b2=self.d2=None
++  self.wsize=workspace_words;tw=time.perf_counter();self.w=torch.empty(workspace_words*workspace_slots,device='cuda',dtype=torch.float32) if workspace_words else None;self.workspace_allocation_ms=(time.perf_counter()-tw)*1000
++  self.trace=torch.full((max(4096,((m+31)//32)*((n+63)//64)*(s+64)*5),),-1,device='cuda',dtype=torch.int32) if diagnostic else None
++  self.scratch=self.scratchout=None;self.act=self.b2=self.d2=None
+   if chain:
+    self.act=torch.empty((m,n),device='cuda',dtype=torch.float16);self.hb2=(torch.rand((k,n),generator=gen)*2-1).half()/math.sqrt(n);self.b2=self.hb2.cuda();self.d2=torch.empty((m,k),device='cuda',dtype=torch.float32)
+   torch.cuda.synchronize();self.init_ms=(time.perf_counter()-t)*1000;self.allocated=torch.cuda.memory_allocated();self.free_after=torch.cuda.mem_get_info()[0];assert self.free_after>=max(2<<30,.15*total)
+@@ -87,7 +91,7 @@
+   if pg is None:pg=[-1,-1]
+   if cg is None:cg=pg
+   self.cfg=[d.m,d.n,d.k,s,recipe,kind,slab,*pg,*cg,submit_reverse,task_reverse,scratch,diag,generation,f1,int(d.chain),d.k,stages];assert len(self.cfg)==20
+-  pts=[d.a[slot].data_ptr(),d.b.data_ptr(),d.w.data_ptr()+wslot*d.wsize*4,d.d.data_ptr(),d.c.data_ptr(),d.trace.data_ptr(),d.scratch.data_ptr(),d.scratchout.data_ptr(),d.act.data_ptr() if d.chain else 0,d.b2.data_ptr() if d.chain else 0,d.d2.data_ptr() if d.chain else 0]
++  pts=[d.a[slot].data_ptr(),d.b.data_ptr(),(d.w.data_ptr()+wslot*d.wsize*4) if d.w is not None else 0,d.d.data_ptr(),d.c.data_ptr(),d.trace.data_ptr() if d.trace is not None else 0,0,0,d.act.data_ptr() if d.chain else 0,d.b2.data_ptr() if d.chain else 0,d.d2.data_ptr() if d.chain else 0]
+   t=time.perf_counter();self.ptr=lib.pc_build(e.ptr,(I*20)(*self.cfg),(P*11)(*pts),alpha,beta)
+   if not self.ptr:raise RuntimeError(lib.pc_error().decode())
+   self.build_ms=(time.perf_counter()-t)*1000;nodes=(I*2)();check(lib.pc_nodes(self.ptr,nodes));self.nodes=list(nodes)
+@@ -107,10 +111,10 @@
+   p=x[x[:,2]>=0];r=x[x[:,2]==-1]
+   # R diagnostics include boundary rows that have no valid elements, harmless qualification writes.
+   if len(p)!=nt*self.s:raise RuntimeError(f'P coverage {len(p)} != {nt*self.s}')
+-  expected_r=nt*rows*cols if os.environ.get('PC_BUILD') else ((self.d.m+3)//4)*((self.d.n+bn-1)//bn)*cols
++  expected_r=((self.d.m+3)//4)*((self.d.n+bn-1)//bn)*cols
+   if len(r)!=expected_r:raise RuntimeError(f'R coverage {len(r)} != {expected_r}')
+   for role,records,groups in [('P',p,self.pg),('R',r,self.cg or self.pg)]:
+-   if self.kind==1 and not os.environ.get('PC_BUILD') and not np.array_equal(records[:,1]%2,records[:,3]):raise RuntimeError('logical owner mismatch')
++   if self.kind==1 and not np.array_equal(records[:,1]%2,records[:,3]):raise RuntimeError('logical owner mismatch')
+    for owner in range(2 if self.kind==1 else 1):
+     z=records[records[:,3]==owner];actual=set(map(int,z[:,0]));expected=set(self.e.membership[groups[owner]]) if groups[owner]>=0 else set(range(10000))
+     if not actual<=expected:raise RuntimeError(f'{role} placement {actual-expected}')
+@@ -118,3 +122,21 @@
+   return dict(status='PASS',P_records=len(p),R_records=len(r),P_actual_sms=sorted(set(map(int,p[:,0]))),R_actual_sms=sorted(set(map(int,r[:,0]))),generation=self.generation,trace=x.tolist())
+  def close(self):
+   if self.ptr:check(lib.pc_drop(self.ptr));self.ptr=None
++
++def workspace(c,recipe,s,slab):
++ if slab:
++  bm,bn=TILES[recipe];return math.ceil(c['M']/bm)*math.ceil(c['N']/bn)*bm*bn*s
++ return c['M']*c['N']*s
++
++def config(action,c,bins,e):
++ b=bins[bin_id(c)]
++ if action=='LIB':return dict(kind=3,recipe=b['single_recipe'],s=1)
++ if action=='SINGLE':return dict(kind=4,recipe=b['single_recipe'],s=1)
++ kw=dict(recipe=b['split_recipe'],s=b['split_S'],kind=0)
++ if action.startswith('PC'):
++  part=int(action[2]);pi=int(action[4]);e.ensure(part);groups=e.halves[part];kw.update(kind=1,slab=1,pg=groups,cg=groups[::-1] if pi else groups)
++ return kw
++
++def workspace_for(action,c,bins):
++ if action in ['LIB','SINGLE']:return 0
++ b=bins[bin_id(c)];return workspace(c,b['split_recipe'],b['split_S'],action.startswith('PC'))

@@ -1,0 +1,14 @@
+{
+  "counts": {
+    "numerical_records": 31375,
+    "PASS_records_including_nested": 29966,
+    "explicit_qualification_raw_bit_PASS": 1476
+  },
+  "maximum_errors_across_distinct_contracts": {
+    "relative_frobenius": 0.0004249260499538197,
+    "max_scaled_error": 0.24771759133160723,
+    "fp64_subblock_max_scaled_error": 0.15164790883536824,
+    "fp64_head_max_scaled_error": 0.013434798772571194
+  },
+  "warning": "Different first-GEMM, FFN-chain and attention tolerances must not be conflated. Detailed records retain each contract and reference scope."
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "full": {
+    "path": "/home/ubuntu/下载/T10_TOPOLOGY_TAIL_PLACEMENT_20261018.zip",
+    "bytes": 34011454,
+    "sha256": "7ca23081e4d5810b3c73bf27c4103eb42d54b1be76b8e94340e8a05ec8c1781f",
+    "files": 2477
+  },
+  "small": {
+    "path": "/home/ubuntu/下载/T10_TOPOLOGY_TAIL_PLACEMENT_20261018_SMALL.zip",
+    "bytes": 741649,
+    "sha256": "4d8461b488b2ddc254b3c160c330e45c26f1fef85cd4f7c05880d6f60477e440",
+    "files": 97
+  },
+  "checks": "CRC, per-file SHA256, full independent extracted CPU recompute, post-recompute hashes"
+}

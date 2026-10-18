@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "workers": 14,
+  "failed_workers": [
+    "memcheck"
+  ],
+  "worker_seconds": 2073.4902612199658,
+  "worker_budget_seconds": 2400,
+  "numerical_checks": 57308,
+  "timing_observations": {
+    "dev": 82944,
+    "confirm": 663552
+  },
+  "operator_requests": {
+    "dev": 1368576,
+    "confirm": 10948608
+  },
+  "graph_checks": 6912,
+  "temperature_range_c": [
+    63,
+    69
+  ],
+  "power_limit_w": 100,
+  "input_sets_disjoint": true,
+  "balanced_partition_coverage": "PASS",
+  "fixed_collector": "PASS",
+  "baseline_instruction_equality": "PASS",
+  "frozen_hashes_checked": 20,
+  "selected_random_from_development_only": "PASS"
+}

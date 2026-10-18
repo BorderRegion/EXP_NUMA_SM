@@ -1,0 +1,22 @@
+{
+  "D03": {
+    "seconds": 0.000522985,
+    "measured_at_ns": 1792203483756928741,
+    "scope": "Original Data.numerical with cached full FP32 and FP64 reference; includes D2H and CPU digest; pilot after qualification"
+  },
+  "D10": {
+    "seconds": 0.002115408,
+    "measured_at_ns": 1792203576736493017,
+    "scope": "Original Data.numerical with cached full FP32 and FP64 reference; includes D2H and CPU digest; pilot after qualification"
+  },
+  "D17": {
+    "seconds": 0.008568604,
+    "measured_at_ns": 1792203670658623826,
+    "scope": "Original Data.numerical with cached full FP32 and FP64 reference; includes D2H and CPU digest; pilot after qualification"
+  },
+  "D24": {
+    "seconds": 0.037055641,
+    "measured_at_ns": 1792203766585739622,
+    "scope": "Original Data.numerical with cached full FP32 and FP64 reference; includes D2H and CPU digest; pilot after qualification"
+  }
+}

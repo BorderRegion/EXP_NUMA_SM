@@ -1,0 +1,36 @@
+NET [{'scope': 'batch', 'candidate': 'JOINT', 'control': 'IDENTITY', 'gain_pct': -0.3595608108641315, 'ci_primary': [-0.6276395932908949, -0.032483733293635964], 'positive_processes': 1}, {'scope': 'batch', 'candidate': 'JOINT', 'control': 'WRONG', 'gain_pct': -0.5417660572337796, 'ci_primary': [-0.7896645893576326, -0.31414168385338603], 'positive_processes': 0}, {'scope': 'batch', 'candidate': 'JOINT', 'control': 'POOL', 'gain_pct': -0.7552300200349196, 'ci_primary': [-0.9517568616072516, -0.6372527715455936], 'positive_processes': 0}, {'scope': 'batch', 'candidate': 'JOINT', 'control': 'SHADOW', 'gain_pct': -0.5292192792827904, 'ci_primary': [-0.8943157920150778, -0.10014795504772883], 'positive_processes': 1}, {'scope': 'batch', 'candidate': 'JOINT', 'control': 'BLIND', 'gain_pct': -1.0292851711032562, 'ci_primary': [-1.2388669633643954, -0.7880277666894003], 'positive_processes': 0}, {'scope': 'batch', 'candidate': 'PLACE_ONLY', 'control': 'IDENTITY', 'gain_pct': -0.2666328885130208, 'ci_primary': [-0.6042931008421288, 0.06003704876195098], 'positive_processes': 2}, {'scope': 'batch', 'candidate': 'PLACE_ONLY', 'control': 'SHADOW', 'gain_pct': -0.4364495859510157, 'ci_primary': [-0.6578589163177763, -0.24555895605914485], 'positive_processes': 0}, {'scope': 'batch', 'candidate': 'PLACE_ONLY', 'control': 'BLIND', 'gain_pct': -0.936981855526776, 'ci_primary': [-1.3642648143145084, -0.612971878660435], 'positive_processes': 0}, {'scope': 'freshbatch', 'candidate': 'JOINT', 'control': 'IDENTITY', 'gain_pct': 0.27360398989585194, 'ci_primary': [-0.823263970742071, 2.926280637011619], 'positive_processes': 1}, {'scope': 'freshbatch', 'candidate': 'JOINT', 'control': 'WRONG', 'gain_pct': 0.13021775257792378, 'ci_primary': [-0.4114200259660844, 1.6530034400852642], 'positive_processes': 1}, {'scope': 'freshbatch', 'candidate': 'JOINT', 'control': 'POOL', 'gain_pct': -0.1513281451024443, 'ci_primary': [-0.8053636625998524, 0.8604880415328262], 'positive_processes': 1}, {'scope': 'freshbatch', 'candidate': 'JOINT', 'control': 'SHADOW', 'gain_pct': -0.02042239517388966, 'ci_primary': [-0.4497811507844959, 0.7544511812578859], 'positive_processes': 2}, {'scope': 'freshbatch', 'candidate': 'JOINT', 'control': 'BLIND', 'gain_pct': -0.7991002224799084, 'ci_primary': [-1.0798498195898716, -0.5010842121334783], 'positive_processes': 0}, {'scope': 'freshbatch', 'candidate': 'PLACE_ONLY', 'control': 'IDENTITY', 'gain_pct': 0.256436128253995, 'ci_primary': [-0.4886935075496746, 1.9163479111204602], 'positive_processes': 1}, {'scope': 'freshbatch', 'candidate': 'PLACE_ONLY', 'control': 'SHADOW', 'gain_pct': -0.03753991650586048, 'ci_primary': [-0.3714704926632423, 0.3594932636481165], 'positive_processes': 3}, {'scope': 'freshbatch', 'candidate': 'PLACE_ONLY', 'control': 'BLIND', 'gain_pct': -0.816084426242044, 'ci_primary': [-1.8143979999795161, -0.3528659828437628], 'positive_processes': 0}]
+{
+  "status": "PASS",
+  "workers": 16,
+  "completed_workers": 13,
+  "failed_or_incomplete_workers": [
+    "qualification",
+    "memcheck",
+    "racecheck_v3"
+  ],
+  "budget_charge_seconds": 1318.1237706601387,
+  "measured_worker_seconds": 1078.1237706601387,
+  "unconfirmed_interruption_charge_seconds": 240,
+  "budget_seconds": 2400,
+  "numerical_checks": 5613,
+  "graphs_checked": 16,
+  "trace_launches": 256,
+  "micro_launches": 67584,
+  "micro_sm_records": 3784704,
+  "short_observations": 48960,
+  "short_test_observations": 39168,
+  "net_chunks": 1728,
+  "net_operator_requests": 113246208,
+  "net_conditioning_requests": 110592,
+  "independent_input_hashes": 32,
+  "temperature_min": 62,
+  "temperature_max": 80,
+  "power_limit_w": 100,
+  "exact_baseline": true,
+  "implementation_unchanged": true,
+  "blind_frozen_before_confirmation": true,
+  "notes": "Two early host qualification failures and one interrupted broad racecheck retained. Targeted racecheck covers one new-tail launch, not the whole campaign. Sanitizer qualification caps synthetic delays only under instrumentation. Actual interrupted-worker end time unknown; full intended240s cap charged, not claimed measured. No formal performance observation dropped."
+}
+DIAGNOSTICS COMPLETE
+CPU RECOMPUTATION PASS 15 derived files; raw data and frozen choices unchanged
+POST-RECOMPUTE ARCHIVE HASHES PASS

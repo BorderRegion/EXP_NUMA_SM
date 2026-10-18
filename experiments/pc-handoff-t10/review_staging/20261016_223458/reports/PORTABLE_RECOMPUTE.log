@@ -1,0 +1,54 @@
+{
+  "phases": 5048,
+  "pairs": 3435,
+  "comparison_groups": 93,
+  "matrix_cells": 2304,
+  "settled_worker_hours": 2.6758202614897972
+}
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "file": "comparisons.json",
+      "sha256": "282b512610d1c0e70811c2c74a615af69d704fb915c727d3614662eba6d99d93",
+      "status": "EXACT_RECOMPUTE_MATCH"
+    },
+    {
+      "file": "case_comparisons.json",
+      "sha256": "d6c79dcdfc3fdf4b1ddd475861260657f019e8adb8b8a7e6744ddd9990760144",
+      "status": "EXACT_RECOMPUTE_MATCH"
+    },
+    {
+      "file": "pc_confirmation.json",
+      "sha256": "e9dcb191249492585f2f62462114ce63b70ea9f2be7417751f3eb3e34ca99599",
+      "status": "EXACT_RECOMPUTE_MATCH"
+    },
+    {
+      "file": "paired_values.jsonl",
+      "sha256": "ac0c829c7101652ee631c068820177e76f283abfc1a820aec154943fc300e9a8",
+      "status": "EXACT_RECOMPUTE_MATCH"
+    },
+    {
+      "file": "pc_contrasts.jsonl",
+      "sha256": "9c3c9fabaec39225490e37f6739e39f988cde5f2274e17b550305fb9df39a2b4",
+      "status": "EXACT_RECOMPUTE_MATCH"
+    },
+    {
+      "file": "development.json",
+      "sha256": "e755ded1e63d36eddf46ba9aa992a43bf2021f35f4d30b27c5591b0671d326e7",
+      "status": "EXACT_RECOMPUTE_MATCH"
+    },
+    {
+      "file": "initialization_amortization.jsonl",
+      "sha256": "c26b0213b92739183c1fd61cdf1814e59b0eecb2bc24a3c88a8485067afd849b",
+      "status": "EXACT_RECOMPUTE_MATCH"
+    },
+    {
+      "file": "raw/qualify_host_attention/gemm_snapshot.npz",
+      "status": "FULL_OUTPUT_NUMERICAL_PASS",
+      "relative_frobenius": 2.6765024116532274e-07,
+      "max_scaled_error": 0.0018269052301479551
+    }
+  ],
+  "scope": "CPU reanalysis of all phase summaries; independent FP64 check of the early qualify_host_attention GPU snapshot (before final production geometry revision). Not a fresh GPU rerun or independent final-binary execution."
+}

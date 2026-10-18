@@ -1,0 +1,15 @@
+dev OPERATOR [{'candidate': 'GPC_ADDR', 'scope': 'batch', 'gain_pct': 4.317651576510241, 'ci95': [0.32446479621011737, 8.469778060049789], 'positive_processes': 2}, {'candidate': 'ALL_ADDR', 'scope': 'batch', 'gain_pct': 3.8950670267474634, 'ci95': [-0.20638287705474628, 8.165083736707974], 'positive_processes': 1}, {'candidate': 'GPC_ADDR', 'scope': 'fresh', 'gain_pct': -0.09290763942263545, 'ci95': [-1.4258008583281196, 1.258008595124608], 'positive_processes': 1}, {'candidate': 'ALL_ADDR', 'scope': 'fresh', 'gain_pct': 0.6452001093460535, 'ci95': [-0.8938124449313676, 2.2081118741637593], 'positive_processes': 1}, {'candidate': 'GPC_ADDR', 'scope': 'freshbatch', 'gain_pct': 3.5435954245121226, 'ci95': [0.3233602507850117, 6.867195502965181], 'positive_processes': 2}, {'candidate': 'ALL_ADDR', 'scope': 'freshbatch', 'gain_pct': 3.4309195962817554, 'ci95': [0.5236035691795871, 6.4223202182584815], 'positive_processes': 2}, {'candidate': 'GPC_ADDR', 'scope': 'ready', 'gain_pct': -0.27724433023108447, 'ci95': [-0.6697065945338312, 0.11676858517336497], 'positive_processes': 1}, {'candidate': 'ALL_ADDR', 'scope': 'ready', 'gain_pct': -0.29722553247891637, 'ci95': [-1.990550974835905, 1.4253557732897446], 'positive_processes': 1}]
+confirm_0 COMPLETED 78.739
+confirm_1 COMPLETED 78.826
+confirm_2 COMPLETED 78.937
+confirm_3 COMPLETED 79.461
+confirm_4 COMPLETED 78.893
+confirm_5 COMPLETED 79.498
+confirm OPERATOR [{'candidate': 'GPC_ADDR', 'scope': 'batch', 'gain_pct': 0.5992124270406021, 'ci95': [0.1413323990671713, 1.070762941764491], 'positive_processes': 5}, {'candidate': 'ALL_ADDR', 'scope': 'batch', 'gain_pct': 1.4321936025315483, 'ci95': [0.15556426565010045, 2.945761351673595], 'positive_processes': 5}, {'candidate': 'GPC_ADDR', 'scope': 'fresh', 'gain_pct': -1.2926088570231686, 'ci95': [-2.4596716916069408, 0.11388012051293357], 'positive_processes': 1}, {'candidate': 'ALL_ADDR', 'scope': 'fresh', 'gain_pct': 0.34785633666164545, 'ci95': [-0.8736006972994148, 1.4617733402101558], 'positive_processes': 5}, {'candidate': 'GPC_ADDR', 'scope': 'freshbatch', 'gain_pct': -0.6327110288329513, 'ci95': [-2.5317044617588125, 1.4900083483376123], 'positive_processes': 3}, {'candidate': 'ALL_ADDR', 'scope': 'freshbatch', 'gain_pct': -1.705434786985644, 'ci95': [-2.499408826591837, -0.6456248003749089], 'positive_processes': 1}, {'candidate': 'GPC_ADDR', 'scope': 'ready', 'gain_pct': 0.16916240050269996, 'ci95': [-0.14027723701090603, 0.4673652446746078], 'positive_processes': 4}, {'candidate': 'ALL_ADDR', 'scope': 'ready', 'gain_pct': 1.304097557842823, 'ci95': [0.19397576430022168, 2.6626487551198004], 'positive_processes': 4}]
+full_0 COMPLETED 5.559
+full_1 COMPLETED 5.486
+full_2 COMPLETED 5.56
+full_3 COMPLETED 5.464
+full_4 COMPLETED 5.535
+full_5 COMPLETED 5.483
+GPU CAMPAIGN COMPLETE

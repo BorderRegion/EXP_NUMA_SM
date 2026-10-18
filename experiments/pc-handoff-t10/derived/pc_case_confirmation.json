@@ -1,0 +1,686 @@
+[
+  {
+    "case": "G001",
+    "metric": "gpu_us",
+    "processes": {
+      "0": {
+        "gain_percent": 0.748657405669273,
+        "additive_M_minus_reverse_us": -0.575655996799469,
+        "workspace_gains": {
+          "0": 0.38127770685308926,
+          "1": 1.114682260335731
+        }
+      },
+      "1": {
+        "gain_percent": 1.1152230554310805,
+        "additive_M_minus_reverse_us": -0.5758126303553581,
+        "workspace_gains": {
+          "0": -0.2950615604625506,
+          "1": 2.5056771565727165
+        }
+      },
+      "2": {
+        "gain_percent": 1.8359023867265956,
+        "additive_M_minus_reverse_us": -1.4754998981952667,
+        "workspace_gains": {
+          "0": 1.4062719792142353,
+          "1": 2.263660643841936
+        }
+      },
+      "3": {
+        "gain_percent": 1.1313909857158966,
+        "additive_M_minus_reverse_us": -0.927562452852726,
+        "workspace_gains": {
+          "0": 1.4066618443270285,
+          "1": 0.8553515757298125
+        }
+      }
+    }
+  },
+  {
+    "case": "G001",
+    "metric": "batch_per_replay_us",
+    "processes": {
+      "0": {
+        "gain_percent": 0.639409688760928,
+        "additive_M_minus_reverse_us": -0.4770518143971785,
+        "workspace_gains": {
+          "0": 0.3542186828076832,
+          "1": 0.9237844643750548
+        }
+      },
+      "1": {
+        "gain_percent": 1.989095566267285,
+        "additive_M_minus_reverse_us": -1.421447992324829,
+        "workspace_gains": {
+          "0": 1.9969886780139445,
+          "1": 1.9812018188134939
+        }
+      },
+      "2": {
+        "gain_percent": 2.2991686267702427,
+        "additive_M_minus_reverse_us": -1.7812700271606445,
+        "workspace_gains": {
+          "0": 1.6846135855140165,
+          "1": 2.9098821747210235
+        }
+      },
+      "3": {
+        "gain_percent": 1.2174786984007424,
+        "additive_M_minus_reverse_us": -0.958458503087364,
+        "workspace_gains": {
+          "0": 1.1152736486890302,
+          "1": 1.3195781112505078
+        }
+      }
+    }
+  },
+  {
+    "case": "G001",
+    "metric": "cpu_ready_us",
+    "processes": {
+      "0": {
+        "gain_percent": 0.7559932828700711,
+        "additive_M_minus_reverse_us": -0.6839160156250017,
+        "workspace_gains": {
+          "0": 0.5502211003411639,
+          "1": 0.9613397008415236
+        }
+      },
+      "1": {
+        "gain_percent": -2.6840323353184425,
+        "additive_M_minus_reverse_us": 4.1194736328125074,
+        "workspace_gains": {
+          "0": 0.7576176486375097,
+          "1": -6.245036110783819
+        }
+      },
+      "2": {
+        "gain_percent": 1.8016991512739167,
+        "additive_M_minus_reverse_us": -1.7254033203124948,
+        "workspace_gains": {
+          "0": 1.4288632167482884,
+          "1": 2.1731248693953376
+        }
+      },
+      "3": {
+        "gain_percent": 0.9738998230230167,
+        "additive_M_minus_reverse_us": -0.9207656250000014,
+        "workspace_gains": {
+          "0": 1.3003466892280602,
+          "1": 0.646373241207232
+        }
+      }
+    }
+  },
+  {
+    "case": "G016",
+    "metric": "gpu_us",
+    "processes": {
+      "0": {
+        "gain_percent": 0.7529359133318869,
+        "additive_M_minus_reverse_us": -11.212748885154724,
+        "workspace_gains": {
+          "0": 0.5927346674895695,
+          "1": 0.9128789844916718
+        }
+      },
+      "1": {
+        "gain_percent": 0.4392413986887611,
+        "additive_M_minus_reverse_us": -6.658283472061157,
+        "workspace_gains": {
+          "0": 0.6513187230581918,
+          "1": 0.2267113577765989
+        }
+      },
+      "2": {
+        "gain_percent": 0.7005996177462004,
+        "additive_M_minus_reverse_us": -10.665749788284302,
+        "workspace_gains": {
+          "0": 0.5453788828238326,
+          "1": 0.8555780966901239
+        }
+      },
+      "3": {
+        "gain_percent": 0.011507422751977359,
+        "additive_M_minus_reverse_us": -0.2313135862350464,
+        "workspace_gains": {
+          "0": -0.21122167759528576,
+          "1": 0.23374148620306512
+        }
+      }
+    }
+  },
+  {
+    "case": "G016",
+    "metric": "batch_per_replay_us",
+    "processes": {
+      "0": {
+        "gain_percent": 0.3781213840294062,
+        "additive_M_minus_reverse_us": -5.5590235392252225,
+        "workspace_gains": {
+          "0": 0.22311300094390862,
+          "1": 0.5328889538409265
+        }
+      },
+      "1": {
+        "gain_percent": -0.1318576699392615,
+        "additive_M_minus_reverse_us": 1.9437484741210938,
+        "workspace_gains": {
+          "0": -0.02558719715544111,
+          "1": -0.23824104796761336
+        }
+      },
+      "2": {
+        "gain_percent": -0.18889199453897554,
+        "additive_M_minus_reverse_us": 2.8111267089842613,
+        "workspace_gains": {
+          "0": -0.24264967741614019,
+          "1": -0.13516314059318635
+        }
+      },
+      "3": {
+        "gain_percent": 0.11953957830048711,
+        "additive_M_minus_reverse_us": -1.7500635782877225,
+        "workspace_gains": {
+          "0": 0.1114435503292932,
+          "1": 0.1276349500836993
+        }
+      }
+    }
+  },
+  {
+    "case": "G016",
+    "metric": "cpu_ready_us",
+    "processes": {
+      "0": {
+        "gain_percent": 0.7532227369772215,
+        "additive_M_minus_reverse_us": -11.364036132812657,
+        "workspace_gains": {
+          "0": 0.602697964812482,
+          "1": 0.9035195582160038
+        }
+      },
+      "1": {
+        "gain_percent": 0.3972848483406288,
+        "additive_M_minus_reverse_us": -6.089337890624961,
+        "workspace_gains": {
+          "0": 0.5971317791870434,
+          "1": 0.19703613033771328
+        }
+      },
+      "2": {
+        "gain_percent": 0.7084925094417605,
+        "additive_M_minus_reverse_us": -10.922327148437716,
+        "workspace_gains": {
+          "0": 0.530440699664958,
+          "1": 0.8862256041544891
+        }
+      },
+      "3": {
+        "gain_percent": 0.029256027461577183,
+        "additive_M_minus_reverse_us": -0.5200830078125591,
+        "workspace_gains": {
+          "0": -0.21366713806372228,
+          "1": 0.2715903345403614
+        }
+      }
+    }
+  },
+  {
+    "case": "G025",
+    "metric": "gpu_us",
+    "processes": {
+      "0": {
+        "gain_percent": -0.7752977319245957,
+        "additive_M_minus_reverse_us": 2.941968083381653,
+        "workspace_gains": {
+          "0": -1.296530326913814,
+          "1": -0.25674719738899565
+        }
+      },
+      "1": {
+        "gain_percent": 2.927225552294399,
+        "additive_M_minus_reverse_us": -11.232656002044678,
+        "workspace_gains": {
+          "0": 1.9104783548411164,
+          "1": 3.933433653968743
+        }
+      },
+      "2": {
+        "gain_percent": -0.26928560318515427,
+        "additive_M_minus_reverse_us": 0.8255316019058228,
+        "workspace_gains": {
+          "0": -0.17920275715341827,
+          "1": -0.35944945324692945
+        }
+      },
+      "3": {
+        "gain_percent": 1.6139192293884275,
+        "additive_M_minus_reverse_us": -5.794781655073166,
+        "workspace_gains": {
+          "0": 1.110932937495701,
+          "1": 2.114347147364326
+        }
+      }
+    }
+  },
+  {
+    "case": "G025",
+    "metric": "batch_per_replay_us",
+    "processes": {
+      "0": {
+        "gain_percent": -0.6396674374983702,
+        "additive_M_minus_reverse_us": 2.573599815368709,
+        "workspace_gains": {
+          "0": -1.3807260646517827,
+          "1": 0.09597430313040833
+        }
+      },
+      "1": {
+        "gain_percent": 3.71250657971236,
+        "additive_M_minus_reverse_us": -14.063018480936734,
+        "workspace_gains": {
+          "0": 2.64776125470203,
+          "1": 4.76560674255958
+        }
+      },
+      "2": {
+        "gain_percent": -0.7039576068273767,
+        "additive_M_minus_reverse_us": 2.3537855148315145,
+        "workspace_gains": {
+          "0": -0.2124854679905308,
+          "1": -1.1978400727020722
+        }
+      },
+      "3": {
+        "gain_percent": 1.6038568346107396,
+        "additive_M_minus_reverse_us": -5.649276733398466,
+        "workspace_gains": {
+          "0": 0.815833763068341,
+          "1": 2.3856190241510755
+        }
+      }
+    }
+  },
+  {
+    "case": "G025",
+    "metric": "cpu_ready_us",
+    "processes": {
+      "0": {
+        "gain_percent": -0.8799160753385271,
+        "additive_M_minus_reverse_us": 3.483415039062436,
+        "workspace_gains": {
+          "0": -1.4368634920426393,
+          "1": -0.32602662409484395
+        }
+      },
+      "1": {
+        "gain_percent": 2.894456308863791,
+        "additive_M_minus_reverse_us": -11.587400390624964,
+        "workspace_gains": {
+          "0": 1.913230441084579,
+          "1": 3.8658663349354083
+        }
+      },
+      "2": {
+        "gain_percent": -0.0994969571708415,
+        "additive_M_minus_reverse_us": 0.18291308593748568,
+        "workspace_gains": {
+          "0": 0.03295964711063082,
+          "1": -0.2321290668184428
+        }
+      },
+      "3": {
+        "gain_percent": 1.6623789618290696,
+        "additive_M_minus_reverse_us": -6.27753125000001,
+        "workspace_gains": {
+          "0": 1.2532984765395105,
+          "1": 2.0697647389323115
+        }
+      }
+    }
+  },
+  {
+    "case": "G034",
+    "metric": "gpu_us",
+    "processes": {
+      "0": {
+        "gain_percent": 0.20008579034994645,
+        "additive_M_minus_reverse_us": -59.14294624328613,
+        "workspace_gains": {
+          "0": 0.16303703671868286,
+          "1": 0.23712079546458487
+        }
+      },
+      "1": {
+        "gain_percent": 0.06697052483911614,
+        "additive_M_minus_reverse_us": -19.461835861206055,
+        "workspace_gains": {
+          "0": -0.21756325528552445,
+          "1": 0.3506964678002711
+        }
+      },
+      "2": {
+        "gain_percent": 0.048801360693773166,
+        "additive_M_minus_reverse_us": -13.789079666137695,
+        "workspace_gains": {
+          "0": 0.03365739989544814,
+          "1": 0.06394302732446455
+        }
+      },
+      "3": {
+        "gain_percent": 0.10288209663850134,
+        "additive_M_minus_reverse_us": -30.253217697143555,
+        "workspace_gains": {
+          "0": -0.18017939760019974,
+          "1": 0.38514379385146125
+        }
+      }
+    }
+  },
+  {
+    "case": "G034",
+    "metric": "batch_per_replay_us",
+    "processes": {
+      "0": {
+        "gain_percent": 0.1636026910055488,
+        "additive_M_minus_reverse_us": -50.1752115885447,
+        "workspace_gains": {
+          "0": 0.09576319152967416,
+          "1": 0.23139612439015966
+        }
+      },
+      "1": {
+        "gain_percent": 0.17949810689282808,
+        "additive_M_minus_reverse_us": -54.33768717447674,
+        "workspace_gains": {
+          "0": 0.05627266869846492,
+          "1": 0.3025716145056201
+        }
+      },
+      "2": {
+        "gain_percent": -0.15026925788761414,
+        "additive_M_minus_reverse_us": 45.95633951822856,
+        "workspace_gains": {
+          "0": -0.0988173251569524,
+          "1": -0.2017476374980065
+        }
+      },
+      "3": {
+        "gain_percent": 0.13349378526222866,
+        "additive_M_minus_reverse_us": -40.41186523437864,
+        "workspace_gains": {
+          "0": 0.0825873023075574,
+          "1": 0.1843743320968816
+        }
+      }
+    }
+  },
+  {
+    "case": "G034",
+    "metric": "cpu_ready_us",
+    "processes": {
+      "0": {
+        "gain_percent": 0.19374605034395698,
+        "additive_M_minus_reverse_us": -57.33525000000009,
+        "workspace_gains": {
+          "0": 0.15371404530195587,
+          "1": 0.23376200510014655
+        }
+      },
+      "1": {
+        "gain_percent": 0.07037286450235491,
+        "additive_M_minus_reverse_us": -20.48991113280863,
+        "workspace_gains": {
+          "0": -0.21917727403528708,
+          "1": 0.3590864437605479
+        }
+      },
+      "2": {
+        "gain_percent": 0.04329830805247514,
+        "additive_M_minus_reverse_us": -12.186732421872875,
+        "workspace_gains": {
+          "0": 0.038681808737017764,
+          "1": 0.0479145941648107
+        }
+      },
+      "3": {
+        "gain_percent": 0.11128952847312412,
+        "additive_M_minus_reverse_us": -32.78436914062513,
+        "workspace_gains": {
+          "0": -0.15971461561534728,
+          "1": 0.3815604112259896
+        }
+      }
+    }
+  },
+  {
+    "case": "G043",
+    "metric": "gpu_us",
+    "processes": {
+      "0": {
+        "gain_percent": 0.08590514108969272,
+        "additive_M_minus_reverse_us": -0.2810323238372803,
+        "workspace_gains": {
+          "0": 0.3879539437020796,
+          "1": -0.2170595495379679
+        }
+      },
+      "1": {
+        "gain_percent": 0.1206482722624358,
+        "additive_M_minus_reverse_us": -0.32184338569641113,
+        "workspace_gains": {
+          "0": -0.5762254456904481,
+          "1": 0.8126934835118504
+        }
+      },
+      "2": {
+        "gain_percent": -1.1605037878416935,
+        "additive_M_minus_reverse_us": 2.833375096321106,
+        "workspace_gains": {
+          "0": 0.7853391142856325,
+          "1": -3.144509442993204
+        }
+      },
+      "3": {
+        "gain_percent": -0.4463836290802936,
+        "additive_M_minus_reverse_us": 1.110156700015068,
+        "workspace_gains": {
+          "0": 0.2629559903501555,
+          "1": -1.1607681413155158
+        }
+      }
+    }
+  },
+  {
+    "case": "G043",
+    "metric": "batch_per_replay_us",
+    "processes": {
+      "0": {
+        "gain_percent": -0.004664768650397555,
+        "additive_M_minus_reverse_us": -0.0856129328409736,
+        "workspace_gains": {
+          "0": 0.2159412224602919,
+          "1": -0.22575848298973522
+        }
+      },
+      "1": {
+        "gain_percent": 0.10969976079308053,
+        "additive_M_minus_reverse_us": -0.2910003662109375,
+        "workspace_gains": {
+          "0": -0.4971307242889855,
+          "1": 0.712866029444581
+        }
+      },
+      "2": {
+        "gain_percent": -1.182057371917855,
+        "additive_M_minus_reverse_us": 2.8636461893717353,
+        "workspace_gains": {
+          "0": 0.7320579220232881,
+          "1": -3.1330812315228274
+        }
+      },
+      "3": {
+        "gain_percent": -0.40113905014489415,
+        "additive_M_minus_reverse_us": 1.0105730692545762,
+        "workspace_gains": {
+          "0": 0.2120247788670926,
+          "1": -1.0180705663995315
+        }
+      }
+    }
+  },
+  {
+    "case": "G043",
+    "metric": "cpu_ready_us",
+    "processes": {
+      "0": {
+        "gain_percent": 0.2874738975573332,
+        "additive_M_minus_reverse_us": -0.8591757812499736,
+        "workspace_gains": {
+          "0": 0.5328199553420121,
+          "1": 0.041522668418214614
+        }
+      },
+      "1": {
+        "gain_percent": 0.19894818782069112,
+        "additive_M_minus_reverse_us": -0.5557236328124873,
+        "workspace_gains": {
+          "0": -0.47231013516921827,
+          "1": 0.8657218151210455
+        }
+      },
+      "2": {
+        "gain_percent": -0.9442728007685641,
+        "additive_M_minus_reverse_us": 2.47109960937496,
+        "workspace_gains": {
+          "0": 0.8691690621978609,
+          "1": -2.790888716239648
+        }
+      },
+      "3": {
+        "gain_percent": -0.5479377349230985,
+        "additive_M_minus_reverse_us": 1.4497304687499764,
+        "workspace_gains": {
+          "0": 0.12984044456122446,
+          "1": -1.2303157194205605
+        }
+      }
+    }
+  },
+  {
+    "case": "G046",
+    "metric": "gpu_us",
+    "processes": {
+      "0": {
+        "gain_percent": 0.6027793482004773,
+        "additive_M_minus_reverse_us": -4.8466880321502686,
+        "workspace_gains": {
+          "0": 0.5940917798571865,
+          "1": 0.6114661572946933
+        }
+      },
+      "1": {
+        "gain_percent": -0.827915784042843,
+        "additive_M_minus_reverse_us": 6.610938012599945,
+        "workspace_gains": {
+          "0": -0.01994861274008386,
+          "1": -1.6424097628370715
+        }
+      },
+      "2": {
+        "gain_percent": -0.9192952249688746,
+        "additive_M_minus_reverse_us": 7.186373591423035,
+        "workspace_gains": {
+          "0": -0.7646908252034734,
+          "1": -1.0741368360057013
+        }
+      },
+      "3": {
+        "gain_percent": 1.47472486776975,
+        "additive_M_minus_reverse_us": -11.611218929290771,
+        "workspace_gains": {
+          "0": 1.421622125469646,
+          "1": 1.5277990043928158
+        }
+      }
+    }
+  },
+  {
+    "case": "G046",
+    "metric": "batch_per_replay_us",
+    "processes": {
+      "0": {
+        "gain_percent": 0.6964913302409892,
+        "additive_M_minus_reverse_us": -5.277643203735352,
+        "workspace_gains": {
+          "0": 0.8343209621127889,
+          "1": 0.5584701299999106
+        }
+      },
+      "1": {
+        "gain_percent": -0.8406421261562658,
+        "additive_M_minus_reverse_us": 5.997260411580385,
+        "workspace_gains": {
+          "0": -0.7051869387042498,
+          "1": -0.9762795098621435
+        }
+      },
+      "2": {
+        "gain_percent": -1.646310878946644,
+        "additive_M_minus_reverse_us": 11.973730723063113,
+        "workspace_gains": {
+          "0": -1.0010426698424002,
+          "1": -2.2957015312522255
+        }
+      },
+      "3": {
+        "gain_percent": 0.987335412722179,
+        "additive_M_minus_reverse_us": -7.467358907063726,
+        "workspace_gains": {
+          "0": 1.3662906441933576,
+          "1": 0.6069242178851519
+        }
+      }
+    }
+  },
+  {
+    "case": "G046",
+    "metric": "cpu_ready_us",
+    "processes": {
+      "0": {
+        "gain_percent": 0.7331220251015069,
+        "additive_M_minus_reverse_us": -6.001177734375119,
+        "workspace_gains": {
+          "0": 0.5435637815685346,
+          "1": 0.9223189815317223
+        }
+      },
+      "1": {
+        "gain_percent": -0.7471234247595993,
+        "additive_M_minus_reverse_us": 6.128058593749927,
+        "workspace_gains": {
+          "0": 0.04756515106200121,
+          "1": -1.548130305217743
+        }
+      },
+      "2": {
+        "gain_percent": -1.0054215732957505,
+        "additive_M_minus_reverse_us": 8.007740234375092,
+        "workspace_gains": {
+          "0": -0.8290377706052121,
+          "1": -1.1821139304120543
+        }
+      },
+      "3": {
+        "gain_percent": 1.439026921333586,
+        "additive_M_minus_reverse_us": -11.570057617187558,
+        "workspace_gains": {
+          "0": 1.4976512921133445,
+          "1": 1.3803676598441728
+        }
+      }
+    }
+  }
+]

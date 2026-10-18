@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-10-18T03:16:10.642878+00:00",
+  "reason": "Remove confounding from per-policy global map addresses and reduce lookup overhead. Identical schedule values passed by-value in kernel launch parameters; unchanged arithmetic/coordination.",
+  "policies": [
+    "MINIMAX",
+    "IDENTITY",
+    "WORST",
+    "WRONG_ADDRESS",
+    "RND00..RND11",
+    "NATIVE",
+    "OLD_IDENTITY",
+    "OLD_MINIMAX"
+  ],
+  "maps": "Reuse frozen isolated8B model and frozen random panel; no schedule selection or refitting.",
+  "scopes": [
+    "input_already_ready",
+    "copy_current_logits_plus_softmax"
+  ],
+  "processes": 6,
+  "seed_base": 109000000,
+  "cases": [
+    32768,
+    65536,
+    131072,
+    262144
+  ],
+  "pages": [
+    0,
+    17,
+    257
+  ],
+  "blocks": 20,
+  "replays": 12,
+  "primary": "CONST_MINIMAX vs CONST_IDENTITY and geometric mean of12 CONST_RANDOM; ordinary NATIVE and previously faster fused IDENTITY also retained. All overhead within each request counted; cold setup separate.",
+  "stop": "After six fresh processes and required correctness checks, report all results and stop this bounded campaign. Do not search additional mappings from these outcomes."
+}

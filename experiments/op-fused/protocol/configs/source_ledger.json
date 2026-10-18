@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S0",
+    "title": "T10_SUPPLEMENT_AND_PAPER_POSITION.md",
+    "kind": "user-provided experiment report",
+    "date": "2026-10-15",
+    "url": null,
+    "scope": "旧T10 W1 E/N≈1.0903、M/R≈1.0012；ca-GrQc全设备自写正效应被分区代价吃掉。此为该报告的数据，不是本次新测量。"
+  },
+  {
+    "id": "S1",
+    "title": "CUTLASS Grouped Kernel Schedulers",
+    "kind": "official documentation",
+    "date": "retrieved 2026-10-15",
+    "url": "https://docs.nvidia.com/cutlass/4.7.0/media/docs/cpp/grouped_scheduler.html",
+    "scope": "已有persistent grouped kernel、device-only及host-precompute、K排序与其局限。必须作强基线。"
+  },
+  {
+    "id": "S2",
+    "title": "Accelerating MoEs with a Triton Persistent Cache-Aware Grouped GEMM Kernel",
+    "kind": "authors on PyTorch official blog",
+    "date": "2025-08-18",
+    "url": "https://pytorch.org/blog/accelerating-moes-with-a-triton-persistent-cache-aware-grouped-gemm-kernel/",
+    "scope": "已有persistent与L2/cache-aware grouped GEMM。不能将同expert/panel分组直接称首创。"
+  },
+  {
+    "id": "S3",
+    "title": "Stream-K: Work-centric Parallel Decomposition for Dense Matrix-Matrix Multiplication on the GPU",
+    "kind": "research paper",
+    "date": "2023",
+    "url": "https://arxiv.org/abs/2301.03598",
+    "scope": "已有针对GEMM波次/量化损失的工作分解。仅支持其能力时列对应基线，不新加split-K到本轮主候选。"
+  },
+  {
+    "id": "S4",
+    "title": "FlashInfer: Efficient and Customizable Attention Engine for LLM Inference Serving",
+    "kind": "research paper",
+    "date": "2025",
+    "url": "https://arxiv.org/html/2501.01005v1",
+    "scope": "已有动态attention调度与plan复用等设计；本轮不能只凭不等长任务+调度声称新颖。"
+  },
+  {
+    "id": "S5",
+    "title": "FlashInfer repository and attention API",
+    "kind": "official project/docs",
+    "date": "retrieved 2026-10-15",
+    "url": "https://github.com/flashinfer-ai/flashinfer",
+    "scope": "当前仓库列SM75及之后，但具体功能需本地核查；引用在线支持范围不是本地已可执行证据。"
+  },
+  {
+    "id": "S6",
+    "title": "CUTLASS Blackwell functionality",
+    "kind": "official documentation",
+    "date": "retrieved 2026-10-15",
+    "url": "https://docs.nvidia.com/cutlass/latest/media/docs/cpp/blackwell_functionality.html",
+    "scope": "所述GeForce SM120 GEMM路径cluster为1×1×1，不能照搬SM100大cluster参数；文档针对该kernel路径，不外推所有功能。"
+  },
+  {
+    "id": "S7",
+    "title": "CUDA Graphs",
+    "kind": "official documentation",
+    "date": "retrieved 2026-10-15",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/04-special-topics/cuda-graphs.html",
+    "scope": "Graph与真正kernel fusion不同；主比较要给基线同样的合法capture/replay条件。"
+  },
+  {
+    "id": "S8",
+    "title": "Dissecting How Die Scaling Breaks GPU Fine-grained Scheduling",
+    "kind": "research preprint",
+    "date": "2026-09-21 v1",
+    "url": "https://arxiv.org/html/2609.24270v1",
+    "scope": "原文已研究Attention/MoE与资源不对称；换到LLM不自动形成新贡献。"
+  },
+  {
+    "id": "S9",
+    "title": "Mirage Persistent Kernel",
+    "kind": "research preprint",
+    "date": "2025; v2 2026",
+    "url": "https://arxiv.org/html/2512.22219v2",
+    "scope": "已有跨算子megakernel编译与runtime。本轮不重写全模型megakernel，融合也不能单独称新颖。"
+  },
+  {
+    "id": "S10",
+    "title": "SonicMoE",
+    "kind": "research paper / official implementation",
+    "date": "paper 2025; implementation retrieved 2026-10-15",
+    "url": "https://arxiv.org/abs/2512.14080",
+    "scope": "已有IO/tile优化；token rounding可能改变路由，不能混入同语义对照。"
+  },
+  {
+    "id": "S11",
+    "title": "SonicMoE official source",
+    "kind": "official implementation",
+    "date": "retrieved 2026-10-15",
+    "url": "https://github.com/Dao-AILab/sonic-moe",
+    "scope": "当前实现列SM120等支持，属于5070Ti可用时的强候选基线，不为离线跑它自动安装。"
+  },
+  {
+    "id": "S12",
+    "title": "CUDA Compute Capabilities",
+    "kind": "official documentation",
+    "date": "retrieved 2026-10-15",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/05-appendices/compute-capabilities.html",
+    "scope": "架构支持不等同；T10与5070Ti不能强行统一新指令和格式。"
+  }
+]

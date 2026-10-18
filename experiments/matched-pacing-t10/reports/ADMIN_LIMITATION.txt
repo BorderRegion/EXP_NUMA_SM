@@ -1,0 +1,1 @@
+Read-only permission check: sudo -n true -> exit1, sudo: a password is required. No clock setting attempted or applied in this round. Previous direct permission denial and RmProfilingAdminOnly=1 retained as context. No historical credential used.

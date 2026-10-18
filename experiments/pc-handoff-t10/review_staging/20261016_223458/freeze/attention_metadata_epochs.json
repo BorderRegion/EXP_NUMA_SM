@@ -1,0 +1,16 @@
+{
+  "original_native_sha256": "4e2784908e54f8551abc6af014ce486e4a9cdff671cd421b06b964344e40d848",
+  "original_native_source": "freeze/attention_original_native_epoch/attention.py",
+  "original_runs": [
+    "E4_native_development",
+    "E4_native_0",
+    "E4_native_1",
+    "E4_native_2",
+    "E4_native_3",
+    "E4_native_4",
+    "E4_native_5"
+  ],
+  "new_source": "src/attention.py plus src/graph_metadata.py",
+  "change": "Retain raw Graph, explicitly instantiate before warmup, export checked driver node metadata. Math, request update, reference and timers unchanged.",
+  "missing_dot_status": "original declared filenames did not exist; explicitly marked in derived phases; separate recapture is not original replay evidence"
+}

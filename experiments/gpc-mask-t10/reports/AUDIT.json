@@ -1,0 +1,294 @@
+{
+  "passed": true,
+  "independent_matching_processes": 3,
+  "cuda_sm_count": 56,
+  "full_die_capacity_sm": 72,
+  "enabled_gpcs": 5,
+  "enabled_tpcs": 28,
+  "enabled_gpc_mask": "0x2f",
+  "distribution": [
+    {
+      "physical_gpc": 0,
+      "enabled_tpc_mask": "0x3e",
+      "enabled_physical_tpcs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "disabled_physical_tpcs": [
+        0
+      ],
+      "enabled_sm_count": 10,
+      "disabled_sm_count": 2,
+      "global_logical_sm_ids": [
+        6,
+        7,
+        16,
+        17,
+        26,
+        27,
+        36,
+        37,
+        46,
+        47
+      ]
+    },
+    {
+      "physical_gpc": 1,
+      "enabled_tpc_mask": "0x3f",
+      "enabled_physical_tpcs": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "disabled_physical_tpcs": [],
+      "enabled_sm_count": 12,
+      "disabled_sm_count": 0,
+      "global_logical_sm_ids": [
+        0,
+        1,
+        10,
+        11,
+        20,
+        21,
+        30,
+        31,
+        40,
+        41,
+        48,
+        49
+      ]
+    },
+    {
+      "physical_gpc": 2,
+      "enabled_tpc_mask": "0x3f",
+      "enabled_physical_tpcs": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "disabled_physical_tpcs": [],
+      "enabled_sm_count": 12,
+      "disabled_sm_count": 0,
+      "global_logical_sm_ids": [
+        2,
+        3,
+        12,
+        13,
+        22,
+        23,
+        32,
+        33,
+        42,
+        43,
+        50,
+        51
+      ]
+    },
+    {
+      "physical_gpc": 3,
+      "enabled_tpc_mask": "0x1f",
+      "enabled_physical_tpcs": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "disabled_physical_tpcs": [
+        5
+      ],
+      "enabled_sm_count": 10,
+      "disabled_sm_count": 2,
+      "global_logical_sm_ids": [
+        8,
+        9,
+        18,
+        19,
+        28,
+        29,
+        38,
+        39,
+        52,
+        53
+      ]
+    },
+    {
+      "physical_gpc": 4,
+      "enabled_tpc_mask": "0x00",
+      "enabled_physical_tpcs": [],
+      "disabled_physical_tpcs": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "enabled_sm_count": 0,
+      "disabled_sm_count": 12,
+      "global_logical_sm_ids": []
+    },
+    {
+      "physical_gpc": 5,
+      "enabled_tpc_mask": "0x3f",
+      "enabled_physical_tpcs": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "disabled_physical_tpcs": [],
+      "enabled_sm_count": 12,
+      "disabled_sm_count": 0,
+      "global_logical_sm_ids": [
+        4,
+        5,
+        14,
+        15,
+        24,
+        25,
+        34,
+        35,
+        44,
+        45,
+        54,
+        55
+      ]
+    }
+  ],
+  "logical_to_physical_gpc": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 5
+  },
+  "previous_pair_classification": [
+    {
+      "page": 0,
+      "policy": "MINIMAX",
+      "same_tpc": 3,
+      "same_gpc_other_tpc": 0,
+      "cross_gpc": 25
+    },
+    {
+      "page": 0,
+      "policy": "MINSUM",
+      "same_tpc": 4,
+      "same_gpc_other_tpc": 1,
+      "cross_gpc": 23
+    },
+    {
+      "page": 0,
+      "policy": "WORST",
+      "same_tpc": 1,
+      "same_gpc_other_tpc": 7,
+      "cross_gpc": 20
+    },
+    {
+      "page": 0,
+      "policy": "IDENTITY",
+      "same_tpc": 28,
+      "same_gpc_other_tpc": 0,
+      "cross_gpc": 0
+    },
+    {
+      "page": 0,
+      "policy": "RANDOM",
+      "same_tpc": 1,
+      "same_gpc_other_tpc": 3,
+      "cross_gpc": 24
+    },
+    {
+      "page": 17,
+      "policy": "MINIMAX",
+      "same_tpc": 5,
+      "same_gpc_other_tpc": 1,
+      "cross_gpc": 22
+    },
+    {
+      "page": 17,
+      "policy": "MINSUM",
+      "same_tpc": 4,
+      "same_gpc_other_tpc": 2,
+      "cross_gpc": 22
+    },
+    {
+      "page": 17,
+      "policy": "WORST",
+      "same_tpc": 2,
+      "same_gpc_other_tpc": 5,
+      "cross_gpc": 21
+    },
+    {
+      "page": 17,
+      "policy": "IDENTITY",
+      "same_tpc": 28,
+      "same_gpc_other_tpc": 0,
+      "cross_gpc": 0
+    },
+    {
+      "page": 17,
+      "policy": "RANDOM",
+      "same_tpc": 1,
+      "same_gpc_other_tpc": 1,
+      "cross_gpc": 26
+    },
+    {
+      "page": 257,
+      "policy": "MINIMAX",
+      "same_tpc": 2,
+      "same_gpc_other_tpc": 3,
+      "cross_gpc": 23
+    },
+    {
+      "page": 257,
+      "policy": "MINSUM",
+      "same_tpc": 2,
+      "same_gpc_other_tpc": 2,
+      "cross_gpc": 24
+    },
+    {
+      "page": 257,
+      "policy": "WORST",
+      "same_tpc": 2,
+      "same_gpc_other_tpc": 5,
+      "cross_gpc": 21
+    },
+    {
+      "page": 257,
+      "policy": "IDENTITY",
+      "same_tpc": 28,
+      "same_gpc_other_tpc": 0,
+      "cross_gpc": 0
+    },
+    {
+      "page": 257,
+      "policy": "RANDOM",
+      "same_tpc": 0,
+      "same_gpc_other_tpc": 3,
+      "cross_gpc": 25
+    }
+  ],
+  "optional_phys_gpc_query": {
+    "status": 27,
+    "meaning": "NV_ERR_INSUFFICIENT_PERMISSIONS; mask output invalid and not used"
+  },
+  "limitations": [
+    "Effective driver-reported floorsweeping configuration, not raw fuse diagnosis.",
+    "GPC IDs are hardware identifiers, not x/y positions or interconnect hop counts.",
+    "Local logical TPC IDs must not be equated with physical TPC mask bit positions.",
+    "No new latency or operator performance measurement in this inspection."
+  ]
+}

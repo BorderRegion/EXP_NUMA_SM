@@ -1,0 +1,1025 @@
+[
+  {
+    "stage": "S5_FFN",
+    "case": "F1",
+    "policy": "CANONICAL_SHARED_ACTION_PAIR",
+    "n_blocks": 6,
+    "setup_including_input_us": {
+      "n": 6,
+      "min": 518666.67007561773,
+      "median": 530934.3450353481,
+      "mean": 547043.4385157811,
+      "p95": 605542.082717875,
+      "max": 623063.6419495568
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 6,
+      "min": 8733.403054066002,
+      "median": 8943.676453782246,
+      "mean": 9160.818483602876,
+      "p95": 9880.518526188098,
+      "max": 9972.682048100978
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 6,
+      "min": 168288256.0,
+      "median": 168288256.0,
+      "mean": 168288256.0,
+      "p95": 168288256.0,
+      "max": 168288256.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_FFN",
+    "case": "F2",
+    "policy": "CANONICAL_SHARED_ACTION_PAIR",
+    "n_blocks": 6,
+    "setup_including_input_us": {
+      "n": 6,
+      "min": 2654148.992965929,
+      "median": 2673011.056467658,
+      "mean": 2688266.5006657285,
+      "p95": 2753395.966021344,
+      "max": 2773494.1670205444
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 6,
+      "min": 1689.0980186872184,
+      "median": 1837.4804640188813,
+      "mean": 1800.1718271989375,
+      "p95": 1868.6162657104433,
+      "max": 1872.1960368566215
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 6,
+      "min": 610664448.0,
+      "median": 610664448.0,
+      "mean": 610664448.0,
+      "p95": 610664448.0,
+      "max": 610664448.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_FFN",
+    "case": "F3",
+    "policy": "CANONICAL_SHARED_ACTION_PAIR",
+    "n_blocks": 6,
+    "setup_including_input_us": {
+      "n": 6,
+      "min": 516389.085969422,
+      "median": 529760.8000109904,
+      "mean": 538186.8190015666,
+      "p95": 579164.2607218819,
+      "max": 593451.3759566471
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 6,
+      "min": 1758.4359738975763,
+      "median": 1868.2210356928408,
+      "mean": 1875.2154816562932,
+      "p95": 2000.6891863886267,
+      "max": 2027.1499524824321
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 6,
+      "min": 178094080.0,
+      "median": 178094080.0,
+      "mean": 178094080.0,
+      "p95": 178094080.0,
+      "max": 178094080.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_FFN",
+    "case": "F4",
+    "policy": "CANONICAL_SHARED_ACTION_PAIR",
+    "n_blocks": 6,
+    "setup_including_input_us": {
+      "n": 6,
+      "min": 2825777.5290403515,
+      "median": 2858267.1860058326,
+      "mean": 2858858.430176042,
+      "p95": 2889074.682505452,
+      "max": 2895183.946006
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 6,
+      "min": 1554.6500217169523,
+      "median": 1666.1325062159449,
+      "mean": 1668.6484935538222,
+      "p95": 1752.978700096719,
+      "max": 1754.8969481140375
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 6,
+      "min": 693108736.0,
+      "median": 693108736.0,
+      "mean": 693108736.0,
+      "p95": 693108736.0,
+      "max": 693108736.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_OOD",
+    "case": "O01",
+    "policy": "LIB_ALWAYS",
+    "n_blocks": 3,
+    "setup_including_input_us": {
+      "n": 3,
+      "min": 554801.7030232586,
+      "median": 631275.5499966443,
+      "mean": 605945.4333541604,
+      "p95": 631710.697337985,
+      "max": 631759.0470425785
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 3,
+      "min": 1094.8950075544417,
+      "median": 1356.4660912379622,
+      "mean": 1284.4263692386448,
+      "p95": 1397.3728171549737,
+      "max": 1401.9180089235306
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 3,
+      "min": 209715200.0,
+      "median": 209715200.0,
+      "mean": 209715200.0,
+      "p95": 209715200.0,
+      "max": 209715200.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_OOD",
+    "case": "O01",
+    "policy": "RESOURCE",
+    "n_blocks": 3,
+    "setup_including_input_us": {
+      "n": 3,
+      "min": 563224.6689638123,
+      "median": 621736.0810260288,
+      "mean": 629000.3679847965,
+      "p95": 694009.9266706966,
+      "max": 702040.3539645486
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 3,
+      "min": 1062.6550065353513,
+      "median": 1306.696969550103,
+      "mean": 1259.5313019119203,
+      "p95": 1398.9874336402863,
+      "max": 1409.2419296503067
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 3,
+      "min": 209715200.0,
+      "median": 209715200.0,
+      "mean": 209715200.0,
+      "p95": 209715200.0,
+      "max": 209715200.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_OOD",
+    "case": "O01",
+    "policy": "SHAPE",
+    "n_blocks": 3,
+    "setup_including_input_us": {
+      "n": 3,
+      "min": 572231.5789898857,
+      "median": 611468.2140178047,
+      "mean": 602787.9029861651,
+      "p95": 623344.3457575049,
+      "max": 624663.915950805
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 3,
+      "min": 1099.1400340572,
+      "median": 1260.7240350916982,
+      "mean": 1266.0326901823282,
+      "p95": 1420.4830047674477,
+      "max": 1438.2340013980865
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 3,
+      "min": 209715200.0,
+      "median": 209715200.0,
+      "mean": 209715200.0,
+      "p95": 209715200.0,
+      "max": 209715200.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_OOD",
+    "case": "O02",
+    "policy": "LIB_ALWAYS",
+    "n_blocks": 3,
+    "setup_including_input_us": {
+      "n": 3,
+      "min": 1264703.1980450265,
+      "median": 1280743.6699513346,
+      "mean": 1275447.8026569511,
+      "p95": 1280881.2529721763,
+      "max": 1280896.539974492
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 3,
+      "min": 1162.1969169937074,
+      "median": 1197.1170897595584,
+      "mean": 1218.700665049255,
+      "p95": 1286.8208985310048,
+      "max": 1296.7879883944988
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 3,
+      "min": 340262912.0,
+      "median": 340262912.0,
+      "mean": 340262912.0,
+      "p95": 340262912.0,
+      "max": 340262912.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_OOD",
+    "case": "O02",
+    "policy": "RESOURCE",
+    "n_blocks": 3,
+    "setup_including_input_us": {
+      "n": 3,
+      "min": 1272718.1309601292,
+      "median": 1280900.7989708334,
+      "mean": 1284174.8529851127,
+      "p95": 1297105.146019021,
+      "max": 1298905.6290243752
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 3,
+      "min": 1202.0230060443282,
+      "median": 1312.0689545758069,
+      "mean": 2866.1416533092656,
+      "p95": 5607.106594834477,
+      "max": 6084.332999307662
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 3,
+      "min": 340262912.0,
+      "median": 340262912.0,
+      "mean": 340262912.0,
+      "p95": 340262912.0,
+      "max": 340262912.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_OOD",
+    "case": "O02",
+    "policy": "SHAPE",
+    "n_blocks": 3,
+    "setup_including_input_us": {
+      "n": 3,
+      "min": 1266671.8080290593,
+      "median": 1275057.7969709411,
+      "mean": 1272738.601313904,
+      "p95": 1276343.3587446343,
+      "max": 1276486.1989417113
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 3,
+      "min": 1102.725975215435,
+      "median": 1103.8510128855705,
+      "mean": 1158.178667537868,
+      "p95": 1251.5482143498957,
+      "max": 1267.9590145125985
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 3,
+      "min": 340262912.0,
+      "median": 340262912.0,
+      "mean": 340262912.0,
+      "p95": 340262912.0,
+      "max": 340262912.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_OOD",
+    "case": "O03",
+    "policy": "LIB_ALWAYS",
+    "n_blocks": 3,
+    "setup_including_input_us": {
+      "n": 3,
+      "min": 45121.07104528695,
+      "median": 45383.52304371074,
+      "mean": 47543.29703670616,
+      "p95": 51451.11962337978,
+      "max": 52125.29702112079
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 3,
+      "min": 1164.1840683296323,
+      "median": 1185.2489551529288,
+      "mean": 1213.931691988061,
+      "p95": 1281.6507427487522,
+      "max": 1292.3620524816215
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 3,
+      "min": 80674816.0,
+      "median": 80674816.0,
+      "mean": 80674816.0,
+      "p95": 80674816.0,
+      "max": 80674816.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_OOD",
+    "case": "O03",
+    "policy": "RESOURCE",
+    "n_blocks": 3,
+    "setup_including_input_us": {
+      "n": 3,
+      "min": 44403.095031157136,
+      "median": 44551.67299602181,
+      "mean": 45430.28333379576,
+      "p95": 47057.6410763897,
+      "max": 47336.081974208355
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 3,
+      "min": 1160.2160520851612,
+      "median": 1160.2689628489316,
+      "mean": 1260.4623140456777,
+      "p95": 1430.8386307675391,
+      "max": 1460.90192720294
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 3,
+      "min": 80674816.0,
+      "median": 80674816.0,
+      "mean": 80674816.0,
+      "p95": 80674816.0,
+      "max": 80674816.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_OOD",
+    "case": "O03",
+    "policy": "SHAPE",
+    "n_blocks": 3,
+    "setup_including_input_us": {
+      "n": 3,
+      "min": 44401.84304257855,
+      "median": 45321.715937461704,
+      "mean": 45150.72734405597,
+      "p95": 45687.932340661064,
+      "max": 45728.62305212766
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 3,
+      "min": 1083.6629662662745,
+      "median": 1173.4070722013712,
+      "mean": 1195.4686682050426,
+      "p95": 1313.7430767528713,
+      "max": 1329.3359661474824
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 3,
+      "min": 80674816.0,
+      "median": 80674816.0,
+      "mean": 80674816.0,
+      "p95": 80674816.0,
+      "max": 80674816.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_OOD",
+    "case": "O04",
+    "policy": "LIB_ALWAYS",
+    "n_blocks": 3,
+    "setup_including_input_us": {
+      "n": 3,
+      "min": 1193301.881023217,
+      "median": 1205989.715992473,
+      "mean": 1206506.252347026,
+      "p95": 1218803.4156220965,
+      "max": 1220227.160025388
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 3,
+      "min": 1450.2190169878304,
+      "median": 2098.4290167689323,
+      "mean": 3210.98401521643,
+      "p95": 5685.716512380168,
+      "max": 6084.304011892527
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 3,
+      "min": 320176128.0,
+      "median": 320176128.0,
+      "mean": 320176128.0,
+      "p95": 320176128.0,
+      "max": 320176128.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_OOD",
+    "case": "O04",
+    "policy": "RESOURCE",
+    "n_blocks": 3,
+    "setup_including_input_us": {
+      "n": 3,
+      "min": 1190572.171995882,
+      "median": 1199056.5669257194,
+      "mean": 1198113.7316518773,
+      "p95": 1204146.8671231996,
+      "max": 1204712.4560340308
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 3,
+      "min": 1315.726898610592,
+      "median": 1498.2540160417557,
+      "mean": 2968.485622356335,
+      "p95": 5632.153758779168,
+      "max": 6091.475952416658
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 3,
+      "min": 320176128.0,
+      "median": 320176128.0,
+      "mean": 320176128.0,
+      "p95": 320176128.0,
+      "max": 320176128.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_OOD",
+    "case": "O04",
+    "policy": "SHAPE",
+    "n_blocks": 3,
+    "setup_including_input_us": {
+      "n": 3,
+      "min": 1195743.4170180932,
+      "median": 1200950.411031954,
+      "mean": 1199770.207691472,
+      "p95": 1202450.1566251274,
+      "max": 1202616.795024369
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 3,
+      "min": 1245.4380630515516,
+      "median": 1506.4010513015091,
+      "mean": 3219.885053113103,
+      "p95": 6367.674545617774,
+      "max": 6907.816044986248
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 3,
+      "min": 320176128.0,
+      "median": 320176128.0,
+      "mean": 320176128.0,
+      "p95": 320176128.0,
+      "max": 320176128.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_TRACE",
+    "case": "BURST",
+    "policy": "BASE",
+    "n_blocks": 6,
+    "setup_including_input_us": {
+      "n": 6,
+      "min": 2817729.095928371,
+      "median": 2834008.953446755,
+      "mean": 2833978.5097923595,
+      "p95": 2850581.672450062,
+      "max": 2855029.603932053
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 6,
+      "min": 4713.895847089589,
+      "median": 5301.469995174557,
+      "mean": 7016.504474449903,
+      "p95": 11769.395234296098,
+      "max": 12621.36094737798
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 6,
+      "min": 899579904.0,
+      "median": 899579904.0,
+      "mean": 899579904.0,
+      "p95": 899579904.0,
+      "max": 899579904.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_TRACE",
+    "case": "BURST",
+    "policy": "LIB_ALWAYS",
+    "n_blocks": 6,
+    "setup_including_input_us": {
+      "n": 6,
+      "min": 2807208.692014683,
+      "median": 2838453.540462069,
+      "mean": 2853355.832853898,
+      "p95": 2935747.3250711337,
+      "max": 2962854.8210603185
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 6,
+      "min": 4724.268859717995,
+      "median": 5054.460052633658,
+      "mean": 8320.359173618877,
+      "p95": 20097.012966289185,
+      "max": 25062.17296468094
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 6,
+      "min": 899579904.0,
+      "median": 899579904.0,
+      "mean": 899579904.0,
+      "p95": 899579904.0,
+      "max": 899579904.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_TRACE",
+    "case": "BURST",
+    "policy": "PERMUTED_RESOURCE",
+    "n_blocks": 6,
+    "setup_including_input_us": {
+      "n": 6,
+      "min": 2786229.8658583313,
+      "median": 2816604.3704550248,
+      "mean": 2823605.1572991223,
+      "p95": 2864677.702571498,
+      "max": 2869214.6200919524
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 6,
+      "min": 4973.269940819591,
+      "median": 6163.842423120514,
+      "mean": 11781.632638303563,
+      "p95": 30446.124088484794,
+      "max": 36687.30612844229
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 6,
+      "min": 899579904.0,
+      "median": 899579904.0,
+      "mean": 899579904.0,
+      "p95": 899579904.0,
+      "max": 899579904.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_TRACE",
+    "case": "BURST",
+    "policy": "RESOURCE",
+    "n_blocks": 6,
+    "setup_including_input_us": {
+      "n": 6,
+      "min": 2808189.6349904127,
+      "median": 2834140.731516527,
+      "mean": 2834565.3361466248,
+      "p95": 2855943.288450362,
+      "max": 2859333.5079494864
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 6,
+      "min": 4849.863878916949,
+      "median": 5678.165936842561,
+      "mean": 10455.260965197036,
+      "p95": 21092.803595820442,
+      "max": 21519.489120692015
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 6,
+      "min": 899579904.0,
+      "median": 899579904.0,
+      "mean": 899579904.0,
+      "p95": 899579904.0,
+      "max": 899579904.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_TRACE",
+    "case": "BURST",
+    "policy": "RESOURCE_BOUND",
+    "n_blocks": 6,
+    "setup_including_input_us": {
+      "n": 6,
+      "min": 2764406.577043701,
+      "median": 2826794.013933977,
+      "mean": 2815449.488485077,
+      "p95": 2838268.471779884,
+      "max": 2839993.077039253
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 6,
+      "min": 4813.411098439246,
+      "median": 5311.524932039902,
+      "mean": 5391.5758326184,
+      "p95": 6282.822258071974,
+      "max": 6533.796025905758
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 6,
+      "min": 899579904.0,
+      "median": 899579904.0,
+      "mean": 899579904.0,
+      "p95": 899579904.0,
+      "max": 899579904.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_TRACE",
+    "case": "BURST",
+    "policy": "SHAPE",
+    "n_blocks": 6,
+    "setup_including_input_us": {
+      "n": 6,
+      "min": 2815050.8389808238,
+      "median": 2830816.936068004,
+      "mean": 2844856.6367151216,
+      "p95": 2903743.539514835,
+      "max": 2924194.2989756353
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 6,
+      "min": 4908.971139229834,
+      "median": 5612.452077912167,
+      "mean": 5817.080731503665,
+      "p95": 7011.978334048763,
+      "max": 7161.712099332362
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 6,
+      "min": 899579904.0,
+      "median": 899579904.0,
+      "mean": 899579904.0,
+      "p95": 899579904.0,
+      "max": 899579904.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_TRACE",
+    "case": "MIXED",
+    "policy": "BASE",
+    "n_blocks": 6,
+    "setup_including_input_us": {
+      "n": 6,
+      "min": 2782399.7848900035,
+      "median": 2832873.8431155216,
+      "mean": 2847618.1905619646,
+      "p95": 2941361.042612698,
+      "max": 2959986.208123155
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 6,
+      "min": 4647.020134143531,
+      "median": 5068.2574801612645,
+      "mean": 6375.491696720322,
+      "p95": 11179.670240380801,
+      "max": 13060.595956631005
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 6,
+      "min": 899579904.0,
+      "median": 899579904.0,
+      "mean": 899579904.0,
+      "p95": 899579904.0,
+      "max": 899579904.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_TRACE",
+    "case": "MIXED",
+    "policy": "LIB_ALWAYS",
+    "n_blocks": 6,
+    "setup_including_input_us": {
+      "n": 6,
+      "min": 2764403.609035071,
+      "median": 2849127.080087783,
+      "mean": 2846657.6820549867,
+      "p95": 2893771.37379779,
+      "max": 2897183.8110592216
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 6,
+      "min": 4645.0470690615475,
+      "median": 5836.775031639263,
+      "mean": 9009.612239121148,
+      "p95": 17939.051118446514,
+      "max": 19564.483140129596
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 6,
+      "min": 899579904.0,
+      "median": 899579904.0,
+      "mean": 899579904.0,
+      "p95": 899579904.0,
+      "max": 899579904.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_TRACE",
+    "case": "MIXED",
+    "policy": "RESOURCE",
+    "n_blocks": 6,
+    "setup_including_input_us": {
+      "n": 6,
+      "min": 2769397.361029405,
+      "median": 2842151.582502993,
+      "mean": 2850648.136207989,
+      "p95": 2927425.2073373646,
+      "max": 2937553.2111153007
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 6,
+      "min": 5060.755996964872,
+      "median": 5708.43365858309,
+      "mean": 7738.899206742644,
+      "p95": 12841.44313831348,
+      "max": 13328.895904123783
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 6,
+      "min": 899579904.0,
+      "median": 899579904.0,
+      "mean": 899579904.0,
+      "p95": 899579904.0,
+      "max": 899579904.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_TRACE",
+    "case": "MIXED",
+    "policy": "RESOURCE_BOUND",
+    "n_blocks": 6,
+    "setup_including_input_us": {
+      "n": 6,
+      "min": 2819827.887986321,
+      "median": 2884990.1195499115,
+      "mean": 2890486.3933469946,
+      "p95": 2982535.2921761805,
+      "max": 3001587.640901562
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 6,
+      "min": 4959.807149134576,
+      "median": 6191.146472701803,
+      "mean": 9257.050881084675,
+      "p95": 17358.994373353198,
+      "max": 18433.630175422877
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 6,
+      "min": 899579904.0,
+      "median": 899579904.0,
+      "mean": 899579904.0,
+      "p95": 899579904.0,
+      "max": 899579904.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_TRACE",
+    "case": "MIXED",
+    "policy": "SHAPE",
+    "n_blocks": 6,
+    "setup_including_input_us": {
+      "n": 6,
+      "min": 2825832.6590876095,
+      "median": 2855386.286508292,
+      "mean": 2862290.916518153,
+      "p95": 2914719.689026242,
+      "max": 2925207.4169926345
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 6,
+      "min": 4741.09296919778,
+      "median": 6369.313457980752,
+      "mean": 7750.880380626768,
+      "p95": 12579.915899550542,
+      "max": 13152.439147233963
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 6,
+      "min": 899579904.0,
+      "median": 899579904.0,
+      "mean": 899579904.0,
+      "p95": 899579904.0,
+      "max": 899579904.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_TRACE",
+    "case": "SHIFT_AND_FALLBACK",
+    "policy": "BASE",
+    "n_blocks": 6,
+    "setup_including_input_us": {
+      "n": 6,
+      "min": 5762847.263074946,
+      "median": 5813053.424004465,
+      "mean": 6038375.980540876,
+      "p95": 6851284.870630479,
+      "max": 7171494.654146954
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 6,
+      "min": 9814.775141421705,
+      "median": 11869.011126691476,
+      "mean": 12383.64369298021,
+      "p95": 15959.845419274643,
+      "max": 16763.568914029747
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 6,
+      "min": 1850408960.0,
+      "median": 1850408960.0,
+      "mean": 1850408960.0,
+      "p95": 1850408960.0,
+      "max": 1850408960.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_TRACE",
+    "case": "SHIFT_AND_FALLBACK",
+    "policy": "LIB_ALWAYS",
+    "n_blocks": 6,
+    "setup_including_input_us": {
+      "n": 6,
+      "min": 5819566.109275911,
+      "median": 5841740.802075947,
+      "mean": 5857982.566424956,
+      "p95": 5929688.028831151,
+      "max": 5948962.9490999505
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 6,
+      "min": 9218.483115546405,
+      "median": 10843.497526366264,
+      "mean": 11174.689464193458,
+      "p95": 13202.388683566824,
+      "max": 13339.680153876543
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 6,
+      "min": 1850408960.0,
+      "median": 1850408960.0,
+      "mean": 1850408960.0,
+      "p95": 1850408960.0,
+      "max": 1850408960.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_TRACE",
+    "case": "SHIFT_AND_FALLBACK",
+    "policy": "PERMUTED_RESOURCE",
+    "n_blocks": 6,
+    "setup_including_input_us": {
+      "n": 6,
+      "min": 5812648.513063323,
+      "median": 5886414.459499065,
+      "mean": 5902634.92767311,
+      "p95": 6021772.947962745,
+      "max": 6046574.52594256
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 6,
+      "min": 9499.26913017407,
+      "median": 14882.747433148324,
+      "mean": 14744.20198549827,
+      "p95": 19949.742156313732,
+      "max": 20393.926824908704
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 6,
+      "min": 1850408960.0,
+      "median": 1850408960.0,
+      "mean": 1850408960.0,
+      "p95": 1850408960.0,
+      "max": 1850408960.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_TRACE",
+    "case": "SHIFT_AND_FALLBACK",
+    "policy": "RESOURCE",
+    "n_blocks": 6,
+    "setup_including_input_us": {
+      "n": 6,
+      "min": 5820360.8600306325,
+      "median": 5894667.13697766,
+      "mean": 6072448.34669594,
+      "p95": 6731775.2505186945,
+      "max": 6982721.1200026795
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 6,
+      "min": 9926.467144396156,
+      "median": 11088.277620729059,
+      "mean": 14800.46422026741,
+      "p95": 27906.615738174878,
+      "max": 32616.4269936271
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 6,
+      "min": 1850408960.0,
+      "median": 1850408960.0,
+      "mean": 1850408960.0,
+      "p95": 1850408960.0,
+      "max": 1850408960.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_TRACE",
+    "case": "SHIFT_AND_FALLBACK",
+    "policy": "RESOURCE_BOUND",
+    "n_blocks": 6,
+    "setup_including_input_us": {
+      "n": 6,
+      "min": 5758289.368008263,
+      "median": 5834455.226518912,
+      "mean": 6026200.87149747,
+      "p95": 6732238.861499354,
+      "max": 7002768.410020508
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 6,
+      "min": 9645.102254580706,
+      "median": 10732.196009485051,
+      "mean": 14497.761973567927,
+      "p95": 24339.758601854555,
+      "max": 25585.215829778463
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 6,
+      "min": 1850408960.0,
+      "median": 1850408960.0,
+      "mean": 1850408960.0,
+      "p95": 1850408960.0,
+      "max": 1850408960.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  },
+  {
+    "stage": "S5_TRACE",
+    "case": "SHIFT_AND_FALLBACK",
+    "policy": "SHAPE",
+    "n_blocks": 6,
+    "setup_including_input_us": {
+      "n": 6,
+      "min": 5743334.379047155,
+      "median": 5850901.585450629,
+      "mean": 5847206.378656362,
+      "p95": 5942276.844478329,
+      "max": 5958485.67399662
+    },
+    "plan_setup_excluding_input_us": {
+      "n": 6,
+      "min": 9785.853966604918,
+      "median": 10346.459923312068,
+      "mean": 11817.54896727701,
+      "p95": 15353.789713117294,
+      "max": 15469.13490165025
+    },
+    "accounted_gpu_tensor_and_blas_bytes": {
+      "n": 6,
+      "min": 1850408960.0,
+      "median": 1850408960.0,
+      "mean": 1850408960.0,
+      "p95": 1850408960.0,
+      "max": 1850408960.0
+    },
+    "scope": "Prepared signatures and four input slots per signature; explicit tensor/cuBLAS allocations counted, context/graph allocator overhead not individually measured"
+  }
+]

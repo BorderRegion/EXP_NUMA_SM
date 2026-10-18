@@ -1,0 +1,14 @@
+{
+  "platform": "SET_t10_OR_rtx5070ti",
+  "project_root": "SET_LOCAL_PATH",
+  "cuda_root": null,
+  "cutlass_root": null,
+  "attention_backend_root": null,
+  "python_executable": null,
+  "local_wheelhouse": null,
+  "local_aot_cache": null,
+  "pretrained_models": [],
+  "input_datasets": [],
+  "old_resource_locks": [],
+  "notes": "Do not infer any path exists. No automatic downloads."
+}

@@ -1,0 +1,773 @@
+[
+  {
+    "path": "address-gemm-t10/CURRENT_RUN.txt",
+    "value": "/home/ubuntu/文档/ChatGPT/numa_gpu/address-gemm-t10/runs/20261017T130625Z",
+    "type": "current_run_pointer"
+  },
+  {
+    "path": "address-gemm-v2-t10/CURRENT_RUN.txt",
+    "value": "/home/ubuntu/文档/ChatGPT/numa_gpu/address-gemm-v2-t10/runs/20261017T134730Z",
+    "type": "current_run_pointer"
+  },
+  {
+    "path": "llm-decode-locality-t10/CURRENT_RUN.txt",
+    "value": "20261017T143113Z",
+    "type": "current_run_pointer"
+  },
+  {
+    "path": "matched-pacing-t10/CURRENT_RUN.txt",
+    "value": "/home/ubuntu/文档/ChatGPT/numa_gpu/matched-pacing-t10/runs/20261017T105920Z",
+    "type": "current_run_pointer"
+  },
+  {
+    "path": "numa-affinity-causal-t10/CURRENT_RUN.txt",
+    "value": "20261018T050207Z",
+    "type": "current_run_pointer"
+  },
+  {
+    "path": "numa-affinity-fastpath-t10/CURRENT_RUN.txt",
+    "value": "20261018T025123Z",
+    "type": "current_run_pointer"
+  },
+  {
+    "path": "numa-first-v3/CURRENT_RUN.txt",
+    "value": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-first-v3/runs/t10/20261016T021032Z",
+    "type": "current_run_pointer"
+  },
+  {
+    "path": "numa-locality-scheduling-t10/CURRENT_RUN.txt",
+    "value": "20261017T160348Z",
+    "type": "current_run_pointer"
+  },
+  {
+    "path": "op-fused/implementation_same_q_v2/CURRENT_RUN.txt",
+    "value": "/home/ubuntu/文档/ChatGPT/numa_gpu/op-fused/implementation_same_q_v2/20261015T171030Z",
+    "type": "current_run_pointer"
+  },
+  {
+    "path": "pc-handoff-t10/CURRENT_RUN.txt",
+    "value": "/home/ubuntu/文档/ChatGPT/numa_gpu/pc-handoff-t10/runs/20261016T112633Z",
+    "type": "current_run_pointer"
+  },
+  {
+    "path": "selective-reorder-repair-v2-t10/CURRENT_RUN.txt",
+    "value": "/home/ubuntu/文档/ChatGPT/numa_gpu/selective-reorder-repair-v2-t10/runs/20261017T021630Z",
+    "type": "current_run_pointer"
+  },
+  {
+    "path": "selective-reorder-t10/CURRENT_RUN.txt",
+    "value": "/home/ubuntu/文档/ChatGPT/numa_gpu/selective-reorder-t10/runs/20261016T170348Z",
+    "type": "current_run_pointer"
+  },
+  {
+    "path": "sm-topology-t10/CURRENT_RUN.txt",
+    "value": "/home/ubuntu/文档/ChatGPT/numa_gpu/sm-topology-t10/runs/20261017T121101Z",
+    "type": "current_run_pointer"
+  },
+  {
+    "path": "state-causality-t10/CURRENT_RUN.txt",
+    "value": "/home/ubuntu/文档/ChatGPT/numa_gpu/state-causality-t10/runs/20261017T092352Z",
+    "type": "current_run_pointer"
+  },
+  {
+    "path": "topology-affinity-t10/CURRENT_RUN.txt",
+    "value": "20261018T075145Z",
+    "type": "current_run_pointer"
+  },
+  {
+    "path": "topology-real-t10/CURRENT_RUN.txt",
+    "value": "20261018T123848Z",
+    "type": "current_run_pointer"
+  },
+  {
+    "path": "topology-tail-t10/CURRENT_RUN.txt",
+    "value": "20261018T084714Z",
+    "type": "current_run_pointer"
+  },
+  {
+    "path": "transient-f4-diag-t10/CURRENT_RUN.txt",
+    "value": "/home/ubuntu/文档/ChatGPT/numa_gpu/transient-f4-diag-t10/runs/20261017T063433Z",
+    "type": "current_run_pointer"
+  },
+  {
+    "path": "numa-first-v3/FROZEN_CURRENT_RUN.txt",
+    "value": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-first-v3/runs/t10/frozen_rule_20261016T084603Z",
+    "type": "frozen_run_pointer"
+  },
+  {
+    "path": "topology-affinity-t10/runs/20261018T075145Z",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "pc-handoff-t10/runs/20261016T112633Z",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "llm-decode-locality-t10/runs/20261017T143113Z",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "address-gemm-t10/runs/20261017T130625Z",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "sm-topology-t10/runs/20261017T121101Z",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "numa-first-v3/runs/t10/20261016T021032Z",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "numa-first-v3/runs/t10/frozen_rule_20261016T084603Z",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "transient-f4-diag-t10/runs/20261017T063433Z",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "topology-tail-t10/runs/20261018T084714Z",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "numa-affinity-causal-t10/runs/20261018T050207Z",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "state-causality-t10/runs/20261017T092352Z",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "numa-affinity-fastpath-t10/runs/20261018T025123Z",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "numa-locality-scheduling-t10/runs/20261017T160348Z",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "selective-reorder-t10/runs/20261016T170348Z",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "topology-real-t10/runs/20261018T123848Z",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "matched-pacing-t10/runs/20261017T105920Z",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "address-gemm-v2-t10/runs/20261017T134730Z",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "selective-reorder-repair-v2-t10/runs/20261017T021630Z",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/recovery_20261015/input_review/source_evidence/runs/20261015T094345Z_89855f78",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/recovery_20261015/input_review/source_evidence/runs/20261015T100335Z_59576272",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T065311Z_a3da2a6d",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T065451Z_984eee97",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T070103Z_c08ad72f",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T070154Z_fff46e94",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T070320Z_489d6a73",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T070359Z_798d7e97",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T070441Z_e4da5c64",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T070624Z_d3e8ec62",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T070758Z_82c77826",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T070909Z_83670777",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T070933Z_16ece5c8",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T071051Z_2a786289",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T071146Z_a372da65",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T071157Z_320c41f5",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T071339Z_4c55647f",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T071612Z_48912887",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T071616Z_4b12c076",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T071618Z_a811468d",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T071912Z_0cc4ed90",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T072304Z_dae110a1",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T072608Z_5ec9d1e8",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T072903Z_28fd1823",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T073255Z_24cf84ed",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T073554Z_3a8fb670",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T073945Z_cf9ff1e5",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T074240Z_777eff5c",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T074631Z_425aa9f0",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T074800Z_9e192994",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T074928Z_20444b05",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T075053Z_a29d18be",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T080613Z_3373eacf",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T080844Z_b8a6e213",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T080934Z_48c80ca7",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T082435Z_db009f52",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T082546Z_1170c711",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T082710Z_876b40de",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T083728Z_87f58aab",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T084208Z_196a6001",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T084447Z_adf3f88b",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T084450Z_f265ef03",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T085942Z_118c4a9d",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T090211Z_649c048f",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T090223Z_780817b1",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T091718Z_db844a86",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T091721Z_0e59065c",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T091953Z_f30b5287",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T093518Z_abc788ea",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T093850Z_d67b98ad",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T093854Z_26fe8df4",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T093945Z_3cdb7fd8",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T094041Z_100e6b32",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T094142Z_d8357ddb",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T094243Z_1c4edce7",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T094345Z_89855f78",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T094704Z_c6b2602f",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T095022Z_296f5428",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T095341Z_563fe933",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T095659Z_364676e3",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T100017Z_1c724530",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T100335Z_59576272",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T100617Z_aa80b5f9",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T100856Z_4ed2e0e0",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T101136Z_b83a6a36",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T101415Z_65a2c003",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T101652Z_523879a7",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T132503Z_d7fdc582",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T132957Z_2d7eb1fe",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T133230Z_326de820",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T133348Z_961bcc8b",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T134201Z_70281395",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T134322Z_795b17cb",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T134623Z_4395fce0",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T134651Z_7332d632",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T135347Z_a621beb6",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T140051Z_b9ccd381",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T140755Z_8492fa99",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T141458Z_b73f48b4",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T142200Z_333d4f94",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T143049Z_be016894",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T143936Z_2ba4c632",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T144822Z_db1d418b",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T145708Z_bbb5e906",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T150554Z_1310b2e6",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T151441Z_5a9fdfcb",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T151508Z_0129132a",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T151535Z_29b782cb",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T151601Z_644e28b0",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T151628Z_591dd4b0",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T151655Z_2c7c5f3e",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T151722Z_0e23dfd4",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T152254Z_833971a9",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T152827Z_bf1eb6e9",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T153356Z_fc84c0a5",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T153929Z_2a4216df",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T154505Z_31a89a57",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T171516Z_c7f2b66b",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T171712Z_21be6100",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T171721Z_4e01102a",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T172217Z_45a68e03",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T172727Z_8a5e74fa",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T173239Z_6692602f",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T173314Z_be4a5c58",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T173350Z_c4b67fe0",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T173425Z_60ae99b0",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T173624Z_8992c74b",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T173823Z_12301bfc",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T174023Z_2eaece53",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T174222Z_430f05a7",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T174421Z_9e8aaa7d",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T174624Z_3dbd9ebd",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T174630Z_ddbf4617",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T174633Z_0db924c2",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T174919Z_dc61648b",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T175205Z_daca8756",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T175449Z_cf348550",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T175737Z_00e16970",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T180024Z_56694fb1",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T180308Z_1625de8e",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T180505Z_0b37aed1",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T180705Z_bada72e9",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T180900Z_73ac6726",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T180937Z_54ec5d59",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "op-fused/runs/20261015T181012Z_a2fa421d",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/E0_qualification",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/E0_sanitizer",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/E0_size_qualification",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/E1",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/E2",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/E3",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/E4_W1",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/E4_W2",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/S1",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/S1_qualification",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/S2",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/S2_qualification",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/S2_sanitizer",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/S3",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/S3_qualification",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/S3_sanitizer",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/W1_calibration",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/W1_empty_qualification",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/W1_pilot",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/W1_profile",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/W1_qualification",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/W1_sanitizer",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/W2_calibration",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/W2_initial_qualification",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/W2_qualification",
+    "type": "run_or_stage_directory"
+  },
+  {
+    "path": "runs/t10/W2_sanitizer",
+    "type": "run_or_stage_directory"
+  }
+]

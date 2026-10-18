@@ -1,0 +1,11 @@
+{
+  "full_run_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/pc-handoff-t10/runs/20261016T112633Z",
+  "all_phase_summaries": true,
+  "all_paired_block_values": true,
+  "all_correctness_records": true,
+  "request_samples": "First three exact sample records from one worker in each major stage; files named samples.selected.jsonl",
+  "full_raw_in_companion_archive": true,
+  "third_party_dependencies_and_model_included": false,
+  "source_epochs": "Frozen isolated matrix vs separately qualified production math; metadata-only host repair recorded",
+  "recompute_command": "python3 src/recompute.py data/run"
+}

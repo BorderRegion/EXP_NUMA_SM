@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-10-18T04:11:41.171192+00:00",
+  "status": "PASS",
+  "full": {
+    "path": "/home/ubuntu/下载/T10_SM_AFFINITY_SOFTMAX_20261018.zip",
+    "bytes": 78142670,
+    "sha256": "1a1b52e9a96231371b84fbd18e0b5a1aa911019b556ff23630887502862aef32",
+    "files": 3908
+  },
+  "small": {
+    "path": "/home/ubuntu/下载/T10_SM_AFFINITY_SOFTMAX_20261018_SMALL.zip",
+    "bytes": 748884,
+    "sha256": "b2c0501f02ae1d7f1da7a3bdfa4b5c2f4a82ac10e1f319d05f1b5b8e785cce04",
+    "files": 96
+  },
+  "fresh_extraction_cpu_recompute": "PASS",
+  "packaged_files_unchanged_after_recompute": true,
+  "crc_and_all_file_sha256": "PASS",
+  "qa_log": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-affinity-fastpath-t10/reports/CPU_RECOMPUTE_QA.log"
+}

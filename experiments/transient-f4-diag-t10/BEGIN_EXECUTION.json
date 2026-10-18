@@ -1,0 +1,11 @@
+{
+  "started_at": "2026-10-17T06:34:33.884244+00:00",
+  "budget_started_monotonic": 353560.617644234,
+  "initial_read_allowance_s": 300,
+  "prior_root": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu/selective-reorder-repair-v2-t10",
+  "prior_run": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu/selective-reorder-repair-v2-t10/runs/20261017T021630Z",
+  "input_sha256": "186ebbe750192cddd35ce6209eb51965fb32a82b52f5ee28a9e13a1ab599e418",
+  "prior_gpu_minutes": 240.7838812511686,
+  "gpu_cap_minutes": 85,
+  "wall_hard_minutes": 540
+}

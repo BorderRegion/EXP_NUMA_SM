@@ -1,0 +1,53 @@
+{
+  "freeze_sha256": "099e692139a12ea22e5035030f14e506d8a22554b1225b68195cae1dce7b26cf",
+  "freeze_time": "2026-10-15T17:34:25.147140+00:00",
+  "bindings": [
+    {
+      "key": "sameq_v2_develop_0",
+      "binary_sha256": "280fedad550e48a44cea6b2b8721748996afa8cca975b2d0f2e33572a2aa3037",
+      "process_started_at": "2026-10-15T17:17:21.993883+00:00"
+    },
+    {
+      "key": "sameq_v2_develop_1",
+      "binary_sha256": "280fedad550e48a44cea6b2b8721748996afa8cca975b2d0f2e33572a2aa3037",
+      "process_started_at": "2026-10-15T17:22:17.470596+00:00"
+    },
+    {
+      "key": "sameq_v2_develop_2",
+      "binary_sha256": "280fedad550e48a44cea6b2b8721748996afa8cca975b2d0f2e33572a2aa3037",
+      "process_started_at": "2026-10-15T17:27:28.032677+00:00"
+    },
+    {
+      "key": "sameq_v2_formal_0",
+      "binary_sha256": "280fedad550e48a44cea6b2b8721748996afa8cca975b2d0f2e33572a2aa3037",
+      "process_started_at": "2026-10-15T17:34:25.497000+00:00"
+    },
+    {
+      "key": "sameq_v2_formal_1",
+      "binary_sha256": "280fedad550e48a44cea6b2b8721748996afa8cca975b2d0f2e33572a2aa3037",
+      "process_started_at": "2026-10-15T17:36:24.553379+00:00"
+    },
+    {
+      "key": "sameq_v2_formal_2",
+      "binary_sha256": "280fedad550e48a44cea6b2b8721748996afa8cca975b2d0f2e33572a2aa3037",
+      "process_started_at": "2026-10-15T17:38:23.513584+00:00"
+    },
+    {
+      "key": "sameq_v2_formal_3",
+      "binary_sha256": "280fedad550e48a44cea6b2b8721748996afa8cca975b2d0f2e33572a2aa3037",
+      "process_started_at": "2026-10-15T17:40:23.575548+00:00"
+    },
+    {
+      "key": "sameq_v2_formal_4",
+      "binary_sha256": "280fedad550e48a44cea6b2b8721748996afa8cca975b2d0f2e33572a2aa3037",
+      "process_started_at": "2026-10-15T17:42:22.635633+00:00"
+    },
+    {
+      "key": "sameq_v2_formal_5",
+      "binary_sha256": "280fedad550e48a44cea6b2b8721748996afa8cca975b2d0f2e33572a2aa3037",
+      "process_started_at": "2026-10-15T17:44:21.606470+00:00"
+    }
+  ],
+  "all_development_and_formal_share_binary": true,
+  "freeze_precedes_all_formal": true
+}

@@ -1,0 +1,6 @@
+{
+  "actual_build": "/home/ubuntu/文档/ChatGPT/numa_gpu/pc-handoff-t10/build/20261016T115221Z",
+  "actual_build_source": "All four child stdout ACTUAL_BUILD_PATH and explicit PC_BUILD in pc_matrix.py",
+  "parent_wrapper_binary_field": "Wrapper sampled BUILD.txt before child override; do not use that field for isolated matrix cubin attribution.",
+  "matching_snapshot": "freeze/implementation; backend.cu, kernels.cu, kernels.cuh, resources.hpp and both adapters match matrix build source hashes exactly."
+}

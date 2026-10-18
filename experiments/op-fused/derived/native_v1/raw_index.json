@@ -1,0 +1,6554 @@
+[
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-042",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-042.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-017",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-017.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-006",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-006.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-053",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-053.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-045",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-045.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-010",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-010.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-002",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-002.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "heterogeneous_k-001",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/heterogeneous_k-001.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "dense_control-009",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/dense_control-009.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "heterogeneous_k-005",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/heterogeneous_k-005.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-050",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-050.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "heterogeneous_k-006",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/heterogeneous_k-006.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-009",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-009.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "dense_control-015",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/dense_control-015.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-014",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-014.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-018",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-018.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-022",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-022.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "dense_control-021",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/dense_control-021.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-034",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-034.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "dense_control-019",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/dense_control-019.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "dense_control-007",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/dense_control-007.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-033",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-033.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "dense_control-011",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/dense_control-011.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "dense_control-023",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/dense_control-023.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "heterogeneous_k-002",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/heterogeneous_k-002.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-005",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-005.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "dense_control-013",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/dense_control-013.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-054",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-054.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-013",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-013.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "dense_control-003",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/dense_control-003.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-038",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-038.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "dense_control-017",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/dense_control-017.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "heterogeneous_k-004",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/heterogeneous_k-004.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "heterogeneous_k-003",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/heterogeneous_k-003.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "dense_control-005",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/dense_control-005.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-041",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-041.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-021",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-021.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-049",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-049.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-037",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-037.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-001",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-001.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "dense_control-001",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/dense_control-001.json"
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "case_id": "grouped-046",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070154Z_fff46e94/grouped-046.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-042",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-042.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-017",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-017.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-006",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-006.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-053",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-053.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-045",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-045.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-010",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-010.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-002",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-002.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "heterogeneous_k-001",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/heterogeneous_k-001.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "dense_control-009",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/dense_control-009.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "heterogeneous_k-005",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/heterogeneous_k-005.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-050",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-050.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "heterogeneous_k-006",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/heterogeneous_k-006.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-009",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-009.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "dense_control-015",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/dense_control-015.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-014",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-014.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-018",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-018.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-022",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-022.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "dense_control-021",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/dense_control-021.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-034",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-034.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "dense_control-019",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/dense_control-019.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "dense_control-007",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/dense_control-007.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-033",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-033.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "dense_control-011",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/dense_control-011.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "dense_control-023",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/dense_control-023.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "heterogeneous_k-002",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/heterogeneous_k-002.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-005",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-005.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "dense_control-013",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/dense_control-013.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-054",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-054.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-013",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-013.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "dense_control-003",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/dense_control-003.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-038",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-038.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "dense_control-017",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/dense_control-017.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "heterogeneous_k-004",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/heterogeneous_k-004.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "heterogeneous_k-003",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/heterogeneous_k-003.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "dense_control-005",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/dense_control-005.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-041",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-041.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-021",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-021.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-049",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-049.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-037",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-037.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-001",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-001.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "dense_control-001",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/dense_control-001.json"
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "case_id": "grouped-046",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070320Z_489d6a73/grouped-046.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-042",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-042.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-017",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-017.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-006",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-006.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-053",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-053.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-045",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-045.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-010",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-010.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-002",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-002.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "heterogeneous_k-001",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/heterogeneous_k-001.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "dense_control-009",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/dense_control-009.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "heterogeneous_k-005",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/heterogeneous_k-005.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-050",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-050.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "heterogeneous_k-006",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/heterogeneous_k-006.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-009",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-009.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "dense_control-015",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/dense_control-015.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-014",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-014.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-018",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-018.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-022",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-022.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "dense_control-021",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/dense_control-021.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-034",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-034.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "dense_control-019",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/dense_control-019.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "dense_control-007",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/dense_control-007.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-033",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-033.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "dense_control-011",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/dense_control-011.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "dense_control-023",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/dense_control-023.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "heterogeneous_k-002",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/heterogeneous_k-002.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-005",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-005.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "dense_control-013",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/dense_control-013.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-054",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-054.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-013",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-013.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "dense_control-003",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/dense_control-003.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-038",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-038.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "dense_control-017",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/dense_control-017.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "heterogeneous_k-004",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/heterogeneous_k-004.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "heterogeneous_k-003",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/heterogeneous_k-003.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "dense_control-005",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/dense_control-005.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-041",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-041.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-021",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-021.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-049",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-049.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-037",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-037.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-001",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-001.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "dense_control-001",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/dense_control-001.json"
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "case_id": "grouped-046",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070441Z_e4da5c64/grouped-046.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-042",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-042.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-017",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-017.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-006",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-006.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-053",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-053.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-045",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-045.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-010",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-010.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-002",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-002.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "heterogeneous_k-001",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/heterogeneous_k-001.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "dense_control-009",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/dense_control-009.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "heterogeneous_k-005",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/heterogeneous_k-005.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-050",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-050.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "heterogeneous_k-006",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/heterogeneous_k-006.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-009",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-009.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "dense_control-015",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/dense_control-015.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-014",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-014.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-018",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-018.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-022",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-022.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "dense_control-021",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/dense_control-021.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-034",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-034.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "dense_control-019",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/dense_control-019.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "dense_control-007",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/dense_control-007.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-033",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-033.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "dense_control-011",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/dense_control-011.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "dense_control-023",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/dense_control-023.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "heterogeneous_k-002",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/heterogeneous_k-002.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-005",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-005.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "dense_control-013",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/dense_control-013.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-054",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-054.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-013",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-013.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "dense_control-003",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/dense_control-003.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-038",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-038.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "dense_control-017",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/dense_control-017.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "heterogeneous_k-004",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/heterogeneous_k-004.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "heterogeneous_k-003",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/heterogeneous_k-003.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "dense_control-005",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/dense_control-005.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-041",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-041.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-021",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-021.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-049",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-049.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-037",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-037.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-001",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-001.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "dense_control-001",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/dense_control-001.json"
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "case_id": "grouped-046",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070624Z_d3e8ec62/grouped-046.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-042",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-042.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-017",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-017.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-006",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-006.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-053",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-053.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-045",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-045.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-010",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-010.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-002",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-002.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "heterogeneous_k-001",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/heterogeneous_k-001.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "dense_control-009",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/dense_control-009.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "heterogeneous_k-005",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/heterogeneous_k-005.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-050",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-050.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "heterogeneous_k-006",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/heterogeneous_k-006.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-009",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-009.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "dense_control-015",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/dense_control-015.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-014",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-014.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-018",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-018.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-022",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-022.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "dense_control-021",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/dense_control-021.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-034",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-034.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "dense_control-019",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/dense_control-019.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "dense_control-007",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/dense_control-007.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-033",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-033.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "dense_control-011",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/dense_control-011.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "dense_control-023",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/dense_control-023.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "heterogeneous_k-002",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/heterogeneous_k-002.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-005",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-005.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "dense_control-013",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/dense_control-013.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-054",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-054.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-013",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-013.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "dense_control-003",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/dense_control-003.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-038",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-038.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "dense_control-017",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/dense_control-017.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "heterogeneous_k-004",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/heterogeneous_k-004.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "heterogeneous_k-003",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/heterogeneous_k-003.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "dense_control-005",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/dense_control-005.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-041",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-041.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-021",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-021.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-049",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-049.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-037",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-037.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-001",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-001.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "dense_control-001",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/dense_control-001.json"
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "case_id": "grouped-046",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070758Z_82c77826/grouped-046.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-042",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-042.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-017",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-017.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-006",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-006.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-053",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-053.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-045",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-045.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-010",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-010.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-002",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-002.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "heterogeneous_k-001",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/heterogeneous_k-001.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "dense_control-009",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/dense_control-009.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "heterogeneous_k-005",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/heterogeneous_k-005.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-050",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-050.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "heterogeneous_k-006",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/heterogeneous_k-006.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-009",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-009.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "dense_control-015",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/dense_control-015.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-014",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-014.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-018",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-018.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-022",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-022.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "dense_control-021",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/dense_control-021.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-034",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-034.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "dense_control-019",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/dense_control-019.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "dense_control-007",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/dense_control-007.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-033",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-033.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "dense_control-011",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/dense_control-011.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "dense_control-023",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/dense_control-023.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "heterogeneous_k-002",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/heterogeneous_k-002.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-005",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-005.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "dense_control-013",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/dense_control-013.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-054",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-054.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-013",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-013.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "dense_control-003",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/dense_control-003.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-038",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-038.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "dense_control-017",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/dense_control-017.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "heterogeneous_k-004",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/heterogeneous_k-004.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "heterogeneous_k-003",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/heterogeneous_k-003.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "dense_control-005",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/dense_control-005.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-041",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-041.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-021",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-021.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-049",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-049.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-037",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-037.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-001",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-001.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "dense_control-001",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/dense_control-001.json"
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "case_id": "grouped-046",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T070933Z_16ece5c8/grouped-046.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "dense_control-014",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/dense_control-014.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "dense_control-020",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/dense_control-020.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-016",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-016.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-088",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-088.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "heterogeneous_k-007",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/heterogeneous_k-007.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "dense_control-012",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/dense_control-012.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-025",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-025.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "dense_control-008",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/dense_control-008.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-094",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-094.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "dense_control-022",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/dense_control-022.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-081",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-081.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-079",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-079.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-029",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-029.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-057",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-057.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "dense_control-002",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/dense_control-002.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-058",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-058.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-026",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-026.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "dense_control-010",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/dense_control-010.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-031",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-031.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "dense_control-004",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/dense_control-004.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "dense_control-016",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/dense_control-016.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-093",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-093.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-063",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-063.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-028",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-028.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "heterogeneous_k-012",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/heterogeneous_k-012.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-035",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-035.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "dense_control-018",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/dense_control-018.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "heterogeneous_k-008",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/heterogeneous_k-008.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "heterogeneous_k-010",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/heterogeneous_k-010.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-061",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-061.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-052",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-052.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "heterogeneous_k-009",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/heterogeneous_k-009.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-030",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-030.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-003",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-003.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-092",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-092.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-040",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-040.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-091",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-091.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "dense_control-006",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/dense_control-006.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-090",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-090.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "dense_control-024",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/dense_control-024.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "grouped-062",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/grouped-062.json"
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "case_id": "heterogeneous_k-011",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071157Z_320c41f5/heterogeneous_k-011.json"
+  },
+  {
+    "run_id": "20261015T071339Z_4c55647f",
+    "case_id": "moe_layer-007",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071339Z_4c55647f/moe_layer-007.json"
+  },
+  {
+    "run_id": "20261015T071339Z_4c55647f",
+    "case_id": "moe_layer-009",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071339Z_4c55647f/moe_layer-009.json"
+  },
+  {
+    "run_id": "20261015T071339Z_4c55647f",
+    "case_id": "moe_layer-002",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071339Z_4c55647f/moe_layer-002.json"
+  },
+  {
+    "run_id": "20261015T071339Z_4c55647f",
+    "case_id": "moe_layer-005",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071339Z_4c55647f/moe_layer-005.json"
+  },
+  {
+    "run_id": "20261015T071339Z_4c55647f",
+    "case_id": "moe_layer-001",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071339Z_4c55647f/moe_layer-001.json"
+  },
+  {
+    "run_id": "20261015T071339Z_4c55647f",
+    "case_id": "moe_layer-004",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071339Z_4c55647f/moe_layer-004.json"
+  },
+  {
+    "run_id": "20261015T071339Z_4c55647f",
+    "case_id": "moe_layer-003",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071339Z_4c55647f/moe_layer-003.json"
+  },
+  {
+    "run_id": "20261015T071339Z_4c55647f",
+    "case_id": "moe_layer-016",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071339Z_4c55647f/moe_layer-016.json"
+  },
+  {
+    "run_id": "20261015T071339Z_4c55647f",
+    "case_id": "moe_layer-008",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071339Z_4c55647f/moe_layer-008.json"
+  },
+  {
+    "run_id": "20261015T071339Z_4c55647f",
+    "case_id": "moe_layer-024",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071339Z_4c55647f/moe_layer-024.json"
+  },
+  {
+    "run_id": "20261015T071339Z_4c55647f",
+    "case_id": "moe_layer-006",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071339Z_4c55647f/moe_layer-006.json"
+  },
+  {
+    "run_id": "20261015T071339Z_4c55647f",
+    "case_id": "moe_layer-017",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071339Z_4c55647f/moe_layer-017.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "dense_control-014",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/dense_control-014.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "dense_control-020",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/dense_control-020.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-016",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-016.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-088",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-088.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "heterogeneous_k-007",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/heterogeneous_k-007.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "dense_control-012",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/dense_control-012.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-025",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-025.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "dense_control-008",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/dense_control-008.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-094",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-094.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "dense_control-022",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/dense_control-022.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-081",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-081.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-079",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-079.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-029",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-029.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-057",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-057.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "dense_control-002",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/dense_control-002.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-058",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-058.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-026",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-026.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "dense_control-010",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/dense_control-010.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-031",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-031.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "dense_control-004",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/dense_control-004.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "dense_control-016",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/dense_control-016.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-093",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-093.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-063",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-063.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-028",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-028.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "heterogeneous_k-012",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/heterogeneous_k-012.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-035",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-035.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "dense_control-018",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/dense_control-018.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "heterogeneous_k-008",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/heterogeneous_k-008.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "heterogeneous_k-010",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/heterogeneous_k-010.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-061",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-061.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-052",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-052.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "heterogeneous_k-009",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/heterogeneous_k-009.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-030",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-030.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-003",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-003.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-092",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-092.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-040",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-040.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-091",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-091.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "dense_control-006",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/dense_control-006.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-090",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-090.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "dense_control-024",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/dense_control-024.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "grouped-062",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/grouped-062.json"
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "case_id": "heterogeneous_k-011",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071612Z_48912887/heterogeneous_k-011.json"
+  },
+  {
+    "run_id": "20261015T071912Z_0cc4ed90",
+    "case_id": "moe_layer-007",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071912Z_0cc4ed90/moe_layer-007.json"
+  },
+  {
+    "run_id": "20261015T071912Z_0cc4ed90",
+    "case_id": "moe_layer-009",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071912Z_0cc4ed90/moe_layer-009.json"
+  },
+  {
+    "run_id": "20261015T071912Z_0cc4ed90",
+    "case_id": "moe_layer-002",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071912Z_0cc4ed90/moe_layer-002.json"
+  },
+  {
+    "run_id": "20261015T071912Z_0cc4ed90",
+    "case_id": "moe_layer-005",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071912Z_0cc4ed90/moe_layer-005.json"
+  },
+  {
+    "run_id": "20261015T071912Z_0cc4ed90",
+    "case_id": "moe_layer-001",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071912Z_0cc4ed90/moe_layer-001.json"
+  },
+  {
+    "run_id": "20261015T071912Z_0cc4ed90",
+    "case_id": "moe_layer-004",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071912Z_0cc4ed90/moe_layer-004.json"
+  },
+  {
+    "run_id": "20261015T071912Z_0cc4ed90",
+    "case_id": "moe_layer-003",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071912Z_0cc4ed90/moe_layer-003.json"
+  },
+  {
+    "run_id": "20261015T071912Z_0cc4ed90",
+    "case_id": "moe_layer-016",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071912Z_0cc4ed90/moe_layer-016.json"
+  },
+  {
+    "run_id": "20261015T071912Z_0cc4ed90",
+    "case_id": "moe_layer-008",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071912Z_0cc4ed90/moe_layer-008.json"
+  },
+  {
+    "run_id": "20261015T071912Z_0cc4ed90",
+    "case_id": "moe_layer-024",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071912Z_0cc4ed90/moe_layer-024.json"
+  },
+  {
+    "run_id": "20261015T071912Z_0cc4ed90",
+    "case_id": "moe_layer-006",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071912Z_0cc4ed90/moe_layer-006.json"
+  },
+  {
+    "run_id": "20261015T071912Z_0cc4ed90",
+    "case_id": "moe_layer-017",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T071912Z_0cc4ed90/moe_layer-017.json"
+  },
+  {
+    "run_id": "20261015T072608Z_5ec9d1e8",
+    "case_id": "moe_layer-007",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072608Z_5ec9d1e8/moe_layer-007.json"
+  },
+  {
+    "run_id": "20261015T072608Z_5ec9d1e8",
+    "case_id": "moe_layer-009",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072608Z_5ec9d1e8/moe_layer-009.json"
+  },
+  {
+    "run_id": "20261015T072608Z_5ec9d1e8",
+    "case_id": "moe_layer-002",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072608Z_5ec9d1e8/moe_layer-002.json"
+  },
+  {
+    "run_id": "20261015T072608Z_5ec9d1e8",
+    "case_id": "moe_layer-005",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072608Z_5ec9d1e8/moe_layer-005.json"
+  },
+  {
+    "run_id": "20261015T072608Z_5ec9d1e8",
+    "case_id": "moe_layer-001",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072608Z_5ec9d1e8/moe_layer-001.json"
+  },
+  {
+    "run_id": "20261015T072608Z_5ec9d1e8",
+    "case_id": "moe_layer-004",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072608Z_5ec9d1e8/moe_layer-004.json"
+  },
+  {
+    "run_id": "20261015T072608Z_5ec9d1e8",
+    "case_id": "moe_layer-003",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072608Z_5ec9d1e8/moe_layer-003.json"
+  },
+  {
+    "run_id": "20261015T072608Z_5ec9d1e8",
+    "case_id": "moe_layer-016",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072608Z_5ec9d1e8/moe_layer-016.json"
+  },
+  {
+    "run_id": "20261015T072608Z_5ec9d1e8",
+    "case_id": "moe_layer-008",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072608Z_5ec9d1e8/moe_layer-008.json"
+  },
+  {
+    "run_id": "20261015T072608Z_5ec9d1e8",
+    "case_id": "moe_layer-024",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072608Z_5ec9d1e8/moe_layer-024.json"
+  },
+  {
+    "run_id": "20261015T072608Z_5ec9d1e8",
+    "case_id": "moe_layer-006",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072608Z_5ec9d1e8/moe_layer-006.json"
+  },
+  {
+    "run_id": "20261015T072608Z_5ec9d1e8",
+    "case_id": "moe_layer-017",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072608Z_5ec9d1e8/moe_layer-017.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "dense_control-014",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/dense_control-014.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "dense_control-020",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/dense_control-020.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-016",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-016.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-088",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-088.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "heterogeneous_k-007",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/heterogeneous_k-007.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "dense_control-012",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/dense_control-012.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-025",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-025.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "dense_control-008",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/dense_control-008.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-094",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-094.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "dense_control-022",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/dense_control-022.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-081",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-081.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-079",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-079.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-029",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-029.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-057",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-057.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "dense_control-002",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/dense_control-002.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-058",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-058.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-026",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-026.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "dense_control-010",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/dense_control-010.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-031",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-031.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "dense_control-004",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/dense_control-004.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "dense_control-016",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/dense_control-016.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-093",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-093.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-063",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-063.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-028",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-028.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "heterogeneous_k-012",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/heterogeneous_k-012.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-035",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-035.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "dense_control-018",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/dense_control-018.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "heterogeneous_k-008",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/heterogeneous_k-008.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "heterogeneous_k-010",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/heterogeneous_k-010.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-061",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-061.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-052",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-052.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "heterogeneous_k-009",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/heterogeneous_k-009.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-030",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-030.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-003",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-003.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-092",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-092.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-040",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-040.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-091",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-091.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "dense_control-006",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/dense_control-006.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-090",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-090.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "dense_control-024",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/dense_control-024.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "grouped-062",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/grouped-062.json"
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "case_id": "heterogeneous_k-011",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072304Z_dae110a1/heterogeneous_k-011.json"
+  },
+  {
+    "run_id": "20261015T072903Z_28fd1823",
+    "case_id": "moe_layer-007",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072903Z_28fd1823/moe_layer-007.json"
+  },
+  {
+    "run_id": "20261015T072903Z_28fd1823",
+    "case_id": "moe_layer-009",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072903Z_28fd1823/moe_layer-009.json"
+  },
+  {
+    "run_id": "20261015T072903Z_28fd1823",
+    "case_id": "moe_layer-002",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072903Z_28fd1823/moe_layer-002.json"
+  },
+  {
+    "run_id": "20261015T072903Z_28fd1823",
+    "case_id": "moe_layer-005",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072903Z_28fd1823/moe_layer-005.json"
+  },
+  {
+    "run_id": "20261015T072903Z_28fd1823",
+    "case_id": "moe_layer-001",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072903Z_28fd1823/moe_layer-001.json"
+  },
+  {
+    "run_id": "20261015T072903Z_28fd1823",
+    "case_id": "moe_layer-004",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072903Z_28fd1823/moe_layer-004.json"
+  },
+  {
+    "run_id": "20261015T072903Z_28fd1823",
+    "case_id": "moe_layer-003",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072903Z_28fd1823/moe_layer-003.json"
+  },
+  {
+    "run_id": "20261015T072903Z_28fd1823",
+    "case_id": "moe_layer-016",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072903Z_28fd1823/moe_layer-016.json"
+  },
+  {
+    "run_id": "20261015T072903Z_28fd1823",
+    "case_id": "moe_layer-008",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072903Z_28fd1823/moe_layer-008.json"
+  },
+  {
+    "run_id": "20261015T072903Z_28fd1823",
+    "case_id": "moe_layer-024",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072903Z_28fd1823/moe_layer-024.json"
+  },
+  {
+    "run_id": "20261015T072903Z_28fd1823",
+    "case_id": "moe_layer-006",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072903Z_28fd1823/moe_layer-006.json"
+  },
+  {
+    "run_id": "20261015T072903Z_28fd1823",
+    "case_id": "moe_layer-017",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T072903Z_28fd1823/moe_layer-017.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "dense_control-014",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/dense_control-014.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "dense_control-020",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/dense_control-020.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-016",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-016.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-088",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-088.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "heterogeneous_k-007",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/heterogeneous_k-007.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "dense_control-012",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/dense_control-012.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-025",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-025.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "dense_control-008",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/dense_control-008.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-094",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-094.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "dense_control-022",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/dense_control-022.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-081",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-081.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-079",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-079.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-029",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-029.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-057",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-057.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "dense_control-002",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/dense_control-002.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-058",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-058.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-026",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-026.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "dense_control-010",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/dense_control-010.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-031",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-031.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "dense_control-004",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/dense_control-004.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "dense_control-016",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/dense_control-016.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-093",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-093.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-063",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-063.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-028",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-028.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "heterogeneous_k-012",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/heterogeneous_k-012.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-035",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-035.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "dense_control-018",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/dense_control-018.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "heterogeneous_k-008",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/heterogeneous_k-008.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "heterogeneous_k-010",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/heterogeneous_k-010.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-061",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-061.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-052",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-052.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "heterogeneous_k-009",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/heterogeneous_k-009.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-030",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-030.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-003",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-003.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-092",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-092.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-040",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-040.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-091",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-091.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "dense_control-006",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/dense_control-006.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-090",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-090.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "dense_control-024",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/dense_control-024.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "grouped-062",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/grouped-062.json"
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "case_id": "heterogeneous_k-011",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073255Z_24cf84ed/heterogeneous_k-011.json"
+  },
+  {
+    "run_id": "20261015T073554Z_3a8fb670",
+    "case_id": "moe_layer-007",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073554Z_3a8fb670/moe_layer-007.json"
+  },
+  {
+    "run_id": "20261015T073554Z_3a8fb670",
+    "case_id": "moe_layer-009",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073554Z_3a8fb670/moe_layer-009.json"
+  },
+  {
+    "run_id": "20261015T073554Z_3a8fb670",
+    "case_id": "moe_layer-002",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073554Z_3a8fb670/moe_layer-002.json"
+  },
+  {
+    "run_id": "20261015T073554Z_3a8fb670",
+    "case_id": "moe_layer-005",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073554Z_3a8fb670/moe_layer-005.json"
+  },
+  {
+    "run_id": "20261015T073554Z_3a8fb670",
+    "case_id": "moe_layer-001",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073554Z_3a8fb670/moe_layer-001.json"
+  },
+  {
+    "run_id": "20261015T073554Z_3a8fb670",
+    "case_id": "moe_layer-004",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073554Z_3a8fb670/moe_layer-004.json"
+  },
+  {
+    "run_id": "20261015T073554Z_3a8fb670",
+    "case_id": "moe_layer-003",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073554Z_3a8fb670/moe_layer-003.json"
+  },
+  {
+    "run_id": "20261015T073554Z_3a8fb670",
+    "case_id": "moe_layer-016",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073554Z_3a8fb670/moe_layer-016.json"
+  },
+  {
+    "run_id": "20261015T073554Z_3a8fb670",
+    "case_id": "moe_layer-008",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073554Z_3a8fb670/moe_layer-008.json"
+  },
+  {
+    "run_id": "20261015T073554Z_3a8fb670",
+    "case_id": "moe_layer-024",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073554Z_3a8fb670/moe_layer-024.json"
+  },
+  {
+    "run_id": "20261015T073554Z_3a8fb670",
+    "case_id": "moe_layer-006",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073554Z_3a8fb670/moe_layer-006.json"
+  },
+  {
+    "run_id": "20261015T073554Z_3a8fb670",
+    "case_id": "moe_layer-017",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073554Z_3a8fb670/moe_layer-017.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "dense_control-014",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/dense_control-014.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "dense_control-020",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/dense_control-020.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-016",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-016.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-088",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-088.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "heterogeneous_k-007",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/heterogeneous_k-007.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "dense_control-012",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/dense_control-012.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-025",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-025.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "dense_control-008",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/dense_control-008.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-094",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-094.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "dense_control-022",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/dense_control-022.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-081",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-081.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-079",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-079.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-029",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-029.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-057",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-057.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "dense_control-002",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/dense_control-002.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-058",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-058.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-026",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-026.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "dense_control-010",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/dense_control-010.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-031",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-031.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "dense_control-004",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/dense_control-004.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "dense_control-016",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/dense_control-016.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-093",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-093.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-063",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-063.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-028",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-028.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "heterogeneous_k-012",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/heterogeneous_k-012.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-035",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-035.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "dense_control-018",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/dense_control-018.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "heterogeneous_k-008",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/heterogeneous_k-008.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "heterogeneous_k-010",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/heterogeneous_k-010.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-061",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-061.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-052",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-052.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "heterogeneous_k-009",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/heterogeneous_k-009.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-030",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-030.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-003",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-003.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-092",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-092.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-040",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-040.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-091",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-091.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "dense_control-006",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/dense_control-006.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-090",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-090.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "dense_control-024",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/dense_control-024.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "grouped-062",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/grouped-062.json"
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "case_id": "heterogeneous_k-011",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T073945Z_cf9ff1e5/heterogeneous_k-011.json"
+  },
+  {
+    "run_id": "20261015T074240Z_777eff5c",
+    "case_id": "moe_layer-007",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074240Z_777eff5c/moe_layer-007.json"
+  },
+  {
+    "run_id": "20261015T074240Z_777eff5c",
+    "case_id": "moe_layer-009",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074240Z_777eff5c/moe_layer-009.json"
+  },
+  {
+    "run_id": "20261015T074240Z_777eff5c",
+    "case_id": "moe_layer-002",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074240Z_777eff5c/moe_layer-002.json"
+  },
+  {
+    "run_id": "20261015T074240Z_777eff5c",
+    "case_id": "moe_layer-005",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074240Z_777eff5c/moe_layer-005.json"
+  },
+  {
+    "run_id": "20261015T074240Z_777eff5c",
+    "case_id": "moe_layer-001",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074240Z_777eff5c/moe_layer-001.json"
+  },
+  {
+    "run_id": "20261015T074240Z_777eff5c",
+    "case_id": "moe_layer-004",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074240Z_777eff5c/moe_layer-004.json"
+  },
+  {
+    "run_id": "20261015T074240Z_777eff5c",
+    "case_id": "moe_layer-003",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074240Z_777eff5c/moe_layer-003.json"
+  },
+  {
+    "run_id": "20261015T074240Z_777eff5c",
+    "case_id": "moe_layer-016",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074240Z_777eff5c/moe_layer-016.json"
+  },
+  {
+    "run_id": "20261015T074240Z_777eff5c",
+    "case_id": "moe_layer-008",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074240Z_777eff5c/moe_layer-008.json"
+  },
+  {
+    "run_id": "20261015T074240Z_777eff5c",
+    "case_id": "moe_layer-024",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074240Z_777eff5c/moe_layer-024.json"
+  },
+  {
+    "run_id": "20261015T074240Z_777eff5c",
+    "case_id": "moe_layer-006",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074240Z_777eff5c/moe_layer-006.json"
+  },
+  {
+    "run_id": "20261015T074240Z_777eff5c",
+    "case_id": "moe_layer-017",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074240Z_777eff5c/moe_layer-017.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "dense_control-014",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/dense_control-014.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "dense_control-020",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/dense_control-020.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-016",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-016.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-088",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-088.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "heterogeneous_k-007",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/heterogeneous_k-007.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "dense_control-012",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/dense_control-012.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-025",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-025.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "dense_control-008",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/dense_control-008.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-094",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-094.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "dense_control-022",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/dense_control-022.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-081",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-081.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-079",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-079.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-029",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-029.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-057",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-057.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "dense_control-002",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/dense_control-002.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-058",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-058.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-026",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-026.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "dense_control-010",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/dense_control-010.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-031",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-031.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "dense_control-004",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/dense_control-004.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "dense_control-016",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/dense_control-016.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-093",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-093.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-063",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-063.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-028",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-028.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "heterogeneous_k-012",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/heterogeneous_k-012.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-035",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-035.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "dense_control-018",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/dense_control-018.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "heterogeneous_k-008",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/heterogeneous_k-008.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "heterogeneous_k-010",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/heterogeneous_k-010.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-061",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-061.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-052",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-052.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "heterogeneous_k-009",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/heterogeneous_k-009.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-030",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-030.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-003",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-003.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-092",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-092.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-040",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-040.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-091",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-091.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "dense_control-006",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/dense_control-006.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-090",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-090.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "dense_control-024",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/dense_control-024.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "grouped-062",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/grouped-062.json"
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "case_id": "heterogeneous_k-011",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074631Z_425aa9f0/heterogeneous_k-011.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-003",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-003.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-025",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-025.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-013",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-013.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-001",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-001.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "prefill_control-009",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/prefill_control-009.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-044",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-044.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-004",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-004.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-015",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-015.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-007",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-007.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "prefill_control-011",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/prefill_control-011.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-042",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-042.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "prefill_control-010",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/prefill_control-010.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-045",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-045.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-026",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-026.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-048",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-048.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-022",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-022.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-030",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-030.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-031",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-031.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-024",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-024.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-036",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-036.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "prefill_control-002",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/prefill_control-002.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-010",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-010.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-032",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-032.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-018",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-018.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-020",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-020.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-039",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-039.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-019",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-019.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-012",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-012.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-041",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-041.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-014",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-014.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-017",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-017.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "prefill_control-007",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/prefill_control-007.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-028",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-028.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "prefill_control-001",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/prefill_control-001.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-033",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-033.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "prefill_control-012",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/prefill_control-012.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "prefill_control-003",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/prefill_control-003.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-002",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-002.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-009",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-009.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "prefill_control-005",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/prefill_control-005.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-034",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-034.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-037",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-037.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-046",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-046.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-005",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-005.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-040",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-040.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "prefill_control-006",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/prefill_control-006.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-006",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-006.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-038",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-038.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-043",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-043.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-023",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-023.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "prefill_control-008",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/prefill_control-008.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "prefill_control-004",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/prefill_control-004.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-021",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-021.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-008",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-008.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-011",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-011.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-029",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-029.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-016",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-016.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-047",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-047.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-035",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-035.json"
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "case_id": "attention_decode-027",
+    "block": 0,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-027.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-003",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-003.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-025",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-025.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-013",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-013.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-001",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-001.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "prefill_control-009",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/prefill_control-009.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-044",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-044.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-004",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-004.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-015",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-015.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-007",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-007.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "prefill_control-011",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/prefill_control-011.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-042",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-042.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "prefill_control-010",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/prefill_control-010.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-045",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-045.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-026",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-026.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-048",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-048.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-022",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-022.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-030",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-030.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-031",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-031.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-024",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-024.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-036",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-036.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "prefill_control-002",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/prefill_control-002.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-010",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-010.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-032",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-032.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-018",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-018.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-020",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-020.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-039",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-039.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-019",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-019.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-012",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-012.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-041",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-041.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-014",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-014.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-017",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-017.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "prefill_control-007",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/prefill_control-007.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-028",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-028.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "prefill_control-001",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/prefill_control-001.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-033",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-033.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "prefill_control-012",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/prefill_control-012.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "prefill_control-003",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/prefill_control-003.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-002",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-002.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-009",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-009.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "prefill_control-005",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/prefill_control-005.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-034",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-034.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-037",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-037.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-046",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-046.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-005",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-005.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-040",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-040.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "prefill_control-006",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/prefill_control-006.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-006",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-006.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-038",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-038.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-043",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-043.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-023",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-023.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "prefill_control-008",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/prefill_control-008.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "prefill_control-004",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/prefill_control-004.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-021",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-021.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-008",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-008.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-011",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-011.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-029",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-029.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-016",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-016.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-047",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-047.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-035",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-035.json"
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "case_id": "attention_decode-027",
+    "block": 1,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-027.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-003",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-003.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-025",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-025.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-013",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-013.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-001",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-001.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "prefill_control-009",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/prefill_control-009.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-044",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-044.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-004",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-004.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-015",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-015.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-007",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-007.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "prefill_control-011",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/prefill_control-011.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-042",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-042.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "prefill_control-010",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/prefill_control-010.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-045",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-045.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-026",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-026.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-048",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-048.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-022",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-022.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-030",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-030.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-031",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-031.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-024",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-024.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-036",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-036.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "prefill_control-002",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/prefill_control-002.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-010",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-010.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-032",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-032.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-018",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-018.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-020",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-020.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-039",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-039.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-019",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-019.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-012",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-012.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-041",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-041.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-014",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-014.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-017",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-017.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "prefill_control-007",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/prefill_control-007.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-028",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-028.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "prefill_control-001",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/prefill_control-001.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-033",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-033.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "prefill_control-012",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/prefill_control-012.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "prefill_control-003",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/prefill_control-003.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-002",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-002.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-009",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-009.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "prefill_control-005",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/prefill_control-005.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-034",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-034.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-037",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-037.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-046",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-046.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-005",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-005.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-040",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-040.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "prefill_control-006",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/prefill_control-006.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-006",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-006.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-038",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-038.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-043",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-043.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-023",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-023.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "prefill_control-008",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/prefill_control-008.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "prefill_control-004",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/prefill_control-004.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-021",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-021.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-008",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-008.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-011",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-011.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-029",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-029.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-016",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-016.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-047",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-047.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-035",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-035.json"
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "case_id": "attention_decode-027",
+    "block": 2,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-027.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-003",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-003.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-025",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-025.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-013",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-013.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-001",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-001.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "prefill_control-009",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/prefill_control-009.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-044",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-044.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-004",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-004.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-015",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-015.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-007",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-007.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "prefill_control-011",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/prefill_control-011.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-042",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-042.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "prefill_control-010",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/prefill_control-010.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-045",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-045.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-026",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-026.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-048",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-048.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-022",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-022.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-030",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-030.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-031",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-031.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-024",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-024.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-036",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-036.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "prefill_control-002",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/prefill_control-002.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-010",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-010.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-032",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-032.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-018",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-018.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-020",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-020.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-039",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-039.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-019",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-019.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-012",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-012.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-041",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-041.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-014",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-014.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-017",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-017.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "prefill_control-007",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/prefill_control-007.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-028",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-028.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "prefill_control-001",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/prefill_control-001.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-033",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-033.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "prefill_control-012",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/prefill_control-012.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "prefill_control-003",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/prefill_control-003.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-002",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-002.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-009",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-009.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "prefill_control-005",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/prefill_control-005.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-034",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-034.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-037",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-037.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-046",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-046.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-005",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-005.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-040",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-040.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "prefill_control-006",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/prefill_control-006.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-006",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-006.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-038",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-038.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-043",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-043.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-023",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-023.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "prefill_control-008",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/prefill_control-008.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "prefill_control-004",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/prefill_control-004.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-021",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-021.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-008",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-008.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-011",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-011.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-029",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-029.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-016",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-016.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-047",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-047.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-035",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-035.json"
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "case_id": "attention_decode-027",
+    "block": 3,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-027.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-003",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-003.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-025",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-025.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-013",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-013.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-001",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-001.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "prefill_control-009",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/prefill_control-009.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-044",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-044.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-004",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-004.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-015",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-015.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-007",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-007.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "prefill_control-011",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/prefill_control-011.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-042",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-042.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "prefill_control-010",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/prefill_control-010.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-045",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-045.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-026",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-026.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-048",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-048.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-022",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-022.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-030",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-030.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-031",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-031.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-024",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-024.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-036",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-036.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "prefill_control-002",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/prefill_control-002.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-010",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-010.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-032",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-032.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-018",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-018.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-020",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-020.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-039",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-039.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-019",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-019.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-012",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-012.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-041",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-041.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-014",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-014.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-017",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-017.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "prefill_control-007",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/prefill_control-007.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-028",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-028.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "prefill_control-001",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/prefill_control-001.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-033",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-033.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "prefill_control-012",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/prefill_control-012.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "prefill_control-003",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/prefill_control-003.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-002",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-002.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-009",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-009.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "prefill_control-005",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/prefill_control-005.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-034",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-034.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-037",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-037.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-046",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-046.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-005",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-005.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-040",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-040.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "prefill_control-006",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/prefill_control-006.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-006",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-006.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-038",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-038.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-043",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-043.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-023",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-023.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "prefill_control-008",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/prefill_control-008.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "prefill_control-004",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/prefill_control-004.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-021",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-021.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-008",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-008.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-011",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-011.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-029",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-029.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-016",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-016.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-047",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-047.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-035",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-035.json"
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "case_id": "attention_decode-027",
+    "block": 4,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-027.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-003",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-003.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-025",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-025.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-013",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-013.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-001",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-001.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "prefill_control-009",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/prefill_control-009.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-044",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-044.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-004",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-004.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-015",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-015.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-007",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-007.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "prefill_control-011",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/prefill_control-011.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-042",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-042.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "prefill_control-010",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/prefill_control-010.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-045",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-045.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-026",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-026.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-048",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-048.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-022",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-022.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-030",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-030.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-031",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-031.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-024",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-024.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-036",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-036.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "prefill_control-002",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/prefill_control-002.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-010",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-010.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-032",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-032.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-018",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-018.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-020",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-020.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-039",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-039.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-019",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-019.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-012",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-012.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-041",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-041.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-014",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-014.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-017",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-017.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "prefill_control-007",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/prefill_control-007.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-028",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-028.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "prefill_control-001",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/prefill_control-001.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-033",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-033.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "prefill_control-012",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/prefill_control-012.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "prefill_control-003",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/prefill_control-003.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-002",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-002.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-009",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-009.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "prefill_control-005",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/prefill_control-005.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-034",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-034.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-037",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-037.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-046",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-046.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-005",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-005.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-040",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-040.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "prefill_control-006",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/prefill_control-006.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-006",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-006.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-038",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-038.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-043",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-043.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-023",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-023.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "prefill_control-008",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/prefill_control-008.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "prefill_control-004",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/prefill_control-004.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-021",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-021.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-008",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-008.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-011",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-011.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-029",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-029.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-016",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-016.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-047",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-047.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-035",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-035.json"
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "case_id": "attention_decode-027",
+    "block": 5,
+    "status": "BASELINE_ONLY",
+    "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-027.json"
+  }
+]

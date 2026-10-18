@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-17T09:50:14.621430+00:00",
+  "status": "COMPLETE",
+  "all_queues_closed": true,
+  "gpu_worker_s": 913.1472519270028,
+  "workers": 16,
+  "states": {
+    "FAILED": 1,
+    "COMPLETED": 15
+  }
+}

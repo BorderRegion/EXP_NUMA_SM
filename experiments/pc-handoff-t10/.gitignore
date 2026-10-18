@@ -1,0 +1,11 @@
+build/
+runs/
+__pycache__/
+*.pyc
+review_staging/
+*.zip
+recomputed/
+derived/correctness.jsonl
+derived/placement.jsonl
+derived/phases.jsonl
+derived/phase_state_windows.jsonl

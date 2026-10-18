@@ -1,0 +1,13 @@
+/home/ubuntu/文档/ChatGPT/numa_gpu/numa-affinity-causal-t10/src/causal.cu(66): error: identifier "Balanced" is undefined
+
+/home/ubuntu/文档/ChatGPT/numa_gpu/numa-affinity-causal-t10/src/causal.cu(66): error: identifier "sm" is undefined
+
+/home/ubuntu/文档/ChatGPT/numa_gpu/numa-affinity-causal-t10/src/causal.cu(68): error: identifier "Trace" is undefined
+
+/home/ubuntu/文档/ChatGPT/numa_gpu/numa-affinity-causal-t10/src/causal.cu(68): error: identifier "prof" is undefined
+
+/home/ubuntu/文档/ChatGPT/numa_gpu/numa-affinity-causal-t10/src/causal.cu(68): error: identifier "prof" is undefined
+
+/home/ubuntu/文档/ChatGPT/numa_gpu/numa-affinity-causal-t10/src/causal.cu(68): error: identifier "schedule" is undefined
+
+6 errors detected in the compilation of "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-affinity-causal-t10/src/causal.cu".

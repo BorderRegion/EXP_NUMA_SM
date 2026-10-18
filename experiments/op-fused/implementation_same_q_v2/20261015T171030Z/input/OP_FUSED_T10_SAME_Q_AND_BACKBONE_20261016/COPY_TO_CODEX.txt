@@ -1,0 +1,24 @@
+执行附件 OP_FUSED_T10_SAME_Q_AND_BACKBONE_20261016。
+先读 REVIEW.md，再读 CODEX_6P5H_TASK.md、EXPERIMENT_CONTRACT.md 和 campaign.json。
+
+你在原T10本机，已有CUTLASS v3.5.1、SM75 Tensor Core主体和100W保护策略。
+本轮不是资源恢复，不重装，不联网/SSH/下载，不改变驱动或保护。
+
+按6.5小时工作量连续执行，硬上限7小时；GPUworker≤4小时且沿用旧16小时账本。
+重点：FULLq1对CACHEq1的真实对照、去掉无效total/K-budget的Q1_MINIMAL、
+有限成熟tile主体修复、同融合的完整post-route层。不要继续只比q1对q4。
+
+新调度必须在grouped内部，不能新增独立小planner、调度D2H、每expert CPU发射、
+逐算子全设备同步。局部SiLU/multiply可合法合并为一个消费者，但给基线同样机会，
+保留FP16中间舍入；不能跨CTA读取未完成up结果。
+
+最多两个新合法SM75 tile实例。若BN改为64，host计数、覆盖、packet与sideband等
+所有硬编码128必须一并更新；做不到就不启用新配方。
+同q旧FULL/CACHE/最小版必须拥有相同逻辑tile和worker序列。
+
+旧数据/冻结不改，alias去重，新开发/回归/确认分开。
+普通工程修复连续处理；未知counter、一个可选实现失败不暂停所有工作。
+到期交完整解释，不为凑时间扩实验，不临时换方法或提高q预算寻找赢家。
+
+最终交付 T10_SAME_Q_AND_BACKBONE_REPORT.md、全部同q/主体/层结果、
+launch账本、原始数据和预算索引、一页导师稿与5070Ti交接。结果不自动等于paper。

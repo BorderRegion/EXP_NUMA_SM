@@ -1,0 +1,8 @@
+native_render_qualification FAILED 2.26
+Traceback (most recent call last):
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-first-v3/src/after_discovery.py", line 14, in <module>
+    run('P2','native_render_qualification',[b/'render/render_native','--assets',r/'prepared/truck','--width','1280','--height','720','--sequence','0','--frames','4','--warmup','4','--profile','1','--cubin',b/'probe.cubin','--out','{OUT}'])
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-first-v3/src/worker.py", line 53, in run
+    if m['status']!='COMPLETED':raise RuntimeError(str(out))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: /home/ubuntu/文档/ChatGPT/numa_gpu/numa-first-v3/runs/t10/20261016T021032Z/raw/native_render_qualification

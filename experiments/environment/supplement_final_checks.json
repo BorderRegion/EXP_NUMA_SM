@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "success_processes": 67,
+  "cancelled_before_GPU": 1,
+  "S1_orders_balanced": true,
+  "actual_process_windows_nonoverlapping": true,
+  "sanitizer_zero_error_runs": [
+    "t10_20261015T050359Z_984c3f5c",
+    "t10_20261015T050553Z_6c1be29c",
+    "t10_20261015T050633Z_590f4ddd",
+    "t10_20261015T050755Z_4e4eda1e",
+    "t10_20261015T052350Z_551daf69"
+  ],
+  "S2_max_segment_ms": 0.655488,
+  "S2_segments_over_target_2ms": 0,
+  "old_index_prefix_sha256": "abf0654eca704659ce06abd5d99ef8f8ae362bdacd244238da1ca7b435857aad",
+  "S2_controlled_confirmation_allocations": [
+    4,
+    5
+  ],
+  "S2_initial_uncontrolled_allocations": [
+    0,
+    1,
+    2,
+    3
+  ]
+}

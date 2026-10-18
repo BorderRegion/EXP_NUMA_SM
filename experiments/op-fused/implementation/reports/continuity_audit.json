@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-10-15T14:18:23.123798+00:00",
+  "old_registry_prefix_sha256": "97b0fe68d697a2ad3e317cea3b838e355891f6370b916668dd2eff4655c1587a",
+  "original_records": 62,
+  "current_records": 73,
+  "original_prefix_unchanged": true,
+  "process_windows_overlapping": [],
+  "scope": "registry-adjacent worker process intervals; no assertion that unrelated desktop GPU process was absent"
+}

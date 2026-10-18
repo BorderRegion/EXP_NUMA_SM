@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "compiled_source_matches_final": [
+    {
+      "file": "src/backend.cu",
+      "sha256": "f13a0d5331797692666dedf6a8a9cd7d06f9fbc15f21d6cc93fddd3727b60a7a",
+      "matches_final_build": true
+    },
+    {
+      "file": "src/resources.hpp",
+      "sha256": "201cb79cff9a46587be11668326c412015ffd8802eda7350b7751e5c1eac4911",
+      "matches_final_build": true
+    },
+    {
+      "file": "src/runtime_extra.hpp",
+      "sha256": "ebcb567d72bb23c6e10994b216fcc5e4f754841f499e3305d45b5515e3c2522b",
+      "matches_final_build": true
+    },
+    {
+      "file": "src/policy.hpp",
+      "sha256": "6d862e74871480b104630bbf354f9dcb758d79ad0f5e592068145584c1408194",
+      "matches_final_build": true
+    },
+    {
+      "file": "src/kernels.cu",
+      "sha256": "f141825c0160d0a498c0009d0c5e75fba8e07ee1361a8f4c078848fbc5a55191",
+      "matches_final_build": true
+    },
+    {
+      "file": "src/kernels.cuh",
+      "sha256": "4fec5c758daa4ad845be3bcd11982a8237333c8b4d385bbc82ed7eb5c71f753a",
+      "matches_final_build": true
+    },
+    {
+      "file": "adapters/pc_gemm_splitk_parallel.h",
+      "sha256": "655d20d5a921f56334d925d4a558f1d2b2bef60ef9ef2bf6628a4363c45cf033",
+      "matches_final_build": true
+    },
+    {
+      "file": "adapters/pc_reduce_split_k.h",
+      "sha256": "1b475b0591bf319d724ab238e24f1e27155170249e19d06a5b96314d5bc93fae",
+      "matches_final_build": true
+    }
+  ],
+  "external_helper": {
+    "path": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu/src/driver_backend.hpp",
+    "sha256": "cad7bad21c1ccc06d44f9c09ea006a62076da04525f69ca11d9d326eda606214",
+    "git_status": ""
+  },
+  "scope": "Final compiled C++/CUDA/adapters match their build-time hashes. Python logging/analysis additions are tracked by worker and final package hashes; no claim all intermediate Python files are archived."
+}

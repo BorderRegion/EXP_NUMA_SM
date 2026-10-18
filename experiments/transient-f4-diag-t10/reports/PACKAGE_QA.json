@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T08:14:54.671123+00:00",
+  "archive_path": "/home/ubuntu/下载/T10_TRANSIENT_AND_F4_DIAG_RESULT_20261017.zip",
+  "archive_sha256": "90472aa04370104b4de7f0411130a0690339664f3d7c9ffc22d384d46f6518d0",
+  "returncode": 0,
+  "fresh_directory": "/tmp/t10-transient-fresh-qa-ixedswxa",
+  "elapsed_s": 7.709869072015863,
+  "cpu_only": true,
+  "cuda_visible_devices": "",
+  "report_images_verified": 11,
+  "checks": [
+    "Archive SHA256",
+    "1211 per-file hashes expected from manifest",
+    "Three derived JSONs recomputed and compared",
+    "Actual old90 phases/11520 requests and oldAA/FFN",
+    "All144 new work units including warmups",
+    "Six CUPTI strict timestamp/DAG attribution"
+  ],
+  "scope": "CPU artifact reproducibility only; no GPU rerun or new state validation",
+  "manifest_files_verified": 1211,
+  "completed_wall_minutes_including_packaging": 106.5950248588837,
+  "superseded_task_generated_archive_removed": [
+    "T10_TRANSIENT_AND_F4_DIAG_RESULT_20261017.previous_1792224732468735271.zip"
+  ]
+}

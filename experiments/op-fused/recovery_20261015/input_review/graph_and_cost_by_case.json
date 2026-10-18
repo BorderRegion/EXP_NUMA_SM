@@ -1,0 +1,3776 @@
+[
+  {
+    "stage": "E1",
+    "case_id": "grouped-001",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 1024,
+      "n": 2048,
+      "total_routed_rows": 32,
+      "experts": 8,
+      "distribution": "uniform",
+      "rows_per_expert": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "case_id": "grouped-001",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "84739b62efb45f87f01fa9a74081a4b68974c944292ac8eb1187f4450f41a44e"
+    },
+    "blocks": 5,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      8
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 5
+    },
+    "per_expert_kernel_names": {
+      "_ZN7cutlass7Kernel2I66cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8EEvNT_6ParamsE": 40
+    },
+    "ready_ratio": {
+      "ratio": 1.0994499558145128,
+      "ci95": [
+        1.0165105306283417,
+        1.1843210248048455
+      ],
+      "blocks": 5,
+      "block_log_ratios": [
+        -0.0312677547927456,
+        0.004281617989438519,
+        0.17341175293848735,
+        0.15622424171561652,
+        0.17140021501881683
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-002",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 1024,
+      "n": 2048,
+      "total_routed_rows": 32,
+      "experts": 8,
+      "distribution": "zipf",
+      "rows_per_expert": [
+        12,
+        6,
+        4,
+        3,
+        2,
+        2,
+        2,
+        1
+      ],
+      "case_id": "grouped-002",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "d6ee63385b0c49b45bc69d2ec5a7f0d4d69a4152eecb51323a973c55eb9c83bb"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      6
+    ],
+    "per_expert_kernel_nodes": [
+      8
+    ],
+    "native_kernel_names": {
+      "_ZN7cutlass7Kernel2I66cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8EEvNT_6ParamsE": 24,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 6,
+      "_Z13gemv2N_kernelIii6__halfS0_S0_fLi128ELi8ELi4ELi4ELi1ELb0E18cublasGemvParamsExIi23cublasGemvTensorBatchedIKS0_ES4_S2_IS0_EfEEvT11_": 6
+    },
+    "per_expert_kernel_names": {
+      "_ZN7cutlass7Kernel2I66cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8EEvNT_6ParamsE": 42,
+      "_Z13gemv2N_kernelIii6__halfS0_S0_fLi128ELi8ELi4ELi4ELi1ELb0E18cublasGemvParamsExIi30cublasGemvTensorStridedBatchedIKS0_ES4_S2_IS0_EfEEvT11_": 6
+    },
+    "ready_ratio": {
+      "ratio": 1.011329774724262,
+      "ci95": [
+        0.9987738862793775,
+        1.022224759507157
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.02976287912716361,
+        0.0036769910716885077,
+        -0.01613296945107244,
+        0.022073034415558596,
+        0.015287686787705845,
+        0.012928819180417422
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-005",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 1024,
+      "n": 2048,
+      "total_routed_rows": 32,
+      "experts": 32,
+      "distribution": "uniform",
+      "rows_per_expert": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "case_id": "grouped-005",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "ce3ea50cf201eedd782b72a32f037244c52ef5913dc25d069877bb102823f15b"
+    },
+    "blocks": 5,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      32
+    ],
+    "native_kernel_names": {
+      "_ZN8internal5gemvx6kernelIll6__halfS2_S2_fLb1ELb1ELb0ELb0ELi9ELb0E18cublasGemvParamsExIi23cublasGemvTensorBatchedIKS2_ES6_S4_IS2_EfEEENSt9enable_ifIXT5_EvE4typeET11_": 5
+    },
+    "per_expert_kernel_names": {
+      "_Z13gemv2N_kernelIii6__halfS0_S0_fLi128ELi8ELi4ELi4ELi1ELb0E18cublasGemvParamsExIi30cublasGemvTensorStridedBatchedIKS0_ES4_S2_IS0_EfEEvT11_": 160
+    },
+    "ready_ratio": {
+      "ratio": 0.8894146485539011,
+      "ci95": [
+        0.709095699055043,
+        1.1155876676680478
+      ],
+      "blocks": 5,
+      "block_log_ratios": [
+        -0.42876569616443616,
+        -0.4669866882401343,
+        0.07268084856906495,
+        0.12478127277337675,
+        0.11233160862027085
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-006",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 1024,
+      "n": 2048,
+      "total_routed_rows": 32,
+      "experts": 32,
+      "distribution": "zipf",
+      "rows_per_expert": [
+        8,
+        4,
+        3,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "case_id": "grouped-006",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "aa96637e6c1aed1951edd81f13a2482860f0f3482c2778e7f2bc15f2d38a8770"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      5
+    ],
+    "per_expert_kernel_nodes": [
+      18
+    ],
+    "native_kernel_names": {
+      "_ZN7cutlass7Kernel2I66cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8EEvNT_6ParamsE": 18,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 6,
+      "_ZN8internal5gemvx6kernelIll6__halfS2_S2_fLb1ELb1ELb0ELb0ELi9ELb0E18cublasGemvParamsExIi23cublasGemvTensorBatchedIKS2_ES6_S4_IS2_EfEEENSt9enable_ifIXT5_EvE4typeET11_": 6
+    },
+    "per_expert_kernel_names": {
+      "_ZN7cutlass7Kernel2I66cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8EEvNT_6ParamsE": 30,
+      "_Z13gemv2N_kernelIii6__halfS0_S0_fLi128ELi8ELi4ELi4ELi1ELb0E18cublasGemvParamsExIi30cublasGemvTensorStridedBatchedIKS0_ES4_S2_IS0_EfEEvT11_": 78
+    },
+    "ready_ratio": {
+      "ratio": 0.8039320927090853,
+      "ci95": [
+        0.7749017745680955,
+        0.8327142565364397
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        -0.179194524998894,
+        -0.28062526882289596,
+        -0.2882159665882219,
+        -0.17596394285448255,
+        -0.19242041616845457,
+        -0.19302273161639094
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-009",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 1024,
+      "n": 2048,
+      "total_routed_rows": 128,
+      "experts": 8,
+      "distribution": "uniform",
+      "rows_per_expert": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "case_id": "grouped-009",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "c3cd51ac4fabcb2af5010775acd7e848abb5f5efe3db4267297dc0a3882d288f"
+    },
+    "blocks": 5,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      8
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 5
+    },
+    "per_expert_kernel_names": {
+      "_ZN7cutlass7Kernel2I66cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8EEvNT_6ParamsE": 40
+    },
+    "ready_ratio": {
+      "ratio": 1.0218431633559797,
+      "ci95": [
+        0.970191987931555,
+        1.0762441490817782
+      ],
+      "blocks": 5,
+      "block_log_ratios": [
+        -0.048754999236940016,
+        -0.04807552537394121,
+        0.08854600116758644,
+        0.042354542387851496,
+        0.0739700785179598
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-010",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 1024,
+      "n": 2048,
+      "total_routed_rows": 128,
+      "experts": 8,
+      "distribution": "zipf",
+      "rows_per_expert": [
+        47,
+        23,
+        16,
+        12,
+        9,
+        8,
+        7,
+        6
+      ],
+      "case_id": "grouped-010",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "ec7837724dee8f21e290ae125f34258788202c0b24338c3929d0a6099babcd70"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      8
+    ],
+    "per_expert_kernel_nodes": [
+      8
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_64x64_sliced1x4_ldg8_f2f_nn": 12,
+      "_ZN7cutlass7Kernel2I66cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8EEvNT_6ParamsE": 36
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_64x64_sliced1x4_ldg8_f2f_nn": 12,
+      "_ZN7cutlass7Kernel2I66cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8EEvNT_6ParamsE": 36
+    },
+    "ready_ratio": {
+      "ratio": 1.0011209469053381,
+      "ci95": [
+        0.9793982526531722,
+        1.0233781877589574
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        -0.026119530002496047,
+        0.0385695010012461,
+        0.038260251311306934,
+        -0.02867417525441491,
+        -0.018751574817260742,
+        0.0034374424423759824
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-013",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 1024,
+      "n": 2048,
+      "total_routed_rows": 128,
+      "experts": 32,
+      "distribution": "uniform",
+      "rows_per_expert": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "case_id": "grouped-013",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "2794d0b2f7abee3242ee9a301583d6949edeacf6544fe6a5070a5b3e14c6e732"
+    },
+    "blocks": 5,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      32
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 5
+    },
+    "per_expert_kernel_names": {
+      "_ZN7cutlass7Kernel2I66cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8EEvNT_6ParamsE": 160
+    },
+    "ready_ratio": {
+      "ratio": 1.1779368900652167,
+      "ci95": [
+        0.8514365660492438,
+        1.6264138298353568
+      ],
+      "blocks": 5,
+      "block_log_ratios": [
+        -0.31206201396882277,
+        -0.3250520719092172,
+        0.47998583852346927,
+        0.49288395947122404,
+        0.4830668378615473
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-014",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 1024,
+      "n": 2048,
+      "total_routed_rows": 128,
+      "experts": 32,
+      "distribution": "zipf",
+      "rows_per_expert": [
+        32,
+        16,
+        11,
+        8,
+        6,
+        5,
+        5,
+        4,
+        4,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "case_id": "grouped-014",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "0d16e666c1c9b72e26bd2c65a7ed5fd170006a19e4a8d6341a73f2e334c24f54"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      10
+    ],
+    "per_expert_kernel_nodes": [
+      32
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_64x64_sliced1x4_ldg8_f2f_nn": 6,
+      "_ZN7cutlass7Kernel2I66cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8EEvNT_6ParamsE": 24,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 24,
+      "_ZN8internal5gemvx6kernelIll6__halfS2_S2_fLb1ELb1ELb0ELb0ELi9ELb0E18cublasGemvParamsExIi23cublasGemvTensorBatchedIKS2_ES6_S4_IS2_EfEEENSt9enable_ifIXT5_EvE4typeET11_": 6
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_64x64_sliced1x4_ldg8_f2f_nn": 6,
+      "_ZN7cutlass7Kernel2I66cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8EEvNT_6ParamsE": 114,
+      "_Z13gemv2N_kernelIii6__halfS0_S0_fLi128ELi8ELi4ELi4ELi1ELb0E18cublasGemvParamsExIi30cublasGemvTensorStridedBatchedIKS0_ES4_S2_IS0_EfEEvT11_": 72
+    },
+    "ready_ratio": {
+      "ratio": 0.902635962847269,
+      "ci95": [
+        0.8753875743497078,
+        0.9301730869567825
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        -0.06974414969334654,
+        -0.16278544563463515,
+        -0.15917796849380622,
+        -0.07895947198398258,
+        -0.07203751410112896,
+        -0.07191114269847305
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-017",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 1024,
+      "n": 2048,
+      "total_routed_rows": 512,
+      "experts": 8,
+      "distribution": "uniform",
+      "rows_per_expert": [
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64
+      ],
+      "case_id": "grouped-017",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "e09ecec092f37c1839877ff7f6a8c20b936952dbcde7b88e05d93dadf14e211b"
+    },
+    "blocks": 5,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      8
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 5
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_64x64_sliced1x4_ldg8_f2f_nn": 40
+    },
+    "ready_ratio": {
+      "ratio": 0.9834053836702457,
+      "ci95": [
+        0.8468182068117639,
+        1.1394181350595083
+      ],
+      "blocks": 5,
+      "block_log_ratios": [
+        -0.22667288458362117,
+        -0.24548909570353417,
+        0.13179397554361277,
+        0.12439684455163635,
+        0.13230191283418039
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-018",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 1024,
+      "n": 2048,
+      "total_routed_rows": 512,
+      "experts": 8,
+      "distribution": "zipf",
+      "rows_per_expert": [
+        188,
+        94,
+        63,
+        47,
+        38,
+        31,
+        27,
+        24
+      ],
+      "case_id": "grouped-018",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "87783c5014a7bfc1ac0ea5a77895bfe7dab44eb77d906604290a22ba6c2e8905"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      8
+    ],
+    "per_expert_kernel_nodes": [
+      8
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 12,
+      "turing_fp16_s1688gemm_fp16_64x64_sliced1x4_ldg8_f2f_nn": 36
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 12,
+      "turing_fp16_s1688gemm_fp16_64x64_sliced1x4_ldg8_f2f_nn": 36
+    },
+    "ready_ratio": {
+      "ratio": 0.9872752470880959,
+      "ci95": [
+        0.9646526125670278,
+        1.0127511840684682
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        -0.018619341879238412,
+        0.03647347849555391,
+        0.021019969787014328,
+        -0.035797629824619134,
+        -0.04244070296814156,
+        -0.03747420959054106
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-021",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 1024,
+      "n": 2048,
+      "total_routed_rows": 512,
+      "experts": 32,
+      "distribution": "uniform",
+      "rows_per_expert": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "case_id": "grouped-021",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "c9c9f04bded1a99ffc556fb8d2976c80633b4b7c2eae471347060f97740a8015"
+    },
+    "blocks": 5,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      32
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 5
+    },
+    "per_expert_kernel_names": {
+      "_ZN7cutlass7Kernel2I66cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8EEvNT_6ParamsE": 160
+    },
+    "ready_ratio": {
+      "ratio": 1.066000269241603,
+      "ci95": [
+        0.803727791983183,
+        1.4097090305991244
+      ],
+      "blocks": 5,
+      "block_log_ratios": [
+        -0.3409035092246981,
+        -0.36561844501415974,
+        0.34528567269179994,
+        0.3352630825453173,
+        0.34554109057914684
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-022",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 1024,
+      "n": 2048,
+      "total_routed_rows": 512,
+      "experts": 32,
+      "distribution": "zipf",
+      "rows_per_expert": [
+        126,
+        63,
+        42,
+        32,
+        25,
+        21,
+        18,
+        16,
+        14,
+        13,
+        11,
+        11,
+        10,
+        9,
+        8,
+        8,
+        7,
+        7,
+        7,
+        6,
+        6,
+        6,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4,
+        4,
+        4,
+        4
+      ],
+      "case_id": "grouped-022",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "a90a1829c1eff32fd5f3bc10bf296aee51e0a932f9119c0c8d012bb58ce5dd5a"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      18
+    ],
+    "per_expert_kernel_nodes": [
+      32
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 6,
+      "turing_fp16_s1688gemm_fp16_64x64_sliced1x4_ldg8_f2f_nn": 36,
+      "_ZN7cutlass7Kernel2I66cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8EEvNT_6ParamsE": 30,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 36
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 6,
+      "turing_fp16_s1688gemm_fp16_64x64_sliced1x4_ldg8_f2f_nn": 36,
+      "_ZN7cutlass7Kernel2I66cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8EEvNT_6ParamsE": 150
+    },
+    "ready_ratio": {
+      "ratio": 1.0203716695452734,
+      "ci95": [
+        0.999924787503973,
+        1.040824238477304
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.04741919636986361,
+        -0.01566769804892104,
+        -0.013290709667474693,
+        0.04140352114869517,
+        0.018438990717770994,
+        0.04269835647414071
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-033",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 2048,
+      "n": 4096,
+      "total_routed_rows": 32,
+      "experts": 8,
+      "distribution": "uniform",
+      "rows_per_expert": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "case_id": "grouped-033",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "f83e16472a6fca3175ffb8fd1d5c4d842da5912c25d02c743a52de9631bb1e8b"
+    },
+    "blocks": 5,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      16
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 5
+    },
+    "per_expert_kernel_names": {
+      "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn": 40,
+      "_ZN8cublasLt19splitKreduce_kernelILi32ELi16Eif6__halffS1_Lb0ES1_S1_S1_Lb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS3_SG_PKT9_S7_PSH_PvlPS3_PiSM_SM_SG_SG_SG_SG_SG_": 40
+    },
+    "ready_ratio": {
+      "ratio": 1.5529850906626896,
+      "ci95": [
+        1.0745779667781372,
+        2.244381297944988
+      ],
+      "blocks": 5,
+      "block_log_ratios": [
+        -0.10924832206410087,
+        -0.10480378842603111,
+        0.8130561487837824,
+        0.8141464823346116,
+        0.7877441982441584
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-034",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 2048,
+      "n": 4096,
+      "total_routed_rows": 32,
+      "experts": 8,
+      "distribution": "zipf",
+      "rows_per_expert": [
+        12,
+        6,
+        4,
+        3,
+        2,
+        2,
+        2,
+        1
+      ],
+      "case_id": "grouped-034",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "46aa5f21ca78bc54d494f9fa0f4f742335f72b0a24cf712e61ffb63ad088d753"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      6
+    ],
+    "per_expert_kernel_nodes": [
+      16
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 24,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 6,
+      "_Z13gemv2N_kernelIii6__halfS0_S0_fLi128ELi4ELi4ELi4ELi1ELb0E18cublasGemvParamsExIi23cublasGemvTensorBatchedIKS0_ES4_S2_IS0_EfEEvT11_": 6
+    },
+    "per_expert_kernel_names": {
+      "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn": 42,
+      "_ZN8cublasLt19splitKreduce_kernelILi32ELi16Eif6__halffS1_Lb0ES1_S1_S1_Lb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS3_SG_PKT9_S7_PSH_PvlPS3_PiSM_SM_SG_SG_SG_SG_SG_": 48,
+      "_Z13gemv2N_kernelIii6__halffffLi128ELi1ELi2ELi2ELi1ELb0E18cublasGemvParamsExIi30cublasGemvTensorStridedBatchedIKS0_ES2_IKfES2_IfEfEEvT11_": 6
+    },
+    "ready_ratio": {
+      "ratio": 1.1556208799418906,
+      "ci95": [
+        1.06145116563319,
+        1.2501804311559535
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.24316448530322352,
+        -0.023382537747206816,
+        0.008545206871945696,
+        0.20662416164985903,
+        0.22007501051365638,
+        0.212800221002025
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-037",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 2048,
+      "n": 4096,
+      "total_routed_rows": 32,
+      "experts": 32,
+      "distribution": "uniform",
+      "rows_per_expert": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "case_id": "grouped-037",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "e42b5e89c3efc4acd255132e83a871380006d9bf3124011637f2b75a906c98bd"
+    },
+    "blocks": 5,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      64
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 5
+    },
+    "per_expert_kernel_names": {
+      "_Z13gemv2N_kernelIii6__halffffLi128ELi1ELi2ELi2ELi1ELb0E18cublasGemvParamsExIi30cublasGemvTensorStridedBatchedIKS0_ES2_IKfES2_IfEfEEvT11_": 160,
+      "_ZN8cublasLt19splitKreduce_kernelILi32ELi16Eif6__halffS1_Lb0ES1_S1_S1_Lb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS3_SG_PKT9_S7_PSH_PvlPS3_PiSM_SM_SG_SG_SG_SG_SG_": 160
+    },
+    "ready_ratio": {
+      "ratio": 0.693011807731097,
+      "ci95": [
+        0.6602533880905715,
+        0.7236615305904303
+      ],
+      "blocks": 5,
+      "block_log_ratios": [
+        -0.418522166680151,
+        -0.4445751395970265,
+        -0.3234103959850634,
+        -0.32330317893384497,
+        -0.32373032562579884
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-038",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 2048,
+      "n": 4096,
+      "total_routed_rows": 32,
+      "experts": 32,
+      "distribution": "zipf",
+      "rows_per_expert": [
+        8,
+        4,
+        3,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "case_id": "grouped-038",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "dcdf3307c14f500b8ece4adee5b2044c77f095ab4c06b4dbef4bce6eb882802b"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      5
+    ],
+    "per_expert_kernel_nodes": [
+      36
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 18,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 6,
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 6
+    },
+    "per_expert_kernel_names": {
+      "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn": 30,
+      "_ZN8cublasLt19splitKreduce_kernelILi32ELi16Eif6__halffS1_Lb0ES1_S1_S1_Lb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS3_SG_PKT9_S7_PSH_PvlPS3_PiSM_SM_SG_SG_SG_SG_SG_": 108,
+      "_Z13gemv2N_kernelIii6__halffffLi128ELi1ELi2ELi2ELi1ELb0E18cublasGemvParamsExIi30cublasGemvTensorStridedBatchedIKS0_ES2_IKfES2_IfEfEEvT11_": 78
+    },
+    "ready_ratio": {
+      "ratio": 0.6244272194401093,
+      "ci95": [
+        0.5170104800676838,
+        0.7527508727433058
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        -0.2899716461519457,
+        -0.29671310566358594,
+        -0.30232937354678346,
+        -0.259761836944418,
+        -0.8339133115699825,
+        -0.8428337161488555
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-041",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 2048,
+      "n": 4096,
+      "total_routed_rows": 128,
+      "experts": 8,
+      "distribution": "uniform",
+      "rows_per_expert": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "case_id": "grouped-041",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "da042cbdd46481342426d51142ac1f224c09ec33280a3498c3403b2f596941ed"
+    },
+    "blocks": 5,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      16
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 5
+    },
+    "per_expert_kernel_names": {
+      "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn": 40,
+      "_ZN8cublasLt19splitKreduce_kernelILi32ELi16Eif6__halffS1_Lb0ES1_S1_S1_Lb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS3_SG_PKT9_S7_PSH_PvlPS3_PiSM_SM_SG_SG_SG_SG_SG_": 40
+    },
+    "ready_ratio": {
+      "ratio": 1.4679352330042026,
+      "ci95": [
+        1.033650967379876,
+        2.081273494990474
+      ],
+      "blocks": 5,
+      "block_log_ratios": [
+        -0.1440058315852677,
+        -0.13514549873891674,
+        0.7319709429332854,
+        0.7326488103748249,
+        0.7338156270765567
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-042",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 2048,
+      "n": 4096,
+      "total_routed_rows": 128,
+      "experts": 8,
+      "distribution": "zipf",
+      "rows_per_expert": [
+        47,
+        23,
+        16,
+        12,
+        9,
+        8,
+        7,
+        6
+      ],
+      "case_id": "grouped-042",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "3cb6fe62c3ac1d889c411edb9170e3d2c61ca68167f5f2b42e3508b305d05f1b"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      8
+    ],
+    "per_expert_kernel_nodes": [
+      14
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 48
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 12,
+      "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn": 36,
+      "_ZN8cublasLt19splitKreduce_kernelILi32ELi16Eif6__halffS1_Lb0ES1_S1_S1_Lb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS3_SG_PKT9_S7_PSH_PvlPS3_PiSM_SM_SG_SG_SG_SG_SG_": 36
+    },
+    "ready_ratio": {
+      "ratio": 1.0495462110270453,
+      "ci95": [
+        1.0031468130356933,
+        1.0921772732822232
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.0950874272667313,
+        -0.04239040560539527,
+        -0.013645717429101773,
+        0.09142787310072448,
+        0.08361967631121589,
+        0.07604849102687447
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-045",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 2048,
+      "n": 4096,
+      "total_routed_rows": 128,
+      "experts": 32,
+      "distribution": "uniform",
+      "rows_per_expert": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "case_id": "grouped-045",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "5860b4355a60f66c97ac691febbb7601dc209bc8fab7678cc5f4042c3e00f5c4"
+    },
+    "blocks": 5,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      64
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 5
+    },
+    "per_expert_kernel_names": {
+      "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn": 160,
+      "_ZN8cublasLt19splitKreduce_kernelILi32ELi16Eif6__halffS1_Lb0ES1_S1_S1_Lb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS3_SG_PKT9_S7_PSH_PvlPS3_PiSM_SM_SG_SG_SG_SG_SG_": 160
+    },
+    "ready_ratio": {
+      "ratio": 1.3702324858174253,
+      "ci95": [
+        0.9976694090464657,
+        1.8819230580437252
+      ],
+      "blocks": 5,
+      "block_log_ratios": [
+        -0.1542580679610069,
+        -0.1582947412132003,
+        0.6374597848695968,
+        0.6365560765943921,
+        0.6134390633100402
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-046",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 2048,
+      "n": 4096,
+      "total_routed_rows": 128,
+      "experts": 32,
+      "distribution": "zipf",
+      "rows_per_expert": [
+        32,
+        16,
+        11,
+        8,
+        6,
+        5,
+        5,
+        4,
+        4,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "case_id": "grouped-046",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "3544285afc2ecd5295f5e07b764d84a513b72f9a3932065c359730593fc34f3f"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      10
+    ],
+    "per_expert_kernel_nodes": [
+      63
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 30,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 18,
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 12
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 6,
+      "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn": 114,
+      "_ZN8cublasLt19splitKreduce_kernelILi32ELi16Eif6__halffS1_Lb0ES1_S1_S1_Lb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS3_SG_PKT9_S7_PSH_PvlPS3_PiSM_SM_SG_SG_SG_SG_SG_": 186,
+      "_Z13gemv2N_kernelIii6__halffffLi128ELi1ELi2ELi2ELi1ELb0E18cublasGemvParamsExIi30cublasGemvTensorStridedBatchedIKS0_ES2_IKfES2_IfEfEEvT11_": 72
+    },
+    "ready_ratio": {
+      "ratio": 0.8187600563693594,
+      "ci95": [
+        0.6681191094540118,
+        0.9226212765392987
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        -0.07248797496786684,
+        -0.1759514513918238,
+        -0.6934472590052139,
+        -0.09445891751295143,
+        -0.08526996860424636,
+        -0.07816968563534826
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-049",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 2048,
+      "n": 4096,
+      "total_routed_rows": 512,
+      "experts": 8,
+      "distribution": "uniform",
+      "rows_per_expert": [
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64
+      ],
+      "case_id": "grouped-049",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "b7395885c53e7ccc40f0554c773a6ee80b5fbf0af6dbb2c7840adfd29789eab7"
+    },
+    "blocks": 5,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      8
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 5
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 40
+    },
+    "ready_ratio": {
+      "ratio": 1.1715708361683934,
+      "ci95": [
+        0.8058496517720066,
+        1.594237610571508
+      ],
+      "blocks": 5,
+      "block_log_ratios": [
+        -0.12412584282483663,
+        -0.47519923359883626,
+        0.4704927882052104,
+        0.47043309292844315,
+        0.4501264120429665
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-050",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 2048,
+      "n": 4096,
+      "total_routed_rows": 512,
+      "experts": 8,
+      "distribution": "zipf",
+      "rows_per_expert": [
+        188,
+        94,
+        63,
+        47,
+        38,
+        31,
+        27,
+        24
+      ],
+      "case_id": "grouped-050",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "9708be9447f6b318b1c7c8445e5ea43bd514bf992b5332a37ba8fe496df24b3b"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      8
+    ],
+    "per_expert_kernel_nodes": [
+      8
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 6,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 6,
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 36
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 6,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 6,
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 36
+    },
+    "ready_ratio": {
+      "ratio": 0.9908631736748355,
+      "ci95": [
+        0.9805247030224877,
+        1.0056819989619603
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        -0.012637278152208836,
+        0.024929234188021936,
+        -0.026097034370311436,
+        -0.013112939801638154,
+        -0.013963315044484193,
+        -0.014191605600693035
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-053",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 2048,
+      "n": 4096,
+      "total_routed_rows": 512,
+      "experts": 32,
+      "distribution": "uniform",
+      "rows_per_expert": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "case_id": "grouped-053",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "4b6eddf7637dc593ca006e2700652c9a9c5c2bc94729bdbe57ecd341db5c5ce5"
+    },
+    "blocks": 5,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      64
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 5
+    },
+    "per_expert_kernel_names": {
+      "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn": 160,
+      "_ZN8cublasLt19splitKreduce_kernelILi32ELi16Eif6__halffS1_Lb0ES1_S1_S1_Lb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS3_SG_PKT9_S7_PSH_PvlPS3_PiSM_SM_SG_SG_SG_SG_SG_": 160
+    },
+    "ready_ratio": {
+      "ratio": 1.4558444148718996,
+      "ci95": [
+        1.088590741382834,
+        1.7076916233369115
+      ],
+      "blocks": 5,
+      "block_log_ratios": [
+        -0.1971585349348004,
+        0.4728795027573207,
+        0.5430159116154033,
+        0.5287062724864428,
+        0.5304872788112783
+      ]
+    }
+  },
+  {
+    "stage": "E1",
+    "case_id": "grouped-054",
+    "case": {
+      "suite": "grouped",
+      "split": "calibration",
+      "k": 2048,
+      "n": 4096,
+      "total_routed_rows": 512,
+      "experts": 32,
+      "distribution": "zipf",
+      "rows_per_expert": [
+        126,
+        63,
+        42,
+        32,
+        25,
+        21,
+        18,
+        16,
+        14,
+        13,
+        11,
+        11,
+        10,
+        9,
+        8,
+        8,
+        7,
+        7,
+        7,
+        6,
+        6,
+        6,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4,
+        4,
+        4,
+        4
+      ],
+      "case_id": "grouped-054",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "c5e2edc21c3a6f114108e5a6e109a26c9b3053e5ba132496f6e499b1d6c169f7"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      18
+    ],
+    "per_expert_kernel_nodes": [
+      57
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 42,
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 66
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 6,
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 36,
+      "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn": 150,
+      "_ZN8cublasLt19splitKreduce_kernelILi32ELi16Eif6__halffS1_Lb0ES1_S1_S1_Lb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS3_SG_PKT9_S7_PSH_PvlPS3_PiSM_SM_SG_SG_SG_SG_SG_": 150
+    },
+    "ready_ratio": {
+      "ratio": 1.2482449381922784,
+      "ci95": [
+        1.1557159086119728,
+        1.3008108180695788
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.26715330746561794,
+        0.030703146377580263,
+        0.2563641593801881,
+        0.2531688187062864,
+        0.2588274361503096,
+        0.26421422352207574
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-003",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 1024,
+      "n": 2048,
+      "total_routed_rows": 32,
+      "experts": 8,
+      "distribution": "one_heavy",
+      "rows_per_expert": [
+        16,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "case_id": "grouped-003",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "8b0682fadaf4fc8018aec9c24911bd615747db35b2e871059f43b63df4b811d1"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      3
+    ],
+    "per_expert_kernel_nodes": [
+      8
+    ],
+    "native_kernel_names": {
+      "_ZN7cutlass7Kernel2I66cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8EEvNT_6ParamsE": 6,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 12
+    },
+    "per_expert_kernel_names": {
+      "_ZN7cutlass7Kernel2I66cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8EEvNT_6ParamsE": 48
+    },
+    "ready_ratio": {
+      "ratio": 1.0894805282402114,
+      "ci95": [
+        1.0860167676687311,
+        1.0932671628991608
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.08344264281813926,
+        0.08341781983630539,
+        0.08156844549811629,
+        0.09246249178246742,
+        0.09077572294528934,
+        0.08253889538827751
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-016",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 1024,
+      "n": 2048,
+      "total_routed_rows": 128,
+      "experts": 32,
+      "distribution": "sparse_active",
+      "rows_per_expert": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "case_id": "grouped-016",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "06a9ecf3bb8dc4ab670905ebafbd0b4d848592d827597113ea5846b1c24d8db7"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      8
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 6
+    },
+    "per_expert_kernel_names": {
+      "_ZN7cutlass7Kernel2I66cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8EEvNT_6ParamsE": 48
+    },
+    "ready_ratio": {
+      "ratio": 1.0537887968495476,
+      "ci95": [
+        1.0432045308350597,
+        1.065268739832575
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.044732331464993766,
+        0.0609664145374626,
+        0.040743833118963554,
+        0.035780317738075225,
+        0.07276149757035831,
+        0.05936789083552963
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-025",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 1024,
+      "n": 2048,
+      "total_routed_rows": 2048,
+      "experts": 8,
+      "distribution": "uniform",
+      "rows_per_expert": [
+        256,
+        256,
+        256,
+        256,
+        256,
+        256,
+        256,
+        256
+      ],
+      "case_id": "grouped-025",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "f213b1f39d8c41306a67075785cd09255fc935b58efbda6ab168b123d83d8743"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      8
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 6
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 48
+    },
+    "ready_ratio": {
+      "ratio": 2.35271814148006,
+      "ci95": [
+        2.336847251057065,
+        2.363406677576551
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.8392932923322037,
+        0.8548282863709011,
+        0.8608689108988934,
+        0.8607186396421636,
+        0.8583294141394964,
+        0.859389350779754
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-026",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 1024,
+      "n": 2048,
+      "total_routed_rows": 2048,
+      "experts": 8,
+      "distribution": "zipf",
+      "rows_per_expert": [
+        753,
+        377,
+        251,
+        188,
+        151,
+        126,
+        108,
+        94
+      ],
+      "case_id": "grouped-026",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "806d1b71db740f9f8b91516be212b84cad2bee3189aaebbfb513052e788634bf"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      8
+    ],
+    "per_expert_kernel_nodes": [
+      8
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x256_ldg8_f2f_stages_32x1_nn": 6,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 12,
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 30
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x256_ldg8_f2f_stages_32x1_nn": 6,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 12,
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 30
+    },
+    "ready_ratio": {
+      "ratio": 0.9968014031344572,
+      "ci95": [
+        0.9870563397195354,
+        1.0084237580905695
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        -0.0027384557709715747,
+        -0.022711188268639923,
+        -0.0036484678966975798,
+        -0.003116247112166627,
+        -0.008870861777775926,
+        0.021862880960027413
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-028",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 1024,
+      "n": 2048,
+      "total_routed_rows": 2048,
+      "experts": 8,
+      "distribution": "sparse_active",
+      "rows_per_expert": [
+        1024,
+        1024,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "case_id": "grouped-028",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "fa0df4dbb81950d4670fc297c4d84668967b59fe98338ef23e80e0136cad6429"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      2
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 6
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_nn": 12
+    },
+    "ready_ratio": {
+      "ratio": 1.0870087637107166,
+      "ci95": [
+        1.0772749334057463,
+        1.09350888858434
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.09257325289913897,
+        0.06241943681157146,
+        0.0862357871044626,
+        0.08611512256357412,
+        0.086279469626278,
+        0.08695495338261404
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-029",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 1024,
+      "n": 2048,
+      "total_routed_rows": 2048,
+      "experts": 32,
+      "distribution": "uniform",
+      "rows_per_expert": [
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64
+      ],
+      "case_id": "grouped-029",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "14e749e901240ef3f2c371be419ff717592032bcf4f5843252d5f8ed844542e0"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      32
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 6
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_64x64_sliced1x4_ldg8_f2f_nn": 192
+    },
+    "ready_ratio": {
+      "ratio": 1.2796723824234035,
+      "ci95": [
+        1.2655191929947538,
+        1.2903576135754742
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.22104469804318388,
+        0.24653913110258016,
+        0.2508698250636019,
+        0.25161078904784767,
+        0.2609031790809253,
+        0.24865694129407884
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-030",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 1024,
+      "n": 2048,
+      "total_routed_rows": 2048,
+      "experts": 32,
+      "distribution": "zipf",
+      "rows_per_expert": [
+        505,
+        252,
+        168,
+        126,
+        101,
+        84,
+        72,
+        63,
+        56,
+        50,
+        46,
+        42,
+        39,
+        36,
+        34,
+        32,
+        30,
+        28,
+        27,
+        25,
+        24,
+        23,
+        22,
+        21,
+        20,
+        19,
+        19,
+        18,
+        17,
+        17,
+        16,
+        16
+      ],
+      "case_id": "grouped-030",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "b11b7ba2498b19093ef0c9abc709f522c37ea301397f6f05e0ef397e1221146e"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      29
+    ],
+    "per_expert_kernel_nodes": [
+      32
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x128_ldg8_f2f_stages_32x1_nn": 6,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 24,
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 30,
+      "turing_fp16_s1688gemm_fp16_64x64_sliced1x4_ldg8_f2f_nn": 114
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x128_ldg8_f2f_stages_32x1_nn": 6,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 6,
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 30,
+      "turing_fp16_s1688gemm_fp16_64x64_sliced1x4_ldg8_f2f_nn": 138,
+      "_ZN7cutlass7Kernel2I66cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8EEvNT_6ParamsE": 12
+    },
+    "ready_ratio": {
+      "ratio": 1.0058419471384297,
+      "ci95": [
+        1.0011728061242375,
+        1.0113421884510605
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.0002909487984497399,
+        0.007967882166207222,
+        0.009676817608424494,
+        -0.0015885256673916623,
+        0.016772047757179,
+        0.0018305241416050376
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-031",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 1024,
+      "n": 2048,
+      "total_routed_rows": 2048,
+      "experts": 32,
+      "distribution": "one_heavy",
+      "rows_per_expert": [
+        1024,
+        34,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33
+      ],
+      "case_id": "grouped-031",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "dd3528684f303880c0e5762dc9b5b4bb6a2a5a632714df77b931dfb27a783865"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      3
+    ],
+    "per_expert_kernel_nodes": [
+      32
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_nn": 6,
+      "turing_fp16_s1688gemm_fp16_64x64_sliced1x4_ldg8_f2f_nn": 6,
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 6
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_nn": 6,
+      "turing_fp16_s1688gemm_fp16_64x64_sliced1x4_ldg8_f2f_nn": 186
+    },
+    "ready_ratio": {
+      "ratio": 1.6588026954468207,
+      "ci95": [
+        1.286086214681309,
+        1.891684068240739
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.6147897759134343,
+        0.6361091562082917,
+        0.6383970140275342,
+        -0.12622414426119824,
+        0.638886410407089,
+        0.6346182336642554
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-035",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 2048,
+      "n": 4096,
+      "total_routed_rows": 32,
+      "experts": 8,
+      "distribution": "one_heavy",
+      "rows_per_expert": [
+        16,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "case_id": "grouped-035",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "db3e999130a7a95aed5361ada51be59b8bcdb0ba6b3bda3bd12bfb5fabe50c97"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      3
+    ],
+    "per_expert_kernel_nodes": [
+      16
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 6,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 12
+    },
+    "per_expert_kernel_names": {
+      "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn": 48,
+      "_ZN8cublasLt19splitKreduce_kernelILi32ELi16Eif6__halffS1_Lb0ES1_S1_S1_Lb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS3_SG_PKT9_S7_PSH_PvlPS3_PiSM_SM_SG_SG_SG_SG_SG_": 48
+    },
+    "ready_ratio": {
+      "ratio": 1.4591894794258882,
+      "ci95": [
+        1.4434105279569793,
+        1.4748961944232812
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.36022621327302645,
+        0.3772661972036291,
+        0.3795589461197971,
+        0.3934262578958587,
+        0.3623874215324357,
+        0.39442174690728227
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-040",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 2048,
+      "n": 4096,
+      "total_routed_rows": 32,
+      "experts": 32,
+      "distribution": "sparse_active",
+      "rows_per_expert": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "case_id": "grouped-040",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "17d56d7e8a083c875902a6725c010a4e5a55caa57b1fbc84f8fdcaa65e43970e"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      16
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 6
+    },
+    "per_expert_kernel_names": {
+      "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn": 48,
+      "_ZN8cublasLt19splitKreduce_kernelILi32ELi16Eif6__halffS1_Lb0ES1_S1_S1_Lb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS3_SG_PKT9_S7_PSH_PvlPS3_PiSM_SM_SG_SG_SG_SG_SG_": 48
+    },
+    "ready_ratio": {
+      "ratio": 2.2512754176561063,
+      "ci95": [
+        2.2311238826543573,
+        2.262008967825825
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.7891594831633973,
+        0.8158562908421397,
+        0.8150872116287536,
+        0.8164114723226297,
+        0.8160178733201671,
+        0.8164491161700694
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-052",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 2048,
+      "n": 4096,
+      "total_routed_rows": 512,
+      "experts": 8,
+      "distribution": "sparse_active",
+      "rows_per_expert": [
+        256,
+        256,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "case_id": "grouped-052",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "e08ae1b94cf52330d486ced435d3c5ca54cc961f1f3579fb7091d57a115d2535"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      2
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 6
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x128_ldg8_f2f_stages_32x1_nn": 12
+    },
+    "ready_ratio": {
+      "ratio": 2.281835789402078,
+      "ci95": [
+        1.7479284988962742,
+        2.9788215412838253
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        1.0945696109085312,
+        0.2933672280139867,
+        0.29337587597681547,
+        1.0863443106021462,
+        1.0914583525523058,
+        1.0907663606299705
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-057",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 2048,
+      "n": 4096,
+      "total_routed_rows": 2048,
+      "experts": 8,
+      "distribution": "uniform",
+      "rows_per_expert": [
+        256,
+        256,
+        256,
+        256,
+        256,
+        256,
+        256,
+        256
+      ],
+      "case_id": "grouped-057",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "6f14bffc971b20a0160ca79b6ace3d621207ea95c8d558e69606b7f5803e76d1"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      8
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 6
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x128_ldg8_f2f_stages_32x1_nn": 48
+    },
+    "ready_ratio": {
+      "ratio": 2.4802949204700906,
+      "ci95": [
+        2.4663983592659777,
+        2.4989012034588534
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.900919556281562,
+        0.9016524143545259,
+        0.9014634983953433,
+        0.9116995815690665,
+        0.9101350704230043,
+        0.9243947148819787
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-058",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 2048,
+      "n": 4096,
+      "total_routed_rows": 2048,
+      "experts": 8,
+      "distribution": "zipf",
+      "rows_per_expert": [
+        753,
+        377,
+        251,
+        188,
+        151,
+        126,
+        108,
+        94
+      ],
+      "case_id": "grouped-058",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "f0abb1b324802e1600b028db3863fc2e0ef800ecc7e0e0d36b2fd5e0a6db3c7e"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      8
+    ],
+    "per_expert_kernel_nodes": [
+      8
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x256_ldg8_f2f_stages_32x1_nn": 6,
+      "turing_fp16_s1688gemm_fp16_256x128_ldg8_f2f_stages_32x1_nn": 12,
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 6,
+      "_ZN7cutlass7Kernel2I60cutlass_75_tensorop_f16_s1688gemm_relu_f16_128x256_nn_align8EEvNT_6ParamsE": 6,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 18
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x256_ldg8_f2f_stages_32x1_nn": 6,
+      "turing_fp16_s1688gemm_fp16_256x128_ldg8_f2f_stages_32x1_nn": 12,
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 6,
+      "_ZN7cutlass7Kernel2I60cutlass_75_tensorop_f16_s1688gemm_relu_f16_128x256_nn_align8EEvNT_6ParamsE": 6,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 18
+    },
+    "ready_ratio": {
+      "ratio": 0.9975831112591166,
+      "ci95": [
+        0.9894741099115102,
+        1.004721511818684
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.006267835560409859,
+        -0.018035562012976746,
+        -0.003797434946354714,
+        0.006392010299024434,
+        -0.011853789180595124,
+        0.006508055494561343
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-061",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 2048,
+      "n": 4096,
+      "total_routed_rows": 2048,
+      "experts": 32,
+      "distribution": "uniform",
+      "rows_per_expert": [
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64
+      ],
+      "case_id": "grouped-061",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "bae0c8754dc76df26f513a2b8789519152700dc018efab1ad6504fa79092e84b"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      32
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 6
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 192
+    },
+    "ready_ratio": {
+      "ratio": 1.3057502853820615,
+      "ci95": [
+        1.2935036601980248,
+        1.31212567147899
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.24328964470528214,
+        0.27098090517197837,
+        0.2715659675593664,
+        0.2717996051152566,
+        0.271319211696702,
+        0.27171150710468195
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-062",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 2048,
+      "n": 4096,
+      "total_routed_rows": 2048,
+      "experts": 32,
+      "distribution": "zipf",
+      "rows_per_expert": [
+        505,
+        252,
+        168,
+        126,
+        101,
+        84,
+        72,
+        63,
+        56,
+        50,
+        46,
+        42,
+        39,
+        36,
+        34,
+        32,
+        30,
+        28,
+        27,
+        25,
+        24,
+        23,
+        22,
+        21,
+        20,
+        19,
+        19,
+        18,
+        17,
+        17,
+        16,
+        16
+      ],
+      "case_id": "grouped-062",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "7d07b5f86b40310191aa65729304d860f6cedd5de1ec77c419705e80ad1d254e"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      29
+    ],
+    "per_expert_kernel_nodes": [
+      34
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x128_ldg8_f2f_stages_32x1_nn": 18,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 42,
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 114
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x128_ldg8_f2f_stages_32x1_nn": 18,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 24,
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 138,
+      "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn": 12,
+      "_ZN8cublasLt19splitKreduce_kernelILi32ELi16Eif6__halffS1_Lb0ES1_S1_S1_Lb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS3_SG_PKT9_S7_PSH_PvlPS3_PiSM_SM_SG_SG_SG_SG_SG_": 12
+    },
+    "ready_ratio": {
+      "ratio": 1.022257527672413,
+      "ci95": [
+        1.0182366812508667,
+        1.0259779225537322
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.013824484888403094,
+        0.02863874069903566,
+        0.023642815249131324,
+        0.02062794008499991,
+        0.01967523937097985,
+        0.025671444084000447
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-063",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 2048,
+      "n": 4096,
+      "total_routed_rows": 2048,
+      "experts": 32,
+      "distribution": "one_heavy",
+      "rows_per_expert": [
+        1024,
+        34,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33
+      ],
+      "case_id": "grouped-063",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "18a75310aacfa449dda75d96a47dd1d82768f38e822c20d74d25afda353f28cc"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      3
+    ],
+    "per_expert_kernel_nodes": [
+      32
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_nn": 6,
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 6,
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 6
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_nn": 6,
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 186
+    },
+    "ready_ratio": {
+      "ratio": 1.5884438869008382,
+      "ci95": [
+        1.5865223442142262,
+        1.5895161317887734
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.45977962315079096,
+        0.4632720549963918,
+        0.463349755132693,
+        0.4635497929759471,
+        0.46342825282297895,
+        0.4631496180477614
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-079",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 4096,
+      "n": 11008,
+      "total_routed_rows": 128,
+      "experts": 32,
+      "distribution": "one_heavy",
+      "rows_per_expert": [
+        64,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "case_id": "grouped-079",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "99ae34e470ce14506ca9758654d0c1ab162fe71be66f3d8c98b6b6c5d3835cb4"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      3
+    ],
+    "per_expert_kernel_nodes": [
+      63
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 12,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 6
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 6,
+      "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn": 186,
+      "_ZN8cublasLt19splitKreduce_kernelILi32ELi16Eif6__halffS1_Lb0ES1_S1_S1_Lb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS3_SG_PKT9_S7_PSH_PvlPS3_PiSM_SM_SG_SG_SG_SG_SG_": 186
+    },
+    "ready_ratio": {
+      "ratio": 0.80303255697774,
+      "ci95": [
+        0.8028174103463147,
+        0.803271325565305
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        -0.2191742603462275,
+        -0.21891856590453626,
+        -0.21972959477973977,
+        -0.2189322269700963,
+        -0.2197289196411674,
+        -0.21967656241287742
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-081",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 4096,
+      "n": 11008,
+      "total_routed_rows": 512,
+      "experts": 8,
+      "distribution": "uniform",
+      "rows_per_expert": [
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64
+      ],
+      "case_id": "grouped-081",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "77d9fd58624324e6a1d010ab3eba4725e95488ab2c6e0b31db7039a4b9dddeb6"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      8
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 6
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 48
+    },
+    "ready_ratio": {
+      "ratio": 0.8530052309509703,
+      "ci95": [
+        0.8527948164577475,
+        0.8532058746184802
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        -0.15885149958586364,
+        -0.15877540526059275,
+        -0.15942319880110573,
+        -0.15894765654747617,
+        -0.1593515966481171,
+        -0.15858823771555167
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-088",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 4096,
+      "n": 11008,
+      "total_routed_rows": 512,
+      "experts": 32,
+      "distribution": "sparse_active",
+      "rows_per_expert": [
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "case_id": "grouped-088",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "413b025c7143e4feb5cba3218b9635d710cb8adb2d89f6bcc6dbc60840f84436"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      8
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 6
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 48
+    },
+    "ready_ratio": {
+      "ratio": 0.8527984329974705,
+      "ci95": [
+        0.8527279722000941,
+        0.8528765501553108
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        -0.15922812704594205,
+        -0.15926409399566982,
+        -0.15922996172414122,
+        -0.1592351396927266,
+        -0.15939657686275724,
+        -0.15903847898931786
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-090",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 4096,
+      "n": 11008,
+      "total_routed_rows": 2048,
+      "experts": 8,
+      "distribution": "zipf",
+      "rows_per_expert": [
+        753,
+        377,
+        251,
+        188,
+        151,
+        126,
+        108,
+        94
+      ],
+      "case_id": "grouped-090",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "dec3018b9849fb62f2e362449004f3812278ab06d3be5cf40dd14f9f2d9eece7"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      8
+    ],
+    "per_expert_kernel_nodes": [
+      8
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x128_ldg8_f2f_stages_32x1_nn": 18,
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 12,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 18
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x128_ldg8_f2f_stages_32x1_nn": 18,
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 12,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 18
+    },
+    "ready_ratio": {
+      "ratio": 1.0017063296956044,
+      "ci95": [
+        1.0015243114592973,
+        1.0018774670165425
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.001996411176950116,
+        0.0015719206582131475,
+        0.0019353679042060205,
+        0.0013348711677947545,
+        0.0016270031891701731,
+        0.0017636793176692774
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-091",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 4096,
+      "n": 11008,
+      "total_routed_rows": 2048,
+      "experts": 8,
+      "distribution": "one_heavy",
+      "rows_per_expert": [
+        1024,
+        147,
+        147,
+        146,
+        146,
+        146,
+        146,
+        146
+      ],
+      "case_id": "grouped-091",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "17d68c2165ec486512ccbee9b74a9aa05f06be1ad4f66b682dbe000ab9d8b45b"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      3
+    ],
+    "per_expert_kernel_nodes": [
+      8
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x128_ldg8_f2f_stages_32x1_nn": 6,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 12
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x128_ldg8_f2f_stages_32x1_nn": 6,
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 42
+    },
+    "ready_ratio": {
+      "ratio": 2.482141256926862,
+      "ci95": [
+        2.4667323052465715,
+        2.499328247564073
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.9108500258294864,
+        0.9009383089721511,
+        0.9217406379076553,
+        0.9011405843078933,
+        0.91770191305799,
+        0.9023581161488148
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-092",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 4096,
+      "n": 11008,
+      "total_routed_rows": 2048,
+      "experts": 8,
+      "distribution": "sparse_active",
+      "rows_per_expert": [
+        1024,
+        1024,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "case_id": "grouped-092",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "852bf563b007be9b708edb119e492206e0afe70dc1527c869c65611a5849a99c"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      2
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 6
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x128_ldg8_f2f_stages_32x1_nn": 12
+    },
+    "ready_ratio": {
+      "ratio": 2.496189378062748,
+      "ci95": [
+        2.491910172348697,
+        2.500545146174859
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.9113764699735939,
+        0.9128838460605855,
+        0.9154790603389854,
+        0.9148053057491583,
+        0.9182422325008498,
+        0.9158050068785832
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-093",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 4096,
+      "n": 11008,
+      "total_routed_rows": 2048,
+      "experts": 32,
+      "distribution": "uniform",
+      "rows_per_expert": [
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64
+      ],
+      "case_id": "grouped-093",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "e477d76666593dfd0f3feed45435074c35605cc0883fd32007aac46e173f688d"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      1
+    ],
+    "per_expert_kernel_nodes": [
+      32
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 6
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 192
+    },
+    "ready_ratio": {
+      "ratio": 0.7724502642684802,
+      "ci95": [
+        0.7723204948731444,
+        0.772555983028971
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        -0.25808938589146324,
+        -0.25822229732968516,
+        -0.25817157470154584,
+        -0.25856008086379106,
+        -0.25794051981704896,
+        -0.2581420720377061
+      ]
+    }
+  },
+  {
+    "stage": "E3",
+    "case_id": "grouped-094",
+    "case": {
+      "suite": "grouped",
+      "split": "test",
+      "k": 4096,
+      "n": 11008,
+      "total_routed_rows": 2048,
+      "experts": 32,
+      "distribution": "zipf",
+      "rows_per_expert": [
+        505,
+        252,
+        168,
+        126,
+        101,
+        84,
+        72,
+        63,
+        56,
+        50,
+        46,
+        42,
+        39,
+        36,
+        34,
+        32,
+        30,
+        28,
+        27,
+        25,
+        24,
+        23,
+        22,
+        21,
+        20,
+        19,
+        19,
+        18,
+        17,
+        17,
+        16,
+        16
+      ],
+      "case_id": "grouped-094",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "dcb73ae914243091cb9247ec1e06fb422c5a03996d4936e809d0256abb8c0f8b"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      29
+    ],
+    "per_expert_kernel_nodes": [
+      34
+    ],
+    "native_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x128_ldg8_f2f_stages_32x1_nn": 12,
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 96,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 42,
+      "turing_fp16_s1688gemm_fp16_256x64_sliced1x2_ldg8_f2f_nn": 24
+    },
+    "per_expert_kernel_names": {
+      "turing_fp16_s1688gemm_fp16_256x128_ldg8_f2f_stages_32x1_nn": 12,
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 120,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 24,
+      "turing_fp16_s1688gemm_fp16_256x64_sliced1x2_ldg8_f2f_nn": 24,
+      "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn": 12,
+      "_ZN8cublasLt19splitKreduce_kernelILi32ELi16Eif6__halffS1_Lb0ES1_S1_S1_Lb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS3_SG_PKT9_S7_PSH_PvlPS3_PiSM_SM_SG_SG_SG_SG_SG_": 12
+    },
+    "ready_ratio": {
+      "ratio": 1.105498772810257,
+      "ci95": [
+        1.105394974646444,
+        1.1056111439121277
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.10034625323050221,
+        0.10042598556540488,
+        0.10014763488208946,
+        0.10047453793609612,
+        0.10019158744396733,
+        0.10019366837049172
+      ]
+    }
+  },
+  {
+    "stage": "E4",
+    "case_id": "moe_layer-007",
+    "case": {
+      "suite": "moe_layer",
+      "split": "test",
+      "hidden": 1024,
+      "intermediate": 2048,
+      "experts": 8,
+      "tokens": 1024,
+      "top_k": 1,
+      "case_id": "moe_layer-007",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "a9f9e4eb4d1b114da8fec4d0f15f6b40047544215ccde1494c21f3beb2dee6e8"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      20,
+      22
+    ],
+    "per_expert_kernel_nodes": [
+      30
+    ],
+    "native_kernel_names": {
+      "_ZN2at6native24vectorized_gather_kernelILi16ElEEvPcS2_PT0_illllb": 12,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 30,
+      "_ZN7cutlass7Kernel2I60cutlass_75_tensorop_f16_s1688gemm_relu_f16_128x256_nn_align8EEvNT_6ParamsE": 18,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastIZZZNS0_62_GLOBAL__N__7d4ed096_23_ActivationSiluKernel_cu_2e82ba61_3225611silu_kernelERNS_18TensorIteratorBaseEENKUlvE_clEvENKUlvE3_clEvEUlN3c104HalfEE_EEvS5_RKT_EUliE_EEviT1_": 6,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastINS0_13BinaryFunctorIN3c104HalfES5_S5_NS0_15binary_internal10MulFunctorIfEEEEEEvRNS_18TensorIteratorBaseERKT_EUliE_EEviT1_": 12,
+      "volta_fp16_s884gemm_fp16_64x64_ldg8_f2f_nn": 44,
+      "_ZN2at6native13reduce_kernelILi128ELi4ENS0_8ReduceOpIN3c104HalfENS0_14func_wrapper_tIS4_ZNS0_11sum_functorIS4_fS4_EclERNS_14TensorIteratorEEUlffE_EEjS4_Li4ELi4EEEEEvT1_": 6
+    },
+    "per_expert_kernel_names": {
+      "_ZN2at6native24vectorized_gather_kernelILi16ElEEvPcS2_PT0_illllb": 12,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 30,
+      "_ZN7cutlass7Kernel2I60cutlass_75_tensorop_f16_s1688gemm_relu_f16_128x256_nn_align8EEvNT_6ParamsE": 18,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastIZZZNS0_62_GLOBAL__N__7d4ed096_23_ActivationSiluKernel_cu_2e82ba61_3225611silu_kernelERNS_18TensorIteratorBaseEENKUlvE_clEvENKUlvE3_clEvEUlN3c104HalfEE_EEvS5_RKT_EUliE_EEviT1_": 6,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastINS0_13BinaryFunctorIN3c104HalfES5_S5_NS0_15binary_internal10MulFunctorIfEEEEEEvRNS_18TensorIteratorBaseERKT_EUliE_EEviT1_": 12,
+      "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn": 48,
+      "_ZN8cublasLt19splitKreduce_kernelILi32ELi16Eif6__halffS1_Lb0ES1_S1_S1_Lb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS3_SG_PKT9_S7_PSH_PvlPS3_PiSM_SM_SG_SG_SG_SG_SG_": 48,
+      "_ZN2at6native13reduce_kernelILi128ELi4ENS0_8ReduceOpIN3c104HalfENS0_14func_wrapper_tIS4_ZNS0_11sum_functorIS4_fS4_EclERNS_14TensorIteratorEEUlffE_EEjS4_Li4ELi4EEEEEvT1_": 6
+    },
+    "ready_ratio": {
+      "ratio": 1.1343705642955155,
+      "ci95": [
+        1.1182300901807112,
+        1.1492619553694956
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.12869569609093756,
+        0.14136552497664556,
+        0.0967445903893168,
+        0.1470764591354451,
+        0.1323973384752849,
+        0.11018796013553164
+      ]
+    }
+  },
+  {
+    "stage": "E4",
+    "case_id": "moe_layer-008",
+    "case": {
+      "suite": "moe_layer",
+      "split": "test",
+      "hidden": 1024,
+      "intermediate": 2048,
+      "experts": 8,
+      "tokens": 1024,
+      "top_k": 2,
+      "case_id": "moe_layer-008",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "df9f5c520e827372b562be6b7080047b839675a29348f3e671f52dca28f9fa1f"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      20,
+      22
+    ],
+    "per_expert_kernel_nodes": [
+      22
+    ],
+    "native_kernel_names": {
+      "_ZN2at6native24vectorized_gather_kernelILi16ElEEvPcS2_PT0_illllb": 12,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 4,
+      "turing_fp16_s1688gemm_fp16_256x128_ldg8_f2f_stages_32x1_nn": 44,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastIZZZNS0_62_GLOBAL__N__7d4ed096_23_ActivationSiluKernel_cu_2e82ba61_3225611silu_kernelERNS_18TensorIteratorBaseEENKUlvE_clEvENKUlvE3_clEvEUlN3c104HalfEE_EEvS5_RKT_EUliE_EEviT1_": 6,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastINS0_13BinaryFunctorIN3c104HalfES5_S5_NS0_15binary_internal10MulFunctorIfEEEEEEvRNS_18TensorIteratorBaseERKT_EUliE_EEviT1_": 12,
+      "turing_fp16_s1688gemm_fp16_128x256_ldg8_f2f_stages_32x1_nn": 24,
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 20,
+      "_ZN2at6native13reduce_kernelILi128ELi4ENS0_8ReduceOpIN3c104HalfENS0_14func_wrapper_tIS4_ZNS0_11sum_functorIS4_fS4_EclERNS_14TensorIteratorEEUlffE_EEjS4_Li4ELi4EEEEEvT1_": 6
+    },
+    "per_expert_kernel_names": {
+      "_ZN2at6native24vectorized_gather_kernelILi16ElEEvPcS2_PT0_illllb": 12,
+      "turing_fp16_s1688gemm_fp16_256x128_ldg8_f2f_stages_32x1_nn": 48,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastIZZZNS0_62_GLOBAL__N__7d4ed096_23_ActivationSiluKernel_cu_2e82ba61_3225611silu_kernelERNS_18TensorIteratorBaseEENKUlvE_clEvENKUlvE3_clEvEUlN3c104HalfEE_EEvS5_RKT_EUliE_EEviT1_": 6,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastINS0_13BinaryFunctorIN3c104HalfES5_S5_NS0_15binary_internal10MulFunctorIfEEEEEEvRNS_18TensorIteratorBaseERKT_EUliE_EEviT1_": 12,
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 24,
+      "turing_fp16_s1688gemm_fp16_128x256_ldg8_f2f_stages_32x1_nn": 24,
+      "_ZN2at6native13reduce_kernelILi128ELi4ENS0_8ReduceOpIN3c104HalfENS0_14func_wrapper_tIS4_ZNS0_11sum_functorIS4_fS4_EclERNS_14TensorIteratorEEUlffE_EEjS4_Li4ELi4EEEEEvT1_": 6
+    },
+    "ready_ratio": {
+      "ratio": 1.0070846942435752,
+      "ci95": [
+        1.0010371560421518,
+        1.0128165658946038
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.012538103024638954,
+        -0.004442963373698415,
+        0.0035052492504938104,
+        0.017340711469587926,
+        0.010971444563575627,
+        0.0024457492941752875
+      ]
+    }
+  },
+  {
+    "stage": "E4",
+    "case_id": "moe_layer-009",
+    "case": {
+      "suite": "moe_layer",
+      "split": "test",
+      "hidden": 2048,
+      "intermediate": 4096,
+      "experts": 8,
+      "tokens": 16,
+      "top_k": 1,
+      "case_id": "moe_layer-009",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "722927225b2252e3bd884ae251cd110cdeb573f28f1d3f72b68e5b27e843bb6e"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      10,
+      12,
+      14
+    ],
+    "per_expert_kernel_nodes": [
+      30,
+      32,
+      34
+    ],
+    "native_kernel_names": {
+      "_ZN2at6native44_GLOBAL__N__50c743a2_11_Indexing_cu_89862edb21indexSelectSmallIndexIN3c104HalfEljLi2ELi2ELin2EEEvNS_4cuda6detail10TensorInfoIT_T1_EENS7_IKS8_S9_EENS7_IKT0_S9_EEiiS9_l": 12,
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 2,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 22,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastIZZZNS0_62_GLOBAL__N__7d4ed096_23_ActivationSiluKernel_cu_2e82ba61_3225611silu_kernelERNS_18TensorIteratorBaseEENKUlvE_clEvENKUlvE3_clEvEUlN3c104HalfEE_EEvS5_RKT_EUliE_EEviT1_": 6,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastINS0_13BinaryFunctorIN3c104HalfES5_S5_NS0_15binary_internal10MulFunctorIfEEEEEEvRNS_18TensorIteratorBaseERKT_EUliE_EEviT1_": 12,
+      "_ZN2at6native13reduce_kernelILi128ELi4ENS0_8ReduceOpIN3c104HalfENS0_14func_wrapper_tIS4_ZNS0_11sum_functorIS4_fS4_EclERNS_14TensorIteratorEEUlffE_EEjS4_Li4ELi4EEEEEvT1_": 6,
+      "_ZN8internal5gemvx6kernelIii6__halfS2_S2_fLb1ELb1ELb0ELb0ELi7ELb0E18cublasGemvParamsExIi23cublasGemvTensorBatchedIKS2_ES6_S4_IS2_EfEEENSt9enable_ifIXT5_EvE4typeET11_": 2,
+      "_Z13gemv2N_kernelIii6__halfS0_S0_fLi128ELi8ELi4ELi4ELi1ELb0E18cublasGemvParamsExIi23cublasGemvTensorBatchedIKS0_ES4_S2_IS0_EfEEvT11_": 2,
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 2,
+      "_ZN8internal5gemvx6kernelIii6__halfS2_S2_fLb1ELb1ELb0ELb0ELi8ELb0E18cublasGemvParamsExIi23cublasGemvTensorBatchedIKS2_ES6_S4_IS2_EfEEENSt9enable_ifIXT5_EvE4typeET11_": 2,
+      "_ZN7cutlass7Kernel2I66cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8EEvNT_6ParamsE": 2,
+      "_ZN8internal5gemvx6kernelIii6__halfS2_S2_fLb0ELb1ELb0ELb0ELi9ELb0E18cublasGemvParamsExIi23cublasGemvTensorBatchedIKS2_ES6_S4_IS2_EfEEENSt9enable_ifIXntT5_EvE4typeET11_": 2
+    },
+    "per_expert_kernel_names": {
+      "_ZN2at6native44_GLOBAL__N__50c743a2_11_Indexing_cu_89862edb21indexSelectSmallIndexIN3c104HalfEljLi2ELi2ELin2EEEvNS_4cuda6detail10TensorInfoIT_T1_EENS7_IKS8_S9_EENS7_IKT0_S9_EEiiS9_l": 12,
+      "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn": 72,
+      "_ZN8cublasLt19splitKreduce_kernelILi32ELi16Eif6__halffS1_Lb0ES1_S1_S1_Lb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS3_SG_PKT9_S7_PSH_PvlPS3_PiSM_SM_SG_SG_SG_SG_SG_": 72,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastIZZZNS0_62_GLOBAL__N__7d4ed096_23_ActivationSiluKernel_cu_2e82ba61_3225611silu_kernelERNS_18TensorIteratorBaseEENKUlvE_clEvENKUlvE3_clEvEUlN3c104HalfEE_EEvS5_RKT_EUliE_EEviT1_": 6,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastINS0_13BinaryFunctorIN3c104HalfES5_S5_NS0_15binary_internal10MulFunctorIfEEEEEEvRNS_18TensorIteratorBaseERKT_EUliE_EEviT1_": 12,
+      "_ZN2at6native13reduce_kernelILi128ELi4ENS0_8ReduceOpIN3c104HalfENS0_14func_wrapper_tIS4_ZNS0_11sum_functorIS4_fS4_EclERNS_14TensorIteratorEEUlffE_EEjS4_Li4ELi4EEEEEvT1_": 6,
+      "_ZN8internal5gemvx6kernelIii6__halfS2_S2_fLb1ELb1ELb0ELb0ELi7ELb0E18cublasGemvParamsExIi30cublasGemvTensorStridedBatchedIKS2_ES6_S4_IS2_EfEEENSt9enable_ifIXT5_EvE4typeET11_": 6,
+      "_Z13gemv2N_kernelIii6__halfS0_S0_fLi128ELi8ELi4ELi4ELi1ELb0E18cublasGemvParamsExIi30cublasGemvTensorStridedBatchedIKS0_ES4_S2_IS0_EfEEvT11_": 6
+    },
+    "ready_ratio": {
+      "ratio": 1.2587740222059096,
+      "ci95": [
+        1.194704367125752,
+        1.3326980847501597
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.2212610937981951,
+        0.327969423508455,
+        0.1611531674201806,
+        0.20677773086317408,
+        0.3123860501408479,
+        0.15128202853334935
+      ]
+    }
+  },
+  {
+    "stage": "E4",
+    "case_id": "moe_layer-016",
+    "case": {
+      "suite": "moe_layer",
+      "split": "test",
+      "hidden": 2048,
+      "intermediate": 4096,
+      "experts": 8,
+      "tokens": 1024,
+      "top_k": 2,
+      "case_id": "moe_layer-016",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "a851b59d0c9c73eb1fc786bad3210723d7720f91c823a55c9d0c8e3450e27cbe"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      20,
+      22
+    ],
+    "per_expert_kernel_nodes": [
+      22
+    ],
+    "native_kernel_names": {
+      "_ZN2at6native24vectorized_gather_kernelILi16ElEEvPcS2_PT0_illllb": 12,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 48,
+      "turing_fp16_s1688gemm_fp16_256x128_ldg8_f2f_stages_32x1_nn": 24,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_nn": 20,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastIZZZNS0_62_GLOBAL__N__7d4ed096_23_ActivationSiluKernel_cu_2e82ba61_3225611silu_kernelERNS_18TensorIteratorBaseEENKUlvE_clEvENKUlvE3_clEvEUlN3c104HalfEE_EEvS5_RKT_EUliE_EEviT1_": 6,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastINS0_13BinaryFunctorIN3c104HalfES5_S5_NS0_15binary_internal10MulFunctorIfEEEEEEvRNS_18TensorIteratorBaseERKT_EUliE_EEviT1_": 12,
+      "_ZN2at6native13reduce_kernelILi128ELi4ENS0_8ReduceOpIN3c104HalfENS0_14func_wrapper_tIS4_ZNS0_11sum_functorIS4_fS4_EclERNS_14TensorIteratorEEUlffE_EEjS4_Li4ELi4EEEEEvT1_": 6
+    },
+    "per_expert_kernel_names": {
+      "_ZN2at6native24vectorized_gather_kernelILi16ElEEvPcS2_PT0_illllb": 12,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_nn": 24,
+      "turing_fp16_s1688gemm_fp16_256x128_ldg8_f2f_stages_32x1_nn": 24,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastIZZZNS0_62_GLOBAL__N__7d4ed096_23_ActivationSiluKernel_cu_2e82ba61_3225611silu_kernelERNS_18TensorIteratorBaseEENKUlvE_clEvENKUlvE3_clEvEUlN3c104HalfEE_EEvS5_RKT_EUliE_EEviT1_": 6,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastINS0_13BinaryFunctorIN3c104HalfES5_S5_NS0_15binary_internal10MulFunctorIfEEEEEEvRNS_18TensorIteratorBaseERKT_EUliE_EEviT1_": 12,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 48,
+      "_ZN2at6native13reduce_kernelILi128ELi4ENS0_8ReduceOpIN3c104HalfENS0_14func_wrapper_tIS4_ZNS0_11sum_functorIS4_fS4_EclERNS_14TensorIteratorEEUlffE_EEjS4_Li4ELi4EEEEEvT1_": 6
+    },
+    "ready_ratio": {
+      "ratio": 1.0145261805871155,
+      "ci95": [
+        0.9985083496706716,
+        1.0311248359337806
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        0.043475205883327116,
+        0.0062619205730649686,
+        -0.006030309985453724,
+        0.043975878790057245,
+        0.002236917683098847,
+        -0.0033894948731946328
+      ]
+    }
+  },
+  {
+    "stage": "E4",
+    "case_id": "moe_layer-017",
+    "case": {
+      "suite": "moe_layer",
+      "split": "test",
+      "hidden": 4096,
+      "intermediate": 11008,
+      "experts": 32,
+      "tokens": 16,
+      "top_k": 1,
+      "case_id": "moe_layer-017",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "a5bd8d4767ccf2d58fe865642fe19ebb49dbdbd89b709e9cd40e1048a1cc0bbb"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      10,
+      12
+    ],
+    "per_expert_kernel_nodes": [
+      46,
+      48,
+      50
+    ],
+    "native_kernel_names": {
+      "_ZN2at6native44_GLOBAL__N__50c743a2_11_Indexing_cu_89862edb21indexSelectSmallIndexIN3c104HalfEljLi2ELi2ELin2EEEvNS_4cuda6detail10TensorInfoIT_T1_EENS7_IKS8_S9_EENS7_IKT0_S9_EEiiS9_l": 12,
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 20,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastIZZZNS0_62_GLOBAL__N__7d4ed096_23_ActivationSiluKernel_cu_2e82ba61_3225611silu_kernelERNS_18TensorIteratorBaseEENKUlvE_clEvENKUlvE3_clEvEUlN3c104HalfEE_EEvS5_RKT_EUliE_EEviT1_": 6,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastINS0_13BinaryFunctorIN3c104HalfES5_S5_NS0_15binary_internal10MulFunctorIfEEEEEEvRNS_18TensorIteratorBaseERKT_EUliE_EEviT1_": 12,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 4,
+      "_ZN2at6native13reduce_kernelILi128ELi4ENS0_8ReduceOpIN3c104HalfENS0_14func_wrapper_tIS4_ZNS0_11sum_functorIS4_fS4_EclERNS_14TensorIteratorEEUlffE_EEjS4_Li4ELi4EEEEEvT1_": 6,
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 4
+    },
+    "per_expert_kernel_names": {
+      "_ZN2at6native44_GLOBAL__N__50c743a2_11_Indexing_cu_89862edb21indexSelectSmallIndexIN3c104HalfEljLi2ELi2ELin2EEEvNS_4cuda6detail10TensorInfoIT_T1_EENS7_IKS8_S9_EENS7_IKT0_S9_EEiiS9_l": 12,
+      "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn": 92,
+      "_ZN8cublasLt19splitKreduce_kernelILi32ELi16Eif6__halffS1_Lb0ES1_S1_S1_Lb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS3_SG_PKT9_S7_PSH_PvlPS3_PiSM_SM_SG_SG_SG_SG_SG_": 92,
+      "_Z13gemv2N_kernelIii6__halfS0_S0_fLi128ELi1ELi2ELi4ELi1ELb0E18cublasGemvParamsExIi30cublasGemvTensorStridedBatchedIKS0_ES4_S2_IS0_EfEEvT11_": 66,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastIZZZNS0_62_GLOBAL__N__7d4ed096_23_ActivationSiluKernel_cu_2e82ba61_3225611silu_kernelERNS_18TensorIteratorBaseEENKUlvE_clEvENKUlvE3_clEvEUlN3c104HalfEE_EEvS5_RKT_EUliE_EEviT1_": 6,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastINS0_13BinaryFunctorIN3c104HalfES5_S5_NS0_15binary_internal10MulFunctorIfEEEEEEvRNS_18TensorIteratorBaseERKT_EUliE_EEviT1_": 12,
+      "_ZN2at6native13reduce_kernelILi128ELi4ENS0_8ReduceOpIN3c104HalfENS0_14func_wrapper_tIS4_ZNS0_11sum_functorIS4_fS4_EclERNS_14TensorIteratorEEUlffE_EEjS4_Li4ELi4EEEEEvT1_": 6,
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 2
+    },
+    "ready_ratio": {
+      "ratio": 0.8585636161113619,
+      "ci95": [
+        0.8493748516956047,
+        0.8682792587667086
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        -0.13338525553928093,
+        -0.1591965098502524,
+        -0.167652308181462,
+        -0.13368568428449037,
+        -0.15441337549719858,
+        -0.16663386617165105
+      ]
+    }
+  },
+  {
+    "stage": "E4",
+    "case_id": "moe_layer-024",
+    "case": {
+      "suite": "moe_layer",
+      "split": "test",
+      "hidden": 4096,
+      "intermediate": 11008,
+      "experts": 32,
+      "tokens": 1024,
+      "top_k": 2,
+      "case_id": "moe_layer-024",
+      "origin": "SYNTHETIC_MECHANISM",
+      "dtype": "FP16_INPUT_FP32_ACCUM",
+      "status": "PLANNED_NOT_EXECUTED",
+      "plan_signature": "79aa4b4ddaf6aed451a8553c73f2158b835417bc90bc1df3529d552fd84c61f7"
+    },
+    "blocks": 6,
+    "native_kernel_nodes": [
+      42,
+      48
+    ],
+    "per_expert_kernel_nodes": [
+      70
+    ],
+    "native_kernel_names": {
+      "_ZN2at6native24vectorized_gather_kernelILi16ElEEvPcS2_PT0_illllb": 12,
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 60,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 144,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastIZZZNS0_62_GLOBAL__N__7d4ed096_23_ActivationSiluKernel_cu_2e82ba61_3225611silu_kernelERNS_18TensorIteratorBaseEENKUlvE_clEvENKUlvE3_clEvEUlN3c104HalfEE_EEvS5_RKT_EUliE_EEviT1_": 6,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastINS0_13BinaryFunctorIN3c104HalfES5_S5_NS0_15binary_internal10MulFunctorIfEEEEEEvRNS_18TensorIteratorBaseERKT_EUliE_EEviT1_": 12,
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 36,
+      "_ZN2at6native13reduce_kernelILi128ELi4ENS0_8ReduceOpIN3c104HalfENS0_14func_wrapper_tIS4_ZNS0_11sum_functorIS4_fS4_EclERNS_14TensorIteratorEEUlffE_EEjS4_Li4ELi4EEEEEvT1_": 6
+    },
+    "per_expert_kernel_names": {
+      "_ZN2at6native24vectorized_gather_kernelILi16ElEEvPcS2_PT0_illllb": 12,
+      "turing_fp16_s1688gemm_fp16_256x64_ldg8_f2f_stages_32x1_nn": 106,
+      "turing_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn": 172,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastIZZZNS0_62_GLOBAL__N__7d4ed096_23_ActivationSiluKernel_cu_2e82ba61_3225611silu_kernelERNS_18TensorIteratorBaseEENKUlvE_clEvENKUlvE3_clEvEUlN3c104HalfEE_EEvS5_RKT_EUliE_EEviT1_": 6,
+      "_ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastINS0_13BinaryFunctorIN3c104HalfES5_S5_NS0_15binary_internal10MulFunctorIfEEEEEEvRNS_18TensorIteratorBaseERKT_EUliE_EEviT1_": 12,
+      "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn": 106,
+      "_ZN2at6native13reduce_kernelILi128ELi4ENS0_8ReduceOpIN3c104HalfENS0_14func_wrapper_tIS4_ZNS0_11sum_functorIS4_fS4_EclERNS_14TensorIteratorEEUlffE_EEjS4_Li4ELi4EEEEEvT1_": 6
+    },
+    "ready_ratio": {
+      "ratio": 1.0109278200065157,
+      "ci95": [
+        0.9601224581108783,
+        1.0699500602887186
+      ],
+      "blocks": 6,
+      "block_log_ratios": [
+        -0.0448875287796801,
+        0.08223416239682735,
+        0.00560617477456329,
+        -0.07022271239530202,
+        0.11499558710035374,
+        -0.022514426072926964
+      ]
+    }
+  }
+]

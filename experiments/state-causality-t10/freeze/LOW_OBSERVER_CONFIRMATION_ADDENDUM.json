@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-17T09:35:22.993984+00:00",
+  "reason": "FullNVML capabilitycall cost~32ms, fastclock/reason calls may also have observationcost. Predeclare1Hz-only repetition before mainresults exported; no outcome-based selection.",
+  "blocks": 2,
+  "case": "R_G017",
+  "order_indices": [
+    0,
+    5
+  ],
+  "condition_s": 10,
+  "phase_s": 4,
+  "budget": "Only if remaining>=100s before each; otherwise explicit omission",
+  "role": "Secondary independent process confirmation; not merged into main6"
+}

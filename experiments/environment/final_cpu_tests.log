@@ -1,0 +1,53 @@
+test_breakeven (test_helpers.MappingTests.test_breakeven) ... ok
+test_duplicates (test_helpers.MappingTests.test_duplicates) ... ok
+test_easy (test_helpers.MappingTests.test_easy) ... ok
+test_empty (test_helpers.MappingTests.test_empty) ... ok
+test_exhaustive_small (test_helpers.MappingTests.test_exhaustive_small) ... ok
+test_forbidden (test_helpers.MappingTests.test_forbidden) ... ok
+test_invalid_time (test_helpers.MappingTests.test_invalid_time) ... ok
+test_missing_groups (test_helpers.MappingTests.test_missing_groups) ... ok
+test_negative (test_helpers.MappingTests.test_negative) ... ok
+test_no_gain (test_helpers.MappingTests.test_no_gain) ... ok
+test_no_legal (test_helpers.MappingTests.test_no_legal) ... ok
+test_no_workers (test_helpers.MappingTests.test_no_workers) ... ok
+test_ownership (test_helpers.MappingTests.test_ownership) ... ok
+test_ragged (test_helpers.MappingTests.test_ragged) ... ok
+test_zero_init (test_helpers.MappingTests.test_zero_init) ... ok
+test_confirmation (test_helpers.PlanTests.test_confirmation) ... ok
+test_full (test_helpers.PlanTests.test_full) ... ok
+test_merge_changed (test_helpers.PlanTests.test_merge_changed) ... ok
+test_merge_missing (test_helpers.PlanTests.test_merge_missing) ... ok
+test_merge_ok (test_helpers.PlanTests.test_merge_ok) ... ok
+test_no_execute (test_helpers.PlanTests.test_no_execute) ... ok
+test_platform_identity (test_helpers.PlanTests.test_platform_identity) ... ok
+test_seed (test_helpers.PlanTests.test_seed) ... ok
+test_unknown (test_helpers.PlanTests.test_unknown) ... ok
+test_validate (test_helpers.PlanTests.test_validate) ... ok
+test_empty (test_helpers.QuotaTests.test_empty) ... ok
+test_nan (test_helpers.QuotaTests.test_nan) ... ok
+test_negative (test_helpers.QuotaTests.test_negative) ... ok
+test_nocapacity (test_helpers.QuotaTests.test_nocapacity) ... ok
+test_preserves (test_helpers.QuotaTests.test_preserves) ... ok
+test_tie (test_helpers.QuotaTests.test_tie) ... ok
+test_zero (test_helpers.QuotaTests.test_zero) ... ok
+test_zero_group (test_helpers.QuotaTests.test_zero_group) ... ok
+test_new_run_is_not_execution (test_helpers.RecordTests.test_new_run_is_not_execution) ... ok
+test_new_runs_do_not_overwrite (test_helpers.RecordTests.test_new_runs_do_not_overwrite) ... ok
+test_reject_bad_platform (test_helpers.RecordTests.test_reject_bad_platform) ... ok
+test_session_contract (test_helpers.RecordTests.test_session_contract) ... ok
+test_duplicate (test_helpers.StatTests.test_duplicate) ... ok
+test_effect (test_helpers.StatTests.test_effect) ... ok
+test_identity (test_helpers.StatTests.test_identity) ... ok
+test_nonpositive (test_helpers.StatTests.test_nonpositive) ... ok
+test_nopool (test_helpers.StatTests.test_nopool) ... ok
+test_reproducible (test_helpers.StatTests.test_reproducible) ... ok
+test_merge (test_helpers.TopologyTests.test_merge) ... ok
+test_migration (test_helpers.TopologyTests.test_migration) ... ok
+test_separate_launches (test_helpers.TopologyTests.test_separate_launches) ... ok
+test_size1 (test_helpers.TopologyTests.test_size1) ... ok
+test_unqualified (test_helpers.TopologyTests.test_unqualified) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 0.034s
+
+OK

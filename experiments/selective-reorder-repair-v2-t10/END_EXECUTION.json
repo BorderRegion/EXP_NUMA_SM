@@ -1,0 +1,10 @@
+{
+  "status": "EXPERIMENTS_AND_ANALYSIS_COMPLETE",
+  "at": "2026-10-17T05:26:34.037871+00:00",
+  "wall_minutes_through_analysis": 193.90443825085046,
+  "new_gpu_minutes": 170.61207501448612,
+  "cumulative_selective_gpu_minutes": 240.7838812511686,
+  "formal_scope": "PREDECLARED_REDUCED_MATRIX_ALL_SIX_BLOCKS",
+  "measurement_stability_achieved": false,
+  "package_verification": "Separate external PACKAGE_QA JSON is authoritative for final archive verification time and hash"
+}

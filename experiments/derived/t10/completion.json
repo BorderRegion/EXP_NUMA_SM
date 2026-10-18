@@ -1,0 +1,103 @@
+{
+  "formal_process_blocks": 48,
+  "formal_sessions": 144,
+  "measured_frames": 73728,
+  "counts": [
+    {
+      "stage": "E0_qualification",
+      "status": "SUCCESS",
+      "processes": 24
+    },
+    {
+      "stage": "E0_sanitizer",
+      "status": "FAILED",
+      "processes": 4
+    },
+    {
+      "stage": "E0_sanitizer",
+      "status": "SUCCESS",
+      "processes": 2
+    },
+    {
+      "stage": "E0_size_qualification",
+      "status": "SUCCESS",
+      "processes": 8
+    },
+    {
+      "stage": "E1",
+      "status": "SUCCESS",
+      "processes": 15
+    },
+    {
+      "stage": "E2",
+      "status": "SUCCESS",
+      "processes": 144
+    },
+    {
+      "stage": "E3",
+      "status": "SUCCESS",
+      "processes": 252
+    },
+    {
+      "stage": "E4_W1",
+      "status": "SUCCESS",
+      "processes": 24
+    },
+    {
+      "stage": "E4_W2",
+      "status": "SUCCESS",
+      "processes": 24
+    },
+    {
+      "stage": "W1_calibration",
+      "status": "SUCCESS",
+      "processes": 4
+    },
+    {
+      "stage": "W1_empty_qualification",
+      "status": "SUCCESS",
+      "processes": 2
+    },
+    {
+      "stage": "W1_pilot",
+      "status": "SUCCESS",
+      "processes": 2
+    },
+    {
+      "stage": "W1_profile",
+      "status": "SUCCESS",
+      "processes": 4
+    },
+    {
+      "stage": "W1_qualification",
+      "status": "SUCCESS",
+      "processes": 4
+    },
+    {
+      "stage": "W1_sanitizer",
+      "status": "SUCCESS",
+      "processes": 2
+    },
+    {
+      "stage": "W2_calibration",
+      "status": "SUCCESS",
+      "processes": 2
+    },
+    {
+      "stage": "W2_initial_qualification",
+      "status": "SUCCESS",
+      "processes": 2
+    },
+    {
+      "stage": "W2_qualification",
+      "status": "SUCCESS",
+      "processes": 2
+    },
+    {
+      "stage": "W2_sanitizer",
+      "status": "SUCCESS",
+      "processes": 2
+    }
+  ],
+  "all_primary_zero_online_planning": true
+}

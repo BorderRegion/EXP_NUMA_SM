@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-17T10:02:19.708982+00:00",
+  "experiment_and_analysis_status": "COMPLETE_WITH_PERMISSION_LIMITATIONS",
+  "gpu_minutes": 15.219120865450046,
+  "cumulative_gpu_minutes": 323.95379307176626,
+  "wall_minutes_including_initial_allowance": 46.460674470400164,
+  "new_gpu_cap_minutes": 20,
+  "cumulative_cap_minutes": 330,
+  "clock_lock": "NOT_RUN_PERMISSION_DENIED",
+  "cache_counters": "NOT_RUN_ADMIN_ONLY",
+  "system_settings_changed": false,
+  "archive_qa": "Performed after packaging; authoritative evidence in external reports/DELIVERY_INDEX.md and PACKAGE_QA.json"
+}

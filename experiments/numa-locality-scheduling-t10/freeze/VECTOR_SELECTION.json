@@ -1,0 +1,117 @@
+{
+  "cases": {
+    "GQA4_SHORT": {
+      "attention": {
+        "candidate": "VECTOR_DIRECT",
+        "strong_old": "OLD_DIRECT",
+        "candidate_scores": {
+          "VECTOR_DIRECT": -0.31055473010709644,
+          "VECTOR_BLIND": -0.2432096674021373
+        },
+        "old_scores": {
+          "OLD_DIRECT": -0.004773067805569575,
+          "OLD_BLIND": 0.03673511638912754,
+          "PREVIOUS": 0.0
+        }
+      },
+      "append": {
+        "candidate": "VECTOR_DIRECT",
+        "strong_old": "PREVIOUS",
+        "candidate_scores": {
+          "VECTOR_DIRECT": -0.2901156310637609,
+          "VECTOR_BLIND": -0.23310742364801174
+        },
+        "old_scores": {
+          "OLD_DIRECT": 0.008889762550332922,
+          "OLD_BLIND": 0.05349539405928436,
+          "PREVIOUS": 0.0
+        }
+      }
+    },
+    "GQA4_LONG": {
+      "attention": {
+        "candidate": "VECTOR_BLIND",
+        "strong_old": "OLD_DIRECT",
+        "candidate_scores": {
+          "VECTOR_DIRECT": -0.437993853271574,
+          "VECTOR_BLIND": -0.4521591332082562
+        },
+        "old_scores": {
+          "OLD_DIRECT": -0.0012486089449996497,
+          "OLD_BLIND": 0.035798085713407785,
+          "PREVIOUS": 0.0
+        }
+      },
+      "append": {
+        "candidate": "VECTOR_BLIND",
+        "strong_old": "OLD_DIRECT",
+        "candidate_scores": {
+          "VECTOR_DIRECT": -0.43830251520858476,
+          "VECTOR_BLIND": -0.45071039186252526
+        },
+        "old_scores": {
+          "OLD_DIRECT": -0.0006466856104466955,
+          "OLD_BLIND": 0.04084135307322951,
+          "PREVIOUS": 0.0
+        }
+      }
+    },
+    "GQA8_LONG": {
+      "attention": {
+        "candidate": "VECTOR_BLIND",
+        "strong_old": "OLD_BLIND",
+        "candidate_scores": {
+          "VECTOR_DIRECT": -0.2584500457992457,
+          "VECTOR_BLIND": -0.3836798571223626
+        },
+        "old_scores": {
+          "OLD_DIRECT": -0.0007858284597583062,
+          "OLD_BLIND": -0.05027102031726278,
+          "PREVIOUS": 0.0
+        }
+      },
+      "append": {
+        "candidate": "VECTOR_BLIND",
+        "strong_old": "OLD_BLIND",
+        "candidate_scores": {
+          "VECTOR_DIRECT": -0.27608789420546875,
+          "VECTOR_BLIND": -0.3949648283562515
+        },
+        "old_scores": {
+          "OLD_DIRECT": -0.0054256809995539175,
+          "OLD_BLIND": -0.07290027790835217,
+          "PREVIOUS": 0.0
+        }
+      }
+    },
+    "BATCH4_RAGGED": {
+      "attention": {
+        "candidate": "VECTOR_DIRECT",
+        "strong_old": "OLD_DIRECT",
+        "candidate_scores": {
+          "VECTOR_DIRECT": -0.4806179177254929,
+          "VECTOR_BLIND": -0.44564795461241646
+        },
+        "old_scores": {
+          "OLD_DIRECT": -0.010277346438305666,
+          "OLD_BLIND": 0.058447469083572276,
+          "PREVIOUS": 0.0
+        }
+      },
+      "append": {
+        "candidate": "VECTOR_DIRECT",
+        "strong_old": "OLD_DIRECT",
+        "candidate_scores": {
+          "VECTOR_DIRECT": -0.48703180288375375,
+          "VECTOR_BLIND": -0.4206383205290717
+        },
+        "old_scores": {
+          "OLD_DIRECT": -0.0005686883196834706,
+          "OLD_BLIND": 0.09989358786482859,
+          "PREVIOUS": 0.0
+        }
+      }
+    }
+  },
+  "frozen_utc": "2026-10-17T16:23:51.206189+00:00"
+}

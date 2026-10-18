@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-10-18T03:03:57.007826+00:00",
+  "hashes": {
+    "src/softmax.cu": "7416cf9f7656809b678ed01e06fcb7ca21b32fd0f2cbeaab731c51a56ffe9d97",
+    "src/soft_runtime.py": "20f694a50ff98805dc39a59680268966e709956c5aa8d8f64bad637024e66e25",
+    "src/soft_experiment.py": "8d77a6149b470c91c021a591c2c60380499fa1ca0651d5103bd886af0d6236a1",
+    "src/soft_qualify.py": "660ff7dc54810e52e7e336973e23438abc32a7f12bcb31127fcc99e904fdfd06",
+    "build/softmax.so": "1c741b35f970a3c6bd419cb4a64970f033425708dbb70c72f8e50a924cadc742"
+  }
+}

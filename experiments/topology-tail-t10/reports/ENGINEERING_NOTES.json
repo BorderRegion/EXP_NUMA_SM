@@ -1,0 +1,20 @@
+[
+  {
+    "utc": "2026-10-18T08:53:17.506103+00:00",
+    "stage": "qualification",
+    "status": "FAILED_AND_REPAIRED",
+    "reason": "Diagnostic host array had shape16x448 instead of16x56x8; IndexError before probe or formal performance. Added reshape only. Initial source and failed worker retained; no GPU code changed."
+  },
+  {
+    "utc": "2026-10-18T08:54:32.133238+00:00",
+    "stage": "memcheck",
+    "status": "HOST_GUARD_REPAIRED",
+    "reason": "Instrumentation expanded diagnostic arrival-time differences beyond normal-run10us bound; memcheck reported0 memory errors but host assertion aborted. Sanitizer qualification now caps its synthetic probe delay at5us; performance calibration keeps the original uncapped10us guard. No formal development or confirmation data existed."
+  },
+  {
+    "utc": "2026-10-18T09:58:50.414972+00:00",
+    "stage": "racecheck_v3",
+    "status": "INTERRUPTED_UNCONFIRMED",
+    "reason": "Turn interrupted during broad racecheck; process absent on resume, no completion or sanitizer summary. All partial data retained. Charged full240-second intended cap for budgeting; actual ending time unknown. Replace with separately recorded one-launch targeted racecheck of new tail kernel."
+  }
+]

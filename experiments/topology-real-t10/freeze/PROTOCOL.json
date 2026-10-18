@@ -1,0 +1,126 @@
+{
+  "V": 131072,
+  "scopes": {
+    "batch": {
+      "fresh": false,
+      "batch": 32
+    },
+    "freshbatch": {
+      "fresh": true,
+      "batch": 32
+    }
+  },
+  "micro": {
+    "pages": [
+      0,
+      17,
+      257
+    ]
+  },
+  "policies": [
+    "IDENTITY",
+    "SAME_GPC",
+    "CROSS_GPC",
+    "RND00",
+    "RND01",
+    "RND02",
+    "RND03",
+    "RND04",
+    "RND05",
+    "RND06",
+    "RND07"
+  ],
+  "offset_pages": [
+    0,
+    17,
+    67,
+    131
+  ],
+  "baseline_hashes": {
+    "build/baseline/refresh.so": "f77c3f06b535656154b0cc32137f1bb9e21b27fdb3d28be187463fc469f9f779",
+    "build/baseline/softmax_const.so": "10a0201ea5138c70fb96975cb3ec36d11adeb9d63841f63b2f763f619c2e4104",
+    "build/baseline/vector.so": "f6c34ac7361379dc4e0bf29a4240f34e411601fe48a16e2a6cfa83003e2e0d44"
+  },
+  "created_utc": "2026-10-18T12:38:48.422511+00:00",
+  "run": "20261018T123848Z",
+  "worker_budget_seconds": 2400,
+  "baseline_choice": 54,
+  "legacy_choice": 11,
+  "frozen_best": {
+    "batch": 54,
+    "freshbatch": 56
+  },
+  "candidate_indices": [
+    11,
+    12,
+    13,
+    21,
+    44,
+    45,
+    46,
+    54,
+    77,
+    78,
+    79,
+    87,
+    110,
+    111,
+    112,
+    120
+  ],
+  "seed_development": 1530000000,
+  "seed_confirmation": 1630000000,
+  "development_processes": 2,
+  "confirmation_processes": 6,
+  "development_blocks": 8,
+  "confirmation_blocks": 16,
+  "replays": 8,
+  "net_requests": 1048576,
+  "net_blocks": 16,
+  "net_policies": [
+    "BASE",
+    "LEGACY",
+    "FROZEN",
+    "STATIC",
+    "TUNED",
+    "TUNED_AA",
+    "PAIR_ONLY",
+    "PLACE_ONLY",
+    "WRONG",
+    "POOL",
+    "SHADOW"
+  ],
+  "primary_comparators": {
+    "TUNED": [
+      "BASE",
+      "FROZEN",
+      "STATIC",
+      "WRONG",
+      "POOL",
+      "SHADOW"
+    ],
+    "PLACE_ONLY": [
+      "BASE",
+      "FROZEN",
+      "STATIC",
+      "SHADOW"
+    ]
+  },
+  "primary_count": 20,
+  "calibration": {
+    "screen_rounds": 1,
+    "screen_warmup": 1,
+    "screen_test": 1,
+    "finalists": 4,
+    "refine_rounds": 2,
+    "refine_warmup": 1,
+    "refine_test": 2,
+    "min_gain": 0.0015,
+    "accept": "Both refinement round medians must beat BASE and their geometric mean speed ratio must exceed1.0015. Otherwise select BASE. BASE plus best3 nonbaseline screen choices always refined.",
+    "pair_place_rule": "Exploratory argmin of screen GPU time: pair fixesoffset17/page17, place fixesRND07; full target calibration charged. Wrong picks best family at next offset and deploys at tuned offset; pool averages screen family costs across offsets then deploys at tuned offset."
+  },
+  "costs": "Target sampler uses preexisting deployment Graph, exact original kernel, CPU compiled scan, GPU events for selection. Setup includes screening/refinement warmups, updates, samples, fitting, host parameters, final deployment set+two conditioning graphs. Research logging/validation and shadow control preparation excluded. Candidate TUNED,PAIR_ONLY,PLACE_ONLY each charged full actually measured target setup; all controls get their setup for free, except identical TUNED_AA charged equal setup. Every timed block includes parameter updates,2conditioning Graphs, all replay calls and host result extraction. Common construction/input allocation/context compilation excluded; all formal net requests use inputslot0.",
+  "statistics": "Six process units, exact6^6 process bootstrap.95% descriptive and99.75% intervals for20 primary outer-wall comparisons. Prefix262144 requests exploratory only; primary horizon1048576. No removal of timing outliers. No historical multiplicity correction.",
+  "method": "New baseline is prior warm+0.68% fixed plan54 in both scopes. FROZEN additionally compares prior condition-specific best54/56.16 predeclared actual-kernel candidates:4flags base offsets x4topology families; mailboxpage17 fixed. No new GPU instructions, no proxy kernel. Two dev processes select STATIC using independent8-block full-kernel measurements, never confirmation. Target and shadow same input/output/graph, onlyflags base differs; virtual differences do not prove physical placement.",
+  "stopping": "Fixed2development+6confirmation; no outcome-driven reruns.100W power and82C guard retained."
+}

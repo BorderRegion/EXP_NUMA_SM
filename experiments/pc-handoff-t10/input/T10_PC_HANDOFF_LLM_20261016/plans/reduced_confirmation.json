@@ -1,0 +1,32 @@
+{
+  "gemm": [
+    "G002",
+    "G005",
+    "G008",
+    "G012",
+    "G017",
+    "G021",
+    "G026",
+    "G030",
+    "G035",
+    "G039",
+    "G044",
+    "G048"
+  ],
+  "attention": [
+    "A002",
+    "A005",
+    "A008",
+    "A011",
+    "A014",
+    "A017",
+    "A020",
+    "A023",
+    "A026",
+    "A029",
+    "A032",
+    "A035"
+  ],
+  "rule": "fixed indices before any results, not chosen winners",
+  "measured": false
+}

@@ -1,0 +1,76 @@
+{
+  "created_utc": "2026-10-18T08:47:14.622034+00:00",
+  "run": "20261018T084714Z",
+  "worker_budget_seconds": 2400,
+  "V": 131072,
+  "scopes": {
+    "batch": {
+      "fresh": false,
+      "batch": 32
+    },
+    "freshbatch": {
+      "fresh": true,
+      "batch": 32
+    }
+  },
+  "micro": {
+    "pages": [
+      0,
+      17,
+      257
+    ]
+  },
+  "policies": [
+    "IDENTITY",
+    "SAME_GPC",
+    "CROSS_GPC",
+    "RND00",
+    "RND01",
+    "RND02",
+    "RND03",
+    "RND04",
+    "RND05",
+    "RND06",
+    "RND07"
+  ],
+  "offset_pages": [
+    0,
+    17,
+    67,
+    131
+  ],
+  "train_rounds": 12,
+  "validation_rounds": 8,
+  "trace_launches": 16,
+  "seed_development": 1330000000,
+  "seed_confirmation": 1430000000,
+  "development_processes": 2,
+  "confirmation_processes": 6,
+  "development_blocks": 6,
+  "confirmation_blocks": 16,
+  "replays": 8,
+  "net_requests": 1048576,
+  "net_blocks": 16,
+  "net_policies": [
+    "IDENTITY",
+    "PAIR_ONLY",
+    "PLACE_ONLY",
+    "JOINT",
+    "JOINT_AA",
+    "WRONG",
+    "POOL",
+    "SHADOW",
+    "BLIND"
+  ],
+  "baseline_hashes": {
+    "build/baseline/refresh.so": "f77c3f06b535656154b0cc32137f1bb9e21b27fdb3d28be187463fc469f9f779",
+    "build/baseline/softmax_const.so": "10a0201ea5138c70fb96975cb3ec36d11adeb9d63841f63b2f763f619c2e4104",
+    "build/baseline/vector.so": "f6c34ac7361379dc4e0bf29a4240f34e411601fe48a16e2a6cfa83003e2e0d44"
+  },
+  "method": "Profile complete pair/fan-in/broadcast communication using per-SM arrival durations from separate instrumented original Softmax. Candidate placements move mailbox page and common flags base; all formal performance uses exact original kernel. Train and validation separate. No operator confirmation feedback selection.",
+  "fit": "Maximum of first-half and second-half training medians of per-launch maximum per-SM local duration; select among frozen132 placement/pair candidates per scope.",
+  "controls": "PAIR_ONLY fixes offset0/page17; PLACE_ONLY fixes identity pair; WRONG uses family selected at next candidate placement but deployed at joint placement; POOL averages all placements before choosing family, deployed at joint placement; SHADOW learns a full choice on another allocation; BLIND strongest fixed candidate from two development full-operator runs, frozen before confirmation; JOINT_AA exact same parameters.",
+  "net_accounting": "All per-arm measured host outer run including two warmup graph replays, every graph parameter update, and preallocated output extraction. Add full measured target profiling/train/fit cost to JOINT; validation, shadow and research serialization reported separately. Both candidate and each control pay their measured updates and same warmup protocol; shadow and other controls get calibration for free for conservative comparison. Common graph build shared/excluded. JOINT_AA pays the same setup as JOINT so A/A does not manufacture a calibration penalty. PLACE_ONLY and PAIR_ONLY candidate views conservatively pay the full actually measured target calibration, not an unmeasured cheaper subset.",
+  "statistics": "Exact empirical process bootstrap over all6^6 resamplings;95% and99.6875% Bonferroni16 primary intervals. Primary JOINT vs identity/blind/wrong/pool/shadow and PLACE_ONLY vs identity/blind/shadow, two scopes. PAIR_ONLY and decomposition contrasts exploratory; JOINT_AA is an identity control expected compatible with zero. No historical global multiplicity claim.",
+  "stopping": "Fixed2development+6confirmation; no outcome-dependent rerun or mapping replacement; preserve all negative outcomes and repair logs.100W,82C guard."
+}

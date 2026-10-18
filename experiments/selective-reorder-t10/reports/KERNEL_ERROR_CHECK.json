@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-16T18:36:37.650555+00:00",
+  "status": "NO_MATCHES_IN_ACCESSIBLE_KERNEL_JOURNAL",
+  "returncode": 1,
+  "stdout": "-- No entries --\n",
+  "stderr": "",
+  "scope": "Read-only accessible kernel journal over campaign interval; not a guarantee of unavailable logs"
+}

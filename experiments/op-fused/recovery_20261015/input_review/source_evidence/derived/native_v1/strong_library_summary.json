@@ -1,0 +1,301 @@
+{
+  "status": "EXISTING_LIBRARY_COMPARISON_NOT_CANDIDATE",
+  "case_blocks": 312,
+  "phases": 1248,
+  "failure_records": 12,
+  "complete_six_block_cases": 42,
+  "stage_blocks_completed": {
+    "E1": 6,
+    "E3": 6,
+    "E4": 6
+  },
+  "aggregate_descriptive_mixed_conditions": {
+    "E1": {
+      "device": {
+        "ratio": 1.0294362139069528,
+        "ci95": [
+          0.9303925301922527,
+          1.1382092788698148
+        ],
+        "independent_blocks": 6,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+        "case_counts_by_block": {
+          "1": 24,
+          "2": 24,
+          "3": 24,
+          "4": 24,
+          "5": 24,
+          "0": 12
+        }
+      },
+      "ready": {
+        "ratio": 1.0295840941250394,
+        "ci95": [
+          0.9305886439746536,
+          1.1383122444605336
+        ],
+        "independent_blocks": 6,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+        "case_counts_by_block": {
+          "1": 24,
+          "2": 24,
+          "3": 24,
+          "4": 24,
+          "5": 24,
+          "0": 12
+        }
+      }
+    },
+    "E3": {
+      "device": {
+        "ratio": 1.318508313234129,
+        "ci95": [
+          1.3024838649628796,
+          1.3361122565462162
+        ],
+        "independent_blocks": 6,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+        "case_counts_by_block": {
+          "0": 24,
+          "1": 24,
+          "2": 24,
+          "3": 24,
+          "4": 24,
+          "5": 24
+        }
+      },
+      "ready": {
+        "ratio": 1.3184188675169322,
+        "ci95": [
+          1.3024225158855918,
+          1.336008008037075
+        ],
+        "independent_blocks": 6,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+        "case_counts_by_block": {
+          "0": 24,
+          "1": 24,
+          "2": 24,
+          "3": 24,
+          "4": 24,
+          "5": 24
+        }
+      }
+    },
+    "E4": {
+      "device": {
+        "ratio": 1.0375486422966194,
+        "ci95": [
+          1.019001616920015,
+          1.0570268758101473
+        ],
+        "independent_blocks": 6,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+        "case_counts_by_block": {
+          "0": 6,
+          "1": 6,
+          "2": 6,
+          "3": 6,
+          "4": 6,
+          "5": 6
+        }
+      },
+      "ready": {
+        "ratio": 1.0401295475717178,
+        "ci95": [
+          1.022196005341956,
+          1.0592632537935145
+        ],
+        "independent_blocks": 6,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+        "case_counts_by_block": {
+          "0": 6,
+          "1": 6,
+          "2": 6,
+          "3": 6,
+          "4": 6,
+          "5": 6
+        }
+      }
+    }
+  },
+  "aggregate_by_controller_condition": {
+    "E1": {
+      "device": {
+        "125W": {
+          "ratio": 0.8603727075941232,
+          "ci95": [
+            0.8531372532622342,
+            0.8676695257911917
+          ],
+          "independent_blocks": 2,
+          "bootstrap_draws": 20000,
+          "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+          "case_counts_by_block": {
+            "1": 24,
+            "2": 19
+          }
+        },
+        "100W": {
+          "ratio": 1.0763812286159133,
+          "ci95": [
+            0.9736798270466778,
+            1.1678618462991597
+          ],
+          "independent_blocks": 5,
+          "bootstrap_draws": 20000,
+          "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+          "case_counts_by_block": {
+            "3": 24,
+            "4": 24,
+            "5": 24,
+            "0": 12,
+            "2": 5
+          }
+        }
+      },
+      "ready": {
+        "125W": {
+          "ratio": 0.8605827353389252,
+          "ci95": [
+            0.8532780445105612,
+            0.8679499597206147
+          ],
+          "independent_blocks": 2,
+          "bootstrap_draws": 20000,
+          "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+          "case_counts_by_block": {
+            "1": 24,
+            "2": 19
+          }
+        },
+        "100W": {
+          "ratio": 1.0764752545122052,
+          "ci95": [
+            0.9737623985214799,
+            1.1679216475079037
+          ],
+          "independent_blocks": 5,
+          "bootstrap_draws": 20000,
+          "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+          "case_counts_by_block": {
+            "3": 24,
+            "4": 24,
+            "5": 24,
+            "0": 12,
+            "2": 5
+          }
+        }
+      }
+    },
+    "E3": {
+      "device": {
+        "100W": {
+          "ratio": 1.318508313234129,
+          "ci95": [
+            1.3024838649628796,
+            1.3361122565462162
+          ],
+          "independent_blocks": 6,
+          "bootstrap_draws": 20000,
+          "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+          "case_counts_by_block": {
+            "0": 24,
+            "1": 24,
+            "2": 24,
+            "3": 24,
+            "4": 24,
+            "5": 24
+          }
+        }
+      },
+      "ready": {
+        "100W": {
+          "ratio": 1.3184188675169322,
+          "ci95": [
+            1.3024225158855918,
+            1.336008008037075
+          ],
+          "independent_blocks": 6,
+          "bootstrap_draws": 20000,
+          "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+          "case_counts_by_block": {
+            "0": 24,
+            "1": 24,
+            "2": 24,
+            "3": 24,
+            "4": 24,
+            "5": 24
+          }
+        }
+      }
+    },
+    "E4": {
+      "device": {
+        "100W": {
+          "ratio": 1.0375486422966194,
+          "ci95": [
+            1.019001616920015,
+            1.0570268758101473
+          ],
+          "independent_blocks": 6,
+          "bootstrap_draws": 20000,
+          "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+          "case_counts_by_block": {
+            "0": 6,
+            "1": 6,
+            "2": 6,
+            "3": 6,
+            "4": 6,
+            "5": 6
+          }
+        }
+      },
+      "ready": {
+        "100W": {
+          "ratio": 1.0401295475717178,
+          "ci95": [
+            1.022196005341956,
+            1.0592632537935145
+          ],
+          "independent_blocks": 6,
+          "bootstrap_draws": 20000,
+          "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+          "case_counts_by_block": {
+            "0": 6,
+            "1": 6,
+            "2": 6,
+            "3": 6,
+            "4": 6,
+            "5": 6
+          }
+        }
+      }
+    }
+  },
+  "numerical": {
+    "records": 19392,
+    "all_pass": true,
+    "max_relative_frobenius": 0.0002821265276581025
+  },
+  "drift_over5": 10,
+  "power_counts": {
+    "100W": 1076,
+    "125W": 171,
+    "TRANSITION": 1
+  },
+  "method_logic_hash": null,
+  "limitations": [
+    "Static host dimensions and pointer descriptors prebuilt outside hot timing",
+    "Native cuBLAS binary scheduling remains opaque and unmodified",
+    "E1/E3 amortized throughput; E4 one ready boundary per request",
+    "No routing/count/scan/fresh descriptor overhead or full model",
+    "Graph node symbols are not hardware counters or SASS execution proof"
+  ]
+}

@@ -1,0 +1,5186 @@
+[
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "policy": "IDENTITY",
+    "gpu_sum_s": 6.626779131362915,
+    "host_sum_s": 6.803897398,
+    "host_minus_event_sum_s": 0.17711826663708494,
+    "host_median_us": 206.26350000000002,
+    "gpu_median_us": 200.99200439453125,
+    "top_host_replays": [
+      {
+        "block": 7,
+        "replay": 1956,
+        "conditioning": false,
+        "gpu_us": 202.24000549316406,
+        "host_us": 916.092
+      },
+      {
+        "block": 3,
+        "replay": 1990,
+        "conditioning": false,
+        "gpu_us": 201.9840087890625,
+        "host_us": 310.906
+      },
+      {
+        "block": 8,
+        "replay": 368,
+        "conditioning": false,
+        "gpu_us": 200.83200073242188,
+        "host_us": 305.484
+      },
+      {
+        "block": 3,
+        "replay": 441,
+        "conditioning": false,
+        "gpu_us": 200.70399475097656,
+        "host_us": 287.64
+      },
+      {
+        "block": 3,
+        "replay": 1933,
+        "conditioning": false,
+        "gpu_us": 200.89599609375,
+        "host_us": 279.788
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "policy": "PAIR_ONLY",
+    "gpu_sum_s": 6.59297857661438,
+    "host_sum_s": 6.769191059000001,
+    "host_minus_event_sum_s": 0.17621248238562012,
+    "host_median_us": 204.965,
+    "gpu_median_us": 200.0640106201172,
+    "top_host_replays": [
+      {
+        "block": 3,
+        "replay": 1349,
+        "conditioning": false,
+        "gpu_us": 199.39199829101562,
+        "host_us": 269.755
+      },
+      {
+        "block": 0,
+        "replay": 371,
+        "conditioning": false,
+        "gpu_us": 262.8800048828125,
+        "host_us": 269.557
+      },
+      {
+        "block": 5,
+        "replay": 983,
+        "conditioning": false,
+        "gpu_us": 199.00799560546875,
+        "host_us": 259.617
+      },
+      {
+        "block": 5,
+        "replay": 462,
+        "conditioning": false,
+        "gpu_us": 200.5120086669922,
+        "host_us": 258.417
+      },
+      {
+        "block": 15,
+        "replay": 1425,
+        "conditioning": false,
+        "gpu_us": 205.59999084472656,
+        "host_us": 254.934
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "policy": "PLACE_ONLY",
+    "gpu_sum_s": 6.610773955215454,
+    "host_sum_s": 6.795983524,
+    "host_minus_event_sum_s": 0.1852095687845459,
+    "host_median_us": 205.5915,
+    "gpu_median_us": 200.60800170898438,
+    "top_host_replays": [
+      {
+        "block": 9,
+        "replay": 786,
+        "conditioning": false,
+        "gpu_us": 200.6719970703125,
+        "host_us": 1486.767
+      },
+      {
+        "block": 1,
+        "replay": 1099,
+        "conditioning": false,
+        "gpu_us": 202.11199951171875,
+        "host_us": 1225.21
+      },
+      {
+        "block": 9,
+        "replay": 711,
+        "conditioning": false,
+        "gpu_us": 202.04800415039062,
+        "host_us": 1224.537
+      },
+      {
+        "block": 9,
+        "replay": 702,
+        "conditioning": false,
+        "gpu_us": 200.25601196289062,
+        "host_us": 980.384
+      },
+      {
+        "block": 9,
+        "replay": 708,
+        "conditioning": false,
+        "gpu_us": 199.6800079345703,
+        "host_us": 904.607
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "policy": "JOINT",
+    "gpu_sum_s": 6.571861610687256,
+    "host_sum_s": 6.759532244000001,
+    "host_minus_event_sum_s": 0.18767063331274414,
+    "host_median_us": 204.5445,
+    "gpu_median_us": 199.23199462890625,
+    "top_host_replays": [
+      {
+        "block": 5,
+        "replay": 1870,
+        "conditioning": false,
+        "gpu_us": 200.70399475097656,
+        "host_us": 4281.026
+      },
+      {
+        "block": 5,
+        "replay": 1880,
+        "conditioning": false,
+        "gpu_us": 2088.89599609375,
+        "host_us": 2095.5
+      },
+      {
+        "block": 5,
+        "replay": 1998,
+        "conditioning": false,
+        "gpu_us": 199.4560089111328,
+        "host_us": 2039.83
+      },
+      {
+        "block": 2,
+        "replay": 1345,
+        "conditioning": false,
+        "gpu_us": 199.36000061035156,
+        "host_us": 1163.784
+      },
+      {
+        "block": 5,
+        "replay": 1689,
+        "conditioning": false,
+        "gpu_us": 198.84799194335938,
+        "host_us": 1102.877
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "policy": "JOINT_AA",
+    "gpu_sum_s": 6.573990888076782,
+    "host_sum_s": 6.774270911,
+    "host_minus_event_sum_s": 0.20028002292321773,
+    "host_median_us": 204.35649999999998,
+    "gpu_median_us": 199.07200622558594,
+    "top_host_replays": [
+      {
+        "block": 3,
+        "replay": 916,
+        "conditioning": false,
+        "gpu_us": 7649.087890625,
+        "host_us": 7655.757
+      },
+      {
+        "block": 3,
+        "replay": 1638,
+        "conditioning": false,
+        "gpu_us": 198.2080078125,
+        "host_us": 3200.359
+      },
+      {
+        "block": 3,
+        "replay": 1294,
+        "conditioning": false,
+        "gpu_us": 199.23199462890625,
+        "host_us": 2527.366
+      },
+      {
+        "block": 3,
+        "replay": 957,
+        "conditioning": false,
+        "gpu_us": 198.5279998779297,
+        "host_us": 2439.787
+      },
+      {
+        "block": 3,
+        "replay": 1706,
+        "conditioning": false,
+        "gpu_us": 198.46400451660156,
+        "host_us": 1272.886
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "policy": "WRONG",
+    "gpu_sum_s": 6.569938033203125,
+    "host_sum_s": 6.750383161,
+    "host_minus_event_sum_s": 0.180445127796875,
+    "host_median_us": 204.5625,
+    "gpu_median_us": 199.36000061035156,
+    "top_host_replays": [
+      {
+        "block": 5,
+        "replay": 136,
+        "conditioning": false,
+        "gpu_us": 198.65599060058594,
+        "host_us": 1606.003
+      },
+      {
+        "block": 12,
+        "replay": 1785,
+        "conditioning": false,
+        "gpu_us": 201.2480010986328,
+        "host_us": 551.811
+      },
+      {
+        "block": 12,
+        "replay": 1778,
+        "conditioning": false,
+        "gpu_us": 200.70399475097656,
+        "host_us": 467.435
+      },
+      {
+        "block": 12,
+        "replay": 1749,
+        "conditioning": false,
+        "gpu_us": 202.87998962402344,
+        "host_us": 448.933
+      },
+      {
+        "block": 6,
+        "replay": 2001,
+        "conditioning": false,
+        "gpu_us": 198.9119873046875,
+        "host_us": 404.83
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "policy": "POOL",
+    "gpu_sum_s": 6.5599471724853515,
+    "host_sum_s": 6.738708816,
+    "host_minus_event_sum_s": 0.17876164351464843,
+    "host_median_us": 204.03,
+    "gpu_median_us": 198.71998596191406,
+    "top_host_replays": [
+      {
+        "block": 8,
+        "replay": 1717,
+        "conditioning": false,
+        "gpu_us": 199.1999969482422,
+        "host_us": 1130.287
+      },
+      {
+        "block": 6,
+        "replay": 1201,
+        "conditioning": false,
+        "gpu_us": 198.94400024414062,
+        "host_us": 805.163
+      },
+      {
+        "block": 15,
+        "replay": 1049,
+        "conditioning": false,
+        "gpu_us": 205.15200805664062,
+        "host_us": 332.929
+      },
+      {
+        "block": 14,
+        "replay": 1585,
+        "conditioning": false,
+        "gpu_us": 203.07199096679688,
+        "host_us": 313.319
+      },
+      {
+        "block": 13,
+        "replay": 637,
+        "conditioning": false,
+        "gpu_us": 200.7360076904297,
+        "host_us": 310.182
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "policy": "SHADOW",
+    "gpu_sum_s": 6.597357636322021,
+    "host_sum_s": 6.802974963,
+    "host_minus_event_sum_s": 0.2056173266779785,
+    "host_median_us": 205.255,
+    "gpu_median_us": 200.25601196289062,
+    "top_host_replays": [
+      {
+        "block": 3,
+        "replay": 1596,
+        "conditioning": false,
+        "gpu_us": 200.6719970703125,
+        "host_us": 4410.548
+      },
+      {
+        "block": 13,
+        "replay": 903,
+        "conditioning": false,
+        "gpu_us": 204.2880096435547,
+        "host_us": 3175.932
+      },
+      {
+        "block": 13,
+        "replay": 888,
+        "conditioning": false,
+        "gpu_us": 203.10400390625,
+        "host_us": 3143.342
+      },
+      {
+        "block": 3,
+        "replay": 1603,
+        "conditioning": false,
+        "gpu_us": 2130.01611328125,
+        "host_us": 2139.752
+      },
+      {
+        "block": 13,
+        "replay": 858,
+        "conditioning": false,
+        "gpu_us": 202.7519989013672,
+        "host_us": 1822.93
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "policy": "BLIND",
+    "gpu_sum_s": 6.565681277297974,
+    "host_sum_s": 6.743961896,
+    "host_minus_event_sum_s": 0.17828061870202638,
+    "host_median_us": 204.358,
+    "gpu_median_us": 198.94400024414062,
+    "top_host_replays": [
+      {
+        "block": 9,
+        "replay": 583,
+        "conditioning": false,
+        "gpu_us": 205.7919921875,
+        "host_us": 315.948
+      },
+      {
+        "block": 12,
+        "replay": 925,
+        "conditioning": false,
+        "gpu_us": 201.75999450683594,
+        "host_us": 264.425
+      },
+      {
+        "block": 4,
+        "replay": 194,
+        "conditioning": false,
+        "gpu_us": 203.2639923095703,
+        "host_us": 258.814
+      },
+      {
+        "block": 5,
+        "replay": 41,
+        "conditioning": false,
+        "gpu_us": 199.6479949951172,
+        "host_us": 258.674
+      },
+      {
+        "block": 11,
+        "replay": 679,
+        "conditioning": false,
+        "gpu_us": 200.60800170898438,
+        "host_us": 258.24
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "policy": "IDENTITY",
+    "gpu_sum_s": 10.636878576904296,
+    "host_sum_s": 10.827652173999999,
+    "host_minus_event_sum_s": 0.19077359709570313,
+    "host_median_us": 329.474,
+    "gpu_median_us": 324.416015625,
+    "top_host_replays": [
+      {
+        "block": 3,
+        "replay": 1810,
+        "conditioning": false,
+        "gpu_us": 331.8719787597656,
+        "host_us": 1678.068
+      },
+      {
+        "block": 4,
+        "replay": 1999,
+        "conditioning": false,
+        "gpu_us": 319.3919982910156,
+        "host_us": 1589.029
+      },
+      {
+        "block": 3,
+        "replay": 1936,
+        "conditioning": false,
+        "gpu_us": 314.2080078125,
+        "host_us": 1566.783
+      },
+      {
+        "block": 3,
+        "replay": 1844,
+        "conditioning": false,
+        "gpu_us": 318.5279846191406,
+        "host_us": 1523.523
+      },
+      {
+        "block": 3,
+        "replay": 1982,
+        "conditioning": false,
+        "gpu_us": 315.3919982910156,
+        "host_us": 1459.87
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "policy": "PAIR_ONLY",
+    "gpu_sum_s": 10.628911697631835,
+    "host_sum_s": 10.807443659,
+    "host_minus_event_sum_s": 0.17853196136816404,
+    "host_median_us": 329.37649999999996,
+    "gpu_median_us": 324.2560119628906,
+    "top_host_replays": [
+      {
+        "block": 14,
+        "replay": 940,
+        "conditioning": false,
+        "gpu_us": 324.99200439453125,
+        "host_us": 416.96
+      },
+      {
+        "block": 13,
+        "replay": 1237,
+        "conditioning": false,
+        "gpu_us": 324.2239990234375,
+        "host_us": 388.168
+      },
+      {
+        "block": 0,
+        "replay": 1714,
+        "conditioning": false,
+        "gpu_us": 325.0879821777344,
+        "host_us": 386.059
+      },
+      {
+        "block": 11,
+        "replay": 1921,
+        "conditioning": false,
+        "gpu_us": 324.35198974609375,
+        "host_us": 384.538
+      },
+      {
+        "block": 4,
+        "replay": 556,
+        "conditioning": false,
+        "gpu_us": 324.3199768066406,
+        "host_us": 379.324
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "policy": "PLACE_ONLY",
+    "gpu_sum_s": 10.645916661773681,
+    "host_sum_s": 10.865797675000001,
+    "host_minus_event_sum_s": 0.21988101322631837,
+    "host_median_us": 329.58,
+    "gpu_median_us": 324.5119934082031,
+    "top_host_replays": [
+      {
+        "block": 4,
+        "replay": 792,
+        "conditioning": false,
+        "gpu_us": 4289.43994140625,
+        "host_us": 4295.351
+      },
+      {
+        "block": 4,
+        "replay": 827,
+        "conditioning": false,
+        "gpu_us": 315.3919982910156,
+        "host_us": 3156.971
+      },
+      {
+        "block": 4,
+        "replay": 762,
+        "conditioning": false,
+        "gpu_us": 315.45599365234375,
+        "host_us": 3118.425
+      },
+      {
+        "block": 4,
+        "replay": 805,
+        "conditioning": false,
+        "gpu_us": 313.9519958496094,
+        "host_us": 3111.583
+      },
+      {
+        "block": 4,
+        "replay": 837,
+        "conditioning": false,
+        "gpu_us": 315.1679992675781,
+        "host_us": 3104.371
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "policy": "JOINT",
+    "gpu_sum_s": 10.636610389892578,
+    "host_sum_s": 10.817342221999999,
+    "host_minus_event_sum_s": 0.18073183210742189,
+    "host_median_us": 329.4575,
+    "gpu_median_us": 324.3840026855469,
+    "top_host_replays": [
+      {
+        "block": 14,
+        "replay": 1395,
+        "conditioning": false,
+        "gpu_us": 324.2560119628906,
+        "host_us": 402.592
+      },
+      {
+        "block": 6,
+        "replay": 1028,
+        "conditioning": false,
+        "gpu_us": 327.4880065917969,
+        "host_us": 400.211
+      },
+      {
+        "block": 0,
+        "replay": 1272,
+        "conditioning": false,
+        "gpu_us": 322.1759948730469,
+        "host_us": 398.443
+      },
+      {
+        "block": 7,
+        "replay": 173,
+        "conditioning": false,
+        "gpu_us": 327.2959899902344,
+        "host_us": 389.452
+      },
+      {
+        "block": 3,
+        "replay": 125,
+        "conditioning": false,
+        "gpu_us": 324.6080017089844,
+        "host_us": 388.252
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "policy": "JOINT_AA",
+    "gpu_sum_s": 10.638424404113769,
+    "host_sum_s": 10.822073401,
+    "host_minus_event_sum_s": 0.1836489968862305,
+    "host_median_us": 329.49350000000004,
+    "gpu_median_us": 324.416015625,
+    "top_host_replays": [
+      {
+        "block": 3,
+        "replay": 51,
+        "conditioning": false,
+        "gpu_us": 320.47998046875,
+        "host_us": 1500.55
+      },
+      {
+        "block": 3,
+        "replay": 9,
+        "conditioning": false,
+        "gpu_us": 318.78399658203125,
+        "host_us": 1315.399
+      },
+      {
+        "block": 3,
+        "replay": 89,
+        "conditioning": false,
+        "gpu_us": 317.88800048828125,
+        "host_us": 1266.188
+      },
+      {
+        "block": 8,
+        "replay": 845,
+        "conditioning": false,
+        "gpu_us": 327.67999267578125,
+        "host_us": 433.009
+      },
+      {
+        "block": 7,
+        "replay": 961,
+        "conditioning": false,
+        "gpu_us": 325.2480163574219,
+        "host_us": 421.484
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "policy": "WRONG",
+    "gpu_sum_s": 10.628429774475098,
+    "host_sum_s": 10.809738053,
+    "host_minus_event_sum_s": 0.18130827852490236,
+    "host_median_us": 329.6,
+    "gpu_median_us": 324.57598876953125,
+    "top_host_replays": [
+      {
+        "block": 4,
+        "replay": 1411,
+        "conditioning": false,
+        "gpu_us": 321.1520080566406,
+        "host_us": 3291.162
+      },
+      {
+        "block": 8,
+        "replay": 1848,
+        "conditioning": false,
+        "gpu_us": 323.583984375,
+        "host_us": 433.754
+      },
+      {
+        "block": 7,
+        "replay": 1715,
+        "conditioning": false,
+        "gpu_us": 324.57598876953125,
+        "host_us": 430.504
+      },
+      {
+        "block": 0,
+        "replay": 966,
+        "conditioning": false,
+        "gpu_us": 321.1520080566406,
+        "host_us": 418.052
+      },
+      {
+        "block": 12,
+        "replay": 1570,
+        "conditioning": false,
+        "gpu_us": 325.21600341796875,
+        "host_us": 411.393
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "policy": "POOL",
+    "gpu_sum_s": 10.646312573089599,
+    "host_sum_s": 10.828555206,
+    "host_minus_event_sum_s": 0.1822426329104004,
+    "host_median_us": 329.863,
+    "gpu_median_us": 324.927978515625,
+    "top_host_replays": [
+      {
+        "block": 0,
+        "replay": 1069,
+        "conditioning": false,
+        "gpu_us": 316.3520202636719,
+        "host_us": 1623.112
+      },
+      {
+        "block": 0,
+        "replay": 1121,
+        "conditioning": false,
+        "gpu_us": 315.3919982910156,
+        "host_us": 1562.569
+      },
+      {
+        "block": 4,
+        "replay": 1837,
+        "conditioning": false,
+        "gpu_us": 426.0480041503906,
+        "host_us": 435.206
+      },
+      {
+        "block": 10,
+        "replay": 1889,
+        "conditioning": false,
+        "gpu_us": 324.9599914550781,
+        "host_us": 432.716
+      },
+      {
+        "block": 0,
+        "replay": 1114,
+        "conditioning": false,
+        "gpu_us": 315.552001953125,
+        "host_us": 415.555
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "policy": "SHADOW",
+    "gpu_sum_s": 10.665296906829834,
+    "host_sum_s": 10.850910790999999,
+    "host_minus_event_sum_s": 0.18561388417016603,
+    "host_median_us": 330.415,
+    "gpu_median_us": 325.44000244140625,
+    "top_host_replays": [
+      {
+        "block": 0,
+        "replay": 501,
+        "conditioning": false,
+        "gpu_us": 325.5679931640625,
+        "host_us": 3305.552
+      },
+      {
+        "block": 0,
+        "replay": 333,
+        "conditioning": false,
+        "gpu_us": 1165.9840087890625,
+        "host_us": 1175.394
+      },
+      {
+        "block": 0,
+        "replay": 312,
+        "conditioning": false,
+        "gpu_us": 316.6080017089844,
+        "host_us": 1054.857
+      },
+      {
+        "block": 0,
+        "replay": 689,
+        "conditioning": false,
+        "gpu_us": 321.343994140625,
+        "host_us": 818.263
+      },
+      {
+        "block": 0,
+        "replay": 681,
+        "conditioning": false,
+        "gpu_us": 323.0400085449219,
+        "host_us": 758.245
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "policy": "BLIND",
+    "gpu_sum_s": 10.604114917022706,
+    "host_sum_s": 10.787336141,
+    "host_minus_event_sum_s": 0.18322122397729493,
+    "host_median_us": 328.521,
+    "gpu_median_us": 323.52001953125,
+    "top_host_replays": [
+      {
+        "block": 4,
+        "replay": 40,
+        "conditioning": false,
+        "gpu_us": 323.583984375,
+        "host_us": 1408.469
+      },
+      {
+        "block": 4,
+        "replay": 85,
+        "conditioning": false,
+        "gpu_us": 319.3599853515625,
+        "host_us": 1134.354
+      },
+      {
+        "block": 0,
+        "replay": 57,
+        "conditioning": false,
+        "gpu_us": 320.76800537109375,
+        "host_us": 574.685
+      },
+      {
+        "block": 8,
+        "replay": 486,
+        "conditioning": false,
+        "gpu_us": 325.63201904296875,
+        "host_us": 448.076
+      },
+      {
+        "block": 4,
+        "replay": 1794,
+        "conditioning": false,
+        "gpu_us": 323.00799560546875,
+        "host_us": 392.624
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "policy": "IDENTITY",
+    "gpu_sum_s": 7.217258636672974,
+    "host_sum_s": 7.390318862,
+    "host_minus_event_sum_s": 0.1730602253270264,
+    "host_median_us": 225.2695,
+    "gpu_median_us": 219.93600463867188,
+    "top_host_replays": [
+      {
+        "block": 12,
+        "replay": 42,
+        "conditioning": false,
+        "gpu_us": 221.1199951171875,
+        "host_us": 284.607
+      },
+      {
+        "block": 4,
+        "replay": 1228,
+        "conditioning": false,
+        "gpu_us": 219.13600158691406,
+        "host_us": 282.015
+      },
+      {
+        "block": 5,
+        "replay": 1614,
+        "conditioning": false,
+        "gpu_us": 222.0800018310547,
+        "host_us": 274.702
+      },
+      {
+        "block": 10,
+        "replay": 1939,
+        "conditioning": false,
+        "gpu_us": 221.1199951171875,
+        "host_us": 271.932
+      },
+      {
+        "block": 9,
+        "replay": 1162,
+        "conditioning": false,
+        "gpu_us": 221.9199981689453,
+        "host_us": 270.268
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "policy": "PAIR_ONLY",
+    "gpu_sum_s": 7.244283570205688,
+    "host_sum_s": 7.415362226,
+    "host_minus_event_sum_s": 0.17107865579431156,
+    "host_median_us": 225.871,
+    "gpu_median_us": 220.92799377441406,
+    "top_host_replays": [
+      {
+        "block": 6,
+        "replay": 107,
+        "conditioning": false,
+        "gpu_us": 218.91200256347656,
+        "host_us": 283.199
+      },
+      {
+        "block": 9,
+        "replay": 1986,
+        "conditioning": false,
+        "gpu_us": 221.37600708007812,
+        "host_us": 270.811
+      },
+      {
+        "block": 13,
+        "replay": 590,
+        "conditioning": false,
+        "gpu_us": 251.74400329589844,
+        "host_us": 259.609
+      },
+      {
+        "block": 1,
+        "replay": 1694,
+        "conditioning": false,
+        "gpu_us": 225.8560028076172,
+        "host_us": 258.547
+      },
+      {
+        "block": 5,
+        "replay": 1532,
+        "conditioning": false,
+        "gpu_us": 222.84799194335938,
+        "host_us": 255.428
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "policy": "PLACE_ONLY",
+    "gpu_sum_s": 7.186437233261109,
+    "host_sum_s": 7.359120127000001,
+    "host_minus_event_sum_s": 0.17268289373889162,
+    "host_median_us": 224.338,
+    "gpu_median_us": 219.07200622558594,
+    "top_host_replays": [
+      {
+        "block": 2,
+        "replay": 31,
+        "conditioning": false,
+        "gpu_us": 219.552001953125,
+        "host_us": 491.191
+      },
+      {
+        "block": 2,
+        "replay": 22,
+        "conditioning": false,
+        "gpu_us": 218.7840118408203,
+        "host_us": 303.424
+      },
+      {
+        "block": 12,
+        "replay": 865,
+        "conditioning": false,
+        "gpu_us": 220.60800170898438,
+        "host_us": 270.566
+      },
+      {
+        "block": 12,
+        "replay": 711,
+        "conditioning": false,
+        "gpu_us": 220.99200439453125,
+        "host_us": 252.893
+      },
+      {
+        "block": 8,
+        "replay": 576,
+        "conditioning": false,
+        "gpu_us": 218.84800720214844,
+        "host_us": 252.181
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "policy": "JOINT",
+    "gpu_sum_s": 7.220957369888306,
+    "host_sum_s": 7.392899977000001,
+    "host_minus_event_sum_s": 0.17194260711169432,
+    "host_median_us": 225.326,
+    "gpu_median_us": 220.1599884033203,
+    "top_host_replays": [
+      {
+        "block": 10,
+        "replay": 1032,
+        "conditioning": false,
+        "gpu_us": 217.4399871826172,
+        "host_us": 280.229
+      },
+      {
+        "block": 5,
+        "replay": 2012,
+        "conditioning": false,
+        "gpu_us": 219.39199829101562,
+        "host_us": 279.017
+      },
+      {
+        "block": 8,
+        "replay": 27,
+        "conditioning": false,
+        "gpu_us": 219.7760009765625,
+        "host_us": 272.574
+      },
+      {
+        "block": 6,
+        "replay": 1888,
+        "conditioning": false,
+        "gpu_us": 220.38400268554688,
+        "host_us": 262.643
+      },
+      {
+        "block": 9,
+        "replay": 1766,
+        "conditioning": false,
+        "gpu_us": 256.8320007324219,
+        "host_us": 261.817
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "policy": "JOINT_AA",
+    "gpu_sum_s": 7.225523766952515,
+    "host_sum_s": 7.39944617,
+    "host_minus_event_sum_s": 0.17392240304748532,
+    "host_median_us": 225.55,
+    "gpu_median_us": 220.32000732421875,
+    "top_host_replays": [
+      {
+        "block": 11,
+        "replay": 1547,
+        "conditioning": false,
+        "gpu_us": 217.4399871826172,
+        "host_us": 266.583
+      },
+      {
+        "block": 9,
+        "replay": 0,
+        "conditioning": true,
+        "gpu_us": 223.58399963378906,
+        "host_us": 264.806
+      },
+      {
+        "block": 13,
+        "replay": 834,
+        "conditioning": false,
+        "gpu_us": 221.2159881591797,
+        "host_us": 257.271
+      },
+      {
+        "block": 9,
+        "replay": 885,
+        "conditioning": false,
+        "gpu_us": 219.13600158691406,
+        "host_us": 256.825
+      },
+      {
+        "block": 3,
+        "replay": 209,
+        "conditioning": false,
+        "gpu_us": 218.43199157714844,
+        "host_us": 256.787
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "policy": "WRONG",
+    "gpu_sum_s": 7.221400480270386,
+    "host_sum_s": 7.392369999,
+    "host_minus_event_sum_s": 0.17096951872961427,
+    "host_median_us": 225.219,
+    "gpu_median_us": 220.1599884033203,
+    "top_host_replays": [
+      {
+        "block": 0,
+        "replay": 1151,
+        "conditioning": false,
+        "gpu_us": 218.59201049804688,
+        "host_us": 329.767
+      },
+      {
+        "block": 3,
+        "replay": 1322,
+        "conditioning": false,
+        "gpu_us": 218.3679962158203,
+        "host_us": 267.521
+      },
+      {
+        "block": 0,
+        "replay": 1796,
+        "conditioning": false,
+        "gpu_us": 227.8400115966797,
+        "host_us": 251.206
+      },
+      {
+        "block": 8,
+        "replay": 1588,
+        "conditioning": false,
+        "gpu_us": 220.35198974609375,
+        "host_us": 250.341
+      },
+      {
+        "block": 1,
+        "replay": 555,
+        "conditioning": false,
+        "gpu_us": 239.6160125732422,
+        "host_us": 249.332
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "policy": "POOL",
+    "gpu_sum_s": 7.196353356597901,
+    "host_sum_s": 7.368633539000001,
+    "host_minus_event_sum_s": 0.1722801824020996,
+    "host_median_us": 224.595,
+    "gpu_median_us": 219.13600158691406,
+    "top_host_replays": [
+      {
+        "block": 11,
+        "replay": 747,
+        "conditioning": false,
+        "gpu_us": 225.27999877929688,
+        "host_us": 300.15
+      },
+      {
+        "block": 5,
+        "replay": 171,
+        "conditioning": false,
+        "gpu_us": 219.93600463867188,
+        "host_us": 281.513
+      },
+      {
+        "block": 7,
+        "replay": 612,
+        "conditioning": false,
+        "gpu_us": 220.8000030517578,
+        "host_us": 275.219
+      },
+      {
+        "block": 9,
+        "replay": 1561,
+        "conditioning": false,
+        "gpu_us": 264.2560119628906,
+        "host_us": 269.397
+      },
+      {
+        "block": 12,
+        "replay": 833,
+        "conditioning": false,
+        "gpu_us": 219.3280029296875,
+        "host_us": 268.874
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "policy": "SHADOW",
+    "gpu_sum_s": 7.200130899551391,
+    "host_sum_s": 7.371246026999999,
+    "host_minus_event_sum_s": 0.1711151274486084,
+    "host_median_us": 224.59050000000002,
+    "gpu_median_us": 219.1999969482422,
+    "top_host_replays": [
+      {
+        "block": 3,
+        "replay": 1443,
+        "conditioning": false,
+        "gpu_us": 219.8400115966797,
+        "host_us": 276.87
+      },
+      {
+        "block": 1,
+        "replay": 1215,
+        "conditioning": false,
+        "gpu_us": 220.73599243164062,
+        "host_us": 272.634
+      },
+      {
+        "block": 10,
+        "replay": 1282,
+        "conditioning": false,
+        "gpu_us": 251.87200927734375,
+        "host_us": 256.838
+      },
+      {
+        "block": 0,
+        "replay": 1488,
+        "conditioning": false,
+        "gpu_us": 245.343994140625,
+        "host_us": 256.755
+      },
+      {
+        "block": 2,
+        "replay": 105,
+        "conditioning": false,
+        "gpu_us": 220.28799438476562,
+        "host_us": 256.555
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "policy": "BLIND",
+    "gpu_sum_s": 7.170340954437256,
+    "host_sum_s": 7.341921787,
+    "host_minus_event_sum_s": 0.17158083256274415,
+    "host_median_us": 223.809,
+    "gpu_median_us": 218.8800048828125,
+    "top_host_replays": [
+      {
+        "block": 4,
+        "replay": 248,
+        "conditioning": false,
+        "gpu_us": 219.29598999023438,
+        "host_us": 347.58
+      },
+      {
+        "block": 15,
+        "replay": 509,
+        "conditioning": false,
+        "gpu_us": 219.64801025390625,
+        "host_us": 275.612
+      },
+      {
+        "block": 6,
+        "replay": 921,
+        "conditioning": false,
+        "gpu_us": 217.60000610351562,
+        "host_us": 266.557
+      },
+      {
+        "block": 0,
+        "replay": 67,
+        "conditioning": false,
+        "gpu_us": 222.78399658203125,
+        "host_us": 255.032
+      },
+      {
+        "block": 0,
+        "replay": 220,
+        "conditioning": false,
+        "gpu_us": 233.5360107421875,
+        "host_us": 250.849
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "policy": "IDENTITY",
+    "gpu_sum_s": 10.757803682525635,
+    "host_sum_s": 10.933477778,
+    "host_minus_event_sum_s": 0.17567409547436524,
+    "host_median_us": 332.994,
+    "gpu_median_us": 327.8399963378906,
+    "top_host_replays": [
+      {
+        "block": 14,
+        "replay": 1609,
+        "conditioning": false,
+        "gpu_us": 327.7760009765625,
+        "host_us": 389.159
+      },
+      {
+        "block": 14,
+        "replay": 0,
+        "conditioning": true,
+        "gpu_us": 338.4960021972656,
+        "host_us": 373.173
+      },
+      {
+        "block": 13,
+        "replay": 854,
+        "conditioning": false,
+        "gpu_us": 330.2080078125,
+        "host_us": 371.537
+      },
+      {
+        "block": 7,
+        "replay": 1113,
+        "conditioning": false,
+        "gpu_us": 325.63201904296875,
+        "host_us": 370.582
+      },
+      {
+        "block": 6,
+        "replay": 181,
+        "conditioning": false,
+        "gpu_us": 325.91998291015625,
+        "host_us": 369.119
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "policy": "PAIR_ONLY",
+    "gpu_sum_s": 10.79127939779663,
+    "host_sum_s": 10.970641907,
+    "host_minus_event_sum_s": 0.17936250920336916,
+    "host_median_us": 334.087,
+    "gpu_median_us": 329.1519775390625,
+    "top_host_replays": [
+      {
+        "block": 5,
+        "replay": 1817,
+        "conditioning": false,
+        "gpu_us": 392.8000183105469,
+        "host_us": 397.7
+      },
+      {
+        "block": 8,
+        "replay": 1967,
+        "conditioning": false,
+        "gpu_us": 390.7519836425781,
+        "host_us": 396.834
+      },
+      {
+        "block": 14,
+        "replay": 1668,
+        "conditioning": false,
+        "gpu_us": 329.7599792480469,
+        "host_us": 390.584
+      },
+      {
+        "block": 7,
+        "replay": 1091,
+        "conditioning": false,
+        "gpu_us": 331.7760009765625,
+        "host_us": 390.53
+      },
+      {
+        "block": 1,
+        "replay": 942,
+        "conditioning": false,
+        "gpu_us": 329.7279968261719,
+        "host_us": 383.333
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "policy": "PLACE_ONLY",
+    "gpu_sum_s": 10.722454939331055,
+    "host_sum_s": 10.898284374,
+    "host_minus_event_sum_s": 0.1758294346689453,
+    "host_median_us": 331.964,
+    "gpu_median_us": 327.03997802734375,
+    "top_host_replays": [
+      {
+        "block": 9,
+        "replay": 1333,
+        "conditioning": false,
+        "gpu_us": 329.7599792480469,
+        "host_us": 389.774
+      },
+      {
+        "block": 6,
+        "replay": 855,
+        "conditioning": false,
+        "gpu_us": 326.4319763183594,
+        "host_us": 382.469
+      },
+      {
+        "block": 10,
+        "replay": 650,
+        "conditioning": false,
+        "gpu_us": 331.90399169921875,
+        "host_us": 375.913
+      },
+      {
+        "block": 11,
+        "replay": 110,
+        "conditioning": false,
+        "gpu_us": 327.03997802734375,
+        "host_us": 374.094
+      },
+      {
+        "block": 8,
+        "replay": 677,
+        "conditioning": false,
+        "gpu_us": 329.7919921875,
+        "host_us": 372.219
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "policy": "JOINT",
+    "gpu_sum_s": 10.79748119970703,
+    "host_sum_s": 10.973713607,
+    "host_minus_event_sum_s": 0.17623240729296877,
+    "host_median_us": 334.37350000000004,
+    "gpu_median_us": 329.4720153808594,
+    "top_host_replays": [
+      {
+        "block": 3,
+        "replay": 1450,
+        "conditioning": false,
+        "gpu_us": 325.63201904296875,
+        "host_us": 384.997
+      },
+      {
+        "block": 0,
+        "replay": 395,
+        "conditioning": false,
+        "gpu_us": 326.9440002441406,
+        "host_us": 384.443
+      },
+      {
+        "block": 13,
+        "replay": 269,
+        "conditioning": false,
+        "gpu_us": 375.3919982910156,
+        "host_us": 382.227
+      },
+      {
+        "block": 5,
+        "replay": 623,
+        "conditioning": false,
+        "gpu_us": 329.7279968261719,
+        "host_us": 365.906
+      },
+      {
+        "block": 10,
+        "replay": 1770,
+        "conditioning": false,
+        "gpu_us": 341.1520080566406,
+        "host_us": 364.032
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "policy": "JOINT_AA",
+    "gpu_sum_s": 10.796097166107177,
+    "host_sum_s": 10.972286784,
+    "host_minus_event_sum_s": 0.17618961789282225,
+    "host_median_us": 334.336,
+    "gpu_median_us": 329.44000244140625,
+    "top_host_replays": [
+      {
+        "block": 1,
+        "replay": 665,
+        "conditioning": false,
+        "gpu_us": 389.1200256347656,
+        "host_us": 394.979
+      },
+      {
+        "block": 0,
+        "replay": 1291,
+        "conditioning": false,
+        "gpu_us": 387.45599365234375,
+        "host_us": 392.783
+      },
+      {
+        "block": 10,
+        "replay": 2032,
+        "conditioning": false,
+        "gpu_us": 333.2799987792969,
+        "host_us": 369.675
+      },
+      {
+        "block": 5,
+        "replay": 1418,
+        "conditioning": false,
+        "gpu_us": 353.69598388671875,
+        "host_us": 366.078
+      },
+      {
+        "block": 3,
+        "replay": 315,
+        "conditioning": false,
+        "gpu_us": 339.9679870605469,
+        "host_us": 364.808
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "policy": "WRONG",
+    "gpu_sum_s": 10.790620112609863,
+    "host_sum_s": 10.977271382,
+    "host_minus_event_sum_s": 0.1866512693901367,
+    "host_median_us": 334.28,
+    "gpu_median_us": 329.3760070800781,
+    "top_host_replays": [
+      {
+        "block": 12,
+        "replay": 552,
+        "conditioning": false,
+        "gpu_us": 331.42401123046875,
+        "host_us": 3189.133
+      },
+      {
+        "block": 12,
+        "replay": 666,
+        "conditioning": false,
+        "gpu_us": 328.6719970703125,
+        "host_us": 3145.539
+      },
+      {
+        "block": 12,
+        "replay": 621,
+        "conditioning": false,
+        "gpu_us": 329.6000061035156,
+        "host_us": 3125.37
+      },
+      {
+        "block": 12,
+        "replay": 759,
+        "conditioning": false,
+        "gpu_us": 327.52001953125,
+        "host_us": 843.886
+      },
+      {
+        "block": 12,
+        "replay": 992,
+        "conditioning": false,
+        "gpu_us": 329.6960144042969,
+        "host_us": 401.081
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "policy": "POOL",
+    "gpu_sum_s": 10.735886356384277,
+    "host_sum_s": 10.91174915,
+    "host_minus_event_sum_s": 0.17586279361572266,
+    "host_median_us": 332.439,
+    "gpu_median_us": 327.52001953125,
+    "top_host_replays": [
+      {
+        "block": 4,
+        "replay": 624,
+        "conditioning": false,
+        "gpu_us": 325.40802001953125,
+        "host_us": 379.698
+      },
+      {
+        "block": 5,
+        "replay": 394,
+        "conditioning": false,
+        "gpu_us": 325.1839904785156,
+        "host_us": 374.557
+      },
+      {
+        "block": 8,
+        "replay": 964,
+        "conditioning": false,
+        "gpu_us": 331.2320251464844,
+        "host_us": 368.013
+      },
+      {
+        "block": 10,
+        "replay": 1091,
+        "conditioning": false,
+        "gpu_us": 331.00799560546875,
+        "host_us": 365.464
+      },
+      {
+        "block": 11,
+        "replay": 0,
+        "conditioning": true,
+        "gpu_us": 344.864013671875,
+        "host_us": 364.389
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "policy": "SHADOW",
+    "gpu_sum_s": 10.788770929260254,
+    "host_sum_s": 10.964758827999999,
+    "host_minus_event_sum_s": 0.17598789873974607,
+    "host_median_us": 334.225,
+    "gpu_median_us": 329.31201171875,
+    "top_host_replays": [
+      {
+        "block": 1,
+        "replay": 1132,
+        "conditioning": false,
+        "gpu_us": 329.85601806640625,
+        "host_us": 440.592
+      },
+      {
+        "block": 5,
+        "replay": 269,
+        "conditioning": false,
+        "gpu_us": 331.3600158691406,
+        "host_us": 389.06
+      },
+      {
+        "block": 10,
+        "replay": 1208,
+        "conditioning": false,
+        "gpu_us": 332.0,
+        "host_us": 376.251
+      },
+      {
+        "block": 8,
+        "replay": 220,
+        "conditioning": false,
+        "gpu_us": 336.6719970703125,
+        "host_us": 363.506
+      },
+      {
+        "block": 13,
+        "replay": 0,
+        "conditioning": true,
+        "gpu_us": 342.0160217285156,
+        "host_us": 360.953
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "policy": "BLIND",
+    "gpu_sum_s": 10.73317662564087,
+    "host_sum_s": 10.910783528000001,
+    "host_minus_event_sum_s": 0.17760690235913085,
+    "host_median_us": 332.304,
+    "gpu_median_us": 327.3919982910156,
+    "top_host_replays": [
+      {
+        "block": 4,
+        "replay": 819,
+        "conditioning": false,
+        "gpu_us": 325.1839904785156,
+        "host_us": 397.927
+      },
+      {
+        "block": 1,
+        "replay": 653,
+        "conditioning": false,
+        "gpu_us": 327.3600158691406,
+        "host_us": 376.172
+      },
+      {
+        "block": 10,
+        "replay": 1891,
+        "conditioning": false,
+        "gpu_us": 329.7279968261719,
+        "host_us": 372.895
+      },
+      {
+        "block": 13,
+        "replay": 188,
+        "conditioning": false,
+        "gpu_us": 330.3999938964844,
+        "host_us": 369.848
+      },
+      {
+        "block": 1,
+        "replay": 369,
+        "conditioning": false,
+        "gpu_us": 324.28802490234375,
+        "host_us": 369.127
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "policy": "IDENTITY",
+    "gpu_sum_s": 7.280974114303588,
+    "host_sum_s": 7.455123935,
+    "host_minus_event_sum_s": 0.17414982069641113,
+    "host_median_us": 226.745,
+    "gpu_median_us": 221.66400146484375,
+    "top_host_replays": [
+      {
+        "block": 14,
+        "replay": 1432,
+        "conditioning": false,
+        "gpu_us": 223.135986328125,
+        "host_us": 847.911
+      },
+      {
+        "block": 11,
+        "replay": 55,
+        "conditioning": false,
+        "gpu_us": 221.31199645996094,
+        "host_us": 294.796
+      },
+      {
+        "block": 14,
+        "replay": 1428,
+        "conditioning": false,
+        "gpu_us": 223.23199462890625,
+        "host_us": 286.424
+      },
+      {
+        "block": 12,
+        "replay": 91,
+        "conditioning": false,
+        "gpu_us": 266.97601318359375,
+        "host_us": 272.832
+      },
+      {
+        "block": 13,
+        "replay": 1,
+        "conditioning": true,
+        "gpu_us": 221.50399780273438,
+        "host_us": 270.931
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "policy": "PAIR_ONLY",
+    "gpu_sum_s": 7.2911461108093265,
+    "host_sum_s": 7.476702851,
+    "host_minus_event_sum_s": 0.18555674019067386,
+    "host_median_us": 227.044,
+    "gpu_median_us": 222.1439971923828,
+    "top_host_replays": [
+      {
+        "block": 2,
+        "replay": 388,
+        "conditioning": false,
+        "gpu_us": 220.76800537109375,
+        "host_us": 3235.782
+      },
+      {
+        "block": 2,
+        "replay": 404,
+        "conditioning": false,
+        "gpu_us": 220.9600067138672,
+        "host_us": 3175.289
+      },
+      {
+        "block": 2,
+        "replay": 413,
+        "conditioning": false,
+        "gpu_us": 221.1840057373047,
+        "host_us": 2181.452
+      },
+      {
+        "block": 2,
+        "replay": 1420,
+        "conditioning": false,
+        "gpu_us": 222.91200256347656,
+        "host_us": 1012.673
+      },
+      {
+        "block": 2,
+        "replay": 1507,
+        "conditioning": false,
+        "gpu_us": 223.51998901367188,
+        "host_us": 1003.508
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "policy": "PLACE_ONLY",
+    "gpu_sum_s": 7.244006425079346,
+    "host_sum_s": 7.417556946,
+    "host_minus_event_sum_s": 0.1735505209206543,
+    "host_median_us": 225.544,
+    "gpu_median_us": 220.8000030517578,
+    "top_host_replays": [
+      {
+        "block": 2,
+        "replay": 597,
+        "conditioning": false,
+        "gpu_us": 218.97601318359375,
+        "host_us": 479.4
+      },
+      {
+        "block": 6,
+        "replay": 1558,
+        "conditioning": false,
+        "gpu_us": 222.81600952148438,
+        "host_us": 300.131
+      },
+      {
+        "block": 6,
+        "replay": 346,
+        "conditioning": false,
+        "gpu_us": 222.84799194335938,
+        "host_us": 284.554
+      },
+      {
+        "block": 15,
+        "replay": 716,
+        "conditioning": false,
+        "gpu_us": 220.0,
+        "host_us": 281.574
+      },
+      {
+        "block": 7,
+        "replay": 625,
+        "conditioning": false,
+        "gpu_us": 221.7919921875,
+        "host_us": 277.679
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "policy": "JOINT",
+    "gpu_sum_s": 7.2751966834411625,
+    "host_sum_s": 7.456482891000001,
+    "host_minus_event_sum_s": 0.1812862075588379,
+    "host_median_us": 226.679,
+    "gpu_median_us": 221.6320037841797,
+    "top_host_replays": [
+      {
+        "block": 13,
+        "replay": 639,
+        "conditioning": false,
+        "gpu_us": 221.1840057373047,
+        "host_us": 1813.605
+      },
+      {
+        "block": 13,
+        "replay": 651,
+        "conditioning": false,
+        "gpu_us": 219.52000427246094,
+        "host_us": 1577.746
+      },
+      {
+        "block": 13,
+        "replay": 915,
+        "conditioning": false,
+        "gpu_us": 219.26400756835938,
+        "host_us": 1366.795
+      },
+      {
+        "block": 13,
+        "replay": 642,
+        "conditioning": false,
+        "gpu_us": 225.6320037841797,
+        "host_us": 1109.837
+      },
+      {
+        "block": 13,
+        "replay": 641,
+        "conditioning": false,
+        "gpu_us": 220.5439910888672,
+        "host_us": 930.649
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "policy": "JOINT_AA",
+    "gpu_sum_s": 7.2837866942901615,
+    "host_sum_s": 7.456590801,
+    "host_minus_event_sum_s": 0.17280410670983884,
+    "host_median_us": 226.76,
+    "gpu_median_us": 221.72799682617188,
+    "top_host_replays": [
+      {
+        "block": 13,
+        "replay": 1722,
+        "conditioning": false,
+        "gpu_us": 223.39199829101562,
+        "host_us": 292.195
+      },
+      {
+        "block": 10,
+        "replay": 659,
+        "conditioning": false,
+        "gpu_us": 219.29598999023438,
+        "host_us": 273.79
+      },
+      {
+        "block": 13,
+        "replay": 683,
+        "conditioning": false,
+        "gpu_us": 223.45599365234375,
+        "host_us": 267.976
+      },
+      {
+        "block": 3,
+        "replay": 1332,
+        "conditioning": false,
+        "gpu_us": 219.39199829101562,
+        "host_us": 267.945
+      },
+      {
+        "block": 6,
+        "replay": 1109,
+        "conditioning": false,
+        "gpu_us": 260.99200439453125,
+        "host_us": 267.915
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "policy": "WRONG",
+    "gpu_sum_s": 7.295884411743164,
+    "host_sum_s": 7.469795285,
+    "host_minus_event_sum_s": 0.17391087325683594,
+    "host_median_us": 227.134,
+    "gpu_median_us": 222.3040008544922,
+    "top_host_replays": [
+      {
+        "block": 14,
+        "replay": 1569,
+        "conditioning": false,
+        "gpu_us": 224.47999572753906,
+        "host_us": 288.722
+      },
+      {
+        "block": 12,
+        "replay": 1705,
+        "conditioning": false,
+        "gpu_us": 224.9600067138672,
+        "host_us": 273.187
+      },
+      {
+        "block": 8,
+        "replay": 1073,
+        "conditioning": false,
+        "gpu_us": 225.15200805664062,
+        "host_us": 272.486
+      },
+      {
+        "block": 10,
+        "replay": 877,
+        "conditioning": false,
+        "gpu_us": 222.91200256347656,
+        "host_us": 270.936
+      },
+      {
+        "block": 4,
+        "replay": 697,
+        "conditioning": false,
+        "gpu_us": 220.32000732421875,
+        "host_us": 268.62
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "policy": "POOL",
+    "gpu_sum_s": 7.2537841521606445,
+    "host_sum_s": 7.4270252900000004,
+    "host_minus_event_sum_s": 0.17324113783935546,
+    "host_median_us": 225.955,
+    "gpu_median_us": 221.1199951171875,
+    "top_host_replays": [
+      {
+        "block": 14,
+        "replay": 1498,
+        "conditioning": false,
+        "gpu_us": 227.3280029296875,
+        "host_us": 313.234
+      },
+      {
+        "block": 7,
+        "replay": 823,
+        "conditioning": false,
+        "gpu_us": 218.3679962158203,
+        "host_us": 300.604
+      },
+      {
+        "block": 6,
+        "replay": 772,
+        "conditioning": false,
+        "gpu_us": 221.15199279785156,
+        "host_us": 293.825
+      },
+      {
+        "block": 5,
+        "replay": 1112,
+        "conditioning": false,
+        "gpu_us": 221.0880126953125,
+        "host_us": 292.238
+      },
+      {
+        "block": 2,
+        "replay": 110,
+        "conditioning": false,
+        "gpu_us": 227.61599731445312,
+        "host_us": 280.4
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "policy": "SHADOW",
+    "gpu_sum_s": 7.258635381408691,
+    "host_sum_s": 7.432013824,
+    "host_minus_event_sum_s": 0.1733784425913086,
+    "host_median_us": 226.066,
+    "gpu_median_us": 221.15199279785156,
+    "top_host_replays": [
+      {
+        "block": 6,
+        "replay": 53,
+        "conditioning": false,
+        "gpu_us": 223.39199829101562,
+        "host_us": 334.257
+      },
+      {
+        "block": 7,
+        "replay": 141,
+        "conditioning": false,
+        "gpu_us": 297.69598388671875,
+        "host_us": 311.559
+      },
+      {
+        "block": 9,
+        "replay": 949,
+        "conditioning": false,
+        "gpu_us": 223.58399963378906,
+        "host_us": 271.927
+      },
+      {
+        "block": 15,
+        "replay": 13,
+        "conditioning": false,
+        "gpu_us": 219.3280029296875,
+        "host_us": 270.594
+      },
+      {
+        "block": 12,
+        "replay": 615,
+        "conditioning": false,
+        "gpu_us": 223.1999969482422,
+        "host_us": 270.267
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "policy": "BLIND",
+    "gpu_sum_s": 7.230310564849853,
+    "host_sum_s": 7.404129919,
+    "host_minus_event_sum_s": 0.1738193541501465,
+    "host_median_us": 225.196,
+    "gpu_median_us": 220.41600036621094,
+    "top_host_replays": [
+      {
+        "block": 8,
+        "replay": 560,
+        "conditioning": false,
+        "gpu_us": 223.0080108642578,
+        "host_us": 308.55
+      },
+      {
+        "block": 14,
+        "replay": 1967,
+        "conditioning": false,
+        "gpu_us": 225.8560028076172,
+        "host_us": 293.361
+      },
+      {
+        "block": 14,
+        "replay": 1960,
+        "conditioning": false,
+        "gpu_us": 220.32000732421875,
+        "host_us": 284.809
+      },
+      {
+        "block": 11,
+        "replay": 827,
+        "conditioning": false,
+        "gpu_us": 223.83999633789062,
+        "host_us": 280.686
+      },
+      {
+        "block": 7,
+        "replay": 1099,
+        "conditioning": false,
+        "gpu_us": 224.0640106201172,
+        "host_us": 280.176
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "policy": "IDENTITY",
+    "gpu_sum_s": 10.867539701690674,
+    "host_sum_s": 11.629667317,
+    "host_minus_event_sum_s": 0.7621276153093262,
+    "host_median_us": 335.78049999999996,
+    "gpu_median_us": 330.4960021972656,
+    "top_host_replays": [
+      {
+        "block": 6,
+        "replay": 1097,
+        "conditioning": false,
+        "gpu_us": 309.0879821777344,
+        "host_us": 99164.339
+      },
+      {
+        "block": 6,
+        "replay": 1074,
+        "conditioning": false,
+        "gpu_us": 308.9280090332031,
+        "host_us": 47218.21
+      },
+      {
+        "block": 6,
+        "replay": 1047,
+        "conditioning": false,
+        "gpu_us": 21293.984375,
+        "host_us": 21472.804
+      },
+      {
+        "block": 6,
+        "replay": 1018,
+        "conditioning": false,
+        "gpu_us": 307.3279724121094,
+        "host_us": 19187.025
+      },
+      {
+        "block": 6,
+        "replay": 1000,
+        "conditioning": false,
+        "gpu_us": 306.9759826660156,
+        "host_us": 18298.411
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "policy": "PAIR_ONLY",
+    "gpu_sum_s": 10.852308883789062,
+    "host_sum_s": 11.24465319,
+    "host_minus_event_sum_s": 0.3923443062109376,
+    "host_median_us": 335.786,
+    "gpu_median_us": 330.656005859375,
+    "top_host_replays": [
+      {
+        "block": 11,
+        "replay": 880,
+        "conditioning": false,
+        "gpu_us": 328.6400146484375,
+        "host_us": 10465.849
+      },
+      {
+        "block": 11,
+        "replay": 1205,
+        "conditioning": false,
+        "gpu_us": 317.3440246582031,
+        "host_us": 7468.284
+      },
+      {
+        "block": 11,
+        "replay": 162,
+        "conditioning": false,
+        "gpu_us": 313.85601806640625,
+        "host_us": 6323.6
+      },
+      {
+        "block": 11,
+        "replay": 113,
+        "conditioning": false,
+        "gpu_us": 5519.423828125,
+        "host_us": 5529.772
+      },
+      {
+        "block": 11,
+        "replay": 80,
+        "conditioning": false,
+        "gpu_us": 317.44000244140625,
+        "host_us": 5294.967
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "policy": "PLACE_ONLY",
+    "gpu_sum_s": 10.8397538828125,
+    "host_sum_s": 11.247063599999999,
+    "host_minus_event_sum_s": 0.4073097171875,
+    "host_median_us": 335.267,
+    "gpu_median_us": 329.9840087890625,
+    "top_host_replays": [
+      {
+        "block": 11,
+        "replay": 494,
+        "conditioning": false,
+        "gpu_us": 310.68798828125,
+        "host_us": 10245.452
+      },
+      {
+        "block": 11,
+        "replay": 407,
+        "conditioning": false,
+        "gpu_us": 312.2239990234375,
+        "host_us": 9050.479
+      },
+      {
+        "block": 11,
+        "replay": 606,
+        "conditioning": false,
+        "gpu_us": 308.1920166015625,
+        "host_us": 8387.222
+      },
+      {
+        "block": 11,
+        "replay": 598,
+        "conditioning": false,
+        "gpu_us": 307.71197509765625,
+        "host_us": 7763.044
+      },
+      {
+        "block": 11,
+        "replay": 260,
+        "conditioning": false,
+        "gpu_us": 323.0400085449219,
+        "host_us": 7439.909
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "policy": "JOINT",
+    "gpu_sum_s": 10.89337680178833,
+    "host_sum_s": 11.077374489,
+    "host_minus_event_sum_s": 0.18399768721166992,
+    "host_median_us": 337.147,
+    "gpu_median_us": 331.90399169921875,
+    "top_host_replays": [
+      {
+        "block": 6,
+        "replay": 1920,
+        "conditioning": false,
+        "gpu_us": 546.656005859375,
+        "host_us": 1180.104
+      },
+      {
+        "block": 6,
+        "replay": 1733,
+        "conditioning": false,
+        "gpu_us": 329.2480163574219,
+        "host_us": 640.753
+      },
+      {
+        "block": 6,
+        "replay": 1909,
+        "conditioning": false,
+        "gpu_us": 330.2720031738281,
+        "host_us": 504.565
+      },
+      {
+        "block": 6,
+        "replay": 2005,
+        "conditioning": false,
+        "gpu_us": 330.14398193359375,
+        "host_us": 479.737
+      },
+      {
+        "block": 13,
+        "replay": 245,
+        "conditioning": false,
+        "gpu_us": 331.67999267578125,
+        "host_us": 445.203
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "policy": "JOINT_AA",
+    "gpu_sum_s": 10.885879111297607,
+    "host_sum_s": 11.139768420000001,
+    "host_minus_event_sum_s": 0.25388930870239257,
+    "host_median_us": 337.07,
+    "gpu_median_us": 331.8080139160156,
+    "top_host_replays": [
+      {
+        "block": 11,
+        "replay": 1151,
+        "conditioning": false,
+        "gpu_us": 324.1600036621094,
+        "host_us": 9205.539
+      },
+      {
+        "block": 11,
+        "replay": 1110,
+        "conditioning": false,
+        "gpu_us": 330.8480224609375,
+        "host_us": 5092.542
+      },
+      {
+        "block": 11,
+        "replay": 1510,
+        "conditioning": false,
+        "gpu_us": 326.7200012207031,
+        "host_us": 4341.908
+      },
+      {
+        "block": 11,
+        "replay": 1476,
+        "conditioning": false,
+        "gpu_us": 326.0160217285156,
+        "host_us": 3531.225
+      },
+      {
+        "block": 11,
+        "replay": 1504,
+        "conditioning": false,
+        "gpu_us": 323.87200927734375,
+        "host_us": 3321.722
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "policy": "WRONG",
+    "gpu_sum_s": 10.932675312774657,
+    "host_sum_s": 11.419097355,
+    "host_minus_event_sum_s": 0.4864220422253418,
+    "host_median_us": 338.401,
+    "gpu_median_us": 333.44000244140625,
+    "top_host_replays": [
+      {
+        "block": 11,
+        "replay": 1600,
+        "conditioning": false,
+        "gpu_us": 315.3919982910156,
+        "host_us": 36639.212
+      },
+      {
+        "block": 11,
+        "replay": 595,
+        "conditioning": false,
+        "gpu_us": 319.20001220703125,
+        "host_us": 36446.302
+      },
+      {
+        "block": 11,
+        "replay": 604,
+        "conditioning": false,
+        "gpu_us": 317.44000244140625,
+        "host_us": 25681.553
+      },
+      {
+        "block": 11,
+        "replay": 301,
+        "conditioning": false,
+        "gpu_us": 326.2080078125,
+        "host_us": 14618.333
+      },
+      {
+        "block": 11,
+        "replay": 1554,
+        "conditioning": false,
+        "gpu_us": 325.3760070800781,
+        "host_us": 9686.145
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "policy": "POOL",
+    "gpu_sum_s": 10.92349262902832,
+    "host_sum_s": 11.279820961999999,
+    "host_minus_event_sum_s": 0.35632833297167965,
+    "host_median_us": 338.334,
+    "gpu_median_us": 333.3759765625,
+    "top_host_replays": [
+      {
+        "block": 7,
+        "replay": 1577,
+        "conditioning": false,
+        "gpu_us": 328.09600830078125,
+        "host_us": 8628.062
+      },
+      {
+        "block": 7,
+        "replay": 1182,
+        "conditioning": false,
+        "gpu_us": 325.69598388671875,
+        "host_us": 6203.346
+      },
+      {
+        "block": 7,
+        "replay": 798,
+        "conditioning": false,
+        "gpu_us": 316.32000732421875,
+        "host_us": 5313.168
+      },
+      {
+        "block": 7,
+        "replay": 757,
+        "conditioning": false,
+        "gpu_us": 320.47998046875,
+        "host_us": 5309.38
+      },
+      {
+        "block": 7,
+        "replay": 790,
+        "conditioning": false,
+        "gpu_us": 315.4239807128906,
+        "host_us": 4959.057
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "policy": "SHADOW",
+    "gpu_sum_s": 10.886176673919678,
+    "host_sum_s": 11.256004972000001,
+    "host_minus_event_sum_s": 0.3698282980803222,
+    "host_median_us": 336.886,
+    "gpu_median_us": 331.7760009765625,
+    "top_host_replays": [
+      {
+        "block": 11,
+        "replay": 375,
+        "conditioning": false,
+        "gpu_us": 326.3039855957031,
+        "host_us": 10156.245
+      },
+      {
+        "block": 11,
+        "replay": 890,
+        "conditioning": false,
+        "gpu_us": 323.4880065917969,
+        "host_us": 6302.301
+      },
+      {
+        "block": 11,
+        "replay": 920,
+        "conditioning": false,
+        "gpu_us": 323.583984375,
+        "host_us": 6276.934
+      },
+      {
+        "block": 11,
+        "replay": 415,
+        "conditioning": false,
+        "gpu_us": 318.08001708984375,
+        "host_us": 5275.154
+      },
+      {
+        "block": 11,
+        "replay": 473,
+        "conditioning": false,
+        "gpu_us": 314.27197265625,
+        "host_us": 4906.663
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "policy": "BLIND",
+    "gpu_sum_s": 10.848532942749024,
+    "host_sum_s": 11.028196823999998,
+    "host_minus_event_sum_s": 0.17966388125097654,
+    "host_median_us": 335.395,
+    "gpu_median_us": 330.1759948730469,
+    "top_host_replays": [
+      {
+        "block": 12,
+        "replay": 1747,
+        "conditioning": false,
+        "gpu_us": 330.8799743652344,
+        "host_us": 476.081
+      },
+      {
+        "block": 11,
+        "replay": 699,
+        "conditioning": false,
+        "gpu_us": 368.99200439453125,
+        "host_us": 404.159
+      },
+      {
+        "block": 8,
+        "replay": 1403,
+        "conditioning": false,
+        "gpu_us": 336.54400634765625,
+        "host_us": 397.432
+      },
+      {
+        "block": 8,
+        "replay": 1352,
+        "conditioning": false,
+        "gpu_us": 336.6400146484375,
+        "host_us": 394.689
+      },
+      {
+        "block": 11,
+        "replay": 1175,
+        "conditioning": false,
+        "gpu_us": 344.4800109863281,
+        "host_us": 390.5
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "policy": "IDENTITY",
+    "gpu_sum_s": 7.269024726486206,
+    "host_sum_s": 7.440445892999999,
+    "host_minus_event_sum_s": 0.17142116651379397,
+    "host_median_us": 226.722,
+    "gpu_median_us": 221.1840057373047,
+    "top_host_replays": [
+      {
+        "block": 1,
+        "replay": 1643,
+        "conditioning": false,
+        "gpu_us": 218.656005859375,
+        "host_us": 273.556
+      },
+      {
+        "block": 11,
+        "replay": 165,
+        "conditioning": false,
+        "gpu_us": 223.16799926757812,
+        "host_us": 267.732
+      },
+      {
+        "block": 0,
+        "replay": 78,
+        "conditioning": false,
+        "gpu_us": 223.1999969482422,
+        "host_us": 263.328
+      },
+      {
+        "block": 5,
+        "replay": 1357,
+        "conditioning": false,
+        "gpu_us": 220.60800170898438,
+        "host_us": 263.05
+      },
+      {
+        "block": 2,
+        "replay": 1931,
+        "conditioning": false,
+        "gpu_us": 237.82398986816406,
+        "host_us": 260.383
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "policy": "PAIR_ONLY",
+    "gpu_sum_s": 7.268345365814209,
+    "host_sum_s": 7.43919728,
+    "host_minus_event_sum_s": 0.17085191418579102,
+    "host_median_us": 226.527,
+    "gpu_median_us": 221.1840057373047,
+    "top_host_replays": [
+      {
+        "block": 13,
+        "replay": 1677,
+        "conditioning": false,
+        "gpu_us": 220.06399536132812,
+        "host_us": 263.651
+      },
+      {
+        "block": 4,
+        "replay": 1169,
+        "conditioning": false,
+        "gpu_us": 221.31199645996094,
+        "host_us": 260.917
+      },
+      {
+        "block": 8,
+        "replay": 591,
+        "conditioning": false,
+        "gpu_us": 223.4239959716797,
+        "host_us": 256.638
+      },
+      {
+        "block": 15,
+        "replay": 1207,
+        "conditioning": false,
+        "gpu_us": 222.9759979248047,
+        "host_us": 254.118
+      },
+      {
+        "block": 4,
+        "replay": 699,
+        "conditioning": false,
+        "gpu_us": 247.10400390625,
+        "host_us": 252.279
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "policy": "PLACE_ONLY",
+    "gpu_sum_s": 7.267280342453003,
+    "host_sum_s": 7.440823485999999,
+    "host_minus_event_sum_s": 0.17354314354699707,
+    "host_median_us": 226.30450000000002,
+    "gpu_median_us": 221.1840057373047,
+    "top_host_replays": [
+      {
+        "block": 1,
+        "replay": 74,
+        "conditioning": false,
+        "gpu_us": 222.4320068359375,
+        "host_us": 3134.606
+      },
+      {
+        "block": 7,
+        "replay": 806,
+        "conditioning": false,
+        "gpu_us": 221.05599975585938,
+        "host_us": 312.798
+      },
+      {
+        "block": 7,
+        "replay": 1369,
+        "conditioning": false,
+        "gpu_us": 223.16799926757812,
+        "host_us": 288.33
+      },
+      {
+        "block": 14,
+        "replay": 1914,
+        "conditioning": false,
+        "gpu_us": 220.9600067138672,
+        "host_us": 275.409
+      },
+      {
+        "block": 11,
+        "replay": 1491,
+        "conditioning": false,
+        "gpu_us": 223.135986328125,
+        "host_us": 267.715
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "policy": "JOINT",
+    "gpu_sum_s": 7.2832185226135255,
+    "host_sum_s": 7.457261605,
+    "host_minus_event_sum_s": 0.1740430823864746,
+    "host_median_us": 227.106,
+    "gpu_median_us": 221.50399780273438,
+    "top_host_replays": [
+      {
+        "block": 7,
+        "replay": 410,
+        "conditioning": false,
+        "gpu_us": 225.72801208496094,
+        "host_us": 425.504
+      },
+      {
+        "block": 7,
+        "replay": 402,
+        "conditioning": false,
+        "gpu_us": 225.4080047607422,
+        "host_us": 397.431
+      },
+      {
+        "block": 7,
+        "replay": 427,
+        "conditioning": false,
+        "gpu_us": 360.32000732421875,
+        "host_us": 366.43
+      },
+      {
+        "block": 11,
+        "replay": 350,
+        "conditioning": false,
+        "gpu_us": 222.33599853515625,
+        "host_us": 310.194
+      },
+      {
+        "block": 8,
+        "replay": 1468,
+        "conditioning": false,
+        "gpu_us": 246.62399291992188,
+        "host_us": 265.314
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "policy": "JOINT_AA",
+    "gpu_sum_s": 7.279981592727661,
+    "host_sum_s": 7.461331268000001,
+    "host_minus_event_sum_s": 0.18134967527233886,
+    "host_median_us": 227.172,
+    "gpu_median_us": 221.44000244140625,
+    "top_host_replays": [
+      {
+        "block": 6,
+        "replay": 821,
+        "conditioning": false,
+        "gpu_us": 235.1999969482422,
+        "host_us": 851.495
+      },
+      {
+        "block": 6,
+        "replay": 1103,
+        "conditioning": false,
+        "gpu_us": 223.23199462890625,
+        "host_us": 821.393
+      },
+      {
+        "block": 6,
+        "replay": 783,
+        "conditioning": false,
+        "gpu_us": 227.3280029296875,
+        "host_us": 599.124
+      },
+      {
+        "block": 6,
+        "replay": 840,
+        "conditioning": false,
+        "gpu_us": 221.40798950195312,
+        "host_us": 562.529
+      },
+      {
+        "block": 6,
+        "replay": 790,
+        "conditioning": false,
+        "gpu_us": 224.25599670410156,
+        "host_us": 516.281
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "policy": "WRONG",
+    "gpu_sum_s": 7.264893723815918,
+    "host_sum_s": 7.4377588590000006,
+    "host_minus_event_sum_s": 0.17286513518408203,
+    "host_median_us": 226.26549999999997,
+    "gpu_median_us": 221.1840057373047,
+    "top_host_replays": [
+      {
+        "block": 2,
+        "replay": 749,
+        "conditioning": false,
+        "gpu_us": 222.8800048828125,
+        "host_us": 992.231
+      },
+      {
+        "block": 2,
+        "replay": 739,
+        "conditioning": false,
+        "gpu_us": 223.07200622558594,
+        "host_us": 990.115
+      },
+      {
+        "block": 2,
+        "replay": 758,
+        "conditioning": false,
+        "gpu_us": 222.62400817871094,
+        "host_us": 870.714
+      },
+      {
+        "block": 2,
+        "replay": 769,
+        "conditioning": false,
+        "gpu_us": 222.94400024414062,
+        "host_us": 338.066
+      },
+      {
+        "block": 2,
+        "replay": 1424,
+        "conditioning": false,
+        "gpu_us": 222.33599853515625,
+        "host_us": 297.53
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "policy": "POOL",
+    "gpu_sum_s": 7.261750802078247,
+    "host_sum_s": 7.433880278999999,
+    "host_minus_event_sum_s": 0.17212947692175293,
+    "host_median_us": 226.4995,
+    "gpu_median_us": 221.1840057373047,
+    "top_host_replays": [
+      {
+        "block": 2,
+        "replay": 134,
+        "conditioning": false,
+        "gpu_us": 223.23199462890625,
+        "host_us": 272.014
+      },
+      {
+        "block": 11,
+        "replay": 1338,
+        "conditioning": false,
+        "gpu_us": 222.01600646972656,
+        "host_us": 271.3
+      },
+      {
+        "block": 8,
+        "replay": 417,
+        "conditioning": false,
+        "gpu_us": 263.8080139160156,
+        "host_us": 268.7
+      },
+      {
+        "block": 11,
+        "replay": 322,
+        "conditioning": false,
+        "gpu_us": 223.07200622558594,
+        "host_us": 256.876
+      },
+      {
+        "block": 5,
+        "replay": 1275,
+        "conditioning": false,
+        "gpu_us": 220.86399841308594,
+        "host_us": 256.4
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "policy": "SHADOW",
+    "gpu_sum_s": 7.264965750289917,
+    "host_sum_s": 7.4362678849999995,
+    "host_minus_event_sum_s": 0.17130213471008301,
+    "host_median_us": 226.583,
+    "gpu_median_us": 221.1840057373047,
+    "top_host_replays": [
+      {
+        "block": 15,
+        "replay": 223,
+        "conditioning": false,
+        "gpu_us": 222.5919952392578,
+        "host_us": 266.181
+      },
+      {
+        "block": 14,
+        "replay": 167,
+        "conditioning": false,
+        "gpu_us": 230.78399658203125,
+        "host_us": 256.058
+      },
+      {
+        "block": 6,
+        "replay": 418,
+        "conditioning": false,
+        "gpu_us": 222.81600952148438,
+        "host_us": 254.478
+      },
+      {
+        "block": 11,
+        "replay": 318,
+        "conditioning": false,
+        "gpu_us": 233.4720001220703,
+        "host_us": 253.97
+      },
+      {
+        "block": 4,
+        "replay": 0,
+        "conditioning": true,
+        "gpu_us": 224.47999572753906,
+        "host_us": 253.347
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "policy": "BLIND",
+    "gpu_sum_s": 7.233293672943115,
+    "host_sum_s": 7.40979315,
+    "host_minus_event_sum_s": 0.17649947705688476,
+    "host_median_us": 225.687,
+    "gpu_median_us": 220.5120086669922,
+    "top_host_replays": [
+      {
+        "block": 12,
+        "replay": 1152,
+        "conditioning": false,
+        "gpu_us": 221.0880126953125,
+        "host_us": 1736.016
+      },
+      {
+        "block": 12,
+        "replay": 1273,
+        "conditioning": false,
+        "gpu_us": 217.4720001220703,
+        "host_us": 522.536
+      },
+      {
+        "block": 12,
+        "replay": 1373,
+        "conditioning": false,
+        "gpu_us": 217.66400146484375,
+        "host_us": 458.413
+      },
+      {
+        "block": 12,
+        "replay": 1285,
+        "conditioning": false,
+        "gpu_us": 218.0159912109375,
+        "host_us": 401.056
+      },
+      {
+        "block": 12,
+        "replay": 1194,
+        "conditioning": false,
+        "gpu_us": 219.13600158691406,
+        "host_us": 320.65
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "policy": "IDENTITY",
+    "gpu_sum_s": 10.893753134643555,
+    "host_sum_s": 11.074069204,
+    "host_minus_event_sum_s": 0.18031606935644534,
+    "host_median_us": 336.505,
+    "gpu_median_us": 331.552001953125,
+    "top_host_replays": [
+      {
+        "block": 10,
+        "replay": 884,
+        "conditioning": false,
+        "gpu_us": 332.76800537109375,
+        "host_us": 501.011
+      },
+      {
+        "block": 3,
+        "replay": 1980,
+        "conditioning": false,
+        "gpu_us": 342.4320068359375,
+        "host_us": 445.696
+      },
+      {
+        "block": 4,
+        "replay": 1807,
+        "conditioning": false,
+        "gpu_us": 330.33599853515625,
+        "host_us": 404.796
+      },
+      {
+        "block": 0,
+        "replay": 606,
+        "conditioning": false,
+        "gpu_us": 395.6159973144531,
+        "host_us": 402.78
+      },
+      {
+        "block": 9,
+        "replay": 407,
+        "conditioning": false,
+        "gpu_us": 333.1199951171875,
+        "host_us": 402.695
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "policy": "PAIR_ONLY",
+    "gpu_sum_s": 10.890411471923828,
+    "host_sum_s": 11.104220366999998,
+    "host_minus_event_sum_s": 0.2138088950761719,
+    "host_median_us": 336.498,
+    "gpu_median_us": 331.5199890136719,
+    "top_host_replays": [
+      {
+        "block": 1,
+        "replay": 153,
+        "conditioning": false,
+        "gpu_us": 319.3280029296875,
+        "host_us": 3955.181
+      },
+      {
+        "block": 1,
+        "replay": 121,
+        "conditioning": false,
+        "gpu_us": 331.3600158691406,
+        "host_us": 3317.268
+      },
+      {
+        "block": 1,
+        "replay": 144,
+        "conditioning": false,
+        "gpu_us": 331.5840148925781,
+        "host_us": 3285.752
+      },
+      {
+        "block": 1,
+        "replay": 130,
+        "conditioning": false,
+        "gpu_us": 331.2959899902344,
+        "host_us": 3049.887
+      },
+      {
+        "block": 1,
+        "replay": 137,
+        "conditioning": false,
+        "gpu_us": 340.35198974609375,
+        "host_us": 2720.685
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "policy": "PLACE_ONLY",
+    "gpu_sum_s": 10.867008798339844,
+    "host_sum_s": 11.048063467,
+    "host_minus_event_sum_s": 0.18105466866015626,
+    "host_median_us": 335.7405,
+    "gpu_median_us": 330.78399658203125,
+    "top_host_replays": [
+      {
+        "block": 7,
+        "replay": 623,
+        "conditioning": false,
+        "gpu_us": 330.14398193359375,
+        "host_us": 422.368
+      },
+      {
+        "block": 4,
+        "replay": 76,
+        "conditioning": false,
+        "gpu_us": 333.6000061035156,
+        "host_us": 416.773
+      },
+      {
+        "block": 12,
+        "replay": 1708,
+        "conditioning": false,
+        "gpu_us": 329.7279968261719,
+        "host_us": 409.107
+      },
+      {
+        "block": 8,
+        "replay": 548,
+        "conditioning": false,
+        "gpu_us": 329.9519958496094,
+        "host_us": 401.29
+      },
+      {
+        "block": 10,
+        "replay": 23,
+        "conditioning": false,
+        "gpu_us": 329.9840087890625,
+        "host_us": 399.791
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "policy": "JOINT",
+    "gpu_sum_s": 10.872327715454102,
+    "host_sum_s": 11.052131393,
+    "host_minus_event_sum_s": 0.17980367754589846,
+    "host_median_us": 335.808,
+    "gpu_median_us": 330.8480224609375,
+    "top_host_replays": [
+      {
+        "block": 8,
+        "replay": 1628,
+        "conditioning": false,
+        "gpu_us": 331.3600158691406,
+        "host_us": 539.856
+      },
+      {
+        "block": 8,
+        "replay": 1623,
+        "conditioning": false,
+        "gpu_us": 331.1679992675781,
+        "host_us": 470.777
+      },
+      {
+        "block": 8,
+        "replay": 1924,
+        "conditioning": false,
+        "gpu_us": 336.54400634765625,
+        "host_us": 391.621
+      },
+      {
+        "block": 7,
+        "replay": 161,
+        "conditioning": false,
+        "gpu_us": 385.0240173339844,
+        "host_us": 390.694
+      },
+      {
+        "block": 2,
+        "replay": 1040,
+        "conditioning": false,
+        "gpu_us": 330.0480041503906,
+        "host_us": 389.099
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "policy": "JOINT_AA",
+    "gpu_sum_s": 10.86889443069458,
+    "host_sum_s": 11.053833594,
+    "host_minus_event_sum_s": 0.1849391633054199,
+    "host_median_us": 335.7835,
+    "gpu_median_us": 330.8160095214844,
+    "top_host_replays": [
+      {
+        "block": 1,
+        "replay": 1549,
+        "conditioning": false,
+        "gpu_us": 329.9840087890625,
+        "host_us": 1781.225
+      },
+      {
+        "block": 1,
+        "replay": 1323,
+        "conditioning": false,
+        "gpu_us": 334.2080078125,
+        "host_us": 1314.966
+      },
+      {
+        "block": 8,
+        "replay": 72,
+        "conditioning": false,
+        "gpu_us": 334.33599853515625,
+        "host_us": 654.663
+      },
+      {
+        "block": 8,
+        "replay": 971,
+        "conditioning": false,
+        "gpu_us": 331.5199890136719,
+        "host_us": 627.525
+      },
+      {
+        "block": 1,
+        "replay": 1332,
+        "conditioning": false,
+        "gpu_us": 335.00799560546875,
+        "host_us": 429.503
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "policy": "WRONG",
+    "gpu_sum_s": 10.878407141387939,
+    "host_sum_s": 11.058721463,
+    "host_minus_event_sum_s": 0.18031432161206057,
+    "host_median_us": 335.861,
+    "gpu_median_us": 330.9119873046875,
+    "top_host_replays": [
+      {
+        "block": 5,
+        "replay": 51,
+        "conditioning": false,
+        "gpu_us": 389.1200256347656,
+        "host_us": 395.533
+      },
+      {
+        "block": 15,
+        "replay": 1083,
+        "conditioning": false,
+        "gpu_us": 339.45599365234375,
+        "host_us": 386.161
+      },
+      {
+        "block": 11,
+        "replay": 578,
+        "conditioning": false,
+        "gpu_us": 344.5119934082031,
+        "host_us": 384.601
+      },
+      {
+        "block": 9,
+        "replay": 857,
+        "conditioning": false,
+        "gpu_us": 377.1839904785156,
+        "host_us": 383.269
+      },
+      {
+        "block": 9,
+        "replay": 575,
+        "conditioning": false,
+        "gpu_us": 331.10400390625,
+        "host_us": 379.595
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "policy": "POOL",
+    "gpu_sum_s": 10.867602239379883,
+    "host_sum_s": 11.059285273,
+    "host_minus_event_sum_s": 0.19168303362011718,
+    "host_median_us": 335.767,
+    "gpu_median_us": 330.78399658203125,
+    "top_host_replays": [
+      {
+        "block": 5,
+        "replay": 609,
+        "conditioning": false,
+        "gpu_us": 331.61602783203125,
+        "host_us": 4153.669
+      },
+      {
+        "block": 4,
+        "replay": 2049,
+        "conditioning": false,
+        "gpu_us": 327.9679870605469,
+        "host_us": 2285.72
+      },
+      {
+        "block": 5,
+        "replay": 621,
+        "conditioning": false,
+        "gpu_us": 331.7760009765625,
+        "host_us": 1270.195
+      },
+      {
+        "block": 5,
+        "replay": 264,
+        "conditioning": false,
+        "gpu_us": 333.66400146484375,
+        "host_us": 1184.242
+      },
+      {
+        "block": 5,
+        "replay": 644,
+        "conditioning": false,
+        "gpu_us": 331.0400085449219,
+        "host_us": 829.488
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "policy": "SHADOW",
+    "gpu_sum_s": 10.889512911071778,
+    "host_sum_s": 11.070356987,
+    "host_minus_event_sum_s": 0.1808440759282227,
+    "host_median_us": 336.464,
+    "gpu_median_us": 331.5199890136719,
+    "top_host_replays": [
+      {
+        "block": 9,
+        "replay": 893,
+        "conditioning": false,
+        "gpu_us": 330.7519836425781,
+        "host_us": 430.457
+      },
+      {
+        "block": 14,
+        "replay": 905,
+        "conditioning": false,
+        "gpu_us": 335.135986328125,
+        "host_us": 401.424
+      },
+      {
+        "block": 6,
+        "replay": 1546,
+        "conditioning": false,
+        "gpu_us": 330.5920104980469,
+        "host_us": 391.706
+      },
+      {
+        "block": 11,
+        "replay": 169,
+        "conditioning": false,
+        "gpu_us": 334.0480041503906,
+        "host_us": 389.357
+      },
+      {
+        "block": 13,
+        "replay": 86,
+        "conditioning": false,
+        "gpu_us": 334.2080078125,
+        "host_us": 385.787
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "policy": "BLIND",
+    "gpu_sum_s": 10.875464286590576,
+    "host_sum_s": 11.056021569,
+    "host_minus_event_sum_s": 0.18055728240942384,
+    "host_median_us": 335.759,
+    "gpu_median_us": 330.7519836425781,
+    "top_host_replays": [
+      {
+        "block": 10,
+        "replay": 455,
+        "conditioning": false,
+        "gpu_us": 333.8240051269531,
+        "host_us": 559.779
+      },
+      {
+        "block": 10,
+        "replay": 397,
+        "conditioning": false,
+        "gpu_us": 330.55999755859375,
+        "host_us": 532.075
+      },
+      {
+        "block": 8,
+        "replay": 1247,
+        "conditioning": false,
+        "gpu_us": 440.57598876953125,
+        "host_us": 460.547
+      },
+      {
+        "block": 10,
+        "replay": 0,
+        "conditioning": true,
+        "gpu_us": 338.2720031738281,
+        "host_us": 435.881
+      },
+      {
+        "block": 1,
+        "replay": 1681,
+        "conditioning": false,
+        "gpu_us": 333.8240051269531,
+        "host_us": 413.653
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "policy": "IDENTITY",
+    "gpu_sum_s": 7.281377516723633,
+    "host_sum_s": 7.458097765,
+    "host_minus_event_sum_s": 0.1767202482763672,
+    "host_median_us": 227.3485,
+    "gpu_median_us": 221.343994140625,
+    "top_host_replays": [
+      {
+        "block": 4,
+        "replay": 1236,
+        "conditioning": false,
+        "gpu_us": 222.91200256347656,
+        "host_us": 284.656
+      },
+      {
+        "block": 8,
+        "replay": 259,
+        "conditioning": false,
+        "gpu_us": 223.80799865722656,
+        "host_us": 275.812
+      },
+      {
+        "block": 15,
+        "replay": 1183,
+        "conditioning": false,
+        "gpu_us": 224.7360076904297,
+        "host_us": 271.342
+      },
+      {
+        "block": 12,
+        "replay": 1608,
+        "conditioning": false,
+        "gpu_us": 227.71200561523438,
+        "host_us": 270.917
+      },
+      {
+        "block": 4,
+        "replay": 35,
+        "conditioning": false,
+        "gpu_us": 218.84800720214844,
+        "host_us": 269.716
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "policy": "PAIR_ONLY",
+    "gpu_sum_s": 7.302688834609985,
+    "host_sum_s": 7.477376305,
+    "host_minus_event_sum_s": 0.17468747039001464,
+    "host_median_us": 228.058,
+    "gpu_median_us": 222.62400817871094,
+    "top_host_replays": [
+      {
+        "block": 13,
+        "replay": 230,
+        "conditioning": false,
+        "gpu_us": 221.59999084472656,
+        "host_us": 290.382
+      },
+      {
+        "block": 2,
+        "replay": 1071,
+        "conditioning": false,
+        "gpu_us": 223.7760009765625,
+        "host_us": 277.009
+      },
+      {
+        "block": 11,
+        "replay": 1912,
+        "conditioning": false,
+        "gpu_us": 223.36000061035156,
+        "host_us": 275.319
+      },
+      {
+        "block": 15,
+        "replay": 882,
+        "conditioning": false,
+        "gpu_us": 230.8800048828125,
+        "host_us": 268.213
+      },
+      {
+        "block": 7,
+        "replay": 1964,
+        "conditioning": false,
+        "gpu_us": 250.5599822998047,
+        "host_us": 265.959
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "policy": "PLACE_ONLY",
+    "gpu_sum_s": 7.256114926361084,
+    "host_sum_s": 7.431910584000001,
+    "host_minus_event_sum_s": 0.175795657638916,
+    "host_median_us": 226.287,
+    "gpu_median_us": 220.99200439453125,
+    "top_host_replays": [
+      {
+        "block": 14,
+        "replay": 1029,
+        "conditioning": false,
+        "gpu_us": 221.6959991455078,
+        "host_us": 316.366
+      },
+      {
+        "block": 13,
+        "replay": 794,
+        "conditioning": false,
+        "gpu_us": 217.6959991455078,
+        "host_us": 278.704
+      },
+      {
+        "block": 15,
+        "replay": 1017,
+        "conditioning": false,
+        "gpu_us": 223.23199462890625,
+        "host_us": 273.809
+      },
+      {
+        "block": 1,
+        "replay": 243,
+        "conditioning": false,
+        "gpu_us": 267.3919982910156,
+        "host_us": 271.869
+      },
+      {
+        "block": 8,
+        "replay": 80,
+        "conditioning": false,
+        "gpu_us": 260.2240295410156,
+        "host_us": 266.182
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "policy": "JOINT",
+    "gpu_sum_s": 7.302172260864258,
+    "host_sum_s": 7.478697684,
+    "host_minus_event_sum_s": 0.17652542313574218,
+    "host_median_us": 228.036,
+    "gpu_median_us": 222.55999755859375,
+    "top_host_replays": [
+      {
+        "block": 8,
+        "replay": 1088,
+        "conditioning": false,
+        "gpu_us": 232.63999938964844,
+        "host_us": 284.486
+      },
+      {
+        "block": 0,
+        "replay": 1991,
+        "conditioning": false,
+        "gpu_us": 222.01600646972656,
+        "host_us": 274.262
+      },
+      {
+        "block": 9,
+        "replay": 287,
+        "conditioning": false,
+        "gpu_us": 223.61599731445312,
+        "host_us": 269.993
+      },
+      {
+        "block": 15,
+        "replay": 63,
+        "conditioning": false,
+        "gpu_us": 222.91200256347656,
+        "host_us": 266.871
+      },
+      {
+        "block": 15,
+        "replay": 1597,
+        "conditioning": false,
+        "gpu_us": 223.80799865722656,
+        "host_us": 266.386
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "policy": "JOINT_AA",
+    "gpu_sum_s": 7.301296927719116,
+    "host_sum_s": 7.475451678,
+    "host_minus_event_sum_s": 0.17415475028088379,
+    "host_median_us": 227.97,
+    "gpu_median_us": 222.55999755859375,
+    "top_host_replays": [
+      {
+        "block": 0,
+        "replay": 98,
+        "conditioning": false,
+        "gpu_us": 223.1999969482422,
+        "host_us": 281.691
+      },
+      {
+        "block": 5,
+        "replay": 1741,
+        "conditioning": false,
+        "gpu_us": 221.05599975585938,
+        "host_us": 276.416
+      },
+      {
+        "block": 15,
+        "replay": 672,
+        "conditioning": false,
+        "gpu_us": 233.5360107421875,
+        "host_us": 274.793
+      },
+      {
+        "block": 8,
+        "replay": 652,
+        "conditioning": false,
+        "gpu_us": 222.62400817871094,
+        "host_us": 273.554
+      },
+      {
+        "block": 15,
+        "replay": 592,
+        "conditioning": false,
+        "gpu_us": 267.6159973144531,
+        "host_us": 272.974
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "policy": "WRONG",
+    "gpu_sum_s": 7.299235267303467,
+    "host_sum_s": 7.473639644,
+    "host_minus_event_sum_s": 0.17440437669653316,
+    "host_median_us": 227.93349999999998,
+    "gpu_median_us": 222.5279998779297,
+    "top_host_replays": [
+      {
+        "block": 13,
+        "replay": 132,
+        "conditioning": false,
+        "gpu_us": 223.23199462890625,
+        "host_us": 314.319
+      },
+      {
+        "block": 15,
+        "replay": 1343,
+        "conditioning": false,
+        "gpu_us": 225.44000244140625,
+        "host_us": 277.422
+      },
+      {
+        "block": 8,
+        "replay": 1758,
+        "conditioning": false,
+        "gpu_us": 221.31199645996094,
+        "host_us": 277.045
+      },
+      {
+        "block": 13,
+        "replay": 1313,
+        "conditioning": false,
+        "gpu_us": 221.72799682617188,
+        "host_us": 273.798
+      },
+      {
+        "block": 13,
+        "replay": 127,
+        "conditioning": false,
+        "gpu_us": 223.36000061035156,
+        "host_us": 273.666
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "policy": "POOL",
+    "gpu_sum_s": 7.2873710861969,
+    "host_sum_s": 7.461288137,
+    "host_minus_event_sum_s": 0.17391705080310058,
+    "host_median_us": 227.256,
+    "gpu_median_us": 221.8560028076172,
+    "top_host_replays": [
+      {
+        "block": 14,
+        "replay": 438,
+        "conditioning": false,
+        "gpu_us": 286.7519836425781,
+        "host_us": 292.316
+      },
+      {
+        "block": 11,
+        "replay": 178,
+        "conditioning": false,
+        "gpu_us": 221.37600708007812,
+        "host_us": 287.551
+      },
+      {
+        "block": 8,
+        "replay": 1929,
+        "conditioning": false,
+        "gpu_us": 220.89601135253906,
+        "host_us": 281.381
+      },
+      {
+        "block": 15,
+        "replay": 1474,
+        "conditioning": false,
+        "gpu_us": 223.23199462890625,
+        "host_us": 263.877
+      },
+      {
+        "block": 15,
+        "replay": 353,
+        "conditioning": false,
+        "gpu_us": 223.23199462890625,
+        "host_us": 262.606
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "policy": "SHADOW",
+    "gpu_sum_s": 7.259447343505859,
+    "host_sum_s": 7.434698790000001,
+    "host_minus_event_sum_s": 0.17525144649414062,
+    "host_median_us": 226.7095,
+    "gpu_median_us": 221.1199951171875,
+    "top_host_replays": [
+      {
+        "block": 14,
+        "replay": 1554,
+        "conditioning": false,
+        "gpu_us": 219.96800231933594,
+        "host_us": 297.692
+      },
+      {
+        "block": 13,
+        "replay": 1221,
+        "conditioning": false,
+        "gpu_us": 222.94400024414062,
+        "host_us": 293.38
+      },
+      {
+        "block": 14,
+        "replay": 1543,
+        "conditioning": false,
+        "gpu_us": 220.63999938964844,
+        "host_us": 275.402
+      },
+      {
+        "block": 14,
+        "replay": 2034,
+        "conditioning": false,
+        "gpu_us": 224.16000366210938,
+        "host_us": 272.675
+      },
+      {
+        "block": 3,
+        "replay": 72,
+        "conditioning": false,
+        "gpu_us": 222.4320068359375,
+        "host_us": 264.711
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "policy": "BLIND",
+    "gpu_sum_s": 7.234564849884033,
+    "host_sum_s": 7.4092078059999995,
+    "host_minus_event_sum_s": 0.17464295611596678,
+    "host_median_us": 225.7975,
+    "gpu_median_us": 220.5439910888672,
+    "top_host_replays": [
+      {
+        "block": 8,
+        "replay": 354,
+        "conditioning": false,
+        "gpu_us": 218.94400024414062,
+        "host_us": 270.732
+      },
+      {
+        "block": 15,
+        "replay": 1038,
+        "conditioning": false,
+        "gpu_us": 219.36000061035156,
+        "host_us": 264.754
+      },
+      {
+        "block": 13,
+        "replay": 1611,
+        "conditioning": false,
+        "gpu_us": 223.552001953125,
+        "host_us": 263.737
+      },
+      {
+        "block": 13,
+        "replay": 693,
+        "conditioning": false,
+        "gpu_us": 219.93600463867188,
+        "host_us": 262.336
+      },
+      {
+        "block": 13,
+        "replay": 709,
+        "conditioning": false,
+        "gpu_us": 219.13600158691406,
+        "host_us": 259.746
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "policy": "IDENTITY",
+    "gpu_sum_s": 10.874698008117676,
+    "host_sum_s": 11.051333196,
+    "host_minus_event_sum_s": 0.1766351878823242,
+    "host_median_us": 336.178,
+    "gpu_median_us": 331.2320251464844,
+    "top_host_replays": [
+      {
+        "block": 1,
+        "replay": 1748,
+        "conditioning": false,
+        "gpu_us": 395.0400085449219,
+        "host_us": 400.8
+      },
+      {
+        "block": 2,
+        "replay": 1865,
+        "conditioning": false,
+        "gpu_us": 381.9200134277344,
+        "host_us": 386.634
+      },
+      {
+        "block": 12,
+        "replay": 230,
+        "conditioning": false,
+        "gpu_us": 330.1759948730469,
+        "host_us": 375.9
+      },
+      {
+        "block": 15,
+        "replay": 1779,
+        "conditioning": false,
+        "gpu_us": 330.7200012207031,
+        "host_us": 372.292
+      },
+      {
+        "block": 1,
+        "replay": 1263,
+        "conditioning": false,
+        "gpu_us": 333.8240051269531,
+        "host_us": 371.588
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "policy": "PAIR_ONLY",
+    "gpu_sum_s": 10.892028205322266,
+    "host_sum_s": 11.068228735,
+    "host_minus_event_sum_s": 0.17620052967773436,
+    "host_median_us": 336.744,
+    "gpu_median_us": 331.7120056152344,
+    "top_host_replays": [
+      {
+        "block": 1,
+        "replay": 1399,
+        "conditioning": false,
+        "gpu_us": 398.2079772949219,
+        "host_us": 403.125
+      },
+      {
+        "block": 12,
+        "replay": 1955,
+        "conditioning": false,
+        "gpu_us": 331.67999267578125,
+        "host_us": 394.638
+      },
+      {
+        "block": 7,
+        "replay": 359,
+        "conditioning": false,
+        "gpu_us": 378.30401611328125,
+        "host_us": 383.316
+      },
+      {
+        "block": 9,
+        "replay": 987,
+        "conditioning": false,
+        "gpu_us": 330.2720031738281,
+        "host_us": 376.6
+      },
+      {
+        "block": 15,
+        "replay": 11,
+        "conditioning": false,
+        "gpu_us": 348.2879943847656,
+        "host_us": 367.262
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "policy": "PLACE_ONLY",
+    "gpu_sum_s": 10.852578853027344,
+    "host_sum_s": 11.030933644,
+    "host_minus_event_sum_s": 0.17835479097265625,
+    "host_median_us": 335.563,
+    "gpu_median_us": 330.3680114746094,
+    "top_host_replays": [
+      {
+        "block": 0,
+        "replay": 413,
+        "conditioning": false,
+        "gpu_us": 329.7599792480469,
+        "host_us": 398.399
+      },
+      {
+        "block": 0,
+        "replay": 1006,
+        "conditioning": false,
+        "gpu_us": 329.7279968261719,
+        "host_us": 396.474
+      },
+      {
+        "block": 12,
+        "replay": 200,
+        "conditioning": false,
+        "gpu_us": 331.0400085449219,
+        "host_us": 378.435
+      },
+      {
+        "block": 10,
+        "replay": 726,
+        "conditioning": false,
+        "gpu_us": 333.1199951171875,
+        "host_us": 362.942
+      },
+      {
+        "block": 10,
+        "replay": 458,
+        "conditioning": false,
+        "gpu_us": 356.7040100097656,
+        "host_us": 362.672
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "policy": "JOINT",
+    "gpu_sum_s": 10.901270856506347,
+    "host_sum_s": 11.078705376,
+    "host_minus_event_sum_s": 0.17743451949365233,
+    "host_median_us": 337.03,
+    "gpu_median_us": 331.7760009765625,
+    "top_host_replays": [
+      {
+        "block": 12,
+        "replay": 1622,
+        "conditioning": false,
+        "gpu_us": 331.7439880371094,
+        "host_us": 747.701
+      },
+      {
+        "block": 1,
+        "replay": 2022,
+        "conditioning": false,
+        "gpu_us": 335.4880065917969,
+        "host_us": 404.919
+      },
+      {
+        "block": 12,
+        "replay": 1146,
+        "conditioning": false,
+        "gpu_us": 336.2239990234375,
+        "host_us": 402.768
+      },
+      {
+        "block": 13,
+        "replay": 1436,
+        "conditioning": false,
+        "gpu_us": 338.0799865722656,
+        "host_us": 391.893
+      },
+      {
+        "block": 5,
+        "replay": 900,
+        "conditioning": false,
+        "gpu_us": 331.7760009765625,
+        "host_us": 385.779
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "policy": "JOINT_AA",
+    "gpu_sum_s": 10.894274051849365,
+    "host_sum_s": 11.072436344,
+    "host_minus_event_sum_s": 0.17816229215063475,
+    "host_median_us": 337.009,
+    "gpu_median_us": 331.7760009765625,
+    "top_host_replays": [
+      {
+        "block": 14,
+        "replay": 377,
+        "conditioning": false,
+        "gpu_us": 331.8399963378906,
+        "host_us": 404.332
+      },
+      {
+        "block": 3,
+        "replay": 890,
+        "conditioning": false,
+        "gpu_us": 328.6719970703125,
+        "host_us": 398.317
+      },
+      {
+        "block": 1,
+        "replay": 1116,
+        "conditioning": false,
+        "gpu_us": 341.5359802246094,
+        "host_us": 395.832
+      },
+      {
+        "block": 11,
+        "replay": 621,
+        "conditioning": false,
+        "gpu_us": 331.7439880371094,
+        "host_us": 385.759
+      },
+      {
+        "block": 14,
+        "replay": 311,
+        "conditioning": false,
+        "gpu_us": 331.7760009765625,
+        "host_us": 368.929
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "policy": "WRONG",
+    "gpu_sum_s": 10.901634342041016,
+    "host_sum_s": 11.080117299,
+    "host_minus_event_sum_s": 0.17848295695898436,
+    "host_median_us": 337.025,
+    "gpu_median_us": 331.7760009765625,
+    "top_host_replays": [
+      {
+        "block": 8,
+        "replay": 796,
+        "conditioning": false,
+        "gpu_us": 338.9759826660156,
+        "host_us": 410.099
+      },
+      {
+        "block": 6,
+        "replay": 1989,
+        "conditioning": false,
+        "gpu_us": 331.7760009765625,
+        "host_us": 406.351
+      },
+      {
+        "block": 1,
+        "replay": 1083,
+        "conditioning": false,
+        "gpu_us": 345.6000061035156,
+        "host_us": 398.501
+      },
+      {
+        "block": 3,
+        "replay": 2042,
+        "conditioning": false,
+        "gpu_us": 335.87200927734375,
+        "host_us": 392.385
+      },
+      {
+        "block": 0,
+        "replay": 457,
+        "conditioning": false,
+        "gpu_us": 331.10400390625,
+        "host_us": 382.623
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "policy": "POOL",
+    "gpu_sum_s": 10.895001799072265,
+    "host_sum_s": 11.071707879,
+    "host_minus_event_sum_s": 0.17670607992773438,
+    "host_median_us": 336.981,
+    "gpu_median_us": 331.7760009765625,
+    "top_host_replays": [
+      {
+        "block": 15,
+        "replay": 274,
+        "conditioning": false,
+        "gpu_us": 335.3919982910156,
+        "host_us": 400.671
+      },
+      {
+        "block": 1,
+        "replay": 822,
+        "conditioning": false,
+        "gpu_us": 331.2959899902344,
+        "host_us": 382.771
+      },
+      {
+        "block": 4,
+        "replay": 134,
+        "conditioning": false,
+        "gpu_us": 329.91998291015625,
+        "host_us": 372.635
+      },
+      {
+        "block": 1,
+        "replay": 529,
+        "conditioning": false,
+        "gpu_us": 334.6880187988281,
+        "host_us": 371.294
+      },
+      {
+        "block": 13,
+        "replay": 1535,
+        "conditioning": false,
+        "gpu_us": 331.4880065917969,
+        "host_us": 370.97
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "policy": "SHADOW",
+    "gpu_sum_s": 10.916372827087402,
+    "host_sum_s": 11.094088373,
+    "host_minus_event_sum_s": 0.17771554591259767,
+    "host_median_us": 337.473,
+    "gpu_median_us": 332.2239990234375,
+    "top_host_replays": [
+      {
+        "block": 11,
+        "replay": 68,
+        "conditioning": false,
+        "gpu_us": 335.87200927734375,
+        "host_us": 385.554
+      },
+      {
+        "block": 8,
+        "replay": 556,
+        "conditioning": false,
+        "gpu_us": 332.79998779296875,
+        "host_us": 380.777
+      },
+      {
+        "block": 2,
+        "replay": 1628,
+        "conditioning": false,
+        "gpu_us": 331.20001220703125,
+        "host_us": 374.201
+      },
+      {
+        "block": 11,
+        "replay": 956,
+        "conditioning": false,
+        "gpu_us": 346.1759948730469,
+        "host_us": 368.328
+      },
+      {
+        "block": 1,
+        "replay": 0,
+        "conditioning": true,
+        "gpu_us": 343.7120056152344,
+        "host_us": 365.978
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "policy": "BLIND",
+    "gpu_sum_s": 10.859696381652832,
+    "host_sum_s": 11.037386281,
+    "host_minus_event_sum_s": 0.17768989934716795,
+    "host_median_us": 335.502,
+    "gpu_median_us": 330.2720031738281,
+    "top_host_replays": [
+      {
+        "block": 1,
+        "replay": 384,
+        "conditioning": false,
+        "gpu_us": 330.1759948730469,
+        "host_us": 368.538
+      },
+      {
+        "block": 5,
+        "replay": 1428,
+        "conditioning": false,
+        "gpu_us": 354.0159912109375,
+        "host_us": 364.329
+      },
+      {
+        "block": 9,
+        "replay": 1768,
+        "conditioning": false,
+        "gpu_us": 337.7920227050781,
+        "host_us": 362.842
+      },
+      {
+        "block": 0,
+        "replay": 908,
+        "conditioning": false,
+        "gpu_us": 343.4880065917969,
+        "host_us": 361.4
+      },
+      {
+        "block": 5,
+        "replay": 1343,
+        "conditioning": false,
+        "gpu_us": 332.0,
+        "host_us": 360.794
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "policy": "IDENTITY",
+    "gpu_sum_s": 7.053101271408081,
+    "host_sum_s": 7.232888062000001,
+    "host_minus_event_sum_s": 0.17978679059191893,
+    "host_median_us": 220.455,
+    "gpu_median_us": 214.8800048828125,
+    "top_host_replays": [
+      {
+        "block": 15,
+        "replay": 160,
+        "conditioning": false,
+        "gpu_us": 218.59201049804688,
+        "host_us": 324.758
+      },
+      {
+        "block": 4,
+        "replay": 548,
+        "conditioning": false,
+        "gpu_us": 227.71200561523438,
+        "host_us": 297.585
+      },
+      {
+        "block": 3,
+        "replay": 1005,
+        "conditioning": false,
+        "gpu_us": 217.66400146484375,
+        "host_us": 295.22
+      },
+      {
+        "block": 7,
+        "replay": 1519,
+        "conditioning": false,
+        "gpu_us": 215.80799865722656,
+        "host_us": 282.923
+      },
+      {
+        "block": 15,
+        "replay": 1956,
+        "conditioning": false,
+        "gpu_us": 215.74400329589844,
+        "host_us": 281.493
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "policy": "PAIR_ONLY",
+    "gpu_sum_s": 7.0520470294189455,
+    "host_sum_s": 7.231298886,
+    "host_minus_event_sum_s": 0.1792518565810547,
+    "host_median_us": 220.461,
+    "gpu_median_us": 214.8800048828125,
+    "top_host_replays": [
+      {
+        "block": 14,
+        "replay": 1298,
+        "conditioning": false,
+        "gpu_us": 221.1840057373047,
+        "host_us": 291.907
+      },
+      {
+        "block": 6,
+        "replay": 0,
+        "conditioning": true,
+        "gpu_us": 274.7200012207031,
+        "host_us": 288.684
+      },
+      {
+        "block": 1,
+        "replay": 102,
+        "conditioning": false,
+        "gpu_us": 215.13600158691406,
+        "host_us": 278.595
+      },
+      {
+        "block": 11,
+        "replay": 44,
+        "conditioning": false,
+        "gpu_us": 216.7360076904297,
+        "host_us": 277.992
+      },
+      {
+        "block": 0,
+        "replay": 119,
+        "conditioning": false,
+        "gpu_us": 216.54400634765625,
+        "host_us": 273.09
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "policy": "PLACE_ONLY",
+    "gpu_sum_s": 7.053392565979004,
+    "host_sum_s": 7.232551318,
+    "host_minus_event_sum_s": 0.17915875202099607,
+    "host_median_us": 220.44,
+    "gpu_median_us": 214.84799194335938,
+    "top_host_replays": [
+      {
+        "block": 9,
+        "replay": 2020,
+        "conditioning": false,
+        "gpu_us": 224.3520050048828,
+        "host_us": 285.923
+      },
+      {
+        "block": 0,
+        "replay": 129,
+        "conditioning": false,
+        "gpu_us": 215.87200927734375,
+        "host_us": 285.549
+      },
+      {
+        "block": 7,
+        "replay": 982,
+        "conditioning": false,
+        "gpu_us": 215.0399932861328,
+        "host_us": 284.84
+      },
+      {
+        "block": 9,
+        "replay": 581,
+        "conditioning": false,
+        "gpu_us": 225.66400146484375,
+        "host_us": 280.806
+      },
+      {
+        "block": 9,
+        "replay": 580,
+        "conditioning": false,
+        "gpu_us": 217.37599182128906,
+        "host_us": 279.753
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "policy": "JOINT",
+    "gpu_sum_s": 6.999575554000854,
+    "host_sum_s": 7.179040306,
+    "host_minus_event_sum_s": 0.1794647519991455,
+    "host_median_us": 218.6975,
+    "gpu_median_us": 213.31199645996094,
+    "top_host_replays": [
+      {
+        "block": 12,
+        "replay": 1037,
+        "conditioning": false,
+        "gpu_us": 274.6239929199219,
+        "host_us": 308.942
+      },
+      {
+        "block": 0,
+        "replay": 968,
+        "conditioning": false,
+        "gpu_us": 272.3840026855469,
+        "host_us": 306.714
+      },
+      {
+        "block": 6,
+        "replay": 1890,
+        "conditioning": false,
+        "gpu_us": 219.13600158691406,
+        "host_us": 300.713
+      },
+      {
+        "block": 9,
+        "replay": 306,
+        "conditioning": false,
+        "gpu_us": 261.5360107421875,
+        "host_us": 269.045
+      },
+      {
+        "block": 15,
+        "replay": 1313,
+        "conditioning": false,
+        "gpu_us": 213.53599548339844,
+        "host_us": 263.197
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "policy": "JOINT_AA",
+    "gpu_sum_s": 7.002511681228638,
+    "host_sum_s": 7.182692992,
+    "host_minus_event_sum_s": 0.1801813107713623,
+    "host_median_us": 218.73450000000003,
+    "gpu_median_us": 213.343994140625,
+    "top_host_replays": [
+      {
+        "block": 4,
+        "replay": 1727,
+        "conditioning": false,
+        "gpu_us": 212.60800170898438,
+        "host_us": 286.267
+      },
+      {
+        "block": 7,
+        "replay": 1847,
+        "conditioning": false,
+        "gpu_us": 214.68800354003906,
+        "host_us": 285.891
+      },
+      {
+        "block": 12,
+        "replay": 606,
+        "conditioning": false,
+        "gpu_us": 271.968017578125,
+        "host_us": 278.305
+      },
+      {
+        "block": 9,
+        "replay": 1266,
+        "conditioning": false,
+        "gpu_us": 213.4720001220703,
+        "host_us": 278.057
+      },
+      {
+        "block": 4,
+        "replay": 1787,
+        "conditioning": false,
+        "gpu_us": 213.0240020751953,
+        "host_us": 276.653
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "policy": "WRONG",
+    "gpu_sum_s": 7.003626183120727,
+    "host_sum_s": 7.182923143999999,
+    "host_minus_event_sum_s": 0.17929696087927247,
+    "host_median_us": 218.826,
+    "gpu_median_us": 213.31199645996094,
+    "top_host_replays": [
+      {
+        "block": 3,
+        "replay": 691,
+        "conditioning": false,
+        "gpu_us": 215.0399932861328,
+        "host_us": 287.979
+      },
+      {
+        "block": 2,
+        "replay": 0,
+        "conditioning": true,
+        "gpu_us": 228.5439910888672,
+        "host_us": 278.37
+      },
+      {
+        "block": 4,
+        "replay": 1743,
+        "conditioning": false,
+        "gpu_us": 212.76800537109375,
+        "host_us": 275.95
+      },
+      {
+        "block": 11,
+        "replay": 706,
+        "conditioning": false,
+        "gpu_us": 212.5120086669922,
+        "host_us": 275.147
+      },
+      {
+        "block": 5,
+        "replay": 805,
+        "conditioning": false,
+        "gpu_us": 214.91200256347656,
+        "host_us": 268.035
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "policy": "POOL",
+    "gpu_sum_s": 7.003315809661865,
+    "host_sum_s": 7.1818984729999995,
+    "host_minus_event_sum_s": 0.17858266333813477,
+    "host_median_us": 218.79,
+    "gpu_median_us": 213.40798950195312,
+    "top_host_replays": [
+      {
+        "block": 0,
+        "replay": 334,
+        "conditioning": false,
+        "gpu_us": 214.5279998779297,
+        "host_us": 277.284
+      },
+      {
+        "block": 15,
+        "replay": 432,
+        "conditioning": false,
+        "gpu_us": 216.60800170898438,
+        "host_us": 259.083
+      },
+      {
+        "block": 9,
+        "replay": 1215,
+        "conditioning": false,
+        "gpu_us": 215.0399932861328,
+        "host_us": 257.708
+      },
+      {
+        "block": 0,
+        "replay": 791,
+        "conditioning": false,
+        "gpu_us": 211.93600463867188,
+        "host_us": 257.455
+      },
+      {
+        "block": 6,
+        "replay": 960,
+        "conditioning": false,
+        "gpu_us": 211.3599853515625,
+        "host_us": 257.447
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "policy": "SHADOW",
+    "gpu_sum_s": 7.0471547776641845,
+    "host_sum_s": 7.228266507,
+    "host_minus_event_sum_s": 0.18111172933581543,
+    "host_median_us": 220.225,
+    "gpu_median_us": 214.81600952148438,
+    "top_host_replays": [
+      {
+        "block": 1,
+        "replay": 304,
+        "conditioning": false,
+        "gpu_us": 212.5760040283203,
+        "host_us": 352.022
+      },
+      {
+        "block": 2,
+        "replay": 706,
+        "conditioning": false,
+        "gpu_us": 216.92800903320312,
+        "host_us": 271.715
+      },
+      {
+        "block": 9,
+        "replay": 71,
+        "conditioning": false,
+        "gpu_us": 219.39199829101562,
+        "host_us": 270.271
+      },
+      {
+        "block": 11,
+        "replay": 1624,
+        "conditioning": false,
+        "gpu_us": 215.16799926757812,
+        "host_us": 269.09
+      },
+      {
+        "block": 4,
+        "replay": 1819,
+        "conditioning": false,
+        "gpu_us": 214.4320068359375,
+        "host_us": 267.776
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "policy": "BLIND",
+    "gpu_sum_s": 6.998502788452148,
+    "host_sum_s": 7.178036684,
+    "host_minus_event_sum_s": 0.17953389554785157,
+    "host_median_us": 218.57,
+    "gpu_median_us": 213.1840057373047,
+    "top_host_replays": [
+      {
+        "block": 3,
+        "replay": 619,
+        "conditioning": false,
+        "gpu_us": 211.61599731445312,
+        "host_us": 305.962
+      },
+      {
+        "block": 7,
+        "replay": 1916,
+        "conditioning": false,
+        "gpu_us": 211.71200561523438,
+        "host_us": 273.901
+      },
+      {
+        "block": 13,
+        "replay": 140,
+        "conditioning": false,
+        "gpu_us": 213.53599548339844,
+        "host_us": 273.131
+      },
+      {
+        "block": 10,
+        "replay": 29,
+        "conditioning": false,
+        "gpu_us": 212.06399536132812,
+        "host_us": 264.911
+      },
+      {
+        "block": 0,
+        "replay": 1080,
+        "conditioning": false,
+        "gpu_us": 214.17599487304688,
+        "host_us": 263.688
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "policy": "IDENTITY",
+    "gpu_sum_s": 10.944203750183105,
+    "host_sum_s": 11.125415453000002,
+    "host_minus_event_sum_s": 0.18121170281689453,
+    "host_median_us": 338.357,
+    "gpu_median_us": 333.4079895019531,
+    "top_host_replays": [
+      {
+        "block": 10,
+        "replay": 436,
+        "conditioning": false,
+        "gpu_us": 332.9280090332031,
+        "host_us": 399.571
+      },
+      {
+        "block": 1,
+        "replay": 754,
+        "conditioning": false,
+        "gpu_us": 333.9839782714844,
+        "host_us": 392.053
+      },
+      {
+        "block": 3,
+        "replay": 712,
+        "conditioning": false,
+        "gpu_us": 332.6080017089844,
+        "host_us": 387.484
+      },
+      {
+        "block": 6,
+        "replay": 684,
+        "conditioning": false,
+        "gpu_us": 334.239990234375,
+        "host_us": 379.587
+      },
+      {
+        "block": 1,
+        "replay": 145,
+        "conditioning": false,
+        "gpu_us": 337.7279968261719,
+        "host_us": 377.797
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "policy": "PAIR_ONLY",
+    "gpu_sum_s": 11.009978916168214,
+    "host_sum_s": 11.197013197999999,
+    "host_minus_event_sum_s": 0.1870342818317871,
+    "host_median_us": 340.631,
+    "gpu_median_us": 335.6159973144531,
+    "top_host_replays": [
+      {
+        "block": 3,
+        "replay": 745,
+        "conditioning": false,
+        "gpu_us": 336.2239990234375,
+        "host_us": 1742.59
+      },
+      {
+        "block": 3,
+        "replay": 785,
+        "conditioning": false,
+        "gpu_us": 336.1600036621094,
+        "host_us": 1009.525
+      },
+      {
+        "block": 3,
+        "replay": 1723,
+        "conditioning": false,
+        "gpu_us": 334.8800048828125,
+        "host_us": 629.856
+      },
+      {
+        "block": 7,
+        "replay": 1921,
+        "conditioning": false,
+        "gpu_us": 487.2640075683594,
+        "host_us": 494.19
+      },
+      {
+        "block": 3,
+        "replay": 788,
+        "conditioning": false,
+        "gpu_us": 340.416015625,
+        "host_us": 485.901
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "policy": "PLACE_ONLY",
+    "gpu_sum_s": 10.928281086364747,
+    "host_sum_s": 11.113254007,
+    "host_minus_event_sum_s": 0.18497292063525392,
+    "host_median_us": 337.867,
+    "gpu_median_us": 332.79998779296875,
+    "top_host_replays": [
+      {
+        "block": 7,
+        "replay": 936,
+        "conditioning": false,
+        "gpu_us": 333.66400146484375,
+        "host_us": 1477.492
+      },
+      {
+        "block": 7,
+        "replay": 980,
+        "conditioning": false,
+        "gpu_us": 332.1920166015625,
+        "host_us": 1233.584
+      },
+      {
+        "block": 7,
+        "replay": 1024,
+        "conditioning": false,
+        "gpu_us": 333.3440246582031,
+        "host_us": 1018.435
+      },
+      {
+        "block": 7,
+        "replay": 941,
+        "conditioning": false,
+        "gpu_us": 333.8240051269531,
+        "host_us": 657.003
+      },
+      {
+        "block": 3,
+        "replay": 396,
+        "conditioning": false,
+        "gpu_us": 332.2879943847656,
+        "host_us": 422.257
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "policy": "JOINT",
+    "gpu_sum_s": 11.0081446696167,
+    "host_sum_s": 11.192498908,
+    "host_minus_event_sum_s": 0.18435423838330078,
+    "host_median_us": 340.601,
+    "gpu_median_us": 335.5840148925781,
+    "top_host_replays": [
+      {
+        "block": 3,
+        "replay": 826,
+        "conditioning": false,
+        "gpu_us": 342.1759948730469,
+        "host_us": 1350.029
+      },
+      {
+        "block": 3,
+        "replay": 820,
+        "conditioning": false,
+        "gpu_us": 338.4320068359375,
+        "host_us": 998.428
+      },
+      {
+        "block": 3,
+        "replay": 99,
+        "conditioning": false,
+        "gpu_us": 337.9840087890625,
+        "host_us": 410.098
+      },
+      {
+        "block": 6,
+        "replay": 854,
+        "conditioning": false,
+        "gpu_us": 335.8080139160156,
+        "host_us": 391.362
+      },
+      {
+        "block": 2,
+        "replay": 712,
+        "conditioning": false,
+        "gpu_us": 335.3919982910156,
+        "host_us": 388.586
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "policy": "JOINT_AA",
+    "gpu_sum_s": 11.015311553466796,
+    "host_sum_s": 11.197196123,
+    "host_minus_event_sum_s": 0.18188456953320312,
+    "host_median_us": 340.607,
+    "gpu_median_us": 335.6159973144531,
+    "top_host_replays": [
+      {
+        "block": 4,
+        "replay": 1120,
+        "conditioning": false,
+        "gpu_us": 334.4960021972656,
+        "host_us": 416.0
+      },
+      {
+        "block": 3,
+        "replay": 77,
+        "conditioning": false,
+        "gpu_us": 341.47198486328125,
+        "host_us": 403.251
+      },
+      {
+        "block": 2,
+        "replay": 986,
+        "conditioning": false,
+        "gpu_us": 335.4880065917969,
+        "host_us": 391.501
+      },
+      {
+        "block": 15,
+        "replay": 129,
+        "conditioning": false,
+        "gpu_us": 337.18402099609375,
+        "host_us": 390.569
+      },
+      {
+        "block": 3,
+        "replay": 1537,
+        "conditioning": false,
+        "gpu_us": 340.1600036621094,
+        "host_us": 389.948
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "policy": "WRONG",
+    "gpu_sum_s": 11.009235166168214,
+    "host_sum_s": 11.193665791,
+    "host_minus_event_sum_s": 0.1844306248317871,
+    "host_median_us": 340.599,
+    "gpu_median_us": 335.5840148925781,
+    "top_host_replays": [
+      {
+        "block": 7,
+        "replay": 226,
+        "conditioning": false,
+        "gpu_us": 336.99200439453125,
+        "host_us": 1141.305
+      },
+      {
+        "block": 7,
+        "replay": 187,
+        "conditioning": false,
+        "gpu_us": 336.76800537109375,
+        "host_us": 455.459
+      },
+      {
+        "block": 7,
+        "replay": 158,
+        "conditioning": false,
+        "gpu_us": 336.54400634765625,
+        "host_us": 449.265
+      },
+      {
+        "block": 7,
+        "replay": 75,
+        "conditioning": false,
+        "gpu_us": 337.9200134277344,
+        "host_us": 433.845
+      },
+      {
+        "block": 7,
+        "replay": 89,
+        "conditioning": false,
+        "gpu_us": 335.135986328125,
+        "host_us": 429.895
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "policy": "POOL",
+    "gpu_sum_s": 11.014145726776123,
+    "host_sum_s": 11.196717609999999,
+    "host_minus_event_sum_s": 0.18257188322387696,
+    "host_median_us": 340.618,
+    "gpu_median_us": 335.6159973144531,
+    "top_host_replays": [
+      {
+        "block": 0,
+        "replay": 1679,
+        "conditioning": false,
+        "gpu_us": 334.5279846191406,
+        "host_us": 438.591
+      },
+      {
+        "block": 6,
+        "replay": 1466,
+        "conditioning": false,
+        "gpu_us": 335.3280029296875,
+        "host_us": 396.326
+      },
+      {
+        "block": 0,
+        "replay": 182,
+        "conditioning": false,
+        "gpu_us": 340.1600036621094,
+        "host_us": 390.56
+      },
+      {
+        "block": 1,
+        "replay": 18,
+        "conditioning": false,
+        "gpu_us": 335.20001220703125,
+        "host_us": 388.604
+      },
+      {
+        "block": 6,
+        "replay": 634,
+        "conditioning": false,
+        "gpu_us": 336.47998046875,
+        "host_us": 387.865
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "policy": "SHADOW",
+    "gpu_sum_s": 11.014445841522218,
+    "host_sum_s": 11.196850638,
+    "host_minus_event_sum_s": 0.1824047964777832,
+    "host_median_us": 340.87,
+    "gpu_median_us": 335.8080139160156,
+    "top_host_replays": [
+      {
+        "block": 7,
+        "replay": 1412,
+        "conditioning": false,
+        "gpu_us": 335.87200927734375,
+        "host_us": 512.659
+      },
+      {
+        "block": 4,
+        "replay": 658,
+        "conditioning": false,
+        "gpu_us": 336.0,
+        "host_us": 419.249
+      },
+      {
+        "block": 7,
+        "replay": 15,
+        "conditioning": false,
+        "gpu_us": 346.11199951171875,
+        "host_us": 415.262
+      },
+      {
+        "block": 8,
+        "replay": 964,
+        "conditioning": false,
+        "gpu_us": 337.9200134277344,
+        "host_us": 412.147
+      },
+      {
+        "block": 6,
+        "replay": 985,
+        "conditioning": false,
+        "gpu_us": 334.719970703125,
+        "host_us": 405.713
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "policy": "BLIND",
+    "gpu_sum_s": 10.91367560446167,
+    "host_sum_s": 11.093609314000002,
+    "host_minus_event_sum_s": 0.1799337095383301,
+    "host_median_us": 337.372,
+    "gpu_median_us": 332.09600830078125,
+    "top_host_replays": [
+      {
+        "block": 15,
+        "replay": 405,
+        "conditioning": false,
+        "gpu_us": 332.0639953613281,
+        "host_us": 420.558
+      },
+      {
+        "block": 3,
+        "replay": 238,
+        "conditioning": false,
+        "gpu_us": 331.8080139160156,
+        "host_us": 397.17
+      },
+      {
+        "block": 5,
+        "replay": 334,
+        "conditioning": false,
+        "gpu_us": 346.0159912109375,
+        "host_us": 384.896
+      },
+      {
+        "block": 7,
+        "replay": 1052,
+        "conditioning": false,
+        "gpu_us": 331.7760009765625,
+        "host_us": 382.537
+      },
+      {
+        "block": 5,
+        "replay": 665,
+        "conditioning": false,
+        "gpu_us": 332.447998046875,
+        "host_us": 379.25
+      }
+    ],
+    "note": "Post-hoc descriptive timing tails. Host-minus-event is not separately measured CPU execution time; no scheduler trace was collected. No samples removed."
+  }
+]

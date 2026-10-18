@@ -1,0 +1,14 @@
+{
+  "start_utc": "2026-10-17T02:15:39.771573+00:00",
+  "start_monotonic": 338326.504976322,
+  "initial_reading_allowance_minutes": 3,
+  "boot_id": "f4d4e26b-d744-42e6-8e60-c1d3e075bc33",
+  "wall_hard_limit_minutes": 540,
+  "gpu_addendum_limit_minutes": 240,
+  "old_root": "selective-reorder-t10",
+  "input_sha256": "ab08555388c51933984cc299abc936821a8f664f0836c11369c1f6d5a3c93484",
+  "budget_started_monotonic": 338146.504976322,
+  "prior_worker_s": 4210.308374200948,
+  "prior_ledger_sha256": "26f1b5fce4f8a5adc80eb9e1eec4598fe71679ede3be1e2085bb9c56decf20a5",
+  "effective_new_gpu_cap_s": 14400
+}

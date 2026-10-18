@@ -1,0 +1,11 @@
+{
+  "source_path": "/usr/local/sbin/t10_quiet_fan.py",
+  "sha256": "8b0453b3015c9ccda50a5828f39b077b25240f55d65ad0bb449c9999caf64225",
+  "read_only_inspection": true,
+  "existing_service": "t10-quiet-fan.service",
+  "lower_power_condition": "GPU temp >= 80C OR fan RPM <500 for >=3 samples",
+  "lower_cap_w": 100,
+  "recovery_condition": "previously derated AND temp <=70C AND fan RPM>=1000",
+  "recovery_cap_w": 125,
+  "this_campaign_modified_service": false
+}

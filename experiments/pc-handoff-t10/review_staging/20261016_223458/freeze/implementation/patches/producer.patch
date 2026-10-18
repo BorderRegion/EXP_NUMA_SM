@@ -1,0 +1,85 @@
+--- /home/ubuntu/文档/ChatGPT/numa_gpu/op-fused/vendor/cutlass/include/cutlass/gemm/kernel/gemm_splitk_parallel.h
++++ adapters/pc_gemm_splitk_parallel.h
+@@ -52,7 +52,7 @@
+   typename Epilogue_,             ///! Epilogue
+   typename ThreadblockSwizzle_    ///! Threadblock swizzling function
+ >
+-struct GemmSplitKParallel {
++struct PcGemmSplitKParallel {
+ 
+   using Mma = Mma_;
+   using Epilogue = Epilogue_;
+@@ -127,17 +127,29 @@
+   //
+ 
+   CUTLASS_HOST_DEVICE
+-  GemmSplitKParallel() { } 
++  PcGemmSplitKParallel() { } 
+ 
+   /// Executes one GEMM
+   CUTLASS_DEVICE
+-  void operator()(Params const &params, SharedStorage &shared_storage) {
++  void operator()(Params const &params, SharedStorage &shared_storage, int owner, int owners, int slab, int reverse_tasks, unsigned *trace, unsigned generation) {
+ 
+     // Compute threadblock location
+     ThreadblockSwizzle threadblock_swizzle;
+ 
+-    cutlass::gemm::GemmCoord threadblock_tile_offset =
+-        threadblock_swizzle.get_tile_offset(params.swizzle_log_tile);
++    int total_tiles = params.grid_tiled_shape.m() * params.grid_tiled_shape.n();
++    int cut = (total_tiles + 1) / 2;
++    int base = owners == 2 && owner == 1 ? cut : 0;
++    int count = owners == 2 ? (owner == 0 ? cut : total_tiles - cut) : total_tiles;
++    int local = reverse_tasks ? count - 1 - int(blockIdx.x) : int(blockIdx.x);
++    int tile = base + local;
++    cutlass::gemm::GemmCoord threadblock_tile_offset(tile / params.grid_tiled_shape.n(), tile % params.grid_tiled_shape.n(), blockIdx.z);
++#if PC_DIAG
++    if (threadIdx.x == 0) {
++      unsigned sm; asm volatile("mov.u32 %0, %smid;" : "=r"(sm));
++      unsigned *r = trace + (tile * params.grid_tiled_shape.k() + blockIdx.z) * 5;
++      r[0]=sm; r[1]=tile; r[2]=blockIdx.z; r[3]=owner; r[4]=generation;
++    }
++#endif
+ 
+     // Early exit if CTA is out of range
+     if (params.grid_tiled_shape.m() <= threadblock_tile_offset.m() ||
+@@ -214,8 +226,7 @@
+     // Masked tile iterators constructed from members
+     //
+ 
+-    threadblock_tile_offset =
+-        threadblock_swizzle.get_tile_offset(params.swizzle_log_tile);
++    // Preserve the logical tile selected before the unchanged MMA body.
+ 
+     //assume identity swizzle
+     MatrixCoord threadblock_offset(
+@@ -223,16 +234,19 @@
+       threadblock_tile_offset.n() * Mma::Shape::kN
+     );
+ 
+-    // Tile iterator writing to output tile
+-    typename Epilogue::OutputTileIterator iterator_D(
+-      params.params_D,
+-      params.ref_D.data(),
+-      params.problem_size.mn(),
+-      thread_idx,
+-      threadblock_offset
+-    );
+-
+-    iterator_D.add_pointer_offset(params.splitk_slice_stride * threadblock_tile_offset.k());
++    // Producer writes the final workspace address directly; no packing pass.
++    auto out_params = params.params_D;
++    auto out_pointer = params.ref_D.data();
++    auto out_extent = params.problem_size.mn();
++    if (slab) {
++      out_params = typename Epilogue::OutputTileIterator::Params(cutlass::layout::RowMajor(Mma::Shape::kN));
++      out_pointer += (int64_t(tile) * params.grid_tiled_shape.k() + threadblock_tile_offset.k()) * Mma::Shape::kM * Mma::Shape::kN;
++      out_extent = MatrixCoord(min(Mma::Shape::kM, params.problem_size.m()-threadblock_offset.row()), min(Mma::Shape::kN, params.problem_size.n()-threadblock_offset.column()));
++      threadblock_offset = MatrixCoord(0,0);
++    } else {
++      out_pointer += params.splitk_slice_stride * threadblock_tile_offset.k();
++    }
++    typename Epilogue::OutputTileIterator iterator_D(out_params, out_pointer, out_extent, thread_idx, threadblock_offset);
+ 
+     // Execute the epilogue
+     Epilogue epilogue(

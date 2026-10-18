@@ -1,0 +1,10 @@
+{
+  "started_at": "2026-10-15T12:08:09.831671+00:00",
+  "archive_sha256": "b7cb1915d3c3de55b9d41b173b4cae488c70168255b73f2eb39a1e5fcc0aa01d",
+  "old_registry_sha256": "97b0fe68d697a2ad3e317cea3b838e355891f6370b916668dd2eff4655c1587a",
+  "old_worker_seconds": 11809.881600599969,
+  "old_worker_records": 62,
+  "remaining_total_seconds": 45790.11839940003,
+  "new_gpu_worker_seconds": 0,
+  "network_used": false
+}

@@ -1,0 +1,10 @@
+{
+  "ncu_on_PATH": false,
+  "nsys_on_PATH": false,
+  "RmProfilingAdminOnly": 1,
+  "CapEff": "0000000000000000",
+  "hardware_cache_counters": "UNAVAILABLE_NO_ADMIN",
+  "source": "/proc/driver/nvidia/params and /proc/self/status",
+  "clock_lock": "PERMISSION_DENIED",
+  "NVML_power_thermal_counters": "AVAILABLE_READ_ONLY"
+}

@@ -1,0 +1,352 @@
+{
+  "development_timing_observations": 44160,
+  "independent_validation_timing_observations": 1642752,
+  "status": "PASS",
+  "workers": 67,
+  "expected_failed_workers": [
+    "qualification",
+    "soft_qualification_initial"
+  ],
+  "worker_seconds": 3045.1427814055933,
+  "worker_budget_seconds": 3600,
+  "test_timing_observations": 1686912,
+  "test_batched_observations": 58752,
+  "operator_requests_in_test": 3508224,
+  "numerical_checks": 58297,
+  "temperature_range_c": [
+    64,
+    71
+  ],
+  "power_limit_w": 100,
+  "input_sets_disjoint": true,
+  "source_and_binary_hashes_checked": 35,
+  "common_map_same_address_checks": 72,
+  "actual_graph_checks": 3960,
+  "worker_info": [
+    {
+      "key": "qualification_v2",
+      "test_observations": 0,
+      "seconds": 5.742073548026383
+    },
+    {
+      "key": "claim_dev_0",
+      "test_observations": 6240,
+      "seconds": 26.778355340007693
+    },
+    {
+      "key": "claim_dev_1",
+      "test_observations": 6240,
+      "seconds": 27.1379101149505
+    },
+    {
+      "key": "claim_confirm_0",
+      "test_observations": 18432,
+      "seconds": 27.816576835000888
+    },
+    {
+      "key": "claim_confirm_1",
+      "test_observations": 18432,
+      "seconds": 28.04772041196702
+    },
+    {
+      "key": "claim_confirm_2",
+      "test_observations": 18432,
+      "seconds": 27.542111721995752
+    },
+    {
+      "key": "claim_confirm_3",
+      "test_observations": 18432,
+      "seconds": 28.01715265295934
+    },
+    {
+      "key": "claim_confirm_4",
+      "test_observations": 18432,
+      "seconds": 27.711099940002896
+    },
+    {
+      "key": "claim_confirm_5",
+      "test_observations": 18432,
+      "seconds": 27.653512675024103
+    },
+    {
+      "key": "soft_qualification_fixed",
+      "test_observations": 0,
+      "seconds": 2.4015430160216056
+    },
+    {
+      "key": "soft_tensor_0",
+      "test_observations": 0,
+      "seconds": 1.3268493969808333
+    },
+    {
+      "key": "soft_tensor_1",
+      "test_observations": 0,
+      "seconds": 1.7757337400107644
+    },
+    {
+      "key": "soft_tensor_2",
+      "test_observations": 0,
+      "seconds": 1.78885673196055
+    },
+    {
+      "key": "soft_tensor_3",
+      "test_observations": 0,
+      "seconds": 1.2166475899866782
+    },
+    {
+      "key": "soft_qualification",
+      "test_observations": 0,
+      "seconds": 7.455213458975777
+    },
+    {
+      "key": "qualify_memcheck",
+      "test_observations": 0,
+      "seconds": 3.340651417034678
+    },
+    {
+      "key": "soft_qualify_memcheck",
+      "test_observations": 0,
+      "seconds": 2.7597588489879854
+    },
+    {
+      "key": "qualify_synccheck",
+      "test_observations": 0,
+      "seconds": 3.176007390022278
+    },
+    {
+      "key": "soft_qualify_synccheck",
+      "test_observations": 0,
+      "seconds": 2.7664831939619035
+    },
+    {
+      "key": "soft_dev_0",
+      "test_observations": 15840,
+      "seconds": 36.7144928900525
+    },
+    {
+      "key": "soft_dev_1",
+      "test_observations": 15840,
+      "seconds": 37.10190738597885
+    },
+    {
+      "key": "soft_confirm_0",
+      "test_observations": 42240,
+      "seconds": 61.137867470039055
+    },
+    {
+      "key": "soft_confirm_1",
+      "test_observations": 42240,
+      "seconds": 60.88315606501419
+    },
+    {
+      "key": "soft_confirm_2",
+      "test_observations": 42240,
+      "seconds": 61.318248395982664
+    },
+    {
+      "key": "soft_confirm_3",
+      "test_observations": 42240,
+      "seconds": 62.09708261699416
+    },
+    {
+      "key": "soft_confirm_4",
+      "test_observations": 42240,
+      "seconds": 62.06620240799384
+    },
+    {
+      "key": "soft_confirm_5",
+      "test_observations": 42240,
+      "seconds": 61.09288401599042
+    },
+    {
+      "key": "soft_panel_0",
+      "test_observations": 58752,
+      "seconds": 79.82951319898712
+    },
+    {
+      "key": "soft_fresh_0",
+      "test_observations": 14400,
+      "seconds": 34.837941022997256
+    },
+    {
+      "key": "soft_panel_1",
+      "test_observations": 58752,
+      "seconds": 81.1848822729662
+    },
+    {
+      "key": "soft_fresh_1",
+      "test_observations": 14400,
+      "seconds": 34.58921761199599
+    },
+    {
+      "key": "soft_panel_2",
+      "test_observations": 58752,
+      "seconds": 77.46114853798645
+    },
+    {
+      "key": "soft_fresh_2",
+      "test_observations": 14400,
+      "seconds": 33.895654172985815
+    },
+    {
+      "key": "const_qualification",
+      "test_observations": 0,
+      "seconds": 11.074669805995654
+    },
+    {
+      "key": "soft_panel_3",
+      "test_observations": 58752,
+      "seconds": 76.93860324699199
+    },
+    {
+      "key": "const_memcheck",
+      "test_observations": 0,
+      "seconds": 3.041761239990592
+    },
+    {
+      "key": "soft_fresh_3",
+      "test_observations": 14400,
+      "seconds": 35.18738287396263
+    },
+    {
+      "key": "const_synccheck",
+      "test_observations": 0,
+      "seconds": 3.105784539016895
+    },
+    {
+      "key": "soft_common_0",
+      "test_observations": 20736,
+      "seconds": 30.056374652020168
+    },
+    {
+      "key": "soft_panel_4",
+      "test_observations": 58752,
+      "seconds": 77.11734594701556
+    },
+    {
+      "key": "const_racecheck",
+      "test_observations": 0,
+      "seconds": 4.599165023013484
+    },
+    {
+      "key": "soft_common_1",
+      "test_observations": 20736,
+      "seconds": 29.672714661981445
+    },
+    {
+      "key": "soft_fresh_4",
+      "test_observations": 14400,
+      "seconds": 34.667809980979655
+    },
+    {
+      "key": "soft_batch_0",
+      "test_observations": 9792,
+      "seconds": 93.05021754599875
+    },
+    {
+      "key": "const_confirm_0",
+      "test_observations": 109440,
+      "seconds": 148.48485459096264
+    },
+    {
+      "key": "soft_common_2",
+      "test_observations": 20736,
+      "seconds": 30.26928859297186
+    },
+    {
+      "key": "soft_panel_5",
+      "test_observations": 58752,
+      "seconds": 77.78879943297943
+    },
+    {
+      "key": "soft_fresh_5",
+      "test_observations": 14400,
+      "seconds": 33.47015776101034
+    },
+    {
+      "key": "soft_batch_1",
+      "test_observations": 9792,
+      "seconds": 92.79763365996769
+    },
+    {
+      "key": "const_confirm_1",
+      "test_observations": 109440,
+      "seconds": 148.77966759295668
+    },
+    {
+      "key": "soft_common_3",
+      "test_observations": 20736,
+      "seconds": 31.155894739960786
+    },
+    {
+      "key": "api_0",
+      "test_observations": 0,
+      "seconds": 4.126229398010764
+    },
+    {
+      "key": "soft_batch_2",
+      "test_observations": 9792,
+      "seconds": 92.02529789000982
+    },
+    {
+      "key": "const_confirm_2",
+      "test_observations": 109440,
+      "seconds": 148.290907898976
+    },
+    {
+      "key": "soft_common_4",
+      "test_observations": 20736,
+      "seconds": 30.349987927998882
+    },
+    {
+      "key": "api_1",
+      "test_observations": 0,
+      "seconds": 4.151575678028166
+    },
+    {
+      "key": "soft_batch_3",
+      "test_observations": 9792,
+      "seconds": 93.05678826000076
+    },
+    {
+      "key": "const_confirm_3",
+      "test_observations": 109440,
+      "seconds": 146.11195934697753
+    },
+    {
+      "key": "soft_common_5",
+      "test_observations": 20736,
+      "seconds": 29.956709022982977
+    },
+    {
+      "key": "api_2",
+      "test_observations": 0,
+      "seconds": 4.096597644034773
+    },
+    {
+      "key": "soft_batch_4",
+      "test_observations": 9792,
+      "seconds": 92.9216171039734
+    },
+    {
+      "key": "const_confirm_4",
+      "test_observations": 109440,
+      "seconds": 148.87820599001134
+    },
+    {
+      "key": "soft_racecheck",
+      "test_observations": 0,
+      "seconds": 3.7720036359969527
+    },
+    {
+      "key": "soft_batch_5",
+      "test_observations": 9792,
+      "seconds": 91.55701642198255
+    },
+    {
+      "key": "const_confirm_5",
+      "test_observations": 109440,
+      "seconds": 149.32529349502875
+    }
+  ]
+}

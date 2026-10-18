@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T09:50:38.674878+00:00",
+  "wall_minutes": 34.77677262996731,
+  "new_gpu_minutes": 15.219120865450046,
+  "prior_gpu_minutes": 308.7346722063162,
+  "cumulative_gpu_minutes": 323.95379307176626,
+  "workers": [
+    {
+      "key": "S0_SMOKE",
+      "status": "FAILED",
+      "seconds": 5.3009848009678535
+    },
+    {
+      "key": "S0_SMOKE_retry1",
+      "status": "COMPLETED",
+      "seconds": 5.162040398048703
+    },
+    {
+      "key": "S1_main_0",
+      "status": "COMPLETED",
+      "seconds": 94.87638827995397
+    },
+    {
+      "key": "S1_main_1",
+      "status": "COMPLETED",
+      "seconds": 93.73438838002039
+    },
+    {
+      "key": "S1_main_2",
+      "status": "COMPLETED",
+      "seconds": 92.97143148002215
+    },
+    {
+      "key": "S1_main_3",
+      "status": "COMPLETED",
+      "seconds": 92.67560955701629
+    },
+    {
+      "key": "S1_main_4",
+      "status": "COMPLETED",
+      "seconds": 92.47475527599454
+    },
+    {
+      "key": "S1_main_5",
+      "status": "COMPLETED",
+      "seconds": 92.58113928500097
+    },
+    {
+      "key": "S1C_control_0",
+      "status": "COMPLETED",
+      "seconds": 43.563990361988544
+    },
+    {
+      "key": "S1C_control_1",
+      "status": "COMPLETED",
+      "seconds": 43.60901342402212
+    },
+    {
+      "key": "S2_observer_0",
+      "status": "COMPLETED",
+      "seconds": 38.373893873998895
+    },
+    {
+      "key": "S2_observer_1",
+      "status": "COMPLETED",
+      "seconds": 38.27940566500183
+    },
+    {
+      "key": "S3_profile_0",
+      "status": "COMPLETED",
+      "seconds": 46.21788376598852
+    },
+    {
+      "key": "S3_profile_1",
+      "status": "COMPLETED",
+      "seconds": 46.20206449000398
+    },
+    {
+      "key": "S4_confirm_0",
+      "status": "COMPLETED",
+      "seconds": 43.60703450295841
+    },
+    {
+      "key": "S4_confirm_1",
+      "status": "COMPLETED",
+      "seconds": 43.51722838601563
+    }
+  ],
+  "completed_by_kind": {
+    "smoke": 1,
+    "main": 6,
+    "control": 2,
+    "observer": 2,
+    "profile": 2,
+    "confirm": 2
+  },
+  "numerical_records": 128,
+  "counts": {
+    "requests": 1532372,
+    "conditioning_requests": 607876,
+    "measured_requests": 924496
+  },
+  "prior_files_unchanged": true,
+  "math_and_selector_unchanged": true,
+  "system_writes": [],
+  "clock_lock": "UNAVAILABLE_PERMISSION_DENIED",
+  "hardware_cache_counters": "UNAVAILABLE_ADMIN_ONLY",
+  "restore": "No setting changed; original100W andfanprotection remain"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "plans": 216,
+  "plan_counts": {
+    "grouped/calibration": 24,
+    "grouped/test": 72,
+    "dense_control/calibration": 12,
+    "dense_control/test": 12,
+    "heterogeneous_k/calibration": 6,
+    "heterogeneous_k/test": 6,
+    "attention_decode/calibration": 16,
+    "attention_decode/test": 32,
+    "prefill_control/calibration": 4,
+    "prefill_control/test": 8,
+    "moe_layer/calibration": 6,
+    "moe_layer/test": 18
+  },
+  "warning": "CPU design check only. No GPU or backend was accessed."
+}

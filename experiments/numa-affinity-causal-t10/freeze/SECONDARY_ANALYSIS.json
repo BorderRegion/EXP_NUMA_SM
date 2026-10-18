@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-18T05:24:45.791042+00:00",
+  "status": "Exploratory supplement; primary unchanged",
+  "reason": "User also accepts address-agnostic SM-topology gains; retain pooled-policy and independently selected random-policy performance, rather than report MINIMAX only.",
+  "timing_outcomes_read": "Only development; confirmation progress/log statuses inspected, no confirmation timing estimates read before this supplement",
+  "comparisons": [
+    "POOLED/IDENTITY",
+    "POOLED/RANDOM_BEST",
+    "RANDOM_BEST/IDENTITY",
+    "POOLED/BASE_IDENTITY",
+    "POOLED/BASE_MINIMAX",
+    "RANDOM_BEST/BASE_IDENTITY",
+    "RANDOM_BEST/BASE_MINIMAX"
+  ],
+  "all_conditions": true,
+  "no_policy_selection_from_confirmation": true,
+  "script_sha256": "232cec89e926657cb2cdfbb15c98f7b9983a070b89822c049b7af8e0c7e6a080"
+}

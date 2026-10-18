@@ -1,0 +1,8 @@
+{
+  "status": "EXPERIMENT_COMPLETE_NOT_DEPLOYED",
+  "default": "IDENTITY",
+  "unchanged_kernel_sha256": "10a0201ea5138c70fb96975cb3ec36d11adeb9d63841f63b2f763f619c2e4104",
+  "topology_address_specific_net_acceleration_established": false,
+  "reason": "Warm segmented-session net beats fixed pairing but fails frozen random, wrong-address and pooled-address controls. Copy-before-each-request is not robustly positive.",
+  "accounting": "Measured request chunks + calibration + all candidate updates; excludes common graph construction, inter-chunk research I/O and 2 conditioning replays per chunk. Not full LLM service elapsed time."
+}

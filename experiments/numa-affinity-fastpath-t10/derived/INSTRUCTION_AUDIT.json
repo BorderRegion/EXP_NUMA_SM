@@ -1,0 +1,26 @@
+{
+  "native_functions_identical": {
+    "_Z6finishILi262144EEvPKfPfS1_": true,
+    "_Z7partialILi262144EEvPKfPf": true,
+    "_Z6finishILi131072EEvPKfPfS1_": true,
+    "_Z7partialILi131072EEvPKfPf": true,
+    "_Z6finishILi65536EEvPKfPfS1_": true,
+    "_Z7partialILi65536EEvPKfPf": true,
+    "_Z6finishILi32768EEvPKfPfS1_": true,
+    "_Z7partialILi32768EEvPKfPf": true
+  },
+  "all_native_identical": true,
+  "same_const_binary_for_all_pairings": true,
+  "constant_mapping_instruction": [
+    "/*2c60*/                   LDC R44, c[0x0][R44+0x160] ;                          /* 0x000058002c2c7b82 */",
+    "/*2ca0*/                   LDC R6, c[0x0][R6+0x160] ;                            /* 0x0000580006067b82 */",
+    "/*1c50*/                   LDC R0, c[0x0][R0+0x160] ;                            /* 0x0000580000007b82 */",
+    "/*1c90*/                   LDC R2, c[0x0][R2+0x160] ;                            /* 0x0000580002027b82 */",
+    "/*1350*/                   LDC R2, c[0x0][R2+0x160] ;                            /* 0x0000580002027b82 */",
+    "/*1390*/                   LDC R2, c[0x0][R2+0x160] ;                            /* 0x0000580002027b82 */",
+    "/*0e50*/                   LDC R6, c[0x0][R6+0x160] ;                            /* 0x0000580006067b82 */",
+    "/*0e90*/                   LDC R2, c[0x0][R2+0x160] ;                            /* 0x0000580002027b82 */"
+  ],
+  "global_source_sha256": "7416cf9f7656809b678ed01e06fcb7ca21b32fd0f2cbeaab731c51a56ffe9d97",
+  "constant_source_sha256": "5b8959ca7e917ecf59397b5857280f1d5c2b99915b3b3feb0d517635bcadb162"
+}

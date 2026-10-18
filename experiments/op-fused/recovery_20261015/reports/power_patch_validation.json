@@ -1,0 +1,18 @@
+{
+  "status": "READ_ONLY_PATCH_VERIFIED",
+  "changed_constants": [
+    [
+      "Protection recovered; quiet cap 125 W restored",
+      "Protection recovered; fixed cap 100 W retained"
+    ],
+    [
+      125000,
+      100000
+    ]
+  ],
+  "emergency_thresholds_changed": false,
+  "fan_curve_changed": false,
+  "applied": false,
+  "root_access": "sudo -n requires password; nvidia-smi -pl 100 returned code 4 Insufficient Permissions",
+  "test_correction": "AST constants have traversal order unrelated to source line order; comparison changed to set; proposed system patch unchanged"
+}

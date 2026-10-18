@@ -1,0 +1,1874 @@
+[
+  {
+    "allocation": 0,
+    "bytes": 524288,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1340,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.8702346041055717,
+    "group_interaction_log_rms": 0.025125142948581796,
+    "split_sign_agreement": 0.75
+  },
+  {
+    "allocation": 0,
+    "bytes": 524288,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 16,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 2,
+    "missing_SM_region_cells": 320,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": 1.0,
+    "group_interaction_log_rms": 0.01177983247439475,
+    "split_sign_agreement": 0.875
+  },
+  {
+    "allocation": 0,
+    "bytes": 524288,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1255,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.7576979472140761,
+    "group_interaction_log_rms": 0.007348530251245425,
+    "split_sign_agreement": 0.8125
+  },
+  {
+    "allocation": 0,
+    "bytes": 524288,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 16,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 2,
+    "missing_SM_region_cells": 320,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": 0.9285714285714287,
+    "group_interaction_log_rms": 0.006655125732247118,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 0,
+    "bytes": 524288,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 4,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1398,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9813049853372433,
+    "group_interaction_log_rms": 0.014062518260912616,
+    "split_sign_agreement": 0.96875
+  },
+  {
+    "allocation": 0,
+    "bytes": 524288,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 16,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 2,
+    "missing_SM_region_cells": 320,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": 1.0,
+    "group_interaction_log_rms": 0.012008627470223859,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 0,
+    "bytes": 524288,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 6,
+    "missing_SM_region_cells": 1255,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.8284457478005864,
+    "group_interaction_log_rms": 0.007075538808536976,
+    "split_sign_agreement": 0.84375
+  },
+  {
+    "allocation": 0,
+    "bytes": 524288,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 16,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 2,
+    "missing_SM_region_cells": 320,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": 0.9761904761904763,
+    "group_interaction_log_rms": 0.007252364429803098,
+    "split_sign_agreement": 0.875
+  },
+  {
+    "allocation": 0,
+    "bytes": 4194304,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 4,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1390,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9776392961876832,
+    "group_interaction_log_rms": 0.0127693802880595,
+    "split_sign_agreement": 0.9375
+  },
+  {
+    "allocation": 0,
+    "bytes": 4194304,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 8,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1382,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9791055718475072,
+    "group_interaction_log_rms": 0.013040435679417168,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 0,
+    "bytes": 4194304,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 7,
+    "missing_SM_region_cells": 1211,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.8273460410557183,
+    "group_interaction_log_rms": 0.013809661592969888,
+    "split_sign_agreement": 0.84375
+  },
+  {
+    "allocation": 0,
+    "bytes": 4194304,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1217,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9904692082111435,
+    "group_interaction_log_rms": 0.05073645423435775,
+    "split_sign_agreement": 0.9375
+  },
+  {
+    "allocation": 0,
+    "bytes": 4194304,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 6,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1388,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.999266862170088,
+    "group_interaction_log_rms": 0.013018415660612799,
+    "split_sign_agreement": 0.96875
+  },
+  {
+    "allocation": 0,
+    "bytes": 4194304,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 4,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1390,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9893695014662756,
+    "group_interaction_log_rms": 0.013823132979778167,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 0,
+    "bytes": 4194304,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 8,
+    "missing_SM_region_cells": 1202,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9226539589442814,
+    "group_interaction_log_rms": 0.01772302275819521,
+    "split_sign_agreement": 0.84375
+  },
+  {
+    "allocation": 0,
+    "bytes": 4194304,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 7,
+    "missing_SM_region_cells": 1211,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9362170087976539,
+    "group_interaction_log_rms": 0.05231076345845181,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 0,
+    "bytes": 33554432,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 8,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1380,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9332844574780058,
+    "group_interaction_log_rms": 0.007154679708364079,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 0,
+    "bytes": 33554432,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 8,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1382,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9919354838709675,
+    "group_interaction_log_rms": 0.00739466061093593,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 0,
+    "bytes": 33554432,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 8,
+    "missing_SM_region_cells": 1197,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9945014662756597,
+    "group_interaction_log_rms": 0.03570044120038166,
+    "split_sign_agreement": 0.96875
+  },
+  {
+    "allocation": 0,
+    "bytes": 33554432,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 7,
+    "missing_SM_region_cells": 1204,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9956011730205276,
+    "group_interaction_log_rms": 0.03632206343831426,
+    "split_sign_agreement": 0.96875
+  },
+  {
+    "allocation": 0,
+    "bytes": 33554432,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 8,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1384,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.911290322580645,
+    "group_interaction_log_rms": 0.007326839909288421,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 0,
+    "bytes": 33554432,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 8,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1384,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9974340175953078,
+    "group_interaction_log_rms": 0.007535997615467119,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 0,
+    "bytes": 33554432,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 8,
+    "missing_SM_region_cells": 1198,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9956011730205276,
+    "group_interaction_log_rms": 0.03869686973614398,
+    "split_sign_agreement": 0.96875
+  },
+  {
+    "allocation": 0,
+    "bytes": 33554432,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 7,
+    "missing_SM_region_cells": 1201,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9956011730205276,
+    "group_interaction_log_rms": 0.03817867059249804,
+    "split_sign_agreement": 0.96875
+  },
+  {
+    "allocation": 1,
+    "bytes": 524288,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1328,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.24303519061583576,
+    "group_interaction_log_rms": 0.01185014882888685,
+    "split_sign_agreement": 0.65625
+  },
+  {
+    "allocation": 1,
+    "bytes": 524288,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 16,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 2,
+    "missing_SM_region_cells": 320,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": 1.0,
+    "group_interaction_log_rms": 0.01144364483509122,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 1,
+    "bytes": 524288,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 6,
+    "missing_SM_region_cells": 1263,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.783357771260997,
+    "group_interaction_log_rms": 0.008487771071992452,
+    "split_sign_agreement": 0.90625
+  },
+  {
+    "allocation": 1,
+    "bytes": 524288,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 16,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 2,
+    "missing_SM_region_cells": 320,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": 0.9761904761904763,
+    "group_interaction_log_rms": 0.006901019683535043,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 1,
+    "bytes": 524288,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 4,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1399,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9952346041055717,
+    "group_interaction_log_rms": 0.013940695146608246,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 1,
+    "bytes": 524288,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 16,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 2,
+    "missing_SM_region_cells": 320,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": 1.0,
+    "group_interaction_log_rms": 0.012079779954241764,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 1,
+    "bytes": 524288,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1252,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.7313049853372434,
+    "group_interaction_log_rms": 0.008151046781537991,
+    "split_sign_agreement": 0.8125
+  },
+  {
+    "allocation": 1,
+    "bytes": 524288,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 16,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 2,
+    "missing_SM_region_cells": 320,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": 0.9761904761904763,
+    "group_interaction_log_rms": 0.006850976947130107,
+    "split_sign_agreement": 0.875
+  },
+  {
+    "allocation": 1,
+    "bytes": 4194304,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 4,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1388,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9897360703812315,
+    "group_interaction_log_rms": 0.013068330975676971,
+    "split_sign_agreement": 0.96875
+  },
+  {
+    "allocation": 1,
+    "bytes": 4194304,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 8,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1382,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9461143695014661,
+    "group_interaction_log_rms": 0.01376791245979687,
+    "split_sign_agreement": 0.875
+  },
+  {
+    "allocation": 1,
+    "bytes": 4194304,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 8,
+    "missing_SM_region_cells": 1204,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.7346041055718474,
+    "group_interaction_log_rms": 0.014202726947469027,
+    "split_sign_agreement": 0.75
+  },
+  {
+    "allocation": 1,
+    "bytes": 4194304,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 6,
+    "missing_SM_region_cells": 1212,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9978005865102637,
+    "group_interaction_log_rms": 0.04899902832333807,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 1,
+    "bytes": 4194304,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 6,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1390,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9974340175953078,
+    "group_interaction_log_rms": 0.013313908296551885,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 1,
+    "bytes": 4194304,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 4,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1392,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9912023460410555,
+    "group_interaction_log_rms": 0.014578795935684676,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 1,
+    "bytes": 4194304,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 8,
+    "missing_SM_region_cells": 1200,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.6682551319648093,
+    "group_interaction_log_rms": 0.016276837450393405,
+    "split_sign_agreement": 0.78125
+  },
+  {
+    "allocation": 1,
+    "bytes": 4194304,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 7,
+    "missing_SM_region_cells": 1210,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9677419354838709,
+    "group_interaction_log_rms": 0.04822983045988236,
+    "split_sign_agreement": 0.9375
+  },
+  {
+    "allocation": 1,
+    "bytes": 33554432,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 6,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1384,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9171554252199411,
+    "group_interaction_log_rms": 0.007499053721882117,
+    "split_sign_agreement": 0.90625
+  },
+  {
+    "allocation": 1,
+    "bytes": 33554432,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 8,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1383,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9864369501466274,
+    "group_interaction_log_rms": 0.007452444119071424,
+    "split_sign_agreement": 0.90625
+  },
+  {
+    "allocation": 1,
+    "bytes": 33554432,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 8,
+    "missing_SM_region_cells": 1196,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9963343108504397,
+    "group_interaction_log_rms": 0.03406186443090747,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 1,
+    "bytes": 33554432,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 7,
+    "missing_SM_region_cells": 1205,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9956011730205276,
+    "group_interaction_log_rms": 0.035122630883196615,
+    "split_sign_agreement": 0.96875
+  },
+  {
+    "allocation": 1,
+    "bytes": 33554432,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 8,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1384,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9967008797653958,
+    "group_interaction_log_rms": 0.007597279204324982,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 1,
+    "bytes": 33554432,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 8,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1385,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9897360703812315,
+    "group_interaction_log_rms": 0.007693234188098145,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 1,
+    "bytes": 33554432,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 8,
+    "missing_SM_region_cells": 1198,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9952346041055717,
+    "group_interaction_log_rms": 0.036773667219790834,
+    "split_sign_agreement": 0.96875
+  },
+  {
+    "allocation": 1,
+    "bytes": 33554432,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 8,
+    "missing_SM_region_cells": 1200,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9956011730205276,
+    "group_interaction_log_rms": 0.038275893035824814,
+    "split_sign_agreement": 0.9375
+  },
+  {
+    "allocation": 2,
+    "bytes": 524288,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1328,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.43108504398826974,
+    "group_interaction_log_rms": 0.01441466201471211,
+    "split_sign_agreement": 0.46875
+  },
+  {
+    "allocation": 2,
+    "bytes": 524288,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 16,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 2,
+    "missing_SM_region_cells": 320,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": 0.9761904761904763,
+    "group_interaction_log_rms": 0.011408607233245117,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 2,
+    "bytes": 524288,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 6,
+    "missing_SM_region_cells": 1253,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.8273460410557183,
+    "group_interaction_log_rms": 0.008300223811243597,
+    "split_sign_agreement": 0.875
+  },
+  {
+    "allocation": 2,
+    "bytes": 524288,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 16,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 2,
+    "missing_SM_region_cells": 320,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": 0.9761904761904763,
+    "group_interaction_log_rms": 0.006590137109077023,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 2,
+    "bytes": 524288,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 4,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1399,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9912023460410555,
+    "group_interaction_log_rms": 0.014134060811946144,
+    "split_sign_agreement": 0.96875
+  },
+  {
+    "allocation": 2,
+    "bytes": 524288,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 16,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 2,
+    "missing_SM_region_cells": 320,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": 1.0,
+    "group_interaction_log_rms": 0.012008169197355997,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 2,
+    "bytes": 524288,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1250,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.7958211143695014,
+    "group_interaction_log_rms": 0.007252761720088209,
+    "split_sign_agreement": 0.78125
+  },
+  {
+    "allocation": 2,
+    "bytes": 524288,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 16,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 2,
+    "missing_SM_region_cells": 320,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": 0.9285714285714287,
+    "group_interaction_log_rms": 0.007764428862959196,
+    "split_sign_agreement": 0.875
+  },
+  {
+    "allocation": 2,
+    "bytes": 4194304,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 8,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1386,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9791055718475072,
+    "group_interaction_log_rms": 0.012584175325741253,
+    "split_sign_agreement": 0.96875
+  },
+  {
+    "allocation": 2,
+    "bytes": 4194304,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 8,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1382,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9897360703812315,
+    "group_interaction_log_rms": 0.013328855668327637,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 2,
+    "bytes": 4194304,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 7,
+    "missing_SM_region_cells": 1207,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.8438416422287388,
+    "group_interaction_log_rms": 0.014414934556992451,
+    "split_sign_agreement": 0.8125
+  },
+  {
+    "allocation": 2,
+    "bytes": 4194304,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 6,
+    "missing_SM_region_cells": 1213,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9915689149560116,
+    "group_interaction_log_rms": 0.05033309147955517,
+    "split_sign_agreement": 0.96875
+  },
+  {
+    "allocation": 2,
+    "bytes": 4194304,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 4,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1394,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9846041055718473,
+    "group_interaction_log_rms": 0.013017542011291044,
+    "split_sign_agreement": 0.96875
+  },
+  {
+    "allocation": 2,
+    "bytes": 4194304,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 6,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1388,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9904692082111435,
+    "group_interaction_log_rms": 0.01459042380652786,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 2,
+    "bytes": 4194304,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 8,
+    "missing_SM_region_cells": 1206,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9457478005865102,
+    "group_interaction_log_rms": 0.01739595057660329,
+    "split_sign_agreement": 0.90625
+  },
+  {
+    "allocation": 2,
+    "bytes": 4194304,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 6,
+    "missing_SM_region_cells": 1213,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9428152492668621,
+    "group_interaction_log_rms": 0.05107234384282075,
+    "split_sign_agreement": 0.84375
+  },
+  {
+    "allocation": 2,
+    "bytes": 33554432,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 8,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1382,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9919354838709675,
+    "group_interaction_log_rms": 0.0077716478744121785,
+    "split_sign_agreement": 0.90625
+  },
+  {
+    "allocation": 2,
+    "bytes": 33554432,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 8,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1382,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9952346041055717,
+    "group_interaction_log_rms": 0.007797200075739251,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 2,
+    "bytes": 33554432,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 8,
+    "missing_SM_region_cells": 1201,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9970674486803517,
+    "group_interaction_log_rms": 0.03618616314822638,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 2,
+    "bytes": 33554432,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 7,
+    "missing_SM_region_cells": 1204,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9970674486803517,
+    "group_interaction_log_rms": 0.03602935518536895,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 2,
+    "bytes": 33554432,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 6,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1387,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9893695014662756,
+    "group_interaction_log_rms": 0.007795619075515522,
+    "split_sign_agreement": 0.875
+  },
+  {
+    "allocation": 2,
+    "bytes": 33554432,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 8,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1386,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9923020527859235,
+    "group_interaction_log_rms": 0.00785245595929402,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 2,
+    "bytes": 33554432,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 4096,
+    "rounds": [
+      0,
+      2,
+      4
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 8,
+    "missing_SM_region_cells": 1197,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9952346041055717,
+    "group_interaction_log_rms": 0.039204300904158065,
+    "split_sign_agreement": 0.9375
+  },
+  {
+    "allocation": 2,
+    "bytes": 33554432,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      1,
+      3,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 8,
+    "missing_SM_region_cells": 1200,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9978005865102637,
+    "group_interaction_log_rms": 0.038496723134759686,
+    "split_sign_agreement": 1.0
+  }
+]

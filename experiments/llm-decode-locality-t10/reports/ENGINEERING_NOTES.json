@@ -1,0 +1,12 @@
+[
+  {
+    "issue": "Initial compile selected an older cuda.h before the runtime SDK and lacked cuFuncGetName/cuKernelGetName declarations. No GPU code ran.",
+    "resolution": "Use the same explicitly versioned CUDA runtime SDK header as the prior validated host backend.",
+    "evidence": "build/compile_initial_failed.log"
+  },
+  {
+    "issue": "First CPU append analysis passed raw checks but failed assembling metadata because offset was supplied twice to dict().",
+    "resolution": "Remove the duplicate metadata keyword; no GPU source, measurement or statistical rule changed. Raw append runs had completed successfully.",
+    "scope": "CPU_POSTPROCESSING_ERROR"
+  }
+]

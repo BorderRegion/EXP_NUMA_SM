@@ -1,0 +1,10 @@
+{
+  "frozen_at": "2026-10-16T17:29:01.687863+00:00",
+  "files": {
+    "freeze/POLICY_FREEZE.json": "499fa0631223fdbc997987b5d5387f771cfb004938d6f614f6639c3e8070d93c",
+    "freeze/RESOURCE_CARD.json": "3474fd42860b5be7d3671360fcbdacf2f29d91ca82371fc4ef918434c35fceaa",
+    "freeze/bins.json": "20df0f5f0e057353d46904786534fbe099c0a92b5d5d65e3083ab58298c142a5",
+    "src/policy.hpp": "6d862e74871480b104630bbf354f9dcb758d79ad0f5e592068145584c1408194",
+    "build/policy_cpu_final.so": "b0b8aabc111d5e03fe954c4b01be534ac0ceeca8395964b9f4f495c8a2edccc9"
+  }
+}

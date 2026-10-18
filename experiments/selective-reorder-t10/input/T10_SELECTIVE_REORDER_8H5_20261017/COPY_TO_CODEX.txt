@@ -1,0 +1,15 @@
+执行 T10_SELECTIVE_REORDER_8H5_20261017，仅T10本机。
+
+核心理念：不干预是一等动作。先选高效原生/全设备计算分解，再在预计能回本时启用资源匹配；不能先付分区和重排成本再“关闭”。不预设物理NUMA或SM裁剪必然有收益。
+
+先读START_HERE和主任务书、docs/01–05、campaign.json。按S0–S6连续做：原生直达/惰性资源→校准当前九动作→资源能力与PC关系分类→SHAPE/RESOURCE同复杂度规则→测试前冻结→新输入/真实请求和FFN→消融、摊销与报告。
+
+只复用已有production split-K P/R、slab和Graph；不写慢GEMM，不恢复0x33，不在本轮移植缺失attention，不新增独立小调度kernel、逐任务LUT、D2H决策或P/C之间CPU等待。
+不reorder的NativePlan不能枚举/创建Green或分配PC workspace。规则在初始化/host短入口选择；steady只执行已绑定图。原有必要reducer/activation保留并计费，基线享有同样fusion/Graph。
+
+24开发、16新确认、8回归、4OOD。BASE、SHAPE、RESOURCE使用共同合格动作，预测先于测试计时；按新数据逐点挑最优只作oracle诊断。必须实际运行选择器路径，不能只从CSV拼一个“加速”。保留同信息普通init autotune及其收费。
+
+目标510分钟、硬上限540分钟，包含读题/实现/编译/排队/实验/分析，不是8.5小时GPU另加开发。GPU-worker最多330分钟，计入总墙时。100W主条件，沿用已授权且受支持的安全控制，不新增125W矩阵，保留保护。
+本机离线，不SSH/下载/安装/改驱动/新增付费。普通工程问题自行处理，不逐小步中断；到时间按固定缩减清单保住真实部署和报告。
+
+最终一次性交付T10_SELECTIVE_REORDER_REPORT.md、冻结规则与资源卡、真实DAG、九动作和选择器数据、错误开关代价、FFN/请求、oracle边界、功耗恢复与精简复算包。全选原生也照实报告，不更改阈值救正例。

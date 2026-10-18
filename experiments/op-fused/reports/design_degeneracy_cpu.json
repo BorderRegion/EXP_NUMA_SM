@@ -1,0 +1,77 @@
+{
+  "status": "CPU_DESIGN_ANALYSIS_NOT_GPU_RESULT",
+  "data": [
+    {
+      "hypothetical_tile": [
+        32,
+        128,
+        32
+      ],
+      "hypothetical_workers": 56,
+      "work_budget": 128,
+      "counts": {
+        "('calibration', True)": 16,
+        "('test', True)": 43,
+        "('calibration', False)": 8,
+        "('test', False)": 29
+      },
+      "k4096": {
+        "True": 32
+      }
+    },
+    {
+      "hypothetical_tile": [
+        32,
+        128,
+        32
+      ],
+      "hypothetical_workers": 112,
+      "work_budget": 128,
+      "counts": {
+        "('calibration', True)": 17,
+        "('test', True)": 45,
+        "('test', False)": 27,
+        "('calibration', False)": 7
+      },
+      "k4096": {
+        "True": 32
+      }
+    },
+    {
+      "hypothetical_tile": [
+        64,
+        128,
+        32
+      ],
+      "hypothetical_workers": 56,
+      "work_budget": 128,
+      "counts": {
+        "('calibration', True)": 20,
+        "('test', True)": 52,
+        "('calibration', False)": 4,
+        "('test', False)": 20
+      },
+      "k4096": {
+        "True": 32
+      }
+    },
+    {
+      "hypothetical_tile": [
+        64,
+        128,
+        32
+      ],
+      "hypothetical_workers": 112,
+      "work_budget": 128,
+      "counts": {
+        "('calibration', True)": 21,
+        "('test', True)": 54,
+        "('calibration', False)": 3,
+        "('test', False)": 18
+      },
+      "k4096": {
+        "True": 32
+      }
+    }
+  ]
+}

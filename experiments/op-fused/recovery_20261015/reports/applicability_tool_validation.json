@@ -1,0 +1,12 @@
+{
+  "status": "CPU_TOOL_BRANCH_PASS",
+  "fixture_only": true,
+  "config_rows": 144,
+  "proxy_budget": 128,
+  "k4096_fixture_rows": 0,
+  "development_k_values": [
+    1024,
+    2048
+  ],
+  "actual_backend_qualified": false
+}

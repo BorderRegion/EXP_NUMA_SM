@@ -1,0 +1,49 @@
+Prepared renderer with untouched Native kernel, transformed complete-tile loop, end barrier; upstream preprocessing/binning/sort unchanged
+1 0 5uint2PKjiiPKfPK6float2PK6float4S6_S6_S4_S6_P6float3PSA_PfSG_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 55 registers, 10240 bytes smem, 464 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z14preprocessCUDAILi3EEviiiPK6float3PKiPKfPKbPKN3glm3vecILi3EfLNS9_9qualifierE0EEEPKNSA_ILi4EfLSB_0EEEfS6_SE_S2_PSC_PfSJ_SJ_SI_PSF_' for 'sm_75'
+ptxas info    : Function properties for _Z14preprocessCUDAILi3EEviiiPK6float3PKiPKfPKbPKN3glm3vecILi3EfLNS9_9qualifierE0EEEPKNSA_ILi4EfLSB_0EEEfS6_SE_S2_PSC_PfSJ_SJ_SI_PSF_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 64 registers, 496 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z16computeCov2DCUDAiPK6float3PKiPKfffffS5_S5_PS_Pf' for 'sm_75'
+ptxas info    : Function properties for _Z16computeCov2DCUDAiPK6float3PKiPKfffffS5_S5_PS_Pf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 432 bytes cmem[0]
+
+0 0 e, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 7168 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z14preprocessCUDAILi3EEviiiPKfPKN3glm3vecILi3EfLNS2_9qualifierE0EEEfPKNS3_ILi4EfLS4_0EEES1_S1_PbS1_S1_S1_S1_S7_iiffffPiP6float2PfSF_SF_P6float44dim3Pjb' for 'sm_75'
+ptxas info    : Function properties for _Z14preprocessCUDAILi3EEviiiPKfPKN3glm3vecILi3EfLNS2_9qualifierE0EEEfPKNS3_ILi4EfLS4_0EEES1_S1_PbS1_S1_S1_S1_S7_iiffffPiP6float2PfSF_SF_P6float44dim3Pjb
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 63 registers, 561 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z10renderCUDAILj3EEvPK5uint2PKjiiPK6float2PKfPK6float4PfPjS9_SD_' for 'sm_75'
+ptxas info    : Function properties for _Z10renderCUDAILj3EEvPK5uint2PKjiiPK6float2PKfPK6float4PfPjS9_SD_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 7168 bytes smem, 432 bytes cmem[0]
+
+3 0 ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z13screen_kernelPKfS0_PKjPyi' for 'sm_75'
+ptxas info    : Function properties for _Z13screen_kernelPKfS0_PKjPyi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 2048 bytes smem, 388 bytes cmem[0]
+
+4 0 
+2 0 yKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 4 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18identifyTileRangesiPmP5uint2' for 'sm_75'
+ptxas info    : Function properties for _Z18identifyTileRangesiPmP5uint2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17duplicateWithKeysiPK6float2PKfPKjPmPjPi4dim3' for 'sm_75'
+ptxas info    : Function properties for _Z17duplicateWithKeysiPK6float2PKfPKjPmPjPi4dim3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 34 registers, 420 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12checkFrustumiPKfS0_S0_Pb' for 'sm_75'
+ptxas info    : Function properties for _Z12checkFrustumiPKfS0_S0_Pb
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 392 bytes cmem[0]
+
+5 0 
+/home/ubuntu/文档/ChatGPT/numa_gpu/build/renderer_20261014T135716Z

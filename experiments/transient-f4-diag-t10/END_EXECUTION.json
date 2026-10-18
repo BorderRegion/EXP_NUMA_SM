@@ -1,0 +1,9 @@
+{
+  "status": "EXPERIMENT_AND_ANALYSIS_COMPLETE",
+  "at": "2026-10-17T08:06:42.655826+00:00",
+  "wall_minutes_through_analysis": 97.14619305371694,
+  "main_units": 144,
+  "gpu_sampling_complete": true,
+  "remaining_gpu_work": false,
+  "package_qa": "Recorded externally in DELIVERY_INDEX.md and PACKAGE_QA.json after archive creation"
+}

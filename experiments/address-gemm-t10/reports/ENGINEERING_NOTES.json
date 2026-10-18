@@ -1,0 +1,9 @@
+[
+  {
+    "utc": "2026-10-17T13:14:23Z",
+    "issue": "Initial formal_0 aborted on zero-nanosecond diagnostic value. Cycle-based model does not use this field. Very short intervals may quantize to zero. Do not require ns>0; continue requiring cycles>0; save each sweep before validation.",
+    "retained": "formal_0 complete R_G002 offset0 raw timings; partial offset69632 directory; failed process logs and ledger. Failing in-memory sweep was not saved by initial version.",
+    "scope": "Host validation and checkpoint only; no CUDA binary, cost algorithm, case, repetition, or policy changes.",
+    "remedy": "All six formal processes restarted with new keys formal_v2_0..5. Partial old process kept as engineering/exploratory evidence, not one of six complete replicates."
+  }
+]

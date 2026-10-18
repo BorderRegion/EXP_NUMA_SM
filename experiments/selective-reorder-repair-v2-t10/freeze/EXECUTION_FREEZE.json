@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-10-17T03:34:04.402602+00:00",
+  "build": "/home/ubuntu/文档/ChatGPT/numa_gpu/selective-reorder-repair-v2-t10/build/20261017T033331Z",
+  "binaries": {
+    "backend.so": "8d44bd2770b59dcb3e7277887a57440a57ae1c72dd8b7df7239f82b24c12d2bf",
+    "diag0.cubin": "4000b020ab9dfe12ef0bd898be50e6836339be2b2f3db0bb477cde9a33eb5f0b",
+    "diag1.cubin": "073f4b01a27a949dbca3d2afb2e943e625b1f3ed72f2fdda631b289a7f48afaf"
+  },
+  "model_sha": "2ea70745de337f8ca5beebc590b722aeb4d79eb5c6e1ecc155314cda6696bb01",
+  "choice_sha": "90f4edce20e1ee41810cffaaa12ba3803120251c057f07a35fe7a8953308ea5e",
+  "sources": {
+    "relative_generated.hpp": "ad88a7d543a31bb45ae34b6e60b4c5cc73721c7f99bc1461fdaf8bfd85732e77",
+    "backend.cu": "8c4690214babb724ce618d83c34d64c1f67d4102bda502231b581bb3991d274c",
+    "kernels.cu": "f141825c0160d0a498c0009d0c5e75fba8e07ee1361a8f4c078848fbc5a55191",
+    "decision_core.hpp": "38d0841d0daea2351a22a231ab1a8d61a9d8d0009a1de88975540c8e36d3a1e3",
+    "resources.hpp": "201cb79cff9a46587be11668326c412015ffd8802eda7350b7751e5c1eac4911",
+    "policy.hpp": "a4d6c0c3e6e89b857f2cb25ae72a9d637619e54623e133207f9f4689a55eed10",
+    "pair_runtime.hpp": "de977c141ac5e6202b486c0dc0cf5b7600e087ec1f85f138de7bc5fca4e534c0",
+    "kernels.cuh": "4fec5c758daa4ad845be3bcd11982a8237333c8b4d385bbc82ed7eb5c71f753a",
+    "runtime_extra.hpp": "eb380977a276ab4545e880ac9fbd24295ef129415dfdf89ee6e2bca5a76a1345"
+  },
+  "status": "FROZEN_BEFORE_CONFIRMATION"
+}

@@ -1,0 +1,24 @@
+{
+  "platform": "t10",
+  "project_root": "/home/ubuntu/文档/ChatGPT/numa_gpu/op-fused",
+  "cuda_root": "/home/ubuntu/projects/leetgpu-lab/cuda",
+  "python_executable": "/home/ubuntu/projects/leetgpu-lab/.venv/bin/python3",
+  "cutlass_root": null,
+  "attention_backend_root": null,
+  "local_wheelhouse": null,
+  "local_aot_cache": null,
+  "pretrained_models": [],
+  "input_datasets": [],
+  "old_resource_locks": [
+    "/home/ubuntu/文档/ChatGPT/numa_gpu/SOURCE_LOCKS.json"
+  ],
+  "checked_roots": [
+    "/home/ubuntu/projects/leetgpu-lab/.venv/lib/python3.12/site-packages",
+    "/home/ubuntu/projects/cuda-study/.venv/lib",
+    "/home/ubuntu/projects/ComfyUI",
+    "/home/ubuntu/projects/leetgpu-challenges",
+    "/home/ubuntu/文档/ChatGPT/numa_gpu/vendor",
+    "/home/ubuntu/.cache/huggingface"
+  ],
+  "notes": "Installed Triton/PyTorch are the second and final mutable GEMM/attention source examined. No full CUTLASS dependency tree. Diffusion assets are not LLM assets."
+}

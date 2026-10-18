@@ -1,0 +1,15 @@
+{
+  "frozen_before_E5_formal": true,
+  "gemm_layer_prefill_repetitions": 128,
+  "attention_decode_repetitions": "clip(ceil((100 / (.014 + .4 * sum(KV_lengths)/16384))/128)*128,128,512)",
+  "development_sources": [
+    "attention_decode-001 qualification",
+    "attention_decode-030 qualification"
+  ],
+  "same_repetitions_all_variants_in_case": true,
+  "warmup": "at least 64 useful invocations and 300ms CUDA event span",
+  "notice": "Some tiny cases cannot reach 50ms at max512; some slow MATH controls exceed200ms at min128. Both retained. No request p99 inferred.",
+  "decode_graph_requests_per_replay": 16,
+  "decode_all_variants_equal_graph_batching": true,
+  "formal_E5_started": false
+}

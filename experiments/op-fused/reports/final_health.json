@@ -1,0 +1,6 @@
+{
+  "recorded_at": "2026-10-15T10:20:56.313623+00:00",
+  "gpu": "uuid, name, temperature.gpu, memory.used [MiB], memory.free [MiB], power.limit [W], ecc.errors.uncorrected.volatile.total\nGPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5, Tesla T10, 61, 2 MiB, 14910 MiB, 125.00 W, 0\n",
+  "compute_processes": "pid, process_name, used_gpu_memory [MiB]\n",
+  "existing_thermal_service": "active"
+}

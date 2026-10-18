@@ -1,0 +1,9 @@
+{
+  "diff-gaussian-rasterization": "59f5f77e3ddbac3ed9db93ec2cfe99ed6c5d121d",
+  "diff-gaussian-rasterization/third_party/glm": "5c46b9c07008ae65cb81ab79cd677ecc1934b903",
+  "cub": "c493b3bf143ccd66c917a1982ea64bb2a8a82932",
+  "thrust": "1ac51f2b6219ff17d15d93f2e0be85038556f346",
+  "CUDALibrarySamples": "07c4f09223302ce4310eef945ed458e092598d17",
+  "cuda_sanitizer": "12.8.93",
+  "note": "Licenses retained with each source; downloaded models are referenced by source hash, not redistributed."
+}

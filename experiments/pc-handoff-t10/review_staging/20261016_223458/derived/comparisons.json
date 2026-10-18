@@ -1,0 +1,4202 @@
+[
+  {
+    "stage": "E2_BRIDGE",
+    "effect": "G/LIB",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      0.09508508301791231,
+      0.1060123666339687,
+      0.20961503355366987,
+      0.1096546808672829
+    ],
+    "ratio": 1.1389329223392897,
+    "gain_percent": -13.893292233928968,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.103765463142751,
+      1.2016725365281915
+    ],
+    "gain_percent_ci": [
+      -20.16725365281915,
+      -10.376546314275092
+    ]
+  },
+  {
+    "stage": "E2_BRIDGE",
+    "effect": "G/LIB",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      0.028282525925942287,
+      0.1280520122092752,
+      0.1370958540067896,
+      -0.07353325691745291
+    ],
+    "ratio": 1.056513444821579,
+    "gain_percent": -5.651344482157894,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.977128666967318,
+      1.1417634270875647
+    ],
+    "gain_percent_ci": [
+      -14.176342708756472,
+      2.287133303268196
+    ]
+  },
+  {
+    "stage": "E2_BRIDGE",
+    "effect": "G/LIB",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      0.011918317802629586,
+      0.12619988476283306,
+      0.1409376200351686,
+      -0.09026816264573617
+    ],
+    "ratio": 1.0483284203353227,
+    "gain_percent": -4.83284203353227,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.961582492096288,
+      1.1428998405398438
+    ],
+    "gain_percent_ci": [
+      -14.289984053984384,
+      3.841750790371201
+    ]
+  },
+  {
+    "stage": "E2_BRIDGE",
+    "effect": "M/G",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ratio": 1.0,
+    "gain_percent": 0.0,
+    "confidence_level": 0.95,
+    "structural_identity": true,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0,
+      1.0
+    ],
+    "gain_percent_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "stage": "E2_BRIDGE",
+    "effect": "M/G",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ratio": 1.0,
+    "gain_percent": 0.0,
+    "confidence_level": 0.95,
+    "structural_identity": true,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0,
+      1.0
+    ],
+    "gain_percent_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "stage": "E2_BRIDGE",
+    "effect": "M/G",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ratio": 1.0,
+    "gain_percent": 0.0,
+    "confidence_level": 0.95,
+    "structural_identity": true,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0,
+      1.0
+    ],
+    "gain_percent_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "stage": "E2_BRIDGE",
+    "effect": "M/LIB",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      0.09508508301791231,
+      0.1060123666339687,
+      0.20961503355366987,
+      0.1096546808672829
+    ],
+    "ratio": 1.1389329223392897,
+    "gain_percent": -13.893292233928968,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.103765463142751,
+      1.2016725365281915
+    ],
+    "gain_percent_ci": [
+      -20.16725365281915,
+      -10.376546314275092
+    ]
+  },
+  {
+    "stage": "E2_BRIDGE",
+    "effect": "M/LIB",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      0.028282525925942287,
+      0.1280520122092752,
+      0.1370958540067896,
+      -0.07353325691745291
+    ],
+    "ratio": 1.056513444821579,
+    "gain_percent": -5.651344482157894,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.977128666967318,
+      1.1417634270875647
+    ],
+    "gain_percent_ci": [
+      -14.176342708756472,
+      2.287133303268196
+    ]
+  },
+  {
+    "stage": "E2_BRIDGE",
+    "effect": "M/LIB",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      0.011918317802629586,
+      0.12619988476283306,
+      0.1409376200351686,
+      -0.09026816264573617
+    ],
+    "ratio": 1.0483284203353227,
+    "gain_percent": -4.83284203353227,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.961582492096288,
+      1.1428998405398438
+    ],
+    "gain_percent_ci": [
+      -14.289984053984384,
+      3.841750790371201
+    ]
+  },
+  {
+    "stage": "E2_BRIDGE",
+    "effect": "M/P",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      0.004868841611789062,
+      -0.014772709418740574,
+      -0.006178877526314682,
+      0.000786380052097216
+    ],
+    "ratio": 0.9961832112054466,
+    "gain_percent": 0.3816788794553383,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9891760678654841,
+      1.0028316122940886
+    ],
+    "gain_percent_ci": [
+      -0.283161229408857,
+      1.0823932134515935
+    ]
+  },
+  {
+    "stage": "E2_BRIDGE",
+    "effect": "M/P",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      0.02087240879249383,
+      0.023261528651397686,
+      -0.0025258491452878466,
+      -0.017066737560636792
+    ],
+    "ratio": 1.0061541974192953,
+    "gain_percent": -0.6154197419295349,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9902515340243472,
+      1.0223122451225368
+    ],
+    "gain_percent_ci": [
+      -2.2312245122536822,
+      0.974846597565282
+    ]
+  },
+  {
+    "stage": "E2_BRIDGE",
+    "effect": "M/P",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      0.021073519825842598,
+      0.025919201878802426,
+      -0.0006012626362364928,
+      -0.009210104906601095
+    ],
+    "ratio": 1.009338674369402,
+    "gain_percent": -0.9338674369401945,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9951063294428423,
+      1.023774575072983
+    ],
+    "gain_percent_ci": [
+      -2.3774575072982973,
+      0.48936705571577255
+    ]
+  },
+  {
+    "stage": "E2_COUNTERFACTUAL",
+    "effect": "OTHER_WORKSPACE/NATURAL",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      -0.018172877760738254,
+      -0.013786031326267276,
+      0.012396949717308587,
+      0.0038839261400705357
+    ],
+    "ratio": 0.9960881629395012,
+    "gain_percent": 0.3911837060498802,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9841475396080364,
+      1.0081736613834933
+    ],
+    "gain_percent_ci": [
+      -0.8173661383493291,
+      1.585246039196364
+    ]
+  },
+  {
+    "stage": "E2_COUNTERFACTUAL",
+    "effect": "OTHER_WORKSPACE/NATURAL",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      0.002695998520764091,
+      -0.019327571991465002,
+      0.007509491274311056,
+      0.04321606330518384
+    ],
+    "ratio": 1.0085599236886433,
+    "gain_percent": -0.8559923688643334,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9874609708527397,
+      1.0336394771036623
+    ],
+    "gain_percent_ci": [
+      -3.363947710366233,
+      1.253902914726035
+    ]
+  },
+  {
+    "stage": "E2_COUNTERFACTUAL",
+    "effect": "OTHER_WORKSPACE/NATURAL",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      0.0012483376576703543,
+      -0.019361214120497672,
+      -0.008329831301806648,
+      0.043837124855525565
+    ],
+    "ratio": 1.0043580731728077,
+    "gain_percent": -0.4358073172807675,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9858916427831318,
+      1.0312744689131463
+    ],
+    "gain_percent_ci": [
+      -3.1274468913146336,
+      1.4108357216868206
+    ]
+  },
+  {
+    "stage": "E2_COUNTERFACTUAL",
+    "effect": "REVERSE_C/NATURAL",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      -0.007476220670688705,
+      -0.0013866693697095571,
+      0.0066016428398127285,
+      -0.0005169888029322225
+    ],
+    "ratio": 0.9993056821493892,
+    "gain_percent": 0.06943178506108039,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9942800090958595,
+      1.0046151820856306
+    ],
+    "gain_percent_ci": [
+      -0.4615182085630609,
+      0.5719990904140548
+    ]
+  },
+  {
+    "stage": "E2_COUNTERFACTUAL",
+    "effect": "REVERSE_C/NATURAL",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      -0.010983783261549016,
+      -0.06379638685329267,
+      -0.023658650002717236,
+      0.00295485886631072
+    ],
+    "ratio": 0.9764116681966859,
+    "gain_percent": 2.35883318033141,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9506652883537745,
+      0.9963083127438118
+    ],
+    "gain_percent_ci": [
+      0.3691687256188181,
+      4.933471164622549
+    ]
+  },
+  {
+    "stage": "E2_COUNTERFACTUAL",
+    "effect": "REVERSE_C/NATURAL",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      -0.015954149187260454,
+      -0.10293442073310692,
+      -0.028898043070744603,
+      0.002100218412964362
+    ],
+    "ratio": 0.9642336881610739,
+    "gain_percent": 3.576631183892609,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9220190879753284,
+      0.9943665805950236
+    ],
+    "gain_percent_ci": [
+      0.5633419404976414,
+      7.798091202467161
+    ]
+  },
+  {
+    "stage": "E2_COUNTERFACTUAL",
+    "effect": "REVERSE_SUBMIT/NATURAL",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      -0.004650540782991207,
+      -0.013167296954906654,
+      0.026284894101564763,
+      0.0002002257065937019
+    ],
+    "ratio": 1.0021691697696389,
+    "gain_percent": -0.2169169769638879,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9902226954116689,
+      1.0187241748187188
+    ],
+    "gain_percent_ci": [
+      -1.8724174818718797,
+      0.9777304588331148
+    ]
+  },
+  {
+    "stage": "E2_COUNTERFACTUAL",
+    "effect": "REVERSE_SUBMIT/NATURAL",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      -0.030443097743851278,
+      -0.016843012073375616,
+      -0.007955571992236395,
+      0.025962507980709242
+    ],
+    "ratio": 0.9927069309853844,
+    "gain_percent": 0.7293069014615572,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9754842971253925,
+      1.0153781736389318
+    ],
+    "gain_percent_ci": [
+      -1.5378173638931791,
+      2.451570287460747
+    ]
+  },
+  {
+    "stage": "E2_COUNTERFACTUAL",
+    "effect": "REVERSE_SUBMIT/NATURAL",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      -0.03114570731712181,
+      -0.013877100033017458,
+      -0.010353180510516173,
+      0.027560849300087908
+    ],
+    "ratio": 0.9930703369757099,
+    "gain_percent": 0.69296630242901,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9743861698650614,
+      1.0173501573301749
+    ],
+    "gain_percent_ci": [
+      -1.7350157330174865,
+      2.5613830134938564
+    ]
+  },
+  {
+    "stage": "E2_COUNTERFACTUAL",
+    "effect": "REVERSE_TASKS/NATURAL",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      -0.005911608421370587,
+      -0.007514143143137968,
+      -0.006684453195455987,
+      -0.004556270926062728
+    ],
+    "ratio": 0.9938523556499361,
+    "gain_percent": 0.6147644350063874,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9929117316592927,
+      0.9949246070599562
+    ],
+    "gain_percent_ci": [
+      0.5075392940043777,
+      0.7088268340707304
+    ]
+  },
+  {
+    "stage": "E2_COUNTERFACTUAL",
+    "effect": "REVERSE_TASKS/NATURAL",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      -0.025891359173840462,
+      -0.045367939149810986,
+      -0.028082148233650045,
+      0.026593898712750905
+    ],
+    "ratio": 0.9819774964183867,
+    "gain_percent": 1.802250358161328,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9603103224953298,
+      1.0130087743498295
+    ],
+    "gain_percent_ci": [
+      -1.30087743498295,
+      3.968967750467023
+    ]
+  },
+  {
+    "stage": "E2_COUNTERFACTUAL",
+    "effect": "REVERSE_TASKS/NATURAL",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      -0.026655617469611436,
+      -0.042922381653976965,
+      -0.034726971602983686,
+      0.023197071535353067
+    ],
+    "ratio": 0.9799272205719263,
+    "gain_percent": 2.007277942807373,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9618895088213767,
+      1.008754156208611
+    ],
+    "gain_percent_ci": [
+      -0.8754156208611086,
+      3.8110491178623307
+    ]
+  },
+  {
+    "stage": "E2_COUNTERFACTUAL",
+    "effect": "SCRATCH/NATURAL",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      1.1354598023994154,
+      1.1382905721511818,
+      1.1515221984729962,
+      1.1528255414391448
+    ],
+    "ratio": 3.140947571051441,
+    "gain_percent": -214.09475710514408,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      3.1170130493169528,
+      3.165065878134785
+    ],
+    "gain_percent_ci": [
+      -216.50658781347852,
+      -211.7013049316953
+    ]
+  },
+  {
+    "stage": "E2_COUNTERFACTUAL",
+    "effect": "SCRATCH/NATURAL",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      0.9817132766109026,
+      0.9473786095150846,
+      0.9694571082049541,
+      1.0305187806968632
+    ],
+    "ratio": 2.6705032659147094,
+    "gain_percent": -167.05032659147093,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      2.6011724255433526,
+      2.7600626053617545
+    ],
+    "gain_percent_ci": [
+      -176.00626053617546,
+      -160.11724255433526
+    ]
+  },
+  {
+    "stage": "E2_COUNTERFACTUAL",
+    "effect": "SCRATCH/NATURAL",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 24,
+    "block_log_ratios": [
+      1.0246833288321218,
+      0.9932033608786514,
+      1.0110927223565693,
+      1.074676749112574
+    ],
+    "ratio": 2.7896441427444207,
+    "gain_percent": -178.96441427444208,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      2.7212010704611056,
+      2.8828539041229737
+    ],
+    "gain_percent_ci": [
+      -188.28539041229737,
+      -172.12010704611055
+    ]
+  },
+  {
+    "stage": "E3",
+    "effect": "CORE/LIB",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 12,
+    "case_ids": [
+      "G002",
+      "G005",
+      "G008",
+      "G012",
+      "G017",
+      "G021",
+      "G026",
+      "G030",
+      "G035",
+      "G039",
+      "G044",
+      "G048"
+    ],
+    "paired_observations": 72,
+    "block_log_ratios": [
+      0.2995974283441563,
+      0.2917840179909373,
+      0.3172887935325113,
+      0.3354445871784435,
+      0.3572936228290826,
+      0.36088691397878386
+    ],
+    "ratio": 1.3868697473654863,
+    "gain_percent": -38.68697473654863,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.357868302694233,
+      1.4164906068882024
+    ],
+    "gain_percent_ci": [
+      -41.64906068882024,
+      -35.786830269423305
+    ]
+  },
+  {
+    "stage": "E3",
+    "effect": "CORE/LIB",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 12,
+    "case_ids": [
+      "G002",
+      "G005",
+      "G008",
+      "G012",
+      "G017",
+      "G021",
+      "G026",
+      "G030",
+      "G035",
+      "G039",
+      "G044",
+      "G048"
+    ],
+    "paired_observations": 72,
+    "block_log_ratios": [
+      0.19008325883566501,
+      0.2017219494181333,
+      0.1781609457339428,
+      0.21058704450966068,
+      0.23532338615452983,
+      0.22331646014452167
+    ],
+    "ratio": 1.2294072886940441,
+    "gain_percent": -22.940728869404413,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.2110239408269103,
+      1.2481462954461569
+    ],
+    "gain_percent_ci": [
+      -24.814629544615684,
+      -21.102394082691035
+    ]
+  },
+  {
+    "stage": "E3",
+    "effect": "CORE/LIB",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 12,
+    "case_ids": [
+      "G002",
+      "G005",
+      "G008",
+      "G012",
+      "G017",
+      "G021",
+      "G026",
+      "G030",
+      "G035",
+      "G039",
+      "G044",
+      "G048"
+    ],
+    "paired_observations": 72,
+    "block_log_ratios": [
+      0.18993970896983892,
+      0.20062466566952322,
+      0.17829837573609839,
+      0.2117382403301674,
+      0.22790755212539002,
+      0.22270967624298396
+    ],
+    "ratio": 1.227774322674522,
+    "gain_percent": -22.77743226745219,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.2109258344576321,
+      1.2447477435805507
+    ],
+    "gain_percent_ci": [
+      -24.474774358055072,
+      -21.092583445763214
+    ]
+  },
+  {
+    "stage": "E3",
+    "effect": "M/CORE",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 12,
+    "case_ids": [
+      "G002",
+      "G005",
+      "G008",
+      "G012",
+      "G017",
+      "G021",
+      "G026",
+      "G030",
+      "G035",
+      "G039",
+      "G044",
+      "G048"
+    ],
+    "paired_observations": 72,
+    "block_log_ratios": [
+      0.010752338327870585,
+      0.004618982476714308,
+      0.0031242666787053702,
+      -0.036819245129705365,
+      0.008442032278409497,
+      0.023643495770521133
+    ],
+    "ratio": 1.0022962774831574,
+    "gain_percent": -0.22962774831574162,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9854175197678472,
+      1.0147723887408104
+    ],
+    "gain_percent_ci": [
+      -1.4772388740810438,
+      1.4582480232152806
+    ]
+  },
+  {
+    "stage": "E3",
+    "effect": "M/CORE",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 12,
+    "case_ids": [
+      "G002",
+      "G005",
+      "G008",
+      "G012",
+      "G017",
+      "G021",
+      "G026",
+      "G030",
+      "G035",
+      "G039",
+      "G044",
+      "G048"
+    ],
+    "paired_observations": 72,
+    "block_log_ratios": [
+      0.02913848594296324,
+      0.008698489698616908,
+      0.06811821433509413,
+      0.05397517549423664,
+      0.009794760131497746,
+      -0.0010059655144881504
+    ],
+    "ratio": 1.0285189553307081,
+    "gain_percent": -2.851895533070814,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.009094151864114,
+      1.05059968778182
+    ],
+    "gain_percent_ci": [
+      -5.059968778182,
+      -0.9094151864114108
+    ]
+  },
+  {
+    "stage": "E3",
+    "effect": "M/CORE",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 12,
+    "case_ids": [
+      "G002",
+      "G005",
+      "G008",
+      "G012",
+      "G017",
+      "G021",
+      "G026",
+      "G030",
+      "G035",
+      "G039",
+      "G044",
+      "G048"
+    ],
+    "paired_observations": 72,
+    "block_log_ratios": [
+      0.029072491986823115,
+      0.009644434844179938,
+      0.06950558738618338,
+      0.05395171788271986,
+      0.011779289033288141,
+      0.0016053133607827166
+    ],
+    "ratio": 1.0296920796485218,
+    "gain_percent": -2.969207964852183,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0106144843895102,
+      1.0514788142249065
+    ],
+    "gain_percent_ci": [
+      -5.147881422490652,
+      -1.0614484389510181
+    ]
+  },
+  {
+    "stage": "E3",
+    "effect": "M/G",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 12,
+    "case_ids": [
+      "G002",
+      "G005",
+      "G008",
+      "G012",
+      "G017",
+      "G021",
+      "G026",
+      "G030",
+      "G035",
+      "G039",
+      "G044",
+      "G048"
+    ],
+    "paired_observations": 72,
+    "block_log_ratios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ratio": 1.0,
+    "gain_percent": 0.0,
+    "confidence_level": 0.975,
+    "structural_identity": true,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0,
+      1.0
+    ],
+    "gain_percent_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "stage": "E3",
+    "effect": "M/G",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 12,
+    "case_ids": [
+      "G002",
+      "G005",
+      "G008",
+      "G012",
+      "G017",
+      "G021",
+      "G026",
+      "G030",
+      "G035",
+      "G039",
+      "G044",
+      "G048"
+    ],
+    "paired_observations": 72,
+    "block_log_ratios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ratio": 1.0,
+    "gain_percent": 0.0,
+    "confidence_level": 0.975,
+    "structural_identity": true,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0,
+      1.0
+    ],
+    "gain_percent_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "stage": "E3",
+    "effect": "M/G",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 12,
+    "case_ids": [
+      "G002",
+      "G005",
+      "G008",
+      "G012",
+      "G017",
+      "G021",
+      "G026",
+      "G030",
+      "G035",
+      "G039",
+      "G044",
+      "G048"
+    ],
+    "paired_observations": 72,
+    "block_log_ratios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ratio": 1.0,
+    "gain_percent": 0.0,
+    "confidence_level": 0.975,
+    "structural_identity": true,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0,
+      1.0
+    ],
+    "gain_percent_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "stage": "E3",
+    "effect": "M/LIB",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 12,
+    "case_ids": [
+      "G002",
+      "G005",
+      "G008",
+      "G012",
+      "G017",
+      "G021",
+      "G026",
+      "G030",
+      "G035",
+      "G039",
+      "G044",
+      "G048"
+    ],
+    "paired_observations": 72,
+    "block_log_ratios": [
+      0.31034976667202685,
+      0.2964030004676516,
+      0.3204130602112167,
+      0.29862534204873814,
+      0.3657356551074922,
+      0.384530409749305
+    ],
+    "ratio": 1.390054385138434,
+    "gain_percent": -39.005438513843394,
+    "confidence_level": 0.975,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.3524073655881212,
+      1.4354533810777812
+    ],
+    "gain_percent_ci": [
+      -43.54533810777812,
+      -35.240736558812124
+    ]
+  },
+  {
+    "stage": "E3",
+    "effect": "M/LIB",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 12,
+    "case_ids": [
+      "G002",
+      "G005",
+      "G008",
+      "G012",
+      "G017",
+      "G021",
+      "G026",
+      "G030",
+      "G035",
+      "G039",
+      "G044",
+      "G048"
+    ],
+    "paired_observations": 72,
+    "block_log_ratios": [
+      0.21922174477862832,
+      0.21042043911675026,
+      0.2462791600690369,
+      0.26456222000389734,
+      0.2451181462860276,
+      0.22231049463003358
+    ],
+    "ratio": 1.2644687002435568,
+    "gain_percent": -26.446870024355682,
+    "confidence_level": 0.975,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.2440188448459892,
+      1.2865786796598706
+    ],
+    "gain_percent_ci": [
+      -28.65786796598706,
+      -24.401884484598924
+    ]
+  },
+  {
+    "stage": "E3",
+    "effect": "M/LIB",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 12,
+    "case_ids": [
+      "G002",
+      "G005",
+      "G008",
+      "G012",
+      "G017",
+      "G021",
+      "G026",
+      "G030",
+      "G035",
+      "G039",
+      "G044",
+      "G048"
+    ],
+    "paired_observations": 72,
+    "block_log_ratios": [
+      0.21901220095666205,
+      0.21026910051370315,
+      0.24780396312228173,
+      0.2656899582128872,
+      0.23968684115867825,
+      0.2243149896037666
+    ],
+    "ratio": 1.2642294956537838,
+    "gain_percent": -26.422949565378385,
+    "confidence_level": 0.975,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.2445191475767576,
+      1.2865295652679778
+    ],
+    "gain_percent_ci": [
+      -28.65295652679778,
+      -24.451914757675763
+    ]
+  },
+  {
+    "stage": "E3",
+    "effect": "M/P",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 12,
+    "case_ids": [
+      "G002",
+      "G005",
+      "G008",
+      "G012",
+      "G017",
+      "G021",
+      "G026",
+      "G030",
+      "G035",
+      "G039",
+      "G044",
+      "G048"
+    ],
+    "paired_observations": 72,
+    "block_log_ratios": [
+      0.015140720173060762,
+      0.016552407702711495,
+      0.01166651708928583,
+      0.010650310922861084,
+      -0.007651684671875841,
+      0.012792107429668166
+    ],
+    "ratio": 1.0099071505117587,
+    "gain_percent": -0.9907150511758722,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0025897978035854,
+      1.014796902328037
+    ],
+    "gain_percent_ci": [
+      -1.4796902328036987,
+      -0.25897978035853697
+    ]
+  },
+  {
+    "stage": "E3",
+    "effect": "M/P",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 12,
+    "case_ids": [
+      "G002",
+      "G005",
+      "G008",
+      "G012",
+      "G017",
+      "G021",
+      "G026",
+      "G030",
+      "G035",
+      "G039",
+      "G044",
+      "G048"
+    ],
+    "paired_observations": 72,
+    "block_log_ratios": [
+      0.01324040627623349,
+      0.01670587455801738,
+      0.05579371307215452,
+      0.07551024881963599,
+      -0.019245161026161566,
+      -0.041639355625675535
+    ],
+    "ratio": 1.01686831103981,
+    "gain_percent": -1.6868311039810013,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9853816863545041,
+      1.0499673139389791
+    ],
+    "gain_percent_ci": [
+      -4.996731393897913,
+      1.4618313645495928
+    ]
+  },
+  {
+    "stage": "E3",
+    "effect": "M/P",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 12,
+    "case_ids": [
+      "G002",
+      "G005",
+      "G008",
+      "G012",
+      "G017",
+      "G021",
+      "G026",
+      "G030",
+      "G035",
+      "G039",
+      "G044",
+      "G048"
+    ],
+    "paired_observations": 72,
+    "block_log_ratios": [
+      0.01225212035955589,
+      0.018978863061636247,
+      0.05828228841638874,
+      0.07692113739495599,
+      0.010632613821794349,
+      -0.04208720475533825
+    ],
+    "ratio": 1.0227515940141811,
+    "gain_percent": -2.2751594014181142,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.99335145872274,
+      1.0533635295320773
+    ],
+    "gain_percent_ci": [
+      -5.336352953207735,
+      0.664854127726
+    ]
+  },
+  {
+    "stage": "E4_NATIVE_DEVELOPMENT",
+    "effect": "EFFICIENT/MATH",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0
+    ],
+    "n_blocks": 1,
+    "n_cases": 11,
+    "case_ids": [
+      "A001",
+      "A004",
+      "A007",
+      "A010",
+      "A013",
+      "A016",
+      "A019",
+      "A022",
+      "A025",
+      "A028",
+      "A031"
+    ],
+    "paired_observations": 11,
+    "block_log_ratios": [
+      -1.2981514236865874
+    ],
+    "ratio": 0.2730360547908385,
+    "gain_percent": 72.69639452091616,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": null,
+    "gain_percent_ci": null
+  },
+  {
+    "stage": "E4_NATIVE_DEVELOPMENT",
+    "effect": "EFFICIENT/MATH",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0
+    ],
+    "n_blocks": 1,
+    "n_cases": 11,
+    "case_ids": [
+      "A001",
+      "A004",
+      "A007",
+      "A010",
+      "A013",
+      "A016",
+      "A019",
+      "A022",
+      "A025",
+      "A028",
+      "A031"
+    ],
+    "paired_observations": 11,
+    "block_log_ratios": [
+      -1.2029646327909147
+    ],
+    "ratio": 0.30030260397323166,
+    "gain_percent": 69.96973960267682,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": null,
+    "gain_percent_ci": null
+  },
+  {
+    "stage": "E4_NATIVE_DEVELOPMENT",
+    "effect": "EFFICIENT/MATH",
+    "metric": "gpu_us",
+    "blocks": [
+      0
+    ],
+    "n_blocks": 1,
+    "n_cases": 11,
+    "case_ids": [
+      "A001",
+      "A004",
+      "A007",
+      "A010",
+      "A013",
+      "A016",
+      "A019",
+      "A022",
+      "A025",
+      "A028",
+      "A031"
+    ],
+    "paired_observations": 11,
+    "block_log_ratios": [
+      -1.2332902079394155
+    ],
+    "ratio": 0.2913324546894345,
+    "gain_percent": 70.86675453105656,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": null,
+    "gain_percent_ci": null
+  },
+  {
+    "stage": "E4_NATIVE_TEST",
+    "effect": "EFFICIENT/MATH",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 11,
+    "case_ids": [
+      "A002",
+      "A005",
+      "A008",
+      "A011",
+      "A014",
+      "A017",
+      "A020",
+      "A023",
+      "A026",
+      "A029",
+      "A032"
+    ],
+    "paired_observations": 66,
+    "block_log_ratios": [
+      -1.244050648181568,
+      -1.3613354056852771,
+      -1.3466754344313814,
+      -1.4034167578736614,
+      -1.4380297444886656,
+      -1.4007206084873385
+    ],
+    "ratio": 0.2552007556449638,
+    "gain_percent": 74.47992443550362,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.24456189018354324,
+      0.269003177228504
+    ],
+    "gain_percent_ci": [
+      73.0996822771496,
+      75.54381098164568
+    ]
+  },
+  {
+    "stage": "E4_NATIVE_TEST",
+    "effect": "EFFICIENT/MATH",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 11,
+    "case_ids": [
+      "A002",
+      "A005",
+      "A008",
+      "A011",
+      "A014",
+      "A017",
+      "A020",
+      "A023",
+      "A026",
+      "A029",
+      "A032"
+    ],
+    "paired_observations": 66,
+    "block_log_ratios": [
+      -1.2506002417390658,
+      -1.3792243747884847,
+      -1.3572653382707498,
+      -1.3742504380615204,
+      -1.3925612778018541,
+      -1.3608083193319271
+    ],
+    "ratio": 0.25860546883893876,
+    "gain_percent": 74.13945311610613,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.25142748361391404,
+      0.2698698571905677
+    ],
+    "gain_percent_ci": [
+      73.01301428094322,
+      74.85725163860859
+    ]
+  },
+  {
+    "stage": "E4_NATIVE_TEST",
+    "effect": "EFFICIENT/MATH",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 11,
+    "case_ids": [
+      "A002",
+      "A005",
+      "A008",
+      "A011",
+      "A014",
+      "A017",
+      "A020",
+      "A023",
+      "A026",
+      "A029",
+      "A032"
+    ],
+    "paired_observations": 66,
+    "block_log_ratios": [
+      -1.2613496488222855,
+      -1.3924285995188403,
+      -1.3690064398285027,
+      -1.3860714206538312,
+      -1.404419750591139,
+      -1.3747053779489788
+    ],
+    "ratio": 0.255466615939422,
+    "gain_percent": 74.4533384060578,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.24842474566123635,
+      0.26684688145337554
+    ],
+    "gain_percent_ci": [
+      73.31531185466244,
+      75.15752543387637
+    ]
+  },
+  {
+    "stage": "E5_ATTENTION_CHAIN",
+    "effect": "EFFICIENT/MATH",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "D001",
+      "D002",
+      "D003",
+      "D004",
+      "D005",
+      "D006"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      -0.6879946624089999,
+      -0.6903659863265849,
+      -0.6821844851983783,
+      -0.6918661287832504,
+      -0.6757144698698837,
+      -0.7020125302220871
+    ],
+    "ratio": 0.5024011488360195,
+    "gain_percent": 49.75988511639805,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.49916145684526836,
+      0.5056418491466274
+    ],
+    "gain_percent_ci": [
+      49.43581508533727,
+      50.08385431547316
+    ]
+  },
+  {
+    "stage": "E5_ATTENTION_CHAIN",
+    "effect": "EFFICIENT/MATH",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "D001",
+      "D002",
+      "D003",
+      "D004",
+      "D005",
+      "D006"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      -0.6363288317887091,
+      -0.642138342810663,
+      -0.6454492314058509,
+      -0.6445027307525312,
+      -0.6614211969643299,
+      -0.6415704185944922
+    ],
+    "ratio": 0.5245391951253815,
+    "gain_percent": 47.54608048746185,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.5208793017275947,
+      0.5272809731615368
+    ],
+    "gain_percent_ci": [
+      47.27190268384632,
+      47.912069827240536
+    ]
+  },
+  {
+    "stage": "E5_ATTENTION_CHAIN",
+    "effect": "EFFICIENT/MATH",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "D001",
+      "D002",
+      "D003",
+      "D004",
+      "D005",
+      "D006"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      -0.6458089629655035,
+      -0.6511093019004939,
+      -0.6542975566115665,
+      -0.6754925354059585,
+      -0.658593257059791,
+      -0.6506453556105581
+    ],
+    "ratio": 0.5189274666311824,
+    "gain_percent": 48.10725333688176,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.5145854799346191,
+      0.5222327418287454
+    ],
+    "gain_percent_ci": [
+      47.77672581712547,
+      48.54145200653809
+    ]
+  },
+  {
+    "stage": "E5_DEPENDENCY_INTERACTION",
+    "effect": "F0_M/F0_G",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ratio": 1.0,
+    "gain_percent": 0.0,
+    "confidence_level": 0.95,
+    "structural_identity": true,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0,
+      1.0
+    ],
+    "gain_percent_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "stage": "E5_DEPENDENCY_INTERACTION",
+    "effect": "F0_M/F0_G",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ratio": 1.0,
+    "gain_percent": 0.0,
+    "confidence_level": 0.95,
+    "structural_identity": true,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0,
+      1.0
+    ],
+    "gain_percent_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "stage": "E5_DEPENDENCY_INTERACTION",
+    "effect": "F0_M/F0_G",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ratio": 1.0,
+    "gain_percent": 0.0,
+    "confidence_level": 0.95,
+    "structural_identity": true,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0,
+      1.0
+    ],
+    "gain_percent_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "stage": "E5_DEPENDENCY_INTERACTION",
+    "effect": "F1_G/F0_G",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.0014197088085858081,
+      0.010663442446079767,
+      0.012388566453271776,
+      -0.005653639800653623,
+      -0.0011650403896659792,
+      0.021338675946978053
+    ],
+    "ratio": 1.0065197807507147,
+    "gain_percent": -0.6519780750714688,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9993794269427886,
+      1.0141285227290096
+    ],
+    "gain_percent_ci": [
+      -1.4128522729009552,
+      0.06205730572114154
+    ]
+  },
+  {
+    "stage": "E5_DEPENDENCY_INTERACTION",
+    "effect": "F1_G/F0_G",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      -0.00033647887532145077,
+      0.014594325516247732,
+      0.014323683141332462,
+      0.05839886872672002,
+      0.0019715267710802785,
+      0.010776150135922197
+    ],
+    "ratio": 1.0167602489907546,
+    "gain_percent": -1.6760248990754567,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.004531972081803,
+      1.0348977020212387
+    ],
+    "gain_percent_ci": [
+      -3.4897702021238652,
+      -0.4531972081802893
+    ]
+  },
+  {
+    "stage": "E5_DEPENDENCY_INTERACTION",
+    "effect": "F1_G/F0_G",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.00047148208155027224,
+      0.014206565223618227,
+      0.018559579481766914,
+      0.05385204954816609,
+      0.000924804963251444,
+      0.0119515040898416
+    ],
+    "ratio": 1.0168005660238322,
+    "gain_percent": -1.6800566023832175,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0048367668091105,
+      1.0330764375087544
+    ],
+    "gain_percent_ci": [
+      -3.307643750875444,
+      -0.4836766809110493
+    ]
+  },
+  {
+    "stage": "E5_DEPENDENCY_INTERACTION",
+    "effect": "F1_M/F0_M",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.0014197088085858081,
+      0.010663442446079767,
+      0.012388566453271776,
+      -0.005653639800653623,
+      -0.0011650403896659792,
+      0.021338675946978053
+    ],
+    "ratio": 1.0065197807507147,
+    "gain_percent": -0.6519780750714688,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9993794269427886,
+      1.0141285227290096
+    ],
+    "gain_percent_ci": [
+      -1.4128522729009552,
+      0.06205730572114154
+    ]
+  },
+  {
+    "stage": "E5_DEPENDENCY_INTERACTION",
+    "effect": "F1_M/F0_M",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      -0.00033647887532145077,
+      0.014594325516247732,
+      0.014323683141332462,
+      0.05839886872672002,
+      0.0019715267710802785,
+      0.010776150135922197
+    ],
+    "ratio": 1.0167602489907546,
+    "gain_percent": -1.6760248990754567,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.004531972081803,
+      1.0348977020212387
+    ],
+    "gain_percent_ci": [
+      -3.4897702021238652,
+      -0.4531972081802893
+    ]
+  },
+  {
+    "stage": "E5_DEPENDENCY_INTERACTION",
+    "effect": "F1_M/F0_M",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.00047148208155027224,
+      0.014206565223618227,
+      0.018559579481766914,
+      0.05385204954816609,
+      0.000924804963251444,
+      0.0119515040898416
+    ],
+    "ratio": 1.0168005660238322,
+    "gain_percent": -1.6800566023832175,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0048367668091105,
+      1.0330764375087544
+    ],
+    "gain_percent_ci": [
+      -3.307643750875444,
+      -0.4836766809110493
+    ]
+  },
+  {
+    "stage": "E5_DEPENDENCY_INTERACTION",
+    "effect": "F1_M/F1_G",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ratio": 1.0,
+    "gain_percent": 0.0,
+    "confidence_level": 0.95,
+    "structural_identity": true,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0,
+      1.0
+    ],
+    "gain_percent_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "stage": "E5_DEPENDENCY_INTERACTION",
+    "effect": "F1_M/F1_G",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ratio": 1.0,
+    "gain_percent": 0.0,
+    "confidence_level": 0.95,
+    "structural_identity": true,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0,
+      1.0
+    ],
+    "gain_percent_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "stage": "E5_DEPENDENCY_INTERACTION",
+    "effect": "F1_M/F1_G",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ratio": 1.0,
+    "gain_percent": 0.0,
+    "confidence_level": 0.95,
+    "structural_identity": true,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0,
+      1.0
+    ],
+    "gain_percent_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "stage": "E5_GEMM_CHAIN",
+    "effect": "CORE/LIB",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "F001",
+      "F002",
+      "F003",
+      "F004",
+      "F005",
+      "F006"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.14920750261461135,
+      0.12620773623595072,
+      0.12885404676027665,
+      -0.014461583234542807,
+      -0.017038208587021177,
+      0.06511249899301523
+    ],
+    "ratio": 1.0757093797948174,
+    "gain_percent": -7.57093797948174,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0211784848910084,
+      1.1326657089009315
+    ],
+    "gain_percent_ci": [
+      -13.266570890093154,
+      -2.1178484891008376
+    ]
+  },
+  {
+    "stage": "E5_GEMM_CHAIN",
+    "effect": "CORE/LIB",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "F001",
+      "F002",
+      "F003",
+      "F004",
+      "F005",
+      "F006"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.08513576803730705,
+      0.0871195019674359,
+      0.11837132778876862,
+      -0.04467391250806744,
+      -0.09134899932570077,
+      0.09768412959998762
+    ],
+    "ratio": 1.0429445068270156,
+    "gain_percent": -4.294450682701556,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9758845972524164,
+      1.104476232315521
+    ],
+    "gain_percent_ci": [
+      -10.447623231552106,
+      2.4115402747583614
+    ]
+  },
+  {
+    "stage": "E5_GEMM_CHAIN",
+    "effect": "CORE/LIB",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "F001",
+      "F002",
+      "F003",
+      "F004",
+      "F005",
+      "F006"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.09484786119112713,
+      0.093405659457159,
+      0.1652611543939253,
+      -0.05042875978768923,
+      -0.09744612203527758,
+      0.10683029135376902
+    ],
+    "ratio": 1.0534582750274515,
+    "gain_percent": -5.3458275027451485,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9748107780779831,
+      1.1278532314179934
+    ],
+    "gain_percent_ci": [
+      -12.785323141799342,
+      2.518922192201689
+    ]
+  },
+  {
+    "stage": "E5_GEMM_CHAIN",
+    "effect": "M/CORE",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "F001",
+      "F002",
+      "F003",
+      "F004",
+      "F005",
+      "F006"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      -0.12449251205687478,
+      -0.10635003209364163,
+      -0.030190222242323955,
+      0.1636006213669072,
+      0.18359445097724034,
+      -0.027761384427257507
+    ],
+    "ratio": 1.0097810113722177,
+    "gain_percent": -0.9781011372217652,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9194430474440854,
+      1.1123533386849271
+    ],
+    "gain_percent_ci": [
+      -11.235333868492713,
+      8.055695255591456
+    ]
+  },
+  {
+    "stage": "E5_GEMM_CHAIN",
+    "effect": "M/CORE",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "F001",
+      "F002",
+      "F003",
+      "F004",
+      "F005",
+      "F006"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      -0.16523776989008745,
+      -0.18797942762880904,
+      0.0049379405436196285,
+      0.15282585228358805,
+      0.10155549429857408,
+      0.014463030739396754
+    ],
+    "ratio": 0.9868481054206103,
+    "gain_percent": 1.31518945793897,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.8903923366828377,
+      1.090285689519426
+    ],
+    "gain_percent_ci": [
+      -9.028568951942596,
+      10.960766331716233
+    ]
+  },
+  {
+    "stage": "E5_GEMM_CHAIN",
+    "effect": "M/CORE",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "F001",
+      "F002",
+      "F003",
+      "F004",
+      "F005",
+      "F006"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      -0.18443600807641977,
+      -0.2075535271336941,
+      3.328621269258446e-05,
+      0.16449690874925818,
+      0.10975756967357934,
+      0.010354006136651344
+    ],
+    "ratio": 0.9822678048870958,
+    "gain_percent": 1.7732195112904248,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.8775230264663245,
+      1.0957392557436902
+    ],
+    "gain_percent_ci": [
+      -9.573925574369024,
+      12.247697353367549
+    ]
+  },
+  {
+    "stage": "E5_GEMM_CHAIN",
+    "effect": "M/G",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "F001",
+      "F002",
+      "F003",
+      "F004",
+      "F005",
+      "F006"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ratio": 1.0,
+    "gain_percent": 0.0,
+    "confidence_level": 0.95,
+    "structural_identity": true,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0,
+      1.0
+    ],
+    "gain_percent_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "stage": "E5_GEMM_CHAIN",
+    "effect": "M/G",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "F001",
+      "F002",
+      "F003",
+      "F004",
+      "F005",
+      "F006"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ratio": 1.0,
+    "gain_percent": 0.0,
+    "confidence_level": 0.95,
+    "structural_identity": true,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0,
+      1.0
+    ],
+    "gain_percent_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "stage": "E5_GEMM_CHAIN",
+    "effect": "M/G",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "F001",
+      "F002",
+      "F003",
+      "F004",
+      "F005",
+      "F006"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ratio": 1.0,
+    "gain_percent": 0.0,
+    "confidence_level": 0.95,
+    "structural_identity": true,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0,
+      1.0
+    ],
+    "gain_percent_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "stage": "E5_GEMM_CHAIN",
+    "effect": "M/LIB",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "F001",
+      "F002",
+      "F003",
+      "F004",
+      "F005",
+      "F006"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.02471499055773654,
+      0.019857704142309016,
+      0.0986638245179527,
+      0.14913903813236443,
+      0.16655624239021913,
+      0.037351114565757744
+    ],
+    "ratio": 1.0862309054717916,
+    "gain_percent": -8.623090547179157,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0382397399450471,
+      1.1397441234106291
+    ],
+    "gain_percent_ci": [
+      -13.974412341062914,
+      -3.8239739945047146
+    ]
+  },
+  {
+    "stage": "E5_GEMM_CHAIN",
+    "effect": "M/LIB",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "F001",
+      "F002",
+      "F003",
+      "F004",
+      "F005",
+      "F006"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      -0.08010200185278035,
+      -0.10085992566137314,
+      0.12330926833238826,
+      0.10815193977552066,
+      0.010206494972873292,
+      0.11214716033938434
+    ],
+    "ratio": 1.029227810621073,
+    "gain_percent": -2.9227810621073047,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9560014893577115,
+      1.103196507846191
+    ],
+    "gain_percent_ci": [
+      -10.319650784619094,
+      4.399851064228855
+    ]
+  },
+  {
+    "stage": "E5_GEMM_CHAIN",
+    "effect": "M/LIB",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "F001",
+      "F002",
+      "F003",
+      "F004",
+      "F005",
+      "F006"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      -0.08958814688529265,
+      -0.11414786767653513,
+      0.1652944406066178,
+      0.11406814896156887,
+      0.012311447638301743,
+      0.11718429749042032
+    ],
+    "ratio": 1.034778147351361,
+    "gain_percent": -3.477814735136109,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9503337640103093,
+      1.122123469838787
+    ],
+    "gain_percent_ci": [
+      -12.212346983878696,
+      4.966623598969067
+    ]
+  },
+  {
+    "stage": "E5_LAYOUT_INTERACTION",
+    "effect": "LAYOUT0_LEARNED/LAYOUT0_NEUTRAL",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ratio": 1.0,
+    "gain_percent": 0.0,
+    "confidence_level": 0.95,
+    "structural_identity": true,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0,
+      1.0
+    ],
+    "gain_percent_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "stage": "E5_LAYOUT_INTERACTION",
+    "effect": "LAYOUT0_LEARNED/LAYOUT0_NEUTRAL",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ratio": 1.0,
+    "gain_percent": 0.0,
+    "confidence_level": 0.95,
+    "structural_identity": true,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0,
+      1.0
+    ],
+    "gain_percent_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "stage": "E5_LAYOUT_INTERACTION",
+    "effect": "LAYOUT0_LEARNED/LAYOUT0_NEUTRAL",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ratio": 1.0,
+    "gain_percent": 0.0,
+    "confidence_level": 0.95,
+    "structural_identity": true,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0,
+      1.0
+    ],
+    "gain_percent_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "stage": "E5_LAYOUT_INTERACTION",
+    "effect": "LAYOUT1_LEARNED/LAYOUT0_LEARNED",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.01837059544345182,
+      -0.009358436217940407,
+      -0.0019626522631428114,
+      0.004931946153681323,
+      0.012921593659293074,
+      0.006364960214127017
+    ],
+    "ratio": 1.0052249371208783,
+    "gain_percent": -0.5224937120878348,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9979713237003651,
+      1.012389671284716
+    ],
+    "gain_percent_ci": [
+      -1.238967128471602,
+      0.20286762996348795
+    ]
+  },
+  {
+    "stage": "E5_LAYOUT_INTERACTION",
+    "effect": "LAYOUT1_LEARNED/LAYOUT0_LEARNED",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.02652844982369833,
+      0.016800982026543756,
+      0.0008538873020320142,
+      -0.032329799839046,
+      -0.002572955684122857,
+      0.02545898167915202
+    ],
+    "ratio": 1.005806718225634,
+    "gain_percent": -0.5806718225634055,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9880420681786084,
+      1.0204784868498658
+    ],
+    "gain_percent_ci": [
+      -2.047848684986575,
+      1.1957931821391599
+    ]
+  },
+  {
+    "stage": "E5_LAYOUT_INTERACTION",
+    "effect": "LAYOUT1_LEARNED/LAYOUT0_LEARNED",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.028659167065339223,
+      0.017653170040645743,
+      0.00026094425942092613,
+      -0.035858279249543074,
+      -0.0029739211609812097,
+      0.023359403092096043
+    ],
+    "ratio": 1.0051968711394659,
+    "gain_percent": -0.5196871139465875,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9864873520876252,
+      1.0208844494311706
+    ],
+    "gain_percent_ci": [
+      -2.0884449431170626,
+      1.351264791237483
+    ]
+  },
+  {
+    "stage": "E5_LAYOUT_INTERACTION",
+    "effect": "LAYOUT1_LEARNED/LAYOUT1_NEUTRAL",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ratio": 1.0,
+    "gain_percent": 0.0,
+    "confidence_level": 0.95,
+    "structural_identity": true,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0,
+      1.0
+    ],
+    "gain_percent_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "stage": "E5_LAYOUT_INTERACTION",
+    "effect": "LAYOUT1_LEARNED/LAYOUT1_NEUTRAL",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ratio": 1.0,
+    "gain_percent": 0.0,
+    "confidence_level": 0.95,
+    "structural_identity": true,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0,
+      1.0
+    ],
+    "gain_percent_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "stage": "E5_LAYOUT_INTERACTION",
+    "effect": "LAYOUT1_LEARNED/LAYOUT1_NEUTRAL",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ratio": 1.0,
+    "gain_percent": 0.0,
+    "confidence_level": 0.95,
+    "structural_identity": true,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0,
+      1.0
+    ],
+    "gain_percent_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "stage": "E5_LAYOUT_INTERACTION",
+    "effect": "LAYOUT1_NEUTRAL/LAYOUT0_NEUTRAL",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.01837059544345182,
+      -0.009358436217940407,
+      -0.0019626522631428114,
+      0.004931946153681323,
+      0.012921593659293074,
+      0.006364960214127017
+    ],
+    "ratio": 1.0052249371208783,
+    "gain_percent": -0.5224937120878348,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9979713237003651,
+      1.012389671284716
+    ],
+    "gain_percent_ci": [
+      -1.238967128471602,
+      0.20286762996348795
+    ]
+  },
+  {
+    "stage": "E5_LAYOUT_INTERACTION",
+    "effect": "LAYOUT1_NEUTRAL/LAYOUT0_NEUTRAL",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.02652844982369833,
+      0.016800982026543756,
+      0.0008538873020320142,
+      -0.032329799839046,
+      -0.002572955684122857,
+      0.02545898167915202
+    ],
+    "ratio": 1.005806718225634,
+    "gain_percent": -0.5806718225634055,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9880420681786084,
+      1.0204784868498658
+    ],
+    "gain_percent_ci": [
+      -2.047848684986575,
+      1.1957931821391599
+    ]
+  },
+  {
+    "stage": "E5_LAYOUT_INTERACTION",
+    "effect": "LAYOUT1_NEUTRAL/LAYOUT0_NEUTRAL",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_blocks": 6,
+    "n_cases": 6,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "paired_observations": 36,
+    "block_log_ratios": [
+      0.028659167065339223,
+      0.017653170040645743,
+      0.00026094425942092613,
+      -0.035858279249543074,
+      -0.0029739211609812097,
+      0.023359403092096043
+    ],
+    "ratio": 1.0051968711394659,
+    "gain_percent": -0.5196871139465875,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9864873520876252,
+      1.0208844494311706
+    ],
+    "gain_percent_ci": [
+      -2.0884449431170626,
+      1.351264791237483
+    ]
+  },
+  {
+    "stage": "E5_SPLIT_WORKSPACE",
+    "effect": "M/P_S2",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 3,
+    "case_ids": [
+      "G016",
+      "G025",
+      "G046"
+    ],
+    "paired_observations": 12,
+    "block_log_ratios": [
+      0.020002378645391092,
+      -0.02384723456663319,
+      -0.016901925913919227,
+      -0.0002464952884792479
+    ],
+    "ratio": 0.9947654290842747,
+    "gain_percent": 0.5234570915725323,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9798315790096169,
+      1.0108345759895263
+    ],
+    "gain_percent_ci": [
+      -1.0834575989526307,
+      2.0168420990383074
+    ]
+  },
+  {
+    "stage": "E5_SPLIT_WORKSPACE",
+    "effect": "M/P_S2",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 3,
+    "case_ids": [
+      "G016",
+      "G025",
+      "G046"
+    ],
+    "paired_observations": 12,
+    "block_log_ratios": [
+      -0.034618612206971454,
+      -0.004416582808321467,
+      -0.03182702993661508,
+      -0.012615957398237029
+    ],
+    "ratio": 0.9793467163368655,
+    "gain_percent": 2.065328366313446,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9673229956271715,
+      0.9915198906007068
+    ],
+    "gain_percent_ci": [
+      0.8480109399293223,
+      3.26770043728285
+    ]
+  },
+  {
+    "stage": "E5_SPLIT_WORKSPACE",
+    "effect": "M/P_S2",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 3,
+    "case_ids": [
+      "G016",
+      "G025",
+      "G046"
+    ],
+    "paired_observations": 12,
+    "block_log_ratios": [
+      -0.03489688643789942,
+      -0.004759780589106918,
+      -0.034813694655538095,
+      -0.015842454738486115
+    ],
+    "ratio": 0.9776747760224949,
+    "gain_percent": 2.2325223977505138,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9657451586002137,
+      0.9897517571365062
+    ],
+    "gain_percent_ci": [
+      1.0248242863493795,
+      3.4254841399786295
+    ]
+  },
+  {
+    "stage": "E5_SPLIT_WORKSPACE",
+    "effect": "M/P_S8",
+    "metric": "batch_per_replay_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 3,
+    "case_ids": [
+      "G016",
+      "G025",
+      "G046"
+    ],
+    "paired_observations": 12,
+    "block_log_ratios": [
+      0.008492042102976835,
+      0.016641119962161544,
+      0.006583824010179074,
+      0.15745432156644823
+    ],
+    "ratio": 1.0484289723506999,
+    "gain_percent": -4.842897235069987,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      1.0075664147934593,
+      1.127737881708182
+    ],
+    "gain_percent_ci": [
+      -12.7737881708182,
+      -0.756641479345932
+    ]
+  },
+  {
+    "stage": "E5_SPLIT_WORKSPACE",
+    "effect": "M/P_S8",
+    "metric": "cpu_ready_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 3,
+    "case_ids": [
+      "G016",
+      "G025",
+      "G046"
+    ],
+    "paired_observations": 12,
+    "block_log_ratios": [
+      -0.036142125395410056,
+      0.06205678575346594,
+      -0.016458381668835172,
+      -0.03336494281667443
+    ],
+    "ratio": 0.9940406616875912,
+    "gain_percent": 0.5959338312408802,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9658434343901658,
+      1.0389404062212217
+    ],
+    "gain_percent_ci": [
+      -3.8940406221221746,
+      3.4156565609834155
+    ]
+  },
+  {
+    "stage": "E5_SPLIT_WORKSPACE",
+    "effect": "M/P_S8",
+    "metric": "gpu_us",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_blocks": 4,
+    "n_cases": 3,
+    "case_ids": [
+      "G016",
+      "G025",
+      "G046"
+    ],
+    "paired_observations": 12,
+    "block_log_ratios": [
+      -0.03991510934252004,
+      0.06380518732678118,
+      -0.01778208295318356,
+      -0.027755779973069262
+    ],
+    "ratio": 0.9946026719626736,
+    "gain_percent": 0.5397328037326399,
+    "confidence_level": 0.95,
+    "structural_identity": false,
+    "bootstrap_unit": "whole process block; equal case-weight mean log ratio within each block",
+    "sampling_caveat": "Six process blocks on one device/day are not independent hardware replicas.",
+    "ratio_ci": [
+      0.9662024871147034,
+      1.0417634951058747
+    ],
+    "gain_percent_ci": [
+      -4.176349510587474,
+      3.3797512885296643
+    ]
+  }
+]

@@ -1,0 +1,2 @@
+name, uuid, temperature.gpu, power.limit [W], power.draw [W], utilization.gpu [%], memory.used [MiB]
+Tesla T10, GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5, 65, 100.00 W, 53.01 W, 0 %, 212 MiB

@@ -1,0 +1,27 @@
+{
+  "old": {
+    "LDG.E.U16": 2,
+    "LDG.E.128": 0,
+    "STS.128": 0
+  },
+  "vector": {
+    "LDG.E.U16": 0,
+    "LDG.E.128": 2,
+    "STS.128": 2
+  },
+  "coarse_spills": {
+    "compiled_variants": 40,
+    "spill_stores_bytes": 0,
+    "spill_loads_bytes": 0
+  },
+  "vector_spills": {
+    "compiled_variants": 36,
+    "spill_stores_bytes": 0,
+    "spill_loads_bytes": 0
+  },
+  "vector_append_spills": {
+    "compiled_variants": 37,
+    "spill_stores_bytes": 0,
+    "spill_loads_bytes": 0
+  }
+}

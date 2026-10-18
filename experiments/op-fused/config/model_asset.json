@@ -1,0 +1,29 @@
+{
+  "path": "/home/ubuntu/projects/ComfyUI/models/text_encoders/qwen_3_06b_base.safetensors",
+  "bytes": 1192135096,
+  "sha256": "cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba",
+  "provenance": "existing local ComfyUI asset; original download URL/license not independently verified offline",
+  "model_identity": "local key shapes plus local Qwen3_06BConfig; not independently certified official weights",
+  "full_model_execution": "NOT_RUN",
+  "other_asset": "qwen35_4b has linear attention; no candidate integration, not selected",
+  "stored_dtype": "BF16",
+  "reason": [
+    "No integrated candidate for full-model test",
+    "Local asset uses BF16; no preexisting qualified FP16 full-model quality contract",
+    "Source checkpoint origin not independently verified offline"
+  ],
+  "config_source": "/home/ubuntu/projects/ComfyUI/comfy/text_encoders/llama.py:195",
+  "shape": {
+    "hidden": 1024,
+    "intermediate": 3072,
+    "layers": 28,
+    "q_heads": 16,
+    "kv_heads": 8,
+    "head_dim": 128
+  },
+  "backend_environment": {
+    "torch": "2.9.1+cu130",
+    "transformers": "5.17.0",
+    "python": "/home/ubuntu/projects/ComfyUI/.venv/bin/python3"
+  }
+}

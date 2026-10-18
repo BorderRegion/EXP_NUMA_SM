@@ -1,0 +1,890 @@
+{
+  "aa_ready_independent_outside5pct": 8,
+  "claim_1pct_precision": false,
+  "confirmed_implementation_fact": "Legacy cnt+=64; cnt%4==0 conditioning onlyslot0",
+  "timing_api_bug_confirmed": false,
+  "new_physical_NUMA_evidence": false,
+  "selector_changed": false,
+  "main_pairs": [
+    {
+      "kind": "single_pair",
+      "case": "V14",
+      "metric": "cpu",
+      "by_order": {
+        "ABBA": {
+          "blocks": [
+            0,
+            2,
+            4
+          ],
+          "ratios": [
+            1.6011102249379676,
+            0.995115453158369,
+            1.0189868749895257
+          ],
+          "geomean_ratio": 1.175315410389331
+        },
+        "BAAB": {
+          "blocks": [
+            1,
+            3,
+            5
+          ],
+          "ratios": [
+            1.467055623665973,
+            1.4665657984908949,
+            1.4649597521055686
+          ],
+          "geomean_ratio": 1.4661934514231274
+        }
+      },
+      "absolute_B_minus_A_us": [
+        2334.5777413793103,
+        824.5845172413792,
+        -197.40087931034486,
+        823.4489655172415,
+        -113.76675862068987,
+        821.4161379310344
+      ],
+      "blocks": 6,
+      "geomean_B_over_A": 1.3127222699678416,
+      "time_increase_pct": 31.27222699678416,
+      "time_increase_ci95": [
+        13.678119095760465,
+        51.00006867494826
+      ],
+      "ratios": [
+        1.6011102249379676,
+        1.467055623665973,
+        0.995115453158369,
+        1.4665657984908949,
+        1.0189868749895257,
+        1.4649597521055686
+      ],
+      "scope": "Exploratory whole-block bootstrap on paired log ratios"
+    },
+    {
+      "kind": "single_pair",
+      "case": "V14",
+      "metric": "gpu",
+      "by_order": {
+        "ABBA": {
+          "blocks": [
+            0,
+            2,
+            4
+          ],
+          "ratios": [
+            1.6022908048274116,
+            0.9955144948063339,
+            1.0188319875315288
+          ],
+          "geomean_ratio": 1.1757017554171538
+        },
+        "BAAB": {
+          "blocks": [
+            1,
+            3,
+            5
+          ],
+          "ratios": [
+            1.4694164182004912,
+            1.4673562660122406,
+            1.4673919533468125
+          ],
+          "geomean_ratio": 1.4680545635238071
+        }
+      },
+      "absolute_B_minus_A_us": [
+        2333.772720961735,
+        825.4019371394454,
+        -197.2612348096127,
+        821.8361365384071,
+        -114.59307218420099,
+        822.2797184154908
+      ],
+      "blocks": 6,
+      "geomean_B_over_A": 1.3137710330887584,
+      "time_increase_pct": 31.377103308875842,
+      "time_increase_ci95": [
+        13.733813226407165,
+        51.17289608403477
+      ],
+      "ratios": [
+        1.6022908048274116,
+        1.4694164182004912,
+        0.9955144948063339,
+        1.4673562660122406,
+        1.0188319875315288,
+        1.4673919533468125
+      ],
+      "scope": "Exploratory whole-block bootstrap on paired log ratios"
+    },
+    {
+      "kind": "single_pair",
+      "case": "V15",
+      "metric": "cpu",
+      "by_order": {
+        "ABBA": {
+          "blocks": [
+            0,
+            2,
+            4
+          ],
+          "ratios": [
+            1.7019871671256113,
+            0.7404904122988722,
+            0.7347424881691885
+          ],
+          "geomean_ratio": 0.9746984868792019
+        },
+        "BAAB": {
+          "blocks": [
+            1,
+            3,
+            5
+          ],
+          "ratios": [
+            0.738281895805608,
+            0.7235680937556723,
+            0.7253409049610985
+          ],
+          "geomean_ratio": 0.7290342504749662
+        }
+      },
+      "absolute_B_minus_A_us": [
+        3172.5690961538467,
+        -1181.191557692308,
+        -1173.7410192307698,
+        -1252.869076923077,
+        -1197.7246538461536,
+        -1243.34875
+      ],
+      "blocks": 6,
+      "geomean_B_over_A": 0.8429641634263361,
+      "time_increase_pct": -15.703583657366394,
+      "time_increase_ci95": [
+        -27.154942876982744,
+        11.775936792165375
+      ],
+      "ratios": [
+        1.7019871671256113,
+        0.738281895805608,
+        0.7404904122988722,
+        0.7235680937556723,
+        0.7347424881691885,
+        0.7253409049610985
+      ],
+      "scope": "Exploratory whole-block bootstrap on paired log ratios"
+    },
+    {
+      "kind": "single_pair",
+      "case": "V15",
+      "metric": "gpu",
+      "by_order": {
+        "ABBA": {
+          "blocks": [
+            0,
+            2,
+            4
+          ],
+          "ratios": [
+            1.702965005285423,
+            0.7400300571689277,
+            0.7345056397357256
+          ],
+          "geomean_ratio": 0.9745783048159767
+        },
+        "BAAB": {
+          "blocks": [
+            1,
+            3,
+            5
+          ],
+          "ratios": [
+            0.7381302991542393,
+            0.7234834403164848,
+            0.7247289614277039
+          ],
+          "geomean_ratio": 0.7287508621854571
+        }
+      },
+      "absolute_B_minus_A_us": [
+        3171.525579232435,
+        -1179.5230920498184,
+        -1173.8578539628252,
+        -1250.480642685523,
+        -1196.6301707121038,
+        -1244.1692214745744
+      ],
+      "blocks": 6,
+      "geomean_B_over_A": 0.8427483490947248,
+      "time_increase_pct": -15.725165090527515,
+      "time_increase_ci95": [
+        -27.184679530705324,
+        11.790447084932598
+      ],
+      "ratios": [
+        1.702965005285423,
+        0.7381302991542393,
+        0.7400300571689277,
+        0.7234834403164848,
+        0.7345056397357256,
+        0.7247289614277039
+      ],
+      "scope": "Exploratory whole-block bootstrap on paired log ratios"
+    },
+    {
+      "kind": "single_pair",
+      "case": "V16",
+      "metric": "cpu",
+      "by_order": {
+        "ABBA": {
+          "blocks": [
+            0,
+            2,
+            4
+          ],
+          "ratios": [
+            1.76133505018175,
+            1.764287307688658,
+            1.7585523588111978
+          ],
+          "geomean_ratio": 1.7613900157780693
+        },
+        "BAAB": {
+          "blocks": [
+            1,
+            3,
+            5
+          ],
+          "ratios": [
+            1.7622359303675625,
+            1.761230633200979,
+            1.7609102205073288
+          ],
+          "geomean_ratio": 1.7614588374923208
+        }
+      },
+      "absolute_B_minus_A_us": [
+        6797.563571428573,
+        6802.317892857143,
+        6820.346464285714,
+        6793.2592857142845,
+        6770.6941428571445,
+        6787.3958571428575
+      ],
+      "blocks": 6,
+      "geomean_B_over_A": 1.761424426299073,
+      "time_increase_pct": 76.14244262990731,
+      "time_increase_ci95": [
+        76.00049981806731,
+        76.27757253944915
+      ],
+      "ratios": [
+        1.76133505018175,
+        1.7622359303675625,
+        1.764287307688658,
+        1.761230633200979,
+        1.7585523588111978,
+        1.7609102205073288
+      ],
+      "scope": "Exploratory whole-block bootstrap on paired log ratios"
+    },
+    {
+      "kind": "single_pair",
+      "case": "V16",
+      "metric": "gpu",
+      "by_order": {
+        "ABBA": {
+          "blocks": [
+            0,
+            2,
+            4
+          ],
+          "ratios": [
+            1.7622663866653894,
+            1.7649030152910852,
+            1.7590755584325395
+          ],
+          "geomean_ratio": 1.762080042431897
+        },
+        "BAAB": {
+          "blocks": [
+            1,
+            3,
+            5
+          ],
+          "ratios": [
+            1.7633438442740395,
+            1.761813985875901,
+            1.7618009537322632
+          ],
+          "geomean_ratio": 1.7623194458262366
+        }
+      },
+      "absolute_B_minus_A_us": [
+        6798.839977809363,
+        6803.204672677177,
+        6819.911990846907,
+        6792.761019298006,
+        6770.001104899815,
+        6788.853713444301
+      ],
+      "blocks": 6,
+      "geomean_B_over_A": 1.7621997400635527,
+      "time_increase_pct": 76.21997400635527,
+      "time_increase_ci95": [
+        76.06967550669567,
+        76.35087436570073
+      ],
+      "ratios": [
+        1.7622663866653894,
+        1.7633438442740395,
+        1.7649030152910852,
+        1.761813985875901,
+        1.7590755584325395,
+        1.7618009537322632
+      ],
+      "scope": "Exploratory whole-block bootstrap on paired log ratios"
+    },
+    {
+      "kind": "ffn_pair",
+      "case": "F3",
+      "metric": "cpu",
+      "by_order": {
+        "ABBA": {
+          "blocks": [
+            0,
+            2,
+            4
+          ],
+          "ratios": [
+            1.0004628939611269,
+            0.9840950394718592,
+            1.0004920693787316
+          ],
+          "geomean_ratio": 0.9949865871311848
+        },
+        "BAAB": {
+          "blocks": [
+            1,
+            3,
+            5
+          ],
+          "ratios": [
+            0.9999291815746927,
+            1.004701731580805,
+            1.0003621615818608
+          ],
+          "geomean_ratio": 1.0016620423469624
+        }
+      },
+      "absolute_B_minus_A_us": [
+        1.0123157894731776,
+        -0.15459210526296374,
+        -34.466223684210945,
+        9.905565789474167,
+        1.0356447368421868,
+        0.7627236842108687
+      ],
+      "blocks": 6,
+      "geomean_B_over_A": 0.9983187351610989,
+      "time_increase_pct": -0.16812648389010754,
+      "time_increase_ci95": [
+        -0.7783263134311436,
+        0.24789612779378967
+      ],
+      "ratios": [
+        1.0004628939611269,
+        0.9999291815746927,
+        0.9840950394718592,
+        1.004701731580805,
+        1.0004920693787316,
+        1.0003621615818608
+      ],
+      "scope": "Exploratory whole-block bootstrap on paired log ratios"
+    },
+    {
+      "kind": "ffn_pair",
+      "case": "F3",
+      "metric": "gpu",
+      "by_order": {
+        "ABBA": {
+          "blocks": [
+            0,
+            2,
+            4
+          ],
+          "ratios": [
+            1.000370217488439,
+            0.9840953661469466,
+            1.0000849048603342
+          ],
+          "geomean_ratio": 0.9948209843931237
+        },
+        "BAAB": {
+          "blocks": [
+            1,
+            3,
+            5
+          ],
+          "ratios": [
+            0.9994759921464959,
+            1.005214760664932,
+            0.9998642307387605
+          ],
+          "geomean_ratio": 1.0015149087212212
+        }
+      },
+      "absolute_B_minus_A_us": [
+        0.8067551412086686,
+        -1.1410524970606275,
+        -34.36041192004541,
+        10.943566498003293,
+        0.17808299315629483,
+        -0.2850764676149993
+      ],
+      "blocks": 6,
+      "geomean_B_over_A": 0.998162335183228,
+      "time_increase_pct": -0.18376648167720555,
+      "time_increase_ci95": [
+        -0.7967889635516645,
+        0.25079079266858706
+      ],
+      "ratios": [
+        1.000370217488439,
+        0.9994759921464959,
+        0.9840953661469466,
+        1.005214760664932,
+        1.0000849048603342,
+        0.9998642307387605
+      ],
+      "scope": "Exploratory whole-block bootstrap on paired log ratios"
+    },
+    {
+      "kind": "ffn_pair",
+      "case": "F4",
+      "metric": "cpu",
+      "by_order": {
+        "ABBA": {
+          "blocks": [
+            0,
+            2,
+            4
+          ],
+          "ratios": [
+            1.361263527493227,
+            1.3588290907497111,
+            1.3594096664412711
+          ],
+          "geomean_ratio": 1.3598336987000115
+        },
+        "BAAB": {
+          "blocks": [
+            1,
+            3,
+            5
+          ],
+          "ratios": [
+            1.361948937031602,
+            1.3611143111256403,
+            1.3595846553604731
+          ],
+          "geomean_ratio": 1.360882282296133
+        }
+      },
+      "absolute_B_minus_A_us": [
+        6588.7894375,
+        6594.846937499999,
+        6547.251000000004,
+        6584.7458750000005,
+        6554.104499999998,
+        6555.518937500001
+      ],
+      "blocks": 6,
+      "geomean_B_over_A": 1.360357889465145,
+      "time_increase_pct": 36.035788946514494,
+      "time_increase_ci95": [
+        35.94572467190489,
+        36.127825071539846
+      ],
+      "ratios": [
+        1.361263527493227,
+        1.361948937031602,
+        1.3588290907497111,
+        1.3611143111256403,
+        1.3594096664412711,
+        1.3595846553604731
+      ],
+      "scope": "Exploratory whole-block bootstrap on paired log ratios"
+    },
+    {
+      "kind": "ffn_pair",
+      "case": "F4",
+      "metric": "gpu",
+      "by_order": {
+        "ABBA": {
+          "blocks": [
+            0,
+            2,
+            4
+          ],
+          "ratios": [
+            1.3613432723351335,
+            1.3590230380540556,
+            1.3593730924594052
+          ],
+          "geomean_ratio": 1.3599127509003903
+        },
+        "BAAB": {
+          "blocks": [
+            1,
+            3,
+            5
+          ],
+          "ratios": [
+            1.3622216982625979,
+            1.361169464774434,
+            1.359555658424033
+          ],
+          "geomean_ratio": 1.360981832113346
+        }
+      },
+      "absolute_B_minus_A_us": [
+        6586.79986000061,
+        6596.033930778503,
+        6547.889828681946,
+        6582.412123680115,
+        6550.761818885803,
+        6552.126169204712
+      ],
+      "blocks": 6,
+      "geomean_B_over_A": 1.3604471864922627,
+      "time_increase_pct": 36.04471864922627,
+      "time_increase_ci95": [
+        35.95556026208149,
+        36.14247751680164
+      ],
+      "ratios": [
+        1.3613432723351335,
+        1.3622216982625979,
+        1.3590230380540556,
+        1.361169464774434,
+        1.3593730924594052,
+        1.359555658424033
+      ],
+      "scope": "Exploratory whole-block bootstrap on paired log ratios"
+    },
+    {
+      "kind": "ffn_independent",
+      "case": "F4",
+      "metric": "cpu",
+      "by_order": {
+        "ABBA": {
+          "blocks": [
+            0,
+            2
+          ],
+          "ratios": [
+            1.8365681307473822,
+            1.6501673691381507
+          ],
+          "geomean_ratio": 1.740874722821369
+        },
+        "BAAB": {
+          "blocks": [
+            1,
+            3
+          ],
+          "ratios": [
+            1.3475017829547495,
+            1.2626659621171905
+          ],
+          "geomean_ratio": 1.3043943557180813
+        }
+      },
+      "absolute_B_minus_A_us": [
+        10695.537562499998,
+        6341.5189375000045,
+        9493.167562499999,
+        4855.365312499998
+      ],
+      "blocks": 4,
+      "geomean_B_over_A": 1.5069131237269364,
+      "time_increase_pct": 50.691312372693645,
+      "time_increase_ci95": [
+        30.439435571808126,
+        74.0874722821369
+      ],
+      "ratios": [
+        1.8365681307473822,
+        1.3475017829547495,
+        1.6501673691381507,
+        1.2626659621171905
+      ],
+      "scope": "Exploratory whole-block bootstrap on paired log ratios"
+    },
+    {
+      "kind": "ffn_independent",
+      "case": "F4",
+      "metric": "gpu",
+      "by_order": {
+        "ABBA": {
+          "blocks": [
+            0,
+            2
+          ],
+          "ratios": [
+            1.8367904448243577,
+            1.650467883810715
+          ],
+          "geomean_ratio": 1.7411386040384607
+        },
+        "BAAB": {
+          "blocks": [
+            1,
+            3
+          ],
+          "ratios": [
+            1.347679757622463,
+            1.2628619168407886
+          ],
+          "geomean_ratio": 1.3045817115070382
+        }
+      },
+      "absolute_B_minus_A_us": [
+        10692.996084690094,
+        6342.01192855835,
+        9492.746263742447,
+        4856.642156839371
+      ],
+      "blocks": 4,
+      "geomean_B_over_A": 1.5071355546292013,
+      "time_increase_pct": 50.713555462920134,
+      "time_increase_ci95": [
+        30.458171150703816,
+        74.11386040384606
+      ],
+      "ratios": [
+        1.8367904448243577,
+        1.347679757622463,
+        1.650467883810715,
+        1.2628619168407886
+      ],
+      "scope": "Exploratory whole-block bootstrap on paired log ratios"
+    }
+  ],
+  "actual_traces": [
+    {
+      "trace": "MIX_ALL16",
+      "phase": "warmup",
+      "policy": "FROZEN_BASE_BOUND",
+      "blocks": 6,
+      "ratio": 1.375401477177912,
+      "time_increase_pct": 37.54014771779119,
+      "ratio_ci95": [
+        1.314141558978614,
+        1.4325971714642887
+      ],
+      "time_increase_ci95": [
+        31.414155897861406,
+        43.25971714642887
+      ],
+      "block_ratios": [
+        1.344489287676805,
+        1.2540898134468097,
+        1.4133316964225136,
+        1.3345353425218256,
+        1.4332383613636799,
+        1.47770235346268
+      ],
+      "scope": "Exploratory whole-process-block bootstrap; not independent request samples or correction for state bias"
+    },
+    {
+      "trace": "MIX_ALL16",
+      "phase": "warmup",
+      "policy": "FROZEN_RESOURCE_DYNAMIC",
+      "blocks": 6,
+      "ratio": 1.3486825925266106,
+      "time_increase_pct": 34.86825925266106,
+      "ratio_ci95": [
+        1.288398399834758,
+        1.409023277626036
+      ],
+      "time_increase_ci95": [
+        28.83983998347579,
+        40.902327762603605
+      ],
+      "block_ratios": [
+        1.37639247499315,
+        1.2361780754546867,
+        1.4344329747039677,
+        1.3230242322039032,
+        1.2773892423326483,
+        1.4458612706151377
+      ],
+      "scope": "Exploratory whole-process-block bootstrap; not independent request samples or correction for state bias"
+    },
+    {
+      "trace": "MIX_ALL16",
+      "phase": "measure",
+      "policy": "FROZEN_BASE_BOUND",
+      "blocks": 6,
+      "ratio": 1.2898527998007632,
+      "time_increase_pct": 28.985279980076317,
+      "ratio_ci95": [
+        1.2875564935137693,
+        1.2914775134504868
+      ],
+      "time_increase_ci95": [
+        28.75564935137693,
+        29.14775134504868
+      ],
+      "block_ratios": [
+        1.2894017669853177,
+        1.291190313355305,
+        1.284300919300934,
+        1.291856430242647,
+        1.2917235224963695,
+        1.2906497191462118
+      ],
+      "scope": "Exploratory whole-process-block bootstrap; not independent request samples or correction for state bias"
+    },
+    {
+      "trace": "MIX_ALL16",
+      "phase": "measure",
+      "policy": "FROZEN_RESOURCE_DYNAMIC",
+      "blocks": 6,
+      "ratio": 1.2904324385570547,
+      "time_increase_pct": 29.04324385570547,
+      "ratio_ci95": [
+        1.2886373837564455,
+        1.2918336104548473
+      ],
+      "time_increase_ci95": [
+        28.863738375644555,
+        29.183361045484734
+      ],
+      "block_ratios": [
+        1.2905682549027624,
+        1.2923154860373027,
+        1.2861373702389918,
+        1.2924824568230258,
+        1.2908413623034445,
+        1.2902561817720486
+      ],
+      "scope": "Exploratory whole-process-block bootstrap; not independent request samples or correction for state bias"
+    },
+    {
+      "trace": "BURST_ALL16",
+      "phase": "warmup",
+      "policy": "FROZEN_BASE_BOUND",
+      "blocks": 6,
+      "ratio": 1.063641232394266,
+      "time_increase_pct": 6.364123239426589,
+      "ratio_ci95": [
+        1.0378551088984955,
+        1.089230549042488
+      ],
+      "time_increase_ci95": [
+        3.7855108898495526,
+        8.923054904248806
+      ],
+      "block_ratios": [
+        1.1123139907064659,
+        1.046906899541557,
+        1.0940107877768463,
+        1.0521999770984376,
+        1.0110996161912884,
+        1.0657648044261554
+      ],
+      "scope": "Exploratory whole-process-block bootstrap; not independent request samples or correction for state bias"
+    },
+    {
+      "trace": "BURST_ALL16",
+      "phase": "warmup",
+      "policy": "FROZEN_RESOURCE_DYNAMIC",
+      "blocks": 6,
+      "ratio": 1.051172958631622,
+      "time_increase_pct": 5.117295863162208,
+      "ratio_ci95": [
+        1.0263599779940697,
+        1.075763158472372
+      ],
+      "time_increase_ci95": [
+        2.635997799406975,
+        7.576315847237192
+      ],
+      "block_ratios": [
+        1.10301312137647,
+        1.0535999529678814,
+        1.0542133128269033,
+        1.0037113740545005,
+        1.0648914602064394,
+        1.0287050706249903
+      ],
+      "scope": "Exploratory whole-process-block bootstrap; not independent request samples or correction for state bias"
+    },
+    {
+      "trace": "BURST_ALL16",
+      "phase": "measure",
+      "policy": "FROZEN_BASE_BOUND",
+      "blocks": 6,
+      "ratio": 1.0131478380714611,
+      "time_increase_pct": 1.3147838071461138,
+      "ratio_ci95": [
+        0.9848092824197593,
+        1.0375601720311165
+      ],
+      "time_increase_ci95": [
+        -1.519071758024071,
+        3.75601720311165
+      ],
+      "block_ratios": [
+        1.0455937296485427,
+        0.9558048893053498,
+        0.9845086414495072,
+        1.041138820604602,
+        1.0150272273281509,
+        1.0367853640349982
+      ],
+      "scope": "Exploratory whole-process-block bootstrap; not independent request samples or correction for state bias"
+    },
+    {
+      "trace": "BURST_ALL16",
+      "phase": "measure",
+      "policy": "FROZEN_RESOURCE_DYNAMIC",
+      "blocks": 6,
+      "ratio": 0.9819356317462796,
+      "time_increase_pct": -1.8064368253720375,
+      "ratio_ci95": [
+        0.934368056823756,
+        1.0260015051411266
+      ],
+      "time_increase_ci95": [
+        -6.563194317624399,
+        2.6001505141126646
+      ],
+      "block_ratios": [
+        1.046603238343164,
+        0.9672209545187619,
+        0.892079104596548,
+        1.022710608470027,
+        1.0362572927239877,
+        0.9271306124199015
+      ],
+      "scope": "Exploratory whole-process-block bootstrap; not independent request samples or correction for state bias"
+    }
+  ],
+  "new_gpu_minutes": 67.95079095514762,
+  "cumulative_gpu_minutes": 308.7346722063162,
+  "temperatures": [
+    62,
+    77
+  ],
+  "clocks": [
+    300,
+    1590
+  ]
+}

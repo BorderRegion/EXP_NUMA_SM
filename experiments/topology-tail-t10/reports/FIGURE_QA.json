@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "figures": [
+    "NET_PRIMARY",
+    "DECOMPOSITION",
+    "MODEL_TRANSFER",
+    "SETUP_COST"
+  ],
+  "method": "Rendered PNGs visually inspected: readable labels, all intervals and candidates visible, no clipping or legend overlap that hides findings; corresponding PDF exports provided."
+}

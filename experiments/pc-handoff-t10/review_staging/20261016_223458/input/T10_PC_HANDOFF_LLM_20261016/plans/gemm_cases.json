@@ -1,0 +1,914 @@
+[
+  {
+    "case_id": "G001",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "development",
+    "M": 1,
+    "N": 1024,
+    "K": 4096,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G002",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 1,
+    "N": 1024,
+    "K": 16384,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G003",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 1,
+    "N": 4096,
+    "K": 4096,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G004",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "development",
+    "M": 1,
+    "N": 4096,
+    "K": 16384,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G005",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 1,
+    "N": 8192,
+    "K": 4096,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G006",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 1,
+    "N": 8192,
+    "K": 16384,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G007",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "development",
+    "M": 8,
+    "N": 1024,
+    "K": 4096,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G008",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 8,
+    "N": 1024,
+    "K": 16384,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G009",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 8,
+    "N": 4096,
+    "K": 4096,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G010",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "development",
+    "M": 8,
+    "N": 4096,
+    "K": 16384,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G011",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 8,
+    "N": 8192,
+    "K": 4096,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G012",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 8,
+    "N": 8192,
+    "K": 16384,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G013",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "development",
+    "M": 32,
+    "N": 1024,
+    "K": 4096,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G014",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 32,
+    "N": 1024,
+    "K": 16384,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G015",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 32,
+    "N": 4096,
+    "K": 4096,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G016",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "development",
+    "M": 32,
+    "N": 4096,
+    "K": 16384,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G017",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 32,
+    "N": 8192,
+    "K": 4096,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G018",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 32,
+    "N": 8192,
+    "K": 16384,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G019",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "development",
+    "M": 128,
+    "N": 1024,
+    "K": 4096,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G020",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 128,
+    "N": 1024,
+    "K": 16384,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G021",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 128,
+    "N": 4096,
+    "K": 4096,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G022",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "development",
+    "M": 128,
+    "N": 4096,
+    "K": 16384,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G023",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 128,
+    "N": 8192,
+    "K": 4096,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G024",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 128,
+    "N": 8192,
+    "K": 16384,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G025",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "development",
+    "M": 512,
+    "N": 1024,
+    "K": 4096,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G026",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 512,
+    "N": 1024,
+    "K": 16384,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G027",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 512,
+    "N": 4096,
+    "K": 4096,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G028",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "development",
+    "M": 512,
+    "N": 4096,
+    "K": 16384,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G029",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 512,
+    "N": 8192,
+    "K": 4096,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G030",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 512,
+    "N": 8192,
+    "K": 16384,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G031",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "development",
+    "M": 2048,
+    "N": 1024,
+    "K": 4096,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G032",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 2048,
+    "N": 1024,
+    "K": 16384,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G033",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 2048,
+    "N": 4096,
+    "K": 4096,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G034",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "development",
+    "M": 2048,
+    "N": 4096,
+    "K": 16384,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G035",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 2048,
+    "N": 8192,
+    "K": 4096,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G036",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 2048,
+    "N": 8192,
+    "K": 16384,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G037",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "development",
+    "M": 3,
+    "N": 1536,
+    "K": 8192,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G038",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 3,
+    "N": 4096,
+    "K": 8192,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G039",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 3,
+    "N": 11008,
+    "K": 8192,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G040",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "development",
+    "M": 17,
+    "N": 1536,
+    "K": 8192,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G041",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 17,
+    "N": 4096,
+    "K": 8192,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G042",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 17,
+    "N": 11008,
+    "K": 8192,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G043",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "development",
+    "M": 65,
+    "N": 1536,
+    "K": 8192,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G044",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 65,
+    "N": 4096,
+    "K": 8192,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G045",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 65,
+    "N": 11008,
+    "K": 8192,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G046",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "development",
+    "M": 257,
+    "N": 1536,
+    "K": 8192,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G047",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 257,
+    "N": 4096,
+    "K": 8192,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  },
+  {
+    "case_id": "G048",
+    "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+    "split": "test",
+    "M": 257,
+    "N": 11008,
+    "K": 8192,
+    "dtype_in": "fp16",
+    "accumulator": "fp32",
+    "output": "fp32",
+    "split_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "measured": false
+  }
+]

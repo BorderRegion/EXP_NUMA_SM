@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-18T08:00:45.862721+00:00",
+  "python": "3.12.3",
+  "torch": "2.8.0+cu128",
+  "numpy": "2.5.3",
+  "pandas": "2.3.3",
+  "torch_cuda": "12.8",
+  "repair": "CPU pandas dependency installed after development before confirmation; no timing rows lost or rerun"
+}

@@ -1,0 +1,265 @@
+{
+  "at_utc": "2026-10-18T15:11:01.613687+00:00",
+  "archives_verified": 36,
+  "members_verified": 132511,
+  "source_bytes_verified": 25856972219,
+  "compressed_hashes_verified": true,
+  "split_join_hashes_verified": true,
+  "asset_files_rehashed_after_split": true,
+  "original_git_bundle_independent_clone_and_fsck": true,
+  "results": [
+    {
+      "asset": "root.tar.zst",
+      "members": 8,
+      "bytes": 327447,
+      "verified": true,
+      "compressed_archive_sha256": "e49b852f051c919dc347d681f2067a024890ac8ef6a2dd67e29a799f5aec36a0"
+    },
+    {
+      "asset": "GPU_COMPUTE_TOPOLOGY_DUAL_20261014.tar.zst",
+      "members": 34,
+      "bytes": 121927,
+      "verified": true,
+      "compressed_archive_sha256": "6dd60ec8edb493a50d4507ee7e6fa639e5cf725555f53ac1e5eb737695cb674c"
+    },
+    {
+      "asset": "address-gemm-t10.tar.zst",
+      "members": 2715,
+      "bytes": 47293492,
+      "verified": true,
+      "compressed_archive_sha256": "30c55a84e4b08e66146aa3d676bba38d81b986b28a20e87fc09027b13a17c15f"
+    },
+    {
+      "asset": "address-gemm-v2-t10.tar.zst",
+      "members": 1647,
+      "bytes": 29793322,
+      "verified": true,
+      "compressed_archive_sha256": "dbb04060ecdef3c6d82c7df81f8603160d4ced5758e5fe63cc753b3557ca6477"
+    },
+    {
+      "asset": "assets.tar.zst",
+      "members": 33,
+      "bytes": 1792516286,
+      "verified": true,
+      "compressed_archive_sha256": "34c9dd0793de0be2c1fda05c7732f0d63b8d3d4d8908ba5e3c70f66be3a1f7f6"
+    },
+    {
+      "asset": "build.tar.zst",
+      "members": 178,
+      "bytes": 41994861,
+      "verified": true,
+      "compressed_archive_sha256": "19b179ad87d0b2fcc5351bda37b039b6e6f03ba4406ffb81c893e598a942209b"
+    },
+    {
+      "asset": "config.tar.zst",
+      "members": 1,
+      "bytes": 681,
+      "verified": true,
+      "compressed_archive_sha256": "e76bbfa18fa7d6a7ca9c9762323c125de5c13bfb64f3c4b65c1e00acb66a1e15"
+    },
+    {
+      "asset": "derived.tar.zst",
+      "members": 37,
+      "bytes": 11540181,
+      "verified": true,
+      "compressed_archive_sha256": "8bd588eb6be1930358d8a1eff423dca11f93ba52b5b07dc51ff9c5d8d867eab6"
+    },
+    {
+      "asset": "environment.tar.zst",
+      "members": 54,
+      "bytes": 321363,
+      "verified": true,
+      "compressed_archive_sha256": "fc67003cf57b1c1b77ffff86ca6cbfefa024cf85bc963b92724dad93913fa93a"
+    },
+    {
+      "asset": "exports.tar.zst",
+      "members": 20143,
+      "bytes": 2276053434,
+      "verified": true,
+      "compressed_archive_sha256": "49b1094d0a74b4d652ae68ee63975abfcdbd5c3690b37bbe49a205c16a205875"
+    },
+    {
+      "asset": "gpc-mask-t10.tar.zst",
+      "members": 3828,
+      "bytes": 149129514,
+      "verified": true,
+      "compressed_archive_sha256": "07a03e97209b8e4d75cfc171f8b0a9377ad01c49ffe365f45b7de75671563a45"
+    },
+    {
+      "asset": "incoming.tar.zst",
+      "members": 21,
+      "bytes": 164397,
+      "verified": true,
+      "compressed_archive_sha256": "e2ac14d09c544633a1eab0fd4604a4d75617a8eabe6163290dd7627f710f7f00"
+    },
+    {
+      "asset": "llm-decode-locality-t10.tar.zst",
+      "members": 1678,
+      "bytes": 132137408,
+      "verified": true,
+      "compressed_archive_sha256": "ccab62323a0a1ae81e96a6511e9a56dea7e57c186538f56b423a8f1a4423ee47"
+    },
+    {
+      "asset": "matched-pacing-t10.tar.zst",
+      "members": 209,
+      "bytes": 36799815,
+      "verified": true,
+      "compressed_archive_sha256": "33d193476241d84e0a786e6e1b63237a5635046622c4ca8cf3c9a4371f83c8fe"
+    },
+    {
+      "asset": "numa-affinity-causal-t10.tar.zst",
+      "members": 2640,
+      "bytes": 154251512,
+      "verified": true,
+      "compressed_archive_sha256": "7921fab3e265c00317561dbf546cbd1996c49eed6ad7f298e7f653ae05a27d56"
+    },
+    {
+      "asset": "numa-affinity-fastpath-t10.tar.zst",
+      "members": 3913,
+      "bytes": 327285046,
+      "verified": true,
+      "compressed_archive_sha256": "432e21ad67eb2b1a987a18a0da6526849b658f77f8bd2ea75a9823d4853736c1"
+    },
+    {
+      "asset": "numa-first-v3.tar.zst",
+      "members": 7650,
+      "bytes": 6125311483,
+      "verified": true,
+      "compressed_archive_sha256": "c4fcb103d4d1e6bcb66f38d26d94793d19a87f353b6dd220263fdc2967f7f409"
+    },
+    {
+      "asset": "numa-locality-scheduling-t10.tar.zst",
+      "members": 2204,
+      "bytes": 176564346,
+      "verified": true,
+      "compressed_archive_sha256": "199e3dbb88e7dfb7adb5e74d765727bdfc5ac006cd8e8b7e5446b8154115148d"
+    },
+    {
+      "asset": "op-fused.tar.zst",
+      "members": 57872,
+      "bytes": 1532416369,
+      "verified": true,
+      "compressed_archive_sha256": "fc87885b0728d84445a669ef1e8638d83a96f0fe452b3eb4e2baa71bfde758a6"
+    },
+    {
+      "asset": "pc-handoff-t10.tar.zst",
+      "members": 2759,
+      "bytes": 304512809,
+      "verified": true,
+      "compressed_archive_sha256": "8c8740b4ff44c5a399a20a2d0eb9bb621d8d6a24211232f5a023d3274a0e088e"
+    },
+    {
+      "asset": "preregistration.tar.zst",
+      "members": 96,
+      "bytes": 1380542,
+      "verified": true,
+      "compressed_archive_sha256": "062402120f0b624b9fb15311050096cfb54fde363b161a472954452e4d7b459c"
+    },
+    {
+      "asset": "reports.tar.zst",
+      "members": 39,
+      "bytes": 3693049,
+      "verified": true,
+      "compressed_archive_sha256": "04791bebe2b0334529635553ce96f5c5a1a0263998d92e9d12ffe26926bf97eb"
+    },
+    {
+      "asset": "runs.tar.zst",
+      "members": 8937,
+      "bytes": 9566136704,
+      "verified": true,
+      "compressed_archive_sha256": "cab2608c066311301887646bac749016207b5a147d3cd577f72e034972f96b0e"
+    },
+    {
+      "asset": "selective-reorder-repair-v2-t10.tar.zst",
+      "members": 1077,
+      "bytes": 116583098,
+      "verified": true,
+      "compressed_archive_sha256": "14360a435dba6eed441c005b2883b29bacbbfe780a3f0724eccebb8bd196cb08"
+    },
+    {
+      "asset": "selective-reorder-t10.tar.zst",
+      "members": 682,
+      "bytes": 79516205,
+      "verified": true,
+      "compressed_archive_sha256": "b584281b9d210aa09acf8e11ae1f97db7fa7d794bec4ba5129322eb447314311"
+    },
+    {
+      "asset": "sm-topology-t10.tar.zst",
+      "members": 583,
+      "bytes": 193546543,
+      "verified": true,
+      "compressed_archive_sha256": "f736fc3bfcfed596c1864d0cab680e5f712c3e8ef0ce6fadf5f85d736829dc91"
+    },
+    {
+      "asset": "src.tar.zst",
+      "members": 15,
+      "bytes": 92805,
+      "verified": true,
+      "compressed_archive_sha256": "306190ba00492fceb39d750a10a28f72814ef3ccacc6fadc32aaecdf7f79219c"
+    },
+    {
+      "asset": "state-causality-t10.tar.zst",
+      "members": 597,
+      "bytes": 147039451,
+      "verified": true,
+      "compressed_archive_sha256": "36019f60b40f4aadf996598304bfa90bf74d351e32a94416141595641b6d30ce"
+    },
+    {
+      "asset": "tools.tar.zst",
+      "members": 37,
+      "bytes": 171389,
+      "verified": true,
+      "compressed_archive_sha256": "0a9acce92d09fab066d4f914ed1507cef069fde3b70973193f4ca3b6de201f44"
+    },
+    {
+      "asset": "topology-affinity-t10.tar.zst",
+      "members": 2608,
+      "bytes": 327635486,
+      "verified": true,
+      "compressed_archive_sha256": "1e57b40ad9b51999f01fabbc35d8ab07c097f0049711898eb1478b43e7248d51"
+    },
+    {
+      "asset": "topology-real-t10.tar.zst",
+      "members": 2686,
+      "bytes": 81711693,
+      "verified": true,
+      "compressed_archive_sha256": "d8bee0dac98c8df4dfe6033c248ad70b3d7412a25f25176dd912fbb7e2f72a9a"
+    },
+    {
+      "asset": "topology-tail-t10.tar.zst",
+      "members": 2480,
+      "bytes": 279340294,
+      "verified": true,
+      "compressed_archive_sha256": "ab61b70d9e4045c65fa8781e69baad420dad7e33c75231f680a8d50c43bfe148"
+    },
+    {
+      "asset": "transient-f4-diag-t10.tar.zst",
+      "members": 1222,
+      "bytes": 111482104,
+      "verified": true,
+      "compressed_archive_sha256": "2b494808d68d0d2dc69fe95f9f37818727007523a75c380ebdcd8bf121021c90"
+    },
+    {
+      "asset": "vendor.tar.zst",
+      "members": 3357,
+      "bytes": 71635053,
+      "verified": true,
+      "compressed_archive_sha256": "9c5c8a46ccb1610139eb68137dfcfd5af29746f82a83804372de9bc719445b2a"
+    },
+    {
+      "asset": "handoff-downloads.tar.zst",
+      "members": 57,
+      "bytes": 568505472,
+      "verified": true,
+      "compressed_archive_sha256": "1a9d29487db13e35171477ef79a3c928430474cf4981e070d30d509a0711d482"
+    },
+    {
+      "asset": "handoff-desktop.tar.zst",
+      "members": 414,
+      "bytes": 1169966638,
+      "verified": true,
+      "compressed_archive_sha256": "b12fba1d5b7f676a4b3bd9a5e1422c993d0384813578bd7f23d5d8b87bd54b30"
+    }
+  ],
+  "gpu_experiments_run": 0
+}

@@ -1,0 +1,65 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z6pairedILi262144ELb0EEvPKfPfPjPKiiPi' for 'sm_75'
+ptxas info    : Function properties for _Z6pairedILi262144ELb0EEvPKfPfPjPKiiPi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 85 registers, 16 bytes smem, 400 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z6pairedILi262144ELb1EEvPKfPfPjPKiiPi' for 'sm_75'
+ptxas info    : Function properties for _Z6pairedILi262144ELb1EEvPKfPfPjPKiiPi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 85 registers, 16 bytes smem, 400 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z6finishILi262144EEvPKfPfS1_' for 'sm_75'
+ptxas info    : Function properties for _Z6finishILi262144EEvPKfPfS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 376 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z7partialILi262144EEvPKfPf' for 'sm_75'
+ptxas info    : Function properties for _Z7partialILi262144EEvPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 63 registers, 16 bytes smem, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z6pairedILi131072ELb0EEvPKfPfPjPKiiPi' for 'sm_75'
+ptxas info    : Function properties for _Z6pairedILi131072ELb0EEvPKfPfPjPKiiPi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 70 registers, 16 bytes smem, 400 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z6pairedILi131072ELb1EEvPKfPfPjPKiiPi' for 'sm_75'
+ptxas info    : Function properties for _Z6pairedILi131072ELb1EEvPKfPfPjPKiiPi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 16 bytes smem, 400 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z6finishILi131072EEvPKfPfS1_' for 'sm_75'
+ptxas info    : Function properties for _Z6finishILi131072EEvPKfPfS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 376 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z7partialILi131072EEvPKfPf' for 'sm_75'
+ptxas info    : Function properties for _Z7partialILi131072EEvPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 16 bytes smem, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z6pairedILi65536ELb0EEvPKfPfPjPKiiPi' for 'sm_75'
+ptxas info    : Function properties for _Z6pairedILi65536ELb0EEvPKfPfPjPKiiPi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 41 registers, 16 bytes smem, 400 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z6pairedILi65536ELb1EEvPKfPfPjPKiiPi' for 'sm_75'
+ptxas info    : Function properties for _Z6pairedILi65536ELb1EEvPKfPfPjPKiiPi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 43 registers, 16 bytes smem, 400 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z6finishILi65536EEvPKfPfS1_' for 'sm_75'
+ptxas info    : Function properties for _Z6finishILi65536EEvPKfPfS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 376 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z7partialILi65536EEvPKfPf' for 'sm_75'
+ptxas info    : Function properties for _Z7partialILi65536EEvPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 36 registers, 16 bytes smem, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z6pairedILi32768ELb0EEvPKfPfPjPKiiPi' for 'sm_75'
+ptxas info    : Function properties for _Z6pairedILi32768ELb0EEvPKfPfPjPKiiPi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 16 bytes smem, 400 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z6pairedILi32768ELb1EEvPKfPfPjPKiiPi' for 'sm_75'
+ptxas info    : Function properties for _Z6pairedILi32768ELb1EEvPKfPfPjPKiiPi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 16 bytes smem, 400 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z6finishILi32768EEvPKfPfS1_' for 'sm_75'
+ptxas info    : Function properties for _Z6finishILi32768EEvPKfPfS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 376 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z7partialILi32768EEvPKfPf' for 'sm_75'
+ptxas info    : Function properties for _Z7partialILi32768EEvPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 16 bytes smem, 368 bytes cmem[0]

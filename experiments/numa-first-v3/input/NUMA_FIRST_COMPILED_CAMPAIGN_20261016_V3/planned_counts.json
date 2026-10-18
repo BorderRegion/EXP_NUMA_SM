@@ -1,0 +1,105 @@
+{
+  "status": "PLANNED_ONLY_NOT_GPU_RESULTS",
+  "counts": {
+    "mechanism": 576,
+    "render": 512,
+    "sparse": 512,
+    "inference": 512,
+    "fusion": 96,
+    "power_sensitivity_t10": 72,
+    "lifecycle": 36
+  },
+  "numa_strata_max": 96,
+  "main_application_sessions_max": 1536,
+  "main_application_blocks_max": 192,
+  "extra_native_anchor_measurements_max": 384,
+  "main_plus_anchors_max": 1920,
+  "total_worker_hours_cap_all_platforms": 48,
+  "eight_strategy_orders": [
+    [
+      "N",
+      "E",
+      "P",
+      "B",
+      "M",
+      "T",
+      "Y",
+      "X"
+    ],
+    [
+      "E",
+      "B",
+      "N",
+      "T",
+      "P",
+      "X",
+      "M",
+      "Y"
+    ],
+    [
+      "B",
+      "T",
+      "E",
+      "X",
+      "N",
+      "Y",
+      "P",
+      "M"
+    ],
+    [
+      "T",
+      "X",
+      "B",
+      "Y",
+      "E",
+      "M",
+      "N",
+      "P"
+    ],
+    [
+      "X",
+      "Y",
+      "T",
+      "M",
+      "B",
+      "P",
+      "E",
+      "N"
+    ],
+    [
+      "Y",
+      "M",
+      "X",
+      "P",
+      "T",
+      "N",
+      "B",
+      "E"
+    ],
+    [
+      "M",
+      "P",
+      "Y",
+      "N",
+      "X",
+      "E",
+      "T",
+      "B"
+    ],
+    [
+      "P",
+      "N",
+      "M",
+      "E",
+      "Y",
+      "B",
+      "X",
+      "T"
+    ]
+  ],
+  "notes": [
+    "All counts are conditional caps. Missing cells keep their reason.",
+    "NUMA cache/order/scout subconditions are recorded separately, not hidden as one observation.",
+    "Native head/tail anchors are diagnostic, never replace the balanced primary N."
+  ]
+}

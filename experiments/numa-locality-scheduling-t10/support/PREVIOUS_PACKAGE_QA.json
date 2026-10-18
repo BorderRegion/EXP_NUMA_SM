@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "full": {
+    "path": "/home/ubuntu/下载/T10_LLM_DECODE_KERNEL_OPT_20261017.zip",
+    "bytes": 21319346,
+    "sha256": "4d0f33c075de6226af8f7c6209ecca81f9085131fc593407c8e732dc2018f3ce",
+    "manifest_entries": 1674,
+    "crc": "PASS",
+    "hashes": "PASS"
+  },
+  "small": {
+    "path": "/home/ubuntu/下载/T10_LLM_DECODE_KERNEL_OPT_20261017_SMALL.zip",
+    "bytes": 1013260,
+    "sha256": "5853a2d4a0a607f5e226679782aa737b5f9abe6d66af160044dbd76f67bc871b",
+    "manifest_entries": 94,
+    "crc": "PASS",
+    "hashes": "PASS"
+  },
+  "extracted_directory": "/tmp/t10-llm-decode-qa-_uf0yscf/T10_LLM_DECODE_KERNEL_OPT_20261017",
+  "CPU_only_returncode": 0,
+  "CPU_only_seconds": 18.03964483499294,
+  "CPU_only_stdout_last": "ALL_FROZEN_SOURCES_RAW_RESULTS_AND_CORRECTNESS_RECOMPUTED_PASS",
+  "post_recompute_all_hashes": "PASS"
+}

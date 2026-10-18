@@ -1,0 +1,2018 @@
+[
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 0,
+    "policy": "N",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 0,
+    "policy": "R",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 0,
+    "policy": "L",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 0,
+    "policy": "M",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 0,
+    "policy": "I",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 0,
+    "policy": "P",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 0,
+    "policy": "S",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 1,
+    "policy": "N",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 1,
+    "policy": "S",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 1,
+    "policy": "I",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 1,
+    "policy": "P",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 1,
+    "policy": "M",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 1,
+    "policy": "L",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 1,
+    "policy": "R",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 2,
+    "policy": "N",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 2,
+    "policy": "S",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 2,
+    "policy": "R",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 2,
+    "policy": "M",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 2,
+    "policy": "L",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 2,
+    "policy": "I",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 2,
+    "policy": "P",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 3,
+    "policy": "N",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 3,
+    "policy": "P",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 3,
+    "policy": "I",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 3,
+    "policy": "S",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 3,
+    "policy": "M",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 3,
+    "policy": "L",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 3,
+    "policy": "R",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 4,
+    "policy": "N",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 4,
+    "policy": "M",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 4,
+    "policy": "S",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 4,
+    "policy": "P",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 4,
+    "policy": "I",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 4,
+    "policy": "R",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 4,
+    "policy": "L",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 5,
+    "policy": "N",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 5,
+    "policy": "P",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 5,
+    "policy": "I",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 5,
+    "policy": "R",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 5,
+    "policy": "S",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 5,
+    "policy": "M",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 0,
+    "block": 5,
+    "policy": "L",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d0_l0"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 0,
+    "policy": "N",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 0,
+    "policy": "L",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 0,
+    "policy": "M",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 0,
+    "policy": "S",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 0,
+    "policy": "P",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 0,
+    "policy": "I",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 0,
+    "policy": "R",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 1,
+    "policy": "N",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 1,
+    "policy": "I",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 1,
+    "policy": "M",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 1,
+    "policy": "R",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 1,
+    "policy": "L",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 1,
+    "policy": "P",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 1,
+    "policy": "S",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 2,
+    "policy": "N",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 2,
+    "policy": "I",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 2,
+    "policy": "S",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 2,
+    "policy": "M",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 2,
+    "policy": "L",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 2,
+    "policy": "P",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 2,
+    "policy": "R",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 3,
+    "policy": "N",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 3,
+    "policy": "P",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 3,
+    "policy": "I",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 3,
+    "policy": "M",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 3,
+    "policy": "R",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 3,
+    "policy": "S",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 3,
+    "policy": "L",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 4,
+    "policy": "N",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 4,
+    "policy": "M",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 4,
+    "policy": "R",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 4,
+    "policy": "S",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 4,
+    "policy": "P",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 4,
+    "policy": "L",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 4,
+    "policy": "I",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 5,
+    "policy": "N",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 5,
+    "policy": "M",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 5,
+    "policy": "I",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 5,
+    "policy": "L",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 5,
+    "policy": "R",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 5,
+    "policy": "S",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 0,
+    "load": 1,
+    "block": 5,
+    "policy": "P",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d0_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 0,
+    "policy": "N",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 0,
+    "policy": "I",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 0,
+    "policy": "S",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 0,
+    "policy": "M",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 0,
+    "policy": "L",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 0,
+    "policy": "P",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 0,
+    "policy": "R",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 1,
+    "policy": "N",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 1,
+    "policy": "M",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 1,
+    "policy": "P",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 1,
+    "policy": "R",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 1,
+    "policy": "I",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 1,
+    "policy": "L",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 1,
+    "policy": "S",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 2,
+    "policy": "N",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 2,
+    "policy": "L",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 2,
+    "policy": "R",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 2,
+    "policy": "P",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 2,
+    "policy": "S",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 2,
+    "policy": "M",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 2,
+    "policy": "I",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 3,
+    "policy": "N",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 3,
+    "policy": "S",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 3,
+    "policy": "P",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 3,
+    "policy": "L",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 3,
+    "policy": "R",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 3,
+    "policy": "I",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 3,
+    "policy": "M",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 4,
+    "policy": "N",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 4,
+    "policy": "M",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 4,
+    "policy": "L",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 4,
+    "policy": "R",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 4,
+    "policy": "S",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 4,
+    "policy": "I",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 4,
+    "policy": "P",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 5,
+    "policy": "N",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 5,
+    "policy": "M",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 5,
+    "policy": "L",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 5,
+    "policy": "I",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 5,
+    "policy": "S",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 5,
+    "policy": "P",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 0,
+    "block": 5,
+    "policy": "R",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d1_l0"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 0,
+    "policy": "N",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 0,
+    "policy": "R",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 0,
+    "policy": "L",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 0,
+    "policy": "S",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 0,
+    "policy": "M",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 0,
+    "policy": "I",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 0,
+    "policy": "P",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 1,
+    "policy": "N",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 1,
+    "policy": "S",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 1,
+    "policy": "I",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 1,
+    "policy": "M",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 1,
+    "policy": "P",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 1,
+    "policy": "R",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 1,
+    "policy": "L",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 2,
+    "policy": "N",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 2,
+    "policy": "S",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 2,
+    "policy": "P",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 2,
+    "policy": "I",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 2,
+    "policy": "M",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 2,
+    "policy": "R",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 2,
+    "policy": "L",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 3,
+    "policy": "N",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 3,
+    "policy": "R",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 3,
+    "policy": "I",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 3,
+    "policy": "M",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 3,
+    "policy": "P",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 3,
+    "policy": "L",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 3,
+    "policy": "S",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 4,
+    "policy": "N",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 4,
+    "policy": "M",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 4,
+    "policy": "S",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 4,
+    "policy": "R",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 4,
+    "policy": "L",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 4,
+    "policy": "I",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 4,
+    "policy": "P",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 5,
+    "policy": "N",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 5,
+    "policy": "L",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 5,
+    "policy": "S",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 5,
+    "policy": "M",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 5,
+    "policy": "R",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 5,
+    "policy": "I",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 1,
+    "load": 1,
+    "block": 5,
+    "policy": "P",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d1_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 0,
+    "policy": "N",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 0,
+    "policy": "P",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 0,
+    "policy": "M",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 0,
+    "policy": "I",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 0,
+    "policy": "S",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 0,
+    "policy": "R",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 0,
+    "policy": "L",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 1,
+    "policy": "N",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 1,
+    "policy": "I",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 1,
+    "policy": "S",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 1,
+    "policy": "R",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 1,
+    "policy": "P",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 1,
+    "policy": "M",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 1,
+    "policy": "L",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 2,
+    "policy": "N",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 2,
+    "policy": "R",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 2,
+    "policy": "S",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 2,
+    "policy": "P",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 2,
+    "policy": "I",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 2,
+    "policy": "M",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 2,
+    "policy": "L",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 3,
+    "policy": "N",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 3,
+    "policy": "L",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 3,
+    "policy": "S",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 3,
+    "policy": "R",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 3,
+    "policy": "M",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 3,
+    "policy": "I",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 3,
+    "policy": "P",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 4,
+    "policy": "N",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 4,
+    "policy": "M",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 4,
+    "policy": "L",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 4,
+    "policy": "I",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 4,
+    "policy": "S",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 4,
+    "policy": "P",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 4,
+    "policy": "R",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 5,
+    "policy": "N",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 5,
+    "policy": "P",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 5,
+    "policy": "S",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 5,
+    "policy": "R",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 5,
+    "policy": "L",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 5,
+    "policy": "I",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 0,
+    "block": 5,
+    "policy": "M",
+    "tasks": 1024,
+    "plan_dir": "preregistration/E3/d2_l0"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 0,
+    "policy": "N",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 0,
+    "policy": "S",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 0,
+    "policy": "P",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 0,
+    "policy": "I",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 0,
+    "policy": "L",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 0,
+    "policy": "M",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 0,
+    "policy": "R",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 1,
+    "policy": "N",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 1,
+    "policy": "P",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 1,
+    "policy": "R",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 1,
+    "policy": "M",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 1,
+    "policy": "I",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 1,
+    "policy": "L",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 1,
+    "policy": "S",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 2,
+    "policy": "N",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 2,
+    "policy": "R",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 2,
+    "policy": "S",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 2,
+    "policy": "L",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 2,
+    "policy": "M",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 2,
+    "policy": "P",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 2,
+    "policy": "I",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 3,
+    "policy": "N",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 3,
+    "policy": "R",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 3,
+    "policy": "S",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 3,
+    "policy": "P",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 3,
+    "policy": "M",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 3,
+    "policy": "I",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 3,
+    "policy": "L",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 4,
+    "policy": "N",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 4,
+    "policy": "M",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 4,
+    "policy": "L",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 4,
+    "policy": "S",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 4,
+    "policy": "P",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 4,
+    "policy": "I",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 4,
+    "policy": "R",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 5,
+    "policy": "N",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 5,
+    "policy": "P",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 5,
+    "policy": "L",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 5,
+    "policy": "R",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 5,
+    "policy": "I",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 5,
+    "policy": "M",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  },
+  {
+    "distribution": 2,
+    "load": 1,
+    "block": 5,
+    "policy": "S",
+    "tasks": 4096,
+    "plan_dir": "preregistration/E3/d2_l1"
+  }
+]

@@ -1,0 +1,22 @@
+执行 T10_SELECTIVE_REORDER_REPAIR_V2_20261017，仅T10本机。
+
+本轮修最近selective实验，不换题、不调低旧阈值追赢家，不新增0x33/attention/数学内核。
+先读START_HERE、主任务书及docs/01–05；按campaign/plan连续S0–S6。
+
+先应用保行为无堆分配补丁并同步生成器；BASE/SHAPE不要算无用资源插值。
+保留成熟P/R、直接slab、lazy NativePlan和已支持的Graph，不新增小调度kernel、D2H计划或per-tile LUT。
+
+测量先做同Graph A/A与检查/空闲历史对照。100W及已有授权支持内的保守时钟控制，保留保护和恢复。无权限只记一次，不循环申请。
+正式采用短ABBA/BAAB：四窗口之间不建图、不检查tensor、不读回或写大日志。
+SINGLE与其他动作在同一时段重采，不能借旧base扫描。
+
+新选择器预测log(T_action/T_LIB)，使用同尺度单侧log残差与AA噪声，不再用全形状绝对us余量；不强迫PC启用。
+SHAPE/RESOURCE共享动作、基础模型、预算与数据；whole-shape LOSO、资源代表自身留出、所有测试前freeze。
+三条真实trace覆盖全部新V，另按冻预测差异生成有限见证，不根据计时正负挑样例。
+同时做同体PC_same/opposite和完整FFN，不能只交模型全选LIB的动作表。
+
+总墙时目标510分钟、硬上限540；GPU补充上限240分钟且受原330分钟账本剩余约束。第6小时转真实部署，必要时按固定子集缩减而不是删负例。
+离线，不SSH/下载/安装/租卡/改驱动。普通工程修复自主完成；安全、权限/付费越界、主数学合同变化才请求决定。
+
+交付T10_SELECTIVE_REORDER_REPAIR_V2_REPORT.md、可复算pair原值、AA/状态、冻模型/误差、全动作与实际选择、真实请求/FFN、初始化与恢复。
+把测量不足、模型不足、动作池空间不足、真实资源增量分开；不要将普通基础选择收益称NUMA。

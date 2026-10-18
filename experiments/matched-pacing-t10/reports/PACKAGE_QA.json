@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T11:27:08.037984+00:00",
+  "returncode": 0,
+  "archive_sha256": "42026e4e2c94ba52853a4640447c83dd2529330422836667ef59f35f2c05a2de",
+  "archive_bytes": 31870577,
+  "archive_files": 205,
+  "manifest_entries": 204,
+  "fresh_extract": "/tmp/t10-matched-cpu-qa-addb7270/T10_MATCHED_PACING_RESULT_20261017",
+  "command": [
+    "/home/ubuntu/projects/leetgpu-lab/.venv/bin/python3",
+    "/tmp/t10-matched-cpu-qa-addb7270/T10_MATCHED_PACING_RESULT_20261017/recompute.py"
+  ],
+  "cuda_visible_devices": "",
+  "seconds": 8.273068552953191,
+  "log": "/home/ubuntu/文档/ChatGPT/numa_gpu/matched-pacing-t10/reports/PACKAGE_QA.log",
+  "active_experiment_processes_after_qa": [],
+  "final_archive_hash_verified": true
+}

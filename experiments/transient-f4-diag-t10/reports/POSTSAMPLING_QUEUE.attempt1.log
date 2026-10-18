@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/transient-f4-diag-t10/src/finish_sampling.py", line 10, in <module>
+    for p in (ROOT/'src').glob('*.py'):ast.parse(p.read_text(),filename=str(p))
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ast.py", line 52, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/transient-f4-diag-t10/src/analyze_diag.py", line 67
+    window_detail.append(dict(episode_id=ep['id'],case=ep['case'],kind=ep['kind'],block=ep['block'],fixture=ep.get('fixture','NATIVE_ONLY'),profile=ep.get('conditioning','READY_RING4'),window=wi,phase=phase,n=len(wr),mean_cpu=float(v.mean()),mean_gpu=gpu,first_half=float(v[:len(v)//2].mean()),second_half=float(v[len(v)//2:].mean()),slots=slots,request_stats=describe(v),start_after_condition_ms=(int(wr[0]['request_begin_ns'])-cond['end_ns'])/1e6,end_after_condition_ms=(int(wr[-1]['event_read_end_ns'])-cond['end_ns'])/1e6,mean_context_us=float(np.mean([float(r['context_us']) for r in wr])),mean_launch_us=float(np.mean([float(r['launch_us']) for r in wr])),mean_wait_us=float(np.mean([float(r['wait_us']) for r in wr])),mean_event_read_us=float(np.mean([float(r['event_read_us']) for r in wr])) )
+                        ^
+SyntaxError: '(' was never closed

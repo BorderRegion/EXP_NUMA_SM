@@ -1,0 +1,1082 @@
+[
+  {
+    "allocation": 3,
+    "task_order_randomized": false,
+    "bytes": 524288,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 16,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 2,
+    "missing_SM_region_cells": 320,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": 1.0,
+    "group_interaction_log_rms": 0.011751817436556917,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 3,
+    "task_order_randomized": false,
+    "bytes": 524288,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 16,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 2,
+    "missing_SM_region_cells": 320,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": 0.9761904761904763,
+    "group_interaction_log_rms": 0.0069781762549230705,
+    "split_sign_agreement": 0.875
+  },
+  {
+    "allocation": 3,
+    "task_order_randomized": false,
+    "bytes": 524288,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 16,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 2,
+    "missing_SM_region_cells": 320,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": 1.0,
+    "group_interaction_log_rms": 0.012367055009285841,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 3,
+    "task_order_randomized": false,
+    "bytes": 524288,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 16,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 2,
+    "missing_SM_region_cells": 320,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": 0.9285714285714287,
+    "group_interaction_log_rms": 0.007509272693293004,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 3,
+    "task_order_randomized": false,
+    "bytes": 4194304,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 6,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1383,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9824046920821112,
+    "group_interaction_log_rms": 0.013527629451247974,
+    "split_sign_agreement": 0.9375
+  },
+  {
+    "allocation": 3,
+    "task_order_randomized": false,
+    "bytes": 4194304,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 9,
+    "missing_SM_region_cells": 1194,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": -0.7005131964809382,
+    "group_interaction_log_rms": 0.005381095918214732,
+    "split_sign_agreement": 0.34375
+  },
+  {
+    "allocation": 3,
+    "task_order_randomized": false,
+    "bytes": 4194304,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 6,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1388,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9967008797653958,
+    "group_interaction_log_rms": 0.014944677591220855,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 3,
+    "task_order_randomized": false,
+    "bytes": 4194304,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 9,
+    "missing_SM_region_cells": 1194,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": -0.4017595307917888,
+    "group_interaction_log_rms": 0.009313297855575857,
+    "split_sign_agreement": 0.375
+  },
+  {
+    "allocation": 3,
+    "task_order_randomized": false,
+    "bytes": 33554432,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 8,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1378,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9948680351906156,
+    "group_interaction_log_rms": 0.007529423381012498,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 3,
+    "task_order_randomized": false,
+    "bytes": 33554432,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 9,
+    "missing_SM_region_cells": 1194,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": -0.4721407624633431,
+    "group_interaction_log_rms": 0.004458041601986863,
+    "split_sign_agreement": 0.46875
+  },
+  {
+    "allocation": 3,
+    "task_order_randomized": false,
+    "bytes": 33554432,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 6,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 1386,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.9970674486803517,
+    "group_interaction_log_rms": 0.00766029724055484,
+    "split_sign_agreement": 1.0
+  },
+  {
+    "allocation": 3,
+    "task_order_randomized": false,
+    "bytes": 33554432,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 10,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 9,
+    "missing_SM_region_cells": 1194,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": -0.48093841642228735,
+    "group_interaction_log_rms": 0.0046076809031628495,
+    "split_sign_agreement": 0.4375
+  },
+  {
+    "allocation": 4,
+    "task_order_randomized": true,
+    "bytes": 524288,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 46,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 62,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": -0.4285714285714286,
+    "group_interaction_log_rms": 0.003569882632932668,
+    "split_sign_agreement": 0.25
+  },
+  {
+    "allocation": 4,
+    "task_order_randomized": true,
+    "bytes": 524288,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 46,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 62,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": -0.1666666666666667,
+    "group_interaction_log_rms": 0.0028278702436577005,
+    "split_sign_agreement": 0.375
+  },
+  {
+    "allocation": 4,
+    "task_order_randomized": true,
+    "bytes": 524288,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 46,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 62,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": -0.523809523809524,
+    "group_interaction_log_rms": 0.003681882890690651,
+    "split_sign_agreement": 0.25
+  },
+  {
+    "allocation": 4,
+    "task_order_randomized": true,
+    "bytes": 524288,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 46,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 62,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": -0.2142857142857143,
+    "group_interaction_log_rms": 0.002865070185767447,
+    "split_sign_agreement": 0.375
+  },
+  {
+    "allocation": 4,
+    "task_order_randomized": true,
+    "bytes": 4194304,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 42,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 23,
+    "missing_SM_region_cells": 309,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.2987536656891495,
+    "group_interaction_log_rms": 0.006140473788686108,
+    "split_sign_agreement": 0.59375
+  },
+  {
+    "allocation": 4,
+    "task_order_randomized": true,
+    "bytes": 4194304,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 52,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 30,
+    "missing_SM_region_cells": 15,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": -0.12976539589442815,
+    "group_interaction_log_rms": 0.00823539411590212,
+    "split_sign_agreement": 0.46875
+  },
+  {
+    "allocation": 4,
+    "task_order_randomized": true,
+    "bytes": 4194304,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 41,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 23,
+    "missing_SM_region_cells": 320,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.2489002932551319,
+    "group_interaction_log_rms": 0.006245070732025741,
+    "split_sign_agreement": 0.59375
+  },
+  {
+    "allocation": 4,
+    "task_order_randomized": true,
+    "bytes": 4194304,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 52,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 30,
+    "missing_SM_region_cells": 14,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": -0.1502932551319648,
+    "group_interaction_log_rms": 0.008750943754833915,
+    "split_sign_agreement": 0.40625
+  },
+  {
+    "allocation": 4,
+    "task_order_randomized": true,
+    "bytes": 33554432,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 41,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 23,
+    "missing_SM_region_cells": 315,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.2653958944281525,
+    "group_interaction_log_rms": 0.003115453311708288,
+    "split_sign_agreement": 0.5625
+  },
+  {
+    "allocation": 4,
+    "task_order_randomized": true,
+    "bytes": 33554432,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 53,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 31,
+    "missing_SM_region_cells": 3,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": -0.03189149560117301,
+    "group_interaction_log_rms": 0.009125716498820182,
+    "split_sign_agreement": 0.40625
+  },
+  {
+    "allocation": 4,
+    "task_order_randomized": true,
+    "bytes": 33554432,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 41,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 23,
+    "missing_SM_region_cells": 320,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.25843108504398826,
+    "group_interaction_log_rms": 0.0031344955885148837,
+    "split_sign_agreement": 0.5625
+  },
+  {
+    "allocation": 4,
+    "task_order_randomized": true,
+    "bytes": 33554432,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 53,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 31,
+    "missing_SM_region_cells": 4,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": -0.024926686217008793,
+    "group_interaction_log_rms": 0.010672176529334046,
+    "split_sign_agreement": 0.40625
+  },
+  {
+    "allocation": 5,
+    "task_order_randomized": true,
+    "bytes": 524288,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 46,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 62,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": -0.4761904761904762,
+    "group_interaction_log_rms": 0.0035819364856986688,
+    "split_sign_agreement": 0.25
+  },
+  {
+    "allocation": 5,
+    "task_order_randomized": true,
+    "bytes": 524288,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 46,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 62,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": -0.30952380952380953,
+    "group_interaction_log_rms": 0.002701939611531887,
+    "split_sign_agreement": 0.25
+  },
+  {
+    "allocation": 5,
+    "task_order_randomized": true,
+    "bytes": 524288,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 46,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 62,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": -0.523809523809524,
+    "group_interaction_log_rms": 0.0036552078572606927,
+    "split_sign_agreement": 0.25
+  },
+  {
+    "allocation": 5,
+    "task_order_randomized": true,
+    "bytes": 524288,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 8,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 46,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 5,
+    "missing_SM_region_cells": 62,
+    "potential_SM_region_cells": 448,
+    "split_round_spearman": -0.14285714285714288,
+    "group_interaction_log_rms": 0.0028437064528792685,
+    "split_sign_agreement": 0.25
+  },
+  {
+    "allocation": 5,
+    "task_order_randomized": true,
+    "bytes": 4194304,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 42,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 23,
+    "missing_SM_region_cells": 305,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.2441348973607038,
+    "group_interaction_log_rms": 0.006083907018621642,
+    "split_sign_agreement": 0.625
+  },
+  {
+    "allocation": 5,
+    "task_order_randomized": true,
+    "bytes": 4194304,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 52,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 30,
+    "missing_SM_region_cells": 12,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": -0.1601906158357771,
+    "group_interaction_log_rms": 0.008026236867755446,
+    "split_sign_agreement": 0.46875
+  },
+  {
+    "allocation": 5,
+    "task_order_randomized": true,
+    "bytes": 4194304,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 41,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 23,
+    "missing_SM_region_cells": 321,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.24303519061583576,
+    "group_interaction_log_rms": 0.006082552261792272,
+    "split_sign_agreement": 0.59375
+  },
+  {
+    "allocation": 5,
+    "task_order_randomized": true,
+    "bytes": 4194304,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 52,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 30,
+    "missing_SM_region_cells": 14,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": -0.14479472140762462,
+    "group_interaction_log_rms": 0.008990917114090544,
+    "split_sign_agreement": 0.46875
+  },
+  {
+    "allocation": 5,
+    "task_order_randomized": true,
+    "bytes": 33554432,
+    "recipe": 0,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 41,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 23,
+    "missing_SM_region_cells": 308,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.2595307917888563,
+    "group_interaction_log_rms": 0.0031150050327161047,
+    "split_sign_agreement": 0.625
+  },
+  {
+    "allocation": 5,
+    "task_order_randomized": true,
+    "bytes": 33554432,
+    "recipe": 0,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 51,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 31,
+    "missing_SM_region_cells": 6,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": -0.06121700879765395,
+    "group_interaction_log_rms": 0.008906484432006275,
+    "split_sign_agreement": 0.40625
+  },
+  {
+    "allocation": 5,
+    "task_order_randomized": true,
+    "bytes": 33554432,
+    "recipe": 1,
+    "access": 0,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 41,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 23,
+    "missing_SM_region_cells": 320,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": 0.25733137829912023,
+    "group_interaction_log_rms": 0.0031443654529245218,
+    "split_sign_agreement": 0.59375
+  },
+  {
+    "allocation": 5,
+    "task_order_randomized": true,
+    "bytes": 33554432,
+    "recipe": 1,
+    "access": 1,
+    "window_bytes": 65536,
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "regions": 32,
+    "sm_coverage": 56,
+    "group_sm_coverage": [
+      28,
+      28
+    ],
+    "minimum_region_sm_coverage": 55,
+    "missing_group_region_round_cells": 0,
+    "minimum_regions_per_observed_SM": 31,
+    "missing_SM_region_cells": 1,
+    "potential_SM_region_cells": 1792,
+    "split_round_spearman": -0.04802052785923753,
+    "group_interaction_log_rms": 0.010741898003124346,
+    "split_sign_agreement": 0.40625
+  }
+]

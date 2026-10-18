@@ -1,0 +1,11 @@
+{
+  "repair_count": 1,
+  "failed_record": "E4_request_block_0/moe_layer-024",
+  "classification": "RUNNER_RETENTION_PREFLIGHT_FAILURE_NOT_PROOF_OF_DEVICE_SHAPE_LIMIT",
+  "cause": "locals() in cleanup creates Python3.12 cached locals dict retaining graph/functions/large weight closures after fast-local deletion",
+  "change": "explicitly clear known references without locals(); record free before each case and after cleanup",
+  "original_record_preserved": true,
+  "retry_failed_block": false,
+  "expected_complete_request_blocks_for_case024": 5,
+  "mathematical_body_changed": false
+}

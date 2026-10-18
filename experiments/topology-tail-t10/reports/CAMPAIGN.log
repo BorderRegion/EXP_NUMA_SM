@@ -1,0 +1,8 @@
+qualification FAILED 2.29
+Traceback (most recent call last):
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/topology-tail-t10/src/campaign.py", line 6, in <module>
+    run('qualification',[PYTHON,ROOT/'src/qualify.py','{OUT}'],timeout=120)
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/topology-tail-t10/src/worker.py", line 38, in run
+    if rc:raise RuntimeError(str(out))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: /home/ubuntu/文档/ChatGPT/numa_gpu/topology-tail-t10/runs/20261018T084714Z/qualification

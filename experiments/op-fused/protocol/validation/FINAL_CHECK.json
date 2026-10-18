@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "scope": "DESIGN_AND_CPU_HELPERS_ONLY",
+  "date": "2026-10-15",
+  "unit_tests": 57,
+  "unit_tests_passed": 57,
+  "synthetic_plans": 216,
+  "plans_executed_on_gpu": 0,
+  "t10_worker_budget_h": 16,
+  "rtx5070ti_worker_budget_h": 24,
+  "grouped_test_phase_cap": 3456,
+  "attention_test_phase_cap": 1152,
+  "layer_phase_cap": 756,
+  "largest_planned_layer_explicit_tensor_estimate_bytes": 8842789128,
+  "largest_layer_estimate_excludes": [
+    "backend_workspace",
+    "CUDA_context",
+    "Graph_pools",
+    "reference_workspace"
+  ],
+  "cuda_compiled": false,
+  "gpu_experiments_executed": false,
+  "checks": [
+    "budget arithmetic",
+    "split sizes",
+    "unique planned IDs",
+    "all routed-row sums",
+    "packet exact coverage across edge/random small cases",
+    "bounded packet span",
+    "even-policy position/carryover balance",
+    "paired ratio sign and reproducibility",
+    "cross-platform raw-pooling refusal",
+    "incomplete/anchor phase handling",
+    "python AST parse",
+    "JSON parse",
+    "all planned-vs-executed labels"
+  ],
+  "limits": [
+    "No model, CUTLASS, CUDA or FlashInfer binary is bundled.",
+    "GPU adapters and producer fusion must be implemented on the experiment host.",
+    "Numerical and legality contracts still require actual backend qualification.",
+    "Literature notes are a directed primary-source check, not exhaustive novelty proof."
+  ]
+}

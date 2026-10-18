@@ -1,0 +1,194 @@
+[
+  {
+    "scene": "bonsai",
+    "sequence": 0,
+    "block": 0,
+    "policies": "NMR",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "bonsai",
+    "sequence": 1,
+    "block": 0,
+    "policies": "NRM",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "train",
+    "sequence": 0,
+    "block": 0,
+    "policies": "NRM",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "train",
+    "sequence": 1,
+    "block": 0,
+    "policies": "NMR",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "bonsai",
+    "sequence": 0,
+    "block": 1,
+    "policies": "NRM",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "bonsai",
+    "sequence": 1,
+    "block": 1,
+    "policies": "NMR",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "train",
+    "sequence": 0,
+    "block": 1,
+    "policies": "NMR",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "train",
+    "sequence": 1,
+    "block": 1,
+    "policies": "NRM",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "bonsai",
+    "sequence": 0,
+    "block": 2,
+    "policies": "NRM",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "bonsai",
+    "sequence": 1,
+    "block": 2,
+    "policies": "NRM",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "train",
+    "sequence": 0,
+    "block": 2,
+    "policies": "NRM",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "train",
+    "sequence": 1,
+    "block": 2,
+    "policies": "NMR",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "bonsai",
+    "sequence": 0,
+    "block": 3,
+    "policies": "NRM",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "bonsai",
+    "sequence": 1,
+    "block": 3,
+    "policies": "NRM",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "train",
+    "sequence": 0,
+    "block": 3,
+    "policies": "NRM",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "train",
+    "sequence": 1,
+    "block": 3,
+    "policies": "NMR",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "bonsai",
+    "sequence": 0,
+    "block": 4,
+    "policies": "NRM",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "bonsai",
+    "sequence": 1,
+    "block": 4,
+    "policies": "NRM",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "train",
+    "sequence": 0,
+    "block": 4,
+    "policies": "NMR",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "train",
+    "sequence": 1,
+    "block": 4,
+    "policies": "NMR",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "bonsai",
+    "sequence": 0,
+    "block": 5,
+    "policies": "NRM",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "bonsai",
+    "sequence": 1,
+    "block": 5,
+    "policies": "NMR",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "train",
+    "sequence": 0,
+    "block": 5,
+    "policies": "NMR",
+    "frames": 512,
+    "warmup": 128
+  },
+  {
+    "scene": "train",
+    "sequence": 1,
+    "block": 5,
+    "policies": "NMR",
+    "frames": 512,
+    "warmup": 128
+  }
+]

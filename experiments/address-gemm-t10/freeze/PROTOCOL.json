@@ -1,0 +1,100 @@
+{
+  "created_utc": "2026-10-17T13:06:25Z",
+  "worker_budget_seconds": 1800,
+  "cases": [
+    {
+      "id": "R_G002",
+      "split": "regression",
+      "M": 1,
+      "N": 1024,
+      "K": 16384,
+      "source": "HISTORICAL_SHAPE_NEW_RUN_NOT_HOLDOUT",
+      "measured": false,
+      "cohort": "regression",
+      "previously_seen": true,
+      "recipe": 0,
+      "s": 4
+    },
+    {
+      "id": "R_G017",
+      "split": "regression",
+      "M": 32,
+      "N": 8192,
+      "K": 4096,
+      "source": "HISTORICAL_SHAPE_NEW_RUN_NOT_HOLDOUT",
+      "measured": false,
+      "cohort": "regression",
+      "previously_seen": true,
+      "recipe": 2,
+      "s": 8
+    },
+    {
+      "id": "D13",
+      "split": "development",
+      "M": 48,
+      "N": 2048,
+      "K": 6144,
+      "source": "DESIGNED_SYNTHETIC",
+      "measured": false,
+      "cohort": "development_remeasured",
+      "previously_seen": true,
+      "recipe": 2,
+      "s": 4
+    },
+    {
+      "id": "V13",
+      "split": "new_confirmation",
+      "cohort": "new_confirmation",
+      "M": 224,
+      "N": 2560,
+      "K": 10240,
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "measured": false,
+      "previously_seen": false,
+      "extrapolation": true,
+      "recipe": 2,
+      "s": 4
+    }
+  ],
+  "chunk_floats": 2048,
+  "threads": 128,
+  "sm_count": 56,
+  "shared_bytes": 49152,
+  "workspace_offsets_bytes": [
+    0,
+    69632
+  ],
+  "policies": [
+    "NATIVE",
+    "LINEAR",
+    "IDENTITY",
+    "RANDOM",
+    "SM_ONLY",
+    "ADDRESS",
+    "SHUFFLED",
+    "LIB"
+  ],
+  "calibration_sweeps": 3,
+  "training_sweeps": [
+    0,
+    1
+  ],
+  "validation_sweeps": [
+    2
+  ],
+  "calibration_repetitions": 4,
+  "formal_processes": 6,
+  "formal_blocks": 24,
+  "replays_per_observation": 8,
+  "primary": "full GEMM output-ready CUDA graph event span",
+  "host_metric": "C++ graph submission through synchronized output ready",
+  "setup": "all calibration, solver, table upload, graph build recorded; no packing",
+  "no_result_filtering": true,
+  "early_stop": "only correctness, health, deadline",
+  "address_model_scope": "real split-K partial buffer read and output write latency per SM; no physical NUMA identity or direct SM-to-SM traffic claim",
+  "calibration_order": "randomized SM and task order; actual producer rerun before each single-SM probe; first of 4 repetitions cold-after-producer, others warm; use median of first repeats over 2 sweeps",
+  "mapping_objective": "sequential waves of <=56 equal-size chunks; minimize maximum accumulated predicted cycles; exact sum tie-break",
+  "sm_only": "same assignment compiler using additive per-SM + per-task mean cost",
+  "shuffled": "same compiler; permuted address columns of residual matrix",
+  "inference": "process is statistical unit; same-case within-block randomized controls; retain A/A anchors and all timing signs"
+}

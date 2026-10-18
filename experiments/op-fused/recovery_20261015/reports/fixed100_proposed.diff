@@ -1,0 +1,22 @@
+--- /usr/local/sbin/t10_quiet_fan.py
++++ /usr/local/sbin/t10_quiet_fan.py (proposed)
+@@ -126,9 +126,9 @@
+                     print(f'Protection: temp={temp} rpm={rpm}; fan full and cap 100 W', flush=True)
+                 derated = True
+             elif derated and temp <= 70 and rpm >= 1000:
+-                check(lib.nvmlDeviceSetPowerManagementLimit(dev, 125000))
++                check(lib.nvmlDeviceSetPowerManagementLimit(dev, 100000))
+                 derated = False
+-                print('Protection recovered; quiet cap 125 W restored', flush=True)
++                print('Protection recovered; fixed cap 100 W retained', flush=True)
+             now = time.monotonic()
+             if desired > current:
+                 current = desired
+
+/etc/systemd/system/t10-quiet-power.service.d/90-op-fused-fixed100.conf
+[Service]
+ExecStart=
+ExecStart=/usr/bin/nvidia-smi -i GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5 -pm 1
+ExecStart=/usr/bin/nvidia-smi -i GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5 -pl 100
+
+READ_ONLY_PREPARATION: no system settings changed

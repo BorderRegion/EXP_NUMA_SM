@@ -1,0 +1,19 @@
+{
+  "status": "DELIVERY_CPU_CHECKS_PASSED",
+  "date": "2026-10-16",
+  "source_archive_sha256": "809496767fce2e25fda2d90db458b1cead31f933a2576240f1e6eb1b43833386",
+  "original_archive_manifest_verified": 1035,
+  "independent_effects_recomputed": 306,
+  "max_statistical_recomputation_error": 8.881784197001252e-16,
+  "cpu_unit_tests_passed": 11,
+  "planned_work_minutes": 390,
+  "hard_work_minutes": 420,
+  "gpu_worker_cap_minutes": 240,
+  "cuda_compiled_here": false,
+  "gpu_executed_here": false,
+  "notes": [
+    "No raw tensor numerical recomputation: tensors not in provided package.",
+    "Source/algorithm review and statistical recomputation do not prove all CUDA execution correct.",
+    "New files are review, task specification, fixed input definitions, CPU plan/reference helpers."
+  ]
+}

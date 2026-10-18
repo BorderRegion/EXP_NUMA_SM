@@ -1,0 +1,205 @@
+{
+  "created_utc": "2026-10-18T07:51:45.313558+00:00",
+  "run": "20261018T075145Z",
+  "worker_budget_seconds": 3600,
+  "request": "Physical TPC/GPC hierarchy and allocation-specific address affinity on exact unchanged fast kernel",
+  "hardware": {
+    "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+    "power_w": 100,
+    "temperature_stop_c": 82,
+    "topology_sha256": "d3e2545e70e9ec866d344432a41de0a207e7cebfa807673b2f98144ba1299ded"
+  },
+  "micro": {
+    "pages": [
+      0,
+      17,
+      257
+    ],
+    "source_sm": "2*i",
+    "destination_sm": "2*j+1",
+    "size": 28,
+    "payload_bytes": 8,
+    "steps": 128,
+    "warm_handshakes": 16,
+    "train_rounds": 2,
+    "validation_rounds": 2,
+    "concurrent_rounds": 24,
+    "timing": "source-clock roundtrip, including polling/release/acquire and payload through global mailbox; not one-way inter-SM wire latency",
+    "memory": "exact same allocation as operator, source-owned base+(page+i)*4096",
+    "fit": "bottleneck assignment on maximum of 2 training-round cycle matrices; within-GPC and unconstrained; no use of validation/whole-operator times",
+    "classes": [
+      "same_tpc",
+      "same_gpc_other_tpc",
+      "cross_gpc"
+    ]
+  },
+  "conditions": [
+    {
+      "V": 131072,
+      "page": 0,
+      "scope": "ready"
+    },
+    {
+      "V": 131072,
+      "page": 0,
+      "scope": "fresh"
+    },
+    {
+      "V": 131072,
+      "page": 0,
+      "scope": "batch"
+    },
+    {
+      "V": 131072,
+      "page": 0,
+      "scope": "freshbatch"
+    },
+    {
+      "V": 131072,
+      "page": 17,
+      "scope": "ready"
+    },
+    {
+      "V": 131072,
+      "page": 17,
+      "scope": "fresh"
+    },
+    {
+      "V": 131072,
+      "page": 17,
+      "scope": "batch"
+    },
+    {
+      "V": 131072,
+      "page": 17,
+      "scope": "freshbatch"
+    },
+    {
+      "V": 131072,
+      "page": 257,
+      "scope": "ready"
+    },
+    {
+      "V": 131072,
+      "page": 257,
+      "scope": "fresh"
+    },
+    {
+      "V": 131072,
+      "page": 257,
+      "scope": "batch"
+    },
+    {
+      "V": 131072,
+      "page": 257,
+      "scope": "freshbatch"
+    },
+    {
+      "V": 65536,
+      "page": 17,
+      "scope": "ready"
+    },
+    {
+      "V": 65536,
+      "page": 17,
+      "scope": "fresh"
+    },
+    {
+      "V": 65536,
+      "page": 17,
+      "scope": "batch"
+    },
+    {
+      "V": 65536,
+      "page": 17,
+      "scope": "freshbatch"
+    }
+  ],
+  "scopes": {
+    "ready": {
+      "fresh": false,
+      "batch": 1
+    },
+    "fresh": {
+      "fresh": true,
+      "batch": 1
+    },
+    "batch": {
+      "fresh": false,
+      "batch": 32
+    },
+    "freshbatch": {
+      "fresh": true,
+      "batch": 32
+    }
+  },
+  "policies": [
+    "IDENTITY",
+    "ALIAS_IDENTITY",
+    "SAME_GPC",
+    "CROSS_GPC",
+    "GPC_ADDR",
+    "ALL_ADDR",
+    "GPC_WRONG",
+    "ALL_WRONG",
+    "GPC_POOL",
+    "ALL_POOL",
+    "RND00",
+    "RND01",
+    "RND02",
+    "RND03",
+    "RND04",
+    "RND05",
+    "RND06",
+    "RND07"
+  ],
+  "scheduling": "same exact softmax_const.so for every policy, by-value 56-int schedule; no extra kernel, hot fitting, task queue, memory allocation or upload",
+  "cadence": {
+    "warmup_requests_per_observation": 64,
+    "retain_first_after_switch": true,
+    "keep_all_warmups": true,
+    "io": "only between full conditions, not between blocks; fixed GPU prelude after every policy switch"
+  },
+  "development": {
+    "processes": 2,
+    "blocks": 6,
+    "replays": 6,
+    "seed": 510000000,
+    "selection": "fastest of 8 random controls per V/page/scope only; learned algorithm fixed before all GPU observations"
+  },
+  "confirmation": {
+    "processes": 6,
+    "blocks": 12,
+    "replays": 8,
+    "seed": 710000000
+  },
+  "primary": {
+    "V": 131072,
+    "page": 17,
+    "candidates": [
+      "GPC_ADDR",
+      "ALL_ADDR"
+    ],
+    "scopes": [
+      "ready",
+      "fresh",
+      "batch",
+      "freshbatch"
+    ],
+    "controls": [
+      "IDENTITY",
+      "RANDOM_BEST",
+      "MATCHING_WRONG_ADDRESS",
+      "MATCHING_POOLED_ADDRESS"
+    ],
+    "comparisons": 32
+  },
+  "statistics": "paired within-block medians, equal-process log ratios, 30000 process bootstraps: 95% descriptive and99.84375% Bonferroni32 primary intervals; same-binary ALIAS_IDENTITY checks; all nonprimary cases exploratory",
+  "interpretation": "require correct numerical outputs, independent process repeatability, advantage over identity and frozen best random and wrong/pooled controls, ready/fresh/batch robustness; disclose setup amortization and observed-run net. Topology classification alone is not physical causality.",
+  "stopping": "2 development +6 confirmation then report all; no confirmation-selected policies or repeated search; qualification/sanitizer failures retained.",
+  "baseline_hashes": {
+    "build/baseline/refresh.so": "f77c3f06b535656154b0cc32137f1bb9e21b27fdb3d28be187463fc469f9f779",
+    "build/baseline/softmax_const.so": "10a0201ea5138c70fb96975cb3ec36d11adeb9d63841f63b2f763f619c2e4104",
+    "build/baseline/vector.so": "f6c34ac7361379dc4e0bf29a4240f34e411601fe48a16e2a6cfa83003e2e0d44"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-10-18T02:55:29.981337+00:00",
+  "cases": {
+    "GQA4_SHORT": {
+      "kind": "CG",
+      "development_gain_pct": -2.999801751068948
+    },
+    "GQA4_LONG": {
+      "kind": "CG",
+      "development_gain_pct": -2.57022844310933
+    },
+    "GQA8_LONG": {
+      "kind": "CG",
+      "development_gain_pct": -30.044742218569166
+    },
+    "BATCH4_RAGGED": {
+      "kind": "CG",
+      "development_gain_pct": -3.0069202836820677
+    }
+  },
+  "rule": "Select CA/CG by equal process/offset geometric full append time; retain all modes and negatives. No geometry tuning.",
+  "development_sha256": "50701d2dbb224f2f4e1150d117033f965a2cc316154e0d57e66ed41c096f9706",
+  "implementation_sha256": "02da43f83f1f994b0e2e785a32b1e5195cf399d7ce31f1ef7671b8d1248482f5"
+}

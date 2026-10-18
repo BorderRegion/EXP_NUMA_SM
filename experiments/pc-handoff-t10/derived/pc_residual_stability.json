@@ -1,0 +1,110 @@
+[
+  {
+    "case": "G001",
+    "metric": "gpu_us",
+    "confirmation_residual_pearson": 0.15390319465288174,
+    "interpretation": "Descriptive pattern stability over16 correlated matrix cells, not16 independent hardware observations."
+  },
+  {
+    "case": "G001",
+    "metric": "batch_per_replay_us",
+    "confirmation_residual_pearson": 0.20170175844267188,
+    "interpretation": "Descriptive pattern stability over16 correlated matrix cells, not16 independent hardware observations."
+  },
+  {
+    "case": "G001",
+    "metric": "cpu_ready_us",
+    "confirmation_residual_pearson": 0.15849875530034363,
+    "interpretation": "Descriptive pattern stability over16 correlated matrix cells, not16 independent hardware observations."
+  },
+  {
+    "case": "G016",
+    "metric": "gpu_us",
+    "confirmation_residual_pearson": 0.19987643576330338,
+    "interpretation": "Descriptive pattern stability over16 correlated matrix cells, not16 independent hardware observations."
+  },
+  {
+    "case": "G016",
+    "metric": "batch_per_replay_us",
+    "confirmation_residual_pearson": 0.03785218968724655,
+    "interpretation": "Descriptive pattern stability over16 correlated matrix cells, not16 independent hardware observations."
+  },
+  {
+    "case": "G016",
+    "metric": "cpu_ready_us",
+    "confirmation_residual_pearson": 0.2205218220575347,
+    "interpretation": "Descriptive pattern stability over16 correlated matrix cells, not16 independent hardware observations."
+  },
+  {
+    "case": "G025",
+    "metric": "gpu_us",
+    "confirmation_residual_pearson": 0.013724748760341915,
+    "interpretation": "Descriptive pattern stability over16 correlated matrix cells, not16 independent hardware observations."
+  },
+  {
+    "case": "G025",
+    "metric": "batch_per_replay_us",
+    "confirmation_residual_pearson": -0.0746862210169586,
+    "interpretation": "Descriptive pattern stability over16 correlated matrix cells, not16 independent hardware observations."
+  },
+  {
+    "case": "G025",
+    "metric": "cpu_ready_us",
+    "confirmation_residual_pearson": -0.045823263362683574,
+    "interpretation": "Descriptive pattern stability over16 correlated matrix cells, not16 independent hardware observations."
+  },
+  {
+    "case": "G034",
+    "metric": "gpu_us",
+    "confirmation_residual_pearson": 0.08632285901759226,
+    "interpretation": "Descriptive pattern stability over16 correlated matrix cells, not16 independent hardware observations."
+  },
+  {
+    "case": "G034",
+    "metric": "batch_per_replay_us",
+    "confirmation_residual_pearson": 0.3072469499628056,
+    "interpretation": "Descriptive pattern stability over16 correlated matrix cells, not16 independent hardware observations."
+  },
+  {
+    "case": "G034",
+    "metric": "cpu_ready_us",
+    "confirmation_residual_pearson": 0.08161360537899749,
+    "interpretation": "Descriptive pattern stability over16 correlated matrix cells, not16 independent hardware observations."
+  },
+  {
+    "case": "G043",
+    "metric": "gpu_us",
+    "confirmation_residual_pearson": 0.5180139429876651,
+    "interpretation": "Descriptive pattern stability over16 correlated matrix cells, not16 independent hardware observations."
+  },
+  {
+    "case": "G043",
+    "metric": "batch_per_replay_us",
+    "confirmation_residual_pearson": 0.41894148247284324,
+    "interpretation": "Descriptive pattern stability over16 correlated matrix cells, not16 independent hardware observations."
+  },
+  {
+    "case": "G043",
+    "metric": "cpu_ready_us",
+    "confirmation_residual_pearson": 0.45791118436144146,
+    "interpretation": "Descriptive pattern stability over16 correlated matrix cells, not16 independent hardware observations."
+  },
+  {
+    "case": "G046",
+    "metric": "gpu_us",
+    "confirmation_residual_pearson": -0.44638614418122996,
+    "interpretation": "Descriptive pattern stability over16 correlated matrix cells, not16 independent hardware observations."
+  },
+  {
+    "case": "G046",
+    "metric": "batch_per_replay_us",
+    "confirmation_residual_pearson": -0.4531736541473375,
+    "interpretation": "Descriptive pattern stability over16 correlated matrix cells, not16 independent hardware observations."
+  },
+  {
+    "case": "G046",
+    "metric": "cpu_ready_us",
+    "confirmation_residual_pearson": -0.44584078344591727,
+    "interpretation": "Descriptive pattern stability over16 correlated matrix cells, not16 independent hardware observations."
+  }
+]

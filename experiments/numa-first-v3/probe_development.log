@@ -1,0 +1,225 @@
+probe_memcheck COMPLETED 10.33
+dev_0 COMPLETED 582.79
+{
+  "path": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu/numa-first-v3/runs/t10/20261016T021032Z/raw/dev_0",
+  "records": 3145728,
+  "epochs": 3072,
+  "fits": [
+    {
+      "bytes": 2097152,
+      "window_bytes": 4096,
+      "mask": 16,
+      "bias": 1,
+      "train_score": 0.00105309551939,
+      "train_log_advantage": 0.00105309551939,
+      "spatial_holdout_log_advantage": 0.000237542700833,
+      "late_all_log_advantage": -5.03926359133e-05,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45"
+    },
+    {
+      "bytes": 8388608,
+      "window_bytes": 4096,
+      "mask": 57,
+      "bias": 0,
+      "train_score": 0.00260683921054,
+      "train_log_advantage": 0.00260683921054,
+      "spatial_holdout_log_advantage": -0.0012882615188,
+      "late_all_log_advantage": -0.000235730522951,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45"
+    },
+    {
+      "bytes": 33554432,
+      "window_bytes": 4096,
+      "mask": 23,
+      "bias": 1,
+      "train_score": 0.00234019523013,
+      "train_log_advantage": 0.00234019523013,
+      "spatial_holdout_log_advantage": -5.23831870274e-05,
+      "late_all_log_advantage": 0.000515738201178,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45"
+    },
+    {
+      "bytes": 134217728,
+      "window_bytes": 4096,
+      "mask": 17,
+      "bias": 0,
+      "train_score": 0.000688957778592,
+      "train_log_advantage": 0.000688957778592,
+      "spatial_holdout_log_advantage": 0.00038572148581,
+      "late_all_log_advantage": -0.00017283448141,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45"
+    }
+  ]
+}
+scout_0 COMPLETED 35.9
+{
+  "path": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu/numa-first-v3/runs/t10/20261016T021032Z/raw/scout_0",
+  "records": 524288,
+  "epochs": 512,
+  "fits": [
+    {
+      "bytes": 134217728,
+      "window_bytes": 128,
+      "mask": 13,
+      "bias": 1,
+      "train_score": 0.000980359933168,
+      "train_log_advantage": 0.000980359933168,
+      "spatial_holdout_log_advantage": -0.000696061861645,
+      "late_all_log_advantage": 0.0,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45"
+    },
+    {
+      "bytes": 134217728,
+      "window_bytes": 4096,
+      "mask": 38,
+      "bias": 0,
+      "train_score": 0.00123848421111,
+      "train_log_advantage": 0.00123848421111,
+      "spatial_holdout_log_advantage": 0.000450826295593,
+      "late_all_log_advantage": 0.0,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45"
+    },
+    {
+      "bytes": 134217728,
+      "window_bytes": 65536,
+      "mask": 17,
+      "bias": 1,
+      "train_score": 0.00218508588252,
+      "train_log_advantage": 0.00218508588252,
+      "spatial_holdout_log_advantage": -0.000600817324486,
+      "late_all_log_advantage": 0.0,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45"
+    },
+    {
+      "bytes": 134217728,
+      "window_bytes": 2097152,
+      "mask": 17,
+      "bias": 0,
+      "train_score": 0.000992912287789,
+      "train_log_advantage": 0.000992912287789,
+      "spatial_holdout_log_advantage": 8.05183122033e-05,
+      "late_all_log_advantage": 0.0,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45"
+    }
+  ]
+}
+dev_1 COMPLETED 582.54
+{
+  "path": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu/numa-first-v3/runs/t10/20261016T021032Z/raw/dev_1",
+  "records": 3145728,
+  "epochs": 3072,
+  "fits": [
+    {
+      "bytes": 2097152,
+      "window_bytes": 4096,
+      "mask": 22,
+      "bias": 1,
+      "train_score": 0.0017290962052,
+      "train_log_advantage": 0.0017290962052,
+      "spatial_holdout_log_advantage": -0.000685139305295,
+      "late_all_log_advantage": 4.97533874807e-05,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45"
+    },
+    {
+      "bytes": 8388608,
+      "window_bytes": 4096,
+      "mask": 59,
+      "bias": 0,
+      "train_score": 0.0015070042871,
+      "train_log_advantage": 0.0015070042871,
+      "spatial_holdout_log_advantage": 0.000212340936425,
+      "late_all_log_advantage": 0.000136296360053,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45"
+    },
+    {
+      "bytes": 33554432,
+      "window_bytes": 4096,
+      "mask": 34,
+      "bias": 0,
+      "train_score": 0.00223759322439,
+      "train_log_advantage": 0.00223759322439,
+      "spatial_holdout_log_advantage": 0.000256771745618,
+      "late_all_log_advantage": -1.27580506022e-05,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45"
+    },
+    {
+      "bytes": 134217728,
+      "window_bytes": 4096,
+      "mask": 59,
+      "bias": 0,
+      "train_score": 0.00168418217472,
+      "train_log_advantage": 0.00168418217472,
+      "spatial_holdout_log_advantage": -0.000356410037404,
+      "late_all_log_advantage": -2.57384141114e-05,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45"
+    }
+  ]
+}
+scout_1 COMPLETED 35.86
+{
+  "path": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu/numa-first-v3/runs/t10/20261016T021032Z/raw/scout_1",
+  "records": 524288,
+  "epochs": 512,
+  "fits": [
+    {
+      "bytes": 134217728,
+      "window_bytes": 128,
+      "mask": 13,
+      "bias": 1,
+      "train_score": 0.00142379623477,
+      "train_log_advantage": 0.00142379623477,
+      "spatial_holdout_log_advantage": -0.000952308870211,
+      "late_all_log_advantage": 0.0,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45"
+    },
+    {
+      "bytes": 134217728,
+      "window_bytes": 4096,
+      "mask": 15,
+      "bias": 1,
+      "train_score": 0.00149540750457,
+      "train_log_advantage": 0.00149540750457,
+      "spatial_holdout_log_advantage": -0.000613805032358,
+      "late_all_log_advantage": 0.0,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45"
+    },
+    {
+      "bytes": 134217728,
+      "window_bytes": 65536,
+      "mask": 12,
+      "bias": 0,
+      "train_score": 0.00122148520571,
+      "train_log_advantage": 0.00122148520571,
+      "spatial_holdout_log_advantage": -0.000467053806573,
+      "late_all_log_advantage": 0.0,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45"
+    },
+    {
+      "bytes": 134217728,
+      "window_bytes": 2097152,
+      "mask": 48,
+      "bias": 0,
+      "train_score": 0.00151159246205,
+      "train_log_advantage": 0.00151159246205,
+      "spatial_holdout_log_advantage": 0.000607907952061,
+      "late_all_log_advantage": 0.0,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45"
+    }
+  ]
+}

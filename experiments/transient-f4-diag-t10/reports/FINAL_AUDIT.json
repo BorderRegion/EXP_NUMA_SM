@@ -1,0 +1,276 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T08:06:44.407045+00:00",
+  "wall_minutes": 97.17537997315036,
+  "stage_gpu_minutes": {
+    "D1": 4.140270303515718,
+    "D2": 29.069439153001678,
+    "D3": 20.68550910674773,
+    "D4": 9.44959704008264,
+    "D5": 4.605975351799861
+  },
+  "new_gpu_minutes": 67.95079095514762,
+  "prior_gpu_minutes": 240.7838812511686,
+  "cumulative_gpu_minutes": 308.7346722063162,
+  "planned_work_units": {
+    "timer_scope": 4,
+    "aa_factor": 48,
+    "aa_single_slot": 6,
+    "single_pair": 18,
+    "ffn_pair": 12,
+    "trace": 36,
+    "aa_independent": 16,
+    "ffn_independent": 4
+  },
+  "planned_timing_rows": {
+    "request_rows": 189904,
+    "warmup_rows": 94952,
+    "measure_rows": 94952,
+    "episodes": 144,
+    "numerical_records": 3732,
+    "quartet_metric_rows": 506
+  },
+  "all_raw_counts": {
+    "all_request_rows_including_pilot_and_engineering_attempts": 198668,
+    "conditioned_requests_from_counts": 5497600,
+    "conditioned_finite64_packets": 85900,
+    "conditioning_edge_rows": 15680,
+    "profile_request_rows": 3520
+  },
+  "numeric_checks": 3736,
+  "captures": 6,
+  "immutable_math_and_selector": "PASS",
+  "prior_untouched": {
+    "unchanged_prior_files": 90
+  },
+  "attempts": [
+    {
+      "key": "D1_PILOT",
+      "status": "COMPLETED",
+      "worker_s": 15.558217779966071
+    },
+    {
+      "key": "D1_BLOCK_0",
+      "status": "FAILED",
+      "worker_s": 34.15195913100615
+    },
+    {
+      "key": "D1_BLOCK_0_retry1",
+      "status": "COMPLETED",
+      "worker_s": 65.1606473440188
+    },
+    {
+      "key": "D1_BLOCK_1",
+      "status": "COMPLETED",
+      "worker_s": 65.17731621395797
+    },
+    {
+      "key": "D2_0_R_G017_NATIVE_ONLY",
+      "status": "COMPLETED",
+      "worker_s": 127.16493899101624
+    },
+    {
+      "key": "D2_0_R_G017_ALL_ACTIONS_RESIDENT",
+      "status": "COMPLETED",
+      "worker_s": 128.17443497199565
+    },
+    {
+      "key": "D2_SLOT_0_R_G017",
+      "status": "COMPLETED",
+      "worker_s": 34.16012827103259
+    },
+    {
+      "key": "D2_0_R_G002_ALL_ACTIONS_RESIDENT",
+      "status": "COMPLETED",
+      "worker_s": 128.17321610701038
+    },
+    {
+      "key": "D2_0_R_G002_NATIVE_ONLY",
+      "status": "COMPLETED",
+      "worker_s": 128.1828069720068
+    },
+    {
+      "key": "D2_SLOT_0_R_G002",
+      "status": "COMPLETED",
+      "worker_s": 34.199404420971405
+    },
+    {
+      "key": "D2_1_R_G017_ALL_ACTIONS_RESIDENT",
+      "status": "COMPLETED",
+      "worker_s": 130.18218950700248
+    },
+    {
+      "key": "D2_1_R_G017_NATIVE_ONLY",
+      "status": "COMPLETED",
+      "worker_s": 128.1764229410328
+    },
+    {
+      "key": "D2_SLOT_1_R_G017",
+      "status": "COMPLETED",
+      "worker_s": 34.164598760951776
+    },
+    {
+      "key": "D2_1_R_G002_NATIVE_ONLY",
+      "status": "COMPLETED",
+      "worker_s": 128.1820762970019
+    },
+    {
+      "key": "D2_1_R_G002_ALL_ACTIONS_RESIDENT",
+      "status": "COMPLETED",
+      "worker_s": 128.19055428204592
+    },
+    {
+      "key": "D2_SLOT_1_R_G002",
+      "status": "COMPLETED",
+      "worker_s": 34.16107582801487
+    },
+    {
+      "key": "D2_2_R_G017_NATIVE_ONLY",
+      "status": "COMPLETED",
+      "worker_s": 128.17861692095175
+    },
+    {
+      "key": "D2_2_R_G017_ALL_ACTIONS_RESIDENT",
+      "status": "COMPLETED",
+      "worker_s": 128.18227330199443
+    },
+    {
+      "key": "D2_SLOT_2_R_G017",
+      "status": "COMPLETED",
+      "worker_s": 34.16022940399125
+    },
+    {
+      "key": "D2_2_R_G002_ALL_ACTIONS_RESIDENT",
+      "status": "COMPLETED",
+      "worker_s": 128.18136596801924
+    },
+    {
+      "key": "D2_2_R_G002_NATIVE_ONLY",
+      "status": "COMPLETED",
+      "worker_s": 128.18166232603835
+    },
+    {
+      "key": "D2_SLOT_2_R_G002",
+      "status": "COMPLETED",
+      "worker_s": 34.170353909023106
+    },
+    {
+      "key": "D3_BLOCK_0",
+      "status": "COMPLETED",
+      "worker_s": 208.1678634339478
+    },
+    {
+      "key": "D3_BLOCK_1",
+      "status": "COMPLETED",
+      "worker_s": 206.20062110899016
+    },
+    {
+      "key": "D3_BLOCK_2",
+      "status": "COMPLETED",
+      "worker_s": 207.20202349300962
+    },
+    {
+      "key": "D3_BLOCK_3",
+      "status": "COMPLETED",
+      "worker_s": 207.19517276098486
+    },
+    {
+      "key": "D3_BLOCK_4",
+      "status": "COMPLETED",
+      "worker_s": 206.19844345696038
+    },
+    {
+      "key": "D3_BLOCK_5",
+      "status": "COMPLETED",
+      "worker_s": 206.1664221509709
+    },
+    {
+      "key": "D4_0_R_G017",
+      "status": "COMPLETED",
+      "worker_s": 65.15870666096453
+    },
+    {
+      "key": "D4_0_R_G002",
+      "status": "COMPLETED",
+      "worker_s": 65.17974195099669
+    },
+    {
+      "key": "D4_F4_0",
+      "status": "COMPLETED",
+      "worker_s": 12.149122069997247
+    },
+    {
+      "key": "D4_1_R_G017",
+      "status": "COMPLETED",
+      "worker_s": 65.16787935298635
+    },
+    {
+      "key": "D4_1_R_G002",
+      "status": "COMPLETED",
+      "worker_s": 65.16823643696262
+    },
+    {
+      "key": "D4_F4_1",
+      "status": "COMPLETED",
+      "worker_s": 11.157515657017939
+    },
+    {
+      "key": "D4_2_R_G017",
+      "status": "COMPLETED",
+      "worker_s": 65.17137001996161
+    },
+    {
+      "key": "D4_2_R_G002",
+      "status": "COMPLETED",
+      "worker_s": 65.1866606399999
+    },
+    {
+      "key": "D4_F4_2",
+      "status": "COMPLETED",
+      "worker_s": 11.157214706006926
+    },
+    {
+      "key": "D4_3_R_G017",
+      "status": "COMPLETED",
+      "worker_s": 65.1628728529904
+    },
+    {
+      "key": "D4_3_R_G002",
+      "status": "COMPLETED",
+      "worker_s": 65.17230743705295
+    },
+    {
+      "key": "D4_F4_3",
+      "status": "COMPLETED",
+      "worker_s": 11.144194620021153
+    },
+    {
+      "key": "D1_LEGACY_0",
+      "status": "COMPLETED",
+      "worker_s": 34.2091730380198
+    },
+    {
+      "key": "D1_LEGACY_1",
+      "status": "COMPLETED",
+      "worker_s": 34.15890470397426
+    },
+    {
+      "key": "D5_PROFILES",
+      "status": "COMPLETED",
+      "worker_s": 211.1981856469647
+    },
+    {
+      "key": "D5_OBSERVER",
+      "status": "COMPLETED",
+      "worker_s": 65.16033546102699
+    }
+  ],
+  "clock_lock": "NA_NO_NONINTERACTIVE_ADMIN",
+  "api_patch": "NONE_NO_CONFIRMED_EVENT_API_BUG",
+  "scope_limitations": [
+    "FULL excludes fresh roster probe",
+    "D4 F4 no additional30s conditioner, predeclared",
+    "Optional5Hz status in OPTIONAL_OBSERVER.json",
+    "Old per-request warmup timing missing"
+  ]
+}

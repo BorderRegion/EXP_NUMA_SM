@@ -1,0 +1,38 @@
+[
+  {
+    "id": "F1",
+    "M": 6,
+    "hidden": 10240,
+    "intermediate": 2560,
+    "first_case": "V01",
+    "second_policy": "LIB_FIXED_SHARED",
+    "scope": "GEMM_SILU_FP16_GEMM_SYNTHETIC_WEIGHTS"
+  },
+  {
+    "id": "F2",
+    "M": 20,
+    "hidden": 20480,
+    "intermediate": 7168,
+    "first_case": "V08",
+    "second_policy": "LIB_FIXED_SHARED",
+    "scope": "GEMM_SILU_FP16_GEMM_SYNTHETIC_WEIGHTS"
+  },
+  {
+    "id": "F3",
+    "M": 72,
+    "hidden": 10240,
+    "intermediate": 2560,
+    "first_case": "V09",
+    "second_policy": "LIB_FIXED_SHARED",
+    "scope": "GEMM_SILU_FP16_GEMM_SYNTHETIC_WEIGHTS"
+  },
+  {
+    "id": "F4",
+    "M": 224,
+    "hidden": 20480,
+    "intermediate": 7168,
+    "first_case": "V16",
+    "second_policy": "LIB_FIXED_SHARED",
+    "scope": "GEMM_SILU_FP16_GEMM_SYNTHETIC_WEIGHTS"
+  }
+]

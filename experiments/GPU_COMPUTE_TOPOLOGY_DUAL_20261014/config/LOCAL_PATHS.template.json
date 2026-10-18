@@ -1,0 +1,19 @@
+{
+  "platform": null,
+  "project_root": null,
+  "cuda_root": null,
+  "nvcc": null,
+  "host_compiler": null,
+  "python": null,
+  "renderer_root": null,
+  "scenes": {
+    "train": null,
+    "bonsai": null,
+    "truck": null
+  },
+  "sparse_program_root": null,
+  "sparse_inputs": [],
+  "local_papers_root": null,
+  "output_root": null,
+  "notes": "Fill a LOCAL copy; no automatic downloading."
+}

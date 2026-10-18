@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "workers": 34,
+  "worker_seconds": 1343.1620462500723,
+  "budget_seconds": 3600,
+  "numerical_checks": 25904,
+  "graphs_checked": 2352,
+  "timing_observations": 1517184,
+  "test_observations": 283392,
+  "micro_launches": 262664,
+  "micro_records": 789164,
+  "independent_input_hashes": 112,
+  "temperature_min": 63,
+  "temperature_max": 79,
+  "power_limit_w": 100,
+  "baseline_exact_binary": true,
+  "implementation_unchanged": true,
+  "random_selection_before_confirmation": true,
+  "note": "One initial CPU analysis failure due missing pandas preserved. Installation/resume made no GPU-code or map-algorithm change.",
+  "fixed_session_operator_requests": 62914560,
+  "fixed_session_graph_replays": 1966080,
+  "fast_setup_ms": [
+    36.103089,
+    38.117735,
+    39.866194,
+    34.829418,
+    36.62515,
+    38.690226
+  ],
+  "fast_fit_ms": [
+    5.501138,
+    5.89295,
+    5.010268,
+    5.113078,
+    5.777164,
+    5.556174
+  ],
+  "supplemental_notes": [
+    "Fast setup learned from concurrent Latin sweeps; no isolated validation tensor exists.",
+    "Original generic analyze.py wrote fast operator output then failed on missing validation_cycles; dedicated analyze_fast.py handles actual format.",
+    "Early CPU shared-graph compile used older header and was repaired before any shared-graph GPU execution; both logs preserved."
+  ]
+}

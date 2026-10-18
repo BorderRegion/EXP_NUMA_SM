@@ -1,0 +1,9 @@
+qualification_v2 COMPLETED 6.751
+memcheck FAILED 3.124
+Traceback (most recent call last):
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/topology-tail-t10/src/resume.py", line 9, in <module>
+    run(name,[sanitizer,'--tool',name,'--error-exitcode','9',PYTHON,ROOT/'src/qualify.py','{OUT}','san'],timeout=240)
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/topology-tail-t10/src/worker.py", line 38, in run
+    if rc:raise RuntimeError(str(out))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: /home/ubuntu/文档/ChatGPT/numa_gpu/topology-tail-t10/runs/20261018T084714Z/memcheck

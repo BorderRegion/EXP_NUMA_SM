@@ -1,0 +1,14 @@
+[
+  {
+    "created_utc": "2026-10-18T13:03:34.194579+00:00",
+    "stage": "CPU final analysis after all12 GPU workers completed",
+    "status": "SERIALIZATION_REPAIR",
+    "reason": "The262144-request group produces a numpy.bool_ primary flag, rejected by stdlib JSON. Added analyze_repaired.py to convert NumPy scalars to native scalars at write boundary only.",
+    "frozen_analysis_sha256": "5c58732cd1f7aae2880704b0b2514d527795d70d4af6e0766aa28b89ca44bb11",
+    "repair_sha256": "befd14c6584b73eb52d62ebe9cfbda87b2291c54ffe023149ae22ceaabbd730f",
+    "raw_data_changed": false,
+    "gpu_rerun": false,
+    "statistical_formula_changed": false,
+    "original_failure_log": "reports/CAMPAIGN.log"
+  }
+]

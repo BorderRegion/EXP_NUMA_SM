@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-10-18T03:20:31.016713+00:00",
+  "purpose": "Causal check: same original binary and mapping-table VA; changes only contents/SM pairing. Complements constant-parameter binary rather than searching a new map.",
+  "processes": 6,
+  "seed_base": 110000000,
+  "cases": [
+    32768,
+    65536,
+    131072,
+    262144
+  ],
+  "pages": [
+    0,
+    17,
+    257
+  ],
+  "blocks": 24,
+  "replays": 12,
+  "benchmark_setup": "Activate policy by D2D table copy and stream sync before timed request group. Record copy walltime; excluded from kernel timing because deployed fixed policy uploads once. Never report this benchmark switching loop as a free per-request runtime.",
+  "maps_sha256": "6198492e416955c9da8c98261e3eb7d0d360d441dcca3183a1aef23b1bf56b44",
+  "binary_sha256": "1c741b35f970a3c6bd419cb4a64970f033425708dbb70c72f8e50a924cadc742",
+  "script_sha256": "9f34839c83d188b1dd7a653401fa583865e99ae4889d2cd3df0f5264405cc0a8",
+  "const_results_seen": false
+}

@@ -1,0 +1,15 @@
+0 0 ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'parity_consume' for 'sm_75'
+ptxas info    : Function properties for parity_consume
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1036 bytes smem, 408 bytes cmem[0]
+ptxas info    : Compiling entry function 'sweep' for 'sm_75'
+ptxas info    : Function properties for sweep
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 1024 bytes smem, 376 bytes cmem[0]
+ptxas info    : Compiling entry function 'probe' for 'sm_75'
+ptxas info    : Function properties for probe
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 1036 bytes smem, 408 bytes cmem[0]
+
+1 0 

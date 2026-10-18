@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-10-18T03:22:50.657097+00:00",
+  "purpose": "Resolve tiny timing differences with32 complete consecutive operators in one CUDA Graph event span; retain all32 resets/coordination and kernel launch gaps. Throughput diagnostic, not single-token latency or end-to-end model.",
+  "seed_base": 111000000,
+  "processes": 6,
+  "cases": [
+    32768,
+    65536,
+    131072,
+    262144
+  ],
+  "pages": [
+    0,
+    17,
+    257
+  ],
+  "blocks": 8,
+  "replays": 6,
+  "batch_size": 32,
+  "maps": "Unchanged frozen MINIMAX and12 random panel",
+  "script_sha256": "55fd5f5f957dab14fde05c365e58ea01a30d42b2ea0f7deb3df854534c1b9be9",
+  "binary_sha256": "10a0201ea5138c70fb96975cb3ec36d11adeb9d63841f63b2f763f619c2e4104",
+  "const_results_seen": false,
+  "stop": "Last new measurement protocol. Finish frozen queues, audit, report; no new tuning or variants."
+}

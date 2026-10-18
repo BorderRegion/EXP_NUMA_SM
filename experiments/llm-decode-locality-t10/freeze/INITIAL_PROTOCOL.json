@@ -1,0 +1,109 @@
+{
+  "created_utc": "2026-10-17T14:31:13.428234+00:00",
+  "gpu_worker_cap_seconds": 1800,
+  "cases": [
+    {
+      "id": "QWEN_SHORT",
+      "index": 0,
+      "B": 1,
+      "H": 8,
+      "HK": 2,
+      "D": 256,
+      "L": 1024,
+      "lengths": [
+        1024
+      ],
+      "source": "LOCAL_GGUF_ATTENTION_SHAPE_SYNTHETIC_INPUT"
+    },
+    {
+      "id": "QWEN_LONG",
+      "index": 1,
+      "B": 1,
+      "H": 8,
+      "HK": 2,
+      "D": 256,
+      "L": 8192,
+      "lengths": [
+        8192
+      ],
+      "source": "LOCAL_GGUF_ATTENTION_SHAPE_SYNTHETIC_INPUT"
+    },
+    {
+      "id": "GQA4_SHORT",
+      "index": 2,
+      "B": 1,
+      "H": 32,
+      "HK": 8,
+      "D": 128,
+      "L": 1024,
+      "lengths": [
+        1024
+      ],
+      "source": "DESIGNED_GQA_SHAPE_NOT_MODEL_TRACE"
+    },
+    {
+      "id": "GQA4_LONG",
+      "index": 3,
+      "B": 1,
+      "H": 32,
+      "HK": 8,
+      "D": 128,
+      "L": 8192,
+      "lengths": [
+        8192
+      ],
+      "source": "DESIGNED_GQA_SHAPE_NOT_MODEL_TRACE"
+    },
+    {
+      "id": "GQA8_LONG",
+      "index": 4,
+      "B": 1,
+      "H": 32,
+      "HK": 4,
+      "D": 128,
+      "L": 8192,
+      "lengths": [
+        8192
+      ],
+      "source": "DESIGNED_GQA_SHAPE_NOT_MODEL_TRACE"
+    },
+    {
+      "id": "BATCH4_RAGGED",
+      "index": 5,
+      "B": 4,
+      "H": 32,
+      "HK": 8,
+      "D": 128,
+      "L": 4096,
+      "lengths": [
+        4096,
+        3073,
+        2049,
+        1027
+      ],
+      "source": "DESIGNED_GQA_SHAPE_NOT_MODEL_TRACE"
+    }
+  ],
+  "page_tokens": 16,
+  "workers_per_kv_head": [
+    1,
+    4,
+    8,
+    16
+  ],
+  "development_processes": 2,
+  "confirmation_processes": 6,
+  "confirmation_blocks": 30,
+  "replays_per_block": 8,
+  "offsets_bytes": [
+    0,
+    69632
+  ],
+  "input_seeds": "dev=1100000+process*10000+case_index*101; confirmation=2200000+process*10000+case_index*101; no overlap",
+  "correctness": "FP32 full GQA reference and FP64 full first head; tolerance abs 3e-4 + rel 3e-3, relative Frobenius 2e-3; FP16 output",
+  "selection": "Develop independently best ordinary direct worker count and best queue count, measure fused and unfused. Freeze before confirmation. Choose MATCH/INVERT only using separate per-allocation calibration, never test data.",
+  "timing": "GPU full captured operator including partial/merge, atomics, counter resets; C++ graph submit through output-ready also. No Python or cache construction cost in hot interval; record setup separately.",
+  "baselines": "Best native CUDA direct, same queue blind/invert/shuffled, PyTorch efficient SDPA ideal contiguous and mandatory gather path, native grouped BMM/softmax/BMM. No claim of vLLM or FlashInfer SOTA.",
+  "health": "100W unchanged; stop at 82C; exclusive flock",
+  "no_filtering": true
+}

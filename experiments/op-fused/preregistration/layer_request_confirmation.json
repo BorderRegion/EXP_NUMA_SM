@@ -1,0 +1,22 @@
+{
+  "frozen_before_new_request_measurements": true,
+  "utc": "2026-10-15T07:50:53.862500+00:00",
+  "cases": [
+    "moe_layer-007",
+    "moe_layer-008",
+    "moe_layer-009",
+    "moe_layer-016",
+    "moe_layer-017",
+    "moe_layer-024"
+  ],
+  "blocks": 6,
+  "variants": [
+    "CUBLAS_GRAPH_REQUEST",
+    "CUBLAS_EAGER_REQUEST"
+  ],
+  "anchors": "GRAPH head and tail",
+  "measurement": "128 actual per-request ready observations, >=64 and >=300ms warmup",
+  "purpose": "Existing E4 results are steady batched throughput; add the specified layer-request endpoint without replacing them",
+  "algorithm_or_precision_changed": false,
+  "budget": "within existing E4 9000 second cap"
+}

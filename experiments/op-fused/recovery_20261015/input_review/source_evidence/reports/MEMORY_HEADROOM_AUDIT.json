@@ -1,0 +1,97 @@
+{
+  "runtime_total_bytes": 15636037632,
+  "required_reserve_bytes": 2345405645,
+  "flagged_records": 6,
+  "flagged_case_ids": [
+    "attention_decode-047"
+  ],
+  "records": [
+    {
+      "case_id": "attention_decode-047",
+      "block": 0,
+      "run_key": "E5_native_block_0",
+      "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-047.json",
+      "peak_reserved_bytes": 15395192832,
+      "peak_allocated_bytes": 3063546880,
+      "case_end_free_bytes": 7053967360,
+      "process_sampled_max_nvml_used_mib": 8641.0,
+      "status": "MEMORY_MARGIN_NOT_QUALIFIED",
+      "reserved_peak_margin_check_pass": false,
+      "continuous_physical_timeline_recorded": false,
+      "reason": "Allocator reserved high-water exceeds runtime-total minus required reserve. Recorded active peak and 1Hz physical observations differ substantially; they do not establish continuous physical headroom or prove an OOM. Preserve raw, no inference of compliance from case-end free bytes."
+    },
+    {
+      "case_id": "attention_decode-047",
+      "block": 1,
+      "run_key": "E5_native_block_1",
+      "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-047.json",
+      "peak_reserved_bytes": 15395192832,
+      "peak_allocated_bytes": 3063546880,
+      "case_end_free_bytes": 7066550272,
+      "process_sampled_max_nvml_used_mib": 8629.0,
+      "status": "MEMORY_MARGIN_NOT_QUALIFIED",
+      "reserved_peak_margin_check_pass": false,
+      "continuous_physical_timeline_recorded": false,
+      "reason": "Allocator reserved high-water exceeds runtime-total minus required reserve. Recorded active peak and 1Hz physical observations differ substantially; they do not establish continuous physical headroom or prove an OOM. Preserve raw, no inference of compliance from case-end free bytes."
+    },
+    {
+      "case_id": "attention_decode-047",
+      "block": 2,
+      "run_key": "E5_native_block_2",
+      "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-047.json",
+      "peak_reserved_bytes": 15395192832,
+      "peak_allocated_bytes": 3063546880,
+      "case_end_free_bytes": 7066550272,
+      "process_sampled_max_nvml_used_mib": 10757.0,
+      "status": "MEMORY_MARGIN_NOT_QUALIFIED",
+      "reserved_peak_margin_check_pass": false,
+      "continuous_physical_timeline_recorded": false,
+      "reason": "Allocator reserved high-water exceeds runtime-total minus required reserve. Recorded active peak and 1Hz physical observations differ substantially; they do not establish continuous physical headroom or prove an OOM. Preserve raw, no inference of compliance from case-end free bytes."
+    },
+    {
+      "case_id": "attention_decode-047",
+      "block": 3,
+      "run_key": "E5_native_block_3",
+      "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-047.json",
+      "peak_reserved_bytes": 15395192832,
+      "peak_allocated_bytes": 3063546880,
+      "case_end_free_bytes": 7066550272,
+      "process_sampled_max_nvml_used_mib": 8629.0,
+      "status": "MEMORY_MARGIN_NOT_QUALIFIED",
+      "reserved_peak_margin_check_pass": false,
+      "continuous_physical_timeline_recorded": false,
+      "reason": "Allocator reserved high-water exceeds runtime-total minus required reserve. Recorded active peak and 1Hz physical observations differ substantially; they do not establish continuous physical headroom or prove an OOM. Preserve raw, no inference of compliance from case-end free bytes."
+    },
+    {
+      "case_id": "attention_decode-047",
+      "block": 4,
+      "run_key": "E5_native_block_4",
+      "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-047.json",
+      "peak_reserved_bytes": 15395192832,
+      "peak_allocated_bytes": 3063546880,
+      "case_end_free_bytes": 7066550272,
+      "process_sampled_max_nvml_used_mib": 11245.0,
+      "status": "MEMORY_MARGIN_NOT_QUALIFIED",
+      "reserved_peak_margin_check_pass": false,
+      "continuous_physical_timeline_recorded": false,
+      "reason": "Allocator reserved high-water exceeds runtime-total minus required reserve. Recorded active peak and 1Hz physical observations differ substantially; they do not establish continuous physical headroom or prove an OOM. Preserve raw, no inference of compliance from case-end free bytes."
+    },
+    {
+      "case_id": "attention_decode-047",
+      "block": 5,
+      "run_key": "E5_native_block_5",
+      "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-047.json",
+      "peak_reserved_bytes": 15395192832,
+      "peak_allocated_bytes": 3063546880,
+      "case_end_free_bytes": 7066550272,
+      "process_sampled_max_nvml_used_mib": 10757.0,
+      "status": "MEMORY_MARGIN_NOT_QUALIFIED",
+      "reserved_peak_margin_check_pass": false,
+      "continuous_physical_timeline_recorded": false,
+      "reason": "Allocator reserved high-water exceeds runtime-total minus required reserve. Recorded active peak and 1Hz physical observations differ substantially; they do not establish continuous physical headroom or prove an OOM. Preserve raw, no inference of compliance from case-end free bytes."
+    }
+  ],
+  "numeric_or_hardware_failure": false,
+  "classification": "RECORDED_RESERVED_PEAK_MARGIN_CHECK_FAILED; physical timeline incomplete; numerical measurements retained with flag",
+  "caveat": "The pre-allocation estimate is not a continuous enforced free-memory limit. No full memory timeline was recorded. No rerun or shape shrink is used to hide this gap."
+}

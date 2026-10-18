@@ -1,0 +1,266 @@
+[
+  {
+    "cohort": "confirmation",
+    "case_blocks": 96,
+    "base_over_lib": {
+      "block_log_ratios": [
+        -0.17716084120790215,
+        -0.17569442683811504,
+        -0.1271315136336514,
+        -0.1585339271070979,
+        -0.11184169485851445,
+        -0.15834930975784842
+      ],
+      "gain_percent": 14.054082362560793,
+      "scope": "Noisy retrospective zero-cost envelope; not deployable improvement",
+      "gain_percent_ci": [
+        12.407219775857737,
+        15.651964122549577
+      ]
+    },
+    "full_over_lib": {
+      "block_log_ratios": [
+        -0.19717819558183336,
+        -0.19138694716083945,
+        -0.15173003285019332,
+        -0.15931931326794777,
+        -0.1299614342512203,
+        -0.17596828920684243
+      ],
+      "gain_percent": 15.430009290790814,
+      "scope": "Noisy retrospective zero-cost envelope; not deployable improvement",
+      "gain_percent_ci": [
+        13.836639625224823,
+        16.923056818070847
+      ]
+    },
+    "full_over_base": {
+      "block_log_ratios": [
+        -0.020017354373931186,
+        -0.015692520322724418,
+        -0.024598519216541898,
+        -0.0007853861608498212,
+        -0.018119739392705888,
+        -0.017618979448994015
+      ],
+      "gain_percent": 1.6009217960000544,
+      "scope": "Noisy retrospective zero-cost envelope; not deployable improvement",
+      "gain_percent_ci": [
+        0.9320586953638577,
+        2.07365708227798
+      ]
+    },
+    "base_winners": {
+      "LIB": 48,
+      "SINGLE": 35,
+      "SPLIT": 13
+    },
+    "full_winners": {
+      "LIB": 42,
+      "SINGLE": 30,
+      "PC0_1": 3,
+      "PC2_1": 3,
+      "PC2_0": 3,
+      "SPLIT": 5,
+      "PC1_1": 4,
+      "PC1_0": 3,
+      "PC0_0": 3
+    }
+  },
+  {
+    "cohort": "regression",
+    "case_blocks": 48,
+    "base_over_lib": {
+      "block_log_ratios": [
+        -0.06617609628438713,
+        -0.10820812974154506,
+        -0.12171202647291976,
+        -0.10694654154625449,
+        -0.05814148599698195,
+        -0.06368902474778104
+      ],
+      "gain_percent": 8.37617813877809,
+      "scope": "Noisy retrospective zero-cost envelope; not deployable improvement",
+      "gain_percent_ci": [
+        6.642282390729659,
+        10.195420004125676
+      ]
+    },
+    "full_over_lib": {
+      "block_log_ratios": [
+        -0.06870754653391013,
+        -0.11665403089245363,
+        -0.15255574643817893,
+        -0.1454898794670111,
+        -0.06648356693470636,
+        -0.09100770801269707
+      ],
+      "gain_percent": 10.13093542757848,
+      "scope": "Noisy retrospective zero-cost envelope; not deployable improvement",
+      "gain_percent_ci": [
+        7.692487682907112,
+        12.632612436689861
+      ]
+    },
+    "full_over_base": {
+      "block_log_ratios": [
+        -0.002531450249523003,
+        -0.008445901150908573,
+        -0.030843719965259184,
+        -0.03854333792075662,
+        -0.008342080937724417,
+        -0.027318683264916023
+      ],
+      "gain_percent": 1.9151758278084352,
+      "scope": "Noisy retrospective zero-cost envelope; not deployable improvement",
+      "gain_percent_ci": [
+        0.916168322242461,
+        2.991642657294813
+      ]
+    },
+    "base_winners": {
+      "LIB": 29,
+      "SINGLE": 15,
+      "SPLIT": 4
+    },
+    "full_winners": {
+      "LIB": 23,
+      "SINGLE": 14,
+      "PC2_1": 3,
+      "SPLIT": 2,
+      "PC1_1": 1,
+      "PC0_1": 1,
+      "PC1_0": 2,
+      "PC2_0": 1,
+      "PC0_0": 1
+    }
+  },
+  {
+    "cohort": "M320_extrapolation",
+    "case_blocks": 24,
+    "base_over_lib": {
+      "block_log_ratios": [
+        -0.17746065296621433,
+        -0.31928658481804684,
+        -0.29831174227563667,
+        -0.3148333457559847,
+        -0.19477872197982088,
+        -0.3395453182745817
+      ],
+      "gain_percent": 23.969534258863,
+      "scope": "Noisy retrospective zero-cost envelope; not deployable improvement",
+      "gain_percent_ci": [
+        20.029873441744794,
+        27.5244435857945
+      ]
+    },
+    "full_over_lib": {
+      "block_log_ratios": [
+        -0.17746065296621433,
+        -0.31928658481804684,
+        -0.29831174227563667,
+        -0.3148333457559847,
+        -0.19477872197982088,
+        -0.3395453182745817
+      ],
+      "gain_percent": 23.969534258863,
+      "scope": "Noisy retrospective zero-cost envelope; not deployable improvement",
+      "gain_percent_ci": [
+        20.029873441744794,
+        27.5244435857945
+      ]
+    },
+    "full_over_base": {
+      "block_log_ratios": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_percent": 0.0,
+      "scope": "Noisy retrospective zero-cost envelope; not deployable improvement",
+      "gain_percent_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "base_winners": {
+      "SINGLE": 12,
+      "LIB": 12
+    },
+    "full_winners": {
+      "SINGLE": 12,
+      "LIB": 12
+    }
+  },
+  {
+    "cohort": "within_development_M",
+    "case_blocks": 72,
+    "base_over_lib": {
+      "block_log_ratios": [
+        -0.17706090395513144,
+        -0.12783037417813778,
+        -0.07007143741965634,
+        -0.10643412089080233,
+        -0.08419601915141228,
+        -0.09795064025227064
+      ],
+      "gain_percent": 10.469477259592065,
+      "scope": "Noisy retrospective zero-cost envelope; not deployable improvement",
+      "gain_percent_ci": [
+        8.304172105936757,
+        13.080978740461468
+      ]
+    },
+    "full_over_lib": {
+      "block_log_ratios": [
+        -0.20375070978703969,
+        -0.14875373460843697,
+        -0.1028694630417122,
+        -0.1074813024386021,
+        -0.10835567167502014,
+        -0.12144261285092935
+      ],
+      "gain_percent": 12.375444704534122,
+      "scope": "Noisy retrospective zero-cost envelope; not deployable improvement",
+      "gain_percent_ci": [
+        10.261554486876168,
+        15.010330571047813
+      ]
+    },
+    "full_over_base": {
+      "block_log_ratios": [
+        -0.026689805831908248,
+        -0.02092336043029922,
+        -0.03279802562205587,
+        -0.0010471815477997616,
+        -0.024159652523607845,
+        -0.02349197259865869
+      ],
+      "gain_percent": 2.1288465504310405,
+      "scope": "Noisy retrospective zero-cost envelope; not deployable improvement",
+      "gain_percent_ci": [
+        1.2408103942824433,
+        2.7552760163405243
+      ]
+    },
+    "base_winners": {
+      "LIB": 36,
+      "SINGLE": 23,
+      "SPLIT": 13
+    },
+    "full_winners": {
+      "LIB": 30,
+      "SINGLE": 18,
+      "PC0_1": 3,
+      "PC2_1": 3,
+      "PC2_0": 3,
+      "SPLIT": 5,
+      "PC1_1": 4,
+      "PC1_0": 3,
+      "PC0_0": 3
+    }
+  }
+]

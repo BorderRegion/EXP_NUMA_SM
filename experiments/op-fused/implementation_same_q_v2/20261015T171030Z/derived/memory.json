@@ -1,0 +1,1523 @@
+[
+  {
+    "worker": "sameq_v2_develop_0",
+    "case_id": "v2-dev-08",
+    "block": 0,
+    "peak_reserved_bytes": 916455424,
+    "free_after": 14334427136,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_0",
+    "case_id": "v2-dev-06",
+    "block": 0,
+    "peak_reserved_bytes": 897581056,
+    "free_after": 14353301504,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_0",
+    "case_id": "v2-dev-11",
+    "block": 0,
+    "peak_reserved_bytes": 1530920960,
+    "free_after": 13719961600,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_0",
+    "case_id": "v2-dev-03",
+    "block": 0,
+    "peak_reserved_bytes": 253755392,
+    "free_after": 14997127168,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_0",
+    "case_id": "v2-dev-12",
+    "block": 0,
+    "peak_reserved_bytes": 3464495104,
+    "free_after": 11786387456,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_0",
+    "case_id": "v2-dev-02",
+    "block": 0,
+    "peak_reserved_bytes": 285212672,
+    "free_after": 14965669888,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_0",
+    "case_id": "v2-dev-09",
+    "block": 0,
+    "peak_reserved_bytes": 1174405120,
+    "free_after": 14076477440,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_0",
+    "case_id": "v2-dev-10",
+    "block": 0,
+    "peak_reserved_bytes": 3565158400,
+    "free_after": 11685724160,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_0",
+    "case_id": "v2-dev-05",
+    "block": 0,
+    "peak_reserved_bytes": 387973120,
+    "free_after": 14862909440,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_0",
+    "case_id": "v2-dev-07",
+    "block": 0,
+    "peak_reserved_bytes": 564133888,
+    "free_after": 14686748672,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_0",
+    "case_id": "v2-dev-01",
+    "block": 0,
+    "peak_reserved_bytes": 117440512,
+    "free_after": 15133442048,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_0",
+    "case_id": "v2-dev-04",
+    "block": 0,
+    "peak_reserved_bytes": 327155712,
+    "free_after": 14923726848,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_1",
+    "case_id": "v2-dev-08",
+    "block": 1,
+    "peak_reserved_bytes": 916455424,
+    "free_after": 14334427136,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_1",
+    "case_id": "v2-dev-06",
+    "block": 1,
+    "peak_reserved_bytes": 897581056,
+    "free_after": 14353301504,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_1",
+    "case_id": "v2-dev-11",
+    "block": 1,
+    "peak_reserved_bytes": 1530920960,
+    "free_after": 13719961600,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_1",
+    "case_id": "v2-dev-03",
+    "block": 1,
+    "peak_reserved_bytes": 253755392,
+    "free_after": 14997127168,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_1",
+    "case_id": "v2-dev-12",
+    "block": 1,
+    "peak_reserved_bytes": 3464495104,
+    "free_after": 11786387456,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_1",
+    "case_id": "v2-dev-02",
+    "block": 1,
+    "peak_reserved_bytes": 285212672,
+    "free_after": 14965669888,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_1",
+    "case_id": "v2-dev-09",
+    "block": 1,
+    "peak_reserved_bytes": 1174405120,
+    "free_after": 14076477440,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_1",
+    "case_id": "v2-dev-10",
+    "block": 1,
+    "peak_reserved_bytes": 3565158400,
+    "free_after": 11685724160,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_1",
+    "case_id": "v2-dev-05",
+    "block": 1,
+    "peak_reserved_bytes": 387973120,
+    "free_after": 14862909440,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_1",
+    "case_id": "v2-dev-07",
+    "block": 1,
+    "peak_reserved_bytes": 564133888,
+    "free_after": 14686748672,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_1",
+    "case_id": "v2-dev-01",
+    "block": 1,
+    "peak_reserved_bytes": 117440512,
+    "free_after": 15133442048,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_1",
+    "case_id": "v2-dev-04",
+    "block": 1,
+    "peak_reserved_bytes": 327155712,
+    "free_after": 14923726848,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_2",
+    "case_id": "v2-dev-08",
+    "block": 2,
+    "peak_reserved_bytes": 916455424,
+    "free_after": 14334427136,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_2",
+    "case_id": "v2-dev-06",
+    "block": 2,
+    "peak_reserved_bytes": 897581056,
+    "free_after": 14353301504,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_2",
+    "case_id": "v2-dev-11",
+    "block": 2,
+    "peak_reserved_bytes": 1530920960,
+    "free_after": 13719961600,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_2",
+    "case_id": "v2-dev-03",
+    "block": 2,
+    "peak_reserved_bytes": 253755392,
+    "free_after": 14997127168,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_2",
+    "case_id": "v2-dev-12",
+    "block": 2,
+    "peak_reserved_bytes": 3464495104,
+    "free_after": 11786387456,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_2",
+    "case_id": "v2-dev-02",
+    "block": 2,
+    "peak_reserved_bytes": 285212672,
+    "free_after": 14965669888,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_2",
+    "case_id": "v2-dev-09",
+    "block": 2,
+    "peak_reserved_bytes": 1174405120,
+    "free_after": 14076477440,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_2",
+    "case_id": "v2-dev-10",
+    "block": 2,
+    "peak_reserved_bytes": 3565158400,
+    "free_after": 11685724160,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_2",
+    "case_id": "v2-dev-05",
+    "block": 2,
+    "peak_reserved_bytes": 387973120,
+    "free_after": 14862909440,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_2",
+    "case_id": "v2-dev-07",
+    "block": 2,
+    "peak_reserved_bytes": 564133888,
+    "free_after": 14686748672,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_2",
+    "case_id": "v2-dev-01",
+    "block": 2,
+    "peak_reserved_bytes": 117440512,
+    "free_after": 15133442048,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_develop_2",
+    "case_id": "v2-dev-04",
+    "block": 2,
+    "peak_reserved_bytes": 327155712,
+    "free_after": 14923726848,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_diagnose_0",
+    "case_id": "v2-single-01",
+    "block": 0,
+    "peak_reserved_bytes": 48234496,
+    "free_after": 15204745216,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_diagnose_0",
+    "case_id": "v2-single-06",
+    "block": 0,
+    "peak_reserved_bytes": 488636416,
+    "free_after": 14764343296,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_diagnose_0",
+    "case_id": "v2-single-04",
+    "block": 0,
+    "peak_reserved_bytes": 201326592,
+    "free_after": 15051653120,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_diagnose_0",
+    "case_id": "v2-single-05",
+    "block": 0,
+    "peak_reserved_bytes": 243269632,
+    "free_after": 15009710080,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_diagnose_0",
+    "case_id": "v2-single-02",
+    "block": 0,
+    "peak_reserved_bytes": 109051904,
+    "free_after": 15143927808,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_diagnose_0",
+    "case_id": "v2-single-03",
+    "block": 0,
+    "peak_reserved_bytes": 109051904,
+    "free_after": 15143927808,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_diagnose_1",
+    "case_id": "v2-single-01",
+    "block": 1,
+    "peak_reserved_bytes": 48234496,
+    "free_after": 15204745216,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_diagnose_1",
+    "case_id": "v2-single-06",
+    "block": 1,
+    "peak_reserved_bytes": 488636416,
+    "free_after": 14764343296,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_diagnose_1",
+    "case_id": "v2-single-04",
+    "block": 1,
+    "peak_reserved_bytes": 201326592,
+    "free_after": 15051653120,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_diagnose_1",
+    "case_id": "v2-single-05",
+    "block": 1,
+    "peak_reserved_bytes": 243269632,
+    "free_after": 15009710080,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_diagnose_1",
+    "case_id": "v2-single-02",
+    "block": 1,
+    "peak_reserved_bytes": 109051904,
+    "free_after": 15143927808,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_diagnose_1",
+    "case_id": "v2-single-03",
+    "block": 1,
+    "peak_reserved_bytes": 109051904,
+    "free_after": 15143927808,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_diagnose_2",
+    "case_id": "v2-single-01",
+    "block": 2,
+    "peak_reserved_bytes": 48234496,
+    "free_after": 15204745216,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_diagnose_2",
+    "case_id": "v2-single-06",
+    "block": 2,
+    "peak_reserved_bytes": 488636416,
+    "free_after": 14764343296,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_diagnose_2",
+    "case_id": "v2-single-04",
+    "block": 2,
+    "peak_reserved_bytes": 201326592,
+    "free_after": 15051653120,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_diagnose_2",
+    "case_id": "v2-single-05",
+    "block": 2,
+    "peak_reserved_bytes": 243269632,
+    "free_after": 15009710080,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_diagnose_2",
+    "case_id": "v2-single-02",
+    "block": 2,
+    "peak_reserved_bytes": 109051904,
+    "free_after": 15143927808,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_diagnose_2",
+    "case_id": "v2-single-03",
+    "block": 2,
+    "peak_reserved_bytes": 109051904,
+    "free_after": 15143927808,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_0",
+    "case_id": "grouped-025",
+    "block": 0,
+    "peak_reserved_bytes": 171966464,
+    "free_after": 15081013248,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_0",
+    "case_id": "grouped-094",
+    "block": 0,
+    "peak_reserved_bytes": 3527409664,
+    "free_after": 11725570048,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_0",
+    "case_id": "grouped-079",
+    "block": 0,
+    "peak_reserved_bytes": 3068133376,
+    "free_after": 12184846336,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_0",
+    "case_id": "grouped-057",
+    "block": 0,
+    "peak_reserved_bytes": 398458880,
+    "free_after": 14854520832,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_0",
+    "case_id": "v2-confirm-05",
+    "block": 0,
+    "peak_reserved_bytes": 1782579200,
+    "free_after": 13470400512,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_0",
+    "case_id": "v2-confirm-06",
+    "block": 0,
+    "peak_reserved_bytes": 1925185536,
+    "free_after": 13327794176,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_0",
+    "case_id": "v2-confirm-01",
+    "block": 0,
+    "peak_reserved_bytes": 266338304,
+    "free_after": 14986641408,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_0",
+    "case_id": "grouped-035",
+    "block": 0,
+    "peak_reserved_bytes": 224395264,
+    "free_after": 15028584448,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_0",
+    "case_id": "grouped-003",
+    "block": 0,
+    "peak_reserved_bytes": 88080384,
+    "free_after": 15164899328,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_0",
+    "case_id": "v2-confirm-03",
+    "block": 0,
+    "peak_reserved_bytes": 520093696,
+    "free_after": 14732886016,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_0",
+    "case_id": "v2-confirm-04",
+    "block": 0,
+    "peak_reserved_bytes": 576716800,
+    "free_after": 14676262912,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_0",
+    "case_id": "v2-confirm-02",
+    "block": 0,
+    "peak_reserved_bytes": 308281344,
+    "free_after": 14944698368,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_1",
+    "case_id": "grouped-025",
+    "block": 1,
+    "peak_reserved_bytes": 171966464,
+    "free_after": 15081013248,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_1",
+    "case_id": "grouped-094",
+    "block": 1,
+    "peak_reserved_bytes": 3527409664,
+    "free_after": 11725570048,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_1",
+    "case_id": "grouped-079",
+    "block": 1,
+    "peak_reserved_bytes": 3068133376,
+    "free_after": 12184846336,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_1",
+    "case_id": "grouped-057",
+    "block": 1,
+    "peak_reserved_bytes": 398458880,
+    "free_after": 14854520832,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_1",
+    "case_id": "v2-confirm-05",
+    "block": 1,
+    "peak_reserved_bytes": 1782579200,
+    "free_after": 13470400512,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_1",
+    "case_id": "v2-confirm-06",
+    "block": 1,
+    "peak_reserved_bytes": 1925185536,
+    "free_after": 13327794176,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_1",
+    "case_id": "v2-confirm-01",
+    "block": 1,
+    "peak_reserved_bytes": 266338304,
+    "free_after": 14986641408,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_1",
+    "case_id": "grouped-035",
+    "block": 1,
+    "peak_reserved_bytes": 224395264,
+    "free_after": 15028584448,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_1",
+    "case_id": "grouped-003",
+    "block": 1,
+    "peak_reserved_bytes": 88080384,
+    "free_after": 15164899328,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_1",
+    "case_id": "v2-confirm-03",
+    "block": 1,
+    "peak_reserved_bytes": 520093696,
+    "free_after": 14732886016,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_1",
+    "case_id": "v2-confirm-04",
+    "block": 1,
+    "peak_reserved_bytes": 576716800,
+    "free_after": 14676262912,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_1",
+    "case_id": "v2-confirm-02",
+    "block": 1,
+    "peak_reserved_bytes": 308281344,
+    "free_after": 14944698368,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_2",
+    "case_id": "grouped-025",
+    "block": 2,
+    "peak_reserved_bytes": 171966464,
+    "free_after": 15081013248,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_2",
+    "case_id": "grouped-094",
+    "block": 2,
+    "peak_reserved_bytes": 3527409664,
+    "free_after": 11725570048,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_2",
+    "case_id": "grouped-079",
+    "block": 2,
+    "peak_reserved_bytes": 3068133376,
+    "free_after": 12184846336,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_2",
+    "case_id": "grouped-057",
+    "block": 2,
+    "peak_reserved_bytes": 398458880,
+    "free_after": 14854520832,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_2",
+    "case_id": "v2-confirm-05",
+    "block": 2,
+    "peak_reserved_bytes": 1782579200,
+    "free_after": 13470400512,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_2",
+    "case_id": "v2-confirm-06",
+    "block": 2,
+    "peak_reserved_bytes": 1925185536,
+    "free_after": 13327794176,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_2",
+    "case_id": "v2-confirm-01",
+    "block": 2,
+    "peak_reserved_bytes": 266338304,
+    "free_after": 14986641408,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_2",
+    "case_id": "grouped-035",
+    "block": 2,
+    "peak_reserved_bytes": 224395264,
+    "free_after": 15028584448,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_2",
+    "case_id": "grouped-003",
+    "block": 2,
+    "peak_reserved_bytes": 88080384,
+    "free_after": 15164899328,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_2",
+    "case_id": "v2-confirm-03",
+    "block": 2,
+    "peak_reserved_bytes": 520093696,
+    "free_after": 14732886016,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_2",
+    "case_id": "v2-confirm-04",
+    "block": 2,
+    "peak_reserved_bytes": 576716800,
+    "free_after": 14676262912,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_2",
+    "case_id": "v2-confirm-02",
+    "block": 2,
+    "peak_reserved_bytes": 308281344,
+    "free_after": 14944698368,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_3",
+    "case_id": "grouped-025",
+    "block": 3,
+    "peak_reserved_bytes": 171966464,
+    "free_after": 15081013248,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_3",
+    "case_id": "grouped-094",
+    "block": 3,
+    "peak_reserved_bytes": 3527409664,
+    "free_after": 11725570048,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_3",
+    "case_id": "grouped-079",
+    "block": 3,
+    "peak_reserved_bytes": 3068133376,
+    "free_after": 12184846336,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_3",
+    "case_id": "grouped-057",
+    "block": 3,
+    "peak_reserved_bytes": 398458880,
+    "free_after": 14854520832,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_3",
+    "case_id": "v2-confirm-05",
+    "block": 3,
+    "peak_reserved_bytes": 1782579200,
+    "free_after": 13470400512,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_3",
+    "case_id": "v2-confirm-06",
+    "block": 3,
+    "peak_reserved_bytes": 1925185536,
+    "free_after": 13327794176,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_3",
+    "case_id": "v2-confirm-01",
+    "block": 3,
+    "peak_reserved_bytes": 266338304,
+    "free_after": 14986641408,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_3",
+    "case_id": "grouped-035",
+    "block": 3,
+    "peak_reserved_bytes": 224395264,
+    "free_after": 15028584448,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_3",
+    "case_id": "grouped-003",
+    "block": 3,
+    "peak_reserved_bytes": 88080384,
+    "free_after": 15164899328,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_3",
+    "case_id": "v2-confirm-03",
+    "block": 3,
+    "peak_reserved_bytes": 520093696,
+    "free_after": 14732886016,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_3",
+    "case_id": "v2-confirm-04",
+    "block": 3,
+    "peak_reserved_bytes": 576716800,
+    "free_after": 14676262912,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_3",
+    "case_id": "v2-confirm-02",
+    "block": 3,
+    "peak_reserved_bytes": 308281344,
+    "free_after": 14944698368,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_4",
+    "case_id": "grouped-025",
+    "block": 4,
+    "peak_reserved_bytes": 171966464,
+    "free_after": 15081013248,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_4",
+    "case_id": "grouped-094",
+    "block": 4,
+    "peak_reserved_bytes": 3527409664,
+    "free_after": 11725570048,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_4",
+    "case_id": "grouped-079",
+    "block": 4,
+    "peak_reserved_bytes": 3068133376,
+    "free_after": 12184846336,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_4",
+    "case_id": "grouped-057",
+    "block": 4,
+    "peak_reserved_bytes": 398458880,
+    "free_after": 14854520832,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_4",
+    "case_id": "v2-confirm-05",
+    "block": 4,
+    "peak_reserved_bytes": 1782579200,
+    "free_after": 13470400512,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_4",
+    "case_id": "v2-confirm-06",
+    "block": 4,
+    "peak_reserved_bytes": 1925185536,
+    "free_after": 13327794176,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_4",
+    "case_id": "v2-confirm-01",
+    "block": 4,
+    "peak_reserved_bytes": 266338304,
+    "free_after": 14986641408,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_4",
+    "case_id": "grouped-035",
+    "block": 4,
+    "peak_reserved_bytes": 224395264,
+    "free_after": 15028584448,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_4",
+    "case_id": "grouped-003",
+    "block": 4,
+    "peak_reserved_bytes": 88080384,
+    "free_after": 15164899328,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_4",
+    "case_id": "v2-confirm-03",
+    "block": 4,
+    "peak_reserved_bytes": 520093696,
+    "free_after": 14732886016,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_4",
+    "case_id": "v2-confirm-04",
+    "block": 4,
+    "peak_reserved_bytes": 576716800,
+    "free_after": 14676262912,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_4",
+    "case_id": "v2-confirm-02",
+    "block": 4,
+    "peak_reserved_bytes": 308281344,
+    "free_after": 14944698368,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_5",
+    "case_id": "grouped-025",
+    "block": 5,
+    "peak_reserved_bytes": 171966464,
+    "free_after": 15081013248,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_5",
+    "case_id": "grouped-094",
+    "block": 5,
+    "peak_reserved_bytes": 3527409664,
+    "free_after": 11725570048,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_5",
+    "case_id": "grouped-079",
+    "block": 5,
+    "peak_reserved_bytes": 3068133376,
+    "free_after": 12184846336,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_5",
+    "case_id": "grouped-057",
+    "block": 5,
+    "peak_reserved_bytes": 398458880,
+    "free_after": 14854520832,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_5",
+    "case_id": "v2-confirm-05",
+    "block": 5,
+    "peak_reserved_bytes": 1782579200,
+    "free_after": 13470400512,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_5",
+    "case_id": "v2-confirm-06",
+    "block": 5,
+    "peak_reserved_bytes": 1925185536,
+    "free_after": 13327794176,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_5",
+    "case_id": "v2-confirm-01",
+    "block": 5,
+    "peak_reserved_bytes": 266338304,
+    "free_after": 14986641408,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_5",
+    "case_id": "grouped-035",
+    "block": 5,
+    "peak_reserved_bytes": 224395264,
+    "free_after": 15028584448,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_5",
+    "case_id": "grouped-003",
+    "block": 5,
+    "peak_reserved_bytes": 88080384,
+    "free_after": 15164899328,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_5",
+    "case_id": "v2-confirm-03",
+    "block": 5,
+    "peak_reserved_bytes": 520093696,
+    "free_after": 14732886016,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_5",
+    "case_id": "v2-confirm-04",
+    "block": 5,
+    "peak_reserved_bytes": 576716800,
+    "free_after": 14676262912,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_formal_5",
+    "case_id": "v2-confirm-02",
+    "block": 5,
+    "peak_reserved_bytes": 308281344,
+    "free_after": 14944698368,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_qualification",
+    "case_id": "v2-layer-qualification",
+    "block": 0,
+    "peak_reserved_bytes": 67108864,
+    "free_after": 15185870848,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_0",
+    "case_id": "moe_layer-007",
+    "block": 0,
+    "peak_reserved_bytes": 245366784,
+    "free_after": 15013904384,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_0",
+    "case_id": "moe_layer-009",
+    "block": 0,
+    "peak_reserved_bytes": 652214272,
+    "free_after": 14600765440,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_0",
+    "case_id": "moe_layer-024",
+    "block": 0,
+    "peak_reserved_bytes": 11697913856,
+    "free_after": 3555065856,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_0",
+    "case_id": "moe_layer-017",
+    "block": 0,
+    "peak_reserved_bytes": 11681136640,
+    "free_after": 3571843072,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_1",
+    "case_id": "moe_layer-007",
+    "block": 1,
+    "peak_reserved_bytes": 245366784,
+    "free_after": 15013904384,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_1",
+    "case_id": "moe_layer-009",
+    "block": 1,
+    "peak_reserved_bytes": 652214272,
+    "free_after": 14600765440,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_1",
+    "case_id": "moe_layer-024",
+    "block": 1,
+    "peak_reserved_bytes": 11697913856,
+    "free_after": 3555065856,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_1",
+    "case_id": "moe_layer-017",
+    "block": 1,
+    "peak_reserved_bytes": 11681136640,
+    "free_after": 3571843072,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_2",
+    "case_id": "moe_layer-007",
+    "block": 2,
+    "peak_reserved_bytes": 245366784,
+    "free_after": 15013904384,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_2",
+    "case_id": "moe_layer-009",
+    "block": 2,
+    "peak_reserved_bytes": 652214272,
+    "free_after": 14600765440,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_2",
+    "case_id": "moe_layer-024",
+    "block": 2,
+    "peak_reserved_bytes": 11697913856,
+    "free_after": 3555065856,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_2",
+    "case_id": "moe_layer-017",
+    "block": 2,
+    "peak_reserved_bytes": 11681136640,
+    "free_after": 3571843072,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_3",
+    "case_id": "moe_layer-007",
+    "block": 3,
+    "peak_reserved_bytes": 245366784,
+    "free_after": 15013904384,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_3",
+    "case_id": "moe_layer-009",
+    "block": 3,
+    "peak_reserved_bytes": 652214272,
+    "free_after": 14600765440,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_3",
+    "case_id": "moe_layer-024",
+    "block": 3,
+    "peak_reserved_bytes": 11697913856,
+    "free_after": 3555065856,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_3",
+    "case_id": "moe_layer-017",
+    "block": 3,
+    "peak_reserved_bytes": 11681136640,
+    "free_after": 3571843072,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_4",
+    "case_id": "moe_layer-007",
+    "block": 4,
+    "peak_reserved_bytes": 245366784,
+    "free_after": 15013904384,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_4",
+    "case_id": "moe_layer-009",
+    "block": 4,
+    "peak_reserved_bytes": 652214272,
+    "free_after": 14600765440,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_4",
+    "case_id": "moe_layer-024",
+    "block": 4,
+    "peak_reserved_bytes": 11697913856,
+    "free_after": 3555065856,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_4",
+    "case_id": "moe_layer-017",
+    "block": 4,
+    "peak_reserved_bytes": 11681136640,
+    "free_after": 3571843072,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_5",
+    "case_id": "moe_layer-007",
+    "block": 5,
+    "peak_reserved_bytes": 245366784,
+    "free_after": 15013904384,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_5",
+    "case_id": "moe_layer-009",
+    "block": 5,
+    "peak_reserved_bytes": 652214272,
+    "free_after": 14600765440,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_5",
+    "case_id": "moe_layer-024",
+    "block": 5,
+    "peak_reserved_bytes": 11697913856,
+    "free_after": 3555065856,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_layer_5",
+    "case_id": "moe_layer-017",
+    "block": 5,
+    "peak_reserved_bytes": 11681136640,
+    "free_after": 3571843072,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_fusion_0",
+    "case_id": "moe_layer-007",
+    "block": 0,
+    "peak_reserved_bytes": 224395264,
+    "free_after": 15034875904,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_fusion_0",
+    "case_id": "moe_layer-009",
+    "block": 0,
+    "peak_reserved_bytes": 610271232,
+    "free_after": 14642708480,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_fusion_0",
+    "case_id": "moe_layer-024",
+    "block": 0,
+    "peak_reserved_bytes": 11614027776,
+    "free_after": 3638951936,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_fusion_0",
+    "case_id": "moe_layer-017",
+    "block": 0,
+    "peak_reserved_bytes": 11618222080,
+    "free_after": 3634757632,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_fusion_1",
+    "case_id": "moe_layer-007",
+    "block": 1,
+    "peak_reserved_bytes": 224395264,
+    "free_after": 15034875904,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_fusion_1",
+    "case_id": "moe_layer-009",
+    "block": 1,
+    "peak_reserved_bytes": 610271232,
+    "free_after": 14642708480,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_fusion_1",
+    "case_id": "moe_layer-024",
+    "block": 1,
+    "peak_reserved_bytes": 11614027776,
+    "free_after": 3638951936,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_fusion_1",
+    "case_id": "moe_layer-017",
+    "block": 1,
+    "peak_reserved_bytes": 11618222080,
+    "free_after": 3634757632,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_fusion_2",
+    "case_id": "moe_layer-007",
+    "block": 2,
+    "peak_reserved_bytes": 224395264,
+    "free_after": 15034875904,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_fusion_2",
+    "case_id": "moe_layer-009",
+    "block": 2,
+    "peak_reserved_bytes": 610271232,
+    "free_after": 14642708480,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_fusion_2",
+    "case_id": "moe_layer-024",
+    "block": 2,
+    "peak_reserved_bytes": 11614027776,
+    "free_after": 3638951936,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_fusion_2",
+    "case_id": "moe_layer-017",
+    "block": 2,
+    "peak_reserved_bytes": 11618222080,
+    "free_after": 3634757632,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_ring_0",
+    "case_id": "moe_layer-007",
+    "block": 0,
+    "peak_reserved_bytes": 352321536,
+    "free_after": 14900658176,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_ring_0",
+    "case_id": "moe_layer-017",
+    "block": 0,
+    "peak_reserved_bytes": 11666456576,
+    "free_after": 3586523136,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_ring_1",
+    "case_id": "moe_layer-007",
+    "block": 1,
+    "peak_reserved_bytes": 352321536,
+    "free_after": 14900658176,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_ring_1",
+    "case_id": "moe_layer-017",
+    "block": 1,
+    "peak_reserved_bytes": 11666456576,
+    "free_after": 3586523136,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_ring_2",
+    "case_id": "moe_layer-007",
+    "block": 2,
+    "peak_reserved_bytes": 352321536,
+    "free_after": 14900658176,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  },
+  {
+    "worker": "sameq_v2_ring_2",
+    "case_id": "moe_layer-017",
+    "block": 2,
+    "peak_reserved_bytes": 11666456576,
+    "free_after": 3586523136,
+    "total": 15636037632,
+    "conservative_margin_pass": true
+  }
+]

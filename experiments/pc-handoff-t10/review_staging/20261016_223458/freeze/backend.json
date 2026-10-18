@@ -1,0 +1,11 @@
+{
+  "cutlass_root": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu/op-fused/vendor/cutlass",
+  "cutlass_commit": "f7b19de32c5d1f3cedfc735c2849f12b537522ee",
+  "attention_source_search": "No local FlashInfer/Flash-Decoding/vLLM split-KV kernel source found in workspace, projects, venv, caches; torch memory efficient attention present.",
+  "profilers": {
+    "nsys": null,
+    "ncu": null,
+    "compute-sanitizer": null
+  },
+  "network": false
+}

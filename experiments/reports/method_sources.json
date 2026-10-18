@@ -1,0 +1,12 @@
+{
+  "src/driver_backend.hpp": "cad7bad21c1ccc06d44f9c09ea006a62076da04525f69ca11d9d326eda606214",
+  "src/green_probe.cpp": "6c6a67972cb4404207ccc64e57bcd7df2850ded95e49474ddb2b6bd305ef4ae1",
+  "src/micro_kernels.cu": "63b293b5e9f2b5c235bd0f1598d6aa5238d0e38a03e0133cd63b8d64aec5c6ec",
+  "src/micro_runner.cpp": "92a5ecdc09eece18f70a400b9083beaa2adc4d1f9dbafc4c67f925ae93dd7cd9",
+  "src/render_digest.cu": "c2c5c21db6effc4edbfba6b920edf96ed0297d0fa26f424fe2ea16ffe696c81a",
+  "src/render_dispatch.h": "660017ddc043a3dc1a3865c55b6c61e4ca4b90c66173fdf20d86884b1e6a26bc",
+  "src/renderer_runner.cpp": "c46f4e10b3da1d0b1a0188067024bd0817097ec711adbd01bb759d415ac5e410",
+  "src/sparse_kernels.cu": "48995afad6e12ea6df456f84b1ac914e4bd4070d1f01720da02b71ca28ed0eee",
+  "src/sparse_runner.cpp": "92c5c64bd844cd21f97111e442fef67fc6fc6b273e52d809433a48bd40a4099d",
+  "GPU_COMPUTE_TOPOLOGY_DUAL_20261014/tools/reference.py": "7864195f521d9c24277e67d0ce031f7363646862691c89bff2d1b10ce6bcf265"
+}

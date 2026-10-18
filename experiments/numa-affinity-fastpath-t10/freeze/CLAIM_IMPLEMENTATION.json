@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-10-18T02:53:55.997049+00:00",
+  "hashes": {
+    "src/qualify.py": "bd91b3bd5f99f9aa745e8677497622a028f4efbc54d70c0aa62909dbeea3afae",
+    "src/common.py": "b17fa3a27ab31ab646bbed02b8ce560b9bc36e98057db788934e76b96eee7bf4",
+    "src/claim_cg.cu": "e69fc71220a61c89bca5a85331865819b79f0e70a416af4bb400e00011873ed8",
+    "src/runtime.py": "557579dbfea500ba283d23852411f302ee72c04dafa2e33246f4f7c9152d5cb7",
+    "src/claim_ca.cu": "4d997db2c86da5e1d8ab2498cca9377d77cfe0193bff7170dd7a9d95ff5160be",
+    "src/worker.py": "7b59f80e3897466f90632fd3af29b0e5cbc420652cdba555748e7087fb208ea9",
+    "src/build.py": "c5589be619940af3f81df8daec4e906d1f2fd38590bd6e3a20dde04bc497767a",
+    "src/claim_runtime.py": "134ea6d137d1969eb6373b5d2d445d85f02766f5b3d141417559443ec60cf431",
+    "src/claim_experiment.py": "4a91746357c26624e6e40ba8629282caf5e2dd6e5f5639a46adb888b998f0aff",
+    "src/nvml_state.py": "4bd85f03f65821332180cb785751a5c5e005f3a7b3c9cf5014f088bead2ad1b7",
+    "build/claim_cg.so": "7a738b17eacebcf8380d42926c8e1822c6089738b171419bf9f26c8647027d83",
+    "build/claim_ca.so": "ea2bc526c070bf66af593e01f668945568ee96a70a8d44fbc4aacc11f65ed52f",
+    "build/baseline/vector_append.so": "b9fd4b4e464bc7ec3e7a425ba670aa4603f83b02d13fd9f7b7dbd33cac15382a",
+    "build/baseline/vector.so": "f6c34ac7361379dc4e0bf29a4240f34e411601fe48a16e2a6cfa83003e2e0d44"
+  }
+}

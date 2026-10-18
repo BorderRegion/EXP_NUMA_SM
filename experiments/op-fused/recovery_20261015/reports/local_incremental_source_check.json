@@ -1,0 +1,27 @@
+{
+  "scope": "One incremental bounded local source scan; not a proof about every mounted disk or archive contents",
+  "roots": [
+    "/home/ubuntu/projects",
+    "/home/ubuntu/.cache",
+    "/home/ubuntu/下载",
+    "/home/ubuntu/文档",
+    "/home/ubuntu/桌面",
+    "/opt",
+    "/usr/local",
+    "/usr/include",
+    "/tmp"
+  ],
+  "command_options": "rg --files --hidden --no-ignore; filename patterns; exclude node_modules and .git/objects",
+  "patterns": [
+    "*gemm_grouped*",
+    "*problem_visitor*",
+    "cutlass.h",
+    "*cutlass*.zip",
+    "*cutlass*.tar*",
+    "*cutlass*.whl"
+  ],
+  "matches": [],
+  "archive_has_mutable_math_body": false,
+  "prior_known_partial_torch_attention_header": "Present, but no matching full CUTLASS tree",
+  "network_used": false
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "scope": "batch",
+    "metric": "outer_s",
+    "candidate": "BASE54",
+    "control": "LEGACY11",
+    "role": "Reversal of already-reported static comparison; not a new trial",
+    "gain_pct": 0.8317765279839798,
+    "ci95": [
+      0.7628253624417736,
+      0.8975772276986461
+    ],
+    "ci_primary": [
+      0.7315886997524405,
+      0.9282342696910922
+    ],
+    "positive_processes": 6,
+    "processes": 6,
+    "process_gains_pct": [
+      0.953701463243253,
+      0.8898672762746428,
+      0.7465657009418372,
+      0.8336107096288535,
+      0.7023563751496663,
+      0.8647725933763123
+    ]
+  },
+  {
+    "scope": "batch",
+    "metric": "gpu_s",
+    "candidate": "BASE54",
+    "control": "LEGACY11",
+    "role": "Reversal of already-reported static comparison; not a new trial",
+    "gain_pct": 0.8728899940006714,
+    "ci95": [
+      0.8042991750999193,
+      0.9412136365138004
+    ],
+    "ci_primary": [
+      0.7683306220497235,
+      0.9741449313510411
+    ],
+    "positive_processes": 6,
+    "processes": 6,
+    "process_gains_pct": [
+      1.00370635648881,
+      0.8818467667685372,
+      0.9279900585286441,
+      0.7720166782287639,
+      0.7499023634938538,
+      0.9021076697483029
+    ]
+  },
+  {
+    "scope": "batch",
+    "metric": "host_s",
+    "candidate": "BASE54",
+    "control": "LEGACY11",
+    "role": "Reversal of already-reported static comparison; not a new trial",
+    "gain_pct": 0.8359476564380902,
+    "ci95": [
+      0.7668321545755608,
+      0.9038330944555775
+    ],
+    "ci_primary": [
+      0.7360478908766045,
+      0.9365784722457745
+    ],
+    "positive_processes": 6,
+    "processes": 6,
+    "process_gains_pct": [
+      0.9649087317798429,
+      0.893208441440517,
+      0.7505981859281703,
+      0.8321015417402494,
+      0.7084123998117108,
+      0.866676900903581
+    ]
+  },
+  {
+    "scope": "freshbatch",
+    "metric": "outer_s",
+    "candidate": "BASE54",
+    "control": "LEGACY11",
+    "role": "Reversal of already-reported static comparison; not a new trial",
+    "gain_pct": 0.3345700774822987,
+    "ci95": [
+      0.2269349005126583,
+      0.4275766166382757
+    ],
+    "ci_primary": [
+      0.16780222716099086,
+      0.4630718386979169
+    ],
+    "positive_processes": 6,
+    "processes": 6,
+    "process_gains_pct": [
+      0.4910912100325863,
+      0.37251795757552075,
+      0.34258111361649407,
+      0.4416069898941655,
+      0.10146799153633444,
+      0.25864164948608714
+    ]
+  },
+  {
+    "scope": "freshbatch",
+    "metric": "gpu_s",
+    "candidate": "BASE54",
+    "control": "LEGACY11",
+    "role": "Reversal of already-reported static comparison; not a new trial",
+    "gain_pct": 0.3283921483771965,
+    "ci95": [
+      0.22421223652925484,
+      0.4203406323103234
+    ],
+    "ci_primary": [
+      0.1667504972664426,
+      0.4558256925947723
+    ],
+    "positive_processes": 6,
+    "processes": 6,
+    "process_gains_pct": [
+      0.48550733849692573,
+      0.35737257904722525,
+      0.32252841402933796,
+      0.43562006818495025,
+      0.10281518124170201,
+      0.26696660344021217
+    ]
+  },
+  {
+    "scope": "freshbatch",
+    "metric": "host_s",
+    "candidate": "BASE54",
+    "control": "LEGACY11",
+    "role": "Reversal of already-reported static comparison; not a new trial",
+    "gain_pct": 0.33247909970172745,
+    "ci95": [
+      0.2248491464121765,
+      0.4261976568230394
+    ],
+    "ci_primary": [
+      0.1657255105501934,
+      0.46094819082067123
+    ],
+    "positive_processes": 6,
+    "processes": 6,
+    "process_gains_pct": [
+      0.4884126495943887,
+      0.3703094613369898,
+      0.3397395365779227,
+      0.44178683981229316,
+      0.09992571883229849,
+      0.25518804506999115
+    ]
+  }
+]

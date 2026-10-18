@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "workers": 16,
+  "completed_workers": 13,
+  "failed_or_incomplete_workers": [
+    "qualification",
+    "memcheck",
+    "racecheck_v3"
+  ],
+  "budget_charge_seconds": 1318.1237706601387,
+  "measured_worker_seconds": 1078.1237706601387,
+  "unconfirmed_interruption_charge_seconds": 240,
+  "budget_seconds": 2400,
+  "numerical_checks": 5613,
+  "graphs_checked": 16,
+  "trace_launches": 256,
+  "micro_launches": 67584,
+  "micro_sm_records": 3784704,
+  "short_observations": 48960,
+  "short_test_observations": 39168,
+  "net_chunks": 1728,
+  "net_operator_requests": 113246208,
+  "net_conditioning_requests": 110592,
+  "independent_input_hashes": 32,
+  "temperature_min": 62,
+  "temperature_max": 80,
+  "power_limit_w": 100,
+  "exact_baseline": true,
+  "implementation_unchanged": true,
+  "blind_frozen_before_confirmation": true,
+  "notes": "Two early host qualification failures and one interrupted broad racecheck retained. Targeted racecheck covers one new-tail launch, not the whole campaign. Sanitizer qualification caps synthetic delays only under instrumentation. Actual interrupted-worker end time unknown; full intended240s cap charged, not claimed measured. No formal performance observation dropped."
+}

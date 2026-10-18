@@ -1,0 +1,47 @@
+{
+  "frozen_at": "2026-10-16T13:21:11.557732+00:00",
+  "before_any_E3_or_E5_phase": true,
+  "reason": "Eight-policy order after pruning and alias collapse would leave M before P in all six reduced blocks. Balance genuinely distinct executions instead of aliases.",
+  "E3_unique": [
+    "CORE",
+    "M",
+    "P"
+  ],
+  "E3_orders": [
+    [
+      "CORE",
+      "M",
+      "P"
+    ],
+    [
+      "M",
+      "P",
+      "CORE"
+    ],
+    [
+      "P",
+      "CORE",
+      "M"
+    ],
+    [
+      "P",
+      "M",
+      "CORE"
+    ],
+    [
+      "CORE",
+      "P",
+      "M"
+    ],
+    [
+      "M",
+      "CORE",
+      "P"
+    ]
+  ],
+  "G": "exact alias of M, no extra timing",
+  "layers": "All six permutations of LIB/CORE/M across six blocks, G alias",
+  "F1_and_layout": "Alternate two distinct levels across six blocks",
+  "workspace": "Four-condition Williams rows across four blocks; every condition occupies each position once",
+  "scope": "Execution order only, frozen recipe/S/mapping and hypothesis unchanged"
+}

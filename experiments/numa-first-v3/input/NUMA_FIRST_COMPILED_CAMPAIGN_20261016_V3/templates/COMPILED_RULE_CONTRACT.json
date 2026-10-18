@@ -1,0 +1,37 @@
+{
+  "status": "TEMPLATE_NOT_EXECUTED",
+  "measured_platform": null,
+  "allocation_generation": null,
+  "domain_evidence_kind": null,
+  "calibration_raw_refs": [],
+  "independent_confirmation_refs": [],
+  "controllable_resource_groups": [],
+  "formula": {
+    "kind": null,
+    "scope": null,
+    "parameters": null,
+    "unsupported_or_mixed_ranges": []
+  },
+  "source_and_binary": {
+    "source_hash": null,
+    "compiler_recipe": null,
+    "cubin_hash": null,
+    "sass_evidence": null
+  },
+  "runtime_measurements": {
+    "additional_task_lookup_loads": null,
+    "additional_page_home_lookup_loads": null,
+    "additional_schedule_kernels": null,
+    "additional_schedule_d2h_bytes": null,
+    "extra_router_instructions": null,
+    "extra_atom_operations": null,
+    "extra_math_launches": null
+  },
+  "layout_correctness": {
+    "inverse_mapping_reference": null,
+    "full_domain_bijection": null,
+    "numeric_check_refs": []
+  },
+  "performance_refs": [],
+  "rule": "Do not turn requested targets into measured zero or verified true. Fill from actual source, compilation and execution evidence."
+}

@@ -1,0 +1,218 @@
+[
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "bonsai",
+    "block": 0,
+    "sequence": 0,
+    "policies": "NERMN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "ca-GrQc",
+    "block": 0,
+    "sequence": 0,
+    "policies": "NERMN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "train",
+    "block": 0,
+    "sequence": 0,
+    "policies": "NERMN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "web-Google",
+    "block": 0,
+    "sequence": 0,
+    "policies": "NERMN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "ca-GrQc",
+    "block": 1,
+    "sequence": 0,
+    "policies": "NEMRN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "train",
+    "block": 1,
+    "sequence": 0,
+    "policies": "NEMRN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "web-Google",
+    "block": 1,
+    "sequence": 0,
+    "policies": "NEMRN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "bonsai",
+    "block": 1,
+    "sequence": 0,
+    "policies": "NEMRN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "train",
+    "block": 2,
+    "sequence": 0,
+    "policies": "NREMN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "web-Google",
+    "block": 2,
+    "sequence": 0,
+    "policies": "NREMN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "bonsai",
+    "block": 2,
+    "sequence": 0,
+    "policies": "NREMN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "ca-GrQc",
+    "block": 2,
+    "sequence": 0,
+    "policies": "NREMN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "web-Google",
+    "block": 3,
+    "sequence": 0,
+    "policies": "NRMEN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "bonsai",
+    "block": 3,
+    "sequence": 0,
+    "policies": "NRMEN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "ca-GrQc",
+    "block": 3,
+    "sequence": 0,
+    "policies": "NRMEN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "train",
+    "block": 3,
+    "sequence": 0,
+    "policies": "NRMEN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "bonsai",
+    "block": 4,
+    "sequence": 0,
+    "policies": "NMERN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "ca-GrQc",
+    "block": 4,
+    "sequence": 0,
+    "policies": "NMERN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "train",
+    "block": 4,
+    "sequence": 0,
+    "policies": "NMERN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "web-Google",
+    "block": 4,
+    "sequence": 0,
+    "policies": "NMERN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "ca-GrQc",
+    "block": 5,
+    "sequence": 0,
+    "policies": "NMREN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "train",
+    "block": 5,
+    "sequence": 0,
+    "policies": "NMREN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "web-Google",
+    "block": 5,
+    "sequence": 0,
+    "policies": "NMREN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  },
+  {
+    "campaign": "T10_ADDENDUM_20261015",
+    "input": "bonsai",
+    "block": 5,
+    "sequence": 0,
+    "policies": "NMREN",
+    "frames": 512,
+    "conditioning_seconds": 30
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "campaign": "OPERATOR_FUSED_SCHEDULING_DUAL_20261015",
+  "design_date": "2026-10-15",
+  "execution": {
+    "local_only": true,
+    "offline": true,
+    "new_paid_resources_authorized": false,
+    "gpu_workers": 1,
+    "max_cpu_build_workers": 4,
+    "old_data_read_only": true
+  },
+  "platforms": {
+    "t10": {
+      "expected_sm": "sm_75",
+      "worker_hours": 16,
+      "stage_hours": {
+        "E0": 0.5,
+        "E1": 1.5,
+        "E2": 2,
+        "E3": 4,
+        "E4": 2.5,
+        "E5": 2,
+        "E6": 1.5,
+        "E7": 2
+      }
+    },
+    "rtx5070ti": {
+      "expected_sm": "sm_120",
+      "worker_hours": 24,
+      "stage_hours": {
+        "E0": 0.5,
+        "E1": 2,
+        "E2": 3,
+        "E3": 6,
+        "E4": 4,
+        "E5": 3,
+        "E6": 3,
+        "E7": 2.5
+      }
+    }
+  },
+  "candidate": {
+    "q_cap": [
+      1,
+      2,
+      4
+    ],
+    "target_waves": [
+      1,
+      2
+    ],
+    "math_tile_recipes_max": 2,
+    "max_configs": 12,
+    "primary_extra_scheduler_kernels": 0,
+    "green_context_primary": false,
+    "new_split_k_primary": false
+  },
+  "policies": [
+    "LIB",
+    "CORE",
+    "BAL",
+    "CACHE",
+    "FULL",
+    "ABL"
+  ],
+  "matrices": {
+    "grouped_total": 96,
+    "grouped_calibration": 24,
+    "grouped_test": 72,
+    "dense_control": 24,
+    "heterogeneous_k_control": 12,
+    "attention_decode_total": 48,
+    "attention_calibration": 16,
+    "attention_test": 32,
+    "prefill_control": 12,
+    "moe_layer_total": 24,
+    "moe_layer_calibration": 6,
+    "moe_layer_test": 18
+  },
+  "formal": {
+    "independent_blocks": 6,
+    "grouped_policy_phases": 6,
+    "attention_policy_phases": 4,
+    "layer_policy_phases": 5,
+    "anchor_phases": 2,
+    "max_grouped_phases": 3456,
+    "max_attention_phases": 1152,
+    "max_layer_phases": 756,
+    "weak_grouped_cases": 24,
+    "weak_layer_cases": 6
+  },
+  "timing": {
+    "warmup_min_repeats": 64,
+    "warmup_min_seconds": 0.3,
+    "measured_min_repeats": 128,
+    "measured_max_repeats": 512,
+    "bootstrap_draws": 20000,
+    "bootstrap_seed": 2026101509,
+    "drift_threshold_description": 0.05
+  },
+  "limits": {
+    "min_free_gib": 2,
+    "min_free_fraction": 0.15,
+    "disk_soft_gib": 10,
+    "disk_hard_gib": 30,
+    "max_representative_profiles": 8,
+    "max_math_backbone_repairs": 4,
+    "max_local_variant_repairs": 2
+  },
+  "outcomes": [
+    "OPERATOR_METHOD_OPPORTUNITY",
+    "FUSION_ENGINEERING_GAIN_ONLY",
+    "KNOWN_SCHEDULER_REPRODUCTION",
+    "SAME_CORE_GAIN_ONLY",
+    "NO_INCREMENT_IN_SCOPE",
+    "IMPLEMENTATION_OR_RESOURCE_LIMITED",
+    "SAFETY_STOP_WITH_PARTIAL_DATA"
+  ],
+  "seed": 2026101517,
+  "artifact_status": "DESIGN_AND_CPU_HELPERS_ONLY_NOT_GPU_IMPLEMENTED"
+}

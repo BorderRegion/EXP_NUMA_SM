@@ -1,0 +1,100 @@
+{
+  "created": "2026-10-16",
+  "files": [
+    {
+      "path": "CODEX_MASTER_TASK.md",
+      "bytes": 10916,
+      "sha256": "fb0bb39669d4d01fc1a4f2a77793192ea25d47d9f8541e4212571e535477a33d"
+    },
+    {
+      "path": "COPY_TO_CODEX.txt",
+      "bytes": 1758,
+      "sha256": "cca07c632d3019781e9046dffeeab60fcde03260999dd44ab8bd272e535dec9c"
+    },
+    {
+      "path": "FROZEN_RULE.json",
+      "bytes": 3674,
+      "sha256": "9b7ef8fcf469a99cefd770c3a05700b6acc7d8974ae7ee1bc95332b93b2530fb"
+    },
+    {
+      "path": "PHASE_PLAN.jsonl",
+      "bytes": 229524,
+      "sha256": "2aadf91a3000bf406380af36851403cd8577b05acee1dfcb246b1ba466dcc553"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 1554,
+      "sha256": "420921e94e2d99c52c546e21e0707f69ff5277032e6f180b92040b63e9aec7b7"
+    },
+    {
+      "path": "VALIDATION_REPORT.md",
+      "bytes": 1289,
+      "sha256": "d9f62e26d04743e57a9c821d416e0133ff94faf4670a67d903dff689a238c22c"
+    },
+    {
+      "path": "campaign.json",
+      "bytes": 4413,
+      "sha256": "777a9a2acbae1c90b4bd71bbe817befba3afdb488d49689d7682ca9c590f7d66"
+    },
+    {
+      "path": "docs/KERNEL_AND_MEASUREMENT.md",
+      "bytes": 7583,
+      "sha256": "3b14d30a0cc01d06395ef34f34c658379aad29449683cf3b3c9c6b6314d65af4"
+    },
+    {
+      "path": "docs/MATRIX_AND_DECISIONS.md",
+      "bytes": 5788,
+      "sha256": "cbe92a7cd2fee286332fddc097049441f1591466bdcc413f32471729880e4205"
+    },
+    {
+      "path": "docs/POWER_AND_LOGGING.md",
+      "bytes": 2998,
+      "sha256": "4dce58fe5bd936f2f9d4c05b6d161f8936054fda7f0de868f4e8344a45393876"
+    },
+    {
+      "path": "docs/SOURCES_AND_SCOPE.md",
+      "bytes": 2383,
+      "sha256": "ea23139701f3ad0bc3d142914cc669d127e7d8ee4d692a5f16fe6e0f7f7ee9d3"
+    },
+    {
+      "path": "reference/consumer.cuh",
+      "bytes": 3891,
+      "sha256": "f51f570ccb6ad2de6cf2e09d7528bf30d8eb24c63bdba11472b4c574c3a9de55"
+    },
+    {
+      "path": "source_evidence/fit_regions_2097152.csv",
+      "bytes": 323,
+      "sha256": "a3a9b017a4450da1b356dc563a5920306734c74bc5f7abfa0d86d66bc2f9235a"
+    },
+    {
+      "path": "source_evidence/fits.csv",
+      "bytes": 444,
+      "sha256": "fa25fba9ce091a04f8c353dac7e0810546f771f7d0b4dc9d959673fe5961e1af"
+    },
+    {
+      "path": "source_evidence/merged_2097152.csv",
+      "bytes": 501,
+      "sha256": "9a100b6a2ca92889052354912774b330f0d26bf5150f8fc17b65c771c0024c6a"
+    },
+    {
+      "path": "source_evidence/rosters.csv",
+      "bytes": 451,
+      "sha256": "288e6f271acc1a9b10a7d04083853fbab7326b3ec99c2546773dd32eb9621819"
+    },
+    {
+      "path": "tests/test_references.py",
+      "bytes": 4420,
+      "sha256": "e6acb4334c6e7bc1ee58d235747c6e74b5e52a77a3f074d2849db2859fdec4d3"
+    },
+    {
+      "path": "tools/make_plan.py",
+      "bytes": 2986,
+      "sha256": "9e5e5090700eb0ec4a7fd1a009cfca35ed3cbb1a4d197cff13bbec65f8f54724"
+    },
+    {
+      "path": "tools/reference.py",
+      "bytes": 3464,
+      "sha256": "7c4deb710f29f1455059016c2c8097d71cf37aa69fbc2bbbf1ee3850181df869"
+    }
+  ]
+}

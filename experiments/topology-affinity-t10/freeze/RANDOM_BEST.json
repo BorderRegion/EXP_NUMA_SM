@@ -1,0 +1,65 @@
+{
+  "created_utc": "2026-10-18T08:00:43.717984+00:00",
+  "choices": {
+    "65536/17/batch": "RND04",
+    "65536/17/fresh": "RND05",
+    "65536/17/freshbatch": "RND02",
+    "65536/17/ready": "RND02",
+    "131072/0/batch": "RND04",
+    "131072/0/fresh": "RND03",
+    "131072/0/freshbatch": "RND02",
+    "131072/0/ready": "RND02",
+    "131072/17/batch": "RND07",
+    "131072/17/fresh": "RND03",
+    "131072/17/freshbatch": "RND03",
+    "131072/17/ready": "RND05",
+    "131072/257/batch": "RND07",
+    "131072/257/fresh": "RND02",
+    "131072/257/freshbatch": "RND02",
+    "131072/257/ready": "RND02"
+  },
+  "source": [
+    {
+      "worker": "dev_0",
+      "timing_hashes": {
+        "V131072/page257/fresh/timing.csv.gz": "fddc9c9563a10582095325bdf843e4e88f8d1af36ab6bbba47294275d85264a1",
+        "V131072/page257/ready/timing.csv.gz": "ea66c2d97abd884e9d29c5bf6d1140d43669dea602e01607ead2f04fe7027e7c",
+        "V131072/page257/freshbatch/timing.csv.gz": "621a28e8a8f54edba34e19382cea3d966da7deb6ad00ae92508f2196cd5b1c9a",
+        "V131072/page257/batch/timing.csv.gz": "9f7a10ac61e5db0e27cac3aae7a3d65b7f127daf2d9771f9bdf2f7e226a119c5",
+        "V131072/page0/fresh/timing.csv.gz": "cf2e2aba872031e618a7310e25a4fd68cbc0e1316cdd42215565e572e59bf418",
+        "V131072/page0/ready/timing.csv.gz": "daf0852952c8a79d244afea64b2a486e3551c8d46bb5482c1951b3a718393a9b",
+        "V131072/page0/freshbatch/timing.csv.gz": "2af722950cadee068c321d3a9484f13a08b0aad4d04e6f046c2b9dafee4363aa",
+        "V131072/page0/batch/timing.csv.gz": "2b0c1e7f2904f4afd924a483db2daeb9d9aaeba3f59fc2a93fea997ae97ca927",
+        "V131072/page17/fresh/timing.csv.gz": "b81a22c04d90852d8f4a67d8b4194efe8bdf8d7ccee713d6732468f110d5b58e",
+        "V131072/page17/ready/timing.csv.gz": "8cb16115e78144701e0448f92daffeb89f91b490cef4ced7e63a0ff13438558c",
+        "V131072/page17/freshbatch/timing.csv.gz": "5ee7603b5f0484f98e34100874425d84783f1d14ca36369d31a4afff8217819a",
+        "V131072/page17/batch/timing.csv.gz": "1c91d974846fe4fe49e99c21ad20c919c5a97e8d5c34e726f35ec84c9d4d426c",
+        "V65536/page17/fresh/timing.csv.gz": "1ac0d0070478853100c336224232079a32c72b6efccb94bdbe6d317e0ffe78d5",
+        "V65536/page17/ready/timing.csv.gz": "8a4aa5b409cd30c17945e068c1f9d55d3ddded6dc6f61abbd69867cf32b155c3",
+        "V65536/page17/freshbatch/timing.csv.gz": "513dda27b05e17575659b654feffea54d8571d0a6c579046c63cce61227ac076",
+        "V65536/page17/batch/timing.csv.gz": "c365abe569e19de945faba305c16347f86fb052729545ab6afdefcf5ee8404e1"
+      }
+    },
+    {
+      "worker": "dev_1",
+      "timing_hashes": {
+        "V131072/page257/fresh/timing.csv.gz": "3440eb2170cf4e1326cee8a70f37b35f71655903a4e77aba6cfec98560fc8215",
+        "V131072/page257/ready/timing.csv.gz": "17491a176de262eb678571819267a220ac792217e118de28f5d7da04c11a70fc",
+        "V131072/page257/freshbatch/timing.csv.gz": "68b3454fb8a360157be1626c17acdc529ceca9ea4f0994772c7ddcfbf3c18143",
+        "V131072/page257/batch/timing.csv.gz": "11d3ca04be23567d88408453f86342d8094f174409b35d84faf9c68d13a31e20",
+        "V131072/page0/fresh/timing.csv.gz": "52fe81dec5185014b222dd3ba01b6e6d8cd68dd49c8978de56419f8aec36e59c",
+        "V131072/page0/ready/timing.csv.gz": "3cb11f3549339ca391ebeb900edb238c1324726892c77bdc1b4172fd3bf55184",
+        "V131072/page0/freshbatch/timing.csv.gz": "5541671bd3d7964aa3dc408b3f376faeda65ecd6054b6d53e3dd1a8c3441876d",
+        "V131072/page0/batch/timing.csv.gz": "4a0bcf22d23c022c20a27d211626b643c869948c3eef2fdb33b0369a4e193e3a",
+        "V131072/page17/fresh/timing.csv.gz": "f680115b73b2f559f6c5fca96988333739659271eb3ab2e34d17dc6427b0eb8f",
+        "V131072/page17/ready/timing.csv.gz": "6b2aa96e1d00c18385b42d1cfcd64a8e38a84c14a1d989976a5684eaea224f98",
+        "V131072/page17/freshbatch/timing.csv.gz": "4a40db2f8d44f8063dd76c0f977fd3557e7b4cb526d541e4d425f86009f06e92",
+        "V131072/page17/batch/timing.csv.gz": "43fc143360b9c6ea083aaa7a40b166b2e5c7918f41c3a6e66b9edc39a28c0b3b",
+        "V65536/page17/fresh/timing.csv.gz": "97c4a28ff7d238418aa499746190a2665f5479bb734dc2036c09538bc812fd8b",
+        "V65536/page17/ready/timing.csv.gz": "eb81b28b26aaad52a25fa3162dfcf34a5ea503e66a838616cafce940d9274c64",
+        "V65536/page17/freshbatch/timing.csv.gz": "b73a3dd1a0a904ee2842bcbfe88bca0b47f74bd200d90d8acc7be3ff39531379",
+        "V65536/page17/batch/timing.csv.gz": "a10bbdfca48a8bf0c9dda28ee3f186acd0a47a0e25f5fb3eaf0b7607822fe2e1"
+      }
+    }
+  ]
+}

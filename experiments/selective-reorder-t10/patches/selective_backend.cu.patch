@@ -1,0 +1,66 @@
+--- previous_production/backend.cu
++++ selective-reorder-t10/src/backend.cu
+@@ -11,22 +11,22 @@
+ static thread_local std::string error;
+ void bc(cublasStatus_t e,const char*s){if(e)throw std::runtime_error(std::string(s)+":"+std::to_string(e));}
+ struct Engine {
+- Resources b; CUmodule mod[2]; std::map<std::string,CUfunction> fn[2]; CUstream parent; cublasHandle_t blas; CUdeviceptr blas_workspace=0;
+- CUevent fork,pe[2],re[2];std::array<int,4> quad;std::array<std::array<int,2>,3> halves;
+- Engine(const char*dir,int mode){
+-  quad.fill(-1);for(auto &x:halves)x.fill(-1);
+-  ck(cuCtxSetCurrent(b.primary),"primary");ck(cuStreamCreate(&parent,CU_STREAM_NON_BLOCKING),"parent");
+-  for(auto e:{&fork,&pe[0],&pe[1],&re[0],&re[1]})ck(cuEventCreate(e,CU_EVENT_DISABLE_TIMING),"dependency event");
+-  for(int d=0;d<2;d++){std::string p=std::string(dir)+"/diag"+std::to_string(d)+".cubin";ck(cuModuleLoad(&mod[d],p.c_str()),"load cubin");for(auto n:{"p0","p1","p2","p3","n0","n1","n2","n3","s0","s1","s2","s3","r","rn","roster","scratch_read","silu_half"}){CUfunction f;ck(cuModuleGetFunction(&f,mod[d],n),n);fn[d][n]=f;}}
+-  if(mode==-1)for(int i=0;i<4;i++){std::vector<int>v;for(int j=0;j<7;j++)v.push_back(i*7+j);quad[i]=b.merge(v);}
++ Resources b; std::string directory; CUmodule mod[2]={nullptr,nullptr}; std::map<std::string,CUfunction> fn[2]; CUstream parent; cublasHandle_t blas=nullptr; CUdeviceptr blas_workspace=0;
++ CUevent fork=nullptr,pe[2]={nullptr,nullptr},re[2]={nullptr,nullptr}; std::array<int,4> quad; std::array<std::array<int,2>,3> halves;
++ Engine(const char*dir,int mode):directory(dir){quad.fill(-1);for(auto &x:halves)x.fill(-1);ck(cuCtxSetCurrent(b.primary),"primary");ck(cuStreamCreate(&parent,CU_STREAM_NON_BLOCKING),"parent");if(mode!=-2)ensure_resources(mode);}
++ void ensure_resources(int mode){
++  if(!fork)for(auto ev:{&fork,&pe[0],&pe[1],&re[0],&re[1]})ck(cuEventCreate(ev,CU_EVENT_DISABLE_TIMING),"dependency event");
++  if(mode==-1||mode==-3)for(int i=0;i<4;i++)if(quad[i]<0){std::vector<int>v;for(int j=0;j<7;j++)v.push_back(i*7+j);quad[i]=b.merge(v);}
+   const int combinations[3][2]={{0,1},{0,2},{0,3}};
+-  for(int p=0;p<3;p++)if(mode==-1||mode==p)for(int c=0;c<2;c++){std::vector<int>v;for(int q=0;q<4;q++)if((q==combinations[p][0]||q==combinations[p][1])==(c==0))for(int j=0;j<7;j++)v.push_back(q*7+j);halves[p][c]=b.merge(v);}
+-  ck(cuCtxSetCurrent(b.primary),"blas context");bc(cublasCreate(&blas),"cublas create");bc(cublasSetMathMode(blas,CUBLAS_MATH_DISALLOW_REDUCED_PRECISION_REDUCTION),"math mode");bc(cublasSetStream(blas,(cudaStream_t)parent),"blas stream");ck(cuMemAlloc(&blas_workspace,64u<<20),"blas workspace");bc(cublasSetWorkspace(blas,(void*)blas_workspace,64u<<20),"blas workspace bind");
++  for(int part=0;part<3;part++)if(mode==-1||mode==part)for(int branch=0;branch<2;branch++)if(halves[part][branch]<0){std::vector<int>v;for(int q=0;q<4;q++)if((q==combinations[part][0]||q==combinations[part][1])==(branch==0))for(int j=0;j<7;j++)v.push_back(q*7+j);halves[part][branch]=b.merge(v);}
++  ck(cuCtxSetCurrent(b.primary),"resources ready");
+  }
+- ~Engine(){cuCtxSetCurrent(b.primary);cublasDestroy(blas);cuMemFree(blas_workspace);for(auto m:mod)cuModuleUnload(m);for(auto e:{fork,pe[0],pe[1],re[0],re[1]})cuEventDestroy(e);cuStreamDestroy(parent);}
++ void load(int d){if(mod[d])return;ck(cuCtxSetCurrent(b.primary),"module context");std::string file=directory+"/diag"+std::to_string(d)+".cubin";ck(cuModuleLoad(&mod[d],file.c_str()),"load cubin");for(auto n:{"p0","p1","p2","p3","n0","n1","n2","n3","s0","s1","s2","s3","r","rn","roster","scratch_read","silu_half"}){CUfunction f;ck(cuModuleGetFunction(&f,mod[d],n),n);fn[d][n]=f;}}
++ void ensure_blas(){if(blas)return;ck(cuCtxSetCurrent(b.primary),"blas context");bc(cublasCreate(&blas),"cublas create");bc(cublasSetMathMode(blas,CUBLAS_MATH_DISALLOW_REDUCED_PRECISION_REDUCTION),"math mode");bc(cublasSetStream(blas,(cudaStream_t)parent),"blas stream");ck(cuMemAlloc(&blas_workspace,64u<<20),"blas workspace");bc(cublasSetWorkspace(blas,(void*)blas_workspace,64u<<20),"blas workspace bind");}
++ ~Engine(){cuCtxSetCurrent(b.primary);if(blas)cublasDestroy(blas);if(blas_workspace)cuMemFree(blas_workspace);for(auto m:mod)if(m)cuModuleUnload(m);for(auto ev:{fork,pe[0],pe[1],re[0],re[1]})if(ev)cuEventDestroy(ev);cuStreamDestroy(parent);}
+  CUstream stream(int g){if(g<0){ck(cuCtxSetCurrent(b.primary),"native current");return parent;}b.current(g);return b.groups[g].stream;}
+- void launch(const std::string&name,int diag,int g,dim3 grid,dim3 block,int shared,void**args){auto f=fn[diag].at(name);auto st=stream(g);if(shared>=48*1024)ck(cuFuncSetAttribute(f,CU_FUNC_ATTRIBUTE_MAX_DYNAMIC_SHARED_SIZE_BYTES,shared),"shared optin");ck(cuLaunchKernel(f,grid.x,grid.y,grid.z,block.x,block.y,block.z,shared,st,args,nullptr),name.c_str());}
+- void gemm(const Half*a,const Half*b,float*d,int m,int n,int k){ck(cuCtxSetCurrent(this->b.primary),"blas primary");float alpha=1,beta=0;bc(cublasGemmEx(blas,CUBLAS_OP_T,CUBLAS_OP_N,n,m,k,&alpha,b,CUDA_R_16F,k,a,CUDA_R_16F,k,&beta,d,CUDA_R_32F,n,CUBLAS_COMPUTE_32F,CUBLAS_GEMM_DEFAULT_TENSOR_OP),"cublasGemmEx");}
++ void launch(const std::string&name,int diag,int g,dim3 grid,dim3 block,int shared,void**args){load(diag);auto f=fn[diag].at(name);auto st=stream(g);if(shared>=48*1024)ck(cuFuncSetAttribute(f,CU_FUNC_ATTRIBUTE_MAX_DYNAMIC_SHARED_SIZE_BYTES,shared),"shared optin");ck(cuLaunchKernel(f,grid.x,grid.y,grid.z,block.x,block.y,block.z,shared,st,args,nullptr),name.c_str());}
++ void gemm(const Half*a,const Half*b,float*d,int m,int n,int k){ensure_blas();ck(cuCtxSetCurrent(this->b.primary),"blas primary");float alpha=1,beta=0;bc(cublasGemmEx(blas,CUBLAS_OP_T,CUBLAS_OP_N,n,m,k,&alpha,b,CUDA_R_16F,k,a,CUDA_R_16F,k,&beta,d,CUDA_R_32F,n,CUBLAS_COMPUTE_32F,CUBLAS_GEMM_DEFAULT_TENSOR_OP),"cublasGemmEx");}
+ };
+ struct Job {
+  Engine&e;int c[20];void*p[11];float alpha,beta;CUgraph body=nullptr,wrapped=nullptr;CUgraphExec exec=nullptr,batch=nullptr;CUevent start,end,ps,pend,rs,rend,ss,se;int kernels=0;
+@@ -84,8 +84,8 @@
+   ck(cuStreamEndCapture(e.stream(-1),&body),"capture end");ck(cuGraphInstantiate(&batch,body,0),"body instantiate");
+   ck(cuGraphCreate(&wrapped,0),"timed graph");CUgraphNode a,b,z;ck(cuGraphAddEventRecordNode(&a,wrapped,nullptr,0,start),"start node");ck(cuGraphAddChildGraphNode(&b,wrapped,&a,1,body),"body node");ck(cuGraphAddEventRecordNode(&z,wrapped,&b,1,end),"end node");ck(cuGraphInstantiate(&exec,wrapped,0),"timed instantiate");
+  }
+- void build(){switch(c[4]){case 0:capture<R0>();break;case 1:capture<R1>();break;case 2:capture<R2>();break;case 3:capture<R3>();break;default:throw std::runtime_error("recipe");}}
+- void run(double*out){e.stream(-1);auto t=Clock::now();ck(cuGraphLaunch(exec,e.parent),"timed replay");ck(cuStreamSynchronize(e.parent),"output ready");out[1]=ms(t,Clock::now())*1000;float x;ck(cuEventElapsedTime(&x,start,end),"GPU span");out[0]=x*1000;out[2]=out[3]=out[4]=-1;if(c[19]&&c[5]!=3&&c[5]!=4){ck(cuEventElapsedTime(&x,ps,pend),"P span");out[2]=x*1000;ck(cuEventElapsedTime(&x,rs,rend),"R span");out[3]=x*1000;if(c[13]){ck(cuEventElapsedTime(&x,ss,se),"scratch span");out[4]=x*1000;}}}
++ void build(){if(c[5]==3||c[17])e.ensure_blas();if(c[5]!=3||c[17])e.load(c[14]);switch(c[4]){case 0:capture<R0>();break;case 1:capture<R1>();break;case 2:capture<R2>();break;case 3:capture<R3>();break;default:throw std::runtime_error("recipe");}}
++ void run(double*out){auto t=Clock::now();e.stream(-1);ck(cuGraphLaunch(exec,e.parent),"timed replay");ck(cuStreamSynchronize(e.parent),"output ready");out[1]=ms(t,Clock::now())*1000;float x;ck(cuEventElapsedTime(&x,start,end),"GPU span");out[0]=x*1000;out[2]=out[3]=out[4]=-1;if(c[19]&&c[5]!=3&&c[5]!=4){ck(cuEventElapsedTime(&x,ps,pend),"P span");out[2]=x*1000;ck(cuEventElapsedTime(&x,rs,rend),"R span");out[3]=x*1000;if(c[13]){ck(cuEventElapsedTime(&x,ss,se),"scratch span");out[4]=x*1000;}}}
+  void repeat(int count,double*out){e.stream(-1);auto t=Clock::now();ck(cuEventRecord(start,e.parent),"batch start");for(int i=0;i<count;i++)ck(cuGraphLaunch(batch,e.parent),"batch replay");ck(cuEventRecord(end,e.parent),"batch end");ck(cuStreamSynchronize(e.parent),"batch ready");out[1]=ms(t,Clock::now())*1000;float x;ck(cuEventElapsedTime(&x,start,end),"batch time");out[0]=x*1000;}
+ };
+ #define TRY try{error.clear();
+@@ -117,8 +117,15 @@
+    }
+    o+='}';
+   }
+-  o+="],\"edges\":[";size_t ne=0;ck(cuGraphGetEdges(j->body,nullptr,nullptr,&ne),"DAG edge count");std::vector<CUgraphNode>from(ne),to(ne);ck(cuGraphGetEdges(j->body,from.data(),to.data(),&ne),"DAG edges");
++  o+="],\"edges\":[";size_t ne=0;ck(cuGraphGetEdges(j->body,nullptr,nullptr,&ne),"DAG edge count");std::vector<CUgraphNode>from(ne),to(ne);if(ne)ck(cuGraphGetEdges(j->body,from.data(),to.data(),&ne),"DAG edges");
+   for(int i=0;i<int(ne);i++){if(i)o+=',';o+="["+std::to_string(ids.at(from[i]))+","+std::to_string(ids.at(to[i]))+"]";}
+   o+="],\"timed_wrapper\":\"start-event -> child-body -> end-event\"}";dag_text=o;return dag_text.c_str();
+  }catch(const std::exception&x){error=x.what();return nullptr;}
+ }
++
++extern "C" int sr_ensure_resources(Engine*e,int mode){TRY e->ensure_resources(mode);CATCH}
++extern "C" int sr_runtime_state(Engine*e,int*out){TRY out[0]=e->b.resources.size();out[1]=e->b.groups.size();out[2]=e->mod[0]!=nullptr;out[3]=e->mod[1]!=nullptr;out[4]=e->blas!=nullptr;CATCH}
++// Submission only. Plan choice, allocation, metadata and result waiting live outside.
++extern "C" int sr_run_async(Job*j){TRY ck(cuGraphLaunch(j->batch,j->e.parent),"async graph submit");CATCH}
++extern "C" int sr_wait(Engine*e){TRY ck(cuStreamSynchronize(e->parent),"caller result boundary");CATCH}
++#include "runtime_extra.hpp"

@@ -1,0 +1,10 @@
+[
+  {
+    "raw_ref": "runs/20261015T075053Z_a29d18be/moe_layer-024.json",
+    "case_id": "moe_layer-024",
+    "block": 0,
+    "raw_status": "MEMORY_UNSUPPORTED",
+    "interpretation": "RUNNER_RETENTION_PREFLIGHT_FAILURE_NOT_PHYSICAL_SHAPE_LIMIT",
+    "error": "Need 10804527104 new bytes; free 3715301376; reserve 2345405645"
+  }
+]

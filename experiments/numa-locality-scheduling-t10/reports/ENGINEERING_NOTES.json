@@ -1,0 +1,7 @@
+[
+  {
+    "kind": "compile",
+    "status": "resolved before GPU qualification",
+    "detail": "Generator left a duplicate semicolon after removing D256 route; generated dispatch fixed, original compile diagnostics preserved. No GPU data existed at failure."
+  }
+]

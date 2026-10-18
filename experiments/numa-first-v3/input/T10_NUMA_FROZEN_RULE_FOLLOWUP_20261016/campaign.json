@@ -1,0 +1,173 @@
+{
+  "campaign": "T10_NUMA_FROZEN_RULE_FOLLOWUP",
+  "version": "2026-10-16-v1",
+  "platform": "T10_ONLY",
+  "goal": "Frozen empirical rule -> controlled 2x2 -> concurrency/cache transport -> diagnostic-free deployment; no new method search",
+  "seed": 2026101641,
+  "blocks": 6,
+  "new_allocation_per_block": true,
+  "sizes_mib": [
+    2,
+    32
+  ],
+  "primary_load": ".cg",
+  "region_count": 64,
+  "threads_per_cta": 128,
+  "stripe_bytes": 4096,
+  "mask": 51,
+  "execution_profiles": {
+    "L8": {
+      "grid_per_group": 2,
+      "visits": 8,
+      "inner_repeats": 1
+    },
+    "L1": {
+      "grid_per_group": 2,
+      "visits": 1,
+      "inner_repeats": 1
+    },
+    "H1": {
+      "grid_per_group": 32,
+      "visits": 1,
+      "inner_repeats": 1
+    }
+  },
+  "actions": [
+    "C0_D0",
+    "C0_D1",
+    "C1_D0",
+    "C1_D1",
+    "J_MATCH",
+    "J_REVERSE"
+  ],
+  "cache_primary": "COMMON_PRIME",
+  "mechanism_profiles": [
+    {
+      "name": "OWNER_C0_PAIR",
+      "scope": "PAIR4SM",
+      "cache": "OWNER_C0",
+      "payload_xor": 0,
+      "label_xor": 0,
+      "base_offset_bytes": 0
+    },
+    {
+      "name": "OWNER_C1_PAIR",
+      "scope": "PAIR4SM",
+      "cache": "OWNER_C1",
+      "payload_xor": 0,
+      "label_xor": 0,
+      "base_offset_bytes": 0
+    },
+    {
+      "name": "OWNER_C0_FULL",
+      "scope": "BALANCED56SM",
+      "cache": "OWNER_C0",
+      "payload_xor": 0,
+      "label_xor": 0,
+      "base_offset_bytes": 0
+    },
+    {
+      "name": "OWNER_C1_FULL",
+      "scope": "BALANCED56SM",
+      "cache": "OWNER_C1",
+      "payload_xor": 0,
+      "label_xor": 0,
+      "base_offset_bytes": 0
+    },
+    {
+      "name": "SCRATCH_FULL",
+      "scope": "BALANCED56SM",
+      "cache": "SCRATCH",
+      "payload_xor": 0,
+      "label_xor": 0,
+      "base_offset_bytes": 0
+    },
+    {
+      "name": "PAYLOAD_SWAP_FULL",
+      "scope": "BALANCED56SM",
+      "cache": "COMMON_PRIME",
+      "payload_xor": 1,
+      "label_xor": 0,
+      "base_offset_bytes": 0
+    },
+    {
+      "name": "OFFSET128_FULL",
+      "scope": "BALANCED56SM",
+      "cache": "COMMON_PRIME",
+      "payload_xor": 0,
+      "label_xor": 0,
+      "base_offset_bytes": 128
+    }
+  ],
+  "diagnostic_comparison": {
+    "scopes": [
+      "BALANCED56SM"
+    ],
+    "sizes_mib": [
+      2,
+      32
+    ],
+    "inner_repeats": [
+      1,
+      4
+    ],
+    "policies": [
+      "N",
+      "T",
+      "M",
+      "P"
+    ],
+    "diagnostic": [
+      false,
+      true
+    ],
+    "anchors": "N_DIAG0_head_and_tail"
+  },
+  "epoch_protocol": {
+    "warmup_min_epochs": 32,
+    "warmup_min_seconds": 0.1,
+    "measured_epochs": 128,
+    "formal_check": "phase end; fixed input references; separate placement checks",
+    "batch_throughput": "E4 HOT only, same-policy graph replays 128..8192 chosen on N development to target 20..100ms, no change of consumer inner repeats"
+  },
+  "power": {
+    "primary_requested_w": 100,
+    "new_second_power_track": false,
+    "authorization": "Existing user authorization for safe supported T10 power/clock/fan coordination applies.",
+    "privilege_gap": "one consolidated note; preserve existing 100W policy and continue nonblocked work",
+    "protection": "never disable thermal/fan fault derating; restore original state"
+  },
+  "budget": {
+    "gpu_worker_hours_max": 6,
+    "parent_budget_hours": 24,
+    "parent_previous_reported_used_hours": 5.076,
+    "effective_max": "min(6, actual remaining parent budget)",
+    "phase_alloc_hours": {
+      "S0": 0.5,
+      "S1": 0.75,
+      "S2": 1.5,
+      "S3": 1.0,
+      "S4": 1.5,
+      "S5": 0.25,
+      "reserve": 0.5
+    },
+    "new_spend": 0,
+    "profile_captures_max": 4,
+    "raw_soft_gib": 2,
+    "raw_hard_gib": 8
+  },
+  "counts": {
+    "S1_measured_probe_launches_max": 1344,
+    "S2_phases": 432,
+    "S3_phases": 252,
+    "S4_main_phases": 192,
+    "S4_anchor_phases": 48,
+    "main_and_anchor_total": 924
+  },
+  "execution": "offline local; no new GPU, no renderer/CSR/LLM performance expansion, no new scheduler or full address sweep",
+  "qualification": "CPU mapping + bounded small GPU correctness and diagnostics + formal outputs; no new audit framework",
+  "decision": "complete the predefined cells within budget, then report evidence strengths and unknowns; not a percent gate",
+  "cpu_negative_controls": [
+    "RELABEL_FULL: label-only rename of physical-region indices with exact compensation; no duplicate GPU cells"
+  ]
+}

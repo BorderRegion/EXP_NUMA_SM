@@ -1,0 +1,12 @@
+{
+  "created_at": "20261017T121101Z",
+  "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+  "user_request": "专注于实现我们说的优化，至少确定好那个核sm之间的延迟的拓扑是什么样的",
+  "new_scope_gpu_worker_cap_minutes": 15,
+  "previous_closed_pacing_campaign_gpu_worker_minutes": 329.2420818351985,
+  "authorization_scope": "New explicitly requested topology and optimization work, separate capped ledger; old rounds are unchanged.",
+  "power_limit_W": 100,
+  "thermal_guard_C": 82,
+  "downloads": false,
+  "admin_changes": false
+}

@@ -1,0 +1,410 @@
+{
+  "0_0": {
+    "single_recipe": 0,
+    "split_recipe": 0,
+    "split_S": 4,
+    "n_development_cases": 3,
+    "scores": [
+      {
+        "recipe": 0,
+        "S": 1,
+        "geomean_cpu_us": 436.48437024008376
+      },
+      {
+        "recipe": 0,
+        "S": 2,
+        "geomean_cpu_us": 265.7538051516492
+      },
+      {
+        "recipe": 0,
+        "S": 4,
+        "geomean_cpu_us": 235.49668293186116
+      },
+      {
+        "recipe": 0,
+        "S": 8,
+        "geomean_cpu_us": 315.69056111224023
+      },
+      {
+        "recipe": 2,
+        "S": 1,
+        "geomean_cpu_us": 500.29111611043857
+      },
+      {
+        "recipe": 2,
+        "S": 2,
+        "geomean_cpu_us": 307.5144518993986
+      },
+      {
+        "recipe": 2,
+        "S": 4,
+        "geomean_cpu_us": 298.52634381752273
+      },
+      {
+        "recipe": 2,
+        "S": 8,
+        "geomean_cpu_us": 308.68215802051236
+      },
+      {
+        "recipe": 3,
+        "S": 1,
+        "geomean_cpu_us": 611.6001581982968
+      },
+      {
+        "recipe": 3,
+        "S": 2,
+        "geomean_cpu_us": 367.9136299105546
+      },
+      {
+        "recipe": 3,
+        "S": 4,
+        "geomean_cpu_us": 510.7128714104418
+      },
+      {
+        "recipe": 3,
+        "S": 8,
+        "geomean_cpu_us": 390.63088819046675
+      }
+    ]
+  },
+  "0_1": {
+    "single_recipe": 2,
+    "split_recipe": 0,
+    "split_S": 4,
+    "n_development_cases": 3,
+    "scores": [
+      {
+        "recipe": 0,
+        "S": 1,
+        "geomean_cpu_us": 1523.7479294208758
+      },
+      {
+        "recipe": 0,
+        "S": 2,
+        "geomean_cpu_us": 1601.200590234307
+      },
+      {
+        "recipe": 0,
+        "S": 4,
+        "geomean_cpu_us": 1205.7935149913676
+      },
+      {
+        "recipe": 0,
+        "S": 8,
+        "geomean_cpu_us": 1395.5331142395064
+      },
+      {
+        "recipe": 2,
+        "S": 1,
+        "geomean_cpu_us": 1408.5517447562809
+      },
+      {
+        "recipe": 2,
+        "S": 2,
+        "geomean_cpu_us": 1845.060668004454
+      },
+      {
+        "recipe": 2,
+        "S": 4,
+        "geomean_cpu_us": 1503.5502609000891
+      },
+      {
+        "recipe": 2,
+        "S": 8,
+        "geomean_cpu_us": 1474.0384895339043
+      },
+      {
+        "recipe": 3,
+        "S": 1,
+        "geomean_cpu_us": 1787.468778658772
+      },
+      {
+        "recipe": 3,
+        "S": 2,
+        "geomean_cpu_us": 2047.1481096856585
+      },
+      {
+        "recipe": 3,
+        "S": 4,
+        "geomean_cpu_us": 2263.093859138248
+      },
+      {
+        "recipe": 3,
+        "S": 8,
+        "geomean_cpu_us": 2024.3110547664166
+      }
+    ]
+  },
+  "1_0": {
+    "single_recipe": 0,
+    "split_recipe": 2,
+    "split_S": 4,
+    "n_development_cases": 6,
+    "scores": [
+      {
+        "recipe": 0,
+        "S": 1,
+        "geomean_cpu_us": 413.8111013092465
+      },
+      {
+        "recipe": 0,
+        "S": 2,
+        "geomean_cpu_us": 434.5708677197498
+      },
+      {
+        "recipe": 0,
+        "S": 4,
+        "geomean_cpu_us": 368.47039285677613
+      },
+      {
+        "recipe": 0,
+        "S": 8,
+        "geomean_cpu_us": 365.07656556044316
+      },
+      {
+        "recipe": 2,
+        "S": 1,
+        "geomean_cpu_us": 563.2136112849812
+      },
+      {
+        "recipe": 2,
+        "S": 2,
+        "geomean_cpu_us": 361.5210046925541
+      },
+      {
+        "recipe": 2,
+        "S": 4,
+        "geomean_cpu_us": 327.1190192679119
+      },
+      {
+        "recipe": 2,
+        "S": 8,
+        "geomean_cpu_us": 327.3426708598595
+      },
+      {
+        "recipe": 3,
+        "S": 1,
+        "geomean_cpu_us": 610.9769468314032
+      },
+      {
+        "recipe": 3,
+        "S": 2,
+        "geomean_cpu_us": 412.2487555854462
+      },
+      {
+        "recipe": 3,
+        "S": 4,
+        "geomean_cpu_us": 396.1393692510767
+      },
+      {
+        "recipe": 3,
+        "S": 8,
+        "geomean_cpu_us": 414.54761331855434
+      }
+    ]
+  },
+  "1_1": {
+    "single_recipe": 2,
+    "split_recipe": 2,
+    "split_S": 8,
+    "n_development_cases": 6,
+    "scores": [
+      {
+        "recipe": 0,
+        "S": 1,
+        "geomean_cpu_us": 1623.4693716248948
+      },
+      {
+        "recipe": 0,
+        "S": 2,
+        "geomean_cpu_us": 1878.343219074369
+      },
+      {
+        "recipe": 0,
+        "S": 4,
+        "geomean_cpu_us": 1918.6643194505486
+      },
+      {
+        "recipe": 0,
+        "S": 8,
+        "geomean_cpu_us": 1933.909325021263
+      },
+      {
+        "recipe": 2,
+        "S": 1,
+        "geomean_cpu_us": 1425.7490988175216
+      },
+      {
+        "recipe": 2,
+        "S": 2,
+        "geomean_cpu_us": 1721.4695273878747
+      },
+      {
+        "recipe": 2,
+        "S": 4,
+        "geomean_cpu_us": 1538.9619794145597
+      },
+      {
+        "recipe": 2,
+        "S": 8,
+        "geomean_cpu_us": 1454.8714486839028
+      },
+      {
+        "recipe": 3,
+        "S": 1,
+        "geomean_cpu_us": 1788.910744382139
+      },
+      {
+        "recipe": 3,
+        "S": 2,
+        "geomean_cpu_us": 1655.2192016193396
+      },
+      {
+        "recipe": 3,
+        "S": 4,
+        "geomean_cpu_us": 1669.8807608169238
+      },
+      {
+        "recipe": 3,
+        "S": 8,
+        "geomean_cpu_us": 1918.491685514402
+      }
+    ]
+  },
+  "2_0": {
+    "single_recipe": 2,
+    "split_recipe": 2,
+    "split_S": 4,
+    "n_development_cases": 3,
+    "scores": [
+      {
+        "recipe": 0,
+        "S": 1,
+        "geomean_cpu_us": 1043.920252620792
+      },
+      {
+        "recipe": 0,
+        "S": 2,
+        "geomean_cpu_us": 1186.389932093011
+      },
+      {
+        "recipe": 0,
+        "S": 4,
+        "geomean_cpu_us": 1184.4528609106796
+      },
+      {
+        "recipe": 0,
+        "S": 8,
+        "geomean_cpu_us": 1131.9387973170492
+      },
+      {
+        "recipe": 2,
+        "S": 1,
+        "geomean_cpu_us": 654.7896742486266
+      },
+      {
+        "recipe": 2,
+        "S": 2,
+        "geomean_cpu_us": 963.9626303888984
+      },
+      {
+        "recipe": 2,
+        "S": 4,
+        "geomean_cpu_us": 702.4534843957488
+      },
+      {
+        "recipe": 2,
+        "S": 8,
+        "geomean_cpu_us": 734.6220296720056
+      },
+      {
+        "recipe": 3,
+        "S": 1,
+        "geomean_cpu_us": 764.4344824556417
+      },
+      {
+        "recipe": 3,
+        "S": 2,
+        "geomean_cpu_us": 793.4375901015451
+      },
+      {
+        "recipe": 3,
+        "S": 4,
+        "geomean_cpu_us": 745.5474710369809
+      },
+      {
+        "recipe": 3,
+        "S": 8,
+        "geomean_cpu_us": 887.6544232484631
+      }
+    ]
+  },
+  "2_1": {
+    "single_recipe": 2,
+    "split_recipe": 3,
+    "split_S": 2,
+    "n_development_cases": 3,
+    "scores": [
+      {
+        "recipe": 0,
+        "S": 1,
+        "geomean_cpu_us": 4261.581776519832
+      },
+      {
+        "recipe": 0,
+        "S": 2,
+        "geomean_cpu_us": 9409.132759710246
+      },
+      {
+        "recipe": 0,
+        "S": 4,
+        "geomean_cpu_us": 9310.099429426176
+      },
+      {
+        "recipe": 0,
+        "S": 8,
+        "geomean_cpu_us": 9101.503006307235
+      },
+      {
+        "recipe": 2,
+        "S": 1,
+        "geomean_cpu_us": 2552.412823428511
+      },
+      {
+        "recipe": 2,
+        "S": 2,
+        "geomean_cpu_us": 3784.350182197321
+      },
+      {
+        "recipe": 2,
+        "S": 4,
+        "geomean_cpu_us": 4041.0450832118518
+      },
+      {
+        "recipe": 2,
+        "S": 8,
+        "geomean_cpu_us": 4040.970050563509
+      },
+      {
+        "recipe": 3,
+        "S": 1,
+        "geomean_cpu_us": 3478.654525947102
+      },
+      {
+        "recipe": 3,
+        "S": 2,
+        "geomean_cpu_us": 2916.1101061237905
+      },
+      {
+        "recipe": 3,
+        "S": 4,
+        "geomean_cpu_us": 3233.675982680286
+      },
+      {
+        "recipe": 3,
+        "S": 8,
+        "geomean_cpu_us": 3652.142713502993
+      }
+    ]
+  }
+}

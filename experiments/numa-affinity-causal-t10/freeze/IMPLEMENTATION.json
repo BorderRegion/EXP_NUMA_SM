@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-10-18T05:06:21.734244+00:00",
+  "hashes": {
+    "src/qualify.py": "f3c387ea7a9df4ae51b05725d5b27466a97459ad8d3198bf630cc56e15f1d941",
+    "src/common.py": "b17fa3a27ab31ab646bbed02b8ce560b9bc36e98057db788934e76b96eee7bf4",
+    "src/runtime.py": "67914d0ed2fa32549a94e3120b9612df88bc0438a6e8008c2b191fe34561b9e8",
+    "src/campaign.py": "c2d052b73a6ab4304f425b8ed0504e23cd8a0be23a97183dc9422a99bc8e57f9",
+    "src/worker.py": "e90423878ebe3fd8fd92badb324a609da78abc62c6dfff9c03643ae75f8a1c0d",
+    "src/build.py": "3090eea5dcface5fe2778b22c2c152a86b476a7fcc1f6531e8e77f2b42147bc6",
+    "src/experiment.py": "16bcdfcc1753c47cdd9bc04367023f0751ba165870206acfce778a8085e99d9b",
+    "src/nvml_state.py": "4bd85f03f65821332180cb785751a5c5e005f3a7b3c9cf5014f088bead2ad1b7",
+    "src/analyze.py": "1c3aeff5dd1471904c7587fb1b855406256200a4f153f411e61c277c66a8b0e6",
+    "src/make_maps.py": "4055a17210fbbe73069ff865465b447bebb67fe70da84982bb029d4a093bb9ba",
+    "src/generate.py": "d42c768a7290d612cf669269b47380fd405cb9a7c2383719a466d8b5a793fa75",
+    "src/topology_math.py": "9d9f8bbd471d6a22e8b121be2ec1cc98aba114aba1283834bb53b012dfb698ef",
+    "src/diagnose.py": "752b04e021c6f8cfa2f1c985150ce527606a644df32d345d3c2278827fcda755",
+    "src/causal.cu": "b195fea27468ee56fd3b2f76d74c89bcfc00efda5dc870be69c45810a14be311",
+    "build/refresh.so": "f77c3f06b535656154b0cc32137f1bb9e21b27fdb3d28be187463fc469f9f779",
+    "build/causal_build.json": "012ddf9ef1ff259d5b0e9c9bbc944b77ab13284a4e367a948adda54cdec18d68",
+    "build/causal.sass": "f341efa57490bb15289bdaaa2b3fa4352e2525631d098af6f784ba3310a890fc",
+    "build/softmax_const.so": "10a0201ea5138c70fb96975cb3ec36d11adeb9d63841f63b2f763f619c2e4104",
+    "build/causal.so": "ac989241e8ac30c0dd2e1ac8a519d6c818c549dec21e31ea333143c15b4ecc4c",
+    "build/causal_compile.log": "22083448f4e96b44c6bf054318854f2a1d2cab332f2fc6b6935832a598a89946"
+  },
+  "maps_sha256": "b0fd58f8ad023ee98d535e63883e7a6d3173c5bd9fa56c47b851ecc2cee1f5f7"
+}

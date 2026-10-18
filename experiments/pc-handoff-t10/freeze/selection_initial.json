@@ -1,0 +1,1612 @@
+{
+  "frozen_at": "2026-10-16T12:09:17.098463+00:00",
+  "basis": "Baseline natural instrumented reducer fraction, middle two in each tertile; no candidate results used",
+  "bins": {
+    "M0_N0": {
+      "production": {
+        "recipe": 0,
+        "S": 1,
+        "score_log_us": 5.466211025610991
+      },
+      "mechanism": {
+        "recipe": 2,
+        "S": 4,
+        "score_log_us": 5.4947271163591935
+      },
+      "forced_split": true,
+      "development_cases": [
+        "G001",
+        "G004",
+        "G007",
+        "G010",
+        "G037"
+      ],
+      "all_options": [
+        {
+          "recipe": 0,
+          "S": 1,
+          "score_log_us": 5.466211025610991
+        },
+        {
+          "recipe": 0,
+          "S": 2,
+          "score_log_us": 5.564925933735344
+        },
+        {
+          "recipe": 0,
+          "S": 4,
+          "score_log_us": 5.634215304759481
+        },
+        {
+          "recipe": 0,
+          "S": 8,
+          "score_log_us": 5.62095730543403
+        },
+        {
+          "recipe": 0,
+          "S": 16,
+          "score_log_us": 5.551842952898733
+        },
+        {
+          "recipe": 1,
+          "S": 1,
+          "score_log_us": 5.541761799843297
+        },
+        {
+          "recipe": 1,
+          "S": 2,
+          "score_log_us": 5.585535559637711
+        },
+        {
+          "recipe": 1,
+          "S": 4,
+          "score_log_us": 5.539215782752804
+        },
+        {
+          "recipe": 1,
+          "S": 8,
+          "score_log_us": 5.54615860003412
+        },
+        {
+          "recipe": 1,
+          "S": 16,
+          "score_log_us": 5.611070402751947
+        },
+        {
+          "recipe": 2,
+          "S": 1,
+          "score_log_us": 5.645743349867656
+        },
+        {
+          "recipe": 2,
+          "S": 2,
+          "score_log_us": 5.503588717635916
+        },
+        {
+          "recipe": 2,
+          "S": 4,
+          "score_log_us": 5.4947271163591935
+        },
+        {
+          "recipe": 2,
+          "S": 8,
+          "score_log_us": 5.666741783898571
+        },
+        {
+          "recipe": 2,
+          "S": 16,
+          "score_log_us": 5.602786769240036
+        },
+        {
+          "recipe": 3,
+          "S": 1,
+          "score_log_us": 5.814604286242909
+        },
+        {
+          "recipe": 3,
+          "S": 2,
+          "score_log_us": 5.577928865677913
+        },
+        {
+          "recipe": 3,
+          "S": 4,
+          "score_log_us": 5.635595627247224
+        },
+        {
+          "recipe": 3,
+          "S": 8,
+          "score_log_us": 5.752597966699813
+        },
+        {
+          "recipe": 3,
+          "S": 16,
+          "score_log_us": 5.698058084201385
+        }
+      ]
+    },
+    "M0_N1": {
+      "production": {
+        "recipe": 0,
+        "S": 1,
+        "score_log_us": 5.466211025610991
+      },
+      "mechanism": {
+        "recipe": 2,
+        "S": 4,
+        "score_log_us": 5.4947271163591935
+      },
+      "forced_split": true,
+      "development_cases": [
+        "G001",
+        "G004",
+        "G007",
+        "G010",
+        "G037"
+      ],
+      "all_options": [
+        {
+          "recipe": 0,
+          "S": 1,
+          "score_log_us": 5.466211025610991
+        },
+        {
+          "recipe": 0,
+          "S": 2,
+          "score_log_us": 5.564925933735344
+        },
+        {
+          "recipe": 0,
+          "S": 4,
+          "score_log_us": 5.634215304759481
+        },
+        {
+          "recipe": 0,
+          "S": 8,
+          "score_log_us": 5.62095730543403
+        },
+        {
+          "recipe": 0,
+          "S": 16,
+          "score_log_us": 5.551842952898733
+        },
+        {
+          "recipe": 1,
+          "S": 1,
+          "score_log_us": 5.541761799843297
+        },
+        {
+          "recipe": 1,
+          "S": 2,
+          "score_log_us": 5.585535559637711
+        },
+        {
+          "recipe": 1,
+          "S": 4,
+          "score_log_us": 5.539215782752804
+        },
+        {
+          "recipe": 1,
+          "S": 8,
+          "score_log_us": 5.54615860003412
+        },
+        {
+          "recipe": 1,
+          "S": 16,
+          "score_log_us": 5.611070402751947
+        },
+        {
+          "recipe": 2,
+          "S": 1,
+          "score_log_us": 5.645743349867656
+        },
+        {
+          "recipe": 2,
+          "S": 2,
+          "score_log_us": 5.503588717635916
+        },
+        {
+          "recipe": 2,
+          "S": 4,
+          "score_log_us": 5.4947271163591935
+        },
+        {
+          "recipe": 2,
+          "S": 8,
+          "score_log_us": 5.666741783898571
+        },
+        {
+          "recipe": 2,
+          "S": 16,
+          "score_log_us": 5.602786769240036
+        },
+        {
+          "recipe": 3,
+          "S": 1,
+          "score_log_us": 5.814604286242909
+        },
+        {
+          "recipe": 3,
+          "S": 2,
+          "score_log_us": 5.577928865677913
+        },
+        {
+          "recipe": 3,
+          "S": 4,
+          "score_log_us": 5.635595627247224
+        },
+        {
+          "recipe": 3,
+          "S": 8,
+          "score_log_us": 5.752597966699813
+        },
+        {
+          "recipe": 3,
+          "S": 16,
+          "score_log_us": 5.698058084201385
+        }
+      ],
+      "inheritance": "No N>4096 development shape exists in supplied fixed split. Predeclared inheritance from same M bin; no test tuning."
+    },
+    "M1_N0": {
+      "production": {
+        "recipe": 3,
+        "S": 2,
+        "score_log_us": 5.680353023828509
+      },
+      "mechanism": {
+        "recipe": 3,
+        "S": 2,
+        "score_log_us": 5.680353023828509
+      },
+      "forced_split": false,
+      "development_cases": [
+        "G013",
+        "G016",
+        "G019",
+        "G022",
+        "G040",
+        "G043"
+      ],
+      "all_options": [
+        {
+          "recipe": 0,
+          "S": 1,
+          "score_log_us": 5.999065819495956
+        },
+        {
+          "recipe": 0,
+          "S": 2,
+          "score_log_us": 6.063462231765631
+        },
+        {
+          "recipe": 0,
+          "S": 4,
+          "score_log_us": 6.160254883103253
+        },
+        {
+          "recipe": 0,
+          "S": 8,
+          "score_log_us": 6.148170423232955
+        },
+        {
+          "recipe": 0,
+          "S": 16,
+          "score_log_us": 6.168687546109296
+        },
+        {
+          "recipe": 1,
+          "S": 1,
+          "score_log_us": 5.811634721212599
+        },
+        {
+          "recipe": 1,
+          "S": 2,
+          "score_log_us": 5.954186594442877
+        },
+        {
+          "recipe": 1,
+          "S": 4,
+          "score_log_us": 6.019794647468771
+        },
+        {
+          "recipe": 1,
+          "S": 8,
+          "score_log_us": 6.035771049621246
+        },
+        {
+          "recipe": 1,
+          "S": 16,
+          "score_log_us": 6.119382783205982
+        },
+        {
+          "recipe": 2,
+          "S": 1,
+          "score_log_us": 5.807331811833162
+        },
+        {
+          "recipe": 2,
+          "S": 2,
+          "score_log_us": 5.753080673399791
+        },
+        {
+          "recipe": 2,
+          "S": 4,
+          "score_log_us": 5.908835046285961
+        },
+        {
+          "recipe": 2,
+          "S": 8,
+          "score_log_us": 5.878820097466385
+        },
+        {
+          "recipe": 2,
+          "S": 16,
+          "score_log_us": 5.982942139592741
+        },
+        {
+          "recipe": 3,
+          "S": 1,
+          "score_log_us": 5.860651763710925
+        },
+        {
+          "recipe": 3,
+          "S": 2,
+          "score_log_us": 5.680353023828509
+        },
+        {
+          "recipe": 3,
+          "S": 4,
+          "score_log_us": 5.824429224603918
+        },
+        {
+          "recipe": 3,
+          "S": 8,
+          "score_log_us": 5.928143314205379
+        },
+        {
+          "recipe": 3,
+          "S": 16,
+          "score_log_us": 5.9538008696477185
+        }
+      ]
+    },
+    "M1_N1": {
+      "production": {
+        "recipe": 3,
+        "S": 2,
+        "score_log_us": 5.680353023828509
+      },
+      "mechanism": {
+        "recipe": 3,
+        "S": 2,
+        "score_log_us": 5.680353023828509
+      },
+      "forced_split": false,
+      "development_cases": [
+        "G013",
+        "G016",
+        "G019",
+        "G022",
+        "G040",
+        "G043"
+      ],
+      "all_options": [
+        {
+          "recipe": 0,
+          "S": 1,
+          "score_log_us": 5.999065819495956
+        },
+        {
+          "recipe": 0,
+          "S": 2,
+          "score_log_us": 6.063462231765631
+        },
+        {
+          "recipe": 0,
+          "S": 4,
+          "score_log_us": 6.160254883103253
+        },
+        {
+          "recipe": 0,
+          "S": 8,
+          "score_log_us": 6.148170423232955
+        },
+        {
+          "recipe": 0,
+          "S": 16,
+          "score_log_us": 6.168687546109296
+        },
+        {
+          "recipe": 1,
+          "S": 1,
+          "score_log_us": 5.811634721212599
+        },
+        {
+          "recipe": 1,
+          "S": 2,
+          "score_log_us": 5.954186594442877
+        },
+        {
+          "recipe": 1,
+          "S": 4,
+          "score_log_us": 6.019794647468771
+        },
+        {
+          "recipe": 1,
+          "S": 8,
+          "score_log_us": 6.035771049621246
+        },
+        {
+          "recipe": 1,
+          "S": 16,
+          "score_log_us": 6.119382783205982
+        },
+        {
+          "recipe": 2,
+          "S": 1,
+          "score_log_us": 5.807331811833162
+        },
+        {
+          "recipe": 2,
+          "S": 2,
+          "score_log_us": 5.753080673399791
+        },
+        {
+          "recipe": 2,
+          "S": 4,
+          "score_log_us": 5.908835046285961
+        },
+        {
+          "recipe": 2,
+          "S": 8,
+          "score_log_us": 5.878820097466385
+        },
+        {
+          "recipe": 2,
+          "S": 16,
+          "score_log_us": 5.982942139592741
+        },
+        {
+          "recipe": 3,
+          "S": 1,
+          "score_log_us": 5.860651763710925
+        },
+        {
+          "recipe": 3,
+          "S": 2,
+          "score_log_us": 5.680353023828509
+        },
+        {
+          "recipe": 3,
+          "S": 4,
+          "score_log_us": 5.824429224603918
+        },
+        {
+          "recipe": 3,
+          "S": 8,
+          "score_log_us": 5.928143314205379
+        },
+        {
+          "recipe": 3,
+          "S": 16,
+          "score_log_us": 5.9538008696477185
+        }
+      ],
+      "inheritance": "No N>4096 development shape exists in supplied fixed split. Predeclared inheritance from same M bin; no test tuning."
+    },
+    "M2_N0": {
+      "production": {
+        "recipe": 3,
+        "S": 1,
+        "score_log_us": 7.393700136728898
+      },
+      "mechanism": {
+        "recipe": 3,
+        "S": 2,
+        "score_log_us": 7.545649091213372
+      },
+      "forced_split": true,
+      "development_cases": [
+        "G025",
+        "G028",
+        "G031",
+        "G034",
+        "G046"
+      ],
+      "all_options": [
+        {
+          "recipe": 0,
+          "S": 1,
+          "score_log_us": 8.392616246212722
+        },
+        {
+          "recipe": 0,
+          "S": 2,
+          "score_log_us": 8.452997567041518
+        },
+        {
+          "recipe": 0,
+          "S": 4,
+          "score_log_us": 8.43429542335102
+        },
+        {
+          "recipe": 0,
+          "S": 8,
+          "score_log_us": 8.478768568597632
+        },
+        {
+          "recipe": 0,
+          "S": 16,
+          "score_log_us": 8.588378858093133
+        },
+        {
+          "recipe": 1,
+          "S": 1,
+          "score_log_us": 8.278903697052847
+        },
+        {
+          "recipe": 1,
+          "S": 2,
+          "score_log_us": 8.224469881521523
+        },
+        {
+          "recipe": 1,
+          "S": 4,
+          "score_log_us": 8.16055640899312
+        },
+        {
+          "recipe": 1,
+          "S": 8,
+          "score_log_us": 8.22297663102328
+        },
+        {
+          "recipe": 1,
+          "S": 16,
+          "score_log_us": 8.362482846948396
+        },
+        {
+          "recipe": 2,
+          "S": 1,
+          "score_log_us": 7.626911118053276
+        },
+        {
+          "recipe": 2,
+          "S": 2,
+          "score_log_us": 7.826477894566631
+        },
+        {
+          "recipe": 2,
+          "S": 4,
+          "score_log_us": 7.894393863676325
+        },
+        {
+          "recipe": 2,
+          "S": 8,
+          "score_log_us": 7.941884632015702
+        },
+        {
+          "recipe": 2,
+          "S": 16,
+          "score_log_us": 8.118960672246093
+        },
+        {
+          "recipe": 3,
+          "S": 1,
+          "score_log_us": 7.393700136728898
+        },
+        {
+          "recipe": 3,
+          "S": 2,
+          "score_log_us": 7.545649091213372
+        },
+        {
+          "recipe": 3,
+          "S": 4,
+          "score_log_us": 7.751815825928494
+        },
+        {
+          "recipe": 3,
+          "S": 8,
+          "score_log_us": 7.86241204813396
+        },
+        {
+          "recipe": 3,
+          "S": 16,
+          "score_log_us": 8.179860392416881
+        }
+      ]
+    },
+    "M2_N1": {
+      "production": {
+        "recipe": 3,
+        "S": 1,
+        "score_log_us": 7.393700136728898
+      },
+      "mechanism": {
+        "recipe": 3,
+        "S": 2,
+        "score_log_us": 7.545649091213372
+      },
+      "forced_split": true,
+      "development_cases": [
+        "G025",
+        "G028",
+        "G031",
+        "G034",
+        "G046"
+      ],
+      "all_options": [
+        {
+          "recipe": 0,
+          "S": 1,
+          "score_log_us": 8.392616246212722
+        },
+        {
+          "recipe": 0,
+          "S": 2,
+          "score_log_us": 8.452997567041518
+        },
+        {
+          "recipe": 0,
+          "S": 4,
+          "score_log_us": 8.43429542335102
+        },
+        {
+          "recipe": 0,
+          "S": 8,
+          "score_log_us": 8.478768568597632
+        },
+        {
+          "recipe": 0,
+          "S": 16,
+          "score_log_us": 8.588378858093133
+        },
+        {
+          "recipe": 1,
+          "S": 1,
+          "score_log_us": 8.278903697052847
+        },
+        {
+          "recipe": 1,
+          "S": 2,
+          "score_log_us": 8.224469881521523
+        },
+        {
+          "recipe": 1,
+          "S": 4,
+          "score_log_us": 8.16055640899312
+        },
+        {
+          "recipe": 1,
+          "S": 8,
+          "score_log_us": 8.22297663102328
+        },
+        {
+          "recipe": 1,
+          "S": 16,
+          "score_log_us": 8.362482846948396
+        },
+        {
+          "recipe": 2,
+          "S": 1,
+          "score_log_us": 7.626911118053276
+        },
+        {
+          "recipe": 2,
+          "S": 2,
+          "score_log_us": 7.826477894566631
+        },
+        {
+          "recipe": 2,
+          "S": 4,
+          "score_log_us": 7.894393863676325
+        },
+        {
+          "recipe": 2,
+          "S": 8,
+          "score_log_us": 7.941884632015702
+        },
+        {
+          "recipe": 2,
+          "S": 16,
+          "score_log_us": 8.118960672246093
+        },
+        {
+          "recipe": 3,
+          "S": 1,
+          "score_log_us": 7.393700136728898
+        },
+        {
+          "recipe": 3,
+          "S": 2,
+          "score_log_us": 7.545649091213372
+        },
+        {
+          "recipe": 3,
+          "S": 4,
+          "score_log_us": 7.751815825928494
+        },
+        {
+          "recipe": 3,
+          "S": 8,
+          "score_log_us": 7.86241204813396
+        },
+        {
+          "recipe": 3,
+          "S": 16,
+          "score_log_us": 8.179860392416881
+        }
+      ],
+      "inheritance": "No N>4096 development shape exists in supplied fixed split. Predeclared inheritance from same M bin; no test tuning."
+    }
+  },
+  "representatives": [
+    {
+      "case_id": "G016",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 32,
+      "N": 4096,
+      "K": 16384,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M1_N0",
+      "recipe": 3,
+      "S": 2,
+      "production_S": 2,
+      "production_recipe": 3,
+      "forced_split": false,
+      "lib_us": 1572.380782996752,
+      "samecore_S1_us": 1187.7490500771537,
+      "split_us": 1117.6697981186335,
+      "R_fraction_proxy": 0.00969208857689869,
+      "P_instrumented_us": 925.6370048522949,
+      "R_instrumented_us": 9.089000016450882,
+      "workspace_planar_bytes": 1048576,
+      "workspace_slab_bytes": 4194304,
+      "output_tiles": 32,
+      "P_ctas": 64,
+      "R_native_ctas": 256,
+      "FLOPs": 4294967296,
+      "A_B_bytes": 135266304,
+      "logical_partial_rw_bytes": 2097152,
+      "tier": "LOW"
+    },
+    {
+      "case_id": "G034",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 2048,
+      "N": 4096,
+      "K": 16384,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M2_N0",
+      "recipe": 3,
+      "S": 2,
+      "production_S": 1,
+      "production_recipe": 3,
+      "forced_split": true,
+      "lib_us": 14050.919921875,
+      "samecore_S1_us": 36703.994140625,
+      "split_us": 35655.078125,
+      "R_fraction_proxy": 0.0105205362893546,
+      "P_instrumented_us": 38638.43371582031,
+      "R_instrumented_us": 410.86599826812744,
+      "workspace_planar_bytes": 67108864,
+      "workspace_slab_bytes": 67108864,
+      "output_tiles": 512,
+      "P_ctas": 1024,
+      "R_native_ctas": 16384,
+      "FLOPs": 274877906944,
+      "A_B_bytes": 201326592,
+      "logical_partial_rw_bytes": 134217728,
+      "tier": "LOW"
+    },
+    {
+      "case_id": "G046",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 257,
+      "N": 1536,
+      "K": 8192,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M2_N0",
+      "recipe": 3,
+      "S": 2,
+      "production_S": 1,
+      "production_recipe": 3,
+      "forced_split": true,
+      "lib_us": 517.3577095692551,
+      "samecore_S1_us": 514.1815339336245,
+      "split_us": 604.2088031918984,
+      "R_fraction_proxy": 0.02688238757304265,
+      "P_instrumented_us": 565.286997795105,
+      "R_instrumented_us": 15.565999835729599,
+      "workspace_planar_bytes": 3158016,
+      "workspace_slab_bytes": 4718592,
+      "output_tiles": 36,
+      "P_ctas": 72,
+      "R_native_ctas": 780,
+      "FLOPs": 6467616768,
+      "A_B_bytes": 29376512,
+      "logical_partial_rw_bytes": 6316032,
+      "tier": "MEDIUM"
+    },
+    {
+      "case_id": "G043",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 65,
+      "N": 1536,
+      "K": 8192,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M1_N0",
+      "recipe": 3,
+      "S": 2,
+      "production_S": 2,
+      "production_recipe": 3,
+      "forced_split": false,
+      "lib_us": 222.8795156598992,
+      "samecore_S1_us": 279.4699968390861,
+      "split_us": 221.97399270084102,
+      "R_fraction_proxy": 0.02875121313500492,
+      "P_instrumented_us": 236.96300077438354,
+      "R_instrumented_us": 7.173999935388565,
+      "workspace_planar_bytes": 798720,
+      "workspace_slab_bytes": 1572864,
+      "output_tiles": 12,
+      "P_ctas": 24,
+      "R_native_ctas": 204,
+      "FLOPs": 1635778560,
+      "A_B_bytes": 26230784,
+      "logical_partial_rw_bytes": 1597440,
+      "tier": "MEDIUM"
+    },
+    {
+      "case_id": "G025",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 512,
+      "N": 1024,
+      "K": 4096,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M2_N0",
+      "recipe": 3,
+      "S": 2,
+      "production_S": 1,
+      "production_recipe": 3,
+      "forced_split": true,
+      "lib_us": 171.00038166535205,
+      "samecore_S1_us": 195.39058000613483,
+      "split_us": 226.60144845033304,
+      "R_fraction_proxy": 0.07758311498452472,
+      "P_instrumented_us": 235.26199960708618,
+      "R_instrumented_us": 20.211999773979187,
+      "workspace_planar_bytes": 4194304,
+      "workspace_slab_bytes": 4194304,
+      "output_tiles": 32,
+      "P_ctas": 64,
+      "R_native_ctas": 1024,
+      "FLOPs": 4294967296,
+      "A_B_bytes": 12582912,
+      "logical_partial_rw_bytes": 8388608,
+      "tier": "HIGH"
+    },
+    {
+      "case_id": "G001",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 1,
+      "N": 1024,
+      "K": 4096,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M0_N0",
+      "recipe": 2,
+      "S": 4,
+      "production_S": 1,
+      "production_recipe": 0,
+      "forced_split": true,
+      "lib_us": 69.0896863937378,
+      "samecore_S1_us": 93.15604782104492,
+      "split_us": 53.46840476989746,
+      "R_fraction_proxy": 0.0776235959272123,
+      "P_instrumented_us": 53.99900007247925,
+      "R_instrumented_us": 4.961000055074692,
+      "workspace_planar_bytes": 16384,
+      "workspace_slab_bytes": 1048576,
+      "output_tiles": 8,
+      "P_ctas": 32,
+      "R_native_ctas": 8,
+      "FLOPs": 8388608,
+      "A_B_bytes": 8396800,
+      "logical_partial_rw_bytes": 32768,
+      "tier": "HIGH"
+    }
+  ],
+  "owner": "CONTIGUOUS_HALF_TILES",
+  "cards": [
+    {
+      "case_id": "G001",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 1,
+      "N": 1024,
+      "K": 4096,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M0_N0",
+      "recipe": 2,
+      "S": 4,
+      "production_S": 1,
+      "production_recipe": 0,
+      "forced_split": true,
+      "lib_us": 69.0896863937378,
+      "samecore_S1_us": 93.15604782104492,
+      "split_us": 53.46840476989746,
+      "R_fraction_proxy": 0.0776235959272123,
+      "P_instrumented_us": 53.99900007247925,
+      "R_instrumented_us": 4.961000055074692,
+      "workspace_planar_bytes": 16384,
+      "workspace_slab_bytes": 1048576,
+      "output_tiles": 8,
+      "P_ctas": 32,
+      "R_native_ctas": 8,
+      "FLOPs": 8388608,
+      "A_B_bytes": 8396800,
+      "logical_partial_rw_bytes": 32768
+    },
+    {
+      "case_id": "G004",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 1,
+      "N": 4096,
+      "K": 16384,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M0_N0",
+      "recipe": 2,
+      "S": 4,
+      "production_S": 1,
+      "production_recipe": 0,
+      "forced_split": true,
+      "lib_us": 1191.2125996907553,
+      "samecore_S1_us": 963.9771260579427,
+      "split_us": 1460.1445251464843,
+      "R_fraction_proxy": 0.006512956278738782,
+      "P_instrumented_us": 1459.0880126953125,
+      "R_instrumented_us": 8.87799996137619,
+      "workspace_planar_bytes": 65536,
+      "workspace_slab_bytes": 4194304,
+      "output_tiles": 32,
+      "P_ctas": 128,
+      "R_native_ctas": 32,
+      "FLOPs": 134217728,
+      "A_B_bytes": 134250496,
+      "logical_partial_rw_bytes": 131072
+    },
+    {
+      "case_id": "G007",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 8,
+      "N": 1024,
+      "K": 4096,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M0_N0",
+      "recipe": 2,
+      "S": 4,
+      "production_S": 1,
+      "production_recipe": 0,
+      "forced_split": true,
+      "lib_us": 43.95338249206543,
+      "samecore_S1_us": 96.11357879638672,
+      "split_us": 54.25579643249512,
+      "R_fraction_proxy": 0.08393956918251698,
+      "P_instrumented_us": 52.502999901771545,
+      "R_instrumented_us": 5.27900005877018,
+      "workspace_planar_bytes": 131072,
+      "workspace_slab_bytes": 1048576,
+      "output_tiles": 8,
+      "P_ctas": 32,
+      "R_native_ctas": 16,
+      "FLOPs": 67108864,
+      "A_B_bytes": 8454144,
+      "logical_partial_rw_bytes": 262144
+    },
+    {
+      "case_id": "G010",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 8,
+      "N": 4096,
+      "K": 16384,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M0_N0",
+      "recipe": 2,
+      "S": 4,
+      "production_S": 1,
+      "production_recipe": 0,
+      "forced_split": true,
+      "lib_us": 1162.814959161932,
+      "samecore_S1_us": 976.27041015625,
+      "split_us": 1482.7359336159445,
+      "R_fraction_proxy": 0.00843198627256564,
+      "P_instrumented_us": 1455.40700340271,
+      "R_instrumented_us": 11.645000100135803,
+      "workspace_planar_bytes": 524288,
+      "workspace_slab_bytes": 4194304,
+      "output_tiles": 32,
+      "P_ctas": 128,
+      "R_native_ctas": 64,
+      "FLOPs": 1073741824,
+      "A_B_bytes": 134479872,
+      "logical_partial_rw_bytes": 1048576
+    },
+    {
+      "case_id": "G013",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 32,
+      "N": 1024,
+      "K": 4096,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M1_N0",
+      "recipe": 3,
+      "S": 2,
+      "production_S": 2,
+      "production_recipe": 3,
+      "forced_split": false,
+      "lib_us": 49.771148681640625,
+      "samecore_S1_us": 119.3089370727539,
+      "split_us": 80.41901779174805,
+      "R_fraction_proxy": 0.05069603222624325,
+      "P_instrumented_us": 80.85700058937073,
+      "R_instrumented_us": 4.562000095844269,
+      "workspace_planar_bytes": 262144,
+      "workspace_slab_bytes": 1048576,
+      "output_tiles": 8,
+      "P_ctas": 16,
+      "R_native_ctas": 64,
+      "FLOPs": 268435456,
+      "A_B_bytes": 8650752,
+      "logical_partial_rw_bytes": 524288
+    },
+    {
+      "case_id": "G016",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 32,
+      "N": 4096,
+      "K": 16384,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M1_N0",
+      "recipe": 3,
+      "S": 2,
+      "production_S": 2,
+      "production_recipe": 3,
+      "forced_split": false,
+      "lib_us": 1572.380782996752,
+      "samecore_S1_us": 1187.7490500771537,
+      "split_us": 1117.6697981186335,
+      "R_fraction_proxy": 0.00969208857689869,
+      "P_instrumented_us": 925.6370048522949,
+      "R_instrumented_us": 9.089000016450882,
+      "workspace_planar_bytes": 1048576,
+      "workspace_slab_bytes": 4194304,
+      "output_tiles": 32,
+      "P_ctas": 64,
+      "R_native_ctas": 256,
+      "FLOPs": 4294967296,
+      "A_B_bytes": 135266304,
+      "logical_partial_rw_bytes": 2097152
+    },
+    {
+      "case_id": "G019",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 128,
+      "N": 1024,
+      "K": 4096,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M1_N0",
+      "recipe": 3,
+      "S": 2,
+      "production_S": 2,
+      "production_recipe": 3,
+      "forced_split": false,
+      "lib_us": 89.0451488494873,
+      "samecore_S1_us": 129.8316307067871,
+      "split_us": 92.76278305053711,
+      "R_fraction_proxy": 0.0544303698010537,
+      "P_instrumented_us": 91.98699998855591,
+      "R_instrumented_us": 5.545000046491623,
+      "workspace_planar_bytes": 1048576,
+      "workspace_slab_bytes": 1048576,
+      "output_tiles": 8,
+      "P_ctas": 16,
+      "R_native_ctas": 256,
+      "FLOPs": 1073741824,
+      "A_B_bytes": 9437184,
+      "logical_partial_rw_bytes": 2097152
+    },
+    {
+      "case_id": "G022",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 128,
+      "N": 4096,
+      "K": 16384,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M1_N0",
+      "recipe": 3,
+      "S": 2,
+      "production_S": 2,
+      "production_recipe": 3,
+      "forced_split": false,
+      "lib_us": 1340.1933837118029,
+      "samecore_S1_us": 1316.4801102650317,
+      "split_us": 1695.325368374209,
+      "R_fraction_proxy": 0.018343901757081726,
+      "P_instrumented_us": 1066.7140064239502,
+      "R_instrumented_us": 19.97799986600876,
+      "workspace_planar_bytes": 4194304,
+      "workspace_slab_bytes": 4194304,
+      "output_tiles": 32,
+      "P_ctas": 64,
+      "R_native_ctas": 1024,
+      "FLOPs": 17179869184,
+      "A_B_bytes": 138412032,
+      "logical_partial_rw_bytes": 8388608
+    },
+    {
+      "case_id": "G025",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 512,
+      "N": 1024,
+      "K": 4096,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M2_N0",
+      "recipe": 3,
+      "S": 2,
+      "production_S": 1,
+      "production_recipe": 3,
+      "forced_split": true,
+      "lib_us": 171.00038166535205,
+      "samecore_S1_us": 195.39058000613483,
+      "split_us": 226.60144845033304,
+      "R_fraction_proxy": 0.07758311498452472,
+      "P_instrumented_us": 235.26199960708618,
+      "R_instrumented_us": 20.211999773979187,
+      "workspace_planar_bytes": 4194304,
+      "workspace_slab_bytes": 4194304,
+      "output_tiles": 32,
+      "P_ctas": 64,
+      "R_native_ctas": 1024,
+      "FLOPs": 4294967296,
+      "A_B_bytes": 12582912,
+      "logical_partial_rw_bytes": 8388608
+    },
+    {
+      "case_id": "G028",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 512,
+      "N": 4096,
+      "K": 16384,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M2_N0",
+      "recipe": 3,
+      "S": 2,
+      "production_S": 1,
+      "production_recipe": 3,
+      "forced_split": true,
+      "lib_us": 5190.996978759766,
+      "samecore_S1_us": 3457.0179443359375,
+      "split_us": 6131.2413330078125,
+      "R_fraction_proxy": 0.022157394249198742,
+      "P_instrumented_us": 4027.3280487060547,
+      "R_instrumented_us": 91.36499977111816,
+      "workspace_planar_bytes": 16777216,
+      "workspace_slab_bytes": 16777216,
+      "output_tiles": 128,
+      "P_ctas": 256,
+      "R_native_ctas": 4096,
+      "FLOPs": 68719476736,
+      "A_B_bytes": 150994944,
+      "logical_partial_rw_bytes": 33554432
+    },
+    {
+      "case_id": "G031",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 2048,
+      "N": 1024,
+      "K": 4096,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M2_N0",
+      "recipe": 3,
+      "S": 2,
+      "production_S": 1,
+      "production_recipe": 3,
+      "forced_split": true,
+      "lib_us": 1672.272417941074,
+      "samecore_S1_us": 960.3387567311646,
+      "split_us": 1032.496005780301,
+      "R_fraction_proxy": 0.17284082311000024,
+      "P_instrumented_us": 424.1939973831177,
+      "R_instrumented_us": 89.0640001296997,
+      "workspace_planar_bytes": 16777216,
+      "workspace_slab_bytes": 16777216,
+      "output_tiles": 128,
+      "P_ctas": 256,
+      "R_native_ctas": 4096,
+      "FLOPs": 17179869184,
+      "A_B_bytes": 25165824,
+      "logical_partial_rw_bytes": 33554432
+    },
+    {
+      "case_id": "G034",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 2048,
+      "N": 4096,
+      "K": 16384,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M2_N0",
+      "recipe": 3,
+      "S": 2,
+      "production_S": 1,
+      "production_recipe": 3,
+      "forced_split": true,
+      "lib_us": 14050.919921875,
+      "samecore_S1_us": 36703.994140625,
+      "split_us": 35655.078125,
+      "R_fraction_proxy": 0.0105205362893546,
+      "P_instrumented_us": 38638.43371582031,
+      "R_instrumented_us": 410.86599826812744,
+      "workspace_planar_bytes": 67108864,
+      "workspace_slab_bytes": 67108864,
+      "output_tiles": 512,
+      "P_ctas": 1024,
+      "R_native_ctas": 16384,
+      "FLOPs": 274877906944,
+      "A_B_bytes": 201326592,
+      "logical_partial_rw_bytes": 134217728
+    },
+    {
+      "case_id": "G037",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 3,
+      "N": 1536,
+      "K": 8192,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M0_N0",
+      "recipe": 2,
+      "S": 4,
+      "production_S": 1,
+      "production_recipe": 0,
+      "forced_split": true,
+      "lib_us": 120.72249221801758,
+      "samecore_S1_us": 218.36559295654297,
+      "split_us": 166.05448150634766,
+      "R_fraction_proxy": 0.04005446438196843,
+      "P_instrumented_us": 144.6440019607544,
+      "R_instrumented_us": 6.226000010967255,
+      "workspace_planar_bytes": 73728,
+      "workspace_slab_bytes": 1572864,
+      "output_tiles": 12,
+      "P_ctas": 48,
+      "R_native_ctas": 12,
+      "FLOPs": 75497472,
+      "A_B_bytes": 25214976,
+      "logical_partial_rw_bytes": 147456
+    },
+    {
+      "case_id": "G040",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 17,
+      "N": 1536,
+      "K": 8192,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M1_N0",
+      "recipe": 3,
+      "S": 2,
+      "production_S": 2,
+      "production_recipe": 3,
+      "forced_split": false,
+      "lib_us": 140.1596565246582,
+      "samecore_S1_us": 276.94293212890625,
+      "split_us": 206.79954528808594,
+      "R_fraction_proxy": 0.025230516839312427,
+      "P_instrumented_us": 214.7180004119873,
+      "R_instrumented_us": 5.698000028729439,
+      "workspace_planar_bytes": 208896,
+      "workspace_slab_bytes": 1572864,
+      "output_tiles": 12,
+      "P_ctas": 24,
+      "R_native_ctas": 60,
+      "FLOPs": 427819008,
+      "A_B_bytes": 25444352,
+      "logical_partial_rw_bytes": 417792
+    },
+    {
+      "case_id": "G043",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 65,
+      "N": 1536,
+      "K": 8192,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M1_N0",
+      "recipe": 3,
+      "S": 2,
+      "production_S": 2,
+      "production_recipe": 3,
+      "forced_split": false,
+      "lib_us": 222.8795156598992,
+      "samecore_S1_us": 279.4699968390861,
+      "split_us": 221.97399270084102,
+      "R_fraction_proxy": 0.02875121313500492,
+      "P_instrumented_us": 236.96300077438354,
+      "R_instrumented_us": 7.173999935388565,
+      "workspace_planar_bytes": 798720,
+      "workspace_slab_bytes": 1572864,
+      "output_tiles": 12,
+      "P_ctas": 24,
+      "R_native_ctas": 204,
+      "FLOPs": 1635778560,
+      "A_B_bytes": 26230784,
+      "logical_partial_rw_bytes": 1597440
+    },
+    {
+      "case_id": "G046",
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "split": "development",
+      "M": 257,
+      "N": 1536,
+      "K": 8192,
+      "dtype_in": "fp16",
+      "accumulator": "fp32",
+      "output": "fp32",
+      "split_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "measured": false,
+      "bin": "M2_N0",
+      "recipe": 3,
+      "S": 2,
+      "production_S": 1,
+      "production_recipe": 3,
+      "forced_split": true,
+      "lib_us": 517.3577095692551,
+      "samecore_S1_us": 514.1815339336245,
+      "split_us": 604.2088031918984,
+      "R_fraction_proxy": 0.02688238757304265,
+      "P_instrumented_us": 565.286997795105,
+      "R_instrumented_us": 15.565999835729599,
+      "workspace_planar_bytes": 3158016,
+      "workspace_slab_bytes": 4718592,
+      "output_tiles": 36,
+      "P_ctas": 72,
+      "R_native_ctas": 780,
+      "FLOPs": 6467616768,
+      "A_B_bytes": 29376512,
+      "logical_partial_rw_bytes": 6316032
+    }
+  ]
+}

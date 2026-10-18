@@ -1,0 +1,149 @@
+{
+  "scope": "Prior local JSON case inventories, not arbitrary historical raw shapes",
+  "rows": [
+    {
+      "case": "V01",
+      "shape": [
+        6,
+        2560,
+        10240
+      ],
+      "matched_local_files": []
+    },
+    {
+      "case": "V02",
+      "shape": [
+        6,
+        2560,
+        20480
+      ],
+      "matched_local_files": []
+    },
+    {
+      "case": "V03",
+      "shape": [
+        6,
+        7168,
+        10240
+      ],
+      "matched_local_files": []
+    },
+    {
+      "case": "V04",
+      "shape": [
+        6,
+        7168,
+        20480
+      ],
+      "matched_local_files": []
+    },
+    {
+      "case": "V05",
+      "shape": [
+        20,
+        2560,
+        10240
+      ],
+      "matched_local_files": []
+    },
+    {
+      "case": "V06",
+      "shape": [
+        20,
+        2560,
+        20480
+      ],
+      "matched_local_files": []
+    },
+    {
+      "case": "V07",
+      "shape": [
+        20,
+        7168,
+        10240
+      ],
+      "matched_local_files": []
+    },
+    {
+      "case": "V08",
+      "shape": [
+        20,
+        7168,
+        20480
+      ],
+      "matched_local_files": []
+    },
+    {
+      "case": "V09",
+      "shape": [
+        72,
+        2560,
+        10240
+      ],
+      "matched_local_files": []
+    },
+    {
+      "case": "V10",
+      "shape": [
+        72,
+        2560,
+        20480
+      ],
+      "matched_local_files": []
+    },
+    {
+      "case": "V11",
+      "shape": [
+        72,
+        7168,
+        10240
+      ],
+      "matched_local_files": []
+    },
+    {
+      "case": "V12",
+      "shape": [
+        72,
+        7168,
+        20480
+      ],
+      "matched_local_files": []
+    },
+    {
+      "case": "V13",
+      "shape": [
+        224,
+        2560,
+        10240
+      ],
+      "matched_local_files": []
+    },
+    {
+      "case": "V14",
+      "shape": [
+        224,
+        2560,
+        20480
+      ],
+      "matched_local_files": []
+    },
+    {
+      "case": "V15",
+      "shape": [
+        224,
+        7168,
+        10240
+      ],
+      "matched_local_files": []
+    },
+    {
+      "case": "V16",
+      "shape": [
+        224,
+        7168,
+        20480
+      ],
+      "matched_local_files": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "stage": "sanitizer_launcher",
+    "issue": "Toolkit usr/bin sanitizer missing injection library; no GPU test started",
+    "repair": "Use already installed complete vendor sanitizer package; no download",
+    "result": "memcheck_packaged exit0"
+  },
+  {
+    "stage": "qualification",
+    "change": "Host adds concurrent-map exact coverage checks and last downloaded batch preservation before validation; CUDA kernel unchanged",
+    "old_build_archived": false,
+    "old_source_hashes_in": "raw/*/manifest.json and earlier tool history",
+    "formal_data_before_change": false
+  }
+]

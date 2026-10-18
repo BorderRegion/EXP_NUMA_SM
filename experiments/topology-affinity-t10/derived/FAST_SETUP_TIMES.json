@@ -1,0 +1,56 @@
+[
+  {
+    "process": "fast_0",
+    "started_utc": "2026-10-18T08:18:06.159982+00:00",
+    "ended_utc": "2026-10-18T08:18:06.196085+00:00",
+    "total_setup_ms": 36.103089,
+    "fit_ms": 5.501138,
+    "submission_queue_ms": 22.312959671020508,
+    "description": "Includes Latin schedule generation, device allocations/upload, profiling, download, correctness checks, CPU fit and host parameter installation; excludes later research serialization."
+  },
+  {
+    "process": "fast_1",
+    "started_utc": "2026-10-18T08:19:40.394912+00:00",
+    "ended_utc": "2026-10-18T08:19:40.433029+00:00",
+    "total_setup_ms": 38.117735,
+    "fit_ms": 5.89295,
+    "submission_queue_ms": 23.94051170349121,
+    "description": "Includes Latin schedule generation, device allocations/upload, profiling, download, correctness checks, CPU fit and host parameter installation; excludes later research serialization."
+  },
+  {
+    "process": "fast_2",
+    "started_utc": "2026-10-18T08:21:17.476052+00:00",
+    "ended_utc": "2026-10-18T08:21:17.515917+00:00",
+    "total_setup_ms": 39.866194,
+    "fit_ms": 5.010268,
+    "submission_queue_ms": 24.70911979675293,
+    "description": "Includes Latin schedule generation, device allocations/upload, profiling, download, correctness checks, CPU fit and host parameter installation; excludes later research serialization."
+  },
+  {
+    "process": "fast_3",
+    "started_utc": "2026-10-18T08:22:55.699330+00:00",
+    "ended_utc": "2026-10-18T08:22:55.734159+00:00",
+    "total_setup_ms": 34.829418,
+    "fit_ms": 5.113078,
+    "submission_queue_ms": 21.022815704345703,
+    "description": "Includes Latin schedule generation, device allocations/upload, profiling, download, correctness checks, CPU fit and host parameter installation; excludes later research serialization."
+  },
+  {
+    "process": "fast_4",
+    "started_utc": "2026-10-18T08:24:34.401685+00:00",
+    "ended_utc": "2026-10-18T08:24:34.438309+00:00",
+    "total_setup_ms": 36.62515,
+    "fit_ms": 5.777164,
+    "submission_queue_ms": 22.192415237426758,
+    "description": "Includes Latin schedule generation, device allocations/upload, profiling, download, correctness checks, CPU fit and host parameter installation; excludes later research serialization."
+  },
+  {
+    "process": "fast_5",
+    "started_utc": "2026-10-18T08:26:12.759985+00:00",
+    "ended_utc": "2026-10-18T08:26:12.798674+00:00",
+    "total_setup_ms": 38.690226,
+    "fit_ms": 5.556174,
+    "submission_queue_ms": 24.64419174194336,
+    "description": "Includes Latin schedule generation, device allocations/upload, profiling, download, correctness checks, CPU fit and host parameter installation; excludes later research serialization."
+  }
+]

@@ -1,0 +1,461 @@
+{
+  "run_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/pc-handoff-t10/runs/20261016T112633Z",
+  "GPU_execution_complete": true,
+  "phase_counts": [
+    {
+      "stage": "E1",
+      "status": "PASS",
+      "count": 704
+    },
+    {
+      "stage": "E2_BRIDGE",
+      "status": "PASS",
+      "count": 72
+    },
+    {
+      "stage": "E2_COUNTERFACTUAL",
+      "status": "PASS",
+      "count": 144
+    },
+    {
+      "stage": "E2_MATRIX",
+      "status": "PASS",
+      "count": 3072
+    },
+    {
+      "stage": "E3",
+      "status": "PASS",
+      "count": 360
+    },
+    {
+      "stage": "E4_NATIVE_DEVELOPMENT",
+      "status": "NA_MEMORY_HEADROOM",
+      "count": 1
+    },
+    {
+      "stage": "E4_NATIVE_DEVELOPMENT",
+      "status": "PASS",
+      "count": 23
+    },
+    {
+      "stage": "E4_NATIVE_TEST",
+      "status": "NA_MEMORY_HEADROOM",
+      "count": 6
+    },
+    {
+      "stage": "E4_NATIVE_TEST",
+      "status": "PASS",
+      "count": 138
+    },
+    {
+      "stage": "E5_ATTENTION_CHAIN",
+      "status": "PASS",
+      "count": 144
+    },
+    {
+      "stage": "E5_DEPENDENCY_INTERACTION",
+      "status": "PASS",
+      "count": 72
+    },
+    {
+      "stage": "E5_GEMM_CHAIN",
+      "status": "PASS",
+      "count": 180
+    },
+    {
+      "stage": "E5_LAYOUT_INTERACTION",
+      "status": "PASS",
+      "count": 72
+    },
+    {
+      "stage": "E5_SPLIT_WORKSPACE",
+      "status": "PASS",
+      "count": 48
+    },
+    {
+      "stage": "QUALIFICATION",
+      "status": "PASS",
+      "count": 10
+    },
+    {
+      "stage": "QUALIFICATION_METADATA",
+      "status": "PASS",
+      "count": 2
+    }
+  ],
+  "total_phases": 5048,
+  "aliases": 288,
+  "settled_worker_hours": 2.6758202614897972,
+  "stage_worker_hours": {
+    "E0": 0.017169753748296192,
+    "E1": 0.49372843583998877,
+    "E2": 1.122917686368423,
+    "E3": 0.2704364174241588,
+    "E4": 0.2317318272110909,
+    "E5": 0.5383624440108866,
+    "E6": 0.0014736968869530959
+  },
+  "failed_workers": [
+    {
+      "key": "qualify_01",
+      "returncode": 1,
+      "worker_s": 3.257763180998154
+    },
+    {
+      "key": "qualify_02",
+      "returncode": 1,
+      "worker_s": 3.2464114689501002
+    },
+    {
+      "key": "sanitizer_edges",
+      "returncode": null,
+      "worker_s": 0.05994869099231437
+    },
+    {
+      "key": "E2_bridge_0",
+      "returncode": -11,
+      "worker_s": 3.2458521600347012
+    },
+    {
+      "key": "qualify_attention_metadata_all",
+      "returncode": 1,
+      "worker_s": 2.187354212976061
+    }
+  ],
+  "workers": [
+    {
+      "key": "E1_block_0",
+      "status": "COMPLETED",
+      "worker_s": 1288.2373456630157
+    },
+    {
+      "key": "E1_block_1",
+      "status": "COMPLETED",
+      "worker_s": 408.683659598988
+    },
+    {
+      "key": "E1_scope_checks",
+      "status": "COMPLETED",
+      "worker_s": 80.50136376195587
+    },
+    {
+      "key": "E2_bridge_0",
+      "status": "FAILED",
+      "worker_s": 3.2458521600347012
+    },
+    {
+      "key": "E2_bridge_0_retry01",
+      "status": "COMPLETED",
+      "worker_s": 220.86876803502673
+    },
+    {
+      "key": "E2_bridge_1",
+      "status": "COMPLETED",
+      "worker_s": 246.68690609931946
+    },
+    {
+      "key": "E2_bridge_2",
+      "status": "COMPLETED",
+      "worker_s": 222.98501321999356
+    },
+    {
+      "key": "E2_bridge_3",
+      "status": "COMPLETED",
+      "worker_s": 223.9280611309805
+    },
+    {
+      "key": "E2_matrix_0",
+      "status": "COMPLETED",
+      "worker_s": 781.2473368429928
+    },
+    {
+      "key": "E2_matrix_1",
+      "status": "COMPLETED",
+      "worker_s": 781.0584324499941
+    },
+    {
+      "key": "E2_matrix_2",
+      "status": "COMPLETED",
+      "worker_s": 781.2423767839791
+    },
+    {
+      "key": "E2_matrix_3",
+      "status": "COMPLETED",
+      "worker_s": 781.2409242040012
+    },
+    {
+      "key": "E3_block_0",
+      "status": "COMPLETED",
+      "worker_s": 164.46021849801764
+    },
+    {
+      "key": "E3_block_1",
+      "status": "COMPLETED",
+      "worker_s": 162.4669816319947
+    },
+    {
+      "key": "E3_block_2",
+      "status": "COMPLETED",
+      "worker_s": 162.3382242639782
+    },
+    {
+      "key": "E3_block_3",
+      "status": "COMPLETED",
+      "worker_s": 162.4650701530045
+    },
+    {
+      "key": "E3_block_4",
+      "status": "COMPLETED",
+      "worker_s": 159.32456911099143
+    },
+    {
+      "key": "E3_block_5",
+      "status": "COMPLETED",
+      "worker_s": 162.51603906898526
+    },
+    {
+      "key": "E4_native_0",
+      "status": "COMPLETED",
+      "worker_s": 117.81938076997176
+    },
+    {
+      "key": "E4_native_1",
+      "status": "COMPLETED",
+      "worker_s": 119.90929324796889
+    },
+    {
+      "key": "E4_native_2",
+      "status": "COMPLETED",
+      "worker_s": 120.00344876700547
+    },
+    {
+      "key": "E4_native_3",
+      "status": "COMPLETED",
+      "worker_s": 119.97108255699277
+    },
+    {
+      "key": "E4_native_4",
+      "status": "COMPLETED",
+      "worker_s": 119.86516439798288
+    },
+    {
+      "key": "E4_native_5",
+      "status": "COMPLETED",
+      "worker_s": 119.8586624530144
+    },
+    {
+      "key": "E4_native_development",
+      "status": "COMPLETED",
+      "worker_s": 116.8075457669911
+    },
+    {
+      "key": "E5_ablation_0",
+      "status": "COMPLETED",
+      "worker_s": 98.80905109702144
+    },
+    {
+      "key": "E5_ablation_1",
+      "status": "COMPLETED",
+      "worker_s": 98.95433069497813
+    },
+    {
+      "key": "E5_ablation_2",
+      "status": "COMPLETED",
+      "worker_s": 98.86367755301762
+    },
+    {
+      "key": "E5_ablation_3",
+      "status": "COMPLETED",
+      "worker_s": 98.84844346600585
+    },
+    {
+      "key": "E5_ablation_4",
+      "status": "COMPLETED",
+      "worker_s": 98.81275341997389
+    },
+    {
+      "key": "E5_ablation_5",
+      "status": "COMPLETED",
+      "worker_s": 98.85719849402085
+    },
+    {
+      "key": "E5_attention_0",
+      "status": "COMPLETED",
+      "worker_s": 80.26025999599369
+    },
+    {
+      "key": "E5_attention_1",
+      "status": "COMPLETED",
+      "worker_s": 80.16039462102344
+    },
+    {
+      "key": "E5_attention_2",
+      "status": "COMPLETED",
+      "worker_s": 80.15831586503191
+    },
+    {
+      "key": "E5_attention_3",
+      "status": "COMPLETED",
+      "worker_s": 80.15905981400283
+    },
+    {
+      "key": "E5_attention_4",
+      "status": "COMPLETED",
+      "worker_s": 80.16098519100342
+    },
+    {
+      "key": "E5_attention_5",
+      "status": "COMPLETED",
+      "worker_s": 80.15568302001338
+    },
+    {
+      "key": "E5_gemm_0",
+      "status": "COMPLETED",
+      "worker_s": 88.65408690902404
+    },
+    {
+      "key": "E5_gemm_1",
+      "status": "COMPLETED",
+      "worker_s": 88.71075842902064
+    },
+    {
+      "key": "E5_gemm_2",
+      "status": "COMPLETED",
+      "worker_s": 88.6621570190182
+    },
+    {
+      "key": "E5_gemm_3",
+      "status": "COMPLETED",
+      "worker_s": 87.60618121002335
+    },
+    {
+      "key": "E5_gemm_4",
+      "status": "COMPLETED",
+      "worker_s": 88.76476830500178
+    },
+    {
+      "key": "E5_gemm_5",
+      "status": "COMPLETED",
+      "worker_s": 88.65136387501843
+    },
+    {
+      "key": "E5_lifetime_0",
+      "status": "COMPLETED",
+      "worker_s": 18.552083264978137
+    },
+    {
+      "key": "E5_lifetime_1",
+      "status": "COMPLETED",
+      "worker_s": 18.56823437998537
+    },
+    {
+      "key": "E5_lifetime_2",
+      "status": "COMPLETED",
+      "worker_s": 18.547197473992128
+    },
+    {
+      "key": "E5_workspace_0",
+      "status": "COMPLETED",
+      "worker_s": 69.30705890600802
+    },
+    {
+      "key": "E5_workspace_1",
+      "status": "COMPLETED",
+      "worker_s": 69.25641389400698
+    },
+    {
+      "key": "E5_workspace_2",
+      "status": "COMPLETED",
+      "worker_s": 69.31002632703166
+    },
+    {
+      "key": "E5_workspace_3",
+      "status": "COMPLETED",
+      "worker_s": 69.31431521399645
+    },
+    {
+      "key": "E6_profiles",
+      "status": "COMPLETED",
+      "worker_s": 5.305308793031145
+    },
+    {
+      "key": "qualify_01",
+      "status": "FAILED",
+      "worker_s": 3.257763180998154
+    },
+    {
+      "key": "qualify_02",
+      "status": "FAILED",
+      "worker_s": 3.2464114689501002
+    },
+    {
+      "key": "qualify_03",
+      "status": "COMPLETED",
+      "worker_s": 4.242280597041827
+    },
+    {
+      "key": "qualify_attention_dag",
+      "status": "COMPLETED",
+      "worker_s": 4.240565080021042
+    },
+    {
+      "key": "qualify_attention_metadata_all",
+      "status": "FAILED",
+      "worker_s": 2.187354212976061
+    },
+    {
+      "key": "qualify_attention_metadata_all_retry01",
+      "status": "COMPLETED",
+      "worker_s": 10.411017145961523
+    },
+    {
+      "key": "qualify_dag_diagnose",
+      "status": "COMPLETED",
+      "worker_s": 6.335658220981713
+    },
+    {
+      "key": "qualify_dag_fixed",
+      "status": "COMPLETED",
+      "worker_s": 3.2452297210111283
+    },
+    {
+      "key": "qualify_edges",
+      "status": "COMPLETED",
+      "worker_s": 3.2424920210032724
+    },
+    {
+      "key": "qualify_host_attention",
+      "status": "COMPLETED",
+      "worker_s": 5.250407431973144
+    },
+    {
+      "key": "qualify_production",
+      "status": "COMPLETED",
+      "worker_s": 4.3257320279954
+    },
+    {
+      "key": "qualify_ragged",
+      "status": "COMPLETED",
+      "worker_s": 5.250766377954278
+    },
+    {
+      "key": "sanitizer_edges",
+      "status": "REQUESTED",
+      "worker_s": 0.05994869099231437
+    },
+    {
+      "key": "sanitizer_edges_02",
+      "status": "COMPLETED",
+      "worker_s": 3.272119808010757
+    },
+    {
+      "key": "sanitizer_production",
+      "status": "COMPLETED",
+      "worker_s": 3.243367507995572
+    }
+  ],
+  "primary_marginal_ci": 0.975,
+  "bootstrap_seed": 20261016,
+  "bootstrap_draws": 50000,
+  "all_NA_rows_retained": true
+}

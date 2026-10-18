@@ -1,0 +1,56 @@
+MANIFEST_PASS 1211
+forensics.py 0     {
+      "block": 2,
+      "LIB": 1117164.8,
+      "SINGLE": 1528737.216,
+      "ratio": 1.3684079698894915,
+      "canonical_policies": [
+        "LIB_ALWAYS",
+        "SHAPE"
+      ],
+      "stage_costs": "MISSING_NO_STAGE_CAPTURE"
+    },
+    {
+      "block": 3,
+      "LIB": 1111970.169,
+      "SINGLE": 1521948.595,
+      "ratio": 1.36869552568006,
+      "canonical_policies": [
+        "LIB_ALWAYS",
+        "RESOURCE"
+      ],
+      "stage_costs": "MISSING_NO_STAGE_CAPTURE"
+    },
+    {
+      "block": 4,
+      "LIB": 1128065.8309999998,
+      "SINGLE": 1523805.236,
+      "ratio": 1.3508123321572358,
+      "canonical_policies": [
+        "LIB_ALWAYS",
+        "BASE"
+      ],
+      "stage_costs": "MISSING_NO_STAGE_CAPTURE"
+    },
+    {
+      "block": 5,
+      "LIB": 1054691.0499999998,
+      "SINGLE": 1509073.189,
+      "ratio": 1.4308201335357877,
+      "canonical_policies": [
+        "LIB_ALWAYS",
+        "BASE"
+      ],
+      "stage_costs": "MISSING_NO_STAGE_CAPTURE"
+    }
+  ]
+}
+
+analyze_diag.py 0 ALL144_REQUEST_AND_ACCOUNTING_AUDIT_PASS {'request_rows': 189904, 'warmup_rows': 94952, 'measure_rows': 94952, 'episodes': 144, 'numerical_records': 3732, 'quartet_metric_rows': 506}
+
+analyze_profiles.py 0 URE_MATCHED', {'gemm1_us': 15481.3455, 'activation_us': 134.970375, 'gemm2_us': 9200.1835, 'internal_gap_us': 1.3959191894532523, 'kernel_busy_sum_us': 24816.499375, 'kernel_envelope_us': 24817.895294189453, 'cpu_ready_us': 24837.4295, 'event_span_us': 24827.31604576111, 'event_minus_kernel_envelope_us': 9.420751571655273}), 'V16_LIB': ('WINDOWS_MATCHED_PREFIX_PARTIAL', {'gemm1_us': 8911.308625, 'activation_us': 0.0, 'gemm2_us': 0.0, 'internal_gap_us': 0.0, 'kernel_busy_sum_us': 8911.308625, 'kernel_envelope_us': 8911.308625, 'cpu_ready_us': 8922.278, 'event_span_us': 8914.80803489685, 'event_minus_kernel_envelope_us': 3.499409896850466}), 'V16_SINGLE': ('WINDOWS_MATCHED_PREFIX_PARTIAL', {'gemm1_us': 15709.734625000001, 'activation_us': 0.0, 'gemm2_us': 0.0, 'internal_gap_us': 0.0, 'kernel_busy_sum_us': 15709.734625000001, 'kernel_envelope_us': 15709.734625000001, 'cpu_ready_us': 15721.892375, 'event_span_us': 15713.631987571716, 'event_minus_kernel_envelope_us': 3.8973625717160303})}
+
+ALL_DERIVED_RECOMPUTATION_PASS
+CPU_ONLY_PASS_NO_GPU_RERUN
+
+STDERR:

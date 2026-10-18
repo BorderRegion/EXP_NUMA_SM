@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "full": {
+    "path": "/home/ubuntu/下载/T10_ADDRESS_QUEUE_FUSION_AND_TUNING_20261017.zip",
+    "bytes": 11127731,
+    "sha256": "47275c4a43d596b2e21a5b361898cb85321fb03590681df8a408924ed5fe94f8",
+    "manifest_entries": 1643,
+    "crc": "PASS",
+    "hashes": "PASS"
+  },
+  "small": {
+    "path": "/home/ubuntu/下载/T10_ADDRESS_QUEUE_FUSION_AND_TUNING_20261017_SMALL.zip",
+    "bytes": 432678,
+    "sha256": "977db32efb5aeae049eaad7823f0e85b80c8ac827c3f48eb80d7cceb23df46b8",
+    "manifest_entries": 78,
+    "crc": "PASS",
+    "hashes": "PASS"
+  },
+  "extracted_directory": "/tmp/t10-address-v2-qa-lplmkk0o/T10_ADDRESS_QUEUE_FUSION_AND_TUNING_20261017",
+  "CPU_only_returncode": 0,
+  "CPU_only_seconds": 21.28859884600388,
+  "CPU_only_stdout_last": "ALL_RAW_MAPS_SELECTIONS_AND_RESULTS_RECOMPUTED_PASS",
+  "post_recompute_all_hashes": "PASS"
+}

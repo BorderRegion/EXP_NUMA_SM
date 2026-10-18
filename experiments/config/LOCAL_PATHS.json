@@ -1,0 +1,19 @@
+{
+  "platform": "t10",
+  "project_root": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu",
+  "cuda_root": "/home/ubuntu/projects/leetgpu-lab/cuda",
+  "nvcc": "/home/ubuntu/projects/leetgpu-lab/cuda/bin/nvcc",
+  "host_compiler": "/home/ubuntu/projects/leetgpu-lab/toolchain/usr/bin/g++-12",
+  "python": "/home/ubuntu/projects/leetgpu-lab/.venv/bin/python3",
+  "renderer_root": null,
+  "scenes": {
+    "train": null,
+    "bonsai": null,
+    "truck": null
+  },
+  "sparse_program_root": null,
+  "sparse_inputs": [],
+  "local_papers_root": null,
+  "output_root": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu",
+  "notes": "User-authorized online acquisition; local rootless compiler reused"
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://docs.flashinfer.ai/tutorials/recursive_attention.html",
+    "use": "split-KV partial attention state and merging; not a novelty claim"
+  },
+  {
+    "url": "https://docs.vllm.ai/en/v0.8.1/design/kernel/paged_attention.html",
+    "use": "paged KV cache decoding implementation and memory layout"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "original": "_Z6pairedILi131072ELb0EEvPKfPfPj8ScheduleiPi",
+    "candidate": "_Z6pairedILi131072ELb0ELb0ELb0EEvPKfPfPj8ScheduleiPiPy",
+    "equal_instructions": true,
+    "instructions": 1048
+  },
+  {
+    "original": "_Z6finishILi131072EEvPKfPfS1_",
+    "candidate": "_Z6finishILi131072EEvPKfPfS1_",
+    "equal_instructions": true,
+    "instructions": 512
+  },
+  {
+    "original": "_Z7partialILi131072EEvPKfPf",
+    "candidate": "_Z7partialILi131072EEvPKfPf",
+    "equal_instructions": true,
+    "instructions": 336
+  }
+]

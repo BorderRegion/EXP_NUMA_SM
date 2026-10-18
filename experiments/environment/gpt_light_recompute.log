@@ -1,0 +1,95 @@
+PASS: four primary comparisons exactly match; based on saved block means, not raw frame reprocessing
+{
+  "W1_M/N": {
+    "ratio": 1.1112842691113527,
+    "time_reduction_pct": -11.12842691113527,
+    "ratio_ci95": [
+      1.097248378549204,
+      1.1274168747673161
+    ],
+    "ratio_ci97_5": [
+      1.0956918748769833,
+      1.1297277206247016
+    ],
+    "draws": 20000,
+    "seed": 2026101403,
+    "strata": 4,
+    "independent_blocks": 24,
+    "blocks_per_stratum": {
+      "W1/bonsai/0": 6,
+      "W1/bonsai/1": 6,
+      "W1/train/0": 6,
+      "W1/train/1": 6
+    },
+    "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+  },
+  "W2_M/N": {
+    "ratio": 1.227100063912946,
+    "time_reduction_pct": -22.71000639129459,
+    "ratio_ci95": [
+      1.1182560070981866,
+      1.3645807240553858
+    ],
+    "ratio_ci97_5": [
+      1.1042205029807197,
+      1.3891852446051505
+    ],
+    "draws": 20000,
+    "seed": 2026101403,
+    "strata": 4,
+    "independent_blocks": 24,
+    "blocks_per_stratum": {
+      "W2/ca-GrQc/0": 6,
+      "W2/ca-GrQc/1": 6,
+      "W2/web-Google/0": 6,
+      "W2/web-Google/1": 6
+    },
+    "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+  },
+  "W1_M/R": {
+    "ratio": 1.002329120329213,
+    "time_reduction_pct": -0.23291203292130636,
+    "ratio_ci95": [
+      0.9997425124850486,
+      1.0047405176406092
+    ],
+    "ratio_ci97_5": [
+      0.999342368249544,
+      1.005031911855044
+    ],
+    "draws": 20000,
+    "seed": 2026101403,
+    "strata": 4,
+    "independent_blocks": 24,
+    "blocks_per_stratum": {
+      "W1/bonsai/0": 6,
+      "W1/bonsai/1": 6,
+      "W1/train/0": 6,
+      "W1/train/1": 6
+    },
+    "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+  },
+  "W2_M/R": {
+    "ratio": 0.9952924759523265,
+    "time_reduction_pct": 0.4707524047673495,
+    "ratio_ci95": [
+      0.9800363572899442,
+      1.0104382489186805
+    ],
+    "ratio_ci97_5": [
+      0.9778801900729535,
+      1.0124430917309313
+    ],
+    "draws": 20000,
+    "seed": 2026101403,
+    "strata": 4,
+    "independent_blocks": 24,
+    "blocks_per_stratum": {
+      "W2/ca-GrQc/0": 6,
+      "W2/ca-GrQc/1": 6,
+      "W2/web-Google/0": 6,
+      "W2/web-Google/1": 6
+    },
+    "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+  }
+}

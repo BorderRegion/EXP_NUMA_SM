@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-10-18T12:42:03.082958+00:00",
+  "hashes": {
+    "src/qualify.py": "31b9ccbd705697be7309948d21809ff9e884672e71be4590c256bf030aff2215",
+    "src/selector.py": "9dbd2ace477797c21eefd28bb3c60feed857a6c8ea944d40ad68b103b8da81b8",
+    "src/common.py": "54e1b58b51d71a9ee3f46980a0ae4cbac066d1fbe985d54bbab9add50966b9ce",
+    "src/runtime.py": "e4bef2f8837965db8b55ed9ed76e3b61e0edb3a86a90d3659d9201b46dc7e36b",
+    "src/campaign.py": "600451d3f75715a915ebe7297e2f266664399fa72de1ba6e64a2b2d0f2697565",
+    "src/worker.py": "e90423878ebe3fd8fd92badb324a609da78abc62c6dfff9c03643ae75f8a1c0d",
+    "src/build.py": "0a69b2afaa87bbfe3d0c1fb67153c8c2e1c768b90cf14abdd8bcc27bf90a14fd",
+    "src/experiment.py": "0abb11530f17a2c902a89634c4d6d69bfcfeb170e3477fa929a7629a79f68423",
+    "src/nvml_state.py": "4bd85f03f65821332180cb785751a5c5e005f3a7b3c9cf5014f088bead2ad1b7",
+    "src/analyze.py": "5c58732cd1f7aae2880704b0b2514d527795d70d4af6e0766aa28b89ca44bb11",
+    "src/topology_math.py": "9d9f8bbd471d6a22e8b121be2ec1cc98aba114aba1283834bb53b012dfb698ef",
+    "src/real_runtime.py": "43b8a13ec810c6fc76cee8dda8e00368596241c05498a21fee84fb7320e601cb",
+    "src/shared_graph.cpp": "7efeb1a69d9564e044059419982ba82f388b4967f018bb723438f541594a896c",
+    "build/read_topology": "ead50a53c50fcbfd42d5167c2b840492b533d1171520f749352f7c768468a3ac",
+    "build/shared_graph.so": "96ad6a8184310845af143516cb1ad895bfd8c7722fb4a2e4109cb0ff15dad0fa",
+    "build/shared_compile.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "build/BUILD.json": "a53227d7f2bc354211c254827772f7b4e58bafee21b11e69ff359e16daf96955",
+    "build/probe.so": "a8a70aaa65e9cb54c04a75c197c98425015bf6ad29236bc4615687339650b4e3",
+    "build/baseline/refresh.so": "f77c3f06b535656154b0cc32137f1bb9e21b27fdb3d28be187463fc469f9f779",
+    "build/baseline/softmax_const.so": "10a0201ea5138c70fb96975cb3ec36d11adeb9d63841f63b2f763f619c2e4104",
+    "build/baseline/vector.so": "f6c34ac7361379dc4e0bf29a4240f34e411601fe48a16e2a6cfa83003e2e0d44"
+  },
+  "protocol_sha256": "2f4380a80916ad8ac74cc8d8b09d1186ec401df541c2d87654fd76dfad2573fd"
+}

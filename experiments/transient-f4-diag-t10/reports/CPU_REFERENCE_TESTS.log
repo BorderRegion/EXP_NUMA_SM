@@ -1,0 +1,22 @@
+test_aa_equal (test_tools.Tests.test_aa_equal) ... ok
+test_analyzer_missing_gpu (test_tools.Tests.test_analyzer_missing_gpu) ... ok
+test_bad_labels (test_tools.Tests.test_bad_labels) ... ok
+test_bad_time (test_tools.Tests.test_bad_time) ... ok
+test_budget (test_tools.Tests.test_budget) ... ok
+test_decomposition (test_tools.Tests.test_decomposition) ... ok
+test_duplicate_request (test_tools.Tests.test_duplicate_request) ... ok
+test_extractor (test_tools.Tests.test_extractor) ... ok
+test_focus_shapes (test_tools.Tests.test_focus_shapes) ... ok
+test_middle_invariant (test_tools.Tests.test_middle_invariant) ... ok
+test_missing_run (test_tools.Tests.test_missing_run) ... ok
+test_nonmonotonic (test_tools.Tests.test_nonmonotonic) ... ok
+test_plan_counts (test_tools.Tests.test_plan_counts) ... ok
+test_plan_ids (test_tools.Tests.test_plan_ids) ... ok
+test_trace_closure (test_tools.Tests.test_trace_closure) ... ok
+test_trace_same_multiset (test_tools.Tests.test_trace_same_multiset) ... ok
+test_trace_signed_residual_preserved (test_tools.Tests.test_trace_signed_residual_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.005s
+
+OK

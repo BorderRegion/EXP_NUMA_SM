@@ -1,0 +1,1573 @@
+{
+  "counts": {
+    "requests": 1532372,
+    "conditioning_requests": 607876,
+    "measured_requests": 924496
+  },
+  "summary": [
+    {
+      "kind": "main",
+      "mode": "B",
+      "ready_ratio": {
+        "blocks": 6,
+        "ratios": [
+          0.7298220759467484,
+          0.6244671944571863,
+          0.49676405071442337,
+          0.45589947352398535,
+          0.4169335776927723,
+          0.44345523772200157
+        ],
+        "geomean_ratio": 0.5169443058906564,
+        "exploratory_ci95": [
+          0.446572306616377,
+          0.6146586406216096
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      },
+      "throughput_ratio": {
+        "blocks": 6,
+        "ratios": [
+          0.8500670219259843,
+          0.999861546264541,
+          1.2560660089051827,
+          1.3662807640612042,
+          1.4993586581569187,
+          1.4114018426014319
+        ],
+        "geomean_ratio": 1.2066563718047936,
+        "exploratory_ci95": [
+          1.0133790252970571,
+          1.3992609052746054
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      },
+      "return_A_ratio": {
+        "blocks": 6,
+        "ratios": [
+          1.032809218546024,
+          1.0211667922982048,
+          1.3149073614167344,
+          1.2631253045530313,
+          1.1176137917969913,
+          1.2400121004772435
+        ],
+        "geomean_ratio": 1.1593004635197257,
+        "exploratory_ci95": [
+          1.070740101415872,
+          1.2522391890637852
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      }
+    },
+    {
+      "kind": "main",
+      "mode": "C",
+      "ready_ratio": {
+        "blocks": 6,
+        "ratios": [
+          0.7432302575075188,
+          0.617821038104746,
+          0.5542889458731606,
+          0.4953998772162423,
+          0.4423531909046158,
+          0.48693809946245614
+        ],
+        "geomean_ratio": 0.5482603655011274,
+        "exploratory_ci95": [
+          0.48327722124246564,
+          0.6337346172403026
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      },
+      "throughput_ratio": {
+        "blocks": 6,
+        "ratios": [
+          0.28887855552857616,
+          0.34657742685629916,
+          0.3891526503997474,
+          0.43357467557716,
+          0.48483443146409094,
+          0.4409675714236431
+        ],
+        "geomean_ratio": 0.391696716312505,
+        "exploratory_ci95": [
+          0.3390094906061663,
+          0.4442216769512294
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      },
+      "return_A_ratio": {
+        "blocks": 6,
+        "ratios": [
+          1.0218804459287838,
+          1.010437472209759,
+          0.8789444580771417,
+          0.8728508871116443,
+          0.8387568960130745,
+          0.9151930291953575
+        ],
+        "geomean_ratio": 0.9204353822990461,
+        "exploratory_ci95": [
+          0.8691693632588877,
+          0.9772571413862473
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      }
+    },
+    {
+      "kind": "main",
+      "mode": "D",
+      "ready_ratio": null,
+      "throughput_ratio": {
+        "blocks": 6,
+        "ratios": [
+          0.9905409244455081,
+          0.9108027263355892,
+          0.8367163677484222,
+          0.6971668857306568,
+          0.8782859390459189,
+          0.756249382886717
+        ],
+        "geomean_ratio": 0.8393030228682126,
+        "exploratory_ci95": [
+          0.7616924403251897,
+          0.919770535584653
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      },
+      "return_A_ratio": {
+        "blocks": 6,
+        "ratios": [
+          1.0539301159725674,
+          1.025405678212188,
+          0.9080422753755636,
+          1.0034479438464936,
+          0.9937142824134534,
+          0.9938159381836404
+        ],
+        "geomean_ratio": 0.9953580265211256,
+        "exploratory_ci95": [
+          0.9564487788690966,
+          1.0287480798321071
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      }
+    },
+    {
+      "kind": "control",
+      "mode": "B",
+      "ready_ratio": {
+        "blocks": 2,
+        "ratios": [
+          1.0083467670730726,
+          1.0283885062528253
+        ],
+        "geomean_ratio": 1.018318332141351,
+        "exploratory_ci95": [
+          1.0083467670730726,
+          1.0283885062528253
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      },
+      "throughput_ratio": {
+        "blocks": 2,
+        "ratios": [
+          0.6713227195624093,
+          0.6588504054011874
+        ],
+        "geomean_ratio": 0.6650573253026547,
+        "exploratory_ci95": [
+          0.6588504054011874,
+          0.6713227195624093
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      },
+      "return_A_ratio": {
+        "blocks": 2,
+        "ratios": [
+          1.0010817066704618,
+          1.0340008867017891
+        ],
+        "geomean_ratio": 1.0174081640905963,
+        "exploratory_ci95": [
+          1.0010817066704618,
+          1.0340008867017891
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      }
+    },
+    {
+      "kind": "control",
+      "mode": "C",
+      "ready_ratio": {
+        "blocks": 2,
+        "ratios": [
+          0.3986528197635695,
+          0.4004951946620183
+        ],
+        "geomean_ratio": 0.3995729453476214,
+        "exploratory_ci95": [
+          0.3986528197635695,
+          0.4004951946620183
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      },
+      "throughput_ratio": {
+        "blocks": 2,
+        "ratios": [
+          0.2829988167780261,
+          0.28242226083755617
+        ],
+        "geomean_ratio": 0.2827103918302322,
+        "exploratory_ci95": [
+          0.28242226083755617,
+          0.2829988167780261
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      },
+      "return_A_ratio": {
+        "blocks": 2,
+        "ratios": [
+          0.9656740685493973,
+          0.9675542072468682
+        ],
+        "geomean_ratio": 0.9666136807712634,
+        "exploratory_ci95": [
+          0.9656740685493973,
+          0.9675542072468682
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      }
+    },
+    {
+      "kind": "control",
+      "mode": "D",
+      "ready_ratio": null,
+      "throughput_ratio": {
+        "blocks": 2,
+        "ratios": [
+          1.0107391902443452,
+          1.027773068074255
+        ],
+        "geomean_ratio": 1.0192205446223692,
+        "exploratory_ci95": [
+          1.0107391902443452,
+          1.027773068074255
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      },
+      "return_A_ratio": {
+        "blocks": 2,
+        "ratios": [
+          1.034135227912088,
+          0.9998870919254765
+        ],
+        "geomean_ratio": 1.0168669852516146,
+        "exploratory_ci95": [
+          0.9998870919254765,
+          1.034135227912088
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      }
+    },
+    {
+      "kind": "confirm",
+      "mode": "B",
+      "ready_ratio": {
+        "blocks": 2,
+        "ratios": [
+          0.6982153179823212,
+          0.6304668722749953
+        ],
+        "geomean_ratio": 0.6634769232632024,
+        "exploratory_ci95": [
+          0.6304668722749953,
+          0.6982153179823212
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      },
+      "throughput_ratio": {
+        "blocks": 2,
+        "ratios": [
+          0.8904971398112232,
+          0.993332136806306
+        ],
+        "geomean_ratio": 0.9405101948988039,
+        "exploratory_ci95": [
+          0.8904971398112232,
+          0.993332136806306
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      },
+      "return_A_ratio": {
+        "blocks": 2,
+        "ratios": [
+          1.0284743846677713,
+          1.0180858154212495
+        ],
+        "geomean_ratio": 1.023266916573753,
+        "exploratory_ci95": [
+          1.0180858154212495,
+          1.0284743846677713
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      }
+    },
+    {
+      "kind": "confirm",
+      "mode": "C",
+      "ready_ratio": {
+        "blocks": 2,
+        "ratios": [
+          0.7401441692084212,
+          0.6805231687299987
+        ],
+        "geomean_ratio": 0.7097078662004157,
+        "exploratory_ci95": [
+          0.6805231687299987,
+          0.7401441692084212
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      },
+      "throughput_ratio": {
+        "blocks": 2,
+        "ratios": [
+          0.2959872162672948,
+          0.322776124344499
+        ],
+        "geomean_ratio": 0.3090915827425174,
+        "exploratory_ci95": [
+          0.2959872162672948,
+          0.322776124344499
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      },
+      "return_A_ratio": {
+        "blocks": 2,
+        "ratios": [
+          1.0093714499142459,
+          0.9935311132714408
+        ],
+        "geomean_ratio": 1.0014199620227815,
+        "exploratory_ci95": [
+          0.9935311132714408,
+          1.0093714499142459
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      }
+    },
+    {
+      "kind": "confirm",
+      "mode": "D",
+      "ready_ratio": null,
+      "throughput_ratio": {
+        "blocks": 2,
+        "ratios": [
+          0.9821455281334183,
+          0.9969244547669313
+        ],
+        "geomean_ratio": 0.9895074002432663,
+        "exploratory_ci95": [
+          0.9821455281334183,
+          0.9969244547669313
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      },
+      "return_A_ratio": {
+        "blocks": 2,
+        "ratios": [
+          1.0306551753596038,
+          1.0293570282359188
+        ],
+        "geomean_ratio": 1.030005897286094,
+        "exploratory_ci95": [
+          1.0293570282359188,
+          1.0306551753596038
+        ],
+        "scope": "Resample whole process blocks, not requests. Separate processes share device history and sequential ordering; bootstrap does not remove these dependencies or observer effects."
+      }
+    }
+  ],
+  "contrasts": [
+    {
+      "kind": "main",
+      "block": 0,
+      "mode": "B",
+      "phase": 1,
+      "before_A_us": 382.15681886213184,
+      "intervention_ready_us": 283.4449096226632,
+      "intervention_packet_gpu_us_per_request": null,
+      "after_A_us": 394.6950854510328,
+      "intervention_over_bracket_A": 0.7298220759467484,
+      "return_A_over_previous_A": 1.032809218546024,
+      "throughput_over_bracket_A": 0.8500670219259843
+    },
+    {
+      "kind": "main",
+      "block": 0,
+      "mode": "C",
+      "phase": 3,
+      "before_A_us": 394.6950854510328,
+      "intervention_ready_us": 296.54127127751775,
+      "intervention_packet_gpu_us_per_request": null,
+      "after_A_us": 403.33118992660087,
+      "intervention_over_bracket_A": 0.7432302575075188,
+      "return_A_over_previous_A": 1.0218804459287838,
+      "throughput_over_bracket_A": 0.28887855552857616
+    },
+    {
+      "kind": "main",
+      "block": 0,
+      "mode": "D",
+      "phase": 5,
+      "before_A_us": 403.33118992660087,
+      "intervention_ready_us": null,
+      "intervention_packet_gpu_us_per_request": 419.48167719696994,
+      "after_A_us": 425.082887774696,
+      "intervention_over_bracket_A": null,
+      "return_A_over_previous_A": 1.0539301159725674,
+      "throughput_over_bracket_A": 0.9905409244455081
+    },
+    {
+      "kind": "main",
+      "block": 1,
+      "mode": "B",
+      "phase": 1,
+      "before_A_us": 454.73822602544357,
+      "intervention_ready_us": 286.95872441625824,
+      "intervention_packet_gpu_us_per_request": null,
+      "after_A_us": 464.36357560577824,
+      "intervention_over_bracket_A": 0.6244671944571863,
+      "return_A_over_previous_A": 1.0211667922982048,
+      "throughput_over_bracket_A": 0.999861546264541
+    },
+    {
+      "kind": "main",
+      "block": 1,
+      "mode": "D",
+      "phase": 3,
+      "before_A_us": 464.36357560577824,
+      "intervention_ready_us": null,
+      "intervention_packet_gpu_us_per_request": 517.8834630930719,
+      "after_A_us": 476.1610471810797,
+      "intervention_over_bracket_A": null,
+      "return_A_over_previous_A": 1.025405678212188,
+      "throughput_over_bracket_A": 0.9108027263355892
+    },
+    {
+      "kind": "main",
+      "block": 1,
+      "mode": "C",
+      "phase": 5,
+      "before_A_us": 476.1610471810797,
+      "intervention_ready_us": 295.71358704313184,
+      "intervention_packet_gpu_us_per_request": null,
+      "after_A_us": 481.130964878402,
+      "intervention_over_bracket_A": 0.617821038104746,
+      "return_A_over_previous_A": 1.010437472209759,
+      "throughput_over_bracket_A": 0.34657742685629916
+    },
+    {
+      "kind": "main",
+      "block": 2,
+      "mode": "C",
+      "phase": 1,
+      "before_A_us": 575.0578696655132,
+      "intervention_ready_us": 298.8329518846621,
+      "intervention_packet_gpu_us_per_request": null,
+      "after_A_us": 505.44392761615006,
+      "intervention_over_bracket_A": 0.5542889458731606,
+      "return_A_over_previous_A": 0.8789444580771417,
+      "throughput_over_bracket_A": 0.3891526503997474
+    },
+    {
+      "kind": "main",
+      "block": 2,
+      "mode": "B",
+      "phase": 3,
+      "before_A_us": 505.44392761615006,
+      "intervention_ready_us": 287.91926265255364,
+      "intervention_packet_gpu_us_per_request": null,
+      "after_A_us": 664.6119412058628,
+      "intervention_over_bracket_A": 0.49676405071442337,
+      "return_A_over_previous_A": 1.3149073614167344,
+      "throughput_over_bracket_A": 1.2560660089051827
+    },
+    {
+      "kind": "main",
+      "block": 2,
+      "mode": "D",
+      "phase": 5,
+      "before_A_us": 664.6119412058628,
+      "intervention_ready_us": null,
+      "intervention_packet_gpu_us_per_request": 758.6770086577444,
+      "after_A_us": 603.4957393343419,
+      "intervention_over_bracket_A": null,
+      "return_A_over_previous_A": 0.9080422753755636,
+      "throughput_over_bracket_A": 0.8367163677484222
+    },
+    {
+      "kind": "main",
+      "block": 3,
+      "mode": "C",
+      "phase": 1,
+      "before_A_us": 640.7057062791072,
+      "intervention_ready_us": 296.54084132202803,
+      "intervention_packet_gpu_us_per_request": null,
+      "after_A_us": 559.2405441032113,
+      "intervention_over_bracket_A": 0.4953998772162423,
+      "return_A_over_previous_A": 0.8728508871116443,
+      "throughput_over_bracket_A": 0.43357467557716
+    },
+    {
+      "kind": "main",
+      "block": 3,
+      "mode": "D",
+      "phase": 3,
+      "before_A_us": 559.2405441032113,
+      "intervention_ready_us": null,
+      "intervention_packet_gpu_us_per_request": 805.7583967844645,
+      "after_A_us": 561.1687740959617,
+      "intervention_over_bracket_A": null,
+      "return_A_over_previous_A": 1.0034479438464936,
+      "throughput_over_bracket_A": 0.6971668857306568
+    },
+    {
+      "kind": "main",
+      "block": 3,
+      "mode": "B",
+      "phase": 5,
+      "before_A_us": 561.1687740959617,
+      "intervention_ready_us": 287.5317485681226,
+      "intervention_packet_gpu_us_per_request": null,
+      "after_A_us": 708.8264786856129,
+      "intervention_over_bracket_A": 0.45589947352398535,
+      "return_A_over_previous_A": 1.2631253045530313,
+      "throughput_over_bracket_A": 1.3662807640612042
+    },
+    {
+      "kind": "main",
+      "block": 4,
+      "mode": "D",
+      "phase": 1,
+      "before_A_us": 658.9147246305013,
+      "intervention_ready_us": null,
+      "intervention_packet_gpu_us_per_request": 749.5399329833642,
+      "after_A_us": 654.7729727578568,
+      "intervention_over_bracket_A": null,
+      "return_A_over_previous_A": 0.9937142824134534,
+      "throughput_over_bracket_A": 0.8782859390459189
+    },
+    {
+      "kind": "main",
+      "block": 4,
+      "mode": "B",
+      "phase": 3,
+      "before_A_us": 654.7729727578568,
+      "intervention_ready_us": 288.60476236478274,
+      "intervention_packet_gpu_us_per_request": null,
+      "after_A_us": 731.7833048500963,
+      "intervention_over_bracket_A": 0.4169335776927723,
+      "return_A_over_previous_A": 1.1176137917969913,
+      "throughput_over_bracket_A": 1.4993586581569187
+    },
+    {
+      "kind": "main",
+      "block": 4,
+      "mode": "C",
+      "phase": 5,
+      "before_A_us": 731.7833048500963,
+      "intervention_ready_us": 296.4624637103759,
+      "intervention_packet_gpu_us_per_request": null,
+      "after_A_us": 613.7882933302562,
+      "intervention_over_bracket_A": 0.4423531909046158,
+      "return_A_over_previous_A": 0.8387568960130745,
+      "throughput_over_bracket_A": 0.48483443146409094
+    },
+    {
+      "kind": "main",
+      "block": 5,
+      "mode": "D",
+      "phase": 1,
+      "before_A_us": 641.0221923200514,
+      "intervention_ready_us": null,
+      "intervention_packet_gpu_us_per_request": 847.0407879433117,
+      "after_A_us": 637.0580714570859,
+      "intervention_over_bracket_A": null,
+      "return_A_over_previous_A": 0.9938159381836404,
+      "throughput_over_bracket_A": 0.756249382886717
+    },
+    {
+      "kind": "main",
+      "block": 5,
+      "mode": "C",
+      "phase": 3,
+      "before_A_us": 637.0580714570859,
+      "intervention_ready_us": 296.7625749177204,
+      "intervention_packet_gpu_us_per_request": null,
+      "after_A_us": 583.031106190163,
+      "intervention_over_bracket_A": 0.48693809946245614,
+      "return_A_over_previous_A": 0.9151930291953575,
+      "throughput_over_bracket_A": 0.4409675714236431
+    },
+    {
+      "kind": "main",
+      "block": 5,
+      "mode": "B",
+      "phase": 5,
+      "before_A_us": 583.031106190163,
+      "intervention_ready_us": 287.9084931112007,
+      "intervention_packet_gpu_us_per_request": null,
+      "after_A_us": 722.9656266304348,
+      "intervention_over_bracket_A": 0.44345523772200157,
+      "return_A_over_previous_A": 1.2400121004772435,
+      "throughput_over_bracket_A": 1.4114018426014319
+    },
+    {
+      "kind": "control",
+      "block": 0,
+      "mode": "B",
+      "phase": 1,
+      "before_A_us": 352.1358075698621,
+      "intervention_ready_us": 355.2669947278239,
+      "intervention_packet_gpu_us_per_request": null,
+      "after_A_us": 352.51671522181886,
+      "intervention_over_bracket_A": 1.0083467670730726,
+      "return_A_over_previous_A": 1.0010817066704618,
+      "throughput_over_bracket_A": 0.6713227195624093
+    },
+    {
+      "kind": "control",
+      "block": 0,
+      "mode": "C",
+      "phase": 3,
+      "before_A_us": 352.51671522181886,
+      "intervention_ready_us": 138.098779280664,
+      "intervention_packet_gpu_us_per_request": null,
+      "after_A_us": 340.41625061992306,
+      "intervention_over_bracket_A": 0.3986528197635695,
+      "return_A_over_previous_A": 0.9656740685493973,
+      "throughput_over_bracket_A": 0.2829988167780261
+    },
+    {
+      "kind": "control",
+      "block": 0,
+      "mode": "D",
+      "phase": 5,
+      "before_A_us": 340.41625061992306,
+      "intervention_ready_us": null,
+      "intervention_packet_gpu_us_per_request": 343.95880211185624,
+      "after_A_us": 352.03643691981256,
+      "intervention_over_bracket_A": null,
+      "return_A_over_previous_A": 1.034135227912088,
+      "throughput_over_bracket_A": 1.0107391902443452
+    },
+    {
+      "kind": "control",
+      "block": 1,
+      "mode": "D",
+      "phase": 1,
+      "before_A_us": 352.0270818599717,
+      "intervention_ready_us": null,
+      "intervention_packet_gpu_us_per_request": 343.89223878855233,
+      "after_A_us": 351.9873351599788,
+      "intervention_over_bracket_A": null,
+      "return_A_over_previous_A": 0.9998870919254765,
+      "throughput_over_bracket_A": 1.027773068074255
+    },
+    {
+      "kind": "control",
+      "block": 1,
+      "mode": "C",
+      "phase": 3,
+      "before_A_us": 351.9873351599788,
+      "intervention_ready_us": 138.66344950738915,
+      "intervention_packet_gpu_us_per_request": null,
+      "after_A_us": 340.566827031651,
+      "intervention_over_bracket_A": 0.4004951946620183,
+      "return_A_over_previous_A": 0.9675542072468682,
+      "throughput_over_bracket_A": 0.28242226083755617
+    },
+    {
+      "kind": "control",
+      "block": 1,
+      "mode": "B",
+      "phase": 5,
+      "before_A_us": 340.566827031651,
+      "intervention_ready_us": 356.1393919471948,
+      "intervention_packet_gpu_us_per_request": null,
+      "after_A_us": 352.14640113194196,
+      "intervention_over_bracket_A": 1.0283885062528253,
+      "return_A_over_previous_A": 1.0340008867017891,
+      "throughput_over_bracket_A": 0.6588504054011874
+    },
+    {
+      "kind": "confirm",
+      "block": 0,
+      "mode": "B",
+      "phase": 1,
+      "before_A_us": 402.6581006976039,
+      "intervention_ready_us": 285.1166324815838,
+      "intervention_packet_gpu_us_per_request": null,
+      "after_A_us": 414.12354234646165,
+      "intervention_over_bracket_A": 0.6982153179823212,
+      "return_A_over_previous_A": 1.0284743846677713,
+      "throughput_over_bracket_A": 0.8904971398112232
+    },
+    {
+      "kind": "confirm",
+      "block": 0,
+      "mode": "C",
+      "phase": 3,
+      "before_A_us": 414.12354234646165,
+      "intervention_ready_us": 307.9440028218695,
+      "intervention_packet_gpu_us_per_request": null,
+      "after_A_us": 418.0044803818716,
+      "intervention_over_bracket_A": 0.7401441692084212,
+      "return_A_over_previous_A": 1.0093714499142459,
+      "throughput_over_bracket_A": 0.2959872162672948
+    },
+    {
+      "kind": "confirm",
+      "block": 0,
+      "mode": "D",
+      "phase": 5,
+      "before_A_us": 418.0044803818716,
+      "intervention_ready_us": null,
+      "intervention_packet_gpu_us_per_request": 433.5414483629424,
+      "after_A_us": 430.81848102907793,
+      "intervention_over_bracket_A": null,
+      "return_A_over_previous_A": 1.0306551753596038,
+      "throughput_over_bracket_A": 0.9821455281334183
+    },
+    {
+      "kind": "confirm",
+      "block": 1,
+      "mode": "D",
+      "phase": 1,
+      "before_A_us": 442.9954677706156,
+      "intervention_ready_us": null,
+      "intervention_packet_gpu_us_per_request": 452.2993015728409,
+      "after_A_us": 456.0004982263417,
+      "intervention_over_bracket_A": null,
+      "return_A_over_previous_A": 1.0293570282359188,
+      "throughput_over_bracket_A": 0.9969244547669313
+    },
+    {
+      "kind": "confirm",
+      "block": 1,
+      "mode": "C",
+      "phase": 3,
+      "before_A_us": 456.0004982263417,
+      "intervention_ready_us": 309.31356658424585,
+      "intervention_packet_gpu_us_per_request": null,
+      "after_A_us": 453.05068265514893,
+      "intervention_over_bracket_A": 0.6805231687299987,
+      "return_A_over_previous_A": 0.9935311132714408,
+      "throughput_over_bracket_A": 0.322776124344499
+    },
+    {
+      "kind": "confirm",
+      "block": 1,
+      "mode": "B",
+      "phase": 5,
+      "before_A_us": 453.05068265514893,
+      "intervention_ready_us": 288.2048294851074,
+      "intervention_packet_gpu_us_per_request": null,
+      "after_A_us": 461.2444736781211,
+      "intervention_over_bracket_A": 0.6304668722749953,
+      "return_A_over_previous_A": 1.0180858154212495,
+      "throughput_over_bracket_A": 0.993332136806306
+    }
+  ],
+  "observer": [
+    {
+      "block": 0,
+      "order": "ABBA",
+      "A_1Hz_means": [
+        675.9218917240601,
+        696.8430757769759
+      ],
+      "B_20Hz_means": [
+        673.8476994597029,
+        691.9386678996648
+      ],
+      "B_over_A": 0.9949446584868467,
+      "scope": "Two independentprocessblocks; observationandhistory mayinteract; not universaltooloverhead"
+    },
+    {
+      "block": 1,
+      "order": "BAAB",
+      "A_1Hz_means": [
+        677.9352840317101,
+        669.1372354124749
+      ],
+      "B_20Hz_means": [
+        641.860997962248,
+        674.3773175980172
+      ],
+      "B_over_A": 0.9768328429455415,
+      "scope": "Two independentprocessblocks; observationandhistory mayinteract; not universaltooloverhead"
+    }
+  ],
+  "telemetry": [
+    {
+      "worker": "S0_SMOKE_retry1",
+      "kind": "smoke",
+      "samples": 100,
+      "full_samples": 5,
+      "poll_cost_ms": {
+        "n": 100,
+        "mean": 13.16641426,
+        "q10": 4.8236591,
+        "q50": 15.133482,
+        "q90": 18.788071400000007,
+        "q99": 39.95496389000002,
+        "min": 2.61559,
+        "max": 43.1579
+      },
+      "poll_intervals_ms": {
+        "n": 99,
+        "mean": 50.10725088888888,
+        "q10": 50.0838314,
+        "q50": 50.104971,
+        "q90": 50.1339672,
+        "q99": 50.247397899999996,
+        "min": 49.456291,
+        "max": 50.803151
+      },
+      "clock_values": [
+        510,
+        525,
+        540,
+        555,
+        570,
+        675,
+        930,
+        1065,
+        1110,
+        1245,
+        1260,
+        1335,
+        1455,
+        1545,
+        1590
+      ],
+      "temperature_range": [
+        63,
+        64
+      ]
+    },
+    {
+      "worker": "S1_main_0",
+      "kind": "main",
+      "samples": 1889,
+      "full_samples": 95,
+      "poll_cost_ms": {
+        "n": 1889,
+        "mean": 8.728433958708312,
+        "q10": 4.4427594,
+        "q50": 4.931388,
+        "q90": 18.491459000000003,
+        "q99": 29.730531479999982,
+        "min": 3.810017,
+        "max": 86.50692
+      },
+      "poll_intervals_ms": {
+        "n": 1888,
+        "mean": 50.15357344862288,
+        "q10": 50.0768485,
+        "q50": 50.096922,
+        "q90": 50.1374011,
+        "q99": 50.83702741999999,
+        "min": 46.908774,
+        "max": 86.590115
+      },
+      "clock_values": [
+        405,
+        420,
+        435,
+        450,
+        465,
+        480,
+        495,
+        510,
+        525,
+        540,
+        555,
+        585,
+        675,
+        870,
+        1050,
+        1065,
+        1110,
+        1125,
+        1140,
+        1155,
+        1170,
+        1185,
+        1200,
+        1215,
+        1245,
+        1260,
+        1275,
+        1365,
+        1395,
+        1590
+      ],
+      "temperature_range": [
+        63,
+        72
+      ]
+    },
+    {
+      "worker": "S1_main_1",
+      "kind": "main",
+      "samples": 1865,
+      "full_samples": 94,
+      "poll_cost_ms": {
+        "n": 1865,
+        "mean": 8.031282356032172,
+        "q10": 4.3617294,
+        "q50": 4.722603,
+        "q90": 17.276185400000003,
+        "q99": 26.019105999999972,
+        "min": 2.376973,
+        "max": 120.560291
+      },
+      "poll_intervals_ms": {
+        "n": 1864,
+        "mean": 50.17390907081545,
+        "q10": 50.0812817,
+        "q50": 50.097930000000005,
+        "q90": 50.1362979,
+        "q99": 50.910448200000005,
+        "min": 50.014109,
+        "max": 120.638518
+      },
+      "clock_values": [
+        330,
+        345,
+        360,
+        375,
+        390,
+        405,
+        420,
+        435,
+        450,
+        525,
+        615,
+        765,
+        795,
+        960,
+        1005,
+        1020,
+        1035,
+        1050,
+        1065,
+        1080,
+        1095,
+        1110,
+        1140,
+        1170,
+        1215,
+        1245,
+        1305,
+        1320,
+        1380,
+        1395,
+        1470,
+        1560,
+        1575,
+        1590
+      ],
+      "temperature_range": [
+        71,
+        75
+      ]
+    },
+    {
+      "worker": "S1_main_2",
+      "kind": "main",
+      "samples": 1852,
+      "full_samples": 93,
+      "poll_cost_ms": {
+        "n": 1852,
+        "mean": 8.166016312634989,
+        "q10": 4.332085,
+        "q50": 4.71934,
+        "q90": 18.1899744,
+        "q99": 26.32998181,
+        "min": 4.106061,
+        "max": 62.866911
+      },
+      "poll_intervals_ms": {
+        "n": 1851,
+        "mean": 50.12699489681254,
+        "q10": 50.079357,
+        "q50": 50.096952,
+        "q90": 50.135691,
+        "q99": 50.375405,
+        "min": 49.994996,
+        "max": 63.044982
+      },
+      "clock_values": [
+        315,
+        330,
+        345,
+        360,
+        375,
+        390,
+        405,
+        465,
+        495,
+        570,
+        630,
+        750,
+        900,
+        960,
+        975,
+        990,
+        1005,
+        1020,
+        1035,
+        1065,
+        1080,
+        1170,
+        1245,
+        1590
+      ],
+      "temperature_range": [
+        73,
+        75
+      ]
+    },
+    {
+      "worker": "S1_main_3",
+      "kind": "main",
+      "samples": 1846,
+      "full_samples": 93,
+      "poll_cost_ms": {
+        "n": 1846,
+        "mean": 8.168832553629468,
+        "q10": 4.3017015,
+        "q50": 4.764569,
+        "q90": 18.2535405,
+        "q99": 27.393342799999978,
+        "min": 4.019447,
+        "max": 68.695081
+      },
+      "poll_intervals_ms": {
+        "n": 1845,
+        "mean": 50.12389699566395,
+        "q10": 50.077594,
+        "q50": 50.09837,
+        "q90": 50.1334392,
+        "q99": 50.2631824,
+        "min": 50.001915,
+        "max": 68.778472
+      },
+      "clock_values": [
+        330,
+        345,
+        360,
+        375,
+        390,
+        405,
+        435,
+        480,
+        570,
+        615,
+        690,
+        780,
+        885,
+        915,
+        960,
+        975,
+        990,
+        1005,
+        1020,
+        1065,
+        1170,
+        1215,
+        1470
+      ],
+      "temperature_range": [
+        74,
+        75
+      ]
+    },
+    {
+      "worker": "S1_main_4",
+      "kind": "main",
+      "samples": 1842,
+      "full_samples": 93,
+      "poll_cost_ms": {
+        "n": 1842,
+        "mean": 8.150110078718782,
+        "q10": 4.2961993,
+        "q50": 4.9420945,
+        "q90": 18.147775300000003,
+        "q99": 27.065255149999995,
+        "min": 4.109922,
+        "max": 56.453654
+      },
+      "poll_intervals_ms": {
+        "n": 1841,
+        "mean": 50.121393349809885,
+        "q10": 50.085419,
+        "q50": 50.100791,
+        "q90": 50.134418,
+        "q99": 50.3863022,
+        "min": 49.746476,
+        "max": 60.926273
+      },
+      "clock_values": [
+        315,
+        330,
+        345,
+        360,
+        375,
+        390,
+        405,
+        435,
+        465,
+        495,
+        525,
+        615,
+        660,
+        750,
+        765,
+        840,
+        945,
+        960,
+        975,
+        990,
+        1005,
+        1020,
+        1035,
+        1065,
+        1110,
+        1170,
+        1185,
+        1245,
+        1560
+      ],
+      "temperature_range": [
+        74,
+        75
+      ]
+    },
+    {
+      "worker": "S1_main_5",
+      "kind": "main",
+      "samples": 1844,
+      "full_samples": 93,
+      "poll_cost_ms": {
+        "n": 1844,
+        "mean": 8.161054182754881,
+        "q10": 4.2892315,
+        "q50": 4.886753000000001,
+        "q90": 18.2411563,
+        "q99": 27.43428480999993,
+        "min": 3.463057,
+        "max": 62.006613
+      },
+      "poll_intervals_ms": {
+        "n": 1843,
+        "mean": 50.12741708138904,
+        "q10": 50.084831799999996,
+        "q50": 50.099899,
+        "q90": 50.1344494,
+        "q99": 50.80817734,
+        "min": 49.983073,
+        "max": 62.102291
+      },
+      "clock_values": [
+        315,
+        330,
+        345,
+        360,
+        375,
+        390,
+        405,
+        420,
+        495,
+        615,
+        645,
+        810,
+        900,
+        930,
+        945,
+        960,
+        975,
+        990,
+        1005,
+        1020,
+        1035,
+        1065,
+        1110,
+        1140,
+        1305,
+        1560
+      ],
+      "temperature_range": [
+        74,
+        75
+      ]
+    },
+    {
+      "worker": "S1C_control_0",
+      "kind": "control",
+      "samples": 866,
+      "full_samples": 44,
+      "poll_cost_ms": {
+        "n": 866,
+        "mean": 8.176209220554272,
+        "q10": 4.2466005,
+        "q50": 4.744798,
+        "q90": 17.0204505,
+        "q99": 23.78554035000003,
+        "min": 3.001619,
+        "max": 38.444609
+      },
+      "poll_intervals_ms": {
+        "n": 865,
+        "mean": 50.117104991907524,
+        "q10": 50.0797724,
+        "q50": 50.099943,
+        "q90": 50.1322724,
+        "q99": 50.407745160000005,
+        "min": 50.000748,
+        "max": 52.527149
+      },
+      "clock_values": [
+        300,
+        315,
+        330,
+        345,
+        660,
+        825,
+        1065,
+        1080,
+        1305,
+        1590
+      ],
+      "temperature_range": [
+        74,
+        75
+      ]
+    },
+    {
+      "worker": "S1C_control_1",
+      "kind": "control",
+      "samples": 867,
+      "full_samples": 44,
+      "poll_cost_ms": {
+        "n": 867,
+        "mean": 8.314440516724337,
+        "q10": 4.2344494,
+        "q50": 4.600901,
+        "q90": 17.1932466,
+        "q99": 25.64517434,
+        "min": 4.047549,
+        "max": 62.466513
+      },
+      "poll_intervals_ms": {
+        "n": 866,
+        "mean": 50.11932129907621,
+        "q10": 50.0759295,
+        "q50": 50.099407,
+        "q90": 50.1388855,
+        "q99": 50.21021085,
+        "min": 49.996745,
+        "max": 62.562753
+      },
+      "clock_values": [
+        300,
+        315,
+        330,
+        465,
+        525,
+        720,
+        1065,
+        1080,
+        1140,
+        1365
+      ],
+      "temperature_range": [
+        74,
+        75
+      ]
+    },
+    {
+      "worker": "S2_observer_0",
+      "kind": "observer",
+      "samples": 309,
+      "full_samples": 37,
+      "poll_cost_ms": {
+        "n": 309,
+        "mean": 8.748909621359223,
+        "q10": 4.272870999999999,
+        "q50": 5.172847,
+        "q90": 18.304795199999997,
+        "q99": 26.702360640000023,
+        "min": 4.168485,
+        "max": 31.847055
+      },
+      "poll_intervals_ms": {
+        "n": 308,
+        "mean": 120.72137964285713,
+        "q10": 50.0517332,
+        "q50": 50.098530999999994,
+        "q90": 50.3113685,
+        "q99": 1000.15369532,
+        "min": 15.803472,
+        "max": 1000.290805
+      },
+      "clock_values": [
+        345,
+        360,
+        375,
+        390,
+        1065,
+        1140,
+        1380
+      ],
+      "temperature_range": [
+        74,
+        75
+      ]
+    },
+    {
+      "worker": "S2_observer_1",
+      "kind": "observer",
+      "samples": 346,
+      "full_samples": 37,
+      "poll_cost_ms": {
+        "n": 346,
+        "mean": 9.912356369942197,
+        "q10": 4.2879875,
+        "q50": 5.9982165,
+        "q90": 19.0533905,
+        "q99": 27.16692770000001,
+        "min": 4.12084,
+        "max": 47.726701
+      },
+      "poll_intervals_ms": {
+        "n": 345,
+        "mean": 110.39827156811594,
+        "q10": 50.053463,
+        "q50": 50.101229,
+        "q90": 50.2361924,
+        "q99": 1000.12662532,
+        "min": 21.969187,
+        "max": 1000.266446
+      },
+      "clock_values": [
+        345,
+        360,
+        375,
+        390,
+        1065,
+        1080,
+        1455
+      ],
+      "temperature_range": [
+        74,
+        74
+      ]
+    },
+    {
+      "worker": "S3_profile_0",
+      "kind": "profile",
+      "samples": 919,
+      "full_samples": 46,
+      "poll_cost_ms": {
+        "n": 919,
+        "mean": 8.127906383025026,
+        "q10": 4.2821466,
+        "q50": 4.872672,
+        "q90": 17.670506000000003,
+        "q99": 27.341015459999888,
+        "min": 4.113295,
+        "max": 35.308982
+      },
+      "poll_intervals_ms": {
+        "n": 918,
+        "mean": 50.110275242919386,
+        "q10": 50.0757303,
+        "q50": 50.099004,
+        "q90": 50.129785,
+        "q99": 50.34625468,
+        "min": 49.475701,
+        "max": 51.828865
+      },
+      "clock_values": [
+        300,
+        315,
+        330,
+        345,
+        360,
+        375,
+        390,
+        420,
+        450,
+        600,
+        735,
+        765,
+        780,
+        795,
+        870,
+        960,
+        990,
+        1005,
+        1020,
+        1065,
+        1170,
+        1350
+      ],
+      "temperature_range": [
+        74,
+        75
+      ]
+    },
+    {
+      "worker": "S3_profile_1",
+      "kind": "profile",
+      "samples": 919,
+      "full_samples": 46,
+      "poll_cost_ms": {
+        "n": 919,
+        "mean": 8.135986050054408,
+        "q10": 4.2917336,
+        "q50": 5.021509,
+        "q90": 17.085644600000002,
+        "q99": 24.998295379999995,
+        "min": 4.117157,
+        "max": 39.656506
+      },
+      "poll_intervals_ms": {
+        "n": 918,
+        "mean": 50.121908649237476,
+        "q10": 50.0774604,
+        "q50": 50.0985405,
+        "q90": 50.1278238,
+        "q99": 50.942500500000016,
+        "min": 49.846586,
+        "max": 53.897836
+      },
+      "clock_values": [
+        330,
+        345,
+        360,
+        375,
+        390,
+        405,
+        420,
+        450,
+        480,
+        510,
+        720,
+        735,
+        765,
+        915,
+        975,
+        990,
+        1005,
+        1020,
+        1050,
+        1065,
+        1245,
+        1350,
+        1395
+      ],
+      "temperature_range": [
+        74,
+        75
+      ]
+    },
+    {
+      "worker": "S4_confirm_0",
+      "kind": "confirm",
+      "samples": 71,
+      "full_samples": 43,
+      "poll_cost_ms": {
+        "n": 71,
+        "mean": 20.49644071830986,
+        "q10": 15.963509,
+        "q50": 18.330961,
+        "q90": 28.52377,
+        "q99": 36.52195939999999,
+        "min": 15.054618,
+        "max": 38.393604
+      },
+      "poll_intervals_ms": {
+        "n": 70,
+        "mean": 606.1038589857143,
+        "q10": 50.0984501,
+        "q50": 1000.0845185000001,
+        "q90": 1000.1288943999999,
+        "q99": 1000.21720387,
+        "min": 16.264572,
+        "max": 1000.260589
+      },
+      "clock_values": [
+        405,
+        420,
+        435,
+        450,
+        465,
+        480,
+        960,
+        1065,
+        1155,
+        1230
+      ],
+      "temperature_range": [
+        68,
+        72
+      ]
+    },
+    {
+      "worker": "S4_confirm_1",
+      "kind": "confirm",
+      "samples": 69,
+      "full_samples": 43,
+      "poll_cost_ms": {
+        "n": 69,
+        "mean": 19.784237623188403,
+        "q10": 15.8676748,
+        "q50": 16.738158,
+        "q90": 28.014657800000002,
+        "q99": 45.30067499999982,
+        "min": 15.292816,
+        "max": 63.100304
+      },
+      "poll_intervals_ms": {
+        "n": 68,
+        "mean": 622.5053611176471,
+        "q10": 50.0934153,
+        "q50": 1000.085822,
+        "q90": 1000.147042,
+        "q99": 1001.02233066,
+        "min": 20.18109,
+        "max": 1002.69224
+      },
+      "clock_values": [
+        375,
+        390,
+        405,
+        420,
+        1035,
+        1050,
+        1065
+      ],
+      "temperature_range": [
+        71,
+        74
+      ]
+    }
+  ]
+}

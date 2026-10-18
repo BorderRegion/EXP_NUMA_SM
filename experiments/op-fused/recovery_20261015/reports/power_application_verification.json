@@ -1,0 +1,19 @@
+{
+  "status": "APPLIED_AND_VERIFIED",
+  "applied_at": "2026-10-15T13:11:33+00:00",
+  "verified_at": "2026-10-15T13:12:40.805427+00:00",
+  "power_limit_w": 100,
+  "enforced_power_limit_w": 100,
+  "controller_source_matches_reviewed_patch": true,
+  "boot_dropin_matches_reviewed_patch": true,
+  "effective_start_cap_w": 100,
+  "recovery_cap_w": 100,
+  "fan_service_active": true,
+  "watchdog_preserved": true,
+  "temperature_and_low_rpm_protection_preserved": true,
+  "original_backup": "/var/lib/t10-fixed100-backup-20261015T131133Z",
+  "controller_sha256": "62b61184c6e085ea1092ecbe38cc44adb1eabd3ea62139f9f282611de5dfe401",
+  "dropin_sha256": "f5d5270a2e03f8b8d4bba042e44afaf6e26e7d78e7a1b67d5fb5c862c51bdbf5",
+  "verification_scope": "Configuration and idle readback only; no stress test or GPU performance phases",
+  "new_gpu_worker_seconds": 0
+}

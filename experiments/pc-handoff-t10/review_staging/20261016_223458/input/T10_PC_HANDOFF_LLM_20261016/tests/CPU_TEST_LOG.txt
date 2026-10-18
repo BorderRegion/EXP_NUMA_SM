@@ -1,0 +1,36 @@
+test_all_partials_produced_once (test_reference.PlanTests.test_all_partials_produced_once) ... ok
+test_amortization (test_reference.PlanTests.test_amortization) ... ok
+test_attention_empty_segment (test_reference.PlanTests.test_attention_empty_segment) ... ok
+test_attention_invalid (test_reference.PlanTests.test_attention_invalid) ... ok
+test_attention_log_stability (test_reference.PlanTests.test_attention_log_stability) ... ok
+test_attention_weighted_merge (test_reference.PlanTests.test_attention_weighted_merge) ... ok
+test_bootstrap_missing_rejected (test_reference.PlanTests.test_bootstrap_missing_rejected) ... ok
+test_bootstrap_resamples_blocks (test_reference.PlanTests.test_bootstrap_resamples_blocks) ... ok
+test_budget_and_counts (test_reference.PlanTests.test_budget_and_counts) ... ok
+test_case_sources_and_no_fabrication (test_reference.PlanTests.test_case_sources_and_no_fabrication) ... ok
+test_ceildiv (test_reference.PlanTests.test_ceildiv) ... ok
+test_ceildiv_invalid (test_reference.PlanTests.test_ceildiv_invalid) ... ok
+test_geomean (test_reference.PlanTests.test_geomean) ... ok
+test_geomean_invalid (test_reference.PlanTests.test_geomean_invalid) ... ok
+test_interaction_invalid (test_reference.PlanTests.test_interaction_invalid) ... ok
+test_interaction_row_col_effect_cancels (test_reference.PlanTests.test_interaction_row_col_effect_cancels) ... ok
+test_interaction_sign (test_reference.PlanTests.test_interaction_sign) ... ok
+test_invalid_index (test_reference.PlanTests.test_invalid_index) ... ok
+test_kv (test_reference.PlanTests.test_kv) ... ok
+test_layout_preserves_split_reduction_order (test_reference.PlanTests.test_layout_preserves_split_reduction_order) ... ok
+test_owner_ranks (test_reference.PlanTests.test_owner_ranks) ... ok
+test_reverse_does_not_change_producer (test_reference.PlanTests.test_reverse_does_not_change_producer) ... ok
+test_slab_permutation (test_reference.PlanTests.test_slab_permutation) ... ok
+test_split_full_coverage (test_reference.PlanTests.test_split_full_coverage) ... ok
+test_split_rejects_empty (test_reference.PlanTests.test_split_rejects_empty) ... ok
+test_tile_edge (test_reference.PlanTests.test_tile_edge) ... ok
+test_vendor_partition_warning_does_not_fake_execution (test_reference.PlanTests.test_vendor_partition_warning_does_not_fake_execution) ... ok
+test_williams_all_adjacencies (test_reference.PlanTests.test_williams_all_adjacencies) ... ok
+test_williams_odd_rejected (test_reference.PlanTests.test_williams_odd_rejected) ... ok
+test_workspace_bijection_and_inverse (test_reference.PlanTests.test_workspace_bijection_and_inverse) ... ok
+test_workspace_exact_and_padded (test_reference.PlanTests.test_workspace_exact_and_padded) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.014s
+
+OK

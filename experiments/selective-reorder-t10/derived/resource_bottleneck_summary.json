@@ -1,0 +1,78 @@
+[
+  {
+    "case": "D03",
+    "shape": [
+      2,
+      2048,
+      24576
+    ],
+    "P_span_mean_us": 812.5577526092529,
+    "R_after_P_span_mean_us": 5.065999975427985,
+    "uninstrumented_chain_mean_us": 812.0659061670303,
+    "R_over_chain_percent": 0.6238409883921394,
+    "mean_absolute_interaction_fraction": 0.022908489276139945,
+    "max_absolute_interaction_fraction": 0.10217890206082521,
+    "chain_us_all_cell_sample_range": [
+      702.7360038757324,
+      872.9720001220703
+    ],
+    "scope": "R/chain is diagnostic only, not all communication. Instrumented stage spans are measured separately; additive residual is not proven latency."
+  },
+  {
+    "case": "D10",
+    "shape": [
+      12,
+      6144,
+      6144
+    ],
+    "P_span_mean_us": 659.3975014686584,
+    "R_after_P_span_mean_us": 12.656999997794628,
+    "uninstrumented_chain_mean_us": 654.9952194392681,
+    "R_over_chain_percent": 1.9323805154837774,
+    "mean_absolute_interaction_fraction": 0.037112067661879695,
+    "max_absolute_interaction_fraction": 0.16106682172111908,
+    "chain_us_all_cell_sample_range": [
+      464.8360004425049,
+      710.9840049743652
+    ],
+    "scope": "R/chain is diagnostic only, not all communication. Instrumented stage spans are measured separately; additive residual is not proven latency."
+  },
+  {
+    "case": "D17",
+    "shape": [
+      48,
+      6144,
+      12288
+    ],
+    "P_span_mean_us": 1346.801251411438,
+    "R_after_P_span_mean_us": 38.237249940633774,
+    "uninstrumented_chain_mean_us": 1434.821375131607,
+    "R_over_chain_percent": 2.6649484460828106,
+    "mean_absolute_interaction_fraction": 0.0372367833751024,
+    "max_absolute_interaction_fraction": 0.19210195377371136,
+    "chain_us_all_cell_sample_range": [
+      1019.5860061645508,
+      1554.4979934692383
+    ],
+    "scope": "R/chain is diagnostic only, not all communication. Instrumented stage spans are measured separately; additive residual is not proven latency."
+  },
+  {
+    "case": "D24",
+    "shape": [
+      192,
+      6144,
+      24576
+    ],
+    "P_span_mean_us": 9414.74373626709,
+    "R_after_P_span_mean_us": 102.1829999089241,
+    "uninstrumented_chain_mean_us": 8819.986472606659,
+    "R_over_chain_percent": 1.1585391908058669,
+    "mean_absolute_interaction_fraction": 0.021882887514845094,
+    "max_absolute_interaction_fraction": 0.05265470825687388,
+    "chain_us_all_cell_sample_range": [
+      8377.749877929688,
+      9559.705993652344
+    ],
+    "scope": "R/chain is diagnostic only, not all communication. Instrumented stage spans are measured separately; additive residual is not proven latency."
+  }
+]

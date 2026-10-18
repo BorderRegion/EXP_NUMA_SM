@@ -1,0 +1,61 @@
+{
+  "timestamp_utc": "2026-10-14T14:42:44.759872+00:00",
+  "status": "PASS",
+  "cpu_helpers_passed": 48,
+  "plan_validator_passed": true,
+  "exported_cpu_statistics_exactly_equal": true,
+  "formal_blocks": 48,
+  "formal_sessions": 144,
+  "measured_frames": 73728,
+  "original_full_output_triplets": 144,
+  "export_full_output_triplets": 24,
+  "rebuilds": [
+    {
+      "build": "20261014T134450Z",
+      "binary": "micro.cubin",
+      "original_sha256": "4a10bd0f9e6785b8a75952429280b9fdada3f299e2f608335b8dc10eb0123ed3",
+      "rebuilt_sha256": "4a10bd0f9e6785b8a75952429280b9fdada3f299e2f608335b8dc10eb0123ed3",
+      "bitwise_rebuild_identical": true
+    },
+    {
+      "build": "20261014T134450Z",
+      "binary": "micro_runner",
+      "original_sha256": "938bf612b9b055bea7304a1d1ea140d0a5509533d9508ffa0536da9e28d2d4e4",
+      "rebuilt_sha256": "938bf612b9b055bea7304a1d1ea140d0a5509533d9508ffa0536da9e28d2d4e4",
+      "bitwise_rebuild_identical": true
+    },
+    {
+      "build": "20261014T134450Z",
+      "binary": "device_probe",
+      "original_sha256": "7cca6d93f9240c561895fc1cfd21398816a5caf36744d9e52bede8da32f44f29",
+      "rebuilt_sha256": "e789dbd87674fb228e020b905e1f45499d5b81cd7f22716ffd1d520a98f310e2",
+      "bitwise_rebuild_identical": false
+    },
+    {
+      "build": "renderer_20261014T140212Z",
+      "binary": "renderer_runner",
+      "original_sha256": "2bab047b4823b556c9958c959370f3c3f37b4ae4939551f9f9c4e5b2262bd112",
+      "rebuilt_sha256": "f31591371d0dfc4f53095df0f7fc419f1297c19d6a3d49b705f37b8ec3c204fb",
+      "bitwise_rebuild_identical": false
+    },
+    {
+      "build": "sparse_20261014T140520Z",
+      "binary": "sparse.cubin",
+      "original_sha256": "955ff9a63a53c17744d91b5a68361c39fa6c31901e699896adfffad5d53cdb9e",
+      "rebuilt_sha256": "955ff9a63a53c17744d91b5a68361c39fa6c31901e699896adfffad5d53cdb9e",
+      "bitwise_rebuild_identical": true
+    },
+    {
+      "build": "sparse_20261014T140520Z",
+      "binary": "sparse_runner",
+      "original_sha256": "f72eb6189a4392284a1b516a6fa3f633c9ce20b3e43285911515f166f2ca22ae",
+      "rebuilt_sha256": "f72eb6189a4392284a1b516a6fa3f633c9ce20b3e43285911515f166f2ca22ae",
+      "bitwise_rebuild_identical": true
+    }
+  ],
+  "notes": [
+    "Recorded commands replayed from relocated exported sources with inherited micro host environment and rootless CUDA environment as appropriate; no extra GPU experiment.",
+    "Binary differences, if any, do not invalidate successful source rebuild; original timed binaries remain retained.",
+    "CPU recomputation checked application and mechanism bootstrap intervals, counts and costs exactly."
+  ]
+}

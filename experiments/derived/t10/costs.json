@@ -1,0 +1,27 @@
+{
+  "worker_seconds": 1910.478779042678,
+  "worker_definition": "Wall-clock reservation of serialized GPU worker process, includes that process CPU initialization/reference work; not pure GPU busy time",
+  "actual_cost": 0,
+  "cost_unit": "CNY",
+  "basis": "User explicitly reports owned local hardware with no resource charge; electricity not metered",
+  "stages": {
+    "E0_qualification": 6.847974523014273,
+    "E0_sanitizer": 2.8334680020052474,
+    "E0_size_qualification": 4.705915616010316,
+    "E1": 5.7578963469859445,
+    "E2": 159.59349980085972,
+    "E3": 651.1900761239376,
+    "E4_W1": 889.5779647709132,
+    "E4_W2": 109.76758549197984,
+    "W1_calibration": 8.882118666981114,
+    "W1_empty_qualification": 4.3507802020030795,
+    "W1_pilot": 14.069579575007083,
+    "W1_profile": 3.1752546539646573,
+    "W1_qualification": 16.09369599301135,
+    "W1_sanitizer": 4.074443703008001,
+    "W2_calibration": 1.4890426409983775,
+    "W2_initial_qualification": 9.529872925995733,
+    "W2_qualification": 13.59909459600749,
+    "W2_sanitizer": 4.940515409994987
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "package": "GPU_COMPUTE_TOPOLOGY_DUAL_20261014",
+  "created": "2026-10-14",
+  "scope": "design-and-CPU-helpers; GPU_NOT_RUN",
+  "files": [
+    {
+      "path": "CODEX_MASTER_TASK.md",
+      "bytes": 14390,
+      "sha256": "b71c72d605c3773ce91562a90a61dff9c342ace05e8c0b195c67aea46d3356a6"
+    },
+    {
+      "path": "COPY_TO_CODEX.txt",
+      "bytes": 1967,
+      "sha256": "39de99ecf19e00cdb89070e46d36e3774a7b9c2e224440783cb60bdc83880b67"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 3420,
+      "sha256": "2b70a32db162fbfe06a0819a8197db12b6eabce424005d1b6ec10814f29fff17"
+    },
+    {
+      "path": "campaign.json",
+      "bytes": 2170,
+      "sha256": "1d428718f260fca368cdf7b1c3560fb2db13567f9bd87cdcb54e46ece2d32fb2"
+    },
+    {
+      "path": "config/LOCAL_PATHS.template.json",
+      "bytes": 393,
+      "sha256": "c1d3c55ce6a149d185baa1ca5871c38a4d09c6b5499a0baaea2a5e9220d0dcbf"
+    },
+    {
+      "path": "config/rtx5070ti.json",
+      "bytes": 230,
+      "sha256": "30666b180e733ff7c4787fd2f7d05ecc29245aa0ad08014b2eb499d2a11fa8ff"
+    },
+    {
+      "path": "config/t10.json",
+      "bytes": 229,
+      "sha256": "204b4742a38a21cbfed6b9b8cc990de434c46ad5de371bef940e47ec00941fce"
+    },
+    {
+      "path": "docs/00_GLOSSARY.md",
+      "bytes": 6332,
+      "sha256": "ff8c711b972c14072e246542773ecdb5a15ba1869c79ac6df30a61ba29981a8e"
+    },
+    {
+      "path": "docs/01_PLATFORMS_AND_SOURCES.md",
+      "bytes": 5919,
+      "sha256": "a1f08fe681ce4cd533594b3b05c3264b7694df1425e1d746e1fdf039c18034ce"
+    },
+    {
+      "path": "docs/02_TOPOLOGY_AND_CAPACITY.md",
+      "bytes": 7706,
+      "sha256": "5ce5cdfe3ffc572e1567f570497e9bc76aca9f652d80b34b6334bb7f733a6d5a"
+    },
+    {
+      "path": "docs/03_METHOD_AND_BASELINES.md",
+      "bytes": 8126,
+      "sha256": "86354e5b9fab76c9a50d6b99e228851b640fc1c4bfbb1cfd7bcf952f4ada64df"
+    },
+    {
+      "path": "docs/04_WORKLOADS_AND_CORRECTNESS.md",
+      "bytes": 6953,
+      "sha256": "dcb82fe41df1642321523b8108ee2ae70fa50cf5fb50bf262226141c780d9c1a"
+    },
+    {
+      "path": "docs/05_EXPERIMENTS_AND_STATS.md",
+      "bytes": 8529,
+      "sha256": "563cc1cc19b32548d32bc2748942cd1ac38f94de2e7c673b452560a419dd3ad0"
+    },
+    {
+      "path": "docs/06_RECORDING_AND_AUTONOMY.md",
+      "bytes": 6255,
+      "sha256": "8dbe6afb095261f7179078b44a0d6c7c5975ec886a542d53513a5771f81ce25c"
+    },
+    {
+      "path": "docs/07_TWO_HOSTS_AND_DELIVERY.md",
+      "bytes": 3880,
+      "sha256": "88e7545ea6a81b4839022595751ad0f0b388497d12ee6bb447cf4dc8aeb02107"
+    },
+    {
+      "path": "docs/08_CORRECTIONS_TO_PRIOR_PLAN.md",
+      "bytes": 2168,
+      "sha256": "2c1953dc4304d0005b27bcde4b426283f75b6e0e1a2efae4ec95a5f658276188"
+    },
+    {
+      "path": "starter_cuda/README.md",
+      "bytes": 1246,
+      "sha256": "666b993dfc59f439469c7bbdf348386a36fe89c5305c45ab9c9cc20ac2d2762c"
+    },
+    {
+      "path": "starter_cuda/cluster_probe.cu",
+      "bytes": 3947,
+      "sha256": "969c2ca449ab9da3db1a64f39e80976b0e5044eb081110a1d89e1bbcaad03d63"
+    },
+    {
+      "path": "starter_cuda/device_probe.cu",
+      "bytes": 2881,
+      "sha256": "eb7e3d911e210f4ad64564e43c393aae4dc09e29fefafdc54fca2c3b9396e7d7"
+    },
+    {
+      "path": "templates/CONTRIBUTION_CARD.md",
+      "bytes": 500,
+      "sha256": "b915e2bed17e0b4f772d5b63b78a33b880c7a94a0f913b3de52d686b50e117c6"
+    },
+    {
+      "path": "templates/PLATFORM_REPORT.md",
+      "bytes": 509,
+      "sha256": "1c45ce954d1f0724f15d96773ea7b9821b224b7f32ee3fbc46d250b502650f53"
+    },
+    {
+      "path": "templates/RECORD_SCHEMA.md",
+      "bytes": 2487,
+      "sha256": "33b3683146d726389c830b389f5474a326d93e6d860cfca85a69db0aa3a15fcd"
+    },
+    {
+      "path": "templates/platform_summary.template.json",
+      "bytes": 325,
+      "sha256": "d47ab4fc06c3ded0c12b4532fa6326cf37bc6fc68c71db2a42c27c1ff05a2712"
+    },
+    {
+      "path": "tests/test_helpers.py",
+      "bytes": 6473,
+      "sha256": "e6b0226718b97aa09a573f03700b36a828db90eb94087f05f65013252d0e3f85"
+    },
+    {
+      "path": "tools/merge_platforms.py",
+      "bytes": 1394,
+      "sha256": "115a54212f0fd3994d9f506d534f76eb7dff39a0fbc8e3a91eab505e2a889243"
+    },
+    {
+      "path": "tools/new_run.py",
+      "bytes": 1474,
+      "sha256": "25661cc10592e4831292aec7de0789507913a918b48807d74ea1c6bea550688a"
+    },
+    {
+      "path": "tools/plan.py",
+      "bytes": 1936,
+      "sha256": "21a294b504a1147f37d59de65c7dfcafd9f1336bee0a6c8d8daf46065a3c7c63"
+    },
+    {
+      "path": "tools/reference.py",
+      "bytes": 4898,
+      "sha256": "7864195f521d9c24277e67d0ce031f7363646862691c89bff2d1b10ce6bcf265"
+    },
+    {
+      "path": "tools/stats.py",
+      "bytes": 1817,
+      "sha256": "7ce5a13f4ba6a57df06dc1a257c12a1cb7057a052ac359acff0ea8037b333401"
+    },
+    {
+      "path": "tools/validate_plan.py",
+      "bytes": 1238,
+      "sha256": "7a396bb882272032b5ef3aaf37cfe5a5bfde667ef78fa241ceaaebae58e942d6"
+    },
+    {
+      "path": "validation/DESIGN_REVIEW.md",
+      "bytes": 2437,
+      "sha256": "b8a43a68fbf1d17a9a87b90be9fcfa5a23cd47ae05ad13dd51085ea1a9d8198e"
+    },
+    {
+      "path": "validation/cpu_tests.txt",
+      "bytes": 3226,
+      "sha256": "bf172ec651378c01bdac6ca7f2fae973a9b57c230254defa62654001eb4eff20"
+    },
+    {
+      "path": "validation/plan_check.json",
+      "bytes": 1051,
+      "sha256": "7345d864f5718bc3b1729c138a2fe0156586459c4c3b328bd35c35ebb7d15007"
+    }
+  ]
+}

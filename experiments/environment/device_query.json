@@ -1,0 +1,22 @@
+{
+  "name": "Tesla T10",
+  "device_index": 0,
+  "cc_major": 7,
+  "cc_minor": 5,
+  "sm_count": 56,
+  "l2_bytes": 4194304,
+  "global_bytes": 15636037632,
+  "shared_per_sm": 65536,
+  "max_threads_per_sm": 1024,
+  "driver_api_version": 13000,
+  "runtime_version": 12000,
+  "compiled_headers": 12000,
+  "cooperative_launch": 1,
+  "cluster_launch": 0,
+  "cluster_query_status": "no error",
+  "free_bytes_snapshot": 15492907008,
+  "total_bytes_meminfo": 15636037632,
+  "gpu_kernel_executed": false,
+  "green_context_status": "NOT_PROBED",
+  "note": "snapshot only; not proof of isolation, topology, or performance"
+}

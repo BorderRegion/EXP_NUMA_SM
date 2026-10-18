@@ -1,0 +1,7 @@
+{
+  "primary_w": 100,
+  "secondary_125w_status": "NA_PRIVILEGED_ENTRY_UNAVAILABLE",
+  "sudo_n_available": false,
+  "reason": "No password attempt permitted in current package; keep existing fixed100 service and protections. No power epoch changes performed.",
+  "restoration": "Read back and compare service file hashes at finalization"
+}

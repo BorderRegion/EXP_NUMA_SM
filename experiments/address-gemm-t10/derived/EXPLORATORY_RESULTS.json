@@ -1,0 +1,191 @@
+[
+  {
+    "worker": "smoke",
+    "case": "R_G002",
+    "offset": 0,
+    "control": "NATIVE",
+    "ADDRESS_time_reduction_pct": -0.9432782427253539,
+    "blocks": 3,
+    "status": "SMOKE"
+  },
+  {
+    "worker": "smoke",
+    "case": "R_G002",
+    "offset": 0,
+    "control": "LINEAR",
+    "ADDRESS_time_reduction_pct": 5.169229353935679,
+    "blocks": 3,
+    "status": "SMOKE"
+  },
+  {
+    "worker": "smoke",
+    "case": "R_G002",
+    "offset": 0,
+    "control": "IDENTITY",
+    "ADDRESS_time_reduction_pct": 2.3802853725880535,
+    "blocks": 3,
+    "status": "SMOKE"
+  },
+  {
+    "worker": "smoke",
+    "case": "R_G002",
+    "offset": 0,
+    "control": "RANDOM",
+    "ADDRESS_time_reduction_pct": 1.0816443621988414,
+    "blocks": 3,
+    "status": "SMOKE"
+  },
+  {
+    "worker": "smoke",
+    "case": "R_G002",
+    "offset": 0,
+    "control": "SM_ONLY",
+    "ADDRESS_time_reduction_pct": 1.2340971866351191,
+    "blocks": 3,
+    "status": "SMOKE"
+  },
+  {
+    "worker": "smoke",
+    "case": "R_G002",
+    "offset": 0,
+    "control": "SHUFFLED",
+    "ADDRESS_time_reduction_pct": 0.6326952713583633,
+    "blocks": 3,
+    "status": "SMOKE"
+  },
+  {
+    "worker": "smoke",
+    "case": "R_G002",
+    "offset": 0,
+    "control": "LIB",
+    "ADDRESS_time_reduction_pct": -36.907500156206005,
+    "blocks": 3,
+    "status": "SMOKE"
+  },
+  {
+    "worker": "smoke",
+    "case": "R_G017",
+    "offset": 0,
+    "control": "NATIVE",
+    "ADDRESS_time_reduction_pct": -0.5275439913954294,
+    "blocks": 3,
+    "status": "SMOKE"
+  },
+  {
+    "worker": "smoke",
+    "case": "R_G017",
+    "offset": 0,
+    "control": "LINEAR",
+    "ADDRESS_time_reduction_pct": -0.9496778890589974,
+    "blocks": 3,
+    "status": "SMOKE"
+  },
+  {
+    "worker": "smoke",
+    "case": "R_G017",
+    "offset": 0,
+    "control": "IDENTITY",
+    "ADDRESS_time_reduction_pct": 0.2568227114025934,
+    "blocks": 3,
+    "status": "SMOKE"
+  },
+  {
+    "worker": "smoke",
+    "case": "R_G017",
+    "offset": 0,
+    "control": "RANDOM",
+    "ADDRESS_time_reduction_pct": 0.049428467210388405,
+    "blocks": 3,
+    "status": "SMOKE"
+  },
+  {
+    "worker": "smoke",
+    "case": "R_G017",
+    "offset": 0,
+    "control": "SM_ONLY",
+    "ADDRESS_time_reduction_pct": -0.21506547854837077,
+    "blocks": 3,
+    "status": "SMOKE"
+  },
+  {
+    "worker": "smoke",
+    "case": "R_G017",
+    "offset": 0,
+    "control": "SHUFFLED",
+    "ADDRESS_time_reduction_pct": -0.0543099794593882,
+    "blocks": 3,
+    "status": "SMOKE"
+  },
+  {
+    "worker": "smoke",
+    "case": "R_G017",
+    "offset": 0,
+    "control": "LIB",
+    "ADDRESS_time_reduction_pct": -28.797423136495205,
+    "blocks": 3,
+    "status": "SMOKE"
+  },
+  {
+    "worker": "formal_0",
+    "case": "R_G002",
+    "offset": 0,
+    "control": "NATIVE",
+    "ADDRESS_time_reduction_pct": -1.8783625457962305,
+    "blocks": 24,
+    "status": "INCOMPLETE_PROCESS_TIMER_ASSERTION_NOT_A_COMPLETE_REPLICATE"
+  },
+  {
+    "worker": "formal_0",
+    "case": "R_G002",
+    "offset": 0,
+    "control": "LINEAR",
+    "ADDRESS_time_reduction_pct": -1.0690632136134637,
+    "blocks": 24,
+    "status": "INCOMPLETE_PROCESS_TIMER_ASSERTION_NOT_A_COMPLETE_REPLICATE"
+  },
+  {
+    "worker": "formal_0",
+    "case": "R_G002",
+    "offset": 0,
+    "control": "IDENTITY",
+    "ADDRESS_time_reduction_pct": 0.16810154278174005,
+    "blocks": 24,
+    "status": "INCOMPLETE_PROCESS_TIMER_ASSERTION_NOT_A_COMPLETE_REPLICATE"
+  },
+  {
+    "worker": "formal_0",
+    "case": "R_G002",
+    "offset": 0,
+    "control": "RANDOM",
+    "ADDRESS_time_reduction_pct": 0.1155726077833985,
+    "blocks": 24,
+    "status": "INCOMPLETE_PROCESS_TIMER_ASSERTION_NOT_A_COMPLETE_REPLICATE"
+  },
+  {
+    "worker": "formal_0",
+    "case": "R_G002",
+    "offset": 0,
+    "control": "SM_ONLY",
+    "ADDRESS_time_reduction_pct": 0.05551285068681189,
+    "blocks": 24,
+    "status": "INCOMPLETE_PROCESS_TIMER_ASSERTION_NOT_A_COMPLETE_REPLICATE"
+  },
+  {
+    "worker": "formal_0",
+    "case": "R_G002",
+    "offset": 0,
+    "control": "SHUFFLED",
+    "ADDRESS_time_reduction_pct": -0.053081849983582785,
+    "blocks": 24,
+    "status": "INCOMPLETE_PROCESS_TIMER_ASSERTION_NOT_A_COMPLETE_REPLICATE"
+  },
+  {
+    "worker": "formal_0",
+    "case": "R_G002",
+    "offset": 0,
+    "control": "LIB",
+    "ADDRESS_time_reduction_pct": -30.70830221580476,
+    "blocks": 24,
+    "status": "INCOMPLETE_PROCESS_TIMER_ASSERTION_NOT_A_COMPLETE_REPLICATE"
+  }
+]

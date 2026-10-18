@@ -1,0 +1,146 @@
+[
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "setup_ms": 20.018588,
+    "scan_updates_ms": 0.7410869999999999,
+    "screen_refine_gpu_ms": 17.275775787353517,
+    "screen_refine_host_ms": 17.632368000000003,
+    "note": "Recorded scan components only; final set+2Graph conditioning, fitting, allocation/wrapping and call overhead are included in setup but not separately timed. GPU and host intervals overlap; do not add them."
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "setup_ms": 26.791955,
+    "scan_updates_ms": 0.576625,
+    "screen_refine_gpu_ms": 16.45139196777344,
+    "screen_refine_host_ms": 16.810984,
+    "note": "Recorded scan components only; final set+2Graph conditioning, fitting, allocation/wrapping and call overhead are included in setup but not separately timed. GPU and host intervals overlap; do not add them."
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "setup_ms": 20.076343,
+    "scan_updates_ms": 0.749764,
+    "screen_refine_gpu_ms": 17.259327941894533,
+    "screen_refine_host_ms": 17.608855,
+    "note": "Recorded scan components only; final set+2Graph conditioning, fitting, allocation/wrapping and call overhead are included in setup but not separately timed. GPU and host intervals overlap; do not add them."
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "setup_ms": 21.375853,
+    "scan_updates_ms": 0.565553,
+    "screen_refine_gpu_ms": 11.547359954833984,
+    "screen_refine_host_ms": 11.86306,
+    "note": "Recorded scan components only; final set+2Graph conditioning, fitting, allocation/wrapping and call overhead are included in setup but not separately timed. GPU and host intervals overlap; do not add them."
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "setup_ms": 36.048763,
+    "scan_updates_ms": 0.647061,
+    "screen_refine_gpu_ms": 25.409439971923828,
+    "screen_refine_host_ms": 25.773628000000006,
+    "note": "Recorded scan components only; final set+2Graph conditioning, fitting, allocation/wrapping and call overhead are included in setup but not separately timed. GPU and host intervals overlap; do not add them."
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "setup_ms": 13.672561,
+    "scan_updates_ms": 0.564551,
+    "screen_refine_gpu_ms": 11.463807907104492,
+    "screen_refine_host_ms": 11.760838,
+    "note": "Recorded scan components only; final set+2Graph conditioning, fitting, allocation/wrapping and call overhead are included in setup but not separately timed. GPU and host intervals overlap; do not add them."
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "setup_ms": 35.406666,
+    "scan_updates_ms": 0.70611,
+    "screen_refine_gpu_ms": 25.40832015991211,
+    "screen_refine_host_ms": 25.782308,
+    "note": "Recorded scan components only; final set+2Graph conditioning, fitting, allocation/wrapping and call overhead are included in setup but not separately timed. GPU and host intervals overlap; do not add them."
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "setup_ms": 13.600322,
+    "scan_updates_ms": 0.529029,
+    "screen_refine_gpu_ms": 11.460480041503907,
+    "screen_refine_host_ms": 11.759027999999999,
+    "note": "Recorded scan components only; final set+2Graph conditioning, fitting, allocation/wrapping and call overhead are included in setup but not separately timed. GPU and host intervals overlap; do not add them."
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "setup_ms": 31.788787,
+    "scan_updates_ms": 0.592197,
+    "screen_refine_gpu_ms": 20.959231842041017,
+    "screen_refine_host_ms": 21.283202000000003,
+    "note": "Recorded scan components only; final set+2Graph conditioning, fitting, allocation/wrapping and call overhead are included in setup but not separately timed. GPU and host intervals overlap; do not add them."
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "setup_ms": 13.750285,
+    "scan_updates_ms": 0.530448,
+    "screen_refine_gpu_ms": 11.57331199645996,
+    "screen_refine_host_ms": 11.903365999999998,
+    "note": "Recorded scan components only; final set+2Graph conditioning, fitting, allocation/wrapping and call overhead are included in setup but not separately timed. GPU and host intervals overlap; do not add them."
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "setup_ms": 20.039857,
+    "scan_updates_ms": 0.76054,
+    "screen_refine_gpu_ms": 17.252480194091795,
+    "screen_refine_host_ms": 17.667061,
+    "note": "Recorded scan components only; final set+2Graph conditioning, fitting, allocation/wrapping and call overhead are included in setup but not separately timed. GPU and host intervals overlap; do not add them."
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "setup_ms": 25.378344,
+    "scan_updates_ms": 0.5462570000000001,
+    "screen_refine_gpu_ms": 15.075871978759766,
+    "screen_refine_host_ms": 15.417233,
+    "note": "Recorded scan components only; final set+2Graph conditioning, fitting, allocation/wrapping and call overhead are included in setup but not separately timed. GPU and host intervals overlap; do not add them."
+  },
+  {
+    "worker": "dev_0",
+    "scope": "freshbatch",
+    "setup_ms": 35.970916,
+    "scan_updates_ms": 0.648034,
+    "screen_refine_gpu_ms": 25.566080017089845,
+    "screen_refine_host_ms": 25.908612,
+    "note": "Recorded scan components only; final set+2Graph conditioning, fitting, allocation/wrapping and call overhead are included in setup but not separately timed. GPU and host intervals overlap; do not add them."
+  },
+  {
+    "worker": "dev_0",
+    "scope": "batch",
+    "setup_ms": 14.144983,
+    "scan_updates_ms": 0.6425960000000001,
+    "screen_refine_gpu_ms": 11.483647979736329,
+    "screen_refine_host_ms": 11.938788,
+    "note": "Recorded scan components only; final set+2Graph conditioning, fitting, allocation/wrapping and call overhead are included in setup but not separately timed. GPU and host intervals overlap; do not add them."
+  },
+  {
+    "worker": "dev_1",
+    "scope": "freshbatch",
+    "setup_ms": 19.870514,
+    "scan_updates_ms": 0.725791,
+    "screen_refine_gpu_ms": 17.190815826416017,
+    "screen_refine_host_ms": 17.576743,
+    "note": "Recorded scan components only; final set+2Graph conditioning, fitting, allocation/wrapping and call overhead are included in setup but not separately timed. GPU and host intervals overlap; do not add them."
+  },
+  {
+    "worker": "dev_1",
+    "scope": "batch",
+    "setup_ms": 24.934971,
+    "scan_updates_ms": 0.615772,
+    "screen_refine_gpu_ms": 14.753952117919923,
+    "screen_refine_host_ms": 15.082512,
+    "note": "Recorded scan components only; final set+2Graph conditioning, fitting, allocation/wrapping and call overhead are included in setup but not separately timed. GPU and host intervals overlap; do not add them."
+  }
+]

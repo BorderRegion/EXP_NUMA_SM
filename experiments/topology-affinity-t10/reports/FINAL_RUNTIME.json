@@ -1,0 +1,5 @@
+{
+  "created_utc": "2026-10-18T08:38:02.604121+00:00",
+  "gpu": "name, uuid, temperature.gpu, power.limit [W], utilization.gpu [%]\nTesla T10, GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5, 64, 100.00 W, 0 %\n",
+  "processes": "pid, process_name, used_gpu_memory [MiB]\n1697361, /usr/libexec/gnome-remote-desktop-daemon, 248 MiB\n"
+}

@@ -1,0 +1,103 @@
+{
+  "created_utc": "2026-10-17T13:47:30Z",
+  "gpu_worker_cap_seconds": 1800,
+  "cases": [
+    {
+      "id": "R_G002",
+      "split": "regression",
+      "M": 1,
+      "N": 1024,
+      "K": 16384,
+      "source": "HISTORICAL_SHAPE_NEW_RUN_NOT_HOLDOUT",
+      "measured": false,
+      "cohort": "regression",
+      "previously_seen": true,
+      "recipe": 0,
+      "s": 4,
+      "this_campaign": "previously measured shape; new process/input/allocation"
+    },
+    {
+      "id": "R_G017",
+      "split": "regression",
+      "M": 32,
+      "N": 8192,
+      "K": 4096,
+      "source": "HISTORICAL_SHAPE_NEW_RUN_NOT_HOLDOUT",
+      "measured": false,
+      "cohort": "regression",
+      "previously_seen": true,
+      "recipe": 2,
+      "s": 8,
+      "this_campaign": "previously measured shape; new process/input/allocation"
+    },
+    {
+      "id": "D13",
+      "split": "development",
+      "M": 48,
+      "N": 2048,
+      "K": 6144,
+      "source": "DESIGNED_SYNTHETIC",
+      "measured": false,
+      "cohort": "development_remeasured",
+      "previously_seen": true,
+      "recipe": 2,
+      "s": 4,
+      "this_campaign": "previously measured shape; new process/input/allocation"
+    },
+    {
+      "id": "V13",
+      "split": "new_confirmation",
+      "cohort": "new_confirmation",
+      "M": 224,
+      "N": 2560,
+      "K": 10240,
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "measured": false,
+      "previously_seen": true,
+      "extrapolation": true,
+      "recipe": 2,
+      "s": 4,
+      "this_campaign": "previously measured shape; new process/input/allocation"
+    }
+  ],
+  "development_processes": 2,
+  "confirmation_processes": 6,
+  "workspace_offsets_bytes": [
+    0,
+    69632
+  ],
+  "chunks_candidates": [
+    512,
+    1024
+  ],
+  "grid_candidates": [
+    56,
+    112
+  ],
+  "confirmation_blocks": 30,
+  "replays_per_block": 8,
+  "formal_selection": "Choose one global (chunk,grid) minimizing geometric-mean full GPU latency / NATIVE over both development processes and all shapes/offsets, using the faster orientation per development condition. Freeze geometry before confirmation. Each confirmation allocation selects MATCH or INVERT on 12 randomized calibration blocks then freezes it for disjoint testing.",
+  "queue_policies": [
+    "NATIVE",
+    "DIRECT",
+    "QUEUE_BLIND",
+    "QUEUE_MATCH",
+    "QUEUE_INVERT",
+    "QUEUE_SHUFFLED",
+    "FUSED",
+    "LIB"
+  ],
+  "sm_preference": "SM%10 in {4,5,6,7} => class1, others class0; historical empirical hypothesis only",
+  "address_class": "parity((workspace_virtual_address>>12)&0x33); assumes VA class transfers and tests both orientations; not physical home proof",
+  "task_queue": "two lists of page-local chunks, each CTA first takes its preferred list then steals from the other; no grid sync, no residency reservation; actual assignment traced separately",
+  "fused": "Original CUTLASS MMA plus per-tile release counter; last arriving producer CTA performs ordered reduction; no spin wait; one kernel; counters reset by last CTA for the next serialized replay.",
+  "controls": "same queue machinery without SM-address preference; inverted and shuffled address labels; direct reducer without queue; original CUTLASS; cuBLAS",
+  "primary": "Complete GEMM start-event to end-event; CPU submit-to-output-ready also recorded",
+  "costs": "all launch, atomics, counter resets, reduction and mapping loads included; input copies/calibration/CPU lists/graph setup separate",
+  "no_result_filter": true,
+  "health": "100W unchanged; stop at 82C; exclusive worker flock",
+  "development_blocks": 12,
+  "development_replays": 4,
+  "confirmation_calibration_blocks": 12,
+  "confirmation_calibration_replays": 4
+}

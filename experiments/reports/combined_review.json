@@ -1,0 +1,220 @@
+{
+  "scope": "side-by-side only; no pooled raw-time speedup",
+  "compatibility": "REVIEW_REQUIRED",
+  "issues": [
+    "Both platform results not present"
+  ],
+  "platform_reports": [
+    {
+      "platform": "t10",
+      "device_id_alias": "local_t10_01",
+      "device_identity": {
+        "name": "Tesla T10",
+        "device_index": 0,
+        "cc_major": 7,
+        "cc_minor": 5,
+        "sm_count": 56,
+        "l2_bytes": 4194304,
+        "global_bytes": 15636037632,
+        "shared_per_sm": 65536,
+        "max_threads_per_sm": 1024,
+        "driver_api_version": 13000,
+        "runtime_version": 12000,
+        "compiled_headers": 12000,
+        "cooperative_launch": 1,
+        "cluster_launch": 0,
+        "cluster_query_status": "no error",
+        "free_bytes_snapshot": 15492907008,
+        "total_bytes_meminfo": 15636037632,
+        "gpu_kernel_executed": false,
+        "green_context_status": "NOT_PROBED",
+        "note": "snapshot only; not proof of isolation, topology, or performance"
+      },
+      "protocol_hash": "1d428718f260fca368cdf7b1c3560fb2db13567f9bd87cdcb54e46ece2d32fb2",
+      "local_protocol_hash": "17556ea55f58589c1cbf5a42f8ae1a1312009bcac311b8997a6d4805da480384",
+      "method_source_hash": "b4b659ea036cf7a508829583d219bf3129878132a30796572138573cf0181627",
+      "inputs_manifest_hash": "8b055536f9237482718b45f31329059ff313bd6a71df8c5be6013970c9f61432",
+      "build_recipe": {
+        "20261014T134450Z": {
+          "manifest": "build/20261014T134450Z/build.json",
+          "compilation_ms": 5838.539672986371,
+          "source_snapshot": "build/20261014T134450Z/source_snapshot"
+        },
+        "renderer_20261014T140212Z": {
+          "manifest": "build/renderer_20261014T140212Z/build.json",
+          "compilation_ms": 20030.467740012682,
+          "source_snapshot": "build/renderer_20261014T140212Z/source_snapshot"
+        },
+        "sparse_20261014T140520Z": {
+          "manifest": "build/sparse_20261014T140520Z/build.json",
+          "compilation_ms": 4049.1398879967164,
+          "source_snapshot": "build/sparse_20261014T140520Z/source_snapshot"
+        }
+      },
+      "available_paths": [
+        "Native",
+        "Green_G0_56",
+        "Green_G1_28_28",
+        "Green_G2_18_38",
+        "Green_G3_28_28",
+        "E2_four_kernel_families",
+        "E3_NISLRMP",
+        "W1_full_dynamic_3DGS_720p",
+        "W2_real_input_CSR_operator"
+      ],
+      "missing_cells": [
+        {
+          "cell": "RTX5070Ti",
+          "status": "NOT_RUN_HERE"
+        },
+        {
+          "cell": "T10_cluster_DSM",
+          "status": "UNSUPPORTED"
+        },
+        {
+          "cell": "physical_GPC_map_and_T",
+          "status": "NA"
+        },
+        {
+          "cell": "W1_gsplat_production_Bext",
+          "status": "BASELINE_GAP"
+        },
+        {
+          "cell": "W2_existing_full_production_application",
+          "status": "SCOPE_GAP"
+        },
+        {
+          "cell": "E5_Truck_resolution_colocation_lifecycle_constants_logging_ablation",
+          "status": "NOT_TRIGGERED"
+        },
+        {
+          "cell": "Native_trailing_timed_anchor",
+          "status": "NOT_RUN"
+        },
+        {
+          "cell": "original_CPU_planning_time",
+          "status": "NOT_INSTRUMENTED"
+        }
+      ],
+      "primary_comparisons": [
+        {
+          "comparison": "W1_M/N",
+          "ratio": 1.1112842691113527,
+          "time_reduction_pct": -11.12842691113527,
+          "ratio_ci95": [
+            1.097248378549204,
+            1.1274168747673161
+          ],
+          "ratio_ci97_5": [
+            1.0956918748769833,
+            1.1297277206247016
+          ],
+          "draws": 20000,
+          "seed": 2026101403,
+          "strata": 4,
+          "independent_blocks": 24,
+          "blocks_per_stratum": {
+            "W1/bonsai/0": 6,
+            "W1/bonsai/1": 6,
+            "W1/train/0": 6,
+            "W1/train/1": 6
+          },
+          "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+          "raw_pairs": "derived/t10/paired_M_N.json"
+        },
+        {
+          "comparison": "W1_M/R",
+          "ratio": 1.002329120329213,
+          "time_reduction_pct": -0.23291203292130636,
+          "ratio_ci95": [
+            0.9997425124850486,
+            1.0047405176406092
+          ],
+          "ratio_ci97_5": [
+            0.999342368249544,
+            1.005031911855044
+          ],
+          "draws": 20000,
+          "seed": 2026101403,
+          "strata": 4,
+          "independent_blocks": 24,
+          "blocks_per_stratum": {
+            "W1/bonsai/0": 6,
+            "W1/bonsai/1": 6,
+            "W1/train/0": 6,
+            "W1/train/1": 6
+          },
+          "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+          "raw_pairs": "derived/t10/paired_M_R.json"
+        },
+        {
+          "comparison": "W2_M/N",
+          "ratio": 1.227100063912946,
+          "time_reduction_pct": -22.71000639129459,
+          "ratio_ci95": [
+            1.1182560070981866,
+            1.3645807240553858
+          ],
+          "ratio_ci97_5": [
+            1.1042205029807197,
+            1.3891852446051505
+          ],
+          "draws": 20000,
+          "seed": 2026101403,
+          "strata": 4,
+          "independent_blocks": 24,
+          "blocks_per_stratum": {
+            "W2/ca-GrQc/0": 6,
+            "W2/ca-GrQc/1": 6,
+            "W2/web-Google/0": 6,
+            "W2/web-Google/1": 6
+          },
+          "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+          "raw_pairs": "derived/t10/paired_M_N.json"
+        },
+        {
+          "comparison": "W2_M/R",
+          "ratio": 0.9952924759523265,
+          "time_reduction_pct": 0.4707524047673495,
+          "ratio_ci95": [
+            0.9800363572899442,
+            1.0104382489186805
+          ],
+          "ratio_ci97_5": [
+            0.9778801900729535,
+            1.0124430917309313
+          ],
+          "draws": 20000,
+          "seed": 2026101403,
+          "strata": 4,
+          "independent_blocks": 24,
+          "blocks_per_stratum": {
+            "W2/ca-GrQc/0": 6,
+            "W2/ca-GrQc/1": 6,
+            "W2/web-Google/0": 6,
+            "W2/web-Google/1": 6
+          },
+          "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+          "raw_pairs": "derived/t10/paired_M_R.json"
+        }
+      ],
+      "scope": {
+        "n_device": 1,
+        "independent_unit": "process block (E3 uses paired fresh-process batch)",
+        "process_blocks_per_cell": 6,
+        "formal_process_blocks": 48,
+        "formal_sessions": 144,
+        "measured_frames_or_requests": 73728,
+        "cluster_claim": false,
+        "gpc_causality": false,
+        "cross_device_pooling": false,
+        "interpretation": "Within-device exploratory; outcome refers to public resource-set observations, not reconstructed physical topology"
+      },
+      "outcome": "TOPOLOGY_OBSERVED_NO_DEPLOYABLE_GAIN",
+      "worker_seconds": 1910.478779042678,
+      "actual_cost": 0,
+      "cost_unit": "CNY",
+      "cost_basis": "User explicitly reports owned local hardware with no resource charge; electricity not metered"
+    }
+  ]
+}

@@ -1,0 +1,986 @@
+[
+  {
+    "case": "VOCAB_131072",
+    "page": 0,
+    "cost_to_runtime_pearson": -0.008209538523156,
+    "policies": [
+      {
+        "policy": "MINIMAX",
+        "predicted_mean_cycles": 1762.1519949776787,
+        "observed_us": 10.788088341255673
+      },
+      {
+        "policy": "IDENTITY",
+        "predicted_mean_cycles": 1824.5454799107142,
+        "observed_us": 11.019883180775551
+      },
+      {
+        "policy": "WORST",
+        "predicted_mean_cycles": 1968.8876953125,
+        "observed_us": 10.854117199683303
+      },
+      {
+        "policy": "RND00",
+        "predicted_mean_cycles": 1883.138392857143,
+        "observed_us": 10.895256809463701
+      },
+      {
+        "policy": "RND01",
+        "predicted_mean_cycles": 1880.6176060267858,
+        "observed_us": 10.766134536864335
+      },
+      {
+        "policy": "RND02",
+        "predicted_mean_cycles": 1827.5595005580358,
+        "observed_us": 10.865527456548717
+      },
+      {
+        "policy": "RND03",
+        "predicted_mean_cycles": 1807.140834263393,
+        "observed_us": 10.879736937333215
+      },
+      {
+        "policy": "RND04",
+        "predicted_mean_cycles": 1821.9420340401787,
+        "observed_us": 10.860407586472332
+      },
+      {
+        "policy": "RND05",
+        "predicted_mean_cycles": 1823.9632393973213,
+        "observed_us": 10.883421935799491
+      },
+      {
+        "policy": "RND06",
+        "predicted_mean_cycles": 1838.9376395089287,
+        "observed_us": 10.745885480297366
+      },
+      {
+        "policy": "RND07",
+        "predicted_mean_cycles": 1824.7576729910713,
+        "observed_us": 10.878163150198043
+      },
+      {
+        "policy": "RND08",
+        "predicted_mean_cycles": 1816.1988699776787,
+        "observed_us": 10.844349252583315
+      },
+      {
+        "policy": "RND09",
+        "predicted_mean_cycles": 1818.4228515625,
+        "observed_us": 10.829535976291425
+      },
+      {
+        "policy": "RND10",
+        "predicted_mean_cycles": 1845.3360072544642,
+        "observed_us": 10.89476688134732
+      },
+      {
+        "policy": "RND11",
+        "predicted_mean_cycles": 1827.7871791294642,
+        "observed_us": 10.8902950046402
+      }
+    ]
+  },
+  {
+    "case": "VOCAB_131072",
+    "page": 17,
+    "cost_to_runtime_pearson": 0.3218015952842648,
+    "policies": [
+      {
+        "policy": "MINIMAX",
+        "predicted_mean_cycles": 1742.3834402901787,
+        "observed_us": 10.823299343576537
+      },
+      {
+        "policy": "IDENTITY",
+        "predicted_mean_cycles": 1863.7249581473213,
+        "observed_us": 10.984587154921796
+      },
+      {
+        "policy": "WORST",
+        "predicted_mean_cycles": 2047.3816964285713,
+        "observed_us": 10.912340293782123
+      },
+      {
+        "policy": "RND00",
+        "predicted_mean_cycles": 1813.6036551339287,
+        "observed_us": 10.790293660615784
+      },
+      {
+        "policy": "RND01",
+        "predicted_mean_cycles": 1804.0991908482142,
+        "observed_us": 10.956238924608657
+      },
+      {
+        "policy": "RND02",
+        "predicted_mean_cycles": 1834.6243722098213,
+        "observed_us": 10.83586465893765
+      },
+      {
+        "policy": "RND03",
+        "predicted_mean_cycles": 1834.3959263392858,
+        "observed_us": 10.893106064503035
+      },
+      {
+        "policy": "RND04",
+        "predicted_mean_cycles": 1824.910435267857,
+        "observed_us": 10.850857102000989
+      },
+      {
+        "policy": "RND05",
+        "predicted_mean_cycles": 1827.8212193080358,
+        "observed_us": 10.883227992893563
+      },
+      {
+        "policy": "RND06",
+        "predicted_mean_cycles": 1835.0918666294642,
+        "observed_us": 10.903218209749026
+      },
+      {
+        "policy": "RND07",
+        "predicted_mean_cycles": 1836.118373325893,
+        "observed_us": 10.84084020363626
+      },
+      {
+        "policy": "RND08",
+        "predicted_mean_cycles": 1814.3523995535713,
+        "observed_us": 10.899263202572271
+      },
+      {
+        "policy": "RND09",
+        "predicted_mean_cycles": 1825.4061802455358,
+        "observed_us": 10.903694997223424
+      },
+      {
+        "policy": "RND10",
+        "predicted_mean_cycles": 1873.4185965401787,
+        "observed_us": 10.907596259128672
+      },
+      {
+        "policy": "RND11",
+        "predicted_mean_cycles": 1812.2377232142858,
+        "observed_us": 10.895435650468876
+      }
+    ]
+  },
+  {
+    "case": "VOCAB_131072",
+    "page": 257,
+    "cost_to_runtime_pearson": 0.14442876782603833,
+    "policies": [
+      {
+        "policy": "MINIMAX",
+        "predicted_mean_cycles": 1724.026157924107,
+        "observed_us": 10.820783145804311
+      },
+      {
+        "policy": "IDENTITY",
+        "predicted_mean_cycles": 1809.9589146205358,
+        "observed_us": 10.950076572414211
+      },
+      {
+        "policy": "WORST",
+        "predicted_mean_cycles": 1935.0611049107142,
+        "observed_us": 10.86310716036255
+      },
+      {
+        "policy": "RND00",
+        "predicted_mean_cycles": 1826.578822544643,
+        "observed_us": 10.799942206032407
+      },
+      {
+        "policy": "RND01",
+        "predicted_mean_cycles": 1834.2972935267858,
+        "observed_us": 10.838134992888005
+      },
+      {
+        "policy": "RND02",
+        "predicted_mean_cycles": 1818.996303013393,
+        "observed_us": 10.860624564256511
+      },
+      {
+        "policy": "RND03",
+        "predicted_mean_cycles": 1816.8465401785713,
+        "observed_us": 10.869135477764848
+      },
+      {
+        "policy": "RND04",
+        "predicted_mean_cycles": 1823.1600864955358,
+        "observed_us": 10.857822297842453
+      },
+      {
+        "policy": "RND05",
+        "predicted_mean_cycles": 1813.1182338169642,
+        "observed_us": 10.843685761593322
+      },
+      {
+        "policy": "RND06",
+        "predicted_mean_cycles": 1830.4993722098213,
+        "observed_us": 10.874079322008427
+      },
+      {
+        "policy": "RND07",
+        "predicted_mean_cycles": 1811.9287806919642,
+        "observed_us": 10.859617058632425
+      },
+      {
+        "policy": "RND08",
+        "predicted_mean_cycles": 1831.5348074776787,
+        "observed_us": 10.851049595913057
+      },
+      {
+        "policy": "RND09",
+        "predicted_mean_cycles": 1819.4461495535713,
+        "observed_us": 10.85589613069917
+      },
+      {
+        "policy": "RND10",
+        "predicted_mean_cycles": 1826.0894949776787,
+        "observed_us": 10.831345133961548
+      },
+      {
+        "policy": "RND11",
+        "predicted_mean_cycles": 1819.6366489955358,
+        "observed_us": 10.83464929788611
+      }
+    ]
+  },
+  {
+    "case": "VOCAB_262144",
+    "page": 0,
+    "cost_to_runtime_pearson": 0.12202315120173239,
+    "policies": [
+      {
+        "policy": "MINIMAX",
+        "predicted_mean_cycles": 1762.1519949776787,
+        "observed_us": 12.829917736304411
+      },
+      {
+        "policy": "IDENTITY",
+        "predicted_mean_cycles": 1824.5454799107142,
+        "observed_us": 12.840249787889965
+      },
+      {
+        "policy": "WORST",
+        "predicted_mean_cycles": 1968.8876953125,
+        "observed_us": 12.789049848638644
+      },
+      {
+        "policy": "RND00",
+        "predicted_mean_cycles": 1883.138392857143,
+        "observed_us": 12.854738835532475
+      },
+      {
+        "policy": "RND01",
+        "predicted_mean_cycles": 1880.6176060267858,
+        "observed_us": 12.85054433152304
+      },
+      {
+        "policy": "RND02",
+        "predicted_mean_cycles": 1827.5595005580358,
+        "observed_us": 12.771383328106431
+      },
+      {
+        "policy": "RND03",
+        "predicted_mean_cycles": 1807.140834263393,
+        "observed_us": 12.790375053794358
+      },
+      {
+        "policy": "RND04",
+        "predicted_mean_cycles": 1821.9420340401787,
+        "observed_us": 12.750143543779947
+      },
+      {
+        "policy": "RND05",
+        "predicted_mean_cycles": 1823.9632393973213,
+        "observed_us": 12.828206145382909
+      },
+      {
+        "policy": "RND06",
+        "predicted_mean_cycles": 1838.9376395089287,
+        "observed_us": 12.92485095489392
+      },
+      {
+        "policy": "RND07",
+        "predicted_mean_cycles": 1824.7576729910713,
+        "observed_us": 12.741936359310401
+      },
+      {
+        "policy": "RND08",
+        "predicted_mean_cycles": 1816.1988699776787,
+        "observed_us": 12.786730024411234
+      },
+      {
+        "policy": "RND09",
+        "predicted_mean_cycles": 1818.4228515625,
+        "observed_us": 12.742929798993849
+      },
+      {
+        "policy": "RND10",
+        "predicted_mean_cycles": 1845.3360072544642,
+        "observed_us": 12.883751647355826
+      },
+      {
+        "policy": "RND11",
+        "predicted_mean_cycles": 1827.7871791294642,
+        "observed_us": 12.8101423756117
+      }
+    ]
+  },
+  {
+    "case": "VOCAB_262144",
+    "page": 17,
+    "cost_to_runtime_pearson": -0.19932780840386158,
+    "policies": [
+      {
+        "policy": "MINIMAX",
+        "predicted_mean_cycles": 1742.3834402901787,
+        "observed_us": 12.719322600777971
+      },
+      {
+        "policy": "IDENTITY",
+        "predicted_mean_cycles": 1863.7249581473213,
+        "observed_us": 12.747853161354525
+      },
+      {
+        "policy": "WORST",
+        "predicted_mean_cycles": 2047.3816964285713,
+        "observed_us": 12.724333532155107
+      },
+      {
+        "policy": "RND00",
+        "predicted_mean_cycles": 1813.6036551339287,
+        "observed_us": 12.794109779652807
+      },
+      {
+        "policy": "RND01",
+        "predicted_mean_cycles": 1804.0991908482142,
+        "observed_us": 12.827496654417699
+      },
+      {
+        "policy": "RND02",
+        "predicted_mean_cycles": 1834.6243722098213,
+        "observed_us": 12.73166532702593
+      },
+      {
+        "policy": "RND03",
+        "predicted_mean_cycles": 1834.3959263392858,
+        "observed_us": 12.712671317060122
+      },
+      {
+        "policy": "RND04",
+        "predicted_mean_cycles": 1824.910435267857,
+        "observed_us": 12.746996436957431
+      },
+      {
+        "policy": "RND05",
+        "predicted_mean_cycles": 1827.8212193080358,
+        "observed_us": 12.84137418109021
+      },
+      {
+        "policy": "RND06",
+        "predicted_mean_cycles": 1835.0918666294642,
+        "observed_us": 12.769734030674735
+      },
+      {
+        "policy": "RND07",
+        "predicted_mean_cycles": 1836.118373325893,
+        "observed_us": 12.79324197204158
+      },
+      {
+        "policy": "RND08",
+        "predicted_mean_cycles": 1814.3523995535713,
+        "observed_us": 12.765759067985764
+      },
+      {
+        "policy": "RND09",
+        "predicted_mean_cycles": 1825.4061802455358,
+        "observed_us": 12.711355286468274
+      },
+      {
+        "policy": "RND10",
+        "predicted_mean_cycles": 1873.4185965401787,
+        "observed_us": 12.712073724946853
+      },
+      {
+        "policy": "RND11",
+        "predicted_mean_cycles": 1812.2377232142858,
+        "observed_us": 12.723653900697458
+      }
+    ]
+  },
+  {
+    "case": "VOCAB_262144",
+    "page": 257,
+    "cost_to_runtime_pearson": 0.3234992677541167,
+    "policies": [
+      {
+        "policy": "MINIMAX",
+        "predicted_mean_cycles": 1724.026157924107,
+        "observed_us": 12.750894318917416
+      },
+      {
+        "policy": "IDENTITY",
+        "predicted_mean_cycles": 1809.9589146205358,
+        "observed_us": 12.771289367503773
+      },
+      {
+        "policy": "WORST",
+        "predicted_mean_cycles": 1935.0611049107142,
+        "observed_us": 12.818530438006906
+      },
+      {
+        "policy": "RND00",
+        "predicted_mean_cycles": 1826.578822544643,
+        "observed_us": 12.75959897138971
+      },
+      {
+        "policy": "RND01",
+        "predicted_mean_cycles": 1834.2972935267858,
+        "observed_us": 12.776244579426283
+      },
+      {
+        "policy": "RND02",
+        "predicted_mean_cycles": 1818.996303013393,
+        "observed_us": 12.798962806838153
+      },
+      {
+        "policy": "RND03",
+        "predicted_mean_cycles": 1816.8465401785713,
+        "observed_us": 12.81986423421577
+      },
+      {
+        "policy": "RND04",
+        "predicted_mean_cycles": 1823.1600864955358,
+        "observed_us": 12.755741815462718
+      },
+      {
+        "policy": "RND05",
+        "predicted_mean_cycles": 1813.1182338169642,
+        "observed_us": 12.834172733292446
+      },
+      {
+        "policy": "RND06",
+        "predicted_mean_cycles": 1830.4993722098213,
+        "observed_us": 12.798972751931815
+      },
+      {
+        "policy": "RND07",
+        "predicted_mean_cycles": 1811.9287806919642,
+        "observed_us": 12.721580447724525
+      },
+      {
+        "policy": "RND08",
+        "predicted_mean_cycles": 1831.5348074776787,
+        "observed_us": 12.743404714643205
+      },
+      {
+        "policy": "RND09",
+        "predicted_mean_cycles": 1819.4461495535713,
+        "observed_us": 12.777212238768527
+      },
+      {
+        "policy": "RND10",
+        "predicted_mean_cycles": 1826.0894949776787,
+        "observed_us": 12.855268388267179
+      },
+      {
+        "policy": "RND11",
+        "predicted_mean_cycles": 1819.6366489955358,
+        "observed_us": 12.729797976393503
+      }
+    ]
+  },
+  {
+    "case": "VOCAB_32768",
+    "page": 0,
+    "cost_to_runtime_pearson": 0.17201791871074182,
+    "policies": [
+      {
+        "policy": "MINIMAX",
+        "predicted_mean_cycles": 1762.1519949776787,
+        "observed_us": 9.973089311248668
+      },
+      {
+        "policy": "IDENTITY",
+        "predicted_mean_cycles": 1824.5454799107142,
+        "observed_us": 10.071208004705978
+      },
+      {
+        "policy": "WORST",
+        "predicted_mean_cycles": 1968.8876953125,
+        "observed_us": 10.023571095260033
+      },
+      {
+        "policy": "RND00",
+        "predicted_mean_cycles": 1883.138392857143,
+        "observed_us": 10.067906879316293
+      },
+      {
+        "policy": "RND01",
+        "predicted_mean_cycles": 1880.6176060267858,
+        "observed_us": 10.006485897797988
+      },
+      {
+        "policy": "RND02",
+        "predicted_mean_cycles": 1827.5595005580358,
+        "observed_us": 10.002889804858789
+      },
+      {
+        "policy": "RND03",
+        "predicted_mean_cycles": 1807.140834263393,
+        "observed_us": 10.022845783830686
+      },
+      {
+        "policy": "RND04",
+        "predicted_mean_cycles": 1821.9420340401787,
+        "observed_us": 10.060226233758497
+      },
+      {
+        "policy": "RND05",
+        "predicted_mean_cycles": 1823.9632393973213,
+        "observed_us": 10.044664258566385
+      },
+      {
+        "policy": "RND06",
+        "predicted_mean_cycles": 1838.9376395089287,
+        "observed_us": 10.057029202890504
+      },
+      {
+        "policy": "RND07",
+        "predicted_mean_cycles": 1824.7576729910713,
+        "observed_us": 10.02897889794481
+      },
+      {
+        "policy": "RND08",
+        "predicted_mean_cycles": 1816.1988699776787,
+        "observed_us": 10.0665706458585
+      },
+      {
+        "policy": "RND09",
+        "predicted_mean_cycles": 1818.4228515625,
+        "observed_us": 10.020817511798406
+      },
+      {
+        "policy": "RND10",
+        "predicted_mean_cycles": 1845.3360072544642,
+        "observed_us": 10.046579925623538
+      },
+      {
+        "policy": "RND11",
+        "predicted_mean_cycles": 1827.7871791294642,
+        "observed_us": 10.011475687485081
+      }
+    ]
+  },
+  {
+    "case": "VOCAB_32768",
+    "page": 17,
+    "cost_to_runtime_pearson": -0.11806280623166585,
+    "policies": [
+      {
+        "policy": "MINIMAX",
+        "predicted_mean_cycles": 1742.3834402901787,
+        "observed_us": 10.035723205354113
+      },
+      {
+        "policy": "IDENTITY",
+        "predicted_mean_cycles": 1863.7249581473213,
+        "observed_us": 10.05660551965933
+      },
+      {
+        "policy": "WORST",
+        "predicted_mean_cycles": 2047.3816964285713,
+        "observed_us": 10.037125280729663
+      },
+      {
+        "policy": "RND00",
+        "predicted_mean_cycles": 1813.6036551339287,
+        "observed_us": 10.062399253994732
+      },
+      {
+        "policy": "RND01",
+        "predicted_mean_cycles": 1804.0991908482142,
+        "observed_us": 10.07919992615231
+      },
+      {
+        "policy": "RND02",
+        "predicted_mean_cycles": 1834.6243722098213,
+        "observed_us": 10.02405488317227
+      },
+      {
+        "policy": "RND03",
+        "predicted_mean_cycles": 1834.3959263392858,
+        "observed_us": 10.077267295496709
+      },
+      {
+        "policy": "RND04",
+        "predicted_mean_cycles": 1824.910435267857,
+        "observed_us": 10.058619436593027
+      },
+      {
+        "policy": "RND05",
+        "predicted_mean_cycles": 1827.8212193080358,
+        "observed_us": 10.040962487067546
+      },
+      {
+        "policy": "RND06",
+        "predicted_mean_cycles": 1835.0918666294642,
+        "observed_us": 10.011269150006642
+      },
+      {
+        "policy": "RND07",
+        "predicted_mean_cycles": 1836.118373325893,
+        "observed_us": 10.048096034420686
+      },
+      {
+        "policy": "RND08",
+        "predicted_mean_cycles": 1814.3523995535713,
+        "observed_us": 10.047757013661162
+      },
+      {
+        "policy": "RND09",
+        "predicted_mean_cycles": 1825.4061802455358,
+        "observed_us": 10.037692282579593
+      },
+      {
+        "policy": "RND10",
+        "predicted_mean_cycles": 1873.4185965401787,
+        "observed_us": 10.043267687997886
+      },
+      {
+        "policy": "RND11",
+        "predicted_mean_cycles": 1812.2377232142858,
+        "observed_us": 10.035577105506936
+      }
+    ]
+  },
+  {
+    "case": "VOCAB_32768",
+    "page": 257,
+    "cost_to_runtime_pearson": 0.30351815818019084,
+    "policies": [
+      {
+        "policy": "MINIMAX",
+        "predicted_mean_cycles": 1724.026157924107,
+        "observed_us": 9.996633680178116
+      },
+      {
+        "policy": "IDENTITY",
+        "predicted_mean_cycles": 1809.9589146205358,
+        "observed_us": 10.074240354511621
+      },
+      {
+        "policy": "WORST",
+        "predicted_mean_cycles": 1935.0611049107142,
+        "observed_us": 10.044881350969368
+      },
+      {
+        "policy": "RND00",
+        "predicted_mean_cycles": 1826.578822544643,
+        "observed_us": 10.073743471027615
+      },
+      {
+        "policy": "RND01",
+        "predicted_mean_cycles": 1834.2972935267858,
+        "observed_us": 10.016967430624643
+      },
+      {
+        "policy": "RND02",
+        "predicted_mean_cycles": 1818.996303013393,
+        "observed_us": 10.047826612085611
+      },
+      {
+        "policy": "RND03",
+        "predicted_mean_cycles": 1816.8465401785713,
+        "observed_us": 10.062285749598278
+      },
+      {
+        "policy": "RND04",
+        "predicted_mean_cycles": 1823.1600864955358,
+        "observed_us": 10.02569740943146
+      },
+      {
+        "policy": "RND05",
+        "predicted_mean_cycles": 1813.1182338169642,
+        "observed_us": 10.001309612066287
+      },
+      {
+        "policy": "RND06",
+        "predicted_mean_cycles": 1830.4993722098213,
+        "observed_us": 10.046587004372105
+      },
+      {
+        "policy": "RND07",
+        "predicted_mean_cycles": 1811.9287806919642,
+        "observed_us": 9.978912515219001
+      },
+      {
+        "policy": "RND08",
+        "predicted_mean_cycles": 1831.5348074776787,
+        "observed_us": 10.007729086386794
+      },
+      {
+        "policy": "RND09",
+        "predicted_mean_cycles": 1819.4461495535713,
+        "observed_us": 10.001692561866305
+      },
+      {
+        "policy": "RND10",
+        "predicted_mean_cycles": 1826.0894949776787,
+        "observed_us": 10.024793385479382
+      },
+      {
+        "policy": "RND11",
+        "predicted_mean_cycles": 1819.6366489955358,
+        "observed_us": 10.02701933292838
+      }
+    ]
+  },
+  {
+    "case": "VOCAB_65536",
+    "page": 0,
+    "cost_to_runtime_pearson": -0.08532745108978408,
+    "policies": [
+      {
+        "policy": "MINIMAX",
+        "predicted_mean_cycles": 1762.1519949776787,
+        "observed_us": 10.19591151839476
+      },
+      {
+        "policy": "IDENTITY",
+        "predicted_mean_cycles": 1824.5454799107142,
+        "observed_us": 10.254719777581363
+      },
+      {
+        "policy": "WORST",
+        "predicted_mean_cycles": 1968.8876953125,
+        "observed_us": 10.207335159255157
+      },
+      {
+        "policy": "RND00",
+        "predicted_mean_cycles": 1883.138392857143,
+        "observed_us": 10.251097355384674
+      },
+      {
+        "policy": "RND01",
+        "predicted_mean_cycles": 1880.6176060267858,
+        "observed_us": 10.176432047268225
+      },
+      {
+        "policy": "RND02",
+        "predicted_mean_cycles": 1827.5595005580358,
+        "observed_us": 10.191119010831555
+      },
+      {
+        "policy": "RND03",
+        "predicted_mean_cycles": 1807.140834263393,
+        "observed_us": 10.235696163435112
+      },
+      {
+        "policy": "RND04",
+        "predicted_mean_cycles": 1821.9420340401787,
+        "observed_us": 10.240249088911998
+      },
+      {
+        "policy": "RND05",
+        "predicted_mean_cycles": 1823.9632393973213,
+        "observed_us": 10.180552561258644
+      },
+      {
+        "policy": "RND06",
+        "predicted_mean_cycles": 1838.9376395089287,
+        "observed_us": 10.2279269631132
+      },
+      {
+        "policy": "RND07",
+        "predicted_mean_cycles": 1824.7576729910713,
+        "observed_us": 10.23228849156172
+      },
+      {
+        "policy": "RND08",
+        "predicted_mean_cycles": 1816.1988699776787,
+        "observed_us": 10.23368202396026
+      },
+      {
+        "policy": "RND09",
+        "predicted_mean_cycles": 1818.4228515625,
+        "observed_us": 10.218496252379014
+      },
+      {
+        "policy": "RND10",
+        "predicted_mean_cycles": 1845.3360072544642,
+        "observed_us": 10.225400638416513
+      },
+      {
+        "policy": "RND11",
+        "predicted_mean_cycles": 1827.7871791294642,
+        "observed_us": 10.251345090712952
+      }
+    ]
+  },
+  {
+    "case": "VOCAB_65536",
+    "page": 17,
+    "cost_to_runtime_pearson": 0.33053231605897593,
+    "policies": [
+      {
+        "policy": "MINIMAX",
+        "predicted_mean_cycles": 1742.3834402901787,
+        "observed_us": 10.17529667936217
+      },
+      {
+        "policy": "IDENTITY",
+        "predicted_mean_cycles": 1863.7249581473213,
+        "observed_us": 10.25456682606656
+      },
+      {
+        "policy": "WORST",
+        "predicted_mean_cycles": 2047.3816964285713,
+        "observed_us": 10.237242429445265
+      },
+      {
+        "policy": "RND00",
+        "predicted_mean_cycles": 1813.6036551339287,
+        "observed_us": 10.24617488812873
+      },
+      {
+        "policy": "RND01",
+        "predicted_mean_cycles": 1804.0991908482142,
+        "observed_us": 10.228292448272684
+      },
+      {
+        "policy": "RND02",
+        "predicted_mean_cycles": 1834.6243722098213,
+        "observed_us": 10.179997623497778
+      },
+      {
+        "policy": "RND03",
+        "predicted_mean_cycles": 1834.3959263392858,
+        "observed_us": 10.24190268103115
+      },
+      {
+        "policy": "RND04",
+        "predicted_mean_cycles": 1824.910435267857,
+        "observed_us": 10.25514227548768
+      },
+      {
+        "policy": "RND05",
+        "predicted_mean_cycles": 1827.8212193080358,
+        "observed_us": 10.243427343057615
+      },
+      {
+        "policy": "RND06",
+        "predicted_mean_cycles": 1835.0918666294642,
+        "observed_us": 10.231290535639308
+      },
+      {
+        "policy": "RND07",
+        "predicted_mean_cycles": 1836.118373325893,
+        "observed_us": 10.246592180414357
+      },
+      {
+        "policy": "RND08",
+        "predicted_mean_cycles": 1814.3523995535713,
+        "observed_us": 10.197215194281371
+      },
+      {
+        "policy": "RND09",
+        "predicted_mean_cycles": 1825.4061802455358,
+        "observed_us": 10.208832590020217
+      },
+      {
+        "policy": "RND10",
+        "predicted_mean_cycles": 1873.4185965401787,
+        "observed_us": 10.232591554667028
+      },
+      {
+        "policy": "RND11",
+        "predicted_mean_cycles": 1812.2377232142858,
+        "observed_us": 10.237947198935961
+      }
+    ]
+  },
+  {
+    "case": "VOCAB_65536",
+    "page": 257,
+    "cost_to_runtime_pearson": 0.19857280660952076,
+    "policies": [
+      {
+        "policy": "MINIMAX",
+        "predicted_mean_cycles": 1724.026157924107,
+        "observed_us": 10.239064155177099
+      },
+      {
+        "policy": "IDENTITY",
+        "predicted_mean_cycles": 1809.9589146205358,
+        "observed_us": 10.260470480974154
+      },
+      {
+        "policy": "WORST",
+        "predicted_mean_cycles": 1935.0611049107142,
+        "observed_us": 10.251967957230708
+      },
+      {
+        "policy": "RND00",
+        "predicted_mean_cycles": 1826.578822544643,
+        "observed_us": 10.251316833177748
+      },
+      {
+        "policy": "RND01",
+        "predicted_mean_cycles": 1834.2972935267858,
+        "observed_us": 10.243504947941236
+      },
+      {
+        "policy": "RND02",
+        "predicted_mean_cycles": 1818.996303013393,
+        "observed_us": 10.244648597231931
+      },
+      {
+        "policy": "RND03",
+        "predicted_mean_cycles": 1816.8465401785713,
+        "observed_us": 10.244327360051681
+      },
+      {
+        "policy": "RND04",
+        "predicted_mean_cycles": 1823.1600864955358,
+        "observed_us": 10.238526660037335
+      },
+      {
+        "policy": "RND05",
+        "predicted_mean_cycles": 1813.1182338169642,
+        "observed_us": 10.19908551133354
+      },
+      {
+        "policy": "RND06",
+        "predicted_mean_cycles": 1830.4993722098213,
+        "observed_us": 10.26785967928739
+      },
+      {
+        "policy": "RND07",
+        "predicted_mean_cycles": 1811.9287806919642,
+        "observed_us": 10.17339680045528
+      },
+      {
+        "policy": "RND08",
+        "predicted_mean_cycles": 1831.5348074776787,
+        "observed_us": 10.256378153687315
+      },
+      {
+        "policy": "RND09",
+        "predicted_mean_cycles": 1819.4461495535713,
+        "observed_us": 10.214851042993375
+      },
+      {
+        "policy": "RND10",
+        "predicted_mean_cycles": 1826.0894949776787,
+        "observed_us": 10.25512038211533
+      },
+      {
+        "policy": "RND11",
+        "predicted_mean_cycles": 1819.6366489955358,
+        "observed_us": 10.24057515858007
+      }
+    ]
+  }
+]

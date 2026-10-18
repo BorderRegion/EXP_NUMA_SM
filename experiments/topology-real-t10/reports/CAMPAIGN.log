@@ -1,0 +1,47 @@
+qualification COMPLETED 3.476
+memcheck COMPLETED 2.694
+synccheck COMPLETED 2.603
+racecheck_targeted COMPLETED 2.703
+dev_0 COMPLETED 4.125
+dev_1 COMPLETED 4.115
+STATIC {'batch': 12, 'freshbatch': 45}
+confirm_0 COMPLETED 197.389
+confirm_1 COMPLETED 203.606
+confirm_2 COMPLETED 204.277
+confirm_3 COMPLETED 204.773
+confirm_4 COMPLETED 205.566
+confirm_5 COMPLETED 205.957
+Traceback (most recent call last):
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/topology-real-t10/src/analyze.py", line 85, in <module>
+    else:short();net();calibration()
+                 ^^^^^
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/topology-real-t10/src/analyze.py", line 61, in net
+    write(ROOT/'derived/NET_RESULTS.json',rows);pd.DataFrame(rows).to_csv(ROOT/'derived/NET_RESULTS.csv',index=False)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/topology-real-t10/src/common.py", line 14, in write
+    Path(p).write_text(json.dumps(x,indent=2,ensure_ascii=False,allow_nan=False)+'\n')
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 430, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.12/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bool is not JSON serializable
+Traceback (most recent call last):
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/topology-real-t10/src/campaign.py", line 15, in <module>
+    subprocess.run([PYTHON,ROOT/'src/analyze.py','final'],check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/ubuntu/projects/leetgpu-lab/.venv/bin/python3', PosixPath('/home/ubuntu/文档/ChatGPT/numa_gpu/topology-real-t10/src/analyze.py'), 'final']' returned non-zero exit status 1.

@@ -1,0 +1,65 @@
+{
+  "version": "20261017-v1",
+  "status": "DESIGN_ONLY",
+  "platform": "T10_ONLY",
+  "wall_minutes_target": 510,
+  "wall_minutes_hard": 540,
+  "gpu_worker_minutes_max": 85,
+  "inherited_total_minutes_cap": 330,
+  "historical_reported_used_minutes": [
+    70.171806,
+    170.61
+  ],
+  "budget_rule": "min(85, 330 - verified_prior_selective_worker_minutes); use exact local ledger, never reset",
+  "new_paid_resource_authorization": 0,
+  "new_gpu_experiments_authorized": true,
+  "stages": [
+    {
+      "id": "D0",
+      "wall_minutes": 55,
+      "gpu_worker_minutes": 0,
+      "deliverable": "完整raw复核与冻结"
+    },
+    {
+      "id": "D1",
+      "wall_minutes": 85,
+      "gpu_worker_minutes": 5,
+      "deliverable": "轻量逐请求边界记录与计时资格"
+    },
+    {
+      "id": "D2",
+      "wall_minutes": 120,
+      "gpu_worker_minutes": 40,
+      "deliverable": "A/A起始瞬态的正交诊断"
+    },
+    {
+      "id": "D3",
+      "wall_minutes": 95,
+      "gpu_worker_minutes": 25,
+      "deliverable": "V14–V16与F4分层归因"
+    },
+    {
+      "id": "D4",
+      "wall_minutes": 90,
+      "gpu_worker_minutes": 10,
+      "deliverable": "独立A/A修复确认与有限链确认"
+    },
+    {
+      "id": "D5",
+      "wall_minutes": 65,
+      "gpu_worker_minutes": 5,
+      "deliverable": "复算、证据分类、恢复和交付"
+    }
+  ],
+  "immutable": [
+    "GPU math cubin",
+    "bins recipe/split",
+    "selector model/margins",
+    "frozen action mapping",
+    "numerical contract"
+  ],
+  "fixed_main_power_w": 100,
+  "main_aa_repeats": 3,
+  "independent_aa_repeats": 4,
+  "input_contract": "既有一般FP16输入/权重、FP32输出；完整FFN保留已有SiLU→half语义；不新增模型或shape"
+}

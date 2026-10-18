@@ -1,0 +1,14 @@
+{
+  "reviewed_utc": "2026-10-18T04:08:34.351371+00:00",
+  "status": "PASS",
+  "figures": [
+    "figures/affinity.png",
+    "figures/topology.png"
+  ],
+  "checks": [
+    "Axis labels, legends and titles readable; no clipping or overlap.",
+    "Affinity uses 98.75% process intervals and averages three mailbox addresses.",
+    "Topology is empirical RTT residual, explicitly not physical layout."
+  ],
+  "review": "Visual inspection of generated PNG files"
+}

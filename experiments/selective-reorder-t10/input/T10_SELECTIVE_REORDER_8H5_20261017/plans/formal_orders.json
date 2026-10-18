@@ -1,0 +1,2597 @@
+{
+  "note": "18-row odd-order design, six prespecified rows per case; not complete per-case carryover balance",
+  "orders": [
+    {
+      "case_id": "T01",
+      "block": 0,
+      "main_order": [
+        "LIB",
+        "SINGLE",
+        "PC2_1",
+        "SPLIT",
+        "PC2_0",
+        "PC0_0",
+        "PC1_1",
+        "PC0_1",
+        "PC1_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 0
+    },
+    {
+      "case_id": "T01",
+      "block": 1,
+      "main_order": [
+        "PC0_0",
+        "PC0_1",
+        "SPLIT",
+        "PC1_0",
+        "SINGLE",
+        "PC1_1",
+        "LIB",
+        "PC2_0",
+        "PC2_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 3
+    },
+    {
+      "case_id": "T01",
+      "block": 2,
+      "main_order": [
+        "PC1_1",
+        "PC2_0",
+        "PC1_0",
+        "PC2_1",
+        "PC0_1",
+        "LIB",
+        "PC0_0",
+        "SINGLE",
+        "SPLIT"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 6
+    },
+    {
+      "case_id": "T01",
+      "block": 3,
+      "main_order": [
+        "PC1_0",
+        "PC0_1",
+        "PC1_1",
+        "PC0_0",
+        "PC2_0",
+        "SPLIT",
+        "PC2_1",
+        "SINGLE",
+        "LIB"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 9
+    },
+    {
+      "case_id": "T01",
+      "block": 4,
+      "main_order": [
+        "PC2_1",
+        "PC2_0",
+        "LIB",
+        "PC1_1",
+        "SINGLE",
+        "PC1_0",
+        "SPLIT",
+        "PC0_1",
+        "PC0_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 12
+    },
+    {
+      "case_id": "T01",
+      "block": 5,
+      "main_order": [
+        "SPLIT",
+        "SINGLE",
+        "PC0_0",
+        "LIB",
+        "PC0_1",
+        "PC2_1",
+        "PC1_0",
+        "PC2_0",
+        "PC1_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 15
+    },
+    {
+      "case_id": "T02",
+      "block": 0,
+      "main_order": [
+        "SINGLE",
+        "SPLIT",
+        "LIB",
+        "PC0_0",
+        "PC2_1",
+        "PC0_1",
+        "PC2_0",
+        "PC1_0",
+        "PC1_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 1
+    },
+    {
+      "case_id": "T02",
+      "block": 1,
+      "main_order": [
+        "PC0_1",
+        "PC1_0",
+        "PC0_0",
+        "PC1_1",
+        "SPLIT",
+        "PC2_0",
+        "SINGLE",
+        "PC2_1",
+        "LIB"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 4
+    },
+    {
+      "case_id": "T02",
+      "block": 2,
+      "main_order": [
+        "PC2_0",
+        "PC2_1",
+        "PC1_1",
+        "LIB",
+        "PC1_0",
+        "SINGLE",
+        "PC0_1",
+        "SPLIT",
+        "PC0_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 7
+    },
+    {
+      "case_id": "T02",
+      "block": 3,
+      "main_order": [
+        "PC1_1",
+        "PC1_0",
+        "PC2_0",
+        "PC0_1",
+        "PC2_1",
+        "PC0_0",
+        "LIB",
+        "SPLIT",
+        "SINGLE"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 10
+    },
+    {
+      "case_id": "T02",
+      "block": 4,
+      "main_order": [
+        "LIB",
+        "PC2_1",
+        "SINGLE",
+        "PC2_0",
+        "SPLIT",
+        "PC1_1",
+        "PC0_0",
+        "PC1_0",
+        "PC0_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 13
+    },
+    {
+      "case_id": "T02",
+      "block": 5,
+      "main_order": [
+        "PC0_0",
+        "SPLIT",
+        "PC0_1",
+        "SINGLE",
+        "PC1_0",
+        "LIB",
+        "PC1_1",
+        "PC2_1",
+        "PC2_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 16
+    },
+    {
+      "case_id": "T03",
+      "block": 0,
+      "main_order": [
+        "SPLIT",
+        "PC0_0",
+        "SINGLE",
+        "PC0_1",
+        "LIB",
+        "PC1_0",
+        "PC2_1",
+        "PC1_1",
+        "PC2_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 2
+    },
+    {
+      "case_id": "T03",
+      "block": 1,
+      "main_order": [
+        "PC1_0",
+        "PC1_1",
+        "PC0_1",
+        "PC2_0",
+        "PC0_0",
+        "PC2_1",
+        "SPLIT",
+        "LIB",
+        "SINGLE"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 5
+    },
+    {
+      "case_id": "T03",
+      "block": 2,
+      "main_order": [
+        "PC2_1",
+        "LIB",
+        "PC2_0",
+        "SINGLE",
+        "PC1_1",
+        "SPLIT",
+        "PC1_0",
+        "PC0_0",
+        "PC0_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 8
+    },
+    {
+      "case_id": "T03",
+      "block": 3,
+      "main_order": [
+        "PC2_0",
+        "PC1_1",
+        "PC2_1",
+        "PC1_0",
+        "LIB",
+        "PC0_1",
+        "SINGLE",
+        "PC0_0",
+        "SPLIT"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 11
+    },
+    {
+      "case_id": "T03",
+      "block": 4,
+      "main_order": [
+        "SINGLE",
+        "LIB",
+        "SPLIT",
+        "PC2_1",
+        "PC0_0",
+        "PC2_0",
+        "PC0_1",
+        "PC1_1",
+        "PC1_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 14
+    },
+    {
+      "case_id": "T03",
+      "block": 5,
+      "main_order": [
+        "PC0_1",
+        "PC0_0",
+        "PC1_0",
+        "SPLIT",
+        "PC1_1",
+        "SINGLE",
+        "PC2_0",
+        "LIB",
+        "PC2_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 17
+    },
+    {
+      "case_id": "T04",
+      "block": 0,
+      "main_order": [
+        "PC0_0",
+        "PC0_1",
+        "SPLIT",
+        "PC1_0",
+        "SINGLE",
+        "PC1_1",
+        "LIB",
+        "PC2_0",
+        "PC2_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 3
+    },
+    {
+      "case_id": "T04",
+      "block": 1,
+      "main_order": [
+        "PC1_1",
+        "PC2_0",
+        "PC1_0",
+        "PC2_1",
+        "PC0_1",
+        "LIB",
+        "PC0_0",
+        "SINGLE",
+        "SPLIT"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 6
+    },
+    {
+      "case_id": "T04",
+      "block": 2,
+      "main_order": [
+        "PC1_0",
+        "PC0_1",
+        "PC1_1",
+        "PC0_0",
+        "PC2_0",
+        "SPLIT",
+        "PC2_1",
+        "SINGLE",
+        "LIB"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 9
+    },
+    {
+      "case_id": "T04",
+      "block": 3,
+      "main_order": [
+        "PC2_1",
+        "PC2_0",
+        "LIB",
+        "PC1_1",
+        "SINGLE",
+        "PC1_0",
+        "SPLIT",
+        "PC0_1",
+        "PC0_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 12
+    },
+    {
+      "case_id": "T04",
+      "block": 4,
+      "main_order": [
+        "SPLIT",
+        "SINGLE",
+        "PC0_0",
+        "LIB",
+        "PC0_1",
+        "PC2_1",
+        "PC1_0",
+        "PC2_0",
+        "PC1_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 15
+    },
+    {
+      "case_id": "T04",
+      "block": 5,
+      "main_order": [
+        "LIB",
+        "SINGLE",
+        "PC2_1",
+        "SPLIT",
+        "PC2_0",
+        "PC0_0",
+        "PC1_1",
+        "PC0_1",
+        "PC1_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 0
+    },
+    {
+      "case_id": "T05",
+      "block": 0,
+      "main_order": [
+        "PC0_1",
+        "PC1_0",
+        "PC0_0",
+        "PC1_1",
+        "SPLIT",
+        "PC2_0",
+        "SINGLE",
+        "PC2_1",
+        "LIB"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 4
+    },
+    {
+      "case_id": "T05",
+      "block": 1,
+      "main_order": [
+        "PC2_0",
+        "PC2_1",
+        "PC1_1",
+        "LIB",
+        "PC1_0",
+        "SINGLE",
+        "PC0_1",
+        "SPLIT",
+        "PC0_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 7
+    },
+    {
+      "case_id": "T05",
+      "block": 2,
+      "main_order": [
+        "PC1_1",
+        "PC1_0",
+        "PC2_0",
+        "PC0_1",
+        "PC2_1",
+        "PC0_0",
+        "LIB",
+        "SPLIT",
+        "SINGLE"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 10
+    },
+    {
+      "case_id": "T05",
+      "block": 3,
+      "main_order": [
+        "LIB",
+        "PC2_1",
+        "SINGLE",
+        "PC2_0",
+        "SPLIT",
+        "PC1_1",
+        "PC0_0",
+        "PC1_0",
+        "PC0_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 13
+    },
+    {
+      "case_id": "T05",
+      "block": 4,
+      "main_order": [
+        "PC0_0",
+        "SPLIT",
+        "PC0_1",
+        "SINGLE",
+        "PC1_0",
+        "LIB",
+        "PC1_1",
+        "PC2_1",
+        "PC2_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 16
+    },
+    {
+      "case_id": "T05",
+      "block": 5,
+      "main_order": [
+        "SINGLE",
+        "SPLIT",
+        "LIB",
+        "PC0_0",
+        "PC2_1",
+        "PC0_1",
+        "PC2_0",
+        "PC1_0",
+        "PC1_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 1
+    },
+    {
+      "case_id": "T06",
+      "block": 0,
+      "main_order": [
+        "PC1_0",
+        "PC1_1",
+        "PC0_1",
+        "PC2_0",
+        "PC0_0",
+        "PC2_1",
+        "SPLIT",
+        "LIB",
+        "SINGLE"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 5
+    },
+    {
+      "case_id": "T06",
+      "block": 1,
+      "main_order": [
+        "PC2_1",
+        "LIB",
+        "PC2_0",
+        "SINGLE",
+        "PC1_1",
+        "SPLIT",
+        "PC1_0",
+        "PC0_0",
+        "PC0_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 8
+    },
+    {
+      "case_id": "T06",
+      "block": 2,
+      "main_order": [
+        "PC2_0",
+        "PC1_1",
+        "PC2_1",
+        "PC1_0",
+        "LIB",
+        "PC0_1",
+        "SINGLE",
+        "PC0_0",
+        "SPLIT"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 11
+    },
+    {
+      "case_id": "T06",
+      "block": 3,
+      "main_order": [
+        "SINGLE",
+        "LIB",
+        "SPLIT",
+        "PC2_1",
+        "PC0_0",
+        "PC2_0",
+        "PC0_1",
+        "PC1_1",
+        "PC1_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 14
+    },
+    {
+      "case_id": "T06",
+      "block": 4,
+      "main_order": [
+        "PC0_1",
+        "PC0_0",
+        "PC1_0",
+        "SPLIT",
+        "PC1_1",
+        "SINGLE",
+        "PC2_0",
+        "LIB",
+        "PC2_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 17
+    },
+    {
+      "case_id": "T06",
+      "block": 5,
+      "main_order": [
+        "SPLIT",
+        "PC0_0",
+        "SINGLE",
+        "PC0_1",
+        "LIB",
+        "PC1_0",
+        "PC2_1",
+        "PC1_1",
+        "PC2_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 2
+    },
+    {
+      "case_id": "T07",
+      "block": 0,
+      "main_order": [
+        "PC1_1",
+        "PC2_0",
+        "PC1_0",
+        "PC2_1",
+        "PC0_1",
+        "LIB",
+        "PC0_0",
+        "SINGLE",
+        "SPLIT"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 6
+    },
+    {
+      "case_id": "T07",
+      "block": 1,
+      "main_order": [
+        "PC1_0",
+        "PC0_1",
+        "PC1_1",
+        "PC0_0",
+        "PC2_0",
+        "SPLIT",
+        "PC2_1",
+        "SINGLE",
+        "LIB"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 9
+    },
+    {
+      "case_id": "T07",
+      "block": 2,
+      "main_order": [
+        "PC2_1",
+        "PC2_0",
+        "LIB",
+        "PC1_1",
+        "SINGLE",
+        "PC1_0",
+        "SPLIT",
+        "PC0_1",
+        "PC0_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 12
+    },
+    {
+      "case_id": "T07",
+      "block": 3,
+      "main_order": [
+        "SPLIT",
+        "SINGLE",
+        "PC0_0",
+        "LIB",
+        "PC0_1",
+        "PC2_1",
+        "PC1_0",
+        "PC2_0",
+        "PC1_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 15
+    },
+    {
+      "case_id": "T07",
+      "block": 4,
+      "main_order": [
+        "LIB",
+        "SINGLE",
+        "PC2_1",
+        "SPLIT",
+        "PC2_0",
+        "PC0_0",
+        "PC1_1",
+        "PC0_1",
+        "PC1_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 0
+    },
+    {
+      "case_id": "T07",
+      "block": 5,
+      "main_order": [
+        "PC0_0",
+        "PC0_1",
+        "SPLIT",
+        "PC1_0",
+        "SINGLE",
+        "PC1_1",
+        "LIB",
+        "PC2_0",
+        "PC2_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 3
+    },
+    {
+      "case_id": "T08",
+      "block": 0,
+      "main_order": [
+        "PC2_0",
+        "PC2_1",
+        "PC1_1",
+        "LIB",
+        "PC1_0",
+        "SINGLE",
+        "PC0_1",
+        "SPLIT",
+        "PC0_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 7
+    },
+    {
+      "case_id": "T08",
+      "block": 1,
+      "main_order": [
+        "PC1_1",
+        "PC1_0",
+        "PC2_0",
+        "PC0_1",
+        "PC2_1",
+        "PC0_0",
+        "LIB",
+        "SPLIT",
+        "SINGLE"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 10
+    },
+    {
+      "case_id": "T08",
+      "block": 2,
+      "main_order": [
+        "LIB",
+        "PC2_1",
+        "SINGLE",
+        "PC2_0",
+        "SPLIT",
+        "PC1_1",
+        "PC0_0",
+        "PC1_0",
+        "PC0_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 13
+    },
+    {
+      "case_id": "T08",
+      "block": 3,
+      "main_order": [
+        "PC0_0",
+        "SPLIT",
+        "PC0_1",
+        "SINGLE",
+        "PC1_0",
+        "LIB",
+        "PC1_1",
+        "PC2_1",
+        "PC2_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 16
+    },
+    {
+      "case_id": "T08",
+      "block": 4,
+      "main_order": [
+        "SINGLE",
+        "SPLIT",
+        "LIB",
+        "PC0_0",
+        "PC2_1",
+        "PC0_1",
+        "PC2_0",
+        "PC1_0",
+        "PC1_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 1
+    },
+    {
+      "case_id": "T08",
+      "block": 5,
+      "main_order": [
+        "PC0_1",
+        "PC1_0",
+        "PC0_0",
+        "PC1_1",
+        "SPLIT",
+        "PC2_0",
+        "SINGLE",
+        "PC2_1",
+        "LIB"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 4
+    },
+    {
+      "case_id": "T09",
+      "block": 0,
+      "main_order": [
+        "PC2_1",
+        "LIB",
+        "PC2_0",
+        "SINGLE",
+        "PC1_1",
+        "SPLIT",
+        "PC1_0",
+        "PC0_0",
+        "PC0_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 8
+    },
+    {
+      "case_id": "T09",
+      "block": 1,
+      "main_order": [
+        "PC2_0",
+        "PC1_1",
+        "PC2_1",
+        "PC1_0",
+        "LIB",
+        "PC0_1",
+        "SINGLE",
+        "PC0_0",
+        "SPLIT"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 11
+    },
+    {
+      "case_id": "T09",
+      "block": 2,
+      "main_order": [
+        "SINGLE",
+        "LIB",
+        "SPLIT",
+        "PC2_1",
+        "PC0_0",
+        "PC2_0",
+        "PC0_1",
+        "PC1_1",
+        "PC1_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 14
+    },
+    {
+      "case_id": "T09",
+      "block": 3,
+      "main_order": [
+        "PC0_1",
+        "PC0_0",
+        "PC1_0",
+        "SPLIT",
+        "PC1_1",
+        "SINGLE",
+        "PC2_0",
+        "LIB",
+        "PC2_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 17
+    },
+    {
+      "case_id": "T09",
+      "block": 4,
+      "main_order": [
+        "SPLIT",
+        "PC0_0",
+        "SINGLE",
+        "PC0_1",
+        "LIB",
+        "PC1_0",
+        "PC2_1",
+        "PC1_1",
+        "PC2_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 2
+    },
+    {
+      "case_id": "T09",
+      "block": 5,
+      "main_order": [
+        "PC1_0",
+        "PC1_1",
+        "PC0_1",
+        "PC2_0",
+        "PC0_0",
+        "PC2_1",
+        "SPLIT",
+        "LIB",
+        "SINGLE"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 5
+    },
+    {
+      "case_id": "T10",
+      "block": 0,
+      "main_order": [
+        "PC1_0",
+        "PC0_1",
+        "PC1_1",
+        "PC0_0",
+        "PC2_0",
+        "SPLIT",
+        "PC2_1",
+        "SINGLE",
+        "LIB"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 9
+    },
+    {
+      "case_id": "T10",
+      "block": 1,
+      "main_order": [
+        "PC2_1",
+        "PC2_0",
+        "LIB",
+        "PC1_1",
+        "SINGLE",
+        "PC1_0",
+        "SPLIT",
+        "PC0_1",
+        "PC0_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 12
+    },
+    {
+      "case_id": "T10",
+      "block": 2,
+      "main_order": [
+        "SPLIT",
+        "SINGLE",
+        "PC0_0",
+        "LIB",
+        "PC0_1",
+        "PC2_1",
+        "PC1_0",
+        "PC2_0",
+        "PC1_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 15
+    },
+    {
+      "case_id": "T10",
+      "block": 3,
+      "main_order": [
+        "LIB",
+        "SINGLE",
+        "PC2_1",
+        "SPLIT",
+        "PC2_0",
+        "PC0_0",
+        "PC1_1",
+        "PC0_1",
+        "PC1_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 0
+    },
+    {
+      "case_id": "T10",
+      "block": 4,
+      "main_order": [
+        "PC0_0",
+        "PC0_1",
+        "SPLIT",
+        "PC1_0",
+        "SINGLE",
+        "PC1_1",
+        "LIB",
+        "PC2_0",
+        "PC2_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 3
+    },
+    {
+      "case_id": "T10",
+      "block": 5,
+      "main_order": [
+        "PC1_1",
+        "PC2_0",
+        "PC1_0",
+        "PC2_1",
+        "PC0_1",
+        "LIB",
+        "PC0_0",
+        "SINGLE",
+        "SPLIT"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 6
+    },
+    {
+      "case_id": "T11",
+      "block": 0,
+      "main_order": [
+        "PC1_1",
+        "PC1_0",
+        "PC2_0",
+        "PC0_1",
+        "PC2_1",
+        "PC0_0",
+        "LIB",
+        "SPLIT",
+        "SINGLE"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 10
+    },
+    {
+      "case_id": "T11",
+      "block": 1,
+      "main_order": [
+        "LIB",
+        "PC2_1",
+        "SINGLE",
+        "PC2_0",
+        "SPLIT",
+        "PC1_1",
+        "PC0_0",
+        "PC1_0",
+        "PC0_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 13
+    },
+    {
+      "case_id": "T11",
+      "block": 2,
+      "main_order": [
+        "PC0_0",
+        "SPLIT",
+        "PC0_1",
+        "SINGLE",
+        "PC1_0",
+        "LIB",
+        "PC1_1",
+        "PC2_1",
+        "PC2_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 16
+    },
+    {
+      "case_id": "T11",
+      "block": 3,
+      "main_order": [
+        "SINGLE",
+        "SPLIT",
+        "LIB",
+        "PC0_0",
+        "PC2_1",
+        "PC0_1",
+        "PC2_0",
+        "PC1_0",
+        "PC1_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 1
+    },
+    {
+      "case_id": "T11",
+      "block": 4,
+      "main_order": [
+        "PC0_1",
+        "PC1_0",
+        "PC0_0",
+        "PC1_1",
+        "SPLIT",
+        "PC2_0",
+        "SINGLE",
+        "PC2_1",
+        "LIB"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 4
+    },
+    {
+      "case_id": "T11",
+      "block": 5,
+      "main_order": [
+        "PC2_0",
+        "PC2_1",
+        "PC1_1",
+        "LIB",
+        "PC1_0",
+        "SINGLE",
+        "PC0_1",
+        "SPLIT",
+        "PC0_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 7
+    },
+    {
+      "case_id": "T12",
+      "block": 0,
+      "main_order": [
+        "PC2_0",
+        "PC1_1",
+        "PC2_1",
+        "PC1_0",
+        "LIB",
+        "PC0_1",
+        "SINGLE",
+        "PC0_0",
+        "SPLIT"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 11
+    },
+    {
+      "case_id": "T12",
+      "block": 1,
+      "main_order": [
+        "SINGLE",
+        "LIB",
+        "SPLIT",
+        "PC2_1",
+        "PC0_0",
+        "PC2_0",
+        "PC0_1",
+        "PC1_1",
+        "PC1_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 14
+    },
+    {
+      "case_id": "T12",
+      "block": 2,
+      "main_order": [
+        "PC0_1",
+        "PC0_0",
+        "PC1_0",
+        "SPLIT",
+        "PC1_1",
+        "SINGLE",
+        "PC2_0",
+        "LIB",
+        "PC2_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 17
+    },
+    {
+      "case_id": "T12",
+      "block": 3,
+      "main_order": [
+        "SPLIT",
+        "PC0_0",
+        "SINGLE",
+        "PC0_1",
+        "LIB",
+        "PC1_0",
+        "PC2_1",
+        "PC1_1",
+        "PC2_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 2
+    },
+    {
+      "case_id": "T12",
+      "block": 4,
+      "main_order": [
+        "PC1_0",
+        "PC1_1",
+        "PC0_1",
+        "PC2_0",
+        "PC0_0",
+        "PC2_1",
+        "SPLIT",
+        "LIB",
+        "SINGLE"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 5
+    },
+    {
+      "case_id": "T12",
+      "block": 5,
+      "main_order": [
+        "PC2_1",
+        "LIB",
+        "PC2_0",
+        "SINGLE",
+        "PC1_1",
+        "SPLIT",
+        "PC1_0",
+        "PC0_0",
+        "PC0_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 8
+    },
+    {
+      "case_id": "T13",
+      "block": 0,
+      "main_order": [
+        "PC2_1",
+        "PC2_0",
+        "LIB",
+        "PC1_1",
+        "SINGLE",
+        "PC1_0",
+        "SPLIT",
+        "PC0_1",
+        "PC0_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 12
+    },
+    {
+      "case_id": "T13",
+      "block": 1,
+      "main_order": [
+        "SPLIT",
+        "SINGLE",
+        "PC0_0",
+        "LIB",
+        "PC0_1",
+        "PC2_1",
+        "PC1_0",
+        "PC2_0",
+        "PC1_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 15
+    },
+    {
+      "case_id": "T13",
+      "block": 2,
+      "main_order": [
+        "LIB",
+        "SINGLE",
+        "PC2_1",
+        "SPLIT",
+        "PC2_0",
+        "PC0_0",
+        "PC1_1",
+        "PC0_1",
+        "PC1_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 0
+    },
+    {
+      "case_id": "T13",
+      "block": 3,
+      "main_order": [
+        "PC0_0",
+        "PC0_1",
+        "SPLIT",
+        "PC1_0",
+        "SINGLE",
+        "PC1_1",
+        "LIB",
+        "PC2_0",
+        "PC2_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 3
+    },
+    {
+      "case_id": "T13",
+      "block": 4,
+      "main_order": [
+        "PC1_1",
+        "PC2_0",
+        "PC1_0",
+        "PC2_1",
+        "PC0_1",
+        "LIB",
+        "PC0_0",
+        "SINGLE",
+        "SPLIT"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 6
+    },
+    {
+      "case_id": "T13",
+      "block": 5,
+      "main_order": [
+        "PC1_0",
+        "PC0_1",
+        "PC1_1",
+        "PC0_0",
+        "PC2_0",
+        "SPLIT",
+        "PC2_1",
+        "SINGLE",
+        "LIB"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 9
+    },
+    {
+      "case_id": "T14",
+      "block": 0,
+      "main_order": [
+        "LIB",
+        "PC2_1",
+        "SINGLE",
+        "PC2_0",
+        "SPLIT",
+        "PC1_1",
+        "PC0_0",
+        "PC1_0",
+        "PC0_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 13
+    },
+    {
+      "case_id": "T14",
+      "block": 1,
+      "main_order": [
+        "PC0_0",
+        "SPLIT",
+        "PC0_1",
+        "SINGLE",
+        "PC1_0",
+        "LIB",
+        "PC1_1",
+        "PC2_1",
+        "PC2_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 16
+    },
+    {
+      "case_id": "T14",
+      "block": 2,
+      "main_order": [
+        "SINGLE",
+        "SPLIT",
+        "LIB",
+        "PC0_0",
+        "PC2_1",
+        "PC0_1",
+        "PC2_0",
+        "PC1_0",
+        "PC1_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 1
+    },
+    {
+      "case_id": "T14",
+      "block": 3,
+      "main_order": [
+        "PC0_1",
+        "PC1_0",
+        "PC0_0",
+        "PC1_1",
+        "SPLIT",
+        "PC2_0",
+        "SINGLE",
+        "PC2_1",
+        "LIB"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 4
+    },
+    {
+      "case_id": "T14",
+      "block": 4,
+      "main_order": [
+        "PC2_0",
+        "PC2_1",
+        "PC1_1",
+        "LIB",
+        "PC1_0",
+        "SINGLE",
+        "PC0_1",
+        "SPLIT",
+        "PC0_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 7
+    },
+    {
+      "case_id": "T14",
+      "block": 5,
+      "main_order": [
+        "PC1_1",
+        "PC1_0",
+        "PC2_0",
+        "PC0_1",
+        "PC2_1",
+        "PC0_0",
+        "LIB",
+        "SPLIT",
+        "SINGLE"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 10
+    },
+    {
+      "case_id": "T15",
+      "block": 0,
+      "main_order": [
+        "SINGLE",
+        "LIB",
+        "SPLIT",
+        "PC2_1",
+        "PC0_0",
+        "PC2_0",
+        "PC0_1",
+        "PC1_1",
+        "PC1_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 14
+    },
+    {
+      "case_id": "T15",
+      "block": 1,
+      "main_order": [
+        "PC0_1",
+        "PC0_0",
+        "PC1_0",
+        "SPLIT",
+        "PC1_1",
+        "SINGLE",
+        "PC2_0",
+        "LIB",
+        "PC2_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 17
+    },
+    {
+      "case_id": "T15",
+      "block": 2,
+      "main_order": [
+        "SPLIT",
+        "PC0_0",
+        "SINGLE",
+        "PC0_1",
+        "LIB",
+        "PC1_0",
+        "PC2_1",
+        "PC1_1",
+        "PC2_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 2
+    },
+    {
+      "case_id": "T15",
+      "block": 3,
+      "main_order": [
+        "PC1_0",
+        "PC1_1",
+        "PC0_1",
+        "PC2_0",
+        "PC0_0",
+        "PC2_1",
+        "SPLIT",
+        "LIB",
+        "SINGLE"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 5
+    },
+    {
+      "case_id": "T15",
+      "block": 4,
+      "main_order": [
+        "PC2_1",
+        "LIB",
+        "PC2_0",
+        "SINGLE",
+        "PC1_1",
+        "SPLIT",
+        "PC1_0",
+        "PC0_0",
+        "PC0_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 8
+    },
+    {
+      "case_id": "T15",
+      "block": 5,
+      "main_order": [
+        "PC2_0",
+        "PC1_1",
+        "PC2_1",
+        "PC1_0",
+        "LIB",
+        "PC0_1",
+        "SINGLE",
+        "PC0_0",
+        "SPLIT"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 11
+    },
+    {
+      "case_id": "T16",
+      "block": 0,
+      "main_order": [
+        "SPLIT",
+        "SINGLE",
+        "PC0_0",
+        "LIB",
+        "PC0_1",
+        "PC2_1",
+        "PC1_0",
+        "PC2_0",
+        "PC1_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 15
+    },
+    {
+      "case_id": "T16",
+      "block": 1,
+      "main_order": [
+        "LIB",
+        "SINGLE",
+        "PC2_1",
+        "SPLIT",
+        "PC2_0",
+        "PC0_0",
+        "PC1_1",
+        "PC0_1",
+        "PC1_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 0
+    },
+    {
+      "case_id": "T16",
+      "block": 2,
+      "main_order": [
+        "PC0_0",
+        "PC0_1",
+        "SPLIT",
+        "PC1_0",
+        "SINGLE",
+        "PC1_1",
+        "LIB",
+        "PC2_0",
+        "PC2_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 3
+    },
+    {
+      "case_id": "T16",
+      "block": 3,
+      "main_order": [
+        "PC1_1",
+        "PC2_0",
+        "PC1_0",
+        "PC2_1",
+        "PC0_1",
+        "LIB",
+        "PC0_0",
+        "SINGLE",
+        "SPLIT"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 6
+    },
+    {
+      "case_id": "T16",
+      "block": 4,
+      "main_order": [
+        "PC1_0",
+        "PC0_1",
+        "PC1_1",
+        "PC0_0",
+        "PC2_0",
+        "SPLIT",
+        "PC2_1",
+        "SINGLE",
+        "LIB"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 9
+    },
+    {
+      "case_id": "T16",
+      "block": 5,
+      "main_order": [
+        "PC2_1",
+        "PC2_0",
+        "LIB",
+        "PC1_1",
+        "SINGLE",
+        "PC1_0",
+        "SPLIT",
+        "PC0_1",
+        "PC0_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 12
+    },
+    {
+      "case_id": "R_G002",
+      "block": 0,
+      "main_order": [
+        "PC0_0",
+        "SPLIT",
+        "PC0_1",
+        "SINGLE",
+        "PC1_0",
+        "LIB",
+        "PC1_1",
+        "PC2_1",
+        "PC2_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 16
+    },
+    {
+      "case_id": "R_G002",
+      "block": 1,
+      "main_order": [
+        "SINGLE",
+        "SPLIT",
+        "LIB",
+        "PC0_0",
+        "PC2_1",
+        "PC0_1",
+        "PC2_0",
+        "PC1_0",
+        "PC1_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 1
+    },
+    {
+      "case_id": "R_G002",
+      "block": 2,
+      "main_order": [
+        "PC0_1",
+        "PC1_0",
+        "PC0_0",
+        "PC1_1",
+        "SPLIT",
+        "PC2_0",
+        "SINGLE",
+        "PC2_1",
+        "LIB"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 4
+    },
+    {
+      "case_id": "R_G002",
+      "block": 3,
+      "main_order": [
+        "PC2_0",
+        "PC2_1",
+        "PC1_1",
+        "LIB",
+        "PC1_0",
+        "SINGLE",
+        "PC0_1",
+        "SPLIT",
+        "PC0_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 7
+    },
+    {
+      "case_id": "R_G002",
+      "block": 4,
+      "main_order": [
+        "PC1_1",
+        "PC1_0",
+        "PC2_0",
+        "PC0_1",
+        "PC2_1",
+        "PC0_0",
+        "LIB",
+        "SPLIT",
+        "SINGLE"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 10
+    },
+    {
+      "case_id": "R_G002",
+      "block": 5,
+      "main_order": [
+        "LIB",
+        "PC2_1",
+        "SINGLE",
+        "PC2_0",
+        "SPLIT",
+        "PC1_1",
+        "PC0_0",
+        "PC1_0",
+        "PC0_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 13
+    },
+    {
+      "case_id": "R_G005",
+      "block": 0,
+      "main_order": [
+        "PC0_1",
+        "PC0_0",
+        "PC1_0",
+        "SPLIT",
+        "PC1_1",
+        "SINGLE",
+        "PC2_0",
+        "LIB",
+        "PC2_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 17
+    },
+    {
+      "case_id": "R_G005",
+      "block": 1,
+      "main_order": [
+        "SPLIT",
+        "PC0_0",
+        "SINGLE",
+        "PC0_1",
+        "LIB",
+        "PC1_0",
+        "PC2_1",
+        "PC1_1",
+        "PC2_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 2
+    },
+    {
+      "case_id": "R_G005",
+      "block": 2,
+      "main_order": [
+        "PC1_0",
+        "PC1_1",
+        "PC0_1",
+        "PC2_0",
+        "PC0_0",
+        "PC2_1",
+        "SPLIT",
+        "LIB",
+        "SINGLE"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 5
+    },
+    {
+      "case_id": "R_G005",
+      "block": 3,
+      "main_order": [
+        "PC2_1",
+        "LIB",
+        "PC2_0",
+        "SINGLE",
+        "PC1_1",
+        "SPLIT",
+        "PC1_0",
+        "PC0_0",
+        "PC0_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 8
+    },
+    {
+      "case_id": "R_G005",
+      "block": 4,
+      "main_order": [
+        "PC2_0",
+        "PC1_1",
+        "PC2_1",
+        "PC1_0",
+        "LIB",
+        "PC0_1",
+        "SINGLE",
+        "PC0_0",
+        "SPLIT"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 11
+    },
+    {
+      "case_id": "R_G005",
+      "block": 5,
+      "main_order": [
+        "SINGLE",
+        "LIB",
+        "SPLIT",
+        "PC2_1",
+        "PC0_0",
+        "PC2_0",
+        "PC0_1",
+        "PC1_1",
+        "PC1_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 14
+    },
+    {
+      "case_id": "R_G008",
+      "block": 0,
+      "main_order": [
+        "LIB",
+        "SINGLE",
+        "PC2_1",
+        "SPLIT",
+        "PC2_0",
+        "PC0_0",
+        "PC1_1",
+        "PC0_1",
+        "PC1_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 0
+    },
+    {
+      "case_id": "R_G008",
+      "block": 1,
+      "main_order": [
+        "PC0_0",
+        "PC0_1",
+        "SPLIT",
+        "PC1_0",
+        "SINGLE",
+        "PC1_1",
+        "LIB",
+        "PC2_0",
+        "PC2_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 3
+    },
+    {
+      "case_id": "R_G008",
+      "block": 2,
+      "main_order": [
+        "PC1_1",
+        "PC2_0",
+        "PC1_0",
+        "PC2_1",
+        "PC0_1",
+        "LIB",
+        "PC0_0",
+        "SINGLE",
+        "SPLIT"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 6
+    },
+    {
+      "case_id": "R_G008",
+      "block": 3,
+      "main_order": [
+        "PC1_0",
+        "PC0_1",
+        "PC1_1",
+        "PC0_0",
+        "PC2_0",
+        "SPLIT",
+        "PC2_1",
+        "SINGLE",
+        "LIB"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 9
+    },
+    {
+      "case_id": "R_G008",
+      "block": 4,
+      "main_order": [
+        "PC2_1",
+        "PC2_0",
+        "LIB",
+        "PC1_1",
+        "SINGLE",
+        "PC1_0",
+        "SPLIT",
+        "PC0_1",
+        "PC0_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 12
+    },
+    {
+      "case_id": "R_G008",
+      "block": 5,
+      "main_order": [
+        "SPLIT",
+        "SINGLE",
+        "PC0_0",
+        "LIB",
+        "PC0_1",
+        "PC2_1",
+        "PC1_0",
+        "PC2_0",
+        "PC1_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 15
+    },
+    {
+      "case_id": "R_G012",
+      "block": 0,
+      "main_order": [
+        "SINGLE",
+        "SPLIT",
+        "LIB",
+        "PC0_0",
+        "PC2_1",
+        "PC0_1",
+        "PC2_0",
+        "PC1_0",
+        "PC1_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 1
+    },
+    {
+      "case_id": "R_G012",
+      "block": 1,
+      "main_order": [
+        "PC0_1",
+        "PC1_0",
+        "PC0_0",
+        "PC1_1",
+        "SPLIT",
+        "PC2_0",
+        "SINGLE",
+        "PC2_1",
+        "LIB"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 4
+    },
+    {
+      "case_id": "R_G012",
+      "block": 2,
+      "main_order": [
+        "PC2_0",
+        "PC2_1",
+        "PC1_1",
+        "LIB",
+        "PC1_0",
+        "SINGLE",
+        "PC0_1",
+        "SPLIT",
+        "PC0_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 7
+    },
+    {
+      "case_id": "R_G012",
+      "block": 3,
+      "main_order": [
+        "PC1_1",
+        "PC1_0",
+        "PC2_0",
+        "PC0_1",
+        "PC2_1",
+        "PC0_0",
+        "LIB",
+        "SPLIT",
+        "SINGLE"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 10
+    },
+    {
+      "case_id": "R_G012",
+      "block": 4,
+      "main_order": [
+        "LIB",
+        "PC2_1",
+        "SINGLE",
+        "PC2_0",
+        "SPLIT",
+        "PC1_1",
+        "PC0_0",
+        "PC1_0",
+        "PC0_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 13
+    },
+    {
+      "case_id": "R_G012",
+      "block": 5,
+      "main_order": [
+        "PC0_0",
+        "SPLIT",
+        "PC0_1",
+        "SINGLE",
+        "PC1_0",
+        "LIB",
+        "PC1_1",
+        "PC2_1",
+        "PC2_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 16
+    },
+    {
+      "case_id": "R_G017",
+      "block": 0,
+      "main_order": [
+        "SPLIT",
+        "PC0_0",
+        "SINGLE",
+        "PC0_1",
+        "LIB",
+        "PC1_0",
+        "PC2_1",
+        "PC1_1",
+        "PC2_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 2
+    },
+    {
+      "case_id": "R_G017",
+      "block": 1,
+      "main_order": [
+        "PC1_0",
+        "PC1_1",
+        "PC0_1",
+        "PC2_0",
+        "PC0_0",
+        "PC2_1",
+        "SPLIT",
+        "LIB",
+        "SINGLE"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 5
+    },
+    {
+      "case_id": "R_G017",
+      "block": 2,
+      "main_order": [
+        "PC2_1",
+        "LIB",
+        "PC2_0",
+        "SINGLE",
+        "PC1_1",
+        "SPLIT",
+        "PC1_0",
+        "PC0_0",
+        "PC0_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 8
+    },
+    {
+      "case_id": "R_G017",
+      "block": 3,
+      "main_order": [
+        "PC2_0",
+        "PC1_1",
+        "PC2_1",
+        "PC1_0",
+        "LIB",
+        "PC0_1",
+        "SINGLE",
+        "PC0_0",
+        "SPLIT"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 11
+    },
+    {
+      "case_id": "R_G017",
+      "block": 4,
+      "main_order": [
+        "SINGLE",
+        "LIB",
+        "SPLIT",
+        "PC2_1",
+        "PC0_0",
+        "PC2_0",
+        "PC0_1",
+        "PC1_1",
+        "PC1_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 14
+    },
+    {
+      "case_id": "R_G017",
+      "block": 5,
+      "main_order": [
+        "PC0_1",
+        "PC0_0",
+        "PC1_0",
+        "SPLIT",
+        "PC1_1",
+        "SINGLE",
+        "PC2_0",
+        "LIB",
+        "PC2_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 17
+    },
+    {
+      "case_id": "R_G021",
+      "block": 0,
+      "main_order": [
+        "PC0_0",
+        "PC0_1",
+        "SPLIT",
+        "PC1_0",
+        "SINGLE",
+        "PC1_1",
+        "LIB",
+        "PC2_0",
+        "PC2_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 3
+    },
+    {
+      "case_id": "R_G021",
+      "block": 1,
+      "main_order": [
+        "PC1_1",
+        "PC2_0",
+        "PC1_0",
+        "PC2_1",
+        "PC0_1",
+        "LIB",
+        "PC0_0",
+        "SINGLE",
+        "SPLIT"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 6
+    },
+    {
+      "case_id": "R_G021",
+      "block": 2,
+      "main_order": [
+        "PC1_0",
+        "PC0_1",
+        "PC1_1",
+        "PC0_0",
+        "PC2_0",
+        "SPLIT",
+        "PC2_1",
+        "SINGLE",
+        "LIB"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 9
+    },
+    {
+      "case_id": "R_G021",
+      "block": 3,
+      "main_order": [
+        "PC2_1",
+        "PC2_0",
+        "LIB",
+        "PC1_1",
+        "SINGLE",
+        "PC1_0",
+        "SPLIT",
+        "PC0_1",
+        "PC0_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 12
+    },
+    {
+      "case_id": "R_G021",
+      "block": 4,
+      "main_order": [
+        "SPLIT",
+        "SINGLE",
+        "PC0_0",
+        "LIB",
+        "PC0_1",
+        "PC2_1",
+        "PC1_0",
+        "PC2_0",
+        "PC1_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 15
+    },
+    {
+      "case_id": "R_G021",
+      "block": 5,
+      "main_order": [
+        "LIB",
+        "SINGLE",
+        "PC2_1",
+        "SPLIT",
+        "PC2_0",
+        "PC0_0",
+        "PC1_1",
+        "PC0_1",
+        "PC1_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 0
+    },
+    {
+      "case_id": "R_G026",
+      "block": 0,
+      "main_order": [
+        "PC0_1",
+        "PC1_0",
+        "PC0_0",
+        "PC1_1",
+        "SPLIT",
+        "PC2_0",
+        "SINGLE",
+        "PC2_1",
+        "LIB"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 4
+    },
+    {
+      "case_id": "R_G026",
+      "block": 1,
+      "main_order": [
+        "PC2_0",
+        "PC2_1",
+        "PC1_1",
+        "LIB",
+        "PC1_0",
+        "SINGLE",
+        "PC0_1",
+        "SPLIT",
+        "PC0_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 7
+    },
+    {
+      "case_id": "R_G026",
+      "block": 2,
+      "main_order": [
+        "PC1_1",
+        "PC1_0",
+        "PC2_0",
+        "PC0_1",
+        "PC2_1",
+        "PC0_0",
+        "LIB",
+        "SPLIT",
+        "SINGLE"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 10
+    },
+    {
+      "case_id": "R_G026",
+      "block": 3,
+      "main_order": [
+        "LIB",
+        "PC2_1",
+        "SINGLE",
+        "PC2_0",
+        "SPLIT",
+        "PC1_1",
+        "PC0_0",
+        "PC1_0",
+        "PC0_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 13
+    },
+    {
+      "case_id": "R_G026",
+      "block": 4,
+      "main_order": [
+        "PC0_0",
+        "SPLIT",
+        "PC0_1",
+        "SINGLE",
+        "PC1_0",
+        "LIB",
+        "PC1_1",
+        "PC2_1",
+        "PC2_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 16
+    },
+    {
+      "case_id": "R_G026",
+      "block": 5,
+      "main_order": [
+        "SINGLE",
+        "SPLIT",
+        "LIB",
+        "PC0_0",
+        "PC2_1",
+        "PC0_1",
+        "PC2_0",
+        "PC1_0",
+        "PC1_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 1
+    },
+    {
+      "case_id": "R_G039",
+      "block": 0,
+      "main_order": [
+        "PC1_0",
+        "PC1_1",
+        "PC0_1",
+        "PC2_0",
+        "PC0_0",
+        "PC2_1",
+        "SPLIT",
+        "LIB",
+        "SINGLE"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 5
+    },
+    {
+      "case_id": "R_G039",
+      "block": 1,
+      "main_order": [
+        "PC2_1",
+        "LIB",
+        "PC2_0",
+        "SINGLE",
+        "PC1_1",
+        "SPLIT",
+        "PC1_0",
+        "PC0_0",
+        "PC0_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 8
+    },
+    {
+      "case_id": "R_G039",
+      "block": 2,
+      "main_order": [
+        "PC2_0",
+        "PC1_1",
+        "PC2_1",
+        "PC1_0",
+        "LIB",
+        "PC0_1",
+        "SINGLE",
+        "PC0_0",
+        "SPLIT"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 11
+    },
+    {
+      "case_id": "R_G039",
+      "block": 3,
+      "main_order": [
+        "SINGLE",
+        "LIB",
+        "SPLIT",
+        "PC2_1",
+        "PC0_0",
+        "PC2_0",
+        "PC0_1",
+        "PC1_1",
+        "PC1_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 14
+    },
+    {
+      "case_id": "R_G039",
+      "block": 4,
+      "main_order": [
+        "PC0_1",
+        "PC0_0",
+        "PC1_0",
+        "SPLIT",
+        "PC1_1",
+        "SINGLE",
+        "PC2_0",
+        "LIB",
+        "PC2_1"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 17
+    },
+    {
+      "case_id": "R_G039",
+      "block": 5,
+      "main_order": [
+        "SPLIT",
+        "PC0_0",
+        "SINGLE",
+        "PC0_1",
+        "LIB",
+        "PC1_0",
+        "PC2_1",
+        "PC1_1",
+        "PC2_0"
+      ],
+      "anchor_head": "LIB",
+      "anchor_tail": "LIB",
+      "row_of_18": 2
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "package": "T10_PC_HANDOFF_LLM_20261016",
+  "status": "DESIGN_ONLY_NO_GPU_EXECUTION",
+  "files": [
+    {
+      "path": "CODEX_MASTER_TASK.md",
+      "bytes": 9564,
+      "sha256": "a63555f699f754756124d884ea791d3ac2603de0196ec2bcd7b827f2f28e4a51"
+    },
+    {
+      "path": "COPY_TO_CODEX.txt",
+      "bytes": 2088,
+      "sha256": "7d493074d6103adc8a4059ea0230897e6e9e7db81fb273083c90cd798c9df423"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 1665,
+      "sha256": "ddee16c293e4c6ab6909574c9484f4ccec4d7abcd86465fe98f17191cc2c0a44"
+    },
+    {
+      "path": "VALIDATION_REPORT.md",
+      "bytes": 1843,
+      "sha256": "aa884ad17790dd162e91348ba2787af2d3dcb9d033022d48108cfe56cd177794"
+    },
+    {
+      "path": "campaign.json",
+      "bytes": 1612,
+      "sha256": "50db2577dea1016b21fddf971b2c145416f09df09d062fd097fae16721d85bc9"
+    },
+    {
+      "path": "docs/01_OPERATOR_AND_IMPLEMENTATION.md",
+      "bytes": 7346,
+      "sha256": "463927d4549c19ccdefb1bdc5e973daed7d1a34079a3fb5f4e411462aec6991f"
+    },
+    {
+      "path": "docs/02_HANDOFF_CAUSAL_PROTOCOL.md",
+      "bytes": 4989,
+      "sha256": "f4bb95936f09489bc97072c17cae2db07ac7746d0ebb188e7d0ae04be04cf177"
+    },
+    {
+      "path": "docs/03_WORKLOADS_BASELINES.md",
+      "bytes": 6873,
+      "sha256": "90e984557bee1fb7329648c8b11685327cf30da93d50b52ab42c4587572b453b"
+    },
+    {
+      "path": "docs/04_MEASUREMENT_POWER.md",
+      "bytes": 6207,
+      "sha256": "acfe2860557149f78d018c83c34a6a7ca7f50485de2ded6a5fbbb12933a5221c"
+    },
+    {
+      "path": "docs/05_CORRECTNESS_RECORDS_DECISIONS.md",
+      "bytes": 4664,
+      "sha256": "652c09f444f4f54763f54439c461b5a7f498dff22d885931615b76e9db6737a6"
+    },
+    {
+      "path": "docs/06_SOURCES_AND_NOVELTY.md",
+      "bytes": 3937,
+      "sha256": "341a4c7cebc19b61800be7a6c3c008424d5101ae815a97b3aaf978e6c6f702e8"
+    },
+    {
+      "path": "plans/PLAN_VALIDATION.json",
+      "bytes": 873,
+      "sha256": "473c5018cf2d9d772be9ba68cd575dcabc38ea80f0caad746bf79b386e8b38d8"
+    },
+    {
+      "path": "plans/attention_cases.json",
+      "bytes": 11316,
+      "sha256": "81ed14fbbfb35ede919a420d1a6cebc00f25be4e19c3e5368285e3f33922e38d"
+    },
+    {
+      "path": "plans/gemm_cases.json",
+      "bytes": 15557,
+      "sha256": "6fe8db0a1e172896f37219d6fc7be61786f17369d6031e0485fbbb5a89aaae72"
+    },
+    {
+      "path": "plans/reduced_confirmation.json",
+      "bytes": 415,
+      "sha256": "40ce76ab54959fe723ff3e51bb92bc5468c03fa279efd18c256c6b6b88c437ba"
+    },
+    {
+      "path": "reference/layout_and_stats.py",
+      "bytes": 8745,
+      "sha256": "629ccffe5ce47ef5a6778f22f7b24201981a32ae5cdef8840905138619845777"
+    },
+    {
+      "path": "tests/CPU_TEST_LOG.txt",
+      "bytes": 2819,
+      "sha256": "9e7e623df4d46fba02257b46bcad67a4907f36cf296fb3e3cbff682fe14985a3"
+    },
+    {
+      "path": "tests/test_reference.py",
+      "bytes": 7696,
+      "sha256": "3c27c6fb87fc6550ac60e9e556bb3f05c53734097ec3a76e5171eb40d4ade5cc"
+    },
+    {
+      "path": "tools/analyze_phase_means.py",
+      "bytes": 2519,
+      "sha256": "c9ee6e178b6891e00ff56d3de5334a469410d046d64f07ff8a857be9badc969f"
+    },
+    {
+      "path": "tools/generate_plan.py",
+      "bytes": 2156,
+      "sha256": "61d5b4f19d1d5fa55a090d2171feec76c099146af6d5edc21b1a3d7ae7df5be4"
+    },
+    {
+      "path": "tools/validate_plan.py",
+      "bytes": 2993,
+      "sha256": "044cf080ab3781065fbadeb24a5e6adf5698a77504a915eb025fbbbb8c1e2c1b"
+    }
+  ]
+}

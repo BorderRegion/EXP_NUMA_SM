@@ -1,0 +1,62 @@
+{
+  "status": "CPU_PLAN_CHECK_ONLY",
+  "all_pass": true,
+  "checks": [
+    {
+      "name": "rtx5070ti_full_count",
+      "pass": true
+    },
+    {
+      "name": "rtx5070ti_full_unique",
+      "pass": true
+    },
+    {
+      "name": "rtx5070ti_confirmation_count",
+      "pass": true
+    },
+    {
+      "name": "rtx5070ti_confirmation_unique",
+      "pass": true
+    },
+    {
+      "name": "t10_full_count",
+      "pass": true
+    },
+    {
+      "name": "t10_full_unique",
+      "pass": true
+    },
+    {
+      "name": "t10_confirmation_count",
+      "pass": true
+    },
+    {
+      "name": "t10_confirmation_unique",
+      "pass": true
+    },
+    {
+      "name": "common_matrix",
+      "pass": true
+    },
+    {
+      "name": "cluster_matrix",
+      "pass": true
+    },
+    {
+      "name": "mechanism_matrix",
+      "pass": true
+    },
+    {
+      "name": "no_network_or_paid_provisioning",
+      "pass": true
+    },
+    {
+      "name": "one_candidate",
+      "pass": true
+    },
+    {
+      "name": "no_fixed_t10_sms",
+      "pass": true
+    }
+  ]
+}

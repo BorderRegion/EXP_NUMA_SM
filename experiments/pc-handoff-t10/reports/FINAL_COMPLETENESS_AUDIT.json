@@ -1,0 +1,282 @@
+{
+  "at": "2026-10-16T14:34:34.032821+00:00",
+  "status": "PASS",
+  "workers": [
+    {
+      "key": "E1_block_0",
+      "actual_worker": "E1_block_0",
+      "phases": 352,
+      "NA": 0
+    },
+    {
+      "key": "E1_block_1",
+      "actual_worker": "E1_block_1",
+      "phases": 352,
+      "NA": 0
+    },
+    {
+      "key": "E2_matrix_0",
+      "actual_worker": "E2_matrix_0",
+      "phases": 768,
+      "NA": 0
+    },
+    {
+      "key": "E2_matrix_1",
+      "actual_worker": "E2_matrix_1",
+      "phases": 768,
+      "NA": 0
+    },
+    {
+      "key": "E2_matrix_2",
+      "actual_worker": "E2_matrix_2",
+      "phases": 768,
+      "NA": 0
+    },
+    {
+      "key": "E2_matrix_3",
+      "actual_worker": "E2_matrix_3",
+      "phases": 768,
+      "NA": 0
+    },
+    {
+      "key": "E2_bridge_0",
+      "actual_worker": "E2_bridge_0_retry01",
+      "phases": 54,
+      "NA": 0
+    },
+    {
+      "key": "E2_bridge_1",
+      "actual_worker": "E2_bridge_1",
+      "phases": 54,
+      "NA": 0
+    },
+    {
+      "key": "E2_bridge_2",
+      "actual_worker": "E2_bridge_2",
+      "phases": 54,
+      "NA": 0
+    },
+    {
+      "key": "E2_bridge_3",
+      "actual_worker": "E2_bridge_3",
+      "phases": 54,
+      "NA": 0
+    },
+    {
+      "key": "E3_block_0",
+      "actual_worker": "E3_block_0",
+      "phases": 60,
+      "NA": 0
+    },
+    {
+      "key": "E3_block_1",
+      "actual_worker": "E3_block_1",
+      "phases": 60,
+      "NA": 0
+    },
+    {
+      "key": "E3_block_2",
+      "actual_worker": "E3_block_2",
+      "phases": 60,
+      "NA": 0
+    },
+    {
+      "key": "E3_block_3",
+      "actual_worker": "E3_block_3",
+      "phases": 60,
+      "NA": 0
+    },
+    {
+      "key": "E3_block_4",
+      "actual_worker": "E3_block_4",
+      "phases": 60,
+      "NA": 0
+    },
+    {
+      "key": "E3_block_5",
+      "actual_worker": "E3_block_5",
+      "phases": 60,
+      "NA": 0
+    },
+    {
+      "key": "E4_native_development",
+      "actual_worker": "E4_native_development",
+      "phases": 24,
+      "NA": 1
+    },
+    {
+      "key": "E4_native_0",
+      "actual_worker": "E4_native_0",
+      "phases": 24,
+      "NA": 1
+    },
+    {
+      "key": "E4_native_1",
+      "actual_worker": "E4_native_1",
+      "phases": 24,
+      "NA": 1
+    },
+    {
+      "key": "E4_native_2",
+      "actual_worker": "E4_native_2",
+      "phases": 24,
+      "NA": 1
+    },
+    {
+      "key": "E4_native_3",
+      "actual_worker": "E4_native_3",
+      "phases": 24,
+      "NA": 1
+    },
+    {
+      "key": "E4_native_4",
+      "actual_worker": "E4_native_4",
+      "phases": 24,
+      "NA": 1
+    },
+    {
+      "key": "E4_native_5",
+      "actual_worker": "E4_native_5",
+      "phases": 24,
+      "NA": 1
+    },
+    {
+      "key": "E5_gemm_0",
+      "actual_worker": "E5_gemm_0",
+      "phases": 30,
+      "NA": 0
+    },
+    {
+      "key": "E5_gemm_1",
+      "actual_worker": "E5_gemm_1",
+      "phases": 30,
+      "NA": 0
+    },
+    {
+      "key": "E5_gemm_2",
+      "actual_worker": "E5_gemm_2",
+      "phases": 30,
+      "NA": 0
+    },
+    {
+      "key": "E5_gemm_3",
+      "actual_worker": "E5_gemm_3",
+      "phases": 30,
+      "NA": 0
+    },
+    {
+      "key": "E5_gemm_4",
+      "actual_worker": "E5_gemm_4",
+      "phases": 30,
+      "NA": 0
+    },
+    {
+      "key": "E5_gemm_5",
+      "actual_worker": "E5_gemm_5",
+      "phases": 30,
+      "NA": 0
+    },
+    {
+      "key": "E5_attention_0",
+      "actual_worker": "E5_attention_0",
+      "phases": 24,
+      "NA": 0
+    },
+    {
+      "key": "E5_attention_1",
+      "actual_worker": "E5_attention_1",
+      "phases": 24,
+      "NA": 0
+    },
+    {
+      "key": "E5_attention_2",
+      "actual_worker": "E5_attention_2",
+      "phases": 24,
+      "NA": 0
+    },
+    {
+      "key": "E5_attention_3",
+      "actual_worker": "E5_attention_3",
+      "phases": 24,
+      "NA": 0
+    },
+    {
+      "key": "E5_attention_4",
+      "actual_worker": "E5_attention_4",
+      "phases": 24,
+      "NA": 0
+    },
+    {
+      "key": "E5_attention_5",
+      "actual_worker": "E5_attention_5",
+      "phases": 24,
+      "NA": 0
+    },
+    {
+      "key": "E5_ablation_0",
+      "actual_worker": "E5_ablation_0",
+      "phases": 24,
+      "NA": 0
+    },
+    {
+      "key": "E5_ablation_1",
+      "actual_worker": "E5_ablation_1",
+      "phases": 24,
+      "NA": 0
+    },
+    {
+      "key": "E5_ablation_2",
+      "actual_worker": "E5_ablation_2",
+      "phases": 24,
+      "NA": 0
+    },
+    {
+      "key": "E5_ablation_3",
+      "actual_worker": "E5_ablation_3",
+      "phases": 24,
+      "NA": 0
+    },
+    {
+      "key": "E5_ablation_4",
+      "actual_worker": "E5_ablation_4",
+      "phases": 24,
+      "NA": 0
+    },
+    {
+      "key": "E5_ablation_5",
+      "actual_worker": "E5_ablation_5",
+      "phases": 24,
+      "NA": 0
+    },
+    {
+      "key": "E5_workspace_0",
+      "actual_worker": "E5_workspace_0",
+      "phases": 12,
+      "NA": 0
+    },
+    {
+      "key": "E5_workspace_1",
+      "actual_worker": "E5_workspace_1",
+      "phases": 12,
+      "NA": 0
+    },
+    {
+      "key": "E5_workspace_2",
+      "actual_worker": "E5_workspace_2",
+      "phases": 12,
+      "NA": 0
+    },
+    {
+      "key": "E5_workspace_3",
+      "actual_worker": "E5_workspace_3",
+      "phases": 12,
+      "NA": 0
+    }
+  ],
+  "profile_attempts": 8,
+  "settled_worker_hours": 2.6758202614897972,
+  "paired_main_coverage": "12 fixed test cases x 6 process blocks",
+  "candidate_attention": "ADAPTER_MISSING",
+  "actual_activation_epilogue_fusion": "NOT_IMPLEMENTED; F1 is dependency contraction",
+  "no_automatic_speedup_threshold": true
+}

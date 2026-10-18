@@ -1,0 +1,38 @@
+[
+  {
+    "id": "F1",
+    "M": 4,
+    "hidden": 8192,
+    "intermediate": 3072,
+    "math": "FP16 inputs/weights -> FP32 GEMM1 -> existing SiLU to FP16 -> FP32 GEMM2",
+    "source": "LLM_SHAPED_SYNTHETIC_WEIGHTS_NOT_PRETRAINED_MODEL",
+    "second_layer_policy": "独立用相同已冻结selector选择；不为此重新调参"
+  },
+  {
+    "id": "F2",
+    "M": 24,
+    "hidden": 16384,
+    "intermediate": 8192,
+    "math": "FP16 inputs/weights -> FP32 GEMM1 -> existing SiLU to FP16 -> FP32 GEMM2",
+    "source": "LLM_SHAPED_SYNTHETIC_WEIGHTS_NOT_PRETRAINED_MODEL",
+    "second_layer_policy": "独立用相同已冻结selector选择；不为此重新调参"
+  },
+  {
+    "id": "F3",
+    "M": 80,
+    "hidden": 8192,
+    "intermediate": 3072,
+    "math": "FP16 inputs/weights -> FP32 GEMM1 -> existing SiLU to FP16 -> FP32 GEMM2",
+    "source": "LLM_SHAPED_SYNTHETIC_WEIGHTS_NOT_PRETRAINED_MODEL",
+    "second_layer_policy": "独立用相同已冻结selector选择；不为此重新调参"
+  },
+  {
+    "id": "F4",
+    "M": 320,
+    "hidden": 16384,
+    "intermediate": 8192,
+    "math": "FP16 inputs/weights -> FP32 GEMM1 -> existing SiLU to FP16 -> FP32 GEMM2",
+    "source": "LLM_SHAPED_SYNTHETIC_WEIGHTS_NOT_PRETRAINED_MODEL",
+    "second_layer_policy": "独立用相同已冻结selector选择；不为此重新调参"
+  }
+]

@@ -1,0 +1,2242 @@
+{
+  "status": "PASS",
+  "explanation": "CPU audit of seed overlap and sensitivity on confirmation processes 2..5.\n\nPost-run audit: the six-process primary result is retained unchanged. The four\nprocess subset is chosen solely because its input seeds were absent in the two\ndevelopment workers, never by observed timings. It is not a new experiment.\n",
+  "overlap_processes": [
+    0,
+    1
+  ],
+  "confirmation_only_input_seed_processes": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "seed_rules": {
+    "first_stage": 210000,
+    "tuning": 310000
+  },
+  "matching_output_hashes": [
+    {
+      "stage": "confirmation",
+      "process": 0,
+      "case": "D13",
+      "slot": 0,
+      "same_native_output_sha256": "919f28a4475d08dcfe82bfb4336719fd83b49df769f2d119b0b0c59fa72b0614"
+    },
+    {
+      "stage": "confirmation",
+      "process": 0,
+      "case": "D13",
+      "slot": 1,
+      "same_native_output_sha256": "f33436892c4676af3662b989f9bd6465065d46203108c9427e62e9b5d1b4e5ed"
+    },
+    {
+      "stage": "confirmation",
+      "process": 0,
+      "case": "D13",
+      "slot": 2,
+      "same_native_output_sha256": "75813d383573d03ce2204a5ea1be224126637d78d2e1ef635038e2a89c033c5e"
+    },
+    {
+      "stage": "confirmation",
+      "process": 0,
+      "case": "D13",
+      "slot": 3,
+      "same_native_output_sha256": "6216b4e3aff4f931bfe4aaeb4eaa036772a2cd0a7e78f78eea67df07935b615b"
+    },
+    {
+      "stage": "confirmation",
+      "process": 0,
+      "case": "R_G002",
+      "slot": 0,
+      "same_native_output_sha256": "fdfb57418b1e6cb068cc6d071629cd8b8c036eb6b703c4f9fc3a881ceb5e2ae2"
+    },
+    {
+      "stage": "confirmation",
+      "process": 0,
+      "case": "R_G002",
+      "slot": 1,
+      "same_native_output_sha256": "1c9d5074fe2ea3ac051870e36df202688b5c9deb880fc42c19e1b6e217647efd"
+    },
+    {
+      "stage": "confirmation",
+      "process": 0,
+      "case": "R_G002",
+      "slot": 2,
+      "same_native_output_sha256": "f55cccf8dc94893252e0b92d991cd96de0afb0ea16154caf7575c9b742ebed51"
+    },
+    {
+      "stage": "confirmation",
+      "process": 0,
+      "case": "R_G002",
+      "slot": 3,
+      "same_native_output_sha256": "e57b470deee3793a749b3aa38140a4c3ac71f49a5f219519d6282c4c00c61a97"
+    },
+    {
+      "stage": "confirmation",
+      "process": 0,
+      "case": "R_G017",
+      "slot": 0,
+      "same_native_output_sha256": "c3440a3d22ba0c0e31e4b833486189d48f0942bfaaf7ead39a25c55202122f89"
+    },
+    {
+      "stage": "confirmation",
+      "process": 0,
+      "case": "R_G017",
+      "slot": 1,
+      "same_native_output_sha256": "bcb5974847656ad6c6576261051fc60b0bbc21363005e63986a3accff8d268ef"
+    },
+    {
+      "stage": "confirmation",
+      "process": 0,
+      "case": "R_G017",
+      "slot": 2,
+      "same_native_output_sha256": "71126696f711a56ca473efe25c63cf8bcb4e29cce2ddf76701ac6b7c189f81ed"
+    },
+    {
+      "stage": "confirmation",
+      "process": 0,
+      "case": "R_G017",
+      "slot": 3,
+      "same_native_output_sha256": "a6a61933287a0b6032b76569d9ee46c8642aca66a7b9e6a03062859df84c9dc0"
+    },
+    {
+      "stage": "confirmation",
+      "process": 0,
+      "case": "V13",
+      "slot": 0,
+      "same_native_output_sha256": "f5dd8ebc26c163893b82951a6c4388502c1456ff5a6212019908d099d6c00ac6"
+    },
+    {
+      "stage": "confirmation",
+      "process": 0,
+      "case": "V13",
+      "slot": 1,
+      "same_native_output_sha256": "73ee6c1bc9b9bbd3f06bfce2ab568351cefb73d338eb5c25b087b2ab546bcb58"
+    },
+    {
+      "stage": "confirmation",
+      "process": 0,
+      "case": "V13",
+      "slot": 2,
+      "same_native_output_sha256": "8534a1740ac24dd41638a27272d47607f904299e3f1542bdb18dff43e117a328"
+    },
+    {
+      "stage": "confirmation",
+      "process": 0,
+      "case": "V13",
+      "slot": 3,
+      "same_native_output_sha256": "ea438a86b9d70674bcd218adcf4d043d42c24d5c68707d7a0f3f4f21bde7ab8b"
+    },
+    {
+      "stage": "confirmation",
+      "process": 1,
+      "case": "D13",
+      "slot": 0,
+      "same_native_output_sha256": "8cc11845bd582b494554e6fbebb9ec8dcf4730e096c6676fab98098c31acc108"
+    },
+    {
+      "stage": "confirmation",
+      "process": 1,
+      "case": "D13",
+      "slot": 1,
+      "same_native_output_sha256": "3a409cc895cb04548a9fcc1c14ad5825288b84bdb9c2039826e48328132535c0"
+    },
+    {
+      "stage": "confirmation",
+      "process": 1,
+      "case": "D13",
+      "slot": 2,
+      "same_native_output_sha256": "10d635e7c812b32a84c07c09289a1a9886eb187f73c7ba63b1ac54874716df31"
+    },
+    {
+      "stage": "confirmation",
+      "process": 1,
+      "case": "D13",
+      "slot": 3,
+      "same_native_output_sha256": "726c8adbf57cf2747d6d19be8235a7a92022cd4743cebf6f5a8d5c3b9de11ce9"
+    },
+    {
+      "stage": "confirmation",
+      "process": 1,
+      "case": "R_G002",
+      "slot": 0,
+      "same_native_output_sha256": "ed97d27c725f9347bca2a22ac26e3bfa045a96d09e70325884b6abde951e5a29"
+    },
+    {
+      "stage": "confirmation",
+      "process": 1,
+      "case": "R_G002",
+      "slot": 1,
+      "same_native_output_sha256": "cada347a935c8a2148c06e6aa2d02de3f236d1072dfd74c7af1bc7d70ac681c7"
+    },
+    {
+      "stage": "confirmation",
+      "process": 1,
+      "case": "R_G002",
+      "slot": 2,
+      "same_native_output_sha256": "5fc727717472b3b2ef1242bceaf296d93327addd25dae1ed4dcd1ee99bb2258e"
+    },
+    {
+      "stage": "confirmation",
+      "process": 1,
+      "case": "R_G002",
+      "slot": 3,
+      "same_native_output_sha256": "d01252d434e9d5672f1d34b13cf2aca9a80105bcbb8249f74332957847025ea7"
+    },
+    {
+      "stage": "confirmation",
+      "process": 1,
+      "case": "R_G017",
+      "slot": 0,
+      "same_native_output_sha256": "49f69c1b0c07231094566b4fe12d92ba8062d1603f54bfc7139a3a0b6aa636c3"
+    },
+    {
+      "stage": "confirmation",
+      "process": 1,
+      "case": "R_G017",
+      "slot": 1,
+      "same_native_output_sha256": "7ecaf7331449d00287cfab6f04839e1bc709640a505f8cfcca0e7fb08a8206a9"
+    },
+    {
+      "stage": "confirmation",
+      "process": 1,
+      "case": "R_G017",
+      "slot": 2,
+      "same_native_output_sha256": "1d1def24861085ca09f035493e362614a47c25ce2a94cd24302951bcbbad9606"
+    },
+    {
+      "stage": "confirmation",
+      "process": 1,
+      "case": "R_G017",
+      "slot": 3,
+      "same_native_output_sha256": "2e1dbb7ee6a9739de918684069ea35209d4197e29a27910d0476b5688ad4c75d"
+    },
+    {
+      "stage": "confirmation",
+      "process": 1,
+      "case": "V13",
+      "slot": 0,
+      "same_native_output_sha256": "2eb029259b7f6d420af24b5dc7bda9ed2b9db8de319f9aa18aa04037f71382cc"
+    },
+    {
+      "stage": "confirmation",
+      "process": 1,
+      "case": "V13",
+      "slot": 1,
+      "same_native_output_sha256": "c81f7328c4ea99274a9c994b8f81620a1cb29e73f0706bc299db083b8ea6e320"
+    },
+    {
+      "stage": "confirmation",
+      "process": 1,
+      "case": "V13",
+      "slot": 2,
+      "same_native_output_sha256": "02e117f90b32cb4163ebec992fc2db77aa95729f5166b1d87b5fa7c2e1ee51ae"
+    },
+    {
+      "stage": "confirmation",
+      "process": 1,
+      "case": "V13",
+      "slot": 3,
+      "same_native_output_sha256": "8c7d13e387b906a87c10483857ca81ef6c19cabcc577d66f7fc30757898d6393"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 0,
+      "case": "D13",
+      "slot": 0,
+      "same_native_output_sha256": "089a40540df9e56464d4dc79c2b78eaddc7b89fea5e2a06548c73d42960e82ff"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 0,
+      "case": "D13",
+      "slot": 1,
+      "same_native_output_sha256": "5c4ed37bd92cfb7db0291dbb308b5b0e6c73b39b0c38f1cdd19420402734a39a"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 0,
+      "case": "D13",
+      "slot": 2,
+      "same_native_output_sha256": "9d97b08f63dea67cb227f824ba5d279ca47890f780698fb42c96b47297f622c7"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 0,
+      "case": "D13",
+      "slot": 3,
+      "same_native_output_sha256": "479def7d05ce571f6b354191e71127b4b3085f8e01307931ee6c96b916ea6ade"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 0,
+      "case": "R_G002",
+      "slot": 0,
+      "same_native_output_sha256": "0239ae033afdb90f973c0a2772bc218f838eeadaa1be46a629f7c1f91a43cb70"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 0,
+      "case": "R_G002",
+      "slot": 1,
+      "same_native_output_sha256": "ebab032b37c465dcbab139ded7500c638bc80d5ce6382b68f9023b445548c6d9"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 0,
+      "case": "R_G002",
+      "slot": 2,
+      "same_native_output_sha256": "546bec575dc644feb2161bdcbc4747e2fc4d436a13c2a42c9ee1a83e2b51ca74"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 0,
+      "case": "R_G002",
+      "slot": 3,
+      "same_native_output_sha256": "e2b9d62b5472e5607a6fc7d84da9668607b1b131c1ae67e6981b5559f4fa77f3"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 0,
+      "case": "R_G017",
+      "slot": 0,
+      "same_native_output_sha256": "731efa585ff2de951e9ac74b25417cf581a649fec8d15b1963288ff1682a3166"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 0,
+      "case": "R_G017",
+      "slot": 1,
+      "same_native_output_sha256": "84c37841ffe9e24f47d95e1618cb37be28584ef837d78bf04ef1e077b7d68f76"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 0,
+      "case": "R_G017",
+      "slot": 2,
+      "same_native_output_sha256": "a6815595f83957d4fa40c4f3f01b516aa5a4a23e81a8575e1e371147952c7411"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 0,
+      "case": "R_G017",
+      "slot": 3,
+      "same_native_output_sha256": "8619a174c0547089ca2777d3c094d9926adf3462cf1059534d52e8300a8743ad"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 0,
+      "case": "V13",
+      "slot": 0,
+      "same_native_output_sha256": "ac875ade7a217becc37f0e72b89b5db1364d2af000c46b251b840494c3b42889"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 0,
+      "case": "V13",
+      "slot": 1,
+      "same_native_output_sha256": "8916377329cd4ebf02ecf447b485804125d2dcab3b3fbf70d91850ee33b8c926"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 0,
+      "case": "V13",
+      "slot": 2,
+      "same_native_output_sha256": "3f5ca2db0cef59edacac17d8bfbf815fc41085ab1787b649e529c7929d7894d6"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 0,
+      "case": "V13",
+      "slot": 3,
+      "same_native_output_sha256": "bab00518456ba0d931f994cb45609fd154b7706b721dc38e1085e9a4a6e1471c"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 1,
+      "case": "D13",
+      "slot": 0,
+      "same_native_output_sha256": "d1221969065978da77a1a55a1b62ed8b9c5ea04d419bc4bfd33f08a3b37d1aaf"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 1,
+      "case": "D13",
+      "slot": 1,
+      "same_native_output_sha256": "7344350a182930c74a9015f881e0eb07fc886b101caedc06c939b7d96cdbee49"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 1,
+      "case": "D13",
+      "slot": 2,
+      "same_native_output_sha256": "5808f112fdc1ce783854c6a5097fde7fe2f5020e7d92057f7012f7aa5cca29f6"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 1,
+      "case": "D13",
+      "slot": 3,
+      "same_native_output_sha256": "8915425693e6bae06593d0b9f845614f1ed5f1e3bcbf160d3da6ce14917fc3bb"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 1,
+      "case": "R_G002",
+      "slot": 0,
+      "same_native_output_sha256": "01262dc019cbe1e69337baddd921edf63a65ae01333f943b481856f789445760"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 1,
+      "case": "R_G002",
+      "slot": 1,
+      "same_native_output_sha256": "cc1aabeb2511bed7d353c8ae10ede691a3908e4f1262b91065fd38284212ffc8"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 1,
+      "case": "R_G002",
+      "slot": 2,
+      "same_native_output_sha256": "7007d9a8e2f78fe6f146b510962b6cb21c2b1bda25904cdb067961e6587dbb23"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 1,
+      "case": "R_G002",
+      "slot": 3,
+      "same_native_output_sha256": "b19c78cbbf107cb913e4216adad3d554cbe59aee2107710438cf901cf3756cf6"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 1,
+      "case": "R_G017",
+      "slot": 0,
+      "same_native_output_sha256": "53d929301f5afa60b62f1c757b8f3fbec160691fa0049fbd6160d5d76eeebac1"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 1,
+      "case": "R_G017",
+      "slot": 1,
+      "same_native_output_sha256": "8267cc06f66e773b2e73090752787e65a381850d4367f79c3ba0ab85479c26e4"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 1,
+      "case": "R_G017",
+      "slot": 2,
+      "same_native_output_sha256": "82438bd28962847ec38bc9c51bec3965bc2b88b9ea2dc1ebefb5bb2c5ab2c2e7"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 1,
+      "case": "R_G017",
+      "slot": 3,
+      "same_native_output_sha256": "9d81f8c0849e82a68082868f4285b7b0c444fc070b24f3d16e4a48f73ff62cf4"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 1,
+      "case": "V13",
+      "slot": 0,
+      "same_native_output_sha256": "bf6a84e099226c501a7d667abeb0e0418a8f160ef486c42fcea13fc2f512f8f9"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 1,
+      "case": "V13",
+      "slot": 1,
+      "same_native_output_sha256": "122929e2d507c66d3d391fdda51f0bef195746837fe6dcb85bd69577688a32d4"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 1,
+      "case": "V13",
+      "slot": 2,
+      "same_native_output_sha256": "3fb59d0a6bcbfcf0182940d911dbc0023398c6e49d37528caf5fc027fba6dca7"
+    },
+    {
+      "stage": "tune_confirmation",
+      "process": 1,
+      "case": "V13",
+      "slot": 3,
+      "same_native_output_sha256": "1326fddfe8a181caba1ff339142738ae7b5747a4ee47dec7e76bf18147e1d97e"
+    }
+  ],
+  "sensitivity": {
+    "confirmation": {
+      "gpu_us": {
+        "ALL": {
+          "QUEUE_SELECTED/NATIVE": {
+            "reduction_pct": -1.5917207027541957,
+            "ci95": [
+              -2.2420615177005,
+              -0.9345416120612127
+            ],
+            "per_process_pct": [
+              -0.5717482373158056,
+              -1.3206739933900868,
+              -2.0307928838636524,
+              -2.453767611978286
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "QUEUE_SELECTED/QUEUE_BLIND": {
+            "reduction_pct": -0.3049718463679074,
+            "ci95": [
+              -1.267050428742511,
+              0.6479665942256685
+            ],
+            "per_process_pct": [
+              0.8986004223490385,
+              -0.8211235324464994,
+              0.396698896993819,
+              -1.714949637882035
+            ],
+            "positive_processes": 2,
+            "processes": 4
+          },
+          "FUSED/NATIVE": {
+            "reduction_pct": -1.127637941625892,
+            "ci95": [
+              -1.6628658126711215,
+              -0.37000301388876444
+            ],
+            "per_process_pct": [
+              0.02347602061161247,
+              -1.766080060905506,
+              -1.5597562474610749,
+              -1.2177606700283672
+            ],
+            "positive_processes": 1,
+            "processes": 4
+          }
+        },
+        "D13": {
+          "QUEUE_SELECTED/NATIVE": {
+            "reduction_pct": -1.2532093177064496,
+            "ci95": [
+              -1.4960923576340823,
+              -0.9849490127480376
+            ],
+            "per_process_pct": [
+              -1.4315669390160268,
+              -1.5606588239236885,
+              -0.8365138042931042,
+              -1.1856028119562767
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "QUEUE_SELECTED/QUEUE_BLIND": {
+            "reduction_pct": 0.1017453700590587,
+            "ci95": [
+              -0.04616201575222689,
+              0.25494560891525797
+            ],
+            "per_process_pct": [
+              0.34440225382793566,
+              -0.013906423060139339,
+              -0.07842801123023602,
+              0.15437542668960136
+            ],
+            "positive_processes": 2,
+            "processes": 4
+          },
+          "FUSED/NATIVE": {
+            "reduction_pct": -5.544529787067298,
+            "ci95": [
+              -5.7054410740910555,
+              -5.3838634490454895
+            ],
+            "per_process_pct": [
+              -5.68868105003133,
+              -5.722203755941613,
+              -5.297172896986013,
+              -5.470625372933968
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          }
+        },
+        "R_G002": {
+          "QUEUE_SELECTED/NATIVE": {
+            "reduction_pct": -3.1584621121057976,
+            "ci95": [
+              -3.7445054903999297,
+              -2.5757292401331178
+            ],
+            "per_process_pct": [
+              -2.249035798687693,
+              -2.903466491956319,
+              -3.8041604744401214,
+              -3.6848847893509618
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "QUEUE_SELECTED/QUEUE_BLIND": {
+            "reduction_pct": -0.03895305514849401,
+            "ci95": [
+              -0.15713942576325302,
+              0.04826241109107121
+            ],
+            "per_process_pct": [
+              -0.21882756331483844,
+              0.06882333841647936,
+              0.02769725333681139,
+              -0.033747212516477276
+            ],
+            "positive_processes": 2,
+            "processes": 4
+          },
+          "FUSED/NATIVE": {
+            "reduction_pct": -0.8428592154048564,
+            "ci95": [
+              -1.6291541498535844,
+              -0.06264776880082756
+            ],
+            "per_process_pct": [
+              -0.09944170635465266,
+              -0.025867355736441944,
+              -1.5355761598844886,
+              -1.7228183838815303
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          }
+        },
+        "R_G017": {
+          "QUEUE_SELECTED/NATIVE": {
+            "reduction_pct": 0.1597729307232565,
+            "ci95": [
+              -0.17750648593235496,
+              0.4494100040328797
+            ],
+            "per_process_pct": [
+              -0.3353762425452267,
+              0.2946139733686848,
+              0.11813805561288193,
+              0.5595896490762642
+            ],
+            "positive_processes": 3,
+            "processes": 4
+          },
+          "QUEUE_SELECTED/QUEUE_BLIND": {
+            "reduction_pct": 0.10325364512223656,
+            "ci95": [
+              -0.1522660587910618,
+              0.40792685310746535
+            ],
+            "per_process_pct": [
+              0.5792501905782732,
+              0.13650085822241032,
+              -0.10781655691405323,
+              -0.19673529697121772
+            ],
+            "positive_processes": 2,
+            "processes": 4
+          },
+          "FUSED/NATIVE": {
+            "reduction_pct": 1.6947575256764713,
+            "ci95": [
+              1.3388035727754932,
+              2.0494272531557667
+            ],
+            "per_process_pct": [
+              1.5299278662379234,
+              2.1578898076889175,
+              1.9408444628088994,
+              1.1473083189312838
+            ],
+            "positive_processes": 4,
+            "processes": 4
+          }
+        },
+        "V13": {
+          "QUEUE_SELECTED/NATIVE": {
+            "reduction_pct": -2.144279243201752,
+            "ci95": [
+              -4.630968172937866,
+              0.3758503646465905
+            ],
+            "per_process_pct": [
+              1.6855036776431298,
+              -1.1388815350398707,
+              -3.658718088284174,
+              -5.612337319109417
+            ],
+            "positive_processes": 1,
+            "processes": 4
+          },
+          "QUEUE_SELECTED/QUEUE_BLIND": {
+            "reduction_pct": -1.3938139462435162,
+            "ci95": [
+              -5.226223355213411,
+              2.299016549698374
+            ],
+            "per_process_pct": [
+              2.8615651948108667,
+              -3.5232648908858577,
+              1.733210069736546,
+              -6.957195498729685
+            ],
+            "positive_processes": 2,
+            "processes": 4
+          },
+          "FUSED/NATIVE": {
+            "reduction_pct": 0.041001811649066244,
+            "ci95": [
+              -2.5618087604270645,
+              2.7338597669730347
+            ],
+            "per_process_pct": [
+              4.0979827489179605,
+              -3.659197136706971,
+              -1.4760378892181736,
+              1.0334355481738888
+            ],
+            "positive_processes": 2,
+            "processes": 4
+          }
+        }
+      },
+      "host_us": {
+        "ALL": {
+          "QUEUE_SELECTED/NATIVE": {
+            "reduction_pct": -1.55088737732898,
+            "ci95": [
+              -2.1964371852984277,
+              -0.9094153490360801
+            ],
+            "per_process_pct": [
+              -0.5653193040679572,
+              -1.2546887590141553,
+              -1.9925522204619739,
+              -2.400729719883654
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "QUEUE_SELECTED/QUEUE_BLIND": {
+            "reduction_pct": -0.3085384831150728,
+            "ci95": [
+              -1.2496572760414937,
+              0.6238325806216416
+            ],
+            "per_process_pct": [
+              0.8352486077449206,
+              -0.8028604820259799,
+              0.4119658213995514,
+              -1.698434444167285
+            ],
+            "positive_processes": 2,
+            "processes": 4
+          },
+          "FUSED/NATIVE": {
+            "reduction_pct": -1.1194286979616663,
+            "ci95": [
+              -1.6091684506230886,
+              -0.4663205641623591
+            ],
+            "per_process_pct": [
+              -0.10920896172414984,
+              -1.6730601116604626,
+              -1.5453169393003563,
+              -1.1576205008809515
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          }
+        },
+        "D13": {
+          "QUEUE_SELECTED/NATIVE": {
+            "reduction_pct": -1.1352591382934207,
+            "ci95": [
+              -1.3239097072116346,
+              -0.8214398962855585
+            ],
+            "per_process_pct": [
+              -1.3063660586514647,
+              -1.3414563938790591,
+              -0.6603142164691711,
+              -1.2344216698498833
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "QUEUE_SELECTED/QUEUE_BLIND": {
+            "reduction_pct": 0.16612540378699858,
+            "ci95": [
+              0.06784393703970215,
+              0.26931471981280763
+            ],
+            "per_process_pct": [
+              0.3129140312651435,
+              0.1384023400837875,
+              0.029153999958075882,
+              0.1838239305958944
+            ],
+            "positive_processes": 4,
+            "processes": 4
+          },
+          "FUSED/NATIVE": {
+            "reduction_pct": -5.285502992159574,
+            "ci95": [
+              -5.547763818007589,
+              -5.018380196444006
+            ],
+            "per_process_pct": [
+              -5.6383645410040595,
+              -5.305635703949685,
+              -4.922802595882558,
+              -5.276427604660827
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          }
+        },
+        "R_G002": {
+          "QUEUE_SELECTED/NATIVE": {
+            "reduction_pct": -3.1504577868945782,
+            "ci95": [
+              -3.7285648580968056,
+              -2.575572661221348
+            ],
+            "per_process_pct": [
+              -2.3655364548537783,
+              -2.7860398252091745,
+              -3.8852243809115894,
+              -3.572141578753918
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "QUEUE_SELECTED/QUEUE_BLIND": {
+            "reduction_pct": -0.1012953564540009,
+            "ci95": [
+              -0.29450387730813876,
+              0.08084266812731222
+            ],
+            "per_process_pct": [
+              -0.3638986553358592,
+              0.13923789317981106,
+              -0.09454797233199308,
+              -0.08660730102694192
+            ],
+            "positive_processes": 1,
+            "processes": 4
+          },
+          "FUSED/NATIVE": {
+            "reduction_pct": -1.0324232188096971,
+            "ci95": [
+              -1.7827446190140872,
+              -0.287633033210577
+            ],
+            "per_process_pct": [
+              -0.5199596496243464,
+              -0.05584338136468414,
+              -1.8227487003659615,
+              -1.7427562544499287
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          }
+        },
+        "R_G017": {
+          "QUEUE_SELECTED/NATIVE": {
+            "reduction_pct": 0.17579479237306295,
+            "ci95": [
+              -0.15024908236420664,
+              0.4796326834405673
+            ],
+            "per_process_pct": [
+              -0.2921353251116088,
+              0.27420639747259834,
+              0.11974159537290197,
+              0.5993079775452048
+            ],
+            "positive_processes": 3,
+            "processes": 4
+          },
+          "QUEUE_SELECTED/QUEUE_BLIND": {
+            "reduction_pct": 0.0810068094883154,
+            "ci95": [
+              -0.10858874224488613,
+              0.3721323968509771
+            ],
+            "per_process_pct": [
+              0.5104416019449998,
+              0.001584692115064179,
+              -0.04394994290835008,
+              -0.1453401879370153
+            ],
+            "positive_processes": 2,
+            "processes": 4
+          },
+          "FUSED/NATIVE": {
+            "reduction_pct": 1.6966308327189927,
+            "ci95": [
+              1.3429628065753763,
+              2.049031021551928
+            ],
+            "per_process_pct": [
+              1.4779536877717492,
+              2.1676663159297394,
+              1.93025186540019,
+              1.2077869663907448
+            ],
+            "positive_processes": 4,
+            "processes": 4
+          }
+        },
+        "V13": {
+          "QUEUE_SELECTED/NATIVE": {
+            "reduction_pct": -2.1234030990845643,
+            "ci95": [
+              -4.548276129399698,
+              0.3683773655511424
+            ],
+            "per_process_pct": [
+              1.6587859218239687,
+              -1.1886486600737989,
+              -3.605334439789165,
+              -5.499799800187288
+            ],
+            "positive_processes": 1,
+            "processes": 4
+          },
+          "QUEUE_SELECTED/QUEUE_BLIND": {
+            "reduction_pct": -1.3878555405749893,
+            "ci95": [
+              -5.214882445507629,
+              2.2999692420850537
+            ],
+            "per_process_pct": [
+              2.851660388893862,
+              -3.539227695601954,
+              1.7451451223125636,
+              -6.917655601677053
+            ],
+            "positive_processes": 2,
+            "processes": 4
+          },
+          "FUSED/NATIVE": {
+            "reduction_pct": 0.013657857180116029,
+            "ci95": [
+              -2.569553978855277,
+              2.654921394964349
+            ],
+            "per_process_pct": [
+              3.996134321326472,
+              -3.6685669922877917,
+              -1.4821918412739388,
+              1.0451538590111165
+            ],
+            "positive_processes": 2,
+            "processes": 4
+          }
+        }
+      }
+    },
+    "tune_confirmation": {
+      "gpu_us": {
+        "ALL": {
+          "TUNED_NATIVE/LIB": {
+            "reduction_pct": -14.14251703056857,
+            "ci95": [
+              -14.787983460861476,
+              -13.500680134483623
+            ],
+            "per_process_pct": [
+              -14.691442780147534,
+              -13.233647452421327,
+              -14.884605403985285,
+              -13.768342545031187
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "TUNED_NATIVE/OLD_NATIVE": {
+            "reduction_pct": 6.2125531183983345,
+            "ci95": [
+              5.810415891687127,
+              6.623073398146917
+            ],
+            "per_process_pct": [
+              6.861688323231874,
+              6.363594397866123,
+              5.717185143882819,
+              5.903554449071069
+            ],
+            "positive_processes": 4,
+            "processes": 4
+          },
+          "TUNED_FUSED/TUNED_NATIVE": {
+            "reduction_pct": -1.0104479603565863,
+            "ci95": [
+              -1.533847192779314,
+              -0.48974681102711415
+            ],
+            "per_process_pct": [
+              -0.5037687532734036,
+              -1.3721825006272281,
+              -0.475726825074263,
+              -1.69576970193841
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "FROZEN_ROUTE/LIB": {
+            "reduction_pct": 2.3120598267975634,
+            "ci95": [
+              2.177220441244754,
+              2.433088865788391
+            ],
+            "per_process_pct": [
+              2.4640576394446723,
+              2.402110259193413,
+              2.1021420714854244,
+              2.279538801570702
+            ],
+            "positive_processes": 4,
+            "processes": 4
+          }
+        },
+        "D13": {
+          "TUNED_NATIVE/LIB": {
+            "reduction_pct": 8.932417250863644,
+            "ci95": [
+              8.428570225166665,
+              9.382886609920348
+            ],
+            "per_process_pct": [
+              9.49788317994681,
+              9.267743919431936,
+              8.147124428455953,
+              8.81108844029599
+            ],
+            "positive_processes": 4,
+            "processes": 4
+          },
+          "TUNED_NATIVE/OLD_NATIVE": {
+            "reduction_pct": 4.300132583293248,
+            "ci95": [
+              3.9273948369186407,
+              4.731280363066692
+            ],
+            "per_process_pct": [
+              4.9357877813872015,
+              4.364733765695938,
+              3.78117121239947,
+              4.115114633943062
+            ],
+            "positive_processes": 4,
+            "processes": 4
+          },
+          "TUNED_FUSED/TUNED_NATIVE": {
+            "reduction_pct": -4.652320526082598,
+            "ci95": [
+              -5.155385199516771,
+              -3.9614367804936323
+            ],
+            "per_process_pct": [
+              -5.240552398026543,
+              -4.711895749626427,
+              -3.594426670329387,
+              -5.070286923599454
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "FROZEN_ROUTE/LIB": {
+            "reduction_pct": 8.932417250863644,
+            "ci95": [
+              8.428570225166665,
+              9.382886609920348
+            ],
+            "per_process_pct": [
+              9.49788317994681,
+              9.267743919431936,
+              8.147124428455953,
+              8.81108844029599
+            ],
+            "positive_processes": 4,
+            "processes": 4
+          }
+        },
+        "R_G002": {
+          "TUNED_NATIVE/LIB": {
+            "reduction_pct": -25.434702549837994,
+            "ci95": [
+              -25.59563964076059,
+              -25.326531227239578
+            ],
+            "per_process_pct": [
+              -25.674491346460513,
+              -25.40481815394664,
+              -25.35938124216457,
+              -25.300446447059265
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "TUNED_NATIVE/OLD_NATIVE": {
+            "reduction_pct": 3.9452733918538985,
+            "ci95": [
+              3.7314365528943294,
+              4.2249815410511875
+            ],
+            "per_process_pct": [
+              3.9140657313483262,
+              3.8433879432707485,
+              4.351842590016819,
+              3.6704830546981926
+            ],
+            "positive_processes": 4,
+            "processes": 4
+          },
+          "TUNED_FUSED/TUNED_NATIVE": {
+            "reduction_pct": -0.3189294394504216,
+            "ci95": [
+              -0.4794010249080882,
+              -0.1623122009331679
+            ],
+            "per_process_pct": [
+              -0.10376886630245608,
+              -0.3381477110828257,
+              -0.29250897804091736,
+              -0.541775734652794
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "FROZEN_ROUTE/LIB": {
+            "reduction_pct": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "per_process_pct": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          }
+        },
+        "R_G017": {
+          "TUNED_NATIVE/LIB": {
+            "reduction_pct": -4.180446454982367,
+            "ci95": [
+              -4.629758937741668,
+              -3.571387752787758
+            ],
+            "per_process_pct": [
+              -4.5442057025554705,
+              -4.2192642066132935,
+              -4.7153821849959865,
+              -3.2491309207328234
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "TUNED_NATIVE/OLD_NATIVE": {
+            "reduction_pct": 16.407479221303547,
+            "ci95": [
+              16.25080197046762,
+              16.56386336173953
+            ],
+            "per_process_pct": [
+              16.18559014109937,
+              16.315963061750416,
+              16.493407547222095,
+              16.63425973158733
+            ],
+            "positive_processes": 4,
+            "processes": 4
+          },
+          "TUNED_FUSED/TUNED_NATIVE": {
+            "reduction_pct": -1.227859269158138,
+            "ci95": [
+              -1.7186621361678478,
+              -0.9268440905067621
+            ],
+            "per_process_pct": [
+              -0.8723119616263375,
+              -1.0906174231257726,
+              -0.989169589486405,
+              -1.96299543761429
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "FROZEN_ROUTE/LIB": {
+            "reduction_pct": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "per_process_pct": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          }
+        },
+        "V13": {
+          "TUNED_NATIVE/LIB": {
+            "reduction_pct": -42.633668850825735,
+            "ci95": [
+              -44.99490642229769,
+              -40.0732987352024
+            ],
+            "per_process_pct": [
+              -45.51850469351226,
+              -38.63664897003325,
+              -44.473192139309845,
+              -42.005337722520466
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "TUNED_NATIVE/OLD_NATIVE": {
+            "reduction_pct": -0.6888442298059072,
+            "ci95": [
+              -2.3138024699544735,
+              0.9103062579330912
+            ],
+            "per_process_pct": [
+              1.7080655392360922,
+              0.10607218422320486,
+              -2.8188456651195404,
+              -1.8112400323522015
+            ],
+            "positive_processes": 2,
+            "processes": 4
+          },
+          "TUNED_FUSED/TUNED_NATIVE": {
+            "reduction_pct": 2.0434718249936923,
+            "ci95": [
+              0.6375329523520157,
+              3.4295172290819353
+            ],
+            "per_process_pct": [
+              3.9883645640601206,
+              0.5734806479703702,
+              2.8674170556077128,
+              0.7015439931178369
+            ],
+            "positive_processes": 4,
+            "processes": 4
+          },
+          "FROZEN_ROUTE/LIB": {
+            "reduction_pct": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "per_process_pct": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          }
+        }
+      },
+      "host_us": {
+        "ALL": {
+          "TUNED_NATIVE/LIB": {
+            "reduction_pct": -13.886111663162314,
+            "ci95": [
+              -14.519349326879594,
+              -13.25637550326173
+            ],
+            "per_process_pct": [
+              -14.430306576946217,
+              -12.992210572577555,
+              -14.608461364500403,
+              -13.521158026169733
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "TUNED_NATIVE/OLD_NATIVE": {
+            "reduction_pct": 6.082815708520039,
+            "ci95": [
+              5.672243580898928,
+              6.491600774958107
+            ],
+            "per_process_pct": [
+              6.723783699494734,
+              6.2588399012659,
+              5.585783602059502,
+              5.758624383866051
+            ],
+            "positive_processes": 4,
+            "processes": 4
+          },
+          "TUNED_FUSED/TUNED_NATIVE": {
+            "reduction_pct": -0.9766973619315333,
+            "ci95": [
+              -1.5008361581972718,
+              -0.4552651589131651
+            ],
+            "per_process_pct": [
+              -0.4557274028816449,
+              -1.3727865072504564,
+              -0.45480291707169496,
+              -1.62904755583837
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "FROZEN_ROUTE/LIB": {
+            "reduction_pct": 2.2344693473517863,
+            "ci95": [
+              2.0950824545906133,
+              2.3505915329135707
+            ],
+            "per_process_pct": [
+              2.3880287588530336,
+              2.3131399486339466,
+              2.0222885102011645,
+              2.2140357276924316
+            ],
+            "positive_processes": 4,
+            "processes": 4
+          }
+        },
+        "D13": {
+          "TUNED_NATIVE/LIB": {
+            "reduction_pct": 8.642743815998067,
+            "ci95": [
+              8.12062675953853,
+              9.076013840728214
+            ],
+            "per_process_pct": [
+              9.215368900480502,
+              8.936444869959892,
+              7.84706644799572,
+              8.566342870101629
+            ],
+            "positive_processes": 4,
+            "processes": 4
+          },
+          "TUNED_NATIVE/OLD_NATIVE": {
+            "reduction_pct": 4.110794090983038,
+            "ci95": [
+              3.787593764756747,
+              4.476935952985295
+            ],
+            "per_process_pct": [
+              4.640667130659926,
+              4.149071481541055,
+              3.666798507649116,
+              3.9840537379919216
+            ],
+            "positive_processes": 4,
+            "processes": 4
+          },
+          "TUNED_FUSED/TUNED_NATIVE": {
+            "reduction_pct": -4.475900310997583,
+            "ci95": [
+              -4.977663921649156,
+              -3.7971131648302237
+            ],
+            "per_process_pct": [
+              -5.061912377558797,
+              -4.521704457995512,
+              -3.4342090414833715,
+              -4.893483024021683
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "FROZEN_ROUTE/LIB": {
+            "reduction_pct": 8.642743815998067,
+            "ci95": [
+              8.12062675953853,
+              9.076013840728214
+            ],
+            "per_process_pct": [
+              9.215368900480502,
+              8.936444869959892,
+              7.84706644799572,
+              8.566342870101629
+            ],
+            "positive_processes": 4,
+            "processes": 4
+          }
+        },
+        "R_G002": {
+          "TUNED_NATIVE/LIB": {
+            "reduction_pct": -24.328026290861615,
+            "ci95": [
+              -24.494294539711127,
+              -24.18454417138747
+            ],
+            "per_process_pct": [
+              -24.589597397912264,
+              -24.353862593134636,
+              -24.160269943908453,
+              -24.208823144652868
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "TUNED_NATIVE/OLD_NATIVE": {
+            "reduction_pct": 3.8595163529405063,
+            "ci95": [
+              3.5885196729447344,
+              4.118108639313601
+            ],
+            "per_process_pct": [
+              3.9193338044496095,
+              3.823022912170615,
+              4.216269218054025,
+              3.4779953731727486
+            ],
+            "positive_processes": 4,
+            "processes": 4
+          },
+          "TUNED_FUSED/TUNED_NATIVE": {
+            "reduction_pct": -0.31724274742070957,
+            "ci95": [
+              -0.45133232097964715,
+              -0.10492832810948816
+            ],
+            "per_process_pct": [
+              -0.007733868521020426,
+              -0.3945469271016355,
+              -0.3970788361223887,
+              -0.4702679222830852
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "FROZEN_ROUTE/LIB": {
+            "reduction_pct": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "per_process_pct": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          }
+        },
+        "R_G017": {
+          "TUNED_NATIVE/LIB": {
+            "reduction_pct": -4.111877571306888,
+            "ci95": [
+              -4.555728606370724,
+              -3.540889837536576
+            ],
+            "per_process_pct": [
+              -4.44791631227015,
+              -4.101307753190064,
+              -4.663652185513367,
+              -3.2403014304013933
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "TUNED_NATIVE/OLD_NATIVE": {
+            "reduction_pct": 16.168313005329573,
+            "ci95": [
+              16.042777797029316,
+              16.300512375772314
+            ],
+            "per_process_pct": [
+              15.985958219295238,
+              16.10986284304855,
+              16.2130060681115,
+              16.363965888684127
+            ],
+            "positive_processes": 4,
+            "processes": 4
+          },
+          "TUNED_FUSED/TUNED_NATIVE": {
+            "reduction_pct": -1.22681031085361,
+            "ci95": [
+              -1.6668778328085443,
+              -0.9059918831245906
+            ],
+            "per_process_pct": [
+              -0.8910657270983391,
+              -1.1818733798220737,
+              -0.9209202473754452,
+              -1.9167536326391454
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "FROZEN_ROUTE/LIB": {
+            "reduction_pct": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "per_process_pct": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          }
+        },
+        "V13": {
+          "TUNED_NATIVE/LIB": {
+            "reduction_pct": -42.25603377865408,
+            "ci95": [
+              -44.60212995370496,
+              -39.69961965783104
+            ],
+            "per_process_pct": [
+              -45.13439600636471,
+              -38.27190775011851,
+              -44.07181593418559,
+              -41.64441304857285
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          },
+          "TUNED_NATIVE/OLD_NATIVE": {
+            "reduction_pct": -0.6690624570744985,
+            "ci95": [
+              -2.271418217208465,
+              0.9081881072306452
+            ],
+            "per_process_pct": [
+              1.6594585327206035,
+              0.15117836768165915,
+              -2.7791969912907666,
+              -1.766148115026267
+            ],
+            "positive_processes": 2,
+            "processes": 4
+          },
+          "TUNED_FUSED/TUNED_NATIVE": {
+            "reduction_pct": 2.0064734734892786,
+            "ci95": [
+              0.6076420353016809,
+              3.385617991751322
+            ],
+            "per_process_pct": [
+              3.9345518292126958,
+              0.5359327605139907,
+              2.8335474556782314,
+              0.6792996108151206
+            ],
+            "positive_processes": 4,
+            "processes": 4
+          },
+          "FROZEN_ROUTE/LIB": {
+            "reduction_pct": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "per_process_pct": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "positive_processes": 0,
+            "processes": 4
+          }
+        }
+      }
+    }
+  },
+  "tuning_anchor_sensitivity": {
+    "gpu_us": {
+      "D13": {
+        "aa_pairs": 360,
+        "aa_abs_over_5pct": 10,
+        "aa_p95_abs_pct": 2.106542304288042,
+        "contrasts": {
+          "LIB": {
+            "reduction_pct": 8.616027654135861,
+            "ci95": [
+              8.146701237334696,
+              9.121297372777704
+            ],
+            "per_process_pct": [
+              8.14793710022903,
+              7.811649684229527,
+              9.49788317994681,
+              9.267743919431936,
+              8.147124428455953,
+              8.81108844029599
+            ],
+            "positive_processes": 6,
+            "processes": 6
+          },
+          "LIB_A": {
+            "reduction_pct": 9.145171406516383,
+            "ci95": [
+              8.73199747784934,
+              9.566894443631202
+            ],
+            "per_process_pct": [
+              8.7845355540631,
+              8.629107777533108,
+              9.80219617295438,
+              9.741663106351872,
+              8.503995951682942,
+              9.400391037829902
+            ],
+            "positive_processes": 6,
+            "processes": 6
+          },
+          "LIB_B": {
+            "reduction_pct": 8.442121963597494,
+            "ci95": [
+              8.128808417494692,
+              8.73370909312271
+            ],
+            "per_process_pct": [
+              8.130795220589771,
+              7.872922844132568,
+              8.834365214870065,
+              8.878119965508313,
+              8.219380242186158,
+              8.712304212455745
+            ],
+            "positive_processes": 6,
+            "processes": 6
+          },
+          "INTERPOLATED_LIB": {
+            "reduction_pct": 8.699670444071362,
+            "ci95": [
+              8.434136202085629,
+              8.959605350894916
+            ],
+            "per_process_pct": [
+              8.481377602154637,
+              8.290412531739733,
+              9.091726157027335,
+              9.080181763062011,
+              8.331238448879274,
+              8.91926586676275
+            ],
+            "positive_processes": 6,
+            "processes": 6
+          }
+        },
+        "by_candidate_position_reduction_pct": {
+          "1": 8.276887118381415,
+          "2": 7.381021559719403,
+          "3": 7.9484752122280895,
+          "4": 8.737420533548013,
+          "5": 8.715173488522698,
+          "6": 10.320813099218796
+        }
+      },
+      "R_G002": {
+        "aa_pairs": 360,
+        "aa_abs_over_5pct": 6,
+        "aa_p95_abs_pct": 1.424721955549747,
+        "contrasts": {
+          "LIB": {
+            "reduction_pct": -25.57187116435471,
+            "ci95": [
+              -25.762221275446116,
+              -25.397508060277787
+            ],
+            "per_process_pct": [
+              -25.923539272370945,
+              -25.769824781948603,
+              -25.674491346460513,
+              -25.40481815394664,
+              -25.35938124216457,
+              -25.300446447059265
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          },
+          "LIB_A": {
+            "reduction_pct": -25.213034519306365,
+            "ci95": [
+              -25.512454436379862,
+              -24.92939604669866
+            ],
+            "per_process_pct": [
+              -25.72004255078333,
+              -25.637660006122466,
+              -25.359979473233807,
+              -24.910520183745845,
+              -24.84941748909515,
+              -24.803980304844053
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          },
+          "LIB_B": {
+            "reduction_pct": -25.750798262062325,
+            "ci95": [
+              -26.045840676386824,
+              -25.490875602163054
+            ],
+            "per_process_pct": [
+              -26.37883016508944,
+              -25.79874495395771,
+              -25.854381007870476,
+              -25.543868115636226,
+              -25.231940223600468,
+              -25.699894086337327
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          },
+          "INTERPOLATED_LIB": {
+            "reduction_pct": -25.4774692173501,
+            "ci95": [
+              -25.750234560651684,
+              -25.2284294039538
+            ],
+            "per_process_pct": [
+              -25.999420774568136,
+              -25.717714402030033,
+              -25.59547442081214,
+              -25.272634220883283,
+              -25.07030916497599,
+              -25.211741228326325
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          }
+        },
+        "by_candidate_position_reduction_pct": {
+          "1": -25.66289728661635,
+          "2": -25.51053930082794,
+          "3": -25.183176173299504,
+          "4": -25.65779767432259,
+          "5": -25.6541874533885,
+          "6": -25.79621573819322
+        }
+      },
+      "R_G017": {
+        "aa_pairs": 360,
+        "aa_abs_over_5pct": 28,
+        "aa_p95_abs_pct": 13.26961456892633,
+        "contrasts": {
+          "LIB": {
+            "reduction_pct": -4.553548731947932,
+            "ci95": [
+              -5.078616363729616,
+              -3.9590879614120444
+            ],
+            "per_process_pct": [
+              -5.26102149216392,
+              -5.346529173751113,
+              -4.5442057025554705,
+              -4.2192642066132935,
+              -4.7153821849959865,
+              -3.2491309207328234
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          },
+          "LIB_A": {
+            "reduction_pct": -3.1627562798897113,
+            "ci95": [
+              -3.634342415712788,
+              -2.75516626368586
+            ],
+            "per_process_pct": [
+              -4.14583739429808,
+              -3.526492594393127,
+              -3.1531680605952017,
+              -2.9399236184530553,
+              -2.790648207202251,
+              -2.4292960381798956
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          },
+          "LIB_B": {
+            "reduction_pct": -5.6526192880352655,
+            "ci95": [
+              -5.9758351358604855,
+              -5.303891516312786
+            ],
+            "per_process_pct": [
+              -6.180058644047803,
+              -5.972164491440757,
+              -5.940495673865032,
+              -5.444338278416527,
+              -5.404316885571081,
+              -4.9791809191868985
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          },
+          "INTERPOLATED_LIB": {
+            "reduction_pct": -4.284713611504265,
+            "ci95": [
+              -4.596607722202628,
+              -3.994237879842344
+            ],
+            "per_process_pct": [
+              -4.890547972473036,
+              -4.638295836736583,
+              -4.3460171181413765,
+              -4.054836978991827,
+              -3.8553213684100918,
+              -3.927385230150815
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          }
+        },
+        "by_candidate_position_reduction_pct": {
+          "1": -6.277237495247157,
+          "2": -3.937947061802749,
+          "3": -4.220120598729871,
+          "4": -4.01978645076817,
+          "5": -4.446473691362063,
+          "6": -4.298955853122033
+        }
+      },
+      "V13": {
+        "aa_pairs": 360,
+        "aa_abs_over_5pct": 197,
+        "aa_p95_abs_pct": 48.56383899313561,
+        "contrasts": {
+          "LIB": {
+            "reduction_pct": -40.95639688953383,
+            "ci95": [
+              -43.560091954400825,
+              -38.49035351243697
+            ],
+            "per_process_pct": [
+              -38.08136419731891,
+              -37.24150011461354,
+              -45.51850469351226,
+              -38.63664897003325,
+              -44.473192139309845,
+              -42.005337722520466
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          },
+          "LIB_A": {
+            "reduction_pct": -24.016170656150493,
+            "ci95": [
+              -26.021593024681433,
+              -21.88360294360141
+            ],
+            "per_process_pct": [
+              -21.407054491907896,
+              -19.865842700438474,
+              -26.342506769253514,
+              -24.80146000719945,
+              -27.253654785467084,
+              -24.59227545928695
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          },
+          "LIB_B": {
+            "reduction_pct": -15.981632244372124,
+            "ci95": [
+              -16.831715381692767,
+              -14.89538578176559
+            ],
+            "per_process_pct": [
+              -15.727918665616958,
+              -13.500902142823247,
+              -17.47387665097002,
+              -16.566340471584674,
+              -16.202529710044256,
+              -16.457589544040218
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          },
+          "INTERPOLATED_LIB": {
+            "reduction_pct": -20.039995619244678,
+            "ci95": [
+              -21.243934222887084,
+              -18.394961204988782
+            ],
+            "per_process_pct": [
+              -19.65158708713446,
+              -16.083942509448377,
+              -21.181268106573235,
+              -21.305977760627325,
+              -21.566162225667405,
+              -20.541005636003696
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          }
+        },
+        "by_candidate_position_reduction_pct": {
+          "1": -41.3337533083723,
+          "2": -23.876760300234444,
+          "3": -29.175160574809066,
+          "4": -35.01641630169503,
+          "5": -51.13971020159713,
+          "6": -67.87331515638229
+        }
+      }
+    },
+    "host_us": {
+      "D13": {
+        "aa_pairs": 360,
+        "aa_abs_over_5pct": 12,
+        "aa_p95_abs_pct": 3.415376706885212,
+        "contrasts": {
+          "LIB": {
+            "reduction_pct": 8.336498578047536,
+            "ci95": [
+              7.870202854036091,
+              8.83401903872214
+            ],
+            "per_process_pct": [
+              7.893333451327189,
+              7.548193629581334,
+              9.215368900480502,
+              8.936444869959892,
+              7.84706644799572,
+              8.566342870101629
+            ],
+            "positive_processes": 6,
+            "processes": 6
+          },
+          "LIB_A": {
+            "reduction_pct": 8.898440528013108,
+            "ci95": [
+              8.494631690778398,
+              9.298090441568242
+            ],
+            "per_process_pct": [
+              8.557017107641352,
+              8.584460612948819,
+              9.54071527838395,
+              9.480515273614609,
+              8.121858980754693,
+              9.0972472006017
+            ],
+            "positive_processes": 6,
+            "processes": 6
+          },
+          "LIB_B": {
+            "reduction_pct": 8.125557357540035,
+            "ci95": [
+              7.839425599212813,
+              8.404027285010729
+            ],
+            "per_process_pct": [
+              7.769662260866095,
+              7.664797109545917,
+              8.4043549547535,
+              8.576495649784754,
+              7.8658805805275955,
+              8.467775131727384
+            ],
+            "positive_processes": 6,
+            "processes": 6
+          },
+          "INTERPOLATED_LIB": {
+            "reduction_pct": 8.424790814585492,
+            "ci95": [
+              8.153172944711773,
+              8.673912846857146
+            ],
+            "per_process_pct": [
+              8.192390821017327,
+              8.192533137798176,
+              8.764826294601114,
+              8.790260798733417,
+              7.956264963936488,
+              8.649046817283057
+            ],
+            "positive_processes": 6,
+            "processes": 6
+          }
+        },
+        "by_candidate_position_reduction_pct": {
+          "1": 8.008173171840138,
+          "2": 7.204713176381306,
+          "3": 7.619906160336987,
+          "4": 8.439398697182455,
+          "5": 8.45981773677591,
+          "6": 9.973237799004476
+        }
+      },
+      "R_G002": {
+        "aa_pairs": 360,
+        "aa_abs_over_5pct": 12,
+        "aa_p95_abs_pct": 3.7870447236806544,
+        "contrasts": {
+          "LIB": {
+            "reduction_pct": -24.471053318688796,
+            "ci95": [
+              -24.66483493694449,
+              -24.273223468303406
+            ],
+            "per_process_pct": [
+              -24.815446346457048,
+              -24.699782819102147,
+              -24.589597397912264,
+              -24.353862593134636,
+              -24.160269943908453,
+              -24.208823144652868
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          },
+          "LIB_A": {
+            "reduction_pct": -23.755516625349983,
+            "ci95": [
+              -24.175207086514483,
+              -23.37786123153174
+            ],
+            "per_process_pct": [
+              -24.407020218827725,
+              -24.351628686453264,
+              -23.98062975630588,
+              -23.228750542370257,
+              -23.311850669638613,
+              -23.25948260166435
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          },
+          "LIB_B": {
+            "reduction_pct": -24.617923944388885,
+            "ci95": [
+              -24.913637791698573,
+              -24.336178576290024
+            ],
+            "per_process_pct": [
+              -25.21865324736019,
+              -24.61725260003016,
+              -24.650788739456363,
+              -24.526559748982123,
+              -24.04376771036061,
+              -24.653334526477
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          },
+          "INTERPOLATED_LIB": {
+            "reduction_pct": -24.172923784377765,
+            "ci95": [
+              -24.475965965221434,
+              -23.879713414149673
+            ],
+            "per_process_pct": [
+              -24.740292163338463,
+              -24.495306767135936,
+              -24.28368401462311,
+              -23.94353075410023,
+              -23.629104334308913,
+              -23.948992713404493
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          }
+        },
+        "by_candidate_position_reduction_pct": {
+          "1": -24.576924852403636,
+          "2": -24.31115938056807,
+          "3": -24.169345737375814,
+          "4": -24.651757688878305,
+          "5": -24.496831049253707,
+          "6": -24.66990705705676
+        }
+      },
+      "R_G017": {
+        "aa_pairs": 360,
+        "aa_abs_over_5pct": 32,
+        "aa_p95_abs_pct": 12.578542007777662,
+        "contrasts": {
+          "LIB": {
+            "reduction_pct": -4.485293707678895,
+            "ci95": [
+              -5.008851459890318,
+              -3.9096481721645038
+            ],
+            "per_process_pct": [
+              -5.203814955520225,
+              -5.268492498699184,
+              -4.44791631227015,
+              -4.101307753190064,
+              -4.663652185513367,
+              -3.2403014304013933
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          },
+          "LIB_A": {
+            "reduction_pct": -3.0355562009295234,
+            "ci95": [
+              -3.5538128833256133,
+              -2.6005655769898217
+            ],
+            "per_process_pct": [
+              -4.13297436072817,
+              -3.403663613241492,
+              -2.9778725567541686,
+              -2.7785301183521183,
+              -2.6829181380276568,
+              -2.2478063444686835
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          },
+          "LIB_B": {
+            "reduction_pct": -5.616915830878022,
+            "ci95": [
+              -5.970513136370226,
+              -5.24209690923938
+            ],
+            "per_process_pct": [
+              -6.212829228392414,
+              -5.906815712698199,
+              -5.913428952832578,
+              -5.373515848824129,
+              -5.390628973635692,
+              -4.9096659705999635
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          },
+          "INTERPOLATED_LIB": {
+            "reduction_pct": -4.220064998669337,
+            "ci95": [
+              -4.563368157361802,
+              -3.92137063996143
+            ],
+            "per_process_pct": [
+              -4.915914042539993,
+              -4.553222779827792,
+              -4.235443115995086,
+              -3.9474589054904863,
+              -3.8244199588299166,
+              -3.8485501862079996
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          }
+        },
+        "by_candidate_position_reduction_pct": {
+          "1": -6.213936276505061,
+          "2": -3.8576820918125865,
+          "3": -4.1696867179008335,
+          "4": -4.052754752319898,
+          "5": -4.331460232984385,
+          "6": -4.159714435644535
+        }
+      },
+      "V13": {
+        "aa_pairs": 360,
+        "aa_abs_over_5pct": 196,
+        "aa_p95_abs_pct": 47.18999430369816,
+        "contrasts": {
+          "LIB": {
+            "reduction_pct": -40.584652871584325,
+            "ci95": [
+              -43.16391654123544,
+              -38.14211336674562
+            ],
+            "per_process_pct": [
+              -37.693980426321104,
+              -36.90828763105238,
+              -45.13439600636471,
+              -38.27190775011851,
+              -44.07181593418559,
+              -41.64441304857285
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          },
+          "LIB_A": {
+            "reduction_pct": -23.781921460588883,
+            "ci95": [
+              -25.774043545499726,
+              -21.704625499801832
+            ],
+            "per_process_pct": [
+              -21.12896028434468,
+              -19.76666099933462,
+              -26.041802747714282,
+              -24.577674200769817,
+              -26.98190210463498,
+              -24.354852094755095
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          },
+          "LIB_B": {
+            "reduction_pct": -15.86340127369834,
+            "ci95": [
+              -16.7191533476567,
+              -14.772923736453535
+            ],
+            "per_process_pct": [
+              -15.568551828832078,
+              -13.400599374148104,
+              -17.357615749601685,
+              -16.45093985228272,
+              -16.090380214620946,
+              -16.35153310880635
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          },
+          "INTERPOLATED_LIB": {
+            "reduction_pct": -19.860541962846522,
+            "ci95": [
+              -21.05396272686637,
+              -18.245125106966697
+            ],
+            "per_process_pct": [
+              -19.423122715312523,
+              -15.980438240689754,
+              -20.99498962191857,
+              -21.123498299437315,
+              -21.356042327162108,
+              -20.372438041686625
+            ],
+            "positive_processes": 0,
+            "processes": 6
+          }
+        },
+        "by_candidate_position_reduction_pct": {
+          "1": -40.98969844251865,
+          "2": -23.672980695085787,
+          "3": -28.951965564690262,
+          "4": -34.650172600713944,
+          "5": -50.66239298902209,
+          "6": -67.19898284980393
+        }
+      }
+    }
+  }
+}

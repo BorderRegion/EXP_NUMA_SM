@@ -1,0 +1,9 @@
+{
+  "prior": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu/state-causality-t10",
+  "original_build": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu/state-causality-t10/build/20261017T092525Z",
+  "kernel_sha256": {
+    "diag0.cubin": "4000b020ab9dfe12ef0bd898be50e6836339be2b2f3db0bb477cde9a33eb5f0b",
+    "diag1.cubin": "073f4b01a27a949dbca3d2afb2e943e625b1f3ed72f2fdda631b289a7f48afaf"
+  },
+  "removed_verified_qa_duplicate": "/tmp/t10-topology-final-qa-n3wqwop9"
+}

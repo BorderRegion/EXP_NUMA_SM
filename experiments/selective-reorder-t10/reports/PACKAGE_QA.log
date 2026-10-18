@@ -1,0 +1,8 @@
+{"phases": 3298, "comparisons": 213, "lifecycle": 72, "gpu_minutes": 70.17180623668246}
+SUPPLEMENT_COMPLETE 216 37 48
+MANIFEST_PASS 670
+SAVED_REQUEST_MEANS_PASS 3298 LIFECYCLE_MEANS_PASS 96 TUNER_WINNERS_PASS 18
+KNOWN_LIMITATION: lifecycle blocks0/1 retain complete per-plan means/costs, but their individual request arrays were not stored; no replacement data used.
+STATISTICS_RECOMPUTE_PASS 29
+FROZEN_CPU_CHOICE_PASS 260
+GPU_NOT_USED; statistical and policy verification only, not a rerun of GPU timings.

@@ -1,0 +1,86 @@
+{
+  "campaign": "T10_SAME_Q_AND_BACKBONE_V2",
+  "date": "2026-10-16",
+  "platform": "t10",
+  "input_archive": "OP_FUSED_T10_IMPLEMENTATION_COMPLETE_20261015.zip",
+  "planned_work_minutes": 390,
+  "hard_work_minutes": 420,
+  "new_gpu_worker_cap_minutes": 240,
+  "historical_total_gpu_worker_hours": 16,
+  "reported_used_gpu_worker_hours": 5.4695042212252725,
+  "stages_minutes": {
+    "S0": 20,
+    "S1": 80,
+    "S2": 70,
+    "S3": 100,
+    "S4": 65,
+    "S5": 25,
+    "reserve": 30
+  },
+  "environment": {
+    "offline": true,
+    "new_paid_authorization": 0,
+    "keep_existing_power_limit": true,
+    "change_driver": false,
+    "new_models": false
+  },
+  "primary_new_implementation": "Q1_MINIMAL",
+  "max_new_math_recipes": 2,
+  "max_total_math_recipes": 4,
+  "max_new_adaptive_rules": 0,
+  "operator_confirm_cases": 18,
+  "independent_blocks": 6,
+  "operator_unique_strategies_max": 6,
+  "lib_anchors_per_case": 2,
+  "layer_cases": 4,
+  "layer_unique_strategies_max": 4,
+  "optional_fusion": {
+    "cases": 4,
+    "blocks": 3,
+    "cells": 4
+  },
+  "optional_ring": {
+    "cases": 2,
+    "blocks": 3,
+    "strategies": 3,
+    "modes": 2
+  },
+  "same_q_primary_pairs": [
+    [
+      "FULL_Q1_LEGACY",
+      "CACHE_Q1_LEGACY"
+    ],
+    [
+      "Q1_MINIMAL",
+      "CACHE_Q1_LEGACY"
+    ]
+  ],
+  "regression_ids": [
+    "grouped-003",
+    "grouped-016",
+    "grouped-025",
+    "grouped-029",
+    "grouped-035",
+    "grouped-040",
+    "grouped-057",
+    "grouped-062",
+    "grouped-079",
+    "grouped-088",
+    "grouped-091",
+    "grouped-094"
+  ],
+  "layer_regression_ids": [
+    "moe_layer-007",
+    "moe_layer-009",
+    "moe_layer-017",
+    "moe_layer-024"
+  ],
+  "correctness": {
+    "cross_library_element_atol": 0.005,
+    "cross_library_element_rtol": 0.005,
+    "cross_library_relative_frobenius_max": 0.002,
+    "same_body_same_k_order": "bitwise_expected",
+    "tolerance_posthoc_change": false
+  },
+  "final_report": "T10_SAME_Q_AND_BACKBONE_REPORT.md"
+}

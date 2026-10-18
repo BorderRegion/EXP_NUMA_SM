@@ -1,0 +1,158 @@
+[
+  {
+    "scope": "batch",
+    "candidate": "BLIND",
+    "control": "IDENTITY",
+    "metric": "outer_s",
+    "role": "secondary static-rule transfer; offline development cost excluded and separately disclosed; not an address-specific causal effect",
+    "gain_pct": 0.6766894241361754,
+    "ci95": [
+      0.5527625944581821,
+      0.786272292525602
+    ],
+    "ci_primary": [
+      0.4926895413639874,
+      0.8246835762636521
+    ],
+    "positive_processes": 6,
+    "processes": 6,
+    "process_gains_pct": [
+      0.8802158176343111,
+      0.6570766357469893,
+      0.6863011017341325,
+      0.4096975016903537,
+      0.6606823258672012,
+      0.7667671784697072
+    ]
+  },
+  {
+    "scope": "batch",
+    "candidate": "BLIND",
+    "control": "IDENTITY",
+    "metric": "gpu_s",
+    "role": "secondary static-rule transfer; offline development cost excluded and separately disclosed; not an address-specific causal effect",
+    "gain_pct": 0.7014408365078378,
+    "ci95": [
+      0.5987302374853288,
+      0.8100947619967692
+    ],
+    "ci_primary": [
+      0.5496711628239579,
+      0.8581496426574589
+    ],
+    "positive_processes": 6,
+    "processes": 6,
+    "process_gains_pct": [
+      0.9283897262746477,
+      0.6548772547626758,
+      0.700453871980633,
+      0.4971093602013088,
+      0.6475399135204007,
+      0.7807942805052592
+    ]
+  },
+  {
+    "scope": "batch",
+    "candidate": "BLIND",
+    "control": "IDENTITY",
+    "metric": "host_s",
+    "role": "secondary static-rule transfer; offline development cost excluded and separately disclosed; not an address-specific causal effect",
+    "gain_pct": 0.6793473253274191,
+    "ci95": [
+      0.5558442114619071,
+      0.7878607418943223
+    ],
+    "ci_primary": [
+      0.4977768821757148,
+      0.8285620522574391
+    ],
+    "positive_processes": 6,
+    "processes": 6,
+    "process_gains_pct": [
+      0.886624276858905,
+      0.6597214981036048,
+      0.6884763623905332,
+      0.416755536837754,
+      0.6603099868028206,
+      0.7647927750587646
+    ]
+  },
+  {
+    "scope": "freshbatch",
+    "candidate": "BLIND",
+    "control": "IDENTITY",
+    "metric": "outer_s",
+    "role": "secondary static-rule transfer; offline development cost excluded and separately disclosed; not an address-specific causal effect",
+    "gain_pct": 1.0813452446313832,
+    "ci95": [
+      0.17674985692685624,
+      2.822566750450175
+    ],
+    "ci_primary": [
+      0.14298485971322958,
+      3.7147524156666343
+    ],
+    "positive_processes": 6,
+    "processes": 6,
+    "process_gains_pct": [
+      0.3704825242983878,
+      0.2060592897189517,
+      5.449939709026275,
+      0.15995512762925213,
+      0.1229810066407877,
+      0.2886660254084239
+    ]
+  },
+  {
+    "scope": "freshbatch",
+    "candidate": "BLIND",
+    "control": "IDENTITY",
+    "metric": "gpu_s",
+    "role": "secondary static-rule transfer; offline development cost excluded and separately disclosed; not an address-specific causal effect",
+    "gain_pct": 0.21631084743315832,
+    "ci95": [
+      0.16889544066937012,
+      0.2671162266449505
+    ],
+    "ci_primary": [
+      0.15189370714968634,
+      0.2907084306845364
+    ],
+    "positive_processes": 6,
+    "processes": 6,
+    "process_gains_pct": [
+      0.3086059803166341,
+      0.22962708136544663,
+      0.17527053913890533,
+      0.16711073051045577,
+      0.137141134380947,
+      0.28022512467336114
+    ]
+  },
+  {
+    "scope": "freshbatch",
+    "candidate": "BLIND",
+    "control": "IDENTITY",
+    "metric": "host_s",
+    "role": "secondary static-rule transfer; offline development cost excluded and separately disclosed; not an address-specific causal effect",
+    "gain_pct": 1.0832093577531219,
+    "ci95": [
+      0.17894489852734424,
+      2.824160607959205
+    ],
+    "ci_primary": [
+      0.14531150168490906,
+      3.717004843752986
+    ],
+    "positive_processes": 6,
+    "processes": 6,
+    "process_gains_pct": [
+      0.3733627313465604,
+      0.20817829723640546,
+      5.45300409546341,
+      0.1622007989097174,
+      0.1253797493091513,
+      0.2871987802919973
+    ]
+  }
+]

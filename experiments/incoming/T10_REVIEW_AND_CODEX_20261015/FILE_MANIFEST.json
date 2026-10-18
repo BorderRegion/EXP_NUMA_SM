@@ -1,0 +1,105 @@
+{
+  "purpose": "review and proposed addendum; GPU not executed",
+  "files": [
+    {
+      "path": "CODEX_T10_ADDENDUM_20261015.md",
+      "bytes": 20026,
+      "sha256": "14bc9039cae90c8e1d6457479e78b27a9f046e5a9446d9a3de18468ef9a4172a"
+    },
+    {
+      "path": "COPY_TO_T10_CODEX.txt",
+      "bytes": 1740,
+      "sha256": "5f5acba5a561ddc92627d37b7414f09d7c4e1ae78f7da43a580df8316df46f2c"
+    },
+    {
+      "path": "REVIEW_T10_20261015.md",
+      "bytes": 5123,
+      "sha256": "62f2af4afaf8de2b663cc452529fd1a515b990f7b238feda1b4c37b2ef1f7ed6"
+    },
+    {
+      "path": "SOURCE_NOTES.md",
+      "bytes": 2019,
+      "sha256": "c36baaa0a7b512c2573e11cfb2b630aa7b3c46994cd4148d209af2cb741b00b5"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 972,
+      "sha256": "c16825d99fc7ae52b02c3362e388343bfe7df6fe31d515b613e2d22d2d463087"
+    },
+    {
+      "path": "campaign_addendum.json",
+      "bytes": 2925,
+      "sha256": "bd1db16fbeea4e0b0b50d11539215c7dfd176e8f5c0c48a44fe4dad7ef9952e7"
+    },
+    {
+      "path": "evidence/independent_audit.json",
+      "bytes": 10571,
+      "sha256": "e1a48eb00b7ed5f2c76eefa3a56c093e47539d7a2756f20566e36c09d07c84c5"
+    },
+    {
+      "path": "source_evidence/derived/t10/session_summaries.csv",
+      "bytes": 26028,
+      "sha256": "1133ef39bc130e1174ad6754f15a59bc9b5e26600c382df50944517437b2af21"
+    },
+    {
+      "path": "source_evidence/preregistration/LOCAL_PROTOCOL.md",
+      "bytes": 1901,
+      "sha256": "17556ea55f58589c1cbf5a42f8ae1a1312009bcac311b8997a6d4805da480384"
+    },
+    {
+      "path": "source_evidence/reports/DUAL_TOPOLOGY_PAPER_REPORT_t10.md",
+      "bytes": 21863,
+      "sha256": "4db3e30d05631aebd0898eeffaa650426ff04ade1a590f40881f3b25ee3a8c43"
+    },
+    {
+      "path": "source_evidence/reports/实验质疑与后续验证_20261015.md",
+      "bytes": 8034,
+      "sha256": "5df6f7b70560d0eccfaace982307c898c1ed96bcf92100219fc5d023533a6222"
+    },
+    {
+      "path": "source_evidence/reports/结果与证据边界摘要_20261015.md",
+      "bytes": 2188,
+      "sha256": "6a11d864b0866aa8a59dccccdc04169c8e62a195f1b2cb30af185247104fc4e3"
+    },
+    {
+      "path": "source_evidence/src/micro_kernels.cu",
+      "bytes": 2364,
+      "sha256": "63b293b5e9f2b5c235bd0f1598d6aa5238d0e38a03e0133cd63b8d64aec5c6ec"
+    },
+    {
+      "path": "source_evidence/src/micro_runner.cpp",
+      "bytes": 9227,
+      "sha256": "92a5ecdc09eece18f70a400b9083beaa2adc4d1f9dbafc4c67f925ae93dd7cd9"
+    },
+    {
+      "path": "source_evidence/src/renderer_runner.cpp",
+      "bytes": 14242,
+      "sha256": "c46f4e10b3da1d0b1a0188067024bd0817097ec711adbd01bb759d415ac5e410"
+    },
+    {
+      "path": "source_evidence/src/sparse_runner.cpp",
+      "bytes": 10503,
+      "sha256": "92c5c64bd844cd21f97111e442fef67fc6fc6b273e52d809433a48bd40a4099d"
+    },
+    {
+      "path": "source_evidence/tools/campaign_renderer.py",
+      "bytes": 4160,
+      "sha256": "b1b5737ecc1f7b594b9c240318a7c6cfef47a4f333f08c2ea189967cc7b64a1a"
+    },
+    {
+      "path": "source_evidence/tools/campaign_sparse.py",
+      "bytes": 4735,
+      "sha256": "81574e27d4870445691f5b7880a8876879d4eebe3ea1bce47a3571227f966ab2"
+    },
+    {
+      "path": "source_evidence/tools/runlib.py",
+      "bytes": 3369,
+      "sha256": "8375ba0b70cd4497a264aedfa34567e7f6acb249eff52ad94a7406857f54468f"
+    },
+    {
+      "path": "tools/independent_audit.py",
+      "bytes": 8897,
+      "sha256": "993084c1d9400dc1fea4a3b0d82b834ac619c603ba372d26e660d44d25b47c56"
+    }
+  ]
+}

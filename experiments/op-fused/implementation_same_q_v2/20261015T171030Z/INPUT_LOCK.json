@@ -1,0 +1,9 @@
+{
+  "src/libopf_grouped.so": "09bd2afd400e7cb32bfcad004617260ad40dc571f09469f364a62cedc7b954ed",
+  "src/packet_visitor.h": "94881dd8749baff3169d0e937042245cd8ddcd8e94c1e99b6c8c317865ff2dd7",
+  "src/grouped_backend.cu": "9cddc3d347670a2e92d27552f16e994c10d9606f4006bff4d90fc8d93ce3a52e",
+  "preregistration/implementation_freeze.json": "ee075844c08222f45e059ff9bf1a38a4b98ed28035aaea690778bf335ccdd046",
+  "config/cutlass_source_lock.json": "508ac9cdcb16a1722cbe586a83971554d3058f0b0e54bf051d2eccf8ea59e30f",
+  "implementation_same_q_v2/20261015T171030Z/PROTOCOL_V2.json": "aa77cacece28c57cb528b109236a85cb8a24534fdba3f99a130b63044c5a79dd",
+  "implementation_same_q_v2/20261015T171030Z/cases_v2.json": "af2f1246ff14cbf36f5e301eab598472d86f061b05a3a7d8f09e1104ce6c77b1"
+}

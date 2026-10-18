@@ -1,0 +1,84 @@
+{
+  "version": "20261017-repair-v2",
+  "status": "DESIGN_NOT_EXECUTED",
+  "platform": "t10",
+  "wall_target_minutes": 510,
+  "wall_hard_limit_minutes": 540,
+  "gpu_addendum_limit_minutes": 240,
+  "gpu_budget_rule": "min(240 minutes, remaining original selective campaign allowance); preserve prior ledgers",
+  "prior_selective_report_worker_minutes": 70.17,
+  "prior_selective_limit_minutes": 330,
+  "new_paid_authorization": 0,
+  "network": "offline_existing_dependencies_only",
+  "power_main_w": 100,
+  "power_changes": "Supported T10 power/clock coordination authorized; preserve thermal/fan protection; no 125W family in this task",
+  "stages": [
+    {
+      "id": "S0",
+      "wall_minutes": 30,
+      "gpu_minutes": 5
+    },
+    {
+      "id": "S1",
+      "wall_minutes": 90,
+      "gpu_minutes": 30
+    },
+    {
+      "id": "S2",
+      "wall_minutes": 110,
+      "gpu_minutes": 75
+    },
+    {
+      "id": "S3",
+      "wall_minutes": 40,
+      "gpu_minutes": 0
+    },
+    {
+      "id": "S4",
+      "wall_minutes": 120,
+      "gpu_minutes": 75
+    },
+    {
+      "id": "S5",
+      "wall_minutes": 90,
+      "gpu_minutes": 45
+    },
+    {
+      "id": "S6",
+      "wall_minutes": 30,
+      "gpu_minutes": 10
+    }
+  ],
+  "actions": [
+    "LIB",
+    "SINGLE",
+    "SPLIT",
+    "PC0_0",
+    "PC0_1",
+    "PC1_0",
+    "PC1_1",
+    "PC2_0",
+    "PC2_1"
+  ],
+  "calibration_shapes": 24,
+  "confirmation_shapes": 16,
+  "regression_shapes": 8,
+  "ood_shapes": 4,
+  "calibration_blocks": 3,
+  "formal_blocks": 6,
+  "pair_rounds": 2,
+  "pair_windows": 4,
+  "measurement_window_target_us": 20000,
+  "measurement_requests_min": 8,
+  "measurement_requests_max": 128,
+  "policy_ridge_lambda": 1.0,
+  "relative_error_quantile": 0.9,
+  "relative_local_min_shapes": 6,
+  "latency_strata_us": [
+    250,
+    2000
+  ],
+  "primary_horizon": 1024,
+  "mandatory_real_deployment": true,
+  "may_force_reorder": false
+}

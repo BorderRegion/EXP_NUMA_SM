@@ -1,0 +1,23 @@
+{
+  "full": {
+    "path": "/home/ubuntu/下载/T10_SM_TOPOLOGY_AND_OPTIMIZATION_20261017.zip",
+    "bytes": 20699779,
+    "sha256": "fd3ca0f2cbcd32d76b8087095a6d837e041556319c4fdc2e5c8ad78cdbe316e5",
+    "manifest_entries": 580,
+    "crc": "PASS",
+    "hashes": "PASS"
+  },
+  "small": {
+    "path": "/home/ubuntu/下载/T10_SM_TOPOLOGY_AND_OPTIMIZATION_20261017_SMALL.zip",
+    "bytes": 6518554,
+    "sha256": "c4e266357f18e47719d6b1dff9d9bec97bdab14a5fe8035f671039adee894dc1",
+    "manifest_entries": 94,
+    "crc": "PASS",
+    "hashes": "PASS"
+  },
+  "extracted_directory": "/tmp/t10-topology-final-qa-n3wqwop9/T10_SM_TOPOLOGY_AND_OPTIMIZATION_20261017",
+  "CPU_only_returncode": 0,
+  "CPU_only_stdout": "ALL_RAW_DERIVATIONS_AND_FROZEN_SCHEDULES_RECOMPUTED_PASS\n",
+  "elapsed_seconds": 22.515951642999426,
+  "status": "PASS"
+}

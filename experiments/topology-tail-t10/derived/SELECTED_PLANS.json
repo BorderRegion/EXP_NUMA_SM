@@ -1,0 +1,962 @@
+[
+  {
+    "worker": "dev_0",
+    "phase": "dev",
+    "scope": "batch",
+    "setup_ms": 34.262812,
+    "flags_va": 137469353787392,
+    "shadow_flags_va": 137469362176000,
+    "delay_min_ns": 0,
+    "delay_max_ns": 16,
+    "mapping": {
+      "IDENTITY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PAIR_ONLY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PLACE_ONLY": {
+        "index": 99,
+        "offset": 131,
+        "page": 0,
+        "family": "IDENTITY"
+      },
+      "JOINT": {
+        "index": 99,
+        "offset": 131,
+        "page": 0,
+        "family": "IDENTITY"
+      },
+      "JOINT_AA": {
+        "index": 99,
+        "offset": 131,
+        "page": 0,
+        "family": "IDENTITY"
+      },
+      "WRONG": {
+        "index": 103,
+        "offset": 131,
+        "page": 0,
+        "family": "RND01"
+      },
+      "POOL": {
+        "index": 99,
+        "offset": 131,
+        "page": 0,
+        "family": "IDENTITY"
+      },
+      "SHADOW": {
+        "index": 121,
+        "offset": 131,
+        "page": 257,
+        "family": "IDENTITY"
+      }
+    }
+  },
+  {
+    "worker": "dev_0",
+    "phase": "dev",
+    "scope": "freshbatch",
+    "setup_ms": 48.960337,
+    "flags_va": 137469353787392,
+    "shadow_flags_va": 137469362176000,
+    "delay_min_ns": 0,
+    "delay_max_ns": 256,
+    "mapping": {
+      "IDENTITY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PAIR_ONLY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PLACE_ONLY": {
+        "index": 44,
+        "offset": 17,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "JOINT": {
+        "index": 104,
+        "offset": 131,
+        "page": 0,
+        "family": "RND02"
+      },
+      "JOINT_AA": {
+        "index": 104,
+        "offset": 131,
+        "page": 0,
+        "family": "RND02"
+      },
+      "WRONG": {
+        "index": 106,
+        "offset": 131,
+        "page": 0,
+        "family": "RND04"
+      },
+      "POOL": {
+        "index": 102,
+        "offset": 131,
+        "page": 0,
+        "family": "RND00"
+      },
+      "SHADOW": {
+        "index": 93,
+        "offset": 67,
+        "page": 257,
+        "family": "RND02"
+      }
+    }
+  },
+  {
+    "worker": "dev_1",
+    "phase": "dev",
+    "scope": "batch",
+    "setup_ms": 36.094788,
+    "flags_va": 138961452269568,
+    "shadow_flags_va": 138961460658176,
+    "delay_min_ns": 0,
+    "delay_max_ns": 224,
+    "mapping": {
+      "IDENTITY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PAIR_ONLY": {
+        "index": 13,
+        "offset": 0,
+        "page": 17,
+        "family": "CROSS_GPC"
+      },
+      "PLACE_ONLY": {
+        "index": 0,
+        "offset": 0,
+        "page": 0,
+        "family": "IDENTITY"
+      },
+      "JOINT": {
+        "index": 34,
+        "offset": 17,
+        "page": 0,
+        "family": "SAME_GPC"
+      },
+      "JOINT_AA": {
+        "index": 34,
+        "offset": 17,
+        "page": 0,
+        "family": "SAME_GPC"
+      },
+      "WRONG": {
+        "index": 37,
+        "offset": 17,
+        "page": 0,
+        "family": "RND01"
+      },
+      "POOL": {
+        "index": 43,
+        "offset": 17,
+        "page": 0,
+        "family": "RND07"
+      },
+      "SHADOW": {
+        "index": 14,
+        "offset": 0,
+        "page": 17,
+        "family": "RND00"
+      }
+    }
+  },
+  {
+    "worker": "dev_1",
+    "phase": "dev",
+    "scope": "freshbatch",
+    "setup_ms": 52.068755,
+    "flags_va": 138961452269568,
+    "shadow_flags_va": 138961460658176,
+    "delay_min_ns": 0,
+    "delay_max_ns": 192,
+    "mapping": {
+      "IDENTITY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PAIR_ONLY": {
+        "index": 13,
+        "offset": 0,
+        "page": 17,
+        "family": "CROSS_GPC"
+      },
+      "PLACE_ONLY": {
+        "index": 88,
+        "offset": 67,
+        "page": 257,
+        "family": "IDENTITY"
+      },
+      "JOINT": {
+        "index": 98,
+        "offset": 67,
+        "page": 257,
+        "family": "RND07"
+      },
+      "JOINT_AA": {
+        "index": 98,
+        "offset": 67,
+        "page": 257,
+        "family": "RND07"
+      },
+      "WRONG": {
+        "index": 98,
+        "offset": 67,
+        "page": 257,
+        "family": "RND07"
+      },
+      "POOL": {
+        "index": 98,
+        "offset": 67,
+        "page": 257,
+        "family": "RND07"
+      },
+      "SHADOW": {
+        "index": 90,
+        "offset": 67,
+        "page": 257,
+        "family": "CROSS_GPC"
+      }
+    }
+  },
+  {
+    "worker": "confirm_0",
+    "phase": "confirm",
+    "scope": "batch",
+    "setup_ms": 50.921439,
+    "flags_va": 123301665964032,
+    "shadow_flags_va": 123301674352640,
+    "delay_min_ns": 0,
+    "delay_max_ns": 256,
+    "mapping": {
+      "IDENTITY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PAIR_ONLY": {
+        "index": 18,
+        "offset": 0,
+        "page": 17,
+        "family": "RND04"
+      },
+      "PLACE_ONLY": {
+        "index": 0,
+        "offset": 0,
+        "page": 0,
+        "family": "IDENTITY"
+      },
+      "JOINT": {
+        "index": 38,
+        "offset": 17,
+        "page": 0,
+        "family": "RND02"
+      },
+      "JOINT_AA": {
+        "index": 38,
+        "offset": 17,
+        "page": 0,
+        "family": "RND02"
+      },
+      "WRONG": {
+        "index": 37,
+        "offset": 17,
+        "page": 0,
+        "family": "RND01"
+      },
+      "POOL": {
+        "index": 40,
+        "offset": 17,
+        "page": 0,
+        "family": "RND04"
+      },
+      "SHADOW": {
+        "index": 81,
+        "offset": 67,
+        "page": 17,
+        "family": "RND01"
+      }
+    }
+  },
+  {
+    "worker": "confirm_0",
+    "phase": "confirm",
+    "scope": "freshbatch",
+    "setup_ms": 29.299641,
+    "flags_va": 123301665964032,
+    "shadow_flags_va": 123301674352640,
+    "delay_min_ns": 0,
+    "delay_max_ns": 368,
+    "mapping": {
+      "IDENTITY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PAIR_ONLY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PLACE_ONLY": {
+        "index": 110,
+        "offset": 131,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "JOINT": {
+        "index": 110,
+        "offset": 131,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "JOINT_AA": {
+        "index": 110,
+        "offset": 131,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "WRONG": {
+        "index": 120,
+        "offset": 131,
+        "page": 17,
+        "family": "RND07"
+      },
+      "POOL": {
+        "index": 114,
+        "offset": 131,
+        "page": 17,
+        "family": "RND01"
+      },
+      "SHADOW": {
+        "index": 39,
+        "offset": 17,
+        "page": 0,
+        "family": "RND03"
+      }
+    }
+  },
+  {
+    "worker": "confirm_1",
+    "phase": "confirm",
+    "scope": "batch",
+    "setup_ms": 28.634526,
+    "flags_va": 132821528084480,
+    "shadow_flags_va": 132821536473088,
+    "delay_min_ns": 0,
+    "delay_max_ns": 112,
+    "mapping": {
+      "IDENTITY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PAIR_ONLY": {
+        "index": 14,
+        "offset": 0,
+        "page": 17,
+        "family": "RND00"
+      },
+      "PLACE_ONLY": {
+        "index": 77,
+        "offset": 67,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "JOINT": {
+        "index": 30,
+        "offset": 0,
+        "page": 257,
+        "family": "RND05"
+      },
+      "JOINT_AA": {
+        "index": 30,
+        "offset": 0,
+        "page": 257,
+        "family": "RND05"
+      },
+      "WRONG": {
+        "index": 31,
+        "offset": 0,
+        "page": 257,
+        "family": "RND06"
+      },
+      "POOL": {
+        "index": 22,
+        "offset": 0,
+        "page": 257,
+        "family": "IDENTITY"
+      },
+      "SHADOW": {
+        "index": 84,
+        "offset": 67,
+        "page": 17,
+        "family": "RND04"
+      }
+    }
+  },
+  {
+    "worker": "confirm_1",
+    "phase": "confirm",
+    "scope": "freshbatch",
+    "setup_ms": 49.63741,
+    "flags_va": 132821528084480,
+    "shadow_flags_va": 132821536473088,
+    "delay_min_ns": 0,
+    "delay_max_ns": 192,
+    "mapping": {
+      "IDENTITY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PAIR_ONLY": {
+        "index": 21,
+        "offset": 0,
+        "page": 17,
+        "family": "RND07"
+      },
+      "PLACE_ONLY": {
+        "index": 77,
+        "offset": 67,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "JOINT": {
+        "index": 42,
+        "offset": 17,
+        "page": 0,
+        "family": "RND06"
+      },
+      "JOINT_AA": {
+        "index": 42,
+        "offset": 17,
+        "page": 0,
+        "family": "RND06"
+      },
+      "WRONG": {
+        "index": 42,
+        "offset": 17,
+        "page": 0,
+        "family": "RND06"
+      },
+      "POOL": {
+        "index": 33,
+        "offset": 17,
+        "page": 0,
+        "family": "IDENTITY"
+      },
+      "SHADOW": {
+        "index": 20,
+        "offset": 0,
+        "page": 17,
+        "family": "RND06"
+      }
+    }
+  },
+  {
+    "worker": "confirm_2",
+    "phase": "confirm",
+    "scope": "batch",
+    "setup_ms": 30.650068,
+    "flags_va": 127195255144448,
+    "shadow_flags_va": 127195263533056,
+    "delay_min_ns": 0,
+    "delay_max_ns": 352,
+    "mapping": {
+      "IDENTITY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PAIR_ONLY": {
+        "index": 17,
+        "offset": 0,
+        "page": 17,
+        "family": "RND03"
+      },
+      "PLACE_ONLY": {
+        "index": 88,
+        "offset": 67,
+        "page": 257,
+        "family": "IDENTITY"
+      },
+      "JOINT": {
+        "index": 8,
+        "offset": 0,
+        "page": 0,
+        "family": "RND05"
+      },
+      "JOINT_AA": {
+        "index": 8,
+        "offset": 0,
+        "page": 0,
+        "family": "RND05"
+      },
+      "WRONG": {
+        "index": 6,
+        "offset": 0,
+        "page": 0,
+        "family": "RND03"
+      },
+      "POOL": {
+        "index": 10,
+        "offset": 0,
+        "page": 0,
+        "family": "RND07"
+      },
+      "SHADOW": {
+        "index": 27,
+        "offset": 0,
+        "page": 257,
+        "family": "RND02"
+      }
+    }
+  },
+  {
+    "worker": "confirm_2",
+    "phase": "confirm",
+    "scope": "freshbatch",
+    "setup_ms": 47.183718,
+    "flags_va": 127195255144448,
+    "shadow_flags_va": 127195263533056,
+    "delay_min_ns": 0,
+    "delay_max_ns": 224,
+    "mapping": {
+      "IDENTITY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PAIR_ONLY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PLACE_ONLY": {
+        "index": 77,
+        "offset": 67,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "JOINT": {
+        "index": 114,
+        "offset": 131,
+        "page": 17,
+        "family": "RND01"
+      },
+      "JOINT_AA": {
+        "index": 114,
+        "offset": 131,
+        "page": 17,
+        "family": "RND01"
+      },
+      "WRONG": {
+        "index": 112,
+        "offset": 131,
+        "page": 17,
+        "family": "CROSS_GPC"
+      },
+      "POOL": {
+        "index": 112,
+        "offset": 131,
+        "page": 17,
+        "family": "CROSS_GPC"
+      },
+      "SHADOW": {
+        "index": 5,
+        "offset": 0,
+        "page": 0,
+        "family": "RND02"
+      }
+    }
+  },
+  {
+    "worker": "confirm_3",
+    "phase": "confirm",
+    "scope": "batch",
+    "setup_ms": 29.664637,
+    "flags_va": 128068609900544,
+    "shadow_flags_va": 128068618289152,
+    "delay_min_ns": 0,
+    "delay_max_ns": 224,
+    "mapping": {
+      "IDENTITY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PAIR_ONLY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PLACE_ONLY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "JOINT": {
+        "index": 9,
+        "offset": 0,
+        "page": 0,
+        "family": "RND06"
+      },
+      "JOINT_AA": {
+        "index": 9,
+        "offset": 0,
+        "page": 0,
+        "family": "RND06"
+      },
+      "WRONG": {
+        "index": 0,
+        "offset": 0,
+        "page": 0,
+        "family": "IDENTITY"
+      },
+      "POOL": {
+        "index": 5,
+        "offset": 0,
+        "page": 0,
+        "family": "RND02"
+      },
+      "SHADOW": {
+        "index": 120,
+        "offset": 131,
+        "page": 17,
+        "family": "RND07"
+      }
+    }
+  },
+  {
+    "worker": "confirm_3",
+    "phase": "confirm",
+    "scope": "freshbatch",
+    "setup_ms": 50.550935,
+    "flags_va": 128068609900544,
+    "shadow_flags_va": 128068618289152,
+    "delay_min_ns": 0,
+    "delay_max_ns": 48,
+    "mapping": {
+      "IDENTITY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PAIR_ONLY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PLACE_ONLY": {
+        "index": 33,
+        "offset": 17,
+        "page": 0,
+        "family": "IDENTITY"
+      },
+      "JOINT": {
+        "index": 33,
+        "offset": 17,
+        "page": 0,
+        "family": "IDENTITY"
+      },
+      "JOINT_AA": {
+        "index": 33,
+        "offset": 17,
+        "page": 0,
+        "family": "IDENTITY"
+      },
+      "WRONG": {
+        "index": 33,
+        "offset": 17,
+        "page": 0,
+        "family": "IDENTITY"
+      },
+      "POOL": {
+        "index": 33,
+        "offset": 17,
+        "page": 0,
+        "family": "IDENTITY"
+      },
+      "SHADOW": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      }
+    }
+  },
+  {
+    "worker": "confirm_4",
+    "phase": "confirm",
+    "scope": "batch",
+    "setup_ms": 30.559186,
+    "flags_va": 131764429258752,
+    "shadow_flags_va": 131764437647360,
+    "delay_min_ns": 0,
+    "delay_max_ns": 272,
+    "mapping": {
+      "IDENTITY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PAIR_ONLY": {
+        "index": 17,
+        "offset": 0,
+        "page": 17,
+        "family": "RND03"
+      },
+      "PLACE_ONLY": {
+        "index": 33,
+        "offset": 17,
+        "page": 0,
+        "family": "IDENTITY"
+      },
+      "JOINT": {
+        "index": 6,
+        "offset": 0,
+        "page": 0,
+        "family": "RND03"
+      },
+      "JOINT_AA": {
+        "index": 6,
+        "offset": 0,
+        "page": 0,
+        "family": "RND03"
+      },
+      "WRONG": {
+        "index": 6,
+        "offset": 0,
+        "page": 0,
+        "family": "RND03"
+      },
+      "POOL": {
+        "index": 9,
+        "offset": 0,
+        "page": 0,
+        "family": "RND06"
+      },
+      "SHADOW": {
+        "index": 78,
+        "offset": 67,
+        "page": 17,
+        "family": "SAME_GPC"
+      }
+    }
+  },
+  {
+    "worker": "confirm_4",
+    "phase": "confirm",
+    "scope": "freshbatch",
+    "setup_ms": 47.525098,
+    "flags_va": 131764429258752,
+    "shadow_flags_va": 131764437647360,
+    "delay_min_ns": 0,
+    "delay_max_ns": 224,
+    "mapping": {
+      "IDENTITY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PAIR_ONLY": {
+        "index": 15,
+        "offset": 0,
+        "page": 17,
+        "family": "RND01"
+      },
+      "PLACE_ONLY": {
+        "index": 77,
+        "offset": 67,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "JOINT": {
+        "index": 4,
+        "offset": 0,
+        "page": 0,
+        "family": "RND01"
+      },
+      "JOINT_AA": {
+        "index": 4,
+        "offset": 0,
+        "page": 0,
+        "family": "RND01"
+      },
+      "WRONG": {
+        "index": 4,
+        "offset": 0,
+        "page": 0,
+        "family": "RND01"
+      },
+      "POOL": {
+        "index": 4,
+        "offset": 0,
+        "page": 0,
+        "family": "RND01"
+      },
+      "SHADOW": {
+        "index": 20,
+        "offset": 0,
+        "page": 17,
+        "family": "RND06"
+      }
+    }
+  },
+  {
+    "worker": "confirm_5",
+    "phase": "confirm",
+    "scope": "batch",
+    "setup_ms": 48.097084,
+    "flags_va": 130201900023808,
+    "shadow_flags_va": 130201908412416,
+    "delay_min_ns": 0,
+    "delay_max_ns": 288,
+    "mapping": {
+      "IDENTITY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PAIR_ONLY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PLACE_ONLY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "JOINT": {
+        "index": 37,
+        "offset": 17,
+        "page": 0,
+        "family": "RND01"
+      },
+      "JOINT_AA": {
+        "index": 37,
+        "offset": 17,
+        "page": 0,
+        "family": "RND01"
+      },
+      "WRONG": {
+        "index": 41,
+        "offset": 17,
+        "page": 0,
+        "family": "RND05"
+      },
+      "POOL": {
+        "index": 38,
+        "offset": 17,
+        "page": 0,
+        "family": "RND02"
+      },
+      "SHADOW": {
+        "index": 114,
+        "offset": 131,
+        "page": 17,
+        "family": "RND01"
+      }
+    }
+  },
+  {
+    "worker": "confirm_5",
+    "phase": "confirm",
+    "scope": "freshbatch",
+    "setup_ms": 29.860779,
+    "flags_va": 130201900023808,
+    "shadow_flags_va": 130201908412416,
+    "delay_min_ns": 0,
+    "delay_max_ns": 192,
+    "mapping": {
+      "IDENTITY": {
+        "index": 11,
+        "offset": 0,
+        "page": 17,
+        "family": "IDENTITY"
+      },
+      "PAIR_ONLY": {
+        "index": 13,
+        "offset": 0,
+        "page": 17,
+        "family": "CROSS_GPC"
+      },
+      "PLACE_ONLY": {
+        "index": 0,
+        "offset": 0,
+        "page": 0,
+        "family": "IDENTITY"
+      },
+      "JOINT": {
+        "index": 13,
+        "offset": 0,
+        "page": 17,
+        "family": "CROSS_GPC"
+      },
+      "JOINT_AA": {
+        "index": 13,
+        "offset": 0,
+        "page": 17,
+        "family": "CROSS_GPC"
+      },
+      "WRONG": {
+        "index": 13,
+        "offset": 0,
+        "page": 17,
+        "family": "CROSS_GPC"
+      },
+      "POOL": {
+        "index": 13,
+        "offset": 0,
+        "page": 17,
+        "family": "CROSS_GPC"
+      },
+      "SHADOW": {
+        "index": 14,
+        "offset": 0,
+        "page": 17,
+        "family": "RND00"
+      }
+    }
+  }
+]

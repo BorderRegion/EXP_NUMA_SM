@@ -1,0 +1,18 @@
+{
+  "note": "混合单位：episode包含12窗，quartet包含4窗，trace phase含128请求；不能当相同独立样本",
+  "by_kind": {
+    "timer_scope": 4,
+    "aa_factor": 48,
+    "aa_single_slot": 6,
+    "single_pair": 18,
+    "ffn_pair": 12,
+    "trace": 36,
+    "aa_independent": 16,
+    "ffn_independent": 4
+  },
+  "work_units": 144,
+  "cupi_capture_max": 6,
+  "aa_main_factor_episodes": 48,
+  "aa_single_slot_episodes": 6,
+  "independent_aa_episodes": 16
+}

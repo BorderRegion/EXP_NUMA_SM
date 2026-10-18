@@ -1,0 +1,9 @@
+{
+  "source_archive": "T10_SELECTIVE_REORDER_RESULT_20261017.zip",
+  "archive_sha256": "feac24c448ca86be797f9481965e44aab1691f97c2a35de03fc33ce29eed3991",
+  "files": {
+    "generate_policy.py": "764f198b85423386e16a4f95ef47b599ec0055eed86b916584287bd07977421f",
+    "policy.hpp": "6d862e74871480b104630bbf354f9dcb758d79ad0f5e592068145584c1408194"
+  },
+  "note": "Patch applies to reviewed original. If prior allocation-free patch is already applied, port the small skip-unused interpolation change by inspection, do not overwrite user changes."
+}

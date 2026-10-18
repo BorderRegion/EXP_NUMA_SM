@@ -1,0 +1,138 @@
+{
+  "at": "2026-10-16T18:36:37.651177+00:00",
+  "status": "PASS",
+  "scope": "Prescribed phase coverage, frozen rules, numerical and budget checks; known raw-retention limitation below is not waived or hidden.",
+  "known_evidence_limitations": [
+    "Lifecycle blocks0/1 retained complete per-plan aggregates, costs, tuning action means and numerical checks, but not individual lifecycle request arrays or per-H epoch intervals. Block2 records them. All three original blocks remain in analysis; no outcome-based replacement."
+  ],
+  "lifecycle_sample_rows_by_block": {
+    "0": 0,
+    "1": 0,
+    "2": 96
+  },
+  "workers": [
+    {
+      "worker": "S2_base_0",
+      "phases": 360,
+      "status": "PASS"
+    },
+    {
+      "worker": "S2_base_1",
+      "phases": 360,
+      "status": "PASS"
+    },
+    {
+      "worker": "S2_action_0",
+      "phases": 192,
+      "status": "PASS"
+    },
+    {
+      "worker": "S2_action_1",
+      "phases": 192,
+      "status": "PASS"
+    },
+    {
+      "worker": "S2_action_2",
+      "phases": 192,
+      "status": "PASS"
+    },
+    {
+      "worker": "S2_card_0",
+      "phases": 128,
+      "status": "PASS"
+    },
+    {
+      "worker": "S2_card_1",
+      "phases": 128,
+      "status": "PASS"
+    },
+    {
+      "worker": "S4_block_0",
+      "phases": 264,
+      "status": "PASS"
+    },
+    {
+      "worker": "S4_block_1",
+      "phases": 264,
+      "status": "PASS"
+    },
+    {
+      "worker": "S4_block_2",
+      "phases": 264,
+      "status": "PASS"
+    },
+    {
+      "worker": "S4_block_3",
+      "phases": 264,
+      "status": "PASS"
+    },
+    {
+      "worker": "S4_block_4",
+      "phases": 264,
+      "status": "PASS"
+    },
+    {
+      "worker": "S4_block_5",
+      "phases": 264,
+      "status": "PASS"
+    },
+    {
+      "worker": "S5_trace_0",
+      "phases": 17,
+      "status": "PASS"
+    },
+    {
+      "worker": "S5_trace_1",
+      "phases": 17,
+      "status": "PASS"
+    },
+    {
+      "worker": "S5_trace_2",
+      "phases": 17,
+      "status": "PASS"
+    },
+    {
+      "worker": "S5_trace_3",
+      "phases": 17,
+      "status": "PASS"
+    },
+    {
+      "worker": "S5_trace_4",
+      "phases": 17,
+      "status": "PASS"
+    },
+    {
+      "worker": "S5_trace_5",
+      "phases": 17,
+      "status": "PASS"
+    },
+    {
+      "worker": "S5_ood_0",
+      "phases": 12,
+      "status": "PASS"
+    },
+    {
+      "worker": "S5_ood_1",
+      "phases": 12,
+      "status": "PASS"
+    },
+    {
+      "worker": "S5_ood_2",
+      "phases": 12,
+      "status": "PASS"
+    }
+  ],
+  "ood_native_checks": 36,
+  "formal_order_matches_input": true,
+  "formal_PC_raw_bit_checks": 864,
+  "ffn_logical_phases": 96,
+  "trace_actual_phases": 102,
+  "trace_all_actual_actions_LIB": true,
+  "lifecycle_phases": 72,
+  "profile_captures": 3,
+  "elapsed_wall_minutes": 96.31968136683378,
+  "gpu_worker_minutes": 70.17180623668246,
+  "policy_hashes_unchanged": true,
+  "production_math_cubins_unchanged": true,
+  "formal_smid_clock_absent": true
+}

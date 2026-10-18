@@ -1,0 +1,23 @@
+{
+  "files": [
+    {
+      "path": "/usr/local/sbin/t10_quiet_fan.py",
+      "sha256": "62b61184c6e085ea1092ecbe38cc44adb1eabd3ea62139f9f282611de5dfe401"
+    },
+    {
+      "path": "/etc/systemd/system/t10-quiet-fan.service",
+      "sha256": "8a2c60e3c3ac6459bd8f7b5a8cbd1670f2bdbc1ccd2e56e0c88561e81b83eb13"
+    },
+    {
+      "path": "/etc/systemd/system/t10-quiet-power.service",
+      "sha256": "ee571ae87c68ce8e6b8f0ab04e0ce6bed12469d4e75b525d181ffc77a9cfc489"
+    },
+    {
+      "path": "/etc/systemd/system/t10-quiet-power.service.d/90-op-fused-fixed100.conf",
+      "sha256": "f5d5270a2e03f8b8d4bba042e44afaf6e26e7d78e7a1b67d5fb5c862c51bdbf5"
+    }
+  ],
+  "services": "active\nactive\n",
+  "device": "uuid, name, power.limit [W], enforced.power.limit [W], temperature.gpu, clocks.current.sm [MHz], clocks.current.memory [MHz], memory.total [MiB]\nGPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5, Tesla T10, 100.00 W, 100.00 W, 62, 1065 MHz, 6300 MHz, 15360 MiB\n",
+  "apps": "pid, process_name, used_gpu_memory [MiB]\n1697361, /usr/libexec/gnome-remote-desktop-daemon, 205 MiB\n"
+}

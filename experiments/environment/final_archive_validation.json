@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "archive": "GPU_TOPOLOGY_T10_20261014.zip",
+  "sha256": "4371751f94e76b78aa5e39085d3a9dd35f25c13b94929c87bdde7792f2eeecaa",
+  "bytes": 565690509,
+  "zip_crc_passed": true,
+  "extracted_file_hashes_passed": true,
+  "extracted_cpu_statistics_exact_match": true,
+  "elapsed_seconds": 42.03845977783203
+}

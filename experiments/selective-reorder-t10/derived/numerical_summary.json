@@ -1,0 +1,29 @@
+{
+  "metrics": {
+    "relative_frobenius": {
+      "n": 7448,
+      "min": 0.0,
+      "median": 5.062584827195927e-06,
+      "mean": 8.024671660555453e-06,
+      "p95": 2.6076971557858913e-05,
+      "max": 0.00013568762466854536
+    },
+    "max_scaled_error": {
+      "n": 7448,
+      "min": 0.0,
+      "median": 0.03010588115800133,
+      "mean": 0.046884933853018576,
+      "p95": 0.17326185634096905,
+      "max": 0.27610566796065383
+    },
+    "fp64_subblock_max_scaled_error": {
+      "n": 7423,
+      "min": 0.000492614322748032,
+      "median": 0.016367304788788024,
+      "mean": 0.02548600107444737,
+      "p95": 0.08610469606176963,
+      "max": 0.21348728144679024
+    }
+  },
+  "scope": "All saved correctness records, including repeated validation/reference checks; count is not independent statistical replication. Limits remain in backend.py."
+}

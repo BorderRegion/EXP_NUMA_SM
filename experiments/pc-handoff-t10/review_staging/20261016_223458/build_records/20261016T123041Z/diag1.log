@@ -1,0 +1,97 @@
+/home/ubuntu/文档/ChatGPT/numa_gpu/op-fused/vendor/cutlass/include/cutlass/conv/conv3d_problem_size.h(215): warning #20013-D: calling a constexpr __host__ function("get") from a __host__ __device__ function("Conv3dProblemSize") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+/home/ubuntu/文档/ChatGPT/numa_gpu/op-fused/vendor/cutlass/include/cutlass/conv/conv3d_problem_size.h(215): warning #20013-D: calling a constexpr __host__ function("get") from a __host__ __device__ function("Conv3dProblemSize") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+/home/ubuntu/文档/ChatGPT/numa_gpu/op-fused/vendor/cutlass/include/cutlass/conv/conv3d_problem_size.h(216): warning #20013-D: calling a constexpr __host__ function("get") from a __host__ __device__ function("Conv3dProblemSize") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+/home/ubuntu/文档/ChatGPT/numa_gpu/op-fused/vendor/cutlass/include/cutlass/conv/conv3d_problem_size.h(216): warning #20013-D: calling a constexpr __host__ function("get") from a __host__ __device__ function("Conv3dProblemSize") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+/home/ubuntu/文档/ChatGPT/numa_gpu/op-fused/vendor/cutlass/include/cutlass/conv/conv3d_problem_size.h(221): warning #20013-D: calling a constexpr __host__ function("get") from a __host__ __device__ function("Conv3dProblemSize") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+/home/ubuntu/文档/ChatGPT/numa_gpu/op-fused/vendor/cutlass/include/cutlass/conv/conv3d_problem_size.h(224): warning #20013-D: calling a constexpr __host__ function("get") from a __host__ __device__ function("Conv3dProblemSize") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+/home/ubuntu/文档/ChatGPT/numa_gpu/op-fused/vendor/cutlass/include/cutlass/conv/conv3d_problem_size.h(212): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+/home/ubuntu/文档/ChatGPT/numa_gpu/op-fused/vendor/cutlass/include/cutlass/conv/conv3d_problem_size.h(215): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+/home/ubuntu/文档/ChatGPT/numa_gpu/op-fused/vendor/cutlass/include/cutlass/conv/conv3d_problem_size.h(215): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+/home/ubuntu/文档/ChatGPT/numa_gpu/op-fused/vendor/cutlass/include/cutlass/conv/conv3d_problem_size.h(216): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+/home/ubuntu/文档/ChatGPT/numa_gpu/op-fused/vendor/cutlass/include/cutlass/conv/conv3d_problem_size.h(221): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+/home/ubuntu/文档/ChatGPT/numa_gpu/op-fused/vendor/cutlass/include/cutlass/conv/conv3d_problem_size.h(224): warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+/home/ubuntu/文档/ChatGPT/numa_gpu/pc-handoff-t10/adapters/pc_reduce_split_k.h(157): warning #177-D: variable "count" was declared but never referenced
+
+ptxas info    : 2 bytes gmem
+ptxas info    : Compiling entry function 'silu_half' for 'sm_75'
+ptxas info    : Function properties for silu_half
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function 'scratch_read' for 'sm_75'
+ptxas info    : Function properties for scratch_read
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function 'roster' for 'sm_75'
+ptxas info    : Function properties for roster
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 4 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function 'rn' for 'sm_75'
+ptxas info    : Function properties for rn
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function 'r' for 'sm_75'
+ptxas info    : Function properties for r
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 44 registers, 508 bytes cmem[0]
+ptxas info    : Compiling entry function 's3' for 'sm_75'
+ptxas info    : Function properties for s3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 216 registers, 720 bytes cmem[0]
+ptxas info    : Compiling entry function 'n3' for 'sm_75'
+ptxas info    : Function properties for n3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 222 registers, 584 bytes cmem[0]
+ptxas info    : Compiling entry function 'p3' for 'sm_75'
+ptxas info    : Function properties for p3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 224 registers, 612 bytes cmem[0]
+ptxas info    : Compiling entry function 's2' for 'sm_75'
+ptxas info    : Function properties for s2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 138 registers, 720 bytes cmem[0]
+ptxas info    : Compiling entry function 'n2' for 'sm_75'
+ptxas info    : Function properties for n2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 142 registers, 584 bytes cmem[0]
+ptxas info    : Compiling entry function 'p2' for 'sm_75'
+ptxas info    : Function properties for p2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 144 registers, 612 bytes cmem[0]
+ptxas info    : Compiling entry function 's1' for 'sm_75'
+ptxas info    : Function properties for s1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 83 registers, 720 bytes cmem[0]
+ptxas info    : Compiling entry function 'n1' for 'sm_75'
+ptxas info    : Function properties for n1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 90 registers, 584 bytes cmem[0]
+ptxas info    : Compiling entry function 'p1' for 'sm_75'
+ptxas info    : Function properties for p1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 92 registers, 612 bytes cmem[0]
+ptxas info    : Compiling entry function 's0' for 'sm_75'
+ptxas info    : Function properties for s0
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 96 registers, 720 bytes cmem[0]
+ptxas info    : Compiling entry function 'n0' for 'sm_75'
+ptxas info    : Function properties for n0
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 102 registers, 584 bytes cmem[0]
+ptxas info    : Compiling entry function 'p0' for 'sm_75'
+ptxas info    : Function properties for p0
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 104 registers, 612 bytes cmem[0]

@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-18T10:17:57.299366+00:00",
+  "status": "descriptive_after_final_outcomes",
+  "reason": "freshbatch JOINT positive mean but only one positive process, and host/GPU diagnostic disagreement",
+  "scope": "Inspect replay timing tails for all108 policy/scope/process combinations",
+  "no_changes_to_primary_metrics": true,
+  "no_observations_removed": true,
+  "no_gpu_reruns": true
+}

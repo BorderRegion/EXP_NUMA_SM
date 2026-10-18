@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "archive": "/home/ubuntu/下载/T10_SELECTIVE_REORDER_REPAIR_V2_RESULT_20261017.zip",
+  "archive_sha256": "6ffd2bd63d62d82f009e7d5506ec1d8577503a8be3d5d79714a3183fbe5bcefd",
+  "fresh_extract": "/tmp/t10_v2_fresh_go_l_i7p/T10_SELECTIVE_REORDER_REPAIR_V2_RESULT_20261017",
+  "returncode": 0,
+  "recompute_seconds": 22.482992255012505,
+  "completed_at": "2026-10-17T05:27:40.718866+00:00",
+  "total_wall_minutes": 195.01578835883313,
+  "scope": "Fresh extraction outside source directory; archive manifest, original timing arrays, card/training/fitting/LOSO/noise/costs, frozen Python/C++ choices, all derived JSON recomputed using CPU only",
+  "gpu_experiments_rerun": false
+}

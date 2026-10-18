@@ -1,0 +1,20 @@
+{
+  "at_utc": "2026-10-18T15:11:05.348554+00:00",
+  "passed": true,
+  "campaigns": 25,
+  "git_evidence_files_byte_verified": 3090,
+  "manifest_entries": 132511,
+  "all_authored_markdown_local_links_exist": true,
+  "mermaid_parse": "flowchart-v2 (mermaid 11, jsdom)",
+  "source_staged_index_unchanged": true,
+  "original_reports_unchanged": true,
+  "credential_scan": {
+    "text_members_scanned": 174682,
+    "original_zip_files_scanned": 161,
+    "historical_text_blobs_scanned": 5492,
+    "credential_pattern_matches": 0,
+    "scope": "Bounded patterns for common tokens, private keys, literal secret assignments, URL credentials and sudo password pipes in project text, original ZIP text members and historical Git text blobs. This is not a general security proof.",
+    "values_published": false
+  },
+  "gpu_experiments_run": 0
+}

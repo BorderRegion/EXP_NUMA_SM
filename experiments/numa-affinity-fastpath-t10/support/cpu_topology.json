@@ -1,0 +1,137 @@
+{
+   "lscpu": [
+      {
+         "field": "Architecture:",
+         "data": "x86_64"
+      },{
+         "field": "CPU op-mode(s):",
+         "data": "32-bit, 64-bit"
+      },{
+         "field": "Address sizes:",
+         "data": "39 bits physical, 48 bits virtual"
+      },{
+         "field": "Byte Order:",
+         "data": "Little Endian"
+      },{
+         "field": "CPU(s):",
+         "data": "4"
+      },{
+         "field": "On-line CPU(s) list:",
+         "data": "0-3"
+      },{
+         "field": "Vendor ID:",
+         "data": "GenuineIntel"
+      },{
+         "field": "Model name:",
+         "data": "Intel(R) Core(TM) i5-4590S CPU @ 3.00GHz"
+      },{
+         "field": "CPU family:",
+         "data": "6"
+      },{
+         "field": "Model:",
+         "data": "60"
+      },{
+         "field": "Thread(s) per core:",
+         "data": "1"
+      },{
+         "field": "Core(s) per socket:",
+         "data": "4"
+      },{
+         "field": "Socket(s):",
+         "data": "1"
+      },{
+         "field": "Stepping:",
+         "data": "3"
+      },{
+         "field": "CPU(s) scaling MHz:",
+         "data": "90%"
+      },{
+         "field": "CPU max MHz:",
+         "data": "3700.0000"
+      },{
+         "field": "CPU min MHz:",
+         "data": "800.0000"
+      },{
+         "field": "BogoMIPS:",
+         "data": "5986.43"
+      },{
+         "field": "Flags:",
+         "data": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm cpuid_fault epb pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts md_clear flush_l1d"
+      },{
+         "field": "L1d cache:",
+         "data": "128 KiB (4 instances)"
+      },{
+         "field": "L1i cache:",
+         "data": "128 KiB (4 instances)"
+      },{
+         "field": "L2 cache:",
+         "data": "1 MiB (4 instances)"
+      },{
+         "field": "L3 cache:",
+         "data": "6 MiB (1 instance)"
+      },{
+         "field": "NUMA node(s):",
+         "data": "1"
+      },{
+         "field": "NUMA node0 CPU(s):",
+         "data": "0-3"
+      },{
+         "field": "Vulnerability Gather data sampling:",
+         "data": "Not affected"
+      },{
+         "field": "Vulnerability Ghostwrite:",
+         "data": "Not affected"
+      },{
+         "field": "Vulnerability Indirect target selection:",
+         "data": "Not affected"
+      },{
+         "field": "Vulnerability Itlb multihit:",
+         "data": "KVM: Mitigation: VMX unsupported"
+      },{
+         "field": "Vulnerability L1tf:",
+         "data": "Mitigation; PTE Inversion"
+      },{
+         "field": "Vulnerability Mds:",
+         "data": "Mitigation; Clear CPU buffers; SMT disabled"
+      },{
+         "field": "Vulnerability Meltdown:",
+         "data": "Mitigation; PTI"
+      },{
+         "field": "Vulnerability Mmio stale data:",
+         "data": "Not affected"
+      },{
+         "field": "Vulnerability Old microcode:",
+         "data": "Not affected"
+      },{
+         "field": "Vulnerability Reg file data sampling:",
+         "data": "Not affected"
+      },{
+         "field": "Vulnerability Retbleed:",
+         "data": "Not affected"
+      },{
+         "field": "Vulnerability Spec rstack overflow:",
+         "data": "Not affected"
+      },{
+         "field": "Vulnerability Spec store bypass:",
+         "data": "Mitigation; Speculative Store Bypass disabled via prctl"
+      },{
+         "field": "Vulnerability Spectre v1:",
+         "data": "Mitigation; usercopy/swapgs barriers and __user pointer sanitization"
+      },{
+         "field": "Vulnerability Spectre v2:",
+         "data": "Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected"
+      },{
+         "field": "Vulnerability Srbds:",
+         "data": "Mitigation; Microcode"
+      },{
+         "field": "Vulnerability Tsa:",
+         "data": "Not affected"
+      },{
+         "field": "Vulnerability Tsx async abort:",
+         "data": "Not affected"
+      },{
+         "field": "Vulnerability Vmscape:",
+         "data": "Mitigation; IBPB before exit to userspace"
+      }
+   ]
+}

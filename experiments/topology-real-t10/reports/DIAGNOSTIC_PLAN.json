@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-18T12:44:21.044758+00:00",
+  "stage": "before inspecting confirmation performance",
+  "checks": [
+    "Development-only correlation between low-budget actual-kernel screen and independent held-out16-candidate operator timings",
+    "Confirmation fallback and exact-control-duplication counts",
+    "Descriptive amortization from full-horizon raw times; no extra measurements or primary-metric replacement",
+    "All-policy host timing tails recorded by frozen analysis; no outlier removal",
+    "Describe recorded screen/refinement host/GPU/update cost components without adding overlapping intervals; no selection changes"
+  ],
+  "no_confirmation_feedback": true,
+  "supplement_created_utc": "2026-10-18T12:50:07.709475+00:00"
+}

@@ -1,0 +1,2642 @@
+[
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "gpu_us",
+    "candidate": "GPC_ADDR",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 6.711499992344114,
+    "control_us_per_request": 6.728930486573113,
+    "gain_pct": 0.24378734471823113,
+    "ci95": [
+      -0.01198332716249311,
+      0.4637677072231801
+    ],
+    "ci_primary": [
+      -0.16647111051699243,
+      0.550693789855952
+    ],
+    "positive_processes": 5,
+    "processes": 6,
+    "process_gains_pct": [
+      0.2657840827753957,
+      0.34519446914150814,
+      0.41092672980365547,
+      -0.3194780664304849,
+      0.12732797746125474,
+      0.6355815234011669
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "gpu_us",
+    "candidate": "GPC_ADDR",
+    "control": "RND07",
+    "control_role": "RANDOM_BEST",
+    "candidate_us_per_request": 6.711499992344114,
+    "control_us_per_request": 6.682486083772448,
+    "gain_pct": -0.45927460963023453,
+    "ci95": [
+      -0.8184355480303808,
+      -0.07666103925436976
+    ],
+    "ci_primary": [
+      -0.9611611108822453,
+      0.1622959655419695
+    ],
+    "positive_processes": 2,
+    "processes": 6,
+    "process_gains_pct": [
+      -0.7581898273347099,
+      0.12076483729415921,
+      -0.470345661111849,
+      -1.0543991004918676,
+      -0.7906504579091861,
+      0.2038443213311029
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "gpu_us",
+    "candidate": "GPC_ADDR",
+    "control": "GPC_WRONG",
+    "control_role": "GPC_WRONG",
+    "candidate_us_per_request": 6.711499992344114,
+    "control_us_per_request": 6.723951409260432,
+    "gain_pct": 0.16593813351654646,
+    "ci95": [
+      -0.5661494953312947,
+      0.7786471979524057
+    ],
+    "ci_primary": [
+      -0.9897719765859115,
+      1.0808080295376654
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      0.523605794004519,
+      0.3347869594097623,
+      0.31701899229939756,
+      -1.4501099108131417,
+      -0.0688246719474249,
+      1.360566293790796
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "gpu_us",
+    "candidate": "GPC_ADDR",
+    "control": "GPC_POOL",
+    "control_role": "GPC_POOL",
+    "candidate_us_per_request": 6.711499992344114,
+    "control_us_per_request": 6.704340279102325,
+    "gain_pct": -0.12653896728842753,
+    "ci95": [
+      -0.3250573493008023,
+      0.05145931834134414
+    ],
+    "ci_primary": [
+      -0.4565994482011729,
+      0.132325337252835
+    ],
+    "positive_processes": 2,
+    "processes": 6,
+    "process_gains_pct": [
+      -0.021161366988994984,
+      0.005087624380919313,
+      -0.11127568108225838,
+      -0.2959792673696038,
+      -0.5368124796918932,
+      0.20258074257599154
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "gpu_us",
+    "candidate": "ALL_ADDR",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 6.661104159222709,
+    "control_us_per_request": 6.728930486573113,
+    "gain_pct": 0.999284632221155,
+    "ci95": [
+      0.7165260772009715,
+      1.2679909972127748
+    ],
+    "ci_primary": [
+      0.5296227863937247,
+      1.3674856410027252
+    ],
+    "positive_processes": 6,
+    "processes": 6,
+    "process_gains_pct": [
+      1.210411531807141,
+      1.0613287864792686,
+      0.4997427715128711,
+      0.5595116850315378,
+      1.4342300881296195,
+      1.234128472817652
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "gpu_us",
+    "candidate": "ALL_ADDR",
+    "control": "RND07",
+    "control_role": "RANDOM_BEST",
+    "candidate_us_per_request": 6.661104159222709,
+    "control_us_per_request": 6.682486083772448,
+    "gain_pct": 0.2909239814294853,
+    "ci95": [
+      -0.08589782812757178,
+      0.6578409506625803
+    ],
+    "ci_primary": [
+      -0.28214988242012773,
+      0.8175588934998667
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      0.17679052352260427,
+      0.8352974659606938,
+      -0.38230912744999407,
+      -0.18188993364700978,
+      0.5042698294251601,
+      0.7998234415430776
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "gpu_us",
+    "candidate": "ALL_ADDR",
+    "control": "ALL_WRONG",
+    "control_role": "ALL_WRONG",
+    "candidate_us_per_request": 6.661104159222709,
+    "control_us_per_request": 6.638909730646345,
+    "gain_pct": -0.2769844144003698,
+    "ci95": [
+      -1.0629234193785646,
+      0.22326746488421653
+    ],
+    "ci_primary": [
+      -1.7429342837624973,
+      0.276806397633502
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      0.2723128132715913,
+      0.1433369491772164,
+      -0.29186801286830505,
+      0.28130018337004803,
+      0.0981920018345025,
+      -2.142851304074969
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "gpu_us",
+    "candidate": "ALL_ADDR",
+    "control": "ALL_POOL",
+    "control_role": "ALL_POOL",
+    "candidate_us_per_request": 6.661104159222709,
+    "control_us_per_request": 6.671166674958335,
+    "gain_pct": 0.13804367752690208,
+    "ci95": [
+      -0.03721112139190643,
+      0.2847113324594761
+    ],
+    "ci_primary": [
+      -0.1405928370806375,
+      0.3387232220122326
+    ],
+    "positive_processes": 5,
+    "processes": 6,
+    "process_gains_pct": [
+      0.026446267329820743,
+      0.07354599669100585,
+      0.35011855698023725,
+      0.327329181050263,
+      0.2760668715999498,
+      -0.22400775508355147
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "gpu_us",
+    "candidate": "SAME_GPC",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 6.774958315822813,
+    "control_us_per_request": 6.728930486573113,
+    "gain_pct": -0.5998534784448533,
+    "ci95": [
+      -1.4521017512712027,
+      0.007938700330365644
+    ],
+    "ci_primary": [
+      -2.0231733661228506,
+      0.12195250682985587
+    ],
+    "positive_processes": 1,
+    "processes": 6,
+    "process_gains_pct": [
+      0.21293573342860364,
+      -0.06310510402663093,
+      -2.5913255113007554,
+      -0.876908224218845,
+      -0.056427205651513976,
+      -0.1966389878672214
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "gpu_us",
+    "candidate": "CROSS_GPC",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 6.7485277288489876,
+    "control_us_per_request": 6.728930486573113,
+    "gain_pct": -0.279466517335967,
+    "ci95": [
+      -0.43898762282106985,
+      -0.11712709054807857
+    ],
+    "ci_primary": [
+      -0.5066225451140077,
+      -0.025052576014909508
+    ],
+    "positive_processes": 1,
+    "processes": 6,
+    "process_gains_pct": [
+      -0.1378980752761652,
+      -0.17025281948216273,
+      -0.5442441902179818,
+      -0.43730079840779634,
+      -0.4253719553431577,
+      0.03952202496832523
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "gpu_us",
+    "candidate": "ALIAS_IDENTITY",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 6.772395796245998,
+    "control_us_per_request": 6.728930486573113,
+    "gain_pct": -0.5716435605248741,
+    "ci95": [
+      -1.4459472845959085,
+      -0.056037834069040615
+    ],
+    "ci_primary": [
+      -1.9264162743992386,
+      0.01620842925991461
+    ],
+    "positive_processes": 1,
+    "processes": 6,
+    "process_gains_pct": [
+      0.07860662574724371,
+      -0.19898537187351745,
+      -2.69658151807546,
+      -0.36774975727132264,
+      -0.1397337368584072,
+      -0.0771990233876334
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "host_us",
+    "candidate": "GPC_ADDR",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 6.864505425347222,
+    "control_us_per_request": 6.887250651041667,
+    "gain_pct": 0.3178461285573051,
+    "ci95": [
+      0.025848412045462937,
+      0.5486709992196409
+    ],
+    "ci_primary": [
+      -0.14054967090470777,
+      0.6501018441230929
+    ],
+    "positive_processes": 5,
+    "processes": 6,
+    "process_gains_pct": [
+      0.5151514753790064,
+      0.3177269916856523,
+      0.4364371150873927,
+      -0.34378365785876946,
+      0.26716254444029186,
+      0.7176449567951098
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "host_us",
+    "candidate": "GPC_ADDR",
+    "control": "RND07",
+    "control_role": "RANDOM_BEST",
+    "candidate_us_per_request": 6.864505425347222,
+    "control_us_per_request": 6.841078993055556,
+    "gain_pct": -0.3657580794750129,
+    "ci95": [
+      -0.6972287700694958,
+      -0.002997929753686089
+    ],
+    "ci_primary": [
+      -0.8630994185973672,
+      0.1895029710578602
+    ],
+    "positive_processes": 2,
+    "processes": 6,
+    "process_gains_pct": [
+      -0.6178714905477344,
+      0.0744120341048884,
+      -0.33605911417647244,
+      -0.9819736019839009,
+      -0.6319734974873434,
+      0.3047262687561962
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "host_us",
+    "candidate": "GPC_ADDR",
+    "control": "GPC_WRONG",
+    "control_role": "GPC_WRONG",
+    "candidate_us_per_request": 6.864505425347222,
+    "control_us_per_request": 6.953076605902778,
+    "gain_pct": 0.7630740400216947,
+    "ci95": [
+      -0.6005240324254614,
+      2.6980219452966168
+    ],
+    "ci_primary": [
+      -1.0110517567848036,
+      4.087888137814778
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      0.5092242009665265,
+      0.32438999684647024,
+      0.21968369109711086,
+      -1.5030635568594657,
+      -0.08641118182432014,
+      5.2435991983469075
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "host_us",
+    "candidate": "GPC_ADDR",
+    "control": "GPC_POOL",
+    "control_role": "GPC_POOL",
+    "candidate_us_per_request": 6.864505425347222,
+    "control_us_per_request": 6.859705295138889,
+    "gain_pct": -0.0908344440742141,
+    "ci95": [
+      -0.3508068320053032,
+      0.14414029307208265
+    ],
+    "ci_primary": [
+      -0.5180716910023914,
+      0.26973043464196905
+    ],
+    "positive_processes": 2,
+    "processes": 6,
+    "process_gains_pct": [
+      0.13177409085489095,
+      -0.012271767747639028,
+      -0.06327767619267391,
+      -0.3203881727436511,
+      -0.6167663850785761,
+      0.33877986607705207
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "host_us",
+    "candidate": "ALL_ADDR",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 6.812351128472222,
+    "control_us_per_request": 6.887250651041667,
+    "gain_pct": 1.0809903064791606,
+    "ci95": [
+      0.76886971723114,
+      1.3859626911898644
+    ],
+    "ci_primary": [
+      0.5983888573250906,
+      1.5238756007607042
+    ],
+    "positive_processes": 6,
+    "processes": 6,
+    "process_gains_pct": [
+      1.465877527891872,
+      1.103530645239939,
+      0.5551200604779823,
+      0.6416762727047952,
+      1.5819068254293183,
+      1.1421496271294682
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "host_us",
+    "candidate": "ALL_ADDR",
+    "control": "RND07",
+    "control_role": "RANDOM_BEST",
+    "candidate_us_per_request": 6.812351128472222,
+    "control_us_per_request": 6.841078993055556,
+    "gain_pct": 0.39218574186528093,
+    "ci95": [
+      0.06469923250399634,
+      0.6939582511369008
+    ],
+    "ci_primary": [
+      -0.11061483505573688,
+      0.8052558715105353
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      0.3221378248763352,
+      0.858309765462115,
+      -0.21828900610294832,
+      -0.002824473105450831,
+      0.6709809418530642,
+      0.7274905696486804
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "host_us",
+    "candidate": "ALL_ADDR",
+    "control": "ALL_WRONG",
+    "control_role": "ALL_WRONG",
+    "candidate_us_per_request": 6.812351128472222,
+    "control_us_per_request": 6.792550998263888,
+    "gain_pct": -0.23404123105927338,
+    "ci95": [
+      -1.067140661688959,
+      0.2928934809115787
+    ],
+    "ci_primary": [
+      -1.756886938209866,
+      0.37812323493809374
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      0.4564675556377505,
+      0.1814713774941344,
+      -0.22547385622746904,
+      0.2617803990357749,
+      0.13984857591202457,
+      -2.1936710953480545
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "host_us",
+    "candidate": "ALL_ADDR",
+    "control": "ALL_POOL",
+    "control_role": "ALL_POOL",
+    "candidate_us_per_request": 6.812351128472222,
+    "control_us_per_request": 6.832303602430556,
+    "gain_pct": 0.2750825248484424,
+    "ci95": [
+      0.004897653989425797,
+      0.5325726828997633
+    ],
+    "ci_primary": [
+      -0.14337611513605414,
+      0.6598309585685895
+    ],
+    "positive_processes": 5,
+    "processes": 6,
+    "process_gains_pct": [
+      0.16726607803051488,
+      0.07285034110464257,
+      0.5024280912639044,
+      0.7579559749222972,
+      0.42532173445128446,
+      -0.2720381269164949
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "host_us",
+    "candidate": "SAME_GPC",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 6.927080729166666,
+    "control_us_per_request": 6.887250651041667,
+    "gain_pct": -0.4940358978164031,
+    "ci95": [
+      -1.3669159137898004,
+      0.17886675354786916
+    ],
+    "ci_primary": [
+      -1.9628414209735818,
+      0.3691862891155339
+    ],
+    "positive_processes": 2,
+    "processes": 6,
+    "process_gains_pct": [
+      0.5287271945077432,
+      -0.01792832449679741,
+      -2.518001060943838,
+      -0.8430192389770343,
+      0.11970297515443357,
+      -0.20355221029199153
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "host_us",
+    "candidate": "CROSS_GPC",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 6.904787326388888,
+    "control_us_per_request": 6.887250651041667,
+    "gain_pct": -0.23340389019393865,
+    "ci95": [
+      -0.3712176496209489,
+      -0.07357905217878716
+    ],
+    "ci_primary": [
+      -0.43142972363964915,
+      0.013273281275296223
+    ],
+    "positive_processes": 1,
+    "processes": 6,
+    "process_gains_pct": [
+      0.095978592488938,
+      -0.15925487277230677,
+      -0.43842359036599,
+      -0.42443536561763445,
+      -0.32862961787310174,
+      -0.14460936883350803
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "batch",
+    "metric": "host_us",
+    "candidate": "ALIAS_IDENTITY",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 6.925084418402778,
+    "control_us_per_request": 6.887250651041667,
+    "gain_pct": -0.47851979699788,
+    "ci95": [
+      -1.3658730351981863,
+      0.06415093138418437
+    ],
+    "ci_primary": [
+      -1.846644096365022,
+      0.16476828646588587
+    ],
+    "positive_processes": 2,
+    "processes": 6,
+    "process_gains_pct": [
+      0.25245839249453644,
+      -0.1567745786586336,
+      -2.6047108654504396,
+      -0.3127636163709906,
+      -0.03322575624175013,
+      0.012467202475095722
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "gpu_us",
+    "candidate": "GPC_ADDR",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 10.722888867060343,
+    "control_us_per_request": 10.742444376150766,
+    "gain_pct": 0.18387203493010093,
+    "ci95": [
+      0.06874223359372995,
+      0.3010249225950286
+    ],
+    "ci_primary": [
+      0.008432290179566159,
+      0.35730631130792584
+    ],
+    "positive_processes": 5,
+    "processes": 6,
+    "process_gains_pct": [
+      0.4000389353261537,
+      0.18070610457036684,
+      0.3359468202873759,
+      0.14243560740783068,
+      -0.019419515131719977,
+      0.06415917917540698
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "gpu_us",
+    "candidate": "GPC_ADDR",
+    "control": "RND03",
+    "control_role": "RANDOM_BEST",
+    "candidate_us_per_request": 10.722888867060343,
+    "control_us_per_request": 10.68355549706353,
+    "gain_pct": -0.3443256835353234,
+    "ci95": [
+      -0.6085366263897588,
+      -0.11906942370100285
+    ],
+    "ci_primary": [
+      -0.7972141273218895,
+      -0.007305110354809113
+    ],
+    "positive_processes": 1,
+    "processes": 6,
+    "process_gains_pct": [
+      -0.3876922143054515,
+      -0.03888375800345316,
+      -0.34728112233638525,
+      -0.3596984232949497,
+      -0.9536538161611107,
+      0.024283513282747495
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "gpu_us",
+    "candidate": "GPC_ADDR",
+    "control": "GPC_WRONG",
+    "control_role": "GPC_WRONG",
+    "candidate_us_per_request": 10.722888867060343,
+    "control_us_per_request": 10.729777693748474,
+    "gain_pct": 0.0804878052428003,
+    "ci95": [
+      -0.10215986118408382,
+      0.2624226985234563
+    ],
+    "ci_primary": [
+      -0.19791514689681022,
+      0.36216437023272857
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      -0.01341152512257954,
+      0.2715211488136181,
+      0.07861996142705054,
+      0.43744867142405375,
+      -0.29003924541913756,
+      0.00036877248928934587
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "gpu_us",
+    "candidate": "GPC_ADDR",
+    "control": "GPC_POOL",
+    "control_role": "GPC_POOL",
+    "candidate_us_per_request": 10.722888867060343,
+    "control_us_per_request": 10.745999932289124,
+    "gain_pct": 0.2191559280440593,
+    "ci95": [
+      -0.24345297754097958,
+      0.9480388868165114
+    ],
+    "ci_primary": [
+      -0.3585651983888721,
+      1.3469862241276247
+    ],
+    "positive_processes": 3,
+    "processes": 6,
+    "process_gains_pct": [
+      0.012609268369649618,
+      -0.012829426996031863,
+      -0.3210464427938605,
+      2.0016162842147964,
+      -0.39606983207578605,
+      0.050303073700923316
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "gpu_us",
+    "candidate": "ALL_ADDR",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 10.66822224855423,
+    "control_us_per_request": 10.742444376150766,
+    "gain_pct": 0.6707907715302787,
+    "ci95": [
+      0.3489937849414712,
+      0.9478716166131625
+    ],
+    "ci_primary": [
+      0.12957293143522686,
+      1.0708240741087869
+    ],
+    "positive_processes": 5,
+    "processes": 6,
+    "process_gains_pct": [
+      0.81690679955717,
+      0.49340738602957346,
+      0.8807124442940554,
+      -0.05185002651281993,
+      1.1660141977224936,
+      0.7238689853681977
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "gpu_us",
+    "candidate": "ALL_ADDR",
+    "control": "RND03",
+    "control_role": "RANDOM_BEST",
+    "candidate_us_per_request": 10.66822224855423,
+    "control_us_per_request": 10.68355549706353,
+    "gain_pct": 0.1400258797212199,
+    "ci95": [
+      -0.18031581521399462,
+      0.41938228944586026
+    ],
+    "ci_primary": [
+      -0.3604115131545217,
+      0.5466778429982037
+    ],
+    "positive_processes": 5,
+    "processes": 6,
+    "process_gains_pct": [
+      0.025904936035236536,
+      0.27313210174041536,
+      0.1937749727497295,
+      -0.553009870519653,
+      0.22070301725537395,
+      0.6837304244686394
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "gpu_us",
+    "candidate": "ALL_ADDR",
+    "control": "ALL_WRONG",
+    "control_role": "ALL_WRONG",
+    "candidate_us_per_request": 10.66822224855423,
+    "control_us_per_request": 10.703111112117767,
+    "gain_pct": 0.3242859615239996,
+    "ci95": [
+      0.030030588324487965,
+      0.6595630692453933
+    ],
+    "ci_primary": [
+      -0.10966157833668809,
+      0.8548650015981627
+    ],
+    "positive_processes": 5,
+    "processes": 6,
+    "process_gains_pct": [
+      0.3454229501491432,
+      0.2341428394992045,
+      0.077628955207194,
+      -0.22114486530340674,
+      0.4496260526574957,
+      1.0646712163531926
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "gpu_us",
+    "candidate": "ALL_ADDR",
+    "control": "ALL_POOL",
+    "control_role": "ALL_POOL",
+    "candidate_us_per_request": 10.66822224855423,
+    "control_us_per_request": 10.665777722994486,
+    "gain_pct": -0.013025758790883692,
+    "ci95": [
+      -0.18765597762966066,
+      0.1528873628194138
+    ],
+    "ci_primary": [
+      -0.29680713435662626,
+      0.21937502874600262
+    ],
+    "positive_processes": 3,
+    "processes": 6,
+    "process_gains_pct": [
+      0.14299790658196707,
+      0.14317993560117365,
+      -0.026841179129074445,
+      -0.32374862612914324,
+      -0.2698583605688957,
+      0.2575398720340297
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "gpu_us",
+    "candidate": "SAME_GPC",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 10.749333288934496,
+    "control_us_per_request": 10.742444376150766,
+    "gain_pct": -0.08113742773331478,
+    "ci95": [
+      -0.6260065904820619,
+      0.3318760423377478
+    ],
+    "ci_primary": [
+      -1.0482471339256072,
+      0.4382167753705729
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      0.16992336165283253,
+      -0.30920564603532047,
+      0.3876906744075198,
+      0.14051464798818153,
+      0.48876830661159515,
+      -1.3528175244187999
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "gpu_us",
+    "candidate": "CROSS_GPC",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 10.7371110452546,
+    "control_us_per_request": 10.742444376150766,
+    "gain_pct": 0.014954057077259006,
+    "ci95": [
+      -0.4821308594211778,
+      0.637293996335142
+    ],
+    "ci_primary": [
+      -0.7318519343293074,
+      1.0493513096771385
+    ],
+    "positive_processes": 3,
+    "processes": 6,
+    "process_gains_pct": [
+      0.025584357618048982,
+      -0.3602161174093588,
+      0.11576063521104188,
+      -0.14298541334668638,
+      1.383258189136489,
+      -0.9171497223955452
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "gpu_us",
+    "candidate": "ALIAS_IDENTITY",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 10.744444396760729,
+    "control_us_per_request": 10.742444376150766,
+    "gain_pct": -0.003326122144638616,
+    "ci95": [
+      -0.1927901609592431,
+      0.13759922132264477
+    ],
+    "ci_primary": [
+      -0.33705498298166275,
+      0.16842791992004244
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      0.19464055365586388,
+      -0.08937012003106351,
+      0.09043305948509354,
+      0.07657210407682062,
+      -0.43251504818044234,
+      0.14161993051500774
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "host_us",
+    "candidate": "GPC_ADDR",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 15.35186111111111,
+    "control_us_per_request": 15.427333333333333,
+    "gain_pct": 0.47916531673704327,
+    "ci95": [
+      0.07284516354053876,
+      0.8995056740484255
+    ],
+    "ci_primary": [
+      -0.10679410504930366,
+      1.1895813133237085
+    ],
+    "positive_processes": 5,
+    "processes": 6,
+    "process_gains_pct": [
+      1.1338494331351976,
+      0.3110851433994974,
+      -0.2774503160066881,
+      0.26659269166828875,
+      0.2042069229649468,
+      1.245343905706868
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "host_us",
+    "candidate": "GPC_ADDR",
+    "control": "RND03",
+    "control_role": "RANDOM_BEST",
+    "candidate_us_per_request": 15.35186111111111,
+    "control_us_per_request": 15.398479166666668,
+    "gain_pct": 0.2708078300737706,
+    "ci95": [
+      -0.5676055902330828,
+      1.4246039399270725
+    ],
+    "ci_primary": [
+      -0.7823310749597399,
+      2.199537196162806
+    ],
+    "positive_processes": 2,
+    "processes": 6,
+    "process_gains_pct": [
+      -0.13675949744067462,
+      0.5969502423318305,
+      -0.8834685555385087,
+      3.010379320781535,
+      -0.6810903947448581,
+      -0.23054749515610573
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "host_us",
+    "candidate": "GPC_ADDR",
+    "control": "GPC_WRONG",
+    "control_role": "GPC_WRONG",
+    "candidate_us_per_request": 15.35186111111111,
+    "control_us_per_request": 15.453270833333331,
+    "gain_pct": 0.671948323719637,
+    "ci95": [
+      0.21398445279642303,
+      1.2152204589062547
+    ],
+    "ci_primary": [
+      -0.005390698227075605,
+      1.546667041244454
+    ],
+    "positive_processes": 5,
+    "processes": 6,
+    "process_gains_pct": [
+      0.9309075423014497,
+      0.49106634678596095,
+      0.3194877033980711,
+      1.874185348360619,
+      -0.16743514892093891,
+      0.5952618698402393
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "host_us",
+    "candidate": "GPC_ADDR",
+    "control": "GPC_POOL",
+    "control_role": "GPC_POOL",
+    "candidate_us_per_request": 15.35186111111111,
+    "control_us_per_request": 15.539201388888891,
+    "gain_pct": 1.177835041676953,
+    "ci95": [
+      0.0008207506017285932,
+      2.6043001965172468
+    ],
+    "ci_primary": [
+      -0.43113750703063985,
+      3.463021283037833
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      2.007429797709779,
+      1.47638325774751,
+      -0.32893915949860386,
+      4.257232727883658,
+      -0.5332310648458791,
+      0.26797040738516825
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "host_us",
+    "candidate": "ALL_ADDR",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 15.341708333333331,
+    "control_us_per_request": 15.427333333333333,
+    "gain_pct": 0.5457588763546212,
+    "ci95": [
+      0.12863920792761135,
+      0.9663619408201559
+    ],
+    "ci_primary": [
+      -0.08823062148030734,
+      1.1597159915158468
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      1.1833618623743885,
+      0.804696011549703,
+      0.32346392307508753,
+      -0.16982975910458273,
+      -0.0065647863912779965,
+      1.147895128372638
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "host_us",
+    "candidate": "ALL_ADDR",
+    "control": "RND03",
+    "control_role": "RANDOM_BEST",
+    "candidate_us_per_request": 15.341708333333331,
+    "control_us_per_request": 15.398479166666668,
+    "gain_pct": 0.337263298708345,
+    "ci95": [
+      -0.46835191448245317,
+      1.352659462645262
+    ],
+    "ci_primary": [
+      -0.7025466417119568,
+      2.069638743781821
+    ],
+    "positive_processes": 2,
+    "processes": 6,
+    "process_gains_pct": [
+      -0.08786912436881714,
+      1.0919677956899174,
+      -0.2862060982295829,
+      2.562014207423546,
+      -0.8899999504583143,
+      -0.3265757250661845
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "host_us",
+    "candidate": "ALL_ADDR",
+    "control": "ALL_WRONG",
+    "control_role": "ALL_WRONG",
+    "candidate_us_per_request": 15.341708333333331,
+    "control_us_per_request": 15.504645833333333,
+    "gain_pct": 0.9329171684335903,
+    "ci95": [
+      -0.1801560507459275,
+      2.44194713659656
+    ],
+    "ci_primary": [
+      -0.4163386016075359,
+      3.6692541104567336
+    ],
+    "positive_processes": 3,
+    "processes": 6,
+    "process_gains_pct": [
+      1.4767079480871173,
+      0.5793370515586622,
+      -0.2804389715783361,
+      -0.1270396956144214,
+      -0.4842189484068014,
+      4.520523780361211
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "host_us",
+    "candidate": "ALL_ADDR",
+    "control": "ALL_POOL",
+    "control_role": "ALL_POOL",
+    "candidate_us_per_request": 15.341708333333331,
+    "control_us_per_request": 15.50577777777778,
+    "gain_pct": 0.8688426649787662,
+    "ci95": [
+      -0.18531258813052476,
+      2.5140772630809622
+    ],
+    "ci_primary": [
+      -0.38759480926294293,
+      3.450868348427263
+    ],
+    "positive_processes": 3,
+    "processes": 6,
+    "process_gains_pct": [
+      4.916843357717842,
+      0.386805425763472,
+      -0.27314412024463686,
+      0.7737329932364786,
+      -0.45833204595843846,
+      -0.03315389155586638
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "host_us",
+    "candidate": "SAME_GPC",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 15.437138888888889,
+    "control_us_per_request": 15.427333333333333,
+    "gain_pct": -0.07998198971043513,
+    "ci95": [
+      -0.5813819265334984,
+      0.33362533823163126
+    ],
+    "ci_primary": [
+      -0.9151804154291251,
+      0.49819106197155044
+    ],
+    "positive_processes": 3,
+    "processes": 6,
+    "process_gains_pct": [
+      0.3574762657706904,
+      -0.09610268395775305,
+      0.2395299857533441,
+      -0.3353135004997306,
+      0.5686224307534781,
+      -1.203847479974844
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "host_us",
+    "candidate": "CROSS_GPC",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 15.457222222222223,
+    "control_us_per_request": 15.427333333333333,
+    "gain_pct": -0.2276088927149857,
+    "ci95": [
+      -0.8395467553471373,
+      0.520395924395298
+    ],
+    "ci_primary": [
+      -1.0231546164672307,
+      1.0076159403940572
+    ],
+    "positive_processes": 2,
+    "processes": 6,
+    "process_gains_pct": [
+      0.18850983055625517,
+      -0.2489790218336464,
+      -0.6000145626860321,
+      -1.148358888310168,
+      1.409121644521575,
+      -0.944227177125345
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "fresh",
+    "metric": "host_us",
+    "candidate": "ALIAS_IDENTITY",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 15.432875,
+    "control_us_per_request": 15.427333333333333,
+    "gain_pct": -0.022137107654883692,
+    "ci95": [
+      -0.371523977731682,
+      0.3056107249298196
+    ],
+    "ci_primary": [
+      -0.5780275762648599,
+      0.4554345205036996
+    ],
+    "positive_processes": 3,
+    "processes": 6,
+    "process_gains_pct": [
+      0.5502706950748981,
+      -0.16986610974872332,
+      0.20667652366415362,
+      -0.3461724259740827,
+      -0.6937527845943562,
+      0.3254194873335874
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "gpu_us",
+    "candidate": "GPC_ADDR",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 10.127895812193552,
+    "control_us_per_request": 10.097791651884714,
+    "gain_pct": -0.2627974750222722,
+    "ci95": [
+      -1.0761649838517702,
+      0.3478722913722618
+    ],
+    "ci_primary": [
+      -1.626317148119958,
+      0.4699302308745828
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      -2.091689042188991,
+      0.11743740730770279,
+      0.5696229357655499,
+      0.28969840848199657,
+      -0.6889269130638438,
+      0.2519875240525153
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "gpu_us",
+    "candidate": "GPC_ADDR",
+    "control": "RND03",
+    "control_role": "RANDOM_BEST",
+    "candidate_us_per_request": 10.127895812193552,
+    "control_us_per_request": 10.151583340432909,
+    "gain_pct": 0.23747403491444888,
+    "ci95": [
+      -0.08653160799974274,
+      0.5379674694916147
+    ],
+    "ci_primary": [
+      -0.2458739121172982,
+      0.6617791643890549
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      0.1766594225760423,
+      -0.11256757290242865,
+      0.5657095127837946,
+      0.7422710268350552,
+      -0.37900234526687937,
+      0.43630878830835335
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "gpu_us",
+    "candidate": "GPC_ADDR",
+    "control": "GPC_WRONG",
+    "control_role": "GPC_WRONG",
+    "candidate_us_per_request": 10.127895812193552,
+    "control_us_per_request": 10.112993001937866,
+    "gain_pct": -0.14842305168408904,
+    "ci95": [
+      -0.5028348736450289,
+      0.10587271367469675
+    ],
+    "ci_primary": [
+      -0.7667743332839407,
+      0.1881363359712753
+    ],
+    "positive_processes": 2,
+    "processes": 6,
+    "process_gains_pct": [
+      0.13768921004638737,
+      -0.15368421499251098,
+      -0.024886274861210967,
+      -0.12835230423890853,
+      -0.9553992429105111,
+      0.2386088760287855
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "gpu_us",
+    "candidate": "GPC_ADDR",
+    "control": "GPC_POOL",
+    "control_role": "GPC_POOL",
+    "candidate_us_per_request": 10.127895812193552,
+    "control_us_per_request": 10.131340285142263,
+    "gain_pct": 0.03738223280020181,
+    "ci95": [
+      -0.1474316149211636,
+      0.2582008837769716
+    ],
+    "ci_primary": [
+      -0.2159651366935974,
+      0.3765657256184947
+    ],
+    "positive_processes": 3,
+    "processes": 6,
+    "process_gains_pct": [
+      0.10181507191256471,
+      -0.21490698423271945,
+      0.182337699549121,
+      -0.12001802494902265,
+      -0.21702327793349435,
+      0.4940202783345082
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "gpu_us",
+    "candidate": "ALL_ADDR",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 10.138687464925978,
+    "control_us_per_request": 10.097791651884714,
+    "gain_pct": -0.30955309421531124,
+    "ci95": [
+      -1.1748991979926933,
+      0.5332768916315095
+    ],
+    "ci_primary": [
+      -1.8509071076800572,
+      0.6920200120685154
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      -1.9872505182552938,
+      -1.7143740327427295,
+      0.28135491666208734,
+      0.6595946899367046,
+      0.2163029243015732,
+      0.7244557793200247
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "gpu_us",
+    "candidate": "ALL_ADDR",
+    "control": "RND03",
+    "control_role": "RANDOM_BEST",
+    "candidate_us_per_request": 10.138687464925978,
+    "control_us_per_request": 10.151583340432909,
+    "gain_pct": 0.19048389436308558,
+    "ci95": [
+      -0.7316355748787999,
+      0.8210205193165591
+    ],
+    "ci_primary": [
+      -1.4376516964083186,
+      1.011689522633941
+    ],
+    "positive_processes": 5,
+    "processes": 6,
+    "process_gains_pct": [
+      0.28351758753010126,
+      -1.940170697549183,
+      0.2774527109312033,
+      1.1138365218906974,
+      0.529052483888292,
+      0.9096457140958448
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "gpu_us",
+    "candidate": "ALL_ADDR",
+    "control": "ALL_WRONG",
+    "control_role": "ALL_WRONG",
+    "candidate_us_per_request": 10.138687464925978,
+    "control_us_per_request": 10.130597174167633,
+    "gain_pct": -0.01798464456996193,
+    "ci95": [
+      -1.1738244611256676,
+      0.890469175470645
+    ],
+    "ci_primary": [
+      -1.9457107655205037,
+      1.2416988150712212
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      0.3182547981731689,
+      -2.6010425412012053,
+      -0.32298827599952035,
+      1.0859538611429842,
+      0.06522724657602078,
+      1.3976837280614995
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "gpu_us",
+    "candidate": "ALL_ADDR",
+    "control": "ALL_POOL",
+    "control_role": "ALL_POOL",
+    "candidate_us_per_request": 10.138687464925978,
+    "control_us_per_request": 10.123361110687256,
+    "gain_pct": -0.08782263518011327,
+    "ci95": [
+      -1.0742142953002582,
+      0.5075668916830565
+    ],
+    "ci_primary": [
+      -1.9625759879755784,
+      0.6194198838682046
+    ],
+    "positive_processes": 5,
+    "processes": 6,
+    "process_gains_pct": [
+      0.1660516896897208,
+      -2.4648746220845714,
+      0.25527651780863553,
+      0.31319942862193206,
+      0.6508629315265709,
+      0.5879866589298552
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "gpu_us",
+    "candidate": "SAME_GPC",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 10.140229099326664,
+    "control_us_per_request": 10.097791651884714,
+    "gain_pct": -0.3895111915369308,
+    "ci95": [
+      -1.2383194704483342,
+      0.2570890464013114
+    ],
+    "ci_primary": [
+      -1.7469005354644278,
+      0.4649694125855015
+    ],
+    "positive_processes": 3,
+    "processes": 6,
+    "process_gains_pct": [
+      -2.3056196908391104,
+      0.5204610848696377,
+      0.40950837412118324,
+      0.07168985388702398,
+      -0.6198579201445102,
+      -0.385929787385504
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "gpu_us",
+    "candidate": "CROSS_GPC",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 10.16460418038898,
+    "control_us_per_request": 10.097791651884714,
+    "gain_pct": -0.6211439769669621,
+    "ci95": [
+      -1.443491954537669,
+      -0.036162955281120464
+    ],
+    "ci_primary": [
+      -1.9905091008543725,
+      0.07021512749603494
+    ],
+    "positive_processes": 1,
+    "processes": 6,
+    "process_gains_pct": [
+      -2.57449271040826,
+      0.1176147745689642,
+      -0.019621148972712645,
+      -0.37012682195883445,
+      -0.812019434134647,
+      -0.04203982537202423
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "gpu_us",
+    "candidate": "ALIAS_IDENTITY",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 10.132110999690163,
+    "control_us_per_request": 10.097791651884714,
+    "gain_pct": -0.3044642606244567,
+    "ci95": [
+      -1.181977779105873,
+      0.3178088256761745
+    ],
+    "ci_primary": [
+      -1.637227367870735,
+      0.5018398001840961
+    ],
+    "positive_processes": 2,
+    "processes": 6,
+    "process_gains_pct": [
+      -2.361396298653252,
+      -0.09520045343084757,
+      0.37766514745609037,
+      0.6261680662120075,
+      -0.09907501643138496,
+      -0.24634378263418216
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "host_us",
+    "candidate": "GPC_ADDR",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 10.291721788194444,
+    "control_us_per_request": 10.256214626736112,
+    "gain_pct": -0.31399607702703963,
+    "ci95": [
+      -1.1298012482185018,
+      0.28157284844149527
+    ],
+    "ci_primary": [
+      -1.6660479402946367,
+      0.38698554728807927
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      -2.1505334790087742,
+      0.16938902683965806,
+      0.48129997957840576,
+      0.2278638599826343,
+      -0.6898684339898201,
+      0.1023695278489143
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "host_us",
+    "candidate": "GPC_ADDR",
+    "control": "RND03",
+    "control_role": "RANDOM_BEST",
+    "candidate_us_per_request": 10.291721788194444,
+    "control_us_per_request": 10.308318576388888,
+    "gain_pct": 0.16185095550806555,
+    "ci95": [
+      -0.17758559058406453,
+      0.47593365888870826
+    ],
+    "ci_primary": [
+      -0.3498170320014992,
+      0.6320031446582315
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      0.11652757542215922,
+      -0.24160913239719378,
+      0.43680972378336524,
+      0.7445462843750127,
+      -0.457907558526358,
+      0.37778674080298036
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "host_us",
+    "candidate": "GPC_ADDR",
+    "control": "GPC_WRONG",
+    "control_role": "GPC_WRONG",
+    "candidate_us_per_request": 10.291721788194444,
+    "control_us_per_request": 10.271701605902777,
+    "gain_pct": -0.19668408274598712,
+    "ci95": [
+      -0.5499588838444195,
+      0.05840247959483906
+    ],
+    "ci_primary": [
+      -0.8340473604713106,
+      0.13789882162901854
+    ],
+    "positive_processes": 2,
+    "processes": 6,
+    "process_gains_pct": [
+      0.18312518188523572,
+      -0.20508459217809857,
+      -0.1344035359346855,
+      -0.11150045930614684,
+      -1.0228324971712097,
+      0.11529329839515103
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "host_us",
+    "candidate": "GPC_ADDR",
+    "control": "GPC_POOL",
+    "control_role": "GPC_POOL",
+    "candidate_us_per_request": 10.291721788194444,
+    "control_us_per_request": 10.290024305555555,
+    "gain_pct": -0.015123710849692875,
+    "ci95": [
+      -0.21183693510670493,
+      0.22869125527521408
+    ],
+    "ci_primary": [
+      -0.3010579471125512,
+      0.3849750235891504
+    ],
+    "positive_processes": 3,
+    "processes": 6,
+    "process_gains_pct": [
+      0.05692402250333756,
+      -0.3025696392403532,
+      0.04861449276582107,
+      -0.11485827593385439,
+      -0.29954623206326486,
+      0.5230518957861362
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "host_us",
+    "candidate": "ALL_ADDR",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 10.295958333333333,
+    "control_us_per_request": 10.256214626736112,
+    "gain_pct": -0.2946768922187223,
+    "ci95": [
+      -1.179181815874756,
+      0.5100074904701729
+    ],
+    "ci_primary": [
+      -1.7619799791253623,
+      0.6590622300566793
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      -1.9961402127125532,
+      -1.5272602674205478,
+      0.2629987127556318,
+      0.6549515951128267,
+      0.20846743887181973,
+      0.6631730328742367
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "host_us",
+    "candidate": "ALL_ADDR",
+    "control": "RND03",
+    "control_role": "RANDOM_BEST",
+    "candidate_us_per_request": 10.295958333333333,
+    "control_us_per_request": 10.308318576388888,
+    "gain_pct": 0.181262359649092,
+    "ci95": [
+      -0.7251224372333,
+      0.8342916961469231
+    ],
+    "ci_primary": [
+      -1.42047327456141,
+      1.0515821190715724
+    ],
+    "positive_processes": 5,
+    "processes": 6,
+    "process_gains_pct": [
+      0.27449795842153024,
+      -1.931297021146332,
+      0.21860511453969897,
+      1.173835689958083,
+      0.44252657734474077,
+      0.9401332156810385
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "host_us",
+    "candidate": "ALL_ADDR",
+    "control": "ALL_WRONG",
+    "control_role": "ALL_WRONG",
+    "candidate_us_per_request": 10.295958333333333,
+    "control_us_per_request": 10.291856119791667,
+    "gain_pct": 0.018448755984560635,
+    "ci95": [
+      -1.1144331659914224,
+      0.9408503994192937
+    ],
+    "ci_primary": [
+      -1.8961672181318552,
+      1.3432937883520384
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      0.2945314053555438,
+      -2.542404004570626,
+      -0.3610311347414179,
+      1.2867538045938096,
+      0.08488261365134032,
+      1.3998653336880975
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "host_us",
+    "candidate": "ALL_ADDR",
+    "control": "ALL_POOL",
+    "control_role": "ALL_POOL",
+    "candidate_us_per_request": 10.295958333333333,
+    "control_us_per_request": 10.281891276041668,
+    "gain_pct": -0.07492692946806048,
+    "ci95": [
+      -0.9786698159920554,
+      0.4771415933514967
+    ],
+    "ci_primary": [
+      -1.771032395546511,
+      0.5818284508424704
+    ],
+    "positive_processes": 5,
+    "processes": 6,
+    "process_gains_pct": [
+      0.11124684381338162,
+      -2.2313992730902985,
+      0.19613920880050356,
+      0.3401017521636656,
+      0.6001371562010076,
+      0.5635230775737432
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "host_us",
+    "candidate": "SAME_GPC",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 10.303133897569445,
+    "control_us_per_request": 10.256214626736112,
+    "gain_pct": -0.42873144029050214,
+    "ci95": [
+      -1.3067261811598803,
+      0.25564980212412247
+    ],
+    "ci_primary": [
+      -1.8659310010885266,
+      0.4923660443330067
+    ],
+    "positive_processes": 3,
+    "processes": 6,
+    "process_gains_pct": [
+      -2.45548006739771,
+      0.6533983522991721,
+      0.2944723581915656,
+      0.04782728307596754,
+      -0.6761218108791158,
+      -0.40567450696075763
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "host_us",
+    "candidate": "CROSS_GPC",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 10.320885416666666,
+    "control_us_per_request": 10.256214626736112,
+    "gain_pct": -0.5900329245046372,
+    "ci95": [
+      -1.4266409893262813,
+      0.017862363798260224
+    ],
+    "ci_primary": [
+      -1.9384045934813978,
+      0.20343720616883823
+    ],
+    "positive_processes": 2,
+    "processes": 6,
+    "process_gains_pct": [
+      -2.527924974496987,
+      0.30334902926102086,
+      0.026345832752171828,
+      -0.49043539976118694,
+      -0.7486458411026804,
+      -0.07635588871324368
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "freshbatch",
+    "metric": "host_us",
+    "candidate": "ALIAS_IDENTITY",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 10.29600217013889,
+    "control_us_per_request": 10.256214626736112,
+    "gain_pct": -0.3537787544606777,
+    "ci95": [
+      -1.2467833855647326,
+      0.2976945376052784
+    ],
+    "ci_primary": [
+      -1.7314149845531264,
+      0.5129534960232326
+    ],
+    "positive_processes": 2,
+    "processes": 6,
+    "process_gains_pct": [
+      -2.4447560828797874,
+      -0.09560884736444354,
+      0.41946747391940764,
+      0.6065265494223694,
+      -0.22517054885138268,
+      -0.35288139857601547
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "gpu_us",
+    "candidate": "GPC_ADDR",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 7.708444383409288,
+    "control_us_per_request": 7.735333250628577,
+    "gain_pct": 0.3549234934936462,
+    "ci95": [
+      -0.028455985360499845,
+      0.7779984130065358
+    ],
+    "ci_primary": [
+      -0.24132689256366083,
+      1.0228955507193447
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      1.2609066888812577,
+      0.2622251833362025,
+      0.5618428489797376,
+      -0.2532304349586489,
+      -0.22942192962821661,
+      0.5352594610600216
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "gpu_us",
+    "candidate": "GPC_ADDR",
+    "control": "RND05",
+    "control_role": "RANDOM_BEST",
+    "candidate_us_per_request": 7.708444383409288,
+    "control_us_per_request": 7.758666621314155,
+    "gain_pct": 0.6417263121050936,
+    "ci95": [
+      -0.282315071485209,
+      1.5371948502584627
+    ],
+    "ci_primary": [
+      -0.9834617522957525,
+      1.7423743301750165
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      1.6469541574648958,
+      1.0733431273840643,
+      1.3007406713892968,
+      -1.043737216152167,
+      -0.9231495739208135,
+      1.8378840777222338
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "gpu_us",
+    "candidate": "GPC_ADDR",
+    "control": "GPC_WRONG",
+    "control_role": "GPC_WRONG",
+    "candidate_us_per_request": 7.708444383409288,
+    "control_us_per_request": 7.742666612068812,
+    "gain_pct": 0.4031081855456247,
+    "ci95": [
+      -0.3114947982166435,
+      1.2014131887009898
+    ],
+    "ci_primary": [
+      -0.6996763159413303,
+      1.675378889375824
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      0.8852345870644265,
+      2.072768706631108,
+      0.028684393683215917,
+      -0.32288684066277085,
+      -0.8875366033635294,
+      0.6693264475943231
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "gpu_us",
+    "candidate": "GPC_ADDR",
+    "control": "GPC_POOL",
+    "control_role": "GPC_POOL",
+    "candidate_us_per_request": 7.708444383409288,
+    "control_us_per_request": 7.704666591352886,
+    "gain_pct": -0.05077950614361971,
+    "ci95": [
+      -0.6706003680467137,
+      0.5677931221492798
+    ],
+    "ci_primary": [
+      -0.9883414061784319,
+      0.8521095154340059
+    ],
+    "positive_processes": 3,
+    "processes": 6,
+    "process_gains_pct": [
+      0.98257680041079,
+      -0.47476261612948306,
+      0.6351374755735134,
+      -0.9214989404576654,
+      -1.0551387771997842,
+      0.5482421111149145
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "gpu_us",
+    "candidate": "ALL_ADDR",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 7.6626666519376965,
+    "control_us_per_request": 7.735333250628577,
+    "gain_pct": 0.9600756098064834,
+    "ci95": [
+      0.5849932790708786,
+      1.3394711656390823
+    ],
+    "ci_primary": [
+      0.3902496845613352,
+      1.5386282859369609
+    ],
+    "positive_processes": 6,
+    "processes": 6,
+    "process_gains_pct": [
+      1.5250140521326199,
+      0.29941568918826833,
+      1.246826920069456,
+      0.5885669666963708,
+      1.5522443453737715,
+      0.5557647786250439
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "gpu_us",
+    "candidate": "ALL_ADDR",
+    "control": "RND05",
+    "control_role": "RANDOM_BEST",
+    "candidate_us_per_request": 7.6626666519376965,
+    "control_us_per_request": 7.758666621314155,
+    "gain_pct": 1.2486078835020011,
+    "ci95": [
+      0.5723862503228487,
+      1.7953836830574328
+    ],
+    "ci_primary": [
+      0.1417458233002522,
+      1.9556125026862339
+    ],
+    "positive_processes": 5,
+    "processes": 6,
+    "process_gains_pct": [
+      1.9120684046396903,
+      1.1108345031459044,
+      1.9907577970072015,
+      -0.20861117395370785,
+      0.8461283680497579,
+      1.8586550804963666
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "gpu_us",
+    "candidate": "ALL_ADDR",
+    "control": "ALL_WRONG",
+    "control_role": "ALL_WRONG",
+    "candidate_us_per_request": 7.6626666519376965,
+    "control_us_per_request": 7.697999984025955,
+    "gain_pct": 0.45377044555941065,
+    "ci95": [
+      -0.04016288910191105,
+      0.9721299756216412
+    ],
+    "ci_primary": [
+      -0.26680121413485786,
+      1.2661504097680967
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      1.1781343859784539,
+      0.5613786108418798,
+      -0.34305332462212573,
+      -0.19049075965303935,
+      0.17471979848890914,
+      1.3542429997100094
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "gpu_us",
+    "candidate": "ALL_ADDR",
+    "control": "ALL_POOL",
+    "control_role": "ALL_POOL",
+    "candidate_us_per_request": 7.6626666519376965,
+    "control_us_per_request": 7.649999952978558,
+    "gain_pct": -0.19963568632177364,
+    "ci95": [
+      -0.6933290756144346,
+      0.3257894935054868
+    ],
+    "ci_primary": [
+      -0.9225516434345559,
+      0.6676872719635681
+    ],
+    "positive_processes": 2,
+    "processes": 6,
+    "process_gains_pct": [
+      -0.2516881260581409,
+      -0.2982344761050729,
+      -0.458537450048095,
+      -1.1711123807959412,
+      0.9223108348150861,
+      0.07123184106518686
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "gpu_us",
+    "candidate": "SAME_GPC",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 7.720444411039352,
+    "control_us_per_request": 7.735333250628577,
+    "gain_pct": 0.19125968086855522,
+    "ci95": [
+      -0.08839644448234246,
+      0.46472400201361164
+    ],
+    "ci_primary": [
+      -0.21529399006008937,
+      0.6104637863990662
+    ],
+    "positive_processes": 3,
+    "processes": 6,
+    "process_gains_pct": [
+      -0.28027991597012997,
+      0.6301032298758484,
+      -0.036039364182626245,
+      0.590828175848294,
+      0.38110661365353893,
+      -0.13432658313199294
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "gpu_us",
+    "candidate": "CROSS_GPC",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 7.746888829602136,
+    "control_us_per_request": 7.735333250628577,
+    "gain_pct": -0.14221979315849342,
+    "ci95": [
+      -0.5831413746723106,
+      0.31824980814416554
+    ],
+    "ci_primary": [
+      -0.6933739121939577,
+      0.676144130180559
+    ],
+    "positive_processes": 2,
+    "processes": 6,
+    "process_gains_pct": [
+      -0.5129099531697099,
+      -0.5217018488022076,
+      -0.3792857064693635,
+      0.6187413901052686,
+      0.7335796183753609,
+      -0.7812909805867453
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "gpu_us",
+    "candidate": "ALIAS_IDENTITY",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 7.763555549912983,
+    "control_us_per_request": 7.735333250628577,
+    "gain_pct": -0.362777678411384,
+    "ci95": [
+      -0.8689796113637858,
+      0.1403049852701051
+    ],
+    "ci_primary": [
+      -1.1182344098412331,
+      0.4432884384521827
+    ],
+    "positive_processes": 1,
+    "processes": 6,
+    "process_gains_pct": [
+      -0.2473406583882725,
+      -0.621639522661597,
+      -0.6144421400950809,
+      0.6984095688304877,
+      -0.014029865533803554,
+      -1.3656005179425568
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "host_us",
+    "candidate": "GPC_ADDR",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 12.256777777777778,
+    "control_us_per_request": 12.438972222222223,
+    "gain_pct": 1.1944902348931918,
+    "ci95": [
+      -0.17873267078585395,
+      2.7219005415924244
+    ],
+    "ci_primary": [
+      -0.9418841742214648,
+      3.6497964977187345
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      -0.13854536265319234,
+      1.8571426897438614,
+      4.557920228788686,
+      1.0457591218063373,
+      -1.3411268887076597,
+      1.283953986995368
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "host_us",
+    "candidate": "GPC_ADDR",
+    "control": "RND05",
+    "control_role": "RANDOM_BEST",
+    "candidate_us_per_request": 12.256777777777778,
+    "control_us_per_request": 12.493652777777775,
+    "gain_pct": 1.5681646692544422,
+    "ci95": [
+      -0.08255414583004948,
+      3.4891487767076796
+    ],
+    "ci_primary": [
+      -0.46435422861278874,
+      4.710171550652774
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      -0.04388690687436737,
+      0.4734543716015142,
+      5.401780817620411,
+      4.023100379478635,
+      -0.6739241597730047,
+      0.3792428153663419
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "host_us",
+    "candidate": "GPC_ADDR",
+    "control": "GPC_WRONG",
+    "control_role": "GPC_WRONG",
+    "candidate_us_per_request": 12.256777777777778,
+    "control_us_per_request": 12.230722222222223,
+    "gain_pct": -0.19668804775328932,
+    "ci95": [
+      -1.02028340469421,
+      0.5700158526082119
+    ],
+    "ci_primary": [
+      -1.4841983661144162,
+      0.8069844199246677
+    ],
+    "positive_processes": 3,
+    "processes": 6,
+    "process_gains_pct": [
+      -0.2534701504332823,
+      0.8789173075358685,
+      0.7285933601294498,
+      -1.8009152779379347,
+      -1.1664599620588783,
+      0.46318729016300564
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "host_us",
+    "candidate": "GPC_ADDR",
+    "control": "GPC_POOL",
+    "control_role": "GPC_POOL",
+    "candidate_us_per_request": 12.256777777777778,
+    "control_us_per_request": 12.236923611111113,
+    "gain_pct": -0.1660603523008533,
+    "ci95": [
+      -0.9769032005282097,
+      0.6514220188839892
+    ],
+    "ci_primary": [
+      -1.4053812020135394,
+      1.0365081794844955
+    ],
+    "positive_processes": 3,
+    "processes": 6,
+    "process_gains_pct": [
+      -0.2953907876755592,
+      0.817774353342226,
+      1.255716569631036,
+      -1.4374291853768457,
+      -1.3733227981302611,
+      0.06701391777529724
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "host_us",
+    "candidate": "ALL_ADDR",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 12.2578125,
+    "control_us_per_request": 12.438972222222223,
+    "gain_pct": 1.28853928471952,
+    "ci95": [
+      0.24440366715871203,
+      2.412947608610055
+    ],
+    "ci_primary": [
+      -0.31058863199036607,
+      3.0161464156247013
+    ],
+    "positive_processes": 5,
+    "processes": 6,
+    "process_gains_pct": [
+      0.6041471820427479,
+      1.4205107358428397,
+      3.3006541090509094,
+      -0.728882331595595,
+      0.45849322159901656,
+      2.732422305113015
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "host_us",
+    "candidate": "ALL_ADDR",
+    "control": "RND05",
+    "control_role": "RANDOM_BEST",
+    "candidate_us_per_request": 12.2578125,
+    "control_us_per_request": 12.493652777777775,
+    "gain_pct": 1.6625610080034645,
+    "ci95": [
+      0.7274855714821177,
+      2.774128132206171
+    ],
+    "ci_primary": [
+      0.3338050081707336,
+      3.465358952339272
+    ],
+    "positive_processes": 6,
+    "processes": 6,
+    "process_gains_pct": [
+      0.6995096344702842,
+      0.04275388718791752,
+      4.134367620303063,
+      2.196168624507296,
+      1.1378662846432863,
+      1.8147728010278898
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "host_us",
+    "candidate": "ALL_ADDR",
+    "control": "ALL_WRONG",
+    "control_role": "ALL_WRONG",
+    "candidate_us_per_request": 12.2578125,
+    "control_us_per_request": 12.183305555555556,
+    "gain_pct": -0.5020588918206238,
+    "ci95": [
+      -2.4059055653116665,
+      1.4260286818897505
+    ],
+    "ci_primary": [
+      -3.5587535922846345,
+      2.5480132582451827
+    ],
+    "positive_processes": 2,
+    "processes": 6,
+    "process_gains_pct": [
+      1.2479404004906032,
+      -1.0241124534787571,
+      -1.6613382280443938,
+      -4.493688027687305,
+      -0.18271037886673933,
+      3.2777624131310885
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "host_us",
+    "candidate": "ALL_ADDR",
+    "control": "ALL_POOL",
+    "control_role": "ALL_POOL",
+    "candidate_us_per_request": 12.2578125,
+    "control_us_per_request": 12.228368055555556,
+    "gain_pct": -0.1902014375503748,
+    "ci95": [
+      -2.0250265787166892,
+      1.4066158121632408
+    ],
+    "ci_primary": [
+      -3.205095669393171,
+      2.140180986229761
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      0.1360709802678112,
+      -1.2611619489487327,
+      0.24076403076715605,
+      -4.162663293333404,
+      2.5243616813307646,
+      1.5206376258572412
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "host_us",
+    "candidate": "SAME_GPC",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 12.212819444444444,
+    "control_us_per_request": 12.438972222222223,
+    "gain_pct": 1.5150355971999663,
+    "ci95": [
+      0.2242913017117939,
+      2.7192802362062167
+    ],
+    "ci_primary": [
+      -0.49860937811928946,
+      3.084635464784376
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      -0.19863225294499026,
+      2.409482986140021,
+      2.9950981736590334,
+      3.1742505938519536,
+      -0.79768484956219,
+      1.5771150487885095
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "host_us",
+    "candidate": "CROSS_GPC",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 12.450458333333332,
+    "control_us_per_request": 12.438972222222223,
+    "gain_pct": -0.1985806748539362,
+    "ci95": [
+      -1.0554387983979887,
+      0.8199948843565616
+    ],
+    "ci_primary": [
+      -1.3897692513861861,
+      1.5189958155793115
+    ],
+    "positive_processes": 2,
+    "processes": 6,
+    "process_gains_pct": [
+      -0.37833271205275276,
+      -1.1936565093575244,
+      2.0703985033206713,
+      -1.5854927450505496,
+      -0.49522856753988337,
+      0.43355444502478324
+    ]
+  },
+  {
+    "V": 131072,
+    "page": 17,
+    "scope": "ready",
+    "metric": "host_us",
+    "candidate": "ALIAS_IDENTITY",
+    "control": "IDENTITY",
+    "control_role": "IDENTITY",
+    "candidate_us_per_request": 12.219256944444446,
+    "control_us_per_request": 12.438972222222223,
+    "gain_pct": 1.470336838966749,
+    "ci95": [
+      0.5380275650550972,
+      2.400515922016216
+    ],
+    "ci_primary": [
+      -0.19751960605740035,
+      2.5723871789275403
+    ],
+    "positive_processes": 4,
+    "processes": 6,
+    "process_gains_pct": [
+      -0.1667780471481039,
+      2.4175362454808473,
+      2.5383833939028495,
+      2.6064022402895177,
+      -0.2282516987446749,
+      1.6990022412001773
+    ]
+  }
+]

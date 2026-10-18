@@ -1,0 +1,14 @@
+"""Equivalent power-of-two address arithmetic, separate cubin; original immutable."""
+import sys,subprocess,shutil,time
+from common import *
+sys.path.insert(0,'/home/ubuntu/projects/leetgpu-lab');from lgjudge import cudabuild as cb
+r=runroot();d=r/'compiled/fine_shift';d.mkdir(exist_ok=True);source=(ROOT/'src/probe.cu').read_text();old='return ((offset/window)*64+region)*window+offset%window;';new='unsigned shift=__ffs(window)-1;return (((offset>>shift)*64+region)<<shift)+(offset&(window-1));';assert source.count(old)==1;source=source.replace(old,new);(d/'probe_shift.cu').write_text(source);shutil.copy2(ROOT/'src/probe_types.hpp',d/'probe_types.hpp')
+# Mathematical equivalence across every supported power-of-two granule boundary.
+for w in [32,1024,16384,524288]:
+ for reg in range(64):
+  for k in list(range(1024))+[w-1,w,w+1,2*w-1,2*w,3*w+11,2**24-1]:
+   assert ((k//w)*64+reg)*w+k%w==(((k>>(w.bit_length()-1))*64+reg)<<(w.bit_length()-1))+(k&(w-1))
+cmd=[str(cb.find_nvcc()),'-O3','-std=c++17','-arch=sm_75',f'-ccbin={cb.find_host_compiler()}',*[f'-I{x}' for x in cb.include_dirs()],'--ptxas-options=-v','--cubin',str(d/'probe_shift.cu'),'-o',str(d/'probe_shift.cubin')];t=time.monotonic();p=subprocess.run(cmd,env=cb._subprocess_env(),capture_output=True,text=True);(d/'build.log').write_text(p.stdout+p.stderr);p.check_returncode();sass=subprocess.check_output(['/home/ubuntu/projects/leetgpu-lab/cuda/usr/bin/cuobjdump','--dump-sass',str(d/'probe_shift.cubin')],text=True);(d/'probe_shift.sass.txt').write_text(sass);assert 'MUFU.RCP' not in sass
+write(d/'build.json',dict(created_at=utc(),command=cmd,compile_s=time.monotonic()-t,source_sha256=sha(d/'probe_shift.cu'),binary_sha256=sha(d/'probe_shift.cubin'),source_base_sha256=sha(ROOT/'src/probe.cu'),change='Only division/modulo by runtime power-of-two window replaced by exact shift/mask; same loads, reductions, outputs, ABI, launch shapes',sass_reciprocal_instructions=0,role='P3 supplementary probe only; original P1 and renderer eviction cubin unchanged'))
+write(r/'FINE_SHIFT_FREEZE.json',dict(frozen_at=utc(),reason='SASS audit found runtime reciprocal-based integer division in original generic phys address computation; can dilute observed memory service effect. Equivalent shift/mask cubin frozen before observing fine_0 results.',protocol='All FINE_REFINEMENT_FREEZE settings and fitting algorithms unchanged; use same host binary and separate shift cubin.',allocations='fine_0 is legacy-arithmetic scout, not confirmation; fine_shift_0 development and fine_shift_1..3 confirmation. Supplemental independent allocations are not part of the original six.',no_tuning='No candidate selection threshold or heldout fitting change; the only GPU code change removes avoidable generic arithmetic. All original negative and positive records retained.'))
+print('shift build PASS')

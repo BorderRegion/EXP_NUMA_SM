@@ -1,0 +1,261 @@
+CPU_SOLVER_ACCELERATOR_ENABLED
+{
+  "gpu_us": {
+    "NATIVE": {
+      "time_reduction_pct": -1.9428896503987936,
+      "ci95_process_bootstrap_pct": [
+        -2.1276984299030355,
+        -1.8047916696304123
+      ],
+      "process_time_reductions_pct": [
+        -1.884577041812463,
+        -1.8235117377808585,
+        -1.8423075229154318,
+        -2.363621321644027,
+        -2.0112434543646307,
+        -1.7333175568315928
+      ],
+      "positive_processes": 0,
+      "processes": 6,
+      "caution": "6 fresh processes; intervals descriptive, no multiple-comparison correction"
+    },
+    "LINEAR": {
+      "time_reduction_pct": -1.6007689749038656,
+      "ci95_process_bootstrap_pct": [
+        -1.682825227372442,
+        -1.5245577212535943
+      ],
+      "process_time_reductions_pct": [
+        -1.454267514160712,
+        -1.6581498956707907,
+        -1.526932663952163,
+        -1.6031802038478649,
+        -1.7748894173442276,
+        -1.5874928457193294
+      ],
+      "positive_processes": 0,
+      "processes": 6,
+      "caution": "6 fresh processes; intervals descriptive, no multiple-comparison correction"
+    },
+    "IDENTITY": {
+      "time_reduction_pct": 0.17945478658693004,
+      "ci95_process_bootstrap_pct": [
+        0.004786132636225293,
+        0.36971498385317547
+      ],
+      "process_time_reductions_pct": [
+        -0.16951792517641007,
+        0.13330667931809037,
+        0.5589471835321991,
+        0.35291919478159794,
+        0.05390172972810081,
+        0.14559387630566079
+      ],
+      "positive_processes": 5,
+      "processes": 6,
+      "caution": "6 fresh processes; intervals descriptive, no multiple-comparison correction"
+    },
+    "RANDOM": {
+      "time_reduction_pct": 0.10232594501707881,
+      "ci95_process_bootstrap_pct": [
+        -0.08337192340357458,
+        0.23271663611886817
+      ],
+      "process_time_reductions_pct": [
+        -0.32312197249464436,
+        0.1883693826554178,
+        0.32051040578138235,
+        0.14041447307232557,
+        0.1386236969196597,
+        0.14795631791082453
+      ],
+      "positive_processes": 5,
+      "processes": 6,
+      "caution": "6 fresh processes; intervals descriptive, no multiple-comparison correction"
+    },
+    "SM_ONLY": {
+      "time_reduction_pct": 0.191865446748396,
+      "ci95_process_bootstrap_pct": [
+        0.10087649760504025,
+        0.2643909724100113
+      ],
+      "process_time_reductions_pct": [
+        -0.014234651390987452,
+        0.21334037157063612,
+        0.14179357270437398,
+        0.30423471483903564,
+        0.2587748563296244,
+        0.24695549802095096
+      ],
+      "positive_processes": 5,
+      "processes": 6,
+      "caution": "6 fresh processes; intervals descriptive, no multiple-comparison correction"
+    },
+    "SHUFFLED": {
+      "time_reduction_pct": 0.1461648345377653,
+      "ci95_process_bootstrap_pct": [
+        -0.002371472246687212,
+        0.2586989660853689
+      ],
+      "process_time_reductions_pct": [
+        -0.193280988402722,
+        0.31594006871132896,
+        0.18905119952398186,
+        0.08722763636180852,
+        0.25398242854449693,
+        0.22323390713375746
+      ],
+      "positive_processes": 5,
+      "processes": 6,
+      "caution": "6 fresh processes; intervals descriptive, no multiple-comparison correction"
+    },
+    "LIB": {
+      "time_reduction_pct": -20.358684167704233,
+      "ci95_process_bootstrap_pct": [
+        -20.618423729290146,
+        -20.128997765122293
+      ],
+      "process_time_reductions_pct": [
+        -20.27002523739496,
+        -20.06365694522141,
+        -20.117947273783777,
+        -20.140872788081808,
+        -20.88149642605801,
+        -20.680501278346487
+      ],
+      "positive_processes": 0,
+      "processes": 6,
+      "caution": "6 fresh processes; intervals descriptive, no multiple-comparison correction"
+    }
+  },
+  "host_us": {
+    "NATIVE": {
+      "time_reduction_pct": -1.8282099202349134,
+      "ci95_process_bootstrap_pct": [
+        -2.027772015098539,
+        -1.6886002537422895
+      ],
+      "process_time_reductions_pct": [
+        -1.807014375505056,
+        -1.606783982779092,
+        -1.7448324014596395,
+        -2.2836129964635576,
+        -1.8246656567153519,
+        -1.703719102479262
+      ],
+      "positive_processes": 0,
+      "processes": 6,
+      "caution": "6 fresh processes; intervals descriptive, no multiple-comparison correction"
+    },
+    "LINEAR": {
+      "time_reduction_pct": -1.474077615612246,
+      "ci95_process_bootstrap_pct": [
+        -1.6608428404946807,
+        -1.2791529372376598
+      ],
+      "process_time_reductions_pct": [
+        -1.2284504469253887,
+        -1.7272738963352907,
+        -1.106869033229585,
+        -1.441571111856077,
+        -1.7572948179754633,
+        -1.5847455454628845
+      ],
+      "positive_processes": 0,
+      "processes": 6,
+      "caution": "6 fresh processes; intervals descriptive, no multiple-comparison correction"
+    },
+    "IDENTITY": {
+      "time_reduction_pct": 0.20452567061122195,
+      "ci95_process_bootstrap_pct": [
+        -0.032122730537298416,
+        0.4569821160159804
+      ],
+      "process_time_reductions_pct": [
+        -0.19351570240646598,
+        -0.04766387698895702,
+        0.4780807116130048,
+        0.6984570682676439,
+        0.19376557533805627,
+        0.09525806993738728
+      ],
+      "positive_processes": 4,
+      "processes": 6,
+      "caution": "6 fresh processes; intervals descriptive, no multiple-comparison correction"
+    },
+    "RANDOM": {
+      "time_reduction_pct": 0.07350933676643079,
+      "ci95_process_bootstrap_pct": [
+        -0.08071013870742938,
+        0.17677843827559325
+      ],
+      "process_time_reductions_pct": [
+        -0.2858186738308399,
+        0.04903501239456043,
+        0.16864501870835769,
+        0.1542139979950119,
+        0.13912516477114778,
+        0.21500823625334453
+      ],
+      "positive_processes": 5,
+      "processes": 6,
+      "caution": "6 fresh processes; intervals descriptive, no multiple-comparison correction"
+    },
+    "SM_ONLY": {
+      "time_reduction_pct": 0.26349883097293025,
+      "ci95_process_bootstrap_pct": [
+        0.1343282178849048,
+        0.40664582643222813
+      ],
+      "process_time_reductions_pct": [
+        0.016898819140920285,
+        0.5951189195378181,
+        0.21324448158175358,
+        0.3308709862126724,
+        0.20383942638074748,
+        0.22010075911353955
+      ],
+      "positive_processes": 6,
+      "processes": 6,
+      "caution": "6 fresh processes; intervals descriptive, no multiple-comparison correction"
+    },
+    "SHUFFLED": {
+      "time_reduction_pct": 0.24681022919876838,
+      "ci95_process_bootstrap_pct": [
+        0.047081163712214824,
+        0.41976406626164087
+      ],
+      "process_time_reductions_pct": [
+        -0.173100011626115,
+        0.562881829751849,
+        0.08775000427211355,
+        0.39079403306180316,
+        0.28934621683112116,
+        0.32153840008950496
+      ],
+      "positive_processes": 5,
+      "processes": 6,
+      "caution": "6 fresh processes; intervals descriptive, no multiple-comparison correction"
+    },
+    "LIB": {
+      "time_reduction_pct": -19.649276986465058,
+      "ci95_process_bootstrap_pct": [
+        -20.078260101625055,
+        -19.19971424740856
+      ],
+      "process_time_reductions_pct": [
+        -19.631223898534067,
+        -18.675376820684875,
+        -19.587363460429863,
+        -19.38783543808109,
+        -20.416466423858925,
+        -20.20542221104238
+      ],
+      "positive_processes": 0,
+      "processes": 6,
+      "caution": "6 fresh processes; intervals descriptive, no multiple-comparison correction"
+    }
+  }
+}
+ALL_FORMAL_ANALYSIS_PASS {'raw_requests': 201592, 'conditioning_requests': 109432, 'formal_requests': 92160}
+ALL_SCHEDULES_AND_RAW_RESULTS_RECOMPUTED_PASS 240

@@ -1,0 +1,182 @@
+{
+  "run": "/home/ubuntu/文档/ChatGPT/numa_gpu/selective-reorder-t10/runs/20261016T170348Z",
+  "gpu_complete": true,
+  "total_phase_rows": 3298,
+  "status_counts": {
+    "PASS": 3298
+  },
+  "stage_counts": {
+    "S2_ACTION": 576,
+    "S2_BASE": 720,
+    "S2_CARD": 256,
+    "S4_ACTION": 1584,
+    "S5_FFN": 24,
+    "S5_OOD": 36,
+    "S5_TRACE": 102
+  },
+  "aliases": 72,
+  "lifecycle_phases": 72,
+  "setup_samples": 54,
+  "gpu_worker_minutes": 70.17180623668246,
+  "stage_gpu_minutes": {
+    "S1": 0.10724476494942792,
+    "S2": 12.961725002917229,
+    "S3": 0.20968186644895467,
+    "S4": 22.811442840017843,
+    "S5": 33.976788367365955,
+    "S6": 0.10492339498305228
+  },
+  "failed_workers": [],
+  "workers": [
+    {
+      "key": "S1_qualify",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S1_sanitizer",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S2_action_0",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S2_action_1",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S2_action_2",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S2_base_0",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S2_base_1",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S2_card_0",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S2_card_1",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S2_setup",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S3_deploy_qualify",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S3_pc_binding",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S4_block_0",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S4_block_1",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S4_block_2",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S4_block_3",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S4_block_4",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S4_block_5",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S5_ffn_0",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S5_ffn_1",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S5_ffn_2",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S5_ffn_3",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S5_ffn_4",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S5_ffn_5",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S5_lifecycle_0",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S5_lifecycle_1",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S5_lifecycle_2",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S5_ood_0",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S5_ood_1",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S5_ood_2",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S5_trace_0",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S5_trace_1",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S5_trace_2",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S5_trace_3",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S5_trace_4",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S5_trace_5",
+      "status": "COMPLETED"
+    },
+    {
+      "key": "S6_profiles",
+      "status": "COMPLETED"
+    }
+  ],
+  "statistical_unit": "Whole process block; 5000 bootstrap resamples; one device/day, not hardware replication",
+  "main_metric": "C++ input-ready -> output-ready; deployment trace uses actual total completion"
+}

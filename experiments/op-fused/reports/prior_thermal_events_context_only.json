@@ -1,0 +1,25 @@
+{
+  "scope": "Prior machine history only. Old experiment raw and effect estimates are unchanged; no attribution to individual old phases performed.",
+  "events": [
+    {
+      "utc": "2026-10-14T12:03:43.815080+00:00",
+      "message": "Protection recovered; quiet cap 125 W restored"
+    },
+    {
+      "utc": "2026-10-14T14:08:08.047813+00:00",
+      "message": "Protection: temp=80 rpm=3600; fan full and cap 100 W"
+    },
+    {
+      "utc": "2026-10-14T14:23:54.447631+00:00",
+      "message": "Protection recovered; quiet cap 125 W restored"
+    },
+    {
+      "utc": "2026-10-15T05:00:18.474800+00:00",
+      "message": "Protection: temp=80 rpm=3638; fan full and cap 100 W"
+    },
+    {
+      "utc": "2026-10-15T05:23:14.010416+00:00",
+      "message": "Protection recovered; quiet cap 125 W restored"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+执行附件 OPERATOR_FUSED_SCHEDULING_DUAL_20261015。
+T10机器设platform=t10，5070Ti机器设platform=rtx5070ti，两台各自本机执行，不联网、不SSH、不等待另一台。
+
+先读START_HERE、主任务书及docs/01–09、campaign.json。
+本轮是GPU推理算子内部调度和合法fusion，不恢复Green分区调度器、旧渲染/CSR实验、NUMA热图、V3或检查器。
+
+必须复用本机成熟的FP16 Tensor Core grouped GEMM/attention主体：先有强生产基线，再改problem/tile/segment visitor。新增调度不得通过独立小kernel、每expert CPU发射、D2H或逐算子CPU等待实现。必要meta优先随现有count/scan/pack生成；activation等只在局部数据确已就绪的epilogue融合。全局依赖无法合法融合时保留原数学边界，不能自旋或省略merge。
+
+比较成熟库、同体原生、普通负载、已有cache-aware分组、唯一候选和消融；fusion×schedule四格必须分离。CUDA Graph给基线和候选同样使用，Graph不是kernel fusion。
+
+连续完成E0–E7。算子、producer-consumer、完整层和真实模型分层；动态M_e/seq_len更新和所有准备成本要入账。缺模型不能用随机网络冒充；缺库一次记录，继续可支持部分，不反复申请网络。
+
+T10上限16 GPU-worker小时，5070Ti24小时，新增付费0。普通工程修复自行处理，必要检查约10–15%精力，不新建验证框架，不逐小步STOP。只在设备安全、系统/付费/权限或主语义合同改变时请求一次决定。
+
+保留旧数据、全程唯一run_id、进程锁及phase顺序，真实记录kernel/拷贝/等待与计时范围。方法和split冻结后不挑test赢家，不用CPU helper当GPU实现。
+最终一次性交付OPERATOR_FUSED_SCHEDULING_REPORT_<platform>.md、贡献卡、DAG/launch账本、四层性能和正确性、强基线/消融、缺项与预算及可复算精简包。

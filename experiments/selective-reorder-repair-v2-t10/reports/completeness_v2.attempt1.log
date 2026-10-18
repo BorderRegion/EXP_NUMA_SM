@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/selective-reorder-repair-v2-t10/src/completeness_v2.py", line 4, in <module>
+    for k,v in expected.items():assert inv[k]==v,(k,inv[k],v)
+                                       ^^^^^^^^^
+AssertionError: ('aa_episodes', 3, 24)

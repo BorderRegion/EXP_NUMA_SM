@@ -1,0 +1,16 @@
+test_bijection_all_q (test_plan.PlanTests.test_bijection_all_q) ... ok
+test_empty (test_plan.PlanTests.test_empty) ... ok
+test_full_q1_regardless_limits (test_plan.PlanTests.test_full_q1_regardless_limits) ... ok
+test_invalid_q (test_plan.PlanTests.test_invalid_q) ... ok
+test_invalid_worker (test_plan.PlanTests.test_invalid_worker) ... ok
+test_k4096_cap (test_plan.PlanTests.test_k4096_cap) ... ok
+test_meaningful_order_difference (test_plan.PlanTests.test_meaningful_order_difference) ... ok
+test_one_dim_identity (test_plan.PlanTests.test_one_dim_identity) ... ok
+test_plan_budget (test_plan.PlanTests.test_plan_budget) ... ok
+test_q1_transpose_formula (test_plan.PlanTests.test_q1_transpose_formula) ... ok
+test_tail_packet (test_plan.PlanTests.test_tail_packet) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.031s
+
+OK

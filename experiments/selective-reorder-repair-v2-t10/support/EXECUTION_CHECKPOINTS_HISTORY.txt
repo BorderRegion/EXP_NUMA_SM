@@ -1,0 +1,80 @@
+# Active V2 run continuation (2026-10-17 ~11:20 local)
+
+Task: user asked execute `/home/ubuntu/下载/T10_SELECTIVE_REORDER_REPAIR_V2_20261017.zip` per requirements, honestly record. All docs have been read. NO subagents, goals, automations or network/install. Old selective run is read-only. New branch codex/t10-selective-reorder-repair-v2; old pc-handoff staged files untouched.
+
+ROOT `/home/ubuntu/文档/ChatGPT/numa_gpu/selective-reorder-repair-v2-t10`
+RUN `runs/20261017T021630Z`, CURRENT_RUN points there.
+PY `/home/ubuntu/projects/leetgpu-lab/.venv/bin/python3`
+Budget BEGIN uses start UTC02:15:39 minus3min reading allowance -> local10:12:39, hard9h. New GPU cap240min, original70.171806 retained. Worker also enforces S1=30/S2=75/S4=75/S5=45/S6=10min. No power/clock edits;100W dynamic. sudo -n needs password -> lock branch NA, do not use historical user credential.
+
+Active shell exec session **41952** runs queue_first.py. S1 aa0/1 completed24episodes. S2 pairs0/1 and card0/1 completed. S2 pairs2 currently running (D03..D17 completed, rotates cases); then card2 and setup54 costs. Let complete, inspect errors. All GPU workers so far successful. Initial S1 session16044 completed. Existing GPU lock environment/gpu_worker.lock.
+
+CLEAN AA24quartets:median |log|0.001189, q90 .272211, ratio .696..1.775,7>1%,4>5%. CHECK_GAP13/24>5%,IDLE11/24. Two process blocks only. No stable1% claim. Noise present in GPU span too. All retained.
+
+First pair calibration384quartets cost16.87min -> full S4 forecast>100min, stagecap75, so queue_formal_v2 will select exactly prescribed12case subset, plus V06/V16 direct-only to retain all4 direct comparisons. Six blocks. This is authorized planned reduction, not winner-based. All16V still actual trace. No full-action oracle for unmeasured cases.
+
+Next commands after queue_first finishes:
+1. PY src/build_card.py (expects3cardblocks)
+2. PY src/renaming_v2.py
+3. PY src/freeze_v2.py (pureCPU: hard-state check, relative fit/LOSO, S1AA floor,54setup costs, generatesCpp twice with separate pilot/frozen.so names, CPU timing volatile shape loads,3120 checks; choices_before_timing andseal)
+4. PY src/allocation_check.py
+5. PY src/build.py <path in freeze/CALIBRATION_BUILD.txt> (reuse unchanged cubins, compile final host; saves exact compiled C++source)
+6. PY src/validate_host.py (pureCPU host entry equivalence, writes EXECUTION_FREEZE beforeV/G)
+7. PY src/queue_formal_v2.py (S4 six processes, auto fixed-scope selection)
+8. PY src/queue_deploy_v2.py (90actual traces,FFN96logical with independent setup+strict sameDAG alias, binding12,OOD36,witness0or9,life72*4H288, tuning288quartets, then4S6profiles)
+
+All these scripts exist and syntax-check. Need actually run and debug normal engineering failures, preserve failed attempts and original raw. Do not claim completed until all validation+packageQA.
+
+PostGPU commands: analysis_v2.py, supplement_v2.py, evidence_audit_v2.py, completeness_v2.py, figures_v2.py, report_v2.py. Inspect figures with view_image and review conclusions. Report template is ready but must review actual evidence/wording before delivery.
+Report filename reports/T10_SELECTIVE_REORDER_REPAIR_V2_REPORT.md.
+Package script package_v2.py outputs `/home/ubuntu/下载/T10_SELECTIVE_REORDER_REPAIR_V2_RESULT_20261017.zip` andsha. Extract fresh outside ROOT (temp dir) and run PY recompute.py; it validates manifest, raw means/quartets, refits models/LOSO, frozenPython/Cppchoices, andderived outputs. NoTorch/CUDA inrecompute. common.runroot prefers archive-local run even when original absolute path exists. ReportQA/logs can be external thenrepack/reQA if content changed.
+Need final STATUS/END/DELIVERY audit; avoid recursive packageQA dirs under ROOT. Open report inCodex. Final linkZIP+report andhonest mainfinding/reduced scope/costNA.
+
+Important implementation and evidence:
+- Same math kernels.cu/cuh/adapters/cubins as old. SHA freeze/math_hashes.json.
+- First host build20261017T021708Z used forS1/S2. Source development duringGPU doesn't change loaded binary. Recovered exact compiled first C++source+build.py under build/<stamp>/source verified against build.json; runtime_extra recovered fromoldread-only source. reports/CALIBRATION_SOURCE_RECOVERY.json. Final build.py now snapshots C++sources automatically.
+- New `pair_runtime.hpp` fixed C++ buffers:4/12window loops with n warm+n measured readyrequests, no Python perrequest, no allocation/Graph construction/numerical/D2H/JSON insidequartet. Raw5fields[GPU,CPU,P,R,scratch], windowtime/epoch/warm data.
+- S2 calibration eachcase9preparedactions4slots,prequalification+30s nativeconditioning,16quartets+begin/endAA,postqualification. LIBpilot8readycalls happens before30sconditioning; recorded explicitly, same n8..128allactions, no candidate n adjustment.
+- S2 card3blocks each128episodes, four14SMgroups×2workspace withaddresses,16samples +separate8sample stagejobs. No physicalNUMA claim.
+- Frozen relative policy reference exactly aspackage, lambda1, whole-shapeLOSO excludesown resource rep, q90 local >=6elsepooled, maxwithAA. Models shared BASE. Static zero perrequest selectioncost;dynamic measuredfullselector cost. No forcedPC.
+- Final runtime_extra uses sr_make_bound_action. BoundPlan calls sr_choose/_dynamic exactlyonce perPlan thenbinds4slotgraphs, validatesactualkind/recipe/S/partition/pi. No repeated modelchoice pergraph. Dynamictrace recomputeschoice andchecksactualboundaction beforelaunch. FFN second GEMM explicitlyfixedLIB. SelectedPC2Greenonly; LIB/SINGLE/SPLIT0Green;noDIAG inproduction.
+- Trace shares immutable inputpool pertrace/process across sequentialpolicies. Eachpolicy buildsown selectedEngine/partial/graphs; setupperpolicy plusonecommoninput cost separatelycharged forfreshscenario. Requesttiming excludesinitialization; paidtraceaccounting addsknowncosts algebraically andlabelsnotseparatecoldprocess.
+- Binding comparison holds dynamic-ruleactionfixed forbothentries, onlyperrequest selector enabled/disabled. StaticAOTchoicesseparateFFN/lifecycle.
+- FFN aliases onlywhenactionpairANDactualDAG identical. AllpoliciesinstantiateownPlan setup, aliasesn'tindependenttiming.
+- Lifecycle H1/32actualnewPlan requests inalreadyinitializedCUDA;H1024/4096ESTIMATED from64newsteadysamples. All288perH arrayssaved. INIT_TUNE2ABBArounds/all8vsLIB,30sconditioning paid, numericalqualificationexcluded, freshinput/selectedPlanaftersearch.
+- setup_costs andBoundPlan subtract explicitlytimedgraph/config metadataobservation, recordsbothobservedsetup anddiagnosticcost. No rosterqualificationinlazyproduction.
+- Prospective observability additions: calibration block0 alreadyimportedoldpaired.py, soits performance/raw/numericaldata complete but numericalvalidationCPUduration/inputcostdecompositionunavailable. Laterblocks recordthese. No rerun/replacement. Full freshproductioncalibration/coldstart totalNA, notworkerwall falselybilled asproduction. ENGINEERING_NOTES records this, pilot order, seedASCII collisions, andoneCPUreferencecompilemissing-I fixedbeforeanyexecution.
+- Some distinctcaseIDs shareASCII-sum seeds;blocks differ andallseedslogged. Shapes aren't claimed independentrandommodel samples.
+- Legacy original/patch1560CPUchecks exactlyequal;original1152newalloccalls->0patched. 30Pythonreference tests andC++testpass. Newallocator actualrun stillpendingS3.
+- S6 profiles onlyV01/V06/V11/V16 RESOURCEstatic,8unwrappedasyncbodyreplays each. Kineto mayomit driverGraphLaunch/wait APIevents; no inventedCUPTIcounts/counters. Actualkernelcount fromDAG mustmatch8×profileevents.
+- Codehaslegacyunusedmodulescopiedfromprior;README listsactiveV2entries; don'trunoldgenerate_policy.py overnewpolicy.hpp.
+- All statuses in inputDESIGN/measured:false remainimmutable originalpackage status, notactualexecution.
+
+## Update 2026-10-17 ~11:47 local (supersedes above active state)
+S2 all completed, ledger 9 settled workers before S4. S3 freeze finished successfully. NEW_CPU_EQUIVALENCE PASS3120; NEW_ALLOCATOR_CHECK PASS31200calls0malloc/calloc/realloc. Frozen new V choices all BASE/SHAPE/RESOURCE/PERMUTED same:13LIB+3SINGLE(V14/V15/V16), noPC, witness empty. Card all3blocks four singleton groups. AA floors .27221067/.35669576/.001612515; dynamic delta1.62831185us.
+Final host built `build/20261017T033331Z`; unchanged math cubins. validate_host initially dlopen failed undefined __cudaRegisterVar; added libcudart RTLD_GLOBAL preload to CPU-only validation (normal worker gets it from Torch). Then DEPLOYED_HOST_EQUIVALENCE PASS3120 and EXECUTION_FREEZE created. No GPU failed attempt.
+Active shell session **72269** runs queue_formal_v2.py. Preset reduced scope12full cases+2direct-only frozen. S4 block0 completed570.71seconds; block1 running (V03,V05,V07,V09 passed as of11:46). Expected6blocks ~57min total, below75stagecap. Need let all finish. Progress utility `/tmp/t10_v2_progress.py` reads small worker logs+ledger+lasttelemetry. Use write_stdin(session72269, yield_time_ms<=50000), no sleeps>60seconds, concise Chinese updates.
+Next after S4: queue_deploy_v2.py, then analysis_v2/supplement_v2/evidence_audit_v2/completeness_v2/figures_v2/report_v2. All S5/S6 NOT YET RUN. Approx finishGPU around13:00local. Do not stop early or claimcompletion.
+Changes since initial note:
+- build_card fixed pi range3->2 beforefreeze; CPU bug logged, no rawGPUchanges.
+- Removed unused second modeldecision in deploy.BoundPlan FFN metadata beforeanyS5; GEMM2 already fixedLIB inC++factory. Exactlyone modeldecisionperPlan now true. FrozenC++/modelunchanged.
+- analysis_v2 adds chosen-vs-LIB percase95%CI, non-native point/CI slowdown flags; report includes ordinarySINGLE/SPLIT harm sozeroPC doesn'thideerrors. Outputdiagnostic only.
+- report says identicalRESOURCE/SHAPEactualactions meanentrytime differencescannotproveinformationbenefit.
+- portable ROOT/recompute.py strengthened:raw1152traininglabels linkage;384cardrequest and192stagearrays -> allfrozencardsamples/means;AAfloor/fromraw+LIBfit;54setupcosts;CPUdeltaq95. PrefixCPUpreflight passed RAW_CARD_FIT_LOSO_AA_AND_SETUP_PASS.
+- HONEST LIMITATION:thatoneCPU-onlypreflight ranconcurrentlywithS4block0 (exactCPUstartnotseparatelyrecorded;conservativeUTC03:38:00–03:39:03window,4logicalCPUhost). Possiblehostcontentionnotruledout; noGPUcompetitor. ENGINEERING_NOTES andreport disclose. Nooriginalsamplesreplaced/discarded. DeferallfurtherheavyCPUanalysis/recomputeuntilGPUends.
+- STATUS.md updatedS0-S3complete,S4running,S5-S6pending.
+Need finalfresharchiveCPUrecompute; initialpreflightisnotfinalQA. No networking/install/privilege attempt. Keepoldstagedpc-handofffilesuntouched.
+
+## Update 2026-10-17 ~12:32 local
+S4 ALL SIX COMPLETE. 192main+24direct+28AA perblock ->1152/144/168 total. Worker times570.71,584.57,582.61,581.46,580.57,579.69sec (~57.99min S4). AllGPUworkers completed, newsettledGPU128.79min. No mainresult analysis yet.
+Oldsession72269 finishedexit0. **Active shell session47359 now runs queue_deploy_v2.py**, beginningS5_trace_0. Watch small `/tmp/t10_v2_progress.py` and wait<=55s. Queue will execute trace+ffn for6blocks, binding+ood+life for3blocks (witness skippedbecausefrozenzeroactiondisagreements), thenS6profiles. Letfinish, debugnormalissuesifanypreserveraw.
+Additional reporttemplate updates: RESOURCE/SHAPE sameactions explicitlynotresourceinformationbenefit; chosen-vs-LIB harmCI table; PC rawrank/risk/cost closures count; concurrentCPUpreflightdisclosure. These areCPUoutputonly. No model/decision/C++/math changes.
+AfterALLGPU finishes runfullanalysis/audits/figures/report, inspectfigures, finalizeSTATUS/END, packageandfresh-extractCPUrecompute. Seeearliernextsteps. NeedreplacecurrentCONTINUATION_STATE withfinalclosednote orclearlylabelcheckpointinfinalarchive. Stillno finalresultorQAclaim.
+
+## Update ~12:56 local
+S5 trace0..5 andffn0..5 ALLCOMPLETE:90actualtracephases;FFN30actual+66aliases=96logical. Eachtraceworker~108s,eachFFN~73.7s. Binding0completed66.59s,OOD0completed46.01s. Active47359 now S5_lifecycle_0, V01/V04/V06/V09passed;V12/V16remaining. Queuewillthenbinding1,ood1,life1,binding2,ood2,life2,S6profiles. SettlednewGPU148.83min excludescurrentlife. AllGPUworkerssuccessfulsofar. ForecastfinishGPU~13:12local, ampletotalbudget;S5stage45min likely~40min.
+Observed (NOTYETFINALSTATISTICS):MIXnonLIBselectors~439ms versusLIB~340ms repeatedly;BURST~330versus337;SHIFTlargevariationevenidenticalactions. No thresholds/model/runtimechange. Do NOT claimpositiveoptimization basedonselectedpatterns. Needfinalall6blockanalysis.
+Addedposthocdiagnostic output `per_trace_comparisons.json` toanalysis_v2 andreport:eachpredeclaredtrace separately,threecomparisons,95%exploratoryCI,plusGPU-span-sumdiagnostic. ClearlylabeledPOSTHOC afterseeingS5block3;originalpooled97.5%primaryunchanged. ENGINEERING_NOTESrecords. NoCPUheavyanalysisrunyet. Addedreportexplicit SHIFT_ALL16_OODhas16OODrequests/20uniquesigs whileall16Vcovered;MIX/BURST128req16uniques.
+EnhancedROOT/recompute.py CPUABI fallback:ifarchivedCPU.soOSError,temporarilycompileincludedCPUsourcewithg++,preserveoriginalmanifest/binary;noinstalls/network. READMEupdated. Notexecutedfallback;normalinitialcompilealreadyworks.
+Enhancedevidence_audit nesteddeployment/lifecycle numericalPASSrecords andfinitepositiveCPU/GPUrequestasserts.
+STATUS nowS4complete/S5running. StillneedALLanalysis,audits,figures+visualQA,reportreview,END/STATUS,ZIP+fresh-extractrecomputeQA. Do not claimdoneuntilthen.

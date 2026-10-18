@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-10-16T17:02:18.470293+00:00",
+  "budget_started_at": "2026-10-16T17:00:18.470293+00:00",
+  "start_note": "Conservative start two minutes before BEGIN write to include initial archive reading. No stage resets.",
+  "target_minutes": 510,
+  "hard_stop_minutes": 540,
+  "gpu_worker_cap_minutes": 330,
+  "input_zip_sha256": "906c9a20cdd79fb43d1ff18824a1fce6e5ca345fddc86fdcbd04bda21976200e",
+  "budget_started_monotonic": 305005.167555468,
+  "boot_id": "f4d4e26b-d744-42e6-8e60-c1d3e075bc33"
+}

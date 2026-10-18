@@ -1,0 +1,2594 @@
+[
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-002",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.3844013988057193,
+    "head_ratio": 1.3833079840381095,
+    "tail_ratio": 1.38567925718098
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-002",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4049259439268773,
+    "head_ratio": 1.4076329325626564,
+    "tail_ratio": 1.404047303467918
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-002",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.429075477150435,
+    "head_ratio": 1.462017311472664,
+    "tail_ratio": 1.436464590687803
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-002",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4526798780458965,
+    "head_ratio": 1.4034290465499202,
+    "tail_ratio": 1.3993395385244136
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-002",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.3773748638588397,
+    "head_ratio": 1.3759228419484069,
+    "tail_ratio": 1.3758512984612246
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-002",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4074568202231834,
+    "head_ratio": 1.4012201309880474,
+    "tail_ratio": 1.4054578327090648
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-004",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.158413822464985,
+    "head_ratio": 1.1595184548860575,
+    "tail_ratio": 1.161764666682983
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-004",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.2087832211184606,
+    "head_ratio": 1.1788634964120919,
+    "tail_ratio": 1.176649282219474
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-004",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1844633694690037,
+    "head_ratio": 1.1907585737612703,
+    "tail_ratio": 1.1888155646864687
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-004",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.3190014239336878,
+    "head_ratio": 1.3815457270270812,
+    "tail_ratio": 1.3544733297824734
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-004",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1939251434588638,
+    "head_ratio": 1.2462221659914265,
+    "tail_ratio": 1.1637261714873488
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-004",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1635393830779588,
+    "head_ratio": 1.1961275226681745,
+    "tail_ratio": 1.1652476065822215
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-006",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.479470409433077,
+    "head_ratio": 1.4863853351507468,
+    "tail_ratio": 1.4641711220229752
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-006",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4575802206016202,
+    "head_ratio": 1.4801474457657908,
+    "tail_ratio": 1.46717391121484
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-006",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4464143237324287,
+    "head_ratio": 1.4549672890100103,
+    "tail_ratio": 1.455710233029798
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-006",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4440802879057082,
+    "head_ratio": 1.454204361833373,
+    "tail_ratio": 1.584228001842403
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-006",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4807116916706173,
+    "head_ratio": 1.480585806013344,
+    "tail_ratio": 1.4689960484880857
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-006",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.460645229241872,
+    "head_ratio": 1.4836223979538354,
+    "tail_ratio": 1.4596872225291904
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-008",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.0175991179315593,
+    "head_ratio": 2.017067089605622,
+    "tail_ratio": 2.01811830548646
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-008",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.00855024467512,
+    "head_ratio": 2.0083447881591976,
+    "tail_ratio": 2.0082866477198564
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-008",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.936925530098311,
+    "head_ratio": 1.8497286237783304,
+    "tail_ratio": 1.9370352798782131
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-008",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.8280727875982248,
+    "head_ratio": 1.9988301410758842,
+    "tail_ratio": 1.9986283275550547
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-008",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.0183287162280212,
+    "head_ratio": 2.018406216712545,
+    "tail_ratio": 2.018028816734486
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-008",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.9486237443552301,
+    "head_ratio": 1.9481746914214702,
+    "tail_ratio": 1.9480526180612392
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-010",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.168231496755244,
+    "head_ratio": 1.1724551378980452,
+    "tail_ratio": 1.1658355295382956
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-010",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1733106909510123,
+    "head_ratio": 1.165923071788711,
+    "tail_ratio": 1.1659123480533753
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-010",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1613393898894533,
+    "head_ratio": 1.0423650599716916,
+    "tail_ratio": 1.16111071891211
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-010",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.178663422075768,
+    "head_ratio": 1.1564700846070906,
+    "tail_ratio": 1.260362495415337
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-010",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.14082496977672,
+    "head_ratio": 1.1351091184065902,
+    "tail_ratio": 1.1329001875649636
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-010",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1666900460377962,
+    "head_ratio": 1.1658732107154066,
+    "tail_ratio": 1.1696665363056546
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-012",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1828508291033464,
+    "head_ratio": 1.1822099493362435,
+    "tail_ratio": 1.182004312007392
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-012",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1957500030598807,
+    "head_ratio": 1.195884882884872,
+    "tail_ratio": 1.1955372119920944
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-012",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1784704286784184,
+    "head_ratio": 1.178193722946033,
+    "tail_ratio": 1.178410045433983
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-012",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1836049943365752,
+    "head_ratio": 1.2082004566978815,
+    "tail_ratio": 1.1842139684545778
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-012",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1739600994344739,
+    "head_ratio": 1.1736249248197448,
+    "tail_ratio": 1.1740304889337845
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-012",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1768028995404551,
+    "head_ratio": 1.1769196011102738,
+    "tail_ratio": 1.1778875828101942
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-014",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.6990143684062402,
+    "head_ratio": 1.6986443254799095,
+    "tail_ratio": 1.6996157734962845
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-014",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.7018860556978137,
+    "head_ratio": 1.7009513943733383,
+    "tail_ratio": 1.701053527121495
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-014",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.7846668210369667,
+    "head_ratio": 1.763019406837292,
+    "tail_ratio": 1.7350757027958723
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-014",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.6345859822989315,
+    "head_ratio": 1.5120022640186555,
+    "tail_ratio": 1.641556564965471
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-014",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.6849990452467756,
+    "head_ratio": 1.6846253762091112,
+    "tail_ratio": 1.6846662408594473
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-014",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.7004056776201923,
+    "head_ratio": 1.7007248414808755,
+    "tail_ratio": 1.701072952902248
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-016",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.9963533450264876,
+    "head_ratio": 1.9965332282237636,
+    "tail_ratio": 2.062097656669333
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-016",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.584987174480213,
+    "head_ratio": 2.0092241779758764,
+    "tail_ratio": 2.075122360357679
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-016",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 3.397233155332916,
+    "head_ratio": 3.2211517482839156,
+    "tail_ratio": 3.2881382554561793
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-016",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 3.8230553850437428,
+    "head_ratio": 3.6606394203202437,
+    "tail_ratio": 3.7278763169089952
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-016",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.0059726161500344,
+    "head_ratio": 2.0061914184572167,
+    "tail_ratio": 2.072010222615459
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-016",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.480751110156971,
+    "head_ratio": 1.997769432358885,
+    "tail_ratio": 2.048141596570817
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-018",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 0.9617138625518014,
+    "head_ratio": 0.9566836834439829,
+    "tail_ratio": 0.9527469004204892
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-018",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 0.9575530688684639,
+    "head_ratio": 0.9524334868952535,
+    "tail_ratio": 0.9556983011145533
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-018",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.096704773587947,
+    "head_ratio": 1.0096949519263634,
+    "tail_ratio": 0.9669118232307281
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-018",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.0967457308534634,
+    "head_ratio": 0.9579197426242162,
+    "tail_ratio": 1.4877746536734946
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-018",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 0.9472833992972047,
+    "head_ratio": 0.9507760973920297,
+    "tail_ratio": 0.9461573686211027
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-018",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 0.9659754774374332,
+    "head_ratio": 0.9684325752351247,
+    "tail_ratio": 0.9684703951872227
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-020",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 0.843211054262883,
+    "head_ratio": 0.8432498580306653,
+    "tail_ratio": 0.8433485940462931
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-020",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 0.8395697373338687,
+    "head_ratio": 0.8394887694003949,
+    "tail_ratio": 0.8395907604088803
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-020",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 0.8188372127523503,
+    "head_ratio": 0.818853726143972,
+    "tail_ratio": 0.8187726840457061
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-020",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 0.8844215019581725,
+    "head_ratio": 0.8842233188941587,
+    "tail_ratio": 0.8841175482620179
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-020",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 0.8755580378490248,
+    "head_ratio": 0.875536520985046,
+    "tail_ratio": 0.8754694398157292
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-020",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 0.8466019825979633,
+    "head_ratio": 0.8463236765540342,
+    "tail_ratio": 0.8463233823547475
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-022",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.8404417772670354,
+    "head_ratio": 1.8405151722834336,
+    "tail_ratio": 1.8404862846949617
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-022",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.862547085061505,
+    "head_ratio": 1.8618963106189912,
+    "tail_ratio": 1.8611688707091476
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-022",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.7662656684958662,
+    "head_ratio": 1.6145974318063656,
+    "tail_ratio": 1.823945518077974
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-022",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.5579031501611202,
+    "head_ratio": 1.642457621163714,
+    "tail_ratio": 1.6842671543127918
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-022",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.8389449584302109,
+    "head_ratio": 1.838841888444214,
+    "tail_ratio": 1.838744899238381
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-022",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.83857387081335,
+    "head_ratio": 1.8385638402663955,
+    "tail_ratio": 1.8395172311548984
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-024",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.857048897768115,
+    "head_ratio": 4.857050324759426,
+    "tail_ratio": 4.857631655627517
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-024",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.690470263134689,
+    "head_ratio": 4.81239122474013,
+    "tail_ratio": 4.838005622249587
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-024",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.8579779659459055,
+    "head_ratio": 4.839655004648227,
+    "tail_ratio": 4.779995829175962
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-024",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.638328724148381,
+    "head_ratio": 4.581251787768712,
+    "tail_ratio": 4.645263280961073
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-024",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.764548297875444,
+    "head_ratio": 4.800496370060384,
+    "tail_ratio": 4.743243474526842
+  },
+  {
+    "suite": "dense_control",
+    "case_id": "dense_control-024",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.831940295934582,
+    "head_ratio": 4.818970857751388,
+    "tail_ratio": 4.835295224616132
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-003",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.679336393709692,
+    "head_ratio": 1.6980316367912365,
+    "tail_ratio": 1.7139952857481269
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-003",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.6362806489261998,
+    "head_ratio": 1.6303275937220614,
+    "tail_ratio": 1.630341209854301
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-003",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.6550028916715662,
+    "head_ratio": 1.646143139492804,
+    "tail_ratio": 1.6278842176764943
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-003",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.6201187326163138,
+    "head_ratio": 1.6465185178291568,
+    "tail_ratio": 1.6267757568888737
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-003",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.638677273315639,
+    "head_ratio": 1.6492942182332662,
+    "tail_ratio": 1.6626059171821381
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-003",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.6763647555358234,
+    "head_ratio": 1.6577421092116338,
+    "tail_ratio": 1.6713265636964914
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-016",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.5011533888326585,
+    "head_ratio": 1.4822024812641186,
+    "tail_ratio": 1.4662073252757688
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-016",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4744847170239455,
+    "head_ratio": 1.4752912853123128,
+    "tail_ratio": 1.468598653758529
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-016",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4523714547686069,
+    "head_ratio": 1.4332396640881846,
+    "tail_ratio": 1.4488181653223584
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-016",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1106698158363817,
+    "head_ratio": 1.1327597751480107,
+    "tail_ratio": 1.1649520231745691
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-016",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4640336211634082,
+    "head_ratio": 1.4808166316191582,
+    "tail_ratio": 1.4810887863335236
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-016",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4739825727433997,
+    "head_ratio": 1.4726966837155115,
+    "tail_ratio": 1.4686509211138277
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-025",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.02033797156328,
+    "head_ratio": 4.010017064180871,
+    "tail_ratio": 4.017707707127588
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-025",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.7580491424900804,
+    "head_ratio": 1.769970243068499,
+    "tail_ratio": 1.7538068204602464
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-025",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.1640507821841695,
+    "head_ratio": 4.079945722112247,
+    "tail_ratio": 4.1674043983373386
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-025",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.748922833352513,
+    "head_ratio": 1.676001007076959,
+    "tail_ratio": 1.7410641103605948
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-025",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.7968325145948518,
+    "head_ratio": 1.7602880231736198,
+    "tail_ratio": 1.7727163731449516
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-025",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.781268356016553,
+    "head_ratio": 1.7649341596702868,
+    "tail_ratio": 1.7823209105251598
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-026",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.64160858632085,
+    "head_ratio": 1.6403311594460317,
+    "tail_ratio": 1.6380875652903732
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-026",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.6710705365369198,
+    "head_ratio": 1.6689092063980906,
+    "tail_ratio": 1.6688587741174645
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-026",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.6136045626840985,
+    "head_ratio": 1.61221141640573,
+    "tail_ratio": 1.6092250335779057
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-026",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.8615819688068906,
+    "head_ratio": 1.6101194388783326,
+    "tail_ratio": 1.7832018294938516
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-026",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.5789158875394562,
+    "head_ratio": 1.5740395645727099,
+    "tail_ratio": 1.6162248790139584
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-026",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.645046574262933,
+    "head_ratio": 1.6444664793485595,
+    "tail_ratio": 1.640472770862113
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-028",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.438445849297612,
+    "head_ratio": 1.438442237802353,
+    "tail_ratio": 1.451731512069263
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-028",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.5176533876176785,
+    "head_ratio": 1.5188977632677658,
+    "tail_ratio": 1.517932844950016
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-028",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.513893948972109,
+    "head_ratio": 1.5143981994965732,
+    "tail_ratio": 1.5140178360360435
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-028",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4056394289705532,
+    "head_ratio": 1.5478656390711765,
+    "tail_ratio": 1.6433891348122893
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-028",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.38300130023464,
+    "head_ratio": 1.4296691010226452,
+    "tail_ratio": 1.5367205355856182
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-028",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.520629487244871,
+    "head_ratio": 1.5208800315115294,
+    "tail_ratio": 1.5204785541709833
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-029",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.166872172748536,
+    "head_ratio": 2.1896125374271103,
+    "tail_ratio": 2.1532660096196006
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-029",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.1331093819795117,
+    "head_ratio": 2.161343954706476,
+    "tail_ratio": 2.1491638702062454
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-029",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.1487424170522442,
+    "head_ratio": 2.185019324415035,
+    "tail_ratio": 2.131097847093375
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-029",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.1576280387034124,
+    "head_ratio": 2.1340067474257096,
+    "tail_ratio": 2.1358743746660966
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-029",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.0678910730477233,
+    "head_ratio": 2.093148867709833,
+    "tail_ratio": 2.1049073686829343
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-029",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.134429158907132,
+    "head_ratio": 2.186412750839862,
+    "tail_ratio": 2.160199970668935
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-030",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.427220373658254,
+    "head_ratio": 2.452908599668176,
+    "tail_ratio": 2.453741814654877
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-030",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.421764215290744,
+    "head_ratio": 2.4033736732979967,
+    "tail_ratio": 2.433666911809838
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-030",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.4241566215253365,
+    "head_ratio": 2.4256017493193753,
+    "tail_ratio": 2.4258784092118257
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-030",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.4016145499296657,
+    "head_ratio": 2.4148650135072685,
+    "tail_ratio": 2.4006317240920647
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-030",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.4328514316475363,
+    "head_ratio": 2.4500449576933154,
+    "tail_ratio": 2.447387613203975
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-030",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.4389968637408694,
+    "head_ratio": 2.445991264805145,
+    "tail_ratio": 2.4298395039323677
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-031",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.684925778274922,
+    "head_ratio": 2.691642246158145,
+    "tail_ratio": 2.7099079501758103
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-031",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.6859267467022336,
+    "head_ratio": 2.6568688338233493,
+    "tail_ratio": 2.6857611853489294
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-031",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.758964091311911,
+    "head_ratio": 2.6757094432646533,
+    "tail_ratio": 2.6767622507984217
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-031",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.59618954735487,
+    "head_ratio": 2.5959859128319263,
+    "tail_ratio": 2.6369199884309786
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-031",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.6368766662104233,
+    "head_ratio": 2.6604089379823423,
+    "tail_ratio": 2.692373327974654
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-031",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.7022434996479467,
+    "head_ratio": 2.6665859053696286,
+    "tail_ratio": 2.684979655436071
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-035",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.749062113083692,
+    "head_ratio": 1.7517699812785152,
+    "tail_ratio": 1.791484123688972
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-035",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.7494825050124163,
+    "head_ratio": 1.7521149742475295,
+    "tail_ratio": 1.7473312843024547
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-035",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.7592432019668398,
+    "head_ratio": 1.7627479849962082,
+    "tail_ratio": 1.7621388992067955
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-035",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.7580401742782459,
+    "head_ratio": 1.7562132954314065,
+    "tail_ratio": 1.8583785962004307
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-035",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.6869432801879003,
+    "head_ratio": 1.6540749482053718,
+    "tail_ratio": 1.7146272135496556
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-035",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.7515354509130519,
+    "head_ratio": 1.7549343405181206,
+    "tail_ratio": 1.7482522682861694
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-040",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.758246768207646,
+    "head_ratio": 1.758464544276116,
+    "tail_ratio": 1.7574587361149168
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-040",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.756062833522969,
+    "head_ratio": 1.7578668667274149,
+    "tail_ratio": 1.7615788921890314
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-040",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.7729971239169293,
+    "head_ratio": 1.7754390491195136,
+    "tail_ratio": 1.777102438546479
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-040",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.9175383432044242,
+    "head_ratio": 1.8499234783334688,
+    "tail_ratio": 1.938583285171191
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-040",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.7298001634007287,
+    "head_ratio": 1.7984349009337797,
+    "tail_ratio": 1.7331145607922178
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-040",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.7684998542145085,
+    "head_ratio": 1.7731297656912905,
+    "tail_ratio": 1.7766579380779384
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-052",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.8639790122521689,
+    "head_ratio": 1.8639291840408923,
+    "tail_ratio": 1.864131722112756
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-052",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.905510232493387,
+    "head_ratio": 1.9059762755704002,
+    "tail_ratio": 1.9060193212731595
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-052",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.8970458752501234,
+    "head_ratio": 1.8964691055467635,
+    "tail_ratio": 1.8968324507047276
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-052",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.9024311030451977,
+    "head_ratio": 1.9009084806371916,
+    "tail_ratio": 1.9012758666387648
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-052",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.839552813787485,
+    "head_ratio": 1.8871836998460612,
+    "tail_ratio": 1.9994990346950392
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-052",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.8807003280008758,
+    "head_ratio": 1.8802284646936471,
+    "tail_ratio": 1.8805870058839527
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-057",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.551665955318471,
+    "head_ratio": 4.55452560360265,
+    "tail_ratio": 4.554747389904718
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-057",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.52692921571106,
+    "head_ratio": 4.487691327417739,
+    "tail_ratio": 4.503936217151313
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-057",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.48618924344985,
+    "head_ratio": 4.547365260863632,
+    "tail_ratio": 4.488769317517089
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-057",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.484071023969777,
+    "head_ratio": 4.435904206135218,
+    "tail_ratio": 4.460449354862231
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-057",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.670313296848226,
+    "head_ratio": 4.688508821714408,
+    "tail_ratio": 4.599853561776961
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-057",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.5541550142916005,
+    "head_ratio": 4.552660172760614,
+    "tail_ratio": 4.554976107878937
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-058",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 3.9615693353088117,
+    "head_ratio": 3.927739528565565,
+    "tail_ratio": 4.0502196250439315
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-058",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.000563162826941,
+    "head_ratio": 3.9279367206352367,
+    "tail_ratio": 3.9681368705320246
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-058",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 3.942425670944108,
+    "head_ratio": 3.929009205534888,
+    "tail_ratio": 3.933740004446829
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-058",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 3.881019408183781,
+    "head_ratio": 3.8391478044117613,
+    "tail_ratio": 3.963272410041846
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-058",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 3.999710699125236,
+    "head_ratio": 3.9811506194797714,
+    "tail_ratio": 3.956117488519442
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-058",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 3.9974259400692604,
+    "head_ratio": 3.9273568092910556,
+    "tail_ratio": 4.035211569683148
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-061",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.2384743645131535,
+    "head_ratio": 2.2375889227538486,
+    "tail_ratio": 2.237300893754919
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-061",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.241104069147176,
+    "head_ratio": 2.242017292203587,
+    "tail_ratio": 2.241868090312483
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-061",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.2391773948558127,
+    "head_ratio": 2.240382130302427,
+    "tail_ratio": 2.2386605063051945
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-061",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.3308484566497656,
+    "head_ratio": 2.3293821383874054,
+    "tail_ratio": 2.329454240487404
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-061",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.335156583448253,
+    "head_ratio": 2.341752251094708,
+    "tail_ratio": 2.3544364873846932
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-061",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.238428081441338,
+    "head_ratio": 2.238053989991576,
+    "tail_ratio": 2.236485005591349
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-062",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.4545401599278796,
+    "head_ratio": 2.454227179074185,
+    "tail_ratio": 2.4536137710466024
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-062",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.4541482913984227,
+    "head_ratio": 2.4542454713288175,
+    "tail_ratio": 2.454369763356797
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-062",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.4405566355093313,
+    "head_ratio": 2.438272906477554,
+    "tail_ratio": 2.4542830786583028
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-062",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.567204139274735,
+    "head_ratio": 2.5514076067727123,
+    "tail_ratio": 2.559290598521384
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-062",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.507130173745788,
+    "head_ratio": 2.509310097862234,
+    "tail_ratio": 2.5491895786641985
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-062",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.44628913961854,
+    "head_ratio": 2.4383807247594396,
+    "tail_ratio": 2.4529480498290344
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-063",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.7575929880026897,
+    "head_ratio": 2.757024242788484,
+    "tail_ratio": 2.779512463245322
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-063",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.736258436020824,
+    "head_ratio": 2.735973294735175,
+    "tail_ratio": 2.7358840599687837
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-063",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.744775284194755,
+    "head_ratio": 2.745130602492096,
+    "tail_ratio": 2.744933223364658
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-063",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.8380846613076405,
+    "head_ratio": 2.8399900006914853,
+    "tail_ratio": 2.8485564447280565
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-063",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.747002647548185,
+    "head_ratio": 2.7527532182815064,
+    "tail_ratio": 2.7587185322596817
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-063",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.7536772492068353,
+    "head_ratio": 2.7510595043400654,
+    "tail_ratio": 2.7588545028086147
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-079",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 0.6728222841466412,
+    "head_ratio": 0.6728566035618091,
+    "tail_ratio": 0.672802819792877
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-079",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 0.6721538204900629,
+    "head_ratio": 0.6720242960763819,
+    "tail_ratio": 0.6723251381105938
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-079",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 0.6718308163531393,
+    "head_ratio": 0.6717642286653535,
+    "tail_ratio": 0.7727490504514319
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-079",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 0.8220269844829634,
+    "head_ratio": 0.80130812941168,
+    "tail_ratio": 0.8302410984828742
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-079",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 0.8029687367613891,
+    "head_ratio": 0.7889760975171755,
+    "tail_ratio": 0.8134377905376973
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-079",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 0.6733424932776453,
+    "head_ratio": 0.6733496148377791,
+    "tail_ratio": 0.6731990767794556
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-081",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4916311260356776,
+    "head_ratio": 1.492682339535734,
+    "tail_ratio": 1.492495206541718
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-081",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4928960006792724,
+    "head_ratio": 1.4929088153635663,
+    "tail_ratio": 1.4921731932084779
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-081",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.5509357113278082,
+    "head_ratio": 1.5160420533659738,
+    "tail_ratio": 1.5256020440789397
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-081",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.5333608992747085,
+    "head_ratio": 1.496234854775185,
+    "tail_ratio": 1.4958291304275615
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-081",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.48871261591574,
+    "head_ratio": 1.530377456948638,
+    "tail_ratio": 1.5646165262021234
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-081",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.490976922566863,
+    "head_ratio": 1.491517929258462,
+    "tail_ratio": 1.491352075643307
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-088",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4930852245351467,
+    "head_ratio": 1.4935544638526956,
+    "tail_ratio": 1.493129711697037
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-088",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4898386647276824,
+    "head_ratio": 1.489748784901524,
+    "tail_ratio": 1.488758405602189
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-088",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.5126567586365136,
+    "head_ratio": 1.5242696821261121,
+    "tail_ratio": 1.506292942047188
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-088",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.5032366457478876,
+    "head_ratio": 1.488765019040708,
+    "tail_ratio": 1.468632608272766
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-088",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4411255116612087,
+    "head_ratio": 1.4892177147149837,
+    "tail_ratio": 1.4273960251544926
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-088",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.476043115240618,
+    "head_ratio": 1.476612911642232,
+    "tail_ratio": 1.4763400254414811
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-090",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.6461567367572036,
+    "head_ratio": 1.6465874891503425,
+    "tail_ratio": 1.6462515727616773
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-090",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.6445913082201733,
+    "head_ratio": 1.6447844644603549,
+    "tail_ratio": 1.6444418782999781
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-090",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.048512871446595,
+    "head_ratio": 2.01312006272232,
+    "tail_ratio": 1.9882181161724768
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-090",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.9729465458101654,
+    "head_ratio": 2.03019941931246,
+    "tail_ratio": 2.019183023127975
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-090",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.6952955826208918,
+    "head_ratio": 1.941480054181363,
+    "tail_ratio": 1.6467028905968895
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-090",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.6458841557781185,
+    "head_ratio": 1.6458582833715483,
+    "tail_ratio": 1.6459730048214027
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-091",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 3.511761277189671,
+    "head_ratio": 3.5452403437191107,
+    "tail_ratio": 3.5199784776848295
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-091",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 3.548524409996853,
+    "head_ratio": 3.5326360551504945,
+    "tail_ratio": 3.540100572615812
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-091",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 3.633849408385579,
+    "head_ratio": 3.6746433439236643,
+    "tail_ratio": 3.6136885396778613
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-091",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 3.6524946707462673,
+    "head_ratio": 3.650021099171959,
+    "tail_ratio": 3.649909612724504
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-091",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 3.499697273098533,
+    "head_ratio": 3.5176823882899955,
+    "tail_ratio": 2.45627559199901
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-091",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 3.5467125819121157,
+    "head_ratio": 3.5491419899160968,
+    "tail_ratio": 3.5304903927858335
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-092",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.6916808023734475,
+    "head_ratio": 4.750659649798187,
+    "tail_ratio": 4.697905720755781
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-092",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.691146060042112,
+    "head_ratio": 4.74475767426975,
+    "tail_ratio": 4.688338809923486
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-092",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.809990506490005,
+    "head_ratio": 4.806875248847275,
+    "tail_ratio": 4.802462751283123
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-092",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.981557111549775,
+    "head_ratio": 4.957238039186161,
+    "tail_ratio": 4.942175142839213
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-092",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.6746815834423865,
+    "head_ratio": 4.742426610810642,
+    "tail_ratio": 4.680228069863036
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-092",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 4.727752463554002,
+    "head_ratio": 4.738190782598533,
+    "tail_ratio": 4.696855072462385
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-093",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4280055530448033,
+    "head_ratio": 1.427873645014404,
+    "tail_ratio": 1.42806530861676
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-093",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4298679088702042,
+    "head_ratio": 1.430005457725115,
+    "tail_ratio": 1.4300145733431833
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-093",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4285827963361122,
+    "head_ratio": 1.422853824004442,
+    "tail_ratio": 1.4388784854655363
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-093",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4073956247336183,
+    "head_ratio": 1.4037681241225355,
+    "tail_ratio": 1.4068781133212325
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-093",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.4286109619072893,
+    "head_ratio": 1.428855922095415,
+    "tail_ratio": 1.429325553572602
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-093",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.425999724954494,
+    "head_ratio": 1.4260031944284497,
+    "tail_ratio": 1.4264408138951374
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-094",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.196113497303718,
+    "head_ratio": 1.1960610532145104,
+    "tail_ratio": 1.1959582446595656
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-094",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1967414773014677,
+    "head_ratio": 1.196782425889304,
+    "tail_ratio": 1.1968365689490619
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-094",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.2339866722945934,
+    "head_ratio": 1.2524382575950859,
+    "tail_ratio": 1.2585101382280286
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-094",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.2660412653714077,
+    "head_ratio": 1.2504144440102178,
+    "tail_ratio": 1.2649417678147876
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-094",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1956688617412254,
+    "head_ratio": 1.1957753662304174,
+    "tail_ratio": 1.19580133141997
+  },
+  {
+    "suite": "grouped",
+    "case_id": "grouped-094",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1979364250877464,
+    "head_ratio": 1.1980070739284832,
+    "tail_ratio": 1.1979033205484753
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-007",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1962491702277724,
+    "head_ratio": 1.2117275659024516,
+    "tail_ratio": 1.2028846425870419
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-007",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1923886344523933,
+    "head_ratio": 1.1965357687345808,
+    "tail_ratio": 1.1864183508312074
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-007",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1847325925850039,
+    "head_ratio": 1.128500181367188,
+    "tail_ratio": 1.0793329010042376
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-007",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1913073954406106,
+    "head_ratio": 1.197483978504835,
+    "tail_ratio": 1.2122508661992217
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-007",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1982624167924214,
+    "head_ratio": 1.2091858846342296,
+    "tail_ratio": 1.2073534272212507
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-007",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.190855313401547,
+    "head_ratio": 1.2056206436891277,
+    "tail_ratio": 1.190109884671625
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-008",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.5699377902757123,
+    "head_ratio": 1.5679954726902219,
+    "tail_ratio": 1.5697532004633195
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-008",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.5225981519104783,
+    "head_ratio": 1.525018736238788,
+    "tail_ratio": 1.5261781982099836
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-008",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.527302386383816,
+    "head_ratio": 1.6656362547545085,
+    "tail_ratio": 1.6576905520749166
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-008",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.5786494300840601,
+    "head_ratio": 1.5221426898056256,
+    "tail_ratio": 1.577029329144583
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-008",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.5672160743572163,
+    "head_ratio": 1.5694562376990355,
+    "tail_ratio": 1.5667277506824961
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-008",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.5821478800990074,
+    "head_ratio": 1.586175984806572,
+    "tail_ratio": 1.5857390136323655
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-009",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.358568448795839,
+    "head_ratio": 1.3563369753478203,
+    "tail_ratio": 1.336162002933144
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-009",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.317292917827786,
+    "head_ratio": 1.3160755505828208,
+    "tail_ratio": 1.3153957260202989
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-009",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.3536442216424032,
+    "head_ratio": 1.358058230684681,
+    "tail_ratio": 1.3459781427873079
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-009",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.3295849265046573,
+    "head_ratio": 1.3485745861919833,
+    "tail_ratio": 1.3302332350386012
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-009",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.3389757326868568,
+    "head_ratio": 1.3376505629853679,
+    "tail_ratio": 1.3390110067206247
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-009",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.289690338710831,
+    "head_ratio": 1.288297523925629,
+    "tail_ratio": 1.288544819609621
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-010",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.260345643525308,
+    "head_ratio": 1.29309593515454,
+    "tail_ratio": 1.290051826343011
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-010",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.2865187504517561,
+    "head_ratio": 1.292640065873615,
+    "tail_ratio": 1.2601642665599257
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-010",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.3040053789070372,
+    "head_ratio": 1.308761448318279,
+    "tail_ratio": 1.3023284215530535
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-010",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.2772142949643588,
+    "head_ratio": 1.3143073268413707,
+    "tail_ratio": 1.274572583567577
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-010",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.2813545180418997,
+    "head_ratio": 1.2900576386422447,
+    "tail_ratio": 1.2895992220736794
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-010",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.2946306390560143,
+    "head_ratio": 1.2949005013939168,
+    "tail_ratio": 1.2675328131376307
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-011",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1938500033988613,
+    "head_ratio": 1.1931777167540472,
+    "tail_ratio": 1.1932014813006968
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-011",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.19761573679255,
+    "head_ratio": 1.1971634964588211,
+    "tail_ratio": 1.1958515956558198
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-011",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.2220995679845181,
+    "head_ratio": 1.2226545333741008,
+    "tail_ratio": 1.221840474902749
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-011",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1570161614642906,
+    "head_ratio": 1.1678328176862898,
+    "tail_ratio": 1.1583490245873436
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-011",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1781761373869553,
+    "head_ratio": 1.1789735686719944,
+    "tail_ratio": 1.1779525348160542
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-011",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.1903964154545603,
+    "head_ratio": 1.1907120002743135,
+    "tail_ratio": 1.1819340187736374
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-012",
+    "block": 0,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.7709800527809718,
+    "head_ratio": 1.7741486390537697,
+    "tail_ratio": 1.7766220332975466
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-012",
+    "block": 1,
+    "metric": "device_interval_ms",
+    "primary_ratio": 3.944757966793392,
+    "head_ratio": 4.013811095755798,
+    "tail_ratio": 4.036291441870945
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-012",
+    "block": 2,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.7421112263411178,
+    "head_ratio": 1.7353619365475192,
+    "tail_ratio": 1.7464983229250517
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-012",
+    "block": 3,
+    "metric": "device_interval_ms",
+    "primary_ratio": 1.7370071428597988,
+    "head_ratio": 1.7639402130408208,
+    "tail_ratio": 1.8290404413472827
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-012",
+    "block": 4,
+    "metric": "device_interval_ms",
+    "primary_ratio": 2.5655693673656015,
+    "head_ratio": 2.5628049675862425,
+    "tail_ratio": 2.565064749958911
+  },
+  {
+    "suite": "heterogeneous_k",
+    "case_id": "heterogeneous_k-012",
+    "block": 5,
+    "metric": "device_interval_ms",
+    "primary_ratio": 3.9050145314068603,
+    "head_ratio": 3.818674182849364,
+    "tail_ratio": 3.9065372497825757
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-007",
+    "block": 0,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 3.1157873706404993,
+    "head_ratio": 3.1395631141958837,
+    "tail_ratio": 3.1141323694570704
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-007",
+    "block": 1,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 3.05348691710253,
+    "head_ratio": 3.0793709784212613,
+    "tail_ratio": 3.08315434048805
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-007",
+    "block": 2,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 3.057719810320909,
+    "head_ratio": 3.0775333221076258,
+    "tail_ratio": 3.057439844346257
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-007",
+    "block": 3,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 3.0624243664437496,
+    "head_ratio": 3.108724661814051,
+    "tail_ratio": 3.062222112776631
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-007",
+    "block": 4,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 3.1168272408929054,
+    "head_ratio": 3.1166817414012242,
+    "tail_ratio": 3.115949981133625
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-007",
+    "block": 5,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 3.1175689098061596,
+    "head_ratio": 3.1168423875059226,
+    "tail_ratio": 3.111504686926597
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-008",
+    "block": 0,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 3.7519637597440396,
+    "head_ratio": 3.7101490689706558,
+    "tail_ratio": 3.7617005751570605
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-008",
+    "block": 1,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 3.655909960492366,
+    "head_ratio": 3.6634064380997153,
+    "tail_ratio": 3.685572209848828
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-008",
+    "block": 2,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 3.6746600354153265,
+    "head_ratio": 3.6585020215024713,
+    "tail_ratio": 3.6739543133990846
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-008",
+    "block": 3,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 3.6560734189523956,
+    "head_ratio": 3.6625625394515215,
+    "tail_ratio": 3.6705809556921722
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-008",
+    "block": 4,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 3.7328853455257605,
+    "head_ratio": 3.722575786975817,
+    "tail_ratio": 3.7158039114583215
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-008",
+    "block": 5,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 3.7160443496077793,
+    "head_ratio": 3.7091843387480554,
+    "tail_ratio": 3.6962494301354503
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-009",
+    "block": 0,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 1.7536948120640274,
+    "head_ratio": 1.753695592197968,
+    "tail_ratio": 1.7519752694737265
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-009",
+    "block": 1,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 1.604540686005495,
+    "head_ratio": 1.6069968543678939,
+    "tail_ratio": 1.1207508257867165
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-009",
+    "block": 2,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 0.6355836048736712,
+    "head_ratio": 1.4802106672137587,
+    "tail_ratio": 0.6353015192649405
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-009",
+    "block": 3,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 1.7293186162328433,
+    "head_ratio": 1.7267444172531585,
+    "tail_ratio": 1.7341995418237866
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-009",
+    "block": 4,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 1.6302811025634019,
+    "head_ratio": 1.6339708399654433,
+    "tail_ratio": 1.640729416674943
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-009",
+    "block": 5,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 0.6387235075696919,
+    "head_ratio": 1.5231377446321408,
+    "tail_ratio": 0.6355349724635964
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-016",
+    "block": 0,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 3.6032451947384887,
+    "head_ratio": 3.603453830626215,
+    "tail_ratio": 3.596847126220312
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-016",
+    "block": 1,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 3.463467131431325,
+    "head_ratio": 3.494540354412835,
+    "tail_ratio": 3.4985275082162595
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-016",
+    "block": 2,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 3.5327735750297333,
+    "head_ratio": 3.5252201989002905,
+    "tail_ratio": 3.495451369852442
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-016",
+    "block": 3,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 3.5042345537278607,
+    "head_ratio": 3.502202157653897,
+    "tail_ratio": 3.5008595458415264
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-016",
+    "block": 4,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 3.5017788903042613,
+    "head_ratio": 3.502884470716947,
+    "tail_ratio": 3.5010887693079384
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-016",
+    "block": 5,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 3.572807992732791,
+    "head_ratio": 3.5937722444775595,
+    "tail_ratio": 3.5144882537407436
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-017",
+    "block": 0,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 0.6669884632305593,
+    "head_ratio": 0.666998953270136,
+    "tail_ratio": 0.666839786155128
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-017",
+    "block": 1,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 0.6842287612423671,
+    "head_ratio": 0.684305069589888,
+    "tail_ratio": 0.6842011469570181
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-017",
+    "block": 2,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 0.7449501093978393,
+    "head_ratio": 0.7390735899515669,
+    "tail_ratio": 0.7228630361562317
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-017",
+    "block": 3,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 0.6658577072477312,
+    "head_ratio": 0.6660948870914022,
+    "tail_ratio": 0.6661109355829135
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-017",
+    "block": 4,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 0.6841768379966242,
+    "head_ratio": 0.6841015873801474,
+    "tail_ratio": 0.6840517381139288
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-017",
+    "block": 5,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 0.689688925690717,
+    "head_ratio": 0.6898303560970535,
+    "tail_ratio": 0.689609019791148
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-024",
+    "block": 0,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 1.1239879309623224,
+    "head_ratio": 1.1458210364186394,
+    "tail_ratio": 1.1044317155532188
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-024",
+    "block": 1,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 1.2363935344651051,
+    "head_ratio": 1.151384299105087,
+    "tail_ratio": 1.1005337122165435
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-024",
+    "block": 2,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 1.1044891221159463,
+    "head_ratio": 1.1196350630940606,
+    "tail_ratio": 1.1030560770185172
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-024",
+    "block": 3,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 1.1022655267889176,
+    "head_ratio": 1.1123573862065284,
+    "tail_ratio": 1.118140701743414
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-024",
+    "block": 4,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 1.1050309066777664,
+    "head_ratio": 1.1716360070264134,
+    "tail_ratio": 1.1356988584151984
+  },
+  {
+    "suite": "moe_layer",
+    "case_id": "moe_layer-024",
+    "block": 5,
+    "metric": "operator_or_layer_ready_ms",
+    "primary_ratio": 1.1034222651347325,
+    "head_ratio": 1.235807938821597,
+    "tail_ratio": 1.1054363004314707
+  }
+]

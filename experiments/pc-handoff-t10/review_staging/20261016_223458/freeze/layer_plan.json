@@ -1,0 +1,168 @@
+{
+  "gemm": [
+    {
+      "case_id": "F001",
+      "M": 1,
+      "N": 3584,
+      "K": 1024,
+      "source": "LLM_SHAPED_OPERATOR_CHAIN",
+      "shape_origin": "local Qwen35 GGUF metadata",
+      "dag": "linear P/R -> SiLU and FP16 conversion -> second cuBLAS linear (FP32 output)",
+      "full_model": false
+    },
+    {
+      "case_id": "F002",
+      "M": 16,
+      "N": 3584,
+      "K": 1024,
+      "source": "LLM_SHAPED_OPERATOR_CHAIN",
+      "shape_origin": "local Qwen35 GGUF metadata",
+      "dag": "linear P/R -> SiLU and FP16 conversion -> second cuBLAS linear (FP32 output)",
+      "full_model": false
+    },
+    {
+      "case_id": "F003",
+      "M": 128,
+      "N": 3584,
+      "K": 1024,
+      "source": "LLM_SHAPED_OPERATOR_CHAIN",
+      "shape_origin": "local Qwen35 GGUF metadata",
+      "dag": "linear P/R -> SiLU and FP16 conversion -> second cuBLAS linear (FP32 output)",
+      "full_model": false
+    },
+    {
+      "case_id": "F004",
+      "M": 1,
+      "N": 11008,
+      "K": 4096,
+      "source": "LLM_SHAPED_OPERATOR_CHAIN",
+      "shape_origin": "predeclared synthetic larger FFN shape",
+      "dag": "linear P/R -> SiLU and FP16 conversion -> second cuBLAS linear (FP32 output)",
+      "full_model": false
+    },
+    {
+      "case_id": "F005",
+      "M": 16,
+      "N": 11008,
+      "K": 4096,
+      "source": "LLM_SHAPED_OPERATOR_CHAIN",
+      "shape_origin": "predeclared synthetic larger FFN shape",
+      "dag": "linear P/R -> SiLU and FP16 conversion -> second cuBLAS linear (FP32 output)",
+      "full_model": false
+    },
+    {
+      "case_id": "F006",
+      "M": 128,
+      "N": 11008,
+      "K": 4096,
+      "source": "LLM_SHAPED_OPERATOR_CHAIN",
+      "shape_origin": "predeclared synthetic larger FFN shape",
+      "dag": "linear P/R -> SiLU and FP16 conversion -> second cuBLAS linear (FP32 output)",
+      "full_model": false
+    }
+  ],
+  "attention": [
+    {
+      "case_id": "D001",
+      "batch": 1,
+      "kv_length": 1024,
+      "query_heads": 16,
+      "kv_heads": 16,
+      "head_dim": 64,
+      "source": "LLM_SHAPED_OPERATOR_CHAIN",
+      "dynamic_valid_lengths": [
+        256,
+        512,
+        1024
+      ],
+      "dag": "current Q copy and KV append -> native SDPA with current length mask -> output projection -> residual",
+      "full_model": false
+    },
+    {
+      "case_id": "D002",
+      "batch": 4,
+      "kv_length": 4096,
+      "query_heads": 16,
+      "kv_heads": 16,
+      "head_dim": 64,
+      "source": "LLM_SHAPED_OPERATOR_CHAIN",
+      "dynamic_valid_lengths": [
+        1024,
+        2048,
+        4096
+      ],
+      "dag": "current Q copy and KV append -> native SDPA with current length mask -> output projection -> residual",
+      "full_model": false
+    },
+    {
+      "case_id": "D003",
+      "batch": 1,
+      "kv_length": 16384,
+      "query_heads": 16,
+      "kv_heads": 16,
+      "head_dim": 64,
+      "source": "LLM_SHAPED_OPERATOR_CHAIN",
+      "dynamic_valid_lengths": [
+        4096,
+        8192,
+        16384
+      ],
+      "dag": "current Q copy and KV append -> native SDPA with current length mask -> output projection -> residual",
+      "full_model": false
+    },
+    {
+      "case_id": "D004",
+      "batch": 1,
+      "kv_length": 1024,
+      "query_heads": 32,
+      "kv_heads": 8,
+      "head_dim": 128,
+      "source": "LLM_SHAPED_OPERATOR_CHAIN",
+      "dynamic_valid_lengths": [
+        256,
+        512,
+        1024
+      ],
+      "dag": "current Q copy and KV append -> native SDPA with current length mask -> output projection -> residual",
+      "full_model": false
+    },
+    {
+      "case_id": "D005",
+      "batch": 4,
+      "kv_length": 4096,
+      "query_heads": 32,
+      "kv_heads": 8,
+      "head_dim": 128,
+      "source": "LLM_SHAPED_OPERATOR_CHAIN",
+      "dynamic_valid_lengths": [
+        1024,
+        2048,
+        4096
+      ],
+      "dag": "current Q copy and KV append -> native SDPA with current length mask -> output projection -> residual",
+      "full_model": false
+    },
+    {
+      "case_id": "D006",
+      "batch": 1,
+      "kv_length": 16384,
+      "query_heads": 32,
+      "kv_heads": 8,
+      "head_dim": 128,
+      "source": "LLM_SHAPED_OPERATOR_CHAIN",
+      "dynamic_valid_lengths": [
+        4096,
+        8192,
+        16384
+      ],
+      "dag": "current Q copy and KV append -> native SDPA with current length mask -> output projection -> residual",
+      "full_model": false
+    }
+  ],
+  "predeclared_before_candidate_results": true,
+  "ragged_amendment_before_E4_E5": {
+    "timestamp": "2026-10-16T12:52:33.398973+00:00",
+    "rule": "For each current request r, batch sequence b uses choices[(r+b)%3]; append at its own valid_length-1. All copies and length-mask update timed. No candidate output inspected.",
+    "reason": "B>1 requires within-batch ragged lengths, not only a batch-uniform varying scalar."
+  }
+}

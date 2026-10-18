@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "expected": {
+    "aa_episodes": 24,
+    "calibration_quartets": 1152,
+    "card_episodes": 384,
+    "formal_quartets": 1152,
+    "direct_quartets": 144,
+    "formal_AA_quartets": 168,
+    "lifecycle_phases": 72,
+    "lifecycle_H_records": 288,
+    "lifecycle_sample_records": 288,
+    "tuner_quartets": 288
+  },
+  "actual": {
+    "aa_episodes": 24,
+    "calibration_quartets": 1152,
+    "card_episodes": 384,
+    "formal_quartets": 1152,
+    "direct_quartets": 144,
+    "formal_AA_quartets": 168,
+    "deployment_phases_by_stage": {
+      "S5_BINDING": 12,
+      "S5_FFN": 30,
+      "S5_OOD": 36,
+      "S5_TRACE": 90
+    },
+    "ffn_aliases": 66,
+    "lifecycle_phases": 72,
+    "lifecycle_H_records": 288,
+    "lifecycle_sample_records": 288,
+    "tuner_quartets": 288
+  },
+  "stage_gpu_minutes": {
+    "S0": 0.0,
+    "S1": 12.908408803300699,
+    "S2": 57.891934843316754,
+    "S3": 0.0,
+    "S4": 57.99362229536734,
+    "S5": 41.69548148513422,
+    "S6": 0.12262758736712082
+  },
+  "new_gpu_minutes": 170.61207501448612,
+  "cumulative_selective_gpu_minutes": 240.7838812511686,
+  "wall_minutes": 190.51943731648305,
+  "formal_scope": {
+    "case_ids": [
+      "V01",
+      "V03",
+      "V05",
+      "V07",
+      "V09",
+      "V11",
+      "V13",
+      "V15",
+      "R_G002",
+      "R_G008",
+      "R_G017",
+      "R_G039"
+    ],
+    "reduced": true,
+    "projected_full_worker_s": 6149.419499511463,
+    "projection_method": "Twice the three observed development worker costs plus 144 direct quartets at development mean; conservative 5min stage margin. No candidate win/loss used.",
+    "remaining_gpu_s": 10151.979381202953,
+    "elapsed_wall_s": 4890.851766878972,
+    "direct_cases": [
+      "V01",
+      "V06",
+      "V11",
+      "V16"
+    ],
+    "untimed_action_tables": [
+      "V02",
+      "V04",
+      "V06",
+      "V08",
+      "V10",
+      "V12",
+      "V14",
+      "V16",
+      "R_G005",
+      "R_G012",
+      "R_G021",
+      "R_G026"
+    ],
+    "main_pairs_expected": 1152,
+    "direct_quartets_expected": 144,
+    "AA_expected": 168,
+    "created_at": "2026-10-17T03:34:10.623432+00:00"
+  },
+  "full_cold_start_cost": "NA_UNSEPARATED_COMPONENTS_DOCUMENTED",
+  "clock_locked_condition": "NA_NO_NONINTERACTIVE_MANAGEMENT"
+}

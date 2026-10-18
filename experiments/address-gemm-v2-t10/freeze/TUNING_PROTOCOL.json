@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-10-17T14:03:42.948723+00:00",
+  "reason": "Original fixed recipes leave a large gap to cuBLAS; verify fusion against tuned ordinary CUTLASS, not only the old recipe.",
+  "recipes": [
+    0,
+    2
+  ],
+  "splits": [
+    2,
+    4,
+    8,
+    16
+  ],
+  "implementations": [
+    "NATIVE",
+    "FUSED"
+  ],
+  "development_processes": 2,
+  "confirmation_processes": 6,
+  "offsets_bytes": [
+    0,
+    69632
+  ],
+  "development_blocks": 12,
+  "confirmation_blocks": 30,
+  "replays_development": 4,
+  "replays_confirmation": 8,
+  "selection": "Per shape: independently select fastest native recipe and fastest fused recipe by geometric mean GPU time / cuBLAS across two dev processes and both offsets. Freeze a best-of-native/fused/LIB route using development only. Confirmation includes matched native at the fused recipe, both old recipes, and cuBLAS.",
+  "shared_worker_budget_seconds": 1800,
+  "additional_budget": 0,
+  "no_filtering": true
+}

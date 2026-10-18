@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-15T18:15:32.131257+00:00",
+  "central_ratios_recomputed": 112,
+  "max_ratio_difference": 2.220446049250313e-16,
+  "all_measured_phase_count": 2010,
+  "phase_numerical_summaries": 22674,
+  "same_body_equality_phase_summaries": 1440,
+  "source_versions": {
+    "src/same_q_v2/libopf_grouped.so": [
+      "280fedad550e48a44cea6b2b8721748996afa8cca975b2d0f2e33572a2aa3037"
+    ],
+    "src/same_q_v2/q1_minimal.h": [
+      "7eb81505a22649b290254d13b3e7670454881fb1828e67077ad4b0c55e17fd9b"
+    ],
+    "src/same_q_v2/packet_visitor.h": [
+      "94881dd8749baff3169d0e937042245cd8ddcd8e94c1e99b6c8c317865ff2dd7"
+    ],
+    "src/same_q_v2/backend.cu": [
+      "fe9373c7fdd434e9ee5147caa7cb67ee520f267d387f0dcb4dc2afd9b4c70282"
+    ]
+  },
+  "old_prefix_sha256": "895ab4069cd3b77671750ac9d9176ecdbcb59e3a7b94be70035d4885ca33589a",
+  "wall_elapsed_seconds_at_audit": 4021.297275,
+  "new_worker_seconds": 3217.168096108071,
+  "total_worker_seconds": 22907.38329251905,
+  "scope": "CPU raw-summary recomputation and source/accounting audit, not independent tensor reproduction"
+}

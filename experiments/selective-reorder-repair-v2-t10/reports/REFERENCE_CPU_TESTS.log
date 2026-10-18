@@ -1,0 +1,35 @@
+test_common_base (test_reference.DecisionTests.test_common_base) ... ok
+test_identity_keeps_lib (test_reference.DecisionTests.test_identity_keeps_lib) ... ok
+test_init_short_long (test_reference.DecisionTests.test_init_short_long) ... ok
+test_large_prediction_risk_rejects (test_reference.DecisionTests.test_large_prediction_risk_rejects) ... ok
+test_missing_setup_not_zero (test_reference.DecisionTests.test_missing_setup_not_zero) ... ok
+test_no_force_pc (test_reference.DecisionTests.test_no_force_pc) ... ok
+test_ood_before_model (test_reference.DecisionTests.test_ood_before_model) ... ok
+test_pc_vs_true_base (test_reference.DecisionTests.test_pc_vs_true_base) ... ok
+test_scale_invariance_zero_cost (test_reference.DecisionTests.test_scale_invariance_zero_cost) ... ok
+test_small_request_not_absolute_block (test_reference.DecisionTests.test_small_request_not_absolute_block) ... ok
+test_unknown_horizon_not_free (test_reference.DecisionTests.test_unknown_horizon_not_free) ... ok
+test_additive_effect_zero (test_reference.ModelTests.test_additive_effect_zero) ... ok
+test_consistent_rename (test_reference.ModelTests.test_consistent_rename) ... ok
+test_epoch_mixing_rejected (test_reference.ModelTests.test_epoch_mixing_rejected) ... ok
+test_linear_is_log_ratio_not_exp_time (test_reference.ModelTests.test_linear_is_log_ratio_not_exp_time) ... ok
+test_toy_fit_shape_units_and_self_card (test_reference.ModelTests.test_toy_fit_shape_units_and_self_card) ... ok
+test_train_leakage_rejected (test_reference.ModelTests.test_train_leakage_rejected) ... ok
+test_abba (test_reference.PairedTests.test_abba) ... ok
+test_baab (test_reference.PairedTests.test_baab) ... ok
+test_bad_order (test_reference.PairedTests.test_bad_order) ... ok
+test_bad_times (test_reference.PairedTests.test_bad_times) ... ok
+test_bootstrap_unit (test_reference.PairedTests.test_bootstrap_unit) ... ok
+test_log_linear_drift (test_reference.PairedTests.test_log_linear_drift) ... ok
+test_same (test_reference.PairedTests.test_same) ... ok
+test_signed (test_reference.PairedTests.test_signed) ... ok
+test_aa_not_added (test_reference.RiskTests.test_aa_not_added) ... ok
+test_single_sided (test_reference.RiskTests.test_single_sided) ... ok
+test_small_large_separated (test_reference.RiskTests.test_small_large_separated) ... ok
+test_sparse_fallback_dimensionless (test_reference.RiskTests.test_sparse_fallback_dimensionless) ... ok
+test_strata (test_reference.RiskTests.test_strata) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.395s
+
+OK

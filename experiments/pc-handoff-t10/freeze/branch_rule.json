@@ -1,0 +1,5 @@
+{
+  "full_condition": "Four independent E2 bridge processes have aggregate M/LIB<1 and M/G<1; at least 3/4 process M/LIB<1. Identical M/G aliases cannot satisfy a strict advantage.",
+  "otherwise": "supplied fixed 12 test GEMM cases, six new blocks, CORE/G/M/P plus two LIB anchors, exact parameter aliases measured once",
+  "attention": "ADAPTER_MISSING branch if local mutable split-KV source unavailable; native operator and all six declared chains still required"
+}

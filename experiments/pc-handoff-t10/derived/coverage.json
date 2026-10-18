@@ -1,0 +1,404 @@
+[
+  {
+    "stage": "E1",
+    "phase_rows": 704,
+    "passed": 704,
+    "NA": 0,
+    "case_ids": [
+      "G001",
+      "G004",
+      "G007",
+      "G010",
+      "G013",
+      "G016",
+      "G019",
+      "G022",
+      "G025",
+      "G028",
+      "G031",
+      "G034",
+      "G037",
+      "G040",
+      "G043",
+      "G046"
+    ],
+    "blocks": [
+      0,
+      1
+    ],
+    "actual_measured_policies": [
+      "CORE",
+      "LIB",
+      "S1"
+    ],
+    "missing_PC_attention_policies": null
+  },
+  {
+    "stage": "E2_BRIDGE",
+    "phase_rows": 72,
+    "passed": 72,
+    "NA": 0,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "actual_measured_policies": [
+      "G",
+      "LIB",
+      "P"
+    ],
+    "missing_PC_attention_policies": null
+  },
+  {
+    "stage": "E2_COUNTERFACTUAL",
+    "phase_rows": 144,
+    "passed": 144,
+    "NA": 0,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "actual_measured_policies": [
+      "NATURAL",
+      "OTHER_WORKSPACE",
+      "REVERSE_C",
+      "REVERSE_SUBMIT",
+      "REVERSE_TASKS",
+      "SCRATCH"
+    ],
+    "missing_PC_attention_policies": null
+  },
+  {
+    "stage": "E2_MATRIX",
+    "phase_rows": 3072,
+    "passed": 3072,
+    "NA": 0,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "actual_measured_policies": [
+      "CELL"
+    ],
+    "missing_PC_attention_policies": null
+  },
+  {
+    "stage": "E3",
+    "phase_rows": 360,
+    "passed": 360,
+    "NA": 0,
+    "case_ids": [
+      "G002",
+      "G005",
+      "G008",
+      "G012",
+      "G017",
+      "G021",
+      "G026",
+      "G030",
+      "G035",
+      "G039",
+      "G044",
+      "G048"
+    ],
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "actual_measured_policies": [
+      "CORE",
+      "LIB",
+      "M",
+      "P"
+    ],
+    "missing_PC_attention_policies": null
+  },
+  {
+    "stage": "E4_NATIVE_DEVELOPMENT",
+    "phase_rows": 24,
+    "passed": 23,
+    "NA": 1,
+    "case_ids": [
+      "A001",
+      "A004",
+      "A007",
+      "A010",
+      "A013",
+      "A016",
+      "A019",
+      "A022",
+      "A025",
+      "A028",
+      "A031",
+      "A034"
+    ],
+    "blocks": [
+      0
+    ],
+    "actual_measured_policies": [
+      "EFFICIENT",
+      "MATH"
+    ],
+    "missing_PC_attention_policies": {
+      "CORE": "ADAPTER_MISSING",
+      "G": "ADAPTER_MISSING",
+      "M": "ADAPTER_MISSING",
+      "I": "ADAPTER_MISSING",
+      "L": "ADAPTER_MISSING",
+      "C": "ADAPTER_MISSING",
+      "P": "ADAPTER_MISSING"
+    }
+  },
+  {
+    "stage": "E4_NATIVE_TEST",
+    "phase_rows": 144,
+    "passed": 138,
+    "NA": 6,
+    "case_ids": [
+      "A002",
+      "A005",
+      "A008",
+      "A011",
+      "A014",
+      "A017",
+      "A020",
+      "A023",
+      "A026",
+      "A029",
+      "A032",
+      "A035"
+    ],
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "actual_measured_policies": [
+      "EFFICIENT",
+      "MATH"
+    ],
+    "missing_PC_attention_policies": {
+      "CORE": "ADAPTER_MISSING",
+      "G": "ADAPTER_MISSING",
+      "M": "ADAPTER_MISSING",
+      "I": "ADAPTER_MISSING",
+      "L": "ADAPTER_MISSING",
+      "C": "ADAPTER_MISSING",
+      "P": "ADAPTER_MISSING"
+    }
+  },
+  {
+    "stage": "E5_ATTENTION_CHAIN",
+    "phase_rows": 144,
+    "passed": 144,
+    "NA": 0,
+    "case_ids": [
+      "D001",
+      "D002",
+      "D003",
+      "D004",
+      "D005",
+      "D006"
+    ],
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "actual_measured_policies": [
+      "EFFICIENT",
+      "MATH"
+    ],
+    "missing_PC_attention_policies": {
+      "CORE": "ADAPTER_MISSING",
+      "G": "ADAPTER_MISSING",
+      "M": "ADAPTER_MISSING",
+      "I": "ADAPTER_MISSING",
+      "L": "ADAPTER_MISSING",
+      "C": "ADAPTER_MISSING",
+      "P": "ADAPTER_MISSING"
+    }
+  },
+  {
+    "stage": "E5_DEPENDENCY_INTERACTION",
+    "phase_rows": 72,
+    "passed": 72,
+    "NA": 0,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "actual_measured_policies": [
+      "F0_G",
+      "F1_G"
+    ],
+    "missing_PC_attention_policies": null
+  },
+  {
+    "stage": "E5_GEMM_CHAIN",
+    "phase_rows": 180,
+    "passed": 180,
+    "NA": 0,
+    "case_ids": [
+      "F001",
+      "F002",
+      "F003",
+      "F004",
+      "F005",
+      "F006"
+    ],
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "actual_measured_policies": [
+      "CORE",
+      "LIB",
+      "M"
+    ],
+    "missing_PC_attention_policies": null
+  },
+  {
+    "stage": "E5_LAYOUT_INTERACTION",
+    "phase_rows": 72,
+    "passed": 72,
+    "NA": 0,
+    "case_ids": [
+      "G001",
+      "G016",
+      "G025",
+      "G034",
+      "G043",
+      "G046"
+    ],
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "actual_measured_policies": [
+      "LAYOUT0_NEUTRAL",
+      "LAYOUT1_NEUTRAL"
+    ],
+    "missing_PC_attention_policies": null
+  },
+  {
+    "stage": "E5_SPLIT_WORKSPACE",
+    "phase_rows": 48,
+    "passed": 48,
+    "NA": 0,
+    "case_ids": [
+      "G016",
+      "G025",
+      "G046"
+    ],
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "actual_measured_policies": [
+      "M",
+      "P"
+    ],
+    "missing_PC_attention_policies": null
+  },
+  {
+    "stage": "QUALIFICATION",
+    "phase_rows": 10,
+    "passed": 10,
+    "NA": 0,
+    "case_ids": [
+      "QUAL0",
+      "QUAL1",
+      "QUAL2",
+      "RAGGED0",
+      "RAGGED1"
+    ],
+    "blocks": [
+      0
+    ],
+    "actual_measured_policies": [
+      "EFFICIENT",
+      "MATH"
+    ],
+    "missing_PC_attention_policies": null
+  },
+  {
+    "stage": "QUALIFICATION_METADATA",
+    "phase_rows": 2,
+    "passed": 2,
+    "NA": 0,
+    "case_ids": [
+      "DAG_ATTENTION"
+    ],
+    "blocks": [
+      0
+    ],
+    "actual_measured_policies": [
+      "EFFICIENT",
+      "MATH"
+    ],
+    "missing_PC_attention_policies": null
+  }
+]

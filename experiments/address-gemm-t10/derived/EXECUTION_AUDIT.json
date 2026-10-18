@@ -1,0 +1,602 @@
+{
+  "actual_execution_sources": [
+    {
+      "process": 0,
+      "source": "src/backend.cu",
+      "sha256": "b50cdb993902cbdb59ed77f53fd04ba29a8c3cb33c2251edba93b452f6b39710"
+    },
+    {
+      "process": 0,
+      "source": "src/backend.py",
+      "sha256": "3fc60d4355daab28781878fde112cb903edd51baa15b2f3b32f1f8140efe46b8"
+    },
+    {
+      "process": 0,
+      "source": "src/address_kernels.cu",
+      "sha256": "b9874ba0c04cb3d213a3632d210ec6159054a015291debeb146e98ef415a4b92"
+    },
+    {
+      "process": 0,
+      "source": "src/experiment.py",
+      "sha256": "2b923858f6e29808dcb02a1b89497c30231baa13b0d726b60a863849c31d1ace"
+    },
+    {
+      "process": 0,
+      "source": "src/schedule.py",
+      "sha256": "79dae6157c3ec089ee86fbb4209ef99ca9b562548f9d76851f4ed621a1a5069a"
+    },
+    {
+      "process": 0,
+      "source": "src/worker.py",
+      "sha256": "8ec9b8a1e7716605f174f2f2d0a9640429fa75563fdb1867637fc857e5925c47"
+    },
+    {
+      "process": 0,
+      "source": "src/common.py",
+      "sha256": "b17fa3a27ab31ab646bbed02b8ce560b9bc36e98057db788934e76b96eee7bf4"
+    },
+    {
+      "process": 1,
+      "source": "src/backend.cu",
+      "sha256": "b50cdb993902cbdb59ed77f53fd04ba29a8c3cb33c2251edba93b452f6b39710"
+    },
+    {
+      "process": 1,
+      "source": "src/backend.py",
+      "sha256": "3fc60d4355daab28781878fde112cb903edd51baa15b2f3b32f1f8140efe46b8"
+    },
+    {
+      "process": 1,
+      "source": "src/address_kernels.cu",
+      "sha256": "b9874ba0c04cb3d213a3632d210ec6159054a015291debeb146e98ef415a4b92"
+    },
+    {
+      "process": 1,
+      "source": "src/experiment.py",
+      "sha256": "2b923858f6e29808dcb02a1b89497c30231baa13b0d726b60a863849c31d1ace"
+    },
+    {
+      "process": 1,
+      "source": "src/schedule.py",
+      "sha256": "79dae6157c3ec089ee86fbb4209ef99ca9b562548f9d76851f4ed621a1a5069a"
+    },
+    {
+      "process": 1,
+      "source": "src/worker.py",
+      "sha256": "8ec9b8a1e7716605f174f2f2d0a9640429fa75563fdb1867637fc857e5925c47"
+    },
+    {
+      "process": 1,
+      "source": "src/common.py",
+      "sha256": "b17fa3a27ab31ab646bbed02b8ce560b9bc36e98057db788934e76b96eee7bf4"
+    },
+    {
+      "process": 2,
+      "source": "src/backend.cu",
+      "sha256": "b50cdb993902cbdb59ed77f53fd04ba29a8c3cb33c2251edba93b452f6b39710"
+    },
+    {
+      "process": 2,
+      "source": "src/backend.py",
+      "sha256": "3fc60d4355daab28781878fde112cb903edd51baa15b2f3b32f1f8140efe46b8"
+    },
+    {
+      "process": 2,
+      "source": "src/address_kernels.cu",
+      "sha256": "b9874ba0c04cb3d213a3632d210ec6159054a015291debeb146e98ef415a4b92"
+    },
+    {
+      "process": 2,
+      "source": "src/experiment.py",
+      "sha256": "2b923858f6e29808dcb02a1b89497c30231baa13b0d726b60a863849c31d1ace"
+    },
+    {
+      "process": 2,
+      "source": "src/schedule.py",
+      "sha256": "79dae6157c3ec089ee86fbb4209ef99ca9b562548f9d76851f4ed621a1a5069a"
+    },
+    {
+      "process": 2,
+      "source": "src/worker.py",
+      "sha256": "8ec9b8a1e7716605f174f2f2d0a9640429fa75563fdb1867637fc857e5925c47"
+    },
+    {
+      "process": 2,
+      "source": "src/common.py",
+      "sha256": "b17fa3a27ab31ab646bbed02b8ce560b9bc36e98057db788934e76b96eee7bf4"
+    },
+    {
+      "process": 3,
+      "source": "src/backend.cu",
+      "sha256": "b50cdb993902cbdb59ed77f53fd04ba29a8c3cb33c2251edba93b452f6b39710"
+    },
+    {
+      "process": 3,
+      "source": "src/backend.py",
+      "sha256": "3fc60d4355daab28781878fde112cb903edd51baa15b2f3b32f1f8140efe46b8"
+    },
+    {
+      "process": 3,
+      "source": "src/address_kernels.cu",
+      "sha256": "b9874ba0c04cb3d213a3632d210ec6159054a015291debeb146e98ef415a4b92"
+    },
+    {
+      "process": 3,
+      "source": "src/experiment.py",
+      "sha256": "2b923858f6e29808dcb02a1b89497c30231baa13b0d726b60a863849c31d1ace"
+    },
+    {
+      "process": 3,
+      "source": "src/schedule.py",
+      "sha256": "79dae6157c3ec089ee86fbb4209ef99ca9b562548f9d76851f4ed621a1a5069a"
+    },
+    {
+      "process": 3,
+      "source": "src/worker.py",
+      "sha256": "8ec9b8a1e7716605f174f2f2d0a9640429fa75563fdb1867637fc857e5925c47"
+    },
+    {
+      "process": 3,
+      "source": "src/common.py",
+      "sha256": "b17fa3a27ab31ab646bbed02b8ce560b9bc36e98057db788934e76b96eee7bf4"
+    },
+    {
+      "process": 4,
+      "source": "src/backend.cu",
+      "sha256": "b50cdb993902cbdb59ed77f53fd04ba29a8c3cb33c2251edba93b452f6b39710"
+    },
+    {
+      "process": 4,
+      "source": "src/backend.py",
+      "sha256": "3fc60d4355daab28781878fde112cb903edd51baa15b2f3b32f1f8140efe46b8"
+    },
+    {
+      "process": 4,
+      "source": "src/address_kernels.cu",
+      "sha256": "b9874ba0c04cb3d213a3632d210ec6159054a015291debeb146e98ef415a4b92"
+    },
+    {
+      "process": 4,
+      "source": "src/experiment.py",
+      "sha256": "2b923858f6e29808dcb02a1b89497c30231baa13b0d726b60a863849c31d1ace"
+    },
+    {
+      "process": 4,
+      "source": "src/schedule.py",
+      "sha256": "79dae6157c3ec089ee86fbb4209ef99ca9b562548f9d76851f4ed621a1a5069a"
+    },
+    {
+      "process": 4,
+      "source": "src/worker.py",
+      "sha256": "8ec9b8a1e7716605f174f2f2d0a9640429fa75563fdb1867637fc857e5925c47"
+    },
+    {
+      "process": 4,
+      "source": "src/common.py",
+      "sha256": "b17fa3a27ab31ab646bbed02b8ce560b9bc36e98057db788934e76b96eee7bf4"
+    },
+    {
+      "process": 5,
+      "source": "src/backend.cu",
+      "sha256": "b50cdb993902cbdb59ed77f53fd04ba29a8c3cb33c2251edba93b452f6b39710"
+    },
+    {
+      "process": 5,
+      "source": "src/backend.py",
+      "sha256": "3fc60d4355daab28781878fde112cb903edd51baa15b2f3b32f1f8140efe46b8"
+    },
+    {
+      "process": 5,
+      "source": "src/address_kernels.cu",
+      "sha256": "b9874ba0c04cb3d213a3632d210ec6159054a015291debeb146e98ef415a4b92"
+    },
+    {
+      "process": 5,
+      "source": "src/experiment.py",
+      "sha256": "2b923858f6e29808dcb02a1b89497c30231baa13b0d726b60a863849c31d1ace"
+    },
+    {
+      "process": 5,
+      "source": "src/schedule.py",
+      "sha256": "79dae6157c3ec089ee86fbb4209ef99ca9b562548f9d76851f4ed621a1a5069a"
+    },
+    {
+      "process": 5,
+      "source": "src/worker.py",
+      "sha256": "8ec9b8a1e7716605f174f2f2d0a9640429fa75563fdb1867637fc857e5925c47"
+    },
+    {
+      "process": 5,
+      "source": "src/common.py",
+      "sha256": "b17fa3a27ab31ab646bbed02b8ce560b9bc36e98057db788934e76b96eee7bf4"
+    }
+  ],
+  "diagnostic_timer_zeros": [
+    {
+      "process": 0,
+      "case": "D13",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 32256,
+      "zero_cycles": 0
+    },
+    {
+      "process": 0,
+      "case": "D13",
+      "offset": 69632,
+      "zero_ns": 0,
+      "total": 32256,
+      "zero_cycles": 0
+    },
+    {
+      "process": 0,
+      "case": "V13",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 188160,
+      "zero_cycles": 0
+    },
+    {
+      "process": 0,
+      "case": "V13",
+      "offset": 69632,
+      "zero_ns": 0,
+      "total": 188160,
+      "zero_cycles": 0
+    },
+    {
+      "process": 0,
+      "case": "R_G002",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 672,
+      "zero_cycles": 0
+    },
+    {
+      "process": 0,
+      "case": "R_G002",
+      "offset": 69632,
+      "zero_ns": 43,
+      "total": 672,
+      "zero_cycles": 0
+    },
+    {
+      "process": 0,
+      "case": "R_G017",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 86016,
+      "zero_cycles": 0
+    },
+    {
+      "process": 0,
+      "case": "R_G017",
+      "offset": 69632,
+      "zero_ns": 0,
+      "total": 86016,
+      "zero_cycles": 0
+    },
+    {
+      "process": 1,
+      "case": "D13",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 32256,
+      "zero_cycles": 0
+    },
+    {
+      "process": 1,
+      "case": "D13",
+      "offset": 69632,
+      "zero_ns": 0,
+      "total": 32256,
+      "zero_cycles": 0
+    },
+    {
+      "process": 1,
+      "case": "V13",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 188160,
+      "zero_cycles": 0
+    },
+    {
+      "process": 1,
+      "case": "V13",
+      "offset": 69632,
+      "zero_ns": 0,
+      "total": 188160,
+      "zero_cycles": 0
+    },
+    {
+      "process": 1,
+      "case": "R_G002",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 672,
+      "zero_cycles": 0
+    },
+    {
+      "process": 1,
+      "case": "R_G002",
+      "offset": 69632,
+      "zero_ns": 24,
+      "total": 672,
+      "zero_cycles": 0
+    },
+    {
+      "process": 1,
+      "case": "R_G017",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 86016,
+      "zero_cycles": 0
+    },
+    {
+      "process": 1,
+      "case": "R_G017",
+      "offset": 69632,
+      "zero_ns": 0,
+      "total": 86016,
+      "zero_cycles": 0
+    },
+    {
+      "process": 2,
+      "case": "D13",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 32256,
+      "zero_cycles": 0
+    },
+    {
+      "process": 2,
+      "case": "D13",
+      "offset": 69632,
+      "zero_ns": 0,
+      "total": 32256,
+      "zero_cycles": 0
+    },
+    {
+      "process": 2,
+      "case": "V13",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 188160,
+      "zero_cycles": 0
+    },
+    {
+      "process": 2,
+      "case": "V13",
+      "offset": 69632,
+      "zero_ns": 0,
+      "total": 188160,
+      "zero_cycles": 0
+    },
+    {
+      "process": 2,
+      "case": "R_G002",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 672,
+      "zero_cycles": 0
+    },
+    {
+      "process": 2,
+      "case": "R_G002",
+      "offset": 69632,
+      "zero_ns": 26,
+      "total": 672,
+      "zero_cycles": 0
+    },
+    {
+      "process": 2,
+      "case": "R_G017",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 86016,
+      "zero_cycles": 0
+    },
+    {
+      "process": 2,
+      "case": "R_G017",
+      "offset": 69632,
+      "zero_ns": 0,
+      "total": 86016,
+      "zero_cycles": 0
+    },
+    {
+      "process": 3,
+      "case": "D13",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 32256,
+      "zero_cycles": 0
+    },
+    {
+      "process": 3,
+      "case": "D13",
+      "offset": 69632,
+      "zero_ns": 0,
+      "total": 32256,
+      "zero_cycles": 0
+    },
+    {
+      "process": 3,
+      "case": "V13",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 188160,
+      "zero_cycles": 0
+    },
+    {
+      "process": 3,
+      "case": "V13",
+      "offset": 69632,
+      "zero_ns": 0,
+      "total": 188160,
+      "zero_cycles": 0
+    },
+    {
+      "process": 3,
+      "case": "R_G002",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 672,
+      "zero_cycles": 0
+    },
+    {
+      "process": 3,
+      "case": "R_G002",
+      "offset": 69632,
+      "zero_ns": 36,
+      "total": 672,
+      "zero_cycles": 0
+    },
+    {
+      "process": 3,
+      "case": "R_G017",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 86016,
+      "zero_cycles": 0
+    },
+    {
+      "process": 3,
+      "case": "R_G017",
+      "offset": 69632,
+      "zero_ns": 0,
+      "total": 86016,
+      "zero_cycles": 0
+    },
+    {
+      "process": 4,
+      "case": "D13",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 32256,
+      "zero_cycles": 0
+    },
+    {
+      "process": 4,
+      "case": "D13",
+      "offset": 69632,
+      "zero_ns": 0,
+      "total": 32256,
+      "zero_cycles": 0
+    },
+    {
+      "process": 4,
+      "case": "V13",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 188160,
+      "zero_cycles": 0
+    },
+    {
+      "process": 4,
+      "case": "V13",
+      "offset": 69632,
+      "zero_ns": 0,
+      "total": 188160,
+      "zero_cycles": 0
+    },
+    {
+      "process": 4,
+      "case": "R_G002",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 672,
+      "zero_cycles": 0
+    },
+    {
+      "process": 4,
+      "case": "R_G002",
+      "offset": 69632,
+      "zero_ns": 2,
+      "total": 672,
+      "zero_cycles": 0
+    },
+    {
+      "process": 4,
+      "case": "R_G017",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 86016,
+      "zero_cycles": 0
+    },
+    {
+      "process": 4,
+      "case": "R_G017",
+      "offset": 69632,
+      "zero_ns": 0,
+      "total": 86016,
+      "zero_cycles": 0
+    },
+    {
+      "process": 5,
+      "case": "D13",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 32256,
+      "zero_cycles": 0
+    },
+    {
+      "process": 5,
+      "case": "D13",
+      "offset": 69632,
+      "zero_ns": 0,
+      "total": 32256,
+      "zero_cycles": 0
+    },
+    {
+      "process": 5,
+      "case": "V13",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 188160,
+      "zero_cycles": 0
+    },
+    {
+      "process": 5,
+      "case": "V13",
+      "offset": 69632,
+      "zero_ns": 0,
+      "total": 188160,
+      "zero_cycles": 0
+    },
+    {
+      "process": 5,
+      "case": "R_G002",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 672,
+      "zero_cycles": 0
+    },
+    {
+      "process": 5,
+      "case": "R_G002",
+      "offset": 69632,
+      "zero_ns": 27,
+      "total": 672,
+      "zero_cycles": 0
+    },
+    {
+      "process": 5,
+      "case": "R_G017",
+      "offset": 0,
+      "zero_ns": 0,
+      "total": 86016,
+      "zero_cycles": 0
+    },
+    {
+      "process": 5,
+      "case": "R_G017",
+      "offset": 69632,
+      "zero_ns": 0,
+      "total": 86016,
+      "zero_cycles": 0
+    }
+  ],
+  "all_zero_cycle_counts": 0,
+  "ns_zero_total": 158
+}

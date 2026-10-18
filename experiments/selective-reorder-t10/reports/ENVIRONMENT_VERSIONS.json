@@ -1,0 +1,13 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.5.3",
+    "torch": "2.8.0",
+    "matplotlib": "3.11.2"
+  },
+  "gpu_driver": "index, uuid, name, driver_version\n0, GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5, Tesla T10, 580.178.04\n",
+  "nvcc": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2023 NVIDIA Corporation\nBuilt on Fri_Jan__6_16:45:21_PST_2023\nCuda compilation tools, release 12.0, V12.0.140\nBuild cuda_12.0.r12.0/compiler.32267302_0\n",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "scope": "Read-only versions; no GPU workload, install or download."
+}

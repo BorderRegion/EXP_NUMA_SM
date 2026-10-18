@@ -1,0 +1,2 @@
+{"at": "2026-10-17T09:27:38.999499+00:00", "issue": "CPU preflight caught missing list-closing bracket in request export before any GPU worker launched; corrected", "gpu_attempts": 0}
+{"at": "2026-10-17T09:30:09.690892+00:00", "issue": "Smoke parent health monitor expectedtemperature on sparse fastsamples; KeyError after child reportedcomplete. Failed attemptcharged and allrawretained; parent corrected to mostrecentfullsample. No math/timing change.", "attempt": "S0_SMOKE"}

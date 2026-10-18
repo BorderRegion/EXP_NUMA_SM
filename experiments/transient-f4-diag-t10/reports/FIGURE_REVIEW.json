@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T08:06:42.642410+00:00",
+  "method": "All11 PNGs visually inspected with view_image; all labels/legends readable and no clipping; matching PDF versions retained",
+  "files": {
+    "01_old_begin_end_requests.png": "bf193452700fce4c2f85c143fea66ba8050905e07f3d342fd57cbc08e3f14ab5",
+    "02_factor_request_timeline.png": "0ac7efd681e6625468bc0e8844e5f8abb04b7e78a202bcb36544096f1176546a",
+    "03_factor_request_timeline.png": "b6004413e4e8d3b3f4d4f77492ad5395f1211adbbc87db6f5e40ed74ad72f6d0",
+    "04_independent_request_timeline.png": "a35640a67a3d408dd7cb8c7cd427622ea54512ce8774c7577c63bd855cc799eb",
+    "05_single_and_ffn.png": "177f0c15bd40ce0c8a8aede40aef97b9a32627b1d9b839dc9ef7e0f738d2db0e",
+    "06_trace_contributions.png": "852d982cc8f0271a09d0765d21b9562d5fc4a861618efeccabadd1f1a077938f",
+    "07_profile_stage_activity.png": "f179442a8807300d8dedc19574e7c71f572b6dc5c5407c807077e7c143149edc",
+    "08_aa_profile_time_boundaries.png": "3495be9e4e4dacdec367b77d58f464fafca5b877a1d60a6d60693b7f0a159e84",
+    "09_v15_order_and_transition.png": "f7c00e93f2b33d3bca30b39710c35da55877a31f0550b61bd450aed5ca1e3f5a",
+    "10_aa_request_and_time.png": "e076a50f236c39199eacd50b5994a753f972aea8c0954ec8a3ab08052d99c349",
+    "11_aa_request_and_time.png": "102bf6957129bf3a4aaa0814223138d80e85937daaf97b93a1a03920c87f0b0f"
+  },
+  "notes": [
+    "Figure09 LIB/SINGLE legends added",
+    "Figures10/11 use allraw request and time coordinates",
+    "No finite-prefix pruning; figures05/07 distinguish formal intervals from single diagnostic captures"
+  ]
+}

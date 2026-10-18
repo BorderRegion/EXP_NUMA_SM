@@ -1,0 +1,866 @@
+[
+  {
+    "block": 0,
+    "case": "R_G002",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "R_G005",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "R_G008",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "R_G012",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "R_G017",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "R_G021",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "R_G026",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "R_G039",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "T01",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "T02",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "T03",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "T04",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "T05",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "T06",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "T07",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "T08",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "T09",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "T10",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "T11",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "T12",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "T13",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "T14",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "T15",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 0,
+    "case": "T16",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "R_G002",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "R_G005",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "R_G008",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "R_G012",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "R_G017",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "R_G021",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "R_G026",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "R_G039",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "T01",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "T02",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "T03",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "T04",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "T05",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "T06",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "T07",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "T08",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "T09",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "T10",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "T11",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "T12",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "T13",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "T14",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "T15",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 1,
+    "case": "T16",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "R_G002",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "R_G005",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "R_G008",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "R_G012",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "R_G017",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "R_G021",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "R_G026",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "R_G039",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "T01",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "T02",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "T03",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "T04",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "T05",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "T06",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "T07",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "T08",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "T09",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "T10",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "T11",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "T12",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "T13",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "T14",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "T15",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 2,
+    "case": "T16",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "R_G002",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "R_G005",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "R_G008",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "R_G012",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "R_G017",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "R_G021",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "R_G026",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "R_G039",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "T01",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "T02",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "T03",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "T04",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "T05",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "T06",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "T07",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "T08",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "T09",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "T10",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "T11",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "T12",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "T13",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "T14",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "T15",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 3,
+    "case": "T16",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "R_G002",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "R_G005",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "R_G008",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "R_G012",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "R_G017",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "R_G021",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "R_G026",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "R_G039",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "T01",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "T02",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "T03",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "T04",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "T05",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "T06",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "T07",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "T08",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "T09",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "T10",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "T11",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "T12",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "T13",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "T14",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "T15",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 4,
+    "case": "T16",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "R_G002",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "R_G005",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "R_G008",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "R_G012",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "R_G017",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "R_G021",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "R_G026",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "R_G039",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "T01",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "T02",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "T03",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "T04",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "T05",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "T06",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "T07",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "T08",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "T09",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "T10",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "T11",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "T12",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "T13",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "T14",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "T15",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  },
+  {
+    "block": 5,
+    "case": "T16",
+    "same_kernel_functions_and_geometry": true,
+    "scope": "Function/grid/block/shared-size equality across LIB beginning/main/end; does not establish fixed clocks or identical cache state"
+  }
+]

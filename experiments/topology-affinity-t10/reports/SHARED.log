@@ -1,0 +1,10 @@
+sg_qualification COMPLETED 2.651
+sg_memcheck COMPLETED 3.042
+shared_0 COMPLETED 10.602
+shared_1 COMPLETED 10.672
+shared_2 COMPLETED 10.636
+shared_3 COMPLETED 10.944
+shared_4 COMPLETED 10.582
+shared_5 COMPLETED 10.918
+shared OPERATOR [{'candidate': 'GPC_ADDR', 'scope': 'batch', 'gain_pct': 0.14536267200206984, 'ci95': [0.07500724027235565, 0.20959772055800857], 'positive_processes': 6}, {'candidate': 'ALL_ADDR', 'scope': 'batch', 'gain_pct': 1.0240052913085635, 'ci95': [0.9347867116134226, 1.1183573578983945], 'positive_processes': 6}, {'candidate': 'GPC_ADDR', 'scope': 'fresh', 'gain_pct': 0.009837372471216233, 'ci95': [-0.33674991433105217, 0.36251547324246175], 'positive_processes': 3}, {'candidate': 'ALL_ADDR', 'scope': 'fresh', 'gain_pct': 0.8577292722235224, 'ci95': [0.6123325981934192, 1.0410790610677356], 'positive_processes': 6}, {'candidate': 'GPC_ADDR', 'scope': 'freshbatch', 'gain_pct': 0.20441573483146636, 'ci95': [0.1527368978364507, 0.2707889307810002], 'positive_processes': 6}, {'candidate': 'ALL_ADDR', 'scope': 'freshbatch', 'gain_pct': 0.08955698778214269, 'ci95': [0.03450294554862387, 0.16529022524062767], 'positive_processes': 6}, {'candidate': 'GPC_ADDR', 'scope': 'ready', 'gain_pct': -0.5612007012921472, 'ci95': [-1.2110499768039038, 0.06202078273340294], 'positive_processes': 1}, {'candidate': 'ALL_ADDR', 'scope': 'ready', 'gain_pct': 0.9276079819861585, 'ci95': [0.4655791379948671, 1.3673885657513534], 'positive_processes': 6}]
+SHARED GPU COMPLETE

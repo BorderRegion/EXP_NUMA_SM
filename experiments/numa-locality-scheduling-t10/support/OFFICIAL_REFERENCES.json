@@ -1,0 +1,10 @@
+{
+  "cpu_numa": [
+    "https://docs.kernel.org/mm/numa.html",
+    "https://www.kernel.org/doc/html/latest/admin-guide/mm/numa_memory_policy.html"
+  ],
+  "cuda": [
+    "https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html"
+  ],
+  "interpretation": "Borrow locality, replication and balancing mechanisms. Host has one NUMA node; T10SM75 lacks CC8 L2 persistence-window controls. No hardware-node claim."
+}

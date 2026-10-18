@@ -1,0 +1,731 @@
+{
+  "schema_version": 1,
+  "artifact_status": "MEASURED_NATIVE_BASELINES_WITH_UNAVAILABLE_CANDIDATE",
+  "protocol_id": "OPERATOR_FUSED_SCHEDULING_DUAL_20261015",
+  "platform": "t10",
+  "outcome": "IMPLEMENTATION_OR_RESOURCE_LIMITED",
+  "method_logic_hash": null,
+  "candidate_implemented": false,
+  "physical_affinity_tested": false,
+  "plan_cases": 216,
+  "baseline_cases": 156,
+  "complete_six_block_cases": 156,
+  "formal_case_blocks": 936,
+  "formal_phases": 4248,
+  "failure_records": 0,
+  "coverage_by_suite": {
+    "grouped": {
+      "planned": 96,
+      "baseline_measured": 48,
+      "complete_six_blocks": 48,
+      "candidate_tested": 0
+    },
+    "dense_control": {
+      "planned": 24,
+      "baseline_measured": 24,
+      "complete_six_blocks": 24,
+      "candidate_tested": 0
+    },
+    "heterogeneous_k": {
+      "planned": 12,
+      "baseline_measured": 12,
+      "complete_six_blocks": 12,
+      "candidate_tested": 0
+    },
+    "attention_decode": {
+      "planned": 48,
+      "baseline_measured": 48,
+      "complete_six_blocks": 48,
+      "candidate_tested": 0
+    },
+    "prefill_control": {
+      "planned": 12,
+      "baseline_measured": 12,
+      "complete_six_blocks": 12,
+      "candidate_tested": 0
+    },
+    "moe_layer": {
+      "planned": 24,
+      "baseline_measured": 12,
+      "complete_six_blocks": 12,
+      "candidate_tested": 0
+    }
+  },
+  "worker_occupied_s": 11810.62677,
+  "worker_budget_s": 57600,
+  "worker_by_stage": {
+    "E0": 42.813207999999996,
+    "E1": 875.6466809999998,
+    "E5": 5427.783712,
+    "E4": 2887.157968,
+    "E3": 2577.2252009999997
+  },
+  "overlapping_gpu_process_windows": [],
+  "drift_blocks_over5": 20,
+  "drift_blocks_total": 936,
+  "aggregate_native_only": {
+    "grouped": {
+      "CUBLASLT_GRAPH/CUBLAS_GRAPH": {
+        "ratio": 1.0851778508363974,
+        "ci95": [
+          1.0697255842716775,
+          1.0989250965307384
+        ],
+        "independent_blocks": 6,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+        "case_counts_by_block": {
+          "0": 24,
+          "1": 24,
+          "2": 24,
+          "3": 24,
+          "4": 24,
+          "5": 24
+        }
+      },
+      "CUBLAS_GRAPH/CUBLAS_EAGER": {
+        "ratio": 1.0106820712238829,
+        "ci95": [
+          1.0081214395698188,
+          1.0145884836864574
+        ],
+        "independent_blocks": 6,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+        "case_counts_by_block": {
+          "0": 24,
+          "1": 24,
+          "2": 24,
+          "3": 24,
+          "4": 24,
+          "5": 24
+        }
+      }
+    },
+    "dense_control": {
+      "CUBLASLT_GRAPH/CUBLAS_GRAPH": {
+        "ratio": 1.0913707078222241,
+        "ci95": [
+          1.064109685899876,
+          1.1191984869255232
+        ],
+        "independent_blocks": 6,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+        "case_counts_by_block": {
+          "0": 12,
+          "1": 12,
+          "2": 12,
+          "3": 12,
+          "4": 12,
+          "5": 12
+        }
+      },
+      "CUBLAS_GRAPH/CUBLAS_EAGER": {
+        "ratio": 1.0001834271300363,
+        "ci95": [
+          0.9964373596104593,
+          1.0040308839378398
+        ],
+        "independent_blocks": 6,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+        "case_counts_by_block": {
+          "0": 12,
+          "1": 12,
+          "2": 12,
+          "3": 12,
+          "4": 12,
+          "5": 12
+        }
+      }
+    },
+    "heterogeneous_k": {
+      "CUBLASLT_GRAPH/CUBLAS_GRAPH": {
+        "ratio": 1.185157562237389,
+        "ci95": [
+          1.1676078834377464,
+          1.204174765716427
+        ],
+        "independent_blocks": 6,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+        "case_counts_by_block": {
+          "0": 6,
+          "1": 6,
+          "2": 6,
+          "3": 6,
+          "4": 6,
+          "5": 6
+        }
+      },
+      "CUBLAS_GRAPH/CUBLAS_EAGER": {
+        "ratio": 1.0108286596980758,
+        "ci95": [
+          1.0079302779540331,
+          1.0132721622360354
+        ],
+        "independent_blocks": 6,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+        "case_counts_by_block": {
+          "0": 6,
+          "1": 6,
+          "2": 6,
+          "3": 6,
+          "4": 6,
+          "5": 6
+        }
+      }
+    },
+    "attention_decode": {
+      "CUTLASS_READY/CUTLASS_RESIDENT": {
+        "ratio": 1.103191578942099,
+        "ci95": [
+          1.102688734017473,
+          1.1037100274187737
+        ],
+        "independent_blocks": 6,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+        "case_counts_by_block": {
+          "0": 48,
+          "1": 48,
+          "2": 48,
+          "3": 48,
+          "4": 48,
+          "5": 48
+        }
+      },
+      "MATH_READY/CUTLASS_READY": {
+        "ratio": 17.763922925183433,
+        "ci95": [
+          17.578846213228623,
+          17.86686530760302
+        ],
+        "independent_blocks": 6,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+        "case_counts_by_block": {
+          "0": 48,
+          "1": 48,
+          "2": 48,
+          "3": 48,
+          "4": 48,
+          "5": 48
+        }
+      },
+      "CUTLASS_DYNAMIC16/CUTLASS_READY": {
+        "ratio": 1.1158320401350195,
+        "ci95": [
+          1.1086189394311405,
+          1.119785761916324
+        ],
+        "independent_blocks": 6,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+        "case_counts_by_block": {
+          "0": 48,
+          "1": 48,
+          "2": 48,
+          "3": 48,
+          "4": 48,
+          "5": 48
+        }
+      }
+    },
+    "prefill_control": {},
+    "moe_layer": {
+      "CUBLAS_GRAPH/CUBLAS_EAGER": {
+        "ratio": 0.9266376708475876,
+        "ci95": [
+          0.8981443208664488,
+          0.9469923259611648
+        ],
+        "independent_blocks": 6,
+        "bootstrap_draws": 20000,
+        "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+        "case_counts_by_block": {
+          "0": 12,
+          "1": 12,
+          "2": 12,
+          "3": 12,
+          "4": 12,
+          "5": 12
+        }
+      }
+    }
+  },
+  "full_over_lib": null,
+  "full_over_same_fusion": null,
+  "model_requests_executed": 0,
+  "source_type": "SYNTHETIC_MECHANISM",
+  "fees": {
+    "new_resources": 0,
+    "currency": "CNY",
+    "electricity": null
+  },
+  "limitations": [
+    "No modifiable qualified SM75 TensorCore grouped body",
+    "No internal attention scheduler modification",
+    "No candidate, no algorithm efficacy or NUMA conclusion",
+    "Composed layer has frozen routes and counts; no router/count/scan",
+    "Dynamic attention changes both prefix/layout work and a three-buffer synthetic KV ring; not pure metadata causality",
+    "Prefill is non-causal native MATH control",
+    "No full-model or real traffic performance",
+    "Native comparisons exploratory; no candidate primary hypothesis tested",
+    "Power-guard states vary; all-state aggregates are descriptive, not fixed-power effects. Per-case strata retained.",
+    "Grouped runs use steady descriptors; no GPU-produced dynamic routing candidate",
+    "No fusion-by-scheduler experiment because candidate absent"
+  ],
+  "measurement_condition": "EXISTING_THERMAL_POWER_GUARD_125W_100W; NOT_FIXED_POWER",
+  "power_condition_evidence": "reconstructed from existing controller journal and initial125W query; per-process endpoint queries and later1Hz observer retained",
+  "power_transitions": [
+    {
+      "epoch_s": 1792047944.270897,
+      "power_limit_w": 100,
+      "message": "Protection: temp=80 rpm=3629; fan full and cap 100 W"
+    },
+    {
+      "epoch_s": 1792048300.827591,
+      "power_limit_w": 125,
+      "message": "Protection recovered; quiet cap 125 W restored"
+    },
+    {
+      "epoch_s": 1792048366.951664,
+      "power_limit_w": 100,
+      "message": "Protection: temp=80 rpm=3629; fan full and cap 100 W"
+    },
+    {
+      "epoch_s": 1792057094.414512,
+      "power_limit_w": 125,
+      "message": "Protection recovered; quiet cap 125 W restored"
+    },
+    {
+      "epoch_s": 1792057222.667281,
+      "power_limit_w": 100,
+      "message": "Protection: temp=80 rpm=3629; fan full and cap 100 W"
+    },
+    {
+      "epoch_s": 1792059586.544621,
+      "power_limit_w": 125,
+      "message": "Protection recovered; quiet cap 125 W restored"
+    }
+  ],
+  "formal_phase_power_counts": {
+    "125W": 477,
+    "100W": 3769,
+    "TRANSITION": 2
+  },
+  "stage_blocks_completed": {
+    "E1": 6,
+    "E3": 6,
+    "E4": 6,
+    "E5": 6
+  },
+  "layer_request_blocks_completed": 6,
+  "layer_request_cases": 6,
+  "layer_request_case_blocks": 35,
+  "layer_request_phases": 140,
+  "layer_request_failure_records": 1,
+  "campaign_execution_complete": true,
+  "strong_library": {
+    "status": "EXISTING_LIBRARY_COMPARISON_NOT_CANDIDATE",
+    "case_blocks": 312,
+    "phases": 1248,
+    "failure_records": 12,
+    "complete_six_block_cases": 42,
+    "stage_blocks_completed": {
+      "E1": 6,
+      "E3": 6,
+      "E4": 6
+    },
+    "aggregate_descriptive_mixed_conditions": {
+      "E1": {
+        "device": {
+          "ratio": 1.0294362139069528,
+          "ci95": [
+            0.9303925301922527,
+            1.1382092788698148
+          ],
+          "independent_blocks": 6,
+          "bootstrap_draws": 20000,
+          "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+          "case_counts_by_block": {
+            "1": 24,
+            "2": 24,
+            "3": 24,
+            "4": 24,
+            "5": 24,
+            "0": 12
+          }
+        },
+        "ready": {
+          "ratio": 1.0295840941250394,
+          "ci95": [
+            0.9305886439746536,
+            1.1383122444605336
+          ],
+          "independent_blocks": 6,
+          "bootstrap_draws": 20000,
+          "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+          "case_counts_by_block": {
+            "1": 24,
+            "2": 24,
+            "3": 24,
+            "4": 24,
+            "5": 24,
+            "0": 12
+          }
+        }
+      },
+      "E3": {
+        "device": {
+          "ratio": 1.318508313234129,
+          "ci95": [
+            1.3024838649628796,
+            1.3361122565462162
+          ],
+          "independent_blocks": 6,
+          "bootstrap_draws": 20000,
+          "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+          "case_counts_by_block": {
+            "0": 24,
+            "1": 24,
+            "2": 24,
+            "3": 24,
+            "4": 24,
+            "5": 24
+          }
+        },
+        "ready": {
+          "ratio": 1.3184188675169322,
+          "ci95": [
+            1.3024225158855918,
+            1.336008008037075
+          ],
+          "independent_blocks": 6,
+          "bootstrap_draws": 20000,
+          "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+          "case_counts_by_block": {
+            "0": 24,
+            "1": 24,
+            "2": 24,
+            "3": 24,
+            "4": 24,
+            "5": 24
+          }
+        }
+      },
+      "E4": {
+        "device": {
+          "ratio": 1.0375486422966194,
+          "ci95": [
+            1.019001616920015,
+            1.0570268758101473
+          ],
+          "independent_blocks": 6,
+          "bootstrap_draws": 20000,
+          "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+          "case_counts_by_block": {
+            "0": 6,
+            "1": 6,
+            "2": 6,
+            "3": 6,
+            "4": 6,
+            "5": 6
+          }
+        },
+        "ready": {
+          "ratio": 1.0401295475717178,
+          "ci95": [
+            1.022196005341956,
+            1.0592632537935145
+          ],
+          "independent_blocks": 6,
+          "bootstrap_draws": 20000,
+          "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+          "case_counts_by_block": {
+            "0": 6,
+            "1": 6,
+            "2": 6,
+            "3": 6,
+            "4": 6,
+            "5": 6
+          }
+        }
+      }
+    },
+    "aggregate_by_controller_condition": {
+      "E1": {
+        "device": {
+          "125W": {
+            "ratio": 0.8603727075941232,
+            "ci95": [
+              0.8531372532622342,
+              0.8676695257911917
+            ],
+            "independent_blocks": 2,
+            "bootstrap_draws": 20000,
+            "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+            "case_counts_by_block": {
+              "1": 24,
+              "2": 19
+            }
+          },
+          "100W": {
+            "ratio": 1.0763812286159133,
+            "ci95": [
+              0.9736798270466778,
+              1.1678618462991597
+            ],
+            "independent_blocks": 5,
+            "bootstrap_draws": 20000,
+            "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+            "case_counts_by_block": {
+              "3": 24,
+              "4": 24,
+              "5": 24,
+              "0": 12,
+              "2": 5
+            }
+          }
+        },
+        "ready": {
+          "125W": {
+            "ratio": 0.8605827353389252,
+            "ci95": [
+              0.8532780445105612,
+              0.8679499597206147
+            ],
+            "independent_blocks": 2,
+            "bootstrap_draws": 20000,
+            "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+            "case_counts_by_block": {
+              "1": 24,
+              "2": 19
+            }
+          },
+          "100W": {
+            "ratio": 1.0764752545122052,
+            "ci95": [
+              0.9737623985214799,
+              1.1679216475079037
+            ],
+            "independent_blocks": 5,
+            "bootstrap_draws": 20000,
+            "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+            "case_counts_by_block": {
+              "3": 24,
+              "4": 24,
+              "5": 24,
+              "0": 12,
+              "2": 5
+            }
+          }
+        }
+      },
+      "E3": {
+        "device": {
+          "100W": {
+            "ratio": 1.318508313234129,
+            "ci95": [
+              1.3024838649628796,
+              1.3361122565462162
+            ],
+            "independent_blocks": 6,
+            "bootstrap_draws": 20000,
+            "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+            "case_counts_by_block": {
+              "0": 24,
+              "1": 24,
+              "2": 24,
+              "3": 24,
+              "4": 24,
+              "5": 24
+            }
+          }
+        },
+        "ready": {
+          "100W": {
+            "ratio": 1.3184188675169322,
+            "ci95": [
+              1.3024225158855918,
+              1.336008008037075
+            ],
+            "independent_blocks": 6,
+            "bootstrap_draws": 20000,
+            "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+            "case_counts_by_block": {
+              "0": 24,
+              "1": 24,
+              "2": 24,
+              "3": 24,
+              "4": 24,
+              "5": 24
+            }
+          }
+        }
+      },
+      "E4": {
+        "device": {
+          "100W": {
+            "ratio": 1.0375486422966194,
+            "ci95": [
+              1.019001616920015,
+              1.0570268758101473
+            ],
+            "independent_blocks": 6,
+            "bootstrap_draws": 20000,
+            "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+            "case_counts_by_block": {
+              "0": 6,
+              "1": 6,
+              "2": 6,
+              "3": 6,
+              "4": 6,
+              "5": 6
+            }
+          }
+        },
+        "ready": {
+          "100W": {
+            "ratio": 1.0401295475717178,
+            "ci95": [
+              1.022196005341956,
+              1.0592632537935145
+            ],
+            "independent_blocks": 6,
+            "bootstrap_draws": 20000,
+            "scope": "EXPLORATORY_NATIVE_BASELINE_ONLY_NOT_CANDIDATE",
+            "case_counts_by_block": {
+              "0": 6,
+              "1": 6,
+              "2": 6,
+              "3": 6,
+              "4": 6,
+              "5": 6
+            }
+          }
+        }
+      }
+    },
+    "numerical": {
+      "records": 19392,
+      "all_pass": true,
+      "max_relative_frobenius": 0.0002821265276581025
+    },
+    "drift_over5": 10,
+    "power_counts": {
+      "100W": 1076,
+      "125W": 171,
+      "TRANSITION": 1
+    },
+    "method_logic_hash": null,
+    "limitations": [
+      "Static host dimensions and pointer descriptors prebuilt outside hot timing",
+      "Native cuBLAS binary scheduling remains opaque and unmodified",
+      "E1/E3 amortized throughput; E4 one ready boundary per request",
+      "No routing/count/scan/fresh descriptor overhead or full model",
+      "Graph node symbols are not hardware counters or SASS execution proof"
+    ]
+  },
+  "total_formal_case_failure_records": 13,
+  "memory_headroom_audit": {
+    "runtime_total_bytes": 15636037632,
+    "required_reserve_bytes": 2345405645,
+    "flagged_records": 6,
+    "flagged_case_ids": [
+      "attention_decode-047"
+    ],
+    "records": [
+      {
+        "case_id": "attention_decode-047",
+        "block": 0,
+        "run_key": "E5_native_block_0",
+        "raw_ref": "runs/20261015T074928Z_20444b05/attention_decode-047.json",
+        "peak_reserved_bytes": 15395192832,
+        "peak_allocated_bytes": 3063546880,
+        "case_end_free_bytes": 7053967360,
+        "process_sampled_max_nvml_used_mib": 8641.0,
+        "status": "MEMORY_MARGIN_NOT_QUALIFIED",
+        "reserved_peak_margin_check_pass": false,
+        "continuous_physical_timeline_recorded": false,
+        "reason": "Allocator reserved high-water exceeds runtime-total minus required reserve. Recorded active peak and 1Hz physical observations differ substantially; they do not establish continuous physical headroom or prove an OOM. Preserve raw, no inference of compliance from case-end free bytes."
+      },
+      {
+        "case_id": "attention_decode-047",
+        "block": 1,
+        "run_key": "E5_native_block_1",
+        "raw_ref": "runs/20261015T080844Z_b8a6e213/attention_decode-047.json",
+        "peak_reserved_bytes": 15395192832,
+        "peak_allocated_bytes": 3063546880,
+        "case_end_free_bytes": 7066550272,
+        "process_sampled_max_nvml_used_mib": 8629.0,
+        "status": "MEMORY_MARGIN_NOT_QUALIFIED",
+        "reserved_peak_margin_check_pass": false,
+        "continuous_physical_timeline_recorded": false,
+        "reason": "Allocator reserved high-water exceeds runtime-total minus required reserve. Recorded active peak and 1Hz physical observations differ substantially; they do not establish continuous physical headroom or prove an OOM. Preserve raw, no inference of compliance from case-end free bytes."
+      },
+      {
+        "case_id": "attention_decode-047",
+        "block": 2,
+        "run_key": "E5_native_block_2",
+        "raw_ref": "runs/20261015T082435Z_db009f52/attention_decode-047.json",
+        "peak_reserved_bytes": 15395192832,
+        "peak_allocated_bytes": 3063546880,
+        "case_end_free_bytes": 7066550272,
+        "process_sampled_max_nvml_used_mib": 10757.0,
+        "status": "MEMORY_MARGIN_NOT_QUALIFIED",
+        "reserved_peak_margin_check_pass": false,
+        "continuous_physical_timeline_recorded": false,
+        "reason": "Allocator reserved high-water exceeds runtime-total minus required reserve. Recorded active peak and 1Hz physical observations differ substantially; they do not establish continuous physical headroom or prove an OOM. Preserve raw, no inference of compliance from case-end free bytes."
+      },
+      {
+        "case_id": "attention_decode-047",
+        "block": 3,
+        "run_key": "E5_native_block_3",
+        "raw_ref": "runs/20261015T084208Z_196a6001/attention_decode-047.json",
+        "peak_reserved_bytes": 15395192832,
+        "peak_allocated_bytes": 3063546880,
+        "case_end_free_bytes": 7066550272,
+        "process_sampled_max_nvml_used_mib": 8629.0,
+        "status": "MEMORY_MARGIN_NOT_QUALIFIED",
+        "reserved_peak_margin_check_pass": false,
+        "continuous_physical_timeline_recorded": false,
+        "reason": "Allocator reserved high-water exceeds runtime-total minus required reserve. Recorded active peak and 1Hz physical observations differ substantially; they do not establish continuous physical headroom or prove an OOM. Preserve raw, no inference of compliance from case-end free bytes."
+      },
+      {
+        "case_id": "attention_decode-047",
+        "block": 4,
+        "run_key": "E5_native_block_4",
+        "raw_ref": "runs/20261015T085942Z_118c4a9d/attention_decode-047.json",
+        "peak_reserved_bytes": 15395192832,
+        "peak_allocated_bytes": 3063546880,
+        "case_end_free_bytes": 7066550272,
+        "process_sampled_max_nvml_used_mib": 11245.0,
+        "status": "MEMORY_MARGIN_NOT_QUALIFIED",
+        "reserved_peak_margin_check_pass": false,
+        "continuous_physical_timeline_recorded": false,
+        "reason": "Allocator reserved high-water exceeds runtime-total minus required reserve. Recorded active peak and 1Hz physical observations differ substantially; they do not establish continuous physical headroom or prove an OOM. Preserve raw, no inference of compliance from case-end free bytes."
+      },
+      {
+        "case_id": "attention_decode-047",
+        "block": 5,
+        "run_key": "E5_native_block_5",
+        "raw_ref": "runs/20261015T091718Z_db844a86/attention_decode-047.json",
+        "peak_reserved_bytes": 15395192832,
+        "peak_allocated_bytes": 3063546880,
+        "case_end_free_bytes": 7066550272,
+        "process_sampled_max_nvml_used_mib": 10757.0,
+        "status": "MEMORY_MARGIN_NOT_QUALIFIED",
+        "reserved_peak_margin_check_pass": false,
+        "continuous_physical_timeline_recorded": false,
+        "reason": "Allocator reserved high-water exceeds runtime-total minus required reserve. Recorded active peak and 1Hz physical observations differ substantially; they do not establish continuous physical headroom or prove an OOM. Preserve raw, no inference of compliance from case-end free bytes."
+      }
+    ],
+    "numeric_or_hardware_failure": false,
+    "classification": "RECORDED_RESERVED_PEAK_MARGIN_CHECK_FAILED; physical timeline incomplete; numerical measurements retained with flag",
+    "caveat": "The pre-allocation estimate is not a continuous enforced free-memory limit. No full memory timeline was recorded. No rerun or shape shrink is used to hide this gap."
+  }
+}

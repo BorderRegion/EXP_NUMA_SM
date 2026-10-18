@@ -1,0 +1,7 @@
+gpc-mask-t10/src/read_topology.c: In function ‘alloc’:
+gpc-mask-t10/src/read_topology.c:31:2: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   31 |  if(a.status) exit(3); *obj=a.hObjectNew;
+      |  ^~
+gpc-mask-t10/src/read_topology.c:31:24: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   31 |  if(a.status) exit(3); *obj=a.hObjectNew;
+      |                        ^

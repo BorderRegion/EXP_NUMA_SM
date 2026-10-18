@@ -1,0 +1,24 @@
+执行 T10_NUMA_FROZEN_RULE_FOLLOWUP_20261016，仅T10本机。
+
+本轮只检查已有0x33规则是否可迁移和可部署，不搜索新mask、分组、调度器或负载。
+先读START_HERE、主任务书、FROZEN_RULE.json、kernel/统计说明。
+按旧fine_shift_0开发分配冻结的实际SM集合恢复资源；句柄编号可变，成员和方向不能按新性能调整。
+
+连续完成S0–S5：
+1. 保持100W主条件，按已获授权协调支持的控制与保护，记录实际状态。
+2. 固定规则在新分配复验，不能重新拟合使它通过。
+3. 用同一consumer完整测四格、match/reverse、L8→L1→H1。
+4. 单独改变primer来源、payload、标签和128B基址，明确哪个因素改变什么。
+5. 编译真正的DIAG0/1，正式DIAG0没有SM/clock/diagnostic store。
+6. 同条件比较N/T/M/P，无新增小调度kernel，无逐任务LUT，无CPU规划往返。
+
+不要因局部效应小跳过真实交换，也不要因一个正数扩大应用。
+原数据只读；6个新process block；主/锚计时phase上限924，额外probe单列。
+GPU-worker新增上限6h且不超过原24h剩余，CPU开发另计，不要求花满。
+已提供consumer.cuh只是未经CUDA编译的骨架，需本地编译、小样例与有限sanitizer资格。
+
+离线，不SSH/下载/安装/换卡。普通修复与允许NA自行处理，不逐小步暂停。
+安全异常停GPU；实际权限不足一次列清，不反复请求、不绕过。
+最终一次性交付T10_NUMA_FROZEN_RULE_MECHANISM_REPORT.md、
+四格原值/有符号交互、并发迁移、诊断影响、NUMA证据等级、功耗恢复与全部可复算数据。
+不得把相关性、热图、physical home未知或micro正效应包装成完整应用/论文结论。

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T10:02:19.704539+00:00",
+  "worker_source_snapshot_hash_checks": 379,
+  "source_snapshot_count": 16,
+  "python_ast": "PASS",
+  "captured_kernel_events": 33867,
+  "complete_attribution": true,
+  "figures": 9,
+  "visual_inspection": "All9PNG inspected; no clipped labels; clockplots show only observedbins, no gap interpolation; correspondingPDFs retained",
+  "no_more_gpu_queued": true
+}

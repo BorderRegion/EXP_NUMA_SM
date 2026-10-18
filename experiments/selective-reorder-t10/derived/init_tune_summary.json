@@ -1,0 +1,739 @@
+{
+  "pilots": 18,
+  "winner_counts": {
+    "LIB": 15,
+    "SPLIT": 1,
+    "PC1_1": 1,
+    "PC1_0": 1
+  },
+  "actual_tuning_cost_us": {
+    "n": 18,
+    "min": 300897.8969301097,
+    "median": 1126579.0535253473,
+    "mean": 1149172.6831785247,
+    "p95": 2359163.075653487,
+    "max": 2362103.9270074107
+  },
+  "break_even": [
+    {
+      "case": "T01",
+      "block": 0,
+      "policy": "LIB_ALWAYS",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.0,
+      "measured_extra_setup_us": 0.0,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T01",
+      "block": 0,
+      "policy": "SHAPE",
+      "action": "LIB",
+      "measured_steady_saving_us": -3.005750000000006,
+      "measured_extra_setup_us": 8981.002902146429,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T01",
+      "block": 0,
+      "policy": "RESOURCE",
+      "action": "LIB",
+      "measured_steady_saving_us": -2.4872500000000173,
+      "measured_extra_setup_us": 4815.0530201382935,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T01",
+      "block": 0,
+      "policy": "INIT_TUNE",
+      "action": "LIB",
+      "measured_steady_saving_us": -1.457968749999992,
+      "measured_extra_setup_us": 306490.2819460258,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T04",
+      "block": 0,
+      "policy": "LIB_ALWAYS",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.0,
+      "measured_extra_setup_us": 0.0,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T04",
+      "block": 0,
+      "policy": "SHAPE",
+      "action": "LIB",
+      "measured_steady_saving_us": 352.0683281250001,
+      "measured_extra_setup_us": 1996.395003516227,
+      "estimated_H": 5.670475995805612,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T04",
+      "block": 0,
+      "policy": "RESOURCE",
+      "action": "LIB",
+      "measured_steady_saving_us": 312.4068125000001,
+      "measured_extra_setup_us": 17083.799932152033,
+      "estimated_H": 54.6844666908537,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T04",
+      "block": 0,
+      "policy": "INIT_TUNE",
+      "action": "LIB",
+      "measured_steady_saving_us": 495.2458281249999,
+      "measured_extra_setup_us": 1655274.0310435183,
+      "estimated_H": 3342.328066266371,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T06",
+      "block": 0,
+      "policy": "LIB_ALWAYS",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.0,
+      "measured_extra_setup_us": 0.0,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T06",
+      "block": 0,
+      "policy": "SHAPE",
+      "action": "LIB",
+      "measured_steady_saving_us": 18.089578125000003,
+      "measured_extra_setup_us": 8139.255049172789,
+      "estimated_H": 449.9416732070852,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T06",
+      "block": 0,
+      "policy": "RESOURCE",
+      "action": "LIB",
+      "measured_steady_saving_us": 16.301046874999997,
+      "measured_extra_setup_us": 13311.758928466588,
+      "estimated_H": 816.6198791123095,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T06",
+      "block": 0,
+      "policy": "INIT_TUNE",
+      "action": "SPLIT",
+      "measured_steady_saving_us": -33.07567187500001,
+      "measured_extra_setup_us": 630978.4299810417,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T09",
+      "block": 0,
+      "policy": "LIB_ALWAYS",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.0,
+      "measured_extra_setup_us": 0.0,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T09",
+      "block": 0,
+      "policy": "SHAPE",
+      "action": "LIB",
+      "measured_steady_saving_us": -2.185671874999997,
+      "measured_extra_setup_us": 3875.3171102143824,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T09",
+      "block": 0,
+      "policy": "RESOURCE",
+      "action": "LIB",
+      "measured_steady_saving_us": -0.9823750000000189,
+      "measured_extra_setup_us": -3992.311016190797,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T09",
+      "block": 0,
+      "policy": "INIT_TUNE",
+      "action": "LIB",
+      "measured_steady_saving_us": -1.140171874999993,
+      "measured_extra_setup_us": 338722.48796978965,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T12",
+      "block": 0,
+      "policy": "LIB_ALWAYS",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.0,
+      "measured_extra_setup_us": 0.0,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T12",
+      "block": 0,
+      "policy": "SHAPE",
+      "action": "LIB",
+      "measured_steady_saving_us": -59.80421874999956,
+      "measured_extra_setup_us": 4756.088077556342,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T12",
+      "block": 0,
+      "policy": "RESOURCE",
+      "action": "LIB",
+      "measured_steady_saving_us": 86.9053437499997,
+      "measured_extra_setup_us": 24588.214058894664,
+      "estimated_H": 282.9309798213041,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T12",
+      "block": 0,
+      "policy": "INIT_TUNE",
+      "action": "LIB",
+      "measured_steady_saving_us": 123.2423906250001,
+      "measured_extra_setup_us": 1559680.912294425,
+      "estimated_H": 12655.393200219527,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T16",
+      "block": 0,
+      "policy": "LIB_ALWAYS",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.0,
+      "measured_extra_setup_us": 0.0,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T16",
+      "block": 0,
+      "policy": "SHAPE",
+      "action": "LIB",
+      "measured_steady_saving_us": 12.32165625000016,
+      "measured_extra_setup_us": 8352.29002404958,
+      "estimated_H": 677.8544908724808,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T16",
+      "block": 0,
+      "policy": "RESOURCE",
+      "action": "LIB",
+      "measured_steady_saving_us": 87.06385937499999,
+      "measured_extra_setup_us": -15547.517978120595,
+      "estimated_H": 0.0,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T16",
+      "block": 0,
+      "policy": "INIT_TUNE",
+      "action": "LIB",
+      "measured_steady_saving_us": 147.1928124999995,
+      "measured_extra_setup_us": 2344680.816982873,
+      "estimated_H": 15929.31595748183,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T01",
+      "block": 1,
+      "policy": "SHAPE",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.5160312500000259,
+      "measured_extra_setup_us": -8462.050987873226,
+      "estimated_H": 0.0,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T01",
+      "block": 1,
+      "policy": "RESOURCE",
+      "action": "LIB",
+      "measured_steady_saving_us": -1.2099531249999984,
+      "measured_extra_setup_us": -7186.012982856482,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T01",
+      "block": 1,
+      "policy": "INIT_TUNE",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.4052499999999952,
+      "measured_extra_setup_us": 311180.5669614114,
+      "estimated_H": 767873.083186712,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T01",
+      "block": 1,
+      "policy": "LIB_ALWAYS",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.0,
+      "measured_extra_setup_us": 0.0,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T04",
+      "block": 1,
+      "policy": "SHAPE",
+      "action": "LIB",
+      "measured_steady_saving_us": -349.88885937500004,
+      "measured_extra_setup_us": -183575.06801839918,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T04",
+      "block": 1,
+      "policy": "RESOURCE",
+      "action": "LIB",
+      "measured_steady_saving_us": -325.75720312499993,
+      "measured_extra_setup_us": -190770.1949821785,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T04",
+      "block": 1,
+      "policy": "INIT_TUNE",
+      "action": "PC1_1",
+      "measured_steady_saving_us": -1322.2320468749995,
+      "measured_extra_setup_us": 1461811.657063663,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T04",
+      "block": 1,
+      "policy": "LIB_ALWAYS",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.0,
+      "measured_extra_setup_us": 0.0,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T06",
+      "block": 1,
+      "policy": "SHAPE",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.020937500000059117,
+      "measured_extra_setup_us": 12128.786067478359,
+      "estimated_H": 579285.3047137486,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T06",
+      "block": 1,
+      "policy": "RESOURCE",
+      "action": "LIB",
+      "measured_steady_saving_us": -0.14617187500005002,
+      "measured_extra_setup_us": 17250.546952709556,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T06",
+      "block": 1,
+      "policy": "INIT_TUNE",
+      "action": "LIB",
+      "measured_steady_saving_us": 2.950203124999973,
+      "measured_extra_setup_us": 694460.4639429599,
+      "estimated_H": 235394.11847886446,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T06",
+      "block": 1,
+      "policy": "LIB_ALWAYS",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.0,
+      "measured_extra_setup_us": 0.0,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T09",
+      "block": 1,
+      "policy": "SHAPE",
+      "action": "LIB",
+      "measured_steady_saving_us": 3.7203593750000152,
+      "measured_extra_setup_us": -2974.8909291811287,
+      "estimated_H": 0.0,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T09",
+      "block": 1,
+      "policy": "RESOURCE",
+      "action": "LIB",
+      "measured_steady_saving_us": -10.865921874999998,
+      "measured_extra_setup_us": -4042.3039463348687,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T09",
+      "block": 1,
+      "policy": "INIT_TUNE",
+      "action": "LIB",
+      "measured_steady_saving_us": 3.8250937500000077,
+      "measured_extra_setup_us": 342930.1412543282,
+      "estimated_H": 89652.7415189046,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T09",
+      "block": 1,
+      "policy": "LIB_ALWAYS",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.0,
+      "measured_extra_setup_us": 0.0,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T12",
+      "block": 1,
+      "policy": "SHAPE",
+      "action": "LIB",
+      "measured_steady_saving_us": -11.847453124999902,
+      "measured_extra_setup_us": 12770.28099866584,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T12",
+      "block": 1,
+      "policy": "RESOURCE",
+      "action": "LIB",
+      "measured_steady_saving_us": 75.36060937499951,
+      "measured_extra_setup_us": 13851.746974978596,
+      "estimated_H": 183.80619649784626,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T12",
+      "block": 1,
+      "policy": "INIT_TUNE",
+      "action": "LIB",
+      "measured_steady_saving_us": 117.45443749999959,
+      "measured_extra_setup_us": 1625207.4698568322,
+      "estimated_H": 13836.918420871394,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T12",
+      "block": 1,
+      "policy": "LIB_ALWAYS",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.0,
+      "measured_extra_setup_us": 0.0,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T16",
+      "block": 1,
+      "policy": "SHAPE",
+      "action": "LIB",
+      "measured_steady_saving_us": 40.111359374999665,
+      "measured_extra_setup_us": -12211.418012157083,
+      "estimated_H": 0.0,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T16",
+      "block": 1,
+      "policy": "RESOURCE",
+      "action": "LIB",
+      "measured_steady_saving_us": 33.6914531249995,
+      "measured_extra_setup_us": -11126.725992653519,
+      "estimated_H": 0.0,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T16",
+      "block": 1,
+      "policy": "INIT_TUNE",
+      "action": "LIB",
+      "measured_steady_saving_us": 10.113328124999498,
+      "measured_extra_setup_us": 2369224.6608552523,
+      "estimated_H": 234267.55580081308,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T16",
+      "block": 1,
+      "policy": "LIB_ALWAYS",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.0,
+      "measured_extra_setup_us": 0.0,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T01",
+      "block": 2,
+      "policy": "RESOURCE",
+      "action": "LIB",
+      "measured_steady_saving_us": 1.8403125000000102,
+      "measured_extra_setup_us": 15043.109015095979,
+      "estimated_H": 8174.214441892828,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T01",
+      "block": 2,
+      "policy": "INIT_TUNE",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.28268750000000864,
+      "measured_extra_setup_us": 306471.6361113824,
+      "estimated_H": 1084135.7899142092,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T01",
+      "block": 2,
+      "policy": "LIB_ALWAYS",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.0,
+      "measured_extra_setup_us": 0.0,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T01",
+      "block": 2,
+      "policy": "SHAPE",
+      "action": "LIB",
+      "measured_steady_saving_us": -3.0179843749999975,
+      "measured_extra_setup_us": 9261.633967980742,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T04",
+      "block": 2,
+      "policy": "RESOURCE",
+      "action": "LIB",
+      "measured_steady_saving_us": -456.88756250000006,
+      "measured_extra_setup_us": -19458.12691701576,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T04",
+      "block": 2,
+      "policy": "INIT_TUNE",
+      "action": "PC1_0",
+      "measured_steady_saving_us": -1154.2557187500001,
+      "measured_extra_setup_us": 1694714.0580741689,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T04",
+      "block": 2,
+      "policy": "LIB_ALWAYS",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.0,
+      "measured_extra_setup_us": 0.0,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T04",
+      "block": 2,
+      "policy": "SHAPE",
+      "action": "LIB",
+      "measured_steady_saving_us": -278.8203125,
+      "measured_extra_setup_us": -32510.30290266499,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T06",
+      "block": 2,
+      "policy": "RESOURCE",
+      "action": "LIB",
+      "measured_steady_saving_us": -1.424078124999994,
+      "measured_extra_setup_us": -1811.4859703928232,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T06",
+      "block": 2,
+      "policy": "INIT_TUNE",
+      "action": "LIB",
+      "measured_steady_saving_us": -4.947249999999997,
+      "measured_extra_setup_us": 657491.4700468071,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T06",
+      "block": 2,
+      "policy": "LIB_ALWAYS",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.0,
+      "measured_extra_setup_us": 0.0,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T06",
+      "block": 2,
+      "policy": "SHAPE",
+      "action": "LIB",
+      "measured_steady_saving_us": -2.010109375000013,
+      "measured_extra_setup_us": 4217.308072838932,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T09",
+      "block": 2,
+      "policy": "RESOURCE",
+      "action": "LIB",
+      "measured_steady_saving_us": 8.576687499999963,
+      "measured_extra_setup_us": 1284.9050108343363,
+      "estimated_H": 149.81366766998818,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T09",
+      "block": 2,
+      "policy": "INIT_TUNE",
+      "action": "LIB",
+      "measured_steady_saving_us": -14.728125000000034,
+      "measured_extra_setup_us": 347265.4548822902,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T09",
+      "block": 2,
+      "policy": "LIB_ALWAYS",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.0,
+      "measured_extra_setup_us": 0.0,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T09",
+      "block": 2,
+      "policy": "SHAPE",
+      "action": "LIB",
+      "measured_steady_saving_us": 2.4797656249999704,
+      "measured_extra_setup_us": 4133.443930186331,
+      "estimated_H": 1666.8687913545784,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T12",
+      "block": 2,
+      "policy": "RESOURCE",
+      "action": "LIB",
+      "measured_steady_saving_us": 140.19059375000006,
+      "measured_extra_setup_us": -28999.388043303043,
+      "estimated_H": 0.0,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T12",
+      "block": 2,
+      "policy": "INIT_TUNE",
+      "action": "LIB",
+      "measured_steady_saving_us": -169.3980312499998,
+      "measured_extra_setup_us": 1531179.02710801,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T12",
+      "block": 2,
+      "policy": "LIB_ALWAYS",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.0,
+      "measured_extra_setup_us": 0.0,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T12",
+      "block": 2,
+      "policy": "SHAPE",
+      "action": "LIB",
+      "measured_steady_saving_us": 122.56929687499996,
+      "measured_extra_setup_us": -6330.860953312367,
+      "estimated_H": 0.0,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T16",
+      "block": 2,
+      "policy": "RESOURCE",
+      "action": "LIB",
+      "measured_steady_saving_us": -622.0096250000006,
+      "measured_extra_setup_us": -23133.387963753194,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T16",
+      "block": 2,
+      "policy": "INIT_TUNE",
+      "action": "LIB",
+      "measured_steady_saving_us": 10.250921874999221,
+      "measured_extra_setup_us": 2351150.5409842357,
+      "estimated_H": 229359.91217710986,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T16",
+      "block": 2,
+      "policy": "LIB_ALWAYS",
+      "action": "LIB",
+      "measured_steady_saving_us": 0.0,
+      "measured_extra_setup_us": 0.0,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    },
+    {
+      "case": "T16",
+      "block": 2,
+      "policy": "SHAPE",
+      "action": "LIB",
+      "measured_steady_saving_us": -355.5622656250007,
+      "measured_extra_setup_us": -18246.557970996946,
+      "estimated_H": null,
+      "scope": "Exploratory algebraic extrapolation from H4096 plan and64 requests; assumes unchanged steady time, excludes fresh offline calibration; not a deployment decision"
+    }
+  ]
+}

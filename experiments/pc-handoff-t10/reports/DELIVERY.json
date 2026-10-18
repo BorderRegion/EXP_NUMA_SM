@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-16T14:35:16.610441+00:00",
+  "review_zip": "/home/ubuntu/下载/T10_PC_HANDOFF_LLM_RESULTS_20261016_SMALL.zip",
+  "review_bytes": 9063329,
+  "review_sha256": "286a7afa13e839d9e94af5128a94d05eaec20959eeee0ee4339dbc5198b197cf",
+  "full_raw_zip": "/home/ubuntu/下载/T10_PC_HANDOFF_LLM_FULL_RAW_20261016.zip",
+  "full_raw_bytes": 7074545,
+  "full_raw_sha256": "02ba026d6f8d0123b4964b64d19606b9691c96d4427c6a0058dacc2fc5f558f6",
+  "fresh_extraction_recompute": "PASS",
+  "staging": "/home/ubuntu/文档/ChatGPT/numa_gpu/pc-handoff-t10/review_staging/20261016_223458",
+  "manifest_files": 1317
+}

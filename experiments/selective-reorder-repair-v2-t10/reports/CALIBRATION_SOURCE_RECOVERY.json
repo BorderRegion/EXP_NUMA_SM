@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "compiled_source_files": [
+    "src/backend.cu",
+    "src/build.py",
+    "src/kernels.cu",
+    "src/resources.hpp",
+    "src/policy.hpp",
+    "src/pair_runtime.hpp",
+    "src/kernels.cuh",
+    "src/runtime_extra.hpp",
+    "adapters/pc_gemm_splitk_parallel.h",
+    "adapters/pc_reduce_split_k.h"
+  ],
+  "rule": "Each recovered file exactly matches initial build.json source hash. runtime_extra.hpp recovered unchanged from the read-only prior campaign. Current worker source snapshots may include uncompiled S3 host development; actual loaded binary hashes and build/source snapshots identify compiled code."
+}

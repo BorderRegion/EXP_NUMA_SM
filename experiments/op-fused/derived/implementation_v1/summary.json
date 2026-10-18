@@ -1,0 +1,988 @@
+{
+  "status": "IMPLEMENTATION_MATRIX_COMPLETE",
+  "candidate_implemented": true,
+  "method_campaign_complete": true,
+  "stage_blocks": {
+    "implementation_calibration": 6,
+    "implementation_operator_test": 6,
+    "implementation_layer_develop": 6,
+    "implementation_layer_test": 6
+  },
+  "case_blocks": 468,
+  "formal_test_case_blocks": 288,
+  "phases": 5544,
+  "failures": 2,
+  "numerical": {
+    "records": 82116,
+    "all_pass": true,
+    "max_relative_frobenius": 0.00028393465904130835
+  },
+  "same_body_bitwise_failures": [],
+  "warmup_violations": [],
+  "drift_over5_count": 37,
+  "drift_rows": 468,
+  "aggregate": {
+    "dense_control": {
+      "FULL_over_LIB": {
+        "time_ratio": 1.5911594559045419,
+        "time_reduction_percent": -59.11594559045419,
+        "ratio_interval": [
+          1.5450020108766667,
+          1.6295185554550893
+        ],
+        "block_log_ratios": [
+          0.4242967799458908,
+          0.49551291980563694,
+          0.476201779502726,
+          0.4778021773997696,
+          0.42379922922819163,
+          0.4891649223111891
+        ],
+        "blocks": 6,
+        "interval": "97.5% marginal bootstrap; Bonferroni simultaneous 95% for two domain primary comparisons",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 12,
+          "1": 12,
+          "2": 12,
+          "3": 12,
+          "4": 12,
+          "5": 12
+        }
+      },
+      "FULL_over_SIMPLE": {
+        "time_ratio": 0.8246028202138841,
+        "time_reduction_percent": 17.53971797861159,
+        "ratio_interval": [
+          0.7901765429252612,
+          0.8602159324925667
+        ],
+        "block_log_ratios": [
+          -0.24485919864049063,
+          -0.13604847040463572,
+          -0.2092037096956253,
+          -0.13954471041086566,
+          -0.2524337509536983,
+          -0.17503079158999002
+        ],
+        "blocks": 6,
+        "interval": "97.5% marginal bootstrap; Bonferroni simultaneous 95% for two domain primary comparisons",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 12,
+          "1": 12,
+          "2": 12,
+          "3": 12,
+          "4": 12,
+          "5": 12
+        }
+      },
+      "CORE_over_LIB": {
+        "time_ratio": 1.8214234647336838,
+        "time_reduction_percent": -82.14234647336838,
+        "ratio_interval": [
+          1.7703497642525083,
+          1.8751909569120753
+        ],
+        "block_log_ratios": [
+          0.5781206398860406,
+          0.6505206248587176,
+          0.5871084510849699,
+          0.5483675355102077,
+          0.584447439959847,
+          0.6491452219176188
+        ],
+        "blocks": 6,
+        "interval": "95% exploratory paired process/input-block bootstrap",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 12,
+          "1": 12,
+          "2": 12,
+          "3": 12,
+          "4": 12,
+          "5": 12
+        }
+      },
+      "CACHE_over_CORE": {
+        "time_ratio": 1.0593951030940052,
+        "time_reduction_percent": -5.93951030940052,
+        "ratio_interval": [
+          1.0198931971865046,
+          1.0942070816463052
+        ],
+        "block_log_ratios": [
+          0.09103533870034092,
+          -0.018959234648445008,
+          0.0982970381133813,
+          0.06897935230042768,
+          0.09178554022204301,
+          0.015050491983560186
+        ],
+        "blocks": 6,
+        "interval": "95% exploratory paired process/input-block bootstrap",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 12,
+          "1": 12,
+          "2": 12,
+          "3": 12,
+          "4": 12,
+          "5": 12
+        }
+      },
+      "FULL_over_ABL": {
+        "time_ratio": 1.0,
+        "time_reduction_percent": 0.0,
+        "ratio_interval": [
+          1.0,
+          1.0
+        ],
+        "block_log_ratios": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "blocks": 6,
+        "interval": "95% exploratory paired process/input-block bootstrap",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 12,
+          "1": 12,
+          "2": 12,
+          "3": 12,
+          "4": 12,
+          "5": 12
+        },
+        "structural_alias": true
+      },
+      "FULL_over_BAL": {
+        "time_ratio": 0.8735801897320953,
+        "time_reduction_percent": 12.641981026790472,
+        "ratio_interval": [
+          0.8536260099134665,
+          0.8993636533441575
+        ],
+        "block_log_ratios": [
+          -0.15382385994014972,
+          -0.1550077050530807,
+          -0.11090667158224399,
+          -0.070565358110438,
+          -0.1606482107316553,
+          -0.15998029960642987
+        ],
+        "blocks": 6,
+        "interval": "95% exploratory paired process/input-block bootstrap",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 12,
+          "1": 12,
+          "2": 12,
+          "3": 12,
+          "4": 12,
+          "5": 12
+        }
+      }
+    },
+    "grouped": {
+      "FULL_over_LIB": {
+        "time_ratio": 2.0334707695933623,
+        "time_reduction_percent": -103.34707695933622,
+        "ratio_interval": [
+          2.0006334841651765,
+          2.072134730986252
+        ],
+        "block_log_ratios": [
+          0.7258086620194769,
+          0.6929015615934221,
+          0.7425235371849076,
+          0.7105073971509764,
+          0.6922881457492808,
+          0.6944351272833723
+        ],
+        "blocks": 6,
+        "interval": "97.5% marginal bootstrap; Bonferroni simultaneous 95% for two domain primary comparisons",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 24,
+          "1": 24,
+          "2": 24,
+          "3": 24,
+          "4": 24,
+          "5": 24
+        }
+      },
+      "FULL_over_SIMPLE": {
+        "time_ratio": 0.8536196488765906,
+        "time_reduction_percent": 14.63803511234094,
+        "ratio_interval": [
+          0.8391575144781482,
+          0.8698968483473294
+        ],
+        "block_log_ratios": [
+          -0.1346026886034121,
+          -0.16300188443730154,
+          -0.12693702958890224,
+          -0.17860171189747356,
+          -0.18059128844435923,
+          -0.1658827595824737
+        ],
+        "blocks": 6,
+        "interval": "97.5% marginal bootstrap; Bonferroni simultaneous 95% for two domain primary comparisons",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 24,
+          "1": 24,
+          "2": 24,
+          "3": 24,
+          "4": 24,
+          "5": 24
+        }
+      },
+      "CORE_over_LIB": {
+        "time_ratio": 2.265094607157634,
+        "time_reduction_percent": -126.5094607157634,
+        "ratio_interval": [
+          2.24500801150662,
+          2.293149765637273
+        ],
+        "block_log_ratios": [
+          0.8111450881939534,
+          0.8088403315632055,
+          0.8231207151967399,
+          0.8461140834331315,
+          0.8069498424295015,
+          0.8095291025467177
+        ],
+        "blocks": 6,
+        "interval": "95% exploratory paired process/input-block bootstrap",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 24,
+          "1": 24,
+          "2": 24,
+          "3": 24,
+          "4": 24,
+          "5": 24
+        }
+      },
+      "CACHE_over_CORE": {
+        "time_ratio": 1.051688644314612,
+        "time_reduction_percent": -5.168864431461206,
+        "ratio_interval": [
+          1.0467735718346716,
+          1.0587195733105728
+        ],
+        "block_log_ratios": [
+          0.0492662624289355,
+          0.04706311446751818,
+          0.046339851577069824,
+          0.042995025615318615,
+          0.06592959176413848,
+          0.05078878431912848
+        ],
+        "blocks": 6,
+        "interval": "95% exploratory paired process/input-block bootstrap",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 24,
+          "1": 24,
+          "2": 24,
+          "3": 24,
+          "4": 24,
+          "5": 24
+        }
+      },
+      "FULL_over_ABL": {
+        "time_ratio": 1.0,
+        "time_reduction_percent": 0.0,
+        "ratio_interval": [
+          1.0,
+          1.0
+        ],
+        "block_log_ratios": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "blocks": 6,
+        "interval": "95% exploratory paired process/input-block bootstrap",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 24,
+          "1": 24,
+          "2": 24,
+          "3": 24,
+          "4": 24,
+          "5": 24
+        },
+        "structural_alias": true
+      },
+      "FULL_over_BAL": {
+        "time_ratio": 0.8977420912873367,
+        "time_reduction_percent": 10.225790871266327,
+        "ratio_interval": [
+          0.8850234851727824,
+          0.9112347438428606
+        ],
+        "block_log_ratios": [
+          -0.08533642617447658,
+          -0.1159387699697833,
+          -0.08059717801183242,
+          -0.13560668628215503,
+          -0.11466169668022069,
+          -0.11509397526334526
+        ],
+        "blocks": 6,
+        "interval": "95% exploratory paired process/input-block bootstrap",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 24,
+          "1": 24,
+          "2": 24,
+          "3": 24,
+          "4": 24,
+          "5": 24
+        }
+      }
+    },
+    "heterogeneous_k": {
+      "FULL_over_LIB": {
+        "time_ratio": 1.4480667394734916,
+        "time_reduction_percent": -44.80667394734916,
+        "ratio_interval": [
+          1.374197546236526,
+          1.5300948207544702
+        ],
+        "block_log_ratios": [
+          0.31946016329072113,
+          0.4461026284075132,
+          0.31948819208226903,
+          0.3098628740778943,
+          0.37935734508613167,
+          0.4471050992433911
+        ],
+        "blocks": 6,
+        "interval": "97.5% marginal bootstrap; Bonferroni simultaneous 95% for two domain primary comparisons",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 6,
+          "1": 6,
+          "2": 6,
+          "3": 6,
+          "4": 6,
+          "5": 6
+        }
+      },
+      "FULL_over_SIMPLE": {
+        "time_ratio": 0.5812281366315044,
+        "time_reduction_percent": 41.87718633684956,
+        "ratio_interval": [
+          0.5626306130970502,
+          0.602071270182386
+        ],
+        "block_log_ratios": [
+          -0.5900914702069749,
+          -0.5101755335065752,
+          -0.5032647697711273,
+          -0.5850413274464457,
+          -0.561855852306468,
+          -0.5052426698749407
+        ],
+        "blocks": 6,
+        "interval": "97.5% marginal bootstrap; Bonferroni simultaneous 95% for two domain primary comparisons",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 6,
+          "1": 6,
+          "2": 6,
+          "3": 6,
+          "4": 6,
+          "5": 6
+        }
+      },
+      "CORE_over_LIB": {
+        "time_ratio": 1.8513944903211172,
+        "time_reduction_percent": -85.13944903211173,
+        "ratio_interval": [
+          1.8240594729982362,
+          1.8769757439984152
+        ],
+        "block_log_ratios": [
+          0.6305973653692352,
+          0.6277717047291521,
+          0.5922747456678139,
+          0.5857700139051895,
+          0.6301904830179329,
+          0.6290304894735753
+        ],
+        "blocks": 6,
+        "interval": "95% exploratory paired process/input-block bootstrap",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 6,
+          "1": 6,
+          "2": 6,
+          "3": 6,
+          "4": 6,
+          "5": 6
+        }
+      },
+      "CACHE_over_CORE": {
+        "time_ratio": 1.3456836679090989,
+        "time_reduction_percent": -34.56836679090989,
+        "ratio_interval": [
+          1.3071191202939643,
+          1.377243384772972
+        ],
+        "block_log_ratios": [
+          0.27895426812846097,
+          0.3285064571849361,
+          0.23047821618558229,
+          0.3091341876191505,
+          0.3110227143746666,
+          0.32331727964475643
+        ],
+        "blocks": 6,
+        "interval": "95% exploratory paired process/input-block bootstrap",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 6,
+          "1": 6,
+          "2": 6,
+          "3": 6,
+          "4": 6,
+          "5": 6
+        }
+      },
+      "FULL_over_ABL": {
+        "time_ratio": 1.0,
+        "time_reduction_percent": 0.0,
+        "ratio_interval": [
+          1.0,
+          1.0
+        ],
+        "block_log_ratios": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "blocks": 6,
+        "interval": "95% exploratory paired process/input-block bootstrap",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 6,
+          "1": 6,
+          "2": 6,
+          "3": 6,
+          "4": 6,
+          "5": 6
+        },
+        "structural_alias": true
+      },
+      "FULL_over_BAL": {
+        "time_ratio": 0.8500949174651953,
+        "time_reduction_percent": 14.990508253480472,
+        "ratio_interval": [
+          0.815777658798603,
+          0.8887473038814795
+        ],
+        "block_log_ratios": [
+          -0.22003456761841578,
+          -0.08902332627064125,
+          -0.22575857860746096,
+          -0.17961767826830996,
+          -0.16139771138487483,
+          -0.09861174660645218
+        ],
+        "blocks": 6,
+        "interval": "95% exploratory paired process/input-block bootstrap",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 6,
+          "1": 6,
+          "2": 6,
+          "3": 6,
+          "4": 6,
+          "5": 6
+        }
+      }
+    },
+    "moe_layer": {
+      "FULL_over_LIB": {
+        "time_ratio": 1.833984016171385,
+        "time_reduction_percent": -83.39840161713849,
+        "ratio_interval": [
+          1.698115091200982,
+          1.93797156300941
+        ],
+        "block_log_ratios": [
+          0.669036918308679,
+          0.6600787720975081,
+          0.5054911004308212,
+          0.6513307564617138,
+          0.6527258423563782,
+          0.5002805614259995
+        ],
+        "blocks": 6,
+        "interval": "97.5% marginal bootstrap; Bonferroni simultaneous 95% for two domain primary comparisons",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 6,
+          "1": 6,
+          "2": 6,
+          "3": 6,
+          "4": 6,
+          "5": 6
+        }
+      },
+      "FULL_over_SIMPLE": {
+        "time_ratio": 0.9097522493033237,
+        "time_reduction_percent": 9.024775069667633,
+        "ratio_interval": [
+          0.9053693642663676,
+          0.9139577173075681
+        ],
+        "block_log_ratios": [
+          -0.08893923421956411,
+          -0.09286589048008653,
+          -0.10202799158361169,
+          -0.0881077845489222,
+          -0.10072412628781564,
+          -0.09483279319072883
+        ],
+        "blocks": 6,
+        "interval": "97.5% marginal bootstrap; Bonferroni simultaneous 95% for two domain primary comparisons",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 6,
+          "1": 6,
+          "2": 6,
+          "3": 6,
+          "4": 6,
+          "5": 6
+        }
+      },
+      "SCHEDULE_AT_F0": {
+        "time_ratio": 0.9120434674845456,
+        "time_reduction_percent": 8.795653251545444,
+        "ratio_interval": [
+          0.9096201299439685,
+          0.9144962331626045
+        ],
+        "block_log_ratios": [
+          -0.08843461826857148,
+          -0.09634586876542456,
+          -0.0906881035360911,
+          -0.08748035497342092,
+          -0.0947290301136447,
+          -0.09472779431131917
+        ],
+        "blocks": 6,
+        "interval": "95% exploratory paired process/input-block bootstrap",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 6,
+          "1": 6,
+          "2": 6,
+          "3": 6,
+          "4": 6,
+          "5": 6
+        }
+      },
+      "FUSION_AT_FULL": {
+        "time_ratio": 0.9993716099823076,
+        "time_reduction_percent": 0.06283900176924373,
+        "ratio_interval": [
+          0.9978991962783275,
+          1.000386742257161
+        ],
+        "block_log_ratios": [
+          -0.00010162623454679069,
+          0.0009606283217978547,
+          -0.004037653882407877,
+          -0.00020174657481821434,
+          -0.00023012689047260536,
+          -0.00016099996425362388
+        ],
+        "blocks": 6,
+        "interval": "95% exploratory paired process/input-block bootstrap",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 6,
+          "1": 6,
+          "2": 6,
+          "3": 6,
+          "4": 6,
+          "5": 6
+        }
+      },
+      "FUSION_AT_SIMPLE": {
+        "time_ratio": 1.0018885352268916,
+        "time_reduction_percent": -0.18885352268915856,
+        "ratio_interval": [
+          0.999283700649053,
+          1.004757556607291
+        ],
+        "block_log_ratios": [
+          0.0004029897164458453,
+          -0.0025193499635401376,
+          0.007302234165112752,
+          0.00042568300068313334,
+          0.005764969283698335,
+          -5.600108484391946e-05
+        ],
+        "blocks": 6,
+        "interval": "95% exploratory paired process/input-block bootstrap",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 6,
+          "1": 6,
+          "2": 6,
+          "3": 6,
+          "4": 6,
+          "5": 6
+        }
+      },
+      "FUSION_SCHEDULE_INTERACTION": {
+        "time_ratio": 0.9974878190975467,
+        "time_reduction_percent": 0.2512180902453309,
+        "ratio_interval": [
+          0.9932318099438148,
+          1.0009367573642598
+        ],
+        "block_log_ratios": [
+          -0.0005046159509926062,
+          0.003479978285338032,
+          -0.011339888047520603,
+          -0.0006274295755012756,
+          -0.005995096174170956,
+          -0.000104998879409672
+        ],
+        "blocks": 6,
+        "interval": "95% exploratory paired process/input-block bootstrap",
+        "draws": 20000,
+        "seed": 2026101509,
+        "case_counts_by_block": {
+          "0": 6,
+          "1": 6,
+          "2": 6,
+          "3": 6,
+          "4": 6,
+          "5": 6
+        }
+      }
+    }
+  },
+  "freeze": {
+    "frozen_at": "2026-10-15T14:22:00.583809+00:00",
+    "recipe": 0,
+    "library": "PER_EXPERT_GRAPH",
+    "cache_q": 4,
+    "full_q": 1,
+    "full_waves": 2,
+    "simple": "CACHE",
+    "core_over_library": 1.5189200006571872,
+    "math_backbone_gap": true,
+    "test_case_ids": [
+      "grouped-003",
+      "grouped-028",
+      "grouped-025",
+      "grouped-026",
+      "grouped-031",
+      "grouped-016",
+      "grouped-029",
+      "grouped-030",
+      "grouped-035",
+      "grouped-052",
+      "grouped-057",
+      "grouped-058",
+      "grouped-063",
+      "grouped-040",
+      "grouped-061",
+      "grouped-062",
+      "grouped-091",
+      "grouped-092",
+      "grouped-081",
+      "grouped-090",
+      "grouped-079",
+      "grouped-088",
+      "grouped-093",
+      "grouped-094",
+      "dense_control-002",
+      "dense_control-004",
+      "dense_control-006",
+      "dense_control-008",
+      "dense_control-010",
+      "dense_control-012",
+      "dense_control-014",
+      "dense_control-016",
+      "dense_control-018",
+      "dense_control-020",
+      "dense_control-022",
+      "dense_control-024",
+      "heterogeneous_k-007",
+      "heterogeneous_k-008",
+      "heterogeneous_k-009",
+      "heterogeneous_k-010",
+      "heterogeneous_k-011",
+      "heterogeneous_k-012"
+    ],
+    "layer_test_case_ids": [
+      "moe_layer-007",
+      "moe_layer-008",
+      "moe_layer-009",
+      "moe_layer-016",
+      "moe_layer-017",
+      "moe_layer-024"
+    ],
+    "development_scores_ms": {
+      "FULL_r0_q1_w2": 1.2116306538094799,
+      "FULL_r1_q2_w1": 1.373370010702786,
+      "FULL_r0_q4_w1": 1.2357473189735146,
+      "FULL_r1_q2_w2": 1.3755202983998942,
+      "FULL_r1_q1_w2": 1.3743762765632555,
+      "CACHE_r0_q1": 1.220783758901278,
+      "FULL_r0_q2_w2": 1.223966267929352,
+      "CACHE_r0_q4": 1.1866905361475566,
+      "CORE_r0": 1.2390835540124276,
+      "FULL_r0_q2_w1": 1.2209807028703106,
+      "FULL_r1_q1_w1": 1.3794216557856829,
+      "FULL_r1_q4_w2": 1.3806374057529736,
+      "PER_EXPERT_GRAPH": 0.8157661716721858,
+      "CACHE_r1_q1": 1.4031099263393778,
+      "CACHE_r1_q4": 1.43605382086285,
+      "CACHE_r1_q2": 1.4013154345943812,
+      "FULL_r1_q4_w1": 1.365276856812833,
+      "CORE_r1": 1.4219181760822521,
+      "FULL_r0_q4_w2": 1.2415410070736952,
+      "FULL_r0_q1_w1": 1.242353977770452,
+      "CACHE_r0_q2": 1.218109362651104,
+      "NATIVE_GROUPED_GRAPH": 0.9616624614686138
+    },
+    "criterion": "24 cases x6 fresh-seed blocks equal geometric device intervals; body chosen solely by CORE",
+    "controls": "Original fixed E3 dense and heterogeneous-K controls retained alongside candidate",
+    "rule_amendment": false,
+    "test_results_used": false,
+    "source": "implementation_selection_rule.json"
+  },
+  "layer_freeze": {
+    "frozen_at": "2026-10-15T15:17:22.201035+00:00",
+    "layer_library": "PER_EXPERT_GRAPH",
+    "development_scores_ms": {
+      "NATIVE_GROUPED_GRAPH": 0.7353864422649287,
+      "PER_EXPERT_GRAPH": 0.656757918707109,
+      "F1S0": 0.8286976223135063,
+      "F0S0": 0.8493062755808558,
+      "F1S1": 0.8351137950620816,
+      "F0S1": 0.8306355780106619
+    },
+    "criterion": "six original development layers x six fresh weight/input seeds; true ready intervals",
+    "schedule_parameters": "unchanged from operator development freeze",
+    "test_results_used": false
+  },
+  "thermal": {
+    "samples": 7761,
+    "power_limits_w": [
+      100.0
+    ],
+    "enforced_power_limits_w": [
+      100.0
+    ],
+    "clock_event_reason_codes": {
+      "0x0000000000000000": 341,
+      "0x0000000000000004": 7420
+    },
+    "temperature_range_c": [
+      63.0,
+      77.0
+    ],
+    "sm_clock_range_mhz": [
+      300.0,
+      1590.0
+    ],
+    "scope": "one-second samples during workers; no assertion of continuous coverage for every short phase"
+  },
+  "budget": {
+    "original_total_limit_seconds": 57600,
+    "all_campaign_used_seconds": 19690.21519641098,
+    "implementation_used_seconds": 7880.333595811011,
+    "by_stage_seconds": {
+      "E0": 87.80591133594862,
+      "E1": 3397.104402545985,
+      "E2": 4.46220336901024,
+      "E3": 5738.005588842992,
+      "E4": 5035.236258354009,
+      "E5": 5427.600831963035,
+      "E6": 0,
+      "E7": 0
+    }
+  },
+  "limitations": [
+    "No physical SM affinity or NUMA test",
+    "Static grouped descriptors and fixed post-route inputs; router/count/scan absent",
+    "Six independent payload/weight seeds but layer routes repeat three seed families",
+    "Same structural shapes previously seen; new input seeds do not provide structural novelty",
+    "Intervals bootstrap six process blocks; primary simultaneous family separately defined within each workload suite",
+    "Graph timings are event spans, not hardware busy times; no actual L2/DRAM counter attribution"
+  ],
+  "layer_route_family_sensitivity": {
+    "FULL_over_LIB": {
+      "time_ratio": 1.833984016171385,
+      "time_reduction_percent": -83.39840161713849,
+      "ratio_interval": [
+        1.6534860734362138,
+        1.9351480542619885
+      ],
+      "block_log_ratios": [
+        0.6601838373851964,
+        0.6564023072269431,
+        0.5028858309284103
+      ],
+      "blocks": 3,
+      "interval": "97.5% marginal bootstrap; Bonferroni simultaneous 95% for two domain primary comparisons",
+      "draws": 20000,
+      "seed": 2026101509,
+      "scope": "three route-family units; each averages two independent payload/weight process blocks; very few units"
+    },
+    "FULL_over_SIMPLE": {
+      "time_ratio": 0.9097522493033237,
+      "time_reduction_percent": 9.024775069667633,
+      "ratio_interval": [
+        0.9062587729285998,
+        0.9152815927764063
+      ],
+      "block_log_ratios": [
+        -0.08852350938424315,
+        -0.09679500838395108,
+        -0.09843039238717026
+      ],
+      "blocks": 3,
+      "interval": "97.5% marginal bootstrap; Bonferroni simultaneous 95% for two domain primary comparisons",
+      "draws": 20000,
+      "seed": 2026101509,
+      "scope": "three route-family units; each averages two independent payload/weight process blocks; very few units"
+    },
+    "SCHEDULE_AT_F0": {
+      "time_ratio": 0.9120434674845456,
+      "time_reduction_percent": 8.795653251545444,
+      "ratio_interval": [
+        0.9088843238077976,
+        0.9157998096401337
+      ],
+      "block_log_ratios": [
+        -0.0879574866209962,
+        -0.09553744943953463,
+        -0.09270794892370512
+      ],
+      "blocks": 3,
+      "interval": "95% exploratory paired process/input-block bootstrap",
+      "draws": 20000,
+      "seed": 2026101509,
+      "scope": "three route-family units; each averages two independent payload/weight process blocks; very few units"
+    },
+    "FUSION_AT_FULL": {
+      "time_ratio": 0.9993716099823076,
+      "time_reduction_percent": 0.06283900176924373,
+      "ratio_interval": [
+        0.9979028751222274,
+        1.0003653174278273
+      ],
+      "block_log_ratios": [
+        -0.0001516864046825025,
+        0.00036525071566262466,
+        -0.0020993269233307507
+      ],
+      "blocks": 3,
+      "interval": "95% exploratory paired process/input-block bootstrap",
+      "draws": 20000,
+      "seed": 2026101509,
+      "scope": "three route-family units; each averages two independent payload/weight process blocks; very few units"
+    },
+    "FUSION_AT_SIMPLE": {
+      "time_ratio": 1.0018885352268916,
+      "time_reduction_percent": -0.18885352268915856,
+      "ratio_interval": [
+        1.0004144222077298,
+        1.0036296879608104
+      ],
+      "block_log_ratios": [
+        0.0004143363585644893,
+        0.0016228096600790986,
+        0.0036231165401344164
+      ],
+      "blocks": 3,
+      "interval": "95% exploratory paired process/input-block bootstrap",
+      "draws": 20000,
+      "seed": 2026101509,
+      "scope": "three route-family units; each averages two independent payload/weight process blocks; very few units"
+    },
+    "FUSION_SCHEDULE_INTERACTION": {
+      "time_ratio": 0.9974878190975467,
+      "time_reduction_percent": 0.2512180902453309,
+      "ratio_interval": [
+        0.9942938985292287,
+        0.9994341373974177
+      ],
+      "block_log_ratios": [
+        -0.0005660227632469409,
+        -0.0012575589444164621,
+        -0.005722443463465138
+      ],
+      "blocks": 3,
+      "interval": "95% exploratory paired process/input-block bootstrap",
+      "draws": 20000,
+      "seed": 2026101509,
+      "scope": "three route-family units; each averages two independent payload/weight process blocks; very few units"
+    }
+  },
+  "measurement_bounds": {
+    "repeat_violations": 0,
+    "operator_aggregate_outside_50_200_ms": 2328,
+    "scope": "Repetitions bounded at 128..512; aggregate target deviations retained, not excluded"
+  },
+  "memory": {
+    "operator_margin_failures": [],
+    "layer_margin_failures": [],
+    "operator_max_peak_reserved_bytes": 3569352704,
+    "layer_max_production_peak_reserved_bytes": 11739856896,
+    "layer_max_validation_peak_reserved_bytes": 11716788224,
+    "scope": "Operator includes FP64 and exact-output validation storage; layer production peak retains small final-reference/exact outputs and all shared graphs, not a per-variant minimum"
+  },
+  "research_status": "SAME_CORE_GAIN_ONLY",
+  "backbone_status": "MATH_BACKBONE_GAP",
+  "selection_status": "DEGENERATE_Q1_FULL_ALIASES_ABL",
+  "new_information_increment": "NOT_IDENTIFIED_FULL_ALIASES_ABL"
+}

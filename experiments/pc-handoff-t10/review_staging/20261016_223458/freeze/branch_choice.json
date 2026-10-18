@@ -1,0 +1,54 @@
+{
+  "chosen_at": "2026-10-16T13:23:44.557651+00:00",
+  "mode": "reduced",
+  "M_LIB_log_ratios": [
+    0.09508508301791234,
+    0.1060123666339687,
+    0.20961503355366987,
+    0.1096546808672829
+  ],
+  "M_G_log_ratios": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "rule": {
+    "full_condition": "Four independent E2 bridge processes have aggregate M/LIB<1 and M/G<1; at least 3/4 process M/LIB<1. Identical M/G aliases cannot satisfy a strict advantage.",
+    "otherwise": "supplied fixed 12 test GEMM cases, six new blocks, CORE/G/M/P plus two LIB anchors, exact parameter aliases measured once",
+    "attention": "ADAPTER_MISSING branch if local mutable split-KV source unavailable; native operator and all six declared chains still required"
+  },
+  "fixed_cases": {
+    "gemm": [
+      "G002",
+      "G005",
+      "G008",
+      "G012",
+      "G017",
+      "G021",
+      "G026",
+      "G030",
+      "G035",
+      "G039",
+      "G044",
+      "G048"
+    ],
+    "attention": [
+      "A002",
+      "A005",
+      "A008",
+      "A011",
+      "A014",
+      "A017",
+      "A020",
+      "A023",
+      "A026",
+      "A029",
+      "A032",
+      "A035"
+    ],
+    "rule": "fixed indices before any results, not chosen winners",
+    "measured": false
+  },
+  "blocks": 6
+}

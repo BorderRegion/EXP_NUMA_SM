@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/selective-reorder-repair-v2-t10/src/report_v2.py", line 74, in <module>
+    for p in POLICIES[1:]:
+             ^^^^^^^^
+NameError: name 'POLICIES' is not defined

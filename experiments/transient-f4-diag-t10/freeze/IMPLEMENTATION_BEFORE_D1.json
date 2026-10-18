@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-17T06:41:24.284191+00:00",
+  "status": "PASS",
+  "host_build": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu/transient-f4-diag-t10/build/20261017T064059Z",
+  "host_sha256": "23770284d294c0e935a9e4a46405814281c8f4bfc7a11adc4fd7240f758fee06",
+  "math_unchanged": true,
+  "selector_unchanged": true,
+  "traces_exact": true,
+  "source_sha256": {
+    "relative_generated.hpp": "ad88a7d543a31bb45ae34b6e60b4c5cc73721c7f99bc1461fdaf8bfd85732e77",
+    "backend.cu": "6158f06be330d3fbc2d10cb6ead4d95d814388b8022c70cd2263d2a31c734c76",
+    "common.py": "27aff1f323d6278f6e168b631cf5278f7edf14e8315799afea1783515b26db8f",
+    "run_stage.py": "ced65c3e5d7a957e4c08922c7e962c526ee602201e2633881615987bf908af1f",
+    "backend.py": "5a267393b47a2494ccdfb47883db406a3e108ff19c61cd259e6997bad2e4fb06",
+    "worker.py": "bd9c3b38f2e6b06e91e8ee673713b6e9fd9f77c363e775c58064c42f5dd6dc4b",
+    "build.py": "6f9b10883255937c7e94cf4d4857ec19915e77512db6b4d56ea6f8e957d04e61",
+    "kernels.cu": "f141825c0160d0a498c0009d0c5e75fba8e07ee1361a8f4c078848fbc5a55191",
+    "decision_core.hpp": "38d0841d0daea2351a22a231ab1a8d61a9d8d0009a1de88975540c8e36d3a1e3",
+    "policy_api.py": "36435b8a1cccef07377078896c401760459e37753ec3b8006c553e8f04009e46",
+    "diagnostic_runtime.hpp": "e3986f4951ff8bda2d0332ab3df280d3cae8c0cfd52dcea23ffab81525021d75",
+    "diag.py": "9e37dd07660dc3bbd69c8a9f690b9d9846dbd2d66351dd544cf7843f9d3e43e2",
+    "telemetry.py": "0160a77d7bb59b1110b540ebb47baf74750b55024cac8432323407796063b9de",
+    "resources.hpp": "201cb79cff9a46587be11668326c412015ffd8802eda7350b7751e5c1eac4911",
+    "forensics.py": "ed8047412461c798e97d9db0a688a10d7071a3bffe02d9ec022d747ff24c26eb",
+    "suite.py": "dd155a0f0c75a8bea4eaa362907db7db294d51386334b776fa7a4f4ca71f9b65",
+    "policy.hpp": "a4d6c0c3e6e89b857f2cb25ae72a9d637619e54623e133207f9f4689a55eed10",
+    "deploy.py": "c3dd040135220bffd32e1a3d025958f9150b822096d01b1d478d8a36c70220fe",
+    "pair_runtime.hpp": "de977c141ac5e6202b486c0dc0cf5b7600e087ec1f85f138de7bc5fca4e534c0",
+    "kernels.cuh": "4fec5c758daa4ad845be3bcd11982a8237333c8b4d385bbc82ed7eb5c71f753a",
+    "runtime_extra.hpp": "eb380977a276ab4545e880ac9fbd24295ef129415dfdf89ee6e2bca5a76a1345"
+  }
+}

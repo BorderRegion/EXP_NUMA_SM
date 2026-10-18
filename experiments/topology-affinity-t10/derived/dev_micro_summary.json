@@ -1,0 +1,374 @@
+[
+  {
+    "page": 0,
+    "unit": "cycles",
+    "comparison": "same_gpc_other_tpc/cross_gpc",
+    "gain_pct": 0.270959199216175,
+    "ci95": [
+      -0.4815241347212454,
+      1.0291322421541642
+    ],
+    "ci_primary": [
+      -0.4815241347212454,
+      1.0291322421541642
+    ],
+    "positive_processes": 1,
+    "processes": 2,
+    "process_gains_pct": [
+      1.0291322421541642,
+      -0.4815241347212454
+    ],
+    "class_mean": 1839.537353515625,
+    "cross_mean": 1844.666206691576,
+    "fixed_effect_difference_vs_cross": -3.7789293715460532,
+    "fixed_effect_process_values": [
+      -17.50350152826043,
+      9.945642785168323
+    ],
+    "residual_correlations": [
+      0.014644677319436531,
+      0.8780972595294598
+    ]
+  },
+  {
+    "page": 0,
+    "unit": "cycles",
+    "comparison": "same_tpc/cross_gpc",
+    "gain_pct": 1.164073436115569,
+    "ci95": [
+      0.5192371344331959,
+      1.8130463972854318
+    ],
+    "ci_primary": [
+      0.5192371344331959,
+      1.8130463972854318
+    ],
+    "positive_processes": 2,
+    "processes": 2,
+    "process_gains_pct": [
+      1.8130463972854318,
+      0.5192371344331959
+    ],
+    "class_mean": 1823.749232700893,
+    "cross_mean": 1844.666206691576,
+    "fixed_effect_difference_vs_cross": -20.535651090675024,
+    "fixed_effect_process_values": [
+      -32.77843672939559,
+      -8.292865451954459
+    ],
+    "residual_correlations": [
+      0.014644677319436531,
+      0.8780972595294598
+    ]
+  },
+  {
+    "page": 0,
+    "unit": "ns",
+    "comparison": "same_gpc_other_tpc/cross_gpc",
+    "gain_pct": 0.2932469512506811,
+    "ci95": [
+      -0.47479098628907856,
+      1.0672118522135376
+    ],
+    "ci_primary": [
+      -0.47479098628907856,
+      1.0672118522135376
+    ],
+    "positive_processes": 1,
+    "processes": 2,
+    "process_gains_pct": [
+      1.0672118522135376,
+      -0.47479098628907856
+    ],
+    "class_mean": 1147.7404017857143,
+    "cross_mean": 1151.2155076581028,
+    "fixed_effect_difference_vs_cross": -2.6141814167094353,
+    "fixed_effect_process_values": [
+      -11.36225869576733,
+      6.13389586234846
+    ],
+    "residual_correlations": [
+      0.020872345618668447,
+      0.6117877163706454
+    ]
+  },
+  {
+    "page": 0,
+    "unit": "ns",
+    "comparison": "same_tpc/cross_gpc",
+    "gain_pct": 1.160300617997127,
+    "ci95": [
+      0.525885763310896,
+      1.7987192395220224
+    ],
+    "ci_primary": [
+      0.525885763310896,
+      1.7987192395220224
+    ],
+    "positive_processes": 2,
+    "processes": 2,
+    "process_gains_pct": [
+      1.7987192395220224,
+      0.525885763310896
+    ],
+    "class_mean": 1138.171875,
+    "cross_mean": 1151.2155076581028,
+    "fixed_effect_difference_vs_cross": -12.803529873243024,
+    "fixed_effect_process_values": [
+      -20.327835490012312,
+      -5.279224256473736
+    ],
+    "residual_correlations": [
+      0.020872345618668447,
+      0.6117877163706454
+    ]
+  },
+  {
+    "page": 17,
+    "unit": "cycles",
+    "comparison": "same_gpc_other_tpc/cross_gpc",
+    "gain_pct": -0.041052896817710204,
+    "ci95": [
+      -0.2629287752310455,
+      0.18131656843166472
+    ],
+    "ci_primary": [
+      -0.2629287752310455,
+      0.18131656843166472
+    ],
+    "positive_processes": 1,
+    "processes": 2,
+    "process_gains_pct": [
+      0.18131656843166472,
+      -0.2629287752310455
+    ],
+    "class_mean": 1835.5878662109374,
+    "cross_mean": 1834.4823481227504,
+    "fixed_effect_difference_vs_cross": 1.9668408799670463,
+    "fixed_effect_process_values": [
+      -1.8016922147984786,
+      5.735373974732571
+    ],
+    "residual_correlations": [
+      7.938263218787717e-05,
+      0.9001560429653761
+    ]
+  },
+  {
+    "page": 17,
+    "unit": "cycles",
+    "comparison": "same_tpc/cross_gpc",
+    "gain_pct": 0.9149753990137041,
+    "ci95": [
+      0.4722149359809981,
+      1.3596870166790598
+    ],
+    "ci_primary": [
+      0.4722149359809981,
+      1.3596870166790598
+    ],
+    "positive_processes": 2,
+    "processes": 2,
+    "process_gains_pct": [
+      1.3596870166790598,
+      0.4722149359809981
+    ],
+    "class_mean": 1818.5553152901784,
+    "cross_mean": 1834.4823481227504,
+    "fixed_effect_difference_vs_cross": -15.337162261876312,
+    "fixed_effect_process_values": [
+      -23.42849556107547,
+      -7.245828962677155
+    ],
+    "residual_correlations": [
+      7.938263218787717e-05,
+      0.9001560429653761
+    ]
+  },
+  {
+    "page": 17,
+    "unit": "ns",
+    "comparison": "same_gpc_other_tpc/cross_gpc",
+    "gain_pct": -0.04233995075779387,
+    "ci95": [
+      -0.26959360621670037,
+      0.18543154299924927
+    ],
+    "ci_primary": [
+      -0.26959360621670037,
+      0.18543154299924927
+    ],
+    "positive_processes": 1,
+    "processes": 2,
+    "process_gains_pct": [
+      0.18543154299924927,
+      -0.26959360621670037
+    ],
+    "class_mean": 1145.4484375000002,
+    "cross_mean": 1144.782829263128,
+    "fixed_effect_difference_vs_cross": 1.2067324982811103,
+    "fixed_effect_process_values": [
+      -1.2218368210425368,
+      3.6353018176047573
+    ],
+    "residual_correlations": [
+      0.0011230752811501078,
+      0.6357784383762501
+    ]
+  },
+  {
+    "page": 17,
+    "unit": "ns",
+    "comparison": "same_tpc/cross_gpc",
+    "gain_pct": 0.8422837602411017,
+    "ci95": [
+      0.4105419469469365,
+      1.2758819622145054
+    ],
+    "ci_primary": [
+      0.4105419469469365,
+      1.2758819622145054
+    ],
+    "positive_processes": 2,
+    "processes": 2,
+    "process_gains_pct": [
+      1.2758819622145054,
+      0.4105419469469365
+    ],
+    "class_mean": 1135.6205357142858,
+    "cross_mean": 1144.782829263128,
+    "fixed_effect_difference_vs_cross": -8.794890575691891,
+    "fixed_effect_process_values": [
+      -13.752597601501352,
+      -3.8371835498824325
+    ],
+    "residual_correlations": [
+      0.0011230752811501078,
+      0.6357784383762501
+    ]
+  },
+  {
+    "page": 257,
+    "unit": "cycles",
+    "comparison": "same_gpc_other_tpc/cross_gpc",
+    "gain_pct": -0.030657006260141114,
+    "ci95": [
+      -0.43424017112785107,
+      0.37456205604102977
+    ],
+    "ci_primary": [
+      -0.43424017112785107,
+      0.37456205604102977
+    ],
+    "positive_processes": 1,
+    "processes": 2,
+    "process_gains_pct": [
+      0.37456205604102977,
+      -0.43424017112785107
+    ],
+    "class_mean": 1834.1472307477675,
+    "cross_mean": 1833.774654894613,
+    "fixed_effect_difference_vs_cross": 0.6740896377733616,
+    "fixed_effect_process_values": [
+      -7.116851788241014,
+      8.465031063787738
+    ],
+    "residual_correlations": [
+      0.030639289878196998,
+      0.897539504694558
+    ]
+  },
+  {
+    "page": 257,
+    "unit": "cycles",
+    "comparison": "same_tpc/cross_gpc",
+    "gain_pct": 1.1357672788501032,
+    "ci95": [
+      0.7645429008146544,
+      1.5083592762373654
+    ],
+    "ci_primary": [
+      0.7645429008146544,
+      1.5083592762373654
+    ],
+    "positive_processes": 2,
+    "processes": 2,
+    "process_gains_pct": [
+      1.5083592762373654,
+      0.7645429008146544
+    ],
+    "class_mean": 1813.592494419643,
+    "cross_mean": 1833.774654894613,
+    "fixed_effect_difference_vs_cross": -19.756005584773135,
+    "fixed_effect_process_values": [
+      -26.82985505287116,
+      -12.682156116675106
+    ],
+    "residual_correlations": [
+      0.030639289878196998,
+      0.897539504694558
+    ]
+  },
+  {
+    "page": 257,
+    "unit": "ns",
+    "comparison": "same_gpc_other_tpc/cross_gpc",
+    "gain_pct": -0.017584885097362994,
+    "ci95": [
+      -0.40884726542502886,
+      0.375214642316728
+    ],
+    "ci_primary": [
+      -0.40884726542502886,
+      0.375214642316728
+    ],
+    "positive_processes": 1,
+    "processes": 2,
+    "process_gains_pct": [
+      0.375214642316728,
+      -0.40884726542502886
+    ],
+    "class_mean": 1144.4439732142857,
+    "cross_mean": 1144.3689829192544,
+    "fixed_effect_difference_vs_cross": 0.26015042399012245,
+    "fixed_effect_process_values": [
+      -4.456970717345886,
+      4.977271565326131
+    ],
+    "residual_correlations": [
+      0.03083492060596602,
+      0.6667246929057563
+    ]
+  },
+  {
+    "page": 257,
+    "unit": "ns",
+    "comparison": "same_tpc/cross_gpc",
+    "gain_pct": 1.1273665384161458,
+    "ci95": [
+      0.79771261988553,
+      1.458098573733126
+    ],
+    "ci_primary": [
+      0.79771261988553,
+      1.458098573733126
+    ],
+    "positive_processes": 2,
+    "processes": 2,
+    "process_gains_pct": [
+      1.458098573733126,
+      0.79771261988553
+    ],
+    "class_mean": 1131.8348214285716,
+    "cross_mean": 1144.3689829192544,
+    "fixed_effect_difference_vs_cross": -12.265532995874267,
+    "fixed_effect_process_values": [
+      -16.213500255627842,
+      -8.317565736120692
+    ],
+    "residual_correlations": [
+      0.03083492060596602,
+      0.6667246929057563
+    ]
+  }
+]

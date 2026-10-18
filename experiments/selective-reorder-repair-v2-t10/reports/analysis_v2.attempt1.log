@@ -1,0 +1,19 @@
+{
+  "aa_episodes": 3,
+  "calibration_quartets": 1152,
+  "card_episodes": 384,
+  "formal_quartets": 1152,
+  "direct_quartets": 144,
+  "formal_AA_quartets": 168,
+  "deployment_phases_by_stage": {
+    "S5_BINDING": 12,
+    "S5_FFN": 30,
+    "S5_OOD": 36,
+    "S5_TRACE": 90
+  },
+  "ffn_aliases": 66,
+  "lifecycle_phases": 72,
+  "lifecycle_H_records": 288,
+  "lifecycle_sample_records": 288,
+  "tuner_quartets": 288
+}

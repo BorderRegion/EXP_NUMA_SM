@@ -1,0 +1,662 @@
+[
+  {
+    "policy": "SHAPE",
+    "H": 1,
+    "scope": "MEASURED_COLD_H_REQUESTS",
+    "n_blocks": 3,
+    "n_cases": 6,
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "case_ids": [
+      "T01",
+      "T04",
+      "T06",
+      "T09",
+      "T12",
+      "T16"
+    ],
+    "block_log_ratios": [
+      -0.006318215760545913,
+      0.0010249109519632862,
+      -0.00046193012355343006
+    ],
+    "block_absolute_us": [
+      {
+        "block": 0,
+        "numerator": 833842.4634907106,
+        "denominator": 840895.0513328487
+      },
+      {
+        "block": 1,
+        "numerator": 834316.0643374547,
+        "denominator": 833654.3888308542
+      },
+      {
+        "block": 2,
+        "numerator": 829681.3083100226,
+        "denominator": 835192.3547022594
+      }
+    ],
+    "gain_percent": 0.1916572668585914,
+    "ratio": 0.9980834273314141,
+    "confidence_level": 0.95,
+    "structural_alias": false,
+    "aggregation": "equal-shape mean log ratio within whole block",
+    "gain_percent_ci": [
+      -0.10254363526740473,
+      0.6298297806069497
+    ],
+    "ratio_ci": [
+      0.9937017021939305,
+      1.001025436352674
+    ]
+  },
+  {
+    "policy": "SHAPE",
+    "H": 32,
+    "scope": "MEASURED_COLD_H_REQUESTS",
+    "n_blocks": 3,
+    "n_cases": 6,
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "case_ids": [
+      "T01",
+      "T04",
+      "T06",
+      "T09",
+      "T12",
+      "T16"
+    ],
+    "block_log_ratios": [
+      -0.013052478787757156,
+      0.017570509500688274,
+      -0.006054729024613116
+    ],
+    "block_absolute_us": [
+      {
+        "block": 0,
+        "numerator": 870989.8948199908,
+        "denominator": 882728.8135034944
+      },
+      {
+        "block": 1,
+        "numerator": 868795.5366647792,
+        "denominator": 865786.4133307823
+      },
+      {
+        "block": 2,
+        "numerator": 868098.7683556139,
+        "denominator": 871061.8125095834
+      }
+    ],
+    "gain_percent": 0.05121016017523017,
+    "ratio": 0.9994878983982477,
+    "confidence_level": 0.95,
+    "structural_alias": false,
+    "aggregation": "equal-shape mean log ratio within whole block",
+    "gain_percent_ci": [
+      -1.7725778957475624,
+      1.2967664599330075
+    ],
+    "ratio_ci": [
+      0.9870323354006699,
+      1.0177257789574756
+    ]
+  },
+  {
+    "policy": "SHAPE",
+    "H": 256,
+    "scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY",
+    "n_blocks": 3,
+    "n_cases": 6,
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "case_ids": [
+      "T01",
+      "T04",
+      "T06",
+      "T09",
+      "T12",
+      "T16"
+    ],
+    "block_log_ratios": [
+      -0.019151376224519245,
+      0.018050537853904713,
+      0.005756642141473992
+    ],
+    "block_absolute_us": [
+      {
+        "block": 0,
+        "numerator": 1377117.2239928606,
+        "denominator": 1417411.749005925
+      },
+      {
+        "block": 1,
+        "numerator": 1393029.5339854816,
+        "denominator": 1370013.9931534026
+      },
+      {
+        "block": 2,
+        "numerator": 1375768.722634295,
+        "denominator": 1374119.916334739
+      }
+    ],
+    "gain_percent": -0.15531394639871632,
+    "ratio": 1.0015531394639872,
+    "confidence_level": 0.95,
+    "structural_alias": false,
+    "aggregation": "equal-shape mean log ratio within whole block",
+    "gain_percent_ci": [
+      -1.821443346179974,
+      1.896915374344832
+    ],
+    "ratio_ci": [
+      0.9810308462565517,
+      1.0182144334617997
+    ]
+  },
+  {
+    "policy": "SHAPE",
+    "H": 4096,
+    "scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY",
+    "n_blocks": 3,
+    "n_cases": 6,
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "case_ids": [
+      "T01",
+      "T04",
+      "T06",
+      "T09",
+      "T12",
+      "T16"
+    ],
+    "block_log_ratios": [
+      -0.027325378706116885,
+      0.027452743391521043,
+      0.037723517094183125
+    ],
+    "block_absolute_us": [
+      {
+        "block": 0,
+        "numerator": 9040105.476680974,
+        "denominator": 9250824.442653196
+      },
+      {
+        "block": 1,
+        "numerator": 8858389.586844394,
+        "denominator": 8672120.681657972
+      },
+      {
+        "block": 2,
+        "numerator": 8893394.620342715,
+        "denominator": 8548836.317652045
+      }
+    ],
+    "gain_percent": -1.2696890243179215,
+    "ratio": 1.0126968902431792,
+    "confidence_level": 0.95,
+    "structural_alias": false,
+    "aggregation": "equal-shape mean log ratio within whole block",
+    "gain_percent_ci": [
+      -3.844408114697062,
+      2.6955417977091556
+    ],
+    "ratio_ci": [
+      0.9730445820229084,
+      1.0384440811469706
+    ]
+  },
+  {
+    "policy": "RESOURCE",
+    "H": 1,
+    "scope": "MEASURED_COLD_H_REQUESTS",
+    "n_blocks": 3,
+    "n_cases": 6,
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "case_ids": [
+      "T01",
+      "T04",
+      "T06",
+      "T09",
+      "T12",
+      "T16"
+    ],
+    "block_log_ratios": [
+      -0.008212681747371954,
+      -0.003291408741127722,
+      0.0038290983648628396
+    ],
+    "block_absolute_us": [
+      {
+        "block": 0,
+        "numerator": 836324.0048177977,
+        "denominator": 840895.0513328487
+      },
+      {
+        "block": 1,
+        "numerator": 831879.7568222411,
+        "denominator": 833654.3888308542
+      },
+      {
+        "block": 2,
+        "numerator": 835085.8294966276,
+        "denominator": 835192.3547022594
+      }
+    ],
+    "gain_percent": 0.2555060968825851,
+    "ratio": 0.9974449390311741,
+    "confidence_level": 0.95,
+    "structural_alias": false,
+    "aggregation": "equal-shape mean log ratio within whole block",
+    "gain_percent_ci": [
+      -0.38364387280072076,
+      0.8179049809075689
+    ],
+    "ratio_ci": [
+      0.9918209501909243,
+      1.0038364387280072
+    ]
+  },
+  {
+    "policy": "RESOURCE",
+    "H": 32,
+    "scope": "MEASURED_COLD_H_REQUESTS",
+    "n_blocks": 3,
+    "n_cases": 6,
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "case_ids": [
+      "T01",
+      "T04",
+      "T06",
+      "T09",
+      "T12",
+      "T16"
+    ],
+    "block_log_ratios": [
+      -0.012092291647405681,
+      0.005198257052092347,
+      -0.015000148411642928
+    ],
+    "block_absolute_us": [
+      {
+        "block": 0,
+        "numerator": 876224.4751689279,
+        "denominator": 882728.8135034944
+      },
+      {
+        "block": 1,
+        "numerator": 865237.2254902621,
+        "denominator": 865786.4133307823
+      },
+      {
+        "block": 2,
+        "numerator": 862371.828516026,
+        "denominator": 871061.8125095834
+      }
+    ],
+    "gain_percent": 0.7271494821609714,
+    "ratio": 0.9927285051783903,
+    "confidence_level": 0.95,
+    "structural_alias": false,
+    "aggregation": "equal-shape mean log ratio within whole block",
+    "gain_percent_ci": [
+      -0.5211791431847912,
+      1.4888206599007914
+    ],
+    "ratio_ci": [
+      0.9851117934009921,
+      1.005211791431848
+    ]
+  },
+  {
+    "policy": "RESOURCE",
+    "H": 256,
+    "scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY",
+    "n_blocks": 3,
+    "n_cases": 6,
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "case_ids": [
+      "T01",
+      "T04",
+      "T06",
+      "T09",
+      "T12",
+      "T16"
+    ],
+    "block_log_ratios": [
+      -0.016878614893607705,
+      0.009844817608003032,
+      0.00043824886687447137
+    ],
+    "block_absolute_us": [
+      {
+        "block": 0,
+        "numerator": 1384345.3461693937,
+        "denominator": 1417411.749005925
+      },
+      {
+        "block": 1,
+        "numerator": 1380164.540014536,
+        "denominator": 1370013.9931534026
+      },
+      {
+        "block": 2,
+        "numerator": 1355639.5081517498,
+        "denominator": 1374119.916334739
+      }
+    ],
+    "gain_percent": 0.21961011730738944,
+    "ratio": 0.9978038988269261,
+    "confidence_level": 0.95,
+    "structural_alias": false,
+    "aggregation": "equal-shape mean log ratio within whole block",
+    "gain_percent_ci": [
+      -0.9893437244373304,
+      1.6736969121050271
+    ],
+    "ratio_ci": [
+      0.9832630308789497,
+      1.0098934372443733
+    ]
+  },
+  {
+    "policy": "RESOURCE",
+    "H": 4096,
+    "scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY",
+    "n_blocks": 3,
+    "n_cases": 6,
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "case_ids": [
+      "T01",
+      "T04",
+      "T06",
+      "T09",
+      "T12",
+      "T16"
+    ],
+    "block_log_ratios": [
+      -0.032835388158918725,
+      0.03169602232570528,
+      0.054104173142428325
+    ],
+    "block_absolute_us": [
+      {
+        "block": 0,
+        "numerator": 8916741.998144088,
+        "denominator": 9250824.442653196
+      },
+      {
+        "block": 1,
+        "numerator": 8798064.484328585,
+        "denominator": 8672120.681657972
+      },
+      {
+        "block": 2,
+        "numerator": 9174008.455173954,
+        "denominator": 8548836.317652045
+      }
+    ],
+    "gain_percent": -1.7811705375081477,
+    "ratio": 1.0178117053750815,
+    "confidence_level": 0.95,
+    "structural_alias": false,
+    "aggregation": "equal-shape mean log ratio within whole block",
+    "gain_percent_ci": [
+      -5.559456103015248,
+      3.230215899791322
+    ],
+    "ratio_ci": [
+      0.9676978410020868,
+      1.0555945610301525
+    ]
+  },
+  {
+    "policy": "INIT_TUNE",
+    "H": 1,
+    "scope": "MEASURED_COLD_H_REQUESTS",
+    "n_blocks": 3,
+    "n_cases": 6,
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "case_ids": [
+      "T01",
+      "T04",
+      "T06",
+      "T09",
+      "T12",
+      "T16"
+    ],
+    "block_log_ratios": [
+      0.8309098249254778,
+      0.8628951676110508,
+      0.8484381193695403
+    ],
+    "block_absolute_us": [
+      {
+        "block": 0,
+        "numerator": 1975640.908204858,
+        "denominator": 840895.0513328487
+      },
+      {
+        "block": 1,
+        "numerator": 1993905.0478262966,
+        "denominator": 833654.3888308542
+      },
+      {
+        "block": 2,
+        "numerator": 1982018.4588497828,
+        "denominator": 835192.3547022594
+      }
+    ],
+    "gain_percent": -133.36052064167157,
+    "ratio": 2.3336052064167156,
+    "confidence_level": 0.95,
+    "structural_alias": false,
+    "aggregation": "equal-shape mean log ratio within whole block",
+    "gain_percent_ci": [
+      -137.00123535719024,
+      -129.54062082873628
+    ],
+    "ratio_ci": [
+      2.2954062082873627,
+      2.3700123535719024
+    ]
+  },
+  {
+    "policy": "INIT_TUNE",
+    "H": 32,
+    "scope": "MEASURED_COLD_H_REQUESTS",
+    "n_blocks": 3,
+    "n_cases": 6,
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "case_ids": [
+      "T01",
+      "T04",
+      "T06",
+      "T09",
+      "T12",
+      "T16"
+    ],
+    "block_log_ratios": [
+      0.8151303225256924,
+      0.8517537428847696,
+      0.8255591662737493
+    ],
+    "block_absolute_us": [
+      {
+        "block": 0,
+        "numerator": 2018936.420840542,
+        "denominator": 882728.8135034944
+      },
+      {
+        "block": 1,
+        "numerator": 2028841.1228263043,
+        "denominator": 865786.4133307823
+      },
+      {
+        "block": 2,
+        "numerator": 2023877.0135140112,
+        "denominator": 871061.8125095834
+      }
+    ],
+    "gain_percent": -129.51872040119503,
+    "ratio": 2.2951872040119503,
+    "confidence_level": 0.95,
+    "structural_alias": false,
+    "aggregation": "equal-shape mean log ratio within whole block",
+    "gain_percent_ci": [
+      -134.37535909750613,
+      -125.94701130150136
+    ],
+    "ratio_ci": [
+      2.2594701130150137,
+      2.3437535909750613
+    ]
+  },
+  {
+    "policy": "INIT_TUNE",
+    "H": 256,
+    "scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY",
+    "n_blocks": 3,
+    "n_cases": 6,
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "case_ids": [
+      "T01",
+      "T04",
+      "T06",
+      "T09",
+      "T12",
+      "T16"
+    ],
+    "block_log_ratios": [
+      0.6153203769476846,
+      0.6582263775042848,
+      0.6683563547452408
+    ],
+    "block_absolute_us": [
+      {
+        "block": 0,
+        "numerator": 2496220.2998591806,
+        "denominator": 1417411.749005925
+      },
+      {
+        "block": 1,
+        "numerator": 2546904.7661726293,
+        "denominator": 1370013.9931534026
+      },
+      {
+        "block": 2,
+        "numerator": 2594680.107009602,
+        "denominator": 1374119.916334739
+      }
+    ],
+    "gain_percent": -91.0377824554963,
+    "ratio": 1.910377824554963,
+    "confidence_level": 0.95,
+    "structural_alias": false,
+    "aggregation": "equal-shape mean log ratio within whole block",
+    "gain_percent_ci": [
+      -95.10278860457129,
+      -85.02492818297573
+    ],
+    "ratio_ci": [
+      1.8502492818297573,
+      1.9510278860457129
+    ]
+  },
+  {
+    "policy": "INIT_TUNE",
+    "H": 4096,
+    "scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY",
+    "n_blocks": 3,
+    "n_cases": 6,
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "case_ids": [
+      "T01",
+      "T04",
+      "T06",
+      "T09",
+      "T12",
+      "T16"
+    ],
+    "block_log_ratios": [
+      0.14477185851045135,
+      0.28140770835501216,
+      0.29526261772214857
+    ],
+    "block_absolute_us": [
+      {
+        "block": 0,
+        "numerator": 9891777.341356143,
+        "denominator": 9250824.442653196
+      },
+      {
+        "block": 1,
+        "numerator": 10616912.07098038,
+        "denominator": 8672120.681657972
+      },
+      {
+        "block": 2,
+        "numerator": 10606736.754186526,
+        "denominator": 8548836.317652045
+      }
+    ],
+    "gain_percent": -27.18604225480661,
+    "ratio": 1.271860422548066,
+    "confidence_level": 0.95,
+    "structural_alias": false,
+    "aggregation": "equal-shape mean log ratio within whole block",
+    "gain_percent_ci": [
+      -34.34791337916223,
+      -15.577585976128127
+    ],
+    "ratio_ci": [
+      1.1557758597612813,
+      1.3434791337916223
+    ]
+  }
+]

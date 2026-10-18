@@ -1,0 +1,21 @@
+{
+  "time_utc": "2026-10-15T12:15:35.890098+00:00",
+  "root": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu/op-fused/vendor/cutlass",
+  "missing": [
+    "include/cutlass/cutlass.h",
+    "include/cutlass/gemm/device/gemm_grouped.h",
+    "include/cutlass/gemm/kernel/default_gemm_grouped.h",
+    "include/cutlass/gemm/kernel/grouped_problem_visitor.h",
+    "include/cutlass/gemm/threadblock/default_mma_core_sm75.h",
+    "examples/24_gemm_grouped/gemm_grouped.cu",
+    "tools/util/include/cutlass/util/host_tensor.h",
+    "LICENSE.txt",
+    "SOURCE_ID.json"
+  ],
+  "source_complete": false,
+  "header_compile_status": "NOT_RUN",
+  "gpu_qualified": false,
+  "candidate_implemented": false,
+  "network_used": false,
+  "status": "MUTABLE_CORE_SOURCE_MISSING"
+}

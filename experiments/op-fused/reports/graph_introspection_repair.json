@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-15T09:38:50.310932+00:00",
+  "failure": "cuGraphGetEdges second call with two zero-length ctypes arrays returned invalid argument when edge count was zero; graph calculation qualification already passed.",
+  "repair": "Skip second edge-array query when edge count is zero; no math, input, grouping, timing or allocation changes. Add single-kernel zero-edge qualification.",
+  "affected_run": "20261015T091721Z_0e59065c",
+  "failed_before_timing_cases": 12,
+  "completed_cases_retained": 12,
+  "repeat_policy": "Preserve original successful and failed block0 records. Do not rerun or fill. Remaining blocks1-5 use audit fix. Twelve E1cases have5validblocks, twelve6. E3/E4 retain6 planned blocks.",
+  "library_selection_amendment": "Keep original24developmentcases and equal-case mean log criterion; use each case available5/6block means. No holdout accessed. Unbalanced developer aggregate descriptive only.",
+  "source_hashes": {
+    "grouped_library.py": "2ac95cbfc54fa47d73dde926f422d5b40b184415b71957307db74c8a2aa90871",
+    "strong_bench.py": "e26dbf50bb08174eb0589cde9579e1efd3b3288ee065f2a4aafbb107f9ebdbdd",
+    "campaign_strong.py": "06bb430aadb03960d82894a4c3bdd7da86437c15770db93fd16da6164c3c29e8"
+  }
+}

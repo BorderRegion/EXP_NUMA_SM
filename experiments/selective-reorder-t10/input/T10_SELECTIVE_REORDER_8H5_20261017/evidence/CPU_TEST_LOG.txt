@@ -1,0 +1,27 @@
+test_cpp_predictions_and_bypass (test_reference.TestCompiledHost.test_cpp_predictions_and_bypass) ... ok
+test_additive_main_effects_vanish (test_reference.TestMath.test_additive_main_effects_vanish) ... ok
+test_bad_matrix (test_reference.TestMath.test_bad_matrix) ... ok
+test_opaque_split (test_reference.TestMath.test_opaque_split) ... ok
+test_pair_direction (test_reference.TestMath.test_pair_direction) ... ok
+test_quantile (test_reference.TestMath.test_quantile) ... ok
+test_ridge_constant (test_reference.TestMath.test_ridge_constant) ... ok
+test_allowed_actions (test_reference.TestSelection.test_allowed_actions) ... ok
+test_base_setup_is_priced (test_reference.TestSelection.test_base_setup_is_priced) ... ok
+test_default_keeps_best_base (test_reference.TestSelection.test_default_keeps_best_base) ... ok
+test_large_margin_can_intervene (test_reference.TestSelection.test_large_margin_can_intervene) ... ok
+test_lifecycle (test_reference.TestSelection.test_lifecycle) ... ok
+test_missing_cost_is_not_free (test_reference.TestSelection.test_missing_cost_is_not_free) ... ok
+test_no_negative_costs (test_reference.TestSelection.test_no_negative_costs) ... ok
+test_ood_goes_direct_lib (test_reference.TestSelection.test_ood_goes_direct_lib) ... ok
+test_preselected_base_is_respected (test_reference.TestSelection.test_preselected_base_is_respected) ... ok
+test_short_life_returns_base (test_reference.TestSelection.test_short_life_returns_base) ... ok
+test_unknown_life_does_not_amortize (test_reference.TestSelection.test_unknown_life_does_not_amortize) ... ok
+test_fit_and_shared_base (test_reference.TestTraining.test_fit_and_shared_base) ... ok
+test_forbid_test_training (test_reference.TestTraining.test_forbid_test_training) ... ok
+test_missing_action (test_reference.TestTraining.test_missing_action) ... ok
+test_whole_shape_card_freeze (test_reference.TestTraining.test_whole_shape_card_freeze) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.648s
+
+OK

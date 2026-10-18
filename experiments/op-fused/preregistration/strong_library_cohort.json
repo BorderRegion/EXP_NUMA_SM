@@ -1,0 +1,79 @@
+{
+  "created_at": "2026-10-15T08:25:48.108203+00:00",
+  "reason": "Late discovery of supported closed-source cublasGemmGroupedBatchedEx; preserve earlier cohorts and add strongest available native reference. No candidate implementation.",
+  "selection": {
+    "E1": [
+      "grouped-001",
+      "grouped-002",
+      "grouped-005",
+      "grouped-006",
+      "grouped-009",
+      "grouped-010",
+      "grouped-013",
+      "grouped-014",
+      "grouped-017",
+      "grouped-018",
+      "grouped-021",
+      "grouped-022",
+      "grouped-033",
+      "grouped-034",
+      "grouped-037",
+      "grouped-038",
+      "grouped-041",
+      "grouped-042",
+      "grouped-045",
+      "grouped-046",
+      "grouped-049",
+      "grouped-050",
+      "grouped-053",
+      "grouped-054"
+    ],
+    "E3": [
+      "grouped-003",
+      "grouped-028",
+      "grouped-025",
+      "grouped-026",
+      "grouped-031",
+      "grouped-016",
+      "grouped-029",
+      "grouped-030",
+      "grouped-035",
+      "grouped-052",
+      "grouped-057",
+      "grouped-058",
+      "grouped-063",
+      "grouped-040",
+      "grouped-061",
+      "grouped-062",
+      "grouped-091",
+      "grouped-092",
+      "grouped-081",
+      "grouped-090",
+      "grouped-079",
+      "grouped-088",
+      "grouped-093",
+      "grouped-094"
+    ],
+    "E4": [
+      "moe_layer-007",
+      "moe_layer-008",
+      "moe_layer-009",
+      "moe_layer-016",
+      "moe_layer-017",
+      "moe_layer-024"
+    ]
+  },
+  "blocks": 6,
+  "seed": 2026101517,
+  "library_selection": "equal-case mean log native-grouped/per-expert device interval on E1 only; freeze globally before E3; no shape policy tuning",
+  "endpoints": {
+    "E1_E3": "amortized CUDA event span,128repeats",
+    "E4": "one output-ready boundary synchronization per request,128requests"
+  },
+  "descriptor_scope": "fixed host descriptors and device pointer arrays prebuilt outside hot measurements; no GPU routing metadata update",
+  "numeric_contract": "FP16storage, FP32compute, reduced precision reduction disallowed; original FP64checks",
+  "source_hashes": {
+    "strong_bench.py": "c2ba2dd44e4e4c9898360ea8059e6bf1625897d3f0dd65d81d69bfd8e68c1a9e",
+    "grouped_library.py": "907431851c82d21b32e6b98cbfa37ae78cb0b1c42ee09dd8fe1ac7d532286aa4"
+  }
+}

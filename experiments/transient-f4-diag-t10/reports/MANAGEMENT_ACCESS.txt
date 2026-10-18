@@ -1,0 +1,3 @@
+COMMAND ['sudo', '-n', 'true']
+RETURN 1
+sudo: a password is required

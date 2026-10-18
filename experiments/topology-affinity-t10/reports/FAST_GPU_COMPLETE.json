@@ -1,0 +1,6 @@
+{
+  "gpu_workers_ended_utc": "2026-10-18T08:27:50.228662+00:00",
+  "analysis_completed_utc": "2026-10-18T08:30:22.868683+00:00",
+  "status": "COMPLETE",
+  "note": "GPU workers finished; Latin tensors analyzed by dedicated reader. Original generic analysis failure retained."
+}

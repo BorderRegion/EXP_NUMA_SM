@@ -1,0 +1,132 @@
+{
+  "preregistration/W2/ca-GrQc": {
+    "scope": "DEVICE_PLAN_FIXED_CSR",
+    "rates": [
+      [
+        418922.69677512447,
+        753955.6962025317,
+        1686703.564001358
+      ],
+      [
+        470113.9541387025,
+        924316.40625,
+        1951086.9565217393
+      ]
+    ],
+    "single_rate": [
+      696656.0801941329,
+      806113.7237855705
+    ],
+    "source": "runs/t10/W2_calibration/t10_20261014T140716Z_ef4a9fc4",
+    "plan_overlap_M_R": 0.513348588863463,
+    "plan_hashes": {
+      "R": "ccfa56ba78e97daea516c4e1384785551369fcf9aa9a787f351ceca7657cd051",
+      "M": "84e22f318b524614e4dcaff2136967fa90a9da9516698f647199039be1fe2d39",
+      "I": "2d8d8c1f1ce78383a473d5ad06b299f0bfa866601712ed1a18f81b5b40e04fd9",
+      "L": "7f4fe435ad3fb36d882ef189456720bbd646303a41a058fd583d2517cfe9716f",
+      "P": "e6a543f0ffbae9c344f35d38e1fdb58fe95e1220c1d496ddf98e688e8a968c54"
+    }
+  },
+  "preregistration/W2/web-Google": {
+    "scope": "DEVICE_PLAN_FIXED_CSR",
+    "rates": [
+      [
+        2949728.3530699653,
+        3061342.0565076424,
+        3339100.760125334
+      ],
+      [
+        2911428.963415322,
+        3014010.4641879564,
+        3914720.6182065215
+      ]
+    ],
+    "single_rate": [
+      3108324.428225248,
+      3223366.848054063
+    ],
+    "source": "runs/t10/W2_calibration/t10_20261014T140811Z_167bab6a",
+    "plan_overlap_M_R": 0.49124537607891494,
+    "plan_hashes": {
+      "R": "9069b35357238c235dfaa3ae1c2a612092090fcbdcc9dac1ba44131d07cb62d1",
+      "M": "ef903053142285ec66e4d17f13895aa2d442f0a89937bb4a8a213d2da201c738",
+      "I": "54cf561ca029341631351f2c4aba6dcddf5a098f9a7ff92984093b19ec1e33b1",
+      "L": "9989491ec56ea5cad6c94add608485e4dff8942d326af77301f143dd4ae09590",
+      "P": "6c6c88aa6b62177cc2cf5d400c300462631b2150a1dd52ee3b89a1d9c31fe22a"
+    }
+  },
+  "preregistration/W1/bonsai": {
+    "scope": "SCENE_PLAN",
+    "rates": [
+      [
+        237012.57273048692,
+        266135.6147805529,
+        284449.75391886494
+      ],
+      [
+        239129.4293573123,
+        278658.84395532537,
+        282158.2009227612
+      ]
+    ],
+    "single_rate": [
+      261045.99476576207,
+      265144.9864331831
+    ],
+    "rate_sources": [
+      "runs/t10/W1_calibration/t10_20261014T135907Z_0dcc04aa",
+      "runs/t10/W1_calibration/t10_20261014T135911Z_503a95b7"
+    ],
+    "plan_overlap_M_R": 0.5333333333333333,
+    "group_sms": [
+      28,
+      28
+    ],
+    "planner_calls_steady": 0,
+    "plan_hashes": {
+      "S": "53b96d93ae21e725c4a5746e0c7c149580c77ffbd6b88533779024e5ed05aad1",
+      "I": "0faf7e81a7d0a377dc681a0e368d9e062dfedf0269e4d2b808d658e1cd720da2",
+      "L": "ef36f00514539f9556dc0db6c77052fc83098f95df87e4d120873a2328e7511c",
+      "R": "64d071cc893b0016af54a7a8b27323653026c636a1e346e281599c72c286391a",
+      "M": "6466729dba502ab339f5a067d645fe6f9ed1c3729cc0e98e29a1d9f00c7afe38",
+      "P": "bb4a5286f60dcc6977d3b8737af99cb4bd70b94c8e9c6296d51e4740c21e845a"
+    }
+  },
+  "preregistration/W1/train": {
+    "scope": "SCENE_PLAN",
+    "rates": [
+      [
+        316754.41199356515,
+        351168.0600262664,
+        405240.47883014823
+      ],
+      [
+        325863.842820493,
+        350144.3615714178,
+        410008.6379348313
+      ]
+    ],
+    "single_rate": [
+      354093.8599811965,
+      358692.7406955263
+    ],
+    "rate_sources": [
+      "runs/t10/W1_calibration/t10_20261014T135917Z_dfb7dacf",
+      "runs/t10/W1_calibration/t10_20261014T135924Z_aa1b1a19"
+    ],
+    "plan_overlap_M_R": 0.5427777777777778,
+    "group_sms": [
+      28,
+      28
+    ],
+    "planner_calls_steady": 0,
+    "plan_hashes": {
+      "S": "53b96d93ae21e725c4a5746e0c7c149580c77ffbd6b88533779024e5ed05aad1",
+      "I": "0faf7e81a7d0a377dc681a0e368d9e062dfedf0269e4d2b808d658e1cd720da2",
+      "L": "f540f09bbdf49e05f2d8d494da468f0366b6fa5a318be0519e46dc92226e8305",
+      "R": "2a78ba16a95e94cff04b1e195c41fee59179e45a5197913cd6368920f747aa07",
+      "M": "9d51fee8eaa6daec934aebc42238136add4c40e6e3d5ebf0f7c7fee187960895",
+      "P": "8506254fcc1a1bcfc2fe1192af13bb8ba6db8b6729e3c72f75a390be63ac0867"
+    }
+  }
+}

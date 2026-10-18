@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "full": {
+    "path": "/home/ubuntu/\u4e0b\u8f7d/T10_ADDRESS_AWARE_GEMM_20261017.zip",
+    "bytes": 27617422,
+    "sha256": "9dec0468dac0c232012857ab3c4dfc56ec7cc45d78c9f7186957401d524201d2",
+    "manifest_entries": 2712,
+    "crc": "PASS",
+    "hashes": "PASS"
+  },
+  "small": {
+    "path": "/home/ubuntu/\u4e0b\u8f7d/T10_ADDRESS_AWARE_GEMM_20261017_SMALL.zip",
+    "bytes": 396735,
+    "sha256": "d568867e384f05c132ad01d581a52758c7e14089f90adda08dcadaed3a7ed472",
+    "manifest_entries": 52,
+    "crc": "PASS",
+    "hashes": "PASS"
+  },
+  "extracted_directory": "/tmp/t10-address-gemm-qa-36rem2k9/T10_ADDRESS_AWARE_GEMM_20261017",
+  "CPU_only_returncode": 0,
+  "CPU_only_seconds": 22.78898891300196,
+  "CPU_only_stdout_last": "ALL_SCHEDULES_AND_RAW_RESULTS_RECOMPUTED_PASS 240",
+  "post_recompute_all_hashes": "PASS"
+}

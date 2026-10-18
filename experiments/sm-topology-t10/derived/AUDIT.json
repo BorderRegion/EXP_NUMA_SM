@@ -1,0 +1,348 @@
+{
+  "status": "PASS",
+  "successful_workers": [
+    "deploy_0",
+    "deploy_1",
+    "deploy_2",
+    "deploy_3",
+    "deploy_v2_0",
+    "deploy_v2_1",
+    "deploy_v2_2",
+    "deploy_v2_3",
+    "deploy_v2_4_resume",
+    "deploy_v2_5",
+    "deploy_v3_0",
+    "deploy_v3_1",
+    "deploy_v3_2",
+    "deploy_v3_3",
+    "deploy_v3_4",
+    "deploy_v3_5",
+    "matrix_0",
+    "matrix_1",
+    "matrix_2",
+    "matrix_3",
+    "matrix_4",
+    "matrix_5",
+    "memcheck_concurrent",
+    "memcheck_packaged",
+    "memcheck_v2",
+    "memcheck_v3",
+    "qualification",
+    "qualification_final",
+    "roster",
+    "synccheck_concurrent",
+    "synccheck_v2",
+    "synccheck_v3",
+    "tensor_confirm_0",
+    "tensor_confirm_1",
+    "tensor_dev_0",
+    "tensor_dev_1"
+  ],
+  "failed_workers": [
+    {
+      "key": "memcheck",
+      "returncode": 13,
+      "stderr": "",
+      "stdout": "========= COMPUTE-SANITIZER\n========= Unable to find injection library libsanitizer-collection.so\n"
+    }
+  ],
+  "not_started_workers": [
+    "deploy_v2_4"
+  ],
+  "execution_sources_unchanged": true,
+  "source_checks": 56,
+  "placement_launches_checked": 337706,
+  "records_checked": 502082,
+  "source_placement_checks": 502082,
+  "checksum_status_records_checked": 502082,
+  "actual_binary_bindings": [
+    {
+      "key": "deploy_0",
+      "runner_relative": "build/runner",
+      "cubin_relative": "build/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "531351c59f01430dd47bf3c0311449243ed0dc5c9443dd7adbc94638d0827572",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "deploy_1",
+      "runner_relative": "build/runner",
+      "cubin_relative": "build/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "531351c59f01430dd47bf3c0311449243ed0dc5c9443dd7adbc94638d0827572",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "deploy_2",
+      "runner_relative": "build/runner",
+      "cubin_relative": "build/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "531351c59f01430dd47bf3c0311449243ed0dc5c9443dd7adbc94638d0827572",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "deploy_3",
+      "runner_relative": "build/runner",
+      "cubin_relative": "build/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "531351c59f01430dd47bf3c0311449243ed0dc5c9443dd7adbc94638d0827572",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "deploy_v2_0",
+      "runner_relative": "build_v2/runner",
+      "cubin_relative": "build_v2/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "f87e9642da38d4b00eb7126bd0e434683503e033dde930d53412dd22d237c45c",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "deploy_v2_1",
+      "runner_relative": "build_v2/runner",
+      "cubin_relative": "build_v2/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "f87e9642da38d4b00eb7126bd0e434683503e033dde930d53412dd22d237c45c",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "deploy_v2_2",
+      "runner_relative": "build_v2/runner",
+      "cubin_relative": "build_v2/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "f87e9642da38d4b00eb7126bd0e434683503e033dde930d53412dd22d237c45c",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "deploy_v2_3",
+      "runner_relative": "build_v2/runner",
+      "cubin_relative": "build_v2/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "f87e9642da38d4b00eb7126bd0e434683503e033dde930d53412dd22d237c45c",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "deploy_v2_4_resume",
+      "runner_relative": "build_v2/runner",
+      "cubin_relative": "build_v2/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "f87e9642da38d4b00eb7126bd0e434683503e033dde930d53412dd22d237c45c",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "deploy_v2_5",
+      "runner_relative": "build_v2/runner",
+      "cubin_relative": "build_v2/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "f87e9642da38d4b00eb7126bd0e434683503e033dde930d53412dd22d237c45c",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "deploy_v3_0",
+      "runner_relative": "build_v3/runner",
+      "cubin_relative": "build_v3/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "eb740c0ed098fafb0b97ab82cbd03bacd7c20cc72e930489f562c98b71f36004",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "deploy_v3_1",
+      "runner_relative": "build_v3/runner",
+      "cubin_relative": "build_v3/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "eb740c0ed098fafb0b97ab82cbd03bacd7c20cc72e930489f562c98b71f36004",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "deploy_v3_2",
+      "runner_relative": "build_v3/runner",
+      "cubin_relative": "build_v3/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "eb740c0ed098fafb0b97ab82cbd03bacd7c20cc72e930489f562c98b71f36004",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "deploy_v3_3",
+      "runner_relative": "build_v3/runner",
+      "cubin_relative": "build_v3/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "eb740c0ed098fafb0b97ab82cbd03bacd7c20cc72e930489f562c98b71f36004",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "deploy_v3_4",
+      "runner_relative": "build_v3/runner",
+      "cubin_relative": "build_v3/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "eb740c0ed098fafb0b97ab82cbd03bacd7c20cc72e930489f562c98b71f36004",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "deploy_v3_5",
+      "runner_relative": "build_v3/runner",
+      "cubin_relative": "build_v3/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "eb740c0ed098fafb0b97ab82cbd03bacd7c20cc72e930489f562c98b71f36004",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "matrix_0",
+      "runner_relative": "build/runner",
+      "cubin_relative": "build/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "531351c59f01430dd47bf3c0311449243ed0dc5c9443dd7adbc94638d0827572",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "matrix_1",
+      "runner_relative": "build/runner",
+      "cubin_relative": "build/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "531351c59f01430dd47bf3c0311449243ed0dc5c9443dd7adbc94638d0827572",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "matrix_2",
+      "runner_relative": "build/runner",
+      "cubin_relative": "build/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "531351c59f01430dd47bf3c0311449243ed0dc5c9443dd7adbc94638d0827572",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "matrix_3",
+      "runner_relative": "build/runner",
+      "cubin_relative": "build/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "531351c59f01430dd47bf3c0311449243ed0dc5c9443dd7adbc94638d0827572",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "matrix_4",
+      "runner_relative": "build/runner",
+      "cubin_relative": "build/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "531351c59f01430dd47bf3c0311449243ed0dc5c9443dd7adbc94638d0827572",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "matrix_5",
+      "runner_relative": "build/runner",
+      "cubin_relative": "build/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "531351c59f01430dd47bf3c0311449243ed0dc5c9443dd7adbc94638d0827572",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "memcheck_concurrent",
+      "runner_relative": "build/runner",
+      "cubin_relative": "build/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "531351c59f01430dd47bf3c0311449243ed0dc5c9443dd7adbc94638d0827572",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "memcheck_packaged",
+      "runner_relative": "build/runner",
+      "cubin_relative": "build/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "531351c59f01430dd47bf3c0311449243ed0dc5c9443dd7adbc94638d0827572",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "memcheck_v2",
+      "runner_relative": "build_v2/runner",
+      "cubin_relative": "build_v2/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "f87e9642da38d4b00eb7126bd0e434683503e033dde930d53412dd22d237c45c",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "memcheck_v3",
+      "runner_relative": "build_v3/runner",
+      "cubin_relative": "build_v3/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "eb740c0ed098fafb0b97ab82cbd03bacd7c20cc72e930489f562c98b71f36004",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "qualification",
+      "runner_relative": "build/runner",
+      "cubin_relative": "build/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "531351c59f01430dd47bf3c0311449243ed0dc5c9443dd7adbc94638d0827572",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "qualification_final",
+      "runner_relative": "build/runner",
+      "cubin_relative": "build/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "531351c59f01430dd47bf3c0311449243ed0dc5c9443dd7adbc94638d0827572",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "roster",
+      "runner_relative": "build/runner",
+      "cubin_relative": "build/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "531351c59f01430dd47bf3c0311449243ed0dc5c9443dd7adbc94638d0827572",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "synccheck_concurrent",
+      "runner_relative": "build/runner",
+      "cubin_relative": "build/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "531351c59f01430dd47bf3c0311449243ed0dc5c9443dd7adbc94638d0827572",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "synccheck_v2",
+      "runner_relative": "build_v2/runner",
+      "cubin_relative": "build_v2/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "f87e9642da38d4b00eb7126bd0e434683503e033dde930d53412dd22d237c45c",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "synccheck_v3",
+      "runner_relative": "build_v3/runner",
+      "cubin_relative": "build_v3/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "eb740c0ed098fafb0b97ab82cbd03bacd7c20cc72e930489f562c98b71f36004",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "tensor_confirm_0",
+      "runner_relative": "build_v3/runner",
+      "cubin_relative": "build_v3/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "eb740c0ed098fafb0b97ab82cbd03bacd7c20cc72e930489f562c98b71f36004",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "tensor_confirm_1",
+      "runner_relative": "build_v3/runner",
+      "cubin_relative": "build_v3/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "eb740c0ed098fafb0b97ab82cbd03bacd7c20cc72e930489f562c98b71f36004",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "tensor_dev_0",
+      "runner_relative": "build_v3/runner",
+      "cubin_relative": "build_v3/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "eb740c0ed098fafb0b97ab82cbd03bacd7c20cc72e930489f562c98b71f36004",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    },
+    {
+      "key": "tensor_dev_1",
+      "runner_relative": "build_v3/runner",
+      "cubin_relative": "build_v3/probe.cubin",
+      "runner_sha256": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313",
+      "cubin_sha256": "eb740c0ed098fafb0b97ab82cbd03bacd7c20cc72e930489f562c98b71f36004",
+      "note": "Actual command and frozen binary resolve v2; wrapper manifest binaries field is the original-build reference and is not v2 provenance."
+    }
+  ]
+}

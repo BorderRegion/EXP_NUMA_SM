@@ -1,0 +1,72 @@
+{
+  "created_utc": "2026-10-17T15:06:09.123077+00:00",
+  "scope": "Post-confirmation deployment decision; no claim of an independent routing performance holdout. All individual case results retained. Attention-only uses original core binary. No SM-address queue enabled.",
+  "cases": {
+    "QWEN_SHORT": {
+      "shape": [
+        1,
+        8,
+        2,
+        256,
+        1024
+      ],
+      "append": "fused",
+      "reason": "positive in four processes and bootstrap interval above zero"
+    },
+    "QWEN_LONG": {
+      "shape": [
+        1,
+        8,
+        2,
+        256,
+        8192
+      ],
+      "append": "fused",
+      "reason": "positive in four processes and bootstrap interval above zero"
+    },
+    "GQA4_SHORT": {
+      "shape": [
+        1,
+        32,
+        8,
+        128,
+        1024
+      ],
+      "append": "fused",
+      "reason": "positive in four processes and bootstrap interval above zero"
+    },
+    "GQA4_LONG": {
+      "shape": [
+        1,
+        32,
+        8,
+        128,
+        8192
+      ],
+      "append": "fused",
+      "reason": "positive in four processes and bootstrap interval above zero"
+    },
+    "GQA8_LONG": {
+      "shape": [
+        1,
+        32,
+        4,
+        128,
+        8192
+      ],
+      "append": "legacy_separate",
+      "reason": "no reliable advantage over original immutable core + separate append"
+    },
+    "BATCH4_RAGGED": {
+      "shape": [
+        4,
+        32,
+        8,
+        128,
+        4096
+      ],
+      "append": "fused",
+      "reason": "positive in four processes and bootstrap interval above zero"
+    }
+  }
+}

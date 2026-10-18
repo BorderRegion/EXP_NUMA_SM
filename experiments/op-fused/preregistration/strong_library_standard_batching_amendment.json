@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-10-15T09:02:11.715791+00:00",
+  "before_first_formal_strong_measurement": true,
+  "reason": "Standard native API usage: coalesce equal(M,N,K) into group_size>1, stable first appearance; no performance data consulted, no custom GPU scheduler. Earlier qualification used distinct dimensions and group_size1 and is retained. Queued formal block0 interrupted before GPU lock so coalesced path is qualified first.",
+  "shapes_selection_repetitions_endpoints_unchanged": true,
+  "source_hashes": {
+    "strong_bench.py": "47057973317a208a3859162dc8cd7c71c43480534658be343fbe55ba7e45f042",
+    "grouped_library.py": "164ab534dc1b3522805cc092159995602283038a5a4b82be515eadc8c285a7ff",
+    "campaign_strong.py": "276a98bfc7a9f353ebc1d6de751ecd2db883fa3e936224d0021a83dce5b8a320"
+  }
+}

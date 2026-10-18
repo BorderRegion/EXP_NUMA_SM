@@ -1,0 +1,138 @@
+{
+  "status": "DESIGN_ONLY_NO_NEW_GPU_DATA",
+  "cases": [
+    {
+      "id": "R_G017",
+      "split": "regression",
+      "M": 32,
+      "N": 8192,
+      "K": 4096,
+      "source": "HISTORICAL_SHAPE_NEW_RUN_NOT_HOLDOUT",
+      "measured": false,
+      "cohort": "regression",
+      "previously_seen": true
+    },
+    {
+      "id": "R_G002",
+      "split": "regression",
+      "M": 1,
+      "N": 1024,
+      "K": 16384,
+      "source": "HISTORICAL_SHAPE_NEW_RUN_NOT_HOLDOUT",
+      "measured": false,
+      "cohort": "regression",
+      "previously_seen": true
+    },
+    {
+      "id": "V14",
+      "split": "new_confirmation",
+      "cohort": "new_confirmation",
+      "M": 224,
+      "N": 2560,
+      "K": 20480,
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "measured": false,
+      "previously_seen": false,
+      "extrapolation": true
+    },
+    {
+      "id": "V15",
+      "split": "new_confirmation",
+      "cohort": "new_confirmation",
+      "M": 224,
+      "N": 7168,
+      "K": 10240,
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "measured": false,
+      "previously_seen": false,
+      "extrapolation": true
+    },
+    {
+      "id": "V16",
+      "split": "new_confirmation",
+      "cohort": "new_confirmation",
+      "M": 224,
+      "N": 7168,
+      "K": 20480,
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "measured": false,
+      "previously_seen": false,
+      "extrapolation": true
+    },
+    {
+      "id": "V09",
+      "split": "new_confirmation",
+      "cohort": "new_confirmation",
+      "M": 72,
+      "N": 2560,
+      "K": 10240,
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "measured": false,
+      "previously_seen": false,
+      "extrapolation": false
+    },
+    {
+      "id": "V01",
+      "split": "new_confirmation",
+      "cohort": "new_confirmation",
+      "M": 6,
+      "N": 2560,
+      "K": 10240,
+      "source": "DESIGNED_SYNTHETIC_NOT_MODEL_TRACE",
+      "measured": false,
+      "previously_seen": false,
+      "extrapolation": false
+    }
+  ],
+  "ffn": [
+    {
+      "id": "F1",
+      "M": 6,
+      "hidden": 10240,
+      "intermediate": 2560,
+      "first_case": "V01",
+      "second_policy": "LIB_FIXED_SHARED",
+      "scope": "GEMM_SILU_FP16_GEMM_SYNTHETIC_WEIGHTS"
+    },
+    {
+      "id": "F2",
+      "M": 20,
+      "hidden": 20480,
+      "intermediate": 7168,
+      "first_case": "V08",
+      "second_policy": "LIB_FIXED_SHARED",
+      "scope": "GEMM_SILU_FP16_GEMM_SYNTHETIC_WEIGHTS"
+    },
+    {
+      "id": "F3",
+      "M": 72,
+      "hidden": 10240,
+      "intermediate": 2560,
+      "first_case": "V09",
+      "second_policy": "LIB_FIXED_SHARED",
+      "scope": "GEMM_SILU_FP16_GEMM_SYNTHETIC_WEIGHTS"
+    },
+    {
+      "id": "F4",
+      "M": 224,
+      "hidden": 20480,
+      "intermediate": 7168,
+      "first_case": "V16",
+      "second_policy": "LIB_FIXED_SHARED",
+      "scope": "GEMM_SILU_FP16_GEMM_SYNTHETIC_WEIGHTS"
+    }
+  ],
+  "main_aa_cases": [
+    "R_G017",
+    "R_G002"
+  ],
+  "meaning": {
+    "R_G017": "旧BEGIN显著瞬态的固定复现输入",
+    "R_G002": "旧BEGIN相对较弱的对照，不预设稳定",
+    "V14": "冻结SINGLE选择，原全动作表缺失",
+    "V15": "冻结SINGLE选择，有旧动作表",
+    "V16": "冻结SINGLE选择，F4第一层",
+    "V09": "F3第一层，冻结LIB，用作完整链A/A",
+    "V01": "只作旧PC证据边界说明；本轮不重跑PC矩阵"
+  }
+}

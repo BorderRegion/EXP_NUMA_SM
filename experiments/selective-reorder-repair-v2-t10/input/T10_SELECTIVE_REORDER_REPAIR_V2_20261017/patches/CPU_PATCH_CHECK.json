@@ -1,0 +1,8 @@
+{
+  "status": "CPU_EQUIVALENT",
+  "calls": 1560,
+  "original_allocations": 1152,
+  "patched_allocations": 0,
+  "all_13_export_fields_identical_at_17_digits": true,
+  "GPU_executed": false
+}

@@ -1,0 +1,7 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "torch": "2.8.0+cu128",
+  "torch_cuda": "12.8",
+  "numpy": "2.5.3",
+  "cuda_initialized": false
+}

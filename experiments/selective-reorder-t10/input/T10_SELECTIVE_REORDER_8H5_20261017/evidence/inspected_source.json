@@ -1,0 +1,42 @@
+{
+  "archive": "T10_PC_HANDOFF_LLM_RESULTS_20261016_SMALL.zip",
+  "sha256": "286a7afa13e839d9e94af5128a94d05eaec20959eeee0ee4339dbc5198b197cf",
+  "scope": "为设计定点读取源与配置，未重跑GPU或重新全面审计旧统计",
+  "items": [
+    {
+      "member": "src/backend.cu",
+      "sha256": "d6e536e314c12bd9481d0ff01c8dfef6b3f21a6ca714b89eb719920388ace4aa",
+      "bytes": 14550
+    },
+    {
+      "member": "src/resources.hpp",
+      "sha256": "050634d42f41f409ae6c44dfbb73f53e13c0abbbf297c40c3c24201a4ad9ed21",
+      "bytes": 1854
+    },
+    {
+      "member": "src/measure.py",
+      "sha256": "2b2b6f214442b693aa57090fc491898e2c32ad122c3ecf053a4590dd209c3245",
+      "bytes": 4202
+    },
+    {
+      "member": "src/formal.py",
+      "sha256": "975b998d545097529d7ba82ef60449b1b98a7778a2272b094a51ae58b4a7406e",
+      "bytes": 3873
+    },
+    {
+      "member": "freeze/selection.json",
+      "sha256": "b16d1c4527d267d04c218c6e10b252748f8b1fb912b18361b9715bedcc15a046",
+      "bytes": 38710
+    },
+    {
+      "member": "freeze/pc_rule.json",
+      "sha256": "250763b9fae73d411bbfac7339ea0abaceff953ef2209f4cf04904a5aac1ea8d",
+      "bytes": 1536
+    },
+    {
+      "member": "input/T10_PC_HANDOFF_LLM_20261016/plans/gemm_cases.json",
+      "sha256": "6fe8db0a1e172896f37219d6fc7be61786f17369d6031e0485fbbb5a89aaae72",
+      "bytes": 15557
+    }
+  ]
+}

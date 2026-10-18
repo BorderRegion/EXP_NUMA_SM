@@ -1,0 +1,302 @@
+[
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "setup_ms": 26.791955,
+    "fallback": true,
+    "choice": 54,
+    "plan": {
+      "offset": 17,
+      "page": 17,
+      "family": "RND07"
+    },
+    "same_as_tuned": {
+      "BASE": true,
+      "LEGACY": false,
+      "TUNED": true,
+      "TUNED_AA": true,
+      "PAIR_ONLY": true,
+      "PLACE_ONLY": true,
+      "WRONG": false,
+      "POOL": true,
+      "SHADOW": false,
+      "FROZEN": true,
+      "STATIC": false
+    }
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "setup_ms": 20.018588,
+    "fallback": false,
+    "choice": 45,
+    "plan": {
+      "offset": 17,
+      "page": 17,
+      "family": "SAME_GPC"
+    },
+    "same_as_tuned": {
+      "BASE": false,
+      "LEGACY": false,
+      "TUNED": true,
+      "TUNED_AA": true,
+      "PAIR_ONLY": true,
+      "PLACE_ONLY": false,
+      "WRONG": false,
+      "POOL": false,
+      "SHADOW": false,
+      "FROZEN": false,
+      "STATIC": true
+    }
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "setup_ms": 21.375853,
+    "fallback": true,
+    "choice": 54,
+    "plan": {
+      "offset": 17,
+      "page": 17,
+      "family": "RND07"
+    },
+    "same_as_tuned": {
+      "BASE": true,
+      "LEGACY": false,
+      "TUNED": true,
+      "TUNED_AA": true,
+      "PAIR_ONLY": false,
+      "PLACE_ONLY": true,
+      "WRONG": false,
+      "POOL": true,
+      "SHADOW": false,
+      "FROZEN": true,
+      "STATIC": false
+    }
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "setup_ms": 20.076343,
+    "fallback": false,
+    "choice": 21,
+    "plan": {
+      "offset": 0,
+      "page": 17,
+      "family": "RND07"
+    },
+    "same_as_tuned": {
+      "BASE": false,
+      "LEGACY": false,
+      "TUNED": true,
+      "TUNED_AA": true,
+      "PAIR_ONLY": false,
+      "PLACE_ONLY": false,
+      "WRONG": true,
+      "POOL": true,
+      "SHADOW": false,
+      "FROZEN": false,
+      "STATIC": false
+    }
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "setup_ms": 13.672561,
+    "fallback": true,
+    "choice": 54,
+    "plan": {
+      "offset": 17,
+      "page": 17,
+      "family": "RND07"
+    },
+    "same_as_tuned": {
+      "BASE": true,
+      "LEGACY": false,
+      "TUNED": true,
+      "TUNED_AA": true,
+      "PAIR_ONLY": true,
+      "PLACE_ONLY": true,
+      "WRONG": false,
+      "POOL": true,
+      "SHADOW": false,
+      "FROZEN": true,
+      "STATIC": false
+    }
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "setup_ms": 36.048763,
+    "fallback": true,
+    "choice": 54,
+    "plan": {
+      "offset": 17,
+      "page": 17,
+      "family": "RND07"
+    },
+    "same_as_tuned": {
+      "BASE": true,
+      "LEGACY": false,
+      "TUNED": true,
+      "TUNED_AA": true,
+      "PAIR_ONLY": false,
+      "PLACE_ONLY": true,
+      "WRONG": false,
+      "POOL": false,
+      "SHADOW": false,
+      "FROZEN": false,
+      "STATIC": false
+    }
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "setup_ms": 13.600322,
+    "fallback": true,
+    "choice": 54,
+    "plan": {
+      "offset": 17,
+      "page": 17,
+      "family": "RND07"
+    },
+    "same_as_tuned": {
+      "BASE": true,
+      "LEGACY": false,
+      "TUNED": true,
+      "TUNED_AA": true,
+      "PAIR_ONLY": true,
+      "PLACE_ONLY": true,
+      "WRONG": true,
+      "POOL": true,
+      "SHADOW": false,
+      "FROZEN": true,
+      "STATIC": false
+    }
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "setup_ms": 35.406666,
+    "fallback": true,
+    "choice": 54,
+    "plan": {
+      "offset": 17,
+      "page": 17,
+      "family": "RND07"
+    },
+    "same_as_tuned": {
+      "BASE": true,
+      "LEGACY": false,
+      "TUNED": true,
+      "TUNED_AA": true,
+      "PAIR_ONLY": false,
+      "PLACE_ONLY": true,
+      "WRONG": false,
+      "POOL": false,
+      "SHADOW": false,
+      "FROZEN": false,
+      "STATIC": false
+    }
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "setup_ms": 13.750285,
+    "fallback": true,
+    "choice": 54,
+    "plan": {
+      "offset": 17,
+      "page": 17,
+      "family": "RND07"
+    },
+    "same_as_tuned": {
+      "BASE": true,
+      "LEGACY": false,
+      "TUNED": true,
+      "TUNED_AA": true,
+      "PAIR_ONLY": false,
+      "PLACE_ONLY": false,
+      "WRONG": true,
+      "POOL": true,
+      "SHADOW": false,
+      "FROZEN": true,
+      "STATIC": false
+    }
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "setup_ms": 31.788787,
+    "fallback": false,
+    "choice": 77,
+    "plan": {
+      "offset": 67,
+      "page": 17,
+      "family": "IDENTITY"
+    },
+    "same_as_tuned": {
+      "BASE": false,
+      "LEGACY": false,
+      "TUNED": true,
+      "TUNED_AA": true,
+      "PAIR_ONLY": false,
+      "PLACE_ONLY": false,
+      "WRONG": false,
+      "POOL": true,
+      "SHADOW": false,
+      "FROZEN": false,
+      "STATIC": false
+    }
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "setup_ms": 25.378344,
+    "fallback": true,
+    "choice": 54,
+    "plan": {
+      "offset": 17,
+      "page": 17,
+      "family": "RND07"
+    },
+    "same_as_tuned": {
+      "BASE": true,
+      "LEGACY": false,
+      "TUNED": true,
+      "TUNED_AA": true,
+      "PAIR_ONLY": true,
+      "PLACE_ONLY": true,
+      "WRONG": false,
+      "POOL": true,
+      "SHADOW": true,
+      "FROZEN": true,
+      "STATIC": false
+    }
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "setup_ms": 20.039857,
+    "fallback": true,
+    "choice": 54,
+    "plan": {
+      "offset": 17,
+      "page": 17,
+      "family": "RND07"
+    },
+    "same_as_tuned": {
+      "BASE": true,
+      "LEGACY": false,
+      "TUNED": true,
+      "TUNED_AA": true,
+      "PAIR_ONLY": false,
+      "PLACE_ONLY": false,
+      "WRONG": true,
+      "POOL": false,
+      "SHADOW": false,
+      "FROZEN": false,
+      "STATIC": false
+    }
+  }
+]

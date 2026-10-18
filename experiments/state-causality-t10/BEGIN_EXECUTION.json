@@ -1,0 +1,11 @@
+{
+  "started_at": "2026-10-17T09:23:52.068526+00:00",
+  "budget_started_monotonic": 363538.801924254,
+  "initial_read_allowance_s": 480,
+  "prior_gpu_minutes": 308.7346722063162,
+  "new_gpu_cap_minutes": 20,
+  "cumulative_cap_minutes": 330,
+  "wall_hard_minutes": 240,
+  "prior_root": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu/transient-f4-diag-t10",
+  "prior_archive": "/home/ubuntu/\u4e0b\u8f7d/T10_TRANSIENT_AND_F4_DIAG_RESULT_20261017.zip"
+}

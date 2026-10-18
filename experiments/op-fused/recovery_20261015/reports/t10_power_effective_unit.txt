@@ -1,0 +1,29 @@
+# /etc/systemd/system/t10-quiet-power.service
+[Unit]
+Description=Tesla T10 quiet power profile at 125 W
+Wants=nvidia-persistenced.service
+After=systemd-modules-load.service nvidia-persistenced.service
+StartLimitIntervalSec=0
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/nvidia-smi -i GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5 -pm 1
+ExecStart=/usr/bin/nvidia-smi -i GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5 -pl 125
+RemainAfterExit=yes
+Restart=on-failure
+RestartSec=15
+TimeoutStartSec=45
+
+[Install]
+WantedBy=multi-user.target
+
+# /etc/systemd/system/t10-quiet-power.service.d/90-op-fused-fixed100.conf
+[Service]
+ExecStart=
+ExecStart=/usr/bin/nvidia-smi -i GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5 -pm 1
+ExecStart=/usr/bin/nvidia-smi -i GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5 -pl 100
+
+ExecStart={ path=/usr/bin/nvidia-smi ; argv[]=/usr/bin/nvidia-smi -i GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5 -pm 1 ; ignore_errors=no ; start_time=[Thu 2026-10-15 21:11:33 CST] ; stop_time=[Thu 2026-10-15 21:11:33 CST] ; pid=1762361 ; code=exited ; status=0 }
+ExecStart={ path=/usr/bin/nvidia-smi ; argv[]=/usr/bin/nvidia-smi -i GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5 -pl 100 ; ignore_errors=no ; start_time=[Thu 2026-10-15 21:11:33 CST] ; stop_time=[Thu 2026-10-15 21:11:33 CST] ; pid=1762364 ; code=exited ; status=0 }
+ActiveState=active
+SubState=exited

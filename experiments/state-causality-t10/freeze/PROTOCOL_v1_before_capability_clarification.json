@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "scope": "T10 R_G017 reversible runtime-state interventions; no new kernel/selector/NUMA method",
+  "main_power_w": 100,
+  "clock_intervention": "UNAVAILABLE_PERMISSION_DENIED; not applied",
+  "math": "Previous exactLIB bodies/cubins; all warmups/timing kept",
+  "primary_case": "R_G017",
+  "control_case": "R_G002",
+  "main_blocks": 6,
+  "main_condition_s": 30,
+  "main_phase_s": 8,
+  "modes": {
+    "A": "READY0: original wrappedGraph + output wait every request, no intentional idle",
+    "B": "READY100US: same request plus100us requested host sleep",
+    "C": "READY1000US: same request plus1000us requested host sleep",
+    "D": "BURST64:64 bodyGraphs enqueued on same stream, one tail wait; packet timing only"
+  },
+  "orders": [
+    "ABACADA",
+    "ABADACA",
+    "ACABADA",
+    "ACADABA",
+    "ADABACA",
+    "ADACABA"
+  ],
+  "measurement_slots": "ring4 global request ordinal across phases; tracked continuously",
+  "control_blocks": 2,
+  "control_condition_s": 10,
+  "control_phase_s": 4,
+  "observer_blocks": 2,
+  "observer_order": [
+    "ABBA",
+    "BAAB"
+  ],
+  "observer_phase_s": 6,
+  "observer_condition_s": 10,
+  "observer_modes": {
+    "A": "1Hz NVML",
+    "B": "20Hz NVML"
+  },
+  "main_observer_hz": 20,
+  "capture_workers_max": 2,
+  "capture_phase_s": 1.5,
+  "capture_condition_s": 30,
+  "cache_gate": "No automatic cache/root-cause claim; hardware counters only if existing tool/API and permissions available. No target-changing GPU kernels.",
+  "stats": "Process block replication. Report complete raw, mean/q10/q50/q90, fixed100ms bins, request gaps and clock/throttle associations; no causal attribution to frequency from correlation alone.",
+  "predefined_state_summary_us": {
+    "fast_below": 650,
+    "slow_above": 850
+  },
+  "threshold_scope": "Descriptive inherited separated timing modes; middle retained; not significance or filtering. Applied only R_G017 per-request READY latencies.",
+  "stop": "82C orGPUerror/Xid/fan fault; count failures; cap20min new and330total",
+  "claim_gate": "Only claim submission-history intervention if repeated A→X→A responds across independent blocks; frequency causation unavailable without fixed-frequency intervention; no physicalNUMA claim",
+  "prior_untouched": true
+}

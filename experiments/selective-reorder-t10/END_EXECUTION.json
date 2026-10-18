@@ -1,0 +1,10 @@
+{
+  "status": "EXECUTION_AND_DELIVERY_VERIFIED",
+  "elapsed_wall_minutes_including_packaging_QA": 97.29680030686723,
+  "gpu_worker_minutes": 70.17180623668246,
+  "package_sha256": "feac24c448ca86be797f9481965e44aab1691f97c2a35de03fc33ce29eed3991",
+  "package_bytes": 8101807,
+  "known_evidence_limitations": [
+    "Lifecycle blocks0/1 retained complete per-plan aggregates, costs, tuning action means and numerical checks, but not individual lifecycle request arrays or per-H epoch intervals. Block2 records them. All three original blocks remain in analysis; no outcome-based replacement."
+  ]
+}

@@ -1,0 +1,9 @@
+memcheck FAILED 0.108
+Traceback (most recent call last):
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-affinity-causal-t10/src/campaign.py", line 9, in <module>
+    for mode in ['memcheck','synccheck','racecheck']:run(mode,[san,'--tool',mode,'--error-exitcode','9',PYTHON,ROOT/'src/qualify.py','{OUT}','--small'])
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-affinity-causal-t10/src/worker.py", line 38, in run
+    if rc:raise RuntimeError(str(out))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: /home/ubuntu/文档/ChatGPT/numa_gpu/numa-affinity-causal-t10/runs/20261018T050207Z/memcheck

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "figures": [
+    "NET_PRIMARY",
+    "CALIBRATION_COST",
+    "MODEL_TRANSFER",
+    "PROCESS_OUTCOMES"
+  ],
+  "method": "Rendered PNGs visually inspected. Model-transfer legends moved outside axes so all data remain visible. Labels and intervals readable; PDF exports provided."
+}

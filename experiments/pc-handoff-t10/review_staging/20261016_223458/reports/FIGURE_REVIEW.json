@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "scope": "Visual inspection of eight PNG figures; PNG and PDF generated from the same matplotlib figures. Checked labels, intervals, coverage and unclipped layout. Counterfactual axis uses labeled symmetric-log scale to retain scratch cost.",
+  "files": [
+    {
+      "path": "reports/figures/01_development.pdf",
+      "sha256": "9563fe4bd9394d98b4bfc91ac60b7cfafd93d9b1fecdcdb4550ed8ae072c3d2b"
+    },
+    {
+      "path": "reports/figures/01_development.png",
+      "sha256": "5aa6ca6dfe9f0009c294f1b42245e5329455fbc0e3cee44d9f28e72f5277dd82"
+    },
+    {
+      "path": "reports/figures/02_pc_confirmation.pdf",
+      "sha256": "4ab663cff29ee66be2d77312cc2a835754d098f6016d6ba742745d9b72e4a36b"
+    },
+    {
+      "path": "reports/figures/02_pc_confirmation.png",
+      "sha256": "c7d57996bf052381346f359f34bbf03b6b553e578c6106d01d32186b3e3d8451"
+    },
+    {
+      "path": "reports/figures/03_gemm_test.pdf",
+      "sha256": "5ba59007cf2d7fb817b4d978d8adceb80dc320e0ea8e8154b0434cd5ecf3db4d"
+    },
+    {
+      "path": "reports/figures/03_gemm_test.png",
+      "sha256": "b4c30050184bbb64d9c473fcae1de1cb4ca99ff6ec53f49664ef47dcef4ba9e9"
+    },
+    {
+      "path": "reports/figures/04_ffn_chains.pdf",
+      "sha256": "c3e3b18082f14c973c43d32d446ddbe02d2f684a32c3390e70e71856460843a1"
+    },
+    {
+      "path": "reports/figures/04_ffn_chains.png",
+      "sha256": "463ad95b0f4d65b469e0eb1b0144eaa0ce85fd2ab72032f5776e4318a3a311b8"
+    },
+    {
+      "path": "reports/figures/05_attention_native.pdf",
+      "sha256": "45785de173fb7ddc24bf90527debc42e4d0183fbb1869cd5140289ac97304953"
+    },
+    {
+      "path": "reports/figures/05_attention_native.png",
+      "sha256": "7b25b76f5a7a260414b2fe2285d442031c3696e45ee248dd2612b5c983b50b90"
+    },
+    {
+      "path": "reports/figures/06_controls.pdf",
+      "sha256": "88cb62d319feec8bd472c89dca1ead38e60108ef7443e096bf53b3ba62531d6f"
+    },
+    {
+      "path": "reports/figures/06_controls.png",
+      "sha256": "7cfbd87dc74d5a8b8f27f6dfd80fbd37740ba0b960d63fa0a1aef1c0d51e03e6"
+    },
+    {
+      "path": "reports/figures/07_frozen_transfer.pdf",
+      "sha256": "4193e9040fc041e52823b5def3e37afd52c8c211dadeffb4a48235b1f6599f2b"
+    },
+    {
+      "path": "reports/figures/07_frozen_transfer.png",
+      "sha256": "287aeb2eb316c365b3b03ebd417b29c943df378d65e82ddf3a9f2539412109cb"
+    },
+    {
+      "path": "reports/figures/08_profile_overlap.pdf",
+      "sha256": "4c96fcafaca5556d9b12151774ca1fb7b640c69e9dfd502dc02e90376a62702b"
+    },
+    {
+      "path": "reports/figures/08_profile_overlap.png",
+      "sha256": "b49ce679e8b0e3ebb37456b09d45878bd8320b9a5fbd5a839fda47af8c1f5423"
+    }
+  ]
+}

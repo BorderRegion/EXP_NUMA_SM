@@ -1,0 +1,381 @@
+{
+  "scope": "Only archive data and source; no GPU, no tensors recomputed, no binary/SASS independently generated",
+  "manifest_entries": 2090,
+  "manifest_verified": 2090,
+  "unlisted_files": [
+    "FILES_SHA256.json",
+    "GPT_READ_FIRST.txt",
+    "PACKAGE_SCOPE.txt"
+  ],
+  "missing_indexed": [],
+  "registry_runs": 62,
+  "source_snapshots_checked": 62,
+  "source_snapshots_ok": 57,
+  "worker_seconds_sum": 11809.881600599969,
+  "overlapping_process_windows": [],
+  "cohorts": {
+    "native": {
+      "case_blocks": 936,
+      "cases": 156,
+      "phases": 4248,
+      "output_check_summaries": 28776,
+      "all_reported_check_pass": true,
+      "max_reported_relative_frobenius": 0.00028924435004298307
+    },
+    "strong": {
+      "case_blocks": 312,
+      "cases": 54,
+      "phases": 1248,
+      "output_check_summaries": 19392,
+      "all_reported_check_pass": true,
+      "max_reported_relative_frobenius": 0.0002821265276581025
+    },
+    "request": {
+      "case_blocks": 35,
+      "cases": 6,
+      "phases": 140,
+      "output_check_summaries": 140,
+      "all_reported_check_pass": true,
+      "max_reported_relative_frobenius": 0.000280763233704609
+    }
+  },
+  "formal_phase_total": 5636,
+  "formal_failures": [
+    {
+      "cohort": "request",
+      "case": "moe_layer-024",
+      "block": 0,
+      "status": "MEMORY_UNSUPPORTED",
+      "error": "Need 10804527104 new bytes; free 3715301376; reserve 2345405645",
+      "ref": "runs/20261015T075053Z_a29d18be/moe_layer-024.json"
+    },
+    {
+      "cohort": "strong",
+      "case": "grouped-001",
+      "block": 0,
+      "status": "FAILED",
+      "error": "CUDA driver introspection status 1",
+      "ref": "runs/20261015T091721Z_0e59065c/grouped-001.json"
+    },
+    {
+      "cohort": "strong",
+      "case": "grouped-005",
+      "block": 0,
+      "status": "FAILED",
+      "error": "CUDA driver introspection status 1",
+      "ref": "runs/20261015T091721Z_0e59065c/grouped-005.json"
+    },
+    {
+      "cohort": "strong",
+      "case": "grouped-009",
+      "block": 0,
+      "status": "FAILED",
+      "error": "CUDA driver introspection status 1",
+      "ref": "runs/20261015T091721Z_0e59065c/grouped-009.json"
+    },
+    {
+      "cohort": "strong",
+      "case": "grouped-013",
+      "block": 0,
+      "status": "FAILED",
+      "error": "CUDA driver introspection status 1",
+      "ref": "runs/20261015T091721Z_0e59065c/grouped-013.json"
+    },
+    {
+      "cohort": "strong",
+      "case": "grouped-017",
+      "block": 0,
+      "status": "FAILED",
+      "error": "CUDA driver introspection status 1",
+      "ref": "runs/20261015T091721Z_0e59065c/grouped-017.json"
+    },
+    {
+      "cohort": "strong",
+      "case": "grouped-021",
+      "block": 0,
+      "status": "FAILED",
+      "error": "CUDA driver introspection status 1",
+      "ref": "runs/20261015T091721Z_0e59065c/grouped-021.json"
+    },
+    {
+      "cohort": "strong",
+      "case": "grouped-033",
+      "block": 0,
+      "status": "FAILED",
+      "error": "CUDA driver introspection status 1",
+      "ref": "runs/20261015T091721Z_0e59065c/grouped-033.json"
+    },
+    {
+      "cohort": "strong",
+      "case": "grouped-037",
+      "block": 0,
+      "status": "FAILED",
+      "error": "CUDA driver introspection status 1",
+      "ref": "runs/20261015T091721Z_0e59065c/grouped-037.json"
+    },
+    {
+      "cohort": "strong",
+      "case": "grouped-041",
+      "block": 0,
+      "status": "FAILED",
+      "error": "CUDA driver introspection status 1",
+      "ref": "runs/20261015T091721Z_0e59065c/grouped-041.json"
+    },
+    {
+      "cohort": "strong",
+      "case": "grouped-045",
+      "block": 0,
+      "status": "FAILED",
+      "error": "CUDA driver introspection status 1",
+      "ref": "runs/20261015T091721Z_0e59065c/grouped-045.json"
+    },
+    {
+      "cohort": "strong",
+      "case": "grouped-049",
+      "block": 0,
+      "status": "FAILED",
+      "error": "CUDA driver introspection status 1",
+      "ref": "runs/20261015T091721Z_0e59065c/grouped-049.json"
+    },
+    {
+      "cohort": "strong",
+      "case": "grouped-053",
+      "block": 0,
+      "status": "FAILED",
+      "error": "CUDA driver introspection status 1",
+      "ref": "runs/20261015T091721Z_0e59065c/grouped-053.json"
+    }
+  ],
+  "output_summary_checks_total": 48308,
+  "per_request_ready_samples_recomputed": 36352,
+  "per_request_device_samples_recomputed": 36352,
+  "per_request_mean_comparisons": 568,
+  "paired_comparisons_recomputed": 354,
+  "paired_max_abs_error": 7.105427357601002e-15,
+  "graph_record_comparisons": 624,
+  "selection_equal_case_ratio": 1.040261080594968,
+  "reported_selection_ratio": 1.040261080594968,
+  "strong_stage_aggregates": {
+    "E3": {
+      "device": {
+        "ratio": 1.318508313234129,
+        "ci95": [
+          1.3024838649628796,
+          1.3361122565462162
+        ],
+        "blocks": 6,
+        "block_log_ratios": [
+          0.2871670516755847,
+          0.25766773834531503,
+          0.2605534287063014,
+          0.26202925516653824,
+          0.29514601058560735,
+          0.29644270668558753
+        ]
+      },
+      "ready": {
+        "ratio": 1.3184188675169322,
+        "ci95": [
+          1.3024225158855918,
+          1.3360080080370749
+        ],
+        "blocks": 6,
+        "block_log_ratios": [
+          0.2871121177404588,
+          0.25763228778330255,
+          0.26048779881521866,
+          0.2620037337368814,
+          0.2949895681462377,
+          0.29637363972193975
+        ]
+      }
+    },
+    "E4": {
+      "device": {
+        "ratio": 1.0375486422966194,
+        "ci95": [
+          1.019001616920015,
+          1.0570268758101473
+        ],
+        "blocks": 6,
+        "block_log_ratios": [
+          0.03746147552038403,
+          0.061621638475861294,
+          0.013974954400170927,
+          0.034090905049252586,
+          0.0689825704328773,
+          0.005033593111508795
+        ]
+      },
+      "ready": {
+        "ratio": 1.0401295475717178,
+        "ci95": [
+          1.022196005341956,
+          1.0592632537935145
+        ],
+        "blocks": 6,
+        "block_log_ratios": [
+          0.03794955241302295,
+          0.065698593038507,
+          0.015554427277939792,
+          0.03521039726307867,
+          0.0697623270776604,
+          0.01189632514088061
+        ]
+      }
+    }
+  },
+  "power_conditions": {
+    "native": {
+      "125W": 477,
+      "100W": 3769,
+      "TRANSITION": 2
+    },
+    "strong": {
+      "100W": 1076,
+      "125W": 171,
+      "TRANSITION": 1
+    },
+    "request": {
+      "100W": 140
+    }
+  },
+  "strong_power_by_stage": {
+    "E1": {
+      "100W": 356,
+      "125W": 171,
+      "TRANSITION": 1
+    },
+    "E3": {
+      "100W": 576
+    },
+    "E4": {
+      "100W": 144
+    }
+  },
+  "ptx_evidence": [
+    {
+      "path": "runs/20261015T071618Z_a811468d/recipe_64x128.ptx",
+      "has_mma_instruction": false,
+      "fma_rn_f32_count": 2048,
+      "target": [
+        "sm_75"
+      ]
+    },
+    {
+      "path": "runs/20261015T065311Z_a3da2a6d/triton_probe.ptx",
+      "has_mma_instruction": false,
+      "fma_rn_f32_count": 1024,
+      "target": [
+        "sm_75"
+      ]
+    },
+    {
+      "path": "runs/20261015T071616Z_4b12c076/recipe_64x128.ptx",
+      "has_mma_instruction": false,
+      "fma_rn_f32_count": 2048,
+      "target": [
+        "sm_75"
+      ]
+    },
+    {
+      "path": "runs/20261015T070909Z_83670777/triton_probe.ptx",
+      "has_mma_instruction": false,
+      "fma_rn_f32_count": 1024,
+      "target": [
+        "sm_75"
+      ]
+    }
+  ],
+  "q_degeneracy": [
+    {
+      "bm": 32,
+      "workers": 56,
+      "work_budget_k_tiles": 128,
+      "counts": {
+        "('calibration', True)": 16,
+        "('test', True)": 43,
+        "('calibration', False)": 8,
+        "('test', False)": 29
+      },
+      "k4096": {
+        "True": 32
+      }
+    },
+    {
+      "bm": 32,
+      "workers": 112,
+      "work_budget_k_tiles": 128,
+      "counts": {
+        "('calibration', True)": 17,
+        "('test', True)": 45,
+        "('test', False)": 27,
+        "('calibration', False)": 7
+      },
+      "k4096": {
+        "True": 32
+      }
+    },
+    {
+      "bm": 64,
+      "workers": 56,
+      "work_budget_k_tiles": 128,
+      "counts": {
+        "('calibration', True)": 20,
+        "('test', True)": 52,
+        "('calibration', False)": 4,
+        "('test', False)": 20
+      },
+      "k4096": {
+        "True": 32
+      }
+    },
+    {
+      "bm": 64,
+      "workers": 112,
+      "work_budget_k_tiles": 128,
+      "counts": {
+        "('calibration', True)": 21,
+        "('test', True)": 54,
+        "('calibration', False)": 3,
+        "('test', False)": 18
+      },
+      "k4096": {
+        "True": 32
+      }
+    }
+  ],
+  "issues": [
+    [
+      "snapshot_hash",
+      "runs/20261015T071339Z_4c55647f/source_snapshot.py"
+    ],
+    [
+      "snapshot_hash",
+      "runs/20261015T071612Z_48912887/source_snapshot.py"
+    ],
+    [
+      "snapshot_hash",
+      "runs/20261015T071912Z_0cc4ed90/source_snapshot.py"
+    ],
+    [
+      "snapshot_hash",
+      "runs/20261015T072304Z_dae110a1/source_snapshot.py"
+    ],
+    [
+      "snapshot_hash",
+      "runs/20261015T074631Z_425aa9f0/source_snapshot.py"
+    ]
+  ],
+  "active_native_function_ast_hash_counts": {
+    "capture": 1,
+    "phase": 1,
+    "grouped": 1,
+    "layer": 1,
+    "attention": 1
+  },
+  "source_snapshot_mismatches_disclosed_in_package": true,
+  "source_provenance_boundary": "Five request-time versus lock-time source hash differences already disclosed. Active function ASTs checked only for the stages that use them; not a full runtime dependency or GPU binary equivalence proof.",
+  "unexpected_integrity_or_statistics_errors": [],
+  "worker_budget_note": "Registry monotonic occupied-time sum used here; report budget uses timestamp-derived accounting and differs by less than one second. Neither is pure GPU busy time."
+}

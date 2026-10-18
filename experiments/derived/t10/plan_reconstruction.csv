@@ -1,0 +1,25 @@
+workload,input,policy,repeat,tasks,reconstruction_ms,exact_map_match,scope
+W1,bonsai,R,0,3600,19.628188994829543,True,post-run CPU reconstruction; original planning wall time unknown
+W1,bonsai,R,1,3600,20.065125994733535,True,post-run CPU reconstruction; original planning wall time unknown
+W1,bonsai,R,2,3600,19.5960919954814,True,post-run CPU reconstruction; original planning wall time unknown
+W1,bonsai,M,0,3600,21.990606997860596,True,post-run CPU reconstruction; original planning wall time unknown
+W1,bonsai,M,1,3600,22.426732000894845,True,post-run CPU reconstruction; original planning wall time unknown
+W1,bonsai,M,2,3600,22.46295500663109,True,post-run CPU reconstruction; original planning wall time unknown
+W1,train,R,0,3600,21.160418997169472,True,post-run CPU reconstruction; original planning wall time unknown
+W1,train,R,1,3600,20.644859003368765,True,post-run CPU reconstruction; original planning wall time unknown
+W1,train,R,2,3600,26.54993398755323,True,post-run CPU reconstruction; original planning wall time unknown
+W1,train,M,0,3600,24.010576991713606,True,post-run CPU reconstruction; original planning wall time unknown
+W1,train,M,1,3600,19.317457001307048,True,post-run CPU reconstruction; original planning wall time unknown
+W1,train,M,2,3600,19.16147000156343,True,post-run CPU reconstruction; original planning wall time unknown
+W2,ca-GrQc,R,0,1311,7.57370499195531,True,post-run CPU reconstruction; original planning wall time unknown
+W2,ca-GrQc,R,1,1311,5.6318360002478585,True,post-run CPU reconstruction; original planning wall time unknown
+W2,ca-GrQc,R,2,1311,6.226208002772182,True,post-run CPU reconstruction; original planning wall time unknown
+W2,ca-GrQc,M,0,1311,7.150171004468575,True,post-run CPU reconstruction; original planning wall time unknown
+W2,ca-GrQc,M,1,1311,6.025991009664722,True,post-run CPU reconstruction; original planning wall time unknown
+W2,ca-GrQc,M,2,1311,7.0323469990398735,True,post-run CPU reconstruction; original planning wall time unknown
+W2,web-Google,R,0,4055,21.02864701009821,True,post-run CPU reconstruction; original planning wall time unknown
+W2,web-Google,R,1,4055,18.866586993681267,True,post-run CPU reconstruction; original planning wall time unknown
+W2,web-Google,R,2,4055,18.147013994166628,True,post-run CPU reconstruction; original planning wall time unknown
+W2,web-Google,M,0,4055,18.41142200282775,True,post-run CPU reconstruction; original planning wall time unknown
+W2,web-Google,M,1,4055,18.439658990246244,True,post-run CPU reconstruction; original planning wall time unknown
+W2,web-Google,M,2,4055,18.542309990152717,True,post-run CPU reconstruction; original planning wall time unknown

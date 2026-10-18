@@ -1,0 +1,2 @@
+name, driver_version, temperature.gpu, power.limit [W], enforced.power.limit [W], memory.used [MiB]
+Tesla T10, 580.178.04, 66, 100.00 W, 100.00 W, 180 MiB

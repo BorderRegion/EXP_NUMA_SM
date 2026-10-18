@@ -1,0 +1,10 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "torch": "2.8.0"
+  },
+  "scope": "Package metadata only; runtime math binaries copied unchanged from previous round"
+}

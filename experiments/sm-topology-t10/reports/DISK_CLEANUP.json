@@ -1,0 +1,30 @@
+[
+  {
+    "path": "/tmp/t10-matched-cpu-qa-addb7270",
+    "purpose": "Old independently extracted CPU QA duplicate, original workspace and final archives retained",
+    "archive": "/home/ubuntu/\u4e0b\u8f7d/T10_MATCHED_PACING_RESULT_20261017.zip",
+    "archive_sha256": "42026e4e2c94ba52853a4640447c83dd2529330422836667ef59f35f2c05a2de",
+    "bytes_reclaimed": 36794018
+  },
+  {
+    "path": "/tmp/t10-state-cpu-qa-7obabr7s",
+    "purpose": "Old independently extracted CPU QA duplicate, original workspace and final archives retained",
+    "archive": "/home/ubuntu/\u4e0b\u8f7d/T10_STATE_CAUSALITY_RESULT_20261017.zip",
+    "archive_sha256": "0c55d371b01676a32a521f47a463ef910c19935edaffca26d302510abf2960ac",
+    "bytes_reclaimed": 142298632
+  },
+  {
+    "path": "/tmp/t10-state-final-cpu-qa-uf0x04pj",
+    "purpose": "Old independently extracted CPU QA duplicate, original workspace and final archives retained",
+    "archive": "/home/ubuntu/\u4e0b\u8f7d/T10_STATE_CAUSALITY_RESULT_20261017.zip",
+    "archive_sha256": "0c55d371b01676a32a521f47a463ef910c19935edaffca26d302510abf2960ac",
+    "bytes_reclaimed": 142296613
+  },
+  {
+    "path": "/tmp/t10-transient-fresh-qa-ixedswxa",
+    "purpose": "Old independently extracted CPU QA duplicate, original workspace and final archives retained",
+    "archive": "/home/ubuntu/\u4e0b\u8f7d/T10_TRANSIENT_AND_F4_DIAG_RESULT_20261017.zip",
+    "archive_sha256": "90472aa04370104b4de7f0411130a0690339664f3d7c9ffc22d384d46f6518d0",
+    "bytes_reclaimed": 101625242
+  }
+]

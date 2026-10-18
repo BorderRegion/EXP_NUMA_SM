@@ -1,0 +1,162 @@
+{
+  "resources": {
+    "gpu_worker_seconds": 132.72345381014748,
+    "cap_seconds": 900,
+    "temperatures_C": [
+      62,
+      67
+    ],
+    "enforced_limit_W": 100,
+    "new_downloads": false,
+    "admin_changes": false,
+    "desktop_client_present": true,
+    "clock_locked": false,
+    "raw_hardware_counters": false
+  },
+  "v1": [
+    {
+      "contrast": "MIN/IDENTITY",
+      "scope": "equal-weight mean of all frozen steps/slots within each independent process",
+      "gain_percent": -0.08778056132527912,
+      "block_gain_percent": [
+        0.006709967872564615,
+        -0.25968313080313443,
+        -0.07475730580415174,
+        -0.02360529229679109
+      ],
+      "block_min_gain_percent": -0.25968313080313443,
+      "block_max_gain_percent": 0.006709967872564615,
+      "positive_blocks": 1,
+      "processes": 4
+    },
+    {
+      "contrast": "MIN/RANDOM",
+      "scope": "equal-weight mean of all frozen steps/slots within each independent process",
+      "gain_percent": -1.5696437396829577,
+      "block_gain_percent": [
+        -1.5852767803319345,
+        -1.4657474623871458,
+        -1.6985448587585106,
+        -1.529150033207749
+      ],
+      "block_min_gain_percent": -1.6985448587585106,
+      "block_max_gain_percent": -1.4657474623871458,
+      "positive_blocks": 0,
+      "processes": 4
+    },
+    {
+      "contrast": "MIN/MAX",
+      "scope": "equal-weight mean of all frozen steps/slots within each independent process",
+      "gain_percent": -1.225494735456678,
+      "block_gain_percent": [
+        -1.3031722459833084,
+        -1.1293347472468795,
+        -1.3279177407657494,
+        -1.141716170182172
+      ],
+      "block_min_gain_percent": -1.3279177407657494,
+      "block_max_gain_percent": -1.1293347472468795,
+      "positive_blocks": 0,
+      "processes": 4
+    }
+  ],
+  "v2": [
+    {
+      "contrast": "CYCLE_MAX/OLD_NS_SUM",
+      "scope": "equal-weight mean of all frozen steps/slots within each independent process",
+      "gain_percent": 1.6148318283922936,
+      "block_gain_percent": [
+        2.31972446502694,
+        1.7171274847559204,
+        1.6230681499129318,
+        1.4228485809149483,
+        1.153575639805382,
+        1.4486506784026965
+      ],
+      "block_min_gain_percent": 1.153575639805382,
+      "block_max_gain_percent": 2.31972446502694,
+      "positive_blocks": 6,
+      "processes": 6
+    },
+    {
+      "contrast": "CYCLE_MAX/CYCLE_SUM",
+      "scope": "equal-weight mean of all frozen steps/slots within each independent process",
+      "gain_percent": 0.30063939705953224,
+      "block_gain_percent": [
+        0.3127291268149479,
+        0.266265544759936,
+        0.5294397069850243,
+        0.2313944048229044,
+        0.01099201196395061,
+        0.452186728684989
+      ],
+      "block_min_gain_percent": 0.01099201196395061,
+      "block_max_gain_percent": 0.5294397069850243,
+      "positive_blocks": 6,
+      "processes": 6
+    },
+    {
+      "contrast": "CYCLE_MAX/IDENTITY",
+      "scope": "equal-weight mean of all frozen steps/slots within each independent process",
+      "gain_percent": 1.9555451884530672,
+      "block_gain_percent": [
+        2.5846211073450642,
+        2.0574821034756052,
+        2.089165199822629,
+        1.690938162577782,
+        1.4078613076865532,
+        1.8991355870260684
+      ],
+      "block_min_gain_percent": 1.4078613076865532,
+      "block_max_gain_percent": 2.5846211073450642,
+      "positive_blocks": 6,
+      "processes": 6
+    },
+    {
+      "contrast": "CYCLE_MAX/RANDOM",
+      "scope": "equal-weight mean of all frozen steps/slots within each independent process",
+      "gain_percent": 0.6845827454608266,
+      "block_gain_percent": [
+        1.3557387955377198,
+        0.6739429403244013,
+        0.9657787965462794,
+        0.45389006646366914,
+        0.12428223662337423,
+        0.5292226987861914
+      ],
+      "block_min_gain_percent": 0.12428223662337423,
+      "block_max_gain_percent": 1.3557387955377198,
+      "positive_blocks": 6,
+      "processes": 6
+    }
+  ],
+  "fresh_payload_cycle_stability": [
+    {
+      "unit": "cycles",
+      "mode": 1,
+      "stage": "fresh_v2_confirmation",
+      "pair_row_column_residual_correlation": 0.9810791395115325,
+      "address_row_column_residual_correlation": 0.22862423081508823,
+      "pair_between_confirmation_correlation": 0.9803525977600424,
+      "address_between_confirmation_correlation": 0.12416667530219343
+    }
+  ],
+  "audit": {
+    "status": "PASS",
+    "source_checks": 31,
+    "placement_launches_checked": 316178,
+    "records_checked": 407330,
+    "checksum_status_records_checked": 407330,
+    "failed_workers": [
+      {
+        "key": "memcheck",
+        "returncode": 13,
+        "stderr": "",
+        "stdout": "========= COMPUTE-SANITIZER\n========= Unable to find injection library libsanitizer-collection.so\n"
+      }
+    ],
+    "not_started_workers": [
+      "deploy_v2_4"
+    ]
+  }
+}

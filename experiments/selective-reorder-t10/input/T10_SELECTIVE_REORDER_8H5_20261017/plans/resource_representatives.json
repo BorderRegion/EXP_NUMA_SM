@@ -1,0 +1,19 @@
+{
+  "selection": "按设计结构固定，不看候选速度选取；不是普遍工作类型标签",
+  "case_ids": [
+    "D03",
+    "D10",
+    "D17",
+    "D24"
+  ],
+  "roles": [
+    "small_M_long_K",
+    "moderate_M_wide_N",
+    "moderate_M_long_K",
+    "larger_M_wide_N"
+  ],
+  "groups": "现有4个实际14SM组；缺能力照实报告，不强制把它们称为4个NUMA域",
+  "calibration_processes": 2,
+  "workspace_slots": 2,
+  "no_test_refit": true
+}

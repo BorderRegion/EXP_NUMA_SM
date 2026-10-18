@@ -1,0 +1,321 @@
+{
+  "per_case": [
+    {
+      "case": "dense_control-002",
+      "scope": "same_logical_order_as_CORE",
+      "tiles_in_affected_problems": 0,
+      "total_tiles": 16,
+      "full_over_core": 1.0233246473959736
+    },
+    {
+      "case": "dense_control-004",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 32,
+      "total_tiles": 32,
+      "full_over_core": 1.0346117178814944
+    },
+    {
+      "case": "dense_control-006",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 128,
+      "total_tiles": 128,
+      "full_over_core": 1.0173907295111195
+    },
+    {
+      "case": "dense_control-008",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 1024,
+      "total_tiles": 1024,
+      "full_over_core": 0.9989359925691557
+    },
+    {
+      "case": "dense_control-010",
+      "scope": "same_logical_order_as_CORE",
+      "tiles_in_affected_problems": 0,
+      "total_tiles": 32,
+      "full_over_core": 0.9894807577755007
+    },
+    {
+      "case": "dense_control-012",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 64,
+      "total_tiles": 64,
+      "full_over_core": 0.9867122683544558
+    },
+    {
+      "case": "dense_control-014",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 256,
+      "total_tiles": 256,
+      "full_over_core": 0.37887325632505
+    },
+    {
+      "case": "dense_control-016",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 2048,
+      "total_tiles": 2048,
+      "full_over_core": 0.9078810765811289
+    },
+    {
+      "case": "dense_control-018",
+      "scope": "same_logical_order_as_CORE",
+      "tiles_in_affected_problems": 0,
+      "total_tiles": 86,
+      "full_over_core": 1.090175418132115
+    },
+    {
+      "case": "dense_control-020",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 172,
+      "total_tiles": 172,
+      "full_over_core": 0.5391992331682232
+    },
+    {
+      "case": "dense_control-022",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 688,
+      "total_tiles": 688,
+      "full_over_core": 0.9342124995211422
+    },
+    {
+      "case": "dense_control-024",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 5504,
+      "total_tiles": 5504,
+      "full_over_core": 0.9954167352789575
+    },
+    {
+      "case": "grouped-003",
+      "scope": "same_logical_order_as_CORE",
+      "tiles_in_affected_problems": 0,
+      "total_tiles": 128,
+      "full_over_core": 1.02823759342173
+    },
+    {
+      "case": "grouped-016",
+      "scope": "same_logical_order_as_CORE",
+      "tiles_in_affected_problems": 0,
+      "total_tiles": 128,
+      "full_over_core": 0.9977978025391318
+    },
+    {
+      "case": "grouped-025",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 1024,
+      "total_tiles": 1024,
+      "full_over_core": 0.552747376213902
+    },
+    {
+      "case": "grouped-026",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 1056,
+      "total_tiles": 1056,
+      "full_over_core": 0.43175454134897856
+    },
+    {
+      "case": "grouped-028",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 1024,
+      "total_tiles": 1024,
+      "full_over_core": 0.848540904570311
+    },
+    {
+      "case": "grouped-029",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 1024,
+      "total_tiles": 1024,
+      "full_over_core": 0.9885995559687516
+    },
+    {
+      "case": "grouped-030",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 960,
+      "total_tiles": 1232,
+      "full_over_core": 1.0235586765836902
+    },
+    {
+      "case": "grouped-031",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 1504,
+      "total_tiles": 1504,
+      "full_over_core": 0.9887720199729751
+    },
+    {
+      "case": "grouped-035",
+      "scope": "same_logical_order_as_CORE",
+      "tiles_in_affected_problems": 0,
+      "total_tiles": 256,
+      "full_over_core": 0.9837248035188669
+    },
+    {
+      "case": "grouped-040",
+      "scope": "same_logical_order_as_CORE",
+      "tiles_in_affected_problems": 0,
+      "total_tiles": 256,
+      "full_over_core": 1.0205874044363743
+    },
+    {
+      "case": "grouped-052",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 512,
+      "total_tiles": 512,
+      "full_over_core": 0.36573906415137364
+    },
+    {
+      "case": "grouped-057",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 2048,
+      "total_tiles": 2048,
+      "full_over_core": 0.9964412170606076
+    },
+    {
+      "case": "grouped-058",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 2112,
+      "total_tiles": 2112,
+      "full_over_core": 0.989830120495779
+    },
+    {
+      "case": "grouped-061",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 2048,
+      "total_tiles": 2048,
+      "full_over_core": 1.0050084528567411
+    },
+    {
+      "case": "grouped-062",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 1920,
+      "total_tiles": 2464,
+      "full_over_core": 1.0080549850265774
+    },
+    {
+      "case": "grouped-063",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 3008,
+      "total_tiles": 3008,
+      "full_over_core": 0.9879231312194119
+    },
+    {
+      "case": "grouped-079",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 172,
+      "total_tiles": 2838,
+      "full_over_core": 1.0001534390233646
+    },
+    {
+      "case": "grouped-081",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 1376,
+      "total_tiles": 1376,
+      "full_over_core": 1.0085509720978758
+    },
+    {
+      "case": "grouped-088",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 1376,
+      "total_tiles": 1376,
+      "full_over_core": 0.9894899044693681
+    },
+    {
+      "case": "grouped-090",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 5676,
+      "total_tiles": 5676,
+      "full_over_core": 0.9908829021579604
+    },
+    {
+      "case": "grouped-091",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 5762,
+      "total_tiles": 5762,
+      "full_over_core": 1.0026132237438097
+    },
+    {
+      "case": "grouped-092",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 5504,
+      "total_tiles": 5504,
+      "full_over_core": 1.0018428773936434
+    },
+    {
+      "case": "grouped-093",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 5504,
+      "total_tiles": 5504,
+      "full_over_core": 1.0000839698997108
+    },
+    {
+      "case": "grouped-094",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 5160,
+      "total_tiles": 6622,
+      "full_over_core": 1.0031920148825588
+    },
+    {
+      "case": "heterogeneous_k-007",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 96,
+      "total_tiles": 96,
+      "full_over_core": 0.9963530951167292
+    },
+    {
+      "case": "heterogeneous_k-008",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 384,
+      "total_tiles": 384,
+      "full_over_core": 0.4217955003554965
+    },
+    {
+      "case": "heterogeneous_k-009",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 288,
+      "total_tiles": 288,
+      "full_over_core": 0.9547724929067979
+    },
+    {
+      "case": "heterogeneous_k-010",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 256,
+      "total_tiles": 256,
+      "full_over_core": 0.9912902910268871
+    },
+    {
+      "case": "heterogeneous_k-011",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 256,
+      "total_tiles": 256,
+      "full_over_core": 0.901153137897739
+    },
+    {
+      "case": "heterogeneous_k-012",
+      "scope": "order_change_possible",
+      "tiles_in_affected_problems": 768,
+      "total_tiles": 768,
+      "full_over_core": 0.6387385109590651
+    }
+  ],
+  "groups": {
+    "dense_control/same_logical_order_as_CORE": {
+      "case_count": 3,
+      "gmean_full_over_core": 1.0334886802768881
+    },
+    "dense_control/order_change_possible": {
+      "case_count": 9,
+      "gmean_full_over_core": 0.8259779641994761
+    },
+    "grouped/same_logical_order_as_CORE": {
+      "case_count": 4,
+      "gmean_full_over_core": 1.0074301910029533
+    },
+    "grouped/order_change_possible": {
+      "case_count": 20,
+      "gmean_full_over_core": 0.8772813827942474
+    },
+    "heterogeneous_k/order_change_possible": {
+      "case_count": 6,
+      "gmean_full_over_core": 0.7821492107942538
+    }
+  },
+  "interpretation": "Post-hoc source-level classification at BM32 BN128; affected-problem count is not count of changed tile positions. No GPU rerun."
+}

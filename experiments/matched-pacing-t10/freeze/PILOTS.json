@@ -1,0 +1,41 @@
+{
+  "pilots": {
+    "R_G017": {
+      "n": 72,
+      "lib_cpu_ready_us": 280.15675,
+      "source_id": "PILOT_R_G017"
+    },
+    "R_G002": {
+      "n": 128,
+      "lib_cpu_ready_us": 118.35075,
+      "source_id": "PILOT_R_G002"
+    },
+    "V14": {
+      "n": 29,
+      "lib_cpu_ready_us": 698.7637500000001,
+      "source_id": "PILOT_V14"
+    },
+    "V15": {
+      "n": 26,
+      "lib_cpu_ready_us": 781.55825,
+      "source_id": "PILOT_V15"
+    },
+    "V16": {
+      "n": 14,
+      "lib_cpu_ready_us": 1518.14475,
+      "source_id": "PILOT_V16"
+    },
+    "F3": {
+      "n": 38,
+      "lib_cpu_ready_us": 539.155125,
+      "source_id": "PILOT_F3"
+    },
+    "F4": {
+      "n": 8,
+      "lib_cpu_ready_us": 5532.883625,
+      "source_id": "PILOT_F4"
+    }
+  },
+  "rule": "clamp(ceil(20000/LIB-only CPU-ready mean of8 after8 warm requests),8,128)",
+  "status": "FROZEN_BEFORE_FACTOR_RESULTS"
+}

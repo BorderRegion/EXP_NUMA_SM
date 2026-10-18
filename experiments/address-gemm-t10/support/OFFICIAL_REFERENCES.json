@@ -1,0 +1,14 @@
+[
+  {
+    "title": "PTX globaltimer: behavior is target-specific; it is not a guaranteed precision contract",
+    "url": "https://docs.nvidia.com/cuda/parallel-thread-execution/index.html#special-registers-globaltimer-globaltimer-lo-globaltimer-hi"
+  },
+  {
+    "title": "CUDA Driver API cooperative launch residency constraint",
+    "url": "https://docs.nvidia.com/cuda/cuda-driver-api/group__CUDA__EXEC.html"
+  },
+  {
+    "title": "CUDA Driver API occupancy calculation",
+    "url": "https://docs.nvidia.com/cuda/cuda-driver-api/group__CUDA__OCCUPANCY.html"
+  }
+]

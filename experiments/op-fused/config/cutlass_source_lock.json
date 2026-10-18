@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/NVIDIA/cutlass",
+  "tag": "v3.5.1",
+  "commit": "f7b19de32c5d1f3cedfc735c2849f12b537522ee",
+  "acquired_at": "2026-10-15T13:21:01.608779+00:00",
+  "method": "git clone --depth 1 --branch v3.5.1; full checkout",
+  "submodules": "none in this tag",
+  "local_modifications": "none; metadata only; operator changes in op-fused/src"
+}

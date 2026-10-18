@@ -1,0 +1,78 @@
+{
+  "manifest_entries": 2090,
+  "manifest_verified": 2090,
+  "unlisted_files": [
+    "FILES_SHA256.json",
+    "GPT_READ_FIRST.txt",
+    "PACKAGE_SCOPE.txt"
+  ],
+  "registry_runs": 62,
+  "cohorts": {
+    "native": {
+      "case_blocks": 936,
+      "cases": 156,
+      "phases": 4248,
+      "output_check_summaries": 28776,
+      "all_reported_check_pass": true,
+      "max_reported_relative_frobenius": 0.00028924435004298307
+    },
+    "strong": {
+      "case_blocks": 312,
+      "cases": 54,
+      "phases": 1248,
+      "output_check_summaries": 19392,
+      "all_reported_check_pass": true,
+      "max_reported_relative_frobenius": 0.0002821265276581025
+    },
+    "request": {
+      "case_blocks": 35,
+      "cases": 6,
+      "phases": 140,
+      "output_check_summaries": 140,
+      "all_reported_check_pass": true,
+      "max_reported_relative_frobenius": 0.000280763233704609
+    }
+  },
+  "formal_phase_total": 5636,
+  "output_summary_checks_total": 48308,
+  "per_request_ready_samples_recomputed": 36352,
+  "paired_comparisons_recomputed": 354,
+  "paired_max_abs_error": 7.105427357601002e-15,
+  "graph_record_comparisons": 624,
+  "selection_equal_case_ratio": 1.040261080594968,
+  "strong_power_by_stage": {
+    "E1": {
+      "100W": 356,
+      "125W": 171,
+      "TRANSITION": 1
+    },
+    "E3": {
+      "100W": 576
+    },
+    "E4": {
+      "100W": 144
+    }
+  },
+  "issues": [
+    [
+      "snapshot_hash",
+      "runs/20261015T071339Z_4c55647f/source_snapshot.py"
+    ],
+    [
+      "snapshot_hash",
+      "runs/20261015T071612Z_48912887/source_snapshot.py"
+    ],
+    [
+      "snapshot_hash",
+      "runs/20261015T071912Z_0cc4ed90/source_snapshot.py"
+    ],
+    [
+      "snapshot_hash",
+      "runs/20261015T072304Z_dae110a1/source_snapshot.py"
+    ],
+    [
+      "snapshot_hash",
+      "runs/20261015T074631Z_425aa9f0/source_snapshot.py"
+    ]
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-15T15:53:41.910101+00:00",
+  "original_records": 62,
+  "original_prefix_unchanged": true,
+  "original_registry_sha256": "97b0fe68d697a2ad3e317cea3b838e355891f6370b916668dd2eff4655c1587a",
+  "current_records": 92,
+  "new_workers": 30,
+  "case_blocks": 468,
+  "phases": 5544,
+  "individually_recomputed_layer_requests": 69120,
+  "maximum_request_mean_difference": 0.0,
+  "operator_aggregate_means_checked": true,
+  "worker_overlap": false,
+  "known_tool_startup_failures": [
+    "cutlass_memcheck_once",
+    "cutlass_memcheck_injection_path_repair"
+  ],
+  "one_formal_binary_sha256": "09bd2afd400e7cb32bfcad004617260ad40dc571f09469f364a62cedc7b954ed",
+  "all_margin_checks_pass": true,
+  "scope": "CPU recomputation of recorded outputs and timing summaries, not an independent numerical GPU rerun"
+}

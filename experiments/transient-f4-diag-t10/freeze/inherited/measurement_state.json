@@ -1,0 +1,8 @@
+{
+  "state_epoch": "100W_DYNAMIC_V2",
+  "protocol_id": "CLEAN_ABBA_V2",
+  "clock_lock": "NA_NO_NONINTERACTIVE_MANAGEMENT",
+  "settings_modified": [],
+  "power_w": 100,
+  "reason": "sudo -n requires password; preserve current protections and continue once recorded"
+}

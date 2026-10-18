@@ -1,0 +1,17 @@
+{
+  "binary": [
+    "09bd2afd400e7cb32bfcad004617260ad40dc571f09469f364a62cedc7b954ed"
+  ],
+  "grouped_backend.cu": [
+    "9cddc3d347670a2e92d27552f16e994c10d9606f4006bff4d90fc8d93ce3a52e"
+  ],
+  "op_fused_gemm_grouped.h": [
+    "cc21b876fb4fb0b13ed8dbff4e8078280067100d33766fa1ebd4d7223291c649"
+  ],
+  "libopf_grouped.so": [
+    "09bd2afd400e7cb32bfcad004617260ad40dc571f09469f364a62cedc7b954ed"
+  ],
+  "packet_visitor.h": [
+    "94881dd8749baff3169d0e937042245cd8ddcd8e94c1e99b6c8c317865ff2dd7"
+  ]
+}

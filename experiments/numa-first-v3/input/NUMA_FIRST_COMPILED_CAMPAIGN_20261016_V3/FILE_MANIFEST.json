@@ -1,0 +1,111 @@
+{
+  "package": "NUMA_FIRST_COMPILED_CAMPAIGN_20261016_V3",
+  "scope": "DESIGN_AND_CPU_AUXILIARIES_ONLY",
+  "files": [
+    {
+      "path": "CHANGES_FROM_PREVIOUS.md",
+      "size": 1172,
+      "sha256": "5b81c8e130ac31516c33457ca9c6a36e5062f5f2bc27ef9aa1e5918e89fb2f04"
+    },
+    {
+      "path": "CODEX_MASTER_TASK.md",
+      "size": 8053,
+      "sha256": "7e27b47ae8e867a1e1a3bfcf72f8c2bc2c78367fd2035c99be8ae69aca1709f7"
+    },
+    {
+      "path": "COPY_TO_CODEX.txt",
+      "size": 2251,
+      "sha256": "3d7a795ee9e820c8b04abdd1e9cd7bc599e17ed98d4c1d9bb2bfabce7b5ce13d"
+    },
+    {
+      "path": "START_HERE.md",
+      "size": 2379,
+      "sha256": "ea4b431189cca1db5b557d48041e7012cbede36fb836b33b1c9545dd2b9045dc"
+    },
+    {
+      "path": "VALIDATION_REPORT.md",
+      "size": 3108,
+      "sha256": "f78f05eae42abae5350a19dcdff8792844b6b16eee13e1299bbe2ee815e21475"
+    },
+    {
+      "path": "campaign.json",
+      "size": 3259,
+      "sha256": "6e2ee4e37c763de8268b659ebc619a74b2388b2cf55e5c606831df569eb0d829"
+    },
+    {
+      "path": "docs/01_POWER_AND_MACHINE.md",
+      "size": 4289,
+      "sha256": "d9c1dea9f6eda19c0b25843c107abc23ab7f88e611bb89aa2f2214ac3712f67e"
+    },
+    {
+      "path": "docs/02_NUMA_DISCOVERY.md",
+      "size": 6680,
+      "sha256": "527e28aa17df8bb5689811b9b6231ebfacb56d897de5dcf70b9154b863329336"
+    },
+    {
+      "path": "docs/03_COMPILED_PLACEMENT.md",
+      "size": 6352,
+      "sha256": "fbd77ec80ae767a5aad97072aad4c7391f5cee28dc99e24a66901b88b286b010"
+    },
+    {
+      "path": "docs/04_KERNEL_AND_FUSION.md",
+      "size": 4180,
+      "sha256": "8d190bd796b83e0db9ecfa15e3eaf26499ada850eb2bc76c3adcc5173a40e4c3"
+    },
+    {
+      "path": "docs/05_WORKLOADS_AND_BOTTLENECKS.md",
+      "size": 5678,
+      "sha256": "1b51ab4e591b1f0c3128253224fde38f8d26f545e9ecb4732e56acd609dff233"
+    },
+    {
+      "path": "docs/06_MATRIX_AND_ANALYSIS.md",
+      "size": 6288,
+      "sha256": "dccf970bdbbf445d285075749bed39a6996ffd5ad18b60a95808144d3b030d76"
+    },
+    {
+      "path": "docs/07_EXECUTION_AND_LOGGING.md",
+      "size": 3684,
+      "sha256": "4e281bcfa293a409f672b27edc780e56e36ed9280e170b9b10b2271e8065f751"
+    },
+    {
+      "path": "docs/08_EVIDENCE_AND_RELATED_WORK.md",
+      "size": 4300,
+      "sha256": "8159a595d3b96552aa9ec0cd3e474b5fac366e80396e5f83008d97fdec78b0ad"
+    },
+    {
+      "path": "planned_counts.json",
+      "size": 1558,
+      "sha256": "b98c0456c4060fbbf1f0100d346b9ad6bb30af480a779a65ad9b50565491a6ae"
+    },
+    {
+      "path": "templates/BOTTLENECK_CARD.md",
+      "size": 742,
+      "sha256": "a3e11a6b19531971341f08b5c564370cba1b6f77fbc2b0662a85804ad13cd2f0"
+    },
+    {
+      "path": "templates/COMPILED_RULE_CONTRACT.json",
+      "size": 1107,
+      "sha256": "6c1fbd015cbc51d8a69a0c7752c3f2f70e2fe4b7e1909e46b0372d7c31dec02d"
+    },
+    {
+      "path": "templates/FINAL_REPORT_OUTLINE.md",
+      "size": 1146,
+      "sha256": "50ff0d7e96539142802a1a993a40e8ec8e870b2e56dc8e39c4c7bb862e46a292"
+    },
+    {
+      "path": "tests/test_reference.py",
+      "size": 4703,
+      "sha256": "b74a59bc24ecf083493ac8b7ef35bd9ee23051221c0a82311136e72284c37001"
+    },
+    {
+      "path": "tools/build_matrix.py",
+      "size": 3005,
+      "sha256": "04283b84b52daf3944d910fc07f28759796f917aa076271d74d0e707722c6b57"
+    },
+    {
+      "path": "tools/reference_math.py",
+      "size": 7190,
+      "sha256": "4c5dc625761ef53c26d2ab8e78cf48b3c8b0a6a61e82ccc66df164b0146570bd"
+    }
+  ]
+}

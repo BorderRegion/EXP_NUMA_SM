@@ -1,0 +1,39 @@
+{
+  "registered_at": "2026-10-15T04:53:22.555094+00:00",
+  "seed": 2026101503,
+  "old_worker_seconds": 1910.478779042678,
+  "worker_cap_seconds": 21600,
+  "budget_interpretation": "Original 12h calendar window applied to old campaign only, per explicit addendum. As a conservative cumulative worker ceiling use 43200 minus old 1910.479; supplemental min is 21600. No new paid or network actions.",
+  "S1": {
+    "blocks": 24,
+    "phases": 120,
+    "sequence": 0,
+    "middle_permutations": [
+      "ERM",
+      "EMR",
+      "REM",
+      "RME",
+      "MER",
+      "MRE"
+    ],
+    "order": "block major; rotate [bonsai,ca-GrQc,train,web-Google] by block mod 4",
+    "conditioning_seconds": 30,
+    "frames": 512,
+    "warm_min": 128,
+    "warm_seconds": 1,
+    "anchor": "sqrt(mean_N_head*mean_N_tail)",
+    "bootstrap_seed": 2026101503,
+    "drift_flag": 0.05
+  },
+  "old_plan_hashes": {
+    "preregistration/W2/ca-GrQc/R.txt": "ccfa56ba78e97daea516c4e1384785551369fcf9aa9a787f351ceca7657cd051",
+    "preregistration/W2/ca-GrQc/M.txt": "84e22f318b524614e4dcaff2136967fa90a9da9516698f647199039be1fe2d39",
+    "preregistration/W2/web-Google/R.txt": "9069b35357238c235dfaa3ae1c2a612092090fcbdcc9dac1ba44131d07cb62d1",
+    "preregistration/W2/web-Google/M.txt": "ef903053142285ec66e4d17f13895aa2d442f0a89937bb4a8a213d2da201c738",
+    "preregistration/W1/bonsai/R.txt": "64d071cc893b0016af54a7a8b27323653026c636a1e346e281599c72c286391a",
+    "preregistration/W1/bonsai/M.txt": "6466729dba502ab339f5a067d645fe6f9ed1c3729cc0e98e29a1d9f00c7afe38",
+    "preregistration/W1/train/R.txt": "2a78ba16a95e94cff04b1e195c41fee59179e45a5197913cd6368920f747aa07",
+    "preregistration/W1/train/M.txt": "9d51fee8eaa6daec934aebc42238136add4c40e6e3d5ebf0f7c7fee187960895"
+  },
+  "source_review_sha256": "14bc9039cae90c8e1d6457479e78b27a9f046e5a9446d9a3de18468ef9a4172a"
+}

@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-17T08:06:44.406715+00:00",
+  "readback": {
+    "device": {
+      "command": [
+        "nvidia-smi",
+        "--query-gpu=uuid,power.limit,enforced.power.limit,temperature.gpu,clocks.sm,clocks.mem",
+        "--format=csv"
+      ],
+      "returncode": 0,
+      "stdout": "uuid, power.limit [W], enforced.power.limit [W], temperature.gpu, clocks.current.sm [MHz], clocks.current.memory [MHz]\nGPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5, 100.00 W, 100.00 W, 63, 1065 MHz, 6300 MHz\n",
+      "stderr": ""
+    },
+    "fan": {
+      "command": [
+        "systemctl",
+        "status",
+        "t10-quiet-fan.service",
+        "--no-pager"
+      ],
+      "returncode": 0,
+      "stdout": "● t10-quiet-fan.service - Tesla T10 temperature based CHA_FAN quiet curve\n     Loaded: loaded (/etc/systemd/system/t10-quiet-fan.service; enabled; preset: enabled)\n     Active: active (running) since Thu 2026-10-15 21:11:34 CST; 1 day 18h ago\n   Main PID: 1762378 (python3)\n     Status: \"GPU 63 C; CHA_FAN 2586 RPM; duty 141/255; protection False\"\n      Tasks: 2 (limit: 34861)\n     Memory: 20.4M (peak: 21.2M)\n        CPU: 3min 12.250s\n     CGroup: /system.slice/t10-quiet-fan.service\n             └─1762378 /usr/bin/python3 -u /usr/local/sbin/t10_quiet_fan.py\n\nOct 17 16:04:25 SDB-T10 python3[1762378]: {\"gpu_temp_c\": 63, \"cha_fan_rpm\": 2586, \"pwm\": 141, \"power_protection\": false}\nOct 17 16:04:40 SDB-T10 python3[1762378]: {\"gpu_temp_c\": 63, \"cha_fan_rpm\": 2601, \"pwm\": 141, \"power_protection\": false}\nOct 17 16:04:55 SDB-T10 python3[1762378]: {\"gpu_temp_c\": 63, \"cha_fan_rpm\": 2596, \"pwm\": 141, \"power_protection\": false}\nOct 17 16:05:10 SDB-T10 python3[1762378]: {\"gpu_temp_c\": 63, \"cha_fan_rpm\": 2591, \"pwm\": 141, \"power_protection\": false}\nOct 17 16:05:25 SDB-T10 python3[1762378]: {\"gpu_temp_c\": 63, \"cha_fan_rpm\": 2601, \"pwm\": 141, \"power_protection\": false}\nOct 17 16:05:40 SDB-T10 python3[1762378]: {\"gpu_temp_c\": 63, \"cha_fan_rpm\": 2596, \"pwm\": 141, \"power_protection\": false}\nOct 17 16:05:55 SDB-T10 python3[1762378]: {\"gpu_temp_c\": 63, \"cha_fan_rpm\": 2606, \"pwm\": 141, \"power_protection\": false}\nOct 17 16:06:10 SDB-T10 python3[1762378]: {\"gpu_temp_c\": 63, \"cha_fan_rpm\": 2556, \"pwm\": 141, \"power_protection\": false}\nOct 17 16:06:25 SDB-T10 python3[1762378]: {\"gpu_temp_c\": 63, \"cha_fan_rpm\": 2581, \"pwm\": 141, \"power_protection\": false}\nOct 17 16:06:40 SDB-T10 python3[1762378]: {\"gpu_temp_c\": 63, \"cha_fan_rpm\": 2601, \"pwm\": 141, \"power_protection\": false}\n",
+      "stderr": ""
+    },
+    "kernel": {
+      "command": [
+        "journalctl",
+        "-k",
+        "--since",
+        "2026-10-17 14:34:33",
+        "--no-pager"
+      ],
+      "returncode": 0,
+      "stdout": "-- No entries --\n",
+      "stderr": ""
+    }
+  },
+  "system_changes_performed": [],
+  "restore": "NO_SYSTEM_WRITES; fixed100W and original fan/protection kept. No pending setting change."
+}

@@ -1,0 +1,26 @@
+{
+  "installed_cublas_package_version": "12.8.4.1",
+  "files": [
+    {
+      "path": "/home/ubuntu/projects/leetgpu-lab/.venv/lib/python3.12/site-packages/nvidia/cublas/lib/libcublas.so.12",
+      "bytes": 116388640,
+      "sha256": "031ce6c2cbfbb9468f040527cab5c599069ce5609e73e28f87503881063eac21"
+    },
+    {
+      "path": "/home/ubuntu/projects/leetgpu-lab/.venv/lib/python3.12/site-packages/nvidia/cublas/lib/libcublasLt.so.12",
+      "bytes": 751771728,
+      "sha256": "10b5e6631cf8115c661eb895ed1533826308b58f7956466f53d236a40c9b622c"
+    },
+    {
+      "path": "/home/ubuntu/projects/leetgpu-lab/.venv/lib/python3.12/site-packages/nvidia/cublas/include/cublas_api.h",
+      "bytes": 374363,
+      "sha256": "03826fbfd7a5be82480f0f117943fba819d2c44bddb2573e8215bfc9cabfa805"
+    },
+    {
+      "path": "/home/ubuntu/projects/leetgpu-lab/.venv/lib/python3.12/site-packages/nvidia/cuda_runtime/include/cuda.h",
+      "bytes": 1156988,
+      "sha256": "4568cc9e7a321e47707cd6403980f21ac2e2e55170500d0e0a3f54feb03a9acb"
+    }
+  ],
+  "copy_in_package": false
+}

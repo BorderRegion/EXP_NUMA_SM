@@ -1,0 +1,456 @@
+{
+  "status": "PASS",
+  "raw_counts": {
+    "AA_raw_requests": 12456,
+    "numerical_checks": 13296,
+    "paired_raw_requests": 749624,
+    "pairs.jsonl": 2304,
+    "anchors.jsonl": 312,
+    "raw_bit_checks": 8352,
+    "pc_direct.jsonl": 144,
+    "deployment_numerical_records": 1818,
+    "deployment_raw_requests": 16128,
+    "tuner_pairs.jsonl": 288,
+    "lifecycle_numerical_records": 288,
+    "lifecycle_sample_records": 288,
+    "lifecycle_raw_requests": 11592
+  },
+  "attempt_status_notes": [],
+  "telemetry": [
+    {
+      "worker": "S1_aa_0",
+      "samples": 379,
+      "max_temperature": 74,
+      "sm_clock_range": [
+        300,
+        1065
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S1_aa_1",
+      "samples": 383,
+      "max_temperature": 75,
+      "sm_clock_range": [
+        300,
+        1065
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S2_card_0",
+      "samples": 143,
+      "max_temperature": 76,
+      "sm_clock_range": [
+        300,
+        1590
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S2_card_1",
+      "samples": 143,
+      "max_temperature": 76,
+      "sm_clock_range": [
+        300,
+        1590
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S2_card_2",
+      "samples": 143,
+      "max_temperature": 75,
+      "sm_clock_range": [
+        300,
+        1590
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S2_pairs_0",
+      "samples": 996,
+      "max_temperature": 77,
+      "sm_clock_range": [
+        300,
+        1065
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S2_pairs_1",
+      "samples": 995,
+      "max_temperature": 77,
+      "sm_clock_range": [
+        300,
+        1170
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S2_pairs_2",
+      "samples": 992,
+      "max_temperature": 77,
+      "sm_clock_range": [
+        300,
+        1065
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S2_setup",
+      "samples": 5,
+      "max_temperature": 74,
+      "sm_clock_range": [
+        1065,
+        1065
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S4_pairs_0",
+      "samples": 561,
+      "max_temperature": 74,
+      "sm_clock_range": [
+        300,
+        1065
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S4_pairs_1",
+      "samples": 575,
+      "max_temperature": 74,
+      "sm_clock_range": [
+        300,
+        1065
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S4_pairs_2",
+      "samples": 573,
+      "max_temperature": 74,
+      "sm_clock_range": [
+        300,
+        1125
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S4_pairs_3",
+      "samples": 572,
+      "max_temperature": 74,
+      "sm_clock_range": [
+        300,
+        1365
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S4_pairs_4",
+      "samples": 571,
+      "max_temperature": 74,
+      "sm_clock_range": [
+        300,
+        1185
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S4_pairs_5",
+      "samples": 570,
+      "max_temperature": 74,
+      "sm_clock_range": [
+        300,
+        1065
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S5_binding_0",
+      "samples": 65,
+      "max_temperature": 73,
+      "sm_clock_range": [
+        300,
+        1590
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S5_binding_1",
+      "samples": 64,
+      "max_temperature": 74,
+      "sm_clock_range": [
+        300,
+        1590
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S5_binding_2",
+      "samples": 65,
+      "max_temperature": 74,
+      "sm_clock_range": [
+        300,
+        1590
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S5_ffn_0",
+      "samples": 72,
+      "max_temperature": 74,
+      "sm_clock_range": [
+        300,
+        1590
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S5_ffn_1",
+      "samples": 72,
+      "max_temperature": 74,
+      "sm_clock_range": [
+        300,
+        1590
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S5_ffn_2",
+      "samples": 72,
+      "max_temperature": 74,
+      "sm_clock_range": [
+        330,
+        1590
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S5_ffn_3",
+      "samples": 72,
+      "max_temperature": 74,
+      "sm_clock_range": [
+        315,
+        1590
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S5_ffn_4",
+      "samples": 72,
+      "max_temperature": 73,
+      "sm_clock_range": [
+        315,
+        1350
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S5_ffn_5",
+      "samples": 72,
+      "max_temperature": 73,
+      "sm_clock_range": [
+        345,
+        1590
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S5_lifecycle_0",
+      "samples": 353,
+      "max_temperature": 73,
+      "sm_clock_range": [
+        300,
+        1485
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S5_lifecycle_1",
+      "samples": 350,
+      "max_temperature": 73,
+      "sm_clock_range": [
+        300,
+        1440
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S5_lifecycle_2",
+      "samples": 352,
+      "max_temperature": 73,
+      "sm_clock_range": [
+        300,
+        1590
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S5_ood_0",
+      "samples": 45,
+      "max_temperature": 74,
+      "sm_clock_range": [
+        525,
+        1590
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S5_ood_1",
+      "samples": 45,
+      "max_temperature": 74,
+      "sm_clock_range": [
+        525,
+        1590
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S5_ood_2",
+      "samples": 45,
+      "max_temperature": 74,
+      "sm_clock_range": [
+        525,
+        1590
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S5_trace_0",
+      "samples": 106,
+      "max_temperature": 75,
+      "sm_clock_range": [
+        300,
+        1590
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S5_trace_1",
+      "samples": 105,
+      "max_temperature": 74,
+      "sm_clock_range": [
+        300,
+        1590
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S5_trace_2",
+      "samples": 105,
+      "max_temperature": 74,
+      "sm_clock_range": [
+        300,
+        1590
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S5_trace_3",
+      "samples": 105,
+      "max_temperature": 73,
+      "sm_clock_range": [
+        300,
+        1590
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S5_trace_4",
+      "samples": 105,
+      "max_temperature": 73,
+      "sm_clock_range": [
+        300,
+        1590
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S5_trace_5",
+      "samples": 106,
+      "max_temperature": 73,
+      "sm_clock_range": [
+        300,
+        1590
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    },
+    {
+      "worker": "S6_profiles",
+      "samples": 7,
+      "max_temperature": 70,
+      "sm_clock_range": [
+        1065,
+        1065
+      ],
+      "hard_state_events": [],
+      "scope": "1Hz samples; cannot exclude an unsampled transient. Software power limiting at the 100W cap is the declared dynamic state."
+    }
+  ],
+  "math_sources": [
+    {
+      "path": "src/kernels.cu",
+      "sha256": "f141825c0160d0a498c0009d0c5e75fba8e07ee1361a8f4c078848fbc5a55191"
+    },
+    {
+      "path": "src/kernels.cuh",
+      "sha256": "4fec5c758daa4ad845be3bcd11982a8237333c8b4d385bbc82ed7eb5c71f753a"
+    },
+    {
+      "path": "adapters/pc_gemm_splitk_parallel.h",
+      "sha256": "655d20d5a921f56334d925d4a558f1d2b2bef60ef9ef2bf6628a4363c45cf033"
+    },
+    {
+      "path": "adapters/pc_reduce_split_k.h",
+      "sha256": "1b475b0591bf319d724ab238e24f1e27155170249e19d06a5b96314d5bc93fae"
+    }
+  ],
+  "hard_state_event_samples": 0,
+  "gpu_worker_minutes": 170.61207501448612,
+  "stage_worker_minutes": {
+    "S1": 12.908408803300699,
+    "S2": 57.891934843316754,
+    "S4": 57.99362229536734,
+    "S5": 41.69548148513422,
+    "S6": 0.12262758736712082
+  },
+  "wall_minutes": 182.77848242331626
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T10:12:01.383781+00:00",
+  "returncode": 0,
+  "archive_sha256": "0c55d371b01676a32a521f47a463ef910c19935edaffca26d302510abf2960ac",
+  "archive_bytes": 70812350,
+  "archive_files": 591,
+  "manifest_entries": 590,
+  "fresh_extract": "/tmp/t10-state-final-cpu-qa-uf0x04pj/T10_STATE_CAUSALITY_RESULT_20261017",
+  "command": [
+    "/home/ubuntu/projects/leetgpu-lab/.venv/bin/python3",
+    "/tmp/t10-state-final-cpu-qa-uf0x04pj/T10_STATE_CAUSALITY_RESULT_20261017/recompute.py"
+  ],
+  "cuda_visible_devices": "",
+  "seconds": 22.491800967953168,
+  "log": "/home/ubuntu/文档/ChatGPT/numa_gpu/state-causality-t10/reports/PACKAGE_QA.log",
+  "active_experiment_processes_after_qa": [],
+  "final_archive_hash_verified": true
+}

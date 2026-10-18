@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-17T11:26:26.085352+00:00",
+  "status": "EXPERIMENT_AND_ANALYSIS_COMPLETE_WITH_PERMISSION_LIMITATIONS",
+  "new_gpu_minutes": 5.288288763432259,
+  "cumulative_gpu_minutes": 329.2420818351985,
+  "remaining_cumulative_minutes": 0.757918164801481,
+  "fixed_idle_cpu_only_s": 720.489775806,
+  "wall_minutes": 27.098068989783254,
+  "formal_blocks": 4,
+  "numerical_records": 40,
+  "failures_this_round": 0,
+  "clock_lock": "NOT_RUN_NO_ADMIN",
+  "hardware_cache_counters": "NOT_RUN_ADMIN_ONLY",
+  "no_new_GPU_math": true,
+  "system_settings_changed": false,
+  "archive_qa": "Final ZIP validation and fresh CPU recomputation recorded externally in reports/DELIVERY_INDEX.md and PACKAGE_QA.json"
+}

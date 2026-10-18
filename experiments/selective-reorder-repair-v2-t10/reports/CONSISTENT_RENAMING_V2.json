@@ -1,0 +1,154 @@
+{
+  "status": "PASS",
+  "sample_feature_checks": 144,
+  "aggregate_four_feature_checks": 24,
+  "max_sample_error": 0.0,
+  "max_aggregate_error": 0.0,
+  "rows": [
+    {
+      "case": "D03",
+      "part": 0,
+      "pi": 0,
+      "max_error": 0.0
+    },
+    {
+      "case": "D03",
+      "part": 0,
+      "pi": 1,
+      "max_error": 0.0
+    },
+    {
+      "case": "D03",
+      "part": 1,
+      "pi": 0,
+      "max_error": 0.0
+    },
+    {
+      "case": "D03",
+      "part": 1,
+      "pi": 1,
+      "max_error": 0.0
+    },
+    {
+      "case": "D03",
+      "part": 2,
+      "pi": 0,
+      "max_error": 0.0
+    },
+    {
+      "case": "D03",
+      "part": 2,
+      "pi": 1,
+      "max_error": 0.0
+    },
+    {
+      "case": "D10",
+      "part": 0,
+      "pi": 0,
+      "max_error": 0.0
+    },
+    {
+      "case": "D10",
+      "part": 0,
+      "pi": 1,
+      "max_error": 0.0
+    },
+    {
+      "case": "D10",
+      "part": 1,
+      "pi": 0,
+      "max_error": 0.0
+    },
+    {
+      "case": "D10",
+      "part": 1,
+      "pi": 1,
+      "max_error": 0.0
+    },
+    {
+      "case": "D10",
+      "part": 2,
+      "pi": 0,
+      "max_error": 0.0
+    },
+    {
+      "case": "D10",
+      "part": 2,
+      "pi": 1,
+      "max_error": 0.0
+    },
+    {
+      "case": "D17",
+      "part": 0,
+      "pi": 0,
+      "max_error": 0.0
+    },
+    {
+      "case": "D17",
+      "part": 0,
+      "pi": 1,
+      "max_error": 0.0
+    },
+    {
+      "case": "D17",
+      "part": 1,
+      "pi": 0,
+      "max_error": 0.0
+    },
+    {
+      "case": "D17",
+      "part": 1,
+      "pi": 1,
+      "max_error": 0.0
+    },
+    {
+      "case": "D17",
+      "part": 2,
+      "pi": 0,
+      "max_error": 0.0
+    },
+    {
+      "case": "D17",
+      "part": 2,
+      "pi": 1,
+      "max_error": 0.0
+    },
+    {
+      "case": "D24",
+      "part": 0,
+      "pi": 0,
+      "max_error": 0.0
+    },
+    {
+      "case": "D24",
+      "part": 0,
+      "pi": 1,
+      "max_error": 0.0
+    },
+    {
+      "case": "D24",
+      "part": 1,
+      "pi": 0,
+      "max_error": 0.0
+    },
+    {
+      "case": "D24",
+      "part": 1,
+      "pi": 1,
+      "max_error": 0.0
+    },
+    {
+      "case": "D24",
+      "part": 2,
+      "pi": 0,
+      "max_error": 0.0
+    },
+    {
+      "case": "D24",
+      "part": 2,
+      "pi": 1,
+      "max_error": 0.0
+    }
+  ],
+  "scope": "Simultaneously relabel card rows/columns/capacities and actual partition membership. All four RESOURCE features invariant; applying unchanged ridge coefficients therefore preserves predictions within floating arithmetic. No GPU intervention or physical identity proof."
+}

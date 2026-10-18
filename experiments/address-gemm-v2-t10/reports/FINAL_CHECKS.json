@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "qualification_counts": [
+    240,
+    32
+  ],
+  "dispatch_checks": 10,
+  "dispatch_sources_match_executed_worker": true,
+  "memcheck": "0 errors",
+  "synccheck": "0 errors",
+  "full_racecheck": "TIMEOUT_NOT_PASS",
+  "targeted_racecheck": "0 errors, 0 warnings",
+  "worker_seconds": 622.8610665499582,
+  "failed_workers": [
+    "racecheck",
+    "racecheck_targeted"
+  ],
+  "final_gpu_query": "Tesla T10, GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5, 63, 100.00 W, 0 %",
+  "compute_apps": "1697361, /usr/libexec/gnome-remote-desktop-daemon, 205 MiB",
+  "no_experiment_gpu_workers": true,
+  "visual_QA": [
+    "fixed_recipe.png:PASS",
+    "strong_baselines.png:PASS",
+    "absolute_times.png:PASS"
+  ]
+}

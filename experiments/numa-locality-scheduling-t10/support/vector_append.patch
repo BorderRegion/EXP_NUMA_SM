@@ -1,0 +1,11 @@
+--- support/previous_append_attention.cu
++++ src/vector_append.cu
+@@ -54,7 +54,7 @@
+     __syncthreads();
+    }
+ 
+-   for(int i=threadIdx.x;i<16*D;i+=blockDim.x){int tok=i/D,d=i%D;bool valid=page*16+tok<p.length[b];ks[tok*(D+8)+d]=valid?p.k[base+i]:__float2half(0);vs[tok*(D+8)+d]=valid?p.v[base+i]:__float2half(0);}
++   for(int i=threadIdx.x;i<16*(D/8);i+=blockDim.x){int tok=i/(D/8),d=i%(D/8);bool valid=page*16+tok<p.length[b];((uint4*)ks)[tok*((D+8)/8)+d]=valid?((const uint4*)(p.k+base))[i]:make_uint4(0,0,0,0);((uint4*)vs)[tok*((D+8)/8)+d]=valid?((const uint4*)(p.v+base))[i]:make_uint4(0,0,0,0);}
+    __syncthreads();
+    #pragma unroll
+    for(int t=0;t<2;t++){int tok=lane/4+8*t;float dot=0;

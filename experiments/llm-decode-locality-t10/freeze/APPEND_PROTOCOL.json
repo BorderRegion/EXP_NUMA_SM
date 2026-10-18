@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-10-17T14:50:19.593447+00:00",
+  "motivation": "Fuse KV append into the uniquely owning page CTA to avoid an extra append kernel. Reuse the frozen best ordinary attention kernel; no new worker-count selection on confirmation.",
+  "confirmation_processes": 4,
+  "offsets": [
+    0,
+    69632
+  ],
+  "blocks": 30,
+  "replays": 8,
+  "policies": [
+    "SEPARATE",
+    "FUSED_APPEND",
+    "ATTENTION_ONLY"
+  ],
+  "anchors": "SEPARATE before and after each randomized block",
+  "scope": "Full KV update at lengths[b]-1 plus decode output; Q/new KV already on device. Fixed valid length per timing condition, four Q/new-KV input slots. Dynamic length growth checked separately, not whole-model token throughput. ATTENTION_ONLY omits append and is a lower-bound diagnostic, not a fair complete-workload competitor.",
+  "seeds": "5500000+process*10000+case_index*101; disjoint from core attention development/confirmation",
+  "gpu_worker_budget": "shared existing 1800 seconds, no new budget",
+  "no_filtering": true
+}

@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-18T05:13:34.483491+00:00",
+  "reason": "Pre-confirmation CPU audit detected development process1 and planned confirmation process0 would share input seed with +1000000 per process. No confirmation output existed.",
+  "change": "Confirmation base input/order seed123000000→223000000. Development, kernel, maps, selected-random criterion, conditions and analysis unchanged.",
+  "old_protocol_sha256": "3618aba732f01c8ee8cfbb20a954895bdbb72edc836010edcb7497eae662b2db",
+  "new_protocol_sha256": "15e22c13aa89d97231af115b2319543430964517e262057a89bd4e6ff2eef20b",
+  "old_protocol": "freeze/PROTOCOL_initial.json",
+  "confirmation_started": false
+}

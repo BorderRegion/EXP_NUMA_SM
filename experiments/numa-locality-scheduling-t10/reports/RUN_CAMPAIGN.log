@@ -1,0 +1,12 @@
+memcheck COMPLETED 5.355
+synccheck COMPLETED 4.483
+development_0 COMPLETED 115.033
+development_1 COMPLETED 116.467
+FROZEN {"GQA4_SHORT": {"static": {"W": 32, "fused": 1, "mode": 0}, "coarse": {"W": 32, "fused": 1, "mode": 1, "chunk": 1}, "replica": {"W": 32, "fused": 1, "mode": 5}, "route": "REPLICA_MATCH"}, "GQA4_LONG": {"static": {"W": 32, "fused": 0, "mode": 0}, "coarse": {"W": 32, "fused": 0, "mode": 1, "chunk": 4}, "replica": {"W": 32, "fused": 0, "mode": 5}, "route": "COARSE_BLIND"}, "GQA8_LONG": {"static": {"W": 64, "fused": 0, "mode": 10}, "coarse": {"W": 32, "fused": 0, "mode": 1, "chunk": 1}, "replica": {"W": 64, "fused": 0, "mode": 5}, "route": "COARSE_MATCH"}, "BATCH4_RAGGED": {"static": {"W": 16, "fused": 0, "mode": 0}, "coarse": {"W": 16, "fused": 0, "mode": 1, "chunk": 1}, "replica": {"W": 16, "fused": 0, "mode": 5}, "route": "STATIC"}}
+confirmation_0 COMPLETED 41.399
+confirmation_1 COMPLETED 41.577
+confirmation_2 COMPLETED 42.098
+confirmation_3 COMPLETED 41.515
+confirmation_4 COMPLETED 41.781
+confirmation_5 COMPLETED 41.422
+CAMPAIGN_COMPLETE

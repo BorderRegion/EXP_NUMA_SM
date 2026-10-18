@@ -1,0 +1,383 @@
+Function: _ZN7cutlass6KernelINS_4gemm6kernel18OpFusedGemmGroupedINS1_11threadblock12MmaPipelinedINS1_9GemmShapeILi64ELi64ELi32EEENS_9transform11threadblock22PredicatedTileIteratorINS_11MatrixShapeILi64ELi32EEENS_6half_tENS_6layout8RowMajorELi1ENS8_29PitchLinearWarpRakedThreadMapINS_16PitchLinearShapeILi32ELi64EEELi128ENSH_ILi4ELi8EEELi8EEELi8ELb0ENSE_9NoPermuteEEENS9_19RegularTileIteratorISC_SD_NSE_37RowMajorTensorOpMultiplicandCrosswiseILi16ELi32EEELi0ESK_Li16EEENSA_INSB_ILi32ELi64EEESD_SF_Li0ENSG_INSH_ILi64ELi32EEELi128ENSH_ILi8ELi4EEELi8EEELi8ELb0ESL_EENSN_ISR_SD_NSE_37RowMajorTensorOpMultiplicandCongruousILi16ELi64EEELi0ESU_Li16EEEfSF_NS4_9MmaPolicyINS1_4warp11MmaTensorOpINS6_ILi32ELi32ELi32EEESD_SP_SD_SX_fSF_NS10_17MmaTensorOpPolicyINS_4arch3MmaINS6_ILi16ELi8ELi8EEELi32ESD_SF_SD_NSE_11ColumnMajorEfSF_NS14_13OpMultiplyAddEEENSB_ILi1ELi1EEEEELi1ELb0EbEENSB_ILi0ELi0EEES1D_Li1EEENS_21NumericArrayConverterISD_SD_Li16ELNS_15FloatRoundStyleE2ENS8_6thread14UnaryTransform8IdentityEEES1K_bEENS_8epilogue11threadblock8EpilogueIS7_S1C_Li1ENS1N_22PredicatedTileIteratorINS1N_26OutputTileOptimalThreadMapINS1N_15OutputTileShapeILi64ELi8ELi2ELi1ELi1EEENS1R_ILi1ELi4ELi1ELi1ELi4EEELi128ELi8ELi16EEESD_Lb0ESL_Lb0EEENS1M_4warp24FragmentIteratorTensorOpIS12_S16_fNS_5ArrayIfLi4ELb1EEESF_EENS1W_25TileIteratorTensorOpMixedIS12_S16_fLi32ELi16ELi8ELi8ELb0EEENS1N_23SharedLoadIteratorMixedINS1U_18CompactedThreadMapEfLi32ELi16ELi8ELi8ELb0EEENS1M_6thread17LinearCombinationISD_Li8EffLNS26_9ScaleType4KindE0ELS1G_2ESD_EENSB_ILi0ELi8EEELi2ELi1EEENS4_37GemmBatchedIdentityThreadblockSwizzleELNS2_17GroupScheduleModeE0ENS2_16Q1MinimalVisitorIS7_Li128EEELb0EEEEEvNT_6ParamsE
+	.headerflags	@"EF_CUDA_TEXMODE_UNIFIED EF_CUDA_64BIT_ADDRESS EF_CUDA_SM75 EF_CUDA_VIRTUAL_SM(EF_CUDA_SM75)"
+        /*0000*/                   MOV R1, c[0x0][0x28] ;                                  /* 0x00000a0000017a02 */
+                                                                                           /* 0x000fc40000000f00 */
+        /*0010*/                   S2R R78, SR_TID.X ;                                     /* 0x00000000004e7919 */
+                                                                                           /* 0x000e220000002100 */
+        /*0020*/                   IMAD.MOV.U32 R73, RZ, RZ, RZ ;                          /* 0x000000ffff497224 */
+                                                                                           /* 0x000fe400078e00ff */
+        /*0030*/                   IMAD.MOV.U32 R72, RZ, RZ, -0x20 ;                       /* 0xffffffe0ff487424 */
+                                                                                           /* 0x000fe200078e00ff */
+        /*0040*/                   S2UR UR5, SR_CTAID.X ;                                  /* 0x00000000000579c3 */
+                                                                                           /* 0x000e620000002500 */
+        /*0050*/                   IMAD.MOV.U32 R55, RZ, RZ, RZ ;                          /* 0x000000ffff377224 */
+                                                                                           /* 0x000fe400078e00ff */
+        /*0060*/                   IMAD.SHL.U32 R7, R78.reuse, 0x4, RZ ;                   /* 0x000000044e077824 */
+                                                                                           /* 0x041fe200078e00ff */
+        /*0070*/                   LOP3.LUT R0, R78.reuse, 0x6, RZ, 0xc0, !PT ;            /* 0x000000064e007812 */
+                                                                                           /* 0x040fe200078ec0ff */
+        /*0080*/                   IMAD.SHL.U32 R3, R78, 0x8, RZ ;                         /* 0x000000084e037824 */
+                                                                                           /* 0x000fe200078e00ff */
+        /*0090*/                   SHF.R.S32.HI R5, RZ, 0x1f, R78 ;                        /* 0x0000001fff057819 */
+                                                                                           /* 0x000fc4000001144e */
+        /*00a0*/                   LOP3.LUT R7, R7, 0x4, RZ, 0xc0, !PT ;                   /* 0x0000000407077812 */
+                                                                                           /* 0x000fe400078ec0ff */
+        /*00b0*/                   LOP3.LUT R52, R3, 0xf0, RZ, 0xc0, !PT ;                 /* 0x000000f003347812 */
+                                                                                           /* 0x000fe400078ec0ff */
+        /*00c0*/                   LEA.HI R7, R0, R7, RZ, 0x1f ;                           /* 0x0000000700077211 */
+                                                                                           /* 0x000fe400078ff8ff */
+        /*00d0*/                   LOP3.LUT R85, R78.reuse, 0x1f, RZ, 0xc0, !PT ;          /* 0x0000001f4e557812 */
+                                                                                           /* 0x040fe400078ec0ff */
+        /*00e0*/                   LEA.HI R0, R5, R78, RZ, 0x5 ;                           /* 0x0000004e05007211 */
+                                                                                           /* 0x000fe200078f28ff */
+        /*00f0*/                   IMAD.IADD R52, R7, 0x1, R52 ;                           /* 0x0000000107347824 */
+                                                                                           /* 0x000fe200078e0234 */
+        /*0100*/                   LOP3.LUT R7, R78, 0x2, RZ, 0xc, !PT ;                   /* 0x000000024e077812 */
+                                                                                           /* 0x000fc400078e0cff */
+        /*0110*/                   SHF.R.U32.HI R11, RZ, 0x3, R85 ;                        /* 0x00000003ff0b7819 */
+                                                                                           /* 0x000fe20000011655 */
+        /*0120*/                   IMAD.SHL.U32 R52, R52, 0x10, RZ ;                       /* 0x0000001034347824 */
+                                                                                           /* 0x000fe200078e00ff */
+        /*0130*/                   LOP3.LUT R76, R7, 0x1, R78, 0xf8, !PT ;                 /* 0x00000001074c7812 */
+                                                                                           /* 0x000fe400078ef84e */
+        /*0140*/                   LOP3.LUT R7, R0, 0xffffffe0, RZ, 0xc0, !PT ;            /* 0xffffffe000077812 */
+                                                                                           /* 0x000fe400078ec0ff */
+        /*0150*/                   SHF.R.S32.HI R81, RZ, 0x5, R0.reuse ;                   /* 0x00000005ff517819 */
+                                                                                           /* 0x100fe40000011400 */
+        /*0160*/                   SHF.R.S32.HI R0, RZ, 0x1f, R0 ;                         /* 0x0000001fff007819 */
+                                                                                           /* 0x000fe20000011400 */
+        /*0170*/                   IMAD.IADD R7, R78.reuse, 0x1, -R7 ;                     /* 0x000000014e077824 */
+Selected SHFL instructions:
+        /*0a10*/                   SHFL.IDX PT, R0, R55, R0, 0x1f ;                        /* 0x00001f0037007589 */
+        /*0a50*/                   SHFL.IDX PT, R3, R55, 0x1f, 0x1f ;                      /* 0x03e01f0037037f89 */
+        /*0c70*/                   SHFL.UP PT, R3, R4, 0x1, RZ ;                           /* 0x0420000004037989 */
+        /*0cc0*/                   SHFL.UP PT, R3, R2, 0x2, RZ ;                           /* 0x0440000002037989 */
+        /*0d00*/                   SHFL.UP PT, R0, R3, 0x4, RZ ;                           /* 0x0480000003007989 */
+        /*0d40*/                   SHFL.UP PT, R5, R0, 0x8, RZ ;                           /* 0x0500000000057989 */
+        /*0d80*/                   SHFL.UP PT, R4, R5, 0x10, RZ ;                          /* 0x0600000005047989 */
+        /*0db0*/                   SHFL.IDX PT, R3, R4, 0x1f, 0x1f ;                       /* 0x03e01f0004037f89 */
+        /*0f10*/                   SHFL.IDX PT, R73, R55, R5, 0x1f ;                       /* 0x00001f0537497589 */
+        /*1490*/                   SHFL.IDX PT, R3, R4, RZ, 0x1f ;                         /* 0x00001fff04037589 */
+        /*43e0*/                   SHFL.IDX PT, R3, R4, R5, R0 ;                           /* 0x0000000504037389 */
+        /*4430*/                   SHFL.UP PT, R3, R4, R6, R3 ;                            /* 0x0400000604037389 */
+
+Function: _ZN7cutlass6KernelINS_4gemm6kernel18OpFusedGemmGroupedINS1_11threadblock12MmaPipelinedINS1_9GemmShapeILi32ELi64ELi32EEENS_9transform11threadblock22PredicatedTileIteratorINS_11MatrixShapeILi32ELi32EEENS_6half_tENS_6layout8RowMajorELi1ENS8_29PitchLinearWarpRakedThreadMapINS_16PitchLinearShapeILi32ELi32EEELi64ENSH_ILi4ELi8EEELi8EEELi8ELb0ENSE_9NoPermuteEEENS9_19RegularTileIteratorISC_SD_NSE_37RowMajorTensorOpMultiplicandCrosswiseILi16ELi32EEELi0ESK_Li16EEENSA_INSB_ILi32ELi64EEESD_SF_Li0ENSG_INSH_ILi64ELi32EEELi64ENSH_ILi8ELi4EEELi8EEELi8ELb0ESL_EENSN_ISR_SD_NSE_37RowMajorTensorOpMultiplicandCongruousILi16ELi64EEELi0ESU_Li16EEEfSF_NS4_9MmaPolicyINS1_4warp11MmaTensorOpINS6_ILi32ELi32ELi32EEESD_SP_SD_SX_fSF_NS10_17MmaTensorOpPolicyINS_4arch3MmaINS6_ILi16ELi8ELi8EEELi32ESD_SF_SD_NSE_11ColumnMajorEfSF_NS14_13OpMultiplyAddEEENSB_ILi1ELi1EEEEELi1ELb0EbEENSB_ILi0ELi0EEES1D_Li1EEENS_21NumericArrayConverterISD_SD_Li16ELNS_15FloatRoundStyleE2ENS8_6thread14UnaryTransform8IdentityEEENS1F_ISD_SD_Li32ELS1G_2ES1J_EEbEENS_8epilogue11threadblock8EpilogueIS7_S1C_Li1ENS1O_22PredicatedTileIteratorINS1O_26OutputTileOptimalThreadMapINS1O_15OutputTileShapeILi64ELi8ELi1ELi1ELi1EEENS1S_ILi1ELi4ELi1ELi1ELi4EEELi64ELi8ELi16EEESD_Lb0ESL_Lb0EEENS1N_4warp24FragmentIteratorTensorOpIS12_S16_fNS_5ArrayIfLi4ELb1EEESF_EENS1X_25TileIteratorTensorOpMixedIS12_S16_fLi32ELi16ELi8ELi8ELb0EEENS1O_23SharedLoadIteratorMixedINS1V_18CompactedThreadMapEfLi32ELi16ELi8ELi8ELb0EEENS1N_6thread17LinearCombinationISD_Li8EffLNS27_9ScaleType4KindE0ELS1G_2ESD_EENSB_ILi0ELi8EEELi2ELi1EEENS4_37GemmBatchedIdentityThreadblockSwizzleELNS2_17GroupScheduleModeE0ENS2_16Q1MinimalVisitorIS7_Li64EEELb0EEEEEvNT_6ParamsE
+	.headerflags	@"EF_CUDA_TEXMODE_UNIFIED EF_CUDA_64BIT_ADDRESS EF_CUDA_SM75 EF_CUDA_VIRTUAL_SM(EF_CUDA_SM75)"
+        /*0000*/                   MOV R1, c[0x0][0x28] ;                                  /* 0x00000a0000017a02 */
+                                                                                           /* 0x000fc40000000f00 */
+        /*0010*/                   S2R R91, SR_TID.X ;                                     /* 0x00000000005b7919 */
+                                                                                           /* 0x000e220000002100 */
+        /*0020*/                   IMAD.MOV.U32 R81, RZ, RZ, RZ ;                          /* 0x000000ffff517224 */
+                                                                                           /* 0x000fe400078e00ff */
+        /*0030*/                   IMAD.MOV.U32 R80, RZ, RZ, -0x20 ;                       /* 0xffffffe0ff507424 */
+                                                                                           /* 0x000fe200078e00ff */
+        /*0040*/                   S2UR UR5, SR_CTAID.X ;                                  /* 0x00000000000579c3 */
+                                                                                           /* 0x000e620000002500 */
+        /*0050*/                   IMAD.MOV.U32 R55, RZ, RZ, RZ ;                          /* 0x000000ffff377224 */
+                                                                                           /* 0x000fe400078e00ff */
+        /*0060*/                   IMAD.SHL.U32 R5, R91.reuse, 0x4, RZ ;                   /* 0x000000045b057824 */
+                                                                                           /* 0x041fe200078e00ff */
+        /*0070*/                   LOP3.LUT R0, R91, 0x6, RZ, 0xc0, !PT ;                  /* 0x000000065b007812 */
+                                                                                           /* 0x000fe400078ec0ff */
+        /*0080*/                   SHF.R.S32.HI R2, RZ, 0x1f, R91 ;                        /* 0x0000001fff027819 */
+                                                                                           /* 0x000fc4000001145b */
+        /*0090*/                   LOP3.LUT R5, R5, 0x4, RZ, 0xc0, !PT ;                   /* 0x0000000405057812 */
+                                                                                           /* 0x000fe400078ec0ff */
+        /*00a0*/                   LOP3.LUT R84, R91.reuse, 0x2, RZ, 0xc, !PT ;            /* 0x000000025b547812 */
+                                                                                           /* 0x040fe400078e0cff */
+        /*00b0*/                   LOP3.LUT R93, R91.reuse, 0x1f, RZ, 0xc0, !PT ;          /* 0x0000001f5b5d7812 */
+                                                                                           /* 0x040fe400078ec0ff */
+        /*00c0*/                   LEA.HI R5, R0, R5, RZ, 0x1f ;                           /* 0x0000000500057211 */
+                                                                                           /* 0x000fe200078ff8ff */
+        /*00d0*/                   IMAD.SHL.U32 R0, R91, 0x8, RZ ;                         /* 0x000000085b007824 */
+                                                                                           /* 0x000fe200078e00ff */
+        /*00e0*/                   LOP3.LUT R84, R84, 0x1, R91, 0xf8, !PT ;                /* 0x0000000154547812 */
+                                                                                           /* 0x000fe400078ef85b */
+        /*00f0*/                   SHF.R.U32.HI R3, RZ, 0x2, R93 ;                         /* 0x00000002ff037819 */
+                                                                                           /* 0x000fc4000001165d */
+        /*0100*/                   LEA.HI R4, R2, R91, RZ, 0x5 ;                           /* 0x0000005b02047211 */
+                                                                                           /* 0x000fe400078f28ff */
+        /*0110*/                   LOP3.LUT R52, R0, 0xf0, RZ, 0xc0, !PT ;                 /* 0x000000f000347812 */
+                                                                                           /* 0x000fe200078ec0ff */
+        /*0120*/                   IMAD R84, R3, 0x24, R84 ;                               /* 0x0000002403547824 */
+                                                                                           /* 0x000fe200078e0254 */
+        /*0130*/                   LOP3.LUT R8, R4, 0xffffffe0, RZ, 0xc0, !PT ;            /* 0xffffffe004087812 */
+                                                                                           /* 0x000fe400078ec0ff */
+        /*0140*/                   SHF.R.U32.HI R6, RZ, 0x3, R93 ;                         /* 0x00000003ff067819 */
+                                                                                           /* 0x000fe2000001165d */
+        /*0150*/                   IMAD.IADD R52, R5, 0x1, R52 ;                           /* 0x0000000105347824 */
+                                                                                           /* 0x000fe200078e0234 */
+        /*0160*/                   SHF.R.S32.HI R3, RZ, 0x5, R4 ;                          /* 0x00000005ff037819 */
+                                                                                           /* 0x000fe20000011404 */
+        /*0170*/                   IMAD.IADD R5, R91, 0x1, -R8 ;                           /* 0x000000015b057824 */
+Selected SHFL instructions:
+        /*0980*/                   SHFL.IDX PT, R0, R55, R0, 0x1f ;                        /* 0x00001f0037007589 */
+        /*09c0*/                   SHFL.IDX PT, R3, R55, 0x1f, 0x1f ;                      /* 0x03e01f0037037f89 */
+        /*0be0*/                   SHFL.UP PT, R3, R4, 0x1, RZ ;                           /* 0x0420000004037989 */
+        /*0c30*/                   SHFL.UP PT, R3, R2, 0x2, RZ ;                           /* 0x0440000002037989 */
+        /*0c70*/                   SHFL.UP PT, R0, R3, 0x4, RZ ;                           /* 0x0480000003007989 */
+        /*0cb0*/                   SHFL.UP PT, R5, R0, 0x8, RZ ;                           /* 0x0500000000057989 */
+        /*0cf0*/                   SHFL.UP PT, R4, R5, 0x10, RZ ;                          /* 0x0600000005047989 */
+        /*0d20*/                   SHFL.IDX PT, R3, R4, 0x1f, 0x1f ;                       /* 0x03e01f0004037f89 */
+        /*0e80*/                   SHFL.IDX PT, R81, R55, R5, 0x1f ;                       /* 0x00001f0537517589 */
+        /*1400*/                   SHFL.IDX PT, R3, R4, RZ, 0x1f ;                         /* 0x00001fff04037589 */
+        /*44c0*/                   SHFL.IDX PT, R3, R4, R5, R0 ;                           /* 0x0000000504037389 */
+        /*4510*/                   SHFL.UP PT, R3, R4, R6, R3 ;                            /* 0x0400000604037389 */
+
+Function: _ZN7cutlass6KernelINS_4gemm6kernel18OpFusedGemmGroupedINS1_11threadblock12MmaPipelinedINS1_9GemmShapeILi64ELi128ELi32EEENS_9transform11threadblock22PredicatedTileIteratorINS_11MatrixShapeILi64ELi32EEENS_6half_tENS_6layout8RowMajorELi1ENS8_29PitchLinearWarpRakedThreadMapINS_16PitchLinearShapeILi32ELi64EEELi128ENSH_ILi4ELi8EEELi8EEELi8ELb0ENSE_9NoPermuteEEENS9_19RegularTileIteratorISC_SD_NSE_37RowMajorTensorOpMultiplicandCrosswiseILi16ELi32EEELi0ESK_Li16EEENSA_INSB_ILi32ELi128EEESD_SF_Li0ENSG_INSH_ILi128ELi32EEELi128ENSH_ILi8ELi4EEELi8EEELi8ELb0ESL_EENSN_ISR_SD_NSE_37RowMajorTensorOpMultiplicandCongruousILi16ELi64EEELi0ESU_Li16EEEfSF_NS4_9MmaPolicyINS1_4warp11MmaTensorOpINS6_ILi32ELi64ELi32EEESD_SP_SD_SX_fSF_NS10_17MmaTensorOpPolicyINS_4arch3MmaINS6_ILi16ELi8ELi8EEELi32ESD_SF_SD_NSE_11ColumnMajorEfSF_NS14_13OpMultiplyAddEEENSB_ILi1ELi1EEEEELi1ELb0EbEENSB_ILi0ELi0EEES1D_Li1EEENS_21NumericArrayConverterISD_SD_Li16ELNS_15FloatRoundStyleE2ENS8_6thread14UnaryTransform8IdentityEEENS1F_ISD_SD_Li32ELS1G_2ES1J_EEbEENS_8epilogue11threadblock8EpilogueIS7_S1C_Li1ENS1O_22PredicatedTileIteratorINS1O_26OutputTileOptimalThreadMapINS1O_15OutputTileShapeILi128ELi8ELi2ELi1ELi1EEENS1S_ILi1ELi4ELi1ELi1ELi4EEELi128ELi8ELi16EEESD_Lb0ESL_Lb0EEENS1N_4warp24FragmentIteratorTensorOpIS12_S16_fNS_5ArrayIfLi4ELb1EEESF_EENS1X_25TileIteratorTensorOpMixedIS12_S16_fLi32ELi16ELi8ELi8ELb0EEENS1O_23SharedLoadIteratorMixedINS1V_18CompactedThreadMapEfLi32ELi16ELi8ELi8ELb0EEENS1N_6thread17LinearCombinationISD_Li8EffLNS27_9ScaleType4KindE0ELS1G_2ESD_EENSB_ILi0ELi8EEELi2ELi1EEENS4_37GemmBatchedIdentityThreadblockSwizzleELNS2_17GroupScheduleModeE0ENS2_16Q1MinimalVisitorIS7_Li128EEELb0EEEEEvNT_6ParamsE
+	.headerflags	@"EF_CUDA_TEXMODE_UNIFIED EF_CUDA_64BIT_ADDRESS EF_CUDA_SM75 EF_CUDA_VIRTUAL_SM(EF_CUDA_SM75)"
+        /*0000*/                   MOV R1, c[0x0][0x28] ;                                  /* 0x00000a0000017a02 */
+                                                                                           /* 0x000fc40000000f00 */
+        /*0010*/                   S2R R124, SR_TID.X ;                                    /* 0x00000000007c7919 */
+                                                                                           /* 0x000e220000002100 */
+        /*0020*/                   IMAD.MOV.U32 R127, RZ, RZ, RZ ;                         /* 0x000000ffff7f7224 */
+                                                                                           /* 0x000fe400078e00ff */
+        /*0030*/                   IMAD.MOV.U32 R126, RZ, RZ, -0x20 ;                      /* 0xffffffe0ff7e7424 */
+                                                                                           /* 0x000fe200078e00ff */
+        /*0040*/                   S2UR UR5, SR_CTAID.X ;                                  /* 0x00000000000579c3 */
+                                                                                           /* 0x000e620000002500 */
+        /*0050*/                   IMAD.MOV.U32 R125, RZ, RZ, RZ ;                         /* 0x000000ffff7d7224 */
+                                                                                           /* 0x000fe200078e00ff */
+        /*0060*/                   SHF.R.S32.HI R3, RZ, 0x1f, R124 ;                       /* 0x0000001fff037819 */
+                                                                                           /* 0x001fc8000001147c */
+        /*0070*/                   LEA.HI R7, R3.reuse, R124.reuse, RZ, 0x5 ;              /* 0x0000007c03077211 */
+                                                                                           /* 0x0c0fe400078f28ff */
+        /*0080*/                   LEA.HI R3, R3, R124, RZ, 0x7 ;                          /* 0x0000007c03037211 */
+                                                                                           /* 0x000fe400078f38ff */
+        /*0090*/                   SHF.R.S32.HI R135, RZ, 0x5, R7.reuse ;                  /* 0x00000005ff877819 */
+                                                                                           /* 0x100fe40000011407 */
+        /*00a0*/                   SHF.R.S32.HI R4, RZ, 0x1f, R7 ;                         /* 0x0000001fff047819 */
+                                                                                           /* 0x000fe40000011407 */
+        /*00b0*/                   LOP3.LUT R7, R7, 0xffffffe0, RZ, 0xc0, !PT ;            /* 0xffffffe007077812 */
+                                                                                           /* 0x000fe200078ec0ff */
+        /*00c0*/                   IMAD.SHL.U32 R5, R135, 0x10, RZ ;                       /* 0x0000001087057824 */
+                                                                                           /* 0x000fe200078e00ff */
+        /*00d0*/                   LEA.HI R4, R4, R135, RZ, 0x2 ;                          /* 0x0000008704047211 */
+                                                                                           /* 0x000fc400078f10ff */
+        /*00e0*/                   SHF.R.S32.HI R3, RZ, 0x7, R3 ;                          /* 0x00000007ff037819 */
+                                                                                           /* 0x000fe20000011403 */
+        /*00f0*/                   IMAD.IADD R7, R124, 0x1, -R7 ;                          /* 0x000000017c077824 */
+                                                                                           /* 0x000fe200078e0a07 */
+        /*0100*/                   LOP3.LUT R4, R4, 0xfffffffc, RZ, 0xc0, !PT ;            /* 0xfffffffc04047812 */
+                                                                                           /* 0x000fc600078ec0ff */
+        /*0110*/                   IMAD.SHL.U32 R9, R3, 0x40, RZ ;                         /* 0x0000004003097824 */
+                                                                                           /* 0x000fe200078e00ff */
+        /*0120*/                   SHF.R.S32.HI R0, RZ, 0x1f, R7 ;                         /* 0x0000001fff007819 */
+                                                                                           /* 0x000fe20000011407 */
+        /*0130*/                   IMAD.IADD R4, R135.reuse, 0x1, -R4 ;                    /* 0x0000000187047824 */
+                                                                                           /* 0x040fe400078e0a04 */
+        /*0140*/                   IMAD.SHL.U32 R135, R135, 0x8, RZ ;                      /* 0x0000000887877824 */
+                                                                                           /* 0x000fe200078e00ff */
+        /*0150*/                   LEA.HI R138, R0.reuse, R7.reuse, RZ, 0x4 ;              /* 0x00000007008a7211 */
+                                                                                           /* 0x0c0fe400078f20ff */
+        /*0160*/                   LEA.HI R166, R0.reuse, R7.reuse, RZ, 0x2 ;              /* 0x0000000700a67211 */
+                                                                                           /* 0x0c0fe400078f10ff */
+        /*0170*/                   LEA.HI R0, R0, R7, RZ, 0x3 ;                            /* 0x0000000700007211 */
+Selected SHFL instructions:
+        /*0910*/                   SHFL.IDX PT, R0, R125, R0, 0x1f ;                       /* 0x00001f007d007589 */
+        /*0950*/                   SHFL.IDX PT, R30, R125, 0x1f, 0x1f ;                    /* 0x03e01f007d1e7f89 */
+        /*0b90*/                   SHFL.UP PT, R0, R11, 0x1, RZ ;                          /* 0x042000000b007989 */
+        /*0bc0*/                   SHFL.UP PT, R2, R5, 0x2, RZ ;                           /* 0x0440000005027989 */
+        /*0bf0*/                   SHFL.UP PT, R3, R2, 0x4, RZ ;                           /* 0x0480000002037989 */
+        /*0c20*/                   SHFL.UP PT, R0, R3, 0x8, RZ ;                           /* 0x0500000003007989 */
+        /*0c50*/                   SHFL.UP PT, R11, R0, 0x10, RZ ;                         /* 0x06000000000b7989 */
+        /*0c80*/                   SHFL.IDX PT, R30, R11, 0x1f, 0x1f ;                     /* 0x03e01f000b1e7f89 */
+        /*0de0*/                   SHFL.IDX PT, R127, R125, R10, 0x1f ;                    /* 0x00001f0a7d7f7589 */
+        /*1670*/                   SHFL.IDX PT, R30, R11, RZ, 0x1f ;                       /* 0x00001fff0b1e7589 */
+        /*5d70*/                   SHFL.IDX PT, R30, R11, R10, R7 ;                        /* 0x0000000a0b1e7389 */
+        /*5dd0*/                   SHFL.UP PT, R3, R11, R4, R3 ;                           /* 0x040000040b037389 */
+
+Function: _ZN7cutlass6KernelINS_4gemm6kernel18OpFusedGemmGroupedINS1_11threadblock12MmaPipelinedINS1_9GemmShapeILi32ELi128ELi32EEENS_9transform11threadblock22PredicatedTileIteratorINS_11MatrixShapeILi32ELi32EEENS_6half_tENS_6layout8RowMajorELi1ENS8_29PitchLinearWarpRakedThreadMapINS_16PitchLinearShapeILi32ELi32EEELi64ENSH_ILi4ELi8EEELi8EEELi8ELb0ENSE_9NoPermuteEEENS9_19RegularTileIteratorISC_SD_NSE_37RowMajorTensorOpMultiplicandCrosswiseILi16ELi32EEELi0ESK_Li16EEENSA_INSB_ILi32ELi128EEESD_SF_Li0ENSG_INSH_ILi128ELi32EEELi64ENSH_ILi8ELi4EEELi8EEELi8ELb0ESL_EENSN_ISR_SD_NSE_37RowMajorTensorOpMultiplicandCongruousILi16ELi64EEELi0ESU_Li16EEEfSF_NS4_9MmaPolicyINS1_4warp11MmaTensorOpINS6_ILi32ELi64ELi32EEESD_SP_SD_SX_fSF_NS10_17MmaTensorOpPolicyINS_4arch3MmaINS6_ILi16ELi8ELi8EEELi32ESD_SF_SD_NSE_11ColumnMajorEfSF_NS14_13OpMultiplyAddEEENSB_ILi1ELi1EEEEELi1ELb0EbEENSB_ILi0ELi0EEES1D_Li1EEENS_21NumericArrayConverterISD_SD_Li16ELNS_15FloatRoundStyleE2ENS8_6thread14UnaryTransform8IdentityEEENS1F_ISD_SD_Li64ELS1G_2ES1J_EEbEENS_8epilogue11threadblock8EpilogueIS7_S1C_Li1ENS1O_22PredicatedTileIteratorINS1O_26OutputTileOptimalThreadMapINS1O_15OutputTileShapeILi128ELi8ELi1ELi1ELi1EEENS1S_ILi1ELi4ELi1ELi1ELi4EEELi64ELi8ELi16EEESD_Lb0ESL_Lb0EEENS1N_4warp24FragmentIteratorTensorOpIS12_S16_fNS_5ArrayIfLi4ELb1EEESF_EENS1X_25TileIteratorTensorOpMixedIS12_S16_fLi32ELi16ELi8ELi8ELb0EEENS1O_23SharedLoadIteratorMixedINS1V_18CompactedThreadMapEfLi32ELi16ELi8ELi8ELb0EEENS1N_6thread17LinearCombinationISD_Li8EffLNS27_9ScaleType4KindE0ELS1G_2ESD_EENSB_ILi0ELi8EEELi2ELi1EEENS4_37GemmBatchedIdentityThreadblockSwizzleELNS2_17GroupScheduleModeE0ENS2_16Q1MinimalVisitorIS7_Li64EEELb0EEEEEvNT_6ParamsE
+	.headerflags	@"EF_CUDA_TEXMODE_UNIFIED EF_CUDA_64BIT_ADDRESS EF_CUDA_SM75 EF_CUDA_VIRTUAL_SM(EF_CUDA_SM75)"
+        /*0000*/                   MOV R1, c[0x0][0x28] ;                                  /* 0x00000a0000017a02 */
+                                                                                           /* 0x000fc40000000f00 */
+        /*0010*/                   S2R R140, SR_TID.X ;                                    /* 0x00000000008c7919 */
+                                                                                           /* 0x000e220000002100 */
+        /*0020*/                   IMAD.MOV.U32 R143, RZ, RZ, RZ ;                         /* 0x000000ffff8f7224 */
+                                                                                           /* 0x000fe400078e00ff */
+        /*0030*/                   IMAD.MOV.U32 R142, RZ, RZ, -0x20 ;                      /* 0xffffffe0ff8e7424 */
+                                                                                           /* 0x000fe200078e00ff */
+        /*0040*/                   S2UR UR5, SR_CTAID.X ;                                  /* 0x00000000000579c3 */
+                                                                                           /* 0x000e620000002500 */
+        /*0050*/                   IMAD.MOV.U32 R141, RZ, RZ, RZ ;                         /* 0x000000ffff8d7224 */
+                                                                                           /* 0x000fe200078e00ff */
+        /*0060*/                   SHF.R.S32.HI R3, RZ, 0x1f, R140 ;                       /* 0x0000001fff037819 */
+                                                                                           /* 0x001fc8000001148c */
+        /*0070*/                   LEA.HI R0, R3.reuse, R140.reuse, RZ, 0x5 ;              /* 0x0000008c03007211 */
+                                                                                           /* 0x0c0fe400078f28ff */
+        /*0080*/                   LEA.HI R10, R3, R140, RZ, 0x6 ;                         /* 0x0000008c030a7211 */
+                                                                                           /* 0x000fe400078f30ff */
+        /*0090*/                   LOP3.LUT R5, R0, 0xffffffe0, RZ, 0xc0, !PT ;            /* 0xffffffe000057812 */
+                                                                                           /* 0x000fe400078ec0ff */
+        /*00a0*/                   SHF.R.S32.HI R3, RZ, 0x5, R0 ;                          /* 0x00000005ff037819 */
+                                                                                           /* 0x000fe40000011400 */
+        /*00b0*/                   SHF.R.S32.HI R10, RZ, 0x6, R10 ;                        /* 0x00000006ff0a7819 */
+                                                                                           /* 0x000fe2000001140a */
+        /*00c0*/                   IMAD.IADD R2, R140, 0x1, -R5 ;                          /* 0x000000018c027824 */
+                                                                                           /* 0x000fe200078e0a05 */
+        /*00d0*/                   LEA.HI R0, R0, R3, RZ, 0x1 ;                            /* 0x0000000300007211 */
+                                                                                           /* 0x000fe200078f08ff */
+        /*00e0*/                   IMAD.SHL.U32 R4, R3, 0x10, RZ ;                         /* 0x0000001003047824 */
+                                                                                           /* 0x000fc400078e00ff */
+        /*00f0*/                   IMAD.SHL.U32 R155, R10, 0x20, RZ ;                      /* 0x000000200a9b7824 */
+                                                                                           /* 0x000fe200078e00ff */
+        /*0100*/                   SHF.R.S32.HI R157, RZ, 0x1f, R2 ;                       /* 0x0000001fff9d7819 */
+                                                                                           /* 0x000fe40000011402 */
+        /*0110*/                   LOP3.LUT R0, R0, 0x3ffffffe, RZ, 0xc0, !PT ;            /* 0x3ffffffe00007812 */
+                                                                                           /* 0x000fe400078ec0ff */
+        /*0120*/                   LEA.HI R6, R157.reuse, R2.reuse, RZ, 0x4 ;              /* 0x000000029d067211 */
+                                                                                           /* 0x0c0fe400078f20ff */
+        /*0130*/                   LEA.HI R5, R157, R2, RZ, 0x2 ;                          /* 0x000000029d057211 */
+                                                                                           /* 0x000fe200078f10ff */
+        /*0140*/                   IMAD.IADD R0, R3, 0x1, -R0 ;                            /* 0x0000000103007824 */
+                                                                                           /* 0x000fe200078e0a00 */
+        /*0150*/                   LEA.HI.SX32 R155, R6, R155, 0x1c ;                      /* 0x0000009b069b7211 */
+                                                                                           /* 0x000fe400078fe2ff */
+        /*0160*/                   LEA.HI.SX32 R154, R5, R4, 0x1e ;                        /* 0x00000004059a7211 */
+                                                                                           /* 0x000fc400078ff2ff */
+        /*0170*/                   LEA.HI R157, R157, R2, RZ, 0x3 ;                        /* 0x000000029d9d7211 */
+Selected SHFL instructions:
+        /*08a0*/                   SHFL.IDX PT, R0, R141, R0, 0x1f ;                       /* 0x00001f008d007589 */
+        /*08e0*/                   SHFL.IDX PT, R49, R141, 0x1f, 0x1f ;                    /* 0x03e01f008d317f89 */
+        /*0b20*/                   SHFL.UP PT, R0, R15, 0x1, RZ ;                          /* 0x042000000f007989 */
+        /*0b50*/                   SHFL.UP PT, R2, R5, 0x2, RZ ;                           /* 0x0440000005027989 */
+        /*0b80*/                   SHFL.UP PT, R3, R2, 0x4, RZ ;                           /* 0x0480000002037989 */
+        /*0bb0*/                   SHFL.UP PT, R0, R3, 0x8, RZ ;                           /* 0x0500000003007989 */
+        /*0be0*/                   SHFL.UP PT, R15, R0, 0x10, RZ ;                         /* 0x06000000000f7989 */
+        /*0c10*/                   SHFL.IDX PT, R49, R15, 0x1f, 0x1f ;                     /* 0x03e01f000f317f89 */
+        /*0d70*/                   SHFL.IDX PT, R143, R141, R16, 0x1f ;                    /* 0x00001f108d8f7589 */
+        /*1710*/                   SHFL.IDX PT, R49, R15, RZ, 0x1f ;                       /* 0x00001fff0f317589 */
+        /*61d0*/                   SHFL.IDX PT, R49, R15, R16, R11 ;                       /* 0x000000100f317389 */
+        /*6220*/                   SHFL.UP PT, R3, R15, R4, R3 ;                           /* 0x040000040f037389 */
+
+Function: _ZN7cutlass6KernelINS_4gemm6kernel18OpFusedGemmGroupedINS1_11threadblock12MmaPipelinedINS1_9GemmShapeILi32ELi128ELi32EEENS_9transform11threadblock22PredicatedTileIteratorINS_11MatrixShapeILi32ELi32EEENS_6half_tENS_6layout8RowMajorELi1ENS8_29PitchLinearWarpRakedThreadMapINS_16PitchLinearShapeILi32ELi32EEELi64ENSH_ILi4ELi8EEELi8EEELi8ELb0ENSE_9NoPermuteEEENS9_19RegularTileIteratorISC_SD_NSE_37RowMajorTensorOpMultiplicandCrosswiseILi16ELi32EEELi0ESK_Li16EEENSA_INSB_ILi32ELi128EEESD_SF_Li0ENSG_INSH_ILi128ELi32EEELi64ENSH_ILi8ELi4EEELi8EEELi8ELb0ESL_EENSN_ISR_SD_NSE_37RowMajorTensorOpMultiplicandCongruousILi16ELi64EEELi0ESU_Li16EEEfSF_NS4_9MmaPolicyINS1_4warp11MmaTensorOpINS6_ILi32ELi64ELi32EEESD_SP_SD_SX_fSF_NS10_17MmaTensorOpPolicyINS_4arch3MmaINS6_ILi16ELi8ELi8EEELi32ESD_SF_SD_NSE_11ColumnMajorEfSF_NS14_13OpMultiplyAddEEENSB_ILi1ELi1EEEEELi1ELb0EbEENSB_ILi0ELi0EEES1D_Li1EEENS_21NumericArrayConverterISD_SD_Li16ELNS_15FloatRoundStyleE2ENS8_6thread14UnaryTransform8IdentityEEENS1F_ISD_SD_Li64ELS1G_2ES1J_EEbEENS_8epilogue11threadblock8EpilogueIS7_S1C_Li1ENS1O_22PredicatedTileIteratorINS1O_26OutputTileOptimalThreadMapINS1O_15OutputTileShapeILi128ELi8ELi1ELi1ELi1EEENS1S_ILi1ELi4ELi1ELi1ELi4EEELi64ELi8ELi16EEESD_Lb0ESL_Lb0EEENS1N_4warp24FragmentIteratorTensorOpIS12_S16_fNS_5ArrayIfLi4ELb1EEESF_EENS1X_25TileIteratorTensorOpMixedIS12_S16_fLi32ELi16ELi8ELi8ELb0EEENS1O_23SharedLoadIteratorMixedINS1V_18CompactedThreadMapEfLi32ELi16ELi8ELi8ELb0EEENS1N_6thread17LinearCombinationISD_Li8EffLNS27_9ScaleType4KindE0ELS1G_2ESD_EENSB_ILi0ELi8EEELi2ELi1EEENS4_37GemmBatchedIdentityThreadblockSwizzleELNS2_17GroupScheduleModeE0ENS2_15OpPacketVisitorINS2_6detail28GemmGroupedProblemSizeHelperIS7_Lb0EEES7_Li64ELi64ELb1EEELb0EEEEEvNT_6ParamsE
+	.headerflags	@"EF_CUDA_TEXMODE_UNIFIED EF_CUDA_64BIT_ADDRESS EF_CUDA_SM75 EF_CUDA_VIRTUAL_SM(EF_CUDA_SM75)"
+        /*0000*/                   MOV R1, c[0x0][0x28] ;                                  /* 0x00000a0000017a02 */
+                                                                                           /* 0x000fc40000000f00 */
+        /*0010*/                   ISETP.NE.U32.AND P0, PT, RZ, c[0x0][0x188], PT ;        /* 0x00006200ff007a0c */
+                                                                                           /* 0x000fc80003f05070 */
+        /*0020*/                   ISETP.NE.AND.EX P0, PT, RZ, c[0x0][0x18c], PT, P0 ;     /* 0x00006300ff007a0c */
+                                                                                           /* 0x000fd80003f05300 */
+        /*0030*/              @!P0 BRA 0x70 ;                                              /* 0x0000003000008947 */
+                                                                                           /* 0x000fea0003800000 */
+        /*0040*/                   ULDC.64 UR4, c[0x0][0x188] ;                            /* 0x0000620000047ab9 */
+                                                                                           /* 0x000fe40000000a00 */
+        /*0050*/                   LDG.E.SYS R161, [UR4] ;                                 /* 0x00000004ffa17981 */
+                                                                                           /* 0x000f22000c1ee900 */
+        /*0060*/                   BRA 0x700 ;                                             /* 0x0000069000007947 */
+                                                                                           /* 0x000fea0003800000 */
+        /*0070*/                   S2R R14, SR_TID.X ;                                     /* 0x00000000000e7919 */
+                                                                                           /* 0x000e220000002100 */
+        /*0080*/                   BMOV.32.CLEAR RZ, B1 ;                                  /* 0x0000000001ff7355 */
+                                                                                           /* 0x000fe20000100000 */
+        /*0090*/                   BSSY B1, 0x650 ;                                        /* 0x000005b000017945 */
+                                                                                           /* 0x000fe20003800000 */
+        /*00a0*/                   IMAD.MOV.U32 R11, RZ, RZ, RZ ;                          /* 0x000000ffff0b7224 */
+                                                                                           /* 0x000fe200078e00ff */
+        /*00b0*/                   LOP3.LUT R14, R14, 0x1f, RZ, 0xc0, !PT ;                /* 0x0000001f0e0e7812 */
+                                                                                           /* 0x001fc800078ec0ff */
+        /*00c0*/                   ISETP.GE.AND P0, PT, R14, c[0x0][0x168], PT ;           /* 0x00005a000e007a0c */
+                                                                                           /* 0x000fd80003f06270 */
+        /*00d0*/               @P0 BRA 0x640 ;                                             /* 0x0000056000000947 */
+                                                                                           /* 0x000fea0003800000 */
+        /*00e0*/                   LOP3.LUT R3, R14, 0x20, RZ, 0xfc, !PT ;                 /* 0x000000200e037812 */
+                                                                                           /* 0x000fe200078efcff */
+        /*00f0*/                   BMOV.32.CLEAR RZ, B0 ;                                  /* 0x0000000000ff7355 */
+                                                                                           /* 0x000fe20000100000 */
+        /*0100*/                   LOP3.LUT R0, RZ, R14, RZ, 0x33, !PT ;                   /* 0x0000000eff007212 */
+                                                                                           /* 0x000fe200078e33ff */
+        /*0110*/                   BSSY B0, 0x4d0 ;                                        /* 0x000003b000007945 */
+                                                                                           /* 0x000fe20003800000 */
+        /*0120*/                   IMNMX R3, R3, c[0x0][0x168], !PT ;                      /* 0x00005a0003037a17 */
+                                                                                           /* 0x000fe20007800200 */
+        /*0130*/                   IMAD.MOV.U32 R11, RZ, RZ, RZ ;                          /* 0x000000ffff0b7224 */
+                                                                                           /* 0x000fc800078e00ff */
+        /*0140*/                   IMAD.IADD R0, R3, 0x1, R0 ;                             /* 0x0000000103007824 */
+                                                                                           /* 0x000fca00078e0200 */
+        /*0150*/                   ISETP.GE.U32.AND P0, PT, R0.reuse, 0x60, PT ;           /* 0x000000600000780c */
+                                                                                           /* 0x040fe40003f06070 */
+        /*0160*/                   LEA.HI R12, R0, 0x1, RZ, 0x1b ;                         /* 0x00000001000c7811 */
+                                                                                           /* 0x000fc800078fd8ff */
+        /*0170*/                   LOP3.LUT R13, R12, 0x3, RZ, 0xc0, !PT ;                 /* 0x000000030c0d7812 */
+Selected SHFL instructions:
+        /*0650*/                   SHFL.DOWN PT, R4, R11, 0x10, 0x1f ;                     /* 0x0a001f000b047f89 */
+        /*0670*/                   SHFL.DOWN PT, R5, R4, 0x8, 0x1f ;                       /* 0x09001f0004057f89 */
+        /*0690*/                   SHFL.DOWN PT, R2, R5, 0x4, 0x1f ;                       /* 0x08801f0005027f89 */
+        /*06b0*/                   SHFL.DOWN PT, R3, R2, 0x2, 0x1f ;                       /* 0x08401f0002037f89 */
+        /*06d0*/                   SHFL.DOWN PT, R0, R3, 0x1, 0x1f ;                       /* 0x08201f0003007f89 */
+        /*06f0*/                   SHFL.IDX PT, R161, R0, RZ, 0x1f ;                       /* 0x00001fff00a17589 */
+        /*0fd0*/                   SHFL.IDX PT, R14, R142, R15, 0x1f ;                     /* 0x00001f0f8e0e7589 */
+        /*1010*/                   SHFL.IDX PT, R14, R142, 0x1f, 0x1f ;                    /* 0x03e01f008e0e7f89 */
+        /*1890*/                   SHFL.UP PT, R3, R0, 0x1, RZ ;                           /* 0x0420000000037989 */
+        /*18c0*/                   SHFL.UP PT, R5, R4, 0x2, RZ ;                           /* 0x0440000004057989 */
+        /*18f0*/                   SHFL.UP PT, R2, R5, 0x4, RZ ;                           /* 0x0480000005027989 */
+        /*1920*/                   SHFL.UP PT, R3, R2, 0x8, RZ ;                           /* 0x0500000002037989 */
+        /*1950*/                   SHFL.UP PT, R16, R3, 0x10, RZ ;                         /* 0x0600000003107989 */
+        /*1980*/                   SHFL.IDX PT, R14, R16, 0x1f, 0x1f ;                     /* 0x03e01f00100e7f89 */
+        /*1ae0*/                   SHFL.IDX PT, R146, R142, R15, 0x1f ;                    /* 0x00001f0f8e927589 */
+        /*2a10*/                   SHFL.IDX PT, R2, R16, RZ, 0x1f ;                        /* 0x00001fff10027589 */
+        /*7bc0*/                   SHFL.IDX PT, R14, R16, R15, R14 ;                       /* 0x0000000f100e7389 */
+        /*7c00*/                   SHFL.UP PT, R3, R16, R6, R3 ;                           /* 0x0400000610037389 */
+
+Function: _ZN7cutlass6KernelINS_4gemm6kernel18OpFusedGemmGroupedINS1_11threadblock12MmaPipelinedINS1_9GemmShapeILi32ELi128ELi32EEENS_9transform11threadblock22PredicatedTileIteratorINS_11MatrixShapeILi32ELi32EEENS_6half_tENS_6layout8RowMajorELi1ENS8_29PitchLinearWarpRakedThreadMapINS_16PitchLinearShapeILi32ELi32EEELi64ENSH_ILi4ELi8EEELi8EEELi8ELb0ENSE_9NoPermuteEEENS9_19RegularTileIteratorISC_SD_NSE_37RowMajorTensorOpMultiplicandCrosswiseILi16ELi32EEELi0ESK_Li16EEENSA_INSB_ILi32ELi128EEESD_SF_Li0ENSG_INSH_ILi128ELi32EEELi64ENSH_ILi8ELi4EEELi8EEELi8ELb0ESL_EENSN_ISR_SD_NSE_37RowMajorTensorOpMultiplicandCongruousILi16ELi64EEELi0ESU_Li16EEEfSF_NS4_9MmaPolicyINS1_4warp11MmaTensorOpINS6_ILi32ELi64ELi32EEESD_SP_SD_SX_fSF_NS10_17MmaTensorOpPolicyINS_4arch3MmaINS6_ILi16ELi8ELi8EEELi32ESD_SF_SD_NSE_11ColumnMajorEfSF_NS14_13OpMultiplyAddEEENSB_ILi1ELi1EEEEELi1ELb0EbEENSB_ILi0ELi0EEES1D_Li1EEENS_21NumericArrayConverterISD_SD_Li16ELNS_15FloatRoundStyleE2ENS8_6thread14UnaryTransform8IdentityEEENS1F_ISD_SD_Li64ELS1G_2ES1J_EEbEENS_8epilogue11threadblock8EpilogueIS7_S1C_Li1ENS1O_22PredicatedTileIteratorINS1O_26OutputTileOptimalThreadMapINS1O_15OutputTileShapeILi128ELi8ELi1ELi1ELi1EEENS1S_ILi1ELi4ELi1ELi1ELi4EEELi64ELi8ELi16EEESD_Lb0ESL_Lb0EEENS1N_4warp24FragmentIteratorTensorOpIS12_S16_fNS_5ArrayIfLi4ELb1EEESF_EENS1X_25TileIteratorTensorOpMixedIS12_S16_fLi32ELi16ELi8ELi8ELb0EEENS1O_23SharedLoadIteratorMixedINS1V_18CompactedThreadMapEfLi32ELi16ELi8ELi8ELb0EEENS1N_6thread17LinearCombinationISD_Li8EffLNS27_9ScaleType4KindE0ELS1G_2ESD_EENSB_ILi0ELi8EEELi2ELi1EEENS4_37GemmBatchedIdentityThreadblockSwizzleELNS2_17GroupScheduleModeE0ENS2_15OpPacketVisitorINS2_6detail28GemmGroupedProblemSizeHelperIS7_Lb0EEES7_Li64ELi64ELb0EEELb0EEEEEvNT_6ParamsE
+	.headerflags	@"EF_CUDA_TEXMODE_UNIFIED EF_CUDA_64BIT_ADDRESS EF_CUDA_SM75 EF_CUDA_VIRTUAL_SM(EF_CUDA_SM75)"
+        /*0000*/                   MOV R1, c[0x0][0x28] ;                                  /* 0x00000a0000017a02 */
+                                                                                           /* 0x000fc40000000f00 */
+        /*0010*/                   S2R R140, SR_TID.X ;                                    /* 0x00000000008c7919 */
+                                                                                           /* 0x000e220000002100 */
+        /*0020*/                   IMAD.MOV.U32 R144, RZ, RZ, RZ ;                         /* 0x000000ffff907224 */
+                                                                                           /* 0x000fe400078e00ff */
+        /*0030*/                   IMAD.MOV.U32 R143, RZ, RZ, -0x20 ;                      /* 0xffffffe0ff8f7424 */
+                                                                                           /* 0x000fe200078e00ff */
+        /*0040*/                   S2UR UR4, SR_CTAID.X ;                                  /* 0x00000000000479c3 */
+                                                                                           /* 0x000e620000002500 */
+        /*0050*/                   IMAD.MOV.U32 R142, RZ, RZ, RZ ;                         /* 0x000000ffff8e7224 */
+                                                                                           /* 0x000fe400078e00ff */
+        /*0060*/                   IMAD.MOV.U32 R141, RZ, RZ, RZ ;                         /* 0x000000ffff8d7224 */
+                                                                                           /* 0x000fe200078e00ff */
+        /*0070*/                   SHF.R.S32.HI R5, RZ, 0x1f, R140 ;                       /* 0x0000001fff057819 */
+                                                                                           /* 0x001fc8000001148c */
+        /*0080*/                   LEA.HI R7, R5.reuse, R140.reuse, RZ, 0x5 ;              /* 0x0000008c05077211 */
+                                                                                           /* 0x0c0fe200078f28ff */
+        /*0090*/                   IMAD.U32 R145, RZ, RZ, UR4 ;                            /* 0x00000004ff917e24 */
+                                                                                           /* 0x002fe2000f8e00ff */
+        /*00a0*/                   LEA.HI R8, R5, R140, RZ, 0x6 ;                          /* 0x0000008c05087211 */
+                                                                                           /* 0x000fe400078f30ff */
+        /*00b0*/                   LOP3.LUT R3, R7.reuse, 0xffffffe0, RZ, 0xc0, !PT ;      /* 0xffffffe007037812 */
+                                                                                           /* 0x040fe400078ec0ff */
+        /*00c0*/                   SHF.R.S32.HI R156, RZ, 0x5, R7 ;                        /* 0x00000005ff9c7819 */
+                                                                                           /* 0x000fe40000011407 */
+        /*00d0*/                   SHF.R.S32.HI R8, RZ, 0x6, R8 ;                          /* 0x00000006ff087819 */
+                                                                                           /* 0x000fe20000011408 */
+        /*00e0*/                   IMAD.IADD R4, R140, 0x1, -R3 ;                          /* 0x000000018c047824 */
+                                                                                           /* 0x000fe200078e0a03 */
+        /*00f0*/                   LEA.HI R7, R7, R156, RZ, 0x1 ;                          /* 0x0000009c07077211 */
+                                                                                           /* 0x000fc600078f08ff */
+        /*0100*/                   IMAD.SHL.U32 R2, R8, 0x20, RZ ;                         /* 0x0000002008027824 */
+                                                                                           /* 0x000fe200078e00ff */
+        /*0110*/                   LOP3.LUT R7, R7, 0x3ffffffe, RZ, 0xc0, !PT ;            /* 0x3ffffffe07077812 */
+                                                                                           /* 0x000fe400078ec0ff */
+        /*0120*/                   SHF.R.S32.HI R3, RZ, 0x1f, R4 ;                         /* 0x0000001fff037819 */
+                                                                                           /* 0x000fc60000011404 */
+        /*0130*/                   IMAD.IADD R0, R156.reuse, 0x1, -R7 ;                    /* 0x000000019c007824 */
+                                                                                           /* 0x040fe200078e0a07 */
+        /*0140*/                   LEA.HI R5, R3.reuse, R4.reuse, RZ, 0x4 ;                /* 0x0000000403057211 */
+                                                                                           /* 0x0c0fe200078f20ff */
+        /*0150*/                   IMAD.SHL.U32 R156, R156, 0x10, RZ ;                     /* 0x000000109c9c7824 */
+                                                                                           /* 0x000fe200078e00ff */
+        /*0160*/                   LEA.HI R159, R3, R4, RZ, 0x3 ;                          /* 0x00000004039f7211 */
+                                                                                           /* 0x000fe400078f18ff */
+        /*0170*/                   LEA.HI.SX32 R157, R5, R2, 0x1c ;                        /* 0x00000002059d7211 */
+Selected SHFL instructions:
+        /*08f0*/                   SHFL.IDX PT, R49, R141, R16, 0x1f ;                     /* 0x00001f108d317589 */
+        /*0930*/                   SHFL.IDX PT, R49, R141, 0x1f, 0x1f ;                    /* 0x03e01f008d317f89 */
+        /*0e00*/                   SHFL.UP PT, R5, R0, 0x1, RZ ;                           /* 0x0420000000057989 */
+        /*0e30*/                   SHFL.UP PT, R4, R5, 0x2, RZ ;                           /* 0x0440000005047989 */
+        /*0e60*/                   SHFL.UP PT, R3, R4, 0x4, RZ ;                           /* 0x0480000004037989 */
+        /*0e90*/                   SHFL.UP PT, R2, R3, 0x8, RZ ;                           /* 0x0500000003027989 */
+        /*0ec0*/                   SHFL.UP PT, R15, R0, 0x10, RZ ;                         /* 0x06000000000f7989 */
+        /*0ef0*/                   SHFL.IDX PT, R49, R15, 0x1f, 0x1f ;                     /* 0x03e01f000f317f89 */
+        /*1050*/                   SHFL.IDX PT, R144, R141, R16, 0x1f ;                    /* 0x00001f108d907589 */
+        /*1c00*/                   SHFL.IDX PT, R49, R15, RZ, 0x1f ;                       /* 0x00001fff0f317589 */
+        /*6ba0*/                   SHFL.IDX PT, R49, R15, R16, R13 ;                       /* 0x000000100f317389 */
+        /*6be0*/                   SHFL.UP PT, R3, R15, R6, R3 ;                           /* 0x040000060f037389 */

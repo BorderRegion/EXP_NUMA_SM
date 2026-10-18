@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T05:26:34.029393+00:00",
+  "images": {
+    "01_aa_noise.png": "a1c914981f724fbdd637ec4b07f0f47521809521059d7bc48d4035b03f87aafc",
+    "02_margin_scale.png": "400f60dd5f6d56789d65353f16a25b9308f95cd410dc5ae723db7d03198a18e7",
+    "03_actual_deployment.png": "e0bf521924a6086195776fceca5668f4678cd6e199167641d0172934b979cc50",
+    "04_action_matrix.png": "ad21a3aca003b98026aa9fd6e623e1a50902740fb9f729aad25156ffebc25665",
+    "05_pc_direction.png": "14c074d7a3be8eff52c6ff90e485891753faebd7eb541f901e20465367651fc9",
+    "06_lifecycle.png": "7ecad00996cb8ffca305105fd56df45316778df94dfbf99dadeb96d1b5d8243b",
+    "07_card_residual.png": "a70ef529980c55ec52ed3f7f15c7a97f621ed56ed75b22a762bd2fd1c674c865"
+  },
+  "checks": [
+    "All seven PNGs visually inspected",
+    "A/A figure shows both S1 and failed S4 stability",
+    "Process colors consistent across histories",
+    "Risk legend moved outside data area",
+    "Primary/exploratory intervals labeled",
+    "Unmeasured action rows remain gray",
+    "Lifecycle estimated horizons and confidence bands labeled",
+    "Card color scale spans full observed residual range"
+  ],
+  "scope": "Scientific plots generated with matplotlib; source data not edited."
+}

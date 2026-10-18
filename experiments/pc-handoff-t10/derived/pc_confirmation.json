@@ -1,0 +1,830 @@
+[
+  {
+    "block": 0,
+    "role": "development",
+    "metric": "gpu_us",
+    "case_count": 6,
+    "gain_percent": 0.27059699778722024,
+    "case_slot_log_ratios": [
+      {
+        "case": "G001",
+        "workspace": 0,
+        "log_ratio": -0.0038200642318013678
+      },
+      {
+        "case": "G001",
+        "workspace": 1,
+        "log_ratio": -0.011209413995174167
+      },
+      {
+        "case": "G016",
+        "workspace": 0,
+        "log_ratio": -0.005944983120281577
+      },
+      {
+        "case": "G016",
+        "workspace": 1,
+        "log_ratio": -0.009170712577852846
+      },
+      {
+        "case": "G025",
+        "workspace": 0,
+        "log_ratio": 0.012881973218093812
+      },
+      {
+        "case": "G025",
+        "workspace": 1,
+        "log_ratio": 0.0025641816483972235
+      },
+      {
+        "case": "G034",
+        "workspace": 0,
+        "log_ratio": -0.0016317008672892541
+      },
+      {
+        "case": "G034",
+        "workspace": 1,
+        "log_ratio": -0.002374023720285834
+      },
+      {
+        "case": "G043",
+        "workspace": 0,
+        "log_ratio": -0.0038870843703753266
+      },
+      {
+        "case": "G043",
+        "workspace": 1,
+        "log_ratio": 0.002168243156346783
+      },
+      {
+        "case": "G046",
+        "workspace": 0,
+        "log_ratio": -0.005958635257545808
+      },
+      {
+        "case": "G046",
+        "workspace": 1,
+        "log_ratio": -0.006133432674429784
+      }
+    ]
+  },
+  {
+    "block": 1,
+    "role": "development",
+    "metric": "gpu_us",
+    "case_count": 6,
+    "gain_percent": 0.6472011684850565,
+    "case_slot_log_ratios": [
+      {
+        "case": "G001",
+        "workspace": 0,
+        "log_ratio": 0.002946271082314489
+      },
+      {
+        "case": "G001",
+        "workspace": 1,
+        "log_ratio": -0.02537603692646151
+      },
+      {
+        "case": "G016",
+        "workspace": 0,
+        "log_ratio": -0.0065344905867457115
+      },
+      {
+        "case": "G016",
+        "workspace": 1,
+        "log_ratio": -0.0022696873705427834
+      },
+      {
+        "case": "G025",
+        "workspace": 0,
+        "log_ratio": -0.019289638117010455
+      },
+      {
+        "case": "G025",
+        "workspace": 1,
+        "log_ratio": -0.04012883537274803
+      },
+      {
+        "case": "G034",
+        "workspace": 0,
+        "log_ratio": 0.002173269291457558
+      },
+      {
+        "case": "G034",
+        "workspace": 1,
+        "log_ratio": -0.0035131284937044427
+      },
+      {
+        "case": "G043",
+        "workspace": 0,
+        "log_ratio": 0.005745716170155291
+      },
+      {
+        "case": "G043",
+        "workspace": 1,
+        "log_ratio": -0.008160138387795612
+      },
+      {
+        "case": "G046",
+        "workspace": 0,
+        "log_ratio": 0.00019946623268918273
+      },
+      {
+        "case": "G046",
+        "workspace": 1,
+        "log_ratio": 0.01629068098680797
+      }
+    ]
+  },
+  {
+    "block": 2,
+    "role": "confirmation",
+    "metric": "gpu_us",
+    "case_count": 6,
+    "gain_percent": 0.04449045667015428,
+    "case_slot_log_ratios": [
+      {
+        "case": "G001",
+        "workspace": 0,
+        "log_ratio": -0.014162536739583231
+      },
+      {
+        "case": "G001",
+        "workspace": 1,
+        "log_ratio": -0.02289674772081618
+      },
+      {
+        "case": "G016",
+        "workspace": 0,
+        "log_ratio": -0.005468715028830395
+      },
+      {
+        "case": "G016",
+        "workspace": 1,
+        "log_ratio": -0.008592591774737812
+      },
+      {
+        "case": "G025",
+        "workspace": 0,
+        "log_ratio": 0.0017904238058346067
+      },
+      {
+        "case": "G025",
+        "workspace": 1,
+        "log_ratio": 0.0035880497761411334
+      },
+      {
+        "case": "G034",
+        "workspace": 0,
+        "log_ratio": -0.00033663065269529113
+      },
+      {
+        "case": "G034",
+        "workspace": 1,
+        "log_ratio": -0.000639634795971844
+      },
+      {
+        "case": "G043",
+        "workspace": 0,
+        "log_ratio": -0.007884391430668991
+      },
+      {
+        "case": "G043",
+        "workspace": 1,
+        "log_ratio": 0.03096082325151528
+      },
+      {
+        "case": "G046",
+        "workspace": 0,
+        "log_ratio": 0.007617818850997438
+      },
+      {
+        "case": "G046",
+        "workspace": 1,
+        "log_ratio": 0.01068408966558021
+      }
+    ]
+  },
+  {
+    "block": 3,
+    "role": "confirmation",
+    "metric": "gpu_us",
+    "case_count": 6,
+    "gain_percent": 0.6511515174686955,
+    "case_slot_log_ratios": [
+      {
+        "case": "G001",
+        "workspace": 0,
+        "log_ratio": -0.014166491006162296
+      },
+      {
+        "case": "G001",
+        "workspace": 1,
+        "log_ratio": -0.008590307019860077
+      },
+      {
+        "case": "G016",
+        "workspace": 0,
+        "log_ratio": 0.0021099891823208594
+      },
+      {
+        "case": "G016",
+        "workspace": 1,
+        "log_ratio": -0.0023401508804541393
+      },
+      {
+        "case": "G025",
+        "workspace": 0,
+        "log_ratio": -0.011171498844086969
+      },
+      {
+        "case": "G025",
+        "workspace": 1,
+        "log_ratio": -0.021370196193680968
+      },
+      {
+        "case": "G034",
+        "workspace": 0,
+        "log_ratio": 0.0018001726924232742
+      },
+      {
+        "case": "G034",
+        "workspace": 1,
+        "log_ratio": -0.0038588738243205967
+      },
+      {
+        "case": "G043",
+        "workspace": 0,
+        "log_ratio": -0.0026330232688946964
+      },
+      {
+        "case": "G043",
+        "workspace": 1,
+        "log_ratio": 0.011540829115364915
+      },
+      {
+        "case": "G046",
+        "workspace": 0,
+        "log_ratio": -0.014318239760725326
+      },
+      {
+        "case": "G046",
+        "workspace": 1,
+        "log_ratio": -0.01539590103741606
+      }
+    ]
+  },
+  {
+    "block": 0,
+    "role": "development",
+    "metric": "batch_per_replay_us",
+    "case_count": 6,
+    "gain_percent": 0.206564802232434,
+    "case_slot_log_ratios": [
+      {
+        "case": "G001",
+        "workspace": 0,
+        "log_ratio": -0.0035484752260179775
+      },
+      {
+        "case": "G001",
+        "workspace": 1,
+        "log_ratio": -0.009280778143806678
+      },
+      {
+        "case": "G016",
+        "workspace": 0,
+        "log_ratio": -0.002233622688349257
+      },
+      {
+        "case": "G016",
+        "workspace": 1,
+        "log_ratio": -0.0053431387143323406
+      },
+      {
+        "case": "G025",
+        "workspace": 0,
+        "log_ratio": 0.01371280884395798
+      },
+      {
+        "case": "G025",
+        "workspace": 1,
+        "log_ratio": -0.0009602038795346601
+      },
+      {
+        "case": "G034",
+        "workspace": 0,
+        "log_ratio": -0.0009580907376847136
+      },
+      {
+        "case": "G034",
+        "workspace": 1,
+        "log_ratio": -0.002316642589372364
+      },
+      {
+        "case": "G043",
+        "workspace": 0,
+        "log_ratio": -0.002161747117116697
+      },
+      {
+        "case": "G043",
+        "workspace": 1,
+        "log_ratio": 0.0022550403141856634
+      },
+      {
+        "case": "G046",
+        "workspace": 0,
+        "log_ratio": -0.008378209001920212
+      },
+      {
+        "case": "G046",
+        "workspace": 1,
+        "log_ratio": -0.005600354048791445
+      }
+    ]
+  },
+  {
+    "block": 1,
+    "role": "development",
+    "metric": "batch_per_replay_us",
+    "case_count": 6,
+    "gain_percent": 0.848519444604845,
+    "case_slot_log_ratios": [
+      {
+        "case": "G001",
+        "workspace": 0,
+        "log_ratio": -0.02017198001423992
+      },
+      {
+        "case": "G001",
+        "workspace": 1,
+        "log_ratio": -0.020010907536900824
+      },
+      {
+        "case": "G016",
+        "workspace": 0,
+        "log_ratio": 0.0002558392419045319
+      },
+      {
+        "case": "G016",
+        "workspace": 1,
+        "log_ratio": 0.0023795770392158744
+      },
+      {
+        "case": "G025",
+        "workspace": 0,
+        "log_ratio": -0.02683445756427094
+      },
+      {
+        "case": "G025",
+        "workspace": 1,
+        "log_ratio": -0.04882903572179664
+      },
+      {
+        "case": "G034",
+        "workspace": 0,
+        "log_ratio": -0.000562885077069808
+      },
+      {
+        "case": "G034",
+        "workspace": 1,
+        "log_ratio": -0.0030303028785905184
+      },
+      {
+        "case": "G043",
+        "workspace": 0,
+        "log_ratio": 0.004958991096405185
+      },
+      {
+        "case": "G043",
+        "workspace": 1,
+        "log_ratio": -0.007154190596830645
+      },
+      {
+        "case": "G046",
+        "workspace": 0,
+        "log_ratio": 0.007027121235156919
+      },
+      {
+        "case": "G046",
+        "workspace": 1,
+        "log_ratio": 0.009715446932101024
+      }
+    ]
+  },
+  {
+    "block": 2,
+    "role": "confirmation",
+    "metric": "batch_per_replay_us",
+    "case_count": 6,
+    "gain_percent": -0.2540524466356109,
+    "case_slot_log_ratios": [
+      {
+        "case": "G001",
+        "workspace": 0,
+        "log_ratio": -0.016989646012673276
+      },
+      {
+        "case": "G001",
+        "workspace": 1,
+        "log_ratio": -0.029530589039167054
+      },
+      {
+        "case": "G016",
+        "workspace": 0,
+        "log_ratio": 0.0024235575845263924
+      },
+      {
+        "case": "G016",
+        "workspace": 1,
+        "log_ratio": 0.00135071877447146
+      },
+      {
+        "case": "G025",
+        "workspace": 0,
+        "log_ratio": 0.002122600369023786
+      },
+      {
+        "case": "G025",
+        "workspace": 1,
+        "log_ratio": 0.011907227482387484
+      },
+      {
+        "case": "G034",
+        "workspace": 0,
+        "log_ratio": 0.000987685329789656
+      },
+      {
+        "case": "G034",
+        "workspace": 1,
+        "log_ratio": 0.0020154440025681453
+      },
+      {
+        "case": "G043",
+        "workspace": 0,
+        "log_ratio": -0.007347506154613548
+      },
+      {
+        "case": "G043",
+        "workspace": 1,
+        "log_ratio": 0.030850019053689337
+      },
+      {
+        "case": "G046",
+        "workspace": 0,
+        "log_ratio": 0.009960654263667656
+      },
+      {
+        "case": "G046",
+        "workspace": 1,
+        "log_ratio": 0.0226974678193681
+      }
+    ]
+  },
+  {
+    "block": 3,
+    "role": "confirmation",
+    "metric": "batch_per_replay_us",
+    "case_count": 6,
+    "gain_percent": 0.6126005386172473,
+    "case_slot_log_ratios": [
+      {
+        "case": "G001",
+        "workspace": 0,
+        "log_ratio": -0.011215394560694314
+      },
+      {
+        "case": "G001",
+        "workspace": 1,
+        "log_ratio": -0.013283619014332615
+      },
+      {
+        "case": "G016",
+        "workspace": 0,
+        "log_ratio": -0.0011150569482882844
+      },
+      {
+        "case": "G016",
+        "workspace": 1,
+        "log_ratio": -0.0012771647286120569
+      },
+      {
+        "case": "G025",
+        "workspace": 0,
+        "log_ratio": -0.008191798984081622
+      },
+      {
+        "case": "G025",
+        "workspace": 1,
+        "log_ratio": -0.024145357359383723
+      },
+      {
+        "case": "G034",
+        "workspace": 0,
+        "log_ratio": -0.0008262142440838005
+      },
+      {
+        "case": "G034",
+        "workspace": 1,
+        "log_ratio": -0.0018454451077793976
+      },
+      {
+        "case": "G043",
+        "workspace": 0,
+        "log_ratio": -0.0021224986962309345
+      },
+      {
+        "case": "G043",
+        "workspace": 1,
+        "log_ratio": 0.01012923134852528
+      },
+      {
+        "case": "G046",
+        "workspace": 0,
+        "log_ratio": -0.013757102930775034
+      },
+      {
+        "case": "G046",
+        "workspace": 1,
+        "log_ratio": -0.006087734891632834
+      }
+    ]
+  },
+  {
+    "block": 0,
+    "role": "development",
+    "metric": "cpu_ready_us",
+    "case_count": 6,
+    "gain_percent": 0.3089411677675735,
+    "case_slot_log_ratios": [
+      {
+        "case": "G001",
+        "workspace": 0,
+        "log_ratio": -0.005517403921764696
+      },
+      {
+        "case": "G001",
+        "workspace": 1,
+        "log_ratio": -0.009659904009626352
+      },
+      {
+        "case": "G016",
+        "workspace": 0,
+        "log_ratio": -0.00604521519707113
+      },
+      {
+        "case": "G016",
+        "workspace": 1,
+        "log_ratio": -0.009076260501961642
+      },
+      {
+        "case": "G025",
+        "workspace": 0,
+        "log_ratio": 0.014266384388831987
+      },
+      {
+        "case": "G025",
+        "workspace": 1,
+        "log_ratio": 0.003254963096283703
+      },
+      {
+        "case": "G034",
+        "workspace": 0,
+        "log_ratio": -0.001538323065455316
+      },
+      {
+        "case": "G034",
+        "workspace": 1,
+        "log_ratio": -0.0023403565501816104
+      },
+      {
+        "case": "G043",
+        "workspace": 0,
+        "log_ratio": -0.005342445033031495
+      },
+      {
+        "case": "G043",
+        "workspace": 1,
+        "log_ratio": -0.00041531291465268794
+      },
+      {
+        "case": "G046",
+        "workspace": 0,
+        "log_ratio": -0.005450464648186326
+      },
+      {
+        "case": "G046",
+        "workspace": 1,
+        "log_ratio": -0.009265986783466573
+      }
+    ]
+  },
+  {
+    "block": 1,
+    "role": "development",
+    "metric": "cpu_ready_us",
+    "case_count": 6,
+    "gain_percent": 0.03529406827108561,
+    "case_slot_log_ratios": [
+      {
+        "case": "G001",
+        "workspace": 0,
+        "log_ratio": -0.00760502149371689
+      },
+      {
+        "case": "G001",
+        "workspace": 1,
+        "log_ratio": 0.06057790176774169
+      },
+      {
+        "case": "G016",
+        "workspace": 0,
+        "log_ratio": -0.005989217401699776
+      },
+      {
+        "case": "G016",
+        "workspace": 1,
+        "log_ratio": -0.001972305018844267
+      },
+      {
+        "case": "G025",
+        "workspace": 0,
+        "log_ratio": -0.019317695393725742
+      },
+      {
+        "case": "G025",
+        "workspace": 1,
+        "log_ratio": -0.03942574405400823
+      },
+      {
+        "case": "G034",
+        "workspace": 0,
+        "log_ratio": 0.00218937431038313
+      },
+      {
+        "case": "G034",
+        "workspace": 1,
+        "log_ratio": -0.00359732706689897
+      },
+      {
+        "case": "G043",
+        "workspace": 0,
+        "log_ratio": 0.0047119825050510045
+      },
+      {
+        "case": "G043",
+        "workspace": 1,
+        "log_ratio": -0.008694909557084074
+      },
+      {
+        "case": "G046",
+        "workspace": 0,
+        "log_ratio": -0.00047576466868370915
+      },
+      {
+        "case": "G046",
+        "workspace": 1,
+        "log_ratio": 0.015362690300296578
+      }
+    ]
+  },
+  {
+    "block": 2,
+    "role": "confirmation",
+    "metric": "cpu_ready_us",
+    "case_count": 6,
+    "gain_percent": 0.08875368288077112,
+    "case_slot_log_ratios": [
+      {
+        "case": "G001",
+        "workspace": 0,
+        "log_ratio": -0.014391697626391142
+      },
+      {
+        "case": "G001",
+        "workspace": 1,
+        "log_ratio": -0.02197084986060638
+      },
+      {
+        "case": "G016",
+        "workspace": 0,
+        "log_ratio": -0.0053185253117673525
+      },
+      {
+        "case": "G016",
+        "workspace": 1,
+        "log_ratio": -0.008901759398377784
+      },
+      {
+        "case": "G025",
+        "workspace": 0,
+        "log_ratio": -0.00032965079996127855
+      },
+      {
+        "case": "G025",
+        "workspace": 1,
+        "log_ratio": 0.0023186006350961463
+      },
+      {
+        "case": "G034",
+        "workspace": 0,
+        "log_ratio": -0.00038689292078508686
+      },
+      {
+        "case": "G034",
+        "workspace": 1,
+        "log_ratio": -0.0004792607687456041
+      },
+      {
+        "case": "G043",
+        "workspace": 0,
+        "log_ratio": -0.008729683674349786
+      },
+      {
+        "case": "G043",
+        "workspace": 1,
+        "log_ratio": 0.02752653194001553
+      },
+      {
+        "case": "G046",
+        "workspace": 0,
+        "log_ratio": 0.008256201285165687
+      },
+      {
+        "case": "G046",
+        "workspace": 1,
+        "log_ratio": 0.011751815426888967
+      }
+    ]
+  },
+  {
+    "block": 3,
+    "role": "confirmation",
+    "metric": "cpu_ready_us",
+    "case_count": 6,
+    "gain_percent": 0.6145498557664997,
+    "case_slot_log_ratios": [
+      {
+        "case": "G001",
+        "workspace": 0,
+        "log_ratio": -0.013088752110326674
+      },
+      {
+        "case": "G001",
+        "workspace": 1,
+        "log_ratio": -0.006484712786972047
+      },
+      {
+        "case": "G016",
+        "workspace": 0,
+        "log_ratio": 0.0021343919447023296
+      },
+      {
+        "case": "G016",
+        "workspace": 1,
+        "log_ratio": -0.002719598102145504
+      },
+      {
+        "case": "G025",
+        "workspace": 0,
+        "log_ratio": -0.01261218505880013
+      },
+      {
+        "case": "G025",
+        "workspace": 1,
+        "log_ratio": -0.020914845919177694
+      },
+      {
+        "case": "G034",
+        "workspace": 0,
+        "log_ratio": 0.0015958720746471755
+      },
+      {
+        "case": "G034",
+        "workspace": 1,
+        "log_ratio": -0.0038229020996993768
+      },
+      {
+        "case": "G043",
+        "workspace": 0,
+        "log_ratio": -0.0012992481030158487
+      },
+      {
+        "case": "G043",
+        "workspace": 1,
+        "log_ratio": 0.012228088450270569
+      },
+      {
+        "case": "G046",
+        "workspace": 0,
+        "log_ratio": -0.015089793344211344
+      },
+      {
+        "case": "G046",
+        "workspace": 1,
+        "log_ratio": -0.013899833244529702
+      }
+    ]
+  }
+]

@@ -1,0 +1,1614 @@
+[
+  {
+    "run_id": "20261015T065311Z_a3da2a6d",
+    "key": "backend_probe",
+    "process_started_at": "2026-10-15T06:53:11.698364+00:00",
+    "process_ended_at": "2026-10-15T06:53:18.661115+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "40",
+      "power.limit [W]": "125.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "42",
+      "power.limit [W]": "125.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T065451Z_984eee97",
+    "key": "attention_decode_layout_probe",
+    "process_started_at": "2026-10-15T06:54:51.711290+00:00",
+    "process_ended_at": "2026-10-15T06:54:56.407521+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "40",
+      "power.limit [W]": "125.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "42",
+      "power.limit [W]": "125.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T070103Z_c08ad72f",
+    "key": "native_gemm_qualification",
+    "process_started_at": "2026-10-15T07:01:03.459390+00:00",
+    "process_ended_at": "2026-10-15T07:01:13.897623+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "40",
+      "power.limit [W]": "125.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "45",
+      "power.limit [W]": "125.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T070154Z_fff46e94",
+    "key": "E1_native_block_0",
+    "process_started_at": "2026-10-15T07:01:54.114504+00:00",
+    "process_ended_at": "2026-10-15T07:03:20.128486+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "42",
+      "power.limit [W]": "125.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "68",
+      "power.limit [W]": "125.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T070320Z_489d6a73",
+    "key": "E1_native_block_1",
+    "process_started_at": "2026-10-15T07:03:20.585765+00:00",
+    "process_ended_at": "2026-10-15T07:04:41.153588+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "68",
+      "power.limit [W]": "125.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "77",
+      "power.limit [W]": "125.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T070359Z_798d7e97",
+    "key": "attention_native_qualification",
+    "process_started_at": "2026-10-15T07:04:41.679962+00:00",
+    "process_ended_at": "2026-10-15T07:04:55.840869+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "77",
+      "power.limit [W]": "125.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "77",
+      "power.limit [W]": "125.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T070441Z_e4da5c64",
+    "key": "E1_native_block_2",
+    "process_started_at": "2026-10-15T07:04:55.952392+00:00",
+    "process_ended_at": "2026-10-15T07:06:23.813349+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "77",
+      "power.limit [W]": "125.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T070624Z_d3e8ec62",
+    "key": "E1_native_block_3",
+    "process_started_at": "2026-10-15T07:06:24.168165+00:00",
+    "process_ended_at": "2026-10-15T07:07:58.300904+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T070758Z_82c77826",
+    "key": "E1_native_block_4",
+    "process_started_at": "2026-10-15T07:07:58.457412+00:00",
+    "process_ended_at": "2026-10-15T07:09:33.514536+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T070909Z_83670777",
+    "key": "alternate_installed_backend_probe",
+    "process_started_at": "2026-10-15T07:09:33.835216+00:00",
+    "process_ended_at": "2026-10-15T07:09:39.887508+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T070933Z_16ece5c8",
+    "key": "E1_native_block_5",
+    "process_started_at": "2026-10-15T07:09:40.039048+00:00",
+    "process_ended_at": "2026-10-15T07:11:14.777002+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T071051Z_2a786289",
+    "key": "attention_dynamic_ring_qualification",
+    "process_started_at": "2026-10-15T07:11:15.314379+00:00",
+    "process_ended_at": "2026-10-15T07:11:26.676869+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T071146Z_a372da65",
+    "key": "layer_native_qualification",
+    "process_started_at": "2026-10-15T07:11:46.909692+00:00",
+    "process_ended_at": "2026-10-15T07:12:21.642628+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "69",
+      "power.limit [W]": "125.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "77",
+      "power.limit [W]": "125.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T071157Z_320c41f5",
+    "key": "E3_native_block_0",
+    "process_started_at": "2026-10-15T07:12:22.641094+00:00",
+    "process_ended_at": "2026-10-15T07:16:12.445119+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "77",
+      "power.limit [W]": "125.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T071339Z_4c55647f",
+    "key": "E4_native_block_0",
+    "process_started_at": "2026-10-15T07:16:12.648864+00:00",
+    "process_ended_at": "2026-10-15T07:19:12.409397+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T071612Z_48912887",
+    "key": "E3_native_block_1",
+    "process_started_at": "2026-10-15T07:19:12.906390+00:00",
+    "process_ended_at": "2026-10-15T07:23:04.025835+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T071616Z_4b12c076",
+    "key": "final_triton34_tile_recipe",
+    "process_started_at": "2026-10-15T07:23:04.883512+00:00",
+    "process_ended_at": "2026-10-15T07:23:09.460576+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T071618Z_a811468d",
+    "key": "final_triton35_tile_recipe",
+    "process_started_at": "2026-10-15T07:23:10.072430+00:00",
+    "process_ended_at": "2026-10-15T07:23:14.876072+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "74",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T071912Z_0cc4ed90",
+    "key": "E4_native_block_1",
+    "process_started_at": "2026-10-15T07:23:15.258019+00:00",
+    "process_ended_at": "2026-10-15T07:26:07.609252+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "74",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T072608Z_5ec9d1e8",
+    "key": "E4_native_block_2",
+    "process_started_at": "2026-10-15T07:26:08.443535+00:00",
+    "process_ended_at": "2026-10-15T07:29:03.043546+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T072304Z_dae110a1",
+    "key": "E3_native_block_2",
+    "process_started_at": "2026-10-15T07:29:03.697103+00:00",
+    "process_ended_at": "2026-10-15T07:32:54.723111+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T072903Z_28fd1823",
+    "key": "E4_native_block_3",
+    "process_started_at": "2026-10-15T07:32:55.493046+00:00",
+    "process_ended_at": "2026-10-15T07:35:54.190929+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T073255Z_24cf84ed",
+    "key": "E3_native_block_3",
+    "process_started_at": "2026-10-15T07:35:54.730829+00:00",
+    "process_ended_at": "2026-10-15T07:39:45.582421+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T073554Z_3a8fb670",
+    "key": "E4_native_block_4",
+    "process_started_at": "2026-10-15T07:39:45.653415+00:00",
+    "process_ended_at": "2026-10-15T07:42:39.991911+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T073945Z_cf9ff1e5",
+    "key": "E3_native_block_4",
+    "process_started_at": "2026-10-15T07:42:40.871480+00:00",
+    "process_ended_at": "2026-10-15T07:46:31.578431+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T074240Z_777eff5c",
+    "key": "E4_native_block_5",
+    "process_started_at": "2026-10-15T07:46:31.779400+00:00",
+    "process_ended_at": "2026-10-15T07:49:27.439816+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T074631Z_425aa9f0",
+    "key": "E3_native_block_5",
+    "process_started_at": "2026-10-15T07:49:28.039034+00:00",
+    "process_ended_at": "2026-10-15T07:53:19.062370+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T074800Z_9e192994",
+    "key": "equal_graph_batch_qualification",
+    "process_started_at": "2026-10-15T07:53:20.006869+00:00",
+    "process_ended_at": "2026-10-15T07:53:28.859882+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T074928Z_20444b05",
+    "key": "E5_native_block_0",
+    "process_started_at": "2026-10-15T07:53:29.254602+00:00",
+    "process_ended_at": "2026-10-15T08:08:43.688284+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "74",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T075053Z_a29d18be",
+    "key": "E4_request_block_0",
+    "process_started_at": "2026-10-15T08:08:44.258021+00:00",
+    "process_ended_at": "2026-10-15T08:09:33.973255+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "74",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T080613Z_3373eacf",
+    "key": "installed_cublas_grouped_api_probe",
+    "process_started_at": "2026-10-15T08:09:34.042758+00:00",
+    "process_ended_at": "2026-10-15T08:09:36.641962+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "74",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T080844Z_b8a6e213",
+    "key": "E5_native_block_1",
+    "process_started_at": "2026-10-15T08:09:37.173107+00:00",
+    "process_ended_at": "2026-10-15T08:24:35.137183+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "74",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "74",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T080934Z_48c80ca7",
+    "key": "E4_request_block_1",
+    "process_started_at": "2026-10-15T08:24:36.006843+00:00",
+    "process_ended_at": "2026-10-15T08:27:09.438412+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "74",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T082435Z_db009f52",
+    "key": "E5_native_block_2",
+    "process_started_at": "2026-10-15T08:27:10.081308+00:00",
+    "process_ended_at": "2026-10-15T08:42:07.243028+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "74",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T082710Z_876b40de",
+    "key": "E4_request_block_2",
+    "process_started_at": "2026-10-15T08:42:08.091537+00:00",
+    "process_ended_at": "2026-10-15T08:44:46.276256+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "74",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T083728Z_87f58aab",
+    "key": "native_grouped_precision_graph_qualification",
+    "process_started_at": "2026-10-15T08:44:47.228789+00:00",
+    "process_ended_at": "2026-10-15T08:44:49.908305+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "74",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T084208Z_196a6001",
+    "key": "E5_native_block_3",
+    "process_started_at": "2026-10-15T08:44:50.374870+00:00",
+    "process_ended_at": "2026-10-15T08:59:42.828168+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "74",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "74",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T084447Z_adf3f88b",
+    "key": "E4_request_block_3",
+    "process_started_at": "2026-10-15T08:59:42.970147+00:00",
+    "process_ended_at": "2026-10-15T09:02:22.351282+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "74",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T085942Z_118c4a9d",
+    "key": "E5_native_block_4",
+    "process_started_at": "2026-10-15T09:02:23.228349+00:00",
+    "process_ended_at": "2026-10-15T09:17:17.194603+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "74",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T090211Z_649c048f",
+    "key": "native_grouped_coalesced_precision_graph_qualification",
+    "process_started_at": "2026-10-15T09:17:18.033731+00:00",
+    "process_ended_at": "2026-10-15T09:17:20.769884+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "74",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "74",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T090223Z_780817b1",
+    "key": "E4_request_block_4",
+    "process_started_at": "2026-10-15T09:17:21.170134+00:00",
+    "process_ended_at": "2026-10-15T09:19:53.116036+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "74",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T091718Z_db844a86",
+    "key": "E5_native_block_5",
+    "process_started_at": "2026-10-15T09:19:53.323682+00:00",
+    "process_ended_at": "2026-10-15T09:34:45.938504+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "74",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T091721Z_0e59065c",
+    "key": "E1_strong_block_0",
+    "process_started_at": "2026-10-15T09:34:46.059376+00:00",
+    "process_ended_at": "2026-10-15T09:35:18.610135+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "74",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T091953Z_f30b5287",
+    "key": "E4_request_block_5",
+    "process_started_at": "2026-10-15T09:35:18.798497+00:00",
+    "process_ended_at": "2026-10-15T09:37:58.849173+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T093850Z_d67b98ad",
+    "key": "native_grouped_zero_edge_audit_repair_qualification",
+    "process_started_at": "2026-10-15T09:38:50.571454+00:00",
+    "process_ended_at": "2026-10-15T09:38:53.848647+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "65",
+      "power.limit [W]": "125.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "65",
+      "power.limit [W]": "125.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T093854Z_26fe8df4",
+    "key": "E1_strong_block_1",
+    "process_started_at": "2026-10-15T09:38:54.849598+00:00",
+    "process_ended_at": "2026-10-15T09:39:45.033647+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "65",
+      "power.limit [W]": "125.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "125.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T093945Z_3cdb7fd8",
+    "key": "E1_strong_block_2",
+    "process_started_at": "2026-10-15T09:39:45.634858+00:00",
+    "process_ended_at": "2026-10-15T09:40:41.296336+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "125.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T094041Z_100e6b32",
+    "key": "E1_strong_block_3",
+    "process_started_at": "2026-10-15T09:40:41.464686+00:00",
+    "process_ended_at": "2026-10-15T09:41:41.820441+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T094142Z_d8357ddb",
+    "key": "E1_strong_block_4",
+    "process_started_at": "2026-10-15T09:41:42.528690+00:00",
+    "process_ended_at": "2026-10-15T09:42:43.582707+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T094243Z_1c4edce7",
+    "key": "E1_strong_block_5",
+    "process_started_at": "2026-10-15T09:42:43.653106+00:00",
+    "process_ended_at": "2026-10-15T09:43:44.994006+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T094345Z_89855f78",
+    "key": "E3_strong_block_0",
+    "process_started_at": "2026-10-15T09:43:45.737670+00:00",
+    "process_ended_at": "2026-10-15T09:47:03.899650+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "76",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T094704Z_c6b2602f",
+    "key": "E3_strong_block_1",
+    "process_started_at": "2026-10-15T09:47:04.280517+00:00",
+    "process_ended_at": "2026-10-15T09:50:22.261798+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T095022Z_296f5428",
+    "key": "E3_strong_block_2",
+    "process_started_at": "2026-10-15T09:50:22.901383+00:00",
+    "process_ended_at": "2026-10-15T09:53:40.643522+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T095341Z_563fe933",
+    "key": "E3_strong_block_3",
+    "process_started_at": "2026-10-15T09:53:41.510296+00:00",
+    "process_ended_at": "2026-10-15T09:56:59.003001+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T095659Z_364676e3",
+    "key": "E3_strong_block_4",
+    "process_started_at": "2026-10-15T09:56:59.277079+00:00",
+    "process_ended_at": "2026-10-15T10:00:17.178411+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T100017Z_1c724530",
+    "key": "E3_strong_block_5",
+    "process_started_at": "2026-10-15T10:00:17.836421+00:00",
+    "process_ended_at": "2026-10-15T10:03:35.278435+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T100335Z_59576272",
+    "key": "E4_strong_block_0",
+    "process_started_at": "2026-10-15T10:03:35.402613+00:00",
+    "process_ended_at": "2026-10-15T10:06:16.921637+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T100617Z_aa80b5f9",
+    "key": "E4_strong_block_1",
+    "process_started_at": "2026-10-15T10:06:17.505966+00:00",
+    "process_ended_at": "2026-10-15T10:08:55.849537+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T100856Z_4ed2e0e0",
+    "key": "E4_strong_block_2",
+    "process_started_at": "2026-10-15T10:08:56.852174+00:00",
+    "process_ended_at": "2026-10-15T10:11:35.895445+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T101136Z_b83a6a36",
+    "key": "E4_strong_block_3",
+    "process_started_at": "2026-10-15T10:11:36.103661+00:00",
+    "process_ended_at": "2026-10-15T10:14:14.563360+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T101415Z_65a2c003",
+    "key": "E4_strong_block_4",
+    "process_started_at": "2026-10-15T10:14:15.229820+00:00",
+    "process_ended_at": "2026-10-15T10:16:51.964025+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  },
+  {
+    "run_id": "20261015T101652Z_523879a7",
+    "key": "E4_strong_block_5",
+    "process_started_at": "2026-10-15T10:16:52.556725+00:00",
+    "process_ended_at": "2026-10-15T10:19:31.233524+00:00",
+    "before": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    },
+    "after": {
+      "uuid": "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+      "name": "Tesla T10",
+      "driver_version": "580.178.04",
+      "memory.total [MiB]": "15360 MiB",
+      "memory.free [MiB]": "14910 MiB",
+      "temperature.gpu": "75",
+      "power.limit [W]": "100.00 W",
+      "ecc.errors.uncorrected.volatile.total": "0"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "started_at": "2026-10-17T10:59:20.201219+00:00",
+  "budget_started_monotonic": 369746.934617331,
+  "prior_gpu_minutes": 323.95379307176626,
+  "new_gpu_cap_minutes": 5.75,
+  "cumulative_cap_minutes": 330,
+  "wall_hard_minutes": 120,
+  "prior_root": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu/state-causality-t10",
+  "scope": "Four matched preparation processes; no new math, selector or physicalNUMA claim"
+}

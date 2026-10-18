@@ -1,0 +1,26 @@
+{
+  "aa_episodes": 24,
+  "calibration_quartets": 1152,
+  "card_episodes": 384,
+  "formal_quartets": 1152,
+  "direct_quartets": 144,
+  "formal_AA_quartets": 168,
+  "deployment_phases_by_stage": {
+    "S5_BINDING": 12,
+    "S5_FFN": 30,
+    "S5_OOD": 36,
+    "S5_TRACE": 90
+  },
+  "ffn_aliases": 66,
+  "lifecycle_phases": 72,
+  "lifecycle_H_records": 288,
+  "lifecycle_sample_records": 288,
+  "tuner_quartets": 288
+}
+SUPPLEMENT_COMPLETE 3072 margin records
+MANIFEST_PASS 1066
+RAW_TIMING_PASS 3048 quartets 749624 paired requests
+RAW_CARD_FIT_LOSO_AA_AND_SETUP_PASS
+FROZEN_CHOICE_PYTHON_CPP_PASS 520
+DERIVED_RECOMPUTATION_PASS 19
+CPU_ONLY_RECOMPUTATION_PASS_NO_CUDA_OR_TORCH_IMPORT

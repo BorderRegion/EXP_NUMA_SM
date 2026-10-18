@@ -1,0 +1,12 @@
+{
+  "platform": "rtx5070ti",
+  "expected_label": "NVIDIA GeForce RTX 5070 Ti",
+  "expected_cc": [
+    12,
+    0
+  ],
+  "expected_sm": 70,
+  "expected_l2_mib": 48,
+  "reference_only": true,
+  "cluster_path": "query_then_qualify"
+}

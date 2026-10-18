@@ -1,0 +1,51 @@
+{
+  "status": "FROZEN_BEFORE_MEASURED_MATRICES",
+  "measurements": [
+    "56x56 source-clock round-trip via global GPU-scope acquire/release flags",
+    "same-SM diagonal is two warps in one CTA, not a direct SM link",
+    "notification-only vs64-byte payload",
+    "56x64 dependent pointer-chase, warm .cg vs .ca, 256-node region, 1024 loads"
+  ],
+  "placement": {
+    "cooperative_launch": true,
+    "threads_per_CTA": 64,
+    "dynamic_shared_bytes": 49152,
+    "require_blocks_per_SM": 1,
+    "all_SMs_recorded_each_launch": true,
+    "nonparticipants_return_after_initial_grid_barrier": true,
+    "SM_ID_not_physical_coordinates": true
+  },
+  "matrix_processes": 4,
+  "rounds_per_process": 2,
+  "allocation_slots_bytes": [
+    0,
+    69632,
+    1052672
+  ],
+  "input_seed": 20261017,
+  "plan_shuffle_seed": 2026101700,
+  "learning": "Only processes0,1 payload mode and slots0,1; 2,3 held out and slot2 address holdout. Same-SM diagonals excluded from inter-SM inference.",
+  "mapping": "28 fixed producers sorted roster[::2] and28 consumers roster[1::2]; Hungarian minimum SUM mean RTT, maximum SUM, fixed identity, deterministic random seed2026101711. No post-hoc sign changes.",
+  "deployment": "4 new processes, same64B payload,28 pairs simultaneous,128 and512 round trips each,16warm handshakes within every kernel,16 randomized repetitions per mode;3 unscored warm launches per policy/steps; CUDA event full-kernel primary, source timing diagnostic; freeze mapping before deployment",
+  "primary_comparisons": [
+    "minimum-cost mapping vs identity",
+    "minimum-cost mapping vs fixed random",
+    "minimum-cost mapping vs maximum-cost mapping"
+  ],
+  "statistical_unit": "Independent process, descriptive block values; repeats/SM pairs not independent device samples. n=2 held-out matrix and n=4 deployment insufficient for broad performance claims.",
+  "clustering": "Exploratory empirical communication/affinity groups only; raw, direction, row/column effects and residuals retained. Test correlation and fixed group contrasts on held-out processes and address.",
+  "no_claims": [
+    "Physical GPC layout",
+    "cache coherence ownership or hardware distance",
+    "physical address home",
+    "deployment speedup without held-out concurrent tests",
+    "application speedup from synthetic communication alone"
+  ],
+  "caps": {
+    "new_GPU_worker_minutes": 15,
+    "per_worker_seconds": 180,
+    "per_handshake_kernel_watchdog_ms": 10,
+    "temperature_C": 82
+  },
+  "failure_policy": "Retain logs; stop on coverage, checksum, migration, hardware or health failures. Engineering repair requires new named outputs and before/after source evidence."
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "key": "cutlass_implementation_initial_qualification",
+    "status": "COMPLETED",
+    "path": "runs/20261015T132503Z_d7fdc582",
+    "worker_s": 6.548381053988123,
+    "qualification_status": "NUMERICAL_BITWISE_GRAPH_PASS",
+    "records": 52,
+    "record_keys": [
+      "bitwise_core",
+      "case",
+      "changed_input_replay",
+      "checks",
+      "graph_pass",
+      "graph_structure",
+      "metadata",
+      "mode",
+      "q",
+      "recipe",
+      "waves"
+    ]
+  },
+  {
+    "key": "cutlass_coverage_sideband_qualification",
+    "status": "COMPLETED",
+    "path": "runs/20261015T132957Z_2d7eb1fe",
+    "worker_s": 6.537388561991975,
+    "qualification_status": "NUMERICAL_BITWISE_GRAPH_PASS",
+    "records": 56,
+    "record_keys": [
+      "bitwise_core",
+      "case",
+      "changed_input_replay",
+      "checks",
+      "coverage",
+      "graph_pass",
+      "graph_structure",
+      "metadata",
+      "mode",
+      "producer_sideband_pass",
+      "q",
+      "recipe",
+      "waves"
+    ]
+  },
+  {
+    "key": "cutlass_memcheck_once",
+    "status": "FAILED",
+    "path": "runs/20261015T133230Z_326de820",
+    "worker_s": 1.477005503984401
+  },
+  {
+    "key": "cutlass_memcheck_injection_path_repair",
+    "status": "FAILED",
+    "path": "runs/20261015T134201Z_70281395",
+    "worker_s": 2.4317709660099354
+  },
+  {
+    "key": "cutlass_layer_four_cell_qualification",
+    "status": "COMPLETED",
+    "path": "runs/20261015T134322Z_795b17cb",
+    "worker_s": 4.46220336901024
+  },
+  {
+    "key": "cutlass_memcheck_cuda128_qualification",
+    "status": "COMPLETED",
+    "path": "runs/20261015T134623Z_4395fce0",
+    "worker_s": 28.113175109989243,
+    "qualification_status": "NUMERICAL_BITWISE_GRAPH_PASS",
+    "records": 56,
+    "record_keys": [
+      "bitwise_core",
+      "case",
+      "changed_input_replay",
+      "checks",
+      "coverage",
+      "graph_pass",
+      "graph_structure",
+      "metadata",
+      "mode",
+      "producer_sideband_pass",
+      "q",
+      "recipe",
+      "waves"
+    ]
+  }
+]

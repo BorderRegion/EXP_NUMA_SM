@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETED",
+  "predeclared_order": [
+    "OFF",
+    "ON"
+  ],
+  "extra_sampling_period_s": 0.2,
+  "baseline_sampling_period_s": 1,
+  "scope": "Single paired observer diagnostic, not independent precision validation"
+}

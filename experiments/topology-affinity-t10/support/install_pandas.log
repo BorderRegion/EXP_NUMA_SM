@@ -1,0 +1,17 @@
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)'))': /simple/pandas/
+Collecting pandas==2.3.3
+  Downloading pandas-2.3.3-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (91 kB)
+Requirement already satisfied: numpy>=1.26.0 in /home/ubuntu/projects/leetgpu-lab/.venv/lib/python3.12/site-packages (from pandas==2.3.3) (2.5.3)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/ubuntu/projects/leetgpu-lab/.venv/lib/python3.12/site-packages (from pandas==2.3.3) (2.9.0.post0)
+Collecting pytz>=2020.1 (from pandas==2.3.3)
+  Downloading pytz-2026.5-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas==2.3.3)
+  Downloading tzdata-2026.5-py2.py3-none-any.whl.metadata (1.4 kB)
+Requirement already satisfied: six>=1.5 in /home/ubuntu/projects/leetgpu-lab/.venv/lib/python3.12/site-packages (from python-dateutil>=2.8.2->pandas==2.3.3) (1.17.0)
+Downloading pandas-2.3.3-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.4/12.4 MB 3.1 MB/s  0:00:04
+Downloading pytz-2026.5-py2.py3-none-any.whl (506 kB)
+Downloading tzdata-2026.5-py2.py3-none-any.whl (347 kB)
+Installing collected packages: pytz, tzdata, pandas
+
+Successfully installed pandas-2.3.3 pytz-2026.5 tzdata-2026.5

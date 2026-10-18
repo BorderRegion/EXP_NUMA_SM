@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-10-17T03:30:41.281965+00:00",
+  "model_sha": "2ea70745de337f8ca5beebc590b722aeb4d79eb5c6e1ecc155314cda6696bb01",
+  "choices_sha": "90f4edce20e1ee41810cffaaa12ba3803120251c057f07a35fe7a8953308ea5e",
+  "cpp_sha": "a4d6c0c3e6e89b857f2cb25ae72a9d637619e54623e133207f9f4689a55eed10",
+  "cpp_sources": {
+    "relative_generated.hpp": "ad88a7d543a31bb45ae34b6e60b4c5cc73721c7f99bc1461fdaf8bfd85732e77",
+    "backend.cu": "8c4690214babb724ce618d83c34d64c1f67d4102bda502231b581bb3991d274c",
+    "kernels.cu": "f141825c0160d0a498c0009d0c5e75fba8e07ee1361a8f4c078848fbc5a55191",
+    "decision_core.hpp": "38d0841d0daea2351a22a231ab1a8d61a9d8d0009a1de88975540c8e36d3a1e3",
+    "resources.hpp": "201cb79cff9a46587be11668326c412015ffd8802eda7350b7751e5c1eac4911",
+    "policy.hpp": "a4d6c0c3e6e89b857f2cb25ae72a9d637619e54623e133207f9f4689a55eed10",
+    "pair_runtime.hpp": "de977c141ac5e6202b486c0dc0cf5b7600e087ec1f85f138de7bc5fca4e534c0",
+    "kernels.cuh": "4fec5c758daa4ad845be3bcd11982a8237333c8b4d385bbc82ed7eb5c71f753a",
+    "runtime_extra.hpp": "eb380977a276ab4545e880ac9fbd24295ef129415dfdf89ee6e2bca5a76a1345"
+  },
+  "cpu_binary_sha": "4056d9da7892f7ac3adca7654ea9897fae0e27e9ec267ad5212e4f8bf5cc67b2",
+  "witness_sha": "337e250e431befc3399d3e3516a37b26eb0454b07d64188f52ff7ae44117344a",
+  "training_protocol": "CLEAN_ABBA_V2"
+}

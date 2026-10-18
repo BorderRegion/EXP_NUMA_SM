@@ -1,0 +1,130 @@
+{
+  "scope": "task package, no GPU results",
+  "files": [
+    {
+      "path": "CODEX_MASTER_TASK.md",
+      "size": 8322,
+      "sha256": "f4a5f7336132d1f178fe352aefc4a915c2025e2f81698de992aeecea6a64c0c3"
+    },
+    {
+      "path": "COPY_TO_CODEX.txt",
+      "size": 1655,
+      "sha256": "4e1da5fe621338adc82bbdfc228334807d91ff45a956b120dd41ab08d20e7b8b"
+    },
+    {
+      "path": "START_HERE.md",
+      "size": 1952,
+      "sha256": "2f8a40bd42d9c37e83c270dbd8098d4ae54f4bb3c2f4d7d84440610ac062af41"
+    },
+    {
+      "path": "VALIDATION_REPORT.md",
+      "size": 1676,
+      "sha256": "de26075f78cddd4f1609514422ec51b51bd0be7e5a973d13ba96e9be262eba76"
+    },
+    {
+      "path": "campaign.json",
+      "size": 1741,
+      "sha256": "23caee39007ca959c64d9f9d9f8390de4ad287a67b1ff28f0d713e0041357d61"
+    },
+    {
+      "path": "docs/01_TRANSIENT_PROTOCOL.md",
+      "size": 5234,
+      "sha256": "15abf3210e15aa902eb3d98cc6db665c91623c2d1526964b161751fc23f0f451"
+    },
+    {
+      "path": "docs/02_SINGLE_F4_PROTOCOL.md",
+      "size": 5127,
+      "sha256": "068c3dd7d9f6580b5b70eb74c5b9cd66434cd69be87c9096310c6553e1dfa71c"
+    },
+    {
+      "path": "docs/03_RECORDING_AND_INTERPRETATION.md",
+      "size": 5757,
+      "sha256": "c5da16460fb7222976258092d4bc51e2fcd10d3e3a70128503de196d23a63953"
+    },
+    {
+      "path": "docs/04_SOURCES.md",
+      "size": 2258,
+      "sha256": "a26a4cfb00f8debed507772e887c18756018e1e106ce8731adc4480458e343ab"
+    },
+    {
+      "path": "evidence/SOURCE_MANIFEST.json",
+      "size": 2407,
+      "sha256": "a89b3e87ae027de44579a4d8b2fbdc69e2a02d2c722f77ddceb252a7ec3ff180"
+    },
+    {
+      "path": "evidence/deploy.py",
+      "size": 6723,
+      "sha256": "6a61f901b101a39f43923c7538b70f39eb7de7e54dbf1dc17c11ccd1c6a36d3a"
+    },
+    {
+      "path": "evidence/deployment_v2.py",
+      "size": 5138,
+      "sha256": "9cd9fba29641f32958508dd1e65309b4b237db829d99348b412587e67e932d71"
+    },
+    {
+      "path": "evidence/pair_runtime.hpp",
+      "size": 887,
+      "sha256": "de977c141ac5e6202b486c0dc0cf5b7600e087ec1f85f138de7bc5fca4e534c0"
+    },
+    {
+      "path": "evidence/pair_suite.py",
+      "size": 3388,
+      "sha256": "29f1f000f9c76e0d1173a97e106c6d5220481733fd8d588742781fb409cc9b8e"
+    },
+    {
+      "path": "evidence/paired.py",
+      "size": 3849,
+      "sha256": "7194ce68a6ef92703626b52df083a3158a5e3e3e67dcfc9ca7755e98f0cfb84b"
+    },
+    {
+      "path": "evidence/runtime_extra.hpp",
+      "size": 2585,
+      "sha256": "eb380977a276ab4545e880ac9fbd24295ef129415dfdf89ee6e2bca5a76a1345"
+    },
+    {
+      "path": "plans/COUNTS.json",
+      "size": 469,
+      "sha256": "bab96398ad3d524348366c8e189d43328c36d135bcc3ca75f33496577bd80e4b"
+    },
+    {
+      "path": "plans/episodes.json",
+      "size": 40489,
+      "sha256": "43861e1de4c3294ee518ab70cbb9b778a204d8bb851078c51b1decb375fc4f88"
+    },
+    {
+      "path": "plans/focus_cases.json",
+      "size": 3418,
+      "sha256": "c433fa188adc83683f7ea5a3016e5838d2ae3978e46d74692afd928ab6fc85d4"
+    },
+    {
+      "path": "plans/inherited_traces.json",
+      "size": 5429,
+      "sha256": "b57131f24c4aaf1043c49ef2a8a7835d1c0903e614e5cc139c3a92358f8d4df9"
+    },
+    {
+      "path": "reference/host_schedule.hpp",
+      "size": 2077,
+      "sha256": "8af28c77d9c0b712f0c6d51b2762d654248c9ae624e320c8dce81691c51523c2"
+    },
+    {
+      "path": "tests/host_schedule_test.cpp",
+      "size": 1124,
+      "sha256": "54a076a6fe34cc010d4fc8ec4bebf1fcc794c4797c17fe0026a6e72c1105ed3e"
+    },
+    {
+      "path": "tests/test_tools.py",
+      "size": 4125,
+      "sha256": "a632dd962a4f0d74bf23941129a393f784dfba3b274c3582726d204c9db0d67f"
+    },
+    {
+      "path": "tools/analyze_focus.py",
+      "size": 5070,
+      "sha256": "a1bd1da61cac80b8f012970447d9edf44755673c019e636b52e6873a5dbdeb6c"
+    },
+    {
+      "path": "tools/extract_prior_focus.py",
+      "size": 4958,
+      "sha256": "b238576a15e878f1a7e0a02b4c369c643b7058289d67cc815047ae2efd8ce089"
+    }
+  ]
+}

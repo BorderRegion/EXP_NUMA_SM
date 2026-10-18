@@ -1,0 +1,7 @@
+{
+  "url": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-sanitizer-12-8_12.8.93-1_amd64.deb",
+  "sha256": "cd1f9f270995eb8aab25c533c10bcd32a3dbff5b20adac10aaa1fc5b016258ec",
+  "bytes": 10258140,
+  "acquired_at": "2026-10-15T13:44:56.398915+00:00",
+  "install": "user-space dpkg-deb extraction only; no system driver/toolkit modification"
+}

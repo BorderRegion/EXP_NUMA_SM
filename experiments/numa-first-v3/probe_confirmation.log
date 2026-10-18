@@ -1,0 +1,236 @@
+confirm_2 COMPLETED 569.02
+{
+  "path": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu/numa-first-v3/runs/t10/20261016T021032Z/raw/confirm_2",
+  "records": 3145728,
+  "epochs": 3072,
+  "fits": [
+    {
+      "bytes": 2097152,
+      "window_bytes": 4096,
+      "mask": 41,
+      "bias": 1,
+      "train_score": 0.0015854651851,
+      "train_log_advantage": 0.0015854651851,
+      "spatial_holdout_log_advantage": 0.00015060466391,
+      "late_all_log_advantage": 0.00014914885593,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45"
+    },
+    {
+      "bytes": 8388608,
+      "window_bytes": 4096,
+      "mask": 57,
+      "bias": 0,
+      "train_score": 0.00165995001107,
+      "train_log_advantage": 0.00165995001107,
+      "spatial_holdout_log_advantage": -0.00137578591311,
+      "late_all_log_advantage": 0.000471777533352,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45"
+    },
+    {
+      "bytes": 33554432,
+      "window_bytes": 4096,
+      "mask": 11,
+      "bias": 0,
+      "train_score": 0.00120007733426,
+      "train_log_advantage": 0.00120007733426,
+      "spatial_holdout_log_advantage": -1.94033646058e-05,
+      "late_all_log_advantage": 0.00170235858044,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45"
+    },
+    {
+      "bytes": 134217728,
+      "window_bytes": 4096,
+      "mask": 57,
+      "bias": 0,
+      "train_score": 0.000822281644117,
+      "train_log_advantage": 0.000822281644117,
+      "spatial_holdout_log_advantage": -0.000242556993295,
+      "late_all_log_advantage": -0.000434433651954,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45"
+    }
+  ]
+}
+confirm_3 COMPLETED 573.85
+{
+  "path": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu/numa-first-v3/runs/t10/20261016T021032Z/raw/confirm_3",
+  "records": 3145728,
+  "epochs": 3072,
+  "fits": [
+    {
+      "bytes": 2097152,
+      "window_bytes": 4096,
+      "mask": 42,
+      "bias": 0,
+      "train_score": 0.00125027609535,
+      "train_log_advantage": 0.00125027609535,
+      "spatial_holdout_log_advantage": 0.000824002077986,
+      "late_all_log_advantage": -8.12894562177e-05,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45",
+      "late_validation_rounds": 4
+    },
+    {
+      "bytes": 8388608,
+      "window_bytes": 4096,
+      "mask": 23,
+      "bias": 0,
+      "train_score": 0.00329356999021,
+      "train_log_advantage": 0.00329356999021,
+      "spatial_holdout_log_advantage": 0.00013780529081,
+      "late_all_log_advantage": -0.000185808626319,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45",
+      "late_validation_rounds": 4
+    },
+    {
+      "bytes": 33554432,
+      "window_bytes": 4096,
+      "mask": 48,
+      "bias": 1,
+      "train_score": 0.00353012283067,
+      "train_log_advantage": 0.00353012283067,
+      "spatial_holdout_log_advantage": -6.5359601532e-06,
+      "late_all_log_advantage": -0.000141914507334,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45",
+      "late_validation_rounds": 4
+    },
+    {
+      "bytes": 134217728,
+      "window_bytes": 4096,
+      "mask": 1,
+      "bias": 0,
+      "train_score": 0.00085937356645,
+      "train_log_advantage": 0.00085937356645,
+      "spatial_holdout_log_advantage": 1.35031638759e-05,
+      "late_all_log_advantage": 0.000137070333856,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45",
+      "late_validation_rounds": 4
+    }
+  ]
+}
+confirm_4 COMPLETED 569.93
+{
+  "path": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu/numa-first-v3/runs/t10/20261016T021032Z/raw/confirm_4",
+  "records": 3145728,
+  "epochs": 3072,
+  "fits": [
+    {
+      "bytes": 2097152,
+      "window_bytes": 4096,
+      "mask": 1,
+      "bias": 1,
+      "train_score": 0.00198430642996,
+      "train_log_advantage": 0.00198430642996,
+      "spatial_holdout_log_advantage": 0.000442455265548,
+      "late_all_log_advantage": -0.000157807868583,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45",
+      "late_validation_rounds": 4
+    },
+    {
+      "bytes": 8388608,
+      "window_bytes": 4096,
+      "mask": 26,
+      "bias": 1,
+      "train_score": 0.00144111935148,
+      "train_log_advantage": 0.00144111935148,
+      "spatial_holdout_log_advantage": -0.000262137849051,
+      "late_all_log_advantage": -0.000656313376151,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45",
+      "late_validation_rounds": 4
+    },
+    {
+      "bytes": 33554432,
+      "window_bytes": 4096,
+      "mask": 59,
+      "bias": 0,
+      "train_score": 0.00290370558799,
+      "train_log_advantage": 0.00290370558799,
+      "spatial_holdout_log_advantage": 0.00121783230413,
+      "late_all_log_advantage": -0.000112184222615,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45",
+      "late_validation_rounds": 4
+    },
+    {
+      "bytes": 134217728,
+      "window_bytes": 4096,
+      "mask": 28,
+      "bias": 1,
+      "train_score": 0.00213149559256,
+      "train_log_advantage": 0.00213149559256,
+      "spatial_holdout_log_advantage": -0.000285590022661,
+      "late_all_log_advantage": 0.000386813813627,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45",
+      "late_validation_rounds": 4
+    }
+  ]
+}
+confirm_5 COMPLETED 569.82
+{
+  "path": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu/numa-first-v3/runs/t10/20261016T021032Z/raw/confirm_5",
+  "records": 3145728,
+  "epochs": 3072,
+  "fits": [
+    {
+      "bytes": 2097152,
+      "window_bytes": 4096,
+      "mask": 52,
+      "bias": 0,
+      "train_score": 0.00157337835329,
+      "train_log_advantage": 0.00157337835329,
+      "spatial_holdout_log_advantage": -0.000266277969147,
+      "late_all_log_advantage": 0.00022853647442,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45",
+      "late_validation_rounds": 4
+    },
+    {
+      "bytes": 8388608,
+      "window_bytes": 4096,
+      "mask": 25,
+      "bias": 0,
+      "train_score": 0.00229417736872,
+      "train_log_advantage": 0.00229417736872,
+      "spatial_holdout_log_advantage": 0.000743551288697,
+      "late_all_log_advantage": 0.000626327613634,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45",
+      "late_validation_rounds": 4
+    },
+    {
+      "bytes": 33554432,
+      "window_bytes": 4096,
+      "mask": 16,
+      "bias": 1,
+      "train_score": 0.00153574521723,
+      "train_log_advantage": 0.00153574521723,
+      "spatial_holdout_log_advantage": -0.000185279268073,
+      "late_all_log_advantage": 0.000192515264216,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45",
+      "late_validation_rounds": 4
+    },
+    {
+      "bytes": 134217728,
+      "window_bytes": 4096,
+      "mask": 16,
+      "bias": 0,
+      "train_score": 0.00157337790819,
+      "train_log_advantage": 0.00157337790819,
+      "spatial_holdout_log_advantage": 0.000405306708366,
+      "late_all_log_advantage": 2.21736685439e-05,
+      "fit_rounds": "0:3",
+      "fit_regions": "53;38;21;51;26;22;56;9;40;23;4;54;61;7;59;43;12;30;15;17;62;1;5;49;33;39;20;6;42;14;18;45",
+      "late_validation_rounds": 4
+    }
+  ]
+}

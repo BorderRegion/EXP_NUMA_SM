@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-10-15T13:21:01.608779+00:00",
+  "user_network_authorized": true,
+  "power_limit_w": 100,
+  "original_total_worker_hours": 16,
+  "core_recipes": [
+    [
+      32,
+      128,
+      32,
+      32,
+      64,
+      32,
+      2
+    ],
+    [
+      64,
+      128,
+      32,
+      32,
+      64,
+      32,
+      2
+    ]
+  ],
+  "precision": "FP16 FP32 accumulation FP16 output; original tolerance",
+  "candidate_rules": "Original rule; qcap 1/2/4, waves1/2, work_budget128 K-tiles (BK32)",
+  "worker_rule": "per recipe common minimum measured occupancy across CORE/CACHE/FULL times SMs, capped by actual total tiles; no physical binding",
+  "max_candidate_recipes": 12,
+  "baseline_CACHE": "fixed q1/2/4 on same packet visitor; global selection on development only",
+  "baseline_BAL": "native round-robin, plus static descending K order for heterogeneous-K only",
+  "mainloop": "CUTLASS 3.5.1 SM75 DefaultGemmGrouped; unchanged MMA and epilogue",
+  "no_new_split_k": true,
+  "stage_E1": "24 original development shapes, both tile recipes, same-block installed libraries",
+  "finite_backbone_repairs_max": 4,
+  "source_identity": {
+    "repository": "https://github.com/NVIDIA/cutlass",
+    "tag": "v3.5.1",
+    "commit": "f7b19de32c5d1f3cedfc735c2849f12b537522ee",
+    "acquired_at": "2026-10-15T13:21:01.608779+00:00",
+    "method": "git clone --depth 1 --branch v3.5.1; full checkout",
+    "submodules": "none in this tag",
+    "local_modifications": "none; metadata only; operator changes in op-fused/src"
+  },
+  "old_tests": "previously viewed; report as regression/exploratory; freeze new independent data seeds before new candidate timing",
+  "input_seeds": [
+    2026101531,
+    2026101543,
+    2026101557,
+    2026101571,
+    2026101587,
+    2026101601
+  ],
+  "statistical_scope": "six fresh input-seed/process blocks; original structural shapes not novel",
+  "new_fusion": "only if legal pack sideband can be added; otherwise NA",
+  "attention": "optional only after grouped/layer evidence and remaining budget"
+}

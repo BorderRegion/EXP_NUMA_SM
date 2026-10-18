@@ -1,0 +1,27 @@
+{
+  "status": "CPU_PLAN_VALID",
+  "gpu_executed": false,
+  "counts": {
+    "baseline_gemm_development_cap": 704,
+    "pc_matrix_cell_episodes": 3072,
+    "pc_counterfactual_phases": 144,
+    "pc_full_resource_bridge_phases": 72,
+    "gemm_formal_phases_including_anchors": 2560,
+    "attention_formal_phases_including_anchors": 1920,
+    "layer_phases": 288,
+    "layer_anchor_phases": 144,
+    "fusion_phases": 144,
+    "power_sensitivity_phases": 64,
+    "power_sensitivity_anchor_phases": 32,
+    "lifetime_sessions": 36,
+    "reduced_gemm_or_attention_phases_including_anchors": 432
+  },
+  "maximum_explicit_gemm_tensor_bytes_example": 1476395008,
+  "maximum_KV_only_bytes": 4294967296,
+  "memory_note": "excludes backend workspaces, graph/runtime, references and other process use",
+  "gpu_worker_hours_cap": 24,
+  "cases": {
+    "gemm": 48,
+    "attention": 36
+  }
+}

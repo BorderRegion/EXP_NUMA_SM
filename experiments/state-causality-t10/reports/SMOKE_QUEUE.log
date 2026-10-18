@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/state-causality-t10/src/worker.py", line 33, in run
+    try:rc=p.wait(timeout=max(.1,min(5,remain-(time.monotonic()-start))));break
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2045, in _wait
+    raise TimeoutExpired(self.args, timeout)
+subprocess.TimeoutExpired: Command '['/home/ubuntu/projects/leetgpu-lab/.venv/bin/python3', 'state-causality-t10/src/state_experiment.py', '/home/ubuntu/文档/ChatGPT/numa_gpu/state-causality-t10/runs/20261017T092352Z/raw/S0_SMOKE', 'smoke', '0']' timed out after 5 seconds
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/state-causality-t10/src/worker.py", line 60, in <module>
+    run(sys.argv[1],sys.argv[2:])
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/state-causality-t10/src/worker.py", line 39, in run
+    if last and json.loads(last[0])['temperature_c']['value'] is not None and json.loads(last[0])['temperature_c']['value']>=82:
+                ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'temperature_c'

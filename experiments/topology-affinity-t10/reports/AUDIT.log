@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "workers": 26,
+  "worker_seconds": 748.5816654210212,
+  "budget_seconds": 3600,
+  "numerical_checks": 22132,
+  "graphs_checked": 2328,
+  "timing_observations": 1299456,
+  "test_observations": 241920,
+  "micro_launches": 261320,
+  "micro_records": 751532,
+  "independent_input_hashes": 88,
+  "temperature_min": 63,
+  "temperature_max": 73,
+  "power_limit_w": 100,
+  "baseline_exact_binary": true,
+  "implementation_unchanged": true,
+  "random_selection_before_confirmation": true,
+  "note": "One initial CPU analysis failure due missing pandas preserved. Installation/resume made no GPU-code or map-algorithm change."
+}

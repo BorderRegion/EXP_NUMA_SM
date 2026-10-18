@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-18T12:42:23.187932+00:00",
+  "choices": {
+    "batch": 12,
+    "freshbatch": 45
+  },
+  "source_hashes": {
+    "runs/20261018T123848Z/dev_0/freshbatch/timing.csv.gz": "cf48a93764da0df2a94ef245b9a3abb0b29fd9d7aeccb8ae3c35f524bcd5b7ae",
+    "runs/20261018T123848Z/dev_0/batch/timing.csv.gz": "d85cfa17a7c4c057fb1360a7ca7a68990547291ce59cf2caf8a7d76497cc51e6",
+    "runs/20261018T123848Z/dev_1/freshbatch/timing.csv.gz": "7fc7798786b2147758d65be54121b5563526ca62a94ca913e767dbd29307f84e",
+    "runs/20261018T123848Z/dev_1/batch/timing.csv.gz": "2ef36c9e503d3cba97a2256ab6f5cada4702e53d4efbdd67f3514524acadb9c9"
+  },
+  "selection": "minimum equal-process/block median GPU log time among16 fixed candidates; no confirmation used"
+}

@@ -1,0 +1,24 @@
+{
+  "frozen_at": "2026-10-15T13:33:37.364266+00:00",
+  "before_new_candidate_performance": true,
+  "recipe": "min equal-case geometric CORE time across original 24 development shapes and six blocks",
+  "library": "min equal-case geometric time of PER_EXPERT_GRAPH/NATIVE_GROUPED_GRAPH under current fixed100W",
+  "cache": "min equal-case geometric CACHE q1/2/4 at selected recipe",
+  "full": "min equal-case geometric FULL qcap1/2/4 waves1/2 at selected recipe; no test lookup",
+  "simple": "min CORE and selected CACHE on development; native RR BAL aliases CORE for equal K",
+  "backbone_gap_threshold": 1.25,
+  "backbone_gap_scope": "CORE/LIB development geometric time ratio; engineering branch decision, not method no-go",
+  "if_gap": "fixed original 24 grouped test subset plus six fixed test layers; retain same-body result",
+  "if_no_gap": "all72 original grouped tests and original 18 test layers if remaining stage budget permits",
+  "calibration_blocks": 6,
+  "independent_input_seeds": [
+    2026101531,
+    2026101543,
+    2026101557,
+    2026101571,
+    2026101587,
+    2026101601
+  ],
+  "comparison_rule": "No changes after holdout; no oracle library or per-case policy choice",
+  "work_budget_amendment": false
+}

@@ -1,0 +1,13 @@
+{
+  "requests": [
+    {
+      "key": "sanitizer_edges",
+      "original_status": "REQUESTED",
+      "released_at": "2026-10-16T11:39:56.441360+00:00",
+      "worker_s_already_debited": 0.05994869099231437,
+      "pid_absent": true,
+      "executable_target_is_directory": true,
+      "resolution": "Failed prelaunch request; not a pending task. Kept original raw manifest and ledger. Correct bin/compute-sanitizer later ran successfully in sanitizer_edges_02 and sanitizer_production."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "evidence/paired.py",
+    "source_archive": "/mnt/data/T10_SELECTIVE_REORDER_REPAIR_V2_REVIEW_SMALL_20261017.zip",
+    "archive_member": "T10_SELECTIVE_REORDER_REPAIR_V2_REVIEW_SMALL_20261017/src/paired.py",
+    "sha256": "7194ce68a6ef92703626b52df083a3158a5e3e3e67dcfc9ca7755e98f0cfb84b",
+    "purpose": "只读来源，不能覆盖本机运行文件或当作新补丁"
+  },
+  {
+    "file": "evidence/pair_runtime.hpp",
+    "source_archive": "/mnt/data/T10_SELECTIVE_REORDER_REPAIR_V2_REVIEW_SMALL_20261017.zip",
+    "archive_member": "T10_SELECTIVE_REORDER_REPAIR_V2_REVIEW_SMALL_20261017/src/pair_runtime.hpp",
+    "sha256": "de977c141ac5e6202b486c0dc0cf5b7600e087ec1f85f138de7bc5fca4e534c0",
+    "purpose": "只读来源，不能覆盖本机运行文件或当作新补丁"
+  },
+  {
+    "file": "evidence/pair_suite.py",
+    "source_archive": "/mnt/data/T10_SELECTIVE_REORDER_REPAIR_V2_REVIEW_SMALL_20261017.zip",
+    "archive_member": "T10_SELECTIVE_REORDER_REPAIR_V2_REVIEW_SMALL_20261017/src/pair_suite.py",
+    "sha256": "29f1f000f9c76e0d1173a97e106c6d5220481733fd8d588742781fb409cc9b8e",
+    "purpose": "只读来源，不能覆盖本机运行文件或当作新补丁"
+  },
+  {
+    "file": "evidence/runtime_extra.hpp",
+    "source_archive": "/mnt/data/T10_SELECTIVE_REORDER_REPAIR_V2_REVIEW_SMALL_20261017.zip",
+    "archive_member": "T10_SELECTIVE_REORDER_REPAIR_V2_REVIEW_SMALL_20261017/src/runtime_extra.hpp",
+    "sha256": "eb380977a276ab4545e880ac9fbd24295ef129415dfdf89ee6e2bca5a76a1345",
+    "purpose": "只读来源，不能覆盖本机运行文件或当作新补丁"
+  },
+  {
+    "file": "evidence/deployment_v2.py",
+    "source_archive": "/mnt/data/T10_SELECTIVE_REORDER_REPAIR_V2_REVIEW_SMALL_20261017.zip",
+    "archive_member": "T10_SELECTIVE_REORDER_REPAIR_V2_REVIEW_SMALL_20261017/src/deployment_v2.py",
+    "sha256": "9cd9fba29641f32958508dd1e65309b4b237db829d99348b412587e67e932d71",
+    "purpose": "只读来源，不能覆盖本机运行文件或当作新补丁"
+  },
+  {
+    "file": "evidence/deploy.py",
+    "source_archive": "/mnt/data/T10_SELECTIVE_REORDER_REPAIR_V2_REVIEW_SMALL_20261017.zip",
+    "archive_member": "T10_SELECTIVE_REORDER_REPAIR_V2_REVIEW_SMALL_20261017/src/deploy.py",
+    "sha256": "6a61f901b101a39f43923c7538b70f39eb7de7e54dbf1dc17c11ccd1c6a36d3a",
+    "purpose": "只读来源，不能覆盖本机运行文件或当作新补丁"
+  }
+]

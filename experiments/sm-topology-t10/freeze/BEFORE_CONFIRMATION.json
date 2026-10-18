@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-17T12:16:04.609239+00:00",
+  "mapping_sha256": "825c84d6da8730d7cf5cfb51bb36f969df493f241b73068f78e70bbaecd4a7fa",
+  "new_sources": {
+    "common.py": "b347b30c3645091f5b0c1b42d47bd34b8e7a93a8111475bd67a74b4bf1922ad2",
+    "run_confirmation.py": "fdf9ed1267e93f9e45b2ed953aad60d7efa40c51e450cd32ae0a01ab437c94b9",
+    "analysis_lib.py": "9d9f8bbd471d6a22e8b121be2ec1cc98aba114aba1283834bb53b012dfb698ef",
+    "types.hpp": "6eb117f2eb045aab68b67988b06e9a1a394b4ceb728dced06b4c925dfe91b355",
+    "runner.cpp": "0893eddc78bda995a48a71a03abb7a9fc1364c64ebc31ff16f79b8219f9a5de9",
+    "worker.py": "c9651ebed82b453f798d47af85e6e92b7deeea75bf61db085b7af179b51643f1",
+    "build.py": "f9847315c4c29031f05f6e491bc805b01a4c1cb97a438a4041f79ddfd0838782",
+    "kernels.cu": "5044c26bc7978f38f28c386be7e5a40dc635179c7202f3b8ea20049576fdd155",
+    "freeze_mapping.py": "758a6e9c81c1210111d838362f1b6a058780ea07d6927d7cfd3eff213910af9a",
+    "nvml_state.py": "4bd85f03f65821332180cb785751a5c5e005f3a7b3c9cf5014f088bead2ad1b7",
+    "make_plans.py": "4c5632ad367baba3b46c5076deb28c0b21ce76918c3a227762f53e0a0de5a172"
+  }
+}

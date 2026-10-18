@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-10-18T02:59:44.889371+00:00",
+  "operation": "FP32 vocabulary softmax, one token, full output; synthetic dynamic logits; no model tokens/s claim",
+  "cases": [
+    32768,
+    65536,
+    131072,
+    262144
+  ],
+  "slot_pages": [
+    0,
+    17,
+    257
+  ],
+  "workers": 56,
+  "threads_per_worker": 128,
+  "dynamic_shared_bytes": 49152,
+  "resident_CTA_per_SM": 1,
+  "production": "Each SM computes fixed strided logits. Even SM producers publish 8-byte logsumexp state at fixed producer-owned mailbox; odd consumers assigned by map merge once. Last consumer reduces 28 states and publishes global norm; all SMs output probabilities. No synthetic repeat loop in operator.",
+  "mechanism": "Only odd-SM consumer permutation changes. Producer SMs, input work, mailbox addresses and total work unchanged; all CTA initialization/barrier, polls, launch and reset included.",
+  "calibration": "Two training and two validation processes, 28x28 directed pairs x3 actual aligned mailbox offsets, 2 rounds, 128+16 warm round trips, 8-byte payload. Independent from real-operator timings. Isolated RTT is proxy, not exact one-way latency.",
+  "mapping": [
+    "MINIMAX",
+    "MINSUM",
+    "WORST",
+    "IDENTITY",
+    "RANDOM"
+  ],
+  "fit": "Minimax from training cycles with minsum tie break. WORST maximizes total isolated cost. Map fixed before holdout operator; no end-to-end map selection.",
+  "baselines": [
+    "torch.softmax",
+    "native two-pass full-GPU softmax with matching math precision",
+    "same cooperative paired kernel with IDENTITY and RANDOM"
+  ],
+  "holdout_processes": 6,
+  "blocks": 32,
+  "replays": 10,
+  "seed_base": 104000000,
+  "stats": "Paired log ratios of block medians; per process aggregate, six-process bootstrap; case/offset all retained.",
+  "claim": "Net gain over fastest development selected ordinary baseline plus SAME_KERNEL_IDENTITY and RANDOM; lower95CI>0 overall, corrected98.75percase. No fake success from general fusion or launch reduction.",
+  "budget": "Shared parent3600 workerseconds, temperature82C power100W; no changes to established fast Attention baseline"
+}

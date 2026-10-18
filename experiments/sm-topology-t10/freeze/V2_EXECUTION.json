@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-17T12:20:25.576532+00:00",
+  "protocol_sha256": "d99293dbbfd4e5dc7093127785da86238406f433191db66b5d7d7df57e8e77b0",
+  "files": {
+    "src/run_v2.py": "49f100849e276d448a30217fd0841adc52f68cfdcae6c9c12630e8e9aaf9f300",
+    "src/build_v2.py": "22dde8b84308bbc74b3798318e899eabed1f5cd540a67200c258b4ae1a4ca72e",
+    "src/common.py": "b347b30c3645091f5b0c1b42d47bd34b8e7a93a8111475bd67a74b4bf1922ad2",
+    "src/run_confirmation.py": "fdf9ed1267e93f9e45b2ed953aad60d7efa40c51e450cd32ae0a01ab437c94b9",
+    "src/freeze_v2.py": "9d793588b8d5623705117620c0c87bfcc2a8992bd11a37466baed574797fcc8f",
+    "src/analysis_lib.py": "9d9f8bbd471d6a22e8b121be2ec1cc98aba114aba1283834bb53b012dfb698ef",
+    "src/types.hpp": "6eb117f2eb045aab68b67988b06e9a1a394b4ceb728dced06b4c925dfe91b355",
+    "src/runner.cpp": "0893eddc78bda995a48a71a03abb7a9fc1364c64ebc31ff16f79b8219f9a5de9",
+    "src/worker.py": "c9651ebed82b453f798d47af85e6e92b7deeea75bf61db085b7af179b51643f1",
+    "src/build.py": "f9847315c4c29031f05f6e491bc805b01a4c1cb97a438a4041f79ddfd0838782",
+    "src/kernels.cu": "5044c26bc7978f38f28c386be7e5a40dc635179c7202f3b8ea20049576fdd155",
+    "src/freeze_mapping.py": "758a6e9c81c1210111d838362f1b6a058780ea07d6927d7cfd3eff213910af9a",
+    "src/nvml_state.py": "4bd85f03f65821332180cb785751a5c5e005f3a7b3c9cf5014f088bead2ad1b7",
+    "src/make_plans.py": "4c5632ad367baba3b46c5076deb28c0b21ce76918c3a227762f53e0a0de5a172",
+    "build_v2/kernels_v2.cu": "f74d044fefd689df34bba36dd61c0e02366eb3f710ca1aa52553fe5003d17834",
+    "build_v2/compile.log": "ade9165fd15c4b3d5b5dfae7d9bc864039697b101e7136cfb1818a47b710ed6f",
+    "build_v2/types.hpp": "6eb117f2eb045aab68b67988b06e9a1a394b4ceb728dced06b4c925dfe91b355",
+    "build_v2/probe.sass.txt": "e8a98c7390775ee3c5092ae75cd12734e00b7d3a94aaafa80824faf8af42e433",
+    "build_v2/probe.cubin": "f87e9642da38d4b00eb7126bd0e434683503e033dde930d53412dd22d237c45c",
+    "build_v2/build.json": "d1d815327762bd3d926a37777a5aec7406f75eaabbba874b2785dc1c3ec9a09c",
+    "build_v2/runner": "1b991015862da7afbe5731abfb510a217c6483b71e4ed69a148943ebcb966313"
+  }
+}

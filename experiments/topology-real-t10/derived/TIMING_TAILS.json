@@ -1,0 +1,5018 @@
+[
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "policy": "BASE",
+    "host_minus_event_s": 0.17128649850219727,
+    "top_host": [
+      {
+        "block": 11,
+        "replay": 670,
+        "gpu_us": 206.40000915527344,
+        "host_us": 263.372
+      },
+      {
+        "block": 13,
+        "replay": 1399,
+        "gpu_us": 204.92799377441406,
+        "host_us": 257.018
+      },
+      {
+        "block": 3,
+        "replay": 1596,
+        "gpu_us": 200.83200073242188,
+        "host_us": 251.877
+      },
+      {
+        "block": 5,
+        "replay": 1420,
+        "gpu_us": 201.75999450683594,
+        "host_us": 250.386
+      },
+      {
+        "block": 0,
+        "replay": 1855,
+        "gpu_us": 243.7119903564453,
+        "host_us": 249.803
+      }
+    ]
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "policy": "FROZEN",
+    "host_minus_event_s": 0.17292084811743166,
+    "top_host": [
+      {
+        "block": 3,
+        "replay": 1334,
+        "gpu_us": 200.70399475097656,
+        "host_us": 254.844
+      },
+      {
+        "block": 9,
+        "replay": 164,
+        "gpu_us": 200.86399841308594,
+        "host_us": 252.117
+      },
+      {
+        "block": 3,
+        "replay": 996,
+        "gpu_us": 200.83200073242188,
+        "host_us": 250.153
+      },
+      {
+        "block": 1,
+        "replay": 1309,
+        "gpu_us": 204.48001098632812,
+        "host_us": 246.733
+      },
+      {
+        "block": 8,
+        "replay": 1047,
+        "gpu_us": 198.65599060058594,
+        "host_us": 245.379
+      }
+    ]
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "policy": "LEGACY",
+    "host_minus_event_s": 0.1703822169321289,
+    "top_host": [
+      {
+        "block": 5,
+        "replay": 1515,
+        "gpu_us": 201.79200744628906,
+        "host_us": 261.463
+      },
+      {
+        "block": 15,
+        "replay": 1066,
+        "gpu_us": 206.55999755859375,
+        "host_us": 261.347
+      },
+      {
+        "block": 15,
+        "replay": 1062,
+        "gpu_us": 206.94400024414062,
+        "host_us": 256.706
+      },
+      {
+        "block": 10,
+        "replay": 1306,
+        "gpu_us": 206.14401245117188,
+        "host_us": 255.374
+      },
+      {
+        "block": 7,
+        "replay": 1212,
+        "gpu_us": 202.0800018310547,
+        "host_us": 251.997
+      }
+    ]
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "policy": "PAIR_ONLY",
+    "host_minus_event_s": 0.1736114510196533,
+    "top_host": [
+      {
+        "block": 3,
+        "replay": 1041,
+        "gpu_us": 204.6719970703125,
+        "host_us": 289.256
+      },
+      {
+        "block": 3,
+        "replay": 560,
+        "gpu_us": 199.26400756835938,
+        "host_us": 275.595
+      },
+      {
+        "block": 7,
+        "replay": 680,
+        "gpu_us": 199.26400756835938,
+        "host_us": 266.827
+      },
+      {
+        "block": 10,
+        "replay": 897,
+        "gpu_us": 257.2480163574219,
+        "host_us": 266.434
+      },
+      {
+        "block": 4,
+        "replay": 835,
+        "gpu_us": 256.4159851074219,
+        "host_us": 265.69
+      }
+    ]
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "policy": "PLACE_ONLY",
+    "host_minus_event_s": 0.17376354336877442,
+    "top_host": [
+      {
+        "block": 15,
+        "replay": 725,
+        "gpu_us": 204.79998779296875,
+        "host_us": 319.478
+      },
+      {
+        "block": 11,
+        "replay": 5,
+        "gpu_us": 200.3520050048828,
+        "host_us": 262.794
+      },
+      {
+        "block": 4,
+        "replay": 37,
+        "gpu_us": 200.5120086669922,
+        "host_us": 255.617
+      },
+      {
+        "block": 12,
+        "replay": 1145,
+        "gpu_us": 202.72000122070312,
+        "host_us": 254.427
+      },
+      {
+        "block": 15,
+        "replay": 151,
+        "gpu_us": 203.16799926757812,
+        "host_us": 254.092
+      }
+    ]
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "policy": "POOL",
+    "host_minus_event_s": 0.17228515208532716,
+    "top_host": [
+      {
+        "block": 7,
+        "replay": 421,
+        "gpu_us": 216.6719970703125,
+        "host_us": 285.565
+      },
+      {
+        "block": 0,
+        "replay": 1260,
+        "gpu_us": 200.19200134277344,
+        "host_us": 261.543
+      },
+      {
+        "block": 3,
+        "replay": 686,
+        "gpu_us": 200.6719970703125,
+        "host_us": 260.325
+      },
+      {
+        "block": 2,
+        "replay": 61,
+        "gpu_us": 198.65599060058594,
+        "host_us": 259.031
+      },
+      {
+        "block": 3,
+        "replay": 382,
+        "gpu_us": 251.64801025390625,
+        "host_us": 258.609
+      }
+    ]
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "policy": "SHADOW",
+    "host_minus_event_s": 0.17244653778173827,
+    "top_host": [
+      {
+        "block": 14,
+        "replay": 150,
+        "gpu_us": 215.45599365234375,
+        "host_us": 361.291
+      },
+      {
+        "block": 9,
+        "replay": 1148,
+        "gpu_us": 202.5919952392578,
+        "host_us": 322.158
+      },
+      {
+        "block": 4,
+        "replay": 1953,
+        "gpu_us": 208.6719970703125,
+        "host_us": 287.703
+      },
+      {
+        "block": 15,
+        "replay": 914,
+        "gpu_us": 205.5679931640625,
+        "host_us": 275.314
+      },
+      {
+        "block": 12,
+        "replay": 17,
+        "gpu_us": 205.760009765625,
+        "host_us": 273.747
+      }
+    ]
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "policy": "STATIC",
+    "host_minus_event_s": 0.1731278991940918,
+    "top_host": [
+      {
+        "block": 9,
+        "replay": 1879,
+        "gpu_us": 202.94400024414062,
+        "host_us": 277.734
+      },
+      {
+        "block": 2,
+        "replay": 1,
+        "gpu_us": 205.34400939941406,
+        "host_us": 276.133
+      },
+      {
+        "block": 15,
+        "replay": 1919,
+        "gpu_us": 210.94400024414062,
+        "host_us": 269.771
+      },
+      {
+        "block": 2,
+        "replay": 23,
+        "gpu_us": 201.95199584960938,
+        "host_us": 262.806
+      },
+      {
+        "block": 3,
+        "replay": 1337,
+        "gpu_us": 202.7519989013672,
+        "host_us": 262.383
+      }
+    ]
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "policy": "TUNED",
+    "host_minus_event_s": 0.1718909027568359,
+    "top_host": [
+      {
+        "block": 5,
+        "replay": 422,
+        "gpu_us": 208.19200134277344,
+        "host_us": 277.948
+      },
+      {
+        "block": 10,
+        "replay": 1491,
+        "gpu_us": 201.21600341796875,
+        "host_us": 273.124
+      },
+      {
+        "block": 9,
+        "replay": 40,
+        "gpu_us": 200.19200134277344,
+        "host_us": 265.727
+      },
+      {
+        "block": 1,
+        "replay": 1899,
+        "gpu_us": 201.63198852539062,
+        "host_us": 259.094
+      },
+      {
+        "block": 12,
+        "replay": 1112,
+        "gpu_us": 204.70399475097656,
+        "host_us": 250.521
+      }
+    ]
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "policy": "TUNED_AA",
+    "host_minus_event_s": 0.1705996941710205,
+    "top_host": [
+      {
+        "block": 4,
+        "replay": 57,
+        "gpu_us": 200.8000030517578,
+        "host_us": 278.414
+      },
+      {
+        "block": 3,
+        "replay": 259,
+        "gpu_us": 199.52000427246094,
+        "host_us": 248.102
+      },
+      {
+        "block": 9,
+        "replay": 673,
+        "gpu_us": 199.1999969482422,
+        "host_us": 246.592
+      },
+      {
+        "block": 3,
+        "replay": 1434,
+        "gpu_us": 240.03199768066406,
+        "host_us": 246.227
+      },
+      {
+        "block": 12,
+        "replay": 143,
+        "gpu_us": 203.00799560546875,
+        "host_us": 245.533
+      }
+    ]
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "policy": "WRONG",
+    "host_minus_event_s": 0.1725681259713135,
+    "top_host": [
+      {
+        "block": 0,
+        "replay": 434,
+        "gpu_us": 200.8000030517578,
+        "host_us": 1764.782
+      },
+      {
+        "block": 0,
+        "replay": 446,
+        "gpu_us": 200.70399475097656,
+        "host_us": 406.638
+      },
+      {
+        "block": 0,
+        "replay": 426,
+        "gpu_us": 200.6719970703125,
+        "host_us": 393.928
+      },
+      {
+        "block": 14,
+        "replay": 21,
+        "gpu_us": 205.6320037841797,
+        "host_us": 290.743
+      },
+      {
+        "block": 2,
+        "replay": 2009,
+        "gpu_us": 200.89599609375,
+        "host_us": 280.59
+      }
+    ]
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "policy": "BASE",
+    "host_minus_event_s": 0.18169723407836916,
+    "top_host": [
+      {
+        "block": 6,
+        "replay": 204,
+        "gpu_us": 321.5360107421875,
+        "host_us": 605.702
+      },
+      {
+        "block": 5,
+        "replay": 188,
+        "gpu_us": 316.76800537109375,
+        "host_us": 394.0
+      },
+      {
+        "block": 14,
+        "replay": 110,
+        "gpu_us": 356.2560119628906,
+        "host_us": 390.684
+      },
+      {
+        "block": 7,
+        "replay": 1048,
+        "gpu_us": 323.10400390625,
+        "host_us": 389.438
+      },
+      {
+        "block": 15,
+        "replay": 1080,
+        "gpu_us": 327.1679992675781,
+        "host_us": 387.871
+      }
+    ]
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "policy": "FROZEN",
+    "host_minus_event_s": 0.1854829494172363,
+    "top_host": [
+      {
+        "block": 6,
+        "replay": 1963,
+        "gpu_us": 323.8080139160156,
+        "host_us": 3120.787
+      },
+      {
+        "block": 6,
+        "replay": 1975,
+        "gpu_us": 321.2799987792969,
+        "host_us": 443.263
+      },
+      {
+        "block": 11,
+        "replay": 139,
+        "gpu_us": 337.5680236816406,
+        "host_us": 430.24
+      },
+      {
+        "block": 5,
+        "replay": 1164,
+        "gpu_us": 323.583984375,
+        "host_us": 390.739
+      },
+      {
+        "block": 4,
+        "replay": 1430,
+        "gpu_us": 365.343994140625,
+        "host_us": 384.389
+      }
+    ]
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "policy": "LEGACY",
+    "host_minus_event_s": 0.18289020766870118,
+    "top_host": [
+      {
+        "block": 10,
+        "replay": 1722,
+        "gpu_us": 337.9200134277344,
+        "host_us": 402.46
+      },
+      {
+        "block": 11,
+        "replay": 856,
+        "gpu_us": 323.8080139160156,
+        "host_us": 391.942
+      },
+      {
+        "block": 9,
+        "replay": 1839,
+        "gpu_us": 324.4800109863281,
+        "host_us": 391.499
+      },
+      {
+        "block": 0,
+        "replay": 378,
+        "gpu_us": 314.11199951171875,
+        "host_us": 379.192
+      },
+      {
+        "block": 8,
+        "replay": 8,
+        "gpu_us": 321.5360107421875,
+        "host_us": 377.203
+      }
+    ]
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "policy": "PAIR_ONLY",
+    "host_minus_event_s": 0.1816586685341797,
+    "top_host": [
+      {
+        "block": 11,
+        "replay": 535,
+        "gpu_us": 391.0400085449219,
+        "host_us": 400.2
+      },
+      {
+        "block": 11,
+        "replay": 1266,
+        "gpu_us": 377.31201171875,
+        "host_us": 384.378
+      },
+      {
+        "block": 8,
+        "replay": 1272,
+        "gpu_us": 322.1440124511719,
+        "host_us": 383.807
+      },
+      {
+        "block": 11,
+        "replay": 505,
+        "gpu_us": 324.0639953613281,
+        "host_us": 381.123
+      },
+      {
+        "block": 14,
+        "replay": 799,
+        "gpu_us": 325.0240173339844,
+        "host_us": 375.294
+      }
+    ]
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "policy": "PLACE_ONLY",
+    "host_minus_event_s": 0.1819539998459473,
+    "top_host": [
+      {
+        "block": 7,
+        "replay": 1738,
+        "gpu_us": 323.583984375,
+        "host_us": 396.819
+      },
+      {
+        "block": 3,
+        "replay": 126,
+        "gpu_us": 319.0400085449219,
+        "host_us": 375.459
+      },
+      {
+        "block": 7,
+        "replay": 748,
+        "gpu_us": 319.5199890136719,
+        "host_us": 375.253
+      },
+      {
+        "block": 8,
+        "replay": 990,
+        "gpu_us": 323.1999816894531,
+        "host_us": 374.784
+      },
+      {
+        "block": 14,
+        "replay": 613,
+        "gpu_us": 323.8399963378906,
+        "host_us": 369.276
+      }
+    ]
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "policy": "POOL",
+    "host_minus_event_s": 0.1941794255461426,
+    "top_host": [
+      {
+        "block": 6,
+        "replay": 1971,
+        "gpu_us": 315.3919982910156,
+        "host_us": 1585.612
+      },
+      {
+        "block": 6,
+        "replay": 2017,
+        "gpu_us": 316.3840026855469,
+        "host_us": 1453.333
+      },
+      {
+        "block": 5,
+        "replay": 1548,
+        "gpu_us": 325.3119812011719,
+        "host_us": 1418.606
+      },
+      {
+        "block": 6,
+        "replay": 1832,
+        "gpu_us": 319.4560241699219,
+        "host_us": 1386.609
+      },
+      {
+        "block": 6,
+        "replay": 1878,
+        "gpu_us": 319.7439880371094,
+        "host_us": 1337.435
+      }
+    ]
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "policy": "SHADOW",
+    "host_minus_event_s": 0.18202615765356447,
+    "top_host": [
+      {
+        "block": 10,
+        "replay": 846,
+        "gpu_us": 386.8479919433594,
+        "host_us": 392.772
+      },
+      {
+        "block": 3,
+        "replay": 3,
+        "gpu_us": 380.7359924316406,
+        "host_us": 387.625
+      },
+      {
+        "block": 13,
+        "replay": 1778,
+        "gpu_us": 324.6400146484375,
+        "host_us": 385.177
+      },
+      {
+        "block": 11,
+        "replay": 1508,
+        "gpu_us": 324.0320129394531,
+        "host_us": 382.066
+      },
+      {
+        "block": 14,
+        "replay": 370,
+        "gpu_us": 325.5039978027344,
+        "host_us": 379.827
+      }
+    ]
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "policy": "STATIC",
+    "host_minus_event_s": 0.1806836571364746,
+    "top_host": [
+      {
+        "block": 13,
+        "replay": 672,
+        "gpu_us": 322.30401611328125,
+        "host_us": 385.422
+      },
+      {
+        "block": 9,
+        "replay": 1416,
+        "gpu_us": 323.00799560546875,
+        "host_us": 380.908
+      },
+      {
+        "block": 4,
+        "replay": 2001,
+        "gpu_us": 323.2960205078125,
+        "host_us": 379.011
+      },
+      {
+        "block": 15,
+        "replay": 39,
+        "gpu_us": 325.66400146484375,
+        "host_us": 375.885
+      },
+      {
+        "block": 7,
+        "replay": 1798,
+        "gpu_us": 322.3999938964844,
+        "host_us": 373.288
+      }
+    ]
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "policy": "TUNED",
+    "host_minus_event_s": 0.18522657888891603,
+    "top_host": [
+      {
+        "block": 6,
+        "replay": 12,
+        "gpu_us": 316.3840026855469,
+        "host_us": 1370.333
+      },
+      {
+        "block": 6,
+        "replay": 58,
+        "gpu_us": 314.2400207519531,
+        "host_us": 1366.448
+      },
+      {
+        "block": 6,
+        "replay": 105,
+        "gpu_us": 315.03997802734375,
+        "host_us": 957.005
+      },
+      {
+        "block": 5,
+        "replay": 1262,
+        "gpu_us": 410.6239929199219,
+        "host_us": 429.48
+      },
+      {
+        "block": 5,
+        "replay": 1258,
+        "gpu_us": 403.3280029296875,
+        "host_us": 421.79
+      }
+    ]
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "policy": "TUNED_AA",
+    "host_minus_event_s": 0.18484716176953125,
+    "top_host": [
+      {
+        "block": 6,
+        "replay": 181,
+        "gpu_us": 321.5999755859375,
+        "host_us": 1147.961
+      },
+      {
+        "block": 6,
+        "replay": 139,
+        "gpu_us": 322.0480041503906,
+        "host_us": 1145.697
+      },
+      {
+        "block": 6,
+        "replay": 148,
+        "gpu_us": 323.2960205078125,
+        "host_us": 605.425
+      },
+      {
+        "block": 6,
+        "replay": 775,
+        "gpu_us": 317.0559997558594,
+        "host_us": 489.163
+      },
+      {
+        "block": 6,
+        "replay": 1129,
+        "gpu_us": 319.48797607421875,
+        "host_us": 443.96
+      }
+    ]
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "policy": "WRONG",
+    "host_minus_event_s": 0.18136440086083985,
+    "top_host": [
+      {
+        "block": 13,
+        "replay": 1268,
+        "gpu_us": 323.93597412109375,
+        "host_us": 391.006
+      },
+      {
+        "block": 4,
+        "replay": 166,
+        "gpu_us": 322.9759826660156,
+        "host_us": 378.302
+      },
+      {
+        "block": 9,
+        "replay": 313,
+        "gpu_us": 322.7200012207031,
+        "host_us": 377.354
+      },
+      {
+        "block": 15,
+        "replay": 816,
+        "gpu_us": 319.135986328125,
+        "host_us": 377.304
+      },
+      {
+        "block": 10,
+        "replay": 1284,
+        "gpu_us": 340.7039794921875,
+        "host_us": 373.167
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "policy": "BASE",
+    "host_minus_event_s": 0.17476900105029297,
+    "top_host": [
+      {
+        "block": 15,
+        "replay": 434,
+        "gpu_us": 212.92799377441406,
+        "host_us": 296.691
+      },
+      {
+        "block": 2,
+        "replay": 1724,
+        "gpu_us": 214.11199951171875,
+        "host_us": 294.782
+      },
+      {
+        "block": 13,
+        "replay": 1439,
+        "gpu_us": 213.37600708007812,
+        "host_us": 273.525
+      },
+      {
+        "block": 3,
+        "replay": 665,
+        "gpu_us": 211.00799560546875,
+        "host_us": 268.633
+      },
+      {
+        "block": 6,
+        "replay": 1229,
+        "gpu_us": 226.7840118408203,
+        "host_us": 265.366
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "policy": "FROZEN",
+    "host_minus_event_s": 0.1752422934664307,
+    "top_host": [
+      {
+        "block": 11,
+        "replay": 898,
+        "gpu_us": 216.6719970703125,
+        "host_us": 260.621
+      },
+      {
+        "block": 6,
+        "replay": 560,
+        "gpu_us": 212.83200073242188,
+        "host_us": 260.42
+      },
+      {
+        "block": 7,
+        "replay": 1782,
+        "gpu_us": 212.8000030517578,
+        "host_us": 258.102
+      },
+      {
+        "block": 4,
+        "replay": 1889,
+        "gpu_us": 212.73599243164062,
+        "host_us": 256.745
+      },
+      {
+        "block": 0,
+        "replay": 980,
+        "gpu_us": 213.56800842285156,
+        "host_us": 256.127
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "policy": "LEGACY",
+    "host_minus_event_s": 0.17711915994433594,
+    "top_host": [
+      {
+        "block": 3,
+        "replay": 396,
+        "gpu_us": 218.27200317382812,
+        "host_us": 287.082
+      },
+      {
+        "block": 15,
+        "replay": 340,
+        "gpu_us": 213.56800842285156,
+        "host_us": 277.758
+      },
+      {
+        "block": 8,
+        "replay": 1638,
+        "gpu_us": 214.14401245117188,
+        "host_us": 275.017
+      },
+      {
+        "block": 0,
+        "replay": 599,
+        "gpu_us": 213.15200805664062,
+        "host_us": 272.745
+      },
+      {
+        "block": 6,
+        "replay": 0,
+        "gpu_us": 226.40000915527344,
+        "host_us": 268.789
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "policy": "PAIR_ONLY",
+    "host_minus_event_s": 0.1744459562623291,
+    "top_host": [
+      {
+        "block": 2,
+        "replay": 1513,
+        "gpu_us": 209.05599975585938,
+        "host_us": 264.749
+      },
+      {
+        "block": 6,
+        "replay": 809,
+        "gpu_us": 212.89601135253906,
+        "host_us": 262.242
+      },
+      {
+        "block": 13,
+        "replay": 1677,
+        "gpu_us": 212.99200439453125,
+        "host_us": 258.978
+      },
+      {
+        "block": 4,
+        "replay": 1671,
+        "gpu_us": 211.29600524902344,
+        "host_us": 256.987
+      },
+      {
+        "block": 3,
+        "replay": 1852,
+        "gpu_us": 210.87998962402344,
+        "host_us": 255.048
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "policy": "PLACE_ONLY",
+    "host_minus_event_s": 0.17490028782092285,
+    "top_host": [
+      {
+        "block": 10,
+        "replay": 618,
+        "gpu_us": 217.60000610351562,
+        "host_us": 276.711
+      },
+      {
+        "block": 6,
+        "replay": 1325,
+        "gpu_us": 263.072021484375,
+        "host_us": 269.999
+      },
+      {
+        "block": 5,
+        "replay": 1264,
+        "gpu_us": 250.656005859375,
+        "host_us": 266.46
+      },
+      {
+        "block": 4,
+        "replay": 893,
+        "gpu_us": 222.81600952148438,
+        "host_us": 265.425
+      },
+      {
+        "block": 3,
+        "replay": 811,
+        "gpu_us": 212.99200439453125,
+        "host_us": 263.511
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "policy": "POOL",
+    "host_minus_event_s": 0.1738765108469238,
+    "top_host": [
+      {
+        "block": 0,
+        "replay": 1074,
+        "gpu_us": 278.6880187988281,
+        "host_us": 284.752
+      },
+      {
+        "block": 6,
+        "replay": 1311,
+        "gpu_us": 211.4879913330078,
+        "host_us": 262.737
+      },
+      {
+        "block": 8,
+        "replay": 0,
+        "gpu_us": 218.91200256347656,
+        "host_us": 262.64
+      },
+      {
+        "block": 5,
+        "replay": 1834,
+        "gpu_us": 212.99200439453125,
+        "host_us": 253.217
+      },
+      {
+        "block": 2,
+        "replay": 1048,
+        "gpu_us": 212.99200439453125,
+        "host_us": 252.83
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "policy": "SHADOW",
+    "host_minus_event_s": 0.1749509539719238,
+    "top_host": [
+      {
+        "block": 6,
+        "replay": 1995,
+        "gpu_us": 213.53599548339844,
+        "host_us": 282.948
+      },
+      {
+        "block": 10,
+        "replay": 1521,
+        "gpu_us": 212.41600036621094,
+        "host_us": 281.188
+      },
+      {
+        "block": 4,
+        "replay": 1005,
+        "gpu_us": 223.93600463867188,
+        "host_us": 272.872
+      },
+      {
+        "block": 2,
+        "replay": 965,
+        "gpu_us": 215.39199829101562,
+        "host_us": 264.917
+      },
+      {
+        "block": 7,
+        "replay": 0,
+        "gpu_us": 235.52000427246094,
+        "host_us": 263.916
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "policy": "STATIC",
+    "host_minus_event_s": 0.17591733873266602,
+    "top_host": [
+      {
+        "block": 3,
+        "replay": 333,
+        "gpu_us": 216.60800170898438,
+        "host_us": 310.869
+      },
+      {
+        "block": 0,
+        "replay": 501,
+        "gpu_us": 214.91200256347656,
+        "host_us": 283.335
+      },
+      {
+        "block": 13,
+        "replay": 519,
+        "gpu_us": 215.0399932861328,
+        "host_us": 281.356
+      },
+      {
+        "block": 1,
+        "replay": 815,
+        "gpu_us": 213.4720001220703,
+        "host_us": 280.043
+      },
+      {
+        "block": 4,
+        "replay": 990,
+        "gpu_us": 218.11199951171875,
+        "host_us": 277.465
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "policy": "TUNED",
+    "host_minus_event_s": 0.17471267207519534,
+    "top_host": [
+      {
+        "block": 0,
+        "replay": 1795,
+        "gpu_us": 210.94400024414062,
+        "host_us": 270.155
+      },
+      {
+        "block": 5,
+        "replay": 278,
+        "gpu_us": 212.0,
+        "host_us": 268.069
+      },
+      {
+        "block": 7,
+        "replay": 1149,
+        "gpu_us": 210.9759979248047,
+        "host_us": 265.101
+      },
+      {
+        "block": 9,
+        "replay": 991,
+        "gpu_us": 253.28001403808594,
+        "host_us": 258.227
+      },
+      {
+        "block": 12,
+        "replay": 223,
+        "gpu_us": 240.41600036621094,
+        "host_us": 256.42
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "policy": "TUNED_AA",
+    "host_minus_event_s": 0.1744057386262207,
+    "top_host": [
+      {
+        "block": 3,
+        "replay": 625,
+        "gpu_us": 218.97601318359375,
+        "host_us": 318.401
+      },
+      {
+        "block": 13,
+        "replay": 1643,
+        "gpu_us": 212.99200439453125,
+        "host_us": 267.476
+      },
+      {
+        "block": 6,
+        "replay": 1563,
+        "gpu_us": 208.92800903320312,
+        "host_us": 262.315
+      },
+      {
+        "block": 1,
+        "replay": 1419,
+        "gpu_us": 214.62400817871094,
+        "host_us": 259.788
+      },
+      {
+        "block": 5,
+        "replay": 117,
+        "gpu_us": 210.94400024414062,
+        "host_us": 259.207
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "policy": "WRONG",
+    "host_minus_event_s": 0.1748912549263916,
+    "top_host": [
+      {
+        "block": 0,
+        "replay": 1443,
+        "gpu_us": 212.99200439453125,
+        "host_us": 270.679
+      },
+      {
+        "block": 6,
+        "replay": 1252,
+        "gpu_us": 253.8880157470703,
+        "host_us": 268.683
+      },
+      {
+        "block": 7,
+        "replay": 1590,
+        "gpu_us": 223.23199462890625,
+        "host_us": 263.096
+      },
+      {
+        "block": 2,
+        "replay": 1010,
+        "gpu_us": 214.14401245117188,
+        "host_us": 259.134
+      },
+      {
+        "block": 5,
+        "replay": 1130,
+        "gpu_us": 212.99200439453125,
+        "host_us": 258.572
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "policy": "BASE",
+    "host_minus_event_s": 0.1802629198305664,
+    "top_host": [
+      {
+        "block": 14,
+        "replay": 1257,
+        "gpu_us": 326.4960021972656,
+        "host_us": 375.696
+      },
+      {
+        "block": 10,
+        "replay": 108,
+        "gpu_us": 324.3840026855469,
+        "host_us": 373.971
+      },
+      {
+        "block": 13,
+        "replay": 1804,
+        "gpu_us": 325.3119812011719,
+        "host_us": 372.457
+      },
+      {
+        "block": 4,
+        "replay": 258,
+        "gpu_us": 325.1199951171875,
+        "host_us": 372.356
+      },
+      {
+        "block": 14,
+        "replay": 427,
+        "gpu_us": 329.5679931640625,
+        "host_us": 371.058
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "policy": "FROZEN",
+    "host_minus_event_s": 0.18424732756054688,
+    "top_host": [
+      {
+        "block": 9,
+        "replay": 2028,
+        "gpu_us": 332.0,
+        "host_us": 1616.955
+      },
+      {
+        "block": 9,
+        "replay": 2019,
+        "gpu_us": 332.031982421875,
+        "host_us": 873.921
+      },
+      {
+        "block": 9,
+        "replay": 2020,
+        "gpu_us": 333.8559875488281,
+        "host_us": 683.252
+      },
+      {
+        "block": 15,
+        "replay": 1282,
+        "gpu_us": 330.2400207519531,
+        "host_us": 380.866
+      },
+      {
+        "block": 14,
+        "replay": 24,
+        "gpu_us": 325.63201904296875,
+        "host_us": 378.698
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "policy": "LEGACY",
+    "host_minus_event_s": 0.18231846102441404,
+    "top_host": [
+      {
+        "block": 13,
+        "replay": 1547,
+        "gpu_us": 335.8080139160156,
+        "host_us": 395.351
+      },
+      {
+        "block": 12,
+        "replay": 44,
+        "gpu_us": 387.0719909667969,
+        "host_us": 393.311
+      },
+      {
+        "block": 7,
+        "replay": 1208,
+        "gpu_us": 323.0719909667969,
+        "host_us": 392.362
+      },
+      {
+        "block": 5,
+        "replay": 752,
+        "gpu_us": 327.7760009765625,
+        "host_us": 390.629
+      },
+      {
+        "block": 9,
+        "replay": 1125,
+        "gpu_us": 334.9440002441406,
+        "host_us": 387.786
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "policy": "PAIR_ONLY",
+    "host_minus_event_s": 0.18123235990576173,
+    "top_host": [
+      {
+        "block": 11,
+        "replay": 753,
+        "gpu_us": 385.0240173339844,
+        "host_us": 391.699
+      },
+      {
+        "block": 15,
+        "replay": 1377,
+        "gpu_us": 332.2559814453125,
+        "host_us": 388.362
+      },
+      {
+        "block": 9,
+        "replay": 1816,
+        "gpu_us": 324.8320007324219,
+        "host_us": 375.055
+      },
+      {
+        "block": 12,
+        "replay": 1983,
+        "gpu_us": 327.23199462890625,
+        "host_us": 372.841
+      },
+      {
+        "block": 15,
+        "replay": 753,
+        "gpu_us": 327.23199462890625,
+        "host_us": 372.276
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "policy": "PLACE_ONLY",
+    "host_minus_event_s": 0.19096390871826172,
+    "top_host": [
+      {
+        "block": 9,
+        "replay": 653,
+        "gpu_us": 321.5360107421875,
+        "host_us": 2290.78
+      },
+      {
+        "block": 9,
+        "replay": 705,
+        "gpu_us": 1816.2239990234375,
+        "host_us": 1836.083
+      },
+      {
+        "block": 9,
+        "replay": 502,
+        "gpu_us": 1601.5360107421875,
+        "host_us": 1611.101
+      },
+      {
+        "block": 9,
+        "replay": 518,
+        "gpu_us": 327.90399169921875,
+        "host_us": 1563.46
+      },
+      {
+        "block": 9,
+        "replay": 787,
+        "gpu_us": 323.2640075683594,
+        "host_us": 1469.203
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "policy": "POOL",
+    "host_minus_event_s": 0.18515920791552734,
+    "top_host": [
+      {
+        "block": 1,
+        "replay": 1778,
+        "gpu_us": 327.52001953125,
+        "host_us": 1450.823
+      },
+      {
+        "block": 1,
+        "replay": 1772,
+        "gpu_us": 329.31201171875,
+        "host_us": 1311.04
+      },
+      {
+        "block": 11,
+        "replay": 301,
+        "gpu_us": 331.3280029296875,
+        "host_us": 493.186
+      },
+      {
+        "block": 14,
+        "replay": 1415,
+        "gpu_us": 328.7040100097656,
+        "host_us": 430.806
+      },
+      {
+        "block": 10,
+        "replay": 1926,
+        "gpu_us": 331.8399963378906,
+        "host_us": 427.683
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "policy": "SHADOW",
+    "host_minus_event_s": 0.18139332205273437,
+    "top_host": [
+      {
+        "block": 10,
+        "replay": 1869,
+        "gpu_us": 380.54400634765625,
+        "host_us": 387.238
+      },
+      {
+        "block": 9,
+        "replay": 965,
+        "gpu_us": 323.93597412109375,
+        "host_us": 384.406
+      },
+      {
+        "block": 8,
+        "replay": 1096,
+        "gpu_us": 326.97601318359375,
+        "host_us": 379.85
+      },
+      {
+        "block": 10,
+        "replay": 881,
+        "gpu_us": 325.0879821777344,
+        "host_us": 375.798
+      },
+      {
+        "block": 15,
+        "replay": 1246,
+        "gpu_us": 366.59197998046875,
+        "host_us": 373.239
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "policy": "STATIC",
+    "host_minus_event_s": 0.1813074624255371,
+    "top_host": [
+      {
+        "block": 15,
+        "replay": 600,
+        "gpu_us": 332.09600830078125,
+        "host_us": 397.299
+      },
+      {
+        "block": 12,
+        "replay": 536,
+        "gpu_us": 357.2480163574219,
+        "host_us": 395.022
+      },
+      {
+        "block": 6,
+        "replay": 1529,
+        "gpu_us": 320.1600036621094,
+        "host_us": 385.396
+      },
+      {
+        "block": 10,
+        "replay": 402,
+        "gpu_us": 377.9200134277344,
+        "host_us": 383.641
+      },
+      {
+        "block": 15,
+        "replay": 295,
+        "gpu_us": 329.88800048828125,
+        "host_us": 378.777
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "policy": "TUNED",
+    "host_minus_event_s": 0.1806738410341797,
+    "top_host": [
+      {
+        "block": 9,
+        "replay": 1371,
+        "gpu_us": 333.44000244140625,
+        "host_us": 402.374
+      },
+      {
+        "block": 9,
+        "replay": 1333,
+        "gpu_us": 331.7760009765625,
+        "host_us": 390.659
+      },
+      {
+        "block": 10,
+        "replay": 1373,
+        "gpu_us": 325.760009765625,
+        "host_us": 383.086
+      },
+      {
+        "block": 11,
+        "replay": 442,
+        "gpu_us": 324.927978515625,
+        "host_us": 382.652
+      },
+      {
+        "block": 14,
+        "replay": 1615,
+        "gpu_us": 328.5439758300781,
+        "host_us": 381.322
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "policy": "TUNED_AA",
+    "host_minus_event_s": 0.18086187923413086,
+    "top_host": [
+      {
+        "block": 12,
+        "replay": 580,
+        "gpu_us": 336.06402587890625,
+        "host_us": 390.288
+      },
+      {
+        "block": 11,
+        "replay": 1813,
+        "gpu_us": 327.2640075683594,
+        "host_us": 389.395
+      },
+      {
+        "block": 11,
+        "replay": 72,
+        "gpu_us": 327.7120056152344,
+        "host_us": 387.647
+      },
+      {
+        "block": 11,
+        "replay": 1953,
+        "gpu_us": 325.2480163574219,
+        "host_us": 385.788
+      },
+      {
+        "block": 12,
+        "replay": 1546,
+        "gpu_us": 325.63201904296875,
+        "host_us": 383.128
+      }
+    ]
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "policy": "WRONG",
+    "host_minus_event_s": 0.18194651296972655,
+    "top_host": [
+      {
+        "block": 2,
+        "replay": 624,
+        "gpu_us": 328.927978515625,
+        "host_us": 509.11
+      },
+      {
+        "block": 2,
+        "replay": 883,
+        "gpu_us": 325.66400146484375,
+        "host_us": 458.091
+      },
+      {
+        "block": 14,
+        "replay": 321,
+        "gpu_us": 390.7519836425781,
+        "host_us": 399.541
+      },
+      {
+        "block": 10,
+        "replay": 1898,
+        "gpu_us": 325.63201904296875,
+        "host_us": 398.454
+      },
+      {
+        "block": 15,
+        "replay": 1171,
+        "gpu_us": 335.67999267578125,
+        "host_us": 395.815
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "policy": "BASE",
+    "host_minus_event_s": 0.18459039747766115,
+    "top_host": [
+      {
+        "block": 11,
+        "replay": 1015,
+        "gpu_us": 212.0,
+        "host_us": 4386.03
+      },
+      {
+        "block": 11,
+        "replay": 421,
+        "gpu_us": 217.08799743652344,
+        "host_us": 1006.059
+      },
+      {
+        "block": 11,
+        "replay": 1766,
+        "gpu_us": 210.94400024414062,
+        "host_us": 866.091
+      },
+      {
+        "block": 11,
+        "replay": 1918,
+        "gpu_us": 210.9759979248047,
+        "host_us": 857.704
+      },
+      {
+        "block": 11,
+        "replay": 1006,
+        "gpu_us": 212.99200439453125,
+        "host_us": 695.101
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "policy": "FROZEN",
+    "host_minus_event_s": 0.17356172966699218,
+    "top_host": [
+      {
+        "block": 12,
+        "replay": 840,
+        "gpu_us": 211.10400390625,
+        "host_us": 281.057
+      },
+      {
+        "block": 4,
+        "replay": 1038,
+        "gpu_us": 211.04000854492188,
+        "host_us": 278.999
+      },
+      {
+        "block": 13,
+        "replay": 665,
+        "gpu_us": 211.2320098876953,
+        "host_us": 254.678
+      },
+      {
+        "block": 0,
+        "replay": 1805,
+        "gpu_us": 211.39199829101562,
+        "host_us": 254.451
+      },
+      {
+        "block": 2,
+        "replay": 527,
+        "gpu_us": 212.83200073242188,
+        "host_us": 253.229
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "policy": "LEGACY",
+    "host_minus_event_s": 0.17362149722473147,
+    "top_host": [
+      {
+        "block": 2,
+        "replay": 483,
+        "gpu_us": 215.13600158691406,
+        "host_us": 282.972
+      },
+      {
+        "block": 15,
+        "replay": 374,
+        "gpu_us": 214.94400024414062,
+        "host_us": 274.806
+      },
+      {
+        "block": 12,
+        "replay": 1018,
+        "gpu_us": 212.99200439453125,
+        "host_us": 271.019
+      },
+      {
+        "block": 11,
+        "replay": 1278,
+        "gpu_us": 213.95201110839844,
+        "host_us": 268.585
+      },
+      {
+        "block": 13,
+        "replay": 495,
+        "gpu_us": 257.6960144042969,
+        "host_us": 263.131
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "policy": "PAIR_ONLY",
+    "host_minus_event_s": 0.17136322531396483,
+    "top_host": [
+      {
+        "block": 2,
+        "replay": 158,
+        "gpu_us": 212.99200439453125,
+        "host_us": 294.715
+      },
+      {
+        "block": 15,
+        "replay": 1036,
+        "gpu_us": 213.31199645996094,
+        "host_us": 291.203
+      },
+      {
+        "block": 6,
+        "replay": 1512,
+        "gpu_us": 209.9840087890625,
+        "host_us": 281.878
+      },
+      {
+        "block": 11,
+        "replay": 1959,
+        "gpu_us": 210.9759979248047,
+        "host_us": 269.914
+      },
+      {
+        "block": 14,
+        "replay": 0,
+        "gpu_us": 233.88800048828125,
+        "host_us": 267.942
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "policy": "PLACE_ONLY",
+    "host_minus_event_s": 0.17132696712756348,
+    "top_host": [
+      {
+        "block": 8,
+        "replay": 1008,
+        "gpu_us": 216.1280059814453,
+        "host_us": 248.973
+      },
+      {
+        "block": 0,
+        "replay": 910,
+        "gpu_us": 213.05599975585938,
+        "host_us": 248.386
+      },
+      {
+        "block": 5,
+        "replay": 482,
+        "gpu_us": 235.1999969482422,
+        "host_us": 246.053
+      },
+      {
+        "block": 9,
+        "replay": 660,
+        "gpu_us": 215.0399932861328,
+        "host_us": 245.941
+      },
+      {
+        "block": 0,
+        "replay": 1370,
+        "gpu_us": 212.63999938964844,
+        "host_us": 245.009
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "policy": "POOL",
+    "host_minus_event_s": 0.17314647447998047,
+    "top_host": [
+      {
+        "block": 14,
+        "replay": 1235,
+        "gpu_us": 211.16799926757812,
+        "host_us": 288.009
+      },
+      {
+        "block": 5,
+        "replay": 1526,
+        "gpu_us": 211.2320098876953,
+        "host_us": 256.995
+      },
+      {
+        "block": 4,
+        "replay": 1,
+        "gpu_us": 217.05599975585938,
+        "host_us": 254.529
+      },
+      {
+        "block": 9,
+        "replay": 101,
+        "gpu_us": 223.51998901367188,
+        "host_us": 251.464
+      },
+      {
+        "block": 4,
+        "replay": 0,
+        "gpu_us": 228.19200134277344,
+        "host_us": 251.166
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "policy": "SHADOW",
+    "host_minus_event_s": 0.17285450584338383,
+    "top_host": [
+      {
+        "block": 11,
+        "replay": 1326,
+        "gpu_us": 216.99200439453125,
+        "host_us": 300.452
+      },
+      {
+        "block": 6,
+        "replay": 1676,
+        "gpu_us": 216.1280059814453,
+        "host_us": 267.194
+      },
+      {
+        "block": 4,
+        "replay": 1850,
+        "gpu_us": 222.9759979248047,
+        "host_us": 258.997
+      },
+      {
+        "block": 2,
+        "replay": 390,
+        "gpu_us": 221.1840057373047,
+        "host_us": 258.67
+      },
+      {
+        "block": 15,
+        "replay": 706,
+        "gpu_us": 214.33599853515625,
+        "host_us": 251.545
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "policy": "STATIC",
+    "host_minus_event_s": 0.17431372181445312,
+    "top_host": [
+      {
+        "block": 14,
+        "replay": 163,
+        "gpu_us": 215.36000061035156,
+        "host_us": 277.034
+      },
+      {
+        "block": 12,
+        "replay": 1320,
+        "gpu_us": 260.1920166015625,
+        "host_us": 273.866
+      },
+      {
+        "block": 13,
+        "replay": 1546,
+        "gpu_us": 217.60000610351562,
+        "host_us": 270.252
+      },
+      {
+        "block": 4,
+        "replay": 1714,
+        "gpu_us": 215.29600524902344,
+        "host_us": 267.104
+      },
+      {
+        "block": 12,
+        "replay": 2007,
+        "gpu_us": 215.10400390625,
+        "host_us": 264.01
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "policy": "TUNED",
+    "host_minus_event_s": 0.18265559751562502,
+    "top_host": [
+      {
+        "block": 11,
+        "replay": 425,
+        "gpu_us": 212.32000732421875,
+        "host_us": 2343.123
+      },
+      {
+        "block": 11,
+        "replay": 411,
+        "gpu_us": 211.96800231933594,
+        "host_us": 2064.965
+      },
+      {
+        "block": 11,
+        "replay": 470,
+        "gpu_us": 212.447998046875,
+        "host_us": 1957.618
+      },
+      {
+        "block": 11,
+        "replay": 604,
+        "gpu_us": 208.92800903320312,
+        "host_us": 1118.837
+      },
+      {
+        "block": 11,
+        "replay": 1018,
+        "gpu_us": 618.239990234375,
+        "host_us": 630.181
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "policy": "TUNED_AA",
+    "host_minus_event_s": 0.1725273596739502,
+    "top_host": [
+      {
+        "block": 11,
+        "replay": 932,
+        "gpu_us": 211.1999969482422,
+        "host_us": 663.15
+      },
+      {
+        "block": 15,
+        "replay": 7,
+        "gpu_us": 212.99200439453125,
+        "host_us": 276.2
+      },
+      {
+        "block": 11,
+        "replay": 1778,
+        "gpu_us": 211.67999267578125,
+        "host_us": 267.968
+      },
+      {
+        "block": 14,
+        "replay": 1444,
+        "gpu_us": 211.00799560546875,
+        "host_us": 261.741
+      },
+      {
+        "block": 3,
+        "replay": 1027,
+        "gpu_us": 217.50399780273438,
+        "host_us": 258.088
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "policy": "WRONG",
+    "host_minus_event_s": 0.1723432882044678,
+    "top_host": [
+      {
+        "block": 14,
+        "replay": 1080,
+        "gpu_us": 214.01600646972656,
+        "host_us": 272.558
+      },
+      {
+        "block": 10,
+        "replay": 311,
+        "gpu_us": 212.6719970703125,
+        "host_us": 266.459
+      },
+      {
+        "block": 2,
+        "replay": 604,
+        "gpu_us": 212.60800170898438,
+        "host_us": 264.08
+      },
+      {
+        "block": 1,
+        "replay": 1015,
+        "gpu_us": 212.86399841308594,
+        "host_us": 257.015
+      },
+      {
+        "block": 9,
+        "replay": 1387,
+        "gpu_us": 214.81600952148438,
+        "host_us": 255.9
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "policy": "BASE",
+    "host_minus_event_s": 0.17368206575390624,
+    "top_host": [
+      {
+        "block": 14,
+        "replay": 1228,
+        "gpu_us": 333.8559875488281,
+        "host_us": 398.381
+      },
+      {
+        "block": 9,
+        "replay": 1527,
+        "gpu_us": 327.8079833984375,
+        "host_us": 391.888
+      },
+      {
+        "block": 12,
+        "replay": 418,
+        "gpu_us": 362.5920104980469,
+        "host_us": 372.499
+      },
+      {
+        "block": 10,
+        "replay": 973,
+        "gpu_us": 334.0159912109375,
+        "host_us": 367.182
+      },
+      {
+        "block": 10,
+        "replay": 645,
+        "gpu_us": 324.54400634765625,
+        "host_us": 364.951
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "policy": "FROZEN",
+    "host_minus_event_s": 0.17494922824121092,
+    "top_host": [
+      {
+        "block": 11,
+        "replay": 1143,
+        "gpu_us": 331.7760009765625,
+        "host_us": 391.49
+      },
+      {
+        "block": 2,
+        "replay": 560,
+        "gpu_us": 331.67999267578125,
+        "host_us": 391.447
+      },
+      {
+        "block": 1,
+        "replay": 486,
+        "gpu_us": 331.45599365234375,
+        "host_us": 383.095
+      },
+      {
+        "block": 4,
+        "replay": 481,
+        "gpu_us": 370.68798828125,
+        "host_us": 375.555
+      },
+      {
+        "block": 13,
+        "replay": 563,
+        "gpu_us": 328.35198974609375,
+        "host_us": 369.449
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "policy": "LEGACY",
+    "host_minus_event_s": 0.17612727019458008,
+    "top_host": [
+      {
+        "block": 9,
+        "replay": 1289,
+        "gpu_us": 333.1520080566406,
+        "host_us": 444.016
+      },
+      {
+        "block": 1,
+        "replay": 0,
+        "gpu_us": 340.4800109863281,
+        "host_us": 370.38
+      },
+      {
+        "block": 7,
+        "replay": 998,
+        "gpu_us": 356.32000732421875,
+        "host_us": 368.245
+      },
+      {
+        "block": 14,
+        "replay": 0,
+        "gpu_us": 342.0160217285156,
+        "host_us": 367.822
+      },
+      {
+        "block": 1,
+        "replay": 497,
+        "gpu_us": 329.7279968261719,
+        "host_us": 362.976
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "policy": "PAIR_ONLY",
+    "host_minus_event_s": 0.17680489494873047,
+    "top_host": [
+      {
+        "block": 14,
+        "replay": 1307,
+        "gpu_us": 331.7760009765625,
+        "host_us": 401.057
+      },
+      {
+        "block": 6,
+        "replay": 0,
+        "gpu_us": 346.11199951171875,
+        "host_us": 396.165
+      },
+      {
+        "block": 6,
+        "replay": 835,
+        "gpu_us": 331.9360046386719,
+        "host_us": 382.675
+      },
+      {
+        "block": 12,
+        "replay": 984,
+        "gpu_us": 359.2959899902344,
+        "host_us": 372.882
+      },
+      {
+        "block": 2,
+        "replay": 0,
+        "gpu_us": 337.44000244140625,
+        "host_us": 367.689
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "policy": "PLACE_ONLY",
+    "host_minus_event_s": 0.17534898305786134,
+    "top_host": [
+      {
+        "block": 15,
+        "replay": 1853,
+        "gpu_us": 395.45599365234375,
+        "host_us": 401.726
+      },
+      {
+        "block": 11,
+        "replay": 1705,
+        "gpu_us": 324.4800109863281,
+        "host_us": 391.85
+      },
+      {
+        "block": 0,
+        "replay": 2002,
+        "gpu_us": 325.91998291015625,
+        "host_us": 384.037
+      },
+      {
+        "block": 2,
+        "replay": 88,
+        "gpu_us": 325.5039978027344,
+        "host_us": 373.171
+      },
+      {
+        "block": 15,
+        "replay": 1684,
+        "gpu_us": 368.2560119628906,
+        "host_us": 373.03
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "policy": "POOL",
+    "host_minus_event_s": 0.17511867817944335,
+    "top_host": [
+      {
+        "block": 2,
+        "replay": 1842,
+        "gpu_us": 330.656005859375,
+        "host_us": 399.191
+      },
+      {
+        "block": 6,
+        "replay": 1652,
+        "gpu_us": 331.7760009765625,
+        "host_us": 372.342
+      },
+      {
+        "block": 0,
+        "replay": 453,
+        "gpu_us": 324.0639953613281,
+        "host_us": 367.849
+      },
+      {
+        "block": 9,
+        "replay": 1272,
+        "gpu_us": 328.79998779296875,
+        "host_us": 362.179
+      },
+      {
+        "block": 5,
+        "replay": 759,
+        "gpu_us": 324.3199768066406,
+        "host_us": 360.571
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "policy": "SHADOW",
+    "host_minus_event_s": 0.17735267389868165,
+    "top_host": [
+      {
+        "block": 8,
+        "replay": 914,
+        "gpu_us": 327.67999267578125,
+        "host_us": 1227.429
+      },
+      {
+        "block": 1,
+        "replay": 2048,
+        "gpu_us": 400.7359924316406,
+        "host_us": 408.849
+      },
+      {
+        "block": 6,
+        "replay": 1356,
+        "gpu_us": 329.7279968261719,
+        "host_us": 407.608
+      },
+      {
+        "block": 8,
+        "replay": 899,
+        "gpu_us": 327.67999267578125,
+        "host_us": 382.961
+      },
+      {
+        "block": 8,
+        "replay": 743,
+        "gpu_us": 334.656005859375,
+        "host_us": 382.235
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "policy": "STATIC",
+    "host_minus_event_s": 0.17541656014062498,
+    "top_host": [
+      {
+        "block": 6,
+        "replay": 133,
+        "gpu_us": 330.0480041503906,
+        "host_us": 393.44
+      },
+      {
+        "block": 0,
+        "replay": 1651,
+        "gpu_us": 328.15997314453125,
+        "host_us": 390.527
+      },
+      {
+        "block": 7,
+        "replay": 1550,
+        "gpu_us": 327.8399963378906,
+        "host_us": 384.609
+      },
+      {
+        "block": 10,
+        "replay": 1242,
+        "gpu_us": 332.79998779296875,
+        "host_us": 383.371
+      },
+      {
+        "block": 9,
+        "replay": 1013,
+        "gpu_us": 324.9599914550781,
+        "host_us": 375.112
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "policy": "TUNED",
+    "host_minus_event_s": 0.17490745283032227,
+    "top_host": [
+      {
+        "block": 8,
+        "replay": 1892,
+        "gpu_us": 332.7040100097656,
+        "host_us": 404.135
+      },
+      {
+        "block": 13,
+        "replay": 1236,
+        "gpu_us": 370.5920104980469,
+        "host_us": 375.787
+      },
+      {
+        "block": 2,
+        "replay": 1164,
+        "gpu_us": 331.3919982910156,
+        "host_us": 367.901
+      },
+      {
+        "block": 8,
+        "replay": 1593,
+        "gpu_us": 328.031982421875,
+        "host_us": 362.83
+      },
+      {
+        "block": 15,
+        "replay": 2016,
+        "gpu_us": 344.0639953613281,
+        "host_us": 362.514
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "policy": "TUNED_AA",
+    "host_minus_event_s": 0.1760429566911621,
+    "top_host": [
+      {
+        "block": 14,
+        "replay": 149,
+        "gpu_us": 328.1919860839844,
+        "host_us": 391.272
+      },
+      {
+        "block": 9,
+        "replay": 1339,
+        "gpu_us": 331.552001953125,
+        "host_us": 386.248
+      },
+      {
+        "block": 4,
+        "replay": 1570,
+        "gpu_us": 332.2879943847656,
+        "host_us": 381.272
+      },
+      {
+        "block": 9,
+        "replay": 228,
+        "gpu_us": 327.64801025390625,
+        "host_us": 379.224
+      },
+      {
+        "block": 0,
+        "replay": 0,
+        "gpu_us": 347.6479797363281,
+        "host_us": 365.408
+      }
+    ]
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "policy": "WRONG",
+    "host_minus_event_s": 0.17745986869848632,
+    "top_host": [
+      {
+        "block": 1,
+        "replay": 914,
+        "gpu_us": 326.52801513671875,
+        "host_us": 1476.866
+      },
+      {
+        "block": 1,
+        "replay": 725,
+        "gpu_us": 327.90399169921875,
+        "host_us": 397.017
+      },
+      {
+        "block": 11,
+        "replay": 1501,
+        "gpu_us": 331.45599365234375,
+        "host_us": 390.708
+      },
+      {
+        "block": 14,
+        "replay": 229,
+        "gpu_us": 367.1999816894531,
+        "host_us": 386.527
+      },
+      {
+        "block": 5,
+        "replay": 940,
+        "gpu_us": 330.2720031738281,
+        "host_us": 383.929
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "policy": "BASE",
+    "host_minus_event_s": 0.17210026834802247,
+    "top_host": [
+      {
+        "block": 10,
+        "replay": 592,
+        "gpu_us": 216.1280059814453,
+        "host_us": 266.795
+      },
+      {
+        "block": 15,
+        "replay": 265,
+        "gpu_us": 215.6800079345703,
+        "host_us": 261.911
+      },
+      {
+        "block": 11,
+        "replay": 1254,
+        "gpu_us": 211.4239959716797,
+        "host_us": 261.309
+      },
+      {
+        "block": 14,
+        "replay": 1932,
+        "gpu_us": 223.1999969482422,
+        "host_us": 255.215
+      },
+      {
+        "block": 13,
+        "replay": 0,
+        "gpu_us": 229.02398681640625,
+        "host_us": 253.355
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "policy": "FROZEN",
+    "host_minus_event_s": 0.17091839804028322,
+    "top_host": [
+      {
+        "block": 3,
+        "replay": 1190,
+        "gpu_us": 212.99200439453125,
+        "host_us": 259.132
+      },
+      {
+        "block": 7,
+        "replay": 917,
+        "gpu_us": 211.3599853515625,
+        "host_us": 258.95
+      },
+      {
+        "block": 4,
+        "replay": 499,
+        "gpu_us": 212.32000732421875,
+        "host_us": 251.824
+      },
+      {
+        "block": 3,
+        "replay": 0,
+        "gpu_us": 227.10398864746094,
+        "host_us": 246.146
+      },
+      {
+        "block": 12,
+        "replay": 1788,
+        "gpu_us": 212.83200073242188,
+        "host_us": 243.422
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "policy": "LEGACY",
+    "host_minus_event_s": 0.17773038438073732,
+    "top_host": [
+      {
+        "block": 0,
+        "replay": 293,
+        "gpu_us": 217.63198852539062,
+        "host_us": 3097.133
+      },
+      {
+        "block": 0,
+        "replay": 315,
+        "gpu_us": 216.16000366210938,
+        "host_us": 1715.078
+      },
+      {
+        "block": 13,
+        "replay": 1226,
+        "gpu_us": 217.21600341796875,
+        "host_us": 287.972
+      },
+      {
+        "block": 0,
+        "replay": 362,
+        "gpu_us": 216.0640106201172,
+        "host_us": 270.067
+      },
+      {
+        "block": 13,
+        "replay": 352,
+        "gpu_us": 215.0399932861328,
+        "host_us": 269.158
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "policy": "PAIR_ONLY",
+    "host_minus_event_s": 0.17151143716149903,
+    "top_host": [
+      {
+        "block": 6,
+        "replay": 1175,
+        "gpu_us": 211.00799560546875,
+        "host_us": 259.616
+      },
+      {
+        "block": 8,
+        "replay": 2047,
+        "gpu_us": 213.66400146484375,
+        "host_us": 257.253
+      },
+      {
+        "block": 13,
+        "replay": 589,
+        "gpu_us": 213.88800048828125,
+        "host_us": 253.497
+      },
+      {
+        "block": 8,
+        "replay": 222,
+        "gpu_us": 241.66400146484375,
+        "host_us": 252.265
+      },
+      {
+        "block": 14,
+        "replay": 548,
+        "gpu_us": 213.40798950195312,
+        "host_us": 251.081
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "policy": "PLACE_ONLY",
+    "host_minus_event_s": 0.1721179257888184,
+    "top_host": [
+      {
+        "block": 6,
+        "replay": 591,
+        "gpu_us": 216.28799438476562,
+        "host_us": 277.06
+      },
+      {
+        "block": 12,
+        "replay": 1345,
+        "gpu_us": 215.87200927734375,
+        "host_us": 259.039
+      },
+      {
+        "block": 7,
+        "replay": 0,
+        "gpu_us": 228.35198974609375,
+        "host_us": 258.311
+      },
+      {
+        "block": 13,
+        "replay": 1476,
+        "gpu_us": 252.6400146484375,
+        "host_us": 258.091
+      },
+      {
+        "block": 6,
+        "replay": 9,
+        "gpu_us": 210.94400024414062,
+        "host_us": 252.038
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "policy": "POOL",
+    "host_minus_event_s": 0.17134184347290038,
+    "top_host": [
+      {
+        "block": 2,
+        "replay": 24,
+        "gpu_us": 216.70399475097656,
+        "host_us": 265.762
+      },
+      {
+        "block": 5,
+        "replay": 20,
+        "gpu_us": 211.3280029296875,
+        "host_us": 263.561
+      },
+      {
+        "block": 9,
+        "replay": 884,
+        "gpu_us": 211.10400390625,
+        "host_us": 262.081
+      },
+      {
+        "block": 4,
+        "replay": 1714,
+        "gpu_us": 212.92799377441406,
+        "host_us": 260.572
+      },
+      {
+        "block": 10,
+        "replay": 1366,
+        "gpu_us": 212.99200439453125,
+        "host_us": 260.203
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "policy": "SHADOW",
+    "host_minus_event_s": 0.17244190055407713,
+    "top_host": [
+      {
+        "block": 8,
+        "replay": 446,
+        "gpu_us": 214.81600952148438,
+        "host_us": 276.99
+      },
+      {
+        "block": 2,
+        "replay": 940,
+        "gpu_us": 214.55999755859375,
+        "host_us": 268.164
+      },
+      {
+        "block": 13,
+        "replay": 158,
+        "gpu_us": 214.24000549316406,
+        "host_us": 262.513
+      },
+      {
+        "block": 10,
+        "replay": 372,
+        "gpu_us": 213.44000244140625,
+        "host_us": 257.217
+      },
+      {
+        "block": 14,
+        "replay": 328,
+        "gpu_us": 214.94400024414062,
+        "host_us": 257.061
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "policy": "STATIC",
+    "host_minus_event_s": 0.17243288531103515,
+    "top_host": [
+      {
+        "block": 11,
+        "replay": 837,
+        "gpu_us": 215.29600524902344,
+        "host_us": 277.76
+      },
+      {
+        "block": 8,
+        "replay": 1352,
+        "gpu_us": 213.53599548339844,
+        "host_us": 272.615
+      },
+      {
+        "block": 7,
+        "replay": 1695,
+        "gpu_us": 213.72799682617188,
+        "host_us": 254.945
+      },
+      {
+        "block": 6,
+        "replay": 263,
+        "gpu_us": 213.31199645996094,
+        "host_us": 254.24
+      },
+      {
+        "block": 5,
+        "replay": 0,
+        "gpu_us": 237.60000610351562,
+        "host_us": 250.615
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "policy": "TUNED",
+    "host_minus_event_s": 0.17164504723376467,
+    "top_host": [
+      {
+        "block": 11,
+        "replay": 2038,
+        "gpu_us": 230.68800354003906,
+        "host_us": 247.49
+      },
+      {
+        "block": 6,
+        "replay": 957,
+        "gpu_us": 213.2480010986328,
+        "host_us": 247.142
+      },
+      {
+        "block": 11,
+        "replay": 663,
+        "gpu_us": 215.6800079345703,
+        "host_us": 245.744
+      },
+      {
+        "block": 10,
+        "replay": 361,
+        "gpu_us": 210.94400024414062,
+        "host_us": 245.634
+      },
+      {
+        "block": 12,
+        "replay": 361,
+        "gpu_us": 216.54400634765625,
+        "host_us": 244.811
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "policy": "TUNED_AA",
+    "host_minus_event_s": 0.17236170475268556,
+    "top_host": [
+      {
+        "block": 6,
+        "replay": 1767,
+        "gpu_us": 212.99200439453125,
+        "host_us": 314.644
+      },
+      {
+        "block": 8,
+        "replay": 1359,
+        "gpu_us": 213.4720001220703,
+        "host_us": 276.834
+      },
+      {
+        "block": 5,
+        "replay": 1685,
+        "gpu_us": 249.4720001220703,
+        "host_us": 263.338
+      },
+      {
+        "block": 3,
+        "replay": 274,
+        "gpu_us": 213.05599975585938,
+        "host_us": 257.511
+      },
+      {
+        "block": 1,
+        "replay": 382,
+        "gpu_us": 221.1840057373047,
+        "host_us": 251.812
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "policy": "WRONG",
+    "host_minus_event_s": 0.1716684205583496,
+    "top_host": [
+      {
+        "block": 11,
+        "replay": 0,
+        "gpu_us": 247.2639923095703,
+        "host_us": 286.984
+      },
+      {
+        "block": 12,
+        "replay": 1016,
+        "gpu_us": 212.99200439453125,
+        "host_us": 281.303
+      },
+      {
+        "block": 6,
+        "replay": 33,
+        "gpu_us": 211.80799865722656,
+        "host_us": 276.135
+      },
+      {
+        "block": 10,
+        "replay": 629,
+        "gpu_us": 215.58399963378906,
+        "host_us": 259.022
+      },
+      {
+        "block": 6,
+        "replay": 1861,
+        "gpu_us": 213.1840057373047,
+        "host_us": 251.656
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "policy": "BASE",
+    "host_minus_event_s": 0.17969851966699218,
+    "top_host": [
+      {
+        "block": 0,
+        "replay": 1259,
+        "gpu_us": 328.4800109863281,
+        "host_us": 400.07
+      },
+      {
+        "block": 4,
+        "replay": 1800,
+        "gpu_us": 333.4079895019531,
+        "host_us": 388.096
+      },
+      {
+        "block": 6,
+        "replay": 1344,
+        "gpu_us": 342.0160217285156,
+        "host_us": 380.763
+      },
+      {
+        "block": 3,
+        "replay": 1856,
+        "gpu_us": 328.0,
+        "host_us": 377.93
+      },
+      {
+        "block": 2,
+        "replay": 494,
+        "gpu_us": 331.7760009765625,
+        "host_us": 374.512
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "policy": "FROZEN",
+    "host_minus_event_s": 0.1804554850529785,
+    "top_host": [
+      {
+        "block": 8,
+        "replay": 1727,
+        "gpu_us": 340.2239990234375,
+        "host_us": 509.291
+      },
+      {
+        "block": 8,
+        "replay": 1190,
+        "gpu_us": 329.7919921875,
+        "host_us": 431.234
+      },
+      {
+        "block": 8,
+        "replay": 1588,
+        "gpu_us": 329.5359802246094,
+        "host_us": 396.157
+      },
+      {
+        "block": 11,
+        "replay": 723,
+        "gpu_us": 328.0639953613281,
+        "host_us": 392.771
+      },
+      {
+        "block": 8,
+        "replay": 1921,
+        "gpu_us": 381.40802001953125,
+        "host_us": 387.966
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "policy": "LEGACY",
+    "host_minus_event_s": 0.18115810364477541,
+    "top_host": [
+      {
+        "block": 0,
+        "replay": 1623,
+        "gpu_us": 337.21600341796875,
+        "host_us": 404.674
+      },
+      {
+        "block": 14,
+        "replay": 282,
+        "gpu_us": 395.6800231933594,
+        "host_us": 401.781
+      },
+      {
+        "block": 0,
+        "replay": 1018,
+        "gpu_us": 332.2239990234375,
+        "host_us": 390.296
+      },
+      {
+        "block": 4,
+        "replay": 1402,
+        "gpu_us": 335.67999267578125,
+        "host_us": 389.625
+      },
+      {
+        "block": 7,
+        "replay": 1149,
+        "gpu_us": 326.2720031738281,
+        "host_us": 387.582
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "policy": "PAIR_ONLY",
+    "host_minus_event_s": 0.18192989674194335,
+    "top_host": [
+      {
+        "block": 11,
+        "replay": 920,
+        "gpu_us": 327.7120056152344,
+        "host_us": 452.787
+      },
+      {
+        "block": 11,
+        "replay": 513,
+        "gpu_us": 331.90399169921875,
+        "host_us": 408.964
+      },
+      {
+        "block": 7,
+        "replay": 1992,
+        "gpu_us": 331.7760009765625,
+        "host_us": 401.304
+      },
+      {
+        "block": 9,
+        "replay": 1875,
+        "gpu_us": 326.4319763183594,
+        "host_us": 395.514
+      },
+      {
+        "block": 15,
+        "replay": 211,
+        "gpu_us": 332.9280090332031,
+        "host_us": 389.565
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "policy": "PLACE_ONLY",
+    "host_minus_event_s": 0.1815053535871582,
+    "top_host": [
+      {
+        "block": 3,
+        "replay": 503,
+        "gpu_us": 333.4079895019531,
+        "host_us": 1604.532
+      },
+      {
+        "block": 3,
+        "replay": 1454,
+        "gpu_us": 337.823974609375,
+        "host_us": 436.532
+      },
+      {
+        "block": 15,
+        "replay": 1176,
+        "gpu_us": 327.8079833984375,
+        "host_us": 399.839
+      },
+      {
+        "block": 0,
+        "replay": 1765,
+        "gpu_us": 325.0240173339844,
+        "host_us": 394.505
+      },
+      {
+        "block": 3,
+        "replay": 454,
+        "gpu_us": 327.1360168457031,
+        "host_us": 390.048
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "policy": "POOL",
+    "host_minus_event_s": 0.18201895196362305,
+    "top_host": [
+      {
+        "block": 13,
+        "replay": 1682,
+        "gpu_us": 329.4720153808594,
+        "host_us": 1026.872
+      },
+      {
+        "block": 4,
+        "replay": 1577,
+        "gpu_us": 338.7200012207031,
+        "host_us": 418.316
+      },
+      {
+        "block": 13,
+        "replay": 1680,
+        "gpu_us": 329.343994140625,
+        "host_us": 408.074
+      },
+      {
+        "block": 13,
+        "replay": 1610,
+        "gpu_us": 327.7440185546875,
+        "host_us": 405.307
+      },
+      {
+        "block": 15,
+        "replay": 1115,
+        "gpu_us": 330.68798828125,
+        "host_us": 404.071
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "policy": "SHADOW",
+    "host_minus_event_s": 0.18008713481884764,
+    "top_host": [
+      {
+        "block": 11,
+        "replay": 622,
+        "gpu_us": 328.6080017089844,
+        "host_us": 410.416
+      },
+      {
+        "block": 15,
+        "replay": 245,
+        "gpu_us": 333.9200134277344,
+        "host_us": 390.914
+      },
+      {
+        "block": 2,
+        "replay": 648,
+        "gpu_us": 380.32000732421875,
+        "host_us": 385.181
+      },
+      {
+        "block": 5,
+        "replay": 775,
+        "gpu_us": 331.0719909667969,
+        "host_us": 383.595
+      },
+      {
+        "block": 2,
+        "replay": 729,
+        "gpu_us": 333.7599792480469,
+        "host_us": 378.802
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "policy": "STATIC",
+    "host_minus_event_s": 0.18058763656542967,
+    "top_host": [
+      {
+        "block": 6,
+        "replay": 1173,
+        "gpu_us": 327.67999267578125,
+        "host_us": 412.762
+      },
+      {
+        "block": 10,
+        "replay": 400,
+        "gpu_us": 335.87200927734375,
+        "host_us": 411.565
+      },
+      {
+        "block": 13,
+        "replay": 817,
+        "gpu_us": 332.5760192871094,
+        "host_us": 405.685
+      },
+      {
+        "block": 8,
+        "replay": 960,
+        "gpu_us": 331.5840148925781,
+        "host_us": 396.84
+      },
+      {
+        "block": 3,
+        "replay": 590,
+        "gpu_us": 331.2320251464844,
+        "host_us": 393.594
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "policy": "TUNED",
+    "host_minus_event_s": 0.18024686816601562,
+    "top_host": [
+      {
+        "block": 1,
+        "replay": 273,
+        "gpu_us": 332.447998046875,
+        "host_us": 416.305
+      },
+      {
+        "block": 7,
+        "replay": 1069,
+        "gpu_us": 328.927978515625,
+        "host_us": 411.383
+      },
+      {
+        "block": 5,
+        "replay": 1616,
+        "gpu_us": 356.35198974609375,
+        "host_us": 395.752
+      },
+      {
+        "block": 7,
+        "replay": 1456,
+        "gpu_us": 331.7439880371094,
+        "host_us": 393.131
+      },
+      {
+        "block": 6,
+        "replay": 1288,
+        "gpu_us": 331.7760009765625,
+        "host_us": 384.004
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "policy": "TUNED_AA",
+    "host_minus_event_s": 0.1805645116586914,
+    "top_host": [
+      {
+        "block": 6,
+        "replay": 1907,
+        "gpu_us": 337.9200134277344,
+        "host_us": 400.835
+      },
+      {
+        "block": 3,
+        "replay": 818,
+        "gpu_us": 328.32000732421875,
+        "host_us": 391.719
+      },
+      {
+        "block": 6,
+        "replay": 89,
+        "gpu_us": 328.15997314453125,
+        "host_us": 385.967
+      },
+      {
+        "block": 12,
+        "replay": 861,
+        "gpu_us": 333.1520080566406,
+        "host_us": 377.221
+      },
+      {
+        "block": 5,
+        "replay": 1510,
+        "gpu_us": 332.0639953613281,
+        "host_us": 376.351
+      }
+    ]
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "policy": "WRONG",
+    "host_minus_event_s": 0.18054341375341795,
+    "top_host": [
+      {
+        "block": 1,
+        "replay": 1061,
+        "gpu_us": 338.78399658203125,
+        "host_us": 435.01
+      },
+      {
+        "block": 0,
+        "replay": 105,
+        "gpu_us": 317.44000244140625,
+        "host_us": 408.094
+      },
+      {
+        "block": 10,
+        "replay": 1685,
+        "gpu_us": 327.2640075683594,
+        "host_us": 389.848
+      },
+      {
+        "block": 2,
+        "replay": 1521,
+        "gpu_us": 327.7760009765625,
+        "host_us": 388.775
+      },
+      {
+        "block": 8,
+        "replay": 875,
+        "gpu_us": 328.864013671875,
+        "host_us": 384.034
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "policy": "BASE",
+    "host_minus_event_s": 0.1731813640189209,
+    "top_host": [
+      {
+        "block": 9,
+        "replay": 272,
+        "gpu_us": 210.94400024414062,
+        "host_us": 272.66
+      },
+      {
+        "block": 12,
+        "replay": 319,
+        "gpu_us": 211.16799926757812,
+        "host_us": 266.261
+      },
+      {
+        "block": 0,
+        "replay": 1444,
+        "gpu_us": 216.7679901123047,
+        "host_us": 265.518
+      },
+      {
+        "block": 4,
+        "replay": 126,
+        "gpu_us": 215.6800079345703,
+        "host_us": 254.451
+      },
+      {
+        "block": 5,
+        "replay": 1196,
+        "gpu_us": 215.6800079345703,
+        "host_us": 254.145
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "policy": "FROZEN",
+    "host_minus_event_s": 0.17081850579943844,
+    "top_host": [
+      {
+        "block": 13,
+        "replay": 1691,
+        "gpu_us": 214.24000549316406,
+        "host_us": 282.643
+      },
+      {
+        "block": 15,
+        "replay": 1247,
+        "gpu_us": 223.23199462890625,
+        "host_us": 277.946
+      },
+      {
+        "block": 2,
+        "replay": 558,
+        "gpu_us": 212.99200439453125,
+        "host_us": 268.248
+      },
+      {
+        "block": 6,
+        "replay": 887,
+        "gpu_us": 215.0399932861328,
+        "host_us": 265.922
+      },
+      {
+        "block": 10,
+        "replay": 927,
+        "gpu_us": 217.88800048828125,
+        "host_us": 261.11
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "policy": "LEGACY",
+    "host_minus_event_s": 0.1714944734688721,
+    "top_host": [
+      {
+        "block": 9,
+        "replay": 821,
+        "gpu_us": 215.80799865722656,
+        "host_us": 315.561
+      },
+      {
+        "block": 13,
+        "replay": 1098,
+        "gpu_us": 215.32798767089844,
+        "host_us": 269.653
+      },
+      {
+        "block": 12,
+        "replay": 446,
+        "gpu_us": 213.15200805664062,
+        "host_us": 268.018
+      },
+      {
+        "block": 9,
+        "replay": 888,
+        "gpu_us": 216.25599670410156,
+        "host_us": 266.667
+      },
+      {
+        "block": 9,
+        "replay": 434,
+        "gpu_us": 245.56800842285156,
+        "host_us": 261.711
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "policy": "PAIR_ONLY",
+    "host_minus_event_s": 0.17159164107946778,
+    "top_host": [
+      {
+        "block": 12,
+        "replay": 767,
+        "gpu_us": 218.11199951171875,
+        "host_us": 281.682
+      },
+      {
+        "block": 0,
+        "replay": 1610,
+        "gpu_us": 215.13600158691406,
+        "host_us": 277.508
+      },
+      {
+        "block": 15,
+        "replay": 0,
+        "gpu_us": 236.8000030517578,
+        "host_us": 265.016
+      },
+      {
+        "block": 6,
+        "replay": 1270,
+        "gpu_us": 215.0399932861328,
+        "host_us": 264.644
+      },
+      {
+        "block": 10,
+        "replay": 1619,
+        "gpu_us": 215.61599731445312,
+        "host_us": 262.774
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "policy": "PLACE_ONLY",
+    "host_minus_event_s": 0.17210051204772947,
+    "top_host": [
+      {
+        "block": 5,
+        "replay": 940,
+        "gpu_us": 217.15199279785156,
+        "host_us": 266.842
+      },
+      {
+        "block": 6,
+        "replay": 1401,
+        "gpu_us": 216.99200439453125,
+        "host_us": 260.031
+      },
+      {
+        "block": 3,
+        "replay": 1325,
+        "gpu_us": 213.0880126953125,
+        "host_us": 256.983
+      },
+      {
+        "block": 9,
+        "replay": 487,
+        "gpu_us": 212.83200073242188,
+        "host_us": 255.5
+      },
+      {
+        "block": 11,
+        "replay": 110,
+        "gpu_us": 213.15200805664062,
+        "host_us": 255.183
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "policy": "POOL",
+    "host_minus_event_s": 0.1727190185256348,
+    "top_host": [
+      {
+        "block": 8,
+        "replay": 254,
+        "gpu_us": 211.07199096679688,
+        "host_us": 261.151
+      },
+      {
+        "block": 14,
+        "replay": 1938,
+        "gpu_us": 216.16000366210938,
+        "host_us": 260.659
+      },
+      {
+        "block": 15,
+        "replay": 1749,
+        "gpu_us": 216.83200073242188,
+        "host_us": 254.763
+      },
+      {
+        "block": 11,
+        "replay": 1515,
+        "gpu_us": 213.98399353027344,
+        "host_us": 252.781
+      },
+      {
+        "block": 4,
+        "replay": 595,
+        "gpu_us": 209.4080047607422,
+        "host_us": 250.982
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "policy": "SHADOW",
+    "host_minus_event_s": 0.17053673309020995,
+    "top_host": [
+      {
+        "block": 12,
+        "replay": 650,
+        "gpu_us": 214.9759979248047,
+        "host_us": 304.228
+      },
+      {
+        "block": 1,
+        "replay": 626,
+        "gpu_us": 217.08799743652344,
+        "host_us": 289.98
+      },
+      {
+        "block": 1,
+        "replay": 1077,
+        "gpu_us": 214.94400024414062,
+        "host_us": 273.813
+      },
+      {
+        "block": 1,
+        "replay": 1986,
+        "gpu_us": 225.0240020751953,
+        "host_us": 256.437
+      },
+      {
+        "block": 6,
+        "replay": 790,
+        "gpu_us": 217.27999877929688,
+        "host_us": 251.729
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "policy": "STATIC",
+    "host_minus_event_s": 0.17306801014538575,
+    "top_host": [
+      {
+        "block": 8,
+        "replay": 1922,
+        "gpu_us": 215.552001953125,
+        "host_us": 282.856
+      },
+      {
+        "block": 0,
+        "replay": 1697,
+        "gpu_us": 218.7840118408203,
+        "host_us": 273.037
+      },
+      {
+        "block": 13,
+        "replay": 548,
+        "gpu_us": 214.14401245117188,
+        "host_us": 258.714
+      },
+      {
+        "block": 15,
+        "replay": 860,
+        "gpu_us": 214.14401245117188,
+        "host_us": 254.44
+      },
+      {
+        "block": 2,
+        "replay": 1177,
+        "gpu_us": 217.5679931640625,
+        "host_us": 250.057
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "policy": "TUNED",
+    "host_minus_event_s": 0.1718407103676758,
+    "top_host": [
+      {
+        "block": 5,
+        "replay": 923,
+        "gpu_us": 221.0240020751953,
+        "host_us": 274.191
+      },
+      {
+        "block": 14,
+        "replay": 162,
+        "gpu_us": 212.92799377441406,
+        "host_us": 269.947
+      },
+      {
+        "block": 10,
+        "replay": 598,
+        "gpu_us": 212.99200439453125,
+        "host_us": 257.554
+      },
+      {
+        "block": 8,
+        "replay": 209,
+        "gpu_us": 212.99200439453125,
+        "host_us": 251.524
+      },
+      {
+        "block": 10,
+        "replay": 0,
+        "gpu_us": 228.03199768066406,
+        "host_us": 250.392
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "policy": "TUNED_AA",
+    "host_minus_event_s": 0.17220456871081544,
+    "top_host": [
+      {
+        "block": 4,
+        "replay": 651,
+        "gpu_us": 220.70401000976562,
+        "host_us": 299.229
+      },
+      {
+        "block": 6,
+        "replay": 788,
+        "gpu_us": 213.95201110839844,
+        "host_us": 280.515
+      },
+      {
+        "block": 10,
+        "replay": 318,
+        "gpu_us": 213.56800842285156,
+        "host_us": 276.38
+      },
+      {
+        "block": 0,
+        "replay": 182,
+        "gpu_us": 215.96800231933594,
+        "host_us": 267.997
+      },
+      {
+        "block": 10,
+        "replay": 100,
+        "gpu_us": 250.8800048828125,
+        "host_us": 255.106
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "policy": "WRONG",
+    "host_minus_event_s": 0.1720970723150635,
+    "top_host": [
+      {
+        "block": 4,
+        "replay": 378,
+        "gpu_us": 215.7119903564453,
+        "host_us": 301.308
+      },
+      {
+        "block": 13,
+        "replay": 1275,
+        "gpu_us": 212.99200439453125,
+        "host_us": 283.16
+      },
+      {
+        "block": 8,
+        "replay": 1127,
+        "gpu_us": 215.83999633789062,
+        "host_us": 262.956
+      },
+      {
+        "block": 7,
+        "replay": 1600,
+        "gpu_us": 216.70399475097656,
+        "host_us": 262.731
+      },
+      {
+        "block": 1,
+        "replay": 1632,
+        "gpu_us": 219.00799560546875,
+        "host_us": 260.759
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "policy": "BASE",
+    "host_minus_event_s": 0.1755578130151367,
+    "top_host": [
+      {
+        "block": 2,
+        "replay": 838,
+        "gpu_us": 337.7279968261719,
+        "host_us": 421.483
+      },
+      {
+        "block": 2,
+        "replay": 704,
+        "gpu_us": 329.2799987792969,
+        "host_us": 390.916
+      },
+      {
+        "block": 2,
+        "replay": 695,
+        "gpu_us": 328.7040100097656,
+        "host_us": 388.344
+      },
+      {
+        "block": 1,
+        "replay": 278,
+        "gpu_us": 330.2400207519531,
+        "host_us": 387.101
+      },
+      {
+        "block": 9,
+        "replay": 6,
+        "gpu_us": 335.23199462890625,
+        "host_us": 386.315
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "policy": "FROZEN",
+    "host_minus_event_s": 0.17621645925708007,
+    "top_host": [
+      {
+        "block": 11,
+        "replay": 1601,
+        "gpu_us": 332.2879943847656,
+        "host_us": 376.126
+      },
+      {
+        "block": 3,
+        "replay": 138,
+        "gpu_us": 329.4720153808594,
+        "host_us": 369.96
+      },
+      {
+        "block": 4,
+        "replay": 302,
+        "gpu_us": 329.02398681640625,
+        "host_us": 368.917
+      },
+      {
+        "block": 12,
+        "replay": 1865,
+        "gpu_us": 359.20001220703125,
+        "host_us": 368.845
+      },
+      {
+        "block": 3,
+        "replay": 1907,
+        "gpu_us": 333.8240051269531,
+        "host_us": 368.829
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "policy": "LEGACY",
+    "host_minus_event_s": 0.17541956528222657,
+    "top_host": [
+      {
+        "block": 1,
+        "replay": 1509,
+        "gpu_us": 330.3680114746094,
+        "host_us": 398.214
+      },
+      {
+        "block": 4,
+        "replay": 151,
+        "gpu_us": 333.4720153808594,
+        "host_us": 387.787
+      },
+      {
+        "block": 1,
+        "replay": 1127,
+        "gpu_us": 330.0480041503906,
+        "host_us": 379.191
+      },
+      {
+        "block": 4,
+        "replay": 227,
+        "gpu_us": 338.176025390625,
+        "host_us": 374.443
+      },
+      {
+        "block": 10,
+        "replay": 155,
+        "gpu_us": 333.7599792480469,
+        "host_us": 372.034
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "policy": "PAIR_ONLY",
+    "host_minus_event_s": 0.1765693194013672,
+    "top_host": [
+      {
+        "block": 12,
+        "replay": 743,
+        "gpu_us": 332.2239990234375,
+        "host_us": 404.778
+      },
+      {
+        "block": 14,
+        "replay": 1369,
+        "gpu_us": 332.3840026855469,
+        "host_us": 377.387
+      },
+      {
+        "block": 13,
+        "replay": 2046,
+        "gpu_us": 346.2720031738281,
+        "host_us": 376.536
+      },
+      {
+        "block": 6,
+        "replay": 534,
+        "gpu_us": 332.1920166015625,
+        "host_us": 374.279
+      },
+      {
+        "block": 13,
+        "replay": 2047,
+        "gpu_us": 350.0480041503906,
+        "host_us": 373.436
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "policy": "PLACE_ONLY",
+    "host_minus_event_s": 0.17618168277709964,
+    "top_host": [
+      {
+        "block": 13,
+        "replay": 225,
+        "gpu_us": 332.76800537109375,
+        "host_us": 393.312
+      },
+      {
+        "block": 7,
+        "replay": 1956,
+        "gpu_us": 327.67999267578125,
+        "host_us": 389.752
+      },
+      {
+        "block": 11,
+        "replay": 548,
+        "gpu_us": 329.7279968261719,
+        "host_us": 384.671
+      },
+      {
+        "block": 3,
+        "replay": 1632,
+        "gpu_us": 329.1839904785156,
+        "host_us": 379.656
+      },
+      {
+        "block": 0,
+        "replay": 188,
+        "gpu_us": 328.99200439453125,
+        "host_us": 379.094
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "policy": "POOL",
+    "host_minus_event_s": 0.19859980533569335,
+    "top_host": [
+      {
+        "block": 4,
+        "replay": 508,
+        "gpu_us": 332.6399841308594,
+        "host_us": 1864.712
+      },
+      {
+        "block": 4,
+        "replay": 158,
+        "gpu_us": 329.5359802246094,
+        "host_us": 1656.085
+      },
+      {
+        "block": 4,
+        "replay": 287,
+        "gpu_us": 326.656005859375,
+        "host_us": 1647.05
+      },
+      {
+        "block": 4,
+        "replay": 246,
+        "gpu_us": 327.90399169921875,
+        "host_us": 1590.293
+      },
+      {
+        "block": 4,
+        "replay": 275,
+        "gpu_us": 325.44000244140625,
+        "host_us": 1587.258
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "policy": "SHADOW",
+    "host_minus_event_s": 0.17717669867285155,
+    "top_host": [
+      {
+        "block": 0,
+        "replay": 36,
+        "gpu_us": 333.8240051269531,
+        "host_us": 388.503
+      },
+      {
+        "block": 4,
+        "replay": 988,
+        "gpu_us": 333.7279968261719,
+        "host_us": 385.896
+      },
+      {
+        "block": 13,
+        "replay": 1370,
+        "gpu_us": 353.40802001953125,
+        "host_us": 383.711
+      },
+      {
+        "block": 15,
+        "replay": 142,
+        "gpu_us": 329.7599792480469,
+        "host_us": 382.606
+      },
+      {
+        "block": 4,
+        "replay": 1877,
+        "gpu_us": 329.88800048828125,
+        "host_us": 379.755
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "policy": "STATIC",
+    "host_minus_event_s": 0.17686148214843747,
+    "top_host": [
+      {
+        "block": 2,
+        "replay": 0,
+        "gpu_us": 336.99200439453125,
+        "host_us": 404.724
+      },
+      {
+        "block": 9,
+        "replay": 1843,
+        "gpu_us": 335.5199890136719,
+        "host_us": 392.872
+      },
+      {
+        "block": 6,
+        "replay": 1800,
+        "gpu_us": 329.02398681640625,
+        "host_us": 388.251
+      },
+      {
+        "block": 2,
+        "replay": 1980,
+        "gpu_us": 329.2799987792969,
+        "host_us": 387.779
+      },
+      {
+        "block": 12,
+        "replay": 707,
+        "gpu_us": 331.7760009765625,
+        "host_us": 384.124
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "policy": "TUNED",
+    "host_minus_event_s": 0.1758480914987793,
+    "top_host": [
+      {
+        "block": 2,
+        "replay": 1453,
+        "gpu_us": 385.0240173339844,
+        "host_us": 401.1
+      },
+      {
+        "block": 13,
+        "replay": 795,
+        "gpu_us": 335.64801025390625,
+        "host_us": 389.362
+      },
+      {
+        "block": 6,
+        "replay": 1719,
+        "gpu_us": 333.4720153808594,
+        "host_us": 384.254
+      },
+      {
+        "block": 2,
+        "replay": 1395,
+        "gpu_us": 332.2559814453125,
+        "host_us": 384.099
+      },
+      {
+        "block": 0,
+        "replay": 1488,
+        "gpu_us": 374.9440002441406,
+        "host_us": 382.227
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "policy": "TUNED_AA",
+    "host_minus_event_s": 0.18545667967333984,
+    "top_host": [
+      {
+        "block": 0,
+        "replay": 1217,
+        "gpu_us": 332.0,
+        "host_us": 3331.584
+      },
+      {
+        "block": 4,
+        "replay": 2004,
+        "gpu_us": 329.44000244140625,
+        "host_us": 2384.766
+      },
+      {
+        "block": 4,
+        "replay": 1986,
+        "gpu_us": 329.7279968261719,
+        "host_us": 1500.106
+      },
+      {
+        "block": 4,
+        "replay": 1942,
+        "gpu_us": 329.5040283203125,
+        "host_us": 1296.937
+      },
+      {
+        "block": 4,
+        "replay": 1901,
+        "gpu_us": 329.7279968261719,
+        "host_us": 1011.947
+      }
+    ]
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "policy": "WRONG",
+    "host_minus_event_s": 0.1765366589428711,
+    "top_host": [
+      {
+        "block": 4,
+        "replay": 1047,
+        "gpu_us": 331.45599365234375,
+        "host_us": 411.967
+      },
+      {
+        "block": 1,
+        "replay": 1214,
+        "gpu_us": 329.7279968261719,
+        "host_us": 383.072
+      },
+      {
+        "block": 2,
+        "replay": 608,
+        "gpu_us": 329.7279968261719,
+        "host_us": 381.936
+      },
+      {
+        "block": 15,
+        "replay": 990,
+        "gpu_us": 360.32000732421875,
+        "host_us": 377.648
+      },
+      {
+        "block": 0,
+        "replay": 1556,
+        "gpu_us": 368.6400146484375,
+        "host_us": 373.837
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "policy": "BASE",
+    "host_minus_event_s": 0.1757233404719238,
+    "top_host": [
+      {
+        "block": 14,
+        "replay": 166,
+        "gpu_us": 213.28001403808594,
+        "host_us": 319.28
+      },
+      {
+        "block": 4,
+        "replay": 240,
+        "gpu_us": 213.98399353027344,
+        "host_us": 311.334
+      },
+      {
+        "block": 9,
+        "replay": 21,
+        "gpu_us": 215.96800231933594,
+        "host_us": 288.056
+      },
+      {
+        "block": 0,
+        "replay": 726,
+        "gpu_us": 214.39999389648438,
+        "host_us": 276.371
+      },
+      {
+        "block": 9,
+        "replay": 1722,
+        "gpu_us": 214.62400817871094,
+        "host_us": 267.847
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "policy": "FROZEN",
+    "host_minus_event_s": 0.17592064108068847,
+    "top_host": [
+      {
+        "block": 3,
+        "replay": 1943,
+        "gpu_us": 215.0399932861328,
+        "host_us": 279.898
+      },
+      {
+        "block": 0,
+        "replay": 394,
+        "gpu_us": 213.72799682617188,
+        "host_us": 278.885
+      },
+      {
+        "block": 6,
+        "replay": 714,
+        "gpu_us": 218.5279998779297,
+        "host_us": 277.922
+      },
+      {
+        "block": 6,
+        "replay": 993,
+        "gpu_us": 215.13600158691406,
+        "host_us": 272.125
+      },
+      {
+        "block": 9,
+        "replay": 0,
+        "gpu_us": 246.5279998779297,
+        "host_us": 272.062
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "policy": "LEGACY",
+    "host_minus_event_s": 0.17475393050561525,
+    "top_host": [
+      {
+        "block": 11,
+        "replay": 0,
+        "gpu_us": 231.45599365234375,
+        "host_us": 277.643
+      },
+      {
+        "block": 15,
+        "replay": 431,
+        "gpu_us": 266.7200012207031,
+        "host_us": 274.055
+      },
+      {
+        "block": 0,
+        "replay": 322,
+        "gpu_us": 217.08799743652344,
+        "host_us": 274.024
+      },
+      {
+        "block": 14,
+        "replay": 1414,
+        "gpu_us": 217.6959991455078,
+        "host_us": 265.898
+      },
+      {
+        "block": 10,
+        "replay": 1162,
+        "gpu_us": 218.11199951171875,
+        "host_us": 265.141
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "policy": "PAIR_ONLY",
+    "host_minus_event_s": 0.17623673690612796,
+    "top_host": [
+      {
+        "block": 15,
+        "replay": 1761,
+        "gpu_us": 288.2559814453125,
+        "host_us": 297.009
+      },
+      {
+        "block": 4,
+        "replay": 1660,
+        "gpu_us": 278.6239929199219,
+        "host_us": 293.938
+      },
+      {
+        "block": 6,
+        "replay": 938,
+        "gpu_us": 214.9759979248047,
+        "host_us": 286.388
+      },
+      {
+        "block": 2,
+        "replay": 429,
+        "gpu_us": 212.92799377441406,
+        "host_us": 281.936
+      },
+      {
+        "block": 13,
+        "replay": 0,
+        "gpu_us": 262.52801513671875,
+        "host_us": 277.006
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "policy": "PLACE_ONLY",
+    "host_minus_event_s": 0.175971920961792,
+    "top_host": [
+      {
+        "block": 2,
+        "replay": 1190,
+        "gpu_us": 216.6719970703125,
+        "host_us": 325.385
+      },
+      {
+        "block": 2,
+        "replay": 1194,
+        "gpu_us": 282.4319763183594,
+        "host_us": 290.227
+      },
+      {
+        "block": 3,
+        "replay": 617,
+        "gpu_us": 214.55999755859375,
+        "host_us": 287.035
+      },
+      {
+        "block": 4,
+        "replay": 1993,
+        "gpu_us": 216.89599609375,
+        "host_us": 275.094
+      },
+      {
+        "block": 3,
+        "replay": 7,
+        "gpu_us": 222.9759979248047,
+        "host_us": 274.78
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "policy": "POOL",
+    "host_minus_event_s": 0.17677718830529787,
+    "top_host": [
+      {
+        "block": 13,
+        "replay": 1007,
+        "gpu_us": 215.0399932861328,
+        "host_us": 683.477
+      },
+      {
+        "block": 1,
+        "replay": 2010,
+        "gpu_us": 217.08799743652344,
+        "host_us": 270.908
+      },
+      {
+        "block": 8,
+        "replay": 1226,
+        "gpu_us": 214.01600646972656,
+        "host_us": 270.56
+      },
+      {
+        "block": 12,
+        "replay": 1686,
+        "gpu_us": 216.95999145507812,
+        "host_us": 269.731
+      },
+      {
+        "block": 1,
+        "replay": 664,
+        "gpu_us": 220.6719970703125,
+        "host_us": 268.001
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "policy": "SHADOW",
+    "host_minus_event_s": 0.17724771204943848,
+    "top_host": [
+      {
+        "block": 15,
+        "replay": 1059,
+        "gpu_us": 217.08799743652344,
+        "host_us": 289.094
+      },
+      {
+        "block": 9,
+        "replay": 1407,
+        "gpu_us": 214.68800354003906,
+        "host_us": 288.886
+      },
+      {
+        "block": 4,
+        "replay": 1566,
+        "gpu_us": 216.92800903320312,
+        "host_us": 283.457
+      },
+      {
+        "block": 10,
+        "replay": 1877,
+        "gpu_us": 217.08799743652344,
+        "host_us": 269.396
+      },
+      {
+        "block": 0,
+        "replay": 352,
+        "gpu_us": 214.7519989013672,
+        "host_us": 267.287
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "policy": "STATIC",
+    "host_minus_event_s": 0.1791627138120117,
+    "top_host": [
+      {
+        "block": 0,
+        "replay": 1652,
+        "gpu_us": 217.4080047607422,
+        "host_us": 1810.545
+      },
+      {
+        "block": 15,
+        "replay": 1855,
+        "gpu_us": 225.1199951171875,
+        "host_us": 320.988
+      },
+      {
+        "block": 11,
+        "replay": 1015,
+        "gpu_us": 220.47999572753906,
+        "host_us": 273.992
+      },
+      {
+        "block": 10,
+        "replay": 1056,
+        "gpu_us": 221.31199645996094,
+        "host_us": 273.359
+      },
+      {
+        "block": 6,
+        "replay": 552,
+        "gpu_us": 215.0399932861328,
+        "host_us": 271.327
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "policy": "TUNED",
+    "host_minus_event_s": 0.1774696023901367,
+    "top_host": [
+      {
+        "block": 3,
+        "replay": 0,
+        "gpu_us": 216.89599609375,
+        "host_us": 290.621
+      },
+      {
+        "block": 0,
+        "replay": 1048,
+        "gpu_us": 212.60800170898438,
+        "host_us": 286.997
+      },
+      {
+        "block": 3,
+        "replay": 1828,
+        "gpu_us": 218.49600219726562,
+        "host_us": 281.57
+      },
+      {
+        "block": 7,
+        "replay": 0,
+        "gpu_us": 216.7679901123047,
+        "host_us": 280.832
+      },
+      {
+        "block": 9,
+        "replay": 887,
+        "gpu_us": 214.81600952148438,
+        "host_us": 276.488
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "policy": "TUNED_AA",
+    "host_minus_event_s": 0.1764780705941162,
+    "top_host": [
+      {
+        "block": 8,
+        "replay": 455,
+        "gpu_us": 217.21600341796875,
+        "host_us": 283.133
+      },
+      {
+        "block": 2,
+        "replay": 30,
+        "gpu_us": 215.83999633789062,
+        "host_us": 277.176
+      },
+      {
+        "block": 13,
+        "replay": 754,
+        "gpu_us": 220.38400268554688,
+        "host_us": 270.118
+      },
+      {
+        "block": 7,
+        "replay": 404,
+        "gpu_us": 225.92001342773438,
+        "host_us": 268.696
+      },
+      {
+        "block": 14,
+        "replay": 1691,
+        "gpu_us": 217.37599182128906,
+        "host_us": 263.859
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "policy": "WRONG",
+    "host_minus_event_s": 0.17822039932055667,
+    "top_host": [
+      {
+        "block": 15,
+        "replay": 768,
+        "gpu_us": 217.72799682617188,
+        "host_us": 293.535
+      },
+      {
+        "block": 11,
+        "replay": 1512,
+        "gpu_us": 219.00799560546875,
+        "host_us": 284.002
+      },
+      {
+        "block": 12,
+        "replay": 0,
+        "gpu_us": 268.2879943847656,
+        "host_us": 283.408
+      },
+      {
+        "block": 14,
+        "replay": 989,
+        "gpu_us": 216.7360076904297,
+        "host_us": 281.335
+      },
+      {
+        "block": 15,
+        "replay": 1991,
+        "gpu_us": 274.3999938964844,
+        "host_us": 280.89
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "policy": "BASE",
+    "host_minus_event_s": 0.18590701889208983,
+    "top_host": [
+      {
+        "block": 14,
+        "replay": 1592,
+        "gpu_us": 337.69598388671875,
+        "host_us": 416.072
+      },
+      {
+        "block": 12,
+        "replay": 504,
+        "gpu_us": 329.02398681640625,
+        "host_us": 404.188
+      },
+      {
+        "block": 5,
+        "replay": 1300,
+        "gpu_us": 327.67999267578125,
+        "host_us": 401.106
+      },
+      {
+        "block": 4,
+        "replay": 68,
+        "gpu_us": 332.2879943847656,
+        "host_us": 388.813
+      },
+      {
+        "block": 10,
+        "replay": 46,
+        "gpu_us": 333.8240051269531,
+        "host_us": 388.217
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "policy": "FROZEN",
+    "host_minus_event_s": 0.18260530550756834,
+    "top_host": [
+      {
+        "block": 5,
+        "replay": 1000,
+        "gpu_us": 329.2480163574219,
+        "host_us": 423.958
+      },
+      {
+        "block": 4,
+        "replay": 717,
+        "gpu_us": 413.69598388671875,
+        "host_us": 419.259
+      },
+      {
+        "block": 15,
+        "replay": 1195,
+        "gpu_us": 335.67999267578125,
+        "host_us": 398.259
+      },
+      {
+        "block": 3,
+        "replay": 46,
+        "gpu_us": 340.6080017089844,
+        "host_us": 389.677
+      },
+      {
+        "block": 0,
+        "replay": 16,
+        "gpu_us": 328.89599609375,
+        "host_us": 378.157
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "policy": "LEGACY",
+    "host_minus_event_s": 0.1851040803708496,
+    "top_host": [
+      {
+        "block": 7,
+        "replay": 545,
+        "gpu_us": 329.6000061035156,
+        "host_us": 418.929
+      },
+      {
+        "block": 5,
+        "replay": 1183,
+        "gpu_us": 330.3039855957031,
+        "host_us": 403.099
+      },
+      {
+        "block": 2,
+        "replay": 613,
+        "gpu_us": 329.8240051269531,
+        "host_us": 399.499
+      },
+      {
+        "block": 6,
+        "replay": 1278,
+        "gpu_us": 341.760009765625,
+        "host_us": 394.176
+      },
+      {
+        "block": 6,
+        "replay": 1831,
+        "gpu_us": 329.7279968261719,
+        "host_us": 392.577
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "policy": "PAIR_ONLY",
+    "host_minus_event_s": 0.18424220268530275,
+    "top_host": [
+      {
+        "block": 9,
+        "replay": 1937,
+        "gpu_us": 332.89599609375,
+        "host_us": 444.246
+      },
+      {
+        "block": 12,
+        "replay": 1255,
+        "gpu_us": 330.55999755859375,
+        "host_us": 402.647
+      },
+      {
+        "block": 6,
+        "replay": 1341,
+        "gpu_us": 337.823974609375,
+        "host_us": 398.515
+      },
+      {
+        "block": 3,
+        "replay": 1821,
+        "gpu_us": 334.4640197753906,
+        "host_us": 386.04
+      },
+      {
+        "block": 13,
+        "replay": 1095,
+        "gpu_us": 334.2080078125,
+        "host_us": 382.963
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "policy": "PLACE_ONLY",
+    "host_minus_event_s": 0.18283933308105468,
+    "top_host": [
+      {
+        "block": 12,
+        "replay": 759,
+        "gpu_us": 400.1280212402344,
+        "host_us": 405.898
+      },
+      {
+        "block": 8,
+        "replay": 555,
+        "gpu_us": 397.6319885253906,
+        "host_us": 404.37
+      },
+      {
+        "block": 10,
+        "replay": 1099,
+        "gpu_us": 331.8719787597656,
+        "host_us": 403.291
+      },
+      {
+        "block": 9,
+        "replay": 629,
+        "gpu_us": 333.66400146484375,
+        "host_us": 394.031
+      },
+      {
+        "block": 9,
+        "replay": 231,
+        "gpu_us": 335.7439880371094,
+        "host_us": 389.278
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "policy": "POOL",
+    "host_minus_event_s": 0.18289536668261716,
+    "top_host": [
+      {
+        "block": 11,
+        "replay": 24,
+        "gpu_us": 364.54400634765625,
+        "host_us": 395.695
+      },
+      {
+        "block": 12,
+        "replay": 1022,
+        "gpu_us": 328.2879943847656,
+        "host_us": 389.725
+      },
+      {
+        "block": 3,
+        "replay": 515,
+        "gpu_us": 373.3760070800781,
+        "host_us": 380.789
+      },
+      {
+        "block": 4,
+        "replay": 1375,
+        "gpu_us": 328.35198974609375,
+        "host_us": 380.194
+      },
+      {
+        "block": 1,
+        "replay": 1623,
+        "gpu_us": 333.21600341796875,
+        "host_us": 380.0
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "policy": "SHADOW",
+    "host_minus_event_s": 0.18396823028222659,
+    "top_host": [
+      {
+        "block": 5,
+        "replay": 1274,
+        "gpu_us": 339.583984375,
+        "host_us": 395.645
+      },
+      {
+        "block": 9,
+        "replay": 350,
+        "gpu_us": 347.8080139160156,
+        "host_us": 391.431
+      },
+      {
+        "block": 7,
+        "replay": 1238,
+        "gpu_us": 371.552001953125,
+        "host_us": 388.653
+      },
+      {
+        "block": 8,
+        "replay": 680,
+        "gpu_us": 332.7359924316406,
+        "host_us": 387.36
+      },
+      {
+        "block": 5,
+        "replay": 1231,
+        "gpu_us": 337.5039978027344,
+        "host_us": 384.51
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "policy": "STATIC",
+    "host_minus_event_s": 0.18272243497509766,
+    "top_host": [
+      {
+        "block": 11,
+        "replay": 493,
+        "gpu_us": 337.9519958496094,
+        "host_us": 420.648
+      },
+      {
+        "block": 3,
+        "replay": 1141,
+        "gpu_us": 328.57598876953125,
+        "host_us": 382.939
+      },
+      {
+        "block": 7,
+        "replay": 1130,
+        "gpu_us": 332.09600830078125,
+        "host_us": 382.001
+      },
+      {
+        "block": 9,
+        "replay": 822,
+        "gpu_us": 331.00799560546875,
+        "host_us": 381.502
+      },
+      {
+        "block": 14,
+        "replay": 1298,
+        "gpu_us": 327.8079833984375,
+        "host_us": 380.139
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "policy": "TUNED",
+    "host_minus_event_s": 0.1834941549902344,
+    "top_host": [
+      {
+        "block": 1,
+        "replay": 1306,
+        "gpu_us": 327.64801025390625,
+        "host_us": 413.331
+      },
+      {
+        "block": 14,
+        "replay": 0,
+        "gpu_us": 336.3840026855469,
+        "host_us": 399.49
+      },
+      {
+        "block": 0,
+        "replay": 1106,
+        "gpu_us": 348.47998046875,
+        "host_us": 390.734
+      },
+      {
+        "block": 3,
+        "replay": 2042,
+        "gpu_us": 332.9280090332031,
+        "host_us": 387.739
+      },
+      {
+        "block": 4,
+        "replay": 1868,
+        "gpu_us": 328.031982421875,
+        "host_us": 386.029
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "policy": "TUNED_AA",
+    "host_minus_event_s": 0.18348093455615236,
+    "top_host": [
+      {
+        "block": 11,
+        "replay": 1311,
+        "gpu_us": 428.416015625,
+        "host_us": 439.24
+      },
+      {
+        "block": 12,
+        "replay": 638,
+        "gpu_us": 333.44000244140625,
+        "host_us": 422.544
+      },
+      {
+        "block": 5,
+        "replay": 588,
+        "gpu_us": 330.9440002441406,
+        "host_us": 400.518
+      },
+      {
+        "block": 0,
+        "replay": 80,
+        "gpu_us": 327.90399169921875,
+        "host_us": 393.471
+      },
+      {
+        "block": 0,
+        "replay": 1930,
+        "gpu_us": 327.7120056152344,
+        "host_us": 392.807
+      }
+    ]
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "policy": "WRONG",
+    "host_minus_event_s": 0.18734240362670898,
+    "top_host": [
+      {
+        "block": 13,
+        "replay": 962,
+        "gpu_us": 333.44000244140625,
+        "host_us": 1414.504
+      },
+      {
+        "block": 1,
+        "replay": 1954,
+        "gpu_us": 333.9519958496094,
+        "host_us": 406.836
+      },
+      {
+        "block": 13,
+        "replay": 1101,
+        "gpu_us": 327.64801025390625,
+        "host_us": 406.146
+      },
+      {
+        "block": 0,
+        "replay": 1038,
+        "gpu_us": 338.8479919433594,
+        "host_us": 392.488
+      },
+      {
+        "block": 4,
+        "replay": 1844,
+        "gpu_us": 327.67999267578125,
+        "host_us": 386.555
+      }
+    ]
+  }
+]

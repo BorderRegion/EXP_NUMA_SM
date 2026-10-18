@@ -1,0 +1,4214 @@
+[
+  {
+    "case_id": "grouped-042",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0803527058862117,
+    "ready_tail_over_head": 1.0741312697668501,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-042.json"
+  },
+  {
+    "case_id": "grouped-017",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0676546747906983,
+    "ready_tail_over_head": 1.0687163553860919,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-017.json"
+  },
+  {
+    "case_id": "grouped-006",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0281312569592371,
+    "ready_tail_over_head": 1.0275440193682215,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-006.json"
+  },
+  {
+    "case_id": "grouped-053",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9930441328587184,
+    "ready_tail_over_head": 0.9930736517957215,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-053.json"
+  },
+  {
+    "case_id": "grouped-045",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.997077664572615,
+    "ready_tail_over_head": 0.9970653061142887,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-045.json"
+  },
+  {
+    "case_id": "grouped-010",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0919918884260806,
+    "ready_tail_over_head": 1.0920245588371142,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-010.json"
+  },
+  {
+    "case_id": "grouped-002",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0221328328301673,
+    "ready_tail_over_head": 1.0219917318004361,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-002.json"
+  },
+  {
+    "case_id": "grouped-050",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0386742194651324,
+    "ready_tail_over_head": 1.0388895463019696,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-050.json"
+  },
+  {
+    "case_id": "grouped-009",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0086124683284332,
+    "ready_tail_over_head": 1.0083369638409818,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-009.json"
+  },
+  {
+    "case_id": "grouped-014",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.996148863649902,
+    "ready_tail_over_head": 0.9961995580457138,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-014.json"
+  },
+  {
+    "case_id": "grouped-018",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0167884764466084,
+    "ready_tail_over_head": 1.0171212166186165,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-018.json"
+  },
+  {
+    "case_id": "grouped-022",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9844373291102679,
+    "ready_tail_over_head": 0.9842895093167846,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-022.json"
+  },
+  {
+    "case_id": "grouped-034",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0185450432249985,
+    "ready_tail_over_head": 1.0189543395109104,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-034.json"
+  },
+  {
+    "case_id": "grouped-033",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0197368447691875,
+    "ready_tail_over_head": 1.0199298971190154,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-033.json"
+  },
+  {
+    "case_id": "grouped-005",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0084986386411499,
+    "ready_tail_over_head": 1.014449360295277,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-005.json"
+  },
+  {
+    "case_id": "grouped-054",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0005076124049785,
+    "ready_tail_over_head": 1.0005169164915804,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-054.json"
+  },
+  {
+    "case_id": "grouped-013",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.024261359233243,
+    "ready_tail_over_head": 1.0243299177281047,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-013.json"
+  },
+  {
+    "case_id": "grouped-038",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0060075311647123,
+    "ready_tail_over_head": 1.0060239228674575,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-038.json"
+  },
+  {
+    "case_id": "grouped-041",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0688352498976317,
+    "ready_tail_over_head": 1.0690525347517337,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-041.json"
+  },
+  {
+    "case_id": "grouped-021",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.073801550718854,
+    "ready_tail_over_head": 1.0737011273152477,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-021.json"
+  },
+  {
+    "case_id": "grouped-049",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.004490647916724,
+    "ready_tail_over_head": 1.0043859955124557,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-049.json"
+  },
+  {
+    "case_id": "grouped-037",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.004358173689343,
+    "ready_tail_over_head": 1.0043434549060006,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-037.json"
+  },
+  {
+    "case_id": "grouped-001",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0546008625521563,
+    "ready_tail_over_head": 1.0550410806628638,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-001.json"
+  },
+  {
+    "case_id": "grouped-046",
+    "block": 0,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0136364506893498,
+    "ready_tail_over_head": 1.0136066764576508,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T133348Z_961bcc8b/grouped-046.json"
+  },
+  {
+    "case_id": "grouped-042",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0009733487223154,
+    "ready_tail_over_head": 1.0010821690270684,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-042.json"
+  },
+  {
+    "case_id": "grouped-017",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0568410807813982,
+    "ready_tail_over_head": 1.056668688606712,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-017.json"
+  },
+  {
+    "case_id": "grouped-006",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9892660770369684,
+    "ready_tail_over_head": 0.9895084261931132,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-006.json"
+  },
+  {
+    "case_id": "grouped-053",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0046279848458648,
+    "ready_tail_over_head": 1.0046473194827858,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-053.json"
+  },
+  {
+    "case_id": "grouped-045",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9855708958814519,
+    "ready_tail_over_head": 0.9855614592388521,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-045.json"
+  },
+  {
+    "case_id": "grouped-010",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0159153283922422,
+    "ready_tail_over_head": 1.023526065498683,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-010.json"
+  },
+  {
+    "case_id": "grouped-002",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0743288765064403,
+    "ready_tail_over_head": 1.0744048146829432,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-002.json"
+  },
+  {
+    "case_id": "grouped-050",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.003543752717876,
+    "ready_tail_over_head": 1.0036348689165586,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-050.json"
+  },
+  {
+    "case_id": "grouped-009",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0259843904324544,
+    "ready_tail_over_head": 1.0260290941329242,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-009.json"
+  },
+  {
+    "case_id": "grouped-014",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0151138945031841,
+    "ready_tail_over_head": 1.014984341222916,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-014.json"
+  },
+  {
+    "case_id": "grouped-018",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9741715832529177,
+    "ready_tail_over_head": 0.9742623426255649,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-018.json"
+  },
+  {
+    "case_id": "grouped-022",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.064264467858497,
+    "ready_tail_over_head": 1.0641997510503043,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-022.json"
+  },
+  {
+    "case_id": "grouped-034",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9953445286958923,
+    "ready_tail_over_head": 0.9957341805897293,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-034.json"
+  },
+  {
+    "case_id": "grouped-033",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0161391851188537,
+    "ready_tail_over_head": 1.0160427153062994,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-033.json"
+  },
+  {
+    "case_id": "grouped-005",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0279339815712578,
+    "ready_tail_over_head": 1.0275658542683737,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-005.json"
+  },
+  {
+    "case_id": "grouped-054",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.979044865848309,
+    "ready_tail_over_head": 0.979040712965276,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-054.json"
+  },
+  {
+    "case_id": "grouped-013",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0087302069535418,
+    "ready_tail_over_head": 1.0089216104805934,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-013.json"
+  },
+  {
+    "case_id": "grouped-038",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0064532773886683,
+    "ready_tail_over_head": 1.0064590183276376,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-038.json"
+  },
+  {
+    "case_id": "grouped-041",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0134857036208222,
+    "ready_tail_over_head": 1.0125953391265459,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-041.json"
+  },
+  {
+    "case_id": "grouped-021",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9931048536413227,
+    "ready_tail_over_head": 0.9931156766235973,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-021.json"
+  },
+  {
+    "case_id": "grouped-049",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9939487867191087,
+    "ready_tail_over_head": 0.9862594637387788,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-049.json"
+  },
+  {
+    "case_id": "grouped-037",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0162244874495083,
+    "ready_tail_over_head": 1.0162265333220024,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-037.json"
+  },
+  {
+    "case_id": "grouped-001",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0182801414271303,
+    "ready_tail_over_head": 1.018286264684155,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-001.json"
+  },
+  {
+    "case_id": "grouped-046",
+    "block": 1,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9965370085134161,
+    "ready_tail_over_head": 0.9965357085593934,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T134651Z_7332d632/grouped-046.json"
+  },
+  {
+    "case_id": "grouped-042",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0182781502157514,
+    "ready_tail_over_head": 1.0183725829119668,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-042.json"
+  },
+  {
+    "case_id": "grouped-017",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9959283709530776,
+    "ready_tail_over_head": 0.9959455890600307,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-017.json"
+  },
+  {
+    "case_id": "grouped-006",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9329731106225893,
+    "ready_tail_over_head": 0.932994644730038,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-006.json"
+  },
+  {
+    "case_id": "grouped-053",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0080138869539725,
+    "ready_tail_over_head": 1.0079475502832351,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-053.json"
+  },
+  {
+    "case_id": "grouped-045",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9997796276181687,
+    "ready_tail_over_head": 0.9997962708455763,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-045.json"
+  },
+  {
+    "case_id": "grouped-010",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9988068623971633,
+    "ready_tail_over_head": 0.9986272503239241,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-010.json"
+  },
+  {
+    "case_id": "grouped-002",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9418401197812389,
+    "ready_tail_over_head": 0.9421275973799464,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-002.json"
+  },
+  {
+    "case_id": "grouped-050",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0019341158150206,
+    "ready_tail_over_head": 1.0018875926690651,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-050.json"
+  },
+  {
+    "case_id": "grouped-009",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.027525828430502,
+    "ready_tail_over_head": 1.0280580878180376,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-009.json"
+  },
+  {
+    "case_id": "grouped-014",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9970097915397531,
+    "ready_tail_over_head": 0.9970075880702575,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-014.json"
+  },
+  {
+    "case_id": "grouped-018",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9845678641762028,
+    "ready_tail_over_head": 0.9846765450798213,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-018.json"
+  },
+  {
+    "case_id": "grouped-022",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9998572290786203,
+    "ready_tail_over_head": 0.9996977689238873,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-022.json"
+  },
+  {
+    "case_id": "grouped-034",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0011249186422388,
+    "ready_tail_over_head": 1.0012674397139092,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-034.json"
+  },
+  {
+    "case_id": "grouped-033",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0027912986134928,
+    "ready_tail_over_head": 1.002724471948999,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-033.json"
+  },
+  {
+    "case_id": "grouped-005",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9885753543494502,
+    "ready_tail_over_head": 0.9885600676190737,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-005.json"
+  },
+  {
+    "case_id": "grouped-054",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.000241568040064,
+    "ready_tail_over_head": 0.9996722940823572,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-054.json"
+  },
+  {
+    "case_id": "grouped-013",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0108976889088273,
+    "ready_tail_over_head": 1.011276276727319,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-013.json"
+  },
+  {
+    "case_id": "grouped-038",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9993015704296098,
+    "ready_tail_over_head": 0.9992944079010626,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-038.json"
+  },
+  {
+    "case_id": "grouped-041",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0010656014564256,
+    "ready_tail_over_head": 1.0010888713980206,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-041.json"
+  },
+  {
+    "case_id": "grouped-021",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.987719677275354,
+    "ready_tail_over_head": 0.9877074727656342,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-021.json"
+  },
+  {
+    "case_id": "grouped-049",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.018250231496225,
+    "ready_tail_over_head": 1.0182583403893224,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-049.json"
+  },
+  {
+    "case_id": "grouped-037",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0001140360320178,
+    "ready_tail_over_head": 1.0001171217265223,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-037.json"
+  },
+  {
+    "case_id": "grouped-001",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0054716892976971,
+    "ready_tail_over_head": 1.0063957724784518,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-001.json"
+  },
+  {
+    "case_id": "grouped-046",
+    "block": 2,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9996796903623958,
+    "ready_tail_over_head": 0.9996834665487209,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T135347Z_a621beb6/grouped-046.json"
+  },
+  {
+    "case_id": "grouped-042",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.002101574644175,
+    "ready_tail_over_head": 1.002572552539635,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-042.json"
+  },
+  {
+    "case_id": "grouped-017",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0056504969315911,
+    "ready_tail_over_head": 1.005824516379816,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-017.json"
+  },
+  {
+    "case_id": "grouped-006",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.988458965515214,
+    "ready_tail_over_head": 0.9885104716263887,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-006.json"
+  },
+  {
+    "case_id": "grouped-053",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0003530496961661,
+    "ready_tail_over_head": 1.0003490446234673,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-053.json"
+  },
+  {
+    "case_id": "grouped-045",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9956369113227412,
+    "ready_tail_over_head": 0.9956235190230074,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-045.json"
+  },
+  {
+    "case_id": "grouped-010",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.00611579302396,
+    "ready_tail_over_head": 1.0062742950090937,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-010.json"
+  },
+  {
+    "case_id": "grouped-002",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.98919392915585,
+    "ready_tail_over_head": 0.9890041289619954,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-002.json"
+  },
+  {
+    "case_id": "grouped-050",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0016375582485286,
+    "ready_tail_over_head": 1.001648751079932,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-050.json"
+  },
+  {
+    "case_id": "grouped-009",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0161169249118291,
+    "ready_tail_over_head": 1.016025398268659,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-009.json"
+  },
+  {
+    "case_id": "grouped-014",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.998624159525778,
+    "ready_tail_over_head": 0.9985218234501694,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-014.json"
+  },
+  {
+    "case_id": "grouped-018",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0022497542830588,
+    "ready_tail_over_head": 1.001718790031523,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-018.json"
+  },
+  {
+    "case_id": "grouped-022",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9945227144940182,
+    "ready_tail_over_head": 0.9945481104778717,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-022.json"
+  },
+  {
+    "case_id": "grouped-034",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9953661963961521,
+    "ready_tail_over_head": 0.9953666496899622,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-034.json"
+  },
+  {
+    "case_id": "grouped-033",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9998584233521702,
+    "ready_tail_over_head": 1.0000705148541782,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-033.json"
+  },
+  {
+    "case_id": "grouped-005",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0004835044642548,
+    "ready_tail_over_head": 1.0004131294382275,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-005.json"
+  },
+  {
+    "case_id": "grouped-054",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9999312822212082,
+    "ready_tail_over_head": 0.9999371483692823,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-054.json"
+  },
+  {
+    "case_id": "grouped-013",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9855040724950289,
+    "ready_tail_over_head": 0.9857084874570757,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-013.json"
+  },
+  {
+    "case_id": "grouped-038",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.023017615712344,
+    "ready_tail_over_head": 1.0230165636981747,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-038.json"
+  },
+  {
+    "case_id": "grouped-041",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.00313495597482,
+    "ready_tail_over_head": 1.0031185169311196,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-041.json"
+  },
+  {
+    "case_id": "grouped-021",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9988717919843677,
+    "ready_tail_over_head": 0.9988463420752892,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-021.json"
+  },
+  {
+    "case_id": "grouped-049",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0160707349906661,
+    "ready_tail_over_head": 1.0160831723117683,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-049.json"
+  },
+  {
+    "case_id": "grouped-037",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9999697599246734,
+    "ready_tail_over_head": 0.9999802758910655,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-037.json"
+  },
+  {
+    "case_id": "grouped-001",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.006680064852474,
+    "ready_tail_over_head": 1.0063249260840568,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-001.json"
+  },
+  {
+    "case_id": "grouped-046",
+    "block": 3,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.013625112572245,
+    "ready_tail_over_head": 1.0136166767229342,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140051Z_b9ccd381/grouped-046.json"
+  },
+  {
+    "case_id": "grouped-042",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.004637466927709,
+    "ready_tail_over_head": 1.004868505556203,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-042.json"
+  },
+  {
+    "case_id": "grouped-017",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0005739423654423,
+    "ready_tail_over_head": 1.0006900354866182,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-017.json"
+  },
+  {
+    "case_id": "grouped-006",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9874023514641042,
+    "ready_tail_over_head": 0.987239729391686,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-006.json"
+  },
+  {
+    "case_id": "grouped-053",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.003838992860913,
+    "ready_tail_over_head": 1.003833671157259,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-053.json"
+  },
+  {
+    "case_id": "grouped-045",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9998252021666336,
+    "ready_tail_over_head": 0.9998296725659189,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-045.json"
+  },
+  {
+    "case_id": "grouped-010",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9939567144522141,
+    "ready_tail_over_head": 0.9938670115282485,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-010.json"
+  },
+  {
+    "case_id": "grouped-002",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0033687200000811,
+    "ready_tail_over_head": 1.0038960039325382,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-002.json"
+  },
+  {
+    "case_id": "grouped-050",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9918393267349355,
+    "ready_tail_over_head": 0.9920598367050195,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-050.json"
+  },
+  {
+    "case_id": "grouped-009",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9869987538519114,
+    "ready_tail_over_head": 0.9870068998753285,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-009.json"
+  },
+  {
+    "case_id": "grouped-014",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.997237497727442,
+    "ready_tail_over_head": 0.9972633741167116,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-014.json"
+  },
+  {
+    "case_id": "grouped-018",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0033406448439635,
+    "ready_tail_over_head": 1.0025670874634984,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-018.json"
+  },
+  {
+    "case_id": "grouped-022",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9984755564100877,
+    "ready_tail_over_head": 0.99844292188095,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-022.json"
+  },
+  {
+    "case_id": "grouped-034",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.984020604880281,
+    "ready_tail_over_head": 0.9847525352925272,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-034.json"
+  },
+  {
+    "case_id": "grouped-033",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9780794520084736,
+    "ready_tail_over_head": 0.9773857717943744,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-033.json"
+  },
+  {
+    "case_id": "grouped-005",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9838268634664191,
+    "ready_tail_over_head": 0.9837543560566258,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-005.json"
+  },
+  {
+    "case_id": "grouped-054",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9948999000868518,
+    "ready_tail_over_head": 0.994903538205248,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-054.json"
+  },
+  {
+    "case_id": "grouped-013",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9886121403750191,
+    "ready_tail_over_head": 0.9886231092610905,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-013.json"
+  },
+  {
+    "case_id": "grouped-038",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9997017032344531,
+    "ready_tail_over_head": 0.9995884686559503,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-038.json"
+  },
+  {
+    "case_id": "grouped-041",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0188599301273724,
+    "ready_tail_over_head": 1.0189339828060662,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-041.json"
+  },
+  {
+    "case_id": "grouped-021",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9928468758227605,
+    "ready_tail_over_head": 0.9929822243057237,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-021.json"
+  },
+  {
+    "case_id": "grouped-049",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9997630325055332,
+    "ready_tail_over_head": 0.9998407646835589,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-049.json"
+  },
+  {
+    "case_id": "grouped-037",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9999839292279692,
+    "ready_tail_over_head": 0.9999700724209467,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-037.json"
+  },
+  {
+    "case_id": "grouped-001",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0128122373954638,
+    "ready_tail_over_head": 1.0127611414924307,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-001.json"
+  },
+  {
+    "case_id": "grouped-046",
+    "block": 4,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0085621038680372,
+    "ready_tail_over_head": 1.008542348057282,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T140755Z_8492fa99/grouped-046.json"
+  },
+  {
+    "case_id": "grouped-042",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0133024614633672,
+    "ready_tail_over_head": 1.0133800027845679,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-042.json"
+  },
+  {
+    "case_id": "grouped-017",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0729788847212451,
+    "ready_tail_over_head": 1.072874679314893,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-017.json"
+  },
+  {
+    "case_id": "grouped-006",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.1611248028523062,
+    "ready_tail_over_head": 1.1614275278927082,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-006.json"
+  },
+  {
+    "case_id": "grouped-053",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0001638784100673,
+    "ready_tail_over_head": 1.0001647664173918,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-053.json"
+  },
+  {
+    "case_id": "grouped-045",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0001459438676714,
+    "ready_tail_over_head": 1.000132697581037,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-045.json"
+  },
+  {
+    "case_id": "grouped-010",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0757651458533093,
+    "ready_tail_over_head": 1.0648191516388184,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-010.json"
+  },
+  {
+    "case_id": "grouped-002",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0390455753787016,
+    "ready_tail_over_head": 1.039142230884387,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-002.json"
+  },
+  {
+    "case_id": "grouped-050",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0012871951332096,
+    "ready_tail_over_head": 1.0011275953715306,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-050.json"
+  },
+  {
+    "case_id": "grouped-009",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.1466114156568095,
+    "ready_tail_over_head": 1.146259871755866,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-009.json"
+  },
+  {
+    "case_id": "grouped-014",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0019624539370464,
+    "ready_tail_over_head": 1.0019158755872464,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-014.json"
+  },
+  {
+    "case_id": "grouped-018",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0768821643857853,
+    "ready_tail_over_head": 1.0661365016069344,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-018.json"
+  },
+  {
+    "case_id": "grouped-022",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.007120683806134,
+    "ready_tail_over_head": 1.007230527757052,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-022.json"
+  },
+  {
+    "case_id": "grouped-034",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0696875059988196,
+    "ready_tail_over_head": 1.0697403710431426,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-034.json"
+  },
+  {
+    "case_id": "grouped-033",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0224633983787486,
+    "ready_tail_over_head": 1.0223335203347999,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-033.json"
+  },
+  {
+    "case_id": "grouped-005",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9738378822149042,
+    "ready_tail_over_head": 0.9738226388915088,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-005.json"
+  },
+  {
+    "case_id": "grouped-054",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.00002783025482,
+    "ready_tail_over_head": 1.00002755990775,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-054.json"
+  },
+  {
+    "case_id": "grouped-013",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9877319424064103,
+    "ready_tail_over_head": 0.9877874444370928,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-013.json"
+  },
+  {
+    "case_id": "grouped-038",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 0.9912475235677579,
+    "ready_tail_over_head": 0.9869667226461285,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-038.json"
+  },
+  {
+    "case_id": "grouped-041",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0682006795994319,
+    "ready_tail_over_head": 1.0665137715990767,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-041.json"
+  },
+  {
+    "case_id": "grouped-021",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0079855963376734,
+    "ready_tail_over_head": 1.0079033523893675,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-021.json"
+  },
+  {
+    "case_id": "grouped-049",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0059100111480188,
+    "ready_tail_over_head": 1.0058011316060658,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-049.json"
+  },
+  {
+    "case_id": "grouped-037",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0434857654859089,
+    "ready_tail_over_head": 1.0412819650260468,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-037.json"
+  },
+  {
+    "case_id": "grouped-001",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0076184493962999,
+    "ready_tail_over_head": 1.0076110839083883,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-001.json"
+  },
+  {
+    "case_id": "grouped-046",
+    "block": 5,
+    "cohort": "implementation_calibration",
+    "device_tail_over_head": 1.0182521592618254,
+    "ready_tail_over_head": 1.018284515894423,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T141458Z_b73f48b4/grouped-046.json"
+  },
+  {
+    "case_id": "dense_control-014",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9994284308068191,
+    "ready_tail_over_head": 0.9992750200906683,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/dense_control-014.json"
+  },
+  {
+    "case_id": "dense_control-020",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9998829238391754,
+    "ready_tail_over_head": 0.9998251456608066,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/dense_control-020.json"
+  },
+  {
+    "case_id": "grouped-016",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0109092047984014,
+    "ready_tail_over_head": 1.0109151896277466,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-016.json"
+  },
+  {
+    "case_id": "grouped-088",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0002844710357923,
+    "ready_tail_over_head": 1.000275632599609,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-088.json"
+  },
+  {
+    "case_id": "heterogeneous_k-007",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0073514308873304,
+    "ready_tail_over_head": 1.0073830505947086,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/heterogeneous_k-007.json"
+  },
+  {
+    "case_id": "dense_control-012",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0001739734168162,
+    "ready_tail_over_head": 1.0009046968433417,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/dense_control-012.json"
+  },
+  {
+    "case_id": "grouped-025",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.998085813228007,
+    "ready_tail_over_head": 0.998107740765892,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-025.json"
+  },
+  {
+    "case_id": "dense_control-008",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9994791108737382,
+    "ready_tail_over_head": 0.999109326852423,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/dense_control-008.json"
+  },
+  {
+    "case_id": "grouped-094",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0000859633314156,
+    "ready_tail_over_head": 1.0000935887118945,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-094.json"
+  },
+  {
+    "case_id": "dense_control-022",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0000156956282218,
+    "ready_tail_over_head": 1.000016840590018,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/dense_control-022.json"
+  },
+  {
+    "case_id": "grouped-081",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0001253826432377,
+    "ready_tail_over_head": 1.0001167336646262,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-081.json"
+  },
+  {
+    "case_id": "grouped-079",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0000799398684872,
+    "ready_tail_over_head": 1.000079169949216,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-079.json"
+  },
+  {
+    "case_id": "grouped-029",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0168797202227375,
+    "ready_tail_over_head": 1.0171491501490142,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-029.json"
+  },
+  {
+    "case_id": "grouped-057",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9999513065636615,
+    "ready_tail_over_head": 0.9999570620080698,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-057.json"
+  },
+  {
+    "case_id": "dense_control-002",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9982887287006846,
+    "ready_tail_over_head": 0.9983177825971964,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/dense_control-002.json"
+  },
+  {
+    "case_id": "grouped-058",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9697596407560151,
+    "ready_tail_over_head": 0.9697704526491799,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-058.json"
+  },
+  {
+    "case_id": "grouped-026",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0013696423824943,
+    "ready_tail_over_head": 1.0011904464554464,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-026.json"
+  },
+  {
+    "case_id": "dense_control-010",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0056779950447823,
+    "ready_tail_over_head": 1.005831360312063,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/dense_control-010.json"
+  },
+  {
+    "case_id": "grouped-031",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9932596588690475,
+    "ready_tail_over_head": 0.993162264110897,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-031.json"
+  },
+  {
+    "case_id": "dense_control-004",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.998066551805764,
+    "ready_tail_over_head": 0.9976725888575451,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/dense_control-004.json"
+  },
+  {
+    "case_id": "dense_control-016",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9682049837777964,
+    "ready_tail_over_head": 0.9682063062085594,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/dense_control-016.json"
+  },
+  {
+    "case_id": "grouped-093",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9998657879291657,
+    "ready_tail_over_head": 0.9998655137105268,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-093.json"
+  },
+  {
+    "case_id": "grouped-063",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9919092931748968,
+    "ready_tail_over_head": 0.9919015875911182,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-063.json"
+  },
+  {
+    "case_id": "grouped-028",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9908459145810178,
+    "ready_tail_over_head": 0.9910463577214698,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-028.json"
+  },
+  {
+    "case_id": "heterogeneous_k-012",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9986078106668608,
+    "ready_tail_over_head": 0.9981906693065746,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/heterogeneous_k-012.json"
+  },
+  {
+    "case_id": "grouped-035",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9778317084224678,
+    "ready_tail_over_head": 0.9776882999113861,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-035.json"
+  },
+  {
+    "case_id": "dense_control-018",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0041320344592632,
+    "ready_tail_over_head": 1.0040663884597543,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/dense_control-018.json"
+  },
+  {
+    "case_id": "heterogeneous_k-008",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9988802521488226,
+    "ready_tail_over_head": 0.9986892313561373,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/heterogeneous_k-008.json"
+  },
+  {
+    "case_id": "heterogeneous_k-010",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0023596794712957,
+    "ready_tail_over_head": 1.002344577720651,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/heterogeneous_k-010.json"
+  },
+  {
+    "case_id": "grouped-061",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0001287395002316,
+    "ready_tail_over_head": 1.0001244973830903,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-061.json"
+  },
+  {
+    "case_id": "grouped-052",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9998913499140317,
+    "ready_tail_over_head": 0.9998853503155799,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-052.json"
+  },
+  {
+    "case_id": "heterogeneous_k-009",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0150991963327711,
+    "ready_tail_over_head": 1.0150800579171086,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/heterogeneous_k-009.json"
+  },
+  {
+    "case_id": "grouped-030",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9996604308645171,
+    "ready_tail_over_head": 0.9996015438215704,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-030.json"
+  },
+  {
+    "case_id": "grouped-003",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9906862935448958,
+    "ready_tail_over_head": 0.9906727101425703,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-003.json"
+  },
+  {
+    "case_id": "grouped-092",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0112292438754855,
+    "ready_tail_over_head": 1.0112295860767961,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-092.json"
+  },
+  {
+    "case_id": "grouped-040",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0005723082656397,
+    "ready_tail_over_head": 1.0003777041634971,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-040.json"
+  },
+  {
+    "case_id": "grouped-091",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0071767103675293,
+    "ready_tail_over_head": 1.0071870531646252,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-091.json"
+  },
+  {
+    "case_id": "dense_control-006",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0151718694581813,
+    "ready_tail_over_head": 1.01514569405096,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/dense_control-006.json"
+  },
+  {
+    "case_id": "grouped-090",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0002040492438842,
+    "ready_tail_over_head": 1.0002142191619823,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-090.json"
+  },
+  {
+    "case_id": "dense_control-024",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.999880326276403,
+    "ready_tail_over_head": 0.9998732927557077,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/dense_control-024.json"
+  },
+  {
+    "case_id": "grouped-062",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0002500018685994,
+    "ready_tail_over_head": 1.000248987517704,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/grouped-062.json"
+  },
+  {
+    "case_id": "heterogeneous_k-011",
+    "block": 0,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9999800833748348,
+    "ready_tail_over_head": 0.9999867662153692,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T142200Z_333d4f94/heterogeneous_k-011.json"
+  },
+  {
+    "case_id": "dense_control-014",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9999399591214925,
+    "ready_tail_over_head": 0.9997873353264093,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/dense_control-014.json"
+  },
+  {
+    "case_id": "dense_control-020",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.999878522950353,
+    "ready_tail_over_head": 1.000140250573019,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/dense_control-020.json"
+  },
+  {
+    "case_id": "grouped-016",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0045571549018213,
+    "ready_tail_over_head": 1.0044807593222904,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-016.json"
+  },
+  {
+    "case_id": "grouped-088",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0006652384266033,
+    "ready_tail_over_head": 1.0006713310226631,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-088.json"
+  },
+  {
+    "case_id": "heterogeneous_k-007",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0085276984263478,
+    "ready_tail_over_head": 1.0084772386458278,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/heterogeneous_k-007.json"
+  },
+  {
+    "case_id": "dense_control-012",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.00029080725325,
+    "ready_tail_over_head": 1.0002543995599316,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/dense_control-012.json"
+  },
+  {
+    "case_id": "grouped-025",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0092161932658072,
+    "ready_tail_over_head": 1.0090461027131137,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-025.json"
+  },
+  {
+    "case_id": "dense_control-008",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.000028950269329,
+    "ready_tail_over_head": 0.9998805085673148,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/dense_control-008.json"
+  },
+  {
+    "case_id": "grouped-094",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9999547615262079,
+    "ready_tail_over_head": 0.9999543369865012,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-094.json"
+  },
+  {
+    "case_id": "dense_control-022",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0003908511050728,
+    "ready_tail_over_head": 1.0004173604438458,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/dense_control-022.json"
+  },
+  {
+    "case_id": "grouped-081",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0004929871133168,
+    "ready_tail_over_head": 1.0004930942039254,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-081.json"
+  },
+  {
+    "case_id": "grouped-079",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.999552534901406,
+    "ready_tail_over_head": 0.9995408917309997,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-079.json"
+  },
+  {
+    "case_id": "grouped-029",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.005667359603929,
+    "ready_tail_over_head": 1.0057154685615866,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-029.json"
+  },
+  {
+    "case_id": "grouped-057",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9963931794434139,
+    "ready_tail_over_head": 0.9964203463941961,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-057.json"
+  },
+  {
+    "case_id": "dense_control-002",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0025537808347926,
+    "ready_tail_over_head": 1.0025632750704407,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/dense_control-002.json"
+  },
+  {
+    "case_id": "grouped-058",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9898692632818892,
+    "ready_tail_over_head": 0.9898821262727742,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-058.json"
+  },
+  {
+    "case_id": "grouped-026",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0000302196215811,
+    "ready_tail_over_head": 1.0002737534688688,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-026.json"
+  },
+  {
+    "case_id": "dense_control-010",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0000091977200118,
+    "ready_tail_over_head": 1.0000015914874612,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/dense_control-010.json"
+  },
+  {
+    "case_id": "grouped-031",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9892423973943809,
+    "ready_tail_over_head": 0.9892644806497229,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-031.json"
+  },
+  {
+    "case_id": "dense_control-004",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0018817962379079,
+    "ready_tail_over_head": 1.0017138865179596,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/dense_control-004.json"
+  },
+  {
+    "case_id": "dense_control-016",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9682437124476629,
+    "ready_tail_over_head": 0.9682401789738013,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/dense_control-016.json"
+  },
+  {
+    "case_id": "grouped-093",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9999936255068737,
+    "ready_tail_over_head": 0.9999912637088177,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-093.json"
+  },
+  {
+    "case_id": "grouped-063",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.000032616428341,
+    "ready_tail_over_head": 1.0000357917104092,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-063.json"
+  },
+  {
+    "case_id": "grouped-028",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0006356791876267,
+    "ready_tail_over_head": 1.0004754769166113,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-028.json"
+  },
+  {
+    "case_id": "heterogeneous_k-012",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9944304452641988,
+    "ready_tail_over_head": 0.994478133770714,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/heterogeneous_k-012.json"
+  },
+  {
+    "case_id": "grouped-035",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.002737712068713,
+    "ready_tail_over_head": 1.0026275437809247,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-035.json"
+  },
+  {
+    "case_id": "dense_control-018",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9965838442785842,
+    "ready_tail_over_head": 0.9966058581676328,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/dense_control-018.json"
+  },
+  {
+    "case_id": "heterogeneous_k-008",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9992402840162731,
+    "ready_tail_over_head": 0.9992433783326098,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/heterogeneous_k-008.json"
+  },
+  {
+    "case_id": "heterogeneous_k-010",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0257710841161556,
+    "ready_tail_over_head": 1.025832088817349,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/heterogeneous_k-010.json"
+  },
+  {
+    "case_id": "grouped-061",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0000665524843984,
+    "ready_tail_over_head": 0.9999893349321088,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-061.json"
+  },
+  {
+    "case_id": "grouped-052",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9999774159147922,
+    "ready_tail_over_head": 1.0000176107456291,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-052.json"
+  },
+  {
+    "case_id": "heterogeneous_k-009",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0005168213253806,
+    "ready_tail_over_head": 1.0006702226063968,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/heterogeneous_k-009.json"
+  },
+  {
+    "case_id": "grouped-030",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9875524302997927,
+    "ready_tail_over_head": 0.9876262631005792,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-030.json"
+  },
+  {
+    "case_id": "grouped-003",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9999916482929111,
+    "ready_tail_over_head": 0.999945699122881,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-003.json"
+  },
+  {
+    "case_id": "grouped-092",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0120338709793852,
+    "ready_tail_over_head": 1.012040507114929,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-092.json"
+  },
+  {
+    "case_id": "grouped-040",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9978927850020933,
+    "ready_tail_over_head": 0.9979168764777563,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-040.json"
+  },
+  {
+    "case_id": "grouped-091",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9978914391520235,
+    "ready_tail_over_head": 0.9978893461052357,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-091.json"
+  },
+  {
+    "case_id": "dense_control-006",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0088425335618245,
+    "ready_tail_over_head": 1.0089243633516187,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/dense_control-006.json"
+  },
+  {
+    "case_id": "grouped-090",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.000208329746948,
+    "ready_tail_over_head": 1.0002082168215862,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-090.json"
+  },
+  {
+    "case_id": "dense_control-024",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9947055874859554,
+    "ready_tail_over_head": 0.9947006186452602,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/dense_control-024.json"
+  },
+  {
+    "case_id": "grouped-062",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9999493588823349,
+    "ready_tail_over_head": 0.9999440049129786,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/grouped-062.json"
+  },
+  {
+    "case_id": "heterogeneous_k-011",
+    "block": 1,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0010970431513135,
+    "ready_tail_over_head": 1.001359781149223,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143049Z_be016894/heterogeneous_k-011.json"
+  },
+  {
+    "case_id": "dense_control-014",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0161051785788895,
+    "ready_tail_over_head": 1.0278205636319842,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/dense_control-014.json"
+  },
+  {
+    "case_id": "dense_control-020",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0000989799731295,
+    "ready_tail_over_head": 1.0001412652600399,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/dense_control-020.json"
+  },
+  {
+    "case_id": "grouped-016",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.989247442082763,
+    "ready_tail_over_head": 0.9889055186758129,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-016.json"
+  },
+  {
+    "case_id": "grouped-088",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0119344249562054,
+    "ready_tail_over_head": 1.0119342205362025,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-088.json"
+  },
+  {
+    "case_id": "heterogeneous_k-007",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.045553397211559,
+    "ready_tail_over_head": 1.039424219015824,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/heterogeneous_k-007.json"
+  },
+  {
+    "case_id": "dense_control-012",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9998164285099332,
+    "ready_tail_over_head": 0.9997905663754342,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/dense_control-012.json"
+  },
+  {
+    "case_id": "grouped-025",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9790136334597177,
+    "ready_tail_over_head": 0.9789970405477284,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-025.json"
+  },
+  {
+    "case_id": "dense_control-008",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9549276892337387,
+    "ready_tail_over_head": 0.9550712469842739,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/dense_control-008.json"
+  },
+  {
+    "case_id": "grouped-094",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9951753422968113,
+    "ready_tail_over_head": 0.9949023661012649,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-094.json"
+  },
+  {
+    "case_id": "dense_control-022",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.8852224015483675,
+    "ready_tail_over_head": 0.8852071231821813,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/dense_control-022.json"
+  },
+  {
+    "case_id": "grouped-081",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9937336274881976,
+    "ready_tail_over_head": 0.9937383580382108,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-081.json"
+  },
+  {
+    "case_id": "grouped-079",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.8693174430598339,
+    "ready_tail_over_head": 0.8693186577316678,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-079.json"
+  },
+  {
+    "case_id": "grouped-029",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0253022062760768,
+    "ready_tail_over_head": 1.0252518885960435,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-029.json"
+  },
+  {
+    "case_id": "grouped-057",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0130538994547742,
+    "ready_tail_over_head": 1.0130684174630447,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-057.json"
+  },
+  {
+    "case_id": "dense_control-002",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.01778861863391,
+    "ready_tail_over_head": 1.017661611003345,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/dense_control-002.json"
+  },
+  {
+    "case_id": "grouped-058",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9987973788540694,
+    "ready_tail_over_head": 0.9987886348877569,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-058.json"
+  },
+  {
+    "case_id": "grouped-026",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0018557894424402,
+    "ready_tail_over_head": 1.002331044062102,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-026.json"
+  },
+  {
+    "case_id": "dense_control-010",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.8977309768945413,
+    "ready_tail_over_head": 0.8978976042677681,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/dense_control-010.json"
+  },
+  {
+    "case_id": "grouped-031",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9996066861995477,
+    "ready_tail_over_head": 0.9993842101215133,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-031.json"
+  },
+  {
+    "case_id": "dense_control-004",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0016344074997994,
+    "ready_tail_over_head": 1.0016767343009083,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/dense_control-004.json"
+  },
+  {
+    "case_id": "dense_control-016",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9796278313233607,
+    "ready_tail_over_head": 0.9796533123664452,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/dense_control-016.json"
+  },
+  {
+    "case_id": "grouped-093",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9888630891190857,
+    "ready_tail_over_head": 0.9888629535819218,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-093.json"
+  },
+  {
+    "case_id": "grouped-063",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0000719067137072,
+    "ready_tail_over_head": 1.0000503742727183,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-063.json"
+  },
+  {
+    "case_id": "grouped-028",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0002512278597229,
+    "ready_tail_over_head": 1.0002018182156747,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-028.json"
+  },
+  {
+    "case_id": "heterogeneous_k-012",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9936235917141443,
+    "ready_tail_over_head": 0.9936344667783469,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/heterogeneous_k-012.json"
+  },
+  {
+    "case_id": "grouped-035",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0003456514067575,
+    "ready_tail_over_head": 1.000277588051584,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-035.json"
+  },
+  {
+    "case_id": "dense_control-018",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.044247187455713,
+    "ready_tail_over_head": 1.0445608825823334,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/dense_control-018.json"
+  },
+  {
+    "case_id": "heterogeneous_k-008",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.004793236391223,
+    "ready_tail_over_head": 1.0054363831774944,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/heterogeneous_k-008.json"
+  },
+  {
+    "case_id": "heterogeneous_k-010",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0049396347793393,
+    "ready_tail_over_head": 1.0048405581723843,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/heterogeneous_k-010.json"
+  },
+  {
+    "case_id": "grouped-061",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0007690420197182,
+    "ready_tail_over_head": 1.00077565475975,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-061.json"
+  },
+  {
+    "case_id": "grouped-052",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9998084463612856,
+    "ready_tail_over_head": 1.0000035548990163,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-052.json"
+  },
+  {
+    "case_id": "heterogeneous_k-009",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.008974951013957,
+    "ready_tail_over_head": 1.008182327492549,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/heterogeneous_k-009.json"
+  },
+  {
+    "case_id": "grouped-030",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9998859547570892,
+    "ready_tail_over_head": 0.9998490729927487,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-030.json"
+  },
+  {
+    "case_id": "grouped-003",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.01121635164101,
+    "ready_tail_over_head": 1.01128621915337,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-003.json"
+  },
+  {
+    "case_id": "grouped-092",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0009187989147803,
+    "ready_tail_over_head": 1.0009170436363832,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-092.json"
+  },
+  {
+    "case_id": "grouped-040",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9990639878766212,
+    "ready_tail_over_head": 0.9991096665464139,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-040.json"
+  },
+  {
+    "case_id": "grouped-091",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0168677525958663,
+    "ready_tail_over_head": 1.0168715279628593,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-091.json"
+  },
+  {
+    "case_id": "dense_control-006",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9994896346793953,
+    "ready_tail_over_head": 0.9996239324119259,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/dense_control-006.json"
+  },
+  {
+    "case_id": "grouped-090",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0125247558843202,
+    "ready_tail_over_head": 1.0125245626861687,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-090.json"
+  },
+  {
+    "case_id": "dense_control-024",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0124810099431718,
+    "ready_tail_over_head": 1.011462610360187,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/dense_control-024.json"
+  },
+  {
+    "case_id": "grouped-062",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9934766399524292,
+    "ready_tail_over_head": 0.9934967920905305,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/grouped-062.json"
+  },
+  {
+    "case_id": "heterogeneous_k-011",
+    "block": 2,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.000666255937721,
+    "ready_tail_over_head": 1.000583004297533,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T143936Z_2ba4c632/heterogeneous_k-011.json"
+  },
+  {
+    "case_id": "dense_control-014",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9210783815119155,
+    "ready_tail_over_head": 0.9211662219761082,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/dense_control-014.json"
+  },
+  {
+    "case_id": "dense_control-020",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0001196341282317,
+    "ready_tail_over_head": 1.0002606038840338,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/dense_control-020.json"
+  },
+  {
+    "case_id": "grouped-016",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.972366031058659,
+    "ready_tail_over_head": 0.9722405232264429,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-016.json"
+  },
+  {
+    "case_id": "grouped-088",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0137082689397856,
+    "ready_tail_over_head": 1.013704667656116,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-088.json"
+  },
+  {
+    "case_id": "heterogeneous_k-007",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9878186206286779,
+    "ready_tail_over_head": 0.9878661035022729,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/heterogeneous_k-007.json"
+  },
+  {
+    "case_id": "dense_control-012",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0202551978631078,
+    "ready_tail_over_head": 1.020296670666718,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/dense_control-012.json"
+  },
+  {
+    "case_id": "grouped-025",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9626302656539394,
+    "ready_tail_over_head": 0.9610906004520146,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-025.json"
+  },
+  {
+    "case_id": "dense_control-008",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0001009760134223,
+    "ready_tail_over_head": 1.0000590143371109,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/dense_control-008.json"
+  },
+  {
+    "case_id": "grouped-094",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9885154208879782,
+    "ready_tail_over_head": 0.9885146055805764,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-094.json"
+  },
+  {
+    "case_id": "dense_control-022",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9751764243326726,
+    "ready_tail_over_head": 0.975181952057789,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/dense_control-022.json"
+  },
+  {
+    "case_id": "grouped-081",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0002712370947793,
+    "ready_tail_over_head": 1.0002553490490989,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-081.json"
+  },
+  {
+    "case_id": "grouped-079",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9651511240240161,
+    "ready_tail_over_head": 0.9651517278457832,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-079.json"
+  },
+  {
+    "case_id": "grouped-029",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9991255912508061,
+    "ready_tail_over_head": 0.9993626781560513,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-029.json"
+  },
+  {
+    "case_id": "grouped-057",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9944971578479516,
+    "ready_tail_over_head": 0.9944761851579034,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-057.json"
+  },
+  {
+    "case_id": "dense_control-002",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.00292245585358,
+    "ready_tail_over_head": 1.0034443953231305,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/dense_control-002.json"
+  },
+  {
+    "case_id": "grouped-058",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9686812833466639,
+    "ready_tail_over_head": 0.9686709731550338,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-058.json"
+  },
+  {
+    "case_id": "grouped-026",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9029372964110028,
+    "ready_tail_over_head": 0.9027982182764328,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-026.json"
+  },
+  {
+    "case_id": "dense_control-010",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9175694205546715,
+    "ready_tail_over_head": 0.91766491708705,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/dense_control-010.json"
+  },
+  {
+    "case_id": "grouped-031",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9844765575828454,
+    "ready_tail_over_head": 0.9844801136483299,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-031.json"
+  },
+  {
+    "case_id": "dense_control-004",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.019987397794651,
+    "ready_tail_over_head": 1.0199808603777696,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/dense_control-004.json"
+  },
+  {
+    "case_id": "dense_control-016",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9819637533885508,
+    "ready_tail_over_head": 0.981972871194408,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/dense_control-016.json"
+  },
+  {
+    "case_id": "grouped-093",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9977894394907066,
+    "ready_tail_over_head": 0.9977893454719016,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-093.json"
+  },
+  {
+    "case_id": "grouped-063",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9969927069367275,
+    "ready_tail_over_head": 0.9970016889100742,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-063.json"
+  },
+  {
+    "case_id": "grouped-028",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9418740858646216,
+    "ready_tail_over_head": 0.9419692220888521,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-028.json"
+  },
+  {
+    "case_id": "heterogeneous_k-012",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9644074418286188,
+    "ready_tail_over_head": 0.9644579787307175,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/heterogeneous_k-012.json"
+  },
+  {
+    "case_id": "grouped-035",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.945024495558705,
+    "ready_tail_over_head": 0.944970181446217,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-035.json"
+  },
+  {
+    "case_id": "dense_control-018",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.6438607757290374,
+    "ready_tail_over_head": 0.644010246660943,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/dense_control-018.json"
+  },
+  {
+    "case_id": "heterogeneous_k-008",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9651961835302524,
+    "ready_tail_over_head": 0.965177627902676,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/heterogeneous_k-008.json"
+  },
+  {
+    "case_id": "heterogeneous_k-010",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0311749552642775,
+    "ready_tail_over_head": 1.031381478777875,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/heterogeneous_k-010.json"
+  },
+  {
+    "case_id": "grouped-061",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.999969047642686,
+    "ready_tail_over_head": 0.999970047685362,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-061.json"
+  },
+  {
+    "case_id": "grouped-052",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9998067687030485,
+    "ready_tail_over_head": 0.9995999104433175,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-052.json"
+  },
+  {
+    "case_id": "heterogeneous_k-009",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0137880716480896,
+    "ready_tail_over_head": 1.0141998938433765,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/heterogeneous_k-009.json"
+  },
+  {
+    "case_id": "grouped-030",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0059289766407575,
+    "ready_tail_over_head": 1.005991748105723,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-030.json"
+  },
+  {
+    "case_id": "grouped-003",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0121361293077298,
+    "ready_tail_over_head": 1.0123436780584842,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-003.json"
+  },
+  {
+    "case_id": "grouped-092",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0030478273051033,
+    "ready_tail_over_head": 1.0030394283531696,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-092.json"
+  },
+  {
+    "case_id": "grouped-040",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9542656704429943,
+    "ready_tail_over_head": 0.9540314626412016,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-040.json"
+  },
+  {
+    "case_id": "grouped-091",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0000305449885845,
+    "ready_tail_over_head": 1.0000307847037764,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-091.json"
+  },
+  {
+    "case_id": "dense_control-006",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9179261824321897,
+    "ready_tail_over_head": 0.9180469843045208,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/dense_control-006.json"
+  },
+  {
+    "case_id": "grouped-090",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.005455868070552,
+    "ready_tail_over_head": 1.0054565630402748,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-090.json"
+  },
+  {
+    "case_id": "dense_control-024",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9862200505502633,
+    "ready_tail_over_head": 0.9862235189677425,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/dense_control-024.json"
+  },
+  {
+    "case_id": "grouped-062",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9969198528087331,
+    "ready_tail_over_head": 0.9969176634162216,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/grouped-062.json"
+  },
+  {
+    "case_id": "heterogeneous_k-011",
+    "block": 3,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0081873363706804,
+    "ready_tail_over_head": 1.008199241601331,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T144822Z_db1d418b/heterogeneous_k-011.json"
+  },
+  {
+    "case_id": "dense_control-014",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9999757431772863,
+    "ready_tail_over_head": 1.000047986684137,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/dense_control-014.json"
+  },
+  {
+    "case_id": "dense_control-020",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0000766230850169,
+    "ready_tail_over_head": 1.0000574692965365,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/dense_control-020.json"
+  },
+  {
+    "case_id": "grouped-016",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9998162468605011,
+    "ready_tail_over_head": 0.999922363153174,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-016.json"
+  },
+  {
+    "case_id": "grouped-088",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0433108180708293,
+    "ready_tail_over_head": 1.0405679556461245,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-088.json"
+  },
+  {
+    "case_id": "heterogeneous_k-007",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0015177473071795,
+    "ready_tail_over_head": 1.0015272159351651,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/heterogeneous_k-007.json"
+  },
+  {
+    "case_id": "dense_control-012",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9996545540189438,
+    "ready_tail_over_head": 0.9997332582740286,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/dense_control-012.json"
+  },
+  {
+    "case_id": "grouped-025",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9929890928071687,
+    "ready_tail_over_head": 0.9930666123141721,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-025.json"
+  },
+  {
+    "case_id": "dense_control-008",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.000187014166958,
+    "ready_tail_over_head": 1.0003216471920457,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/dense_control-008.json"
+  },
+  {
+    "case_id": "grouped-094",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9999782863684206,
+    "ready_tail_over_head": 0.999945792007881,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-094.json"
+  },
+  {
+    "case_id": "dense_control-022",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0000527475050363,
+    "ready_tail_over_head": 1.0000571191439092,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/dense_control-022.json"
+  },
+  {
+    "case_id": "grouped-081",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9781166383710673,
+    "ready_tail_over_head": 0.9781124700245504,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-081.json"
+  },
+  {
+    "case_id": "grouped-079",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.969928010100991,
+    "ready_tail_over_head": 0.9699294183457859,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-079.json"
+  },
+  {
+    "case_id": "grouped-029",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9944137679652579,
+    "ready_tail_over_head": 0.9944016269181677,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-029.json"
+  },
+  {
+    "case_id": "grouped-057",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0192734961552121,
+    "ready_tail_over_head": 1.0163405136262769,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-057.json"
+  },
+  {
+    "case_id": "dense_control-002",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0000519994328327,
+    "ready_tail_over_head": 0.998300782347037,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/dense_control-002.json"
+  },
+  {
+    "case_id": "grouped-058",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0063277015996048,
+    "ready_tail_over_head": 1.006322899982687,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-058.json"
+  },
+  {
+    "case_id": "grouped-026",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9738988583896906,
+    "ready_tail_over_head": 0.9738730789836963,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-026.json"
+  },
+  {
+    "case_id": "dense_control-010",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.001949801814734,
+    "ready_tail_over_head": 1.0019129076177316,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/dense_control-010.json"
+  },
+  {
+    "case_id": "grouped-031",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9881278017204409,
+    "ready_tail_over_head": 0.988125269437399,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-031.json"
+  },
+  {
+    "case_id": "dense_control-004",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.07088952412116,
+    "ready_tail_over_head": 1.0707992988464494,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/dense_control-004.json"
+  },
+  {
+    "case_id": "dense_control-016",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9682343245994413,
+    "ready_tail_over_head": 0.9682430227661215,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/dense_control-016.json"
+  },
+  {
+    "case_id": "grouped-093",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9996714314132191,
+    "ready_tail_over_head": 0.9996728467487417,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-093.json"
+  },
+  {
+    "case_id": "grouped-063",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9978376503770071,
+    "ready_tail_over_head": 0.9978172881868954,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-063.json"
+  },
+  {
+    "case_id": "grouped-028",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9303377341006395,
+    "ready_tail_over_head": 0.9305594581841384,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-028.json"
+  },
+  {
+    "case_id": "heterogeneous_k-012",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.999119015466294,
+    "ready_tail_over_head": 0.9991232372971737,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/heterogeneous_k-012.json"
+  },
+  {
+    "case_id": "grouped-035",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9646848802668148,
+    "ready_tail_over_head": 0.9648598836323053,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-035.json"
+  },
+  {
+    "case_id": "dense_control-018",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0048815650800862,
+    "ready_tail_over_head": 1.0049838708087435,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/dense_control-018.json"
+  },
+  {
+    "case_id": "heterogeneous_k-008",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.001741519555871,
+    "ready_tail_over_head": 1.0019951690115436,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/heterogeneous_k-008.json"
+  },
+  {
+    "case_id": "heterogeneous_k-010",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0003554721193364,
+    "ready_tail_over_head": 1.0005123924443444,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/heterogeneous_k-010.json"
+  },
+  {
+    "case_id": "grouped-061",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9946126232931113,
+    "ready_tail_over_head": 0.9946152662943242,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-061.json"
+  },
+  {
+    "case_id": "grouped-052",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.943828262529715,
+    "ready_tail_over_head": 0.943810574048949,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-052.json"
+  },
+  {
+    "case_id": "heterogeneous_k-009",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9989839936128766,
+    "ready_tail_over_head": 0.99908412253052,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/heterogeneous_k-009.json"
+  },
+  {
+    "case_id": "grouped-030",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0010857881583626,
+    "ready_tail_over_head": 1.001077999476269,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-030.json"
+  },
+  {
+    "case_id": "grouped-003",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9919934731307626,
+    "ready_tail_over_head": 0.9918282539949084,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-003.json"
+  },
+  {
+    "case_id": "grouped-092",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0132896388849328,
+    "ready_tail_over_head": 1.0132966195861357,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-092.json"
+  },
+  {
+    "case_id": "grouped-040",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0376895686063035,
+    "ready_tail_over_head": 1.037625276856905,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-040.json"
+  },
+  {
+    "case_id": "grouped-091",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.4321204020218157,
+    "ready_tail_over_head": 1.4321083097883889,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-091.json"
+  },
+  {
+    "case_id": "dense_control-006",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0078895770599157,
+    "ready_tail_over_head": 1.0078826396526168,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/dense_control-006.json"
+  },
+  {
+    "case_id": "grouped-090",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.1790105338781691,
+    "ready_tail_over_head": 1.1790114472244742,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-090.json"
+  },
+  {
+    "case_id": "dense_control-024",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0120704104356044,
+    "ready_tail_over_head": 1.0120826651371777,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/dense_control-024.json"
+  },
+  {
+    "case_id": "grouped-062",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9843560160704637,
+    "ready_tail_over_head": 0.9843502090769346,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/grouped-062.json"
+  },
+  {
+    "case_id": "heterogeneous_k-011",
+    "block": 4,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0008667869254169,
+    "ready_tail_over_head": 1.0010185729915246,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T145708Z_bbb5e906/heterogeneous_k-011.json"
+  },
+  {
+    "case_id": "dense_control-014",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9997953577353762,
+    "ready_tail_over_head": 0.9997062100524365,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/dense_control-014.json"
+  },
+  {
+    "case_id": "dense_control-020",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0000003476204167,
+    "ready_tail_over_head": 1.0000168084102798,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/dense_control-020.json"
+  },
+  {
+    "case_id": "grouped-016",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0027547476010266,
+    "ready_tail_over_head": 1.002627074782662,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-016.json"
+  },
+  {
+    "case_id": "grouped-088",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0001848396684019,
+    "ready_tail_over_head": 1.0001827288527756,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-088.json"
+  },
+  {
+    "case_id": "heterogeneous_k-007",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.013033047802794,
+    "ready_tail_over_head": 1.0130351612666542,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/heterogeneous_k-007.json"
+  },
+  {
+    "case_id": "dense_control-012",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9991782053618301,
+    "ready_tail_over_head": 0.9986361475468193,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/dense_control-012.json"
+  },
+  {
+    "case_id": "grouped-025",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9902448819669909,
+    "ready_tail_over_head": 0.9902413991686311,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-025.json"
+  },
+  {
+    "case_id": "dense_control-008",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0000626643033659,
+    "ready_tail_over_head": 0.9998008553886494,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/dense_control-008.json"
+  },
+  {
+    "case_id": "grouped-094",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.000086612482183,
+    "ready_tail_over_head": 1.000085628353002,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-094.json"
+  },
+  {
+    "case_id": "dense_control-022",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9994817167937566,
+    "ready_tail_over_head": 0.9994893341340028,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/dense_control-022.json"
+  },
+  {
+    "case_id": "grouped-081",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.000111210235238,
+    "ready_tail_over_head": 1.0001080618702858,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-081.json"
+  },
+  {
+    "case_id": "grouped-079",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0002236159607403,
+    "ready_tail_over_head": 1.0002210810352234,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-079.json"
+  },
+  {
+    "case_id": "grouped-029",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0121344229825213,
+    "ready_tail_over_head": 1.0121589888738836,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-029.json"
+  },
+  {
+    "case_id": "grouped-057",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9994915593268829,
+    "ready_tail_over_head": 0.9994694854352368,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-057.json"
+  },
+  {
+    "case_id": "dense_control-002",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9969848247151968,
+    "ready_tail_over_head": 0.9966344707064523,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/dense_control-002.json"
+  },
+  {
+    "case_id": "grouped-058",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9732715971567851,
+    "ready_tail_over_head": 0.9732818510946796,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-058.json"
+  },
+  {
+    "case_id": "grouped-026",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0024344863001582,
+    "ready_tail_over_head": 1.0024625467821622,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-026.json"
+  },
+  {
+    "case_id": "dense_control-010",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9967569170592594,
+    "ready_tail_over_head": 0.9966786744194264,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/dense_control-010.json"
+  },
+  {
+    "case_id": "grouped-031",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9931493894081463,
+    "ready_tail_over_head": 0.9930690046999603,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-031.json"
+  },
+  {
+    "case_id": "dense_control-004",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0265007333304261,
+    "ready_tail_over_head": 1.0265767020885592,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/dense_control-004.json"
+  },
+  {
+    "case_id": "dense_control-016",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.975405917102475,
+    "ready_tail_over_head": 0.9753974107308206,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/dense_control-016.json"
+  },
+  {
+    "case_id": "grouped-093",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9996932088156586,
+    "ready_tail_over_head": 0.9996942618526135,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-093.json"
+  },
+  {
+    "case_id": "grouped-063",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9971745525323594,
+    "ready_tail_over_head": 0.9971819593868291,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-063.json"
+  },
+  {
+    "case_id": "grouped-028",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0002640466973012,
+    "ready_tail_over_head": 1.0002995016125817,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-028.json"
+  },
+  {
+    "case_id": "heterogeneous_k-012",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9775087087834369,
+    "ready_tail_over_head": 0.9776551056009107,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/heterogeneous_k-012.json"
+  },
+  {
+    "case_id": "grouped-035",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0038221441797424,
+    "ready_tail_over_head": 1.0042447901847322,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-035.json"
+  },
+  {
+    "case_id": "dense_control-018",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9999609487783149,
+    "ready_tail_over_head": 0.9998629399356984,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/dense_control-018.json"
+  },
+  {
+    "case_id": "heterogeneous_k-008",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0002755631099758,
+    "ready_tail_over_head": 1.0003646189456192,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/heterogeneous_k-008.json"
+  },
+  {
+    "case_id": "heterogeneous_k-010",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0215913055446197,
+    "ready_tail_over_head": 1.0211870912226677,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/heterogeneous_k-010.json"
+  },
+  {
+    "case_id": "grouped-061",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0007015403171962,
+    "ready_tail_over_head": 1.0007155224180502,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-061.json"
+  },
+  {
+    "case_id": "grouped-052",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9998093461301264,
+    "ready_tail_over_head": 1.0001433459565632,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-052.json"
+  },
+  {
+    "case_id": "heterogeneous_k-009",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9998080814262502,
+    "ready_tail_over_head": 0.9997657712019278,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/heterogeneous_k-009.json"
+  },
+  {
+    "case_id": "grouped-030",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.006647254210263,
+    "ready_tail_over_head": 1.0066571601115952,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-030.json"
+  },
+  {
+    "case_id": "grouped-003",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9918720525479996,
+    "ready_tail_over_head": 0.9917820162268364,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-003.json"
+  },
+  {
+    "case_id": "grouped-092",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0088007208011374,
+    "ready_tail_over_head": 1.008801915416356,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-092.json"
+  },
+  {
+    "case_id": "grouped-040",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9980141521274125,
+    "ready_tail_over_head": 0.9980401757276149,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-040.json"
+  },
+  {
+    "case_id": "grouped-091",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0052830046410481,
+    "ready_tail_over_head": 1.0052898631920033,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-091.json"
+  },
+  {
+    "case_id": "dense_control-006",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0163974686187722,
+    "ready_tail_over_head": 1.0162058875632944,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/dense_control-006.json"
+  },
+  {
+    "case_id": "grouped-090",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9999303017427877,
+    "ready_tail_over_head": 0.9999315756863173,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-090.json"
+  },
+  {
+    "case_id": "dense_control-024",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9966239151682739,
+    "ready_tail_over_head": 0.996622173105575,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/dense_control-024.json"
+  },
+  {
+    "case_id": "grouped-062",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 0.9940612989864951,
+    "ready_tail_over_head": 0.9940761482830316,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/grouped-062.json"
+  },
+  {
+    "case_id": "heterogeneous_k-011",
+    "block": 5,
+    "cohort": "implementation_operator_test",
+    "device_tail_over_head": 1.0074267948643902,
+    "ready_tail_over_head": 1.0075766307709033,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T150554Z_1310b2e6/heterogeneous_k-011.json"
+  },
+  {
+    "case_id": "moe_layer-002",
+    "block": 0,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 0.9986608332989387,
+    "ready_tail_over_head": 0.9989647983852545,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151441Z_5a9fdfcb/moe_layer-002.json"
+  },
+  {
+    "case_id": "moe_layer-005",
+    "block": 0,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 0.9905441042749114,
+    "ready_tail_over_head": 0.9897181584701614,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151441Z_5a9fdfcb/moe_layer-005.json"
+  },
+  {
+    "case_id": "moe_layer-001",
+    "block": 0,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 1.01128386342024,
+    "ready_tail_over_head": 1.0107213836201887,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151441Z_5a9fdfcb/moe_layer-001.json"
+  },
+  {
+    "case_id": "moe_layer-004",
+    "block": 0,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 0.9990497900427829,
+    "ready_tail_over_head": 0.9977735004161697,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151441Z_5a9fdfcb/moe_layer-004.json"
+  },
+  {
+    "case_id": "moe_layer-003",
+    "block": 0,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 1.0047388830933293,
+    "ready_tail_over_head": 1.0046015984984806,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151441Z_5a9fdfcb/moe_layer-003.json"
+  },
+  {
+    "case_id": "moe_layer-006",
+    "block": 0,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 0.9847577177553144,
+    "ready_tail_over_head": 0.9844521771424097,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151441Z_5a9fdfcb/moe_layer-006.json"
+  },
+  {
+    "case_id": "moe_layer-002",
+    "block": 1,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 1.0183270649125147,
+    "ready_tail_over_head": 1.0159380542051604,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151508Z_0129132a/moe_layer-002.json"
+  },
+  {
+    "case_id": "moe_layer-005",
+    "block": 1,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 0.9944399370911066,
+    "ready_tail_over_head": 0.9930877004636299,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151508Z_0129132a/moe_layer-005.json"
+  },
+  {
+    "case_id": "moe_layer-001",
+    "block": 1,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 1.0116597624392458,
+    "ready_tail_over_head": 1.0106927430372916,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151508Z_0129132a/moe_layer-001.json"
+  },
+  {
+    "case_id": "moe_layer-004",
+    "block": 1,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 1.002440843227873,
+    "ready_tail_over_head": 1.0022905553791808,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151508Z_0129132a/moe_layer-004.json"
+  },
+  {
+    "case_id": "moe_layer-003",
+    "block": 1,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 1.0022030659908254,
+    "ready_tail_over_head": 1.0014035065199953,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151508Z_0129132a/moe_layer-003.json"
+  },
+  {
+    "case_id": "moe_layer-006",
+    "block": 1,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 0.9994412877900737,
+    "ready_tail_over_head": 0.9983348832639122,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151508Z_0129132a/moe_layer-006.json"
+  },
+  {
+    "case_id": "moe_layer-002",
+    "block": 2,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 0.9912948081593074,
+    "ready_tail_over_head": 0.9875751835600612,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151535Z_29b782cb/moe_layer-002.json"
+  },
+  {
+    "case_id": "moe_layer-005",
+    "block": 2,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 1.0027206680835965,
+    "ready_tail_over_head": 1.0032620815901419,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151535Z_29b782cb/moe_layer-005.json"
+  },
+  {
+    "case_id": "moe_layer-001",
+    "block": 2,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 0.9895960369845657,
+    "ready_tail_over_head": 0.9893379386665352,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151535Z_29b782cb/moe_layer-001.json"
+  },
+  {
+    "case_id": "moe_layer-004",
+    "block": 2,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 0.998177329485119,
+    "ready_tail_over_head": 0.9924819284222898,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151535Z_29b782cb/moe_layer-004.json"
+  },
+  {
+    "case_id": "moe_layer-003",
+    "block": 2,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 1.0165351736525507,
+    "ready_tail_over_head": 1.01101108165959,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151535Z_29b782cb/moe_layer-003.json"
+  },
+  {
+    "case_id": "moe_layer-006",
+    "block": 2,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 1.0010377339094223,
+    "ready_tail_over_head": 1.0029031081720527,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151535Z_29b782cb/moe_layer-006.json"
+  },
+  {
+    "case_id": "moe_layer-002",
+    "block": 3,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 0.9926346379028926,
+    "ready_tail_over_head": 0.9905168089702875,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151601Z_644e28b0/moe_layer-002.json"
+  },
+  {
+    "case_id": "moe_layer-005",
+    "block": 3,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 0.9944163029171398,
+    "ready_tail_over_head": 0.9943844287458105,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151601Z_644e28b0/moe_layer-005.json"
+  },
+  {
+    "case_id": "moe_layer-001",
+    "block": 3,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 1.0162255457755118,
+    "ready_tail_over_head": 1.0167446624450083,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151601Z_644e28b0/moe_layer-001.json"
+  },
+  {
+    "case_id": "moe_layer-004",
+    "block": 3,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 1.0110529795392091,
+    "ready_tail_over_head": 1.009907218603466,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151601Z_644e28b0/moe_layer-004.json"
+  },
+  {
+    "case_id": "moe_layer-003",
+    "block": 3,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 1.0065488974073211,
+    "ready_tail_over_head": 1.0120259740957211,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151601Z_644e28b0/moe_layer-003.json"
+  },
+  {
+    "case_id": "moe_layer-006",
+    "block": 3,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 0.9921082187970818,
+    "ready_tail_over_head": 0.989593004358585,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151601Z_644e28b0/moe_layer-006.json"
+  },
+  {
+    "case_id": "moe_layer-002",
+    "block": 4,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 0.9994702679517729,
+    "ready_tail_over_head": 0.9967318132368727,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151628Z_591dd4b0/moe_layer-002.json"
+  },
+  {
+    "case_id": "moe_layer-005",
+    "block": 4,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 1.0007010955317432,
+    "ready_tail_over_head": 1.0014037639458477,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151628Z_591dd4b0/moe_layer-005.json"
+  },
+  {
+    "case_id": "moe_layer-001",
+    "block": 4,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 0.9937854789858291,
+    "ready_tail_over_head": 0.9942377420131469,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151628Z_591dd4b0/moe_layer-001.json"
+  },
+  {
+    "case_id": "moe_layer-004",
+    "block": 4,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 1.007779881686866,
+    "ready_tail_over_head": 1.0062038852700987,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151628Z_591dd4b0/moe_layer-004.json"
+  },
+  {
+    "case_id": "moe_layer-003",
+    "block": 4,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 0.9904263953354169,
+    "ready_tail_over_head": 0.9930208434696239,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151628Z_591dd4b0/moe_layer-003.json"
+  },
+  {
+    "case_id": "moe_layer-006",
+    "block": 4,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 0.9831162503814509,
+    "ready_tail_over_head": 0.9850186970474367,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151628Z_591dd4b0/moe_layer-006.json"
+  },
+  {
+    "case_id": "moe_layer-002",
+    "block": 5,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 1.0215239283210105,
+    "ready_tail_over_head": 1.019978411002104,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151655Z_2c7c5f3e/moe_layer-002.json"
+  },
+  {
+    "case_id": "moe_layer-005",
+    "block": 5,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 1.000237480703891,
+    "ready_tail_over_head": 1.000282355678585,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151655Z_2c7c5f3e/moe_layer-005.json"
+  },
+  {
+    "case_id": "moe_layer-001",
+    "block": 5,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 1.0068022703686346,
+    "ready_tail_over_head": 0.9990121034916716,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151655Z_2c7c5f3e/moe_layer-001.json"
+  },
+  {
+    "case_id": "moe_layer-004",
+    "block": 5,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 0.9983978852140732,
+    "ready_tail_over_head": 0.9985145117964356,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151655Z_2c7c5f3e/moe_layer-004.json"
+  },
+  {
+    "case_id": "moe_layer-003",
+    "block": 5,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 1.010945743255242,
+    "ready_tail_over_head": 1.009780889479398,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151655Z_2c7c5f3e/moe_layer-003.json"
+  },
+  {
+    "case_id": "moe_layer-006",
+    "block": 5,
+    "cohort": "implementation_layer_develop",
+    "device_tail_over_head": 0.9954476484146444,
+    "ready_tail_over_head": 0.9950318287168444,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151655Z_2c7c5f3e/moe_layer-006.json"
+  },
+  {
+    "case_id": "moe_layer-007",
+    "block": 0,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.0073132256565938,
+    "ready_tail_over_head": 1.0081662375653115,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151722Z_0e23dfd4/moe_layer-007.json"
+  },
+  {
+    "case_id": "moe_layer-009",
+    "block": 0,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.0000216787753544,
+    "ready_tail_over_head": 1.0009819332237255,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151722Z_0e23dfd4/moe_layer-009.json"
+  },
+  {
+    "case_id": "moe_layer-016",
+    "block": 0,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.0021703259687809,
+    "ready_tail_over_head": 1.001836804338372,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151722Z_0e23dfd4/moe_layer-016.json"
+  },
+  {
+    "case_id": "moe_layer-008",
+    "block": 0,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 0.9869350418663525,
+    "ready_tail_over_head": 0.9862956912288926,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151722Z_0e23dfd4/moe_layer-008.json"
+  },
+  {
+    "case_id": "moe_layer-024",
+    "block": 0,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.0376043767368295,
+    "ready_tail_over_head": 1.0374756721330556,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151722Z_0e23dfd4/moe_layer-024.json"
+  },
+  {
+    "case_id": "moe_layer-017",
+    "block": 0,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 0.9999473965545783,
+    "ready_tail_over_head": 1.0002386886900163,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T151722Z_0e23dfd4/moe_layer-017.json"
+  },
+  {
+    "case_id": "moe_layer-007",
+    "block": 1,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 0.9992877669161091,
+    "ready_tail_over_head": 0.9987728924182919,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T152254Z_833971a9/moe_layer-007.json"
+  },
+  {
+    "case_id": "moe_layer-009",
+    "block": 1,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.4375041038760754,
+    "ready_tail_over_head": 1.4338573904149075,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T152254Z_833971a9/moe_layer-009.json"
+  },
+  {
+    "case_id": "moe_layer-016",
+    "block": 1,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 0.9989594203864519,
+    "ready_tail_over_head": 0.9988603337278152,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T152254Z_833971a9/moe_layer-016.json"
+  },
+  {
+    "case_id": "moe_layer-008",
+    "block": 1,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 0.9955363256248402,
+    "ready_tail_over_head": 0.9939857990870781,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T152254Z_833971a9/moe_layer-008.json"
+  },
+  {
+    "case_id": "moe_layer-024",
+    "block": 1,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.0462829623119336,
+    "ready_tail_over_head": 1.0462053877351265,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T152254Z_833971a9/moe_layer-024.json"
+  },
+  {
+    "case_id": "moe_layer-017",
+    "block": 1,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.0000408628559057,
+    "ready_tail_over_head": 1.000151889007103,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T152254Z_833971a9/moe_layer-017.json"
+  },
+  {
+    "case_id": "moe_layer-007",
+    "block": 2,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.0060082719256986,
+    "ready_tail_over_head": 1.0065719944739142,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T152827Z_bf1eb6e9/moe_layer-007.json"
+  },
+  {
+    "case_id": "moe_layer-009",
+    "block": 2,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 2.342075301518162,
+    "ready_tail_over_head": 2.329934090078045,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T152827Z_bf1eb6e9/moe_layer-009.json"
+  },
+  {
+    "case_id": "moe_layer-016",
+    "block": 2,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.0011822247965374,
+    "ready_tail_over_head": 1.0085164477768447,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T152827Z_bf1eb6e9/moe_layer-016.json"
+  },
+  {
+    "case_id": "moe_layer-008",
+    "block": 2,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 0.9955787646003188,
+    "ready_tail_over_head": 0.9957940979722425,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T152827Z_bf1eb6e9/moe_layer-008.json"
+  },
+  {
+    "case_id": "moe_layer-024",
+    "block": 2,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.0150048081669722,
+    "ready_tail_over_head": 1.0150300482640513,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T152827Z_bf1eb6e9/moe_layer-024.json"
+  },
+  {
+    "case_id": "moe_layer-017",
+    "block": 2,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.0268717951468387,
+    "ready_tail_over_head": 1.0224254844756395,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T152827Z_bf1eb6e9/moe_layer-017.json"
+  },
+  {
+    "case_id": "moe_layer-007",
+    "block": 3,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.0156158797261858,
+    "ready_tail_over_head": 1.0151858837552625,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T153356Z_fc84c0a5/moe_layer-007.json"
+  },
+  {
+    "case_id": "moe_layer-009",
+    "block": 3,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 0.9947376445466902,
+    "ready_tail_over_head": 0.9957011149000836,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T153356Z_fc84c0a5/moe_layer-009.json"
+  },
+  {
+    "case_id": "moe_layer-016",
+    "block": 3,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.0000431517977468,
+    "ready_tail_over_head": 1.00038350919104,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T153356Z_fc84c0a5/moe_layer-016.json"
+  },
+  {
+    "case_id": "moe_layer-008",
+    "block": 3,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 0.9984936985192867,
+    "ready_tail_over_head": 0.9978154912430917,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T153356Z_fc84c0a5/moe_layer-008.json"
+  },
+  {
+    "case_id": "moe_layer-024",
+    "block": 3,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 0.9947073640970953,
+    "ready_tail_over_head": 0.9948277390064879,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T153356Z_fc84c0a5/moe_layer-024.json"
+  },
+  {
+    "case_id": "moe_layer-017",
+    "block": 3,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.0001441241528712,
+    "ready_tail_over_head": 0.9999759071790387,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T153356Z_fc84c0a5/moe_layer-017.json"
+  },
+  {
+    "case_id": "moe_layer-007",
+    "block": 4,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.0010660189139375,
+    "ready_tail_over_head": 1.000234843393517,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T153929Z_2a4216df/moe_layer-007.json"
+  },
+  {
+    "case_id": "moe_layer-009",
+    "block": 4,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 0.9953209437280228,
+    "ready_tail_over_head": 0.9958807487445452,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T153929Z_2a4216df/moe_layer-009.json"
+  },
+  {
+    "case_id": "moe_layer-016",
+    "block": 4,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.0000470976796392,
+    "ready_tail_over_head": 1.0005128979946898,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T153929Z_2a4216df/moe_layer-016.json"
+  },
+  {
+    "case_id": "moe_layer-008",
+    "block": 4,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.0021697955383426,
+    "ready_tail_over_head": 1.0018224523357149,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T153929Z_2a4216df/moe_layer-008.json"
+  },
+  {
+    "case_id": "moe_layer-024",
+    "block": 4,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.031712271110077,
+    "ready_tail_over_head": 1.031643202196543,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T153929Z_2a4216df/moe_layer-024.json"
+  },
+  {
+    "case_id": "moe_layer-017",
+    "block": 4,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.0001018334162857,
+    "ready_tail_over_head": 1.0000728735319875,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T153929Z_2a4216df/moe_layer-017.json"
+  },
+  {
+    "case_id": "moe_layer-007",
+    "block": 5,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.0003818411895504,
+    "ready_tail_over_head": 1.0017154724534894,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T154505Z_31a89a57/moe_layer-007.json"
+  },
+  {
+    "case_id": "moe_layer-009",
+    "block": 5,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 2.4138188536883676,
+    "ready_tail_over_head": 2.3966230193876337,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T154505Z_31a89a57/moe_layer-009.json"
+  },
+  {
+    "case_id": "moe_layer-016",
+    "block": 5,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.0230394019776443,
+    "ready_tail_over_head": 1.0225591850114815,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T154505Z_31a89a57/moe_layer-016.json"
+  },
+  {
+    "case_id": "moe_layer-008",
+    "block": 5,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.003212951263442,
+    "ready_tail_over_head": 1.003499468544289,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T154505Z_31a89a57/moe_layer-008.json"
+  },
+  {
+    "case_id": "moe_layer-024",
+    "block": 5,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.1184045220331076,
+    "ready_tail_over_head": 1.1179368167475956,
+    "over5percent": true,
+    "raw_ref": "runs/20261015T154505Z_31a89a57/moe_layer-024.json"
+  },
+  {
+    "case_id": "moe_layer-017",
+    "block": 5,
+    "cohort": "implementation_layer_test",
+    "device_tail_over_head": 1.000242061341744,
+    "ready_tail_over_head": 1.0003209591225657,
+    "over5percent": false,
+    "raw_ref": "runs/20261015T154505Z_31a89a57/moe_layer-017.json"
+  }
+]

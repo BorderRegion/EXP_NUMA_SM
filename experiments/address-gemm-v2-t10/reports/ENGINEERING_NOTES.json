@@ -1,0 +1,17 @@
+[
+  {
+    "issue": "Full qualification under racecheck exceeded its 180-second worker cap without a completion summary. It is NOT a pass.",
+    "retained": "runs/*/racecheck, stdout/stderr/telemetry/manifest/ledger",
+    "action": "Use a targeted four-launch small-matrix probe for queue_reduce and f2. Memcheck and synccheck completed full qualification with zero errors."
+  },
+  {
+    "issue": "First targeted racecheck invocation used an unsupported regex: filter syntax; process rejected before CUDA execution.",
+    "action": "Use documented exact-name filters kne=f2 and kne=queue_reduce.",
+    "retained": "racecheck_targeted logs and ledger"
+  },
+  {
+    "issue": "Post-run audit: within each stage, development processes 0/1 and confirmation processes 0/1 reuse input seeds. The frozen tuning.py docstring incorrectly says the inputs are disjoint. 64 matching same-recipe output hashes corroborate reuse.",
+    "action": "Preserve all original source and six-process primary results. CPU-only sensitivity recomputes confirmation processes 2..5 selected solely by seed non-overlap; report this limitation prominently.",
+    "retained": "src/audit_confirmation.py, derived/CONFIRMATION_AUDIT.json, original frozen source and all measurements"
+  }
+]

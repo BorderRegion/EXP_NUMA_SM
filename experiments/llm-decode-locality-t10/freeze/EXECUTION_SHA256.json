@@ -1,0 +1,16 @@
+{
+  "freeze/implementation/attention.cu": "d01e563ceaf67b442a18d84d67c79d917a9837710836a55d399481e40b38d253",
+  "freeze/implementation/qualify.py": "c4a62ce94aea160b5a9e3a19ae2a075620a829ce9063756303d6ab8f8b819526",
+  "freeze/implementation/select_config.py": "592f5b5de8a48d755cd29e19c87ee578807087240b363cf2b5ae2cd583bac14a",
+  "freeze/implementation/common.py": "b17fa3a27ab31ab646bbed02b8ce560b9bc36e98057db788934e76b96eee7bf4",
+  "freeze/implementation/smoke.py": "af38d9b77580455e2e13d1c7c72e9fc39d6870cd1e1d233e34bc3cb9a3cb29f6",
+  "freeze/implementation/runtime.py": "28fb5a7788055928fa91a379f68cf3f05c6e50ea387d8e42b159e3909419e8d7",
+  "freeze/implementation/run_campaign.py": "c46e7e9104aade45d75471335342293898d8b8f0d5b64b28275eedbc9ab4556c",
+  "freeze/implementation/worker.py": "8ec9b8a1e7716605f174f2f2d0a9640429fa75563fdb1867637fc857e5925c47",
+  "freeze/implementation/build.py": "203a2dfb10384dc0b2085da212fcb471a9926ed6620aa205f287f075e8311a2f",
+  "freeze/implementation/experiment.py": "8969a190412d041c2275d8219aa6b4b63a66b827f24464fdb80035fc521fb5e2",
+  "freeze/implementation/sanitize_probe.py": "8245cfe353055afc372487377b31f7bacae1c01a6bae5a6c684b0412f96a2803",
+  "freeze/implementation/nvml_state.py": "4bd85f03f65821332180cb785751a5c5e005f3a7b3c9cf5014f088bead2ad1b7",
+  "freeze/PROTOCOL.json": "1c3466b10ec1c3502084173db9f03beed8d7409ec7ae163b31b7a158335d6554",
+  "build/attention.so": "a9cc45689f3df8e923129775c7c5d1abef976c8ba6abed5b10a78a0c687cabdd"
+}

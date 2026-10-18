@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "campaign": "GPU_COMPUTE_TOPOLOGY_DUAL_20261014",
+  "date": "2026-10-14",
+  "offline": true,
+  "remote_execution": false,
+  "new_paid_provisioning_authorized": false,
+  "platforms": {
+    "rtx5070ti": {
+      "expected_label": "NVIDIA GeForce RTX 5070 Ti",
+      "expected_cc": [
+        12,
+        0
+      ],
+      "expected_sm": 70,
+      "expected_l2_mib": 48,
+      "reference_only": true,
+      "cluster_path": "query_then_qualify"
+    },
+    "t10": {
+      "expected_label": "NVIDIA Tesla T10 16GB",
+      "expected_cc": [
+        7,
+        5
+      ],
+      "expected_sm": null,
+      "expected_l2_mib": null,
+      "reference_only": true,
+      "cluster_path": "not_expected_query_actual"
+    }
+  },
+  "policy_ids": [
+    "N",
+    "I",
+    "S",
+    "L",
+    "R",
+    "T",
+    "M",
+    "P"
+  ],
+  "matrix_caps": {
+    "E2_common": 144,
+    "E2_cluster_optional": 96,
+    "E3_mechanism": 252,
+    "E4_full": 432,
+    "E4_confirmation_alternative": 144,
+    "E5_holdout": 36,
+    "E5_scale": 18,
+    "E5_colocation": 72,
+    "E5_lifecycle": 27,
+    "E5_observation": 12
+  },
+  "execution": {
+    "gpu_workers_per_host": 1,
+    "cpu_compile_max": 4,
+    "micro_memory_mib": 512,
+    "vram_headroom_gib": 2,
+    "vram_headroom_fraction": 0.15,
+    "micro_target_ms": 2,
+    "micro_split_limit_ms": 20,
+    "formal_blocks": 6,
+    "app_warmup_frames_min": 128,
+    "app_warmup_seconds_min": 1,
+    "app_measured_frames": 512,
+    "micro_warmups": 32,
+    "micro_measured_epochs": 128,
+    "public_layout_max": 4,
+    "new_candidates": 1,
+    "compiler_specializations_max": 4
+  },
+  "random_seeds": {
+    "selection": 2026101401,
+    "process_order": 2026101402,
+    "bootstrap": 2026101403,
+    "task_inputs": 2026101404
+  },
+  "safety": {
+    "stop_gpu_on_device_lost": true,
+    "driver_changes": false,
+    "privileged_masking": false,
+    "automatic_network_retries": false
+  },
+  "outcomes": [
+    "PAPER_OPPORTUNITY_WITH_GAPS",
+    "ENGINEERING_GAIN_ONLY",
+    "TOPOLOGY_OBSERVED_NO_DEPLOYABLE_GAIN",
+    "NO_MATERIAL_CAPACITY_ASYMMETRY_IN_SCOPE",
+    "CONTROL_OR_RESOURCE_LIMITED",
+    "SAFETY_STOP_WITH_PARTIAL_EVIDENCE"
+  ]
+}

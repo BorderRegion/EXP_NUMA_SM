@@ -1,0 +1,5 @@
+CLOSED: all GPU sampling and CPU analysis completed. No GPU queue remains.
+144 planned work units completed; all raw and failed attempts preserved.
+AA repair did not establish1% precision. V16/F4 SINGLE costly; V15 reverses across blocks.
+See T10_TRANSIENT_AND_F4_DIAG_REPORT.md and FINAL_AUDIT.json. Archive verification and final delivery status are in external DELIVERY_INDEX.md / PACKAGE_QA.json.
+Historical in-progress checkpoint is provenance only in support/CONTINUATION_STATE_historical.txt. Do not resume its obsolete queue instructions.

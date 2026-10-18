@@ -1,0 +1,395 @@
+{
+  "scope": "CPU independent archive and session-mean review only; no GPU, no frame raw, no full images/tasks/assets/binaries.",
+  "manifest_checked": 70,
+  "archive_member_files": 71,
+  "errors": [],
+  "run_index_count": 523,
+  "run_stages": {
+    "E0_qualification SUCCESS": 24,
+    "E0_size_qualification SUCCESS": 8,
+    "E1 SUCCESS": 15,
+    "E2 SUCCESS": 144,
+    "E0_sanitizer FAILED": 4,
+    "E3 SUCCESS": 252,
+    "W1_profile SUCCESS": 4,
+    "E0_sanitizer SUCCESS": 2,
+    "W1_calibration SUCCESS": 4,
+    "W1_qualification SUCCESS": 4,
+    "W1_pilot SUCCESS": 2,
+    "W1_sanitizer SUCCESS": 2,
+    "E4_W1 SUCCESS": 24,
+    "W2_initial_qualification SUCCESS": 2,
+    "W2_calibration SUCCESS": 2,
+    "W2_qualification SUCCESS": 2,
+    "W2_sanitizer SUCCESS": 2,
+    "E4_W2 SUCCESS": 24,
+    "W1_empty_qualification SUCCESS": 2
+  },
+  "reported_worker_seconds_sum": 1910.478779042678,
+  "formal_blocks": 48,
+  "formal_sessions": 144,
+  "reported_frames_sum": 73728,
+  "all_formal_N_first": true,
+  "formal_orders": {
+    "NMR": 22,
+    "NRM": 26
+  },
+  "recomputed_primary_comparisons": {
+    "W1_M/N": {
+      "ratio": 1.1112842691113527,
+      "ci95": [
+        1.097248378549204,
+        1.1274168747673161
+      ],
+      "ci97_5": [
+        1.0956918748769833,
+        1.1297277206247016
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "max_abs_delta_vs_report": 0.0,
+      "matches_report_within_1e_12": true
+    },
+    "W2_M/N": {
+      "ratio": 1.227100063912946,
+      "ci95": [
+        1.1182560070981866,
+        1.3645807240553858
+      ],
+      "ci97_5": [
+        1.1042205029807197,
+        1.3891852446051505
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "max_abs_delta_vs_report": 0.0,
+      "matches_report_within_1e_12": true
+    },
+    "W1_M/R": {
+      "ratio": 1.002329120329213,
+      "ci95": [
+        0.9997425124850486,
+        1.0047405176406092
+      ],
+      "ci97_5": [
+        0.999342368249544,
+        1.005031911855044
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "max_abs_delta_vs_report": 0.0,
+      "matches_report_within_1e_12": true
+    },
+    "W2_M/R": {
+      "ratio": 0.9952924759523265,
+      "ci95": [
+        0.9800363572899442,
+        1.0104382489186805
+      ],
+      "ci97_5": [
+        0.9778801900729535,
+        1.0124430917309313
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "max_abs_delta_vs_report": 0.0,
+      "matches_report_within_1e_12": true
+    }
+  },
+  "per_condition_drift_descriptive": [
+    {
+      "condition": "W1/bonsai/0",
+      "n_blocks": 6,
+      "N_first_ms": 7.0217058828125,
+      "N_last_ms": 14.081739896484375,
+      "N_min_ms": 7.0217058828125,
+      "N_max_ms": 14.081739896484375,
+      "N_max_over_min": 2.005458521262361,
+      "block_ratios_M_N": [
+        1.2003495162616582,
+        1.1951503083740838,
+        1.122373533231827,
+        1.1218656932637654,
+        1.1107288867109144,
+        1.11298035029373
+      ],
+      "block_ratios_M_R": [
+        0.9980538061002762,
+        1.0166319518641405,
+        1.0065285843899232,
+        1.0137399646748704,
+        1.0171993320732255,
+        1.015405868665937
+      ]
+    },
+    {
+      "condition": "W1/bonsai/1",
+      "n_blocks": 6,
+      "N_first_ms": 7.210190740234375,
+      "N_last_ms": 13.98513851171875,
+      "N_min_ms": 7.210190740234375,
+      "N_max_ms": 13.98513851171875,
+      "N_max_over_min": 1.9396350270844773,
+      "block_ratios_M_N": [
+        1.2059574512399418,
+        1.0772802088661184,
+        1.117519654640652,
+        1.1073792173540173,
+        1.1098852879862573,
+        1.1077538305988897
+      ],
+      "block_ratios_M_R": [
+        1.0140547917173,
+        1.010146937627164,
+        1.0153428722913893,
+        1.0032293156395529,
+        1.0091869282185073,
+        0.9993350367770624
+      ]
+    },
+    {
+      "condition": "W1/train/0",
+      "n_blocks": 6,
+      "N_first_ms": 12.77064155859375,
+      "N_last_ms": 23.76262157421875,
+      "N_min_ms": 12.77064155859375,
+      "N_max_ms": 23.76262157421875,
+      "N_max_over_min": 1.8607226164161004,
+      "block_ratios_M_N": [
+        1.1831130540313965,
+        1.0722779318202422,
+        1.0642257693424064,
+        1.0794772082632245,
+        1.0804993607733624,
+        1.0763367416280232
+      ],
+      "block_ratios_M_R": [
+        1.004018845842881,
+        0.9814138935699557,
+        0.99430980003828,
+        1.00120665771487,
+        0.9988881491433484,
+        0.9930629215576152
+      ]
+    },
+    {
+      "condition": "W1/train/1",
+      "n_blocks": 6,
+      "N_first_ms": 13.14577336328125,
+      "N_last_ms": 23.45485115625,
+      "N_min_ms": 13.14577336328125,
+      "N_max_ms": 23.61128118359375,
+      "N_max_over_min": 1.7961119921285678,
+      "block_ratios_M_N": [
+        1.165671342841228,
+        1.0791299465865303,
+        1.0708738602809924,
+        1.0696503056288864,
+        1.0767824358002367,
+        1.0840637835693365
+      ],
+      "block_ratios_M_R": [
+        0.9867598042906303,
+        0.9916320689846501,
+        0.9961250600661908,
+        0.9913171269111504,
+        1.0019805677816385,
+        0.9974925274865242
+      ]
+    },
+    {
+      "condition": "W2/ca-GrQc/0",
+      "n_blocks": 6,
+      "N_first_ms": 0.017899990234375,
+      "N_last_ms": 0.01780013671875,
+      "N_min_ms": 0.01774812890625,
+      "N_max_ms": 0.019479736328125,
+      "N_max_over_min": 1.0975656324687395,
+      "block_ratios_M_N": [
+        1.5298001755631196,
+        1.3804574607144662,
+        1.4308578082944923,
+        1.3906457287127079,
+        1.319586810211934,
+        1.444151368219389
+      ],
+      "block_ratios_M_R": [
+        1.0798588296294802,
+        0.9118595518101172,
+        1.0008937193698084,
+        1.0321174645349176,
+        1.0025250772875967,
+        0.909443368808587
+      ]
+    },
+    {
+      "condition": "W2/ca-GrQc/1",
+      "n_blocks": 6,
+      "N_first_ms": 0.01874558203125,
+      "N_last_ms": 0.017774169921875,
+      "N_min_ms": 0.017774169921875,
+      "N_max_ms": 0.01892759375,
+      "N_max_over_min": 1.0648932598931362,
+      "block_ratios_M_N": [
+        1.3438914460886513,
+        1.4146276460328495,
+        1.429844996867973,
+        1.4310373447168467,
+        1.3412394561181344,
+        1.543614081837287
+      ],
+      "block_ratios_M_R": [
+        0.9979347021109148,
+        0.9622066710578053,
+        0.9189029096801832,
+        1.0297992081194112,
+        0.9885840767127896,
+        1.0063728139503694
+      ]
+    },
+    {
+      "condition": "W2/web-Google/0",
+      "n_blocks": 6,
+      "N_first_ms": 0.58301951171875,
+      "N_last_ms": 1.42846196484375,
+      "N_min_ms": 0.58301951171875,
+      "N_max_ms": 1.43155528515625,
+      "N_max_over_min": 2.455415738893548,
+      "block_ratios_M_N": [
+        1.947759011469083,
+        0.8514270182140709,
+        0.8331448026518776,
+        0.8331458872502508,
+        0.8387470289395395,
+        0.8408397391728111
+      ],
+      "block_ratios_M_R": [
+        1.0030158216762781,
+        1.0083921103949445,
+        1.0707759562779067,
+        0.9966554580708502,
+        1.0022338128557235,
+        0.9999030643713417
+      ]
+    },
+    {
+      "condition": "W2/web-Google/1",
+      "n_blocks": 6,
+      "N_first_ms": 1.388473923828125,
+      "N_last_ms": 0.605242765625,
+      "N_min_ms": 0.605242765625,
+      "N_max_ms": 1.402297017578125,
+      "N_max_over_min": 2.3169166113535486,
+      "block_ratios_M_N": [
+        0.8393624053715145,
+        1.1615032014618802,
+        0.8389211140187954,
+        1.9586224677869806,
+        0.8299434800791177,
+        1.9518572893413095
+      ],
+      "block_ratios_M_R": [
+        1.0002013153277487,
+        1.0085866070522986,
+        0.9894695520039002,
+        1.0002756405349353,
+        0.980844742762695,
+        1.0053987668422246
+      ]
+    }
+  ],
+  "queue_timestamps": {
+    "queued_interval_overlap_pairs": 28,
+    "end_minus_worker_estimated_overlap_pairs_over_1ms": 0,
+    "interpretation": "runlib.py uses flock; start_utc is before lock wait. Do not interpret queued overlap as concurrent GPU work. Actual start is not separately recorded.",
+    "examples": [
+      {
+        "a": "t10_20261014T141107Z_5426b853",
+        "b": "t10_20261014T141109Z_825f64bd",
+        "seconds": 30.192475
+      },
+      {
+        "a": "t10_20261014T141109Z_825f64bd",
+        "b": "t10_20261014T141140Z_a253f578",
+        "seconds": 3.387176
+      }
+    ]
+  },
+  "K2_exact_source_access_sets": [
+    {
+      "size": 0,
+      "tasks": 256,
+      "units": 16,
+      "unique_input_bytes": 1048576,
+      "unique_input_MiB": 1.0,
+      "per_task_unique_bytes": 4096,
+      "same_address_repeats_per_task": 2,
+      "L2_ratio": 0.25,
+      "address_depends_on_previous_load_value": false
+    },
+    {
+      "size": 1,
+      "tasks": 1024,
+      "units": 64,
+      "unique_input_bytes": 2097152,
+      "unique_input_MiB": 2.0,
+      "per_task_unique_bytes": 4096,
+      "same_address_repeats_per_task": 8,
+      "L2_ratio": 0.5,
+      "address_depends_on_previous_load_value": false
+    },
+    {
+      "size": 2,
+      "tasks": 4096,
+      "units": 128,
+      "unique_input_bytes": 4194304,
+      "unique_input_MiB": 4.0,
+      "per_task_unique_bytes": 4096,
+      "same_address_repeats_per_task": 16,
+      "L2_ratio": 1.0,
+      "address_depends_on_previous_load_value": false
+    }
+  ],
+  "rates": {
+    "preregistration/W2/ca-GrQc": {
+      "relative_group1_group0_by_class": [
+        1.1221973833302645,
+        1.2259558630640084,
+        1.1567456179989244
+      ],
+      "single_rate_ratio": 1.1571186223781118,
+      "plan_overlap_M_R": 0.513348588863463
+    },
+    "preregistration/W2/web-Google": {
+      "relative_group1_group0_by_class": [
+        0.9870159604308028,
+        0.984538940292846,
+        1.1723876874142551
+      ],
+      "single_rate_ratio": 1.03701107219831,
+      "plan_overlap_M_R": 0.49124537607891494
+    },
+    "preregistration/W1/bonsai": {
+      "relative_group1_group0_by_class": [
+        1.0089314106945395,
+        1.047055818459693,
+        0.9919439093740354
+      ],
+      "single_rate_ratio": 1.0157021817978822,
+      "plan_overlap_M_R": 0.5333333333333333
+    },
+    "preregistration/W1/train": {
+      "relative_group1_group0_by_class": [
+        1.0287586549137409,
+        0.9970848759571925,
+        1.0117662458559122
+      ],
+      "single_rate_ratio": 1.01298774487243,
+      "plan_overlap_M_R": 0.5427777777777778
+    }
+  },
+  "topology": {
+    "G1_G3_same_actual_sets_each_process": true,
+    "number_E1_records": 15
+  }
+}

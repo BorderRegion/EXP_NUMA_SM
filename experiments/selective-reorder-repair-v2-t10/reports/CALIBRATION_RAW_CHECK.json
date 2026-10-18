@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "quartets": 1152,
+  "measured_requests": 284416,
+  "raw_bit_checks": 3456,
+  "same_calibration_host_binary_sha": "a39fcb431e59c36181fef01acfe78b3c33b46c72c0ef1b4ee5cfd959077163c5",
+  "scope": "All1152 development quartets match provided orders, raw request means and same-math bit checks; no evaluation data."
+}

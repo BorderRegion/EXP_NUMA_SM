@@ -1,0 +1,4244 @@
+[
+  {
+    "case_id": "grouped-018",
+    "run_id": "20261015T070154Z_fff46e94",
+    "variant": "CUBLAS_GRAPH",
+    "requests": 1,
+    "counts": {
+      "kernel": 7,
+      "memset": 0,
+      "memcpy": 0
+    },
+    "source": "runs/20261015T070154Z_fff46e94/grouped-018_trace.json",
+    "kernels": [
+      {
+        "name": "turing_fp16_s1688gemm_fp16_128x64_sliced1x2_ldg8_f2f_nn",
+        "duration_us": 26.08,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 687597,
+          "registers per thread": 226,
+          "shared memory": 32768,
+          "blocks per SM": 0.571429,
+          "warps per SM": 2.285714,
+          "grid": [
+            16,
+            2,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 7
+        }
+      },
+      {
+        "name": "turing_fp16_s1688gemm_fp16_64x64_sliced1x4_ldg8_f2f_nn",
+        "duration_us": 24.16,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 687597,
+          "registers per thread": 222,
+          "shared memory": 32768,
+          "blocks per SM": 0.571429,
+          "warps per SM": 2.285714,
+          "grid": [
+            32,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 7
+        }
+      },
+      {
+        "name": "turing_fp16_s1688gemm_fp16_64x64_sliced1x4_ldg8_f2f_nn",
+        "duration_us": 22.24,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 687597,
+          "registers per thread": 222,
+          "shared memory": 32768,
+          "blocks per SM": 0.571429,
+          "warps per SM": 2.285714,
+          "grid": [
+            32,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 7
+        }
+      },
+      {
+        "name": "turing_fp16_s1688gemm_fp16_64x64_sliced1x4_ldg8_f2f_nn",
+        "duration_us": 21.44,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 687597,
+          "registers per thread": 222,
+          "shared memory": 32768,
+          "blocks per SM": 0.571429,
+          "warps per SM": 2.285714,
+          "grid": [
+            32,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 7
+        }
+      },
+      {
+        "name": "turing_fp16_s1688gemm_fp16_64x64_sliced1x4_ldg8_f2f_nn",
+        "duration_us": 21.599,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 687597,
+          "registers per thread": 222,
+          "shared memory": 32768,
+          "blocks per SM": 0.571429,
+          "warps per SM": 2.285714,
+          "grid": [
+            32,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 7
+        }
+      },
+      {
+        "name": "turing_fp16_s1688gemm_fp16_64x64_sliced1x4_ldg8_f2f_nn",
+        "duration_us": 20.48,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 687597,
+          "registers per thread": 222,
+          "shared memory": 32768,
+          "blocks per SM": 0.571429,
+          "warps per SM": 2.285714,
+          "grid": [
+            32,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 7
+        }
+      },
+      {
+        "name": "turing_fp16_s1688gemm_fp16_64x64_sliced1x4_ldg8_f2f_nn",
+        "duration_us": 20.448,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 687597,
+          "registers per thread": 222,
+          "shared memory": 32768,
+          "blocks per SM": 0.571429,
+          "warps per SM": 2.285714,
+          "grid": [
+            32,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 7
+        }
+      }
+    ]
+  },
+  {
+    "case_id": "grouped-001",
+    "run_id": "20261015T070154Z_fff46e94",
+    "variant": "CUBLAS_GRAPH",
+    "requests": 1,
+    "counts": {
+      "kernel": 8,
+      "memset": 0,
+      "memcpy": 0
+    },
+    "source": "runs/20261015T070154Z_fff46e94/grouped-001_trace.json",
+    "kernels": [
+      {
+        "name": "void cutlass::Kernel2<cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8>(cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8::Params)",
+        "duration_us": 18.176,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 122,
+          "shared memory": 20736,
+          "blocks per SM": 2.285714,
+          "warps per SM": 2.285714,
+          "grid": [
+            8,
+            16,
+            1
+          ],
+          "block": [
+            32,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 7
+        }
+      },
+      {
+        "name": "void cutlass::Kernel2<cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8>(cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8::Params)",
+        "duration_us": 17.952,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 122,
+          "shared memory": 20736,
+          "blocks per SM": 2.285714,
+          "warps per SM": 2.285714,
+          "grid": [
+            8,
+            16,
+            1
+          ],
+          "block": [
+            32,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 7
+        }
+      },
+      {
+        "name": "void cutlass::Kernel2<cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8>(cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8::Params)",
+        "duration_us": 17.92,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 122,
+          "shared memory": 20736,
+          "blocks per SM": 2.285714,
+          "warps per SM": 2.285714,
+          "grid": [
+            8,
+            16,
+            1
+          ],
+          "block": [
+            32,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 7
+        }
+      },
+      {
+        "name": "void cutlass::Kernel2<cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8>(cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8::Params)",
+        "duration_us": 17.984,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 122,
+          "shared memory": 20736,
+          "blocks per SM": 2.285714,
+          "warps per SM": 2.285714,
+          "grid": [
+            8,
+            16,
+            1
+          ],
+          "block": [
+            32,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 7
+        }
+      },
+      {
+        "name": "void cutlass::Kernel2<cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8>(cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8::Params)",
+        "duration_us": 17.824,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 122,
+          "shared memory": 20736,
+          "blocks per SM": 2.285714,
+          "warps per SM": 2.285714,
+          "grid": [
+            8,
+            16,
+            1
+          ],
+          "block": [
+            32,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 7
+        }
+      },
+      {
+        "name": "void cutlass::Kernel2<cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8>(cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8::Params)",
+        "duration_us": 17.856,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 122,
+          "shared memory": 20736,
+          "blocks per SM": 2.285714,
+          "warps per SM": 2.285714,
+          "grid": [
+            8,
+            16,
+            1
+          ],
+          "block": [
+            32,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 7
+        }
+      },
+      {
+        "name": "void cutlass::Kernel2<cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8>(cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8::Params)",
+        "duration_us": 18.24,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 122,
+          "shared memory": 20736,
+          "blocks per SM": 2.285714,
+          "warps per SM": 2.285714,
+          "grid": [
+            8,
+            16,
+            1
+          ],
+          "block": [
+            32,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 7
+        }
+      },
+      {
+        "name": "void cutlass::Kernel2<cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8>(cutlass_75_wmma_tensorop_f16_s161616gemm_f16_16x16_128x2_nn_align8::Params)",
+        "duration_us": 17.664,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 122,
+          "shared memory": 20736,
+          "blocks per SM": 2.285714,
+          "warps per SM": 2.285714,
+          "grid": [
+            8,
+            16,
+            1
+          ],
+          "block": [
+            32,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 7
+        }
+      }
+    ]
+  },
+  {
+    "case_id": "moe_layer-001",
+    "run_id": "20261015T071339Z_4c55647f",
+    "variant": "CUBLAS_GRAPH",
+    "requests": 1,
+    "counts": {
+      "kernel": 34,
+      "memset": 0,
+      "memcpy": 0
+    },
+    "source": "runs/20261015T071339Z_4c55647f/moe_layer-001_trace.json",
+    "kernels": [
+      {
+        "name": "void at::native::(anonymous namespace)::indexSelectSmallIndex<c10::Half, long, unsigned int, 2, 2, -2>(at::cuda::detail::TensorInfo<c10::Half, unsigned int>, at::cuda::detail::TensorInfo<c10::Half const, unsigned int>, at::cuda::detail::TensorInfo<long const, unsigned int>, int, int, unsigned int, long)",
+        "duration_us": 14.849,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 32,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn",
+        "duration_us": 32.544,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 234,
+          "shared memory": 40960,
+          "blocks per SM": 0.857143,
+          "warps per SM": 3.428571,
+          "grid": [
+            16,
+            1,
+            3
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 11
+        }
+      },
+      {
+        "name": "void cublasLt::splitKreduce_kernel<32, 16, int, float, __half, float, __half, false, __half, __half, __half, true, false, false>(cublasLt::cublasSplitKParams<float>, float const*, __half const*, __half*, __half*, float const*, float const*, __half const*, float const*, __half*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)",
+        "duration_us": 4.416,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 44,
+          "shared memory": 0,
+          "blocks per SM": 2.285714,
+          "warps per SM": 36.57143,
+          "grid": [
+            128,
+            1,
+            1
+          ],
+          "block": [
+            32,
+            16,
+            1
+          ],
+          "est. achieved occupancy %": 100
+        }
+      },
+      {
+        "name": "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn",
+        "duration_us": 33.537,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 234,
+          "shared memory": 40960,
+          "blocks per SM": 0.857143,
+          "warps per SM": 3.428571,
+          "grid": [
+            16,
+            1,
+            3
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 11
+        }
+      },
+      {
+        "name": "void cublasLt::splitKreduce_kernel<32, 16, int, float, __half, float, __half, false, __half, __half, __half, true, false, false>(cublasLt::cublasSplitKParams<float>, float const*, __half const*, __half*, __half*, float const*, float const*, __half const*, float const*, __half*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)",
+        "duration_us": 4.32,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 44,
+          "shared memory": 0,
+          "blocks per SM": 2.285714,
+          "warps per SM": 36.57143,
+          "grid": [
+            128,
+            1,
+            1
+          ],
+          "block": [
+            32,
+            16,
+            1
+          ],
+          "est. achieved occupancy %": 100
+        }
+      },
+      {
+        "name": "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn",
+        "duration_us": 32.832,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 234,
+          "shared memory": 40960,
+          "blocks per SM": 0.857143,
+          "warps per SM": 3.428571,
+          "grid": [
+            16,
+            1,
+            3
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 11
+        }
+      },
+      {
+        "name": "void cublasLt::splitKreduce_kernel<32, 16, int, float, __half, float, __half, false, __half, __half, __half, true, false, false>(cublasLt::cublasSplitKParams<float>, float const*, __half const*, __half*, __half*, float const*, float const*, __half const*, float const*, __half*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)",
+        "duration_us": 4.448,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 44,
+          "shared memory": 0,
+          "blocks per SM": 2.285714,
+          "warps per SM": 36.57143,
+          "grid": [
+            128,
+            1,
+            1
+          ],
+          "block": [
+            32,
+            16,
+            1
+          ],
+          "est. achieved occupancy %": 100
+        }
+      },
+      {
+        "name": "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn",
+        "duration_us": 33.089,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 234,
+          "shared memory": 40960,
+          "blocks per SM": 0.857143,
+          "warps per SM": 3.428571,
+          "grid": [
+            16,
+            1,
+            3
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 11
+        }
+      },
+      {
+        "name": "void cublasLt::splitKreduce_kernel<32, 16, int, float, __half, float, __half, false, __half, __half, __half, true, false, false>(cublasLt::cublasSplitKParams<float>, float const*, __half const*, __half*, __half*, float const*, float const*, __half const*, float const*, __half*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)",
+        "duration_us": 4.768,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 44,
+          "shared memory": 0,
+          "blocks per SM": 2.285714,
+          "warps per SM": 36.57143,
+          "grid": [
+            128,
+            1,
+            1
+          ],
+          "block": [
+            32,
+            16,
+            1
+          ],
+          "est. achieved occupancy %": 100
+        }
+      },
+      {
+        "name": "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn",
+        "duration_us": 32.544,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 234,
+          "shared memory": 40960,
+          "blocks per SM": 0.857143,
+          "warps per SM": 3.428571,
+          "grid": [
+            16,
+            1,
+            3
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 11
+        }
+      },
+      {
+        "name": "void cublasLt::splitKreduce_kernel<32, 16, int, float, __half, float, __half, false, __half, __half, __half, true, false, false>(cublasLt::cublasSplitKParams<float>, float const*, __half const*, __half*, __half*, float const*, float const*, __half const*, float const*, __half*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)",
+        "duration_us": 4.384,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 44,
+          "shared memory": 0,
+          "blocks per SM": 2.285714,
+          "warps per SM": 36.57143,
+          "grid": [
+            128,
+            1,
+            1
+          ],
+          "block": [
+            32,
+            16,
+            1
+          ],
+          "est. achieved occupancy %": 100
+        }
+      },
+      {
+        "name": "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn",
+        "duration_us": 32.641,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 234,
+          "shared memory": 40960,
+          "blocks per SM": 0.857143,
+          "warps per SM": 3.428571,
+          "grid": [
+            16,
+            1,
+            3
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 11
+        }
+      },
+      {
+        "name": "void cublasLt::splitKreduce_kernel<32, 16, int, float, __half, float, __half, false, __half, __half, __half, true, false, false>(cublasLt::cublasSplitKParams<float>, float const*, __half const*, __half*, __half*, float const*, float const*, __half const*, float const*, __half*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)",
+        "duration_us": 4.352,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 44,
+          "shared memory": 0,
+          "blocks per SM": 2.285714,
+          "warps per SM": 36.57143,
+          "grid": [
+            128,
+            1,
+            1
+          ],
+          "block": [
+            32,
+            16,
+            1
+          ],
+          "est. achieved occupancy %": 100
+        }
+      },
+      {
+        "name": "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn",
+        "duration_us": 32.736,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 234,
+          "shared memory": 40960,
+          "blocks per SM": 0.857143,
+          "warps per SM": 3.428571,
+          "grid": [
+            16,
+            1,
+            3
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 11
+        }
+      },
+      {
+        "name": "void cublasLt::splitKreduce_kernel<32, 16, int, float, __half, float, __half, false, __half, __half, __half, true, false, false>(cublasLt::cublasSplitKParams<float>, float const*, __half const*, __half*, __half*, float const*, float const*, __half const*, float const*, __half*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)",
+        "duration_us": 4.48,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 44,
+          "shared memory": 0,
+          "blocks per SM": 2.285714,
+          "warps per SM": 36.57143,
+          "grid": [
+            128,
+            1,
+            1
+          ],
+          "block": [
+            32,
+            16,
+            1
+          ],
+          "est. achieved occupancy %": 100
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::(anonymous namespace)::silu_kernel(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#5}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::(anonymous namespace)::silu_kernel(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#5}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::(anonymous namespace)::silu_kernel(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#5}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::(anonymous namespace)::silu_kernel(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#5}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 5.632,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 17,
+          "shared memory": 0,
+          "blocks per SM": 1.142857,
+          "warps per SM": 4.571429,
+          "grid": [
+            64,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 14
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<c10::Half, c10::Half, c10::Half, at::native::binary_internal::MulFunctor<float> > >(at::TensorIteratorBase&, at::native::BinaryFunctor<c10::Half, c10::Half, c10::Half, at::native::binary_internal::MulFunctor<float> > const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<c10::Half, c10::Half, c10::Half, at::native::binary_internal::MulFunctor<float> > >(at::TensorIteratorBase&, at::native::BinaryFunctor<c10::Half, c10::Half, c10::Half, at::native::binary_internal::MulFunctor<float> > const&)::{lambda(int)#1})",
+        "duration_us": 5.632,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 1.142857,
+          "warps per SM": 4.571429,
+          "grid": [
+            64,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 14
+        }
+      },
+      {
+        "name": "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn",
+        "duration_us": 21.408,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 234,
+          "shared memory": 40960,
+          "blocks per SM": 0.785714,
+          "warps per SM": 3.142857,
+          "grid": [
+            4,
+            1,
+            11
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 10
+        }
+      },
+      {
+        "name": "void cublasLt::splitKreduce_kernel<32, 16, int, float, __half, float, __half, false, __half, __half, __half, true, false, false>(cublasLt::cublasSplitKParams<float>, float const*, __half const*, __half*, __half*, float const*, float const*, __half const*, float const*, __half*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)",
+        "duration_us": 3.616,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 44,
+          "shared memory": 0,
+          "blocks per SM": 0.571429,
+          "warps per SM": 9.142858,
+          "grid": [
+            32,
+            1,
+            1
+          ],
+          "block": [
+            32,
+            16,
+            1
+          ],
+          "est. achieved occupancy %": 29
+        }
+      },
+      {
+        "name": "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn",
+        "duration_us": 21.441,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 234,
+          "shared memory": 40960,
+          "blocks per SM": 0.785714,
+          "warps per SM": 3.142857,
+          "grid": [
+            4,
+            1,
+            11
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 10
+        }
+      },
+      {
+        "name": "void cublasLt::splitKreduce_kernel<32, 16, int, float, __half, float, __half, false, __half, __half, __half, true, false, false>(cublasLt::cublasSplitKParams<float>, float const*, __half const*, __half*, __half*, float const*, float const*, __half const*, float const*, __half*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)",
+        "duration_us": 3.488,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 44,
+          "shared memory": 0,
+          "blocks per SM": 0.571429,
+          "warps per SM": 9.142858,
+          "grid": [
+            32,
+            1,
+            1
+          ],
+          "block": [
+            32,
+            16,
+            1
+          ],
+          "est. achieved occupancy %": 29
+        }
+      },
+      {
+        "name": "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn",
+        "duration_us": 21.089,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 234,
+          "shared memory": 40960,
+          "blocks per SM": 0.785714,
+          "warps per SM": 3.142857,
+          "grid": [
+            4,
+            1,
+            11
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 10
+        }
+      },
+      {
+        "name": "void cublasLt::splitKreduce_kernel<32, 16, int, float, __half, float, __half, false, __half, __half, __half, true, false, false>(cublasLt::cublasSplitKParams<float>, float const*, __half const*, __half*, __half*, float const*, float const*, __half const*, float const*, __half*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)",
+        "duration_us": 3.584,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 44,
+          "shared memory": 0,
+          "blocks per SM": 0.571429,
+          "warps per SM": 9.142858,
+          "grid": [
+            32,
+            1,
+            1
+          ],
+          "block": [
+            32,
+            16,
+            1
+          ],
+          "est. achieved occupancy %": 29
+        }
+      },
+      {
+        "name": "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn",
+        "duration_us": 20.576,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 234,
+          "shared memory": 40960,
+          "blocks per SM": 0.785714,
+          "warps per SM": 3.142857,
+          "grid": [
+            4,
+            1,
+            11
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 10
+        }
+      },
+      {
+        "name": "void cublasLt::splitKreduce_kernel<32, 16, int, float, __half, float, __half, false, __half, __half, __half, true, false, false>(cublasLt::cublasSplitKParams<float>, float const*, __half const*, __half*, __half*, float const*, float const*, __half const*, float const*, __half*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)",
+        "duration_us": 3.456,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 44,
+          "shared memory": 0,
+          "blocks per SM": 0.571429,
+          "warps per SM": 9.142858,
+          "grid": [
+            32,
+            1,
+            1
+          ],
+          "block": [
+            32,
+            16,
+            1
+          ],
+          "est. achieved occupancy %": 29
+        }
+      },
+      {
+        "name": "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn",
+        "duration_us": 21.025,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 234,
+          "shared memory": 40960,
+          "blocks per SM": 0.785714,
+          "warps per SM": 3.142857,
+          "grid": [
+            4,
+            1,
+            11
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 10
+        }
+      },
+      {
+        "name": "void cublasLt::splitKreduce_kernel<32, 16, int, float, __half, float, __half, false, __half, __half, __half, true, false, false>(cublasLt::cublasSplitKParams<float>, float const*, __half const*, __half*, __half*, float const*, float const*, __half const*, float const*, __half*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)",
+        "duration_us": 3.584,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 44,
+          "shared memory": 0,
+          "blocks per SM": 0.571429,
+          "warps per SM": 9.142858,
+          "grid": [
+            32,
+            1,
+            1
+          ],
+          "block": [
+            32,
+            16,
+            1
+          ],
+          "est. achieved occupancy %": 29
+        }
+      },
+      {
+        "name": "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn",
+        "duration_us": 20.704,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 234,
+          "shared memory": 40960,
+          "blocks per SM": 0.785714,
+          "warps per SM": 3.142857,
+          "grid": [
+            4,
+            1,
+            11
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 10
+        }
+      },
+      {
+        "name": "void cublasLt::splitKreduce_kernel<32, 16, int, float, __half, float, __half, false, __half, __half, __half, true, false, false>(cublasLt::cublasSplitKParams<float>, float const*, __half const*, __half*, __half*, float const*, float const*, __half const*, float const*, __half*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)",
+        "duration_us": 3.648,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 44,
+          "shared memory": 0,
+          "blocks per SM": 0.571429,
+          "warps per SM": 9.142858,
+          "grid": [
+            32,
+            1,
+            1
+          ],
+          "block": [
+            32,
+            16,
+            1
+          ],
+          "est. achieved occupancy %": 29
+        }
+      },
+      {
+        "name": "turing_s1688gemm_fp16_256x64_ldg8_stages_32x1_nn",
+        "duration_us": 20.736,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 234,
+          "shared memory": 40960,
+          "blocks per SM": 0.785714,
+          "warps per SM": 3.142857,
+          "grid": [
+            4,
+            1,
+            11
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 10
+        }
+      },
+      {
+        "name": "void cublasLt::splitKreduce_kernel<32, 16, int, float, __half, float, __half, false, __half, __half, __half, true, false, false>(cublasLt::cublasSplitKParams<float>, float const*, __half const*, __half*, __half*, float const*, float const*, __half const*, float const*, __half*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)",
+        "duration_us": 3.551,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 44,
+          "shared memory": 0,
+          "blocks per SM": 0.571429,
+          "warps per SM": 9.142858,
+          "grid": [
+            32,
+            1,
+            1
+          ],
+          "block": [
+            32,
+            16,
+            1
+          ],
+          "est. achieved occupancy %": 29
+        }
+      },
+      {
+        "name": "void at::native::(anonymous namespace)::indexSelectSmallIndex<c10::Half, long, unsigned int, 2, 2, -2>(at::cuda::detail::TensorInfo<c10::Half, unsigned int>, at::cuda::detail::TensorInfo<c10::Half const, unsigned int>, at::cuda::detail::TensorInfo<long const, unsigned int>, int, int, unsigned int, long)",
+        "duration_us": 16.737,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 32,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<c10::Half, c10::Half, c10::Half, at::native::binary_internal::MulFunctor<float> > >(at::TensorIteratorBase&, at::native::BinaryFunctor<c10::Half, c10::Half, c10::Half, at::native::binary_internal::MulFunctor<float> > const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<c10::Half, c10::Half, c10::Half, at::native::binary_internal::MulFunctor<float> > >(at::TensorIteratorBase&, at::native::BinaryFunctor<c10::Half, c10::Half, c10::Half, at::native::binary_internal::MulFunctor<float> > const&)::{lambda(int)#1})",
+        "duration_us": 4.64,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.571429,
+          "warps per SM": 2.285714,
+          "grid": [
+            32,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 7
+        }
+      },
+      {
+        "name": "void at::native::reduce_kernel<128, 4, at::native::ReduceOp<c10::Half, at::native::func_wrapper_t<c10::Half, at::native::sum_functor<c10::Half, float, c10::Half>::operator()(at::TensorIterator&)::{lambda(float, float)#1}>, unsigned int, c10::Half, 4, 4> >(at::native::ReduceOp<c10::Half, at::native::func_wrapper_t<c10::Half, at::native::sum_functor<c10::Half, float, c10::Half>::operator()(at::TensorIterator&)::{lambda(float, float)#1}>, unsigned int, c10::Half, 4, 4>)",
+        "duration_us": 10.496,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 45,
+          "shared memory": 16,
+          "blocks per SM": 0.571429,
+          "warps per SM": 2.285714,
+          "grid": [
+            32,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 7
+        }
+      }
+    ]
+  },
+  {
+    "case_id": "attention_decode-001",
+    "run_id": "20261015T074928Z_20444b05",
+    "variant": "CUTLASS_DYNAMIC16",
+    "requests": 16,
+    "counts": {
+      "kernel": 112,
+      "memset": 0,
+      "memcpy": 0
+    },
+    "source": "runs/20261015T074928Z_20444b05/attention_decode-001_trace.json",
+    "kernels": [
+      {
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul> >(int, at::native::FillFunctor<int>, std::array<char*, 1ul>)",
+        "duration_us": 2.208,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<int, true> >(at_cuda_detail::cub::ScanTileState<int, true>, int)",
+        "duration_us": 2.112,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanKernel<at_cuda_detail::cub::DeviceScanPolicy<int, std::plus<int> >::Policy900, int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int, int, false>(int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, int, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int)",
+        "duration_us": 3.711,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 64,
+          "shared memory": 7696,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_alignedK_contig<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 1, 128, 1, 16>(at::native::(anonymous namespace)::OpaqueType<4u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+        "duration_us": 3.776,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 30,
+          "shared memory": 0,
+          "blocks per SM": 0.035714,
+          "warps per SM": 0.142857,
+          "grid": [
+            1,
+            2,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 5.184,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "fmha_cutlassF_f16_aligned_32x128_rf_sm75(PyTorchMemEffAttention::AttentionKernel<cutlass::half_t, cutlass::arch::Sm75, true, 32, 128, 128, true, true>::Params)",
+        "duration_us": 17.12,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 160,
+          "shared memory": 26112,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            1,
+            8,
+            1
+          ],
+          "block": [
+            32,
+            4,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.416,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul> >(int, at::native::FillFunctor<int>, std::array<char*, 1ul>)",
+        "duration_us": 2.208,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<int, true> >(at_cuda_detail::cub::ScanTileState<int, true>, int)",
+        "duration_us": 2.079,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanKernel<at_cuda_detail::cub::DeviceScanPolicy<int, std::plus<int> >::Policy900, int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int, int, false>(int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, int, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int)",
+        "duration_us": 3.999,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 64,
+          "shared memory": 7696,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_alignedK_contig<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 1, 128, 1, 16>(at::native::(anonymous namespace)::OpaqueType<4u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+        "duration_us": 3.296,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 30,
+          "shared memory": 0,
+          "blocks per SM": 0.035714,
+          "warps per SM": 0.142857,
+          "grid": [
+            1,
+            2,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.864,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "fmha_cutlassF_f16_aligned_32x128_rf_sm75(PyTorchMemEffAttention::AttentionKernel<cutlass::half_t, cutlass::arch::Sm75, true, 32, 128, 128, true, true>::Params)",
+        "duration_us": 16.224,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 160,
+          "shared memory": 26112,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            1,
+            8,
+            1
+          ],
+          "block": [
+            32,
+            4,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.543,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul> >(int, at::native::FillFunctor<int>, std::array<char*, 1ul>)",
+        "duration_us": 2.24,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<int, true> >(at_cuda_detail::cub::ScanTileState<int, true>, int)",
+        "duration_us": 2.144,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanKernel<at_cuda_detail::cub::DeviceScanPolicy<int, std::plus<int> >::Policy900, int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int, int, false>(int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, int, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int)",
+        "duration_us": 3.776,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 64,
+          "shared memory": 7696,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_alignedK_contig<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 1, 128, 1, 16>(at::native::(anonymous namespace)::OpaqueType<4u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+        "duration_us": 3.328,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 30,
+          "shared memory": 0,
+          "blocks per SM": 0.035714,
+          "warps per SM": 0.142857,
+          "grid": [
+            1,
+            2,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.864,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "fmha_cutlassF_f16_aligned_32x128_rf_sm75(PyTorchMemEffAttention::AttentionKernel<cutlass::half_t, cutlass::arch::Sm75, true, 32, 128, 128, true, true>::Params)",
+        "duration_us": 15.775,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 160,
+          "shared memory": 26112,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            1,
+            8,
+            1
+          ],
+          "block": [
+            32,
+            4,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.48,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul> >(int, at::native::FillFunctor<int>, std::array<char*, 1ul>)",
+        "duration_us": 2.272,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<int, true> >(at_cuda_detail::cub::ScanTileState<int, true>, int)",
+        "duration_us": 2.048,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanKernel<at_cuda_detail::cub::DeviceScanPolicy<int, std::plus<int> >::Policy900, int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int, int, false>(int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, int, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int)",
+        "duration_us": 4.064,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 64,
+          "shared memory": 7696,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_alignedK_contig<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 1, 128, 1, 16>(at::native::(anonymous namespace)::OpaqueType<4u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+        "duration_us": 3.328,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 30,
+          "shared memory": 0,
+          "blocks per SM": 0.035714,
+          "warps per SM": 0.142857,
+          "grid": [
+            1,
+            2,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.96,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "fmha_cutlassF_f16_aligned_32x128_rf_sm75(PyTorchMemEffAttention::AttentionKernel<cutlass::half_t, cutlass::arch::Sm75, true, 32, 128, 128, true, true>::Params)",
+        "duration_us": 14.303,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 160,
+          "shared memory": 26112,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            1,
+            8,
+            1
+          ],
+          "block": [
+            32,
+            4,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.48,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul> >(int, at::native::FillFunctor<int>, std::array<char*, 1ul>)",
+        "duration_us": 2.208,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<int, true> >(at_cuda_detail::cub::ScanTileState<int, true>, int)",
+        "duration_us": 2.048,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanKernel<at_cuda_detail::cub::DeviceScanPolicy<int, std::plus<int> >::Policy900, int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int, int, false>(int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, int, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int)",
+        "duration_us": 3.648,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 64,
+          "shared memory": 7696,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_alignedK_contig<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 1, 128, 1, 16>(at::native::(anonymous namespace)::OpaqueType<4u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+        "duration_us": 3.328,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 30,
+          "shared memory": 0,
+          "blocks per SM": 0.035714,
+          "warps per SM": 0.142857,
+          "grid": [
+            1,
+            2,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 5.087,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "fmha_cutlassF_f16_aligned_32x128_rf_sm75(PyTorchMemEffAttention::AttentionKernel<cutlass::half_t, cutlass::arch::Sm75, true, 32, 128, 128, true, true>::Params)",
+        "duration_us": 14.655,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 160,
+          "shared memory": 26112,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            1,
+            8,
+            1
+          ],
+          "block": [
+            32,
+            4,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.416,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul> >(int, at::native::FillFunctor<int>, std::array<char*, 1ul>)",
+        "duration_us": 2.176,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<int, true> >(at_cuda_detail::cub::ScanTileState<int, true>, int)",
+        "duration_us": 2.048,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanKernel<at_cuda_detail::cub::DeviceScanPolicy<int, std::plus<int> >::Policy900, int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int, int, false>(int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, int, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int)",
+        "duration_us": 4.0,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 64,
+          "shared memory": 7696,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_alignedK_contig<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 1, 128, 1, 16>(at::native::(anonymous namespace)::OpaqueType<4u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+        "duration_us": 3.264,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 30,
+          "shared memory": 0,
+          "blocks per SM": 0.035714,
+          "warps per SM": 0.142857,
+          "grid": [
+            1,
+            2,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.927,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "fmha_cutlassF_f16_aligned_32x128_rf_sm75(PyTorchMemEffAttention::AttentionKernel<cutlass::half_t, cutlass::arch::Sm75, true, 32, 128, 128, true, true>::Params)",
+        "duration_us": 14.751,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 160,
+          "shared memory": 26112,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            1,
+            8,
+            1
+          ],
+          "block": [
+            32,
+            4,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.576,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul> >(int, at::native::FillFunctor<int>, std::array<char*, 1ul>)",
+        "duration_us": 2.24,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<int, true> >(at_cuda_detail::cub::ScanTileState<int, true>, int)",
+        "duration_us": 2.048,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanKernel<at_cuda_detail::cub::DeviceScanPolicy<int, std::plus<int> >::Policy900, int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int, int, false>(int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, int, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int)",
+        "duration_us": 3.712,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 64,
+          "shared memory": 7696,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_alignedK_contig<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 1, 128, 1, 16>(at::native::(anonymous namespace)::OpaqueType<4u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+        "duration_us": 3.264,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 30,
+          "shared memory": 0,
+          "blocks per SM": 0.035714,
+          "warps per SM": 0.142857,
+          "grid": [
+            1,
+            2,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.895,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "fmha_cutlassF_f16_aligned_32x128_rf_sm75(PyTorchMemEffAttention::AttentionKernel<cutlass::half_t, cutlass::arch::Sm75, true, 32, 128, 128, true, true>::Params)",
+        "duration_us": 14.399,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 160,
+          "shared memory": 26112,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            1,
+            8,
+            1
+          ],
+          "block": [
+            32,
+            4,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 9.024,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul> >(int, at::native::FillFunctor<int>, std::array<char*, 1ul>)",
+        "duration_us": 2.24,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<int, true> >(at_cuda_detail::cub::ScanTileState<int, true>, int)",
+        "duration_us": 2.08,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanKernel<at_cuda_detail::cub::DeviceScanPolicy<int, std::plus<int> >::Policy900, int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int, int, false>(int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, int, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int)",
+        "duration_us": 4.0,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 64,
+          "shared memory": 7696,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_alignedK_contig<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 1, 128, 1, 16>(at::native::(anonymous namespace)::OpaqueType<4u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+        "duration_us": 3.264,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 30,
+          "shared memory": 0,
+          "blocks per SM": 0.035714,
+          "warps per SM": 0.142857,
+          "grid": [
+            1,
+            2,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.928,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "fmha_cutlassF_f16_aligned_32x128_rf_sm75(PyTorchMemEffAttention::AttentionKernel<cutlass::half_t, cutlass::arch::Sm75, true, 32, 128, 128, true, true>::Params)",
+        "duration_us": 14.559,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 160,
+          "shared memory": 26112,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            1,
+            8,
+            1
+          ],
+          "block": [
+            32,
+            4,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.48,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul> >(int, at::native::FillFunctor<int>, std::array<char*, 1ul>)",
+        "duration_us": 2.208,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<int, true> >(at_cuda_detail::cub::ScanTileState<int, true>, int)",
+        "duration_us": 2.112,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanKernel<at_cuda_detail::cub::DeviceScanPolicy<int, std::plus<int> >::Policy900, int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int, int, false>(int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, int, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int)",
+        "duration_us": 3.744,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 64,
+          "shared memory": 7696,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_alignedK_contig<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 1, 128, 1, 16>(at::native::(anonymous namespace)::OpaqueType<4u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+        "duration_us": 3.328,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 30,
+          "shared memory": 0,
+          "blocks per SM": 0.035714,
+          "warps per SM": 0.142857,
+          "grid": [
+            1,
+            2,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.863,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "fmha_cutlassF_f16_aligned_32x128_rf_sm75(PyTorchMemEffAttention::AttentionKernel<cutlass::half_t, cutlass::arch::Sm75, true, 32, 128, 128, true, true>::Params)",
+        "duration_us": 14.304,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 160,
+          "shared memory": 26112,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            1,
+            8,
+            1
+          ],
+          "block": [
+            32,
+            4,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.48,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul> >(int, at::native::FillFunctor<int>, std::array<char*, 1ul>)",
+        "duration_us": 2.272,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<int, true> >(at_cuda_detail::cub::ScanTileState<int, true>, int)",
+        "duration_us": 2.336,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanKernel<at_cuda_detail::cub::DeviceScanPolicy<int, std::plus<int> >::Policy900, int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int, int, false>(int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, int, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int)",
+        "duration_us": 4.128,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 64,
+          "shared memory": 7696,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_alignedK_contig<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 1, 128, 1, 16>(at::native::(anonymous namespace)::OpaqueType<4u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+        "duration_us": 3.295,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 30,
+          "shared memory": 0,
+          "blocks per SM": 0.035714,
+          "warps per SM": 0.142857,
+          "grid": [
+            1,
+            2,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.895,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "fmha_cutlassF_f16_aligned_32x128_rf_sm75(PyTorchMemEffAttention::AttentionKernel<cutlass::half_t, cutlass::arch::Sm75, true, 32, 128, 128, true, true>::Params)",
+        "duration_us": 14.56,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 160,
+          "shared memory": 26112,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            1,
+            8,
+            1
+          ],
+          "block": [
+            32,
+            4,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.512,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul> >(int, at::native::FillFunctor<int>, std::array<char*, 1ul>)",
+        "duration_us": 2.24,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<int, true> >(at_cuda_detail::cub::ScanTileState<int, true>, int)",
+        "duration_us": 2.048,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanKernel<at_cuda_detail::cub::DeviceScanPolicy<int, std::plus<int> >::Policy900, int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int, int, false>(int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, int, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int)",
+        "duration_us": 3.712,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 64,
+          "shared memory": 7696,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_alignedK_contig<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 1, 128, 1, 16>(at::native::(anonymous namespace)::OpaqueType<4u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+        "duration_us": 3.296,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 30,
+          "shared memory": 0,
+          "blocks per SM": 0.035714,
+          "warps per SM": 0.142857,
+          "grid": [
+            1,
+            2,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.928,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "fmha_cutlassF_f16_aligned_32x128_rf_sm75(PyTorchMemEffAttention::AttentionKernel<cutlass::half_t, cutlass::arch::Sm75, true, 32, 128, 128, true, true>::Params)",
+        "duration_us": 14.24,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 160,
+          "shared memory": 26112,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            1,
+            8,
+            1
+          ],
+          "block": [
+            32,
+            4,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.479,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul> >(int, at::native::FillFunctor<int>, std::array<char*, 1ul>)",
+        "duration_us": 2.272,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<int, true> >(at_cuda_detail::cub::ScanTileState<int, true>, int)",
+        "duration_us": 2.081,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanKernel<at_cuda_detail::cub::DeviceScanPolicy<int, std::plus<int> >::Policy900, int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int, int, false>(int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, int, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int)",
+        "duration_us": 4.031,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 64,
+          "shared memory": 7696,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_alignedK_contig<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 1, 128, 1, 16>(at::native::(anonymous namespace)::OpaqueType<4u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+        "duration_us": 3.392,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 30,
+          "shared memory": 0,
+          "blocks per SM": 0.035714,
+          "warps per SM": 0.142857,
+          "grid": [
+            1,
+            2,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 5.056,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "fmha_cutlassF_f16_aligned_32x128_rf_sm75(PyTorchMemEffAttention::AttentionKernel<cutlass::half_t, cutlass::arch::Sm75, true, 32, 128, 128, true, true>::Params)",
+        "duration_us": 14.528,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 160,
+          "shared memory": 26112,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            1,
+            8,
+            1
+          ],
+          "block": [
+            32,
+            4,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.479,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul> >(int, at::native::FillFunctor<int>, std::array<char*, 1ul>)",
+        "duration_us": 2.239,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<int, true> >(at_cuda_detail::cub::ScanTileState<int, true>, int)",
+        "duration_us": 2.112,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanKernel<at_cuda_detail::cub::DeviceScanPolicy<int, std::plus<int> >::Policy900, int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int, int, false>(int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, int, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int)",
+        "duration_us": 3.68,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 64,
+          "shared memory": 7696,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_alignedK_contig<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 1, 128, 1, 16>(at::native::(anonymous namespace)::OpaqueType<4u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+        "duration_us": 3.328,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 30,
+          "shared memory": 0,
+          "blocks per SM": 0.035714,
+          "warps per SM": 0.142857,
+          "grid": [
+            1,
+            2,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 5.12,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "fmha_cutlassF_f16_aligned_32x128_rf_sm75(PyTorchMemEffAttention::AttentionKernel<cutlass::half_t, cutlass::arch::Sm75, true, 32, 128, 128, true, true>::Params)",
+        "duration_us": 14.303,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 160,
+          "shared memory": 26112,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            1,
+            8,
+            1
+          ],
+          "block": [
+            32,
+            4,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.447,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul> >(int, at::native::FillFunctor<int>, std::array<char*, 1ul>)",
+        "duration_us": 2.24,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<int, true> >(at_cuda_detail::cub::ScanTileState<int, true>, int)",
+        "duration_us": 2.144,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanKernel<at_cuda_detail::cub::DeviceScanPolicy<int, std::plus<int> >::Policy900, int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int, int, false>(int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, int, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int)",
+        "duration_us": 4.032,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 64,
+          "shared memory": 7696,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_alignedK_contig<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 1, 128, 1, 16>(at::native::(anonymous namespace)::OpaqueType<4u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+        "duration_us": 3.296,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 30,
+          "shared memory": 0,
+          "blocks per SM": 0.035714,
+          "warps per SM": 0.142857,
+          "grid": [
+            1,
+            2,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.992,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "fmha_cutlassF_f16_aligned_32x128_rf_sm75(PyTorchMemEffAttention::AttentionKernel<cutlass::half_t, cutlass::arch::Sm75, true, 32, 128, 128, true, true>::Params)",
+        "duration_us": 14.783,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 160,
+          "shared memory": 26112,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            1,
+            8,
+            1
+          ],
+          "block": [
+            32,
+            4,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.48,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul> >(int, at::native::FillFunctor<int>, std::array<char*, 1ul>)",
+        "duration_us": 2.24,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<int, true> >(at_cuda_detail::cub::ScanTileState<int, true>, int)",
+        "duration_us": 2.048,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanKernel<at_cuda_detail::cub::DeviceScanPolicy<int, std::plus<int> >::Policy900, int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int, int, false>(int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, int, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int)",
+        "duration_us": 3.744,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 64,
+          "shared memory": 7696,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_alignedK_contig<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 1, 128, 1, 16>(at::native::(anonymous namespace)::OpaqueType<4u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+        "duration_us": 3.296,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 30,
+          "shared memory": 0,
+          "blocks per SM": 0.035714,
+          "warps per SM": 0.142857,
+          "grid": [
+            1,
+            2,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 5.024,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "fmha_cutlassF_f16_aligned_32x128_rf_sm75(PyTorchMemEffAttention::AttentionKernel<cutlass::half_t, cutlass::arch::Sm75, true, 32, 128, 128, true, true>::Params)",
+        "duration_us": 14.559,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 160,
+          "shared memory": 26112,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            1,
+            8,
+            1
+          ],
+          "block": [
+            32,
+            4,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.416,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul> >(int, at::native::FillFunctor<int>, std::array<char*, 1ul>)",
+        "duration_us": 2.24,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<int, true> >(at_cuda_detail::cub::ScanTileState<int, true>, int)",
+        "duration_us": 2.112,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at_cuda_detail::cub::DeviceScanKernel<at_cuda_detail::cub::DeviceScanPolicy<int, std::plus<int> >::Policy900, int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int, int, false>(int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, int, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int)",
+        "duration_us": 3.968,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 64,
+          "shared memory": 7696,
+          "blocks per SM": 0.017857,
+          "warps per SM": 0.071429,
+          "grid": [
+            1,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_alignedK_contig<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 1, 128, 1, 16>(at::native::(anonymous namespace)::OpaqueType<4u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+        "duration_us": 3.328,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 30,
+          "shared memory": 0,
+          "blocks per SM": 0.035714,
+          "warps per SM": 0.142857,
+          "grid": [
+            1,
+            2,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 0
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.895,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "fmha_cutlassF_f16_aligned_32x128_rf_sm75(PyTorchMemEffAttention::AttentionKernel<cutlass::half_t, cutlass::arch::Sm75, true, 32, 128, 128, true, true>::Params)",
+        "duration_us": 14.208,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 160,
+          "shared memory": 26112,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            1,
+            8,
+            1
+          ],
+          "block": [
+            32,
+            4,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      },
+      {
+        "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#10}::operator()() const::{lambda(c10::Half)#1} const&)::{lambda(int)#1})",
+        "duration_us": 4.48,
+        "args": {
+          "queued": 0,
+          "device": 0,
+          "context": 1,
+          "stream": 7,
+          "correlation": 7,
+          "registers per thread": 16,
+          "shared memory": 0,
+          "blocks per SM": 0.142857,
+          "warps per SM": 0.571429,
+          "grid": [
+            8,
+            1,
+            1
+          ],
+          "block": [
+            128,
+            1,
+            1
+          ],
+          "est. achieved occupancy %": 2
+        }
+      }
+    ]
+  }
+]

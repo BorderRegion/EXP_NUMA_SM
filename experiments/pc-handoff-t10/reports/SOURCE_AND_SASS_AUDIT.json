@@ -1,0 +1,154 @@
+{
+  "build": "/home/ubuntu/文档/ChatGPT/numa_gpu/pc-handoff-t10/build/20261016T130724Z",
+  "source_commit": "f7b19de32c5d1f3cedfc735c2849f12b537522ee",
+  "source_files": {
+    "include/cutlass/gemm/device/gemm_splitk_parallel.h": "ee6a85b522d5205a53ec940d5973d0df402ac3c8bad620457e9cd35821ee00b8",
+    "include/cutlass/gemm/kernel/gemm_splitk_parallel.h": "b5f720add4d400ee136accff1cfa04cd96d02b0dba1590d9e94768d2d78d153c",
+    "include/cutlass/gemm/kernel/default_gemm_splitk_parallel.h": "5eda3b7e895cfc471d833deab80f6fd7d8b8dce2b460c8957f4e9d2daa04e56a",
+    "include/cutlass/reduction/kernel/reduce_split_k.h": "7c41bf62a879dfbda5520268b27b0f5b246bf7d2f0cb95912e4a216562061b52",
+    "include/cutlass/gemm/kernel/gemm_universal_streamk.h": "219ced473f37b0d4f5ccf0e66f0bdc0eb6525c6eda0c164632f404ddda4f37d9",
+    "examples/47_ampere_gemm_universal_streamk/ampere_gemm_universal_streamk.cu": "5ad58218b3ce43322f0f7635a04857b1aca6d4cfd03442e26427344cc2ae1977"
+  },
+  "binaries": {
+    "backend.so": "fea27b506730837be4b30c8e1880b22d07fd8d9eb4aa0fc17501dfb63833879b",
+    "diag0.cubin": "4000b020ab9dfe12ef0bd898be50e6836339be2b2f3db0bb477cde9a33eb5f0b",
+    "diag1.cubin": "073f4b01a27a949dbca3d2afb2e943e625b1f3ed72f2fdda631b289a7f48afaf"
+  },
+  "sass_sha": "20d94900ef3ed2000c3b16e8a41099e89204c49997ee03827fe95585290d7869",
+  "functions": {
+    "silu_half": {
+      "HMMA": 0,
+      "SMID": 0,
+      "CLOCK": 0,
+      "global_loads": 1,
+      "global_stores": 1
+    },
+    "scratch_read": {
+      "HMMA": 0,
+      "SMID": 0,
+      "CLOCK": 0,
+      "global_loads": 1,
+      "global_stores": 1
+    },
+    "roster": {
+      "HMMA": 0,
+      "SMID": 0,
+      "CLOCK": 0,
+      "global_loads": 0,
+      "global_stores": 0
+    },
+    "rn": {
+      "HMMA": 0,
+      "SMID": 0,
+      "CLOCK": 0,
+      "global_loads": 11,
+      "global_stores": 1
+    },
+    "r": {
+      "HMMA": 0,
+      "SMID": 0,
+      "CLOCK": 0,
+      "global_loads": 11,
+      "global_stores": 1
+    },
+    "s3": {
+      "HMMA": 128,
+      "SMID": 0,
+      "CLOCK": 0,
+      "global_loads": 52,
+      "global_stores": 64
+    },
+    "n3": {
+      "HMMA": 128,
+      "SMID": 0,
+      "CLOCK": 0,
+      "global_loads": 16,
+      "global_stores": 32
+    },
+    "p3": {
+      "HMMA": 128,
+      "SMID": 0,
+      "CLOCK": 0,
+      "global_loads": 16,
+      "global_stores": 32
+    },
+    "s2": {
+      "HMMA": 64,
+      "SMID": 0,
+      "CLOCK": 0,
+      "global_loads": 32,
+      "global_stores": 32
+    },
+    "n2": {
+      "HMMA": 64,
+      "SMID": 0,
+      "CLOCK": 0,
+      "global_loads": 12,
+      "global_stores": 16
+    },
+    "p2": {
+      "HMMA": 64,
+      "SMID": 0,
+      "CLOCK": 0,
+      "global_loads": 12,
+      "global_stores": 16
+    },
+    "s1": {
+      "HMMA": 32,
+      "SMID": 0,
+      "CLOCK": 0,
+      "global_loads": 20,
+      "global_stores": 16
+    },
+    "n1": {
+      "HMMA": 32,
+      "SMID": 0,
+      "CLOCK": 0,
+      "global_loads": 8,
+      "global_stores": 8
+    },
+    "p1": {
+      "HMMA": 32,
+      "SMID": 0,
+      "CLOCK": 0,
+      "global_loads": 8,
+      "global_stores": 8
+    },
+    "s0": {
+      "HMMA": 32,
+      "SMID": 0,
+      "CLOCK": 0,
+      "global_loads": 24,
+      "global_stores": 16
+    },
+    "n0": {
+      "HMMA": 32,
+      "SMID": 0,
+      "CLOCK": 0,
+      "global_loads": 12,
+      "global_stores": 8
+    },
+    "p0": {
+      "HMMA": 32,
+      "SMID": 0,
+      "CLOCK": 0,
+      "global_loads": 12,
+      "global_stores": 8
+    }
+  },
+  "diagnostics_in_formal_cubin": "ABSENT: no SMID/CLOCK instructions anywhere in DIAG0",
+  "math_body": "Unchanged local CUTLASS Sm75 TensorOp mainloop and FP32 accumulation, narrow output-address/owner edits and ordered native reduction",
+  "stream_k": {
+    "status": "NA_NO_ALREADY_QUALIFIED_SM75_RUNNABLE",
+    "local_example_arch": "Sm80, four-stage pipeline",
+    "source_header_present": true,
+    "interpretation": "Local generic Stream-K header exists; source presence is not an already-qualified T10 executable. No claim that Sm75 Stream-K is impossible. Porting another executor excluded by supplied scope."
+  },
+  "profiler": {
+    "nsys": null,
+    "ncu": null,
+    "available": "Existing PyTorch Kineto/CUPTI activity collector; maximum eight attempts",
+    "hardware_counters": "NOT_MEASURED"
+  },
+  "sanitizer": "/home/ubuntu/文档/ChatGPT/numa_gpu/vendor/cuda_sanitizer_api-linux-x86_64-12.8.93-archive/bin/compute-sanitizer"
+}

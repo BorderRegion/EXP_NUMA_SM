@@ -1,0 +1,13 @@
+build/
+assets/
+vendor/
+runs/
+derived/
+exports/
+environment/
+*.pyc
+__pycache__/
+.venv/
+config/LOCAL_PATHS.json
+*.so
+*.cubin

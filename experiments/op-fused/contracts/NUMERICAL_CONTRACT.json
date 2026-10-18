@@ -1,0 +1,14 @@
+{
+  "frozen_before_gpu_performance": true,
+  "dtype": "FP16_INPUT_FP32_ACCUM",
+  "element_atol": 0.005,
+  "element_rtol": 0.005,
+  "normalized_frobenius_max": 0.002,
+  "reference": "chunked FP64 GEMM/attention, outputs converted for comparison",
+  "same_body": "bitwise where only independent tile order changes",
+  "tf32": false,
+  "fp16_reduced_precision_reduction": false,
+  "split_k_new": false,
+  "input_domain": "finite zero mean; scale inputs to avoid overflow",
+  "model_quality": "NOT_ASSESSED"
+}

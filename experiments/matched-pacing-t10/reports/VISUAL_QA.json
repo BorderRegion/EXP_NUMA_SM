@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T11:26:26.081948+00:00",
+  "figures": [
+    "01_matched_timelines.png",
+    "02_wall_time_and_net_gain.png",
+    "03_preparation_and_temperature.png",
+    "04_bracket_and_return.png"
+  ],
+  "notes": "All4PNG inspected; timeline title/phase-label overlap corrected and inspected again; scatterannotations removed to avoid overlaps, exactvalues retained intable; PDF counterparts retained"
+}

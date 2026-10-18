@@ -1,0 +1,9 @@
+{
+  "stage": "declared during first confirmation process, before inspecting confirmation performance",
+  "role": "descriptive supplements, no change to frozen candidates, controls or primary tests",
+  "checks": [
+    "Development-only correlation of held-out communication-tail scores against all132 actual operator choices",
+    "Instrumented per-SM arrival durations and collector identities, never used as formal kernel speedup measurements",
+    "Frozen BLIND rule transfer against IDENTITY without online calibration; disclose offline development cost and distinguish autotuning from NUMA causality"
+  ]
+}

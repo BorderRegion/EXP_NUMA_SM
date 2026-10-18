@@ -1,0 +1,495 @@
+{
+  "shared_measured_offline_build_us": 627180641.2280174,
+  "shared_cost_components_s": {
+    "action_calibration_workers": 606.7605889520491,
+    "cpu_fit": 0.8135646220180206,
+    "rule_export_compile_verification_wall_interval": 10.266966,
+    "final_host_adapter_compile": 9.339521653950214
+  },
+  "resource_card_worker_us": 170942911.22298455,
+  "card_cpu_materialization_us": null,
+  "unmeasured": "Card JSON CPU aggregation and complete cold deployment-process import are not separately timed. Rule export/compile/verification uses its observed wall interval, not isolated compiler CPU time; no complete cold-process claim.",
+  "scope": "Six-signature model; one offline calibration/card charge per model, never six repeated charges. Actual conservative campaign implementation includes conditioning and scientific checks. Cached lifecycle includes real plan/input setup; H>=256 uses measured64 mean algebraically.",
+  "rows": [
+    {
+      "block": 0,
+      "H": 1,
+      "policy": "LIB_ALWAYS",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 5045370.307997093,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 5045370.307997093,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 0,
+      "H": 1,
+      "policy": "SHAPE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 5003054.780944264,
+      "additional_measured_offline_build_us": 627180641.2280174,
+      "fresh_total_us": 632183696.0089617,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 0,
+      "H": 1,
+      "policy": "RESOURCE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 5017944.028906785,
+      "additional_measured_offline_build_us": 798123552.451002,
+      "fresh_total_us": 803141496.4799088,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 0,
+      "H": 1,
+      "policy": "INIT_TUNE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 11853845.449229147,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 11853845.449229147,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 0,
+      "H": 32,
+      "policy": "LIB_ALWAYS",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 5296372.881020966,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 5296372.881020966,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 0,
+      "H": 32,
+      "policy": "SHAPE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 5225939.368919945,
+      "additional_measured_offline_build_us": 627180641.2280174,
+      "fresh_total_us": 632406580.5969374,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 0,
+      "H": 32,
+      "policy": "RESOURCE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 5257346.851013567,
+      "additional_measured_offline_build_us": 798123552.451002,
+      "fresh_total_us": 803380899.3020155,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 0,
+      "H": 32,
+      "policy": "INIT_TUNE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 12113618.525043255,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 12113618.525043255,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 0,
+      "H": 256,
+      "policy": "LIB_ALWAYS",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 8504470.49403555,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 8504470.49403555,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 0,
+      "H": 256,
+      "policy": "SHAPE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 8262703.343957163,
+      "additional_measured_offline_build_us": 627180641.2280174,
+      "fresh_total_us": 635443344.5719746,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 0,
+      "H": 256,
+      "policy": "RESOURCE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 8306072.077016363,
+      "additional_measured_offline_build_us": 798123552.451002,
+      "fresh_total_us": 806429624.5280184,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 0,
+      "H": 256,
+      "policy": "INIT_TUNE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 14977321.799155084,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 14977321.799155084,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 0,
+      "H": 4096,
+      "policy": "LIB_ALWAYS",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 55504946.65591919,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 55504946.65591919,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 0,
+      "H": 4096,
+      "policy": "SHAPE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 54240632.86008584,
+      "additional_measured_offline_build_us": 627180641.2280174,
+      "fresh_total_us": 681421274.0881033,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 0,
+      "H": 4096,
+      "policy": "RESOURCE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 53500451.988864526,
+      "additional_measured_offline_build_us": 798123552.451002,
+      "fresh_total_us": 851624004.4398665,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 0,
+      "H": 4096,
+      "policy": "INIT_TUNE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 59350664.04813686,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 59350664.04813686,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 1,
+      "H": 1,
+      "policy": "LIB_ALWAYS",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 5001926.3329851255,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 5001926.3329851255,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 1,
+      "H": 1,
+      "policy": "SHAPE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 5005896.386024728,
+      "additional_measured_offline_build_us": 627180641.2280174,
+      "fresh_total_us": 632186537.6140422,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 1,
+      "H": 1,
+      "policy": "RESOURCE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 4991278.540933447,
+      "additional_measured_offline_build_us": 798123552.451002,
+      "fresh_total_us": 803114830.9919355,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 1,
+      "H": 1,
+      "policy": "INIT_TUNE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 11963430.28695778,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 11963430.28695778,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 1,
+      "H": 32,
+      "policy": "LIB_ALWAYS",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 5194718.479984693,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 5194718.479984693,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 1,
+      "H": 32,
+      "policy": "SHAPE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 5212773.219988676,
+      "additional_measured_offline_build_us": 627180641.2280174,
+      "fresh_total_us": 632393414.4480062,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 1,
+      "H": 32,
+      "policy": "RESOURCE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 5191423.352941573,
+      "additional_measured_offline_build_us": 798123552.451002,
+      "fresh_total_us": 803314975.8039436,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 1,
+      "H": 32,
+      "policy": "INIT_TUNE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 12173046.736957824,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 12173046.736957824,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 1,
+      "H": 256,
+      "policy": "LIB_ALWAYS",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 8220083.9589204155,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 8220083.9589204155,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 1,
+      "H": 256,
+      "policy": "SHAPE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 8358177.2039128905,
+      "additional_measured_offline_build_us": 627180641.2280174,
+      "fresh_total_us": 635538818.4319303,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 1,
+      "H": 256,
+      "policy": "RESOURCE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 8280987.240087215,
+      "additional_measured_offline_build_us": 798123552.451002,
+      "fresh_total_us": 806404539.6910893,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 1,
+      "H": 256,
+      "policy": "INIT_TUNE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 15281428.597035775,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 15281428.597035775,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 1,
+      "H": 4096,
+      "policy": "LIB_ALWAYS",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 52032724.089947835,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 52032724.089947835,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 1,
+      "H": 4096,
+      "policy": "SHAPE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 53150337.521066375,
+      "additional_measured_offline_build_us": 627180641.2280174,
+      "fresh_total_us": 680330978.7490839,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 1,
+      "H": 4096,
+      "policy": "RESOURCE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 52788386.905971505,
+      "additional_measured_offline_build_us": 798123552.451002,
+      "fresh_total_us": 850911939.3569735,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 1,
+      "H": 4096,
+      "policy": "INIT_TUNE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 63701472.42588229,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 63701472.42588229,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 2,
+      "H": 1,
+      "policy": "LIB_ALWAYS",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 5011154.1282135565,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 5011154.1282135565,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 2,
+      "H": 1,
+      "policy": "SHAPE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 4978087.8498601355,
+      "additional_measured_offline_build_us": 627180641.2280174,
+      "fresh_total_us": 632158729.0778776,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 2,
+      "H": 1,
+      "policy": "RESOURCE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 5010514.976979765,
+      "additional_measured_offline_build_us": 798123552.451002,
+      "fresh_total_us": 803134067.4279817,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 2,
+      "H": 1,
+      "policy": "INIT_TUNE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 11892110.753098696,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 11892110.753098696,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 2,
+      "H": 32,
+      "policy": "LIB_ALWAYS",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 5226370.875057501,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 5226370.875057501,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 2,
+      "H": 32,
+      "policy": "SHAPE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 5208592.610133683,
+      "additional_measured_offline_build_us": 627180641.2280174,
+      "fresh_total_us": 632389233.8381511,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 2,
+      "H": 32,
+      "policy": "RESOURCE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 5174230.971096156,
+      "additional_measured_offline_build_us": 798123552.451002,
+      "fresh_total_us": 803297783.4220982,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 2,
+      "H": 32,
+      "policy": "INIT_TUNE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 12143262.081084067,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 12143262.081084067,
+      "request_scope": "MEASURED_COLD_H_REQUESTS"
+    },
+    {
+      "block": 2,
+      "H": 256,
+      "policy": "LIB_ALWAYS",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 8244719.498008434,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 8244719.498008434,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 2,
+      "H": 256,
+      "policy": "SHAPE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 8254612.33580577,
+      "additional_measured_offline_build_us": 627180641.2280174,
+      "fresh_total_us": 635435253.5638232,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 2,
+      "H": 256,
+      "policy": "RESOURCE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 8133837.0489105,
+      "additional_measured_offline_build_us": 798123552.451002,
+      "fresh_total_us": 806257389.4999125,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 2,
+      "H": 256,
+      "policy": "INIT_TUNE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 15568080.642057613,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 15568080.642057613,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 2,
+      "H": 4096,
+      "policy": "LIB_ALWAYS",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 51293017.90591226,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 51293017.90591226,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 2,
+      "H": 4096,
+      "policy": "SHAPE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 53360367.72205629,
+      "additional_measured_offline_build_us": 627180641.2280174,
+      "fresh_total_us": 680541008.9500737,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 2,
+      "H": 4096,
+      "policy": "RESOURCE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 55044050.731043726,
+      "additional_measured_offline_build_us": 798123552.451002,
+      "fresh_total_us": 853167603.1820457,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    },
+    {
+      "block": 2,
+      "H": 4096,
+      "policy": "INIT_TUNE",
+      "n_signatures": 6,
+      "cached_card_model_total_us": 63640420.525119156,
+      "additional_measured_offline_build_us": 0,
+      "fresh_total_us": 63640420.525119156,
+      "request_scope": "ALGEBRAIC_H_TIMES_MEASURED_64_REQUEST_STEADY"
+    }
+  ]
+}

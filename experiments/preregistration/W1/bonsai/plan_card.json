@@ -1,0 +1,37 @@
+{
+  "scope": "SCENE_PLAN",
+  "rates": [
+    [
+      237012.57273048692,
+      266135.6147805529,
+      284449.75391886494
+    ],
+    [
+      239129.4293573123,
+      278658.84395532537,
+      282158.2009227612
+    ]
+  ],
+  "single_rate": [
+    261045.99476576207,
+    265144.9864331831
+  ],
+  "rate_sources": [
+    "runs/t10/W1_calibration/t10_20261014T135907Z_0dcc04aa",
+    "runs/t10/W1_calibration/t10_20261014T135911Z_503a95b7"
+  ],
+  "plan_overlap_M_R": 0.5333333333333333,
+  "group_sms": [
+    28,
+    28
+  ],
+  "planner_calls_steady": 0,
+  "plan_hashes": {
+    "S": "53b96d93ae21e725c4a5746e0c7c149580c77ffbd6b88533779024e5ed05aad1",
+    "I": "0faf7e81a7d0a377dc681a0e368d9e062dfedf0269e4d2b808d658e1cd720da2",
+    "L": "ef36f00514539f9556dc0db6c77052fc83098f95df87e4d120873a2328e7511c",
+    "R": "64d071cc893b0016af54a7a8b27323653026c636a1e346e281599c72c286391a",
+    "M": "6466729dba502ab339f5a067d645fe6f9ed1c3729cc0e98e29a1d9f00c7afe38",
+    "P": "bb4a5286f60dcc6977d3b8737af99cb4bd70b94c8e9c6296d51e4740c21e845a"
+  }
+}

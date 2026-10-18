@@ -1,0 +1,18 @@
+{
+  "frozen_at": "2026-10-15T05:11:40.935940+00:00",
+  "window_bytes": 65536,
+  "valid_group_matrix": true,
+  "quality": {
+    "4096": {
+      "valid": true,
+      "mean_spearman": 0.8838892961876832,
+      "minimum_sm_coverage": 56
+    },
+    "65536": {
+      "valid": true,
+      "mean_spearman": 0.9828071420813357,
+      "minimum_sm_coverage": 56
+    }
+  },
+  "rule": "dev-only registered coverage and split-round correlation rule; no physical domain identification"
+}

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/文档/ChatGPT/numa_gpu/tools/qualify_empty_tiles.py", line 17, in <module>
+    if p.returncode:raise RuntimeError(p.stderr)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: /home/ubuntu/projects/leetgpu-lab/cuda/usr/lib/nvidia-cuda-toolkit/bin/crt/link.stub:26:10: fatal error: crt/host_defines.h: No such file or directory
+   26 | #include "crt/host_defines.h"
+      |          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+

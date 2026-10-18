@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/home/ubuntu/projects/leetgpu-lab/.venv/lib/python3.12/site-packages/torch/_inductor/kernel/mm.py",
+    "sha256": "62faf0d36dc5ccf4a6b53ae6e1a5900c7939cf4012377f92a1d2cbb64f9f9bba",
+    "bytes": 44849
+  },
+  {
+    "path": "/home/ubuntu/projects/leetgpu-lab/.venv/lib/python3.12/site-packages/triton/backends/nvidia/compiler.py",
+    "sha256": "703cffec3481886c30dc5993abcc425dff6d2fdfcce2528b7ccc996099c4a11a",
+    "bytes": 19210
+  },
+  {
+    "path": "/home/ubuntu/projects/leetgpu-lab/.venv/lib/python3.12/site-packages/torch/include/ATen/native/transformers/cuda/mem_eff_attention/kernel_forward.h",
+    "sha256": "6dcc1d40f6f0a92af3a3a3c260cac28a54b45c7ef67b67003ae51878dc412d37",
+    "bytes": 54114
+  },
+  {
+    "path": "/home/ubuntu/projects/ComfyUI/comfy/text_encoders/llama.py",
+    "sha256": "3e8cbb319e0c727d1a75525cbe29863463aa8263485fac22303c58fa0316ab4a",
+    "bytes": 60438
+  }
+]

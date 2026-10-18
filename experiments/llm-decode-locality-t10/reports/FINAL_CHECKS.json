@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-17T15:16:50.501777+00:00",
+  "resources": {
+    "worker_seconds": 916.9949680070276,
+    "cap_seconds": 1800,
+    "temperature_range": [
+      62,
+      73
+    ],
+    "limits_mw": [
+      100000
+    ],
+    "failed": []
+  },
+  "worker_count": 27,
+  "all_workers_completed": true,
+  "active_recorded_workers": [],
+  "compiler_spills": {
+    "build/compile.log": {
+      "kernel_variants": 36,
+      "spill_stores_bytes": 0,
+      "spill_loads_bytes": 0
+    },
+    "build/append/compile.log": {
+      "kernel_variants": 37,
+      "spill_stores_bytes": 0,
+      "spill_loads_bytes": 0
+    }
+  },
+  "API_hashes": "PASS",
+  "CPU_recompute": "PASS",
+  "figure_visual_QA": {
+    "attention_gain": "PASS",
+    "address_controls": "PASS",
+    "append_gain": "PASS",
+    "latency_and_launches": "PASS"
+  },
+  "gpu_snapshot": "index, name, power.limit [W], temperature.gpu, power.draw [W], utilization.gpu [%], memory.used [MiB]\n0, Tesla T10, 100.00 W, 63, 51.55 W, 0 %, 212 MiB\n"
+}

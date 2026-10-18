@@ -1,0 +1,196 @@
+[
+  {
+    "cohort": "development",
+    "policy": "BASE",
+    "count": 24,
+    "actions": {
+      "LIB": 24
+    },
+    "reorder_count": 0,
+    "reasons": {
+      "KEEP_BASE": 24
+    }
+  },
+  {
+    "cohort": "development",
+    "policy": "SHAPE",
+    "count": 24,
+    "actions": {
+      "LIB": 24
+    },
+    "reorder_count": 0,
+    "reasons": {
+      "KEEP_BASE": 24
+    }
+  },
+  {
+    "cohort": "development",
+    "policy": "RESOURCE",
+    "count": 24,
+    "actions": {
+      "LIB": 24
+    },
+    "reorder_count": 0,
+    "reasons": {
+      "KEEP_BASE": 24
+    }
+  },
+  {
+    "cohort": "development",
+    "policy": "PERMUTED_RESOURCE",
+    "count": 24,
+    "actions": {
+      "LIB": 24
+    },
+    "reorder_count": 0,
+    "reasons": {
+      "KEEP_BASE": 24
+    }
+  },
+  {
+    "cohort": "confirmation",
+    "policy": "BASE",
+    "count": 16,
+    "actions": {
+      "LIB": 16
+    },
+    "reorder_count": 0,
+    "reasons": {
+      "KEEP_BASE": 16
+    }
+  },
+  {
+    "cohort": "confirmation",
+    "policy": "SHAPE",
+    "count": 16,
+    "actions": {
+      "LIB": 16
+    },
+    "reorder_count": 0,
+    "reasons": {
+      "KEEP_BASE": 16
+    }
+  },
+  {
+    "cohort": "confirmation",
+    "policy": "RESOURCE",
+    "count": 16,
+    "actions": {
+      "LIB": 16
+    },
+    "reorder_count": 0,
+    "reasons": {
+      "KEEP_BASE": 16
+    }
+  },
+  {
+    "cohort": "confirmation",
+    "policy": "PERMUTED_RESOURCE",
+    "count": 16,
+    "actions": {
+      "LIB": 15,
+      "PC0_1": 1
+    },
+    "reorder_count": 1,
+    "reasons": {
+      "KEEP_BASE": 15,
+      "PREDICTED_NET_GAIN": 1
+    }
+  },
+  {
+    "cohort": "regression",
+    "policy": "BASE",
+    "count": 8,
+    "actions": {
+      "LIB": 8
+    },
+    "reorder_count": 0,
+    "reasons": {
+      "KEEP_BASE": 8
+    }
+  },
+  {
+    "cohort": "regression",
+    "policy": "SHAPE",
+    "count": 8,
+    "actions": {
+      "LIB": 8
+    },
+    "reorder_count": 0,
+    "reasons": {
+      "KEEP_BASE": 8
+    }
+  },
+  {
+    "cohort": "regression",
+    "policy": "RESOURCE",
+    "count": 8,
+    "actions": {
+      "LIB": 8
+    },
+    "reorder_count": 0,
+    "reasons": {
+      "KEEP_BASE": 8
+    }
+  },
+  {
+    "cohort": "regression",
+    "policy": "PERMUTED_RESOURCE",
+    "count": 8,
+    "actions": {
+      "LIB": 8
+    },
+    "reorder_count": 0,
+    "reasons": {
+      "KEEP_BASE": 8
+    }
+  },
+  {
+    "cohort": "ood_bypass",
+    "policy": "BASE",
+    "count": 4,
+    "actions": {
+      "LIB": 4
+    },
+    "reorder_count": 0,
+    "reasons": {
+      "OUT_OF_ENVELOPE": 4
+    }
+  },
+  {
+    "cohort": "ood_bypass",
+    "policy": "SHAPE",
+    "count": 4,
+    "actions": {
+      "LIB": 4
+    },
+    "reorder_count": 0,
+    "reasons": {
+      "OUT_OF_ENVELOPE": 4
+    }
+  },
+  {
+    "cohort": "ood_bypass",
+    "policy": "RESOURCE",
+    "count": 4,
+    "actions": {
+      "LIB": 4
+    },
+    "reorder_count": 0,
+    "reasons": {
+      "OUT_OF_ENVELOPE": 4
+    }
+  },
+  {
+    "cohort": "ood_bypass",
+    "policy": "PERMUTED_RESOURCE",
+    "count": 4,
+    "actions": {
+      "LIB": 4
+    },
+    "reorder_count": 0,
+    "reasons": {
+      "OUT_OF_ENVELOPE": 4
+    }
+  }
+]

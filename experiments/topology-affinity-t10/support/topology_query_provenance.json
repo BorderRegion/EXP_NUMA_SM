@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-10-18T07:44:59.616886+00:00",
+  "source_tag": "580.178.04",
+  "url": "https://codeload.github.com/NVIDIA/open-gpu-kernel-modules/tar.gz/refs/tags/580.178.04",
+  "archive_sha256": "f30d4c20feda9f570a69084573a72423067e1e2d46c50ca58c391664872a9e01",
+  "files": [
+    {
+      "path": "src/common/sdk/nvidia/inc/ctrl/ctrl2080/ctrl2080gr.h",
+      "sha256": "634217ccd88d4063b6cd78e2a0a5ea1b963c76bb4e46fc79dd65c4b8fd6a2de3",
+      "url": "https://github.com/NVIDIA/open-gpu-kernel-modules/blob/580.178.04/src/common/sdk/nvidia/inc/ctrl/ctrl2080/ctrl2080gr.h"
+    },
+    {
+      "path": "src/common/sdk/nvidia/inc/ctrl/ctrl2080/ctrl2080grmgr.h",
+      "sha256": "8c4ed3b562ba5f5c10f4d5e80dcde96c4fc14580d027a3b81e1ca0c17b24029d",
+      "url": "https://github.com/NVIDIA/open-gpu-kernel-modules/blob/580.178.04/src/common/sdk/nvidia/inc/ctrl/ctrl2080/ctrl2080grmgr.h"
+    },
+    {
+      "path": "src/nvidia/src/kernel/gpu/gr/kernel_graphics.c",
+      "sha256": "43b4988e67969feb96f0481c32e5df889c2f1b6f821c0901ee768d81f359dab2",
+      "url": "https://github.com/NVIDIA/open-gpu-kernel-modules/blob/580.178.04/src/nvidia/src/kernel/gpu/gr/kernel_graphics.c"
+    },
+    {
+      "path": "src/nvidia/src/kernel/gpu/gr/kernel_graphics_manager.c",
+      "sha256": "009edf6a2d7664d338a26c1172fddc481d0c799c9d286d6362c40a77c6af29bf",
+      "url": "https://github.com/NVIDIA/open-gpu-kernel-modules/blob/580.178.04/src/nvidia/src/kernel/gpu/gr/kernel_graphics_manager.c"
+    },
+    {
+      "path": "src/common/sdk/nvidia/inc/nvstatuscodes.h",
+      "sha256": "143fa91191a368e4fad0eae2a5ec533bcdbd41895184c46c7e2865ebfe6107a8",
+      "url": "https://github.com/NVIDIA/open-gpu-kernel-modules/blob/580.178.04/src/common/sdk/nvidia/inc/nvstatuscodes.h"
+    }
+  ],
+  "baseline_map_original": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu/numa-affinity-causal-t10/freeze/SOFTMAX_MAPS.json",
+  "no_driver_replacement": true,
+  "no_gpu_register_writes": true,
+  "no_power_or_clock_changes": true
+}

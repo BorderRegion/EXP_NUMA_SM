@@ -1,0 +1,15 @@
+{
+  "frozen_at": "2026-10-15T15:17:22.201035+00:00",
+  "layer_library": "PER_EXPERT_GRAPH",
+  "development_scores_ms": {
+    "NATIVE_GROUPED_GRAPH": 0.7353864422649287,
+    "PER_EXPERT_GRAPH": 0.656757918707109,
+    "F1S0": 0.8286976223135063,
+    "F0S0": 0.8493062755808558,
+    "F1S1": 0.8351137950620816,
+    "F0S1": 0.8306355780106619
+  },
+  "criterion": "six original development layers x six fresh weight/input seeds; true ready intervals",
+  "schedule_parameters": "unchanged from operator development freeze",
+  "test_results_used": false
+}

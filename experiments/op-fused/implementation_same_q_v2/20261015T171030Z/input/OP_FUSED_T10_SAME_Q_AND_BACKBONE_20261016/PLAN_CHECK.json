@@ -1,0 +1,16 @@
+{
+  "status": "CPU_PLAN_VALID",
+  "planned_work_minutes": 390,
+  "hard_work_minutes": 420,
+  "gpu_worker_cap_minutes": 240,
+  "original_remaining_hours_from_supplied_record": 10.530495778774728,
+  "planned_operator_phases_max": 864,
+  "planned_layer_phases_max": 144,
+  "optional_fusion_phases_max": 48,
+  "optional_ring_phases_max": 36,
+  "case_counts": {
+    "development": 12,
+    "confirmation": 6
+  },
+  "notice": "Counts are plans, not executed GPU experiments. Model mappings are not compiled-kernel verification."
+}

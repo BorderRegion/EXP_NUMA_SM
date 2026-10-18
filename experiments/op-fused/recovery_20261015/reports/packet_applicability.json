@@ -1,0 +1,226 @@
+{
+  "status": "ACTUAL_BODY_UNAVAILABLE",
+  "candidate_timed": false,
+  "actual_tile": null,
+  "actual_workers": null,
+  "work_budget_amended": false,
+  "q1_native_identity": "UNKNOWN_WITHOUT_NATIVE_VISITOR",
+  "cases": [
+    {
+      "case_id": "grouped-001",
+      "k": 1024,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-002",
+      "k": 1024,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-005",
+      "k": 1024,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-006",
+      "k": 1024,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-009",
+      "k": 1024,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-010",
+      "k": 1024,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-013",
+      "k": 1024,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-014",
+      "k": 1024,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-017",
+      "k": 1024,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-018",
+      "k": 1024,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-021",
+      "k": 1024,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-022",
+      "k": 1024,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-033",
+      "k": 2048,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-034",
+      "k": 2048,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-037",
+      "k": 2048,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-038",
+      "k": 2048,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-041",
+      "k": 2048,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-042",
+      "k": 2048,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-045",
+      "k": 2048,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-046",
+      "k": 2048,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-049",
+      "k": 2048,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-050",
+      "k": 2048,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-053",
+      "k": 2048,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    },
+    {
+      "case_id": "grouped-054",
+      "k": 2048,
+      "q": null,
+      "total_tiles": null,
+      "packets": null,
+      "tail_packets": null,
+      "status": "NA_NO_QUALIFIED_BODY"
+    }
+  ]
+}

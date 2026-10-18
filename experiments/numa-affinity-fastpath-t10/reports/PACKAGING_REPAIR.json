@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-10-18T04:10:44.646984+00:00",
+  "error": "TypeError: write() takes 2 positional arguments but 3 were given at final PACKAGE_QA metadata write",
+  "stage": "CRC, all file hashes and independent CPU recomputation had passed; final delivery index write failed",
+  "repair": "Corrected metadata write call; rebuild both archives from corrected source and repeat full verification",
+  "superseded_archives": [
+    {
+      "name": "T10_SM_AFFINITY_SOFTMAX_20261018.zip",
+      "sha256": "e76a80cf85b067f20cff9a04d216089d0606911e5701d59b40a2b28779632752",
+      "bytes": 78134679
+    },
+    {
+      "name": "T10_SM_AFFINITY_SOFTMAX_20261018_SMALL.zip",
+      "sha256": "a8838bf5771307121d70c8ad20eef3960e40d4edee73e97eecd8f2fd66f93d66",
+      "bytes": 740895
+    }
+  ],
+  "preserved_local_directory": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-affinity-fastpath-t10/qa/packaging_initial",
+  "gpu_experiments_rerun": false
+}

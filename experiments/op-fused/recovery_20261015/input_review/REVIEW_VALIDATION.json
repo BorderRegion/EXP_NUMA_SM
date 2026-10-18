@@ -1,0 +1,16 @@
+{
+  "archive_input_manifest_files_verified": 2090,
+  "formal_measured_phases_recounted": 5636,
+  "paired_effects_and_intervals_recomputed": 354,
+  "graph_structure_records_recomputed": 624,
+  "per_request_ready_samples_reaveraged": 36352,
+  "per_request_device_samples_reaveraged": 36352,
+  "output_check_summaries_not_output_tensors": 48308,
+  "new_gpu_runs": 0,
+  "uploaded_gpu_runners_executed": false,
+  "new_web_research": false,
+  "review_script_syntax_checked": true,
+  "known_disclosed_source_provenance_differences": 5,
+  "unexpected_integrity_or_statistical_errors": [],
+  "scope": "Archive integrity and scalar/data/source analysis only, not GPU reproduction or independent floating-output recalculation."
+}

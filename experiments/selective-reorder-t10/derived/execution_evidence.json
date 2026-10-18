@@ -1,0 +1,1539 @@
+{
+  "representative_actual_graphs": [
+    {
+      "stage": "S4_ACTION",
+      "phase_id": "0_T01_0_LIB",
+      "worker": "S4_block_0",
+      "action": "LIB",
+      "second_action": null,
+      "kernel_nodes": 2,
+      "body_nodes": 2,
+      "runtime_state": {
+        "enumerated_2sm_resources": 28,
+        "green_contexts": 10,
+        "math_module_loaded": 1,
+        "diag_module_loaded": 1,
+        "blas_loaded": 1
+      },
+      "workspace_bytes": 1572864,
+      "dag": {
+        "nodes": [
+          {
+            "id": 0,
+            "type": 0,
+            "function": "_ZN7cutlass7Kernel2I62cutlass_75_wmma_tensorop_s161616gemm_f16_16x16_128x2_tn_align8EEvNT_6ParamsE",
+            "grid": [
+              8,
+              24,
+              6
+            ],
+            "block": [
+              32,
+              1,
+              1
+            ],
+            "shared_bytes": 16896
+          },
+          {
+            "id": 1,
+            "type": 0,
+            "function": "_ZN8cublasLt19splitKreduce_kernelILi32ELi16EiffffLb0EfffLb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS2_SF_PKT9_S6_PSG_PvlPS2_PiSL_SL_SF_SF_SF_SF_SF_",
+            "grid": [
+              96,
+              1,
+              1
+            ],
+            "block": [
+              32,
+              16,
+              1
+            ],
+            "shared_bytes": 0
+          }
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ]
+        ],
+        "timed_wrapper": "start-event -> child-body -> end-event"
+      }
+    },
+    {
+      "stage": "S4_ACTION",
+      "phase_id": "0_T01_2_SINGLE",
+      "worker": "S4_block_0",
+      "action": "SINGLE",
+      "second_action": null,
+      "kernel_nodes": 1,
+      "body_nodes": 1,
+      "runtime_state": {
+        "enumerated_2sm_resources": 28,
+        "green_contexts": 10,
+        "math_module_loaded": 1,
+        "diag_module_loaded": 1,
+        "blas_loaded": 1
+      },
+      "workspace_bytes": 1572864,
+      "dag": {
+        "nodes": [
+          {
+            "id": 0,
+            "type": 0,
+            "function": "s0",
+            "grid": [
+              1,
+              48,
+              1
+            ],
+            "block": [
+              64,
+              1,
+              1
+            ],
+            "shared_bytes": 12288
+          }
+        ],
+        "edges": [],
+        "timed_wrapper": "start-event -> child-body -> end-event"
+      }
+    },
+    {
+      "stage": "S4_ACTION",
+      "phase_id": "0_T01_3_PC2_1",
+      "worker": "S4_block_0",
+      "action": "PC2_1",
+      "second_action": null,
+      "kernel_nodes": 4,
+      "body_nodes": 4,
+      "runtime_state": {
+        "enumerated_2sm_resources": 28,
+        "green_contexts": 10,
+        "math_module_loaded": 1,
+        "diag_module_loaded": 1,
+        "blas_loaded": 1
+      },
+      "workspace_bytes": 1572864,
+      "dag": {
+        "nodes": [
+          {
+            "id": 0,
+            "type": 0,
+            "function": "p0",
+            "grid": [
+              24,
+              1,
+              4
+            ],
+            "block": [
+              64,
+              1,
+              1
+            ],
+            "shared_bytes": 12288
+          },
+          {
+            "id": 1,
+            "type": 0,
+            "function": "p0",
+            "grid": [
+              24,
+              1,
+              4
+            ],
+            "block": [
+              64,
+              1,
+              1
+            ],
+            "shared_bytes": 12288
+          },
+          {
+            "id": 2,
+            "type": 0,
+            "function": "r",
+            "grid": [
+              24,
+              1,
+              1
+            ],
+            "block": [
+              16,
+              4,
+              1
+            ],
+            "shared_bytes": 0
+          },
+          {
+            "id": 3,
+            "type": 0,
+            "function": "r",
+            "grid": [
+              24,
+              1,
+              1
+            ],
+            "block": [
+              16,
+              4,
+              1
+            ],
+            "shared_bytes": 0
+          }
+        ],
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "timed_wrapper": "start-event -> child-body -> end-event"
+      }
+    },
+    {
+      "stage": "S4_ACTION",
+      "phase_id": "0_T01_4_SPLIT",
+      "worker": "S4_block_0",
+      "action": "SPLIT",
+      "second_action": null,
+      "kernel_nodes": 2,
+      "body_nodes": 2,
+      "runtime_state": {
+        "enumerated_2sm_resources": 28,
+        "green_contexts": 10,
+        "math_module_loaded": 1,
+        "diag_module_loaded": 1,
+        "blas_loaded": 1
+      },
+      "workspace_bytes": 1572864,
+      "dag": {
+        "nodes": [
+          {
+            "id": 0,
+            "type": 0,
+            "function": "n0",
+            "grid": [
+              48,
+              1,
+              4
+            ],
+            "block": [
+              64,
+              1,
+              1
+            ],
+            "shared_bytes": 12288
+          },
+          {
+            "id": 1,
+            "type": 0,
+            "function": "rn",
+            "grid": [
+              1,
+              24,
+              1
+            ],
+            "block": [
+              32,
+              4,
+              1
+            ],
+            "shared_bytes": 0
+          }
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ]
+        ],
+        "timed_wrapper": "start-event -> child-body -> end-event"
+      }
+    },
+    {
+      "stage": "S4_ACTION",
+      "phase_id": "0_T01_5_PC2_0",
+      "worker": "S4_block_0",
+      "action": "PC2_0",
+      "second_action": null,
+      "kernel_nodes": 4,
+      "body_nodes": 4,
+      "runtime_state": {
+        "enumerated_2sm_resources": 28,
+        "green_contexts": 10,
+        "math_module_loaded": 1,
+        "diag_module_loaded": 1,
+        "blas_loaded": 1
+      },
+      "workspace_bytes": 1572864,
+      "dag": {
+        "nodes": [
+          {
+            "id": 0,
+            "type": 0,
+            "function": "p0",
+            "grid": [
+              24,
+              1,
+              4
+            ],
+            "block": [
+              64,
+              1,
+              1
+            ],
+            "shared_bytes": 12288
+          },
+          {
+            "id": 1,
+            "type": 0,
+            "function": "p0",
+            "grid": [
+              24,
+              1,
+              4
+            ],
+            "block": [
+              64,
+              1,
+              1
+            ],
+            "shared_bytes": 12288
+          },
+          {
+            "id": 2,
+            "type": 0,
+            "function": "r",
+            "grid": [
+              24,
+              1,
+              1
+            ],
+            "block": [
+              16,
+              4,
+              1
+            ],
+            "shared_bytes": 0
+          },
+          {
+            "id": 3,
+            "type": 0,
+            "function": "r",
+            "grid": [
+              24,
+              1,
+              1
+            ],
+            "block": [
+              16,
+              4,
+              1
+            ],
+            "shared_bytes": 0
+          }
+        ],
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "timed_wrapper": "start-event -> child-body -> end-event"
+      }
+    },
+    {
+      "stage": "S4_ACTION",
+      "phase_id": "0_T01_6_PC0_0",
+      "worker": "S4_block_0",
+      "action": "PC0_0",
+      "second_action": null,
+      "kernel_nodes": 4,
+      "body_nodes": 4,
+      "runtime_state": {
+        "enumerated_2sm_resources": 28,
+        "green_contexts": 10,
+        "math_module_loaded": 1,
+        "diag_module_loaded": 1,
+        "blas_loaded": 1
+      },
+      "workspace_bytes": 1572864,
+      "dag": {
+        "nodes": [
+          {
+            "id": 0,
+            "type": 0,
+            "function": "p0",
+            "grid": [
+              24,
+              1,
+              4
+            ],
+            "block": [
+              64,
+              1,
+              1
+            ],
+            "shared_bytes": 12288
+          },
+          {
+            "id": 1,
+            "type": 0,
+            "function": "p0",
+            "grid": [
+              24,
+              1,
+              4
+            ],
+            "block": [
+              64,
+              1,
+              1
+            ],
+            "shared_bytes": 12288
+          },
+          {
+            "id": 2,
+            "type": 0,
+            "function": "r",
+            "grid": [
+              24,
+              1,
+              1
+            ],
+            "block": [
+              16,
+              4,
+              1
+            ],
+            "shared_bytes": 0
+          },
+          {
+            "id": 3,
+            "type": 0,
+            "function": "r",
+            "grid": [
+              24,
+              1,
+              1
+            ],
+            "block": [
+              16,
+              4,
+              1
+            ],
+            "shared_bytes": 0
+          }
+        ],
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "timed_wrapper": "start-event -> child-body -> end-event"
+      }
+    },
+    {
+      "stage": "S4_ACTION",
+      "phase_id": "0_T01_7_PC1_1",
+      "worker": "S4_block_0",
+      "action": "PC1_1",
+      "second_action": null,
+      "kernel_nodes": 4,
+      "body_nodes": 4,
+      "runtime_state": {
+        "enumerated_2sm_resources": 28,
+        "green_contexts": 10,
+        "math_module_loaded": 1,
+        "diag_module_loaded": 1,
+        "blas_loaded": 1
+      },
+      "workspace_bytes": 1572864,
+      "dag": {
+        "nodes": [
+          {
+            "id": 0,
+            "type": 0,
+            "function": "p0",
+            "grid": [
+              24,
+              1,
+              4
+            ],
+            "block": [
+              64,
+              1,
+              1
+            ],
+            "shared_bytes": 12288
+          },
+          {
+            "id": 1,
+            "type": 0,
+            "function": "p0",
+            "grid": [
+              24,
+              1,
+              4
+            ],
+            "block": [
+              64,
+              1,
+              1
+            ],
+            "shared_bytes": 12288
+          },
+          {
+            "id": 2,
+            "type": 0,
+            "function": "r",
+            "grid": [
+              24,
+              1,
+              1
+            ],
+            "block": [
+              16,
+              4,
+              1
+            ],
+            "shared_bytes": 0
+          },
+          {
+            "id": 3,
+            "type": 0,
+            "function": "r",
+            "grid": [
+              24,
+              1,
+              1
+            ],
+            "block": [
+              16,
+              4,
+              1
+            ],
+            "shared_bytes": 0
+          }
+        ],
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "timed_wrapper": "start-event -> child-body -> end-event"
+      }
+    },
+    {
+      "stage": "S4_ACTION",
+      "phase_id": "0_T01_8_PC0_1",
+      "worker": "S4_block_0",
+      "action": "PC0_1",
+      "second_action": null,
+      "kernel_nodes": 4,
+      "body_nodes": 4,
+      "runtime_state": {
+        "enumerated_2sm_resources": 28,
+        "green_contexts": 10,
+        "math_module_loaded": 1,
+        "diag_module_loaded": 1,
+        "blas_loaded": 1
+      },
+      "workspace_bytes": 1572864,
+      "dag": {
+        "nodes": [
+          {
+            "id": 0,
+            "type": 0,
+            "function": "p0",
+            "grid": [
+              24,
+              1,
+              4
+            ],
+            "block": [
+              64,
+              1,
+              1
+            ],
+            "shared_bytes": 12288
+          },
+          {
+            "id": 1,
+            "type": 0,
+            "function": "p0",
+            "grid": [
+              24,
+              1,
+              4
+            ],
+            "block": [
+              64,
+              1,
+              1
+            ],
+            "shared_bytes": 12288
+          },
+          {
+            "id": 2,
+            "type": 0,
+            "function": "r",
+            "grid": [
+              24,
+              1,
+              1
+            ],
+            "block": [
+              16,
+              4,
+              1
+            ],
+            "shared_bytes": 0
+          },
+          {
+            "id": 3,
+            "type": 0,
+            "function": "r",
+            "grid": [
+              24,
+              1,
+              1
+            ],
+            "block": [
+              16,
+              4,
+              1
+            ],
+            "shared_bytes": 0
+          }
+        ],
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "timed_wrapper": "start-event -> child-body -> end-event"
+      }
+    },
+    {
+      "stage": "S4_ACTION",
+      "phase_id": "0_T01_9_PC1_0",
+      "worker": "S4_block_0",
+      "action": "PC1_0",
+      "second_action": null,
+      "kernel_nodes": 4,
+      "body_nodes": 4,
+      "runtime_state": {
+        "enumerated_2sm_resources": 28,
+        "green_contexts": 10,
+        "math_module_loaded": 1,
+        "diag_module_loaded": 1,
+        "blas_loaded": 1
+      },
+      "workspace_bytes": 1572864,
+      "dag": {
+        "nodes": [
+          {
+            "id": 0,
+            "type": 0,
+            "function": "p0",
+            "grid": [
+              24,
+              1,
+              4
+            ],
+            "block": [
+              64,
+              1,
+              1
+            ],
+            "shared_bytes": 12288
+          },
+          {
+            "id": 1,
+            "type": 0,
+            "function": "p0",
+            "grid": [
+              24,
+              1,
+              4
+            ],
+            "block": [
+              64,
+              1,
+              1
+            ],
+            "shared_bytes": 12288
+          },
+          {
+            "id": 2,
+            "type": 0,
+            "function": "r",
+            "grid": [
+              24,
+              1,
+              1
+            ],
+            "block": [
+              16,
+              4,
+              1
+            ],
+            "shared_bytes": 0
+          },
+          {
+            "id": 3,
+            "type": 0,
+            "function": "r",
+            "grid": [
+              24,
+              1,
+              1
+            ],
+            "block": [
+              16,
+              4,
+              1
+            ],
+            "shared_bytes": 0
+          }
+        ],
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "timed_wrapper": "start-event -> child-body -> end-event"
+      }
+    },
+    {
+      "stage": "S5_TRACE",
+      "phase_id": "0_MIXED_LIB_ALWAYS",
+      "worker": "S5_trace_0",
+      "action": "LIB",
+      "second_action": null,
+      "kernel_nodes": 2,
+      "body_nodes": 2,
+      "runtime_state": {
+        "enumerated_2sm_resources": 0,
+        "green_contexts": 0,
+        "math_module_loaded": 0,
+        "diag_module_loaded": 0,
+        "blas_loaded": 1
+      },
+      "workspace_bytes": 0,
+      "dag": {
+        "nodes": [
+          {
+            "id": 0,
+            "type": 0,
+            "function": "_ZN7cutlass7Kernel2I62cutlass_75_wmma_tensorop_s161616gemm_f16_16x16_128x2_tn_align8EEvNT_6ParamsE",
+            "grid": [
+              8,
+              24,
+              6
+            ],
+            "block": [
+              32,
+              1,
+              1
+            ],
+            "shared_bytes": 16896
+          },
+          {
+            "id": 1,
+            "type": 0,
+            "function": "_ZN8cublasLt19splitKreduce_kernelILi32ELi16EiffffLb0EfffLb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS2_SF_PKT9_S6_PSG_PvlPS2_PiSL_SL_SF_SF_SF_SF_SF_",
+            "grid": [
+              96,
+              1,
+              1
+            ],
+            "block": [
+              32,
+              16,
+              1
+            ],
+            "shared_bytes": 0
+          }
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ]
+        ],
+        "timed_wrapper": "start-event -> child-body -> end-event"
+      }
+    },
+    {
+      "stage": "S5_FFN",
+      "phase_id": "0_F1_LIB_ALWAYS",
+      "worker": "S5_ffn_0",
+      "action": "LIB",
+      "second_action": "LIB",
+      "kernel_nodes": 4,
+      "body_nodes": 4,
+      "runtime_state": {
+        "enumerated_2sm_resources": 0,
+        "green_contexts": 0,
+        "math_module_loaded": 1,
+        "diag_module_loaded": 0,
+        "blas_loaded": 1
+      },
+      "workspace_bytes": 0,
+      "dag": {
+        "nodes": [
+          {
+            "id": 0,
+            "type": 0,
+            "function": "_ZN7cutlass7Kernel2I62cutlass_75_wmma_tensorop_s161616gemm_f16_16x16_128x2_tn_align8EEvNT_6ParamsE",
+            "grid": [
+              8,
+              24,
+              6
+            ],
+            "block": [
+              32,
+              1,
+              1
+            ],
+            "shared_bytes": 16896
+          },
+          {
+            "id": 1,
+            "type": 0,
+            "function": "_ZN8cublasLt19splitKreduce_kernelILi32ELi16EiffffLb0EfffLb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS2_SF_PKT9_S6_PSG_PvlPS2_PiSL_SL_SF_SF_SF_SF_SF_",
+            "grid": [
+              96,
+              1,
+              1
+            ],
+            "block": [
+              32,
+              16,
+              1
+            ],
+            "shared_bytes": 0
+          },
+          {
+            "id": 2,
+            "type": 0,
+            "function": "silu_half",
+            "grid": [
+              48,
+              1,
+              1
+            ],
+            "block": [
+              256,
+              1,
+              1
+            ],
+            "shared_bytes": 0
+          },
+          {
+            "id": 3,
+            "type": 0,
+            "function": "_ZN7cutlass7Kernel2I62cutlass_75_wmma_tensorop_s161616gemm_f16_16x16_128x2_tn_align8EEvNT_6ParamsE",
+            "grid": [
+              8,
+              64,
+              1
+            ],
+            "block": [
+              32,
+              1,
+              1
+            ],
+            "shared_bytes": 16896
+          }
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "timed_wrapper": "start-event -> child-body -> end-event"
+      }
+    },
+    {
+      "stage": "S5_OOD",
+      "phase_id": "0_O01_LIB_ALWAYS",
+      "worker": "S5_ood_0",
+      "action": "LIB",
+      "second_action": null,
+      "kernel_nodes": 1,
+      "body_nodes": 1,
+      "runtime_state": {
+        "enumerated_2sm_resources": 0,
+        "green_contexts": 0,
+        "math_module_loaded": 0,
+        "diag_module_loaded": 0,
+        "blas_loaded": 1
+      },
+      "workspace_bytes": 0,
+      "dag": {
+        "nodes": [
+          {
+            "id": 0,
+            "type": 0,
+            "function": "turing_s1688gemm_fp16_256x128_ldg8_tn",
+            "grid": [
+              12,
+              8,
+              1
+            ],
+            "block": [
+              256,
+              1,
+              1
+            ],
+            "shared_bytes": 16384
+          }
+        ],
+        "edges": [],
+        "timed_wrapper": "start-event -> child-body -> end-event"
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "label": "NATIVE_RESOURCE_EXIT",
+      "status": "CAPTURED",
+      "kernel_count": 16,
+      "kernels": {
+        "void cutlass::Kernel2<cutlass_75_wmma_tensorop_s161616gemm_f16_16x16_128x2_tn_align8>(cutlass_75_wmma_tensorop_s161616gemm_f16_16x16_128x2_tn_align8::Params)": 8,
+        "void cublasLt::splitKreduce_kernel<32, 16, int, float, float, float, float, false, float, float, float, true, false, false>(cublasLt::cublasSplitKParams<float>, float const*, float const*, float*, float*, float const*, float const*, float const*, float const*, float*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)": 8
+      },
+      "memcpy_count": 0,
+      "cuda_api_counts": {
+        "cudaDeviceSynchronize": 1
+      },
+      "plan": {
+        "action": "LIB",
+        "action_override": null,
+        "second_action": null,
+        "choice": [
+          0.0,
+          0.0,
+          3.0,
+          287.94390059559356,
+          403.27313505819535,
+          428.8291665004976,
+          534.3463241904053,
+          557.6085673779482,
+          503.8276075016707,
+          612.4637068281903,
+          506.01646513448173,
+          606.5468749458589,
+          0.0
+        ],
+        "shape": [
+          4,
+          3072,
+          8192
+        ],
+        "input_seed": 320001,
+        "input_ring": 4,
+        "setup_including_input_us": 564762.1460375376,
+        "plan_setup_excluding_input_us": 318595.2680069022,
+        "input_generation_ms": 246.16889900062233,
+        "python_boundary_choice_us": 12.183,
+        "runtime_state": {
+          "enumerated_2sm_resources": 0,
+          "green_contexts": 0,
+          "math_module_loaded": 0,
+          "diag_module_loaded": 0,
+          "blas_loaded": 1
+        },
+        "resources": {
+          "driver_init_ms": 233.754637,
+          "resource_enumeration_ms": 0.0,
+          "green_create_ms": 0.0,
+          "live_green_contexts": 0
+        },
+        "roster": {},
+        "workspace_bytes": 0,
+        "workspace_address": null,
+        "workspace_lifetime": "One selected allocation per plan, reused across request input slots; no per-request allocation",
+        "gpu_tensor_bytes": 50692096,
+        "blas_workspace_bytes": 67108864,
+        "memory_scope": "Input/weight/output/partial tensor storage plus explicit cuBLAS workspace; CUDA context/graph allocator overhead not individually measured",
+        "config": [
+          4,
+          3072,
+          8192,
+          1,
+          0,
+          3,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          8192,
+          0
+        ],
+        "actual_dag": {
+          "nodes": [
+            {
+              "id": 0,
+              "type": 0,
+              "function": "_ZN7cutlass7Kernel2I62cutlass_75_wmma_tensorop_s161616gemm_f16_16x16_128x2_tn_align8EEvNT_6ParamsE",
+              "grid": [
+                8,
+                24,
+                6
+              ],
+              "block": [
+                32,
+                1,
+                1
+              ],
+              "shared_bytes": 16896
+            },
+            {
+              "id": 1,
+              "type": 0,
+              "function": "_ZN8cublasLt19splitKreduce_kernelILi32ELi16EiffffLb0EfffLb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS2_SF_PKT9_S6_PSG_PvlPS2_PiSL_SL_SF_SF_SF_SF_SF_",
+              "grid": [
+                96,
+                1,
+                1
+              ],
+              "block": [
+                32,
+                16,
+                1
+              ],
+              "shared_bytes": 0
+            }
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ]
+          ],
+          "timed_wrapper": "start-event -> child-body -> end-event"
+        },
+        "kernel_nodes": 2,
+        "body_nodes": 2,
+        "rule_sha256": "499fa0631223fdbc997987b5d5387f771cfb004938d6f614f6639c3e8070d93c",
+        "chain_scope": null
+      },
+      "scope": "Eight actual uninstrumented-body asynchronous graph submissions, caller waits at output boundary. CUPTI capture separate from formal timings; no hardware memory counters."
+    },
+    {
+      "label": "SELECTED_PC_PERMUTED",
+      "status": "CAPTURED",
+      "kernel_count": 32,
+      "kernels": {
+        "p3": 16,
+        "r": 16
+      },
+      "memcpy_count": 0,
+      "cuda_api_counts": {
+        "cudaDeviceSynchronize": 1
+      },
+      "plan": {
+        "action": "PC0_1",
+        "action_override": null,
+        "second_action": null,
+        "choice": [
+          0.0,
+          4.0,
+          4.0,
+          4436.767590244598,
+          4200.544616157451,
+          5121.885836638972,
+          4457.872325423738,
+          3664.758072181303,
+          6319.110406450445,
+          3725.3297817991843,
+          4408.449907826814,
+          3814.6388404640916,
+          743.1626738463802
+        ],
+        "shape": [
+          80,
+          8192,
+          16384
+        ],
+        "input_seed": 320002,
+        "input_ring": 4,
+        "setup_including_input_us": 1337061.789992731,
+        "plan_setup_excluding_input_us": 4726.396000478417,
+        "input_generation_ms": 1332.3507530149072,
+        "python_boundary_choice_us": 16.624,
+        "runtime_state": {
+          "enumerated_2sm_resources": 28,
+          "green_contexts": 2,
+          "math_module_loaded": 1,
+          "diag_module_loaded": 1,
+          "blas_loaded": 0
+        },
+        "resources": {
+          "driver_init_ms": 0.007942,
+          "resource_enumeration_ms": 0.015212,
+          "green_create_ms": 1.7374960000000002,
+          "live_green_contexts": 2
+        },
+        "roster": {
+          "0": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            44,
+            45,
+            46,
+            47
+          ],
+          "1": [
+            6,
+            7,
+            8,
+            9,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            40,
+            41,
+            42,
+            43,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+          ]
+        },
+        "workspace_bytes": 8388608,
+        "workspace_address": 123171144466432,
+        "workspace_lifetime": "One selected allocation per plan, reused across request input slots; no per-request allocation",
+        "gpu_tensor_bytes": 292552704,
+        "blas_workspace_bytes": 0,
+        "memory_scope": "Input/weight/output/partial tensor storage plus explicit cuBLAS workspace; CUDA context/graph allocator overhead not individually measured",
+        "config": [
+          80,
+          8192,
+          16384,
+          2,
+          3,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          16384,
+          0
+        ],
+        "actual_dag": {
+          "nodes": [
+            {
+              "id": 0,
+              "type": 0,
+              "function": "p3",
+              "grid": [
+                32,
+                1,
+                2
+              ],
+              "block": [
+                128,
+                1,
+                1
+              ],
+              "shared_bytes": 32768
+            },
+            {
+              "id": 1,
+              "type": 0,
+              "function": "p3",
+              "grid": [
+                32,
+                1,
+                2
+              ],
+              "block": [
+                128,
+                1,
+                1
+              ],
+              "shared_bytes": 32768
+            },
+            {
+              "id": 2,
+              "type": 0,
+              "function": "r",
+              "grid": [
+                640,
+                1,
+                1
+              ],
+              "block": [
+                32,
+                4,
+                1
+              ],
+              "shared_bytes": 0
+            },
+            {
+              "id": 3,
+              "type": 0,
+              "function": "r",
+              "grid": [
+                640,
+                1,
+                1
+              ],
+              "block": [
+                32,
+                4,
+                1
+              ],
+              "shared_bytes": 0
+            }
+          ],
+          "edges": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "timed_wrapper": "start-event -> child-body -> end-event"
+        },
+        "kernel_nodes": 4,
+        "body_nodes": 4,
+        "rule_sha256": "499fa0631223fdbc997987b5d5387f771cfb004938d6f614f6639c3e8070d93c",
+        "chain_scope": null
+      },
+      "scope": "Eight actual uninstrumented-body asynchronous graph submissions, caller waits at output boundary. CUPTI capture separate from formal timings; no hardware memory counters."
+    },
+    {
+      "label": "FFN_NATIVE_EXIT",
+      "status": "CAPTURED",
+      "kernel_count": 32,
+      "kernels": {
+        "void cutlass::Kernel2<cutlass_75_wmma_tensorop_s161616gemm_f16_16x16_128x2_tn_align8>(cutlass_75_wmma_tensorop_s161616gemm_f16_16x16_128x2_tn_align8::Params)": 16,
+        "void cublasLt::splitKreduce_kernel<32, 16, int, float, float, float, float, false, float, float, float, true, false, false>(cublasLt::cublasSplitKParams<float>, float const*, float const*, float*, float*, float const*, float const*, float const*, float const*, float*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)": 8,
+        "silu_half": 8
+      },
+      "memcpy_count": 0,
+      "cuda_api_counts": {
+        "cudaDeviceSynchronize": 1
+      },
+      "plan": {
+        "action": "LIB",
+        "action_override": null,
+        "second_action": "LIB",
+        "choice": [
+          0.0,
+          0.0,
+          3.0,
+          287.94390059559356,
+          403.27313505819535,
+          428.8291665004976,
+          534.3463241904053,
+          557.6085673779482,
+          503.8276075016707,
+          612.4637068281903,
+          506.01646513448173,
+          606.5468749458589,
+          0.0
+        ],
+        "shape": [
+          4,
+          3072,
+          8192
+        ],
+        "input_seed": 320003,
+        "input_ring": 4,
+        "setup_including_input_us": 525098.2600264251,
+        "plan_setup_excluding_input_us": 1968.048105482012,
+        "input_generation_ms": 523.13135296572,
+        "python_boundary_choice_us": 9.529,
+        "runtime_state": {
+          "enumerated_2sm_resources": 0,
+          "green_contexts": 0,
+          "math_module_loaded": 1,
+          "diag_module_loaded": 0,
+          "blas_loaded": 1
+        },
+        "resources": {
+          "driver_init_ms": 0.006738,
+          "resource_enumeration_ms": 0.0,
+          "green_create_ms": 0.0,
+          "live_green_contexts": 0
+        },
+        "roster": {},
+        "workspace_bytes": 0,
+        "workspace_address": null,
+        "workspace_lifetime": "One selected allocation per plan, reused across request input slots; no per-request allocation",
+        "gpu_tensor_bytes": 101179392,
+        "blas_workspace_bytes": 67108864,
+        "memory_scope": "Input/weight/output/partial tensor storage plus explicit cuBLAS workspace; CUDA context/graph allocator overhead not individually measured",
+        "config": [
+          4,
+          3072,
+          8192,
+          1,
+          0,
+          3,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          8192,
+          0
+        ],
+        "actual_dag": {
+          "nodes": [
+            {
+              "id": 0,
+              "type": 0,
+              "function": "_ZN7cutlass7Kernel2I62cutlass_75_wmma_tensorop_s161616gemm_f16_16x16_128x2_tn_align8EEvNT_6ParamsE",
+              "grid": [
+                8,
+                24,
+                6
+              ],
+              "block": [
+                32,
+                1,
+                1
+              ],
+              "shared_bytes": 16896
+            },
+            {
+              "id": 1,
+              "type": 0,
+              "function": "_ZN8cublasLt19splitKreduce_kernelILi32ELi16EiffffLb0EfffLb1ELb0ELb0EEEvNS_18cublasSplitKParamsIT4_EEPKT2_PKT8_PT7_PT3_PKS2_SF_PKT9_S6_PSG_PvlPS2_PiSL_SL_SF_SF_SF_SF_SF_",
+              "grid": [
+                96,
+                1,
+                1
+              ],
+              "block": [
+                32,
+                16,
+                1
+              ],
+              "shared_bytes": 0
+            },
+            {
+              "id": 2,
+              "type": 0,
+              "function": "silu_half",
+              "grid": [
+                48,
+                1,
+                1
+              ],
+              "block": [
+                256,
+                1,
+                1
+              ],
+              "shared_bytes": 0
+            },
+            {
+              "id": 3,
+              "type": 0,
+              "function": "_ZN7cutlass7Kernel2I62cutlass_75_wmma_tensorop_s161616gemm_f16_16x16_128x2_tn_align8EEvNT_6ParamsE",
+              "grid": [
+                8,
+                64,
+                1
+              ],
+              "block": [
+                32,
+                1,
+                1
+              ],
+              "shared_bytes": 16896
+            }
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "timed_wrapper": "start-event -> child-body -> end-event"
+        },
+        "kernel_nodes": 4,
+        "body_nodes": 4,
+        "rule_sha256": "499fa0631223fdbc997987b5d5387f771cfb004938d6f614f6639c3e8070d93c",
+        "chain_scope": "GEMM1 -> SiLU/FP16 -> independently selected LIB GEMM2; one user result wait"
+      },
+      "scope": "Eight actual uninstrumented-body asynchronous graph submissions, caller waits at output boundary. CUPTI capture separate from formal timings; no hardware memory counters."
+    }
+  ],
+  "submission": "sr_run_async: one cuGraphLaunch of prepared body, no host sync; caller sr_wait at result boundary. sr_trace separately uses timed wrapper and one caller output-ready wait per request.",
+  "copies": "No explicit intermediate memcpy in GEMM/PC/FFN graph. Inputs and host numerical references transfer outside measured request body. Verify actual graph nodes and CUPTI memcpy count.",
+  "raw_vs_lazy": "S4 raw Engine(-1) holds10 Green and diagnostic module to compare all actions; lazy selected LIB only primary, no Green/enumeration/partial/diag, but cuBLAS has its own workspace."
+}

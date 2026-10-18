@@ -1,0 +1,146 @@
+[
+  {
+    "bytes": 2097152,
+    "irregular": 0,
+    "block": 0,
+    "policies": "NIBCAN"
+  },
+  {
+    "bytes": 33554432,
+    "irregular": 1,
+    "block": 0,
+    "policies": "NACIBN"
+  },
+  {
+    "bytes": 2097152,
+    "irregular": 1,
+    "block": 0,
+    "policies": "NABCIN"
+  },
+  {
+    "bytes": 33554432,
+    "irregular": 0,
+    "block": 0,
+    "policies": "NIACBN"
+  },
+  {
+    "bytes": 33554432,
+    "irregular": 1,
+    "block": 1,
+    "policies": "NICBAN"
+  },
+  {
+    "bytes": 2097152,
+    "irregular": 1,
+    "block": 1,
+    "policies": "NIABCN"
+  },
+  {
+    "bytes": 33554432,
+    "irregular": 0,
+    "block": 1,
+    "policies": "NABCIN"
+  },
+  {
+    "bytes": 2097152,
+    "irregular": 0,
+    "block": 1,
+    "policies": "NBAICN"
+  },
+  {
+    "bytes": 2097152,
+    "irregular": 1,
+    "block": 2,
+    "policies": "NBCIAN"
+  },
+  {
+    "bytes": 33554432,
+    "irregular": 0,
+    "block": 2,
+    "policies": "NBIACN"
+  },
+  {
+    "bytes": 2097152,
+    "irregular": 0,
+    "block": 2,
+    "policies": "NBCAIN"
+  },
+  {
+    "bytes": 33554432,
+    "irregular": 1,
+    "block": 2,
+    "policies": "NIBCAN"
+  },
+  {
+    "bytes": 33554432,
+    "irregular": 0,
+    "block": 3,
+    "policies": "NBCAIN"
+  },
+  {
+    "bytes": 2097152,
+    "irregular": 0,
+    "block": 3,
+    "policies": "NBAICN"
+  },
+  {
+    "bytes": 33554432,
+    "irregular": 1,
+    "block": 3,
+    "policies": "NICABN"
+  },
+  {
+    "bytes": 2097152,
+    "irregular": 1,
+    "block": 3,
+    "policies": "NACIBN"
+  },
+  {
+    "bytes": 2097152,
+    "irregular": 0,
+    "block": 4,
+    "policies": "NABCIN"
+  },
+  {
+    "bytes": 33554432,
+    "irregular": 1,
+    "block": 4,
+    "policies": "NIABCN"
+  },
+  {
+    "bytes": 2097152,
+    "irregular": 1,
+    "block": 4,
+    "policies": "NABCIN"
+  },
+  {
+    "bytes": 33554432,
+    "irregular": 0,
+    "block": 4,
+    "policies": "NIACBN"
+  },
+  {
+    "bytes": 33554432,
+    "irregular": 1,
+    "block": 5,
+    "policies": "NICABN"
+  },
+  {
+    "bytes": 2097152,
+    "irregular": 1,
+    "block": 5,
+    "policies": "NIBACN"
+  },
+  {
+    "bytes": 33554432,
+    "irregular": 0,
+    "block": 5,
+    "policies": "NACIBN"
+  },
+  {
+    "bytes": 2097152,
+    "irregular": 0,
+    "block": 5,
+    "policies": "NACBIN"
+  }
+]

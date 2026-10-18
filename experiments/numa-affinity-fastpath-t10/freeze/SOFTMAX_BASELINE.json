@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-18T03:06:01.744737+00:00",
+  "cases": {
+    "VOCAB_131072": "NATIVE",
+    "VOCAB_262144": "NATIVE",
+    "VOCAB_32768": "NATIVE",
+    "VOCAB_65536": "NATIVE"
+  },
+  "rule": "Choose fastest ordinary kernel only. MINIMAX map unchanged and chosen solely on independent isolated training.",
+  "development_sha256": "9af4abccda2afbee473532cd9548654c6041940525491a19d4b438914dd849e0"
+}

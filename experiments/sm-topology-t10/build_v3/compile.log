@@ -1,0 +1,9 @@
+/home/ubuntu/文档/ChatGPT/numa_gpu/sm-topology-t10/build_v3/kernels_v3.cu(24): warning #177-D: variable "offsets" was declared but never referenced
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe' for 'sm_75'
+ptxas info    : Function properties for probe
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 42 registers, 432 bytes cmem[0]

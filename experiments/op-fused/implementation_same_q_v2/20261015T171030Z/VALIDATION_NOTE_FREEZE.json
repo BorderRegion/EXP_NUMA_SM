@@ -1,0 +1,17 @@
+{
+  "recorded_at": "2026-10-15T17:42:18.024208+00:00",
+  "reason": "torch.equal half values do not distinguish signed zero",
+  "cases": [
+    "grouped-003",
+    "grouped-057"
+  ],
+  "blocks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "performance_reruns": 0
+}

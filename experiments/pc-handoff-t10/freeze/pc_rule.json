@@ -1,0 +1,104 @@
+{
+  "frozen_at": "2026-10-16T12:36:43.844377+00:00",
+  "family": "GEMM",
+  "partition": 1,
+  "pi": 0,
+  "score": 6.668060633876739,
+  "all_candidates": [
+    {
+      "partition": 0,
+      "pi": 0,
+      "score": 6.669626494393348
+    },
+    {
+      "partition": 0,
+      "pi": 1,
+      "score": 6.67178936489487
+    },
+    {
+      "partition": 1,
+      "pi": 0,
+      "score": 6.668060633876739
+    },
+    {
+      "partition": 1,
+      "pi": 1,
+      "score": 6.673355225411477
+    },
+    {
+      "partition": 2,
+      "pi": 0,
+      "score": 6.668879869302567
+    },
+    {
+      "partition": 2,
+      "pi": 1,
+      "score": 6.672535989985651
+    }
+  ],
+  "actual_SM_sets": [
+    [
+      0,
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      16,
+      17,
+      22,
+      23,
+      28,
+      29,
+      34,
+      35,
+      40,
+      41,
+      44,
+      45,
+      48,
+      49,
+      50,
+      51
+    ],
+    [
+      4,
+      5,
+      14,
+      15,
+      18,
+      19,
+      20,
+      21,
+      24,
+      25,
+      26,
+      27,
+      30,
+      31,
+      32,
+      33,
+      36,
+      37,
+      38,
+      39,
+      42,
+      43,
+      46,
+      47,
+      52,
+      53,
+      54,
+      55
+    ]
+  ],
+  "owner": "ROUND_ROBIN_TILES_PACKED_BY_OWNER",
+  "basis": "Equal-weight complete PC chain across both development processes, all six representatives, both workspace slots and four rounds. 3 partitions x 2 directions only. No confirmation data used.",
+  "same_group_alias": true
+}

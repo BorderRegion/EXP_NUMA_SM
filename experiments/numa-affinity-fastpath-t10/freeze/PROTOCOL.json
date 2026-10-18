@@ -1,0 +1,92 @@
+{
+  "created_utc": "2026-10-18T02:51:23.461261+00:00",
+  "purpose": "Additional net gain caused by SM/address affinity over frozen vector fast baseline. Ordinary implementation speedups alone do not satisfy.",
+  "worker_budget_seconds": 3600,
+  "baseline_directory": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-locality-scheduling-t10",
+  "baseline_hashes": {
+    "vector.so": "f6c34ac7361379dc4e0bf29a4240f34e411601fe48a16e2a6cfa83003e2e0d44",
+    "vector_append.so": "b9fd4b4e464bc7ec3e7a425ba670aa4603f83b02d13fd9f7b7dbd33cac15382a"
+  },
+  "cases": [
+    {
+      "id": "GQA4_SHORT",
+      "index": 0,
+      "B": 1,
+      "H": 32,
+      "HK": 8,
+      "D": 128,
+      "L": 1024,
+      "lengths": [
+        1024
+      ],
+      "source": "DESIGNED_GQA_SHAPE_NOT_MODEL_TRACE"
+    },
+    {
+      "id": "GQA4_LONG",
+      "index": 1,
+      "B": 1,
+      "H": 32,
+      "HK": 8,
+      "D": 128,
+      "L": 8192,
+      "lengths": [
+        8192
+      ],
+      "source": "DESIGNED_GQA_SHAPE_NOT_MODEL_TRACE"
+    },
+    {
+      "id": "GQA8_LONG",
+      "index": 2,
+      "B": 1,
+      "H": 32,
+      "HK": 4,
+      "D": 128,
+      "L": 8192,
+      "lengths": [
+        8192
+      ],
+      "source": "DESIGNED_GQA_SHAPE_NOT_MODEL_TRACE"
+    },
+    {
+      "id": "BATCH4_RAGGED",
+      "index": 3,
+      "B": 4,
+      "H": 32,
+      "HK": 8,
+      "D": 128,
+      "L": 4096,
+      "lengths": [
+        4096,
+        3073,
+        2049,
+        1027
+      ],
+      "source": "DESIGNED_GQA_SHAPE_NOT_MODEL_TRACE"
+    }
+  ],
+  "offsets_bytes": [
+    0,
+    65536
+  ],
+  "seed_dev": 101000000,
+  "seed_confirm": 102000000,
+  "development_processes": 2,
+  "confirmation_processes": 6,
+  "guard_temperature_c": 82,
+  "power_limit_w": 100,
+  "primary_scope": "KV append plus paged GQA output ready; exact previous vector fast baseline",
+  "primary_comparisons": [
+    "AFFINITY / FROZEN_FAST",
+    "AFFINITY / SAME_OVERHEAD_BLIND",
+    "AFFINITY / REVERSE",
+    "AFFINITY / SHUFFLED"
+  ],
+  "claim_rule": "Positive independent process-level lower CI against frozen fast AND same-overhead blind; inverse/shuffle/actual trace support required for address attribution. No selective deletion.",
+  "statistics": "Paired per-block median log time ratios; offsets equal then cases equal; process clustered bootstrap. 95% aggregate; four per-case exploratory 98.75% family intervals. No replay pseudo-replication.",
+  "stage1": "One CTA claims a complete precompiled address-colored page job once, no per-page atomics; identical attention arithmetic. CA and CG as separate controlled variants.",
+  "stage2_if_needed": "If stage1 fails, use a predeclared separately documented LLM memory/gather/reduction component with strong blind same-geometry baseline; record selection before new holdout.",
+  "sources": [
+    "https://docs.nvidia.com/cuda/parallel-thread-execution/index.html#special-registers-smid",
+    "https://docs.nvidia.com/cuda/cuda-programming-guide/04-special-topics/cooperative-groups.html"
+  ]
+}

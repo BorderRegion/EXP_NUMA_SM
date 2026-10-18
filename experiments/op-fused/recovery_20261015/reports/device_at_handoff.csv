@@ -1,0 +1,2 @@
+uuid, temperature.gpu, power.limit [W], power.draw [W], memory.used [MiB], memory.free [MiB], clocks.current.sm [MHz], ecc.errors.uncorrected.volatile.total
+GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5, 63, 125.00 W, 51.18 W, 222 MiB, 14690 MiB, 1065 MHz, 0

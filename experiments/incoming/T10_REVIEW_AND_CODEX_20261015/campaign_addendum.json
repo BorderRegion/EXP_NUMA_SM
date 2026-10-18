@@ -1,0 +1,142 @@
+{
+  "campaign": "T10_ADDENDUM_20261015",
+  "kind": "PROPOSED_NOT_EXECUTED",
+  "platform": "t10",
+  "parent_campaign": "GPU_COMPUTE_TOPOLOGY_DUAL_20261014",
+  "worker_seconds_cap": 21600,
+  "cap_rule": "min(21600, original_T10_authorized_worker_seconds_remaining)",
+  "additional_paid_budget": 0,
+  "network_actions_authorized": false,
+  "upgrade_driver_authorized": false,
+  "stages": {
+    "S0": {
+      "cpu_only": true
+    },
+    "S1": {
+      "inputs": [
+        "bonsai",
+        "train",
+        "ca-GrQc",
+        "web-Google"
+      ],
+      "sequence": 0,
+      "process_blocks_per_input": 6,
+      "middle_policy_permutations": [
+        [
+          "E",
+          "R",
+          "M"
+        ],
+        [
+          "E",
+          "M",
+          "R"
+        ],
+        [
+          "R",
+          "E",
+          "M"
+        ],
+        [
+          "R",
+          "M",
+          "E"
+        ],
+        [
+          "M",
+          "E",
+          "R"
+        ],
+        [
+          "M",
+          "R",
+          "E"
+        ]
+      ],
+      "anchors": [
+        "N_head",
+        "N_tail"
+      ],
+      "sessions_cap": 120,
+      "warmup_min": 128,
+      "warmup_seconds_min": 1,
+      "measured_frames_per_session": 512,
+      "fixed_process_conditioning_seconds": 30,
+      "worker_seconds_cap": 5400
+    },
+    "S2": {
+      "allocation_processes": 6,
+      "development_processes": 3,
+      "confirmation_processes": 3,
+      "working_set_bytes": [
+        524288,
+        4194304,
+        33554432
+      ],
+      "load_recipes": [
+        "ordinary",
+        "cg"
+      ],
+      "access_classes": [
+        "dependent_latency",
+        "bounded_throughput"
+      ],
+      "configurations_cap": 72,
+      "max_regions": 48,
+      "rounds": 6,
+      "worker_seconds_cap": 5400
+    },
+    "S3": {
+      "working_set_bytes": [
+        2097152,
+        33554432
+      ],
+      "access_classes": [
+        "coalesced",
+        "irregular_index"
+      ],
+      "blocks_per_stratum": 6,
+      "policies": [
+        "N_head",
+        "I",
+        "A",
+        "P0",
+        "P1",
+        "N_tail"
+      ],
+      "sessions_cap": 144,
+      "warmup_epochs": 32,
+      "measured_epochs": 128,
+      "worker_seconds_cap": 3600
+    },
+    "S4": {
+      "conditional": true,
+      "inputs": [
+        "bonsai",
+        "train"
+      ],
+      "snapshot": {
+        "snapshots_per_input": 2,
+        "blocks_per_snapshot": 3,
+        "phases_per_block": 6,
+        "sessions_cap": 72,
+        "warmup_replays": 64,
+        "measured_replays": 256
+      },
+      "dynamic": {
+        "tracks_per_input": 1,
+        "blocks_per_input": 3,
+        "phases_per_block": 5,
+        "sessions_cap": 30,
+        "warmup_min": 128,
+        "warmup_seconds_min": 1,
+        "measured_frames": 512
+      },
+      "worker_seconds_cap": 5400
+    },
+    "reserve": {
+      "worker_seconds_cap": 1800
+    }
+  },
+  "not_a_gpu_implementation": true
+}

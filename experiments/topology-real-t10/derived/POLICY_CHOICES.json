@@ -1,0 +1,614 @@
+[
+  {
+    "worker": "dev_0",
+    "scope": "batch",
+    "target": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 54,
+      "POOL": 54
+    },
+    "shadow": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 110,
+      "TUNED_AA": 110,
+      "PAIR_ONLY": 44,
+      "PLACE_ONLY": 21,
+      "WRONG": 120,
+      "POOL": 120
+    },
+    "policies": {
+      "C011": 11,
+      "C012": 12,
+      "C013": 13,
+      "C021": 21,
+      "C044": 44,
+      "C045": 45,
+      "C046": 46,
+      "C054": 54,
+      "C077": 77,
+      "C078": 78,
+      "C079": 79,
+      "C087": 87,
+      "C110": 110,
+      "C111": 111,
+      "C112": 112,
+      "C120": 120
+    }
+  },
+  {
+    "worker": "dev_0",
+    "scope": "freshbatch",
+    "target": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 45,
+      "TUNED_AA": 45,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 54,
+      "WRONG": 44,
+      "POOL": 44
+    },
+    "shadow": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 87,
+      "TUNED_AA": 87,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 87,
+      "WRONG": 78,
+      "POOL": 87
+    },
+    "policies": {
+      "C011": 11,
+      "C012": 12,
+      "C013": 13,
+      "C021": 21,
+      "C044": 44,
+      "C045": 45,
+      "C046": 46,
+      "C054": 54,
+      "C077": 77,
+      "C078": 78,
+      "C079": 79,
+      "C087": 87,
+      "C110": 110,
+      "C111": 111,
+      "C112": 112,
+      "C120": 120
+    }
+  },
+  {
+    "worker": "dev_1",
+    "scope": "batch",
+    "target": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 87,
+      "WRONG": 54,
+      "POOL": 54
+    },
+    "shadow": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 111,
+      "TUNED_AA": 111,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 120,
+      "WRONG": 110,
+      "POOL": 120
+    },
+    "policies": {
+      "C011": 11,
+      "C012": 12,
+      "C013": 13,
+      "C021": 21,
+      "C044": 44,
+      "C045": 45,
+      "C046": 46,
+      "C054": 54,
+      "C077": 77,
+      "C078": 78,
+      "C079": 79,
+      "C087": 87,
+      "C110": 110,
+      "C111": 111,
+      "C112": 112,
+      "C120": 120
+    }
+  },
+  {
+    "worker": "dev_1",
+    "scope": "freshbatch",
+    "target": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 54,
+      "WRONG": 44,
+      "POOL": 54
+    },
+    "shadow": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 111,
+      "TUNED_AA": 111,
+      "PAIR_ONLY": 44,
+      "PLACE_ONLY": 120,
+      "WRONG": 110,
+      "POOL": 120
+    },
+    "policies": {
+      "C011": 11,
+      "C012": 12,
+      "C013": 13,
+      "C021": 21,
+      "C044": 44,
+      "C045": 45,
+      "C046": 46,
+      "C054": 54,
+      "C077": 77,
+      "C078": 78,
+      "C079": 79,
+      "C087": 87,
+      "C110": 110,
+      "C111": 111,
+      "C112": 112,
+      "C120": 120
+    }
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "batch",
+    "target": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 44,
+      "POOL": 54
+    },
+    "shadow": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 110,
+      "TUNED_AA": 110,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 21,
+      "WRONG": 120,
+      "POOL": 120
+    },
+    "policies": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 44,
+      "POOL": 54,
+      "SHADOW": 110,
+      "FROZEN": 54,
+      "STATIC": 12
+    }
+  },
+  {
+    "worker": "confirm_0",
+    "scope": "freshbatch",
+    "target": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 45,
+      "TUNED_AA": 45,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 87,
+      "WRONG": 54,
+      "POOL": 54
+    },
+    "shadow": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 54,
+      "POOL": 54
+    },
+    "policies": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 45,
+      "TUNED_AA": 45,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 87,
+      "WRONG": 54,
+      "POOL": 54,
+      "SHADOW": 54,
+      "FROZEN": 56,
+      "STATIC": 45
+    }
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "batch",
+    "target": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 54,
+      "WRONG": 44,
+      "POOL": 54
+    },
+    "shadow": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 110,
+      "TUNED_AA": 110,
+      "PAIR_ONLY": 44,
+      "PLACE_ONLY": 21,
+      "WRONG": 110,
+      "POOL": 110
+    },
+    "policies": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 54,
+      "WRONG": 44,
+      "POOL": 54,
+      "SHADOW": 110,
+      "FROZEN": 54,
+      "STATIC": 12
+    }
+  },
+  {
+    "worker": "confirm_1",
+    "scope": "freshbatch",
+    "target": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 21,
+      "TUNED_AA": 21,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 21,
+      "POOL": 21
+    },
+    "shadow": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 120,
+      "WRONG": 54,
+      "POOL": 54
+    },
+    "policies": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 21,
+      "TUNED_AA": 21,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 21,
+      "POOL": 21,
+      "SHADOW": 54,
+      "FROZEN": 56,
+      "STATIC": 45
+    }
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "batch",
+    "target": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 44,
+      "POOL": 54
+    },
+    "shadow": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 110,
+      "TUNED_AA": 110,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 120,
+      "WRONG": 111,
+      "POOL": 110
+    },
+    "policies": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 44,
+      "POOL": 54,
+      "SHADOW": 110,
+      "FROZEN": 54,
+      "STATIC": 12
+    }
+  },
+  {
+    "worker": "confirm_2",
+    "scope": "freshbatch",
+    "target": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 54,
+      "WRONG": 45,
+      "POOL": 45
+    },
+    "shadow": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 110,
+      "TUNED_AA": 110,
+      "PAIR_ONLY": 44,
+      "PLACE_ONLY": 120,
+      "WRONG": 111,
+      "POOL": 111
+    },
+    "policies": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 54,
+      "WRONG": 45,
+      "POOL": 45,
+      "SHADOW": 110,
+      "FROZEN": 56,
+      "STATIC": 45
+    }
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "batch",
+    "target": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 54,
+      "POOL": 54
+    },
+    "shadow": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 110,
+      "TUNED_AA": 110,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 21,
+      "WRONG": 120,
+      "POOL": 120
+    },
+    "policies": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 54,
+      "POOL": 54,
+      "SHADOW": 110,
+      "FROZEN": 54,
+      "STATIC": 12
+    }
+  },
+  {
+    "worker": "confirm_3",
+    "scope": "freshbatch",
+    "target": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 54,
+      "WRONG": 45,
+      "POOL": 45
+    },
+    "shadow": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 111,
+      "TUNED_AA": 111,
+      "PAIR_ONLY": 44,
+      "PLACE_ONLY": 120,
+      "WRONG": 111,
+      "POOL": 110
+    },
+    "policies": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 54,
+      "WRONG": 45,
+      "POOL": 45,
+      "SHADOW": 111,
+      "FROZEN": 56,
+      "STATIC": 45
+    }
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "batch",
+    "target": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 87,
+      "WRONG": 54,
+      "POOL": 54
+    },
+    "shadow": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 120,
+      "TUNED_AA": 120,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 111,
+      "POOL": 120
+    },
+    "policies": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 87,
+      "WRONG": 54,
+      "POOL": 54,
+      "SHADOW": 120,
+      "FROZEN": 54,
+      "STATIC": 12
+    }
+  },
+  {
+    "worker": "confirm_4",
+    "scope": "freshbatch",
+    "target": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 77,
+      "TUNED_AA": 77,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 87,
+      "POOL": 77
+    },
+    "shadow": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 110,
+      "TUNED_AA": 110,
+      "PAIR_ONLY": 44,
+      "PLACE_ONLY": 120,
+      "WRONG": 110,
+      "POOL": 110
+    },
+    "policies": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 77,
+      "TUNED_AA": 77,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 87,
+      "POOL": 77,
+      "SHADOW": 110,
+      "FROZEN": 56,
+      "STATIC": 45
+    }
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "batch",
+    "target": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 44,
+      "POOL": 54
+    },
+    "shadow": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 120,
+      "WRONG": 44,
+      "POOL": 44
+    },
+    "policies": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 54,
+      "WRONG": 44,
+      "POOL": 54,
+      "SHADOW": 54,
+      "FROZEN": 54,
+      "STATIC": 12
+    }
+  },
+  {
+    "worker": "confirm_5",
+    "scope": "freshbatch",
+    "target": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 87,
+      "WRONG": 54,
+      "POOL": 44
+    },
+    "shadow": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 111,
+      "TUNED_AA": 111,
+      "PAIR_ONLY": 54,
+      "PLACE_ONLY": 21,
+      "WRONG": 120,
+      "POOL": 120
+    },
+    "policies": {
+      "BASE": 54,
+      "LEGACY": 11,
+      "TUNED": 54,
+      "TUNED_AA": 54,
+      "PAIR_ONLY": 45,
+      "PLACE_ONLY": 87,
+      "WRONG": 54,
+      "POOL": 44,
+      "SHADOW": 111,
+      "FROZEN": 56,
+      "STATIC": 45
+    }
+  }
+]

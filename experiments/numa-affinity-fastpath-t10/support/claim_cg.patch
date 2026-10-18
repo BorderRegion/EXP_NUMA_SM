@@ -1,0 +1,50 @@
+--- frozen_vector_append.cu
++++ claim_cg.cu
+@@ -7,6 +7,8 @@
+ #include <map>
+ #include <chrono>
+ #include <stdexcept>
++__device__ __forceinline__ uint4 load128(const uint4*p){uint4 v;
++ asm volatile("ld.global.cg.v4.u32 {%0,%1,%2,%3}, [%4];":"=r"(v.x),"=r"(v.y),"=r"(v.z),"=r"(v.w):"l"(p):"memory");return v;}
+ struct Params {const half *q,*k,*v;const int *table,*length,*list;unsigned *counter;float *partial;half *out;int *trace;int B,HK,NP,W,mode;const half *new_k,*new_v;};
+ __device__ __forceinline__ unsigned smid(){unsigned x;asm volatile("mov.u32 %0, %%smid;":"=r"(x));return x;}
+ __device__ __forceinline__ float wmax(float x){for(int d=16;d;d/=2)x=fmaxf(x,__shfl_xor_sync(0xffffffff,x,d));return x;}
+@@ -29,7 +31,17 @@
+ template<int D,int G,bool Queue,bool Fused,bool Trace> __global__ void decode(Params p){
+  const int head=blockIdx.x/p.W,worker=blockIdx.x%p.W,b=head/p.HK,hk=head%p.HK;
+  int lane=threadIdx.x%32,g=threadIdx.x/32,sm=smid();int pref=p.mode==1?(worker&1):((sm%10>=4&&sm%10<=7)?1:0);if(p.mode==3)pref^=1;
+- __shared__ int page,source,last;
++ __shared__ int page,source,last,job;
++ // Each CTA claims one whole job. All per-page work is now read-only.
++ if(threadIdx.x==0){
++  const int*ls=p.list+head*(3+p.W*((p.NP+p.W/2-1)/(p.W/2)));
++  if(p.mode==5){job=worker;source=worker>=ls[0];}
++  else {int which=pref;unsigned i=atomicAdd(p.counter+head*3+which,1);
++   if(i>=unsigned(ls[which])){which^=1;i=atomicAdd(p.counter+head*3+which,1);}
++   job=i<unsigned(ls[which])?(which?ls[0]:0)+i:-1;source=which;
++  }
++ }
++ __syncthreads();
+  extern __shared__ unsigned char buf[];half*ks=(half*)buf;half*vs=ks+16*(D+8);float* score=(float*)(vs+16*(D+8));
+  half2 qr[D/8];
+  #pragma unroll
+@@ -40,8 +52,8 @@
+  float am=-INFINITY,al=0;int iteration=0;
+  while(true){
+   if(threadIdx.x==0){
+-   if(Queue){const int*ls=p.list+head*(p.NP+2);int which=pref;unsigned i=atomicAdd(p.counter+head*3+which,1);if(i>=unsigned(ls[which])){which^=1;i=atomicAdd(p.counter+head*3+which,1);}page=i<unsigned(ls[which])?ls[2+(which?ls[0]:0)+i]:-1;source=which;}
+-   else {page=worker+iteration*p.W;if(page>=p.NP)page=-1;source=-1;}
++   const int*ls=p.list+head*(3+p.W*((p.NP+p.W/2-1)/(p.W/2)));
++   page=(job>=0&&iteration<ls[2])?ls[3+job*ls[2]+iteration]:-1;
+    if(Trace&&page>=0){int t=head*p.NP+page;int*tr=p.trace+5*t;tr[0]=sm;tr[1]=worker;tr[2]=Queue?pref:-1;tr[3]=source;atomicAdd(tr+4,1);}
+   }
+   __syncthreads();if(page<0)break;
+@@ -54,7 +66,7 @@
+     __syncthreads();
+    }
+ 
+-   for(int i=threadIdx.x;i<16*(D/8);i+=blockDim.x){int tok=i/(D/8),d=i%(D/8);bool valid=page*16+tok<p.length[b];((uint4*)ks)[tok*((D+8)/8)+d]=valid?((const uint4*)(p.k+base))[i]:make_uint4(0,0,0,0);((uint4*)vs)[tok*((D+8)/8)+d]=valid?((const uint4*)(p.v+base))[i]:make_uint4(0,0,0,0);}
++   for(int i=threadIdx.x;i<16*(D/8);i+=blockDim.x){int tok=i/(D/8),d=i%(D/8);bool valid=page*16+tok<p.length[b];((uint4*)ks)[tok*((D+8)/8)+d]=valid?load128(((const uint4*)(p.k+base))+i):make_uint4(0,0,0,0);((uint4*)vs)[tok*((D+8)/8)+d]=valid?load128(((const uint4*)(p.v+base))+i):make_uint4(0,0,0,0);}
+    __syncthreads();
+    #pragma unroll
+    for(int t=0;t<2;t++){int tok=lane/4+8*t;float dot=0;

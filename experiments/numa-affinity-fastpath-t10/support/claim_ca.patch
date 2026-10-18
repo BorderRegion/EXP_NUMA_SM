@@ -1,0 +1,32 @@
+--- frozen_vector_append.cu
++++ claim_ca.cu
+@@ -29,7 +29,17 @@
+ template<int D,int G,bool Queue,bool Fused,bool Trace> __global__ void decode(Params p){
+  const int head=blockIdx.x/p.W,worker=blockIdx.x%p.W,b=head/p.HK,hk=head%p.HK;
+  int lane=threadIdx.x%32,g=threadIdx.x/32,sm=smid();int pref=p.mode==1?(worker&1):((sm%10>=4&&sm%10<=7)?1:0);if(p.mode==3)pref^=1;
+- __shared__ int page,source,last;
++ __shared__ int page,source,last,job;
++ // Each CTA claims one whole job. All per-page work is now read-only.
++ if(threadIdx.x==0){
++  const int*ls=p.list+head*(3+p.W*((p.NP+p.W/2-1)/(p.W/2)));
++  if(p.mode==5){job=worker;source=worker>=ls[0];}
++  else {int which=pref;unsigned i=atomicAdd(p.counter+head*3+which,1);
++   if(i>=unsigned(ls[which])){which^=1;i=atomicAdd(p.counter+head*3+which,1);}
++   job=i<unsigned(ls[which])?(which?ls[0]:0)+i:-1;source=which;
++  }
++ }
++ __syncthreads();
+  extern __shared__ unsigned char buf[];half*ks=(half*)buf;half*vs=ks+16*(D+8);float* score=(float*)(vs+16*(D+8));
+  half2 qr[D/8];
+  #pragma unroll
+@@ -40,8 +50,8 @@
+  float am=-INFINITY,al=0;int iteration=0;
+  while(true){
+   if(threadIdx.x==0){
+-   if(Queue){const int*ls=p.list+head*(p.NP+2);int which=pref;unsigned i=atomicAdd(p.counter+head*3+which,1);if(i>=unsigned(ls[which])){which^=1;i=atomicAdd(p.counter+head*3+which,1);}page=i<unsigned(ls[which])?ls[2+(which?ls[0]:0)+i]:-1;source=which;}
+-   else {page=worker+iteration*p.W;if(page>=p.NP)page=-1;source=-1;}
++   const int*ls=p.list+head*(3+p.W*((p.NP+p.W/2-1)/(p.W/2)));
++   page=(job>=0&&iteration<ls[2])?ls[3+job*ls[2]+iteration]:-1;
+    if(Trace&&page>=0){int t=head*p.NP+page;int*tr=p.trace+5*t;tr[0]=sm;tr[1]=worker;tr[2]=Queue?pref:-1;tr[3]=source;atomicAdd(tr+4,1);}
+   }
+   __syncthreads();if(page<0)break;

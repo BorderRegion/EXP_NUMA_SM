@@ -1,0 +1,16 @@
+{
+  "choice": 54,
+  "plan": {
+    "offset": 17,
+    "page": 17,
+    "family": "RND07"
+  },
+  "scopes": [
+    "batch",
+    "freshbatch"
+  ],
+  "source": "Prior campaign frozen warm static rule; adopted by user request as baseline for this campaign",
+  "prior_static_sha256": "0fb8267833bcaff421ec01fbc426d6ebdbd9c1147d6447a424018450f83c106a",
+  "formal_kernel_sha256": "10a0201ea5138c70fb96975cb3ec36d11adeb9d63841f63b2f763f619c2e4104",
+  "note": "Records already-frozen PROTOCOL.baseline_choice, does not introduce a new selection. No prior archive rewritten."
+}

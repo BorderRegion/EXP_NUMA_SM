@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-10-18T08:17:55.554041+00:00",
+  "reason": "Reduce measured~1.6s setup and test actual amortized net, following completed primary and same-executable-graph experiments. This is a new supplementary hypothesis, not an unplanned replacement of negative primary results.",
+  "processes": 6,
+  "seed": 1150000000,
+  "steady_blocks": 12,
+  "replays": 8,
+  "net_blocks": 16,
+  "requests_per_policy": 1048576,
+  "net_scopes": [
+    "batch",
+    "freshbatch"
+  ],
+  "net_candidate": "ALL_ADDR",
+  "net_controls": [
+    "IDENTITY",
+    "frozen random-best",
+    "ALL_WRONG",
+    "ALL_POOL"
+  ],
+  "calibration": "168 launches=2 Latin rounds x3 pages x28 shifts;28 concurrent pairs per launch;64 measured+16warm handshakes; every784edge/page/round covered once; addresses match operator",
+  "fit": "same minimax plus minimum-sum tie break, C++ implementation crosschecked against Python and exhaustive small matching; maximum of two training-round costs",
+  "measurement": "same graph executable/stream/events; exact unchanged fast kernel; no new operator kernel",
+  "net_accounting": "sum measured outer wall of all request chunks plus full measured per-allocation profiling+CPU fit+parameter construction and all16 update calls for candidate; comparator charged no learned setup/update (conservative). GPU event and host-sum views also retained.",
+  "setup_endpoint": "entry into full calibration through usable host schedules, includes mapping generation, GPU memory/upload, profiling, download, checks and compiled fit; later research serialization excluded",
+  "net_statistics": "6 independent processes; paired-log ratios on each whole fixed-request session;95% and99.375% Bonferroni8 intervals for4 controls x2 scopes; no further fitting from operator/session results",
+  "interpretation": "Only claim topology/address-specific net benefit if beats identity, frozen best random, wrong and pooled addresses with setup deducted; positive steady-state alone insufficient.",
+  "budget": "shares3600worker-second cap; no result-dependent early stopping"
+}

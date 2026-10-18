@@ -1,0 +1,29 @@
+请执行附件 T10_PC_HANDOFF_LLM_20261016，仅T10本机。
+
+这轮不再验证独立数组/0x33/q1。目标是成熟split-K GEMM，以及split-KV decode attention中：
+真实生产者计算partial → 同一workspace → 必要消费者归并。
+必须实际跑出这条LLM数学链，不用gather或闭源库调用包装冒充候选实现。
+
+先读START_HERE、CODEX_MASTER_TASK、docs/01–06、campaign.json。
+连续E0–E6，不在第一张矩阵/一个负值/普通smoke后暂停。
+复用本地成熟Tensor Core数学主体；新布局直接进P的epilogue和C的iterator，
+没有逐任务LUT、独立小调度kernel、调度D2H或每expert CPU发射。
+必要reducer保留；禁止跨CTA自制忙等，不为少一个kernel破坏依赖。
+
+先按原生split/non-split的实际瓶颈选择代表，不故意加大split制造敏感性。
+实测P组×C组×workspace，任务/字节/数学/归并顺序相同；不预设同组即本地。
+两组实际部署不丢资源，不把blockIdx当SM，不把少量组实验称全卡收益。
+主比较同时包括生产LIB、同体CORE、同信息简单G、layout/placement四格和reverse。
+只有已融合强基线以外的收益才可归因新匹配。只减少launch不叫NUMA成功。
+
+T10用户已授权支持范围内功耗控制；固定100W主状态、协调原保护服务，
+不关闭过温/风扇/看门狗保护。125W只做预定小型敏感性，缺权限一次列清。
+当前本机离线，不SSH/下载/安装/改驱动/新增付费；不操控5070Ti。
+
+新GPU-worker预算24小时，旧账本只读保留；CPU开发分析另计，不要求花满。
+普通工程修复自行处理；设备安全、付费/权限边界、主数值合同变化才问用户。
+缺完整模型不假装完整LLM，无明显增量仍完成预定缩减真实链与最终解释。
+
+最终一次性交付T10_PC_HANDOFF_LLM_REPORT.md、贡献卡、实际DAG、PC矩阵、
+同融合强基线与消融、全层/动态输入、功耗及恢复、初始化和可复算数据。
+辅助脚本仅用于计划检查，不是已运行的GPU结果。

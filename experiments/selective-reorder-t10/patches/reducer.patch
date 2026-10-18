@@ -1,0 +1,75 @@
+--- /home/ubuntu/文档/ChatGPT/numa_gpu/op-fused/vendor/cutlass/include/cutlass/reduction/kernel/reduce_split_k.h
++++ adapters/pc_reduce_split_k.h
+@@ -58,7 +58,7 @@
+   typename ReductionOp_,        ///< reduction operator  (concept: ReductionOperator)
+   int PartitionsPerStage = 4    ///< number of partitions to issue 
+ >
+-class ReduceSplitK {
++class PcReduceSplitK {
+ public:
+ 
+   using Shape = Shape_;
+@@ -148,13 +148,36 @@
+ 
+   /// Perform a reduction
+   CUTLASS_DEVICE
+-  void operator()(Params const &params, SharedStorage &storage) {
++  void operator()(Params const &params, SharedStorage &storage, int BM, int BN, int owner, int owners, int slab, int reverse_tasks, unsigned *trace, unsigned generation) {
+ 
+     // Determine CTA position
+-    MatrixCoord thread_offset(
+-      MatrixCoord::Index(int(blockIdx.x) * Shape::kRow + threadIdx.y),
+-      MatrixCoord::Index(int(blockIdx.y) * Shape::kColumn + threadIdx.x * kElementsPerAccess)
+-    );
++    int tn = (params.problem_size.column()+BN-1)/BN;
++    int total = ((params.problem_size.row()+BM-1)/BM)*tn;
++    int cut=(total+1)/2;
++    int count=owners==2 ? (owner==0 ? cut : total-cut) : total;
++    int rows=(BM+Shape::kRow-1)/Shape::kRow, cols=(BN+Shape::kColumn-1)/Shape::kColumn;
++    int base=owners==2 ? owner : 0;
++    int tail_start=((params.problem_size.row()+BM-1)/BM-1)*tn;
++    int full_tiles=owners==2 ? (tail_start+1-owner)/2 : tail_start;
++    int tail_rows=(params.problem_size.row()-(tail_start/tn)*BM+Shape::kRow-1)/Shape::kRow;
++    int idx=int(blockIdx.x), full_blocks=full_tiles*rows*cols;
++    int local=idx<full_blocks ? idx/(rows*cols) : full_tiles+(idx-full_blocks)/(tail_rows*cols);
++    int sub=idx<full_blocks ? idx%(rows*cols) : (idx-full_blocks)%(tail_rows*cols);
++    // R traversal stays fixed when producer order is reversed.
++    int tile=base+local*owners;
++    int lr=(sub/cols)*Shape::kRow+threadIdx.y;
++    int lc=(sub%cols)*Shape::kColumn+threadIdx.x*kElementsPerAccess;
++    if(lr>=BM || lc>=BN) return;
++    MatrixCoord thread_offset((tile/tn)*BM+lr,(tile%tn)*BN+lc);
++#if PC_DIAG
++    if(threadIdx.x==0 && threadIdx.y==0) {
++      unsigned sm; asm volatile("mov.u32 %0, %smid;" : "=r"(sm));
++      unsigned *r=trace+(total*params.partitions + tile*rows*cols+sub)*5;
++      bool ready=true;
++      for(int s=0;s<params.partitions;s++) if(trace[(tile*params.partitions+s)*5+4]!=generation) ready=false;
++      r[0]=sm; r[1]=tile; r[2]=0xffffffffu; r[3]=owner; r[4]=ready?generation:0;
++    }
++#endif
+ 
+     // One guard conditional
+     if (!(thread_offset.row() < params.problem_size.row() && 
+@@ -174,9 +197,9 @@
+     // Load the first slice
+     //
+ 
+-    char const *workspace_ptr = 
+-      reinterpret_cast<char const *>(
+-        params.workspace.data() + params.workspace.offset(thread_offset));
++    char const *workspace_ptr = reinterpret_cast<char const *>(params.workspace.data() +
++      (slab ? (int64_t((tile&1)*cut+tile/2)*params.partitions*BM*BN + lr*BN+lc) : params.workspace.offset(thread_offset)));
++    size_t step = slab ? sizeof(ElementWorkspace)*BM*BN : params.partition_stride;
+ 
+     FragmentWorkspace workspace_frag[kPartitionsPerStage];
+     
+@@ -197,7 +220,7 @@
+       for (int i = 0; i < kPartitionsPerStage; ++i) {
+         if (k + i < params.partitions) {
+           workspace_frag[i] = *reinterpret_cast<FragmentWorkspace const *>(workspace_ptr);
+-          workspace_ptr += params.partition_stride;
++          workspace_ptr += step;
+         }
+       }   
+ 

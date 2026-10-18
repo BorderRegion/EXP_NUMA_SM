@@ -1,0 +1,72 @@
+dev OPERATOR [{'candidate': 'GPC_ADDR', 'scope': 'batch', 'gain_pct': 4.317651576510241, 'ci95': [0.32446479621011737, 8.469778060049789], 'positive_processes': 2}, {'candidate': 'ALL_ADDR', 'scope': 'batch', 'gain_pct': 3.8950670267474634, 'ci95': [-0.20638287705474628, 8.165083736707974], 'positive_processes': 1}, {'candidate': 'GPC_ADDR', 'scope': 'fresh', 'gain_pct': -0.09290763942263545, 'ci95': [-1.4258008583281196, 1.258008595124608], 'positive_processes': 1}, {'candidate': 'ALL_ADDR', 'scope': 'fresh', 'gain_pct': 0.6452001093460535, 'ci95': [-0.8938124449313676, 2.2081118741637593], 'positive_processes': 1}, {'candidate': 'GPC_ADDR', 'scope': 'freshbatch', 'gain_pct': 3.5435954245121226, 'ci95': [0.3233602507850117, 6.867195502965181], 'positive_processes': 2}, {'candidate': 'ALL_ADDR', 'scope': 'freshbatch', 'gain_pct': 3.4309195962817554, 'ci95': [0.5236035691795871, 6.4223202182584815], 'positive_processes': 2}, {'candidate': 'GPC_ADDR', 'scope': 'ready', 'gain_pct': -0.27724433023108447, 'ci95': [-0.6697065945338312, 0.11676858517336497], 'positive_processes': 1}, {'candidate': 'ALL_ADDR', 'scope': 'ready', 'gain_pct': -0.29722553247891637, 'ci95': [-1.990550974835905, 1.4253557732897446], 'positive_processes': 1}]
+confirm OPERATOR [{'candidate': 'GPC_ADDR', 'scope': 'batch', 'gain_pct': 0.5992124270406021, 'ci95': [0.1413323990671713, 1.070762941764491], 'positive_processes': 5}, {'candidate': 'ALL_ADDR', 'scope': 'batch', 'gain_pct': 1.4321936025315483, 'ci95': [0.15556426565010045, 2.945761351673595], 'positive_processes': 5}, {'candidate': 'GPC_ADDR', 'scope': 'fresh', 'gain_pct': -1.2926088570231686, 'ci95': [-2.4596716916069408, 0.11388012051293357], 'positive_processes': 1}, {'candidate': 'ALL_ADDR', 'scope': 'fresh', 'gain_pct': 0.34785633666164545, 'ci95': [-0.8736006972994148, 1.4617733402101558], 'positive_processes': 5}, {'candidate': 'GPC_ADDR', 'scope': 'freshbatch', 'gain_pct': -0.6327110288329513, 'ci95': [-2.5317044617588125, 1.4900083483376123], 'positive_processes': 3}, {'candidate': 'ALL_ADDR', 'scope': 'freshbatch', 'gain_pct': -1.705434786985644, 'ci95': [-2.499408826591837, -0.6456248003749089], 'positive_processes': 1}, {'candidate': 'GPC_ADDR', 'scope': 'ready', 'gain_pct': 0.16916240050269996, 'ci95': [-0.14027723701090603, 0.4673652446746078], 'positive_processes': 4}, {'candidate': 'ALL_ADDR', 'scope': 'ready', 'gain_pct': 1.304097557842823, 'ci95': [0.19397576430022168, 2.6626487551198004], 'positive_processes': 4}]
+shared OPERATOR [{'candidate': 'GPC_ADDR', 'scope': 'batch', 'gain_pct': 0.14536267200206984, 'ci95': [0.07500724027235565, 0.20959772055800857], 'positive_processes': 6}, {'candidate': 'ALL_ADDR', 'scope': 'batch', 'gain_pct': 1.0240052913085635, 'ci95': [0.9347867116134226, 1.1183573578983945], 'positive_processes': 6}, {'candidate': 'GPC_ADDR', 'scope': 'fresh', 'gain_pct': 0.009837372471216233, 'ci95': [-0.33674991433105217, 0.36251547324246175], 'positive_processes': 3}, {'candidate': 'ALL_ADDR', 'scope': 'fresh', 'gain_pct': 0.8577292722235224, 'ci95': [0.6123325981934192, 1.0410790610677356], 'positive_processes': 6}, {'candidate': 'GPC_ADDR', 'scope': 'freshbatch', 'gain_pct': 0.20441573483146636, 'ci95': [0.1527368978364507, 0.2707889307810002], 'positive_processes': 6}, {'candidate': 'ALL_ADDR', 'scope': 'freshbatch', 'gain_pct': 0.08955698778214269, 'ci95': [0.03450294554862387, 0.16529022524062767], 'positive_processes': 6}, {'candidate': 'GPC_ADDR', 'scope': 'ready', 'gain_pct': -0.5612007012921472, 'ci95': [-1.2110499768039038, 0.06202078273340294], 'positive_processes': 1}, {'candidate': 'ALL_ADDR', 'scope': 'ready', 'gain_pct': 0.9276079819861585, 'ci95': [0.4655791379948671, 1.3673885657513534], 'positive_processes': 6}]
+FULL DIRECTION SUMMARY [{'page': 0, 'comparison': 'same_gpc_other_tpc/cross_gpc', 'gain_pct': -0.5492608089605178, 'ci95': [-0.9692042961735899, -0.2766409623753451], 'positive_processes': 0}, {'page': 0, 'comparison': 'same_tpc/cross_gpc', 'gain_pct': 1.1416722143707452, 'ci95': [0.2593137159228815, 2.0049591182497606], 'positive_processes': 4}, {'page': 17, 'comparison': 'same_gpc_other_tpc/cross_gpc', 'gain_pct': -0.3263370999559976, 'ci95': [-0.7348967947675117, 0.07661315585549222], 'positive_processes': 2}, {'page': 17, 'comparison': 'same_tpc/cross_gpc', 'gain_pct': 1.3726792946614754, 'ci95': [1.0816604402517265, 1.6042956034154126], 'positive_processes': 6}, {'page': 257, 'comparison': 'same_gpc_other_tpc/cross_gpc', 'gain_pct': -0.3214961280681057, 'ci95': [-0.5226564672900257, -0.05471547310174591], 'positive_processes': 1}, {'page': 257, 'comparison': 'same_tpc/cross_gpc', 'gain_pct': 1.1392435600942892, 'ci95': [0.6649113674762118, 1.5832215551732802], 'positive_processes': 6}]
+fast OPERATOR [{'candidate': 'GPC_ADDR', 'scope': 'batch', 'gain_pct': 0.24378734471823113, 'ci95': [-0.01198332716249311, 0.4637677072231801], 'positive_processes': 5}, {'candidate': 'ALL_ADDR', 'scope': 'batch', 'gain_pct': 0.999284632221155, 'ci95': [0.7165260772009715, 1.2679909972127748], 'positive_processes': 6}, {'candidate': 'GPC_ADDR', 'scope': 'fresh', 'gain_pct': 0.18387203493010093, 'ci95': [0.06874223359372995, 0.3010249225950286], 'positive_processes': 5}, {'candidate': 'ALL_ADDR', 'scope': 'fresh', 'gain_pct': 0.6707907715302787, 'ci95': [0.3489937849414712, 0.9478716166131625], 'positive_processes': 5}, {'candidate': 'GPC_ADDR', 'scope': 'freshbatch', 'gain_pct': -0.2627974750222722, 'ci95': [-1.0761649838517702, 0.3478722913722618], 'positive_processes': 4}, {'candidate': 'ALL_ADDR', 'scope': 'freshbatch', 'gain_pct': -0.30955309421531124, 'ci95': [-1.1748991979926933, 0.5332768916315095], 'positive_processes': 4}, {'candidate': 'GPC_ADDR', 'scope': 'ready', 'gain_pct': 0.3549234934936462, 'ci95': [-0.028455985360499845, 0.7779984130065358], 'positive_processes': 4}, {'candidate': 'ALL_ADDR', 'scope': 'ready', 'gain_pct': 0.9600756098064834, 'ci95': [0.5849932790708786, 1.3394711656390823], 'positive_processes': 6}]
+NET RESULTS [{'scope': 'batch', 'control': 'ALL_POOL', 'gain_pct': -0.6247952369289453, 'ci95': [-0.9179143454903483, -0.37871365354839037], 'ci_net_family': [-1.0466401896591586, -0.2961386434093542], 'positive_processes': 0}, {'scope': 'batch', 'control': 'ALL_WRONG', 'gain_pct': -0.33916681147163846, 'ci95': [-0.57948919791484, -0.0908654107452477], 'ci_net_family': [-0.6560539327775854, -0.012588427469962943], 'positive_processes': 1}, {'scope': 'batch', 'control': 'IDENTITY', 'gain_pct': 0.4177218088788655, 'ci95': [0.14895006133916514, 0.686411336794385], 'ci_net_family': [0.04836258112818433, 0.7754816846851342], 'positive_processes': 5}, {'scope': 'batch', 'control': 'RND07', 'gain_pct': -0.3234249508051358, 'ci95': [-0.6664967291615441, -0.08155074514237311], 'ci_net_family': [-0.8256042975615283, -0.029382787891850944], 'positive_processes': 1}, {'scope': 'freshbatch', 'control': 'ALL_POOL', 'gain_pct': -0.1521149772670625, 'ci95': [-0.30647261686483507, 0.0059493615072619905], 'ci_net_family': [-0.3683641738136098, 0.05940368466462766], 'positive_processes': 2}, {'scope': 'freshbatch', 'control': 'ALL_WRONG', 'gain_pct': -0.2685771778928381, 'ci95': [-0.5550257451761207, -0.03328748482994721], 'ci_net_family': [-0.6728907419361133, 0.040161769884599345], 'positive_processes': 1}, {'scope': 'freshbatch', 'control': 'IDENTITY', 'gain_pct': -0.213622657982368, 'ci95': [-0.4352256535141726, 0.10075810457767054], 'ci_net_family': [-0.4767372460139907, 0.23953949309719091], 'positive_processes': 1}, {'scope': 'freshbatch', 'control': 'RND03', 'gain_pct': 0.06579358208484035, 'ci95': [-0.17812649241572892, 0.3047890913845847], 'ci_net_family': [-0.2627791030683218, 0.39226125262432493], 'positive_processes': 4}]
+{
+  "status": "PASS",
+  "workers": 34,
+  "worker_seconds": 1343.1620462500723,
+  "budget_seconds": 3600,
+  "numerical_checks": 25904,
+  "graphs_checked": 2328,
+  "timing_observations": 1299456,
+  "test_observations": 241920,
+  "micro_launches": 262664,
+  "micro_records": 789164,
+  "independent_input_hashes": 88,
+  "temperature_min": 63,
+  "temperature_max": 79,
+  "power_limit_w": 100,
+  "baseline_exact_binary": true,
+  "implementation_unchanged": true,
+  "random_selection_before_confirmation": true,
+  "note": "One initial CPU analysis failure due missing pandas preserved. Installation/resume made no GPU-code or map-algorithm change."
+}
+{
+  "status": "PASS",
+  "workers": 34,
+  "worker_seconds": 1343.1620462500723,
+  "budget_seconds": 3600,
+  "numerical_checks": 25904,
+  "graphs_checked": 2352,
+  "timing_observations": 1517184,
+  "test_observations": 283392,
+  "micro_launches": 262664,
+  "micro_records": 789164,
+  "independent_input_hashes": 112,
+  "temperature_min": 63,
+  "temperature_max": 79,
+  "power_limit_w": 100,
+  "baseline_exact_binary": true,
+  "implementation_unchanged": true,
+  "random_selection_before_confirmation": true,
+  "note": "One initial CPU analysis failure due missing pandas preserved. Installation/resume made no GPU-code or map-algorithm change.",
+  "fixed_session_operator_requests": 62914560,
+  "fixed_session_graph_replays": 1966080,
+  "fast_setup_ms": [
+    36.103089,
+    38.117735,
+    39.866194,
+    34.829418,
+    36.62515,
+    38.690226
+  ],
+  "fast_fit_ms": [
+    5.501138,
+    5.89295,
+    5.010268,
+    5.113078,
+    5.777164,
+    5.556174
+  ],
+  "supplemental_notes": [
+    "Fast setup learned from concurrent Latin sweeps; no isolated validation tensor exists.",
+    "Original generic analyze.py wrote fast operator output then failed on missing validation_cycles; dedicated analyze_fast.py handles actual format.",
+    "Early CPU shared-graph compile used older header and was repaired before any shared-graph GPU execution; both logs preserved."
+  ]
+}
+REPORT COMPLETE
+CPU RECOMPUTATION PASS 35 derived files; raw data and frozen choices unchanged
+POST-RECOMPUTE ARCHIVE HASHES PASS

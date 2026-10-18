@@ -1,0 +1,6320 @@
+{
+  "created_at": "2026-10-15T05:31:44.544208+00:00",
+  "campaign": "T10_ADDENDUM_20261015",
+  "parent_original_statistic": {
+    "ALL_M/N": {
+      "ratio": 1.1677572511665224,
+      "time_reduction_pct": -16.77572511665224,
+      "ratio_ci95": [
+        1.1143455540496212,
+        1.2317702195274323
+      ],
+      "ratio_ci97_5": [
+        1.1084473719495072,
+        1.2419539020046966
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 8,
+      "independent_blocks": 48,
+      "blocks_per_stratum": {
+        "W1/bonsai/0": 6,
+        "W1/bonsai/1": 6,
+        "W1/train/0": 6,
+        "W1/train/1": 6,
+        "W2/ca-GrQc/0": 6,
+        "W2/ca-GrQc/1": 6,
+        "W2/web-Google/0": 6,
+        "W2/web-Google/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W1_M/N": {
+      "ratio": 1.1112842691113527,
+      "time_reduction_pct": -11.12842691113527,
+      "ratio_ci95": [
+        1.097248378549204,
+        1.1274168747673161
+      ],
+      "ratio_ci97_5": [
+        1.0956918748769833,
+        1.1297277206247016
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 4,
+      "independent_blocks": 24,
+      "blocks_per_stratum": {
+        "W1/bonsai/0": 6,
+        "W1/bonsai/1": 6,
+        "W1/train/0": 6,
+        "W1/train/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W2_M/N": {
+      "ratio": 1.227100063912946,
+      "time_reduction_pct": -22.71000639129459,
+      "ratio_ci95": [
+        1.1182560070981866,
+        1.3645807240553858
+      ],
+      "ratio_ci97_5": [
+        1.1042205029807197,
+        1.3891852446051505
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 4,
+      "independent_blocks": 24,
+      "blocks_per_stratum": {
+        "W2/ca-GrQc/0": 6,
+        "W2/ca-GrQc/1": 6,
+        "W2/web-Google/0": 6,
+        "W2/web-Google/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W1/bonsai_M/N": {
+      "ratio": 1.1317134348179532,
+      "time_reduction_pct": -13.171343481795317,
+      "ratio_ci95": [
+        1.1118111626498148,
+        1.1557578857935198
+      ],
+      "ratio_ci97_5": [
+        1.1094816755955577,
+        1.1590601993362877
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "W1/bonsai/0": 6,
+        "W1/bonsai/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W1/train_M/N": {
+      "ratio": 1.0912238812230828,
+      "time_reduction_pct": -9.122388122308278,
+      "ratio_ci95": [
+        1.0740893750298521,
+        1.1152701293006932
+      ],
+      "ratio_ci97_5": [
+        1.073308394306996,
+        1.117823257512244
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "W1/train/0": 6,
+        "W1/train/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W2/ca-GrQc_M/N": {
+      "ratio": 1.4151182308444685,
+      "time_reduction_pct": -41.51182308444685,
+      "ratio_ci95": [
+        1.3795917883185942,
+        1.4535130895574346
+      ],
+      "ratio_ci97_5": [
+        1.3747206839235249,
+        1.459449237463638
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "W2/ca-GrQc/0": 6,
+        "W2/ca-GrQc/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W2/web-Google_M/N": {
+      "ratio": 1.0640627292014948,
+      "time_reduction_pct": -6.406272920149481,
+      "ratio_ci95": [
+        0.8864645251747536,
+        1.313982584957143
+      ],
+      "ratio_ci97_5": [
+        0.8615351421427173,
+        1.3704425150290873
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "W2/web-Google/0": 6,
+        "W2/web-Google/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W1/bonsai/0_M/N": {
+      "ratio": 1.1432749370405026,
+      "time_reduction_pct": -14.327493704050266,
+      "ratio_ci95": [
+        1.1156418752241912,
+        1.1727476499900906
+      ],
+      "ratio_ci97_5": [
+        1.1148049934105857,
+        1.1832124060979645
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "W1/bonsai/0": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W1/bonsai/1_M/N": {
+      "ratio": 1.120268849645985,
+      "time_reduction_pct": -12.026884964598494,
+      "ratio_ci95": [
+        1.0943605479724503,
+        1.1569245580713616
+      ],
+      "ratio_ci97_5": [
+        1.0926992071756212,
+        1.1591343538850365
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "W1/bonsai/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W1/train/0_M/N": {
+      "ratio": 1.0919236110905548,
+      "time_reduction_pct": -9.19236110905548,
+      "ratio_ci95": [
+        1.0709349732569169,
+        1.1288481099918608
+      ],
+      "ratio_ci97_5": [
+        1.07010991302815,
+        1.1299155586252507
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "W1/train/0": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W1/train/1_M/N": {
+      "ratio": 1.09052459975867,
+      "time_reduction_pct": -9.052459975867011,
+      "ratio_ci95": [
+        1.072856543458613,
+        1.1209834726808392
+      ],
+      "ratio_ci97_5": [
+        1.0724310182102021,
+        1.1224192697642372
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "W1/train/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W2/ca-GrQc/0_M/N": {
+      "ratio": 1.4144477205579438,
+      "time_reduction_pct": -41.444772055794374,
+      "ratio_ci95": [
+        1.3648703931819515,
+        1.467623419731189
+      ],
+      "ratio_ci97_5": [
+        1.3594345970981891,
+        1.475226697382924
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "W2/ca-GrQc/0": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W2/ca-GrQc/1_M/N": {
+      "ratio": 1.4157890589822915,
+      "time_reduction_pct": -41.578905898229145,
+      "ratio_ci95": [
+        1.368346367041395,
+        1.4705734428559845
+      ],
+      "ratio_ci97_5": [
+        1.3571443083672108,
+        1.483406047660479
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "W2/ca-GrQc/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W2/web-Google/0_M/N": {
+      "ratio": 0.9658538225221227,
+      "time_reduction_pct": 3.4146177477877293,
+      "ratio_ci95": [
+        0.8353556361432797,
+        1.280455437685443
+      ],
+      "ratio_ci97_5": [
+        0.8350084037163339,
+        1.283128829252013
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "W2/web-Google/0": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W2/web-Google/1_M/N": {
+      "ratio": 1.172257608008587,
+      "time_reduction_pct": -17.22576080085869,
+      "ratio_ci95": [
+        0.8825748243017387,
+        1.5586816074666814
+      ],
+      "ratio_ci97_5": [
+        0.837564933818237,
+        1.6967404554660848
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "W2/web-Google/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "ALL_M/R": {
+      "ratio": 0.9988046014569516,
+      "time_reduction_pct": 0.11953985430483982,
+      "ratio_ci95": [
+        0.9910281311069,
+        1.0065032646259986
+      ],
+      "ratio_ci97_5": [
+        0.9898821736316127,
+        1.0076268906417858
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 8,
+      "independent_blocks": 48,
+      "blocks_per_stratum": {
+        "W1/bonsai/0": 6,
+        "W1/bonsai/1": 6,
+        "W1/train/0": 6,
+        "W1/train/1": 6,
+        "W2/ca-GrQc/0": 6,
+        "W2/ca-GrQc/1": 6,
+        "W2/web-Google/0": 6,
+        "W2/web-Google/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W1_M/R": {
+      "ratio": 1.002329120329213,
+      "time_reduction_pct": -0.23291203292130636,
+      "ratio_ci95": [
+        0.9997425124850486,
+        1.0047405176406092
+      ],
+      "ratio_ci97_5": [
+        0.999342368249544,
+        1.005031911855044
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 4,
+      "independent_blocks": 24,
+      "blocks_per_stratum": {
+        "W1/bonsai/0": 6,
+        "W1/bonsai/1": 6,
+        "W1/train/0": 6,
+        "W1/train/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W2_M/R": {
+      "ratio": 0.9952924759523265,
+      "time_reduction_pct": 0.4707524047673495,
+      "ratio_ci95": [
+        0.9800363572899442,
+        1.0104382489186805
+      ],
+      "ratio_ci97_5": [
+        0.9778801900729535,
+        1.0124430917309313
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 4,
+      "independent_blocks": 24,
+      "blocks_per_stratum": {
+        "W2/ca-GrQc/0": 6,
+        "W2/ca-GrQc/1": 6,
+        "W2/web-Google/0": 6,
+        "W2/web-Google/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W1/bonsai_M/R": {
+      "ratio": 1.0098839749144959,
+      "time_reduction_pct": -0.9883974914495885,
+      "ratio_ci95": [
+        1.0061593745934336,
+        1.0132416756378477
+      ],
+      "ratio_ci97_5": [
+        1.0055869626471463,
+        1.0136440970443779
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "W1/bonsai/0": 6,
+        "W1/bonsai/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W1/train_M/R": {
+      "ratio": 0.9948307829570187,
+      "time_reduction_pct": 0.5169217042981344,
+      "ratio_ci95": [
+        0.9911858957692212,
+        0.9981997681506138
+      ],
+      "ratio_ci97_5": [
+        0.9905840434004451,
+        0.9986107223159667
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "W1/train/0": 6,
+        "W1/train/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W2/ca-GrQc_M/R": {
+      "ratio": 0.9854184190220947,
+      "time_reduction_pct": 1.4581580977905295,
+      "ratio_ci95": [
+        0.9570827495253836,
+        1.013778227585174
+      ],
+      "ratio_ci97_5": [
+        0.9528325033154588,
+        1.017770011644712
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "W2/ca-GrQc/0": 6,
+        "W2/ca-GrQc/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W2/web-Google_M/R": {
+      "ratio": 1.0052654725800305,
+      "time_reduction_pct": -0.5265472580030517,
+      "ratio_ci95": [
+        0.9965034149513253,
+        1.0174562125281812
+      ],
+      "ratio_ci97_5": [
+        0.9957855180128641,
+        1.019142978191637
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "W2/web-Google/0": 6,
+        "W2/web-Google/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W1/bonsai/0_M/R": {
+      "ratio": 1.0112363857848152,
+      "time_reduction_pct": -1.1236385784815228,
+      "ratio_ci95": [
+        1.005220228366116,
+        1.0161132096766907
+      ],
+      "ratio_ci97_5": [
+        1.0040454204311016,
+        1.0163383835075335
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "W1/bonsai/0": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W1/bonsai/1_M/R": {
+      "ratio": 1.0085333727361776,
+      "time_reduction_pct": -0.8533372736177602,
+      "ratio_ci95": [
+        1.0039089244184314,
+        1.0128851527154048
+      ],
+      "ratio_ci97_5": [
+        1.003077688395776,
+        1.01323292517922
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "W1/bonsai/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W1/train/0_M/R": {
+      "ratio": 0.9954562793288472,
+      "time_reduction_pct": 0.4543720671152829,
+      "ratio_ci95": [
+        0.9891646294136495,
+        1.0006837312862382
+      ],
+      "ratio_ci97_5": [
+        0.9883907192167042,
+        1.0012878358136097
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "W1/train/0": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W1/train/1_M/R": {
+      "ratio": 0.9942056796167269,
+      "time_reduction_pct": 0.5794320383273099,
+      "ratio_ci95": [
+        0.9901124671580689,
+        0.998296079074834
+      ],
+      "ratio_ci97_5": [
+        0.9898861128177512,
+        0.9986998118586844
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "W1/train/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W2/ca-GrQc/0_M/R": {
+      "ratio": 0.9875228543031176,
+      "time_reduction_pct": 1.2477145696882408,
+      "ratio_ci95": [
+        0.9397893637020619,
+        1.0371176489966618
+      ],
+      "ratio_ci97_5": [
+        0.9300594658503799,
+        1.042724150036497
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "W2/ca-GrQc/0": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W2/ca-GrQc/1_M/R": {
+      "ratio": 0.9833184683439676,
+      "time_reduction_pct": 1.6681531656032367,
+      "ratio_ci95": [
+        0.9531393014918663,
+        1.0096939931988784
+      ],
+      "ratio_ci97_5": [
+        0.9503104317031534,
+        1.012892721702294
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "W2/ca-GrQc/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W2/web-Google/0_M/R": {
+      "ratio": 1.013175405383713,
+      "time_reduction_pct": -1.317540538371298,
+      "ratio_ci95": [
+        0.999724776103752,
+        1.0362075247262454
+      ],
+      "ratio_ci97_5": [
+        0.999207015545222,
+        1.037265993263881
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "W2/web-Google/0": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    },
+    "W2/web-Google/1_M/R": {
+      "ratio": 0.9974172931870863,
+      "time_reduction_pct": 0.25827068129137265,
+      "ratio_ci95": [
+        0.9895509688643781,
+        1.004422527825912
+      ],
+      "ratio_ci97_5": [
+        0.9882947280612192,
+        1.005265648187565
+      ],
+      "draws": 20000,
+      "seed": 2026101403,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "W2/web-Google/1": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive."
+    }
+  },
+  "capacity_state": "CAPACITY_RESULT_CONFIRMED",
+  "address_state": "CAUSAL_AFFINITY_NO_NET_GAIN",
+  "original_state": "TOPOLOGY_OBSERVED_NO_DEPLOYABLE_GAIN",
+  "paper_position": "No established publishable new method on T10; bounded measured evidence, novelty and cross-device generality not established",
+  "planned_matrix": {
+    "S1_blocks": 24,
+    "S1_sessions": 120,
+    "S2_allocations": 6,
+    "S2_configurations": 72,
+    "S2_rounds": 432,
+    "S3_blocks": 24,
+    "S3_sessions": 144
+  },
+  "actual_counts": [
+    {
+      "stage": "S1",
+      "status": "SUCCESS",
+      "processes": 24
+    },
+    {
+      "stage": "S1_qualification",
+      "status": "SUCCESS",
+      "processes": 4
+    },
+    {
+      "stage": "S2",
+      "status": "CANCELLED_PRE_LAUNCH",
+      "processes": 1
+    },
+    {
+      "stage": "S2",
+      "status": "SUCCESS",
+      "processes": 6
+    },
+    {
+      "stage": "S2_qualification",
+      "status": "SUCCESS",
+      "processes": 2
+    },
+    {
+      "stage": "S2_sanitizer",
+      "status": "SUCCESS",
+      "processes": 3
+    },
+    {
+      "stage": "S3",
+      "status": "SUCCESS",
+      "processes": 24
+    },
+    {
+      "stage": "S3_qualification",
+      "status": "SUCCESS",
+      "processes": 2
+    },
+    {
+      "stage": "S3_sanitizer",
+      "status": "SUCCESS",
+      "processes": 2
+    }
+  ],
+  "not_executed": {
+    "S4_snapshot": "S3 deployment gate did not pass",
+    "S4_dynamic": "Snapshot and stable scene-rule prerequisites not reached",
+    "physical_memory_mapping": "No physical page/L2 partition mapping or physical GPC proof",
+    "hardware_cache_hit_counters": "Not collected; ordinary/.cg and footprint do not prove service level",
+    "RTX5070Ti": "Not accessed on this host"
+  },
+  "budget": {
+    "worker_seconds": 1664.8115094418754,
+    "cap_seconds": 21600,
+    "old_worker_seconds": 1910.478779042678,
+    "actual_rental_cost_CNY": 0,
+    "electricity": "unmetered"
+  },
+  "source_refs": [
+    "src/supplement/address_kernels.cu",
+    "src/supplement/address_probe_runner.cpp",
+    "src/supplement/address_deploy_runner.cpp",
+    "src/supplement/renderer_runner.cpp",
+    "src/supplement/sparse_runner.cpp",
+    "tools/runlib.py"
+  ],
+  "S1_statistics": {
+    "bonsai_M/N": {
+      "ratio": 1.1179330240811196,
+      "time_reduction_pct": -11.79330240811196,
+      "ratio_ci95": [
+        1.0989572389409559,
+        1.1494669801057937
+      ],
+      "ratio_ci97_5": [
+        1.0985751670764987,
+        1.150824758761713
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "bonsai": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.1967836056358125,
+        1.1013638406441137,
+        1.1086480212428067,
+        1.1096756661048297,
+        1.1005661754447678,
+        1.0938111801498158
+      ]
+    },
+    "bonsai_M/R": {
+      "ratio": 1.0071004249943811,
+      "time_reduction_pct": -0.7100424994381127,
+      "ratio_ci95": [
+        0.9998331077307128,
+        1.0140689011379023
+      ],
+      "ratio_ci97_5": [
+        0.9986852144148345,
+        1.0150729564511536
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "bonsai": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0134912250552803,
+        1.0011340388071446,
+        1.0188045064817397,
+        1.0145376619172897,
+        1.0010039930849928,
+        0.9938700739914454
+      ]
+    },
+    "bonsai_E/N": {
+      "ratio": 1.1015051987120028,
+      "time_reduction_pct": -10.15051987120028,
+      "ratio_ci95": [
+        1.088472135704924,
+        1.124816507095112
+      ],
+      "ratio_ci97_5": [
+        1.087844593982281,
+        1.1255586383775922
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "bonsai": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.1588223794755208,
+        1.0952105918164055,
+        1.0893385192102842,
+        1.091321850484144,
+        1.08503611817985,
+        1.0910505983071634
+      ]
+    },
+    "bonsai_R/E": {
+      "ratio": 1.0077584655729106,
+      "time_reduction_pct": -0.77584655729106,
+      "ratio_ci95": [
+        1.0025894631247312,
+        1.0134800565541238
+      ],
+      "ratio_ci97_5": [
+        1.0018867946526542,
+        1.0141436912946042
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "bonsai": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0190107476903363,
+        1.0044792063975907,
+        0.9989412985487204,
+        1.0022476304805341,
+        1.0132955986015846,
+        1.008713544541781
+      ]
+    },
+    "bonsai_M/E": {
+      "ratio": 1.0149139789701636,
+      "time_reduction_pct": -1.4913978970163555,
+      "ratio_ci95": [
+        1.0075224411332602,
+        1.022647352381828
+      ],
+      "ratio_ci97_5": [
+        1.006593717960146,
+        1.0244884014726467
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "bonsai": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0327584510211762,
+        1.0056183247986152,
+        1.0177258966721574,
+        1.0168179676898648,
+        1.0143129403756341,
+        1.002530205149913
+      ]
+    },
+    "bonsai_M/N_head": {
+      "ratio": 1.126478844036021,
+      "time_reduction_pct": -12.647884403602095,
+      "ratio_ci95": [
+        1.1056543416030191,
+        1.1611316810104904
+      ],
+      "ratio_ci97_5": [
+        1.1046125476200863,
+        1.1632229517443162
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "bonsai": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.2123004293292234,
+        1.1086694099977052,
+        1.1149579417646058,
+        1.1216040738378228,
+        1.1052686286572568,
+        1.0999172379105926
+      ]
+    },
+    "bonsai_M/N_tail": {
+      "ratio": 1.1094520353825603,
+      "time_reduction_pct": -10.945203538256031,
+      "ratio_ci95": [
+        1.0925831758502977,
+        1.1385587117181184
+      ],
+      "ratio_ci97_5": [
+        1.091838620451872,
+        1.139681299969716
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "bonsai": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.1814653893269307,
+        1.0941064112888832,
+        1.102373810675168,
+        1.097874118566413,
+        1.0958837291931591,
+        1.0877390194315555
+      ]
+    },
+    "bonsai_N_tail/N_head": {
+      "ratio": 1.01534704350476,
+      "time_reduction_pct": -1.5347043504760016,
+      "ratio_ci95": [
+        1.0107427185056943,
+        1.0207172003337122
+      ],
+      "ratio_ci97_5": [
+        1.010354324822344,
+        1.0213976797772983
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "bonsai": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0260989786758452,
+        1.013310404324993,
+        1.0114154844459982,
+        1.021614459135257,
+        1.0085637729752657,
+        1.0111959010952842
+      ]
+    },
+    "ca-GrQc_M/N": {
+      "ratio": 1.4365768122297033,
+      "time_reduction_pct": -43.65768122297033,
+      "ratio_ci95": [
+        1.4113554810204478,
+        1.468807604165002
+      ],
+      "ratio_ci97_5": [
+        1.408620178334391,
+        1.4738072791920247
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "ca-GrQc": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.5107960667627904,
+        1.4108100839899445,
+        1.4329897530130995,
+        1.394287217636225,
+        1.4255913584406554,
+        1.4477991844751334
+      ]
+    },
+    "ca-GrQc_M/R": {
+      "ratio": 0.991652666800802,
+      "time_reduction_pct": 0.8347333199198004,
+      "ratio_ci95": [
+        0.9687491440213885,
+        1.0194668312732793
+      ],
+      "ratio_ci97_5": [
+        0.9634955367710266,
+        1.0208718694382906
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "ca-GrQc": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0479876102561483,
+        0.9467398885576664,
+        1.0171230647977538,
+        0.9794778430931491,
+        0.9826537672895235,
+        0.979043613494075
+      ]
+    },
+    "ca-GrQc_E/N": {
+      "ratio": 0.7392218132865518,
+      "time_reduction_pct": 26.077818671344822,
+      "ratio_ci95": [
+        0.7173138495756133,
+        0.7545921935118144
+      ],
+      "ratio_ci97_5": [
+        0.7164524651154477,
+        0.7558854879504158
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "ca-GrQc": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        0.6898227287682166,
+        0.7417000975188276,
+        0.7459896930602342,
+        0.7500351798624089,
+        0.7453181997387901,
+        0.7647625615481464
+      ]
+    },
+    "ca-GrQc_R/E": {
+      "ratio": 1.9597221183825624,
+      "time_reduction_pct": -95.97221183825624,
+      "ratio_ci95": [
+        1.9102910280876442,
+        2.019044182643951
+      ],
+      "ratio_ci97_5": [
+        1.9066199813665785,
+        2.028433942533817
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "ca-GrQc": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        2.089835958442219,
+        2.009136963039279,
+        1.8885859526152662,
+        1.8979116671538077,
+        1.94649281223416,
+        1.933658024335793
+      ]
+    },
+    "ca-GrQc_M/E": {
+      "ratio": 1.943363664882585,
+      "time_reduction_pct": -94.33636648825849,
+      "ratio_ci95": [
+        1.8839084106260822,
+        2.0427859889274345
+      ],
+      "ratio_ci97_5": [
+        1.8806783068955684,
+        2.046731326746429
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "ca-GrQc": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        2.190122191915228,
+        1.9021301044848953,
+        1.920924332258025,
+        1.8589624261251343,
+        1.9127284949438765,
+        1.8931355394075287
+      ]
+    },
+    "ca-GrQc_M/N_head": {
+      "ratio": 1.4448335345894454,
+      "time_reduction_pct": -44.48335345894454,
+      "ratio_ci95": [
+        1.3932173609113054,
+        1.5013039449867078
+      ],
+      "ratio_ci97_5": [
+        1.3876062797416866,
+        1.5083215197499564
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "ca-GrQc": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.567151266982304,
+        1.4121569285704714,
+        1.4757524963211561,
+        1.3436377268370066,
+        1.43503243553752,
+        1.444626461415315
+      ]
+    },
+    "ca-GrQc_M/N_tail": {
+      "ratio": 1.4283672741735463,
+      "time_reduction_pct": -42.83672741735462,
+      "ratio_ci95": [
+        1.409235387997621,
+        1.4467043074402048
+      ],
+      "ratio_ci97_5": [
+        1.4065594354311208,
+        1.4498229713448765
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "ca-GrQc": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.456467415389386,
+        1.4094645239623504,
+        1.3914661417544816,
+        1.4468459812006995,
+        1.4162123941814813,
+        1.4509788755449413
+      ]
+    },
+    "ca-GrQc_N_tail/N_head": {
+      "ratio": 1.0115280297397087,
+      "time_reduction_pct": -1.1528029739708678,
+      "ratio_ci95": [
+        0.9737848826715945,
+        1.0490588541156127
+      ],
+      "ratio_ci97_5": [
+        0.965397224745725,
+        1.0530938626799058
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "ca-GrQc": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.075994732476268,
+        1.0019102322636344,
+        1.0605737732578955,
+        0.9286667304573476,
+        1.0132889963633709,
+        0.9956219802805604
+      ]
+    },
+    "train_M/N": {
+      "ratio": 1.088895338201105,
+      "time_reduction_pct": -8.889533820110508,
+      "ratio_ci95": [
+        1.0719063158847668,
+        1.1182240431429018
+      ],
+      "ratio_ci97_5": [
+        1.0712362919011686,
+        1.1207883895367268
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "train": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.162447287236996,
+        1.0687415700131009,
+        1.084406349914256,
+        1.0736249147757155,
+        1.073094159563781,
+        1.0739607168171366
+      ]
+    },
+    "train_M/R": {
+      "ratio": 0.9952548341581094,
+      "time_reduction_pct": 0.4745165841890553,
+      "ratio_ci95": [
+        0.9907408064662752,
+        1.0004084227466328
+      ],
+      "ratio_ci97_5": [
+        0.9900776348985093,
+        1.0010536281374953
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "train": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        0.999750613416432,
+        0.9970266374579584,
+        1.0057333930727763,
+        0.9885917596238077,
+        0.9897194270436263,
+        0.9908214098149569
+      ]
+    },
+    "train_E/N": {
+      "ratio": 1.0791348900667541,
+      "time_reduction_pct": -7.9134890066754116,
+      "ratio_ci95": [
+        1.0644369837814434,
+        1.09963500922582
+      ],
+      "ratio_ci97_5": [
+        1.0628430498360852,
+        1.1013418869083846
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "train": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.1264904316625892,
+        1.0536772997712354,
+        1.070095188526053,
+        1.0727489274586162,
+        1.0730865944110486,
+        1.0801000947952064
+      ]
+    },
+    "train_R/E": {
+      "ratio": 1.0138556100386185,
+      "time_reduction_pct": -1.385561003861846,
+      "ratio_ci95": [
+        1.0074960192235358,
+        1.0219187869014688
+      ],
+      "ratio_ci97_5": [
+        1.0069548270563986,
+        1.0230831727750984
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "train": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.032176772769696,
+        1.0173217200335392,
+        1.0075967790487195,
+        1.0123658953451826,
+        1.0103944841081727,
+        1.0035268795307748
+      ]
+    },
+    "train_M/E": {
+      "ratio": 1.009044697029254,
+      "time_reduction_pct": -0.9044697029253923,
+      "ratio_ci95": [
+        0.9996530637088914,
+        1.019827753651562
+      ],
+      "ratio_ci97_5": [
+        0.998567938733823,
+        1.0206537063060435
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "train": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0319193617306968,
+        1.0142968537379862,
+        1.013373727441869,
+        1.0008165818624257,
+        1.000007049899581,
+        0.9943159175638867
+      ]
+    },
+    "train_M/N_head": {
+      "ratio": 1.1002249687381782,
+      "time_reduction_pct": -10.022496873817822,
+      "ratio_ci95": [
+        1.0805763832971138,
+        1.1344291693896185
+      ],
+      "ratio_ci97_5": [
+        1.0797807858410453,
+        1.135849410681598
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "train": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.1855320009690642,
+        1.0749113002085038,
+        1.0904141566044765,
+        1.0816552420940293,
+        1.0839312462204165,
+        1.088732015241416
+      ]
+    },
+    "train_M/N_tail": {
+      "ratio": 1.0776823751927227,
+      "time_reduction_pct": -7.76823751927227,
+      "ratio_ci95": [
+        1.06195982702644,
+        1.1032057459998637
+      ],
+      "ratio_ci97_5": [
+        1.0614635043961151,
+        1.105416662516087
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "train": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.1398120797246298,
+        1.0626072525728496,
+        1.078431644171055,
+        1.0656542054894045,
+        1.062365421520227,
+        1.059389826991194
+      ]
+    },
+    "train_N_tail/N_head": {
+      "ratio": 1.0209176600307899,
+      "time_reduction_pct": -2.0917660030789875,
+      "ratio_ci95": [
+        1.0135218837965263,
+        1.0298452974843935
+      ],
+      "ratio_ci97_5": [
+        1.0127929781755145,
+        1.0310951692921562
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "train": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.040111806198334,
+        1.0115791112905195,
+        1.0111110541852022,
+        1.0150152240024954,
+        1.0202998179941976,
+        1.0276972531759698
+      ]
+    },
+    "web-Google_M/N": {
+      "ratio": 1.9262154907179676,
+      "time_reduction_pct": -92.62154907179676,
+      "ratio_ci95": [
+        1.8915896944238075,
+        1.963369464718236
+      ],
+      "ratio_ci97_5": [
+        1.8865122430801495,
+        1.9681600977525089
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "web-Google": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.8603553299036089,
+        1.96719274403487,
+        1.9422756237987353,
+        1.9012513839199918,
+        1.8959184667803195,
+        1.9935005078639267
+      ]
+    },
+    "web-Google_M/R": {
+      "ratio": 1.002202463206515,
+      "time_reduction_pct": -0.22024632065149596,
+      "ratio_ci95": [
+        0.994631445902711,
+        1.010027086606824
+      ],
+      "ratio_ci97_5": [
+        0.9931931556546676,
+        1.0109006170399812
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "web-Google": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        0.9971088879982609,
+        1.010848564986188,
+        1.017153733460715,
+        0.9863210021610855,
+        1.00094368840186,
+        1.0011279461979787
+      ]
+    },
+    "web-Google_E/N": {
+      "ratio": 1.9152278672740284,
+      "time_reduction_pct": -91.52278672740283,
+      "ratio_ci95": [
+        1.8765872759384659,
+        1.9494883737102824
+      ],
+      "ratio_ci97_5": [
+        1.8737714958724179,
+        1.9546390488326513
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "web-Google": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.8364537899206999,
+        1.942149541059618,
+        1.9293270001332845,
+        1.9256950625995175,
+        1.8818460019301482,
+        1.9791677355525952
+      ]
+    },
+    "web-Google_R/E": {
+      "ratio": 1.0035267489839397,
+      "time_reduction_pct": -0.3526748983939676,
+      "ratio_ci95": [
+        0.9971102558989088,
+        1.0095893549455288
+      ],
+      "ratio_ci97_5": [
+        0.9962647866082457,
+        1.0104031597917686
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "web-Google": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0159522829735133,
+        1.0020240570772756,
+        0.9897338412441581,
+        1.0009992347060035,
+        1.0065281619132438,
+        1.0061069833417104
+      ]
+    },
+    "web-Google_M/E": {
+      "ratio": 1.0057369797253306,
+      "time_reduction_pct": -0.5736979725330604,
+      "ratio_ci95": [
+        0.9980673500037466,
+        1.011086400860192
+      ],
+      "ratio_ci97_5": [
+        0.9971368481754332,
+        1.0119015456018177
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "web-Google": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0130150511350144,
+        1.0128945801782023,
+        1.00671147175391,
+        0.987306568337705,
+        1.0074780108657868,
+        1.0072418178883307
+      ]
+    },
+    "web-Google_M/N_head": {
+      "ratio": 1.9338795331741596,
+      "time_reduction_pct": -93.38795331741596,
+      "ratio_ci95": [
+        1.8920415925257172,
+        1.9789386943703235
+      ],
+      "ratio_ci97_5": [
+        1.8854182544579896,
+        1.9839327773291802
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "web-Google": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.8614699777620816,
+        1.9920504667705972,
+        1.959928151816745,
+        1.9018107539707307,
+        1.8846568031031525,
+        2.0080771933604304
+      ]
+    },
+    "web-Google_M/N_tail": {
+      "ratio": 1.9185818211706167,
+      "time_reduction_pct": -91.85818211706167,
+      "ratio_ci95": [
+        1.8895692986366122,
+        1.9486886349696204
+      ],
+      "ratio_ci97_5": [
+        1.8859658526872407,
+        1.9525648230677686
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "web-Google": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.8592413494960554,
+        1.9426452074063294,
+        1.9247820871933126,
+        1.9006921783939583,
+        1.907247423913021,
+        1.979029634913259
+      ]
+    },
+    "web-Google_N_tail/N_head": {
+      "ratio": 1.007973447801256,
+      "time_reduction_pct": -0.7973447801256084,
+      "ratio_ci95": [
+        0.9974607282821376,
+        1.0177746221795503
+      ],
+      "ratio_ci97_5": [
+        0.9966724979250813,
+        1.0189659259819446
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "web-Google": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0011986761517704,
+        1.0254319518437593,
+        1.0182597629400645,
+        1.000588509591131,
+        0.9881553800903711,
+        1.0146776773499122
+      ]
+    },
+    "W1_M/N": {
+      "ratio": 1.1033186567546998,
+      "time_reduction_pct": -10.331865675469976,
+      "ratio_ci95": [
+        1.0873363684208046,
+        1.1252313979064075
+      ],
+      "ratio_ci97_5": [
+        1.086641692353312,
+        1.1268858146460257
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "bonsai": 6,
+        "train": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.1967836056358125,
+        1.1013638406441137,
+        1.1086480212428067,
+        1.1096756661048297,
+        1.1005661754447678,
+        1.0938111801498158,
+        1.162447287236996,
+        1.0687415700131009,
+        1.084406349914256,
+        1.0736249147757155,
+        1.073094159563781,
+        1.0739607168171366
+      ]
+    },
+    "W1_M/R": {
+      "ratio": 1.0011601103012167,
+      "time_reduction_pct": -0.11601103012166547,
+      "ratio_ci95": [
+        0.9968803646463699,
+        1.005486725380719
+      ],
+      "ratio_ci97_5": [
+        0.9962477231768356,
+        1.0061608275982996
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "bonsai": 6,
+        "train": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0134912250552803,
+        1.0011340388071446,
+        1.0188045064817397,
+        1.0145376619172897,
+        1.0010039930849928,
+        0.9938700739914454,
+        0.999750613416432,
+        0.9970266374579584,
+        1.0057333930727763,
+        0.9885917596238077,
+        0.9897194270436263,
+        0.9908214098149569
+      ]
+    },
+    "W1_E/N": {
+      "ratio": 1.0902626708825884,
+      "time_reduction_pct": -9.026267088258844,
+      "ratio_ci95": [
+        1.078550661098902,
+        1.1053081071701927
+      ],
+      "ratio_ci97_5": [
+        1.0775994767595993,
+        1.1072474421473966
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "bonsai": 6,
+        "train": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.1588223794755208,
+        1.0952105918164055,
+        1.0893385192102842,
+        1.091321850484144,
+        1.08503611817985,
+        1.0910505983071634,
+        1.1264904316625892,
+        1.0536772997712354,
+        1.070095188526053,
+        1.0727489274586162,
+        1.0730865944110486,
+        1.0801000947952064
+      ]
+    },
+    "W1_R/E": {
+      "ratio": 1.010802440581247,
+      "time_reduction_pct": -1.080244058124702,
+      "ratio_ci95": [
+        1.00652303758681,
+        1.0156127078716497
+      ],
+      "ratio_ci97_5": [
+        1.0060012668764042,
+        1.0163528878852899
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "bonsai": 6,
+        "train": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0190107476903363,
+        1.0044792063975907,
+        0.9989412985487204,
+        1.0022476304805341,
+        1.0132955986015846,
+        1.008713544541781,
+        1.032176772769696,
+        1.0173217200335392,
+        1.0075967790487195,
+        1.0123658953451826,
+        1.0103944841081727,
+        1.0035268795307748
+      ]
+    },
+    "W1_M/E": {
+      "ratio": 1.0119750829050602,
+      "time_reduction_pct": -1.197508290506022,
+      "ratio_ci95": [
+        1.005951382953655,
+        1.0185616697648487
+      ],
+      "ratio_ci97_5": [
+        1.0051473862622071,
+        1.019492883894154
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "bonsai": 6,
+        "train": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0327584510211762,
+        1.0056183247986152,
+        1.0177258966721574,
+        1.0168179676898648,
+        1.0143129403756341,
+        1.002530205149913,
+        1.0319193617306968,
+        1.0142968537379862,
+        1.013373727441869,
+        1.0008165818624257,
+        1.000007049899581,
+        0.9943159175638867
+      ]
+    },
+    "W1_M/N_head": {
+      "ratio": 1.1132745173423086,
+      "time_reduction_pct": -11.327451734230864,
+      "ratio_ci95": [
+        1.0953365776964987,
+        1.1378153524263472
+      ],
+      "ratio_ci97_5": [
+        1.094444082480307,
+        1.1396927335043856
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "bonsai": 6,
+        "train": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.2123004293292234,
+        1.1086694099977052,
+        1.1149579417646058,
+        1.1216040738378228,
+        1.1052686286572568,
+        1.0999172379105926,
+        1.1855320009690642,
+        1.0749113002085038,
+        1.0904141566044765,
+        1.0816552420940293,
+        1.0839312462204165,
+        1.088732015241416
+      ]
+    },
+    "W1_M/N_tail": {
+      "ratio": 1.093451830056303,
+      "time_reduction_pct": -9.345183005630297,
+      "ratio_ci95": [
+        1.0791418058117888,
+        1.112551283497457
+      ],
+      "ratio_ci97_5": [
+        1.07840511753488,
+        1.1144414849358883
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "bonsai": 6,
+        "train": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.1814653893269307,
+        1.0941064112888832,
+        1.102373810675168,
+        1.097874118566413,
+        1.0958837291931591,
+        1.0877390194315555,
+        1.1398120797246298,
+        1.0626072525728496,
+        1.078431644171055,
+        1.0656542054894045,
+        1.062365421520227,
+        1.059389826991194
+      ]
+    },
+    "W1_N_tail/N_head": {
+      "ratio": 1.0181285418718307,
+      "time_reduction_pct": -1.8128541871830661,
+      "ratio_ci95": [
+        1.0136937720775172,
+        1.023213506581356
+      ],
+      "ratio_ci97_5": [
+        1.0131186363942997,
+        1.024019780671823
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "bonsai": 6,
+        "train": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0260989786758452,
+        1.013310404324993,
+        1.0114154844459982,
+        1.021614459135257,
+        1.0085637729752657,
+        1.0111959010952842,
+        1.040111806198334,
+        1.0115791112905195,
+        1.0111110541852022,
+        1.0150152240024954,
+        1.0202998179941976,
+        1.0276972531759698
+      ]
+    },
+    "W2_M/N": {
+      "ratio": 1.6634772343867805,
+      "time_reduction_pct": -66.34772343867806,
+      "ratio_ci95": [
+        1.6417835410026353,
+        1.6876323847139576
+      ],
+      "ratio_ci97_5": [
+        1.6390426731345038,
+        1.691197024255699
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "ca-GrQc": 6,
+        "web-Google": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.5107960667627904,
+        1.4108100839899445,
+        1.4329897530130995,
+        1.394287217636225,
+        1.4255913584406554,
+        1.4477991844751334,
+        1.8603553299036089,
+        1.96719274403487,
+        1.9422756237987353,
+        1.9012513839199918,
+        1.8959184667803195,
+        1.9935005078639267
+      ]
+    },
+    "W2_M/R": {
+      "ratio": 0.9969136097541619,
+      "time_reduction_pct": 0.3086390245838122,
+      "ratio_ci95": [
+        0.9839787571672138,
+        1.0109536438610212
+      ],
+      "ratio_ci97_5": [
+        0.9824981427367809,
+        1.012979830631051
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "ca-GrQc": 6,
+        "web-Google": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0479876102561483,
+        0.9467398885576664,
+        1.0171230647977538,
+        0.9794778430931491,
+        0.9826537672895235,
+        0.979043613494075,
+        0.9971088879982609,
+        1.010848564986188,
+        1.017153733460715,
+        0.9863210021610855,
+        1.00094368840186,
+        1.0011279461979787
+      ]
+    },
+    "W2_E/N": {
+      "ratio": 1.1898647893366887,
+      "time_reduction_pct": -18.98647893366887,
+      "ratio_ci95": [
+        1.169621611608966,
+        1.2073791289927578
+      ],
+      "ratio_ci97_5": [
+        1.1664723808630615,
+        1.2093732059201223
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "ca-GrQc": 6,
+        "web-Google": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        0.6898227287682166,
+        0.7417000975188276,
+        0.7459896930602342,
+        0.7500351798624089,
+        0.7453181997387901,
+        0.7647625615481464,
+        1.8364537899206999,
+        1.942149541059618,
+        1.9293270001332845,
+        1.9256950625995175,
+        1.8818460019301482,
+        1.9791677355525952
+      ]
+    },
+    "W2_R/E": {
+      "ratio": 1.4023671296676816,
+      "time_reduction_pct": -40.23671296676816,
+      "ratio_ci95": [
+        1.3840928072099803,
+        1.4242990413508938
+      ],
+      "ratio_ci97_5": [
+        1.3820178391862457,
+        1.4275740474664977
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "ca-GrQc": 6,
+        "web-Google": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        2.089835958442219,
+        2.009136963039279,
+        1.8885859526152662,
+        1.8979116671538077,
+        1.94649281223416,
+        1.933658024335793,
+        1.0159522829735133,
+        1.0020240570772756,
+        0.9897338412441581,
+        1.0009992347060035,
+        1.0065281619132438,
+        1.0061069833417104
+      ]
+    },
+    "W2_M/E": {
+      "ratio": 1.3980388774375911,
+      "time_reduction_pct": -39.80388774375911,
+      "ratio_ci95": [
+        1.3753286383794296,
+        1.433948523374926
+      ],
+      "ratio_ci97_5": [
+        1.373486088397049,
+        1.4369029336347878
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "ca-GrQc": 6,
+        "web-Google": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        2.190122191915228,
+        1.9021301044848953,
+        1.920924332258025,
+        1.8589624261251343,
+        1.9127284949438765,
+        1.8931355394075287,
+        1.0130150511350144,
+        1.0128945801782023,
+        1.00671147175391,
+        0.987306568337705,
+        1.0074780108657868,
+        1.0072418178883307
+      ]
+    },
+    "W2_M/N_head": {
+      "ratio": 1.6715663317338643,
+      "time_reduction_pct": -67.15663317338642,
+      "ratio_ci95": [
+        1.6363093499688344,
+        1.708968284149431
+      ],
+      "ratio_ci97_5": [
+        1.6318638879028475,
+        1.7142004799761932
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "ca-GrQc": 6,
+        "web-Google": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.567151266982304,
+        1.4121569285704714,
+        1.4757524963211561,
+        1.3436377268370066,
+        1.43503243553752,
+        1.444626461415315,
+        1.8614699777620816,
+        1.9920504667705972,
+        1.959928151816745,
+        1.9018107539707307,
+        1.8846568031031525,
+        2.0080771933604304
+      ]
+    },
+    "W2_M/N_tail": {
+      "ratio": 1.6554272820587412,
+      "time_reduction_pct": -65.54272820587413,
+      "ratio_ci95": [
+        1.6383461280845713,
+        1.672417983366072
+      ],
+      "ratio_ci97_5": [
+        1.6360563934220094,
+        1.674734993388974
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "ca-GrQc": 6,
+        "web-Google": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.456467415389386,
+        1.4094645239623504,
+        1.3914661417544816,
+        1.4468459812006995,
+        1.4162123941814813,
+        1.4509788755449413,
+        1.8592413494960554,
+        1.9426452074063294,
+        1.9247820871933126,
+        1.9006921783939583,
+        1.907247423913021,
+        1.979029634913259
+      ]
+    },
+    "W2_N_tail/N_head": {
+      "ratio": 1.009749174639101,
+      "time_reduction_pct": -0.9749174639100966,
+      "ratio_ci95": [
+        0.9892943658905158,
+        1.0288780370884547
+      ],
+      "ratio_ci97_5": [
+        0.9859239680236203,
+        1.0312648483396687
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 2,
+      "independent_blocks": 12,
+      "blocks_per_stratum": {
+        "ca-GrQc": 6,
+        "web-Google": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.075994732476268,
+        1.0019102322636344,
+        1.0605737732578955,
+        0.9286667304573476,
+        1.0132889963633709,
+        0.9956219802805604,
+        1.0011986761517704,
+        1.0254319518437593,
+        1.0182597629400645,
+        1.000588509591131,
+        0.9881553800903711,
+        1.0146776773499122
+      ]
+    }
+  },
+  "S3_statistics": {
+    "2MiB/coalesced_A/N": {
+      "ratio": 1.1316009983688269,
+      "time_reduction_pct": -13.160099836882688,
+      "ratio_ci95": [
+        1.1027804761491913,
+        1.1558450021521307
+      ],
+      "ratio_ci97_5": [
+        1.1017898856051667,
+        1.1572332339466334
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "2MiB/coalesced": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.069925313917233,
+        1.177484229781201,
+        1.1359616503387628,
+        1.1328992332421832,
+        1.14108782232392,
+        1.1349516121943422
+      ],
+      "ratio_ci98_75": [
+        1.0923188593392072,
+        1.1591431816569464
+      ],
+      "leave_one_out_ratios": [
+        1.1443563761473796,
+        1.122641174302726,
+        1.1307308787593955,
+        1.1313415299726952,
+        1.129713119274752,
+        1.130932063544728
+      ]
+    },
+    "2MiB/coalesced_A/I": {
+      "ratio": 0.942155258540061,
+      "time_reduction_pct": 5.784474145993901,
+      "ratio_ci95": [
+        0.9167599872958125,
+        0.9696070425604376
+      ],
+      "ratio_ci97_5": [
+        0.9140008853772628,
+        0.975675375346432
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "2MiB/coalesced": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        0.927296123643034,
+        0.9877946383558333,
+        0.9027931535351156,
+        0.9353936790370502,
+        0.9134863302389417,
+        0.9898400213412162
+      ],
+      "ratio_ci98_75": [
+        0.9117180462606996,
+        0.9787930065342156
+      ],
+      "leave_one_out_ratios": [
+        0.9451555369042327,
+        0.9332836096757604,
+        0.9502312751659804,
+        0.9435134283755264,
+        0.9479961228871,
+        0.9328975872569369
+      ]
+    },
+    "2MiB/coalesced_A/P0": {
+      "ratio": 0.9559596954047254,
+      "time_reduction_pct": 4.404030459527464,
+      "ratio_ci95": [
+        0.9379012000311502,
+        0.972795628835014
+      ],
+      "ratio_ci97_5": [
+        0.9365207019705831,
+        0.976857193599466
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "2MiB/coalesced": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        0.9604785218973373,
+        0.9203973689675747,
+        0.9394033913022672,
+        0.9923000187892975,
+        0.9607207785996541,
+        0.9640113783431719
+      ],
+      "ratio_ci98_75": [
+        0.933335796539977,
+        0.9774962134651302
+      ],
+      "leave_one_out_ratios": [
+        0.9550584845161822,
+        0.9632353776198856,
+        0.9593058080968366,
+        0.948852920642562,
+        0.9550103138791711,
+        0.9543574468381528
+      ]
+    },
+    "2MiB/coalesced_A/P1": {
+      "ratio": 0.9407818803559915,
+      "time_reduction_pct": 5.921811964400847,
+      "ratio_ci95": [
+        0.896519979896926,
+        0.9838703197293212
+      ],
+      "ratio_ci97_5": [
+        0.890614800335384,
+        0.9898817261586415
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "2MiB/coalesced": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        0.9169083555650799,
+        1.0279974877432367,
+        0.9596981842527129,
+        0.9752748404662943,
+        0.9251061314494851,
+        0.8494981323383803
+      ],
+      "ratio_ci98_75": [
+        0.8838701168253243,
+        0.9970986680756393
+      ],
+      "leave_one_out_ratios": [
+        0.9456306647323703,
+        0.9242475806000247,
+        0.9370435992457665,
+        0.9340310826777095,
+        0.9439487619086522,
+        0.960183519220179
+      ]
+    },
+    "2MiB/coalesced_A/N_head": {
+      "ratio": 1.122856971963142,
+      "time_reduction_pct": -12.285697196314205,
+      "ratio_ci95": [
+        1.102215028166911,
+        1.1430499282064261
+      ],
+      "ratio_ci97_5": [
+        1.0987070202778153,
+        1.145391232156195
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "2MiB/coalesced": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.080717684363686,
+        1.1468567876504652,
+        1.1244319443881763,
+        1.1071140910597717,
+        1.1610208310376193,
+        1.1188184684612204
+      ],
+      "ratio_ci98_75": [
+        1.0966695482637994,
+        1.1486941244372946
+      ],
+      "leave_one_out_ratios": [
+        1.1314799856812785,
+        1.1181176165037292,
+        1.1225422423014806,
+        1.126032310098837,
+        1.1153760774687147,
+        1.123666420275404
+      ]
+    },
+    "2MiB/coalesced_A/N_tail": {
+      "ratio": 1.1404131171493133,
+      "time_reduction_pct": -14.041311714931325,
+      "ratio_ci95": [
+        1.1031330585062264,
+        1.1746231287627706
+      ],
+      "ratio_ci97_5": [
+        1.098318781703524,
+        1.1804938826820928
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "2MiB/coalesced": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0592407193141278,
+        1.2089295946217051,
+        1.1476095796464592,
+        1.1592849219831982,
+        1.1214970338579187,
+        1.1513173927081846
+      ],
+      "ratio_ci98_75": [
+        1.0899244583237513,
+        1.1824870991681595
+      ],
+      "leave_one_out_ratios": [
+        1.157379301623851,
+        1.1271830330164558,
+        1.1389792490647446,
+        1.136675782712321,
+        1.1442344493866803,
+        1.138244686568154
+      ]
+    },
+    "2MiB/coalesced_N_tail/N_head": {
+      "ratio": 0.9846054513735721,
+      "time_reduction_pct": 1.5394548626427862,
+      "ratio_ci95": [
+        0.9608075065632884,
+        1.0111805952088362
+      ],
+      "ratio_ci97_5": [
+        0.9584253911316916,
+        1.0153400132399446
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "2MiB/coalesced": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0202758113976822,
+        0.9486547378380098,
+        0.9798035536916456,
+        0.9549974040599288,
+        1.035241998851963,
+        0.971772402247378
+      ],
+      "ratio_ci98_75": [
+        0.9558974918721356,
+        1.0189382964379092
+      ],
+      "leave_one_out_ratios": [
+        0.9776224476226293,
+        0.9919574583300222,
+        0.9855686512491241,
+        0.9906363161990777,
+        0.9747793191041976,
+        0.9871923265139907
+      ]
+    },
+    "2MiB/irregular_A/N": {
+      "ratio": 1.0862261753562157,
+      "time_reduction_pct": -8.622617535621568,
+      "ratio_ci95": [
+        1.0751071200095041,
+        1.1009825874349999
+      ],
+      "ratio_ci97_5": [
+        1.0738772635105631,
+        1.1027731702243906
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "2MiB/irregular": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0719156690788458,
+        1.120288556878115,
+        1.0700884453903665,
+        1.0880194626347865,
+        1.08722794173534,
+        1.0805730221941503
+      ],
+      "ratio_ci98_75": [
+        1.0732312764733745,
+        1.1054074569535248
+      ],
+      "leave_one_out_ratios": [
+        1.0891111216022287,
+        1.0795390007752799,
+        1.089482808970856,
+        1.0858678727427313,
+        1.08602593287032,
+        1.0873603500705042
+      ]
+    },
+    "2MiB/irregular_A/I": {
+      "ratio": 0.9418133791455445,
+      "time_reduction_pct": 5.818662085445547,
+      "ratio_ci95": [
+        0.874595398101546,
+        1.0049904360895445
+      ],
+      "ratio_ci97_5": [
+        0.8647315697933748,
+        1.0092078014700512
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "2MiB/irregular": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        0.800715055029152,
+        1.0406288464750741,
+        1.0283983570737416,
+        0.9428906057046812,
+        0.9548107928050531,
+        0.9046389374304319
+      ],
+      "ratio_ci98_75": [
+        0.8536513254410584,
+        1.019636264130899
+      ],
+      "leave_one_out_ratios": [
+        0.972886613901146,
+        0.9232060771856366,
+        0.9253915977089915,
+        0.9415980815629362,
+        0.9392352053192548,
+        0.949429608701151
+      ]
+    },
+    "2MiB/irregular_A/P0": {
+      "ratio": 0.9930566653544564,
+      "time_reduction_pct": 0.6943334645543642,
+      "ratio_ci95": [
+        0.9757403514620235,
+        1.011645316075287
+      ],
+      "ratio_ci97_5": [
+        0.9751099230487535,
+        1.0161317307302082
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "2MiB/irregular": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        0.9822761331669497,
+        1.029512104076442,
+        1.0214303492573262,
+        0.9828451054246108,
+        0.9730307278638118,
+        0.9708647725448403
+      ],
+      "ratio_ci98_75": [
+        0.9738419023015774,
+        1.0185371097123408
+      ],
+      "leave_one_out_ratios": [
+        0.9952269284717123,
+        0.9859219723689949,
+        0.9874772190943246,
+        0.9951116737529543,
+        0.9971110423357067,
+        0.9975555477554573
+      ]
+    },
+    "2MiB/irregular_A/P1": {
+      "ratio": 0.9905018629502776,
+      "time_reduction_pct": 0.9498137049722355,
+      "ratio_ci95": [
+        0.9774419187064919,
+        1.0055430913878851
+      ],
+      "ratio_ci97_5": [
+        0.9755869092199232,
+        1.0076091637983748
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "2MiB/irregular": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        0.9797222799440299,
+        1.0239409625926104,
+        0.9903513661210693,
+        0.9679559190007624,
+        1.0026234024054925,
+        0.9794249346906949
+      ],
+      "ratio_ci98_75": [
+        0.975364223517911,
+        1.010800216802844
+      ],
+      "leave_one_out_ratios": [
+        0.9926719705305227,
+        0.9839462448101183,
+        0.9905319650604033,
+        0.9950736820639153,
+        0.9880951977371196,
+        0.9927322366010746
+      ]
+    },
+    "2MiB/irregular_A/N_head": {
+      "ratio": 1.0829018167622704,
+      "time_reduction_pct": -8.290181676227037,
+      "ratio_ci95": [
+        1.0709850896579396,
+        1.0959803586348997
+      ],
+      "ratio_ci97_5": [
+        1.0697022031301169,
+        1.0972947603746896
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "2MiB/irregular": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.077847250885516,
+        1.1108515142471256,
+        1.0591392791610748,
+        1.086944301598668,
+        1.0841186496381048,
+        1.07915563821949
+      ],
+      "ratio_ci98_75": [
+        1.067864298833286,
+        1.0983562819551373
+      ],
+      "leave_one_out_ratios": [
+        1.0839155707951544,
+        1.0773968377267866,
+        1.0877179208599472,
+        1.0820951257294393,
+        1.0826586141314087,
+        1.0836526115656084
+      ]
+    },
+    "2MiB/irregular_A/N_tail": {
+      "ratio": 1.0895607392706161,
+      "time_reduction_pct": -8.956073927061613,
+      "ratio_ci95": [
+        1.0763614890008766,
+        1.1069152362821713
+      ],
+      "ratio_ci97_5": [
+        1.0750073210945226,
+        1.1084787844686848
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "2MiB/irregular": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0660167298035736,
+        1.1298057702362239,
+        1.0811508018709082,
+        1.0890956871764146,
+        1.0903461513964874,
+        1.0819922677884517
+      ],
+      "ratio_ci98_75": [
+        1.0736963119419558,
+        1.1123050992870005
+      ],
+      "leave_one_out_ratios": [
+        1.0943315763307118,
+        1.0816854230366886,
+        1.0912505607194638,
+        1.0896537735164347,
+        1.0894037247494637,
+        1.0910807746748696
+      ]
+    },
+    "2MiB/irregular_N_tail/N_head": {
+      "ratio": 0.9938884338721645,
+      "time_reduction_pct": 0.6111566127835477,
+      "ratio_ci95": [
+        0.9860138316026292,
+        1.001935988037359
+      ],
+      "ratio_ci97_5": [
+        0.9850083780382219,
+        1.0038038695238876
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "2MiB/irregular": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0110978756253874,
+        0.9832234384985171,
+        0.9796406545028289,
+        0.99802461289391,
+        0.9942885094330763,
+        0.9973783273195106
+      ],
+      "ratio_ci98_75": [
+        0.9838610812637814,
+        1.0043230955426763
+      ],
+      "leave_one_out_ratios": [
+        0.9904818559924203,
+        0.9960352749343128,
+        0.996762760096831,
+        0.9930632573660506,
+        0.993808438079642,
+        0.9931919219166201
+      ]
+    },
+    "32MiB/coalesced_A/N": {
+      "ratio": 1.1167527560673836,
+      "time_reduction_pct": -11.675275606738357,
+      "ratio_ci95": [
+        1.0905803382017043,
+        1.1464179965411048
+      ],
+      "ratio_ci97_5": [
+        1.0875538810109695,
+        1.1489636327527941
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "32MiB/coalesced": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0989432094447207,
+        1.1747734121638425,
+        1.0730431723689562,
+        1.116913079569002,
+        1.0910847408998874,
+        1.148994063082066
+      ],
+      "ratio_ci98_75": [
+        1.0846178846140015,
+        1.152900699325168
+      ],
+      "leave_one_out_ratios": [
+        1.1203491515190536,
+        1.105497125755107,
+        1.1257060506910996,
+        1.1167206941287369,
+        1.1219583707743055,
+        1.1104138821793514
+      ]
+    },
+    "32MiB/coalesced_A/I": {
+      "ratio": 0.9949878023468186,
+      "time_reduction_pct": 0.5012197653181394,
+      "ratio_ci95": [
+        0.9599369902548659,
+        1.0347895084293177
+      ],
+      "ratio_ci97_5": [
+        0.9549056914446826,
+        1.0393915359655554
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "32MiB/coalesced": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        0.9613626835465392,
+        1.0700918646136492,
+        0.9551678339961408,
+        1.006725611491183,
+        0.9413460478709482,
+        1.0419769400172527
+      ],
+      "ratio_ci98_75": [
+        0.9515628733148527,
+        1.0452526104851214
+      ],
+      "leave_one_out_ratios": [
+        1.0018526608387435,
+        0.9806117563226153,
+        1.0031488284695396,
+        0.9926567145355676,
+        1.0060775250886316,
+        0.9858473798478372
+      ]
+    },
+    "32MiB/coalesced_A/P0": {
+      "ratio": 1.0044425729710127,
+      "time_reduction_pct": -0.44425729710126927,
+      "ratio_ci95": [
+        0.9687281497699274,
+        1.0416104098509844
+      ],
+      "ratio_ci97_5": [
+        0.9680412270359295,
+        1.0435703288971436
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "32MiB/coalesced": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0040658676481091,
+        1.0644321674487798,
+        0.9527548932896223,
+        0.9504031196477215,
+        1.0030652537350992,
+        1.0579185904219575
+      ],
+      "ratio_ci98_75": [
+        0.960169875327308,
+        1.050894587556263
+      ],
+      "leave_one_out_ratios": [
+        1.0045179309937684,
+        0.9928566205680277,
+        1.0151118478042274,
+        1.0156137303793897,
+        1.004718263680496,
+        0.9940762190777196
+      ]
+    },
+    "32MiB/coalesced_A/P1": {
+      "ratio": 1.0103076487413534,
+      "time_reduction_pct": -1.030764874135337,
+      "ratio_ci95": [
+        0.9905865170865652,
+        1.0318279655120577
+      ],
+      "ratio_ci97_5": [
+        0.9876760309428535,
+        1.0345817033976015
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "32MiB/coalesced": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.006741336382042,
+        1.0545098759079048,
+        0.9738432882728938,
+        1.006213887279013,
+        0.9917085512759065,
+        1.0308366541761453
+      ],
+      "ratio_ci98_75": [
+        0.9852025802073716,
+        1.0382496712596623
+      ],
+      "leave_one_out_ratios": [
+        1.0110224257935243,
+        1.0016920772961064,
+        1.0177627554163544,
+        1.011128397515979,
+        1.0140691188769395,
+        1.0062511705179997
+      ]
+    },
+    "32MiB/coalesced_A/N_head": {
+      "ratio": 1.2278359964294596,
+      "time_reduction_pct": -22.783599642945962,
+      "ratio_ci95": [
+        1.1970365166363035,
+        1.263030165341053
+      ],
+      "ratio_ci97_5": [
+        1.1931972309687275,
+        1.2670729282269926
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "32MiB/coalesced": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.197625665100328,
+        1.2975488424470747,
+        1.175936599911706,
+        1.237312810836414,
+        1.2013884687541367,
+        1.261393193973846
+      ],
+      "ratio_ci98_75": [
+        1.1897663186084284,
+        1.2708949026936156
+      ],
+      "leave_one_out_ratios": [
+        1.233968901791221,
+        1.2143494789283105,
+        1.2384875700647842,
+        1.225949361566852,
+        1.2331949621650091,
+        1.2212324539299972
+      ]
+    },
+    "32MiB/coalesced_A/N_tail": {
+      "ratio": 1.0157192994917594,
+      "time_reduction_pct": -1.571929949175943,
+      "ratio_ci95": [
+        0.9936113808441039,
+        1.0397676875222064
+      ],
+      "ratio_ci97_5": [
+        0.9907458627761836,
+        1.0434276976426315
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "32MiB/coalesced": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0083920316482973,
+        1.0636151216661194,
+        0.9791528300540071,
+        1.0082291368736538,
+        0.9909083887404966,
+        1.0466104964771261
+      ],
+      "ratio_ci98_75": [
+        0.9887505475143468,
+        1.0462342431893266
+      ],
+      "leave_one_out_ratios": [
+        1.0171911297662761,
+        1.0064021241490986,
+        1.0231948573341478,
+        1.0172239961865377,
+        1.020755536935205,
+        1.0096513450561289
+      ]
+    },
+    "32MiB/coalesced_N_tail/N_head": {
+      "ratio": 1.2088339731693964,
+      "time_reduction_pct": -20.883397316939643,
+      "ratio_ci95": [
+        1.1984104870042833,
+        1.2186330941892225
+      ],
+      "ratio_ci97_5": [
+        1.1968892707028653,
+        1.219889803015525
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "32MiB/coalesced": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.1876587949060977,
+        1.2199420786858555,
+        1.2009734985363263,
+        1.227213899682675,
+        1.2124112404388592,
+        1.2052174120359724
+      ],
+      "ratio_ci98_75": [
+        1.1951981126798612,
+        1.2210987016520969
+      ],
+      "leave_one_out_ratios": [
+        1.2131140998789034,
+        1.2066245189566038,
+        1.2104122310500702,
+        1.2051911537309412,
+        1.2081197872976017,
+        1.209558586644686
+      ]
+    },
+    "32MiB/irregular_A/N": {
+      "ratio": 0.9891918458094078,
+      "time_reduction_pct": 1.0808154190592223,
+      "ratio_ci95": [
+        0.9628773077402778,
+        1.0120955287109654
+      ],
+      "ratio_ci97_5": [
+        0.9580490862485996,
+        1.0148231332409139
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "32MiB/irregular": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        0.993165330505417,
+        1.0071811317256787,
+        0.9700394350966487,
+        1.0269878079880843,
+        0.9314610335678911,
+        1.0093334465078376
+      ],
+      "ratio_ci98_75": [
+        0.9542944561992667,
+        1.0155875669060168
+      ],
+      "leave_one_out_ratios": [
+        0.9883990585771014,
+        0.9856327306081868,
+        0.993067468447691,
+        0.9818012386160448,
+        1.0011604732719959,
+        0.985212016582621
+      ]
+    },
+    "32MiB/irregular_A/I": {
+      "ratio": 0.9814255827307732,
+      "time_reduction_pct": 1.8574417269226817,
+      "ratio_ci95": [
+        0.9673053955176448,
+        0.9957518885987314
+      ],
+      "ratio_ci97_5": [
+        0.9654574412732027,
+        0.9977556850218753
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "32MiB/irregular": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0079142665350445,
+        0.9863557788173879,
+        0.9655101725195187,
+        0.9989846552207448,
+        0.956011178186239,
+        0.9747840620274518
+      ],
+      "ratio_ci98_75": [
+        0.9638678332102627,
+        0.9993465986322052
+      ],
+      "leave_one_out_ratios": [
+        0.9762119753502196,
+        0.9804425046322388,
+        0.9846400092419029,
+        0.9779509793420977,
+        0.9865889690407966,
+        0.9827593071364475
+      ]
+    },
+    "32MiB/irregular_A/P0": {
+      "ratio": 0.9912871227805017,
+      "time_reduction_pct": 0.8712877219498316,
+      "ratio_ci95": [
+        0.9782893627494216,
+        1.0036041764699775
+      ],
+      "ratio_ci97_5": [
+        0.976477993011326,
+        1.0057508049316375
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "32MiB/irregular": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0163952369552791,
+        0.9780047238784324,
+        0.992836912885836,
+        0.9964104576032141,
+        0.9987509389316245,
+        0.9660949692367053
+      ],
+      "ratio_ci98_75": [
+        0.9750568566247612,
+        1.0067468273948064
+      ],
+      "leave_one_out_ratios": [
+        0.9863404255719549,
+        0.993965171421157,
+        0.9909774551817389,
+        0.9902656213347777,
+        0.989801066320806,
+        0.9964038417591395
+      ]
+    },
+    "32MiB/irregular_A/P1": {
+      "ratio": 0.9935343897576324,
+      "time_reduction_pct": 0.6465610242367581,
+      "ratio_ci95": [
+        0.9789173167239804,
+        1.008105929452693
+      ],
+      "ratio_ci97_5": [
+        0.976916439489761,
+        1.0102562319701849
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "32MiB/irregular": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0219171257990116,
+        0.9653017903438407,
+        0.9966252923543734,
+        1.008888272477641,
+        0.9908036741482904,
+        0.9787145605351297
+      ],
+      "ratio_ci98_75": [
+        0.9746798622887344,
+        1.0123253942992918
+      ],
+      "leave_one_out_ratios": [
+        0.9879531483486306,
+        0.9992792345587745,
+        0.9929173605144371,
+        0.99049176757395,
+        0.9940814353389092,
+        0.9965251760670832
+      ]
+    },
+    "32MiB/irregular_A/N_head": {
+      "ratio": 0.9795399595887739,
+      "time_reduction_pct": 2.0460040411226066,
+      "ratio_ci95": [
+        0.9238355005248737,
+        1.0252198594000708
+      ],
+      "ratio_ci97_5": [
+        0.9209678664066415,
+        1.0345972712522113
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "32MiB/irregular": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        0.9548112002825161,
+        1.030529904619152,
+        0.9599049911776387,
+        1.0443615430801083,
+        0.8660116851885639,
+        1.0340748306183898
+      ],
+      "ratio_ci98_75": [
+        0.9093281347201224,
+        1.0363055226213076
+      ],
+      "leave_one_out_ratios": [
+        0.9845620410986264,
+        0.9696488106473051,
+        0.9835148890353972,
+        0.9670666679263819,
+        1.0039725493535783,
+        0.9689830838888739
+      ]
+    },
+    "32MiB/irregular_A/N_tail": {
+      "ratio": 0.9989388367847829,
+      "time_reduction_pct": 0.1061163215217098,
+      "ratio_ci95": [
+        0.9860271275340878,
+        1.0148541781061577
+      ],
+      "ratio_ci97_5": [
+        0.9840893567377135,
+        1.01670677776319
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "32MiB/irregular": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        1.0330601206040297,
+        0.9843613732675821,
+        0.9802808760148318,
+        1.0099030979688886,
+        1.0018567553929139,
+        0.9851840273785234
+      ],
+      "ratio_ci98_75": [
+        0.9831361953824732,
+        1.0196964249009974
+      ],
+      "leave_one_out_ratios": [
+        0.9922510296110818,
+        1.001880133280036,
+        1.0027128291431617,
+        0.9967603104498474,
+        0.9983562736725877,
+        1.0017127582075636
+      ]
+    },
+    "32MiB/irregular_N_tail/N_head": {
+      "ratio": 0.9805805155614464,
+      "time_reduction_pct": 1.941948443855357,
+      "ratio_ci95": [
+        0.9214304985976438,
+        1.0340821178899213
+      ],
+      "ratio_ci97_5": [
+        0.9126024163621808,
+        1.041393328541509
+      ],
+      "draws": 20000,
+      "seed": 2026101503,
+      "strata": 1,
+      "independent_blocks": 6,
+      "blocks_per_stratum": {
+        "32MiB/irregular": 6
+      },
+      "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+      "all_block_ratios": [
+        0.9242552115207375,
+        1.046902014448529,
+        0.9792142381477155,
+        1.034120546001416,
+        0.8644066933989247,
+        1.0496260616099917
+      ],
+      "ratio_ci98_75": [
+        0.9038589146089946,
+        1.0439796445640166
+      ],
+      "leave_one_out_ratios": [
+        0.9922509644404511,
+        0.9678291628288813,
+        0.9808539997197708,
+        0.9702098466279577,
+        1.00562552250043,
+        0.967326287849967
+      ]
+    }
+  },
+  "S2_layout": {
+    "frozen_at": "2026-10-15T05:11:40.935940+00:00",
+    "window_bytes": 65536,
+    "valid_group_matrix": true,
+    "quality": {
+      "4096": {
+        "valid": true,
+        "mean_spearman": 0.8838892961876832,
+        "minimum_sm_coverage": 56
+      },
+      "65536": {
+        "valid": true,
+        "mean_spearman": 0.9828071420813357,
+        "minimum_sm_coverage": 56
+      }
+    },
+    "rule": "dev-only registered coverage and split-round correlation rule; no physical domain identification"
+  },
+  "S2_confirmation_all": [
+    {
+      "allocation": 3,
+      "task_order_randomized": false,
+      "bytes": 524288,
+      "recipe": 0,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 8,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 16,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 2,
+      "missing_SM_region_cells": 320,
+      "potential_SM_region_cells": 448,
+      "split_round_spearman": 1.0,
+      "group_interaction_log_rms": 0.011751817436556917,
+      "split_sign_agreement": 1.0
+    },
+    {
+      "allocation": 3,
+      "task_order_randomized": false,
+      "bytes": 524288,
+      "recipe": 0,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 8,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 16,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 2,
+      "missing_SM_region_cells": 320,
+      "potential_SM_region_cells": 448,
+      "split_round_spearman": 0.9761904761904763,
+      "group_interaction_log_rms": 0.0069781762549230705,
+      "split_sign_agreement": 0.875
+    },
+    {
+      "allocation": 3,
+      "task_order_randomized": false,
+      "bytes": 524288,
+      "recipe": 1,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 8,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 16,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 2,
+      "missing_SM_region_cells": 320,
+      "potential_SM_region_cells": 448,
+      "split_round_spearman": 1.0,
+      "group_interaction_log_rms": 0.012367055009285841,
+      "split_sign_agreement": 1.0
+    },
+    {
+      "allocation": 3,
+      "task_order_randomized": false,
+      "bytes": 524288,
+      "recipe": 1,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 8,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 16,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 2,
+      "missing_SM_region_cells": 320,
+      "potential_SM_region_cells": 448,
+      "split_round_spearman": 0.9285714285714287,
+      "group_interaction_log_rms": 0.007509272693293004,
+      "split_sign_agreement": 1.0
+    },
+    {
+      "allocation": 3,
+      "task_order_randomized": false,
+      "bytes": 4194304,
+      "recipe": 0,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 6,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 5,
+      "missing_SM_region_cells": 1383,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": 0.9824046920821112,
+      "group_interaction_log_rms": 0.013527629451247974,
+      "split_sign_agreement": 0.9375
+    },
+    {
+      "allocation": 3,
+      "task_order_randomized": false,
+      "bytes": 4194304,
+      "recipe": 0,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 10,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 9,
+      "missing_SM_region_cells": 1194,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": -0.7005131964809382,
+      "group_interaction_log_rms": 0.005381095918214732,
+      "split_sign_agreement": 0.34375
+    },
+    {
+      "allocation": 3,
+      "task_order_randomized": false,
+      "bytes": 4194304,
+      "recipe": 1,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 6,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 5,
+      "missing_SM_region_cells": 1388,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": 0.9967008797653958,
+      "group_interaction_log_rms": 0.014944677591220855,
+      "split_sign_agreement": 1.0
+    },
+    {
+      "allocation": 3,
+      "task_order_randomized": false,
+      "bytes": 4194304,
+      "recipe": 1,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 10,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 9,
+      "missing_SM_region_cells": 1194,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": -0.4017595307917888,
+      "group_interaction_log_rms": 0.009313297855575857,
+      "split_sign_agreement": 0.375
+    },
+    {
+      "allocation": 3,
+      "task_order_randomized": false,
+      "bytes": 33554432,
+      "recipe": 0,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 8,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 5,
+      "missing_SM_region_cells": 1378,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": 0.9948680351906156,
+      "group_interaction_log_rms": 0.007529423381012498,
+      "split_sign_agreement": 1.0
+    },
+    {
+      "allocation": 3,
+      "task_order_randomized": false,
+      "bytes": 33554432,
+      "recipe": 0,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 10,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 9,
+      "missing_SM_region_cells": 1194,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": -0.4721407624633431,
+      "group_interaction_log_rms": 0.004458041601986863,
+      "split_sign_agreement": 0.46875
+    },
+    {
+      "allocation": 3,
+      "task_order_randomized": false,
+      "bytes": 33554432,
+      "recipe": 1,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 6,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 5,
+      "missing_SM_region_cells": 1386,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": 0.9970674486803517,
+      "group_interaction_log_rms": 0.00766029724055484,
+      "split_sign_agreement": 1.0
+    },
+    {
+      "allocation": 3,
+      "task_order_randomized": false,
+      "bytes": 33554432,
+      "recipe": 1,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 10,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 9,
+      "missing_SM_region_cells": 1194,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": -0.48093841642228735,
+      "group_interaction_log_rms": 0.0046076809031628495,
+      "split_sign_agreement": 0.4375
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 524288,
+      "recipe": 0,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 8,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 46,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 5,
+      "missing_SM_region_cells": 62,
+      "potential_SM_region_cells": 448,
+      "split_round_spearman": -0.4285714285714286,
+      "group_interaction_log_rms": 0.003569882632932668,
+      "split_sign_agreement": 0.25
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 524288,
+      "recipe": 0,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 8,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 46,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 5,
+      "missing_SM_region_cells": 62,
+      "potential_SM_region_cells": 448,
+      "split_round_spearman": -0.1666666666666667,
+      "group_interaction_log_rms": 0.0028278702436577005,
+      "split_sign_agreement": 0.375
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 524288,
+      "recipe": 1,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 8,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 46,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 5,
+      "missing_SM_region_cells": 62,
+      "potential_SM_region_cells": 448,
+      "split_round_spearman": -0.523809523809524,
+      "group_interaction_log_rms": 0.003681882890690651,
+      "split_sign_agreement": 0.25
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 524288,
+      "recipe": 1,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 8,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 46,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 5,
+      "missing_SM_region_cells": 62,
+      "potential_SM_region_cells": 448,
+      "split_round_spearman": -0.2142857142857143,
+      "group_interaction_log_rms": 0.002865070185767447,
+      "split_sign_agreement": 0.375
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 4194304,
+      "recipe": 0,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 42,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 23,
+      "missing_SM_region_cells": 309,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": 0.2987536656891495,
+      "group_interaction_log_rms": 0.006140473788686108,
+      "split_sign_agreement": 0.59375
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 4194304,
+      "recipe": 0,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 52,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 30,
+      "missing_SM_region_cells": 15,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": -0.12976539589442815,
+      "group_interaction_log_rms": 0.00823539411590212,
+      "split_sign_agreement": 0.46875
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 4194304,
+      "recipe": 1,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 41,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 23,
+      "missing_SM_region_cells": 320,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": 0.2489002932551319,
+      "group_interaction_log_rms": 0.006245070732025741,
+      "split_sign_agreement": 0.59375
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 4194304,
+      "recipe": 1,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 52,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 30,
+      "missing_SM_region_cells": 14,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": -0.1502932551319648,
+      "group_interaction_log_rms": 0.008750943754833915,
+      "split_sign_agreement": 0.40625
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 33554432,
+      "recipe": 0,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 41,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 23,
+      "missing_SM_region_cells": 315,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": 0.2653958944281525,
+      "group_interaction_log_rms": 0.003115453311708288,
+      "split_sign_agreement": 0.5625
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 33554432,
+      "recipe": 0,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 53,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 31,
+      "missing_SM_region_cells": 3,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": -0.03189149560117301,
+      "group_interaction_log_rms": 0.009125716498820182,
+      "split_sign_agreement": 0.40625
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 33554432,
+      "recipe": 1,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 41,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 23,
+      "missing_SM_region_cells": 320,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": 0.25843108504398826,
+      "group_interaction_log_rms": 0.0031344955885148837,
+      "split_sign_agreement": 0.5625
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 33554432,
+      "recipe": 1,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 53,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 31,
+      "missing_SM_region_cells": 4,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": -0.024926686217008793,
+      "group_interaction_log_rms": 0.010672176529334046,
+      "split_sign_agreement": 0.40625
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 524288,
+      "recipe": 0,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 8,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 46,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 5,
+      "missing_SM_region_cells": 62,
+      "potential_SM_region_cells": 448,
+      "split_round_spearman": -0.4761904761904762,
+      "group_interaction_log_rms": 0.0035819364856986688,
+      "split_sign_agreement": 0.25
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 524288,
+      "recipe": 0,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 8,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 46,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 5,
+      "missing_SM_region_cells": 62,
+      "potential_SM_region_cells": 448,
+      "split_round_spearman": -0.30952380952380953,
+      "group_interaction_log_rms": 0.002701939611531887,
+      "split_sign_agreement": 0.25
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 524288,
+      "recipe": 1,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 8,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 46,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 5,
+      "missing_SM_region_cells": 62,
+      "potential_SM_region_cells": 448,
+      "split_round_spearman": -0.523809523809524,
+      "group_interaction_log_rms": 0.0036552078572606927,
+      "split_sign_agreement": 0.25
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 524288,
+      "recipe": 1,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 8,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 46,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 5,
+      "missing_SM_region_cells": 62,
+      "potential_SM_region_cells": 448,
+      "split_round_spearman": -0.14285714285714288,
+      "group_interaction_log_rms": 0.0028437064528792685,
+      "split_sign_agreement": 0.25
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 4194304,
+      "recipe": 0,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 42,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 23,
+      "missing_SM_region_cells": 305,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": 0.2441348973607038,
+      "group_interaction_log_rms": 0.006083907018621642,
+      "split_sign_agreement": 0.625
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 4194304,
+      "recipe": 0,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 52,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 30,
+      "missing_SM_region_cells": 12,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": -0.1601906158357771,
+      "group_interaction_log_rms": 0.008026236867755446,
+      "split_sign_agreement": 0.46875
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 4194304,
+      "recipe": 1,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 41,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 23,
+      "missing_SM_region_cells": 321,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": 0.24303519061583576,
+      "group_interaction_log_rms": 0.006082552261792272,
+      "split_sign_agreement": 0.59375
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 4194304,
+      "recipe": 1,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 52,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 30,
+      "missing_SM_region_cells": 14,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": -0.14479472140762462,
+      "group_interaction_log_rms": 0.008990917114090544,
+      "split_sign_agreement": 0.46875
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 33554432,
+      "recipe": 0,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 41,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 23,
+      "missing_SM_region_cells": 308,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": 0.2595307917888563,
+      "group_interaction_log_rms": 0.0031150050327161047,
+      "split_sign_agreement": 0.625
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 33554432,
+      "recipe": 0,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 51,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 31,
+      "missing_SM_region_cells": 6,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": -0.06121700879765395,
+      "group_interaction_log_rms": 0.008906484432006275,
+      "split_sign_agreement": 0.40625
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 33554432,
+      "recipe": 1,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 41,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 23,
+      "missing_SM_region_cells": 320,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": 0.25733137829912023,
+      "group_interaction_log_rms": 0.0031443654529245218,
+      "split_sign_agreement": 0.59375
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 33554432,
+      "recipe": 1,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 55,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 31,
+      "missing_SM_region_cells": 1,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": -0.04802052785923753,
+      "group_interaction_log_rms": 0.010741898003124346,
+      "split_sign_agreement": 0.40625
+    }
+  ],
+  "S2_confirmation_order_controlled": [
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 524288,
+      "recipe": 0,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 8,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 46,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 5,
+      "missing_SM_region_cells": 62,
+      "potential_SM_region_cells": 448,
+      "split_round_spearman": -0.4285714285714286,
+      "group_interaction_log_rms": 0.003569882632932668,
+      "split_sign_agreement": 0.25
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 524288,
+      "recipe": 0,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 8,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 46,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 5,
+      "missing_SM_region_cells": 62,
+      "potential_SM_region_cells": 448,
+      "split_round_spearman": -0.1666666666666667,
+      "group_interaction_log_rms": 0.0028278702436577005,
+      "split_sign_agreement": 0.375
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 524288,
+      "recipe": 1,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 8,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 46,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 5,
+      "missing_SM_region_cells": 62,
+      "potential_SM_region_cells": 448,
+      "split_round_spearman": -0.523809523809524,
+      "group_interaction_log_rms": 0.003681882890690651,
+      "split_sign_agreement": 0.25
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 524288,
+      "recipe": 1,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 8,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 46,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 5,
+      "missing_SM_region_cells": 62,
+      "potential_SM_region_cells": 448,
+      "split_round_spearman": -0.2142857142857143,
+      "group_interaction_log_rms": 0.002865070185767447,
+      "split_sign_agreement": 0.375
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 4194304,
+      "recipe": 0,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 42,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 23,
+      "missing_SM_region_cells": 309,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": 0.2987536656891495,
+      "group_interaction_log_rms": 0.006140473788686108,
+      "split_sign_agreement": 0.59375
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 4194304,
+      "recipe": 0,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 52,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 30,
+      "missing_SM_region_cells": 15,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": -0.12976539589442815,
+      "group_interaction_log_rms": 0.00823539411590212,
+      "split_sign_agreement": 0.46875
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 4194304,
+      "recipe": 1,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 41,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 23,
+      "missing_SM_region_cells": 320,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": 0.2489002932551319,
+      "group_interaction_log_rms": 0.006245070732025741,
+      "split_sign_agreement": 0.59375
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 4194304,
+      "recipe": 1,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 52,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 30,
+      "missing_SM_region_cells": 14,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": -0.1502932551319648,
+      "group_interaction_log_rms": 0.008750943754833915,
+      "split_sign_agreement": 0.40625
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 33554432,
+      "recipe": 0,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 41,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 23,
+      "missing_SM_region_cells": 315,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": 0.2653958944281525,
+      "group_interaction_log_rms": 0.003115453311708288,
+      "split_sign_agreement": 0.5625
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 33554432,
+      "recipe": 0,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 53,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 31,
+      "missing_SM_region_cells": 3,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": -0.03189149560117301,
+      "group_interaction_log_rms": 0.009125716498820182,
+      "split_sign_agreement": 0.40625
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 33554432,
+      "recipe": 1,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 41,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 23,
+      "missing_SM_region_cells": 320,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": 0.25843108504398826,
+      "group_interaction_log_rms": 0.0031344955885148837,
+      "split_sign_agreement": 0.5625
+    },
+    {
+      "allocation": 4,
+      "task_order_randomized": true,
+      "bytes": 33554432,
+      "recipe": 1,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 53,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 31,
+      "missing_SM_region_cells": 4,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": -0.024926686217008793,
+      "group_interaction_log_rms": 0.010672176529334046,
+      "split_sign_agreement": 0.40625
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 524288,
+      "recipe": 0,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 8,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 46,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 5,
+      "missing_SM_region_cells": 62,
+      "potential_SM_region_cells": 448,
+      "split_round_spearman": -0.4761904761904762,
+      "group_interaction_log_rms": 0.0035819364856986688,
+      "split_sign_agreement": 0.25
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 524288,
+      "recipe": 0,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 8,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 46,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 5,
+      "missing_SM_region_cells": 62,
+      "potential_SM_region_cells": 448,
+      "split_round_spearman": -0.30952380952380953,
+      "group_interaction_log_rms": 0.002701939611531887,
+      "split_sign_agreement": 0.25
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 524288,
+      "recipe": 1,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 8,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 46,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 5,
+      "missing_SM_region_cells": 62,
+      "potential_SM_region_cells": 448,
+      "split_round_spearman": -0.523809523809524,
+      "group_interaction_log_rms": 0.0036552078572606927,
+      "split_sign_agreement": 0.25
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 524288,
+      "recipe": 1,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 8,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 46,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 5,
+      "missing_SM_region_cells": 62,
+      "potential_SM_region_cells": 448,
+      "split_round_spearman": -0.14285714285714288,
+      "group_interaction_log_rms": 0.0028437064528792685,
+      "split_sign_agreement": 0.25
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 4194304,
+      "recipe": 0,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 42,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 23,
+      "missing_SM_region_cells": 305,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": 0.2441348973607038,
+      "group_interaction_log_rms": 0.006083907018621642,
+      "split_sign_agreement": 0.625
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 4194304,
+      "recipe": 0,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 52,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 30,
+      "missing_SM_region_cells": 12,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": -0.1601906158357771,
+      "group_interaction_log_rms": 0.008026236867755446,
+      "split_sign_agreement": 0.46875
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 4194304,
+      "recipe": 1,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 41,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 23,
+      "missing_SM_region_cells": 321,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": 0.24303519061583576,
+      "group_interaction_log_rms": 0.006082552261792272,
+      "split_sign_agreement": 0.59375
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 4194304,
+      "recipe": 1,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 52,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 30,
+      "missing_SM_region_cells": 14,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": -0.14479472140762462,
+      "group_interaction_log_rms": 0.008990917114090544,
+      "split_sign_agreement": 0.46875
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 33554432,
+      "recipe": 0,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 41,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 23,
+      "missing_SM_region_cells": 308,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": 0.2595307917888563,
+      "group_interaction_log_rms": 0.0031150050327161047,
+      "split_sign_agreement": 0.625
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 33554432,
+      "recipe": 0,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 51,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 31,
+      "missing_SM_region_cells": 6,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": -0.06121700879765395,
+      "group_interaction_log_rms": 0.008906484432006275,
+      "split_sign_agreement": 0.40625
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 33554432,
+      "recipe": 1,
+      "access": 0,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 41,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 23,
+      "missing_SM_region_cells": 320,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": 0.25733137829912023,
+      "group_interaction_log_rms": 0.0031443654529245218,
+      "split_sign_agreement": 0.59375
+    },
+    {
+      "allocation": 5,
+      "task_order_randomized": true,
+      "bytes": 33554432,
+      "recipe": 1,
+      "access": 1,
+      "window_bytes": 65536,
+      "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": 32,
+      "sm_coverage": 56,
+      "group_sm_coverage": [
+        28,
+        28
+      ],
+      "minimum_region_sm_coverage": 55,
+      "missing_group_region_round_cells": 0,
+      "minimum_regions_per_observed_SM": 31,
+      "missing_SM_region_cells": 1,
+      "potential_SM_region_cells": 1792,
+      "split_round_spearman": -0.04802052785923753,
+      "group_interaction_log_rms": 0.010741898003124346,
+      "split_sign_agreement": 0.40625
+    }
+  ],
+  "S2_deviation": "Initial3 development and first confirmation used fixed CTA order; only final2 confirmation allocations use fixed per-round shuffle. All72 formal configurations retained; no replacement run beyond cap.",
+  "S4_gate": {
+    "any_pass": false,
+    "conditions": {
+      "2MiB/coalesced": {
+        "pass_gate": false,
+        "comparisons": {
+          "N": {
+            "ratio": 1.1316009983688269,
+            "time_reduction_pct": -13.160099836882688,
+            "ratio_ci95": [
+              1.1027804761491913,
+              1.1558450021521307
+            ],
+            "ratio_ci97_5": [
+              1.1017898856051667,
+              1.1572332339466334
+            ],
+            "draws": 20000,
+            "seed": 2026101503,
+            "strata": 1,
+            "independent_blocks": 6,
+            "blocks_per_stratum": {
+              "2MiB/coalesced": 6
+            },
+            "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+            "all_block_ratios": [
+              1.069925313917233,
+              1.177484229781201,
+              1.1359616503387628,
+              1.1328992332421832,
+              1.14108782232392,
+              1.1349516121943422
+            ],
+            "ratio_ci98_75": [
+              1.0923188593392072,
+              1.1591431816569464
+            ],
+            "leave_one_out_ratios": [
+              1.1443563761473796,
+              1.122641174302726,
+              1.1307308787593955,
+              1.1313415299726952,
+              1.129713119274752,
+              1.130932063544728
+            ]
+          },
+          "I": {
+            "ratio": 0.942155258540061,
+            "time_reduction_pct": 5.784474145993901,
+            "ratio_ci95": [
+              0.9167599872958125,
+              0.9696070425604376
+            ],
+            "ratio_ci97_5": [
+              0.9140008853772628,
+              0.975675375346432
+            ],
+            "draws": 20000,
+            "seed": 2026101503,
+            "strata": 1,
+            "independent_blocks": 6,
+            "blocks_per_stratum": {
+              "2MiB/coalesced": 6
+            },
+            "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+            "all_block_ratios": [
+              0.927296123643034,
+              0.9877946383558333,
+              0.9027931535351156,
+              0.9353936790370502,
+              0.9134863302389417,
+              0.9898400213412162
+            ],
+            "ratio_ci98_75": [
+              0.9117180462606996,
+              0.9787930065342156
+            ],
+            "leave_one_out_ratios": [
+              0.9451555369042327,
+              0.9332836096757604,
+              0.9502312751659804,
+              0.9435134283755264,
+              0.9479961228871,
+              0.9328975872569369
+            ]
+          },
+          "P0": {
+            "ratio": 0.9559596954047254,
+            "time_reduction_pct": 4.404030459527464,
+            "ratio_ci95": [
+              0.9379012000311502,
+              0.972795628835014
+            ],
+            "ratio_ci97_5": [
+              0.9365207019705831,
+              0.976857193599466
+            ],
+            "draws": 20000,
+            "seed": 2026101503,
+            "strata": 1,
+            "independent_blocks": 6,
+            "blocks_per_stratum": {
+              "2MiB/coalesced": 6
+            },
+            "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+            "all_block_ratios": [
+              0.9604785218973373,
+              0.9203973689675747,
+              0.9394033913022672,
+              0.9923000187892975,
+              0.9607207785996541,
+              0.9640113783431719
+            ],
+            "ratio_ci98_75": [
+              0.933335796539977,
+              0.9774962134651302
+            ],
+            "leave_one_out_ratios": [
+              0.9550584845161822,
+              0.9632353776198856,
+              0.9593058080968366,
+              0.948852920642562,
+              0.9550103138791711,
+              0.9543574468381528
+            ]
+          },
+          "P1": {
+            "ratio": 0.9407818803559915,
+            "time_reduction_pct": 5.921811964400847,
+            "ratio_ci95": [
+              0.896519979896926,
+              0.9838703197293212
+            ],
+            "ratio_ci97_5": [
+              0.890614800335384,
+              0.9898817261586415
+            ],
+            "draws": 20000,
+            "seed": 2026101503,
+            "strata": 1,
+            "independent_blocks": 6,
+            "blocks_per_stratum": {
+              "2MiB/coalesced": 6
+            },
+            "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+            "all_block_ratios": [
+              0.9169083555650799,
+              1.0279974877432367,
+              0.9596981842527129,
+              0.9752748404662943,
+              0.9251061314494851,
+              0.8494981323383803
+            ],
+            "ratio_ci98_75": [
+              0.8838701168253243,
+              0.9970986680756393
+            ],
+            "leave_one_out_ratios": [
+              0.9456306647323703,
+              0.9242475806000247,
+              0.9370435992457665,
+              0.9340310826777095,
+              0.9439487619086522,
+              0.960183519220179
+            ]
+          }
+        }
+      },
+      "2MiB/irregular": {
+        "pass_gate": false,
+        "comparisons": {
+          "N": {
+            "ratio": 1.0862261753562157,
+            "time_reduction_pct": -8.622617535621568,
+            "ratio_ci95": [
+              1.0751071200095041,
+              1.1009825874349999
+            ],
+            "ratio_ci97_5": [
+              1.0738772635105631,
+              1.1027731702243906
+            ],
+            "draws": 20000,
+            "seed": 2026101503,
+            "strata": 1,
+            "independent_blocks": 6,
+            "blocks_per_stratum": {
+              "2MiB/irregular": 6
+            },
+            "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+            "all_block_ratios": [
+              1.0719156690788458,
+              1.120288556878115,
+              1.0700884453903665,
+              1.0880194626347865,
+              1.08722794173534,
+              1.0805730221941503
+            ],
+            "ratio_ci98_75": [
+              1.0732312764733745,
+              1.1054074569535248
+            ],
+            "leave_one_out_ratios": [
+              1.0891111216022287,
+              1.0795390007752799,
+              1.089482808970856,
+              1.0858678727427313,
+              1.08602593287032,
+              1.0873603500705042
+            ]
+          },
+          "I": {
+            "ratio": 0.9418133791455445,
+            "time_reduction_pct": 5.818662085445547,
+            "ratio_ci95": [
+              0.874595398101546,
+              1.0049904360895445
+            ],
+            "ratio_ci97_5": [
+              0.8647315697933748,
+              1.0092078014700512
+            ],
+            "draws": 20000,
+            "seed": 2026101503,
+            "strata": 1,
+            "independent_blocks": 6,
+            "blocks_per_stratum": {
+              "2MiB/irregular": 6
+            },
+            "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+            "all_block_ratios": [
+              0.800715055029152,
+              1.0406288464750741,
+              1.0283983570737416,
+              0.9428906057046812,
+              0.9548107928050531,
+              0.9046389374304319
+            ],
+            "ratio_ci98_75": [
+              0.8536513254410584,
+              1.019636264130899
+            ],
+            "leave_one_out_ratios": [
+              0.972886613901146,
+              0.9232060771856366,
+              0.9253915977089915,
+              0.9415980815629362,
+              0.9392352053192548,
+              0.949429608701151
+            ]
+          },
+          "P0": {
+            "ratio": 0.9930566653544564,
+            "time_reduction_pct": 0.6943334645543642,
+            "ratio_ci95": [
+              0.9757403514620235,
+              1.011645316075287
+            ],
+            "ratio_ci97_5": [
+              0.9751099230487535,
+              1.0161317307302082
+            ],
+            "draws": 20000,
+            "seed": 2026101503,
+            "strata": 1,
+            "independent_blocks": 6,
+            "blocks_per_stratum": {
+              "2MiB/irregular": 6
+            },
+            "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+            "all_block_ratios": [
+              0.9822761331669497,
+              1.029512104076442,
+              1.0214303492573262,
+              0.9828451054246108,
+              0.9730307278638118,
+              0.9708647725448403
+            ],
+            "ratio_ci98_75": [
+              0.9738419023015774,
+              1.0185371097123408
+            ],
+            "leave_one_out_ratios": [
+              0.9952269284717123,
+              0.9859219723689949,
+              0.9874772190943246,
+              0.9951116737529543,
+              0.9971110423357067,
+              0.9975555477554573
+            ]
+          },
+          "P1": {
+            "ratio": 0.9905018629502776,
+            "time_reduction_pct": 0.9498137049722355,
+            "ratio_ci95": [
+              0.9774419187064919,
+              1.0055430913878851
+            ],
+            "ratio_ci97_5": [
+              0.9755869092199232,
+              1.0076091637983748
+            ],
+            "draws": 20000,
+            "seed": 2026101503,
+            "strata": 1,
+            "independent_blocks": 6,
+            "blocks_per_stratum": {
+              "2MiB/irregular": 6
+            },
+            "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+            "all_block_ratios": [
+              0.9797222799440299,
+              1.0239409625926104,
+              0.9903513661210693,
+              0.9679559190007624,
+              1.0026234024054925,
+              0.9794249346906949
+            ],
+            "ratio_ci98_75": [
+              0.975364223517911,
+              1.010800216802844
+            ],
+            "leave_one_out_ratios": [
+              0.9926719705305227,
+              0.9839462448101183,
+              0.9905319650604033,
+              0.9950736820639153,
+              0.9880951977371196,
+              0.9927322366010746
+            ]
+          }
+        }
+      },
+      "32MiB/coalesced": {
+        "pass_gate": false,
+        "comparisons": {
+          "N": {
+            "ratio": 1.1167527560673836,
+            "time_reduction_pct": -11.675275606738357,
+            "ratio_ci95": [
+              1.0905803382017043,
+              1.1464179965411048
+            ],
+            "ratio_ci97_5": [
+              1.0875538810109695,
+              1.1489636327527941
+            ],
+            "draws": 20000,
+            "seed": 2026101503,
+            "strata": 1,
+            "independent_blocks": 6,
+            "blocks_per_stratum": {
+              "32MiB/coalesced": 6
+            },
+            "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+            "all_block_ratios": [
+              1.0989432094447207,
+              1.1747734121638425,
+              1.0730431723689562,
+              1.116913079569002,
+              1.0910847408998874,
+              1.148994063082066
+            ],
+            "ratio_ci98_75": [
+              1.0846178846140015,
+              1.152900699325168
+            ],
+            "leave_one_out_ratios": [
+              1.1203491515190536,
+              1.105497125755107,
+              1.1257060506910996,
+              1.1167206941287369,
+              1.1219583707743055,
+              1.1104138821793514
+            ]
+          },
+          "I": {
+            "ratio": 0.9949878023468186,
+            "time_reduction_pct": 0.5012197653181394,
+            "ratio_ci95": [
+              0.9599369902548659,
+              1.0347895084293177
+            ],
+            "ratio_ci97_5": [
+              0.9549056914446826,
+              1.0393915359655554
+            ],
+            "draws": 20000,
+            "seed": 2026101503,
+            "strata": 1,
+            "independent_blocks": 6,
+            "blocks_per_stratum": {
+              "32MiB/coalesced": 6
+            },
+            "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+            "all_block_ratios": [
+              0.9613626835465392,
+              1.0700918646136492,
+              0.9551678339961408,
+              1.006725611491183,
+              0.9413460478709482,
+              1.0419769400172527
+            ],
+            "ratio_ci98_75": [
+              0.9515628733148527,
+              1.0452526104851214
+            ],
+            "leave_one_out_ratios": [
+              1.0018526608387435,
+              0.9806117563226153,
+              1.0031488284695396,
+              0.9926567145355676,
+              1.0060775250886316,
+              0.9858473798478372
+            ]
+          },
+          "P0": {
+            "ratio": 1.0044425729710127,
+            "time_reduction_pct": -0.44425729710126927,
+            "ratio_ci95": [
+              0.9687281497699274,
+              1.0416104098509844
+            ],
+            "ratio_ci97_5": [
+              0.9680412270359295,
+              1.0435703288971436
+            ],
+            "draws": 20000,
+            "seed": 2026101503,
+            "strata": 1,
+            "independent_blocks": 6,
+            "blocks_per_stratum": {
+              "32MiB/coalesced": 6
+            },
+            "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+            "all_block_ratios": [
+              1.0040658676481091,
+              1.0644321674487798,
+              0.9527548932896223,
+              0.9504031196477215,
+              1.0030652537350992,
+              1.0579185904219575
+            ],
+            "ratio_ci98_75": [
+              0.960169875327308,
+              1.050894587556263
+            ],
+            "leave_one_out_ratios": [
+              1.0045179309937684,
+              0.9928566205680277,
+              1.0151118478042274,
+              1.0156137303793897,
+              1.004718263680496,
+              0.9940762190777196
+            ]
+          },
+          "P1": {
+            "ratio": 1.0103076487413534,
+            "time_reduction_pct": -1.030764874135337,
+            "ratio_ci95": [
+              0.9905865170865652,
+              1.0318279655120577
+            ],
+            "ratio_ci97_5": [
+              0.9876760309428535,
+              1.0345817033976015
+            ],
+            "draws": 20000,
+            "seed": 2026101503,
+            "strata": 1,
+            "independent_blocks": 6,
+            "blocks_per_stratum": {
+              "32MiB/coalesced": 6
+            },
+            "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+            "all_block_ratios": [
+              1.006741336382042,
+              1.0545098759079048,
+              0.9738432882728938,
+              1.006213887279013,
+              0.9917085512759065,
+              1.0308366541761453
+            ],
+            "ratio_ci98_75": [
+              0.9852025802073716,
+              1.0382496712596623
+            ],
+            "leave_one_out_ratios": [
+              1.0110224257935243,
+              1.0016920772961064,
+              1.0177627554163544,
+              1.011128397515979,
+              1.0140691188769395,
+              1.0062511705179997
+            ]
+          }
+        }
+      },
+      "32MiB/irregular": {
+        "pass_gate": false,
+        "comparisons": {
+          "N": {
+            "ratio": 0.9891918458094078,
+            "time_reduction_pct": 1.0808154190592223,
+            "ratio_ci95": [
+              0.9628773077402778,
+              1.0120955287109654
+            ],
+            "ratio_ci97_5": [
+              0.9580490862485996,
+              1.0148231332409139
+            ],
+            "draws": 20000,
+            "seed": 2026101503,
+            "strata": 1,
+            "independent_blocks": 6,
+            "blocks_per_stratum": {
+              "32MiB/irregular": 6
+            },
+            "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+            "all_block_ratios": [
+              0.993165330505417,
+              1.0071811317256787,
+              0.9700394350966487,
+              1.0269878079880843,
+              0.9314610335678911,
+              1.0093334465078376
+            ],
+            "ratio_ci98_75": [
+              0.9542944561992667,
+              1.0155875669060168
+            ],
+            "leave_one_out_ratios": [
+              0.9883990585771014,
+              0.9856327306081868,
+              0.993067468447691,
+              0.9818012386160448,
+              1.0011604732719959,
+              0.985212016582621
+            ]
+          },
+          "I": {
+            "ratio": 0.9814255827307732,
+            "time_reduction_pct": 1.8574417269226817,
+            "ratio_ci95": [
+              0.9673053955176448,
+              0.9957518885987314
+            ],
+            "ratio_ci97_5": [
+              0.9654574412732027,
+              0.9977556850218753
+            ],
+            "draws": 20000,
+            "seed": 2026101503,
+            "strata": 1,
+            "independent_blocks": 6,
+            "blocks_per_stratum": {
+              "32MiB/irregular": 6
+            },
+            "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+            "all_block_ratios": [
+              1.0079142665350445,
+              0.9863557788173879,
+              0.9655101725195187,
+              0.9989846552207448,
+              0.956011178186239,
+              0.9747840620274518
+            ],
+            "ratio_ci98_75": [
+              0.9638678332102627,
+              0.9993465986322052
+            ],
+            "leave_one_out_ratios": [
+              0.9762119753502196,
+              0.9804425046322388,
+              0.9846400092419029,
+              0.9779509793420977,
+              0.9865889690407966,
+              0.9827593071364475
+            ]
+          },
+          "P0": {
+            "ratio": 0.9912871227805017,
+            "time_reduction_pct": 0.8712877219498316,
+            "ratio_ci95": [
+              0.9782893627494216,
+              1.0036041764699775
+            ],
+            "ratio_ci97_5": [
+              0.976477993011326,
+              1.0057508049316375
+            ],
+            "draws": 20000,
+            "seed": 2026101503,
+            "strata": 1,
+            "independent_blocks": 6,
+            "blocks_per_stratum": {
+              "32MiB/irregular": 6
+            },
+            "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+            "all_block_ratios": [
+              1.0163952369552791,
+              0.9780047238784324,
+              0.992836912885836,
+              0.9964104576032141,
+              0.9987509389316245,
+              0.9660949692367053
+            ],
+            "ratio_ci98_75": [
+              0.9750568566247612,
+              1.0067468273948064
+            ],
+            "leave_one_out_ratios": [
+              0.9863404255719549,
+              0.993965171421157,
+              0.9909774551817389,
+              0.9902656213347777,
+              0.989801066320806,
+              0.9964038417591395
+            ]
+          },
+          "P1": {
+            "ratio": 0.9935343897576324,
+            "time_reduction_pct": 0.6465610242367581,
+            "ratio_ci95": [
+              0.9789173167239804,
+              1.008105929452693
+            ],
+            "ratio_ci97_5": [
+              0.976916439489761,
+              1.0102562319701849
+            ],
+            "draws": 20000,
+            "seed": 2026101503,
+            "strata": 1,
+            "independent_blocks": 6,
+            "blocks_per_stratum": {
+              "32MiB/irregular": 6
+            },
+            "scope": "Within-device exploratory paired process blocks; 97.5% marginal intervals provide Bonferroni joint 95% coverage for two primary contrasts within a declared aggregate. Cell intervals descriptive.",
+            "all_block_ratios": [
+              1.0219171257990116,
+              0.9653017903438407,
+              0.9966252923543734,
+              1.008888272477641,
+              0.9908036741482904,
+              0.9787145605351297
+            ],
+            "ratio_ci98_75": [
+              0.9746798622887344,
+              1.0123253942992918
+            ],
+            "leave_one_out_ratios": [
+              0.9879531483486306,
+              0.9992792345587745,
+              0.9929173605144371,
+              0.99049176757395,
+              0.9940814353389092,
+              0.9965251760670832
+            ]
+          }
+        }
+      }
+    }
+  },
+  "S3_effect_scope": "Within-executor empirical table matching only; not established physical address affinity. Per-condition multiple-comparison intervals, not global familywise inference over all4 conditions.",
+  "final_checks": {
+    "status": "PASS",
+    "success_processes": 67,
+    "cancelled_before_GPU": 1,
+    "S1_orders_balanced": true,
+    "actual_process_windows_nonoverlapping": true,
+    "sanitizer_zero_error_runs": [
+      "t10_20261015T050359Z_984c3f5c",
+      "t10_20261015T050553Z_6c1be29c",
+      "t10_20261015T050633Z_590f4ddd",
+      "t10_20261015T050755Z_4e4eda1e",
+      "t10_20261015T052350Z_551daf69"
+    ],
+    "S2_max_segment_ms": 0.655488,
+    "S2_segments_over_target_2ms": 0,
+    "old_index_prefix_sha256": "abf0654eca704659ce06abd5d99ef8f8ae362bdacd244238da1ca7b435857aad",
+    "S2_controlled_confirmation_allocations": [
+      4,
+      5
+    ],
+    "S2_initial_uncontrolled_allocations": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "telemetry_ranges": {
+    "temperature.gpu": [
+      38.0,
+      80.0
+    ],
+    "clocks.current.sm [MHz]": [
+      300.0,
+      1590.0
+    ],
+    "power.draw [W]": [
+      14.06,
+      147.82
+    ],
+    "utilization.gpu [%]": [
+      0.0,
+      100.0
+    ]
+  },
+  "old_index_prefix_unchanged": true,
+  "old_M_R_hashes_unchanged": true,
+  "process_refs": [
+    {
+      "run_id": "t10_20261015T045508Z_fd2a1d85",
+      "path": "runs/t10/S1_qualification/t10_20261015T045508Z_fd2a1d85",
+      "stage": "S1_qualification",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T045510Z_f7131f00",
+      "path": "runs/t10/S1_qualification/t10_20261015T045510Z_f7131f00",
+      "stage": "S1_qualification",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T045516Z_9f835ae0",
+      "path": "runs/t10/S1_qualification/t10_20261015T045516Z_9f835ae0",
+      "stage": "S1_qualification",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T045518Z_f7fc7c09",
+      "path": "runs/t10/S1_qualification/t10_20261015T045518Z_f7fc7c09",
+      "stage": "S1_qualification",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T045559Z_269ddd0c",
+      "path": "runs/t10/S1/t10_20261015T045559Z_269ddd0c",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T045658Z_1d7ef457",
+      "path": "runs/t10/S1/t10_20261015T045658Z_1d7ef457",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T045735Z_672798f7",
+      "path": "runs/t10/S1/t10_20261015T045735Z_672798f7",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T045855Z_fb91a4a2",
+      "path": "runs/t10/S1/t10_20261015T045855Z_fb91a4a2",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T045933Z_36e90180",
+      "path": "runs/t10/S1/t10_20261015T045933Z_36e90180",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T050009Z_3e9aec12",
+      "path": "runs/t10/S1/t10_20261015T050009Z_3e9aec12",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T050034Z_96fc1acf",
+      "path": "runs/t10/S2_qualification/t10_20261015T050034Z_96fc1acf",
+      "stage": "S2_qualification",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T050157Z_d40c7685",
+      "path": "runs/t10/S1/t10_20261015T050157Z_d40c7685",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T050158Z_8739b0a5",
+      "path": "runs/t10/S3_qualification/t10_20261015T050158Z_8739b0a5",
+      "stage": "S3_qualification",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T050237Z_6a0e33b4",
+      "path": "runs/t10/S1/t10_20261015T050237Z_6a0e33b4",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T050238Z_080b53d6",
+      "path": "runs/t10/S3_qualification/t10_20261015T050238Z_080b53d6",
+      "stage": "S3_qualification",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T050359Z_c09fabbe",
+      "path": "runs/t10/S1/t10_20261015T050359Z_c09fabbe",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T050359Z_984c3f5c",
+      "path": "runs/t10/S2_sanitizer/t10_20261015T050359Z_984c3f5c",
+      "stage": "S2_sanitizer",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T050552Z_ca1f0ffb",
+      "path": "runs/t10/S1/t10_20261015T050552Z_ca1f0ffb",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T050553Z_6c1be29c",
+      "path": "runs/t10/S3_sanitizer/t10_20261015T050553Z_6c1be29c",
+      "stage": "S3_sanitizer",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T050633Z_c52e5508",
+      "path": "runs/t10/S1/t10_20261015T050633Z_c52e5508",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T050633Z_590f4ddd",
+      "path": "runs/t10/S2_sanitizer/t10_20261015T050633Z_590f4ddd",
+      "stage": "S2_sanitizer",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T050754Z_e1bab6a8",
+      "path": "runs/t10/S1/t10_20261015T050754Z_e1bab6a8",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T050755Z_4e4eda1e",
+      "path": "runs/t10/S3_sanitizer/t10_20261015T050755Z_4e4eda1e",
+      "stage": "S3_sanitizer",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T050831Z_911a4663",
+      "path": "runs/t10/S1/t10_20261015T050831Z_911a4663",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T050837Z_d43d4d7a",
+      "path": "runs/t10/S2/t10_20261015T050837Z_d43d4d7a",
+      "stage": "S2",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T050912Z_246294aa",
+      "path": "runs/t10/S1/t10_20261015T050912Z_246294aa",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T050922Z_4f27b83c",
+      "path": "runs/t10/S2/t10_20261015T050922Z_4f27b83c",
+      "stage": "S2",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T051042Z_d02fdc34",
+      "path": "runs/t10/S1/t10_20261015T051042Z_d02fdc34",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T051053Z_5cce204e",
+      "path": "runs/t10/S2/t10_20261015T051053Z_5cce204e",
+      "stage": "S2",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T051129Z_20e1478b",
+      "path": "runs/t10/S1/t10_20261015T051129Z_20e1478b",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T051140Z_f01a65d0",
+      "path": "runs/t10/S2/t10_20261015T051140Z_f01a65d0",
+      "stage": "S2",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T051342Z_932ee43c",
+      "path": "runs/t10/S2/t10_20261015T051342Z_932ee43c",
+      "stage": "S2",
+      "status": "CANCELLED_PRE_LAUNCH"
+    },
+    {
+      "run_id": "t10_20261015T051332Z_bdfb1e17",
+      "path": "runs/t10/S1/t10_20261015T051332Z_bdfb1e17",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T051505Z_66f4b250",
+      "path": "runs/t10/S1/t10_20261015T051505Z_66f4b250",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T051541Z_2e60ec79",
+      "path": "runs/t10/S1/t10_20261015T051541Z_2e60ec79",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T051735Z_c27a53a8",
+      "path": "runs/t10/S1/t10_20261015T051735Z_c27a53a8",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T051814Z_15f168ad",
+      "path": "runs/t10/S1/t10_20261015T051814Z_15f168ad",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T051850Z_c98eaa05",
+      "path": "runs/t10/S1/t10_20261015T051850Z_c98eaa05",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052044Z_c2474bfe",
+      "path": "runs/t10/S1/t10_20261015T052044Z_c2474bfe",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052123Z_e8e8772b",
+      "path": "runs/t10/S1/t10_20261015T052123Z_e8e8772b",
+      "stage": "S1",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052349Z_bb92eca5",
+      "path": "runs/t10/S2_qualification/t10_20261015T052349Z_bb92eca5",
+      "stage": "S2_qualification",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052350Z_551daf69",
+      "path": "runs/t10/S2_sanitizer/t10_20261015T052350Z_551daf69",
+      "stage": "S2_sanitizer",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052351Z_7bea6a38",
+      "path": "runs/t10/S2/t10_20261015T052351Z_7bea6a38",
+      "stage": "S2",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052402Z_db66874c",
+      "path": "runs/t10/S2/t10_20261015T052402Z_db66874c",
+      "stage": "S2",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052414Z_e9675688",
+      "path": "runs/t10/S3/t10_20261015T052414Z_e9675688",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052415Z_89e43971",
+      "path": "runs/t10/S3/t10_20261015T052415Z_89e43971",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052417Z_34a2c81e",
+      "path": "runs/t10/S3/t10_20261015T052417Z_34a2c81e",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052418Z_4af2c7f9",
+      "path": "runs/t10/S3/t10_20261015T052418Z_4af2c7f9",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052419Z_c0bca9c7",
+      "path": "runs/t10/S3/t10_20261015T052419Z_c0bca9c7",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052420Z_775e1214",
+      "path": "runs/t10/S3/t10_20261015T052420Z_775e1214",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052421Z_67e4b6b6",
+      "path": "runs/t10/S3/t10_20261015T052421Z_67e4b6b6",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052423Z_60da1f6b",
+      "path": "runs/t10/S3/t10_20261015T052423Z_60da1f6b",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052424Z_28920a46",
+      "path": "runs/t10/S3/t10_20261015T052424Z_28920a46",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052425Z_710093a5",
+      "path": "runs/t10/S3/t10_20261015T052425Z_710093a5",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052426Z_f7c1c852",
+      "path": "runs/t10/S3/t10_20261015T052426Z_f7c1c852",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052427Z_27928f8f",
+      "path": "runs/t10/S3/t10_20261015T052427Z_27928f8f",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052429Z_97070682",
+      "path": "runs/t10/S3/t10_20261015T052429Z_97070682",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052430Z_be0e84db",
+      "path": "runs/t10/S3/t10_20261015T052430Z_be0e84db",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052431Z_344b8e16",
+      "path": "runs/t10/S3/t10_20261015T052431Z_344b8e16",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052432Z_ebffacac",
+      "path": "runs/t10/S3/t10_20261015T052432Z_ebffacac",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052433Z_0143a4e5",
+      "path": "runs/t10/S3/t10_20261015T052433Z_0143a4e5",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052435Z_4d93e8b0",
+      "path": "runs/t10/S3/t10_20261015T052435Z_4d93e8b0",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052436Z_a80eb302",
+      "path": "runs/t10/S3/t10_20261015T052436Z_a80eb302",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052437Z_cda00b1c",
+      "path": "runs/t10/S3/t10_20261015T052437Z_cda00b1c",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052438Z_4e953759",
+      "path": "runs/t10/S3/t10_20261015T052438Z_4e953759",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052439Z_43b5c9a5",
+      "path": "runs/t10/S3/t10_20261015T052439Z_43b5c9a5",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052441Z_185b91ee",
+      "path": "runs/t10/S3/t10_20261015T052441Z_185b91ee",
+      "stage": "S3",
+      "status": "SUCCESS"
+    },
+    {
+      "run_id": "t10_20261015T052442Z_3e03c610",
+      "path": "runs/t10/S3/t10_20261015T052442Z_3e03c610",
+      "stage": "S3",
+      "status": "SUCCESS"
+    }
+  ],
+  "source_line_refs": [
+    {
+      "path": "src/supplement/address_kernels.cu",
+      "line": 4,
+      "purpose": "read_word("
+    },
+    {
+      "path": "src/supplement/address_kernels.cu",
+      "line": 7,
+      "purpose": "address_probe("
+    },
+    {
+      "path": "src/supplement/address_kernels.cu",
+      "line": 18,
+      "purpose": "address_work("
+    },
+    {
+      "path": "src/supplement/address_probe_runner.cpp",
+      "line": 23,
+      "purpose": "task_permutation(ctas)"
+    },
+    {
+      "path": "src/supplement/address_probe_runner.cpp",
+      "line": 36,
+      "purpose": "chain segment not continued"
+    },
+    {
+      "path": "src/supplement/address_deploy_runner.cpp",
+      "line": 30,
+      "purpose": "Task-level crossed calibration"
+    },
+    {
+      "path": "src/supplement/address_deploy_runner.cpp",
+      "line": 34,
+      "purpose": "auto plan_start="
+    },
+    {
+      "path": "src/supplement/address_deploy_runner.cpp",
+      "line": 38,
+      "purpose": "Independent placement pass"
+    },
+    {
+      "path": "src/supplement/renderer_runner.cpp",
+      "line": 22,
+      "purpose": "if(ec_full){ec_launch_mapped"
+    },
+    {
+      "path": "src/supplement/renderer_runner.cpp",
+      "line": 81,
+      "purpose": "conditioning="
+    },
+    {
+      "path": "src/supplement/sparse_runner.cpp",
+      "line": 31,
+      "purpose": "else if(policy=='E')"
+    },
+    {
+      "path": "src/supplement/sparse_runner.cpp",
+      "line": 47,
+      "purpose": "conditioning="
+    },
+    {
+      "path": "tools/runlib.py",
+      "line": 16,
+      "purpose": "fcntl.flock"
+    },
+    {
+      "path": "tools/runlib.py",
+      "line": 32,
+      "purpose": "process_started_at"
+    }
+  ]
+}

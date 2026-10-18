@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "figures": [
+    "06_address_sensitivity.png",
+    "07_runtime_state.png",
+    "08_final_address_aware_optimization.png",
+    "02_pattern_replication.png",
+    "01_sm_pair_topology.png",
+    "09_address_conditioned_costs.png",
+    "05_optimization_processes.png",
+    "04_relative_fast_pairs.png",
+    "03_address_affinity.png"
+  ],
+  "inspection": "All9 PNGs visually inspected; raw and residual legends, same-address vs held-out-address correlations distinguished. Sparse graph labels moved outside edges. Negative conditions visible. PDFs use same figures."
+}

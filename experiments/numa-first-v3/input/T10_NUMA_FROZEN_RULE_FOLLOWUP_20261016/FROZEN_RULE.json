@@ -1,0 +1,229 @@
+{
+  "version": "20261016-t10-fixed-rule-v1",
+  "status": "HISTORICAL_DEVELOPMENT_DERIVED_NOT_NEW_GPU_MEASUREMENT",
+  "source_archive": "NUMA_FIRST_V3_T10_REVIEW_20261016.zip",
+  "source_archive_sha256": "e208698e3742ff3b53340ed74e8e82f9b4835f3107558ebf67dc76ee9d810cc0",
+  "source_basis": "fine_shift_0 development allocation, 2 MiB only; no use of later winning measurements",
+  "mask": 51,
+  "region_count": 64,
+  "stripe_bytes": 4096,
+  "scopes": {
+    "PAIR4SM": {
+      "bias": 1,
+      "C0_actual_sm_ids": [
+        24,
+        25
+      ],
+      "C1_actual_sm_ids": [
+        20,
+        21
+      ],
+      "historical_fine_ids": [
+        7,
+        25
+      ],
+      "total_sms": 4
+    },
+    "BALANCED56SM": {
+      "bias": 0,
+      "C0_actual_sm_ids": [
+        0,
+        1,
+        2,
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        28,
+        29,
+        30,
+        31,
+        38,
+        39,
+        40,
+        41,
+        48,
+        49,
+        52,
+        53
+      ],
+      "C1_actual_sm_ids": [
+        4,
+        5,
+        6,
+        7,
+        14,
+        15,
+        16,
+        17,
+        24,
+        25,
+        26,
+        27,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        50,
+        51,
+        54,
+        55
+      ],
+      "total_sms": 56
+    }
+  },
+  "fine_resource_rosters": {
+    "0": [
+      0,
+      1
+    ],
+    "1": [
+      10,
+      11
+    ],
+    "2": [
+      22,
+      23
+    ],
+    "3": [
+      34,
+      35
+    ],
+    "4": [
+      44,
+      45
+    ],
+    "5": [
+      2,
+      3
+    ],
+    "6": [
+      12,
+      13
+    ],
+    "7": [
+      24,
+      25
+    ],
+    "8": [
+      36,
+      37
+    ],
+    "9": [
+      46,
+      47
+    ],
+    "10": [
+      4,
+      5
+    ],
+    "11": [
+      14,
+      15
+    ],
+    "12": [
+      26,
+      27
+    ],
+    "13": [
+      38,
+      39
+    ],
+    "14": [
+      48,
+      49
+    ],
+    "15": [
+      6,
+      7
+    ],
+    "16": [
+      16,
+      17
+    ],
+    "17": [
+      28,
+      29
+    ],
+    "18": [
+      40,
+      41
+    ],
+    "19": [
+      50,
+      51
+    ],
+    "20": [
+      8,
+      9
+    ],
+    "21": [
+      18,
+      19
+    ],
+    "22": [
+      30,
+      31
+    ],
+    "23": [
+      42,
+      43
+    ],
+    "24": [
+      52,
+      53
+    ],
+    "25": [
+      20,
+      21
+    ],
+    "26": [
+      32,
+      33
+    ],
+    "27": [
+      54,
+      55
+    ]
+  },
+  "matching_rule": "data class c = parity(physical_region & 0x33) XOR scope_bias; C0 consumes D0 for J_MATCH",
+  "forbidden": [
+    "refit_mask",
+    "relabel_polarity_from_measured_performance",
+    "choose_new_fastest_group",
+    "treat_group_id_as_stable_physical_id"
+  ],
+  "allocation_policy": "fresh allocations use these frozen groups and mask; failure of transfer is retained, not recalibrated away",
+  "identity_policy": "Reconstruct exact old SM sets from locally returned complete resource objects. A different handle numbering is fine. If exact sets cannot be reconstructed, record scope unavailable; do not substitute another split.",
+  "sources": [
+    {
+      "path": "source_evidence/fits.csv",
+      "sha256": "fa25fba9ce091a04f8c353dac7e0810546f771f7d0b4dc9d959673fe5961e1af"
+    },
+    {
+      "path": "source_evidence/merged_2097152.csv",
+      "sha256": "9a100b6a2ca92889052354912774b330f0d26bf5150f8fc17b65c771c0024c6a"
+    },
+    {
+      "path": "source_evidence/rosters.csv",
+      "sha256": "288e6f271acc1a9b10a7d04083853fbab7326b3ec99c2546773dd32eb9621819"
+    }
+  ]
+}

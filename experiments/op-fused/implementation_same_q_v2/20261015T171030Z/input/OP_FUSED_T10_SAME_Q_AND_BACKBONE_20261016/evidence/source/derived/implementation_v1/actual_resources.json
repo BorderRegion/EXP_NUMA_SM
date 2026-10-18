@@ -1,0 +1,62 @@
+{
+  "recipe0_mode0": {
+    "active_blocks_per_sm": 3,
+    "threads": 64,
+    "shared_bytes": 20496,
+    "registers_per_thread": 192,
+    "sms": 56,
+    "tile_m": 32,
+    "tile_n": 128,
+    "tile_k": 32
+  },
+  "recipe0_mode1": {
+    "active_blocks_per_sm": 3,
+    "threads": 64,
+    "shared_bytes": 20496,
+    "registers_per_thread": 194,
+    "sms": 56,
+    "tile_m": 32,
+    "tile_n": 128,
+    "tile_k": 32
+  },
+  "recipe0_mode2": {
+    "active_blocks_per_sm": 3,
+    "threads": 64,
+    "shared_bytes": 20496,
+    "registers_per_thread": 198,
+    "sms": 56,
+    "tile_m": 32,
+    "tile_n": 128,
+    "tile_k": 32
+  },
+  "recipe1_mode0": {
+    "active_blocks_per_sm": 2,
+    "threads": 128,
+    "shared_bytes": 24592,
+    "registers_per_thread": 174,
+    "sms": 56,
+    "tile_m": 64,
+    "tile_n": 128,
+    "tile_k": 32
+  },
+  "recipe1_mode1": {
+    "active_blocks_per_sm": 2,
+    "threads": 128,
+    "shared_bytes": 24592,
+    "registers_per_thread": 176,
+    "sms": 56,
+    "tile_m": 64,
+    "tile_n": 128,
+    "tile_k": 32
+  },
+  "recipe1_mode2": {
+    "active_blocks_per_sm": 2,
+    "threads": 128,
+    "shared_bytes": 24592,
+    "registers_per_thread": 180,
+    "sms": 56,
+    "tile_m": 64,
+    "tile_n": 128,
+    "tile_k": 32
+  }
+}

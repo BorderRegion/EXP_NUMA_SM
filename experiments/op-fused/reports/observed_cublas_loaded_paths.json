@@ -1,0 +1,8 @@
+{
+  "run_id": "20261015T094345Z_89855f78",
+  "pid": 1643818,
+  "paths": [
+    "/home/ubuntu/projects/leetgpu-lab/.venv/lib/python3.12/site-packages/nvidia/cublas/lib/libcublas.so.12",
+    "/home/ubuntu/projects/leetgpu-lab/.venv/lib/python3.12/site-packages/nvidia/cublas/lib/libcublasLt.so.12"
+  ]
+}

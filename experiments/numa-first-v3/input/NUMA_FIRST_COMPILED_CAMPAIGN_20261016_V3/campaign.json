@@ -1,0 +1,158 @@
+{
+  "version": "20261016-v3",
+  "name": "NUMA_FIRST_COMPILED_CAMPAIGN",
+  "status": "DESIGN_NOT_EXECUTED",
+  "platforms": {
+    "t10": {
+      "worker_hours_cap": 24,
+      "stage_hours": {
+        "P0": 2,
+        "P1": 6,
+        "P2": 3,
+        "P3": 5,
+        "P4": 5,
+        "P5": 2,
+        "reserve": 1
+      },
+      "hardware_controls_authorized": true
+    },
+    "rtx5070ti": {
+      "worker_hours_cap": 24,
+      "stage_hours": {
+        "P0": 1,
+        "P1": 6,
+        "P2": 3,
+        "P3": 6,
+        "P4": 5,
+        "P5": 2,
+        "reserve": 1
+      },
+      "hardware_controls_authorized": false
+    }
+  },
+  "runtime": {
+    "offline": true,
+    "new_paid_spend_authorized": 0,
+    "new_driver_install_authorized": false,
+    "disable_thermal_protection": false,
+    "schedule_task_lookup_tables": false,
+    "schedule_page_lookup_tables": false,
+    "new_standalone_schedule_kernels": 0,
+    "schedule_d2h_bytes": 0,
+    "compile_or_layout_at_initialization": true,
+    "native_algorithm_indices_allowed": true,
+    "bounded_existing_kernel_router_allowed": true
+  },
+  "limits": {
+    "max_domains": 4,
+    "max_piecewise_segments": 8,
+    "max_selector_terms": 8,
+    "micro_pool_bytes_cap": 1073741824,
+    "micro_scratch_bytes_cap": 1073741824,
+    "memory_headroom_fraction": 0.15,
+    "memory_headroom_bytes_min": 2147483648,
+    "kernel_timeout_change_authorized": false,
+    "max_compile_workers": 4
+  },
+  "numa": {
+    "allocations": 6,
+    "development_allocations": 2,
+    "confirmation_allocations": 4,
+    "regions_max": 64,
+    "fit_regions": 32,
+    "confirm_regions": 32,
+    "rounds": 8,
+    "workset_l2_factors": [
+      0.5,
+      2,
+      8,
+      32
+    ],
+    "load_recipes": [
+      "ordinary",
+      "cg"
+    ],
+    "concurrency": [
+      "sparse",
+      "concurrent"
+    ],
+    "granule_scout_bytes": [
+      128,
+      4096,
+      65536,
+      2097152
+    ],
+    "cache_preparation": [
+      "natural_steady",
+      "owner_touch",
+      "eviction_conditioned"
+    ],
+    "physical_domain_count_assumed": null,
+    "numeric_speed_gate_required": false
+  },
+  "strategies": [
+    "N",
+    "E",
+    "B",
+    "T",
+    "X",
+    "Y",
+    "M",
+    "P"
+  ],
+  "matrix": {
+    "mechanism": {
+      "patterns": 3,
+      "sizes": 3,
+      "policies": 8,
+      "blocks": 8
+    },
+    "render": {
+      "cases": 8,
+      "policies": 8,
+      "blocks": 8
+    },
+    "sparse": {
+      "cases": 8,
+      "policies": 8,
+      "blocks": 8
+    },
+    "inference": {
+      "cases": 8,
+      "policies": 8,
+      "blocks": 8
+    },
+    "fusion": {
+      "cases": 6,
+      "cells": 4,
+      "blocks": 4
+    },
+    "power_sensitivity_t10": {
+      "cases": 6,
+      "policies": 3,
+      "blocks": 4
+    },
+    "lifecycle": {
+      "events": 3,
+      "policies": 3,
+      "blocks": 4
+    }
+  },
+  "statistics": {
+    "paired_unit": "process_allocation_block",
+    "bootstrap_repetitions": 20000,
+    "seed": 20261016,
+    "primary_comparisons": [
+      "M/N",
+      "M/T"
+    ],
+    "raw_units_must_not_pool_across_platforms": true
+  },
+  "logging": {
+    "raw_immutable": true,
+    "per_load_disk_logging": false,
+    "restore_machine_settings": true,
+    "workspace_soft_limit_gib": 10,
+    "workspace_hard_limit_gib": 30
+  }
+}

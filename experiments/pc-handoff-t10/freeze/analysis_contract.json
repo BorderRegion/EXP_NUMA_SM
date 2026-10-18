@@ -1,0 +1,18 @@
+{
+  "frozen_at": "2026-10-16T12:14:13.770041+00:00",
+  "main_comparisons": [
+    "M/LIB",
+    "M/G"
+  ],
+  "primary_intervals": "97.5% marginal bootstrap intervals, two comparisons",
+  "resampling": "Whole independent process blocks. Preserve within-block fixed-test-case dependence. Equal test-case weights on log time ratios.",
+  "baseline": "Geometric mean of within-block begin/end LIB anchors for E3 and GEMM layers; explicit LIB cell for E2 bridge.",
+  "main_metric": "complete GPU request makespan; steady-state batch and CPU input-ready-to-output-ready separately reported",
+  "samples": "64 requests are not 64 independent hardware blocks",
+  "aliases": "Exact implementation/parameter aliases point to one physical measurement and yield zero new information",
+  "matrix_confirmation": "Two independent process confirmations; display each process and workspace, do not promote within-episode repetitions to independent evidence.",
+  "missing": "NA never replaced by zero; no M/G or M/LIB estimates for absent attention PC implementation",
+  "gain_formula": "100*(1-exp(mean(log(T_M/T_REF))))",
+  "cache_memory": "Logical workspace read/write bytes are derived, never labelled measured DRAM traffic.",
+  "dev_protocol": "Wide N inherits same-M narrow-N development bin because supplied development split has no wide N."
+}

@@ -1,0 +1,8 @@
+{
+  "operator_body_byte_identical": true,
+  "body_sha256": "e0b20bada85f3e11f0a1ca355a4cdb3bc8152d274344188c6353317124d20037",
+  "upstream_path": "vendor/cutlass/include/cutlass/gemm/kernel/gemm_grouped.h",
+  "local_path": "src/op_fused_gemm_grouped.h",
+  "comparison": "GemmGrouped::operator() vs OpFusedGemmGrouped::operator()",
+  "mainloop_mma_epilogue_modified": false
+}

@@ -1,0 +1,441 @@
+{
+  "snapshot_utc": "2026-10-18T14:58:54.545301+00:00",
+  "source_root": "/home/ubuntu/文档/ChatGPT/numa_gpu",
+  "destination": "https://github.com/BorderRegion/EXP_NUMA_SM",
+  "release_tag": "records-2026-10-18",
+  "archives": [
+    {
+      "asset": "root.tar.zst",
+      "manifest": "archive/manifests/root.jsonl",
+      "files": 8,
+      "source_bytes": 327447,
+      "compressed_bytes": 52046,
+      "sha256": "e49b852f051c919dc347d681f2067a024890ac8ef6a2dd67e29a799f5aec36a0",
+      "git_files": 8
+    },
+    {
+      "asset": "GPU_COMPUTE_TOPOLOGY_DUAL_20261014.tar.zst",
+      "manifest": "archive/manifests/GPU_COMPUTE_TOPOLOGY_DUAL_20261014.jsonl",
+      "files": 34,
+      "source_bytes": 121927,
+      "compressed_bytes": 52369,
+      "sha256": "6dd60ec8edb493a50d4507ee7e6fa639e5cf725555f53ac1e5eb737695cb674c",
+      "git_files": 34
+    },
+    {
+      "asset": "address-gemm-t10.tar.zst",
+      "manifest": "archive/manifests/address-gemm-t10.jsonl",
+      "files": 2715,
+      "source_bytes": 47293492,
+      "compressed_bytes": 25972693,
+      "sha256": "30c55a84e4b08e66146aa3d676bba38d81b986b28a20e87fc09027b13a17c15f",
+      "git_files": 96
+    },
+    {
+      "asset": "address-gemm-v2-t10.tar.zst",
+      "manifest": "archive/manifests/address-gemm-v2-t10.jsonl",
+      "files": 1647,
+      "source_bytes": 29793322,
+      "compressed_bytes": 10067981,
+      "sha256": "dbb04060ecdef3c6d82c7df81f8603160d4ced5758e5fe63cc753b3557ca6477",
+      "git_files": 84
+    },
+    {
+      "asset": "assets.tar.zst",
+      "manifest": "archive/manifests/assets.jsonl",
+      "files": 33,
+      "source_bytes": 1792516286,
+      "compressed_bytes": 1530480732,
+      "sha256": "34c9dd0793de0be2c1fda05c7732f0d63b8d3d4d8908ba5e3c70f66be3a1f7f6",
+      "git_files": 0,
+      "parts": [
+        {
+          "asset": "assets.tar.zst.part001",
+          "bytes": 1073741824,
+          "sha256": "9c4a381d3e88e0682c4d2783eba399ed5dcae2b8bb38c800a904fc92e30c71da"
+        },
+        {
+          "asset": "assets.tar.zst.part002",
+          "bytes": 456738908,
+          "sha256": "9658e00c4aa5dbc8a5bd98cc62e505e05f17e97a22b17e31b5f265fe79621ff9"
+        }
+      ]
+    },
+    {
+      "asset": "build.tar.zst",
+      "manifest": "archive/manifests/build.jsonl",
+      "files": 178,
+      "source_bytes": 41994861,
+      "compressed_bytes": 10735723,
+      "sha256": "19b179ad87d0b2fcc5351bda37b039b6e6f03ba4406ffb81c893e598a942209b",
+      "git_files": 0
+    },
+    {
+      "asset": "config.tar.zst",
+      "manifest": "archive/manifests/config.jsonl",
+      "files": 1,
+      "source_bytes": 681,
+      "compressed_bytes": 485,
+      "sha256": "e76bbfa18fa7d6a7ca9c9762323c125de5c13bfb64f3c4b65c1e00acb66a1e15",
+      "git_files": 1
+    },
+    {
+      "asset": "derived.tar.zst",
+      "manifest": "archive/manifests/derived.jsonl",
+      "files": 37,
+      "source_bytes": 11540181,
+      "compressed_bytes": 3636676,
+      "sha256": "8bd588eb6be1930358d8a1eff423dca11f93ba52b5b07dc51ff9c5d8d867eab6",
+      "git_files": 37
+    },
+    {
+      "asset": "environment.tar.zst",
+      "manifest": "archive/manifests/environment.jsonl",
+      "files": 54,
+      "source_bytes": 321363,
+      "compressed_bytes": 46712,
+      "sha256": "fc67003cf57b1c1b77ffff86ca6cbfefa024cf85bc963b92724dad93913fa93a",
+      "git_files": 53
+    },
+    {
+      "asset": "exports.tar.zst",
+      "manifest": "archive/manifests/exports.jsonl",
+      "files": 20143,
+      "source_bytes": 2276053434,
+      "compressed_bytes": 1640952945,
+      "sha256": "49b1094d0a74b4d652ae68ee63975abfcdbd5c3690b37bbe49a205c16a205875",
+      "git_files": 0,
+      "parts": [
+        {
+          "asset": "exports.tar.zst.part001",
+          "bytes": 1073741824,
+          "sha256": "d048f39889ec17d6d07c67018b9e6bb485fab528d5749f938b424fda6d835eef"
+        },
+        {
+          "asset": "exports.tar.zst.part002",
+          "bytes": 567211121,
+          "sha256": "1a633c45be5cbcf0283e4f3d8a8e63b82148ee16a5f5cf8ac1955a60d2ee6215"
+        }
+      ]
+    },
+    {
+      "asset": "gpc-mask-t10.tar.zst",
+      "manifest": "archive/manifests/gpc-mask-t10.jsonl",
+      "files": 3828,
+      "source_bytes": 149129514,
+      "compressed_bytes": 44414702,
+      "sha256": "07a03e97209b8e4d75cfc171f8b0a9377ad01c49ffe365f45b7de75671563a45",
+      "git_files": 26
+    },
+    {
+      "asset": "incoming.tar.zst",
+      "manifest": "archive/manifests/incoming.jsonl",
+      "files": 21,
+      "source_bytes": 164397,
+      "compressed_bytes": 62598,
+      "sha256": "e2ac14d09c544633a1eab0fd4604a4d75617a8eabe6163290dd7627f710f7f00",
+      "git_files": 21
+    },
+    {
+      "asset": "llm-decode-locality-t10.tar.zst",
+      "manifest": "archive/manifests/llm-decode-locality-t10.jsonl",
+      "files": 1678,
+      "source_bytes": 132137408,
+      "compressed_bytes": 16775969,
+      "sha256": "ccab62323a0a1ae81e96a6511e9a56dea7e57c186538f56b423a8f1a4423ee47",
+      "git_files": 98
+    },
+    {
+      "asset": "matched-pacing-t10.tar.zst",
+      "manifest": "archive/manifests/matched-pacing-t10.jsonl",
+      "files": 209,
+      "source_bytes": 36799815,
+      "compressed_bytes": 31832428,
+      "sha256": "33d193476241d84e0a786e6e1b63237a5635046622c4ca8cf3c9a4371f83c8fe",
+      "git_files": 75
+    },
+    {
+      "asset": "numa-affinity-causal-t10.tar.zst",
+      "manifest": "archive/manifests/numa-affinity-causal-t10.jsonl",
+      "files": 2640,
+      "source_bytes": 154251512,
+      "compressed_bytes": 29887515,
+      "sha256": "7921fab3e265c00317561dbf546cbd1996c49eed6ad7f298e7f653ae05a27d56",
+      "git_files": 72
+    },
+    {
+      "asset": "numa-affinity-fastpath-t10.tar.zst",
+      "manifest": "archive/manifests/numa-affinity-fastpath-t10.jsonl",
+      "files": 3913,
+      "source_bytes": 327285046,
+      "compressed_bytes": 148431874,
+      "sha256": "432e21ad67eb2b1a987a18a0da6526849b658f77f8bd2ea75a9823d4853736c1",
+      "git_files": 107
+    },
+    {
+      "asset": "numa-first-v3.tar.zst",
+      "manifest": "archive/manifests/numa-first-v3.jsonl",
+      "files": 7650,
+      "source_bytes": 6125311483,
+      "compressed_bytes": 3363569333,
+      "sha256": "c4fcb103d4d1e6bcb66f38d26d94793d19a87f353b6dd220263fdc2967f7f409",
+      "git_files": 156,
+      "parts": [
+        {
+          "asset": "numa-first-v3.tar.zst.part001",
+          "bytes": 1073741824,
+          "sha256": "573c63e473b07f8ce695a8ee035d2042592b1bd655ed50b944055d6c8afe7f9a"
+        },
+        {
+          "asset": "numa-first-v3.tar.zst.part002",
+          "bytes": 1073741824,
+          "sha256": "16ecb1c0c40b93ecf8c751894ef6caba6100ad0e5efd3e40a08452940e954987"
+        },
+        {
+          "asset": "numa-first-v3.tar.zst.part003",
+          "bytes": 1073741824,
+          "sha256": "828e2d28a8a7e812bd7fa28e026a311a4e472644e3c5e699f776bdc727cd57e9"
+        },
+        {
+          "asset": "numa-first-v3.tar.zst.part004",
+          "bytes": 142343861,
+          "sha256": "14db9944694f0be63eaf6e16723bc33191165561c4950c6618863585b431d5ca"
+        }
+      ]
+    },
+    {
+      "asset": "numa-locality-scheduling-t10.tar.zst",
+      "manifest": "archive/manifests/numa-locality-scheduling-t10.jsonl",
+      "files": 2204,
+      "source_bytes": 176564346,
+      "compressed_bytes": 23591855,
+      "sha256": "199e3dbb88e7dfb7adb5e74d765727bdfc5ac006cd8e8b7e5446b8154115148d",
+      "git_files": 102
+    },
+    {
+      "asset": "op-fused.tar.zst",
+      "manifest": "archive/manifests/op-fused.jsonl",
+      "files": 57872,
+      "source_bytes": 1532416369,
+      "compressed_bytes": 199730901,
+      "sha256": "fc87885b0728d84445a669ef1e8638d83a96f0fe452b3eb4e2baa71bfde758a6",
+      "git_files": 380
+    },
+    {
+      "asset": "pc-handoff-t10.tar.zst",
+      "manifest": "archive/manifests/pc-handoff-t10.jsonl",
+      "files": 2759,
+      "source_bytes": 304512809,
+      "compressed_bytes": 27096684,
+      "sha256": "8c8740b4ff44c5a399a20a2d0eb9bb621d8d6a24211232f5a023d3274a0e088e",
+      "git_files": 499
+    },
+    {
+      "asset": "preregistration.tar.zst",
+      "manifest": "archive/manifests/preregistration.jsonl",
+      "files": 96,
+      "source_bytes": 1380542,
+      "compressed_bytes": 122122,
+      "sha256": "062402120f0b624b9fb15311050096cfb54fde363b161a472954452e4d7b459c",
+      "git_files": 96
+    },
+    {
+      "asset": "reports.tar.zst",
+      "manifest": "archive/manifests/reports.jsonl",
+      "files": 39,
+      "source_bytes": 3693049,
+      "compressed_bytes": 2772382,
+      "sha256": "04791bebe2b0334529635553ce96f5c5a1a0263998d92e9d12ffe26926bf97eb",
+      "git_files": 39
+    },
+    {
+      "asset": "runs.tar.zst",
+      "manifest": "archive/manifests/runs.jsonl",
+      "files": 8937,
+      "source_bytes": 9566136704,
+      "compressed_bytes": 6341476828,
+      "sha256": "cab2608c066311301887646bac749016207b5a147d3cd577f72e034972f96b0e",
+      "git_files": 0,
+      "parts": [
+        {
+          "asset": "runs.tar.zst.part001",
+          "bytes": 1073741824,
+          "sha256": "f386b7beab45b9804b356cddc7a958b4aaf0a36bdb9543726300fa51a72ffdbf"
+        },
+        {
+          "asset": "runs.tar.zst.part002",
+          "bytes": 1073741824,
+          "sha256": "9d5f467144812c849016ab1c152fbd26fb190586708a80f5f65f45616d0aec31"
+        },
+        {
+          "asset": "runs.tar.zst.part003",
+          "bytes": 1073741824,
+          "sha256": "96ff00b0fa66bcd2415035e8a810e898fb41324755a3ffb7486df34b2febca0d"
+        },
+        {
+          "asset": "runs.tar.zst.part004",
+          "bytes": 1073741824,
+          "sha256": "19f58561f0e00e52fbf2155f464c67fccbfe08ef960b81a825e853963b77f3aa"
+        },
+        {
+          "asset": "runs.tar.zst.part005",
+          "bytes": 1073741824,
+          "sha256": "a656230532f086d02d4b8c8a71b990250bde99782fa6c23a8c5dd6674ab097e0"
+        },
+        {
+          "asset": "runs.tar.zst.part006",
+          "bytes": 972767708,
+          "sha256": "ec895b245d41ca18b2eeb8fecf8ae8b09daa4b103e8406a8e6fe7c7fe3344821"
+        }
+      ]
+    },
+    {
+      "asset": "selective-reorder-repair-v2-t10.tar.zst",
+      "manifest": "archive/manifests/selective-reorder-repair-v2-t10.jsonl",
+      "files": 1077,
+      "source_bytes": 116583098,
+      "compressed_bytes": 14028170,
+      "sha256": "14360a435dba6eed441c005b2883b29bacbbfe780a3f0724eccebb8bd196cb08",
+      "git_files": 193
+    },
+    {
+      "asset": "selective-reorder-t10.tar.zst",
+      "manifest": "archive/manifests/selective-reorder-t10.jsonl",
+      "files": 682,
+      "source_bytes": 79516205,
+      "compressed_bytes": 7535610,
+      "sha256": "b584281b9d210aa09acf8e11ae1f97db7fa7d794bec4ba5129322eb447314311",
+      "git_files": 154
+    },
+    {
+      "asset": "sm-topology-t10.tar.zst",
+      "manifest": "archive/manifests/sm-topology-t10.jsonl",
+      "files": 583,
+      "source_bytes": 193546543,
+      "compressed_bytes": 18649129,
+      "sha256": "f736fc3bfcfed596c1864d0cab680e5f712c3e8ef0ce6fadf5f85d736829dc91",
+      "git_files": 135
+    },
+    {
+      "asset": "src.tar.zst",
+      "manifest": "archive/manifests/src.jsonl",
+      "files": 15,
+      "source_bytes": 92805,
+      "compressed_bytes": 20388,
+      "sha256": "306190ba00492fceb39d750a10a28f72814ef3ccacc6fadc32aaecdf7f79219c",
+      "git_files": 15
+    },
+    {
+      "asset": "state-causality-t10.tar.zst",
+      "manifest": "archive/manifests/state-causality-t10.jsonl",
+      "files": 597,
+      "source_bytes": 147039451,
+      "compressed_bytes": 70912470,
+      "sha256": "36019f60b40f4aadf996598304bfa90bf74d351e32a94416141595641b6d30ce",
+      "git_files": 90
+    },
+    {
+      "asset": "tools.tar.zst",
+      "manifest": "archive/manifests/tools.jsonl",
+      "files": 37,
+      "source_bytes": 171389,
+      "compressed_bytes": 64508,
+      "sha256": "0a9acce92d09fab066d4f914ed1507cef069fde3b70973193f4ca3b6de201f44",
+      "git_files": 37
+    },
+    {
+      "asset": "topology-affinity-t10.tar.zst",
+      "manifest": "archive/manifests/topology-affinity-t10.jsonl",
+      "files": 2608,
+      "source_bytes": 327635486,
+      "compressed_bytes": 38919330,
+      "sha256": "1e57b40ad9b51999f01fabbc35d8ab07c097f0049711898eb1478b43e7248d51",
+      "git_files": 119
+    },
+    {
+      "asset": "topology-real-t10.tar.zst",
+      "manifest": "archive/manifests/topology-real-t10.jsonl",
+      "files": 2686,
+      "source_bytes": 81711693,
+      "compressed_bytes": 22333892,
+      "sha256": "d8bee0dac98c8df4dfe6033c248ad70b3d7412a25f25176dd912fbb7e2f72a9a",
+      "git_files": 83
+    },
+    {
+      "asset": "topology-tail-t10.tar.zst",
+      "manifest": "archive/manifests/topology-tail-t10.jsonl",
+      "files": 2480,
+      "source_bytes": 279340294,
+      "compressed_bytes": 28815828,
+      "sha256": "ab61b70d9e4045c65fa8781e69baad420dad7e33c75231f680a8d50c43bfe148",
+      "git_files": 114
+    },
+    {
+      "asset": "transient-f4-diag-t10.tar.zst",
+      "manifest": "archive/manifests/transient-f4-diag-t10.jsonl",
+      "files": 1222,
+      "source_bytes": 111482104,
+      "compressed_bytes": 26239881,
+      "sha256": "2b494808d68d0d2dc69fe95f9f37818727007523a75c380ebdcd8bf121021c90",
+      "git_files": 166
+    },
+    {
+      "asset": "vendor.tar.zst",
+      "manifest": "archive/manifests/vendor.jsonl",
+      "files": 3357,
+      "source_bytes": 71635053,
+      "compressed_bytes": 18662886,
+      "sha256": "9c5c8a46ccb1610139eb68137dfcfd5af29746f82a83804372de9bc719445b2a",
+      "git_files": 0
+    },
+    {
+      "asset": "handoff-downloads.tar.zst",
+      "manifest": "archive/manifests/handoff-downloads.jsonl",
+      "files": 57,
+      "source_bytes": 568505472,
+      "compressed_bytes": 538816367,
+      "sha256": "1a9d29487db13e35171477ef79a3c928430474cf4981e070d30d509a0711d482",
+      "git_files": 0
+    },
+    {
+      "asset": "handoff-desktop.tar.zst",
+      "manifest": "archive/manifests/handoff-desktop.jsonl",
+      "files": 414,
+      "source_bytes": 1169966638,
+      "compressed_bytes": 1113857014,
+      "sha256": "b12fba1d5b7f676a4b3bd9a5e1422c993d0384813578bd7f23d5d8b87bd54b30",
+      "git_files": 0,
+      "parts": [
+        {
+          "asset": "handoff-desktop.tar.zst.part001",
+          "bytes": 1073741824,
+          "sha256": "982725b19db57dae96bf7754828b72cd47d0ebfddb30346d808ae09f62cf2e08"
+        },
+        {
+          "asset": "handoff-desktop.tar.zst.part002",
+          "bytes": 40115190,
+          "sha256": "d937e28609ea3b27c54b0a2f1b87380dbfd1fe41cd0b8a702d9078284cc09e8d"
+        }
+      ]
+    }
+  ],
+  "exclusions": [
+    "Git internals (history is exported separately)",
+    "Python bytecode and regenerable interpreter/test caches",
+    "unrelated files outside explicit experiment paths"
+  ],
+  "total_entries": 132511,
+  "total_source_bytes": 25856972219,
+  "total_archive_bytes": 15350619026,
+  "git_evidence_files": 3090,
+  "additional_assets": [
+    {
+      "asset": "original-history.bundle",
+      "bytes": 153054549,
+      "sha256": "d9d910335c842eaf870159d1e89a76d4ad5f55616a73280b825ac03632795bac",
+      "purpose": "Original Git refs/history, unchanged authors"
+    }
+  ],
+  "archive_file_limit_bytes": 1073741824,
+  "archive_verified_at_utc": "2026-10-18T15:11:01.613687+00:00"
+}

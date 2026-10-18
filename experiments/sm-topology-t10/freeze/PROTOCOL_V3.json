@@ -1,0 +1,43 @@
+{
+  "frozen_at": "2026-10-17T12:34:38.125428+00:00",
+  "status": "FINAL_STAGE_FROZEN_BEFORE_NEW_DATA",
+  "motivation": "Stable same-address cycle shape but training slots0/1 versus held-out slot2 payload residual correlation only0.078. Static pair-only cost is incomplete.",
+  "matrix_processes": [
+    "tensor_dev_0",
+    "tensor_dev_1",
+    "tensor_confirm_0",
+    "tensor_confirm_1"
+  ],
+  "calibration": "For each fixed producer i, use exact deployed mailbox base + (slot_page+i)*4096, test every one of28 consumer SMs. Two randomized repeats. All128 measured +16warm handshakes,64B payload.",
+  "slot_pages": [
+    0,
+    17,
+    257
+  ],
+  "fit": "Only tensor_dev_0/1 cycles; per-slot bottleneck assignment with sum tie break, and per-slot min-sum control",
+  "policies": [
+    "ADDRESS_MAX",
+    "ADDRESS_SUM",
+    "GLOBAL_CYCLE_MAX",
+    "IDENTITY",
+    "RANDOM"
+  ],
+  "new_deployment_processes": 6,
+  "repeats": 12,
+  "steps": [
+    128,
+    512
+  ],
+  "unscored_warm_launches": 3,
+  "primary_comparisons": [
+    "ADDRESS_MAX/GLOBAL_CYCLE_MAX",
+    "ADDRESS_MAX/RANDOM"
+  ],
+  "secondary_comparisons": [
+    "ADDRESS_MAX/IDENTITY",
+    "ADDRESS_MAX/ADDRESS_SUM"
+  ],
+  "scope": "Same synthetic28-pair communication kernel, not real application. CPU mapping and mapping upload excluded. Every slot and sign retained. Process-level equal weighting.",
+  "stop": "Final bounded implementation stage; do not choose another method from confirmation outcomes",
+  "remaining_cap_seconds": 767.2765461898525
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "reviewed_utc": "2026-10-18T05:51:05.415149+00:00",
+  "figures": [
+    "figures/controls.png",
+    "figures/mechanism.png"
+  ],
+  "checks": [
+    "Titles, legends, axes and intervals legible; no clipping or overlaps with labels.",
+    "Control plots report95% intervals; stricter primary intervals separately retained.",
+    "Coincident FIX/BOTH collector point represents same verified SM1.",
+    "Trace plot explicitly marked mechanism-only, not performance."
+  ]
+}

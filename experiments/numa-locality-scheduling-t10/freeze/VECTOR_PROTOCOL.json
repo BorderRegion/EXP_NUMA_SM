@@ -1,0 +1,18 @@
+{
+  "date_local": "2026-10-18",
+  "rationale": "Initial topology schedule confirmation gave two ~2% core gains but address specificity unproven. Test independent reduction of shared-KV transfer instruction overhead using aligned128-bit load/store instead of16-bit copies; same attention math and schedules. All earlier negative results retained.",
+  "development_processes": 2,
+  "confirmation_processes": 6,
+  "development_blocks": 8,
+  "development_replays": 4,
+  "confirmation_blocks": 30,
+  "confirmation_replays": 6,
+  "cases": "same4 D128 cases and2 offsets",
+  "seed_rules": {
+    "vector_dev": 95000000,
+    "vector_confirmation": 96000000
+  },
+  "policy": "Old/vector direct,blind,match,invert,shuffled labels withsame frozen previous workers/finish; choose vector DIRECT orBLIND on dev for deployment candidate; never choose address direction based on confirm.",
+  "full_work": "Both attention-only andKVwrite+attention; add previous deployed control includingGQA8 separate append. Vector changes both nonappend/append kernels onlythe16Bcopy loop.",
+  "success": "Candidate must beat previous deployed and old same schedule, including priorblind queue alternative; sixprocesses plusprocess bootstrap. NUMA attribution needsMATCH overblind/invert/shuffled controls."
+}

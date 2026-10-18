@@ -1,0 +1,9 @@
+{
+  "check_records": 48308,
+  "all_pass": true,
+  "max_abs": 0.0029296875,
+  "max_relative_frobenius": 0.00028924435004298307,
+  "peak_reserved_bytes": 15395192832,
+  "min_case_end_free_bytes": 3176333312,
+  "warning": "Maximum absolute error is not alone the criterion: elementwise atol+rtol and relative Frobenius are jointly tested. Free-at-end is not a continuous minimum; peak reserved and 1Hz telemetry also retained."
+}

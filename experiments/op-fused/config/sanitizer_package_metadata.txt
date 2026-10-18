@@ -1,0 +1,35 @@
+Package: cuda-sanitizer-12-8
+Version: 12.8.55-1
+Architecture: amd64
+Priority: optional
+Section: multiverse/devel
+Source: cuda-sanitizer-api
+Maintainer: cudatools <cudatools@nvidia.com>
+Installed-Size: 39751
+Filename: ./cuda-sanitizer-12-8_12.8.55-1_amd64.deb
+Size: 10294816
+MD5sum: 7de739eed27213a63bf3197661381642
+SHA1: 781611e66515228ee69f76a2306ad20d08934cfa
+SHA256: 3610dc576c2d5e38a293b5eba95361c20c6e7097c6eb33b7f6e002a20bc6b25a
+SHA512: 80b52e9cf5e0f8dff212117347fd5bdeedcc56d5c5d968dc7d824b22afd46d4624960368c4dbcfa5349efe80aa210a8bfd04444f7c2be6dc1c6937e2d201815e
+Description: CUDA Sanitizer
+ Provides a set of API's to enable third party tools to write GPU sanitizing
+ tools, such as memory and race checkers.
+
+Package: cuda-sanitizer-12-8
+Version: 12.8.93-1
+Architecture: amd64
+Priority: optional
+Section: multiverse/devel
+Source: cuda-sanitizer-api
+Maintainer: cudatools <cudatools@nvidia.com>
+Installed-Size: 39554
+Filename: ./cuda-sanitizer-12-8_12.8.93-1_amd64.deb
+Size: 10258140
+MD5sum: 5c2506ea4a0edb7d4f4e17167e6563d3
+SHA1: 6c59c93e31641384a94ec0bc394b276d0bd439f4
+SHA256: cd1f9f270995eb8aab25c533c10bcd32a3dbff5b20adac10aaa1fc5b016258ec
+SHA512: 07d2213602d4982957282655e183087fcc5667f90e7095f3213b2ebe4262c0b7cfc9e121c39c771a6571e0a33e8f3e34750234c4693e2dccb8804284f35b0c0e
+Description: CUDA Sanitizer
+ Provides a set of API's to enable third party tools to write GPU sanitizing
+ tools, such as memory and race checkers.

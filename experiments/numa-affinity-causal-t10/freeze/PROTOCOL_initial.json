@@ -1,0 +1,69 @@
+{
+  "created_utc": "2026-10-18T05:02:07.703514+00:00",
+  "run": "20261018T050207Z",
+  "worker_budget_seconds": 2400,
+  "request": "Continue NUMA address-affinity net acceleration; close balance and collector confounds",
+  "cases": [
+    131072,
+    129024
+  ],
+  "case_roles": {
+    "131072": "primary LLM-sized vocabulary; balanced partition differs by at most one effective element per SM",
+    "129024": "diagnostic exactly divisible by56*128; not a claim about a real model vocabulary"
+  },
+  "variants": {
+    "OLD": "original128-element striped layout,dynamic last collector",
+    "BAL": "contiguous per-SM nearly equal effective work,dynamic last collector",
+    "FIX": "original layout,fixed collector SM1",
+    "BOTH": "balanced work,fixed collector SM1"
+  },
+  "pages": {
+    "all_variants": [
+      17
+    ],
+    "BOTH_extra": [
+      0,
+      257
+    ]
+  },
+  "scopes": {
+    "ready": {
+      "fresh": false,
+      "batch": 1
+    },
+    "fresh": {
+      "fresh": true,
+      "batch": 1
+    },
+    "batch": {
+      "fresh": false,
+      "batch": 32
+    },
+    "freshbatch": {
+      "fresh": true,
+      "batch": 32
+    }
+  },
+  "maps": "Frozen previous microbenchmark MINIMAX,wrong-address and12randoms; also pooled-address minimax fitted without any new GPU timing",
+  "development": {
+    "processes": 2,
+    "blocks": 8,
+    "replays": 6,
+    "seed": 122000000,
+    "select": "minimum geometric complete GPU time among 12 random policies per V,variant,scope,page; retain all randoms; no learned schedule retuning"
+  },
+  "confirmation": {
+    "processes": 6,
+    "blocks": 16,
+    "replays": 8,
+    "seed": 123000000
+  },
+  "primary": "BOTH,V131072,page17,MINIMAX vs IDENTITY,development-selected RANDOM_BEST,POOLED,WRONG_ADDRESS; report all4scopes and fixed baseline. Positive deployment requires correct/fresh/batched robustness, not just ready.",
+  "statistics": "Paired within-block medians/log ratios; equal-process summary and30000 process bootstraps;95% and99.6875% conservative16primarycomparisons intervals; exploratory factorial/allcases separately disclosed",
+  "stopping": "Complete2development+6confirmation+qualification/sanitizers/trace. No further mapping or variant search based on confirmation. All results and exceptions retained.",
+  "baseline_hashes": {
+    "build/softmax_const.so": "10a0201ea5138c70fb96975cb3ec36d11adeb9d63841f63b2f763f619c2e4104",
+    "build/refresh.so": "f77c3f06b535656154b0cc32137f1bb9e21b27fdb3d28be187463fc469f9f779",
+    "build/baseline/vector.so": "f6c34ac7361379dc4e0bf29a4240f34e411601fe48a16e2a6cfa83003e2e0d44"
+  }
+}

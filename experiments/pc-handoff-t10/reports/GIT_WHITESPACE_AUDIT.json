@@ -1,0 +1,24 @@
+{
+  "status": "ONLY_PRESERVED_SOURCE_AND_PATCH_WHITESPACE",
+  "issue_count": 130,
+  "note": "Preserve qualified source hashes, upstream formatting, literal matching strings and unified diff context. All diagnostics confined to these files.",
+  "paths": [
+    "pc-handoff-t10/adapters/pc_gemm_splitk_parallel.h",
+    "pc-handoff-t10/adapters/pc_reduce_split_k.h",
+    "pc-handoff-t10/freeze/implementation/adapters/pc_gemm_splitk_parallel.h",
+    "pc-handoff-t10/freeze/implementation/adapters/pc_reduce_split_k.h",
+    "pc-handoff-t10/freeze/implementation/patches/producer.patch",
+    "pc-handoff-t10/freeze/implementation/patches/reducer.patch",
+    "pc-handoff-t10/freeze/implementation/src/make_adapters.py",
+    "pc-handoff-t10/freeze/matrix_source/pc_gemm_splitk_parallel.h",
+    "pc-handoff-t10/freeze/matrix_source/pc_reduce_split_k.h",
+    "pc-handoff-t10/freeze/production_implementation/adapters/pc_gemm_splitk_parallel.h",
+    "pc-handoff-t10/freeze/production_implementation/adapters/pc_reduce_split_k.h",
+    "pc-handoff-t10/freeze/production_implementation/patches/producer.patch",
+    "pc-handoff-t10/freeze/production_implementation/patches/reducer.patch",
+    "pc-handoff-t10/freeze/production_implementation/src/make_adapters.py",
+    "pc-handoff-t10/patches/producer.patch",
+    "pc-handoff-t10/patches/reducer.patch",
+    "pc-handoff-t10/src/make_adapters.py"
+  ]
+}

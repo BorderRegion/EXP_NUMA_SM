@@ -1,0 +1,13 @@
+{
+  "status": "CPU_CONTRACT_PASS_ONLY",
+  "cases": 515,
+  "packets": 52762,
+  "tiles": 65843,
+  "cases_with_multitile_packets": 170,
+  "generation_mismatch_rejected": true,
+  "unique_coverage": true,
+  "gpu_qualified": false,
+  "source": "Original protocol Python enumeration versus new C++ ordinal decoder",
+  "q1_native_identity": "UNKNOWN_WITHOUT_NATIVE_VISITOR",
+  "compiler_stderr": ""
+}
