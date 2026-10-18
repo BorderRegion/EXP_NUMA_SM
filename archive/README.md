@@ -4,7 +4,7 @@
 
 [完整数据发布页](https://github.com/BorderRegion/EXP_NUMA_SM/releases/tag/records-2026-10-18) · [机器可读清单](INDEX.json) · [SHA256SUMS](SHA256SUMS)
 
-发布状态以GitHub release实际存在的资产为准；本地准备不等于已经上传。归档按原目录分组，大于1 GiB的归档被分片，所有分片必须齐全。每个文件的哈希、大小和原路径都在 manifests；原始Git历史在 original-history.bundle。
+全部 **49 个发布资产**（48个数据/历史文件及1个校验清单）已上传并发布；逐项核对远端大小与SHA256，详见 [发布回执](PUBLICATION.json)。归档按原目录分组，大于1 GiB的归档被分片，所有分片必须齐全。每个文件的哈希、大小和原路径都在 manifests；原始Git历史在 original-history.bundle。
 
 ## 下载、验证与恢复
 
