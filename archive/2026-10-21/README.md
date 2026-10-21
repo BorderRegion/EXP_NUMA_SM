@@ -39,4 +39,4 @@ python3 T10_RESEARCH_FINAL/last_run/final-gpc-capacity-t10/src/recompute_final.p
 
 三次管理锁频实际执行，状态资格未通过，按CONTROL_LIMITED完成48容量条件、四GQA锚六策略两块；完整固定状态、留出、增长和长程均NA。CAP对N19配对完整ready约慢2.0%–19.6%，GPU跨度也慢，未建立拓扑/地址调度的净增量。最初全N19窗口合并得到的9.8%–19.8%保留为辅助汇总，最终主值使用各自相邻ABBA/BAAB窗口。不得挑选两种口径中更好看的数值。
 
-默认保留N19快核。100W和风扇/过温保护保留，动态时钟已恢复；GPU工作已结束。发布回执在上传核验后追加为PUBLICATION.json。
+默认保留N19快核。100W和风扇/过温保护保留，动态时钟已恢复；GPU工作已结束。四个数据包及SHA256SUMS共五个资产均已发布，GitHub端大小及SHA256全部匹配：[发布回执](PUBLICATION.json)。

@@ -1,0 +1,61 @@
+{
+  "status": "PUBLISHED_AND_REMOTE_HASH_VERIFIED",
+  "verified_at_utc": "2026-10-21T05:41:38.718862+00:00",
+  "repo": "BorderRegion/EXP_NUMA_SM",
+  "authenticated_account": "BorderRegion",
+  "tag": "records-2026-10-21",
+  "release_id": 419196573,
+  "url": "https://github.com/BorderRegion/EXP_NUMA_SM/releases/tag/records-2026-10-21",
+  "source_commit": "7abf09f34e0387b7fdf836d4db1d019afde9fc0d",
+  "published_at": "2026-10-21T05:41:36Z",
+  "assets": [
+    {
+      "name": "SHA256SUMS",
+      "size": 442,
+      "sha256": "d9d5c93400b0e9a763637b2855df527e4292e0b39ecf97882dacd5004afeb59d",
+      "remote_digest": "sha256:d9d5c93400b0e9a763637b2855df527e4292e0b39ecf97882dacd5004afeb59d",
+      "remote_state": "uploaded",
+      "url": "https://github.com/BorderRegion/EXP_NUMA_SM/releases/download/records-2026-10-21/SHA256SUMS",
+      "status": "MATCH"
+    },
+    {
+      "name": "T10_GPC_CONTENTION_GQA_REVIEW_20261019.zip",
+      "size": 30283659,
+      "sha256": "86bb79edd9cc7cf75e6ef9cef060a8cd8192741a2e707e24972eabd94e59aa29",
+      "remote_digest": "sha256:86bb79edd9cc7cf75e6ef9cef060a8cd8192741a2e707e24972eabd94e59aa29",
+      "remote_state": "uploaded",
+      "url": "https://github.com/BorderRegion/EXP_NUMA_SM/releases/download/records-2026-10-21/T10_GPC_CONTENTION_GQA_REVIEW_20261019.zip",
+      "status": "MATCH"
+    },
+    {
+      "name": "T10_QUOTA_TAIL_CLOSURE_REVIEW_20261019.zip",
+      "size": 12755118,
+      "sha256": "6ae23e8e03038088724a59561059ec8675f97fb4fd409c72389ea4af5756fc4c",
+      "remote_digest": "sha256:6ae23e8e03038088724a59561059ec8675f97fb4fd409c72389ea4af5756fc4c",
+      "remote_state": "uploaded",
+      "url": "https://github.com/BorderRegion/EXP_NUMA_SM/releases/download/records-2026-10-21/T10_QUOTA_TAIL_CLOSURE_REVIEW_20261019.zip",
+      "status": "MATCH"
+    },
+    {
+      "name": "T10_RESEARCH_FINAL_REPRODUCE_FULL_20261021.zip",
+      "size": 35497474,
+      "sha256": "60ab1be49878f8a5bc43609666c764193bd7c2c9e13210035f3cd709216e03ac",
+      "remote_digest": "sha256:60ab1be49878f8a5bc43609666c764193bd7c2c9e13210035f3cd709216e03ac",
+      "remote_state": "uploaded",
+      "url": "https://github.com/BorderRegion/EXP_NUMA_SM/releases/download/records-2026-10-21/T10_RESEARCH_FINAL_REPRODUCE_FULL_20261021.zip",
+      "status": "MATCH"
+    },
+    {
+      "name": "T10_RESEARCH_FINAL_REVIEW_SMALL_20261021.zip",
+      "size": 24552116,
+      "sha256": "053b67f41ff1de36f22f721a5bc4e4b74746d9d2baaa42a509a167921527a2e0",
+      "remote_digest": "sha256:053b67f41ff1de36f22f721a5bc4e4b74746d9d2baaa42a509a167921527a2e0",
+      "remote_state": "uploaded",
+      "url": "https://github.com/BorderRegion/EXP_NUMA_SM/releases/download/records-2026-10-21/T10_RESEARCH_FINAL_REVIEW_SMALL_20261021.zip",
+      "status": "MATCH"
+    }
+  ],
+  "old_release": "records-2026-10-18 unchanged",
+  "new_GPU_work": false,
+  "scope": "Remote server SHA256 and byte sizes match local, plus pre-upload CRC/inner manifests; not a claim of new GPU replication"
+}
