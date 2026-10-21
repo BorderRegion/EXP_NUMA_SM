@@ -3,8 +3,8 @@
 import argparse,hashlib,json,urllib.request
 from pathlib import Path
 R=Path(__file__).resolve().parents[1]
-a=argparse.ArgumentParser();a.add_argument('--dest',type=Path,required=True);a.add_argument('--only',help='Logical archive name');a.add_argument('--index',type=Path,help='Alternate release index');args=a.parse_args();args.dest.mkdir(parents=True,exist_ok=True)
-i=json.loads((args.index or R/'archive/INDEX.json').read_text());base='https://github.com/BorderRegion/EXP_NUMA_SM/releases/download/'+i['release_tag']+'/'
+a=argparse.ArgumentParser();a.add_argument('--dest',type=Path,required=True);a.add_argument('--only',help='Logical archive name');args=a.parse_args();args.dest.mkdir(parents=True,exist_ok=True)
+i=json.loads((R/'archive/INDEX.json').read_text());base='https://github.com/BorderRegion/EXP_NUMA_SM/releases/download/'+i['release_tag']+'/'
 assets=[]
 for r in i['archives']:
  if args.only and args.only!=r['asset']:continue

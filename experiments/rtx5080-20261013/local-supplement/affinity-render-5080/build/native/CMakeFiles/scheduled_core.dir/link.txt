@@ -1,2 +1,0 @@
-/usr/bin/ar qc libscheduled_core.a CMakeFiles/scheduled_core.dir/src/core/forward.cu.o CMakeFiles/scheduled_core.dir/src/core/backward.cu.o CMakeFiles/scheduled_core.dir/src/core/rasterizer_impl.cu.o CMakeFiles/scheduled_core.dir/src/scheduler.cu.o
-/usr/bin/ranlib libscheduled_core.a

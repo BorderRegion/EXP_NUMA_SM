@@ -1,7 +1,0 @@
-{
-  "status": "COMPLETE_BOUNDED_STOP_AND_REPORT",
-  "finished_at": "2026-10-13T19:43:48.871644+08:00",
-  "outcome": "NO_ACTIONABLE_AFFINITY_IN_TESTED_SCOPE",
-  "qualifier": "Weak positive 0.331% timing prediction below frozen 3% actionability gate; no learned-map deployment or rendering speedup measured.",
-  "no_further_GPU_work": true
-}

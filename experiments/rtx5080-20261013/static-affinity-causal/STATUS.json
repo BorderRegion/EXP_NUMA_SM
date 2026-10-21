@@ -1,8 +1,0 @@
-{
-  "status": "COMPLETE_WITH_DISCLOSED_PROTOCOL_DEVIATION",
-  "completed_at": "2026-10-13T20:38:41.312390+08:00",
-  "outcome": "NO_DEPLOYABLE_GAIN_ON_TESTED_GROUPS",
-  "further_GPU_work": false,
-  "input_holdout_deviation": "Four PRESSURE seeds overlap qualification; see INPUT_HOLDOUT_AUDIT.json",
-  "all_144_formal_sessions_completed": true
-}

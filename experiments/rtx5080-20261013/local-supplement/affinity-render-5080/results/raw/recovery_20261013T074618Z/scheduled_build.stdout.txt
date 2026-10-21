@@ -1,9 +1,0 @@
--- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: /home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/build/native
-[ 15%] Building CUDA object CMakeFiles/scheduled_core.dir/src/core/rasterizer_impl.cu.o
-[ 15%] Building CUDA object CMakeFiles/scheduled_core.dir/src/core/forward.cu.o
-[ 23%] Building CUDA object CMakeFiles/scheduled_core.dir/src/core/backward.cu.o
-[ 53%] Built target native_core
-[ 61%] Building CUDA object CMakeFiles/scheduled_core.dir/src/scheduler.cu.o
-[ 76%] Built target native_renderer

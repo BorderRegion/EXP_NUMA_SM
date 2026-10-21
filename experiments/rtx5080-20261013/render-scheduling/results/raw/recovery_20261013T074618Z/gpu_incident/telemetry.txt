@@ -1,2 +1,0 @@
-timestamp, name, driver_version, temperature.gpu, utilization.gpu [%], memory.used [MiB], memory.free [MiB], gpu_recovery_action
-2026/10/13 16:11:25.794, NVIDIA GeForce RTX 5080, 595.99.02, 41, 9 %, 605 MiB, 15234 MiB, None

@@ -1,6 +1,0 @@
-{"run_id": "v2_20261013T072225Z", "experiment": "plan_check", "status": "executed_cpu_only", "time": "2026-10-13T07:23:22.515886+00:00", "returncode": 0, "source": "results/raw/v2_20261013T072225Z/CPU_EXECUTION.json"}
-{"run_id": "v2_20261013T072225Z", "experiment": "plan_summary", "status": "executed_cpu_only", "time": "2026-10-13T07:23:22.544684+00:00", "returncode": 0, "source": "results/raw/v2_20261013T072225Z/CPU_EXECUTION.json"}
-{"run_id": "v2_20261013T072225Z", "experiment": "cpu_tests", "status": "executed_cpu_only", "time": "2026-10-13T07:23:22.574098+00:00", "returncode": 0, "source": "results/raw/v2_20261013T072225Z/CPU_EXECUTION.json"}
-{"run_id": "v2_20261013T072225Z", "experiment": "device_inventory", "status": "executed_read_only", "time": "2026-10-13T07:23:22.520718+00:00", "source": "results/raw/v2_20261013T072225Z/environment.json"}
-{"run_id": "v2_20261013T072225Z", "experiment": "route_decision", "status": "CPU_OR_MICRO_ONLY", "time": "2026-10-13T07:25:17.618573+00:00", "source": "results/raw/v2_20261013T072225Z/resource_assessment.json"}
-{"run_id": "v2_20261013T072225Z", "experiment": "E6_report", "status": "COMPLETE_RESOURCE_BLOCKED_REPORT", "time": "2026-10-13T07:30:10.976349+00:00", "source": "reports/RTX5080_RENDER_SCHEDULING_REPORT.md"}

@@ -1,5 +1,0 @@
-Oct 13 16:06:12 ws-X870-AORUS-ELITE-WIFI7-ICE kernel: NVRM: GPU at PCI:0000:01:00: GPU-b864b6c3-6dad-2596-5e83-3b15d32a13b5
-Oct 13 16:06:12 ws-X870-AORUS-ELITE-WIFI7-ICE kernel: NVRM: GPU Board Serial Number: 0
-Oct 13 16:06:12 ws-X870-AORUS-ELITE-WIFI7-ICE kernel: NVRM: Xid (PCI:0000:01:00): 13, Graphics SM Warp Exception on (GPC 3, TPC 4, SM 1): Illegal Instruction Parameter
-Oct 13 16:06:12 ws-X870-AORUS-ELITE-WIFI7-ICE kernel: NVRM: Xid (PCI:0000:01:00): 13, Graphics Exception: ESR 0x5397b0=0x2a000b 0x5397b4=0x20 0x5397a8=0x1c81fb60 0x5397ac=0x1174
-Oct 13 16:06:12 ws-X870-AORUS-ELITE-WIFI7-ICE kernel: NVRM: Xid (PCI:0000:01:00): 43, pid=79002, name=scheduled_rende, channel 0x00000010

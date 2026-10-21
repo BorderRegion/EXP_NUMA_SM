@@ -1,6 +1,0 @@
-/home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/src/core/auxiliary.h(151): warning #177-D: variable "p_proj" was declared but never referenced
-   float3 p_proj = { p_hom.x * p_w, p_hom.y * p_w, p_hom.z * p_w };
-          ^
-
-Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
-

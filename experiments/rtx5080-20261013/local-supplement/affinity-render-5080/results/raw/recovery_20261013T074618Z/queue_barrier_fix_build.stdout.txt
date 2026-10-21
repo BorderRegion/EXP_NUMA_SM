@@ -1,9 +1,0 @@
-[ 33%] Building CUDA object CMakeFiles/scheduled_core.dir/src/core/forward.cu.o
-[ 33%] Built target native_core
-[ 46%] Built target native_renderer
-[ 53%] Linking CUDA static library libscheduled_core.a
-[ 73%] Built target scheduled_core
-[ 80%] Linking CUDA executable scheduled_renderer
-[ 86%] Linking CUDA executable benchmark
-[ 93%] Built target scheduled_renderer
-[100%] Built target benchmark

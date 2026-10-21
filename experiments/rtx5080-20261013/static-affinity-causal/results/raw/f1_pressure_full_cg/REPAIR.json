@@ -1,8 +1,0 @@
-{
-  "observed_at": "2026-10-13T20:22:00.085693+08:00",
-  "failure": "Round 2 remainder-group diagnostic contains 48 old group0 positions; outputs match because all groups compute the same logical task.",
-  "likely_cause": "Primary-context pageable H2D batch upload lacked explicit device-completion dependency before independent Green stream consumption; diagnostic reset also needs a cross-context completion fence.",
-  "repair": "Explicit primary device synchronization after batch/table upload and diagnostic reset; sentinel-fill trace before each group calibration. Make SM observation asm volatile so start and end are distinct observations.",
-  "gpu_fault": false,
-  "formal_results_collected": false
-}
