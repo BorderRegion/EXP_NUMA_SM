@@ -1,3 +1,4 @@
 # Preserve the byte-for-byte evidence copies when staging or checking out.
 experiments/** -text -filter -working-tree-encoding
 archive/manifests/** -text -filter -working-tree-encoding
+research-final/** -text -filter -working-tree-encoding

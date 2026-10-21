@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "archive": {
+    "zip": "/home/ubuntu/下载/T10_QUOTA_TAIL_CLOSURE_REVIEW_20261019.zip",
+    "bytes": 12755118,
+    "sha256": "6ae23e8e03038088724a59561059ec8675f97fb4fd409c72389ea4af5756fc4c",
+    "files": 329,
+    "run": "/home/ubuntu/文档/ChatGPT/numa_gpu/quota-tail-closure-t10/runs/20261019T064852Z",
+    "main_report": "/home/ubuntu/文档/ChatGPT/numa_gpu/quota-tail-closure-t10/runs/20261019T064852Z/reports/T10_QUOTA_TAIL_CLOSURE_REPORT.md"
+  },
+  "manifest_files_checked": 328,
+  "fresh_extract_dir": "/tmp/t10-quota-qa-_v4apo50/T10_QUOTA_TAIL_CLOSURE_REVIEW_20261019",
+  "cpu_recompute_stdout": "{\"measured_phases\": 508, \"expanded_primary_labels\": 436, \"comparisons\": 416, \"actually_measured_primary\": {\"HOLDOUT\": 28, \"S1\": 136, \"S2\": 132, \"S3\": 84}}\nEXTRA_ANALYSIS_COMPLETE 1 GEMM bodies\nCPU_RECOMPUTE_PASS 508 phase means, all frozen k and selections, and exact derived hashes verified; no GPU execution.\n",
+  "cpu_recompute_stderr": "",
+  "cpu_recompute_returncode": 0,
+  "known_secret_patterns_found": [],
+  "figures_visually_checked": 4,
+  "gpu_execution_in_QA": false,
+  "utc": "2026-10-19T07:22:14.007119+00:00"
+}

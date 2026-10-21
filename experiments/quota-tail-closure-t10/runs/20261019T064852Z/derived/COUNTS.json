@@ -1,0 +1,31 @@
+{
+  "expanded_labels": {
+    "('HOLDOUT', 'JOINT')": 48,
+    "('S1', 'FG')": 68,
+    "('S1', 'BG')": 68,
+    "('S2', 'JOINT')": 132,
+    "('S3', 'JOINT')": 120
+  },
+  "actually_measured_primary": {
+    "HOLDOUT": 28,
+    "S1": 136,
+    "S2": 132,
+    "S3": 84
+  },
+  "completed_workers": [
+    "HOLDOUT_block_10",
+    "HOLDOUT_block_11",
+    "HOLDOUT_block_8",
+    "HOLDOUT_block_9",
+    "S1_block_0_retry",
+    "S1_block_1",
+    "S2_block_0",
+    "S2_block_1",
+    "S3_block_2",
+    "S3_block_3",
+    "S3_block_4",
+    "S3_block_5",
+    "S3_block_6",
+    "S3_block_7"
+  ]
+}

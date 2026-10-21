@@ -1,0 +1,7 @@
+{
+  "python": "3.12.3",
+  "pytorch": "2.8.0+cu128",
+  "torch_cuda_build": "12.8",
+  "cuda_initialized": false,
+  "scope": "CPU metadata inspection only; no GPU work"
+}

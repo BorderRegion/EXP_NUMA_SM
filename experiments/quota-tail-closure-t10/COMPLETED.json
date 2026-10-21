@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETED",
+  "utc": "2026-10-19T07:22:14.007119+00:00",
+  "delivery": {
+    "zip": "/home/ubuntu/下载/T10_QUOTA_TAIL_CLOSURE_REVIEW_20261019.zip",
+    "bytes": 12755118,
+    "sha256": "6ae23e8e03038088724a59561059ec8675f97fb4fd409c72389ea4af5756fc4c",
+    "files": 329,
+    "run": "/home/ubuntu/文档/ChatGPT/numa_gpu/quota-tail-closure-t10/runs/20261019T064852Z",
+    "main_report": "/home/ubuntu/文档/ChatGPT/numa_gpu/quota-tail-closure-t10/runs/20261019T064852Z/reports/T10_QUOTA_TAIL_CLOSURE_REPORT.md"
+  },
+  "automatic_expansion": false,
+  "decision": "Pause automatic expansion of this T10/static coexecution thesis route; frozen JOINT does not beat strongest simple/native reference. Preserve local positive ablation without selecting on confirmation.",
+  "production_defaults_changed": false
+}

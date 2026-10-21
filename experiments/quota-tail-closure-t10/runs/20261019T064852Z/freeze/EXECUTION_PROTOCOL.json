@@ -1,0 +1,23 @@
+{
+  "primary_jobs_per_phase": 16,
+  "sweeps": 2,
+  "jobs_per_sweep": 8,
+  "ordering": "Seeded shuffled first sweep, reverse second sweep; frozen ORDER.json before timing",
+  "warmup_per_sweep": ">=2 complete jobs and >=50ms host interval, executed in groups of4",
+  "qualification": "All plans and inputs qualified before suite; cached-output check after each timed segment, no per-segment FP64 reference construction",
+  "stage_events": "Necessary prefix dependency event has timing disabled in formal path; prefix/suffix timestamps only in independent diagnostic",
+  "isolated_prefix_metric": "GPU complete service interval, two developer blocks geometric mean; both intervals have identical total work",
+  "quota_list": [
+    10,
+    20,
+    28,
+    36,
+    46
+  ],
+  "no_math_changes": true,
+  "no_context_policy_env_changes": true,
+  "selection_ties": "Exact mean ties: native first, lower measured setup proxy, fixed index",
+  "alias_rule": "Same exact SM sets, execution mode, effective k, background count; labels share one measurement",
+  "holdout": "Block8-11 new seeds, twice BG calls, unchanged q/family/mode/k",
+  "stats": "5000 process-block bootstrap; 97.5% marginal for JOINT_POOL/BEST_NATIVE and /BEST_SIMPLE per main job; otherwise95%"
+}

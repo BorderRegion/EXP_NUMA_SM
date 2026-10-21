@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "git_evidence_files_exact": 486,
+  "reader_links_checked": 25,
+  "T10_stage_count": 28,
+  "stable_stage_uids": 28,
+  "old_tracked_evidence_unmodified": true,
+  "RTX5080_reports_unmodified": true,
+  "new_GPU_work": false,
+  "raw_zip_checks": "see LOCAL_ASSETS_QA.json",
+  "scope": "Content/byte integrity, not blanket numerical verification"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "source_path": "/mnt/data/T10_25_STAGE_CUMULATIVE_REVIEW_20261019/sources/22.md",
+    "copy": "sources/HISTORY_GPC_TOPOLOGY.md",
+    "sha256": "441a0dd34791834e4c140d8c0239f2ab14f3058be3cb60fc612c9e9e8a338279",
+    "kind": "user_report_or_prior_CPU_review",
+    "not_new_verification": true
+  },
+  {
+    "source_path": "/mnt/data/T10_25_STAGE_CUMULATIVE_REVIEW_20261019/sources/19.md",
+    "copy": "sources/HISTORY_VECTOR_GQA.md",
+    "sha256": "69c2410ba0b01aa3f93f3f0ccdf4abd81d6f4f3b3f3d4ef12af451421d9386c4",
+    "kind": "user_report_or_prior_CPU_review",
+    "not_new_verification": true
+  },
+  {
+    "source_path": "/mnt/data/T10_CRITIQUE_SOURCE_EXCERPTS_20261019/STAGE_13.md",
+    "copy": "sources/HISTORY_STATE_DIAG.md",
+    "sha256": "bcfad102c00de11ed8912ad2f7aa9e745de3171771a2e96d304b3cb991e42da7",
+    "kind": "user_report_or_prior_CPU_review",
+    "not_new_verification": true
+  },
+  {
+    "source_path": "/mnt/data/t10_quota_tail_audit_20261019/outputs/sources/T10_QUOTA_TAIL_CLOSURE_REPORT.md",
+    "copy": "sources/HISTORY_QUOTA_CLOSURE.md",
+    "sha256": "285dad5d638d6b41a16ee01c108b3c23d813bf8082d1873c5fa56e9f0b48ba11",
+    "kind": "user_report_or_prior_CPU_review",
+    "not_new_verification": true
+  },
+  {
+    "source_path": "/mnt/data/T10_25_STAGE_CUMULATIVE_REVIEW_20261019/GPC_AFFINITY_CROSS_STAGE.md",
+    "copy": "sources/HISTORY_CPU_GPC_LINK.md",
+    "sha256": "e54dc8aa3f918ee04fe0eef1ec40d9efbeb179de1582ff7959ecff58249e49d1",
+    "kind": "user_report_or_prior_CPU_review",
+    "not_new_verification": true
+  },
+  {
+    "archive": "T10_GPC_CONTENTION_GQA_WEBGPT_20261019.zip",
+    "member": "T10_GPC_CONTENTION_GQA_WEBGPT_20261019/gpc-contention-gqa-t10/runs/20261019T041515Z/freeze/SM_TO_GPC_TPC.csv",
+    "copy": "sources/HISTORICAL_SM_TO_GPC_TPC.csv",
+    "sha256": "ecab18bb38c673c6b3804494a808897e06d61750752046cb367c5e202f99a045",
+    "kind": "historical_observed_topology_NOT_live_binding"
+  }
+]

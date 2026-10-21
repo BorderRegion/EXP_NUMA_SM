@@ -1,0 +1,12 @@
+{
+  "archive": "/home/ubuntu/\u4e0b\u8f7d/T10_GPC_CONTENTION_GQA_REVIEW_20261019.zip",
+  "zip_sha256": "86bb79edd9cc7cf75e6ef9cef060a8cd8192741a2e707e24972eabd94e59aa29",
+  "manifest_entries_checked": 385,
+  "fresh_extraction": "/tmp/t10-gpc-review-qa-z9vhbt4h/T10_GPC_CONTENTION_GQA_REVIEW_20261019",
+  "cpu_recompute_returncode": 0,
+  "cpu_recompute_stdout": "{\"phases\": 3924, \"comparisons\": 424, \"policy_comparisons\": 1512, \"missing\": []}\nDESCRIPTIVE_AUDIT_WRITTEN\nCPU_RECOMPUTE_PASS: exact comparison JSON hashes; E1 signed block means within 1e-12. No GPU execution.\n",
+  "cpu_recompute_stderr": "",
+  "known_secret_pattern_scan_passed": true,
+  "png_figures_visually_checked": 4,
+  "gpu_execution_in_package_qa": false
+}

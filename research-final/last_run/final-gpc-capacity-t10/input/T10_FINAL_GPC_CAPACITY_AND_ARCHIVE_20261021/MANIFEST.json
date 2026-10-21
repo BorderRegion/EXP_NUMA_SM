@@ -1,0 +1,155 @@
+{
+  "kind": "delivery_integrity_not_scientific_validation",
+  "files": [
+    {
+      "path": "CODEX_MASTER_TASK.md",
+      "size_bytes": 11720,
+      "sha256": "aed8c5411b165a4c19e94f257b59bb5d052cd7a79b632ba3c9bd2b8d414a8f2d"
+    },
+    {
+      "path": "COPY_TO_CODEX.txt",
+      "size_bytes": 1995,
+      "sha256": "47ea5f7bb4c90f72349d725f65be0d7d281941fd01a8119bc71fc5d013c88d90"
+    },
+    {
+      "path": "README_CPU_TOOLS.md",
+      "size_bytes": 1082,
+      "sha256": "b7fe8ed6fbfe18a931865530955f14ef0d7bf03c655bda8cf2470313dae606b6"
+    },
+    {
+      "path": "SOURCE_REGISTER.md",
+      "size_bytes": 2113,
+      "sha256": "e0243d50c81398e5f616542e527aed5f91ecd6f6e562581cce22639a79c8f2af"
+    },
+    {
+      "path": "START_HERE.md",
+      "size_bytes": 1337,
+      "sha256": "acbe66b7a0c95ade764acc775dfcac0cf565e45f4f0bbd693997a76cb02d904a"
+    },
+    {
+      "path": "VALIDATION_REPORT.json",
+      "size_bytes": 1140,
+      "sha256": "7a6ebc3e8e126e83b65bf153698da32ad6ac3c6a45a063a70e6c1e3aa592d20c"
+    },
+    {
+      "path": "VALIDATION_REPORT.md",
+      "size_bytes": 674,
+      "sha256": "4cef6ac5feaf96ddf1b79eea2079fb2597537229b572350e076a3f0dd0074463"
+    },
+    {
+      "path": "docs/01_STATE_AND_MEASUREMENT.md",
+      "size_bytes": 5299,
+      "sha256": "60e81a759414d544eb09cb11b1d328c99565fedfb1ba4adba52e1103a8f57b3d"
+    },
+    {
+      "path": "docs/02_CAPACITY_AND_KERNEL.md",
+      "size_bytes": 8131,
+      "sha256": "f4354ab2b0d7f23d4210cbcae2014abb2d812f5ab870ad26240637d0e4b9014b"
+    },
+    {
+      "path": "docs/03_EVALUATION_AND_DECISION.md",
+      "size_bytes": 4201,
+      "sha256": "e8c2fa9ef392287c9555656f41dc581580b922b81abed45899ec511f606628fb"
+    },
+    {
+      "path": "docs/04_ARCHIVE.md",
+      "size_bytes": 5493,
+      "sha256": "1e8b30c1b3f8d16e8a707878522f5c93d065ae87ed0671c1c7e8f69ce1b730c4"
+    },
+    {
+      "path": "plans/HISTORICAL_SUBSETS_CPU_ONLY.json",
+      "size_bytes": 159873,
+      "sha256": "9616c7ed0d337b1ee7894ddbfed68152d43bc4ec58f30f789095f6682414f10f"
+    },
+    {
+      "path": "plans/campaign.json",
+      "size_bytes": 2615,
+      "sha256": "dbebde1dfb58b396a4c0c10ff32cf1c2df4ec375fed6cf48de1a4004c45bcb58"
+    },
+    {
+      "path": "plans/cases.json",
+      "size_bytes": 3382,
+      "sha256": "5a04e7ea30bc52945c415a90b28ea5452ea7aead50ddbd6db9eea51bd6a596f0"
+    },
+    {
+      "path": "sources/HISTORICAL_SM_TO_GPC_TPC.csv",
+      "size_bytes": 908,
+      "sha256": "ecab18bb38c673c6b3804494a808897e06d61750752046cb367c5e202f99a045"
+    },
+    {
+      "path": "sources/HISTORY_CPU_GPC_LINK.md",
+      "size_bytes": 2668,
+      "sha256": "e54dc8aa3f918ee04fe0eef1ec40d9efbeb179de1582ff7959ecff58249e49d1"
+    },
+    {
+      "path": "sources/HISTORY_GPC_TOPOLOGY.md",
+      "size_bytes": 8165,
+      "sha256": "441a0dd34791834e4c140d8c0239f2ab14f3058be3cb60fc612c9e9e8a338279"
+    },
+    {
+      "path": "sources/HISTORY_QUOTA_CLOSURE.md",
+      "size_bytes": 28460,
+      "sha256": "285dad5d638d6b41a16ee01c108b3c23d813bf8082d1873c5fa56e9f0b48ba11"
+    },
+    {
+      "path": "sources/HISTORY_STATE_DIAG.md",
+      "size_bytes": 12987,
+      "sha256": "bcfad102c00de11ed8912ad2f7aa9e745de3171771a2e96d304b3cb991e42da7"
+    },
+    {
+      "path": "sources/HISTORY_VECTOR_GQA.md",
+      "size_bytes": 12003,
+      "sha256": "69c2410ba0b01aa3f93f3f0ccdf4abd81d6f4f3b3f3d4ef12af451421d9386c4"
+    },
+    {
+      "path": "sources/source_manifest.json",
+      "size_bytes": 1945,
+      "sha256": "9d0aa8867cce8d6a9f0cf69ede4fc5415a59619fee70a63878e380d10dfc12fb"
+    },
+    {
+      "path": "templates/CLAIM.example.json",
+      "size_bytes": 464,
+      "sha256": "128f55e14945fa889a13006671022e171211801f2660994e063206cbdbf70033"
+    },
+    {
+      "path": "templates/FINAL_REPORT_OUTLINE.md",
+      "size_bytes": 1163,
+      "sha256": "a6d68ee806e5f8f407c4e53e7bfe7e3d2184f7ad0f109e571f22679c2d7e6f53"
+    },
+    {
+      "path": "templates/STAGE_CATALOG.example.json",
+      "size_bytes": 753,
+      "sha256": "9142829f0ebc89c79a0d4f1f92978fe3009d93ca276de38823ffd7fb4c459536"
+    },
+    {
+      "path": "tests/CPP_TEST_LOG.txt",
+      "size_bytes": 96,
+      "sha256": "66e6719d6eddce0e8ea230efbe2a5aa0c4a8e432aefd0936574b78bfd4aa2dbe"
+    },
+    {
+      "path": "tests/CPU_TEST_LOG.txt",
+      "size_bytes": 1883,
+      "sha256": "48cd048018d68ba1b5394ceead87fd746f1cc10b21ac73559f6f0055d91212fb"
+    },
+    {
+      "path": "tests/test_cpu.py",
+      "size_bytes": 6471,
+      "sha256": "9b2bf22e3c1f3ec58e5942373cc6d8fce80b754f9fdcc451ff2ac31cbf8e7945"
+    },
+    {
+      "path": "tests/worker_range_test.cpp",
+      "size_bytes": 667,
+      "sha256": "0a00ccf768df5622f7267fe8c5af853941d6ab00cdcf52c0e04aa9285bac3082"
+    },
+    {
+      "path": "tools/plans.py",
+      "size_bytes": 7598,
+      "sha256": "0d0d5cf768475539c197e6fbea23233fc847ac5498ff39c6e8bb431af23826fd"
+    },
+    {
+      "path": "tools/worker_range.hpp",
+      "size_bytes": 588,
+      "sha256": "9936c5b7fb93ba7ec968f893f79f3f4967ef28027aae4998694fa6a9368eb622"
+    }
+  ]
+}

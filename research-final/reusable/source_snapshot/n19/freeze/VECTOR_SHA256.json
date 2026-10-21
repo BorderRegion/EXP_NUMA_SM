@@ -1,0 +1,12 @@
+{
+  "freeze/vector_implementation/vector_runtime.py": "de0d45644daa39fcdadd16b8d5f352277b31efc26c8136e2a950e5ca27989123",
+  "freeze/vector_implementation/vector_qualify.py": "1e7fdc6a613127fe23aadac63a1393ddbd483a7a9460ccfff26f65ccdee8a5bf",
+  "freeze/vector_implementation/run_vector.py": "45dbc63944af81e9c248ceda38443de6db238a344de7e453886c5675d333fdd0",
+  "freeze/vector_implementation/vector_attention.cu": "de56e97ef424d14da68df1e9dc8e88abb80307633484af850184fd5caa199cea",
+  "freeze/vector_implementation/select_vector.py": "d27fa7db5391b393799c580a2ea55decc3c0f2b8af46f626a5be843c5c5775fc",
+  "freeze/vector_implementation/vector_experiment.py": "0c544ce46952444022164d008b038832f28115cfa7766b4074c0e888aad87a0b",
+  "freeze/vector_implementation/vector_append.cu": "fcdc0c8a06fd1676a0a9ab8b4afacf2aa26cff09a0393ae6fb538b29fd1bb050",
+  "freeze/VECTOR_PROTOCOL.json": "bfd17b95c6ff9e2a5f880dffd3f4d5129d9abfd0fb09d5dfa3af72cfea9856e3",
+  "build/vector.so": "f6c34ac7361379dc4e0bf29a4240f34e411601fe48a16e2a6cfa83003e2e0d44",
+  "build/vector_append.so": "b9fd4b4e464bc7ec3e7a425ba670aa4603f83b02d13fd9f7b7dbd33cac15382a"
+}

@@ -1,0 +1,16 @@
+{
+  "claim_id": "<unique>",
+  "statement": "<no unsupported cause>",
+  "status": "UNKNOWN",
+  "scope": "<device/workload/state>",
+  "source_report": "<path>",
+  "source_section": "<heading or actual lines>",
+  "source_type": "EXPERIMENT",
+  "metric_definition": "<time reduction / speedup / absolute>",
+  "estimate": null,
+  "uncertainty": null,
+  "raw_reference": "<run/path>",
+  "verification_level": "REPORT_ONLY",
+  "counterevidence": [],
+  "not_implied": []
+}

@@ -1,0 +1,1258 @@
+{
+  "LONG": {
+    "Q_ONLY": {
+      "label": "NEUTRAL_Q10_RELEASE",
+      "action": {
+        "family": "NEUTRAL",
+        "q": 10,
+        "mode": "RELEASE",
+        "k": 14
+      },
+      "geomean_output_ready_us": 13948.436987219311,
+      "development_values": [
+        13352.5526875,
+        14570.913812499999
+      ],
+      "setup_proxy_ms": 61.98071740800515,
+      "fixed_index": 4
+    },
+    "SIMPLE_SPREAD": {
+      "label": "SERIAL_GEMM_FIRST",
+      "action": {
+        "family": "NATIVE",
+        "q": 56,
+        "mode": "SERIAL_GEMM_FIRST",
+        "k": 32
+      },
+      "geomean_output_ready_us": 13960.32462320818,
+      "development_values": [
+        13208.6595,
+        14754.76475
+      ],
+      "setup_proxy_ms": 50.36761099472642,
+      "fixed_index": 1
+    },
+    "JOINT_POOL": {
+      "label": "NEUTRAL_Q10_RELEASE",
+      "action": {
+        "family": "NEUTRAL",
+        "q": 10,
+        "mode": "RELEASE",
+        "k": 14
+      },
+      "geomean_output_ready_us": 13948.436987219311,
+      "development_values": [
+        13352.5526875,
+        14570.913812499999
+      ],
+      "setup_proxy_ms": 61.98071740800515,
+      "fixed_index": 4
+    },
+    "PC_STAR": {
+      "label": "NEUTRAL_Q10_RELEASE",
+      "action": {
+        "family": "NEUTRAL",
+        "q": 10,
+        "mode": "RELEASE",
+        "k": 14
+      },
+      "geomean_output_ready_us": 13948.436987219311,
+      "development_values": [
+        13352.5526875,
+        14570.913812499999
+      ],
+      "setup_proxy_ms": 61.98071740800515,
+      "fixed_index": 4
+    },
+    "BEST_NATIVE": {
+      "label": "SERIAL_GEMM_FIRST",
+      "action": {
+        "family": "NATIVE",
+        "q": 56,
+        "mode": "SERIAL_GEMM_FIRST",
+        "k": 32
+      },
+      "geomean_output_ready_us": 13960.32462320818,
+      "development_values": [
+        13208.6595,
+        14754.76475
+      ],
+      "setup_proxy_ms": 50.36761099472642,
+      "fixed_index": 1
+    },
+    "BEST_SIMPLE": {
+      "label": "NEUTRAL_Q10_RELEASE",
+      "action": {
+        "family": "NEUTRAL",
+        "q": 10,
+        "mode": "RELEASE",
+        "k": 14
+      },
+      "geomean_output_ready_us": 13948.436987219311,
+      "development_values": [
+        13352.5526875,
+        14570.913812499999
+      ],
+      "setup_proxy_ms": 61.98071740800515,
+      "fixed_index": 4
+    },
+    "all_development_actions": [
+      {
+        "label": "SERIAL_GQA_FIRST",
+        "action": {
+          "family": "NATIVE",
+          "q": 56,
+          "mode": "SERIAL_GQA_FIRST",
+          "k": 32
+        },
+        "geomean_output_ready_us": 14016.959489831073,
+        "development_values": [
+          13624.9645,
+          14420.2323125
+        ],
+        "setup_proxy_ms": 50.36761099472642,
+        "fixed_index": 0
+      },
+      {
+        "label": "SERIAL_GEMM_FIRST",
+        "action": {
+          "family": "NATIVE",
+          "q": 56,
+          "mode": "SERIAL_GEMM_FIRST",
+          "k": 32
+        },
+        "geomean_output_ready_us": 13960.32462320818,
+        "development_values": [
+          13208.6595,
+          14754.76475
+        ],
+        "setup_proxy_ms": 50.36761099472642,
+        "fixed_index": 1
+      },
+      {
+        "label": "SHARED56",
+        "action": {
+          "family": "NATIVE",
+          "q": 56,
+          "mode": "SHARED56",
+          "k": 32
+        },
+        "geomean_output_ready_us": 14772.49060732634,
+        "development_values": [
+          14029.0535,
+          15555.324437500001
+        ],
+        "setup_proxy_ms": 50.36761099472642,
+        "fixed_index": 2
+      },
+      {
+        "label": "NEUTRAL_Q10_FIXED",
+        "action": {
+          "family": "NEUTRAL",
+          "q": 10,
+          "mode": "FIXED",
+          "k": 14
+        },
+        "geomean_output_ready_us": 18819.08722163422,
+        "development_values": [
+          18276.77675,
+          19377.489187500003
+        ],
+        "setup_proxy_ms": 99.75403908174485,
+        "fixed_index": 3
+      },
+      {
+        "label": "NEUTRAL_Q10_RELEASE",
+        "action": {
+          "family": "NEUTRAL",
+          "q": 10,
+          "mode": "RELEASE",
+          "k": 14
+        },
+        "geomean_output_ready_us": 13948.436987219311,
+        "development_values": [
+          13352.5526875,
+          14570.913812499999
+        ],
+        "setup_proxy_ms": 61.98071740800515,
+        "fixed_index": 4
+      },
+      {
+        "label": "PACK_Q10_FIXED",
+        "action": {
+          "family": "PACK",
+          "q": 10,
+          "mode": "FIXED",
+          "k": 14
+        },
+        "geomean_output_ready_us": 18099.349458492215,
+        "development_values": [
+          17901.5791875,
+          18299.304624999997
+        ],
+        "setup_proxy_ms": 79.19649651739746,
+        "fixed_index": 5
+      },
+      {
+        "label": "PACK_Q10_RELEASE",
+        "action": {
+          "family": "PACK",
+          "q": 10,
+          "mode": "RELEASE",
+          "k": 14
+        },
+        "geomean_output_ready_us": 13962.504914735317,
+        "development_values": [
+          13549.606437499999,
+          14387.9856875
+        ],
+        "setup_proxy_ms": 56.543111451901495,
+        "fixed_index": 6
+      },
+      {
+        "label": "SPREAD_Q10_FIXED",
+        "action": {
+          "family": "SPREAD",
+          "q": 10,
+          "mode": "FIXED",
+          "k": 15
+        },
+        "geomean_output_ready_us": 18494.568312151045,
+        "development_values": [
+          18548.554,
+          18440.73975
+        ],
+        "setup_proxy_ms": 81.04974846355617,
+        "fixed_index": 7
+      },
+      {
+        "label": "SPREAD_Q10_RELEASE",
+        "action": {
+          "family": "SPREAD",
+          "q": 10,
+          "mode": "RELEASE",
+          "k": 15
+        },
+        "geomean_output_ready_us": 13997.416664766135,
+        "development_values": [
+          13496.7258125,
+          14516.68175
+        ],
+        "setup_proxy_ms": 60.83909602602944,
+        "fixed_index": 8
+      },
+      {
+        "label": "NEUTRAL_Q20_FIXED",
+        "action": {
+          "family": "NEUTRAL",
+          "q": 20,
+          "mode": "FIXED",
+          "k": 23
+        },
+        "geomean_output_ready_us": 14468.587312441336,
+        "development_values": [
+          13869.605,
+          15093.4376875
+        ],
+        "setup_proxy_ms": 58.345987054053694,
+        "fixed_index": 9
+      },
+      {
+        "label": "NEUTRAL_Q20_RELEASE",
+        "action": {
+          "family": "NEUTRAL",
+          "q": 20,
+          "mode": "RELEASE",
+          "k": 23
+        },
+        "geomean_output_ready_us": 14417.124902897127,
+        "development_values": [
+          13765.4755,
+          15099.623
+        ],
+        "setup_proxy_ms": 58.2107026129961,
+        "fixed_index": 10
+      },
+      {
+        "label": "PACK_Q20_FIXED",
+        "action": {
+          "family": "PACK",
+          "q": 20,
+          "mode": "FIXED",
+          "k": 23
+        },
+        "geomean_output_ready_us": 14421.52860116384,
+        "development_values": [
+          13737.83225,
+          15139.25075
+        ],
+        "setup_proxy_ms": 60.8954859781079,
+        "fixed_index": 11
+      },
+      {
+        "label": "PACK_Q20_RELEASE",
+        "action": {
+          "family": "PACK",
+          "q": 20,
+          "mode": "RELEASE",
+          "k": 23
+        },
+        "geomean_output_ready_us": 14210.848963995026,
+        "development_values": [
+          13585.2744375,
+          14865.2299375
+        ],
+        "setup_proxy_ms": 58.84627311024815,
+        "fixed_index": 12
+      },
+      {
+        "label": "SPREAD_Q20_FIXED",
+        "action": {
+          "family": "SPREAD",
+          "q": 20,
+          "mode": "FIXED",
+          "k": 22
+        },
+        "geomean_output_ready_us": 14273.805472223656,
+        "development_values": [
+          13565.73425,
+          15018.834875
+        ],
+        "setup_proxy_ms": 61.89232604810968,
+        "fixed_index": 13
+      },
+      {
+        "label": "SPREAD_Q20_RELEASE",
+        "action": {
+          "family": "SPREAD",
+          "q": 20,
+          "mode": "RELEASE",
+          "k": 22
+        },
+        "geomean_output_ready_us": 14065.186838749909,
+        "development_values": [
+          13444.095125,
+          14714.9718125
+        ],
+        "setup_proxy_ms": 58.77677904209122,
+        "fixed_index": 14
+      },
+      {
+        "label": "NEUTRAL_Q28_FIXED",
+        "action": {
+          "family": "NEUTRAL",
+          "q": 28,
+          "mode": "FIXED",
+          "k": 27
+        },
+        "geomean_output_ready_us": 14508.493006008863,
+        "development_values": [
+          13918.7785625,
+          15123.192625
+        ],
+        "setup_proxy_ms": 57.38210043637082,
+        "fixed_index": 15
+      },
+      {
+        "label": "NEUTRAL_Q28_RELEASE",
+        "action": {
+          "family": "NEUTRAL",
+          "q": 28,
+          "mode": "RELEASE",
+          "k": 27
+        },
+        "geomean_output_ready_us": 14526.934688729982,
+        "development_values": [
+          13785.3038125,
+          15308.4643125
+        ],
+        "setup_proxy_ms": 59.266625496093184,
+        "fixed_index": 16
+      },
+      {
+        "label": "PACK_Q28_FIXED",
+        "action": {
+          "family": "PACK",
+          "q": 28,
+          "mode": "FIXED",
+          "k": 29
+        },
+        "geomean_output_ready_us": 14511.234038799925,
+        "development_values": [
+          13852.043375000001,
+          15201.794249999999
+        ],
+        "setup_proxy_ms": 59.71629754640162,
+        "fixed_index": 17
+      },
+      {
+        "label": "PACK_Q28_RELEASE",
+        "action": {
+          "family": "PACK",
+          "q": 28,
+          "mode": "RELEASE",
+          "k": 29
+        },
+        "geomean_output_ready_us": 14473.713698082038,
+        "development_values": [
+          13796.8149375,
+          15183.822437499999
+        ],
+        "setup_proxy_ms": 60.611516528297216,
+        "fixed_index": 18
+      },
+      {
+        "label": "SPREAD_Q28_FIXED",
+        "action": {
+          "family": "SPREAD",
+          "q": 28,
+          "mode": "FIXED",
+          "k": 28
+        },
+        "geomean_output_ready_us": 14413.162821999449,
+        "development_values": [
+          13854.2104375,
+          14994.6663125
+        ],
+        "setup_proxy_ms": 58.80224151769653,
+        "fixed_index": 19
+      },
+      {
+        "label": "SPREAD_Q28_RELEASE",
+        "action": {
+          "family": "SPREAD",
+          "q": 28,
+          "mode": "RELEASE",
+          "k": 28
+        },
+        "geomean_output_ready_us": 14684.826173700527,
+        "development_values": [
+          14023.6535625,
+          15377.171062500001
+        ],
+        "setup_proxy_ms": 60.10614009574056,
+        "fixed_index": 20
+      },
+      {
+        "label": "NEUTRAL_Q36_FIXED",
+        "action": {
+          "family": "NEUTRAL",
+          "q": 36,
+          "mode": "FIXED",
+          "k": 31
+        },
+        "geomean_output_ready_us": 14694.588025412002,
+        "development_values": [
+          14031.401625,
+          15389.1195625
+        ],
+        "setup_proxy_ms": 61.2653840216808,
+        "fixed_index": 21
+      },
+      {
+        "label": "NEUTRAL_Q36_RELEASE",
+        "action": {
+          "family": "NEUTRAL",
+          "q": 36,
+          "mode": "RELEASE",
+          "k": 31
+        },
+        "geomean_output_ready_us": 14988.366073600359,
+        "development_values": [
+          14361.0309375,
+          15643.1051875
+        ],
+        "setup_proxy_ms": 65.72344101732597,
+        "fixed_index": 22
+      },
+      {
+        "label": "PACK_Q36_FIXED",
+        "action": {
+          "family": "PACK",
+          "q": 36,
+          "mode": "FIXED",
+          "k": 31
+        },
+        "geomean_output_ready_us": 15219.391795078727,
+        "development_values": [
+          14105.0810625,
+          16421.733812500002
+        ],
+        "setup_proxy_ms": 64.09606948727742,
+        "fixed_index": 23
+      },
+      {
+        "label": "PACK_Q36_RELEASE",
+        "action": {
+          "family": "PACK",
+          "q": 36,
+          "mode": "RELEASE",
+          "k": 31
+        },
+        "geomean_output_ready_us": 14823.679821573623,
+        "development_values": [
+          14298.4353125,
+          15368.218874999999
+        ],
+        "setup_proxy_ms": 63.6514785583131,
+        "fixed_index": 24
+      },
+      {
+        "label": "SPREAD_Q36_FIXED",
+        "action": {
+          "family": "SPREAD",
+          "q": 36,
+          "mode": "FIXED",
+          "k": 31
+        },
+        "geomean_output_ready_us": 15004.056896179178,
+        "development_values": [
+          14280.069749999999,
+          15764.7495625
+        ],
+        "setup_proxy_ms": 64.4615480559878,
+        "fixed_index": 25
+      },
+      {
+        "label": "SPREAD_Q36_RELEASE",
+        "action": {
+          "family": "SPREAD",
+          "q": 36,
+          "mode": "RELEASE",
+          "k": 31
+        },
+        "geomean_output_ready_us": 14820.675973853391,
+        "development_values": [
+          14336.477812500001,
+          15321.227375
+        ],
+        "setup_proxy_ms": 64.4781804876402,
+        "fixed_index": 26
+      },
+      {
+        "label": "NEUTRAL_Q46_FIXED",
+        "action": {
+          "family": "NEUTRAL",
+          "q": 46,
+          "mode": "FIXED",
+          "k": 31
+        },
+        "geomean_output_ready_us": 16704.86978327637,
+        "development_values": [
+          15618.225687499998,
+          17867.1175625
+        ],
+        "setup_proxy_ms": 86.30543848266825,
+        "fixed_index": 27
+      },
+      {
+        "label": "NEUTRAL_Q46_RELEASE",
+        "action": {
+          "family": "NEUTRAL",
+          "q": 46,
+          "mode": "RELEASE",
+          "k": 31
+        },
+        "geomean_output_ready_us": 16341.670736347018,
+        "development_values": [
+          15739.355437499999,
+          16967.035499999998
+        ],
+        "setup_proxy_ms": 83.80598499206826,
+        "fixed_index": 28
+      },
+      {
+        "label": "PACK_Q46_FIXED",
+        "action": {
+          "family": "PACK",
+          "q": 46,
+          "mode": "FIXED",
+          "k": 31
+        },
+        "geomean_output_ready_us": 16439.823374649983,
+        "development_values": [
+          15736.140125,
+          17174.9736875
+        ],
+        "setup_proxy_ms": 85.34071542089805,
+        "fixed_index": 29
+      },
+      {
+        "label": "PACK_Q46_RELEASE",
+        "action": {
+          "family": "PACK",
+          "q": 46,
+          "mode": "RELEASE",
+          "k": 31
+        },
+        "geomean_output_ready_us": 16493.949469418036,
+        "development_values": [
+          15851.333750000002,
+          17162.616937500003
+        ],
+        "setup_proxy_ms": 82.12552295299247,
+        "fixed_index": 30
+      },
+      {
+        "label": "SPREAD_Q46_FIXED",
+        "action": {
+          "family": "SPREAD",
+          "q": 46,
+          "mode": "FIXED",
+          "k": 31
+        },
+        "geomean_output_ready_us": 16441.011529022853,
+        "development_values": [
+          15774.168375,
+          17136.0450625
+        ],
+        "setup_proxy_ms": 84.23625351861119,
+        "fixed_index": 31
+      },
+      {
+        "label": "SPREAD_Q46_RELEASE",
+        "action": {
+          "family": "SPREAD",
+          "q": 46,
+          "mode": "RELEASE",
+          "k": 31
+        },
+        "geomean_output_ready_us": 16734.469071870837,
+        "development_values": [
+          15933.5414375,
+          17575.65675
+        ],
+        "setup_proxy_ms": 82.9526170855388,
+        "fixed_index": 32
+      }
+    ]
+  },
+  "RAGGED": {
+    "Q_ONLY": {
+      "label": "SERIAL_GEMM_FIRST",
+      "action": {
+        "family": "NATIVE",
+        "q": 56,
+        "mode": "SERIAL_GEMM_FIRST",
+        "k": 32
+      },
+      "geomean_output_ready_us": 17538.432425886764,
+      "development_values": [
+        17295.951687499997,
+        17784.312625
+      ],
+      "setup_proxy_ms": 58.70519491145387,
+      "fixed_index": 1
+    },
+    "SIMPLE_SPREAD": {
+      "label": "SERIAL_GEMM_FIRST",
+      "action": {
+        "family": "NATIVE",
+        "q": 56,
+        "mode": "SERIAL_GEMM_FIRST",
+        "k": 32
+      },
+      "geomean_output_ready_us": 17538.432425886764,
+      "development_values": [
+        17295.951687499997,
+        17784.312625
+      ],
+      "setup_proxy_ms": 58.70519491145387,
+      "fixed_index": 1
+    },
+    "JOINT_POOL": {
+      "label": "SERIAL_GEMM_FIRST",
+      "action": {
+        "family": "NATIVE",
+        "q": 56,
+        "mode": "SERIAL_GEMM_FIRST",
+        "k": 32
+      },
+      "geomean_output_ready_us": 17538.432425886764,
+      "development_values": [
+        17295.951687499997,
+        17784.312625
+      ],
+      "setup_proxy_ms": 58.70519491145387,
+      "fixed_index": 1
+    },
+    "PC_STAR": {
+      "label": "SPREAD_Q28_RELEASE",
+      "action": {
+        "family": "SPREAD",
+        "q": 28,
+        "mode": "RELEASE",
+        "k": 28
+      },
+      "geomean_output_ready_us": 18554.819657897708,
+      "development_values": [
+        18187.7970625,
+        18929.248625
+      ],
+      "setup_proxy_ms": 75.61591052217409,
+      "fixed_index": 20
+    },
+    "BEST_NATIVE": {
+      "label": "SERIAL_GEMM_FIRST",
+      "action": {
+        "family": "NATIVE",
+        "q": 56,
+        "mode": "SERIAL_GEMM_FIRST",
+        "k": 32
+      },
+      "geomean_output_ready_us": 17538.432425886764,
+      "development_values": [
+        17295.951687499997,
+        17784.312625
+      ],
+      "setup_proxy_ms": 58.70519491145387,
+      "fixed_index": 1
+    },
+    "BEST_SIMPLE": {
+      "label": "SERIAL_GEMM_FIRST",
+      "action": {
+        "family": "NATIVE",
+        "q": 56,
+        "mode": "SERIAL_GEMM_FIRST",
+        "k": 32
+      },
+      "geomean_output_ready_us": 17538.432425886764,
+      "development_values": [
+        17295.951687499997,
+        17784.312625
+      ],
+      "setup_proxy_ms": 58.70519491145387,
+      "fixed_index": 1
+    },
+    "all_development_actions": [
+      {
+        "label": "SERIAL_GQA_FIRST",
+        "action": {
+          "family": "NATIVE",
+          "q": 56,
+          "mode": "SERIAL_GQA_FIRST",
+          "k": 32
+        },
+        "geomean_output_ready_us": 17551.22807323848,
+        "development_values": [
+          17359.441437499998,
+          17745.1335625
+        ],
+        "setup_proxy_ms": 58.70519491145387,
+        "fixed_index": 0
+      },
+      {
+        "label": "SERIAL_GEMM_FIRST",
+        "action": {
+          "family": "NATIVE",
+          "q": 56,
+          "mode": "SERIAL_GEMM_FIRST",
+          "k": 32
+        },
+        "geomean_output_ready_us": 17538.432425886764,
+        "development_values": [
+          17295.951687499997,
+          17784.312625
+        ],
+        "setup_proxy_ms": 58.70519491145387,
+        "fixed_index": 1
+      },
+      {
+        "label": "SHARED56",
+        "action": {
+          "family": "NATIVE",
+          "q": 56,
+          "mode": "SHARED56",
+          "k": 32
+        },
+        "geomean_output_ready_us": 17863.69864840801,
+        "development_values": [
+          17666.76125,
+          18062.831375
+        ],
+        "setup_proxy_ms": 58.70519491145387,
+        "fixed_index": 2
+      },
+      {
+        "label": "NEUTRAL_Q10_FIXED",
+        "action": {
+          "family": "NEUTRAL",
+          "q": 10,
+          "mode": "FIXED",
+          "k": 15
+        },
+        "geomean_output_ready_us": 22637.622546263232,
+        "development_values": [
+          22579.673875,
+          22695.7199375
+        ],
+        "setup_proxy_ms": 123.10456798877567,
+        "fixed_index": 3
+      },
+      {
+        "label": "NEUTRAL_Q10_RELEASE",
+        "action": {
+          "family": "NEUTRAL",
+          "q": 10,
+          "mode": "RELEASE",
+          "k": 15
+        },
+        "geomean_output_ready_us": 19259.844835620483,
+        "development_values": [
+          19101.724374999998,
+          19419.2741875
+        ],
+        "setup_proxy_ms": 82.00849400600418,
+        "fixed_index": 4
+      },
+      {
+        "label": "PACK_Q10_FIXED",
+        "action": {
+          "family": "PACK",
+          "q": 10,
+          "mode": "FIXED",
+          "k": 15
+        },
+        "geomean_output_ready_us": 22202.344073336182,
+        "development_values": [
+          21610.338499999998,
+          22810.567375
+        ],
+        "setup_proxy_ms": 99.74474593764171,
+        "fixed_index": 5
+      },
+      {
+        "label": "PACK_Q10_RELEASE",
+        "action": {
+          "family": "PACK",
+          "q": 10,
+          "mode": "RELEASE",
+          "k": 15
+        },
+        "geomean_output_ready_us": 19221.11793454681,
+        "development_values": [
+          19326.8109375,
+          19116.0029375
+        ],
+        "setup_proxy_ms": 77.42953451815993,
+        "fixed_index": 6
+      },
+      {
+        "label": "SPREAD_Q10_FIXED",
+        "action": {
+          "family": "SPREAD",
+          "q": 10,
+          "mode": "FIXED",
+          "k": 15
+        },
+        "geomean_output_ready_us": 22472.915946653335,
+        "development_values": [
+          22385.660499999998,
+          22560.5115
+        ],
+        "setup_proxy_ms": 94.84623646130785,
+        "fixed_index": 7
+      },
+      {
+        "label": "SPREAD_Q10_RELEASE",
+        "action": {
+          "family": "SPREAD",
+          "q": 10,
+          "mode": "RELEASE",
+          "k": 15
+        },
+        "geomean_output_ready_us": 18598.455307617587,
+        "development_values": [
+          18283.6701875,
+          18918.66
+        ],
+        "setup_proxy_ms": 77.31899153441191,
+        "fixed_index": 8
+      },
+      {
+        "label": "NEUTRAL_Q20_FIXED",
+        "action": {
+          "family": "NEUTRAL",
+          "q": 20,
+          "mode": "FIXED",
+          "k": 23
+        },
+        "geomean_output_ready_us": 19462.071921953386,
+        "development_values": [
+          19686.9474375,
+          19239.7650625
+        ],
+        "setup_proxy_ms": 68.78242449602112,
+        "fixed_index": 9
+      },
+      {
+        "label": "NEUTRAL_Q20_RELEASE",
+        "action": {
+          "family": "NEUTRAL",
+          "q": 20,
+          "mode": "RELEASE",
+          "k": 23
+        },
+        "geomean_output_ready_us": 19173.02742173146,
+        "development_values": [
+          18757.2415625,
+          19598.029875
+        ],
+        "setup_proxy_ms": 76.02269802009687,
+        "fixed_index": 10
+      },
+      {
+        "label": "PACK_Q20_FIXED",
+        "action": {
+          "family": "PACK",
+          "q": 20,
+          "mode": "FIXED",
+          "k": 22
+        },
+        "geomean_output_ready_us": 19652.695879500803,
+        "development_values": [
+          20027.2751875,
+          19285.122499999998
+        ],
+        "setup_proxy_ms": 76.72540558269247,
+        "fixed_index": 11
+      },
+      {
+        "label": "PACK_Q20_RELEASE",
+        "action": {
+          "family": "PACK",
+          "q": 20,
+          "mode": "RELEASE",
+          "k": 22
+        },
+        "geomean_output_ready_us": 18914.597378227954,
+        "development_values": [
+          18759.258562500003,
+          19071.2225
+        ],
+        "setup_proxy_ms": 73.53264698758721,
+        "fixed_index": 12
+      },
+      {
+        "label": "SPREAD_Q20_FIXED",
+        "action": {
+          "family": "SPREAD",
+          "q": 20,
+          "mode": "FIXED",
+          "k": 24
+        },
+        "geomean_output_ready_us": 19231.149873836057,
+        "development_values": [
+          19282.336125,
+          19180.099500000004
+        ],
+        "setup_proxy_ms": 76.91909145796672,
+        "fixed_index": 13
+      },
+      {
+        "label": "SPREAD_Q20_RELEASE",
+        "action": {
+          "family": "SPREAD",
+          "q": 20,
+          "mode": "RELEASE",
+          "k": 24
+        },
+        "geomean_output_ready_us": 19456.093482987184,
+        "development_values": [
+          19453.2726875,
+          19458.9146875
+        ],
+        "setup_proxy_ms": 80.80551895545796,
+        "fixed_index": 14
+      },
+      {
+        "label": "NEUTRAL_Q28_FIXED",
+        "action": {
+          "family": "NEUTRAL",
+          "q": 28,
+          "mode": "FIXED",
+          "k": 28
+        },
+        "geomean_output_ready_us": 18984.40412277964,
+        "development_values": [
+          18675.5736875,
+          19298.341562499998
+        ],
+        "setup_proxy_ms": 70.02437149640173,
+        "fixed_index": 15
+      },
+      {
+        "label": "NEUTRAL_Q28_RELEASE",
+        "action": {
+          "family": "NEUTRAL",
+          "q": 28,
+          "mode": "RELEASE",
+          "k": 28
+        },
+        "geomean_output_ready_us": 18653.092329782285,
+        "development_values": [
+          18456.1708125,
+          18852.1149375
+        ],
+        "setup_proxy_ms": 75.5265235202387,
+        "fixed_index": 16
+      },
+      {
+        "label": "PACK_Q28_FIXED",
+        "action": {
+          "family": "PACK",
+          "q": 28,
+          "mode": "FIXED",
+          "k": 28
+        },
+        "geomean_output_ready_us": 19255.5287367522,
+        "development_values": [
+          18992.342937499998,
+          19522.361624999998
+        ],
+        "setup_proxy_ms": 75.56478201877326,
+        "fixed_index": 17
+      },
+      {
+        "label": "PACK_Q28_RELEASE",
+        "action": {
+          "family": "PACK",
+          "q": 28,
+          "mode": "RELEASE",
+          "k": 28
+        },
+        "geomean_output_ready_us": 18617.83000849353,
+        "development_values": [
+          18505.679375,
+          18730.660312499997
+        ],
+        "setup_proxy_ms": 75.64731704769656,
+        "fixed_index": 18
+      },
+      {
+        "label": "SPREAD_Q28_FIXED",
+        "action": {
+          "family": "SPREAD",
+          "q": 28,
+          "mode": "FIXED",
+          "k": 28
+        },
+        "geomean_output_ready_us": 19181.176544595353,
+        "development_values": [
+          18926.18325,
+          19439.605375
+        ],
+        "setup_proxy_ms": 73.28963244799525,
+        "fixed_index": 19
+      },
+      {
+        "label": "SPREAD_Q28_RELEASE",
+        "action": {
+          "family": "SPREAD",
+          "q": 28,
+          "mode": "RELEASE",
+          "k": 28
+        },
+        "geomean_output_ready_us": 18554.819657897708,
+        "development_values": [
+          18187.7970625,
+          18929.248625
+        ],
+        "setup_proxy_ms": 75.61591052217409,
+        "fixed_index": 20
+      },
+      {
+        "label": "NEUTRAL_Q36_FIXED",
+        "action": {
+          "family": "NEUTRAL",
+          "q": 36,
+          "mode": "FIXED",
+          "k": 31
+        },
+        "geomean_output_ready_us": 18979.321222797666,
+        "development_values": [
+          18820.5336875,
+          19139.4484375
+        ],
+        "setup_proxy_ms": 71.89816993195564,
+        "fixed_index": 21
+      },
+      {
+        "label": "NEUTRAL_Q36_RELEASE",
+        "action": {
+          "family": "NEUTRAL",
+          "q": 36,
+          "mode": "RELEASE",
+          "k": 31
+        },
+        "geomean_output_ready_us": 19163.359968468532,
+        "development_values": [
+          18822.0096875,
+          19510.900875
+        ],
+        "setup_proxy_ms": 78.87297944398597,
+        "fixed_index": 22
+      },
+      {
+        "label": "PACK_Q36_FIXED",
+        "action": {
+          "family": "PACK",
+          "q": 36,
+          "mode": "FIXED",
+          "k": 31
+        },
+        "geomean_output_ready_us": 19079.243794208847,
+        "development_values": [
+          18562.68675,
+          19610.175437500002
+        ],
+        "setup_proxy_ms": 82.98688504146412,
+        "fixed_index": 23
+      },
+      {
+        "label": "PACK_Q36_RELEASE",
+        "action": {
+          "family": "PACK",
+          "q": 36,
+          "mode": "RELEASE",
+          "k": 31
+        },
+        "geomean_output_ready_us": 19313.003026842747,
+        "development_values": [
+          19116.6309375,
+          19511.3923125
+        ],
+        "setup_proxy_ms": 81.27863955451176,
+        "fixed_index": 24
+      },
+      {
+        "label": "SPREAD_Q36_FIXED",
+        "action": {
+          "family": "SPREAD",
+          "q": 36,
+          "mode": "FIXED",
+          "k": 31
+        },
+        "geomean_output_ready_us": 19185.628100983275,
+        "development_values": [
+          18656.6259375,
+          19729.6299375
+        ],
+        "setup_proxy_ms": 83.09666701825336,
+        "fixed_index": 25
+      },
+      {
+        "label": "SPREAD_Q36_RELEASE",
+        "action": {
+          "family": "SPREAD",
+          "q": 36,
+          "mode": "RELEASE",
+          "k": 31
+        },
+        "geomean_output_ready_us": 19273.998829148062,
+        "development_values": [
+          19352.0554375,
+          19196.2570625
+        ],
+        "setup_proxy_ms": 81.99475303990766,
+        "fixed_index": 26
+      },
+      {
+        "label": "NEUTRAL_Q46_FIXED",
+        "action": {
+          "family": "NEUTRAL",
+          "q": 46,
+          "mode": "FIXED",
+          "k": 31
+        },
+        "geomean_output_ready_us": 20098.08744554611,
+        "development_values": [
+          19930.640875,
+          20266.940812499997
+        ],
+        "setup_proxy_ms": 107.74598160060123,
+        "fixed_index": 27
+      },
+      {
+        "label": "NEUTRAL_Q46_RELEASE",
+        "action": {
+          "family": "NEUTRAL",
+          "q": 46,
+          "mode": "RELEASE",
+          "k": 31
+        },
+        "geomean_output_ready_us": 20466.06275109038,
+        "development_values": [
+          20080.732500000002,
+          20858.787125
+        ],
+        "setup_proxy_ms": 103.2415174995549,
+        "fixed_index": 28
+      },
+      {
+        "label": "PACK_Q46_FIXED",
+        "action": {
+          "family": "PACK",
+          "q": 46,
+          "mode": "FIXED",
+          "k": 31
+        },
+        "geomean_output_ready_us": 20536.757921841152,
+        "development_values": [
+          20592.422249999996,
+          20481.2440625
+        ],
+        "setup_proxy_ms": 111.8831760250032,
+        "fixed_index": 29
+      },
+      {
+        "label": "PACK_Q46_RELEASE",
+        "action": {
+          "family": "PACK",
+          "q": 46,
+          "mode": "RELEASE",
+          "k": 31
+        },
+        "geomean_output_ready_us": 20423.623374674567,
+        "development_values": [
+          20139.6661875,
+          20711.5841875
+        ],
+        "setup_proxy_ms": 107.0612299372442,
+        "fixed_index": 30
+      },
+      {
+        "label": "SPREAD_Q46_FIXED",
+        "action": {
+          "family": "SPREAD",
+          "q": 46,
+          "mode": "FIXED",
+          "k": 31
+        },
+        "geomean_output_ready_us": 20424.16674964135,
+        "development_values": [
+          20695.897875,
+          20156.003375
+        ],
+        "setup_proxy_ms": 113.21375332772732,
+        "fixed_index": 31
+      },
+      {
+        "label": "SPREAD_Q46_RELEASE",
+        "action": {
+          "family": "SPREAD",
+          "q": 46,
+          "mode": "RELEASE",
+          "k": 31
+        },
+        "geomean_output_ready_us": 21046.20984948474,
+        "development_values": [
+          21009.9399375,
+          21082.542375
+        ],
+        "setup_proxy_ms": 107.72174876183271,
+        "fixed_index": 32
+      }
+    ]
+  }
+}

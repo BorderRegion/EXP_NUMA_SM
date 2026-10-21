@@ -1,0 +1,11 @@
+{
+  "module_lookup": {
+    "flashinfer": null,
+    "vllm": null,
+    "flash_attn": null,
+    "xformers": null
+  },
+  "network_used": false,
+  "new_installs": 0,
+  "limitation": "Module availability only; absent modules are not exhaustive proof no standalone backend exists."
+}

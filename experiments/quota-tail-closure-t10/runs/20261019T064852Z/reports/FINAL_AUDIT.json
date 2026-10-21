@@ -1,0 +1,57 @@
+{
+  "status": "PASS_WITH_RECORDED_ENGINEERING_RETRY",
+  "logical_primary_labels": {
+    "HOLDOUT": 48,
+    "S1": 136,
+    "S2": 132,
+    "S3": 120
+  },
+  "physical_primary_phases": {
+    "HOLDOUT": 28,
+    "S1": 136,
+    "S2": 132,
+    "S3": 84
+  },
+  "timing_rows": 6592,
+  "numerical_check_records": 3968,
+  "known_failed_worker": [
+    {
+      "worker": "S1_block_0",
+      "start_utc": "2026-10-19T06:56:00.725943+00:00",
+      "end_utc": "2026-10-19T06:56:12.019724+00:00",
+      "seconds": 11.293639093986712,
+      "returncode": 1,
+      "stop_reason": null
+    }
+  ],
+  "complete_valid_blocks": true,
+  "all_phase_means_recomputed_from_requests": true,
+  "source_hashes_match_valid_S1_freeze": true,
+  "original_E56_body_unchanged": true,
+  "worker_seconds": 516.6738911808934,
+  "worker_cap_seconds": 5400,
+  "previous_worker_seconds": 1110.5208800506662,
+  "combined_seconds": 1627.1947712315596,
+  "combined_cap_seconds": 10800,
+  "wall_start_utc": "2026-10-19T06:40:00+00:00",
+  "finished_utc": "2026-10-19T07:12:58.484185+00:00",
+  "deadline_utc": "2026-10-19T10:40:00+00:00",
+  "CUPTI_captures": 4,
+  "thermal_guard_unchanged": true,
+  "power_cap_w": 100,
+  "new_installs": 0,
+  "new_downloads": 0,
+  "missing": [
+    "Hardware memory/interconnect counters",
+    "Exact private cuBLAS algorithm ID",
+    "Stage timestamps in formal traces (intentionally only separate diagnostics)",
+    "Cross-day/device and real model lifecycle"
+  ],
+  "limits": [
+    "One known failed initial worker lost in-memory samples before export; kept error logs and retried same block before selection",
+    "Physical placement families not member-frequency matched at all quotas",
+    "All required plans precreated and remain idle when not selected; resource/context environment differs between development and smaller confirmation pools",
+    "Exact same symbols/geometry do not prove all backend execution behavior identical",
+    "Algebraic H costs are estimates, not H-job deployments"
+  ]
+}

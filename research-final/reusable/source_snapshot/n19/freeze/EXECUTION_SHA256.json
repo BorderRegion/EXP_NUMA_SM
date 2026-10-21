@@ -1,0 +1,19 @@
+{
+  "freeze/implementation/attention.cu": "c555ab969ba7a01434bcdf9532137428cc338979eb4aacf1fc6293a230c80581",
+  "freeze/implementation/legacy_attention.cu": "d01e563ceaf67b442a18d84d67c79d917a9837710836a55d399481e40b38d253",
+  "freeze/implementation/qualify.py": "3887753d26fd74b38ec6448e7232861ebcfa9e4b336bccfbf823880dc1a96c16",
+  "freeze/implementation/select_config.py": "40e75cb92518ddb8be35df023d8c465389284405a7331fa8b0f1d057da8433e3",
+  "freeze/implementation/common.py": "b17fa3a27ab31ab646bbed02b8ce560b9bc36e98057db788934e76b96eee7bf4",
+  "freeze/implementation/runtime.py": "6332d888b61eb1b48138f7b72d09c8f9c8b34ec381cf3d0684fa2f673012c4bb",
+  "freeze/implementation/run_campaign.py": "6fa974197de645ba7e3ed0b5d4637af617c9941d6918e882b03f43bbeb06fd3d",
+  "freeze/implementation/worker.py": "8ec9b8a1e7716605f174f2f2d0a9640429fa75563fdb1867637fc857e5925c47",
+  "freeze/implementation/build.py": "203a2dfb10384dc0b2085da212fcb471a9926ed6620aa205f287f075e8311a2f",
+  "freeze/implementation/experiment.py": "c93e2210380a5c68a83a2567e69d1b5b1477d4d2a033b3e971a1c709a69e574a",
+  "freeze/implementation/prepare.py": "8c27bbad9e161577df387fef333b02194bced6ed232ffae0e46dc91ee1387cda",
+  "freeze/implementation/locality_runtime.py": "4e46bba3b3c9da126a4a0804b095044b1fe6b1a652bf050943a1fd81fba29848",
+  "freeze/implementation/nvml_state.py": "4bd85f03f65821332180cb785751a5c5e005f3a7b3c9cf5014f088bead2ad1b7",
+  "freeze/PROTOCOL.json": "9bc9afcd326f9512b7f8278316ec9cfd7f8d7a4ca36455e79ac559ed034f64cc",
+  "freeze/LEGACY_SELECTION.json": "6b279a7032c24596c81623b252c127396b4521b2fea09db3d47a61c375cd34c5",
+  "build/attention.so": "836d77ce4f6105f2d36d5fd47f6d88e8a8ec0b27b58387f188aa0ea19078bda3",
+  "build/legacy/attention.so": "a9cc45689f3df8e923129775c7c5d1abef976c8ba6abed5b10a78a0c687cabdd"
+}

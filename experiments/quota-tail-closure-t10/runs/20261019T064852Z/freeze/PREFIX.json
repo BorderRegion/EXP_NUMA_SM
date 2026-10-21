@@ -1,0 +1,456 @@
+{
+  "LONG": {
+    "NEUTRAL_Q10": {
+      "k": 14,
+      "foreground32_gpu_us": 14123.901279070344,
+      "background_total_gpu_us": 6384.4635287561305,
+      "development_fg_values": [
+        13869.039916992188,
+        14383.446044921875
+      ],
+      "development_bg_values": [
+        6218.506011962891,
+        6554.850067138672
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "PACK_Q10": {
+      "k": 14,
+      "foreground32_gpu_us": 14155.44431478821,
+      "background_total_gpu_us": 6176.074789618277,
+      "development_fg_values": [
+        13858.161926269531,
+        14459.103942871094
+      ],
+      "development_bg_values": [
+        5956.950042724609,
+        6403.259979248047
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "SPREAD_Q10": {
+      "k": 15,
+      "foreground32_gpu_us": 14128.324456744178,
+      "background_total_gpu_us": 6502.770358579798,
+      "development_fg_values": [
+        13836.493957519531,
+        14426.31005859375
+      ],
+      "development_bg_values": [
+        6253.313903808594,
+        6762.1781005859375
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "NEUTRAL_Q20": {
+      "k": 23,
+      "foreground32_gpu_us": 9095.16696906178,
+      "background_total_gpu_us": 6419.015965235986,
+      "development_fg_values": [
+        8862.311889648438,
+        9334.140258789062
+      ],
+      "development_bg_values": [
+        6193.975982666016,
+        6652.232116699219
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "PACK_Q20": {
+      "k": 23,
+      "foreground32_gpu_us": 8998.617508811203,
+      "background_total_gpu_us": 6578.771653636426,
+      "development_fg_values": [
+        8713.355895996094,
+        9293.218139648438
+      ],
+      "development_bg_values": [
+        6375.780120849609,
+        6788.226013183594
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "SPREAD_Q20": {
+      "k": 22,
+      "foreground32_gpu_us": 9206.328295853242,
+      "background_total_gpu_us": 6227.583916900742,
+      "development_fg_values": [
+        8843.960144042969,
+        9583.5439453125
+      ],
+      "development_bg_values": [
+        6465.824066162109,
+        5998.121978759766
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "NEUTRAL_Q28": {
+      "k": 27,
+      "foreground32_gpu_us": 7639.287092445851,
+      "background_total_gpu_us": 6515.9075854395915,
+      "development_fg_values": [
+        7411.293975830078,
+        7874.2939453125
+      ],
+      "development_bg_values": [
+        6353.551971435547,
+        6682.411956787109
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "PACK_Q28": {
+      "k": 29,
+      "foreground32_gpu_us": 7697.007747963241,
+      "background_total_gpu_us": 6951.186093810248,
+      "development_fg_values": [
+        7539.120056152344,
+        7858.201995849609
+      ],
+      "development_bg_values": [
+        6761.355926513672,
+        7146.345886230469
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "SPREAD_Q28": {
+      "k": 28,
+      "foreground32_gpu_us": 7732.390634249654,
+      "background_total_gpu_us": 6854.899386507088,
+      "development_fg_values": [
+        7409.930023193359,
+        8068.883880615234
+      ],
+      "development_bg_values": [
+        6546.159973144531,
+        7178.200012207031
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "NEUTRAL_Q36": {
+      "k": 31,
+      "foreground32_gpu_us": 7056.890493721521,
+      "background_total_gpu_us": 7510.37661007368,
+      "development_fg_values": [
+        6748.261962890625,
+        7379.634002685547
+      ],
+      "development_bg_values": [
+        7361.551910400391,
+        7662.210021972656
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "PACK_Q36": {
+      "k": 31,
+      "foreground32_gpu_us": 7035.435670381409,
+      "background_total_gpu_us": 7693.063735346439,
+      "development_fg_values": [
+        6846.879913330078,
+        7229.184051513672
+      ],
+      "development_bg_values": [
+        7504.019989013672,
+        7886.869934082031
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "SPREAD_Q36": {
+      "k": 31,
+      "foreground32_gpu_us": 7055.97231556341,
+      "background_total_gpu_us": 7645.407750358599,
+      "development_fg_values": [
+        6796.406005859375,
+        7325.451904296875
+      ],
+      "development_bg_values": [
+        7498.947967529297,
+        7794.727996826172
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "NEUTRAL_Q46": {
+      "k": 31,
+      "foreground32_gpu_us": 6658.893294176294,
+      "background_total_gpu_us": 11994.068775254957,
+      "development_fg_values": [
+        6424.585906982422,
+        6901.7459716796875
+      ],
+      "development_bg_values": [
+        12711.23388671875,
+        11317.365966796875
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "PACK_Q46": {
+      "k": 31,
+      "foreground32_gpu_us": 6542.022056968713,
+      "background_total_gpu_us": 11104.645482282116,
+      "development_fg_values": [
+        6351.2559814453125,
+        6738.517974853516
+      ],
+      "development_bg_values": [
+        11014.544006347656,
+        11195.484008789062
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "SPREAD_Q46": {
+      "k": 31,
+      "foreground32_gpu_us": 6644.333091652099,
+      "background_total_gpu_us": 11763.360617397995,
+      "development_fg_values": [
+        6493.8780517578125,
+        6798.273986816406
+      ],
+      "development_bg_values": [
+        11083.261901855469,
+        12485.192016601562
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    }
+  },
+  "RAGGED": {
+    "NEUTRAL_Q10": {
+      "k": 15,
+      "foreground32_gpu_us": 17330.539660274648,
+      "background_total_gpu_us": 8093.792598177583,
+      "development_fg_values": [
+        17299.264038085938,
+        17361.871826171875
+      ],
+      "development_bg_values": [
+        8173.482208251953,
+        8014.879943847656
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "PACK_Q10": {
+      "k": 15,
+      "foreground32_gpu_us": 17315.786336904093,
+      "background_total_gpu_us": 8043.83643107601,
+      "development_fg_values": [
+        17284.950073242188,
+        17346.677612304688
+      ],
+      "development_bg_values": [
+        8429.372192382812,
+        7675.933990478516
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "SPREAD_Q10": {
+      "k": 15,
+      "foreground32_gpu_us": 17338.713115654136,
+      "background_total_gpu_us": 7885.868425746614,
+      "development_fg_values": [
+        17333.2099609375,
+        17344.218017578125
+      ],
+      "development_bg_values": [
+        8182.6080322265625,
+        7599.889984130859
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "NEUTRAL_Q20": {
+      "k": 23,
+      "foreground32_gpu_us": 11156.19619404433,
+      "background_total_gpu_us": 8050.382625989499,
+      "development_fg_values": [
+        11070.876037597656,
+        11242.173889160156
+      ],
+      "development_bg_values": [
+        8303.416046142578,
+        7805.059997558594
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "PACK_Q20": {
+      "k": 22,
+      "foreground32_gpu_us": 11125.928459299825,
+      "background_total_gpu_us": 7726.5482832774105,
+      "development_fg_values": [
+        11066.130004882812,
+        11186.050048828125
+      ],
+      "development_bg_values": [
+        7301.435943603516,
+        8176.4119873046875
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "SPREAD_Q20": {
+      "k": 24,
+      "foreground32_gpu_us": 11213.409026863885,
+      "background_total_gpu_us": 8250.544475490293,
+      "development_fg_values": [
+        11168.824096679688,
+        11258.171936035156
+      ],
+      "development_bg_values": [
+        8365.696014404297,
+        8136.977966308594
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "NEUTRAL_Q28": {
+      "k": 28,
+      "foreground32_gpu_us": 9487.351569059436,
+      "background_total_gpu_us": 8156.277397546623,
+      "development_fg_values": [
+        9399.406005859375,
+        9576.119995117188
+      ],
+      "development_bg_values": [
+        8393.257873535156,
+        7925.987976074219
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "PACK_Q28": {
+      "k": 28,
+      "foreground32_gpu_us": 9409.408714047197,
+      "background_total_gpu_us": 8117.729991952509,
+      "development_fg_values": [
+        9203.500061035156,
+        9619.924133300781
+      ],
+      "development_bg_values": [
+        8272.512023925781,
+        7965.843994140625
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "SPREAD_Q28": {
+      "k": 28,
+      "foreground32_gpu_us": 9386.157614482581,
+      "background_total_gpu_us": 8194.973811259631,
+      "development_fg_values": [
+        9396.183959960938,
+        9376.141967773438
+      ],
+      "development_bg_values": [
+        8434.896057128906,
+        7961.875915527344
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "NEUTRAL_Q36": {
+      "k": 31,
+      "foreground32_gpu_us": 8838.66389856279,
+      "background_total_gpu_us": 9632.511466370272,
+      "development_fg_values": [
+        8996.930053710938,
+        8683.181823730469
+      ],
+      "development_bg_values": [
+        9768.789978027344,
+        9498.134094238281
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "PACK_Q36": {
+      "k": 31,
+      "foreground32_gpu_us": 8602.57573981397,
+      "background_total_gpu_us": 9856.104359526329,
+      "development_fg_values": [
+        8572.951843261719,
+        8632.302001953125
+      ],
+      "development_bg_values": [
+        9982.457824707031,
+        9731.350219726562
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "SPREAD_Q36": {
+      "k": 31,
+      "foreground32_gpu_us": 8646.93984258047,
+      "background_total_gpu_us": 9818.355358930665,
+      "development_fg_values": [
+        8573.31787109375,
+        8721.194030761719
+      ],
+      "development_bg_values": [
+        10084.410095214844,
+        9559.319885253906
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "NEUTRAL_Q46": {
+      "k": 31,
+      "foreground32_gpu_us": 8472.7579597979,
+      "background_total_gpu_us": 14876.079287138235,
+      "development_fg_values": [
+        8414.576110839844,
+        8531.342102050781
+      ],
+      "development_bg_values": [
+        15642.268005371094,
+        14147.419982910156
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "PACK_Q46": {
+      "k": 31,
+      "foreground32_gpu_us": 8601.922277181866,
+      "background_total_gpu_us": 14365.861099546562,
+      "development_fg_values": [
+        8653.98583984375,
+        8550.171936035156
+      ],
+      "development_bg_values": [
+        14945.097961425781,
+        13809.074096679688
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    },
+    "SPREAD_Q46": {
+      "k": 31,
+      "foreground32_gpu_us": 8528.220955173345,
+      "background_total_gpu_us": 14774.607729213787,
+      "development_fg_values": [
+        8528.841979980469,
+        8527.599975585938
+      ],
+      "development_bg_values": [
+        15138.406005859375,
+        14419.552062988281
+      ],
+      "metric": "Complete isolated GPU service intervals; host output-ready retained separately",
+      "formula": "clamp(floor(32*Tbg/Tfg32+0.5),1,31)"
+    }
+  }
+}

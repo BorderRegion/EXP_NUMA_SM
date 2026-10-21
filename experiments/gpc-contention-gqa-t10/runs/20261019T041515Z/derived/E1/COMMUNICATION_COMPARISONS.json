@@ -1,0 +1,1802 @@
+[
+  {
+    "mode": 0,
+    "slot": 0,
+    "unit": "ns",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 0.9198439670246519,
+    "time_change_percent": -8.015603297534815,
+    "ci95_change_percent": [
+      -8.263744814160393,
+      -7.841990725618659
+    ],
+    "block_time_ratios": [
+      0.9139344166631883,
+      0.9203856053679167,
+      0.921701874015654,
+      0.9208261298994582,
+      0.9198835317937754,
+      0.9223572945119652
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 0,
+    "unit": "ns",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 0.9189364889770877,
+    "time_change_percent": -8.106351102291233,
+    "ci95_change_percent": [
+      -8.384824035375148,
+      -7.916043863850487
+    ],
+    "block_time_ratios": [
+      0.9123892284929955,
+      0.9194109637169771,
+      0.9209475104994347,
+      0.9201206979924278,
+      0.9190107633273997,
+      0.9217706519223626
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 0,
+    "unit": "ns",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 1.0063442062388608,
+    "time_change_percent": 0.6344206238860789,
+    "ci95_change_percent": [
+      0.47810539505144,
+      0.7404198165858871
+    ],
+    "block_time_ratios": [
+      1.002684804125869,
+      1.0073252813856197,
+      1.0077214098234293,
+      1.0071815086704545,
+      1.005995081996746,
+      1.007165984479875
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 0,
+    "unit": "ns",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 1.0053513908177747,
+    "time_change_percent": 0.5351390817774659,
+    "ci95_change_percent": [
+      0.35067320458931084,
+      0.6577558922745192
+    ],
+    "block_time_ratios": [
+      1.0009895657482357,
+      1.0062585750295479,
+      1.0068966439338127,
+      1.006409921126056,
+      1.0050406124856075,
+      1.0065254014164458
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 0,
+    "unit": "ns",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 1.0016454345158732,
+    "time_change_percent": 0.16454345158732517,
+    "ci95_change_percent": [
+      0.08681862535741787,
+      0.23629128087986123
+    ],
+    "block_time_ratios": [
+      1.0001939042588193,
+      1.0008518379864924,
+      1.0026296893605973,
+      1.0023328416112407,
+      1.0011481466624237,
+      1.0027189719230327
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 0,
+    "unit": "ns",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 1.0000986941975265,
+    "time_change_percent": 0.00986941975265697,
+    "ci95_change_percent": [
+      -0.10064218281298457,
+      0.10445370733208895
+    ],
+    "block_time_ratios": [
+      0.9978434848848563,
+      0.9992858909369439,
+      1.0013237462357574,
+      1.0009936426245905,
+      0.9996736401703061,
+      1.0014768262555134
+    ],
+    "faster_blocks": 3,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 0,
+    "unit": "cycles",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 0.9206144534675703,
+    "time_change_percent": -7.938554653242963,
+    "ci95_change_percent": [
+      -7.983747206265885,
+      -7.879897703227392
+    ],
+    "block_time_ratios": [
+      0.9198156506296238,
+      0.9205356689490429,
+      0.9205403858510444,
+      0.9204572725017831,
+      0.9204035007069837,
+      0.9219355798998855
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 0,
+    "unit": "cycles",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 0.9198393795980182,
+    "time_change_percent": -8.016062040198182,
+    "ci95_change_percent": [
+      -8.058735569534663,
+      -7.951511005864276
+    ],
+    "block_time_ratios": [
+      0.9191736125877605,
+      0.9196094411092379,
+      0.9196517381819052,
+      0.919750766372785,
+      0.9195026770414398,
+      0.9213496356074443
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 0,
+    "unit": "cycles",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 1.0067689479070077,
+    "time_change_percent": 0.6768947907007595,
+    "ci95_change_percent": [
+      0.630533432144846,
+      0.7212395044222681
+    ],
+    "block_time_ratios": [
+      1.0058494688761481,
+      1.007198365490086,
+      1.0072696880043708,
+      1.0071012680416727,
+      1.0059783135077163,
+      1.0072176851200134
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 0,
+    "unit": "cycles",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 1.0059213397674003,
+    "time_change_percent": 0.592133976740029,
+    "ci95_change_percent": [
+      0.5440128963770574,
+      0.6381219907548166
+    ],
+    "block_time_ratios": [
+      1.005147378600815,
+      1.006184939071327,
+      1.0062973158258137,
+      1.0063282574526429,
+      1.004993735470871,
+      1.0065775390331189
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 0,
+    "unit": "cycles",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 1.00182911090655,
+    "time_change_percent": 0.18291109065500605,
+    "ci95_change_percent": [
+      0.13320275412644048,
+      0.23235110883763496
+    ],
+    "block_time_ratios": [
+      1.0020482432756963,
+      1.0008931289801155,
+      1.0016435202027705,
+      1.0024083733488116,
+      1.0012661036521313,
+      1.002716493071386
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 0,
+    "unit": "cycles",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 1.0004346366815426,
+    "time_change_percent": 0.043463668154254724,
+    "ci95_change_percent": [
+      -0.015070730518856431,
+      0.1012481565045928
+    ],
+    "block_time_ratios": [
+      1.0007897090302413,
+      0.9993736197814372,
+      1.0001275679665662,
+      1.0010773091384018,
+      0.9997574000054121,
+      1.0014838728190514
+    ],
+    "faster_blocks": 2,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 1,
+    "unit": "ns",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 0.9156975860143372,
+    "time_change_percent": -8.430241398566285,
+    "ci95_change_percent": [
+      -8.949862667657547,
+      -8.145357865846792
+    ],
+    "block_time_ratios": [
+      0.9029388968481011,
+      0.9184403079270891,
+      0.918266726537148,
+      0.9179540023520928,
+      0.9190192088410141,
+      0.9176747067985536
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 1,
+    "unit": "ns",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 0.9165391960241406,
+    "time_change_percent": -8.346080397585942,
+    "ci95_change_percent": [
+      -8.856567059964739,
+      -8.068619808169899
+    ],
+    "block_time_ratios": [
+      0.9039727339919215,
+      0.9192115824783408,
+      0.9190716506049925,
+      0.9187663508669265,
+      0.9197282827042167,
+      0.9185894263725329
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 1,
+    "unit": "ns",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 1.0037515510198405,
+    "time_change_percent": 0.3751551019840402,
+    "ci95_change_percent": [
+      0.14977530208567139,
+      0.5192030510456352
+    ],
+    "block_time_ratios": [
+      0.9983523725065818,
+      1.0047582105201696,
+      1.0057313069013825,
+      1.0052908570436245,
+      1.0040606944182888,
+      1.0043342881656734
+    ],
+    "faster_blocks": 1,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 1,
+    "unit": "ns",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 1.0046740906940694,
+    "time_change_percent": 0.46740906940695115,
+    "ci95_change_percent": [
+      0.2512739322323062,
+      0.6087244631972988
+    ],
+    "block_time_ratios": [
+      0.9994954551325728,
+      1.0056019718743339,
+      1.0066128997015076,
+      1.0061804947951924,
+      1.004835382464667,
+      1.0053353882563676
+    ],
+    "faster_blocks": 1,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 1,
+    "unit": "ns",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 1.003949108141878,
+    "time_change_percent": 0.39491081418781004,
+    "ci95_change_percent": [
+      0.3082358870783652,
+      0.4546705459464549
+    ],
+    "block_time_ratios": [
+      1.0019443046479546,
+      1.004534905721368,
+      1.0048749235212977,
+      1.0042222135034033,
+      1.0042206902371038,
+      1.0039002881131647
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 1,
+    "unit": "ns",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 1.0039862735053164,
+    "time_change_percent": 0.3986273505316368,
+    "ci95_change_percent": [
+      0.3195692901291492,
+      0.4557869803071211
+    ],
+    "block_time_ratios": [
+      1.0021450467877715,
+      1.0044861408812784,
+      1.0049357191054327,
+      1.0042518696419112,
+      1.004096800628457,
+      1.0040043688001825
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 1,
+    "unit": "cycles",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 0.9187178458205207,
+    "time_change_percent": -8.12821541794792,
+    "ci95_change_percent": [
+      -8.179339829310205,
+      -8.058148506817545
+    ],
+    "block_time_ratios": [
+      0.920349090674017,
+      0.9185253899729122,
+      0.9187473751676323,
+      0.9181939596286373,
+      0.918590537081956,
+      0.9179027095918896
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 1,
+    "unit": "cycles",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 0.9195112806600981,
+    "time_change_percent": -8.048871933990188,
+    "ci95_change_percent": [
+      -8.096208616351301,
+      -7.979055203645115
+    ],
+    "block_time_ratios": [
+      0.9211493823214966,
+      0.9192914486456906,
+      0.9195051264712389,
+      0.9189952507922176,
+      0.9193111129105638,
+      0.9188172752002461
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 1,
+    "unit": "cycles",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 1.0046504805739953,
+    "time_change_percent": 0.4650480573995309,
+    "ci95_change_percent": [
+      0.43412104094473336,
+      0.4947828272412933
+    ],
+    "block_time_ratios": [
+      1.0046748422366834,
+      1.0047499345009039,
+      1.004840508106967,
+      1.0052455973957568,
+      1.004032368466326,
+      1.0043600643258748
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 1,
+    "unit": "cycles",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 1.0055181296531024,
+    "time_change_percent": 0.5518129653102462,
+    "ci95_change_percent": [
+      0.5193126958031439,
+      0.5817476516275619
+    ],
+    "block_time_ratios": [
+      1.0055484595334483,
+      1.0055879052415064,
+      1.0056692660719035,
+      1.006122856939859,
+      1.004819967975194,
+      1.0053607729670415
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 1,
+    "unit": "cycles",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 1.0042645890412798,
+    "time_change_percent": 0.4264589041279847,
+    "ci95_change_percent": [
+      0.40627876814550945,
+      0.4494037976597958
+    ],
+    "block_time_ratios": [
+      1.0042662736537435,
+      1.0044038263875452,
+      1.0047653291913003,
+      1.0040833962393092,
+      1.0041812642585832,
+      1.0038876695214127
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 1,
+    "unit": "cycles",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 1.0042422888615172,
+    "time_change_percent": 0.4242288861517296,
+    "ci95_change_percent": [
+      0.40796257576462813,
+      0.4446479581628776
+    ],
+    "block_time_ratios": [
+      1.0042157031320689,
+      1.0043524315931334,
+      1.0047029923996973,
+      1.004103473038495,
+      1.0040740747882815,
+      1.0040052219232054
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 2,
+    "unit": "ns",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 0.9175066545704306,
+    "time_change_percent": -8.249334542956941,
+    "ci95_change_percent": [
+      -8.352974950107374,
+      -8.169229597463493
+    ],
+    "block_time_ratios": [
+      0.918504924309753,
+      0.9184178132127505,
+      0.9151921937550541,
+      0.9174405861503615,
+      0.9169997617821288,
+      0.918489235324685
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 2,
+    "unit": "ns",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 0.9203121606833996,
+    "time_change_percent": -7.9687839316600435,
+    "ci95_change_percent": [
+      -8.080115836201749,
+      -7.882937646914012
+    ],
+    "block_time_ratios": [
+      0.9213095338859921,
+      0.921381256622682,
+      0.9179463420145141,
+      0.9203805270100675,
+      0.9195982348330706,
+      0.9212620458253461
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 2,
+    "unit": "ns",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 1.0039501924824763,
+    "time_change_percent": 0.39501924824763607,
+    "ci95_change_percent": [
+      0.3119913264868267,
+      0.5250092499407839
+    ],
+    "block_time_ratios": [
+      1.0070317808017184,
+      1.003544991351247,
+      1.0034831360000334,
+      1.003245413296738,
+      1.002715617065264,
+      1.0036861685351763
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 2,
+    "unit": "ns",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 1.007020021336682,
+    "time_change_percent": 0.7020021336681961,
+    "ci95_change_percent": [
+      0.611204608573646,
+      0.8342875181275713
+    ],
+    "block_time_ratios": [
+      1.0101067027768358,
+      1.0067831132042917,
+      1.0065029840180462,
+      1.0064603159589802,
+      1.0055569804083024,
+      1.0067161785129186
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 2,
+    "unit": "ns",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 0.9966962380678885,
+    "time_change_percent": -0.33037619321114065,
+    "ci95_change_percent": [
+      -0.4996504110596876,
+      -0.226380740062643
+    ],
+    "block_time_ratios": [
+      0.992628937281622,
+      0.997422540954054,
+      0.9976436726957253,
+      0.9975497148191237,
+      0.9968640624616775,
+      0.9980788737102818
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 2,
+    "unit": "ns",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 0.9991359646527841,
+    "time_change_percent": -0.08640353472158536,
+    "ci95_change_percent": [
+      -0.26628443434511323,
+      0.02588152115658084
+    ],
+    "block_time_ratios": [
+      0.9948622016462124,
+      1.000089977743508,
+      1.0000659920634807,
+      1.0001782560057928,
+      0.9990986767428612,
+      1.0005322567662716
+    ],
+    "faster_blocks": 2,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 2,
+    "unit": "cycles",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 0.9178893166883231,
+    "time_change_percent": -8.211068331167699,
+    "ci95_change_percent": [
+      -8.250355500510953,
+      -8.159740977596638
+    ],
+    "block_time_ratios": [
+      0.9190791984494692,
+      0.91780312223462,
+      0.9174403422120153,
+      0.9173123835288888,
+      0.9176378773481031,
+      0.9180640932876382
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 2,
+    "unit": "cycles",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 0.9207504211055625,
+    "time_change_percent": -7.924957889443748,
+    "ci95_change_percent": [
+      -7.965579164182877,
+      -7.863982908104409
+    ],
+    "block_time_ratios": [
+      0.9221185962017548,
+      0.9207690182228998,
+      0.9202807829780604,
+      0.9202386213757864,
+      0.9202691623136546,
+      0.9208277524036115
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 2,
+    "unit": "cycles",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 1.0035769403923984,
+    "time_change_percent": 0.3576940392398519,
+    "ci95_change_percent": [
+      0.3164746685332211,
+      0.40656830672287436
+    ],
+    "block_time_ratios": [
+      1.0046861965802525,
+      1.0036273399692552,
+      1.003264878837898,
+      1.0034122739248157,
+      1.0028123784528038,
+      1.003659545256956
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 2,
+    "unit": "cycles",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 1.0067051371858375,
+    "time_change_percent": 0.6705137185837565,
+    "ci95_change_percent": [
+      0.6184262908006027,
+      0.7313229296127506
+    ],
+    "block_time_ratios": [
+      1.0080086969401671,
+      1.00687057833839,
+      1.0063710366226335,
+      1.0066131714867834,
+      1.0056878974345589,
+      1.0066808733666854
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 2,
+    "unit": "cycles",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 0.997848867035676,
+    "time_change_percent": -0.21511329643239727,
+    "ci95_change_percent": [
+      -0.27050765775779634,
+      -0.14402751273648184
+    ],
+    "block_time_ratios": [
+      0.9994962083918482,
+      0.9975583203134459,
+      0.9975324040102841,
+      0.99764422430444,
+      0.9968552485423071,
+      0.998008776280442
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 0,
+    "slot": 2,
+    "unit": "cycles",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 1.000395901768395,
+    "time_change_percent": 0.03959017683949974,
+    "ci95_change_percent": [
+      -0.028104015590277358,
+      0.1242071826292362
+    ],
+    "block_time_ratios": [
+      1.002240924777641,
+      1.0002345456279051,
+      1.0000540255573427,
+      1.0002635520787009,
+      0.9991303895938713,
+      1.0004545553055002
+    ],
+    "faster_blocks": 1,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 0,
+    "unit": "ns",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 0.9975280643218059,
+    "time_change_percent": -0.24719356781941704,
+    "ci95_change_percent": [
+      -0.44038392188846714,
+      -0.00026966958899959676
+    ],
+    "block_time_ratios": [
+      1.002999784532596,
+      0.9953569337206659,
+      0.9994212006242137,
+      0.9955456829684736,
+      0.9964194746867225,
+      0.9954491801486434
+    ],
+    "faster_blocks": 5,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 0,
+    "unit": "ns",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 0.9968198400655303,
+    "time_change_percent": -0.3180159934469713,
+    "ci95_change_percent": [
+      -0.5053551156512673,
+      -0.07929084020552313
+    ],
+    "block_time_ratios": [
+      1.0023682324122187,
+      0.9947549492417074,
+      0.9984217065692937,
+      0.9948751296972366,
+      0.9957507689907517,
+      0.9947716454785873
+    ],
+    "faster_blocks": 5,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 0,
+    "unit": "ns",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 1.0046347421238957,
+    "time_change_percent": 0.4634742123895767,
+    "ci95_change_percent": [
+      0.44768254861751205,
+      0.4814776149778411
+    ],
+    "block_time_ratios": [
+      1.004487520949877,
+      1.0045079344255283,
+      1.0050361643684425,
+      1.004660876098543,
+      1.004747326418717,
+      1.0043687713119844
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 0,
+    "unit": "ns",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 1.0039214722736354,
+    "time_change_percent": 0.3921472273635432,
+    "ci95_change_percent": [
+      0.38135334672263826,
+      0.40154602774307546
+    ],
+    "block_time_ratios": [
+      1.0038550320565278,
+      1.0039004154893267,
+      1.004031054940467,
+      1.0039841832571428,
+      1.0040730318296847,
+      1.0036851656818269
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 0,
+    "unit": "ns",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 0.9987667850015469,
+    "time_change_percent": -0.12332149984530663,
+    "ci95_change_percent": [
+      -0.16831470650864883,
+      -0.08976474737505834
+    ],
+    "block_time_ratios": [
+      0.9977339929961139,
+      0.9990786181101872,
+      0.998543019631209,
+      0.9990664806729167,
+      0.9992231887220643,
+      0.9989561851336635
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 0,
+    "unit": "ns",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 0.997424114194655,
+    "time_change_percent": -0.25758858053449063,
+    "ci95_change_percent": [
+      -0.29650292674434237,
+      -0.22106339208310524
+    ],
+    "block_time_ratios": [
+      0.9966581223854258,
+      0.9978228550081901,
+      0.9968293617878614,
+      0.9977378260944254,
+      0.9978795526162485,
+      0.9976176906839843
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 0,
+    "unit": "cycles",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 0.9955968216417493,
+    "time_change_percent": -0.44031783582506834,
+    "ci95_change_percent": [
+      -0.4473276029963549,
+      -0.4346412365407679
+    ],
+    "block_time_ratios": [
+      0.9955467916621117,
+      0.9956746776786255,
+      0.9955945432381292,
+      0.9956608109869673,
+      0.9956560074911084,
+      0.9954481180190955
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 0,
+    "unit": "cycles",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 0.9949457896963402,
+    "time_change_percent": -0.5054210303659878,
+    "ci95_change_percent": [
+      -0.5131416393009417,
+      -0.4993299305345091
+    ],
+    "block_time_ratios": [
+      0.9949408499614159,
+      0.995056115553599,
+      0.9949510051375442,
+      0.9949957093048599,
+      0.9949591356792427,
+      0.9947719452149355
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 0,
+    "unit": "cycles",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 1.0045924611371382,
+    "time_change_percent": 0.4592461137138163,
+    "ci95_change_percent": [
+      0.44257973188787353,
+      0.47512735523564176
+    ],
+    "block_time_ratios": [
+      1.0049172293832729,
+      1.0045293273862668,
+      1.0046971956201713,
+      1.0046586761974083,
+      1.0045205774326815,
+      1.0042318902090068
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 0,
+    "unit": "cycles",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 1.003935546842013,
+    "time_change_percent": 0.39355468420131207,
+    "ci95_change_percent": [
+      0.3750326176269875,
+      0.4114528292903552
+    ],
+    "block_time_ratios": [
+      1.0043055843454596,
+      1.0039052643169435,
+      1.0040477736950273,
+      1.0039875639389875,
+      1.0038175011999413,
+      1.0035497508981397
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 0,
+    "unit": "cycles",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 0.998975654462615,
+    "time_change_percent": -0.10243455373850051,
+    "ci95_change_percent": [
+      -0.1226477524378385,
+      -0.08667047933697158
+    ],
+    "block_time_ratios": [
+      0.9989664977629796,
+      0.9992532676107279,
+      0.9985035176703408,
+      0.9991049178107908,
+      0.9991070226827532,
+      0.9989188720660723
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 0,
+    "unit": "cycles",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 0.9976610959166143,
+    "time_change_percent": -0.23389040833856925,
+    "ci95_change_percent": [
+      -0.2542975418636242,
+      -0.21690735533184893
+    ],
+    "block_time_ratios": [
+      0.9976999899433148,
+      0.9979768629407038,
+      0.9972037620407228,
+      0.997778727455013,
+      0.9977310747675309,
+      0.9975763269155499
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 1,
+    "unit": "ns",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 0.9996596159275227,
+    "time_change_percent": -0.034038407247722176,
+    "ci95_change_percent": [
+      -0.5436746958769836,
+      0.2642849541425793
+    ],
+    "block_time_ratios": [
+      0.987291255159961,
+      1.002374328890684,
+      1.000317474977705,
+      1.0026947605144423,
+      1.002718617692037,
+      1.002656056407901
+    ],
+    "faster_blocks": 1,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 1,
+    "unit": "ns",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 0.9997552980429618,
+    "time_change_percent": -0.024470195703815274,
+    "ci95_change_percent": [
+      -0.5100122543153467,
+      0.2596020467824005
+    ],
+    "block_time_ratios": [
+      0.9879759038891638,
+      1.0023361094230165,
+      1.0003992592762547,
+      1.0026467184858014,
+      1.0026869216838872,
+      1.002572777813891
+    ],
+    "faster_blocks": 1,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 1,
+    "unit": "ns",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 1.0026478724667798,
+    "time_change_percent": 0.26478724667798026,
+    "ci95_change_percent": [
+      0.21710159998101433,
+      0.3239029525511275
+    ],
+    "block_time_ratios": [
+      1.0039696835732472,
+      1.0026690911260256,
+      1.0017372791525345,
+      1.002655972213047,
+      1.0023476406273775,
+      1.0025089072222555
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 1,
+    "unit": "ns",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 1.0027438406022826,
+    "time_change_percent": 0.2743840602282637,
+    "ci95_change_percent": [
+      0.21724681746392296,
+      0.3561080288379861
+    ],
+    "block_time_ratios": [
+      1.0046658981547336,
+      1.0026308604193874,
+      1.0018191795319198,
+      1.0026079320428667,
+      1.0023159563458397,
+      1.0024256408501606
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 1,
+    "unit": "ns",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 1.0004495123874908,
+    "time_change_percent": 0.04495123874907019,
+    "ci95_change_percent": [
+      0.02452005742252899,
+      0.0707288025847278
+    ],
+    "block_time_ratios": [
+      1.0002458223261874,
+      1.0003148706231266,
+      1.0010515438400927,
+      1.0004845155123543,
+      1.000120464937966,
+      1.0004801231556149
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 1,
+    "unit": "ns",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 0.99987863785527,
+    "time_change_percent": -0.012136214473003277,
+    "ci95_change_percent": [
+      -0.04405783681989777,
+      0.021203461080084616
+    ],
+    "block_time_ratios": [
+      1.0005027070346222,
+      0.9995774899941325,
+      1.0004086758800415,
+      0.9997249011359824,
+      0.9993759044736056,
+      0.9996826865358261
+    ],
+    "faster_blocks": 4,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 1,
+    "unit": "cycles",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 1.0026074524951005,
+    "time_change_percent": 0.26074524951004346,
+    "ci95_change_percent": [
+      0.24878884466218043,
+      0.2702000045286756
+    ],
+    "block_time_ratios": [
+      1.002332566264477,
+      1.0026104977757349,
+      1.0025884399594334,
+      1.0027087117481257,
+      1.0026406487235777,
+      1.0027639062423805
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 1,
+    "unit": "cycles",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 1.0025431262964128,
+    "time_change_percent": 0.2543126296412896,
+    "ci95_change_percent": [
+      0.24089844520513345,
+      0.26334995501861885
+    ],
+    "block_time_ratios": [
+      1.0022261514976156,
+      1.0025501913456467,
+      1.0025641416652191,
+      1.0026384773272123,
+      1.0026057055947646,
+      1.0026741557617804
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 1,
+    "unit": "cycles",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 1.0025578937862745,
+    "time_change_percent": 0.2557893786274367,
+    "ci95_change_percent": [
+      0.2429675930850672,
+      0.26724789399744825
+    ],
+    "block_time_ratios": [
+      1.002295025837791,
+      1.0026114570943032,
+      1.0024047178016,
+      1.0026768775744321,
+      1.0026476589181412,
+      1.002711695967034
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 1,
+    "unit": "cycles",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 1.0024935707672193,
+    "time_change_percent": 0.24935707672194052,
+    "ci95_change_percent": [
+      0.2353575598037474,
+      0.2604520934324517
+    ],
+    "block_time_ratios": [
+      1.0021886150564887,
+      1.0025511506065126,
+      1.0023804239599952,
+      1.0026066453833336,
+      1.0026127155450149,
+      1.0026219501594154
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 1,
+    "unit": "cycles",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 1.0004003222229263,
+    "time_change_percent": 0.040032222292635096,
+    "ci95_change_percent": [
+      0.02691624904879689,
+      0.052291923092871694
+    ],
+    "block_time_ratios": [
+      1.0002092145469528,
+      1.0001970008258014,
+      1.000548350227782,
+      1.0005933927831652,
+      1.0003196808755077,
+      1.0005343748087459
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 1,
+    "unit": "cycles",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 0.9996290630412253,
+    "time_change_percent": -0.03709369587746082,
+    "ci95_change_percent": [
+      -0.04978073157314429,
+      -0.02459290987156366
+    ],
+    "block_time_ratios": [
+      0.9994235593514261,
+      0.999434827284059,
+      0.999795281851952,
+      0.9998130958058562,
+      0.9995777122442543,
+      0.99972997887834
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 2,
+    "unit": "ns",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 0.9970977856823603,
+    "time_change_percent": -0.29022143176396625,
+    "ci95_change_percent": [
+      -0.4334751476921082,
+      -0.16165916308402828
+    ],
+    "block_time_ratios": [
+      0.9996166162421415,
+      0.9974113214319398,
+      0.9940728767205755,
+      0.9974498958146144,
+      0.996919383769324,
+      0.9971245216712057
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 2,
+    "unit": "ns",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 0.9991736240604197,
+    "time_change_percent": -0.08263759395803047,
+    "ci95_change_percent": [
+      -0.2365547090557391,
+      0.06539623207745031
+    ],
+    "block_time_ratios": [
+      1.0021442670927823,
+      0.9994006521051246,
+      0.9960086601555924,
+      0.9995038080616483,
+      0.9988843484565607,
+      0.9991095632864788
+    ],
+    "faster_blocks": 5,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 2,
+    "unit": "ns",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 0.999915752657981,
+    "time_change_percent": -0.008424734201896189,
+    "ci95_change_percent": [
+      -0.08331700596603756,
+      0.04876339986918067
+    ],
+    "block_time_ratios": [
+      0.9982465823375644,
+      1.0004353048640207,
+      0.999328677316395,
+      1.0004671836917136,
+      1.000516802533973,
+      1.000502171740683
+    ],
+    "faster_blocks": 2,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 2,
+    "unit": "ns",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 1.001997457706371,
+    "time_change_percent": 0.1997457706371109,
+    "ci95_change_percent": [
+      0.14174675135922535,
+      0.24936690978674317
+    ],
+    "block_time_ratios": [
+      1.0007707688926863,
+      1.002430666853341,
+      1.0012746955057938,
+      1.0025273090272944,
+      1.0024888578656017,
+      1.0024939374669413
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 2,
+    "unit": "ns",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 0.9973964614930145,
+    "time_change_percent": -0.2603538506985451,
+    "ci95_change_percent": [
+      -0.2994574711950791,
+      -0.224989118611197
+    ],
+    "block_time_ratios": [
+      0.9968464387864681,
+      0.997716488368511,
+      0.9966286670059904,
+      0.9979121373451526,
+      0.9976691044140875,
+      0.9976066244156351
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 2,
+    "unit": "ns",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 0.9988426692073268,
+    "time_change_percent": -0.11573307926731799,
+    "ci95_change_percent": [
+      -0.1552544293532684,
+      -0.08705339972662939
+    ],
+    "block_time_ratios": [
+      0.9988355397142097,
+      0.9990523711389421,
+      0.9979230786821787,
+      0.9993199845381711,
+      0.99899070984422,
+      0.9989349061735632
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 2,
+    "unit": "cycles",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 0.9969852946387091,
+    "time_change_percent": -0.3014705361290866,
+    "ci95_change_percent": [
+      -0.31229978481093856,
+      -0.286695962060942
+    ],
+    "block_time_ratios": [
+      0.9973297698599094,
+      0.9969090433933184,
+      0.9968149758835683,
+      0.9968965470087117,
+      0.9970115104280909,
+      0.9969500031412918
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 2,
+    "unit": "cycles",
+    "category": "same_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 0.9989757506106336,
+    "time_change_percent": -0.10242493893663897,
+    "ci95_change_percent": [
+      -0.11313696934562506,
+      -0.0881775977134689
+    ],
+    "block_time_ratios": [
+      0.9993050776987431,
+      0.9988954112113938,
+      0.998792454482575,
+      0.9989226096022704,
+      0.9990032244231184,
+      0.9989358031562525
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 2,
+    "unit": "cycles",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 1.0005253258372644,
+    "time_change_percent": 0.052532583726449686,
+    "ci95_change_percent": [
+      0.04507261398573062,
+      0.06248119752582715
+    ],
+    "block_time_ratios": [
+      1.0007543647846595,
+      1.000437840488639,
+      1.0005778521970474,
+      1.0004701404976712,
+      1.000468868083744,
+      1.0004429268953934
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 2,
+    "unit": "cycles",
+    "category": "same_GPC_other_TPC",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 1.002522849392109,
+    "time_change_percent": 0.2522849392109018,
+    "ci95_change_percent": [
+      0.24515408922924772,
+      0.2617803451044662
+    ],
+    "block_time_ratios": [
+      1.0027364553641716,
+      1.0024312395289035,
+      1.0025627955789482,
+      1.0025034659552798,
+      1.0024674887870255,
+      1.0024356843786537
+    ],
+    "faster_blocks": 0,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 2,
+    "unit": "cycles",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "raw_log_ratio",
+    "time_ratio": 0.997812707164261,
+    "time_change_percent": -0.21872928357390292,
+    "ci95_change_percent": [
+      -0.2435333302470292,
+      -0.1827943412959334
+    ],
+    "block_time_ratios": [
+      0.9986522330602622,
+      0.9975775093756427,
+      0.9975071922545911,
+      0.997921353729813,
+      0.9975776823014506,
+      0.9976407481625538
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  },
+  {
+    "mode": 1,
+    "slot": 2,
+    "unit": "cycles",
+    "category": "cross_GPC_same_historical_group",
+    "reference": "cross_historical_group",
+    "field": "row_column_residual_difference",
+    "time_ratio": 0.9991553500874251,
+    "time_change_percent": -0.08446499125748819,
+    "ci95_change_percent": [
+      -0.10936268166980995,
+      -0.04972837605736557
+    ],
+    "block_time_ratios": [
+      0.9999626349477936,
+      0.9989138296386499,
+      0.9988525141577194,
+      0.9993014180338112,
+      0.9989304082400018,
+      0.9989717494305869
+    ],
+    "faster_blocks": 6,
+    "blocks": 6,
+    "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment"
+  }
+]

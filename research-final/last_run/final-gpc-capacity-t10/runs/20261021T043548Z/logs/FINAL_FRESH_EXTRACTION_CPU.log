@@ -1,0 +1,4 @@
+ANALYSIS_PASS 152 25072 112
+EXTRA_FINAL 3158 24
+PAIRED_PRIMARY_PASS [('A01', 19.55544), ('A02', 1.96107), ('A03', 12.20817), ('A04', 14.18563)]
+CPU_RECOMPUTE_PASS: 152 phase means, all frozen capacities/ranges/simple choices, exact derived hashes, state requests 1829120

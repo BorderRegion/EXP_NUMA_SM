@@ -1,0 +1,104 @@
+{
+  "utc": "2026-10-21T04:57:31.887089+00:00",
+  "weights": {
+    "A01:append": {
+      "isolated": [
+        8.76263124738074,
+        9.912017168208129,
+        10.103572717779793,
+        8.65207452213084,
+        9.831034529960107
+      ],
+      "concurrent": [
+        5.150670605686397,
+        6.0097544683009945,
+        5.873032026825829,
+        4.903954975753283,
+        5.832294954980312
+      ]
+    },
+    "A02:append": {
+      "isolated": [
+        8.648365856529232,
+        10.587595657512912,
+        11.091960920886677,
+        9.811548536900155,
+        10.96277337268126
+      ],
+      "concurrent": [
+        5.956470000814594,
+        7.064430156295697,
+        6.864971544691452,
+        5.773427696951798,
+        5.208030977962499
+      ]
+    },
+    "A03:append": {
+      "isolated": [
+        5.691693972359374,
+        6.5061413439505245,
+        6.534900525823114,
+        5.680655916547471,
+        6.411510555011564
+      ],
+      "concurrent": [
+        3.373515509254304,
+        3.9552640376594264,
+        4.026040035837032,
+        3.3049523027897507,
+        2.629736200601056
+      ]
+    },
+    "A04:append": {
+      "isolated": [
+        9.73204495474528,
+        11.195173008041461,
+        11.186588473707772,
+        9.73826946580458,
+        11.011321405502144
+      ],
+      "concurrent": [
+        5.407573523861696,
+        6.460949687153362,
+        6.938010637960164,
+        5.788726347306441,
+        5.06133908926726
+      ]
+    }
+  },
+  "replays": {
+    "A01:append": 128,
+    "A02:append": 32,
+    "A03:append": 40,
+    "A04:append": 28,
+    "V01:append": 128,
+    "V02:append": 32,
+    "V03:append": 40,
+    "V04:append": 40,
+    "V05:append": 28,
+    "V06:append": 28,
+    "V07:append": 28,
+    "V08:append": 32
+  },
+  "best_simple": {
+    "A01:append": "N19",
+    "A02:append": "N19",
+    "A03:append": "N19",
+    "A04:append": "N19",
+    "V01:append": "N19",
+    "V02:append": "N19",
+    "V03:append": "N19",
+    "V04:append": "N19",
+    "V05:append": "N19",
+    "V06:append": "N19",
+    "V07:append": "N19",
+    "V08:append": "N19"
+  },
+  "weight_source": "two development processes geometric-mean concurrent own-stream proxy work/span; isolated retained, no iterative correction",
+  "wrong_rule": "rotate left by one GPC",
+  "holdout_baseline_rule": "inherit corresponding predeclared development anchor; not tuned on holdout",
+  "input_files": [
+    "/home/ubuntu/文档/ChatGPT/numa_gpu/final-gpc-capacity-t10/runs/20261021T043548Z/raw/P3_DEV_0",
+    "/home/ubuntu/文档/ChatGPT/numa_gpu/final-gpc-capacity-t10/runs/20261021T043548Z/raw/P3_DEV_1"
+  ]
+}

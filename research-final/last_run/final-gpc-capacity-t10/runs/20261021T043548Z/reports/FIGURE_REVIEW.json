@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "method": "visual inspection of rendered PNGs by assistant",
+  "figures": [
+    "01_clock_state",
+    "02_capacity",
+    "03_application",
+    "exploration_28"
+  ],
+  "limits": "No confidence intervals invented for two dynamic process blocks"
+}

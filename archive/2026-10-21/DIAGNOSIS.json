@@ -1,0 +1,259 @@
+{
+  "status": "STOP_CURRENT_T10_SEARCH_AND_ARCHIVE",
+  "new_GPU_work": false,
+  "independent_new_experiment": false,
+  "inputs": [
+    {
+      "path": "derived/PAIRED_PRIMARY_COMPARISONS.json",
+      "sha256": "67e84523181313bb28a07cc787cc388459c50c14f81dd9765ee78f10cc41bd61"
+    },
+    {
+      "path": "raw/P5_FOUR_PROFILES/PROFILES.json",
+      "sha256": "80218daf26b05c378efd3a1bd760f1b3d2c8bd64de8ddc28dbcdbd5fbbbba458"
+    },
+    {
+      "path": "freeze/STATE_CONTROL.json",
+      "sha256": "52c35e7222decae14e5642a92268c6257e5df96ff8c4542a8eeb75f7350b44fd"
+    }
+  ],
+  "cases": [
+    {
+      "case": "A01",
+      "CAP_N19_ready_change_pct": 19.55543975555729,
+      "CAP_N19_GPU_change_pct": 22.824599434313853,
+      "E56_N19_ready_change_pct": 7.712626917183951,
+      "CAP_ready_blocks": [
+        {
+          "block": 0,
+          "candidate": 40.5373046875,
+          "reference": 33.43925,
+          "ratio": 1.212267161718639,
+          "requests_per_arm": 256
+        },
+        {
+          "block": 1,
+          "candidate": 40.35642578125,
+          "reference": 34.22727734375,
+          "ratio": 1.1790720417503264,
+          "requests_per_arm": 256
+        }
+      ],
+      "required_CAP_time_reduction_to_tie_pct": 16.356796307671395,
+      "interpretation": "Two dynamic blocks, descriptive; GPU-side deficit means Python-only changes cannot explain the measured gap. It does not isolate hardware causality."
+    },
+    {
+      "case": "A02",
+      "CAP_N19_ready_change_pct": 1.9610742957210325,
+      "CAP_N19_GPU_change_pct": 2.2394124190040943,
+      "E56_N19_ready_change_pct": 0.395124566180427,
+      "CAP_ready_blocks": [
+        {
+          "block": 0,
+          "candidate": 206.358171875,
+          "reference": 201.621078125,
+          "ratio": 1.0234950323351764,
+          "requests_per_arm": 64
+        },
+        {
+          "block": 1,
+          "candidate": 200.470046875,
+          "reference": 197.3633125,
+          "ratio": 1.0157411949345956,
+          "requests_per_arm": 64
+        }
+      ],
+      "required_CAP_time_reduction_to_tie_pct": 1.9233558583673482,
+      "interpretation": "Two dynamic blocks, descriptive; GPU-side deficit means Python-only changes cannot explain the measured gap. It does not isolate hardware causality."
+    },
+    {
+      "case": "A03",
+      "CAP_N19_ready_change_pct": 12.208168003716002,
+      "CAP_N19_GPU_change_pct": 12.541748289710132,
+      "E56_N19_ready_change_pct": 15.106753860349787,
+      "CAP_ready_blocks": [
+        {
+          "block": 0,
+          "candidate": 156.6364625,
+          "reference": 139.8411875,
+          "ratio": 1.1201024912635271,
+          "requests_per_arm": 80
+        },
+        {
+          "block": 1,
+          "candidate": 156.941375,
+          "reference": 139.6195625,
+          "ratio": 1.1240643659802327,
+          "requests_per_arm": 80
+        }
+      ],
+      "required_CAP_time_reduction_to_tie_pct": 10.879928102303305,
+      "interpretation": "Two dynamic blocks, descriptive; GPU-side deficit means Python-only changes cannot explain the measured gap. It does not isolate hardware causality."
+    },
+    {
+      "case": "A04",
+      "CAP_N19_ready_change_pct": 14.185628785787664,
+      "CAP_N19_GPU_change_pct": 14.437446925803265,
+      "E56_N19_ready_change_pct": 0.18336595841406123,
+      "CAP_ready_blocks": [
+        {
+          "block": 0,
+          "candidate": 268.040625,
+          "reference": 234.84492857142857,
+          "ratio": 1.1413515575171336,
+          "requests_per_arm": 56
+        },
+        {
+          "block": 1,
+          "candidate": 268.55807142857145,
+          "reference": 235.09032142857143,
+          "ratio": 1.1423612414012914,
+          "requests_per_arm": 56
+        }
+      ],
+      "required_CAP_time_reduction_to_tie_pct": 12.423304873505502,
+      "interpretation": "Two dynamic blocks, descriptive; GPU-side deficit means Python-only changes cannot explain the measured gap. It does not isolate hardware causality."
+    }
+  ],
+  "profile_diagnostic": [
+    {
+      "action": "E56_DIRECT",
+      "case": "A02",
+      "records": [
+        {
+          "request": 0,
+          "producer_count": 1,
+          "producer_start_skew_us": 0.0,
+          "producer_completion_skew_us": 0.0,
+          "producer_durations_us": [
+            125.475
+          ],
+          "last_producer_to_merge_us": 0.35205078125,
+          "merge_us": 18.72,
+          "kernel_span_us": 144.547119140625
+        },
+        {
+          "request": 1,
+          "producer_count": 1,
+          "producer_start_skew_us": 0.0,
+          "producer_completion_skew_us": 0.0,
+          "producer_durations_us": [
+            123.555
+          ],
+          "last_producer_to_merge_us": 0.4150390625,
+          "merge_us": 17.761,
+          "kernel_span_us": 141.73095703125
+        },
+        {
+          "request": 2,
+          "producer_count": 1,
+          "producer_start_skew_us": 0.0,
+          "producer_completion_skew_us": 0.0,
+          "producer_durations_us": [
+            124.611
+          ],
+          "last_producer_to_merge_us": 0.416015625,
+          "merge_us": 16.672,
+          "kernel_span_us": 141.69921875
+        },
+        {
+          "request": 3,
+          "producer_count": 1,
+          "producer_start_skew_us": 0.0,
+          "producer_completion_skew_us": 0.0,
+          "producer_durations_us": [
+            125.251
+          ],
+          "last_producer_to_merge_us": 0.416259765625,
+          "merge_us": 17.312,
+          "kernel_span_us": 142.979248046875
+        }
+      ],
+      "mean_kernel_span_us": 142.7391357421875,
+      "scope": "One profiler process, four requests, not a new performance confirmation; cannot subtract durations from unprofiled formal ready times. Start/completion skew is not guaranteed recoverable time."
+    },
+    {
+      "action": "CAP",
+      "case": "A02",
+      "records": [
+        {
+          "request": 0,
+          "producer_count": 5,
+          "producer_start_skew_us": 11.583984375,
+          "producer_completion_skew_us": 11.2958984375,
+          "producer_durations_us": [
+            119.811,
+            120.451,
+            121.091,
+            118.243,
+            104.323
+          ],
+          "last_producer_to_merge_us": 2.2080078125,
+          "merge_us": 16.384,
+          "kernel_span_us": 145.794921875
+        },
+        {
+          "request": 1,
+          "producer_count": 5,
+          "producer_start_skew_us": 17.505126953125,
+          "producer_completion_skew_us": 5.85595703125,
+          "producer_durations_us": [
+            119.043,
+            121.283,
+            119.843,
+            118.723,
+            103.17
+          ],
+          "last_producer_to_merge_us": 2.2412109375,
+          "merge_us": 16.416,
+          "kernel_span_us": 143.55615234375
+        },
+        {
+          "request": 2,
+          "producer_count": 5,
+          "producer_start_skew_us": 8.48095703125,
+          "producer_completion_skew_us": 11.23291015625,
+          "producer_durations_us": [
+            120.74,
+            120.835,
+            120.58,
+            119.587,
+            105.762
+          ],
+          "last_producer_to_merge_us": 2.912109375,
+          "merge_us": 16.064,
+          "kernel_span_us": 144.451904296875
+        },
+        {
+          "request": 3,
+          "producer_count": 5,
+          "producer_start_skew_us": 8.927978515625,
+          "producer_completion_skew_us": 13.6640625,
+          "producer_durations_us": [
+            121.283,
+            120.451,
+            121.219,
+            121.411,
+            104.515
+          ],
+          "last_producer_to_merge_us": 2.400146484375,
+          "merge_us": 16.256,
+          "kernel_span_us": 145.76318359375
+        }
+      ],
+      "mean_kernel_span_us": 144.89154052734375,
+      "scope": "One profiler process, four requests, not a new performance confirmation; cannot subtract durations from unprofiled formal ready times. Start/completion skew is not guaranteed recoverable time."
+    }
+  ],
+  "decision": "No sufficiently evidenced low-cost topology/address-only improvement identified. Preserve N19; no further parameter sweep or additional GPU run.",
+  "not_implied": [
+    "all GPU scheduling is impossible",
+    "fixed-state capacity hypothesis disproven",
+    "all observed producer skew can be recovered",
+    "generic fusion improvements are topology gains"
+  ],
+  "reopening_requirements": [
+    "Independent usable state/measurement condition",
+    "A mechanism change with a quantitative opportunity over matching fast native baseline",
+    "Separate frozen calibration and confirmation, all overhead charged"
+  ]
+}

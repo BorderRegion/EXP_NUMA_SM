@@ -1,0 +1,14 @@
+[
+  {
+    "archive_path": "last_run/final-gpc-capacity-t10/runs/20261021T043548Z/environment/INITIAL_COMMANDS.json",
+    "original_sha256": "cc3adbd47dd567e9f981d8728483985cc03d03d6f35e366b5a8d644b98dc4510",
+    "shared_sha256": "b780f84d549e068f6fc3bb154f6538552b371f2a088fe5801f77bb98e2160b5d",
+    "reason": "remove unrelated process arguments and unrelated system service inventory; original unchanged"
+  },
+  {
+    "archive_path": "last_run/final-gpc-capacity-t10/runs/20261021T043548Z/environment/FINAL_COMMANDS.json",
+    "original_sha256": "35345cfb4c6d202ca1c75877365c6027556e75abce9a3637d918cd0aff7e738e",
+    "shared_sha256": "700f04e368ca6148a3b4c8551349c1580cea3f853b73e418227824377432d018",
+    "reason": "remove unrelated process arguments and unrelated system service inventory; original unchanged"
+  }
+]

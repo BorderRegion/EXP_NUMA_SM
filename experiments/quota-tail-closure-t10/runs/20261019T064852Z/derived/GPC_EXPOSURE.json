@@ -1,0 +1,167 @@
+[
+  {
+    "q": 10,
+    "family": "NEUTRAL",
+    "confirmation_GPC_SM_exposures": {
+      "0": 12,
+      "1": 12,
+      "2": 12,
+      "3": 12,
+      "5": 12
+    }
+  },
+  {
+    "q": 10,
+    "family": "PACK",
+    "confirmation_GPC_SM_exposures": {
+      "0": 10,
+      "1": 10,
+      "2": 20,
+      "3": 10,
+      "5": 10
+    }
+  },
+  {
+    "q": 10,
+    "family": "SPREAD",
+    "confirmation_GPC_SM_exposures": {
+      "0": 12,
+      "1": 12,
+      "2": 12,
+      "3": 12,
+      "5": 12
+    }
+  },
+  {
+    "q": 20,
+    "family": "NEUTRAL",
+    "confirmation_GPC_SM_exposures": {
+      "0": 24,
+      "1": 24,
+      "2": 24,
+      "3": 24,
+      "5": 24
+    }
+  },
+  {
+    "q": 20,
+    "family": "PACK",
+    "confirmation_GPC_SM_exposures": {
+      "0": 18,
+      "1": 22,
+      "2": 32,
+      "3": 26,
+      "5": 22
+    }
+  },
+  {
+    "q": 20,
+    "family": "SPREAD",
+    "confirmation_GPC_SM_exposures": {
+      "0": 24,
+      "1": 24,
+      "2": 24,
+      "3": 24,
+      "5": 24
+    }
+  },
+  {
+    "q": 28,
+    "family": "NEUTRAL",
+    "confirmation_GPC_SM_exposures": {
+      "0": 34,
+      "1": 34,
+      "2": 32,
+      "3": 34,
+      "5": 34
+    }
+  },
+  {
+    "q": 28,
+    "family": "PACK",
+    "confirmation_GPC_SM_exposures": {
+      "0": 26,
+      "1": 30,
+      "2": 42,
+      "3": 34,
+      "5": 36
+    }
+  },
+  {
+    "q": 28,
+    "family": "SPREAD",
+    "confirmation_GPC_SM_exposures": {
+      "0": 34,
+      "1": 32,
+      "2": 34,
+      "3": 34,
+      "5": 34
+    }
+  },
+  {
+    "q": 36,
+    "family": "NEUTRAL",
+    "confirmation_GPC_SM_exposures": {
+      "0": 44,
+      "1": 44,
+      "2": 42,
+      "3": 42,
+      "5": 44
+    }
+  },
+  {
+    "q": 36,
+    "family": "PACK",
+    "confirmation_GPC_SM_exposures": {
+      "0": 34,
+      "1": 40,
+      "2": 50,
+      "3": 42,
+      "5": 50
+    }
+  },
+  {
+    "q": 36,
+    "family": "SPREAD",
+    "confirmation_GPC_SM_exposures": {
+      "0": 42,
+      "1": 42,
+      "2": 44,
+      "3": 44,
+      "5": 44
+    }
+  },
+  {
+    "q": 46,
+    "family": "NEUTRAL",
+    "confirmation_GPC_SM_exposures": {
+      "0": 52,
+      "1": 60,
+      "2": 58,
+      "3": 50,
+      "5": 56
+    }
+  },
+  {
+    "q": 46,
+    "family": "PACK",
+    "confirmation_GPC_SM_exposures": {
+      "0": 50,
+      "1": 52,
+      "2": 62,
+      "3": 50,
+      "5": 62
+    }
+  },
+  {
+    "q": 46,
+    "family": "SPREAD",
+    "confirmation_GPC_SM_exposures": {
+      "0": 54,
+      "1": 54,
+      "2": 56,
+      "3": 56,
+      "5": 56
+    }
+  }
+]

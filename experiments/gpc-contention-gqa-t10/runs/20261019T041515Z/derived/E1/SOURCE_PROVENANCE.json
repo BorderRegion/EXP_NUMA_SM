@@ -1,0 +1,129 @@
+{
+  "sources": [
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_0/epochs.csv",
+      "sha256": "7b59617bd04b1cc13bc18fa971e84fa2b0c9366c00702e3ac8133577aeb0716f"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_0/records.bin",
+      "sha256": "27d0474456e57455a46ff0eceb7e5671ff6f46ed5a749359521e4c7d9c0e8e6e"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_0/environment.json",
+      "sha256": "e8ed6de5413dd0ae470499bf432f0ad34caccd2c0651d3066d3ec6585c1d845a"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_0/chain_starts.csv",
+      "sha256": "1cc7db47fb5509875d1a2e7f8c0b7a0f4daf69fb6c420b8becfda52b70cd19f0"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_0/manifest.json",
+      "sha256": "b8261e2ed1c21514f98ff58f2244b3b19f210a2c5ab3b9c19cd71c0d32115d55"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_1/epochs.csv",
+      "sha256": "addf1640c6d1c361319d6259b313317c86e560b3ab7ab9a73a924be9a29de48c"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_1/records.bin",
+      "sha256": "81677056895bfb337a523e7e5c72833776b7d536d578871f0d17f1b03be1be77"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_1/environment.json",
+      "sha256": "f254a1f9c515c43d9b4b4fb1bc63b070a31054a982519380392e1332fc0ff097"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_1/chain_starts.csv",
+      "sha256": "1cc7db47fb5509875d1a2e7f8c0b7a0f4daf69fb6c420b8becfda52b70cd19f0"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_1/manifest.json",
+      "sha256": "1095380bcad21dc1cf0518d2af324d4b75bd384ea35b1bbf7ad069fa744f1485"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_2/epochs.csv",
+      "sha256": "56a1f514004b72348f92664a2e9a1f8d399918218feecd817bb74c6fed11b90b"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_2/records.bin",
+      "sha256": "b153519f9f4f817df82e3fcd9f9ce8d5f7d8869726568cfaf08deb182cf65520"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_2/environment.json",
+      "sha256": "5f253c85eec39387e623e23f39f1fb288828c6cfe3799a83208abcbfcc5b7813"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_2/chain_starts.csv",
+      "sha256": "1cc7db47fb5509875d1a2e7f8c0b7a0f4daf69fb6c420b8becfda52b70cd19f0"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_2/manifest.json",
+      "sha256": "0cf8f395c530fc28407962eb4e2f72b1d6ae6fad628b4ad5bcb329afd76cf71c"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_3/epochs.csv",
+      "sha256": "25266c0ec5990b713a108399291901954e56495929e18097b00825041813a157"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_3/records.bin",
+      "sha256": "4c7f95051a0e319869cf0c0a0b8e8dc0dcfda8a0fbcba32b4134282e12362823"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_3/environment.json",
+      "sha256": "4500c4691782f6dea2f598d63700d7f36ddfbc0f6a29dc49cd6497cf743c7b54"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_3/chain_starts.csv",
+      "sha256": "1cc7db47fb5509875d1a2e7f8c0b7a0f4daf69fb6c420b8becfda52b70cd19f0"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_3/manifest.json",
+      "sha256": "d70eeabafca9190a5e9b0fd3ddfcbe8a76ba856d59d2a7356ad6a62004a51e57"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_4/epochs.csv",
+      "sha256": "2f3b9344987d2ed49259d7cc4445b10de48ed97a5adff3ef6cb58cd77b24bd36"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_4/records.bin",
+      "sha256": "d87e4f6c4c1d4eb74ccd3d7f4afc1efbadce79abedb50bc3d996fa92f42c8394"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_4/environment.json",
+      "sha256": "94a80849e4db02375db9e3a4698cfd1d9c937cbd562570756097b47909849136"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_4/chain_starts.csv",
+      "sha256": "1cc7db47fb5509875d1a2e7f8c0b7a0f4daf69fb6c420b8becfda52b70cd19f0"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_4/manifest.json",
+      "sha256": "0ecd8354df3fb54b0825a892e6e63877cdcf98c227047a335d3f790e1206f83b"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_5/epochs.csv",
+      "sha256": "998a858e103b02ae0967e0c4ccb3f408861fef2d49c0c4a7d87dfd59078ae4f3"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_5/records.bin",
+      "sha256": "b960cec255f5d87bcdb5dc5a64892eff33fed1b493d0fd238ce98ac61b61aaf3"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_5/environment.json",
+      "sha256": "d07cfa37e35d6f7834d09a93e4ba01840b9b05e56ada63f6b4b65900f44931ab"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_5/chain_starts.csv",
+      "sha256": "1cc7db47fb5509875d1a2e7f8c0b7a0f4daf69fb6c420b8becfda52b70cd19f0"
+    },
+    {
+      "path": "sm-topology-t10/runs/20261017T121101Z/raw/matrix_5/manifest.json",
+      "sha256": "d423641a57313b6725a23f8aff269b76053481c070707566c6b52d77a81add69"
+    }
+  ],
+  "old_mapping_sha256": "825c84d6da8730d7cf5cfb51bb36f969df493f241b73068f78e70bbaecd4a7fa",
+  "historical_topology_sha256": "ecab18bb38c673c6b3804494a808897e06d61750752046cb367c5e202f99a045",
+  "current_matches_historical": true,
+  "current_boot_id": "f4d4e26b-d744-42e6-8e60-c1d3e075bc33",
+  "topology_join_limit": "Stage15 did not issue contemporaneous RM GET. Same UUID, current boot predates both campaigns, and current RM map matches stage22; intervening driver reset/reload not independently proven absent. No geometric-distance claim."
+}

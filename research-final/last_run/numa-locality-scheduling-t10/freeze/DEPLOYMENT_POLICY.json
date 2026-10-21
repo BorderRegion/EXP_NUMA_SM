@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-17T16:30:58.601208+00:00",
+  "scope": "Candidate policies frozen on development; gate to deploy after confirmation. No independent routing performance claim. Vectorization and work balancing, not physical NUMA success.",
+  "cases": {
+    "GQA4_SHORT": {
+      "attention": "VECTOR_DIRECT",
+      "append": "VECTOR_DIRECT"
+    },
+    "GQA4_LONG": {
+      "attention": "VECTOR_BLIND",
+      "append": "VECTOR_BLIND"
+    },
+    "GQA8_LONG": {
+      "attention": "VECTOR_BLIND",
+      "append": "VECTOR_BLIND"
+    },
+    "BATCH4_RAGGED": {
+      "attention": "VECTOR_DIRECT",
+      "append": "VECTOR_DIRECT"
+    }
+  }
+}

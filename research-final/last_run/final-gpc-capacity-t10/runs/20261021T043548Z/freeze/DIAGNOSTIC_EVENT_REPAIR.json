@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-21T04:57:01.920786+00:00",
+  "repair": "materialized EXTERNAL diagnostic events only; no mathematical/formal DAG changes",
+  "hashes": {
+    "src/range_extensions.inc": "8301dc203e20848224e2e62410edf65f4928b84b23dcc0e17cdb37b2fb1f37e9",
+    "src/measure_application.py": "19887935760ec7f80fc61b628d15d99418c8d87641216b1e5e40515eed95dfe4",
+    "build/bridge_capacity.so": "94d6c5579ba1f3d1c5482b1834621c5e686fa78e874289d0c360b097ff336d95",
+    "build/range_gqa.so": "333d7c9aff2d25a115ef838b951ae1d32b699e38ddfcf86dd56c69779f83d9bd"
+  }
+}

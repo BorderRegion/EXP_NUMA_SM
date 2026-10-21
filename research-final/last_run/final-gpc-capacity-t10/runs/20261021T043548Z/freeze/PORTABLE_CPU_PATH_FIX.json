@@ -1,0 +1,4 @@
+{
+  "change": "use basename CURRENT_RUN for sibling runs directory; original absolute host RUN is unchanged; enables CPU replay on relocated copy",
+  "timing_impact": "after all GPU work; no kernel or plan changed"
+}

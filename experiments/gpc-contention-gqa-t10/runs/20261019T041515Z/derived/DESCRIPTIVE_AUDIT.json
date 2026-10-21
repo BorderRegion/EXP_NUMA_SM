@@ -1,0 +1,5781 @@
+{
+  "noise": [
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_160",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 0.9647148839796723,
+      "time_change_percent": -3.528511602032765,
+      "ci95_change_percent": [
+        -10.487454521038993,
+        0.47043564335027654
+      ],
+      "block_time_ratios": [
+        0.9947023460740698,
+        1.0087178195652509,
+        1.008520071032513,
+        0.8015401072499735,
+        0.995749234712924,
+        0.9980935604765543
+      ],
+      "faster_blocks": 4,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 19.84598927500265
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_160",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 1.0020265385344624,
+      "time_change_percent": 0.20265385344623793,
+      "ci95_change_percent": [
+        -0.11224613006679127,
+        0.5794369835535449
+      ],
+      "block_time_ratios": [
+        0.999481810937875,
+        1.003566358645788,
+        1.0104564388212511,
+        1.00188131202654,
+        1.0004842520584047,
+        0.9963461003337658
+      ],
+      "faster_blocks": 2,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 1.0456438821251135
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_160",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 1.0026480043224826,
+      "time_change_percent": 0.2648004322482637,
+      "ci95_change_percent": [
+        -0.040435738150504746,
+        0.5589542974024713
+      ],
+      "block_time_ratios": [
+        0.9975686108320927,
+        1.0043212647694013,
+        1.0028525476899934,
+        1.006877646973206,
+        1.0065924941717181,
+        0.9977185790414278
+      ],
+      "faster_blocks": 2,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 0.687764697320592
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_40",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 0.936805874669094,
+      "time_change_percent": -6.319412533090593,
+      "ci95_change_percent": [
+        -17.1316325838111,
+        -0.19811983508800268
+      ],
+      "block_time_ratios": [
+        0.9949782409459943,
+        0.9900579762328517,
+        0.6905733279843426,
+        0.9976405314905963,
+        1.0018314956413683,
+        0.9941338375851722
+      ],
+      "faster_blocks": 5,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 30.942667201565744
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_40",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 0.9381164093515146,
+      "time_change_percent": -6.188359064848541,
+      "ci95_change_percent": [
+        -16.52137831409098,
+        -0.19854518194630755
+      ],
+      "block_time_ratios": [
+        0.9938970250787087,
+        0.99417850172928,
+        0.7019799259121793,
+        0.9978572349461071,
+        1.0023071192400927,
+        0.9825184597763096
+      ],
+      "faster_blocks": 5,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 29.80200740878207
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_40",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 1.0002298096030495,
+      "time_change_percent": 0.022980960304953463,
+      "ci95_change_percent": [
+        -0.1276977488541827,
+        0.1734366108444238
+      ],
+      "block_time_ratios": [
+        0.9973919850960575,
+        1.0028794608711429,
+        0.9993248323377715,
+        1.0014962079035312,
+        1.001519448558907,
+        0.9987775561597763
+      ],
+      "faster_blocks": 3,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 0.28794608711428804
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_160",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 0.9833132053091288,
+      "time_change_percent": -1.6686794690871167,
+      "ci95_change_percent": [
+        -5.245825021587125,
+        0.9223759960117327
+      ],
+      "block_time_ratios": [
+        1.002591878037272,
+        0.9013276416278677,
+        1.0020200906412589,
+        0.9912400217872545,
+        0.9838784445661305,
+        1.0236409547623564
+      ],
+      "faster_blocks": 3,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 9.86723583721323
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_160",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 0.9766731397276704,
+      "time_change_percent": -2.33268602723296,
+      "ci95_change_percent": [
+        -7.158487923648965,
+        0.8920806354981738
+      ],
+      "block_time_ratios": [
+        1.0224987037149098,
+        0.8647290629858784,
+        0.9911504416660643,
+        0.995668162819057,
+        0.9851906517218071,
+        1.0096669971544943
+      ],
+      "faster_blocks": 4,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 13.527093701412163
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_160",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 0.9963950329969752,
+      "time_change_percent": -0.360496700302482,
+      "ci95_change_percent": [
+        -0.8167731083674218,
+        0.103488661761658
+      ],
+      "block_time_ratios": [
+        0.9963805738792427,
+        0.9967156702883764,
+        0.9893442443603264,
+        1.006700911385446,
+        0.999714270191558,
+        0.9896212241253995
+      ],
+      "faster_blocks": 5,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 1.065575563967358
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_40",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 0.9522875760076249,
+      "time_change_percent": -4.771242399237511,
+      "ci95_change_percent": [
+        -14.243953830730169,
+        0.4246915843201079
+      ],
+      "block_time_ratios": [
+        0.7332080315739251,
+        1.0046084011959913,
+        1.0051845016605205,
+        1.0011672407924357,
+        1.0032367196039251,
+        1.0028335546492186
+      ],
+      "faster_blocks": 1,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 26.67919684260749
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_40",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 0.9963133346704496,
+      "time_change_percent": -0.3686665329550386,
+      "ci95_change_percent": [
+        -1.1566574444599778,
+        0.17148258583455994
+      ],
+      "block_time_ratios": [
+        0.9777245978535556,
+        1.0035583720016248,
+        0.9951941014578581,
+        0.999036974860964,
+        1.0015454173701708,
+        1.0010516242216172
+      ],
+      "faster_blocks": 3,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 2.227540214644441
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_40",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 0.9965298362243449,
+      "time_change_percent": -0.34701637756551035,
+      "ci95_change_percent": [
+        -0.6367501285926792,
+        -0.06079542072892441
+      ],
+      "block_time_ratios": [
+        0.9904751184787057,
+        1.002351721059163,
+        0.9966677357310441,
+        0.9953946603077259,
+        0.9970644127521322,
+        0.9972618463751002
+      ],
+      "faster_blocks": 5,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 0.9524881521294271
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_160",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 0.9945892160183839,
+      "time_change_percent": -0.5410783981616083,
+      "ci95_change_percent": [
+        -2.003994719673463,
+        1.1489439198791358
+      ],
+      "block_time_ratios": [
+        1.000538163139383,
+        0.9747898247698689,
+        0.9902740401175608,
+        1.032643093827963,
+        0.9989922670531551,
+        0.9715162403991086
+      ],
+      "faster_blocks": 4,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 3.2643093827962932
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_160",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 1.0115978780537662,
+      "time_change_percent": 1.159787805376616,
+      "ci95_change_percent": [
+        0.11432127935749195,
+        1.9555982047565579
+      ],
+      "block_time_ratios": [
+        1.0193722479224867,
+        0.9879201261080599,
+        1.0254641994806648,
+        1.013864513306418,
+        1.0104132137551103,
+        1.0129625200163017
+      ],
+      "faster_blocks": 1,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 2.5464199480664806
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_160",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 1.0269916419650826,
+      "time_change_percent": 2.6991641965082613,
+      "ci95_change_percent": [
+        1.1545765049740988,
+        4.5069234415302875
+      ],
+      "block_time_ratios": [
+        1.0136249933107733,
+        1.0416666452569516,
+        1.0291071624263213,
+        1.0086675116938149,
+        1.0047074442073263,
+        1.0654844911563284
+      ],
+      "faster_blocks": 0,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 6.548449115632837
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_40",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 1.006865589583107,
+      "time_change_percent": 0.6865589583106951,
+      "ci95_change_percent": [
+        0.19661701012032812,
+        1.37227703602811
+      ],
+      "block_time_ratios": [
+        1.0062880605291114,
+        1.005509523747418,
+        1.005588893443641,
+        0.9984759198146866,
+        1.0226385044883088,
+        1.002859932059113
+      ],
+      "faster_blocks": 1,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 2.263850448830884
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_40",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 0.9856334888956556,
+      "time_change_percent": -1.4366511104344406,
+      "ci95_change_percent": [
+        -2.302948774401232,
+        -0.576377821259362
+      ],
+      "block_time_ratios": [
+        0.9689655409214796,
+        0.9862258622312243,
+        1.0021956401091834,
+        0.9754238549935406,
+        0.993559720549606,
+        0.987797968682753
+      ],
+      "faster_blocks": 5,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 3.1034459078520427
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_40",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 0.9949549377451693,
+      "time_change_percent": -0.504506225483073,
+      "ci95_change_percent": [
+        -1.018871913310287,
+        -0.007368244757803096
+      ],
+      "block_time_ratios": [
+        1.0004031153104906,
+        1.0011741765880218,
+        1.0029773454084123,
+        0.9864528575382393,
+        0.9891221973530805,
+        0.9897337689533697
+      ],
+      "faster_blocks": 3,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 1.3547142461760697
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_160",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 1.0011842416314394,
+      "time_change_percent": 0.11842416314394198,
+      "ci95_change_percent": [
+        -0.32485420544891314,
+        0.5938189132269799
+      ],
+      "block_time_ratios": [
+        0.9948168885538519,
+        0.9956208207362826,
+        0.9978833791179431,
+        1.0014268921693614,
+        1.0105632577771573,
+        1.0068954294810177
+      ],
+      "faster_blocks": 3,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 1.0563257777157276
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_160",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 0.9977726921491864,
+      "time_change_percent": -0.22273078508135832,
+      "ci95_change_percent": [
+        -0.34838248547398853,
+        -0.08783022660704667
+      ],
+      "block_time_ratios": [
+        0.9956465780117012,
+        0.9965066720545773,
+        0.9968125468907845,
+        0.9987883592223096,
+        0.9984395148890636,
+        1.0004503422195714
+      ],
+      "faster_blocks": 5,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 0.43534219882988
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_160",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 0.997908003709226,
+      "time_change_percent": -0.2091996290773943,
+      "ci95_change_percent": [
+        -0.5419279633182259,
+        0.0011604573611152808
+      ],
+      "block_time_ratios": [
+        0.9996734232285273,
+        0.998904176974189,
+        1.0005265140697543,
+        1.0002199891971233,
+        0.989977739527909,
+        0.9981860566644348
+      ],
+      "faster_blocks": 4,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 1.0022260472090982
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_40",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 0.8903240603367675,
+      "time_change_percent": -10.967593966323252,
+      "ci95_change_percent": [
+        -14.605798341568962,
+        -5.783264191496392
+      ],
+      "block_time_ratios": [
+        0.8329961025571601,
+        0.8575257212636247,
+        0.8827723967524146,
+        0.8795181003004602,
+        0.8844985316347008,
+        1.015331575839039
+      ],
+      "faster_blocks": 5,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 16.700389744283996
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_40",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 0.8805340005962677,
+      "time_change_percent": -11.946599940373225,
+      "ci95_change_percent": [
+        -15.135175592072269,
+        -7.2566391305859606
+      ],
+      "block_time_ratios": [
+        0.8287306037980667,
+        0.8516277700084814,
+        0.8778861110426234,
+        0.8739083259087326,
+        0.8671037505613597,
+        0.9927467419533084
+      ],
+      "faster_blocks": 6,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 17.126939620193326
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_40",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 0.9969520312262024,
+      "time_change_percent": -0.3047968773797686,
+      "ci95_change_percent": [
+        -0.4690817817276344,
+        -0.12679281494126407
+      ],
+      "block_time_ratios": [
+        0.9949145326392811,
+        0.9976605838594642,
+        0.9999660676742163,
+        0.9950381385488417,
+        0.9946653443564333,
+        0.9994820746194405
+      ],
+      "faster_blocks": 6,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 0.5334655643566721
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_160",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 1.000154193746249,
+      "time_change_percent": 0.015419374624904158,
+      "ci95_change_percent": [
+        -0.1437221487381948,
+        0.16482914633966647
+      ],
+      "block_time_ratios": [
+        1.0030329590863423,
+        1.0012189734495223,
+        0.9981255320892449,
+        1.0005146583040183,
+        1.0008742630653016,
+        0.9971703221068201
+      ],
+      "faster_blocks": 2,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 0.30329590863422684
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_160",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 0.9985257325460393,
+      "time_change_percent": -0.1474267453960743,
+      "ci95_change_percent": [
+        -0.3832659634698215,
+        0.05605129612726148
+      ],
+      "block_time_ratios": [
+        1.0007632727708209,
+        0.99950042727818,
+        0.9988833483134952,
+        0.9933490471213728,
+        1.0018279374116321,
+        0.9968537202007207
+      ],
+      "faster_blocks": 4,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 0.6650952878627159
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_160",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 1.0005483128954296,
+      "time_change_percent": 0.05483128954294683,
+      "ci95_change_percent": [
+        -0.26372293049034806,
+        0.33433565254184394
+      ],
+      "block_time_ratios": [
+        1.0053066060593896,
+        0.9990419668467081,
+        1.0024973029653834,
+        0.9938866353785265,
+        0.9991265384659582,
+        1.003472689426692
+      ],
+      "faster_blocks": 3,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 0.6113364621473494
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_40",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 0.998694158969579,
+      "time_change_percent": -0.1305841030421012,
+      "ci95_change_percent": [
+        -0.5759167958273159,
+        0.24864814091736281
+      ],
+      "block_time_ratios": [
+        1.0003100199184132,
+        0.9988258850704116,
+        1.0019606918481219,
+        1.005662642151138,
+        0.9965964620516827,
+        0.9888907365921015
+      ],
+      "faster_blocks": 3,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 1.1109263407898529
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_40",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 0.9961171256282424,
+      "time_change_percent": -0.38828743717575703,
+      "ci95_change_percent": [
+        -1.1199408167766578,
+        0.3808913789714581
+      ],
+      "block_time_ratios": [
+        0.9989666741830103,
+        0.9879092141988634,
+        0.9984216363590821,
+        1.013184112120183,
+        0.9957636803878105,
+        0.9827335150440007
+      ],
+      "faster_blocks": 5,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 1.726648495599925
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_40",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 0.9985666621888896,
+      "time_change_percent": -0.14333378111104278,
+      "ci95_change_percent": [
+        -0.5458627488297413,
+        0.2576618099848029
+      ],
+      "block_time_ratios": [
+        1.000516527411727,
+        0.9987244947396693,
+        0.9929603287736214,
+        1.001444391527393,
+        0.991389304639516,
+        1.006443599265618
+      ],
+      "faster_blocks": 3,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 0.8610695360483978
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_160",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 0.9997401305357141,
+      "time_change_percent": -0.02598694642859005,
+      "ci95_change_percent": [
+        -0.20041790368486376,
+        0.11812240574588317
+      ],
+      "block_time_ratios": [
+        0.9982199884942614,
+        1.0013990793970267,
+        1.001439837275388,
+        0.9959840054865796,
+        1.000377967594842,
+        1.0010319911190508
+      ],
+      "faster_blocks": 2,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 0.40159945134203845
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_160",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 0.9999962210846597,
+      "time_change_percent": -0.00037789153403354394,
+      "ci95_change_percent": [
+        -0.4175004403700021,
+        0.398083649515286
+      ],
+      "block_time_ratios": [
+        0.9964799558157663,
+        1.0017388849585573,
+        1.0029196287097197,
+        0.9913183664584199,
+        1.0075990970211304,
+        1.0
+      ],
+      "faster_blocks": 2,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 0.8681633541580136
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_160",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 0.9985856758565022,
+      "time_change_percent": -0.14143241434978793,
+      "ci95_change_percent": [
+        -0.3560709171999434,
+        0.05175600984587726
+      ],
+      "block_time_ratios": [
+        0.9977759573912615,
+        1.0003992138382558,
+        0.9993410281621288,
+        0.9937145674399,
+        1.0021078576272449,
+        0.9981958821068645
+      ],
+      "faster_blocks": 4,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 0.6285432560099946
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_40",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 0.9799479589650383,
+      "time_change_percent": -2.005204103496174,
+      "ci95_change_percent": [
+        -6.424815066104442,
+        0.36177970779064095
+      ],
+      "block_time_ratios": [
+        1.0035204017360566,
+        1.0047127912086222,
+        1.0023653012680196,
+        1.0001956084623507,
+        0.8735255311312972,
+        1.0029132475461355
+      ],
+      "faster_blocks": 1,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 12.647446886870284
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_40",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 0.9767294420231791,
+      "time_change_percent": -2.327055797682088,
+      "ci95_change_percent": [
+        -6.744087559374552,
+        0.09717295514400467
+      ],
+      "block_time_ratios": [
+        1.0000906227610458,
+        0.999546356367003,
+        0.9997647170311895,
+        0.9938138080499767,
+        0.8714146142534531,
+        1.0031727055449335
+      ],
+      "faster_blocks": 4,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 12.858538574654688
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_40",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 0.9973442333980379,
+      "time_change_percent": -0.26557666019621184,
+      "ci95_change_percent": [
+        -0.44793149407985405,
+        -0.03622527635268236
+      ],
+      "block_time_ratios": [
+        0.9981943949566942,
+        0.9943560951932814,
+        0.9963183252563825,
+        1.0026158170916728,
+        0.9954947692905266,
+        0.9971070021382277
+      ],
+      "faster_blocks": 5,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 0.5643904806718614
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_0",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 1.0414228563300887,
+      "time_change_percent": 4.142285633008878,
+      "ci95_change_percent": [
+        2.3553059675952444,
+        5.5684235617972835
+      ],
+      "block_time_ratios": [
+        1.0549773095298314,
+        1.0558188538151012,
+        1.0307478955717684,
+        1.001272498339762,
+        1.0463294135304422,
+        1.0606129355925387
+      ],
+      "faster_blocks": 0,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 6.061293559253866
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_0",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 0.9947739750998247,
+      "time_change_percent": -0.5226024900175331,
+      "ci95_change_percent": [
+        -2.835452460861358,
+        1.6642090784243595
+      ],
+      "block_time_ratios": [
+        1.0264814723510083,
+        1.024813811277221,
+        0.9986449172056585,
+        0.9450942732003121,
+        0.9990914736120297,
+        0.9769198286952684
+      ],
+      "faster_blocks": 4,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 5.4905726799687855
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_0",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 0.9879633669937197,
+      "time_change_percent": -1.203663300628038,
+      "ci95_change_percent": [
+        -2.1949053517939556,
+        -0.2848288687995902
+      ],
+      "block_time_ratios": [
+        1.0001263867487808,
+        0.9995438422614207,
+        0.9994303208647966,
+        0.9708009235555259,
+        0.9842409843409897,
+        0.9741014021799853
+      ],
+      "faster_blocks": 5,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 2.919907644447406
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_1",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 1.0668452244791058,
+      "time_change_percent": 6.684522447910569,
+      "ci95_change_percent": [
+        4.933756604006271,
+        8.90610317567657
+      ],
+      "block_time_ratios": [
+        1.0565959434645207,
+        1.0838747737757821,
+        1.1129771427916872,
+        1.0577705769974324,
+        1.0577998357760596,
+        1.0338064429622038
+      ],
+      "faster_blocks": 0,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 11.297714279168725
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_1",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 1.0001426189152287,
+      "time_change_percent": 0.014261891522867961,
+      "ci95_change_percent": [
+        -1.2272318687302628,
+        1.353719997701146
+      ],
+      "block_time_ratios": [
+        0.9741078069695333,
+        1.0283411221740044,
+        0.9930324196385069,
+        1.002307148124938,
+        1.0011536282981468,
+        1.0026801045144647
+      ],
+      "faster_blocks": 2,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 2.834112217400442
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_1",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 0.965429449219258,
+      "time_change_percent": -3.4570550780741955,
+      "ci95_change_percent": [
+        -4.810423437874142,
+        -2.1200076524989155
+      ],
+      "block_time_ratios": [
+        0.9702660075187177,
+        0.9463443365570801,
+        0.9416767541090777,
+        0.9688133257110143,
+        0.971495657782521,
+        0.9949481127859953
+      ],
+      "faster_blocks": 6,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 5.832324589092231
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_0",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 1.0150726414527498,
+      "time_change_percent": 1.5072641452749833,
+      "ci95_change_percent": [
+        -1.5194900796599762,
+        4.868089799744383
+      ],
+      "block_time_ratios": [
+        1.025050705682118,
+        1.0230047434210747,
+        1.0894913247640392,
+        1.0029261225026915,
+        0.9543166431890756,
+        1.000401932873197
+      ],
+      "faster_blocks": 1,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 8.949132476403921
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_0",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 0.9770905600998682,
+      "time_change_percent": -2.2909439900131887,
+      "ci95_change_percent": [
+        -3.7924332880983083,
+        -0.8823583070821696
+      ],
+      "block_time_ratios": [
+        0.943176681855332,
+        0.9701767812131877,
+        0.9979273892764463,
+        0.9761721178370995,
+        0.9991756605963819,
+        0.9770072476760369
+      ],
+      "faster_blocks": 6,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 5.682331814466801
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_0",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 0.974081278615204,
+      "time_change_percent": -2.5918721384795993,
+      "ci95_change_percent": [
+        -4.675241760376882,
+        -0.14647987948716634
+      ],
+      "block_time_ratios": [
+        0.9551452685473605,
+        0.9566461954293923,
+        0.9373737060652084,
+        1.0205785829933267,
+        0.9784047100645389,
+        0.9987864672692812
+      ],
+      "faster_blocks": 5,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 6.262629393479157
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_1",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 1.0478715150094022,
+      "time_change_percent": 4.78715150094022,
+      "ci95_change_percent": [
+        1.9163554611960645,
+        8.089514930922226
+      ],
+      "block_time_ratios": [
+        1.0179414370522786,
+        1.065836096819966,
+        1.0014879992109111,
+        1.1130959134379148,
+        1.0230993718963968,
+        1.0698892775543198
+      ],
+      "faster_blocks": 0,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 11.309591343791482
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_1",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 0.9891130084075422,
+      "time_change_percent": -1.0886991592457758,
+      "ci95_change_percent": [
+        -2.6735960494913815,
+        0.057168639506272004
+      ],
+      "block_time_ratios": [
+        0.9984566288148539,
+        1.0021746004049268,
+        0.9528862634002274,
+        0.9817214228477109,
+        0.9999419486774578,
+        1.000457773045905
+      ],
+      "faster_blocks": 4,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 4.711373659977259
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_1",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 0.9471295966577578,
+      "time_change_percent": -5.287040334224223,
+      "ci95_change_percent": [
+        -7.359178177814431,
+        -3.1685540757734456
+      ],
+      "block_time_ratios": [
+        0.9807412987943263,
+        0.9385791125793357,
+        0.9773908083444753,
+        0.9179011851191352,
+        0.9558333693744824,
+        0.9145021480720037
+      ],
+      "faster_blocks": 6,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 8.54978519279963
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_0",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 1.0041102570990368,
+      "time_change_percent": 0.41102570990367693,
+      "ci95_change_percent": [
+        -0.14219283075017727,
+        1.1863243402091723
+      ],
+      "block_time_ratios": [
+        1.0210351346430397,
+        0.9973365419390077,
+        0.9975870785927434,
+        0.9968668479086125,
+        1.0065479517113776,
+        1.0055034487217778
+      ],
+      "faster_blocks": 3,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 2.1035134643039743
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_0",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 1.0017465433127468,
+      "time_change_percent": 0.17465433127468077,
+      "ci95_change_percent": [
+        -0.8625973328547256,
+        0.9553737712223895
+      ],
+      "block_time_ratios": [
+        1.000061652625693,
+        1.0037881672241855,
+        1.0049405664289448,
+        0.9782955698258401,
+        1.0148923942971417,
+        1.0088992661454177
+      ],
+      "faster_blocks": 1,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 2.1704430174159905
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_0",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 0.9985715674880161,
+      "time_change_percent": -0.14284325119838875,
+      "ci95_change_percent": [
+        -1.0666246756158482,
+        0.7441137308072773
+      ],
+      "block_time_ratios": [
+        0.9937167658733017,
+        0.9964985154941793,
+        1.0164699812796438,
+        0.9792559629303605,
+        1.0005757733547003,
+        1.0052987398438182
+      ],
+      "faster_blocks": 3,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 2.0744037069639454
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_1",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 0.999784626904167,
+      "time_change_percent": -0.021537309583297477,
+      "ci95_change_percent": [
+        -1.3264836448468,
+        1.3090145363311843
+      ],
+      "block_time_ratios": [
+        1.005181004214058,
+        1.0291462121452903,
+        0.9755907836736417,
+        1.0006757945567362,
+        1.0028515573194032,
+        0.9860970007947822
+      ],
+      "faster_blocks": 2,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 2.914621214529034
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_1",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 1.0044167011925782,
+      "time_change_percent": 0.4416701192578126,
+      "ci95_change_percent": [
+        -1.1451061074626872,
+        1.934118908899118
+      ],
+      "block_time_ratios": [
+        0.9847581023104841,
+        1.0313276489267336,
+        1.0162543115988245,
+        1.008672652055655,
+        0.9741719308066298,
+        1.0124394747501773
+      ],
+      "faster_blocks": 2,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 3.1327648926733564
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_1",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 1.0032288605755164,
+      "time_change_percent": 0.32288605755163224,
+      "ci95_change_percent": [
+        -0.28468790870572774,
+        0.8942743637878534
+      ],
+      "block_time_ratios": [
+        0.991369490080015,
+        1.0000588466010052,
+        1.0075629097794028,
+        0.9977488906672967,
+        1.0111548287138346,
+        1.0116444727853338
+      ],
+      "faster_blocks": 2,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 1.164447278533376
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_0",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 1.0601983661798053,
+      "time_change_percent": 6.019836617980545,
+      "ci95_change_percent": [
+        3.414150059343008,
+        8.564868889297797
+      ],
+      "block_time_ratios": [
+        1.0134207546565726,
+        1.0235949365146213,
+        1.071497457510098,
+        1.063302343314359,
+        1.094521385133014,
+        1.097823930410986
+      ],
+      "faster_blocks": 0,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 9.782393041098603
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_0",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 1.0059572713931013,
+      "time_change_percent": 0.5957271393101339,
+      "ci95_change_percent": [
+        -0.5312823204039984,
+        1.8876122675245552
+      ],
+      "block_time_ratios": [
+        1.0119899147047757,
+        0.9919799336500379,
+        1.0318808120934642,
+        0.9883969176316049,
+        1.0149722246955688,
+        0.9972018071920996
+      ],
+      "faster_blocks": 3,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 3.188081209346416
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_0",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 0.9808946882051792,
+      "time_change_percent": -1.9105311794820783,
+      "ci95_change_percent": [
+        -3.7138615969838575,
+        -0.07580833864000952
+      ],
+      "block_time_ratios": [
+        1.0145503623770402,
+        0.9995578768381431,
+        0.9879430605114206,
+        0.9798328319963848,
+        0.954050429875315,
+        0.9510372025976298
+      ],
+      "faster_blocks": 5,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 4.89627974023702
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_1",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 1.0484391314057502,
+      "time_change_percent": 4.843913140575012,
+      "ci95_change_percent": [
+        2.8859720475512627,
+        7.623715731233363
+      ],
+      "block_time_ratios": [
+        1.0170994920148289,
+        1.0508096946282472,
+        1.035765172108419,
+        1.041822393452624,
+        1.03348630788177,
+        1.1143255910758894
+      ],
+      "faster_blocks": 0,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 11.432559107588936
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_1",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 0.9962266403885517,
+      "time_change_percent": -0.37733596114483636,
+      "ci95_change_percent": [
+        -2.430073163296733,
+        1.6894616174513397
+      ],
+      "block_time_ratios": [
+        0.9702799493862683,
+        1.0326133318623107,
+        1.0183754444812878,
+        0.9993161921938727,
+        0.956523311989338,
+        1.0023230549499442
+      ],
+      "faster_blocks": 3,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 4.347668801066195
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_1",
+      "view": "batch",
+      "metric": "gpu_per_request_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 0.9648977653123461,
+      "time_change_percent": -3.5102234687653957,
+      "ci95_change_percent": [
+        -4.914780339818311,
+        -2.2312979146507974
+      ],
+      "block_time_ratios": [
+        0.981424053424603,
+        0.9811114195906689,
+        0.9499729407216928,
+        0.9732650173213738,
+        0.9684889334270681,
+        0.9359998174806793
+      ],
+      "faster_blocks": 6,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 6.400018251932071
+    },
+    {
+      "stage": "E4",
+      "case": "BATCH4_RAGGED",
+      "metric": "job_output_ready_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 1.014203867760565,
+      "time_change_percent": 1.4203867760564945,
+      "ci95_change_percent": [
+        -0.137890802509094,
+        3.079553519309589
+      ],
+      "block_time_ratios": [
+        1.0433559003298736,
+        1.04779912994762,
+        1.0003006001781667,
+        0.9991669642308032,
+        0.9987053464804154,
+        0.9973212992589002
+      ],
+      "faster_blocks": 3,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 4.779912994761992
+    },
+    {
+      "stage": "E4",
+      "case": "BATCH4_RAGGED",
+      "metric": "job_output_ready_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 1.0016681327272847,
+      "time_change_percent": 0.16681327272848062,
+      "ci95_change_percent": [
+        -0.29667355485121594,
+        0.8481658497171382
+      ],
+      "block_time_ratios": [
+        1.0180297274941263,
+        0.9966825750022834,
+        0.9957562727916116,
+        0.9973462665288234,
+        1.0023853514705436,
+        0.9999817852942852
+      ],
+      "faster_blocks": 4,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 1.8029727494126346
+    },
+    {
+      "stage": "E4",
+      "case": "BATCH4_RAGGED",
+      "metric": "job_output_ready_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 0.9990055148227178,
+      "time_change_percent": -0.09944851772821929,
+      "ci95_change_percent": [
+        -0.314389802101509,
+        0.10637767688644073
+      ],
+      "block_time_ratios": [
+        1.0015103888195902,
+        0.995665927987565,
+        0.9953965294938378,
+        1.000502055463516,
+        0.9987914873104952,
+        1.002188165674095
+      ],
+      "faster_blocks": 3,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 0.4603470506162166
+    },
+    {
+      "stage": "E4",
+      "case": "GQA4_LONG",
+      "metric": "job_output_ready_us",
+      "contrast": "ANCHOR_TAIL/ANCHOR_HEAD",
+      "time_ratio": 1.0216325656006924,
+      "time_change_percent": 2.1632565600692297,
+      "ci95_change_percent": [
+        1.3729502219819885,
+        3.281541040513581
+      ],
+      "block_time_ratios": [
+        1.048813009219123,
+        1.0133483692886438,
+        1.0239046006730699,
+        1.0123724203588929,
+        1.0193664342449198,
+        1.0124682220702448
+      ],
+      "faster_blocks": 0,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 4.881300921912302
+    },
+    {
+      "stage": "E4",
+      "case": "GQA4_LONG",
+      "metric": "job_output_ready_us",
+      "contrast": "AA_HEAD/ANCHOR_HEAD",
+      "time_ratio": 1.005920304081346,
+      "time_change_percent": 0.5920304081346089,
+      "ci95_change_percent": [
+        0.37846610979382067,
+        0.8113365814067398
+      ],
+      "block_time_ratios": [
+        1.0090017845780848,
+        1.0098065399906586,
+        1.0013999698350837,
+        1.0047646255614502,
+        1.0050646384371558,
+        1.005507764216073
+      ],
+      "faster_blocks": 0,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 0.9806539990658614
+    },
+    {
+      "stage": "E4",
+      "case": "GQA4_LONG",
+      "metric": "job_output_ready_us",
+      "contrast": "AA_TAIL/ANCHOR_TAIL",
+      "time_ratio": 0.9959067352897527,
+      "time_change_percent": -0.40932647102473385,
+      "ci95_change_percent": [
+        -0.8190679833231062,
+        0.011742981278159662
+      ],
+      "block_time_ratios": [
+        0.9977861446200949,
+        0.990210968767693,
+        0.9954412175295844,
+        1.004027842678091,
+        0.9994363966885418,
+        0.9886220175068021
+      ],
+      "faster_blocks": 5,
+      "blocks": 6,
+      "confidence": "95% exploratory process-block bootstrap; no historical multiplicity adjustment",
+      "max_abs_individual_block_change_percent": 1.137798249319788
+    }
+  ],
+  "alternate_anchor_sensitivity": [
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        2.7481065586327773,
+        2.710732349555903,
+        2.6563681885640675,
+        2.098415998420958,
+        2.5775155871075235,
+        2.5213187645931607
+      ],
+      "time_change_percent": 154.20739906150973,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        2.7495313356969056,
+        2.701099260853826,
+        2.6288794712049697,
+        2.094475636217248,
+        2.5762680240138924,
+        2.530565195917909
+      ],
+      "time_change_percent": 153.69327985395157,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        2.7627426128822474,
+        2.6873049102316906,
+        2.6339269439075257,
+        2.617980035485027,
+        2.5885187728521077,
+        2.5261346876031547
+      ],
+      "time_change_percent": 163.50521100373757,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        2.7694762875285206,
+        2.675742319215668,
+        2.626434913063348,
+        2.600097482901708,
+        2.57156574069439,
+        2.531911042520802
+      ],
+      "time_change_percent": 162.809290865537,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        2.067560021685741,
+        2.046429790216298,
+        1.9980243353710327,
+        1.5879705359454834,
+        1.9985434469033088,
+        1.9853346666394305
+      ],
+      "time_change_percent": 93.9728371844079,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        2.068631964143122,
+        2.0391574235088448,
+        1.9773483137005192,
+        1.5849886776842264,
+        1.9975761165570458,
+        1.9926154836902192
+      ],
+      "time_change_percent": 93.58053876308254,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        2.078571574547972,
+        2.028743569830354,
+        1.9811448406033954,
+        1.9811491921392381,
+        2.0070750518623215,
+        1.98912681661978
+      ],
+      "time_change_percent": 101.0675282465064,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        2.083637708702755,
+        2.020014552112632,
+        1.975509605242401,
+        1.967616619650668,
+        1.9939300794348338,
+        1.993675229071971
+      ],
+      "time_change_percent": 100.53650670992297,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        1.3034808625723115,
+        1.3010459170180755,
+        0.9091726309435259,
+        1.3108482764910676,
+        1.2932235796873035,
+        1.2670495304840355
+      ],
+      "time_change_percent": 22.089189851063384,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        1.3114848215478725,
+        1.3086643040007688,
+        1.2951547435806126,
+        1.31366314797714,
+        1.2902468264096252,
+        1.2895936131037224
+      ],
+      "time_change_percent": 30.142899787308018,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.310059666564168,
+        1.3141108382041686,
+        1.3165475614258586,
+        1.3139484965917543,
+        1.29085937636587,
+        1.2745261076333512
+      ],
+      "time_change_percent": 30.324961822201097,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.3134852556871086,
+        1.3103377718621112,
+        1.3174370523206071,
+        1.3119854935270208,
+        1.288900957663175,
+        1.2760860511661947
+      ],
+      "time_change_percent": 30.295018775656946,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        1.048499461044196,
+        1.0456200571219916,
+        0.729608991364808,
+        1.056531886791011,
+        1.0447570509484252,
+        1.0431301795359682
+      ],
+      "time_change_percent": -1.361879726733408,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        1.0549377194897662,
+        1.0517427758729785,
+        1.0393587685812047,
+        1.058800647818195,
+        1.04235222008651,
+        1.061690158751275
+      ],
+      "time_change_percent": 5.144861863626823,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.0537913472834495,
+        1.056120027536723,
+        1.0565264567839643,
+        1.059030636227684,
+        1.0428470810648411,
+        1.049285458454781
+      ],
+      "time_change_percent": 5.291953157433307,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.056546837181532,
+        1.0530877027029084,
+        1.057240271226302,
+        1.0574484734641099,
+        1.0412649325636172,
+        1.0505697209388685
+      ],
+      "time_change_percent": 5.267761614922673,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        4.348780771209678,
+        3.768336823420866,
+        4.04655766942753,
+        4.066839955087248,
+        3.9527514553288383,
+        4.098515542466216
+      ],
+      "time_change_percent": 304.32539831286005,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        4.253091720713019,
+        4.357823721581571,
+        4.082687651962814,
+        4.084533489122235,
+        4.012169064353846,
+        4.0592745469713325
+      ],
+      "time_change_percent": 313.98230571345465,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        4.337538400693098,
+        4.180873468625634,
+        4.038399735915346,
+        4.1027802204298975,
+        4.017520128791842,
+        4.003860458492214
+      ],
+      "time_change_percent": 311.1867878208249,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        4.353294829711111,
+        4.194650082521524,
+        4.081895416015106,
+        4.075470851400694,
+        4.018668382138863,
+        4.045851443849861
+      ],
+      "time_change_percent": 312.6744656524933,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        3.5339978504813554,
+        3.076870533921847,
+        3.3128362876749184,
+        3.3607680234460124,
+        3.2939609420169083,
+        3.3812653491007825
+      ],
+      "time_change_percent": 232.38030778963883,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        3.4562369982883565,
+        3.55819026516528,
+        3.3424151858382265,
+        3.3753896618835304,
+        3.3434756371876735,
+        3.3488916233075585
+      ],
+      "time_change_percent": 240.31887872161377,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        3.5248618384977344,
+        3.4137092793079993,
+        3.306157549750141,
+        3.390468453227285,
+        3.3479348594423928,
+        3.303175135158363
+      ],
+      "time_change_percent": 238.0207913359069,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        3.5376661598030448,
+        3.4249579705316786,
+        3.3417665980235025,
+        3.367900450751794,
+        3.348891737637081,
+        3.33781759589647
+      ],
+      "time_change_percent": 239.2437538746071,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        1.1593986409106698,
+        1.5862239353087997,
+        1.594141673420174,
+        1.584192498000725,
+        1.5828117669789419,
+        1.5837398789494395
+      ],
+      "time_change_percent": 50.547730408133596,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        1.1858131046881215,
+        1.5805995740387602,
+        1.6018399537184944,
+        1.5857195858253366,
+        1.5803694366003327,
+        1.58207612937135
+      ],
+      "time_change_percent": 51.1048032473943,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.581268331747365,
+        1.5789475117074396,
+        1.5859194712878306,
+        1.5823455197623304,
+        1.5777051777010627,
+        1.5792649454209935
+      ],
+      "time_change_percent": 58.090616953431905,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.5964745628098893,
+        1.575242979618971,
+        1.5912218429791722,
+        1.5896664738719302,
+        1.5823503050783103,
+        1.5836010884818155
+      ],
+      "time_change_percent": 58.641127647924804,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        0.9316000582557159,
+        1.278744697609035,
+        1.276656806953657,
+        1.2770592189889731,
+        1.2853476105021577,
+        1.3035194354621529
+      ],
+      "time_change_percent": 21.73237915374168,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        0.9528246096098032,
+        1.2742105823486318,
+        1.2828219189437364,
+        1.2782902446295359,
+        1.2833642770561384,
+        1.3021500629158103
+      ],
+      "time_change_percent": 22.182826343488703,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.270580814909947,
+        1.2728787616017179,
+        1.2700721159594843,
+        1.275570321276359,
+        1.2812007230054432,
+        1.2998362783324608
+      ],
+      "time_change_percent": 27.831531378465634,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "HOT2_DEFAULT_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.2827993265105562,
+        1.2698923290685777,
+        1.2743184819040032,
+        1.281471934842424,
+        1.2849728729852345,
+        1.3034052020110607
+      ],
+      "time_change_percent": 28.276672440429994,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        2.35367729059984,
+        2.3466749371463167,
+        2.3259745587356635,
+        2.343296501433567,
+        2.23387843854631,
+        2.3039031185534693
+      ],
+      "time_change_percent": 131.75332169305375,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        2.308947781732051,
+        2.3753690962761445,
+        2.2682162477379784,
+        2.311252115720671,
+        2.210856319113544,
+        2.274420892212668
+      ],
+      "time_change_percent": 129.0962908492144,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        2.3524113095443755,
+        2.4073650314315973,
+        2.34881907886784,
+        2.269222072407485,
+        2.2361318622974364,
+        2.3714509575331473
+      ],
+      "time_change_percent": 133.0141107107781,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        2.320790553773506,
+        2.3110704776745195,
+        2.282385318677639,
+        2.2497225756749826,
+        2.2256547168928904,
+        2.22570199492956
+      ],
+      "time_change_percent": 126.88997766809531,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        2.289731748928618,
+        2.2496280245078935,
+        2.276589839188362,
+        2.2600094877002226,
+        2.208529811001702,
+        2.236686705597387
+      ],
+      "time_change_percent": 125.33732418091579,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        2.246217467264941,
+        2.277135534600726,
+        2.2200578434052756,
+        2.229104045006835,
+        2.1857689318946045,
+        2.208064623715191
+      ],
+      "time_change_percent": 122.75385216747073,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        2.28850016249669,
+        2.3078082755315914,
+        2.298949328125471,
+        2.188567861643722,
+        2.2107576643375446,
+        2.3022638352175497
+      ],
+      "time_change_percent": 126.5632087617071,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        2.257738490663919,
+        2.21549599004614,
+        2.233926078898575,
+        2.169761429084345,
+        2.200399406895749,
+        2.1607671010950082
+      ],
+      "time_change_percent": 120.60861987950847,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        2.3266554215268176,
+        2.3141642561436906,
+        2.306138559956138,
+        2.2381772424169197,
+        2.246676213554184,
+        2.2288306243658598
+      ],
+      "time_change_percent": 127.64281434948026,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        2.4011745756347374,
+        2.3464850646972044,
+        2.301086202794594,
+        2.2945689004414818,
+        2.261239226074295,
+        2.256362834333469
+      ],
+      "time_change_percent": 130.9609169271842,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        2.3121166918182956,
+        2.3014841744303594,
+        2.2933214308471155,
+        2.2415936108226995,
+        2.19694076029177,
+        2.2224744982976175
+      ],
+      "time_change_percent": 126.09056929210962,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        2.3111850177522633,
+        2.298784994908442,
+        2.2865136898114833,
+        2.2723778371089622,
+        2.2211014636723827,
+        2.2455276034967007
+      ],
+      "time_change_percent": 127.23699407381261,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        2.19924459237599,
+        2.167400500110873,
+        2.1785545535723085,
+        2.0910034335501932,
+        2.1240610575199526,
+        2.0923282458894126
+      ],
+      "time_change_percent": 114.16842869739124,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        2.269682975809979,
+        2.1976715305430896,
+        2.17378171125846,
+        2.143686996012662,
+        2.137829275471221,
+        2.118174274724994
+      ],
+      "time_change_percent": 117.29012975944471,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        2.1855020233665656,
+        2.1555245862149777,
+        2.166446514849467,
+        2.09419515488994,
+        2.0770399786410896,
+        2.0863613940516688
+      ],
+      "time_change_percent": 112.70806243966263,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "REG_FMA_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        2.1846213690450784,
+        2.1529965880272255,
+        2.1600154029075207,
+        2.1229551304825125,
+        2.099882081505509,
+        2.1080026361614075
+      ],
+      "time_change_percent": 113.78662929369976,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        1.2217774042742033,
+        1.2608949117591415,
+        1.3047995889466604,
+        1.315247390055678,
+        1.3298523873064931,
+        1.3561022941702798
+      ],
+      "time_change_percent": 29.73376487251051,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        1.2271195736082212,
+        1.2653150722608348,
+        1.3089718754208461,
+        1.3168429306482647,
+        1.331930845559786,
+        1.3554918589579057
+      ],
+      "time_change_percent": 30.0233669384818,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.228143006347912,
+        1.2664408834145142,
+        1.3075672130144196,
+        1.313373347910097,
+        1.3159516507968503,
+        1.346815423394317
+      ],
+      "time_change_percent": 29.580310474232068,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.2285442203530061,
+        1.2678302009415245,
+        1.3068791227688135,
+        1.3130844835088147,
+        1.329273980871922,
+        1.3492629098575786
+      ],
+      "time_change_percent": 29.851960293515816,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        1.1443863529450133,
+        1.1849146180593029,
+        1.1868168508293817,
+        1.201808539220084,
+        1.21452227037308,
+        1.231576192777944
+      ],
+      "time_change_percent": 19.36882367626427,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        1.149390133224125,
+        1.1890684240139306,
+        1.1906118703373574,
+        1.2032664659366403,
+        1.216420476415164,
+        1.2310218116829301
+      ],
+      "time_change_percent": 19.635288293113877,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.150348738659421,
+        1.1901263948890037,
+        1.1893342204761863,
+        1.2000961314476404,
+        1.201827061320785,
+        1.2231421026637623
+      ],
+      "time_change_percent": 19.227629353965472,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.1507245385640799,
+        1.1914319935011701,
+        1.1887083488057058,
+        1.1998321813293868,
+        1.2139940256574868,
+        1.2253648450580912
+      ],
+      "time_change_percent": 19.477575999787682,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        0.8824001223799037,
+        0.9089653149259409,
+        0.9412815752936984,
+        0.9323279700978162,
+        0.9347801698046756,
+        1.0614357987958316
+      ],
+      "time_change_percent": -5.807267896480093,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        1.0647611157786017,
+        1.0673270024025738,
+        1.0722137683392476,
+        1.0668487099357202,
+        1.0780488138812714,
+        1.0691909164137592
+      ],
+      "time_change_percent": 6.972282773562171,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.0593088247004776,
+        1.059986065008658,
+        1.066278894488013,
+        1.0600440966244074,
+        1.0568476219819674,
+        1.0454080460549975
+      ],
+      "time_change_percent": 5.796008778973404,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.0647234410079158,
+        1.0624716282847289,
+        1.0663150770385954,
+        1.0653301170650302,
+        1.0625157777722387,
+        1.0459497699876645
+      ],
+      "time_change_percent": 6.119457571945047,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        0.8696871085578464,
+        0.8908307563370574,
+        0.9213359057689334,
+        0.9127958566551185,
+        0.9180043138476758,
+        1.039541015488267
+      ],
+      "time_change_percent": -7.614026269694996,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        1.0494207702383334,
+        1.0460330060962968,
+        1.0494936577532896,
+        1.0444984097227232,
+        1.0587018142331448,
+        1.0471361642979427
+      ],
+      "time_change_percent": 4.920393383724371,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.0440470320185784,
+        1.0388385260611839,
+        1.0436845433300679,
+        1.0378363519105407,
+        1.0378811055243367,
+        1.023843875464251
+      ],
+      "time_change_percent": 3.7666820947866513,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM128_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.0493836382598212,
+        1.041274500434228,
+        1.0437199591757498,
+        1.0430116311160853,
+        1.043447538826101,
+        1.0243744249781432
+      ],
+      "time_change_percent": 4.083926653079489,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        1.2297717249210736,
+        1.2616321176439234,
+        1.2904868656868889,
+        1.3120554195335323,
+        1.3197990676247948,
+        1.339944855805276
+      ],
+      "time_change_percent": 29.174352072088595,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        1.2288337895496455,
+        1.2622627096614407,
+        1.2919295009429623,
+        1.3208402659022416,
+        1.3173909594043534,
+        1.3441740033186336
+      ],
+      "time_change_percent": 29.36507078562717,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.2260531558616643,
+        1.2600960939615375,
+        1.2929103847145185,
+        1.3113805066660489,
+        1.318646223935009,
+        1.3437472276293203
+      ],
+      "time_change_percent": 29.154437265561928,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.2195813182483295,
+        1.2613044654558394,
+        1.2896896389547325,
+        1.319446765844279,
+        1.3197990176095569,
+        1.3390969597757916
+      ],
+      "time_change_percent": 29.08365903072617,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        1.1497356900646005,
+        1.16746696708736,
+        1.191646997661068,
+        1.2002536414315947,
+        1.2120071129383714,
+        1.2188823952539398
+      ],
+      "time_change_percent": 18.974815620392167,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        1.1488587974270064,
+        1.168050493251497,
+        1.1929791398295235,
+        1.2082899207582782,
+        1.2097956821505373,
+        1.2227294442042236
+      ],
+      "time_change_percent": 19.150475288233558,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.1462591330118297,
+        1.1660455884740777,
+        1.1938848965888589,
+        1.1996362386795572,
+        1.2109484254560101,
+        1.222341227202477
+      ],
+      "time_change_percent": 18.95647327613715,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.1402084956995826,
+        1.1671637700611175,
+        1.1909108314380015,
+        1.2070151624713918,
+        1.2120070670080285,
+        1.2181111056453662
+      ],
+      "time_change_percent": 18.891283652156513,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        1.0720416656917282,
+        1.0635920111122534,
+        1.0696281235165686,
+        1.0809275884344662,
+        1.0628097246962995,
+        1.0570350814452645
+      ],
+      "time_change_percent": 6.764493597754651,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        1.0731505798914476,
+        1.0766090606562106,
+        1.071319054560109,
+        1.0668619607274767,
+        1.0673312811352762,
+        1.0756070341184374
+      ],
+      "time_change_percent": 7.180662645890373,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.071709414426505,
+        1.0648422583053865,
+        1.0675350163125,
+        1.0748411476460282,
+        1.0664393916353105,
+        1.0689098828936359
+      ],
+      "time_change_percent": 6.90409334916995,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.0711561329216115,
+        1.0662022048262185,
+        1.0751033907175163,
+        1.0732908953703273,
+        1.0757019332814812,
+        1.0620663529219108
+      ],
+      "time_change_percent": 7.057542973478423,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        1.0508914437407266,
+        1.039782646678254,
+        1.045655775596762,
+        1.0509980037617985,
+        1.0383809830056554,
+        1.0328306826717486
+      ],
+      "time_change_percent": 4.3068471480575505,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        1.0519784802633003,
+        1.0525082990763042,
+        1.047308809742873,
+        1.0373218363664292,
+        1.0427986112139047,
+        1.0509773675781322
+      ],
+      "time_change_percent": 4.713436266113908,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.0505657474334196,
+        1.0410049060802575,
+        1.0436095788029809,
+        1.0450800891973941,
+        1.041927221844588,
+        1.044433570316446
+      ],
+      "time_change_percent": 4.4432334075910145,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_CG_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.0500233815738824,
+        1.042334409102091,
+        1.0510083319158532,
+        1.0435727615424042,
+        1.050976863446644,
+        1.037746746145088
+      ],
+      "time_change_percent": 4.59315072530877,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        1.2195915720702288,
+        1.2562155081313626,
+        1.2946516532688817,
+        1.2968135084446495,
+        1.3258046952938083,
+        1.3277774149809367
+      ],
+      "time_change_percent": 28.623100791589046,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        1.223899753278843,
+        1.2540348857310586,
+        1.2908827549167445,
+        1.308170565907742,
+        1.3158057596651507,
+        1.3277774149809367
+      ],
+      "time_change_percent": 28.62358684923451,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.2217663301953006,
+        1.2544604184055859,
+        1.292790245683888,
+        1.3020425039969412,
+        1.3253037734141357,
+        1.3264085731132509
+      ],
+      "time_change_percent": 28.656534696337456,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_160",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.224489647344955,
+        1.2539598202927085,
+        1.2936427198045062,
+        1.3102781690635614,
+        1.3225160977702968,
+        1.3288058956060176
+      ],
+      "time_change_percent": 28.838754457384734,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        1.1423882343076002,
+        1.166215591215262,
+        1.1928375975374599,
+        1.193686485200516,
+        1.2148909521576576,
+        1.214715835874771
+      ],
+      "time_change_percent": 18.71693948610101,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        1.1464236963726844,
+        1.1641911966545144,
+        1.1893650930654074,
+        1.2041403908061097,
+        1.205728504272548,
+        1.214715835874771
+      ],
+      "time_change_percent": 18.71738810906009,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.1444253245527627,
+        1.1645862425971836,
+        1.191122574854628,
+        1.198499653232233,
+        1.2144319362396176,
+        1.2134635522655408
+      ],
+      "time_change_percent": 18.74779841285968,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_160",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.1469762486008621,
+        1.1641215091813073,
+        1.1919080086656717,
+        1.2060803901868111,
+        1.2118774710689388,
+        1.2156567403427039
+      ],
+      "time_change_percent": 18.915984160305417,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        1.0666647339417057,
+        1.0687126971128078,
+        1.0778531340755706,
+        1.0706923309724083,
+        0.9264517322767934,
+        1.0603525558492741
+      ],
+      "time_change_percent": 4.367283253200986,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        1.06656807859758,
+        1.0691977318562793,
+        1.0781067942428149,
+        1.0773570685974667,
+        1.0631583601228571,
+        1.0569990092316954
+      ],
+      "time_change_percent": 6.853831534981218,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.0629228186057917,
+        1.0636997025062225,
+        1.075309702672326,
+        1.0704829354514322,
+        1.0605891863022616,
+        1.0572724594511813
+      ],
+      "time_change_percent": 6.502883442328303,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_40",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.0648455090272329,
+        1.0697371974166479,
+        1.0792832726384076,
+        1.067690053560719,
+        1.065389009585783,
+        1.0603400208642935
+      ],
+      "time_change_percent": 6.786483418532223,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        1.0534069434455908,
+        1.0485606214968186,
+        1.0486113437529807,
+        1.044052671037242,
+        0.9100788090442854,
+        1.0347850500549542
+      ],
+      "time_change_percent": 2.190213089704486,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        1.0533114894501756,
+        1.0490365102304662,
+        1.0488581222058342,
+        1.05055158479418,
+        1.044369458760978,
+        1.0315123650546778
+      ],
+      "time_change_percent": 4.624892721601168,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.0497115371279269,
+        1.0436421539288354,
+        1.0461369147819248,
+        1.043848485440078,
+        1.0418456892332022,
+        1.0317792217689823
+      ],
+      "time_change_percent": 4.281265300691688,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E2",
+      "case": "STREAM32_DEFAULT_40",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.0516103300434458,
+        1.049565803411678,
+        1.0500026831411764,
+        1.0411250926282118,
+        1.0465606865776997,
+        1.0347728173169002
+      ],
+      "time_change_percent": 4.558949466621391,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_0",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        1.9671653533282203,
+        1.9704842244666354,
+        1.9190610800918093,
+        1.801090992182311,
+        1.8775727705802658,
+        1.8662424284034487
+      ],
+      "time_change_percent": 89.9330400943645,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_0",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        1.916415840241822,
+        1.9227729005826235,
+        1.921665095399071,
+        1.9057262785895337,
+        1.8792801461834623,
+        1.9103332469931753
+      ],
+      "time_change_percent": 90.93084946789536,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_0",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.8646518134166516,
+        1.8663089954744392,
+        1.8618142111532354,
+        1.7988020195988108,
+        1.794437532101012,
+        1.7595885980410226
+      ],
+      "time_change_percent": 82.378405601426,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_0",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.8644161759178028,
+        1.8671607152838872,
+        1.8628754524299673,
+        1.852905138378689,
+        1.8231688790144205,
+        1.806371076053438
+      ],
+      "time_change_percent": 84.60037253849448,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_0",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        1.960229580507482,
+        1.9712272536544604,
+        1.838464235977969,
+        1.7955572856068203,
+        1.8510913105307851,
+        1.8863171832111703
+      ],
+      "time_change_percent": 88.27389527017684,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_0",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        1.9096589985378478,
+        1.923497938808737,
+        1.8409588876917702,
+        1.8998710885493355,
+        1.8527746051505256,
+        1.930882276932032
+      ],
+      "time_change_percent": 89.26298836002793,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_0",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.8580774797716662,
+        1.8670127423199705,
+        1.7836216245274512,
+        1.7932753457066721,
+        1.7691286191458375,
+        1.77851610131205
+      ],
+      "time_change_percent": 80.78525368037596,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_0",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.8578426730764697,
+        1.8678647832954907,
+        1.7846382957284128,
+        1.8472122370247253,
+        1.7974547364844584,
+        1.825801808037468
+      ],
+      "time_change_percent": 82.98781080364206,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_1",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        1.962769928875898,
+        1.983390750517165,
+        1.942422350333884,
+        1.9078565284801559,
+        1.9122886688821161,
+        1.9091356854975772
+      ],
+      "time_change_percent": 93.60930126020187,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_1",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        2.0149411747166983,
+        1.9287284226503565,
+        1.9560512949224589,
+        1.9034649528832264,
+        1.9100851406120363,
+        1.904032678919118
+      ],
+      "time_change_percent": 93.58169284915961,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_1",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.857635306113406,
+        1.8299076595424697,
+        1.7452490942102319,
+        1.8036581560963452,
+        1.8077982281772211,
+        1.846705153072233
+      ],
+      "time_change_percent": 81.47834082936718,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_1",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.9145629051397741,
+        1.93365943964953,
+        1.8533420163497776,
+        1.861718979528524,
+        1.8608402556359287,
+        1.8560818693360779
+      ],
+      "time_change_percent": 87.97680242313774,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_1",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        1.9622817038407196,
+        1.985112658523074,
+        1.9337030840659057,
+        1.9470999120686865,
+        1.9084362490263371,
+        1.9241006979874922
+      ],
+      "time_change_percent": 94.32932063961474,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_1",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        2.014439972455834,
+        1.9304028748032265,
+        1.947270850200269,
+        1.9426180045819448,
+        1.9062371598957024,
+        1.9189576908172663
+      ],
+      "time_change_percent": 94.30160955483285,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_1",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.8571732325665613,
+        1.8314963190883604,
+        1.7374149115188355,
+        1.840758246079871,
+        1.8041563105615386,
+        1.8611807955793886
+      ],
+      "time_change_percent": 82.15324601982199,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "BATCH4_RAGGED_1",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.9140866712582776,
+        1.935338172732744,
+        1.8450226194259274,
+        1.9000133433640938,
+        1.8570914816846427,
+        1.8706310124734238
+      ],
+      "time_change_percent": 88.67587493537633,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_0",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        2.0652240792873746,
+        2.0169541883058524,
+        2.109005955739876,
+        1.9061077496181469,
+        1.8674494959438754,
+        1.9191665296173395
+      ],
+      "time_change_percent": 97.86774252863607,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_0",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        2.189647092658029,
+        2.078955327897756,
+        2.113386182604953,
+        1.9526349040182607,
+        1.868990178192735,
+        1.9643319270991841
+      ],
+      "time_change_percent": 102.50706598619894,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_0",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        2.0147530925439194,
+        1.971598080338189,
+        1.935771224425896,
+        1.9005465176853358,
+        1.956844732062253,
+        1.9183954634168001
+      ],
+      "time_change_percent": 94.9296379867475,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_0",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        2.109368238412646,
+        2.0609480179380566,
+        2.065100836412019,
+        1.8622245747222026,
+        2.000036091336041,
+        1.9207263276821958
+      ],
+      "time_change_percent": 100.11639918166573,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_0",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        2.0625666406381513,
+        2.012481611936415,
+        2.1106133176377675,
+        1.9025208598704264,
+        1.8615394489731614,
+        1.9112576815821145
+      ],
+      "time_change_percent": 97.474754804772,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_0",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        2.1868295519995855,
+        2.0743452646020293,
+        2.1149968828574606,
+        1.9489604600527148,
+        1.8630752553180259,
+        1.9562369533371806
+      ],
+      "time_change_percent": 102.10486404104466,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_0",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        2.0121605977195247,
+        1.9672260806986952,
+        1.9372465568689883,
+        1.8969700929943827,
+        1.9506517697861638,
+        1.9104897929304285
+      ],
+      "time_change_percent": 94.54248567092743,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_0",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        2.106653997019462,
+        2.056377885677685,
+        2.0666747363769384,
+        1.858720263784711,
+        1.9937064383689365,
+        1.9128110517494068
+      ],
+      "time_change_percent": 99.71894537127068,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_1",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        2.0988473764505553,
+        2.0982708599499262,
+        1.9802640865903804,
+        2.1097937899629056,
+        1.9518541551039852,
+        2.0042355000513523
+      ],
+      "time_change_percent": 103.95464804516283,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_1",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        2.102091684184461,
+        2.0937178602432387,
+        2.078174660136367,
+        2.149075838482733,
+        1.9519674693971432,
+        2.003318434869505
+      ],
+      "time_change_percent": 106.19954071125488,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_1",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        2.0618547394320923,
+        1.9686618479242144,
+        1.9773218332627682,
+        1.8954285650430465,
+        1.9077855081526116,
+        1.873311137983243
+      ],
+      "time_change_percent": 94.63707632450797,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_1",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        2.102343137753893,
+        2.097491646190676,
+        2.023061621187124,
+        2.06495927423499,
+        1.9959394276024354,
+        2.04844913916566
+      ],
+      "time_change_percent": 105.50205274056013,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_1",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        2.1028861128992586,
+        2.0975669766074456,
+        1.9831960768506178,
+        2.108548704141206,
+        1.946041155575829,
+        1.9959781444286302
+      ],
+      "time_change_percent": 103.79715358853154,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_1",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        2.1061366635377423,
+        2.0930155042443976,
+        2.081251617348212,
+        2.147807570527361,
+        1.9461541323970857,
+        1.995064857512029
+      ],
+      "time_change_percent": 106.04031274105073,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_1",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        2.065822292281103,
+        1.9680014430602952,
+        1.9802494672060083,
+        1.894309985946072,
+        1.9021037535862089,
+        1.865593184550157
+      ],
+      "time_change_percent": 94.48677692770659,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_LONG_1",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        2.106388600970226,
+        2.096788024242277,
+        2.0260569777202995,
+        2.063740647311843,
+        1.989995133598428,
+        2.0400096254374995
+      ],
+      "time_change_percent": 105.34336337288354,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_0",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        2.2061930689880267,
+        2.154921264121799,
+        2.1035915237174687,
+        2.0879074166433824,
+        2.140613410388056,
+        2.1668653511871385
+      ],
+      "time_change_percent": 114.29874274392917,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_0",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        2.2060570597778626,
+        2.1467888688914183,
+        2.093249684598343,
+        2.134229655169633,
+        2.1092023375251783,
+        2.147751935102327
+      ],
+      "time_change_percent": 113.92511326792254,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_0",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        2.160741578946081,
+        2.160676134389132,
+        2.108679601869866,
+        2.0944697087918316,
+        2.126687960318721,
+        2.155005389530702
+      ],
+      "time_change_percent": 113.42152540404994,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_0",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        2.174403867531782,
+        2.168268292218798,
+        2.074512421129475,
+        2.138837840235627,
+        2.12546417468057,
+        2.143646763016435
+      ],
+      "time_change_percent": 113.72681974205243,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_0",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        2.199316490338435,
+        2.148301787216124,
+        2.114739824696038,
+        2.0842404263423604,
+        2.129707229327338,
+        2.1673749447836927
+      ],
+      "time_change_percent": 114.02949274886484,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_0",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        2.199180905061264,
+        2.1401943730387916,
+        2.1043431774386057,
+        2.1304813091542516,
+        2.098456192296381,
+        2.1482570336921007
+      ],
+      "time_change_percent": 113.65633270974462,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_0",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        2.1540066700127114,
+        2.1540389797002986,
+        2.1198548678870397,
+        2.0907911931418073,
+        2.115852727837074,
+        2.155512193955094
+      ],
+      "time_change_percent": 113.15337756554244,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_0",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        2.1676263740198847,
+        2.161607815975598,
+        2.0855066130121562,
+        2.135081400868113,
+        2.1146351772471035,
+        2.1441508961703977
+      ],
+      "time_change_percent": 113.45828832453763,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_1",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        2.189192396650483,
+        2.2306000024727037,
+        2.069185889480216,
+        2.0964300936964806,
+        2.058738518274509,
+        2.115364437586764
+      ],
+      "time_change_percent": 112.56674320778272,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_1",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        2.2230762981427623,
+        2.162843209715177,
+        2.0360906378098065,
+        2.078404811931797,
+        2.1133215330581745,
+        2.0893737258799967
+      ],
+      "time_change_percent": 111.63202777830656,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_1",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        2.177908642794332,
+        2.1674276950628246,
+        2.1209567824006914,
+        2.0950142944400136,
+        2.0528846001670122,
+        2.145188998528346
+      ],
+      "time_change_percent": 112.6125342274922,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_1",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        2.1968687402499643,
+        2.167300156815238,
+        2.1050365806588265,
+        2.09974104109388,
+        2.03023764696672,
+        2.1204969297386205
+      ],
+      "time_change_percent": 111.92824746441607,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_1",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        2.1852607555470183,
+        2.2183095832107877,
+        2.06095102524926,
+        2.0966860364989395,
+        2.0570658033029234,
+        2.1068212185036415
+      ],
+      "time_change_percent": 111.99895853820885,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_1",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        2.2190838038497582,
+        2.150926124708578,
+        2.0279874847535595,
+        2.078658554116575,
+        2.111604469654181,
+        2.080935474215391
+      ],
+      "time_change_percent": 111.06673981674662,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_1",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        2.1739972665476843,
+        2.1554853499257853,
+        2.1125158824160204,
+        2.0952700643945295,
+        2.051216641475243,
+        2.136525328446967
+      ],
+      "time_change_percent": 112.04462724603354,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA4_SHORT_1",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        2.192923312953899,
+        2.155358514403265,
+        2.0966590392638986,
+        2.0999973881135645,
+        2.028588088813602,
+        2.1119329823100093
+      ],
+      "time_change_percent": 111.36216827373883,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_0",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        2.5444774461378397,
+        2.4484674539266473,
+        2.54647964796649,
+        2.5291876472761374,
+        2.5476685232559717,
+        2.470244113751668
+      ],
+      "time_change_percent": 151.41016489064194,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_0",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        2.514330833899794,
+        2.4682630876588334,
+        2.467804050741316,
+        2.5588785255791495,
+        2.510086937620505,
+        2.4771757290606313
+      ],
+      "time_change_percent": 149.92131578558622,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_0",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        2.5107808720575404,
+        2.3920277119226183,
+        2.376561540224179,
+        2.378615699644328,
+        2.327655318444382,
+        2.2501277712418757
+      ],
+      "time_change_percent": 137.13502388854252,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_0",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        2.474772042045215,
+        2.393085750561251,
+        2.4055652954269684,
+        2.427572971603695,
+        2.439761301452989,
+        2.365972398446617
+      ],
+      "time_change_percent": 141.7538057244935,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_0",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        2.5402492075561525,
+        2.4542423397133093,
+        2.555037735638166,
+        2.5273985214774553,
+        2.5420643163404884,
+        2.4639898540909697
+      ],
+      "time_change_percent": 151.35163273398186,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_0",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        2.510152690896342,
+        2.4740846628649096,
+        2.476097729208225,
+        2.5570683967060557,
+        2.5045654004009377,
+        2.4709039196679976
+      ],
+      "time_change_percent": 149.86313025591753,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_0",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        2.5066086281378666,
+        2.397669480536994,
+        2.384548575201903,
+        2.3769330871588656,
+        2.3225350832515335,
+        2.2444308106569872
+      ],
+      "time_change_percent": 137.07981520446296,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_0",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        2.4706596351363075,
+        2.3987300146355053,
+        2.4136498048455475,
+        2.425855727161055,
+        2.4343944623085236,
+        2.359982137950679
+      ],
+      "time_change_percent": 141.69752171689981,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_1",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        2.418545985609881,
+        2.4737794661078385,
+        2.4173959534402303,
+        2.424675119220641,
+        2.3490593324541775,
+        2.5309467693015417
+      ],
+      "time_change_percent": 143.50933368227288,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_1",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        2.4926269857886743,
+        2.3956493585516614,
+        2.3737767505495353,
+        2.4263342655316857,
+        2.455830718405284,
+        2.525080867692838
+      ],
+      "time_change_percent": 144.4316622443448,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_1",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        2.3778853539871987,
+        2.354165058386719,
+        2.3339228027134213,
+        2.327340182413636,
+        2.2729467381805972,
+        2.27128120324141
+      ],
+      "time_change_percent": 132.2589136441091,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_1",
+      "metric": "gpu_per_request_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        2.4228928827347898,
+        2.399487980038907,
+        2.456830823981517,
+        2.3912707648929543,
+        2.3469000622832215,
+        2.4265829552774387
+      ],
+      "time_change_percent": 140.70831335061158,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_1",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        2.413277803399508,
+        2.4673093191179754,
+        2.4121883078437496,
+        2.4246461194263187,
+        2.348769872570524,
+        2.526617980583183
+      ],
+      "time_change_percent": 143.15232291362054,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_1",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        2.487197437116968,
+        2.389383560125261,
+        2.36866307108613,
+        2.426305245893508,
+        2.4555281017518,
+        2.520762111682008
+      ],
+      "time_change_percent": 144.07329924321786,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_1",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        2.3727057405356797,
+        2.348007761758282,
+        2.3288949781285497,
+        2.3273123467724512,
+        2.272666657175705,
+        2.2673965318733416
+      ],
+      "time_change_percent": 131.91839719641257,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E3",
+      "case": "GQA8_LONG_1",
+      "metric": "gpu_per_request_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        2.417615231923761,
+        2.3932121417340126,
+        2.451538226298627,
+        2.3912421646240762,
+        2.3466108684729208,
+        2.422432664544985
+      ],
+      "time_change_percent": 140.35540917781947,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E4",
+      "case": "BATCH4_RAGGED",
+      "metric": "job_output_ready_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        1.2612509916941474,
+        1.2754704225165148,
+        1.2303230027094618,
+        1.2289007256774878,
+        1.2391544728823274,
+        1.237780731129361
+      ],
+      "time_change_percent": 24.536360800893647,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E4",
+      "case": "BATCH4_RAGGED",
+      "metric": "job_output_ready_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        1.2389137150235374,
+        1.2797157836471582,
+        1.2355664094992245,
+        1.2321705779824788,
+        1.236205687826975,
+        1.2378032773517906
+      ],
+      "time_change_percent": 24.328963587783466,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E4",
+      "case": "BATCH4_RAGGED",
+      "metric": "job_output_ready_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.2088406183310823,
+        1.2172852468204247,
+        1.2299532785347975,
+        1.2299252974436983,
+        1.2407608282555913,
+        1.2411052807647283
+      ],
+      "time_change_percent": 22.79223611706282,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E4",
+      "case": "BATCH4_RAGGED",
+      "metric": "job_output_ready_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.2070175525147149,
+        1.2225840139782582,
+        1.2356415178182631,
+        1.229308116587421,
+        1.24226211778863,
+        1.2383954663143844
+      ],
+      "time_change_percent": 22.914472738274483,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E4",
+      "case": "BATCH4_RAGGED",
+      "metric": "job_output_ready_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        1.2635305699750874,
+        1.274843603088354,
+        1.2329414405781627,
+        1.2275185721146333,
+        1.236935804453718,
+        1.2372749658553834
+      ],
+      "time_change_percent": 24.538728818490167,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E4",
+      "case": "BATCH4_RAGGED",
+      "metric": "job_output_ready_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        1.241152921030371,
+        1.2790868778712554,
+        1.2381960066609476,
+        1.2307847467930115,
+        1.2339922991084002,
+        1.2372975028652797
+      ],
+      "time_change_percent": 24.331327661790763,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E4",
+      "case": "BATCH4_RAGGED",
+      "metric": "job_output_ready_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.211025470384173,
+        1.2166870220173636,
+        1.2325709295371405,
+        1.2285419915375442,
+        1.2385392836964995,
+        1.240598157058102
+      ],
+      "time_change_percent": 22.794570970706935,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E4",
+      "case": "BATCH4_RAGGED",
+      "metric": "job_output_ready_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.2091991095684222,
+        1.221983185139744,
+        1.2382712748294458,
+        1.227925504829054,
+        1.24003788521625,
+        1.237889449855604
+      ],
+      "time_change_percent": 22.916809916207427,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E4",
+      "case": "GQA4_LONG",
+      "metric": "job_output_ready_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        1.31210364685551,
+        1.2308569669451148,
+        1.2533558310201713,
+        1.2107240790316918,
+        1.2365523281917783,
+        1.2071061285101392
+      ],
+      "time_change_percent": 24.129653130240584,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E4",
+      "case": "GQA4_LONG",
+      "metric": "job_output_ready_us",
+      "family": "PACK",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        1.3003977464759073,
+        1.2189037386869181,
+        1.2516036237015078,
+        1.2049827872424888,
+        1.2303211961716,
+        1.2004940901189747
+      ],
+      "time_change_percent": 23.39909297645766,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E4",
+      "case": "GQA4_LONG",
+      "metric": "job_output_ready_us",
+      "family": "PACK",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.251036777120467,
+        1.2146434575201013,
+        1.2240943445280648,
+        1.1959275605339803,
+        1.2130596875182922,
+        1.192241002924426
+      ],
+      "time_change_percent": 21.501268958919397,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E4",
+      "case": "GQA4_LONG",
+      "metric": "job_output_ready_us",
+      "family": "PACK",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.2538125367503443,
+        1.226651184274107,
+        1.22970028061118,
+        1.1911298767811318,
+        1.2137437575192918,
+        1.2059624222522667
+      ],
+      "time_change_percent": 22.000649913838956,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E4",
+      "case": "GQA4_LONG",
+      "metric": "job_output_ready_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_HEAD",
+      "block_ratios": [
+        1.3126599175200893,
+        1.2306166601763155,
+        1.253528336683873,
+        1.2113131536707238,
+        1.236641575416649,
+        1.208026862422651
+      ],
+      "time_change_percent": 24.16456548875343,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E4",
+      "case": "GQA4_LONG",
+      "metric": "job_output_ready_us",
+      "family": "SPREAD",
+      "reference_role": "AA_HEAD",
+      "block_ratios": [
+        1.3009490543854485,
+        1.2186657656106086,
+        1.2517758882001078,
+        1.2055690684709932,
+        1.230409993669251,
+        1.2014097806240895
+      ],
+      "time_change_percent": 23.43379985966818,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E4",
+      "case": "GQA4_LONG",
+      "metric": "job_output_ready_us",
+      "family": "SPREAD",
+      "reference_role": "ANCHOR_TAIL",
+      "block_ratios": [
+        1.2515671582844012,
+        1.2144063162012004,
+        1.2242628227862815,
+        1.1965094359655761,
+        1.2131472391796698,
+        1.1931503982935263
+      ],
+      "time_change_percent": 21.535442065463165,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    },
+    {
+      "stage": "E4",
+      "case": "GQA4_LONG",
+      "metric": "job_output_ready_us",
+      "family": "SPREAD",
+      "reference_role": "AA_TAIL",
+      "block_ratios": [
+        1.2543440947067201,
+        1.2264116986226845,
+        1.2298695304425613,
+        1.191709417912226,
+        1.2138313585529021,
+        1.2068822837898376
+      ],
+      "time_change_percent": 22.034963474871173,
+      "purpose": "Unadjusted alternate reference sensitivity; never changes primary contrast"
+    }
+  ],
+  "setup_costs": [
+    {
+      "stage": "E2",
+      "policy": "E56",
+      "cost": "setup_ms",
+      "count": 72,
+      "minimum": 1.2034079991281033,
+      "median": 1.5947904903441668,
+      "maximum": 2.6877799537032843,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E2",
+      "policy": "PACK_G0",
+      "cost": "setup_ms",
+      "count": 72,
+      "minimum": 1.5032440423965454,
+      "median": 2.3411745205521584,
+      "maximum": 6.290141027420759,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E2",
+      "policy": "PACK_G1",
+      "cost": "setup_ms",
+      "count": 72,
+      "minimum": 1.494801021181047,
+      "median": 2.332993986783549,
+      "maximum": 6.009017990436405,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E2",
+      "policy": "PACK_G2",
+      "cost": "setup_ms",
+      "count": 72,
+      "minimum": 1.49704102659598,
+      "median": 2.273913996759802,
+      "maximum": 6.044809008017182,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E2",
+      "policy": "PACK_G3",
+      "cost": "setup_ms",
+      "count": 72,
+      "minimum": 1.5043899766169488,
+      "median": 2.3403065279126167,
+      "maximum": 6.105834036134183,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E2",
+      "policy": "PACK_G5",
+      "cost": "setup_ms",
+      "count": 72,
+      "minimum": 1.477422018069774,
+      "median": 2.277381019666791,
+      "maximum": 6.02078897645697,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E2",
+      "policy": "SPREAD_0",
+      "cost": "setup_ms",
+      "count": 72,
+      "minimum": 1.4950240147300065,
+      "median": 2.1566010254900903,
+      "maximum": 5.025460966862738,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E2",
+      "policy": "SPREAD_1",
+      "cost": "setup_ms",
+      "count": 72,
+      "minimum": 1.501781982369721,
+      "median": 2.1559990127570927,
+      "maximum": 5.140416964422911,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E2",
+      "policy": "SPREAD_2",
+      "cost": "setup_ms",
+      "count": 72,
+      "minimum": 1.4786000247113407,
+      "median": 2.1532659884542227,
+      "maximum": 5.16453996533528,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E2",
+      "policy": "SPREAD_3",
+      "cost": "setup_ms",
+      "count": 72,
+      "minimum": 1.4637759886682034,
+      "median": 2.129711996531114,
+      "maximum": 5.177912011276931,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E2",
+      "policy": "SPREAD_4",
+      "cost": "setup_ms",
+      "count": 72,
+      "minimum": 1.4854409964755177,
+      "median": 2.1398909739218652,
+      "maximum": 5.242042010650039,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E3",
+      "policy": "E56",
+      "cost": "setup_ms",
+      "count": 48,
+      "minimum": 1.1686080251820385,
+      "median": 2.4172160192392766,
+      "maximum": 3.579971962608397,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E3",
+      "policy": "N19",
+      "cost": "setup_ms",
+      "count": 48,
+      "minimum": 1.1852440075017512,
+      "median": 2.4554764677304775,
+      "maximum": 3.1011549872346222,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E3",
+      "policy": "PACK_G0",
+      "cost": "setup_ms",
+      "count": 48,
+      "minimum": 2.5156589690595865,
+      "median": 4.432065004948527,
+      "maximum": 6.699553981889039,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E3",
+      "policy": "PACK_G1",
+      "cost": "setup_ms",
+      "count": 48,
+      "minimum": 2.498513029422611,
+      "median": 4.458207491552457,
+      "maximum": 6.675347045529634,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E3",
+      "policy": "PACK_G2",
+      "cost": "setup_ms",
+      "count": 48,
+      "minimum": 2.4557540309615433,
+      "median": 4.477173002669588,
+      "maximum": 6.670441012829542,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E3",
+      "policy": "PACK_G3",
+      "cost": "setup_ms",
+      "count": 48,
+      "minimum": 2.4867040337994695,
+      "median": 4.444066027645022,
+      "maximum": 6.731308007147163,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E3",
+      "policy": "PACK_G5",
+      "cost": "setup_ms",
+      "count": 48,
+      "minimum": 2.4992169928736985,
+      "median": 4.473574022995308,
+      "maximum": 6.807758007198572,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E3",
+      "policy": "SPREAD_0",
+      "cost": "setup_ms",
+      "count": 48,
+      "minimum": 2.5114770396612585,
+      "median": 4.412529000546783,
+      "maximum": 6.716892006807029,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E3",
+      "policy": "SPREAD_1",
+      "cost": "setup_ms",
+      "count": 48,
+      "minimum": 2.506722987163812,
+      "median": 4.424694983754307,
+      "maximum": 7.186445000115782,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E3",
+      "policy": "SPREAD_2",
+      "cost": "setup_ms",
+      "count": 48,
+      "minimum": 2.5059140170924366,
+      "median": 4.419049510033801,
+      "maximum": 7.003033009823412,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E3",
+      "policy": "SPREAD_3",
+      "cost": "setup_ms",
+      "count": 48,
+      "minimum": 2.4798220256343484,
+      "median": 4.423763486556709,
+      "maximum": 6.740186014212668,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E3",
+      "policy": "SPREAD_4",
+      "cost": "setup_ms",
+      "count": 48,
+      "minimum": 2.517357002943754,
+      "median": 4.4681324798148125,
+      "maximum": 6.8040049518458545,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "NEUTRAL10_46",
+      "cost": "resource_setup_ms",
+      "count": 12,
+      "minimum": 1.9086800166405737,
+      "median": 3.434754500631243,
+      "maximum": 21.15211496129632,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "NEUTRAL10_46",
+      "cost": "graph_setup_ms",
+      "count": 12,
+      "minimum": 90.6384670524858,
+      "median": 102.28959200321697,
+      "maximum": 114.7392860148102,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "NEUTRAL10_46",
+      "cost": "gemm_handle_workspace_setup_ms",
+      "count": 12,
+      "minimum": 0.24579797172918916,
+      "median": 0.26477850042283535,
+      "maximum": 0.27955399127677083,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "NEUTRAL10_46",
+      "cost": "phase_setup_including_diagnostics_ms",
+      "count": 12,
+      "minimum": 96.33728704648092,
+      "median": 108.29060204559937,
+      "maximum": 139.679885993246,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "PACK_G0",
+      "cost": "resource_setup_ms",
+      "count": 12,
+      "minimum": 3.166629991028458,
+      "median": 3.5502204846125096,
+      "maximum": 4.226284043397754,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "PACK_G0",
+      "cost": "graph_setup_ms",
+      "count": 12,
+      "minimum": 68.76716599799693,
+      "median": 78.22730150655843,
+      "maximum": 88.4296300355345,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "PACK_G0",
+      "cost": "gemm_handle_workspace_setup_ms",
+      "count": 12,
+      "minimum": 0.23876101477071643,
+      "median": 0.2707854728214443,
+      "maximum": 0.41831197449937463,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "PACK_G0",
+      "cost": "phase_setup_including_diagnostics_ms",
+      "count": 12,
+      "minimum": 74.43982100812718,
+      "median": 84.4815070158802,
+      "maximum": 95.0423150206916,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "PACK_G1",
+      "cost": "resource_setup_ms",
+      "count": 12,
+      "minimum": 3.2832759898155928,
+      "median": 3.509442030917853,
+      "maximum": 4.489079990889877,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "PACK_G1",
+      "cost": "graph_setup_ms",
+      "count": 12,
+      "minimum": 68.6839820118621,
+      "median": 78.22773046791553,
+      "maximum": 88.66620104527101,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "PACK_G1",
+      "cost": "gemm_handle_workspace_setup_ms",
+      "count": 12,
+      "minimum": 0.2474570064805448,
+      "median": 0.2810764708556235,
+      "maximum": 1.1125830351375043,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "PACK_G1",
+      "cost": "phase_setup_including_diagnostics_ms",
+      "count": 12,
+      "minimum": 75.25341399013996,
+      "median": 93.15803146455437,
+      "maximum": 129.74829599261284,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "PACK_G2",
+      "cost": "resource_setup_ms",
+      "count": 12,
+      "minimum": 3.3840429969131947,
+      "median": 3.5644090094137937,
+      "maximum": 4.516561981290579,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "PACK_G2",
+      "cost": "graph_setup_ms",
+      "count": 12,
+      "minimum": 68.65869805915281,
+      "median": 78.12516301055439,
+      "maximum": 88.27693900093436,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "PACK_G2",
+      "cost": "gemm_handle_workspace_setup_ms",
+      "count": 12,
+      "minimum": 0.23788498947396874,
+      "median": 0.2701669873204082,
+      "maximum": 0.370107009075582,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "PACK_G2",
+      "cost": "phase_setup_including_diagnostics_ms",
+      "count": 12,
+      "minimum": 74.61651595076546,
+      "median": 84.78245849255472,
+      "maximum": 95.21596197737381,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "PACK_G3",
+      "cost": "resource_setup_ms",
+      "count": 12,
+      "minimum": 3.2140849507413805,
+      "median": 3.4835375263355672,
+      "maximum": 4.6254940098151565,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "PACK_G3",
+      "cost": "graph_setup_ms",
+      "count": 12,
+      "minimum": 68.81220400100574,
+      "median": 78.19132850272581,
+      "maximum": 88.14124698983505,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "PACK_G3",
+      "cost": "gemm_handle_workspace_setup_ms",
+      "count": 12,
+      "minimum": 0.23362296633422375,
+      "median": 0.28420452144928277,
+      "maximum": 0.36516698310151696,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "PACK_G3",
+      "cost": "phase_setup_including_diagnostics_ms",
+      "count": 12,
+      "minimum": 74.87186399521306,
+      "median": 93.22315396275371,
+      "maximum": 128.693976032082,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "PACK_G5",
+      "cost": "resource_setup_ms",
+      "count": 12,
+      "minimum": 3.2034579780884087,
+      "median": 3.5165430163033307,
+      "maximum": 6.298428983427584,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "PACK_G5",
+      "cost": "graph_setup_ms",
+      "count": 12,
+      "minimum": 68.57007695361972,
+      "median": 78.64770499872975,
+      "maximum": 89.02497700182721,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "PACK_G5",
+      "cost": "gemm_handle_workspace_setup_ms",
+      "count": 12,
+      "minimum": 0.2369779977016151,
+      "median": 0.25906000519171357,
+      "maximum": 0.42152899550274014,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "PACK_G5",
+      "cost": "phase_setup_including_diagnostics_ms",
+      "count": 12,
+      "minimum": 75.4724660073407,
+      "median": 93.81885046605021,
+      "maximum": 130.7921569678001,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SERIAL_GEMM_FIRST",
+      "cost": "resource_setup_ms",
+      "count": 12,
+      "minimum": 0.0,
+      "median": 0.0,
+      "maximum": 0.0,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SERIAL_GEMM_FIRST",
+      "cost": "graph_setup_ms",
+      "count": 12,
+      "minimum": 30.78496002126485,
+      "median": 37.20963699743152,
+      "maximum": 45.01073097344488,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SERIAL_GEMM_FIRST",
+      "cost": "gemm_handle_workspace_setup_ms",
+      "count": 12,
+      "minimum": 0.2503200084902346,
+      "median": 0.3258829819969833,
+      "maximum": 6.279844033997506,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SERIAL_GEMM_FIRST",
+      "cost": "phase_setup_including_diagnostics_ms",
+      "count": 12,
+      "minimum": 31.773004971910268,
+      "median": 38.41639097663574,
+      "maximum": 48.21065900614485,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SERIAL_GQA_FIRST",
+      "cost": "resource_setup_ms",
+      "count": 12,
+      "minimum": 0.0,
+      "median": 0.0,
+      "maximum": 0.0,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SERIAL_GQA_FIRST",
+      "cost": "graph_setup_ms",
+      "count": 12,
+      "minimum": 33.28768798382953,
+      "median": 38.98608547751792,
+      "maximum": 45.28749396558851,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SERIAL_GQA_FIRST",
+      "cost": "gemm_handle_workspace_setup_ms",
+      "count": 12,
+      "minimum": 0.2467589802108705,
+      "median": 0.3043894830625504,
+      "maximum": 0.8376699988730252,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SERIAL_GQA_FIRST",
+      "cost": "phase_setup_including_diagnostics_ms",
+      "count": 12,
+      "minimum": 34.26136600319296,
+      "median": 40.111319976858795,
+      "maximum": 46.50044301524758,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SHARED56",
+      "cost": "resource_setup_ms",
+      "count": 12,
+      "minimum": 0.0,
+      "median": 0.0,
+      "maximum": 0.0,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SHARED56",
+      "cost": "graph_setup_ms",
+      "count": 12,
+      "minimum": 29.708309040870517,
+      "median": 37.103711016243324,
+      "maximum": 45.06655293516815,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SHARED56",
+      "cost": "gemm_handle_workspace_setup_ms",
+      "count": 12,
+      "minimum": 0.25173299945890903,
+      "median": 0.31118348124437034,
+      "maximum": 0.3870850196108222,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SHARED56",
+      "cost": "phase_setup_including_diagnostics_ms",
+      "count": 12,
+      "minimum": 30.673503002617508,
+      "median": 38.27760950662196,
+      "maximum": 46.349980984814465,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SHARED56_E56",
+      "cost": "resource_setup_ms",
+      "count": 12,
+      "minimum": 0.0,
+      "median": 0.0,
+      "maximum": 0.0,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SHARED56_E56",
+      "cost": "graph_setup_ms",
+      "count": 12,
+      "minimum": 28.677122958470136,
+      "median": 32.10176699212752,
+      "maximum": 37.9139359574765,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SHARED56_E56",
+      "cost": "gemm_handle_workspace_setup_ms",
+      "count": 12,
+      "minimum": 0.30194298597052693,
+      "median": 0.33584600896574557,
+      "maximum": 0.3800909616984427,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SHARED56_E56",
+      "cost": "phase_setup_including_diagnostics_ms",
+      "count": 12,
+      "minimum": 29.726263019256294,
+      "median": 33.26961348648183,
+      "maximum": 39.30967900669202,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SPREAD_0",
+      "cost": "resource_setup_ms",
+      "count": 12,
+      "minimum": 3.2590700429864228,
+      "median": 3.55025299359113,
+      "maximum": 4.225459008011967,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SPREAD_0",
+      "cost": "graph_setup_ms",
+      "count": 12,
+      "minimum": 68.83925397414714,
+      "median": 78.34851701045409,
+      "maximum": 88.75648496905342,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SPREAD_0",
+      "cost": "gemm_handle_workspace_setup_ms",
+      "count": 12,
+      "minimum": 0.2359960344620049,
+      "median": 0.25751598877832294,
+      "maximum": 0.3445650218054652,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SPREAD_0",
+      "cost": "phase_setup_including_diagnostics_ms",
+      "count": 12,
+      "minimum": 74.82459797756746,
+      "median": 84.95593600673601,
+      "maximum": 146.11823798622936,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SPREAD_1",
+      "cost": "resource_setup_ms",
+      "count": 12,
+      "minimum": 3.2309850212186575,
+      "median": 3.625522513175383,
+      "maximum": 4.059862985741347,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SPREAD_1",
+      "cost": "graph_setup_ms",
+      "count": 12,
+      "minimum": 68.75581498024985,
+      "median": 78.28250649617985,
+      "maximum": 88.75006600283086,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SPREAD_1",
+      "cost": "gemm_handle_workspace_setup_ms",
+      "count": 12,
+      "minimum": 0.23692694958299398,
+      "median": 0.262454996118322,
+      "maximum": 0.2811939921230078,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SPREAD_1",
+      "cost": "phase_setup_including_diagnostics_ms",
+      "count": 12,
+      "minimum": 75.06418600678444,
+      "median": 84.44725099252537,
+      "maximum": 95.51696799462661,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SPREAD_2",
+      "cost": "resource_setup_ms",
+      "count": 12,
+      "minimum": 3.39650601381436,
+      "median": 3.6986860213801265,
+      "maximum": 4.348347021732479,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SPREAD_2",
+      "cost": "graph_setup_ms",
+      "count": 12,
+      "minimum": 68.64088302245364,
+      "median": 78.1909629877191,
+      "maximum": 88.26159196905792,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SPREAD_2",
+      "cost": "gemm_handle_workspace_setup_ms",
+      "count": 12,
+      "minimum": 0.24188600946217775,
+      "median": 0.2619989973027259,
+      "maximum": 0.5783759988844395,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SPREAD_2",
+      "cost": "phase_setup_including_diagnostics_ms",
+      "count": 12,
+      "minimum": 74.72845900338143,
+      "median": 85.13446149299853,
+      "maximum": 147.8303350158967,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SPREAD_3",
+      "cost": "resource_setup_ms",
+      "count": 12,
+      "minimum": 3.21766798151657,
+      "median": 3.5586360027082264,
+      "maximum": 3.771251009311527,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SPREAD_3",
+      "cost": "graph_setup_ms",
+      "count": 12,
+      "minimum": 68.50173801649362,
+      "median": 78.59836600255221,
+      "maximum": 88.82861601887271,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SPREAD_3",
+      "cost": "gemm_handle_workspace_setup_ms",
+      "count": 12,
+      "minimum": 0.234577979426831,
+      "median": 0.2649349917192012,
+      "maximum": 0.31509099062532187,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SPREAD_3",
+      "cost": "phase_setup_including_diagnostics_ms",
+      "count": 12,
+      "minimum": 74.53493599314243,
+      "median": 85.03546498832293,
+      "maximum": 95.17877799225971,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SPREAD_4",
+      "cost": "resource_setup_ms",
+      "count": 12,
+      "minimum": 3.343355027027428,
+      "median": 3.612152999266982,
+      "maximum": 8.902692992705852,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SPREAD_4",
+      "cost": "graph_setup_ms",
+      "count": 12,
+      "minimum": 67.93027598178014,
+      "median": 78.37304149870761,
+      "maximum": 88.76787102781236,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SPREAD_4",
+      "cost": "gemm_handle_workspace_setup_ms",
+      "count": 12,
+      "minimum": 0.24600402684882283,
+      "median": 0.2679320168681443,
+      "maximum": 0.3851470537483692,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    },
+    {
+      "stage": "E4",
+      "policy": "SPREAD_4",
+      "cost": "phase_setup_including_diagnostics_ms",
+      "count": 12,
+      "minimum": 74.09474003361538,
+      "median": 86.97330945869908,
+      "maximum": 148.16337398951873,
+      "scope": "Recorded research setup; not production minimum, not included in warm timing"
+    }
+  ],
+  "e4_absolute": [
+    {
+      "case": "GQA4_LONG",
+      "policy": "NEUTRAL10_46",
+      "geometric_mean_ms": {
+        "job_gpu_us": 20.235377430701774,
+        "job_output_ready_us": 20.242175399836704,
+        "foreground_completion_us": 20.233071881470423,
+        "background_completion_us": 3.5384727969902348
+      }
+    },
+    {
+      "case": "GQA4_LONG",
+      "policy": "PACK_G0",
+      "geometric_mean_ms": {
+        "job_gpu_us": 20.24036251638522,
+        "job_output_ready_us": 20.24735885190602,
+        "foreground_completion_us": 20.23809402675391,
+        "background_completion_us": 3.681514576767723
+      }
+    },
+    {
+      "case": "GQA4_LONG",
+      "policy": "PACK_G1",
+      "geometric_mean_ms": {
+        "job_gpu_us": 20.21488542446243,
+        "job_output_ready_us": 20.22191556150453,
+        "foreground_completion_us": 20.212246849109746,
+        "background_completion_us": 3.655791717578696
+      }
+    },
+    {
+      "case": "GQA4_LONG",
+      "policy": "PACK_G2",
+      "geometric_mean_ms": {
+        "job_gpu_us": 20.2292300156704,
+        "job_output_ready_us": 20.236278837586667,
+        "foreground_completion_us": 20.227155020775413,
+        "background_completion_us": 3.576552966828058
+      }
+    },
+    {
+      "case": "GQA4_LONG",
+      "policy": "PACK_G3",
+      "geometric_mean_ms": {
+        "job_gpu_us": 20.226084300162988,
+        "job_output_ready_us": 20.232873416824315,
+        "foreground_completion_us": 20.223636850427486,
+        "background_completion_us": 3.5413490363214746
+      }
+    },
+    {
+      "case": "GQA4_LONG",
+      "policy": "PACK_G5",
+      "geometric_mean_ms": {
+        "job_gpu_us": 20.262065936691098,
+        "job_output_ready_us": 20.268785959642383,
+        "foreground_completion_us": 20.259743638804718,
+        "background_completion_us": 3.476662206021653
+      }
+    },
+    {
+      "case": "GQA4_LONG",
+      "policy": "SERIAL_GEMM_FIRST",
+      "geometric_mean_ms": {
+        "job_gpu_us": 14.961383992604643,
+        "job_output_ready_us": 14.968739346992558,
+        "foreground_completion_us": 14.959612243715071,
+        "background_completion_us": 6.482121484278103
+      }
+    },
+    {
+      "case": "GQA4_LONG",
+      "policy": "SERIAL_GQA_FIRST",
+      "geometric_mean_ms": {
+        "job_gpu_us": 14.945309022922176,
+        "job_output_ready_us": 14.952866197031272,
+        "foreground_completion_us": 8.472407256548577,
+        "background_completion_us": 14.943099058296518
+      }
+    },
+    {
+      "case": "GQA4_LONG",
+      "policy": "SHARED56",
+      "geometric_mean_ms": {
+        "job_gpu_us": 16.4387780217039,
+        "job_output_ready_us": 16.446243849332483,
+        "foreground_completion_us": 16.437018845532517,
+        "background_completion_us": 8.34179252629305
+      }
+    },
+    {
+      "case": "GQA4_LONG",
+      "policy": "SHARED56_E56",
+      "geometric_mean_ms": {
+        "job_gpu_us": 16.227724387331232,
+        "job_output_ready_us": 16.235456551610255,
+        "foreground_completion_us": 16.2259434714751,
+        "background_completion_us": 8.156069258847722
+      }
+    },
+    {
+      "case": "GQA4_LONG",
+      "policy": "SPREAD_0",
+      "geometric_mean_ms": {
+        "job_gpu_us": 20.24112849536685,
+        "job_output_ready_us": 20.248063607098302,
+        "foreground_completion_us": 20.238969793778985,
+        "background_completion_us": 3.542272126109236
+      }
+    },
+    {
+      "case": "GQA4_LONG",
+      "policy": "SPREAD_1",
+      "geometric_mean_ms": {
+        "job_gpu_us": 20.233049555933253,
+        "job_output_ready_us": 20.2402762484179,
+        "foreground_completion_us": 20.23081445920001,
+        "background_completion_us": 3.5426482659615686
+      }
+    },
+    {
+      "case": "GQA4_LONG",
+      "policy": "SPREAD_2",
+      "geometric_mean_ms": {
+        "job_gpu_us": 20.233914097451766,
+        "job_output_ready_us": 20.240971629575565,
+        "foreground_completion_us": 20.23177794101792,
+        "background_completion_us": 3.539662274090354
+      }
+    },
+    {
+      "case": "GQA4_LONG",
+      "policy": "SPREAD_3",
+      "geometric_mean_ms": {
+        "job_gpu_us": 20.23896877785947,
+        "job_output_ready_us": 20.24613143716391,
+        "foreground_completion_us": 20.23669879030568,
+        "background_completion_us": 3.5427374817516517
+      }
+    },
+    {
+      "case": "GQA4_LONG",
+      "policy": "SPREAD_4",
+      "geometric_mean_ms": {
+        "job_gpu_us": 20.253124102765796,
+        "job_output_ready_us": 20.260210105424356,
+        "foreground_completion_us": 20.251041219475923,
+        "background_completion_us": 3.5543376644976616
+      }
+    },
+    {
+      "case": "BATCH4_RAGGED",
+      "policy": "NEUTRAL10_46",
+      "geometric_mean_ms": {
+        "job_gpu_us": 24.42178473399858,
+        "job_output_ready_us": 24.429441579720155,
+        "foreground_completion_us": 24.419522835527207,
+        "background_completion_us": 4.554412674121394
+      }
+    },
+    {
+      "case": "BATCH4_RAGGED",
+      "policy": "PACK_G0",
+      "geometric_mean_ms": {
+        "job_gpu_us": 24.3578363865331,
+        "job_output_ready_us": 24.36491747205873,
+        "foreground_completion_us": 24.355558974243014,
+        "background_completion_us": 4.6666317772734
+      }
+    },
+    {
+      "case": "BATCH4_RAGGED",
+      "policy": "PACK_G1",
+      "geometric_mean_ms": {
+        "job_gpu_us": 24.529737455815738,
+        "job_output_ready_us": 24.53673900489304,
+        "foreground_completion_us": 24.527775055394365,
+        "background_completion_us": 4.6643662106316945
+      }
+    },
+    {
+      "case": "BATCH4_RAGGED",
+      "policy": "PACK_G2",
+      "geometric_mean_ms": {
+        "job_gpu_us": 24.587161761698958,
+        "job_output_ready_us": 24.59495871777713,
+        "foreground_completion_us": 24.584739826856424,
+        "background_completion_us": 4.5867549940402945
+      }
+    },
+    {
+      "case": "BATCH4_RAGGED",
+      "policy": "PACK_G3",
+      "geometric_mean_ms": {
+        "job_gpu_us": 24.638901876163686,
+        "job_output_ready_us": 24.645883125034715,
+        "foreground_completion_us": 24.63678197085534,
+        "background_completion_us": 4.567833532758096
+      }
+    },
+    {
+      "case": "BATCH4_RAGGED",
+      "policy": "PACK_G5",
+      "geometric_mean_ms": {
+        "job_gpu_us": 25.30071809902205,
+        "job_output_ready_us": 25.308230949505738,
+        "foreground_completion_us": 25.29862587630421,
+        "background_completion_us": 4.550575548827478
+      }
+    },
+    {
+      "case": "BATCH4_RAGGED",
+      "policy": "SERIAL_GEMM_FIRST",
+      "geometric_mean_ms": {
+        "job_gpu_us": 19.26126909071409,
+        "job_output_ready_us": 19.269000945496657,
+        "foreground_completion_us": 19.259519085597756,
+        "background_completion_us": 8.991854183052833
+      }
+    },
+    {
+      "case": "BATCH4_RAGGED",
+      "policy": "SERIAL_GQA_FIRST",
+      "geometric_mean_ms": {
+        "job_gpu_us": 19.22342493943127,
+        "job_output_ready_us": 19.231105690026304,
+        "foreground_completion_us": 10.252087169675134,
+        "background_completion_us": 19.221209796882277
+      }
+    },
+    {
+      "case": "BATCH4_RAGGED",
+      "policy": "SHARED56",
+      "geometric_mean_ms": {
+        "job_gpu_us": 20.026434544351847,
+        "job_output_ready_us": 20.0338985198713,
+        "foreground_completion_us": 20.024701536638013,
+        "background_completion_us": 11.575509460022866
+      }
+    },
+    {
+      "case": "BATCH4_RAGGED",
+      "policy": "SHARED56_E56",
+      "geometric_mean_ms": {
+        "job_gpu_us": 20.11374825242739,
+        "job_output_ready_us": 20.122635314282032,
+        "foreground_completion_us": 20.111953396097213,
+        "background_completion_us": 11.625784579228604
+      }
+    },
+    {
+      "case": "BATCH4_RAGGED",
+      "policy": "SPREAD_0",
+      "geometric_mean_ms": {
+        "job_gpu_us": 24.655331877716502,
+        "job_output_ready_us": 24.662401436996927,
+        "foreground_completion_us": 24.65292888542273,
+        "background_completion_us": 4.5887762877728635
+      }
+    },
+    {
+      "case": "BATCH4_RAGGED",
+      "policy": "SPREAD_1",
+      "geometric_mean_ms": {
+        "job_gpu_us": 24.62822642034598,
+        "job_output_ready_us": 24.635168548517363,
+        "foreground_completion_us": 24.625919524887436,
+        "background_completion_us": 4.586779683706067
+      }
+    },
+    {
+      "case": "BATCH4_RAGGED",
+      "policy": "SPREAD_2",
+      "geometric_mean_ms": {
+        "job_gpu_us": 24.653923033345347,
+        "job_output_ready_us": 24.661115367636775,
+        "foreground_completion_us": 24.651511094434603,
+        "background_completion_us": 4.587774397141203
+      }
+    },
+    {
+      "case": "BATCH4_RAGGED",
+      "policy": "SPREAD_3",
+      "geometric_mean_ms": {
+        "job_gpu_us": 24.727576325597013,
+        "job_output_ready_us": 24.734357770022502,
+        "foreground_completion_us": 24.725227119650604,
+        "background_completion_us": 4.593754488057345
+      }
+    },
+    {
+      "case": "BATCH4_RAGGED",
+      "policy": "SPREAD_4",
+      "geometric_mean_ms": {
+        "job_gpu_us": 24.742787326033874,
+        "job_output_ready_us": 24.74976588863146,
+        "foreground_completion_us": 24.74028746606291,
+        "background_completion_us": 4.598739786132222
+      }
+    }
+  ],
+  "limitations": [
+    "No frequency regression, data deletion, posthoc choice, or effect correction",
+    "Auxiliary anchors have fewer samples than primary phases",
+    "Head/tail references cannot identify a unique state-change cause"
+  ]
+}

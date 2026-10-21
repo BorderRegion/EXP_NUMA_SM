@@ -1,0 +1,323 @@
+{
+  "ready_algebra": [
+    {
+      "case": "A01",
+      "action": "N19",
+      "steady_ready_us": 33.77023291071641,
+      "observed_plan_setup_ms": 1.512264076154679,
+      "H_estimates_ms": {
+        "1": 1.5460343090653954,
+        "100": 4.88928736722632,
+        "1000": 35.28249698687109
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A01",
+      "action": "E56_DIRECT",
+      "steady_ready_us": 37.10261563616154,
+      "observed_plan_setup_ms": 1.4414640027098358,
+      "H_estimates_ms": {
+        "1": 1.4785666183459973,
+        "100": 5.1517255663259895,
+        "1000": 38.544079638871374
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A01",
+      "action": "SM_PROP",
+      "steady_ready_us": 40.29139630992067,
+      "observed_plan_setup_ms": 15.85409592371434,
+      "H_estimates_ms": {
+        "1": 15.89438732002426,
+        "100": 19.883235554706406,
+        "1000": 56.14549223363501
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A01",
+      "action": "EQUAL_GPC",
+      "steady_ready_us": 42.10529334410653,
+      "observed_plan_setup_ms": 15.844713489059359,
+      "H_estimates_ms": {
+        "1": 15.886818782403465,
+        "100": 20.05524282347001,
+        "1000": 57.95000683316589
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A01",
+      "action": "CAP",
+      "steady_ready_us": 40.446764122646584,
+      "observed_plan_setup_ms": 15.896356489975005,
+      "H_estimates_ms": {
+        "1": 15.936803254097653,
+        "100": 19.941032902239662,
+        "1000": 56.34312061262159
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A01",
+      "action": "WRONG_CAP",
+      "steady_ready_us": 41.065624986254846,
+      "observed_plan_setup_ms": 15.866126457694918,
+      "H_estimates_ms": {
+        "1": 15.907192082681172,
+        "100": 19.972688956320404,
+        "1000": 56.931751443949764
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A02",
+      "action": "N19",
+      "steady_ready_us": 185.17891933074608,
+      "observed_plan_setup_ms": 1.820339064579457,
+      "H_estimates_ms": {
+        "1": 2.0055179839102033,
+        "100": 20.338230997654065,
+        "1000": 186.99925839532554
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A02",
+      "action": "E56_DIRECT",
+      "steady_ready_us": 197.7380567307099,
+      "observed_plan_setup_ms": 1.737155020236969,
+      "H_estimates_ms": {
+        "1": 1.9348930769676789,
+        "100": 21.51096069330796,
+        "1000": 199.47521175094687
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A02",
+      "action": "SM_PROP",
+      "steady_ready_us": 200.91873892594438,
+      "observed_plan_setup_ms": 17.534543410874903,
+      "H_estimates_ms": {
+        "1": 17.73546214980085,
+        "100": 37.62641730346934,
+        "1000": 218.45328233681929
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A02",
+      "action": "EQUAL_GPC",
+      "steady_ready_us": 205.79849816585698,
+      "observed_plan_setup_ms": 17.742964962963015,
+      "H_estimates_ms": {
+        "1": 17.948763461128873,
+        "100": 38.322814779548715,
+        "1000": 223.54146312882
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A02",
+      "action": "CAP",
+      "steady_ready_us": 203.39280318836396,
+      "observed_plan_setup_ms": 17.378466436639428,
+      "H_estimates_ms": {
+        "1": 17.581859239827793,
+        "100": 37.71774675547582,
+        "1000": 220.77126962500338
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A02",
+      "action": "WRONG_CAP",
+      "steady_ready_us": 206.04176363460732,
+      "observed_plan_setup_ms": 17.595284967683256,
+      "H_estimates_ms": {
+        "1": 17.801326731317864,
+        "100": 38.199461331143986,
+        "1000": 223.63704860229058
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A03",
+      "action": "N19",
+      "steady_ready_us": 138.93708104080832,
+      "observed_plan_setup_ms": 0.5457705119624734,
+      "H_estimates_ms": {
+        "1": 0.6847075930032818,
+        "100": 14.439478616043305,
+        "1000": 139.4828515527708
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A03",
+      "action": "E56_DIRECT",
+      "steady_ready_us": 159.51983585073359,
+      "observed_plan_setup_ms": 0.621666491497308,
+      "H_estimates_ms": {
+        "1": 0.7811863273480416,
+        "100": 16.573650076570665,
+        "1000": 160.1415023422309
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A03",
+      "action": "SM_PROP",
+      "steady_ready_us": 160.98034163019722,
+      "observed_plan_setup_ms": 17.251031473279,
+      "H_estimates_ms": {
+        "1": 17.412011814909196,
+        "100": 33.34906563629872,
+        "1000": 178.23137310347622
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A03",
+      "action": "EQUAL_GPC",
+      "steady_ready_us": 161.63675315099871,
+      "observed_plan_setup_ms": 17.186347977258265,
+      "H_estimates_ms": {
+        "1": 17.347984730409262,
+        "100": 33.35002329235814,
+        "1000": 178.82310112825698
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A03",
+      "action": "CAP",
+      "steady_ready_us": 156.7888446283279,
+      "observed_plan_setup_ms": 17.063343490008265,
+      "H_estimates_ms": {
+        "1": 17.22013233463659,
+        "100": 32.742227952841056,
+        "1000": 173.85218811833616
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A03",
+      "action": "WRONG_CAP",
+      "steady_ready_us": 162.4405807777397,
+      "observed_plan_setup_ms": 17.09634345024824,
+      "H_estimates_ms": {
+        "1": 17.258784031025982,
+        "100": 33.34040152802221,
+        "1000": 179.53692422798795
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A04",
+      "action": "N19",
+      "steady_ready_us": 241.3940722979499,
+      "observed_plan_setup_ms": 0.7899839547462761,
+      "H_estimates_ms": {
+        "1": 1.031378027044226,
+        "100": 24.929391184541267,
+        "1000": 242.18405625269617
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A04",
+      "action": "E56_DIRECT",
+      "steady_ready_us": 269.6617852470046,
+      "observed_plan_setup_ms": 0.797695538494736,
+      "H_estimates_ms": {
+        "1": 1.0673573237417406,
+        "100": 27.7638740631952,
+        "1000": 270.45948078549935
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A04",
+      "action": "SM_PROP",
+      "steady_ready_us": 269.41335281101084,
+      "observed_plan_setup_ms": 17.480870010331273,
+      "H_estimates_ms": {
+        "1": 17.750283363142284,
+        "100": 44.42220529143236,
+        "1000": 286.8942228213421
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A04",
+      "action": "EQUAL_GPC",
+      "steady_ready_us": 270.6328203840688,
+      "observed_plan_setup_ms": 17.4831579788588,
+      "H_estimates_ms": {
+        "1": 17.753790799242868,
+        "100": 44.54644001726568,
+        "1000": 288.11597836292765
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A04",
+      "action": "CAP",
+      "steady_ready_us": 268.299223469821,
+      "observed_plan_setup_ms": 17.548548465128988,
+      "H_estimates_ms": {
+        "1": 17.81684768859881,
+        "100": 44.37847081211109,
+        "1000": 285.84777193495
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    },
+    {
+      "case": "A04",
+      "action": "WRONG_CAP",
+      "steady_ready_us": 275.19133181287265,
+      "observed_plan_setup_ms": 17.544896516483277,
+      "H_estimates_ms": {
+        "1": 17.82008784829615,
+        "100": 45.064029697770536,
+        "1000": 292.7362283293559
+      },
+      "meaning": "algebra only; resource+graph observed setup, modules/input already resident; not full cold-process deployment",
+      "calibration_charged_separately": true
+    }
+  ],
+  "two_process_development_worker_seconds_valid": 29.774583775899373,
+  "including_failed_retries_seconds": 38.01517429098021,
+  "scope": "all four anchors shared development, includes data qualification not a minimal production calibration estimate",
+  "break_even_vs_N19": null,
+  "break_even_reason": "no positive observed steady saving on any anchor; no finite supported break-even",
+  "cold_input_and_framework_cost": "NOT_MEASURED",
+  "hardware_read_once_cost": "command timestamps retained; not isolated API-only latency"
+}

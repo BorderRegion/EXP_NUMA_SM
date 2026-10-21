@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-21T04:53:07.502251+00:00",
+  "command": [
+    "/usr/bin/nvidia-smi",
+    "-i",
+    "GPU-8cfbc08d-0090-bc29-db9a-b2a2f7261ca5",
+    "-rgc"
+  ],
+  "returncode": 0,
+  "stdout": "All done.\n",
+  "stderr": ""
+}

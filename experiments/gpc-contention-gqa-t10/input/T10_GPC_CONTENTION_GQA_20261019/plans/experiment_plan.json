@@ -1,0 +1,159 @@
+{
+  "version": "20261019",
+  "status": "DESIGN_ONLY_NOT_GPU_EXECUTED",
+  "platform": "T10 only",
+  "main_question": "equal-SM GPC concentration/spread and contention; then vector GQA and full-resource coexecution",
+  "wall_plan_minutes": 510,
+  "wall_hard_limit_minutes": 540,
+  "gpu_worker_new_limit_minutes": 180,
+  "new_paid_resources_authorized": false,
+  "stages": [
+    {
+      "stage": "E0",
+      "wall_minutes": 30
+    },
+    {
+      "stage": "E1",
+      "wall_minutes": 60
+    },
+    {
+      "stage": "E2",
+      "wall_minutes": 90
+    },
+    {
+      "stage": "E3",
+      "wall_minutes": 120
+    },
+    {
+      "stage": "E4",
+      "wall_minutes": 150
+    },
+    {
+      "stage": "E5",
+      "wall_minutes": 60
+    }
+  ],
+  "independent_process_rotation_blocks": 6,
+  "micro_workloads": [
+    {
+      "id": "HOT2_DEFAULT",
+      "unique_bytes": 2097152,
+      "passes": 16,
+      "load": "16B vector default"
+    },
+    {
+      "id": "HOT2_CG",
+      "unique_bytes": 2097152,
+      "passes": 16,
+      "load": "16B vector L1-bypass; verify codegen"
+    },
+    {
+      "id": "STREAM32_DEFAULT",
+      "unique_bytes": 33554432,
+      "passes": 1,
+      "load": "16B vector default"
+    },
+    {
+      "id": "STREAM32_CG",
+      "unique_bytes": 33554432,
+      "passes": 1,
+      "load": "16B vector L1-bypass; verify codegen"
+    },
+    {
+      "id": "STREAM128_CG",
+      "unique_bytes": 134217728,
+      "passes": 1,
+      "load": "16B vector L1-bypass; verify codegen"
+    },
+    {
+      "id": "REG_FMA",
+      "unique_bytes": null,
+      "passes": null,
+      "load": "register control: 8 accumulators,128 rounds; not Tensor Core proxy"
+    }
+  ],
+  "micro_cta_counts": [
+    40,
+    160
+  ],
+  "micro_threads_per_cta": 128,
+  "gqa_cases": [
+    {
+      "id": "GQA4_SHORT",
+      "B": 1,
+      "Hq": 32,
+      "Hkv": 8,
+      "D": 128,
+      "lengths": [
+        1024
+      ]
+    },
+    {
+      "id": "GQA4_LONG",
+      "B": 1,
+      "Hq": 32,
+      "Hkv": 8,
+      "D": 128,
+      "lengths": [
+        8192
+      ]
+    },
+    {
+      "id": "GQA8_LONG",
+      "B": 1,
+      "Hq": 32,
+      "Hkv": 4,
+      "D": 128,
+      "lengths": [
+        8192
+      ]
+    },
+    {
+      "id": "BATCH4_RAGGED",
+      "B": 4,
+      "Hq": 32,
+      "Hkv": 8,
+      "D": 128,
+      "lengths": [
+        4096,
+        3073,
+        2049,
+        1027
+      ]
+    }
+  ],
+  "gqa_modes": [
+    "ATTENTION_ONLY",
+    "VALUE_CHANGING_FIXED_LENGTH_APPEND_ATTENTION"
+  ],
+  "gqa_mainloop_workers_policy": "reuse exact stage19 per-case frozen route and worker count across placements",
+  "coexecution_foregrounds": [
+    "GQA4_LONG",
+    "BATCH4_RAGGED"
+  ],
+  "background": {
+    "M": 1024,
+    "N": 2048,
+    "K": 4096,
+    "body": "existing qualified GEMM; same body all schedules",
+    "precision": "FP16 inputs FP32 accumulation/output"
+  },
+  "coexecution_fg_requests": 32,
+  "coexecution_bg_count_rule": "clamp(round(32*t_fg_native/t_bg_native),1,64); freeze from native-only pilot before placement timing",
+  "phase_limits": {
+    "E2_primary": 720,
+    "E2_full_reference": 72,
+    "E3_primary_including_references": 576,
+    "E4_primary_including_references": 168
+  },
+  "extra_diagnostics": "qualification, short AA/anchors, at most four separate profiler captures; bounded by total budget",
+  "resource_plan_semantics": "CPU setup lists only; never per-task GPU lookup table",
+  "profiling_limit": 4,
+  "not_proven": [
+    "physical NUMA",
+    "remote traffic",
+    "floorsweeping cause",
+    "GQA gain over all specialized decode backends",
+    "full-model tokens/s"
+  ]
+}

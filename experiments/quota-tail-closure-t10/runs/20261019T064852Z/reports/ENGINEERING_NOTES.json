@@ -1,0 +1,13 @@
+[
+  {
+    "stage": "S1_block_0",
+    "issue": "After first isolated FG suite, aggregate dict duplicated task key from Solo metadata and raised TypeError before result export.",
+    "scope": "No usable phase aggregates or request file were produced by that failed worker; stdout/stderr and budget record retained. In-memory timing samples could not be recovered.",
+    "repair": "Remove duplicate task metadata, persist request/check buffers before aggregation, rerun same preregistered block under S1_block_0_retry. No selection or comparison was performed on failed timing."
+  },
+  {
+    "stage": "S4_costs",
+    "issue": "First LONG serial plan construction included first-use E56 kernel loading; its construction was about244ms more costly than later native plans. Mixed module states would bias cross-plan setup estimates.",
+    "repair": "Keep original setup records; prewarm both unchanged primary E56 bodies and GEMM before measuring fresh resource/Graph objects for all selected plans. Use separate S4_costs_warm_control only for labelled setup algebra. No formal timing, selection or k changes."
+  }
+]

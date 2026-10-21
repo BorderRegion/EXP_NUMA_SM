@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-21T05:22:31.278743+00:00",
+  "stage_count": 28,
+  "claim_count": 86,
+  "stage_source_hashes": "PASS",
+  "claim_source_paths_and_lines": "PASS",
+  "high_confidence_credential_scan": "PASS; absence of arbitrary secrets is not mathematically guaranteed",
+  "sharing_redactions_verified": true,
+  "first_pass_zip_crc_and_all_file_hashes": "PASS_BOTH",
+  "fresh_small_extraction_cpu": "PASS",
+  "fresh_cpu_stdout": "ANALYSIS_PASS 152 25072 112\nEXTRA_FINAL 3158 24\nPAIRED_PRIMARY_PASS [('A01', 19.55544), ('A02', 1.96107), ('A03', 12.20817), ('A04', 14.18563)]\nCPU_RECOMPUTE_PASS: 152 phase means, all frozen capacities/ranges/simple choices, exact derived hashes, state requests 1829120\n",
+  "fresh_extraction_path": "/tmp/t10-final-extraction-y5e4c7gn",
+  "fresh_cpu_cuda_visible_devices": "",
+  "fresh_derived_hashes_unchanged": true,
+  "review_under_100MiB": true,
+  "history_scope": "27 historical stages; stage19 raw CPU,22 topology CPU,26 aggregates CPU; others REPORT_ONLY",
+  "full_matrix": "NOT_RUN_CONTROL_LIMITED",
+  "final_zip_validation": "repacked with this QA record then independently checked; final hashes in DELIVERY.json beside original run",
+  "gpu_work_complete": true
+}

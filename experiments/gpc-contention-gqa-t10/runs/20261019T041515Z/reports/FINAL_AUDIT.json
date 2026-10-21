@@ -1,0 +1,444 @@
+{
+  "status": "PASS",
+  "run": "20261019T041515Z",
+  "primary_phase_counts": {
+    "E2": 792,
+    "E3": 576,
+    "E4": 168
+  },
+  "numerical_records_in_formal_and_qualification": 12148,
+  "raw_timing_rows": {
+    "E3_block_3": 8944,
+    "E2_block_1": 12506,
+    "E2_block_2": 12506,
+    "E4_block_2": 2048,
+    "E4_block_0": 2048,
+    "E2_block_4": 12506,
+    "E4_block_1": 2048,
+    "E4_block_5": 2048,
+    "E3_block_0": 8944,
+    "E4_block_4": 2048,
+    "E3_block_2": 8944,
+    "E3_block_5": 8944,
+    "E2_block_3": 12506,
+    "E2_block_5": 12506,
+    "E4_block_3": 2048,
+    "E2_block_0": 12506,
+    "E3_block_4": 8944,
+    "E3_block_1": 8944
+  },
+  "source_hashes_verified": [
+    {
+      "freeze": "E2_E3_IMPLEMENTATION.json",
+      "path": "src/bridge.cu",
+      "sha256": "c5ca6de093e91de105ffaaf678856f1105fd722a972fa90ea3f9ff0ccc26fdcd"
+    },
+    {
+      "freeze": "E2_E3_IMPLEMENTATION.json",
+      "path": "src/measure.py",
+      "sha256": "1c01eb231eceaa6a2b1ac71fe1e5d11a0fb9db33a204d6a797a2a9c65679a616"
+    },
+    {
+      "freeze": "E2_E3_IMPLEMENTATION.json",
+      "path": "src/micro.cu",
+      "sha256": "b412ae3f7bfcebeaf865442378d87a31e404d3a05f6ee46c41784771c9f57ff6"
+    },
+    {
+      "freeze": "E2_E3_IMPLEMENTATION.json",
+      "path": "src/common.py",
+      "sha256": "d76067a1ac595798e6f38834f970d31a75e4b45578c4ac54fbd2142330ea5a6f"
+    },
+    {
+      "freeze": "E2_E3_IMPLEMENTATION.json",
+      "path": "src/gqa_data.py",
+      "sha256": "cb953c918785c4c4b400f933141ec9aca2312714af59e3d9146ae27a9e90f964"
+    },
+    {
+      "freeze": "E2_E3_IMPLEMENTATION.json",
+      "path": "src/control.py",
+      "sha256": "7a515084ece9bcd2453507eba1caf342ddbec30f5dabeb82e0ca6ecbcc227de8"
+    },
+    {
+      "freeze": "E2_E3_IMPLEMENTATION.json",
+      "path": "src/reanalyze_history.py",
+      "sha256": "0727d1142a3280467cf5184c07919395d5f7d36545119523252880125b97a8ff"
+    },
+    {
+      "freeze": "E2_E3_IMPLEMENTATION.json",
+      "path": "src/qualify_resources.py",
+      "sha256": "47e23843efd39b39c9d2fd61d62727d4ce9c384145025ebd5646262489019017"
+    },
+    {
+      "freeze": "E2_E3_IMPLEMENTATION.json",
+      "path": "src/qualify_ops.py",
+      "sha256": "4044c9703dc616ea5c291748ff4c58fb98ce16e40bbb5705dddbd622c4af0ddd"
+    },
+    {
+      "freeze": "E2_E3_IMPLEMENTATION.json",
+      "path": "src/gqa.cu",
+      "sha256": "1c2aac2ef0d290b0c7b4093f486f5749e5941b455694c506adf6c903245131b7"
+    },
+    {
+      "freeze": "E2_E3_IMPLEMENTATION.json",
+      "path": "src/worker.py",
+      "sha256": "50c82f15d1a83af00cc683b3b304ed550b1659cd70c199e581a2e81a4154f671"
+    },
+    {
+      "freeze": "E2_E3_IMPLEMENTATION.json",
+      "path": "src/build.py",
+      "sha256": "132fa0b296d557ab51609567979ae7ab555c52212eb67d4042244ef0ae560b36"
+    },
+    {
+      "freeze": "E2_E3_IMPLEMENTATION.json",
+      "path": "src/micro_runtime.py",
+      "sha256": "d18393bf7989e0412f8d01f4f9e7f6d6b74033537ed161681bb110c574ad4efb"
+    },
+    {
+      "freeze": "E2_E3_IMPLEMENTATION.json",
+      "path": "src/formal_single.py",
+      "sha256": "9979f4598e120d27f09ed5699bb2041cac00de8a6ad555fdab156d09ffb4c375"
+    },
+    {
+      "freeze": "E2_E3_IMPLEMENTATION.json",
+      "path": "src/gqa_append.cu",
+      "sha256": "9b21caa8426e595d0874e94f0275807a72cc3ddc033217381e17eda4cf7afb42"
+    },
+    {
+      "freeze": "E2_E3_IMPLEMENTATION.json",
+      "path": "src/run_single.py",
+      "sha256": "f20349f240a41844cae5d14c3a45c4b2ff652ac58caa955834139387fa387cc3"
+    },
+    {
+      "freeze": "E2_E3_IMPLEMENTATION.json",
+      "path": "src/gqa_runtime.py",
+      "sha256": "21fee72817dadab5820eb148a0dbcec67130e70599c92e736c8abbd1742b0387"
+    },
+    {
+      "freeze": "E2_E3_IMPLEMENTATION.json",
+      "path": "build/micro.so",
+      "sha256": "d2801bf6cfcc9de22f0c738ffce1591828bb46d94301f2453d0d0e7bd5962c32"
+    },
+    {
+      "freeze": "E2_E3_IMPLEMENTATION.json",
+      "path": "build/bridge.so",
+      "sha256": "7594b6372cd2d97382552b631664fa6dec5956d1fd9d837afe54ffab761e0f51"
+    },
+    {
+      "freeze": "E2_E3_IMPLEMENTATION.json",
+      "path": "build/gqa.so",
+      "sha256": "62e089cb50b851b613118fd4f09415ece037fb93870c08da0aee59a802cded47"
+    },
+    {
+      "freeze": "E2_E3_IMPLEMENTATION.json",
+      "path": "build/gqa_append.so",
+      "sha256": "4500d5a436a5d7195b12f1cb233478821ec824fb7ba8862c83082e2bdeea5b98"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/bridge.cu",
+      "sha256": "c5ca6de093e91de105ffaaf678856f1105fd722a972fa90ea3f9ff0ccc26fdcd"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/e4_extensions.inc",
+      "sha256": "cc27d770af045387c45fb8d180babffa36c349614d1f1b0721c6d5fe2649565c"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/measure.py",
+      "sha256": "1c01eb231eceaa6a2b1ac71fe1e5d11a0fb9db33a204d6a797a2a9c65679a616"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/micro.cu",
+      "sha256": "b412ae3f7bfcebeaf865442378d87a31e404d3a05f6ee46c41784771c9f57ff6"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/common.py",
+      "sha256": "d76067a1ac595798e6f38834f970d31a75e4b45578c4ac54fbd2142330ea5a6f"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/gqa_data.py",
+      "sha256": "cb953c918785c4c4b400f933141ec9aca2312714af59e3d9146ae27a9e90f964"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/control.py",
+      "sha256": "7a515084ece9bcd2453507eba1caf342ddbec30f5dabeb82e0ca6ecbcc227de8"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/profile_coexecution.py",
+      "sha256": "ac5a5456fcefd6ae933c68a6274b6f19f7e72fd8bb42fd78a075c4aa1ce9c09e"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/qualify_coexecution.py",
+      "sha256": "5d0232d42bcaf4d0c00e7d4a005ef656f5d1b0aafa46ae025a426e1ada24f889"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/run_coexecution.py",
+      "sha256": "2838e3c12a7246bef9dcce21f5f5aafa5a0a9aae0d7e701e72f93a0aba27ad30"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/formal_coexecution.py",
+      "sha256": "2d81b0ba74137fead1540dd4bf3441c7c1385aadceaccbb21ac3b8021d31c5bf"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/reanalyze_history.py",
+      "sha256": "0727d1142a3280467cf5184c07919395d5f7d36545119523252880125b97a8ff"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/qualify_resources.py",
+      "sha256": "47e23843efd39b39c9d2fd61d62727d4ce9c384145025ebd5646262489019017"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/gemm_runtime.py",
+      "sha256": "fa20e52e8097cc6aa064226774ca6533ff8f6e7e63a2ad5d614acac9d9479b0e"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/qualify_ops.py",
+      "sha256": "4044c9703dc616ea5c291748ff4c58fb98ce16e40bbb5705dddbd622c4af0ddd"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/gqa.cu",
+      "sha256": "1c2aac2ef0d290b0c7b4093f486f5749e5941b455694c506adf6c903245131b7"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/worker.py",
+      "sha256": "50c82f15d1a83af00cc683b3b304ed550b1659cd70c199e581a2e81a4154f671"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/build_e4.py",
+      "sha256": "c888c78cb4361616d2fcf2961ca313967841f1dd3be283d1c132bd498ff7d995"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/build.py",
+      "sha256": "132fa0b296d557ab51609567979ae7ab555c52212eb67d4042244ef0ae560b36"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/micro_runtime.py",
+      "sha256": "d18393bf7989e0412f8d01f4f9e7f6d6b74033537ed161681bb110c574ad4efb"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/formal_single.py",
+      "sha256": "9979f4598e120d27f09ed5699bb2041cac00de8a6ad555fdab156d09ffb4c375"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/gqa_append.cu",
+      "sha256": "9b21caa8426e595d0874e94f0275807a72cc3ddc033217381e17eda4cf7afb42"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/run_single.py",
+      "sha256": "f20349f240a41844cae5d14c3a45c4b2ff652ac58caa955834139387fa387cc3"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/control_e4.py",
+      "sha256": "a38a7e96037d0149e8a684cb6b6cf2b035851f6da083de3d1e9b5c5414b966fd"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/gqa_runtime.py",
+      "sha256": "21fee72817dadab5820eb148a0dbcec67130e70599c92e736c8abbd1742b0387"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/analyze.py",
+      "sha256": "59a658b015cc38b8e02e63043ddba796f74f4e6fc237f7f4f7c537d9391efd77"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "src/bridge_e4.cu",
+      "sha256": "deb4b76b8d9c37a4e2808a812cf0bc64fc324a634832c8177b6a4f0a5b1bd165"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "build/micro.so",
+      "sha256": "d2801bf6cfcc9de22f0c738ffce1591828bb46d94301f2453d0d0e7bd5962c32"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "build/bridge.so",
+      "sha256": "7594b6372cd2d97382552b631664fa6dec5956d1fd9d837afe54ffab761e0f51"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "build/gqa.so",
+      "sha256": "62e089cb50b851b613118fd4f09415ece037fb93870c08da0aee59a802cded47"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "build/gqa_append.so",
+      "sha256": "4500d5a436a5d7195b12f1cb233478821ec824fb7ba8862c83082e2bdeea5b98"
+    },
+    {
+      "freeze": "E4_IMPLEMENTATION.json",
+      "path": "build/bridge_e4.so",
+      "sha256": "1011b9fc002963717149746f86173b2cbcb101a0382e7862b76651666548ea32"
+    }
+  ],
+  "all_complete_markers": true,
+  "missing_primary_cells": 0,
+  "gpu_worker_seconds": 1110.5208800506662,
+  "gpu_worker_cap_seconds": 10800,
+  "worker_count": 27,
+  "wall_start_utc": "2026-10-19T04:10:00+00:00",
+  "audit_time_utc": "2026-10-19T04:44:29.344189+00:00",
+  "wall_deadline_utc": "2026-10-19T13:10:00+00:00",
+  "same_body_GQA_trace": {
+    "status": "PASS",
+    "trace_launches": 480,
+    "graph_audits": 8,
+    "all_tasks_exactly_once": true,
+    "no_task_outside_verified_resource": true,
+    "not_performance_data": true
+  },
+  "gemm_graph": {
+    "status": "PASS",
+    "audits": 72,
+    "unique_kernel_name_sequences": [
+      [
+        "turing_s1688gemm_fp16_256x128_ldg8_stages_32x1_nn"
+      ]
+    ],
+    "meaning": "Separate diagnostic captures under every quota/placement; not instrumented formal requests"
+  },
+  "profiles": [
+    {
+      "policy": "SHARED56",
+      "case": "GQA4_LONG",
+      "kind": "diagnostic_CUPTI_activity",
+      "memory_counters": null,
+      "status": "CAPTURED",
+      "kernel_count": 284,
+      "foreground_kernel_count": 256,
+      "background_kernel_count": 28,
+      "foreground_active_us": 23989.471923828125,
+      "background_active_us": 14642.566650390625,
+      "overlap_us": 7819.564208984375,
+      "kernel_names": [
+        "turing_s1688gemm_fp16_256x128_ldg8_stages_32x1_nn",
+        "void decode<128, 4, true, false, false>(Params)",
+        "void merge<128, 4>(Params)"
+      ],
+      "streams": [
+        13,
+        98
+      ],
+      "trace_file": "SHARED56.json"
+    },
+    {
+      "policy": "NEUTRAL10_46",
+      "case": "GQA4_LONG",
+      "kind": "diagnostic_CUPTI_activity",
+      "memory_counters": null,
+      "status": "CAPTURED",
+      "kernel_count": 284,
+      "foreground_kernel_count": 256,
+      "background_kernel_count": 28,
+      "foreground_active_us": 75305.29760742188,
+      "background_active_us": 13238.408447265625,
+      "overlap_us": 13215.91259765625,
+      "kernel_names": [
+        "turing_s1688gemm_fp16_256x128_ldg8_stages_32x1_nn",
+        "void stage26::decode<128, 4, true, false, false>(Params)",
+        "void stage26::merge<128, 4>(Params)"
+      ],
+      "streams": [
+        109,
+        112
+      ],
+      "trace_file": "NEUTRAL10_46.json"
+    },
+    {
+      "policy": "PACK_G0",
+      "case": "GQA4_LONG",
+      "kind": "diagnostic_CUPTI_activity",
+      "memory_counters": null,
+      "status": "CAPTURED",
+      "kernel_count": 284,
+      "foreground_kernel_count": 256,
+      "background_kernel_count": 28,
+      "foreground_active_us": 73703.8564453125,
+      "background_active_us": 13314.70751953125,
+      "overlap_us": 13290.42041015625,
+      "kernel_names": [
+        "turing_s1688gemm_fp16_256x128_ldg8_stages_32x1_nn",
+        "void stage26::decode<128, 4, true, false, false>(Params)",
+        "void stage26::merge<128, 4>(Params)"
+      ],
+      "streams": [
+        123,
+        126
+      ],
+      "trace_file": "PACK_G0.json"
+    },
+    {
+      "policy": "SPREAD_0",
+      "case": "GQA4_LONG",
+      "kind": "diagnostic_CUPTI_activity",
+      "memory_counters": null,
+      "status": "CAPTURED",
+      "kernel_count": 284,
+      "foreground_kernel_count": 256,
+      "background_kernel_count": 28,
+      "foreground_active_us": 75834.48120117188,
+      "background_active_us": 13310.028564453125,
+      "overlap_us": 13286.417236328125,
+      "kernel_names": [
+        "turing_s1688gemm_fp16_256x128_ldg8_stages_32x1_nn",
+        "void stage26::decode<128, 4, true, false, false>(Params)",
+        "void stage26::merge<128, 4>(Params)"
+      ],
+      "streams": [
+        137,
+        140
+      ],
+      "trace_file": "SPREAD_0.json"
+    }
+  ],
+  "sanitizer": [
+    {
+      "worker": "E5_memcheck",
+      "status": "COMPLETED",
+      "zero_error_summary": true,
+      "scope": "24 micro launches plus 8 paged-tail GQA launches, not the entire campaign"
+    },
+    {
+      "worker": "E5_synccheck",
+      "status": "COMPLETED",
+      "zero_error_summary": true,
+      "scope": "24 micro launches plus 8 paged-tail GQA launches, not the entire campaign"
+    }
+  ],
+  "current_boot_started_local": "2026-10-13 12:16:53",
+  "new_downloads": 0,
+  "new_installs": 0,
+  "new_paid_resources": 0,
+  "system_configuration_changes": 0,
+  "limits": [
+    "No physical memory home or remote traffic counters",
+    "Only one T10 and one date for new measurements",
+    "95% intervals exploratory, not all-history multiplicity corrected",
+    "Initialization not included in warm request/job metric",
+    "Trace and sanitizer coverage finite; not every formal request individually inspected",
+    "E4 graph body audit is a separate diagnostic, not per-formal-phase tracing"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "historical_topology_source_archive": "T10_GPC_CONTENTION_GQA_WEBGPT_20261019.zip",
+  "source_archive_sha256": "b42bb38b0ddfdd220be02efa867c8bb7c2c0e73d9705fa8ff950954e3c2a7236",
+  "member_suffix": "gpc-contention-gqa-t10/runs/20261019T041515Z/freeze/SM_TO_GPC_TPC.csv",
+  "historical_topology_sha256": "ecab18bb38c673c6b3804494a808897e06d61750752046cb367c5e202f99a045",
+  "use": "CPU set-construction tests only. Current RM snapshot and actual CUDA qualification required."
+}

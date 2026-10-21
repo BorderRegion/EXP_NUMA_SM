@@ -1,0 +1,196 @@
+[
+  {
+    "id": "A01",
+    "B": 1,
+    "Hq": 32,
+    "Hkv": 8,
+    "D": 128,
+    "lengths": [
+      1024
+    ],
+    "split": "calibration_anchor",
+    "weights_from": "A01",
+    "workers_from": "N19_GQA4_SHORT",
+    "provenance": "historical_shape_new_inputs",
+    "measured": false
+  },
+  {
+    "id": "A02",
+    "B": 1,
+    "Hq": 32,
+    "Hkv": 8,
+    "D": 128,
+    "lengths": [
+      8192
+    ],
+    "split": "calibration_anchor",
+    "weights_from": "A02",
+    "workers_from": "N19_GQA4_LONG",
+    "provenance": "historical_shape_new_inputs",
+    "measured": false
+  },
+  {
+    "id": "A03",
+    "B": 1,
+    "Hq": 32,
+    "Hkv": 4,
+    "D": 128,
+    "lengths": [
+      8192
+    ],
+    "split": "calibration_anchor",
+    "weights_from": "A03",
+    "workers_from": "N19_GQA8_LONG",
+    "provenance": "historical_shape_new_inputs",
+    "measured": false
+  },
+  {
+    "id": "A04",
+    "B": 4,
+    "Hq": 32,
+    "Hkv": 8,
+    "D": 128,
+    "lengths": [
+      4096,
+      3073,
+      2049,
+      1027
+    ],
+    "split": "calibration_anchor",
+    "weights_from": "A04",
+    "workers_from": "N19_BATCH4_RAGGED",
+    "provenance": "historical_shape_new_inputs",
+    "measured": false
+  },
+  {
+    "id": "V01",
+    "B": 1,
+    "Hq": 32,
+    "Hkv": 8,
+    "D": 128,
+    "lengths": [
+      2048
+    ],
+    "split": "holdout",
+    "weights_from": "A01",
+    "workers_from": "N19_GQA4_SHORT",
+    "provenance": "new_design",
+    "measured": false
+  },
+  {
+    "id": "V02",
+    "B": 1,
+    "Hq": 32,
+    "Hkv": 8,
+    "D": 128,
+    "lengths": [
+      4096
+    ],
+    "split": "holdout",
+    "weights_from": "A02",
+    "workers_from": "N19_GQA4_LONG",
+    "provenance": "new_design",
+    "measured": false
+  },
+  {
+    "id": "V03",
+    "B": 1,
+    "Hq": 32,
+    "Hkv": 4,
+    "D": 128,
+    "lengths": [
+      2048
+    ],
+    "split": "holdout",
+    "weights_from": "A03",
+    "workers_from": "N19_GQA8_LONG",
+    "provenance": "new_design",
+    "measured": false
+  },
+  {
+    "id": "V04",
+    "B": 1,
+    "Hq": 32,
+    "Hkv": 4,
+    "D": 128,
+    "lengths": [
+      4096
+    ],
+    "split": "holdout",
+    "weights_from": "A03",
+    "workers_from": "N19_GQA8_LONG",
+    "provenance": "new_design",
+    "measured": false
+  },
+  {
+    "id": "V05",
+    "B": 4,
+    "Hq": 32,
+    "Hkv": 8,
+    "D": 128,
+    "lengths": [
+      6144,
+      4609,
+      3073,
+      1537
+    ],
+    "split": "holdout",
+    "weights_from": "A04",
+    "workers_from": "N19_BATCH4_RAGGED",
+    "provenance": "new_design",
+    "measured": false
+  },
+  {
+    "id": "V06",
+    "B": 2,
+    "Hq": 32,
+    "Hkv": 8,
+    "D": 128,
+    "lengths": [
+      4096,
+      2049
+    ],
+    "split": "holdout",
+    "weights_from": "A04",
+    "workers_from": "N19_BATCH4_RAGGED",
+    "provenance": "new_design",
+    "measured": false
+  },
+  {
+    "id": "V07",
+    "B": 8,
+    "Hq": 32,
+    "Hkv": 8,
+    "D": 128,
+    "lengths": [
+      2048,
+      1793,
+      1537,
+      1281,
+      1025,
+      769,
+      513,
+      257
+    ],
+    "split": "holdout",
+    "weights_from": "A04",
+    "workers_from": "N19_BATCH4_RAGGED",
+    "provenance": "new_design",
+    "measured": false
+  },
+  {
+    "id": "V08",
+    "B": 1,
+    "Hq": 32,
+    "Hkv": 8,
+    "D": 128,
+    "lengths": [
+      16384
+    ],
+    "split": "holdout",
+    "weights_from": "A02",
+    "workers_from": "N19_GQA4_LONG",
+    "provenance": "new_design",
+    "measured": false
+  }
+]

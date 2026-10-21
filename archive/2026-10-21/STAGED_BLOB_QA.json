@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "staged_evidence_blobs_exact": 486,
+  "force_added_explicit_evidence_files": 103,
+  "why_force": "Inherited experiments/.gitignore excludes build/runs; only hash-verified selected files added",
+  "new_and_changed_files": 509,
+  "largest_blob_bytes": 8035150,
+  "high_confidence_credential_scan": "PASS",
+  "new_authored_whitespace": "PASS",
+  "original_evidence_whitespace": "Preserved original CRLF and historical bytes; not normalized",
+  "old_evidence_unchanged": true
+}

@@ -1,0 +1,16 @@
+{
+  "GQA4_LONG": {
+    "fg_requests": 32,
+    "bg_gemms": 7,
+    "native_fg_gpu_us": 194.5760040283203,
+    "native_bg_gpu_us": 925.6640319824219,
+    "foreground_mode": "VALUE_CHANGING_FIXED_LENGTH_APPEND_ATTENTION"
+  },
+  "BATCH4_RAGGED": {
+    "fg_requests": 32,
+    "bg_gemms": 9,
+    "native_fg_gpu_us": 256.99200439453125,
+    "native_bg_gpu_us": 925.6640319824219,
+    "foreground_mode": "VALUE_CHANGING_FIXED_LENGTH_APPEND_ATTENTION"
+  }
+}

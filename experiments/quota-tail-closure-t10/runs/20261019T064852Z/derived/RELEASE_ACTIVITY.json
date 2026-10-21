@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "suffix_stream": 13,
+  "prefix_stream": 317,
+  "prefix_BG_overlap_us": 7543.7060546875,
+  "suffix_BG_overlap_us": 0,
+  "foreground_stream_kernel_counts": {
+    "317": 56,
+    "13": 72
+  },
+  "background_kernel_count": 14,
+  "scope": "One independently profiled two-job RELEASE replay, not formal timing; suffix identified by stream containing final GQA completion"
+}

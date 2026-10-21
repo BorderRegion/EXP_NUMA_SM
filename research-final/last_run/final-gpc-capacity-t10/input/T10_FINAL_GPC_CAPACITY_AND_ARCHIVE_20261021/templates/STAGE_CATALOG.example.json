@@ -1,0 +1,22 @@
+{
+  "stage_uid": "<project>/<run_id>",
+  "historical_ordinal": null,
+  "title": "<原题名>",
+  "date": "<source date>",
+  "timezone": "<recorded timezone or UNKNOWN>",
+  "source_report": "<relative path>",
+  "source_kind": "USER_EXPERIMENT_REPORT",
+  "verification_level": "REPORT_ONLY",
+  "hypothesis": "<literal scope>",
+  "run_state": "<completed/incomplete/NA>",
+  "hardware_state": "<explicit>",
+  "baseline": "<exact implementation>",
+  "metric_definition": "T_candidate/T_reference",
+  "raw_location": "<actual existing path or MISSING>",
+  "recompute_entry": "<verified command or NA>",
+  "positive_evidence": [],
+  "negative_evidence": [],
+  "limitations": [],
+  "default_action": "<retain native/archive/etc>",
+  "used_by_later_stages": []
+}

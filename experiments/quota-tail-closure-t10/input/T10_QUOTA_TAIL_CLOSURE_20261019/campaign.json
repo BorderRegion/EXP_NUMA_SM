@@ -1,0 +1,134 @@
+{
+  "status": "DESIGN_ONLY_NOT_EXECUTED",
+  "date": "2026-10-19",
+  "platform": "T10_ONLY",
+  "goals": [
+    "quota_and_tail_value",
+    "incremental_GPC_placement_value_after_strong_simple_controls"
+  ],
+  "wall_minutes_limit": 240,
+  "gpu_worker_minutes_limit": 90,
+  "respect_previous_remaining_budget": true,
+  "power_w": 100,
+  "new_paid_resources": false,
+  "foreground_quotas": [
+    10,
+    20,
+    28,
+    36,
+    46
+  ],
+  "families": [
+    "NEUTRAL",
+    "PACK",
+    "SPREAD"
+  ],
+  "modes": [
+    "FIXED",
+    "RELEASE"
+  ],
+  "development_blocks": [
+    0,
+    1
+  ],
+  "confirmation_blocks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "jobs": [
+    {
+      "id": "LONG",
+      "foreground_shape": [
+        1,
+        32,
+        8,
+        128,
+        8192
+      ],
+      "foreground_requests": 32,
+      "background_shape": [
+        1024,
+        2048,
+        4096
+      ],
+      "background_calls": 7
+    },
+    {
+      "id": "RAGGED",
+      "foreground_shape": [
+        4,
+        32,
+        8,
+        128,
+        4096
+      ],
+      "lengths": [
+        4096,
+        3073,
+        2049,
+        1027
+      ],
+      "foreground_requests": 32,
+      "background_shape": [
+        1024,
+        2048,
+        4096
+      ],
+      "background_calls": 9
+    }
+  ],
+  "prefix_rule": "clamp(floor(32*T_bg_alone/T_fg32_alone+0.5),1,31), frozen before joint measurements",
+  "main_baselines": [
+    "SERIAL_GQA_FIRST",
+    "SERIAL_GEMM_FIRST",
+    "SHARED56",
+    "Q_ONLY",
+    "SIMPLE_SPREAD"
+  ],
+  "candidate_label": "JOINT_POOL (finite autotuning reference, not a claimed novel algorithm)",
+  "phase_caps": {
+    "isolated_calibration": 136,
+    "joint_development": 132,
+    "main_confirmation": 72,
+    "same_quota_ablation": 36,
+    "release_ablation_extra": 12,
+    "double_background_holdout": 48
+  },
+  "stage_budgets": [
+    {
+      "stage": "S0",
+      "wall": 20,
+      "worker": 5
+    },
+    {
+      "stage": "S1",
+      "wall": 55,
+      "worker": 25
+    },
+    {
+      "stage": "S2",
+      "wall": 60,
+      "worker": 25
+    },
+    {
+      "stage": "S3",
+      "wall": 70,
+      "worker": 30
+    },
+    {
+      "stage": "S4",
+      "wall": 35,
+      "worker": 5
+    }
+  ],
+  "request_count_per_phase": 16,
+  "no_new_gpu_scheduler_kernels": true,
+  "no_active_kernel_migration": true,
+  "no_timing_driven_member_selection": true,
+  "stop_automatic_expansion_after_report": true,
+  "scope_note": "The finite experiment does not cover all possible quotas, schedulers, GPUs or LLMs; a negative investment decision is scoped."
+}

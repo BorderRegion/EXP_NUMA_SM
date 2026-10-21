@@ -1,0 +1,11 @@
+{
+  "started_utc": "2026-10-21T04:35:48.196551+00:00",
+  "user_timezone": "Asia/Shanghai",
+  "input_zip_sha256": "0b7911516094db94b7db2f7dc7d0da2b7ab3b4d1d82d05501d5fc1bd105ce74a",
+  "branch": "CONTROL_LIMITED",
+  "reason": "sudo -n true returned password required; no password attempts; no new administrative access",
+  "worker_seconds_cap": 3600,
+  "wall_seconds_cap": 86400,
+  "no_network": true,
+  "production_default": "unchanged N19"
+}

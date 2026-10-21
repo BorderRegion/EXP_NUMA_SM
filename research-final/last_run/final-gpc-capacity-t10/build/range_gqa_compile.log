@@ -1,0 +1,149 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi256ELi4ELb1ELb0ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi256ELi4ELb1ELb0ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 125 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi256ELi4ELb0ELb0ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi256ELi4ELb0ELb0ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 127 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi256ELi4ELb1ELb0ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi256ELi4ELb1ELb0ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 125 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi256ELi4ELb0ELb0ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi256ELi4ELb0ELb0ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 127 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi256ELi4ELb1ELb1ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi256ELi4ELb1ELb1ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 156 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi256ELi4ELb0ELb1ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi256ELi4ELb0ELb1ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 126 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity5mergeILi256ELi4EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity5mergeILi256ELi4EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 51 registers, 2048 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi256ELi4ELb1ELb1ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi256ELi4ELb1ELb1ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 157 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi256ELi4ELb0ELb1ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi256ELi4ELb0ELb1ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 126 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi8ELb1ELb0ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi8ELb1ELb0ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi8ELb0ELb0ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi8ELb0ELb0ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi8ELb1ELb0ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi8ELb1ELb0ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi8ELb0ELb0ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi8ELb0ELb0ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi8ELb1ELb1ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi8ELb1ELb1ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 94 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi8ELb0ELb1ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi8ELb0ELb1ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 92 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity5mergeILi128ELi8EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity5mergeILi128ELi8EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 43 registers, 4096 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi8ELb1ELb1ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi8ELb1ELb1ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 116 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi8ELb0ELb1ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi8ELb0ELb1ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 92 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi4ELb1ELb0ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi4ELb1ELb0ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi4ELb0ELb0ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi4ELb0ELb0ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi4ELb1ELb0ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi4ELb1ELb0ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi4ELb0ELb0ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi4ELb0ELb0ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi4ELb1ELb1ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi4ELb1ELb1ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 94 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi4ELb0ELb1ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi4ELb0ELb1ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 92 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity5mergeILi128ELi4EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity5mergeILi128ELi4EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 43 registers, 2048 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi4ELb1ELb1ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi4ELb1ELb1ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 116 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi4ELb0ELb1ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi4ELb0ELb1ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 92 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi1ELb1ELb0ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi1ELb1ELb0ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi1ELb0ELb0ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi1ELb0ELb0ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi1ELb1ELb0ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi1ELb1ELb0ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi1ELb0ELb0ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi1ELb0ELb0ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi1ELb1ELb1ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi1ELb1ELb1ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi1ELb0ELb1ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi1ELb0ELb1ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 80 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity5mergeILi128ELi1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity5mergeILi128ELi1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 45 registers, 512 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi1ELb1ELb1ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi1ELb1ELb1ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity6decodeILi128ELi1ELb0ELb1ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity6decodeILi128ELi1ELb0ELb1ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 80 registers, 16 bytes smem, 480 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN14final_capacity11append_onlyEP6__halfS1_PKS0_S3_PKiS5_iii' for 'sm_75'
+ptxas info    : Function properties for _ZN14final_capacity11append_onlyEP6__halfS1_PKS0_S3_PKiS5_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 412 bytes cmem[0]

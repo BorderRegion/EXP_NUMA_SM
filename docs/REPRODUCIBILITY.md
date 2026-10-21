@@ -71,3 +71,12 @@ python3 tools/verify_archive.py --assets /path/to/release-assets --extract /path
 - 报告里写的 CPU 复算命令与路径（`tools/matrices.py`、`tools/analyze.py` 等）都在本机原始项目里；需要复算时用原件，并按报告写明的边界解释结果。
 - 报告里的绝对路径和“下一步”保留原样，只适用于当时的机器。
 - 前史的数字不能与 T10 阶段合并或互相外推。
+
+
+## 六、2026-10-19至21新增三阶段
+
+01–25旧恢复命令继续指向records-2026-10-18。26–28另见[新发布与校验说明](../archive/2026-10-21/README.md)，不要把旧INDEX当成全28阶段清单。
+
+新Release中26、27各自ZIP包含该轮完整raw/源码/二进制；28的FULL包含本轮raw与关键代码和28阶段汇总，但历史大raw用旧Release引用，因此不是全部历史的离线独立复现包。新小包解压后可CPU复算第28阶段；git浏览视图省略raw，需先取ZIP。
+
+推荐GQA入口、布局/并发/COW合同、编译与路径依赖见[FAST_GQA](../research-final/reusable/FAST_GQA.md)。CAP未设置为默认。新数据已按原统计口径复算，原报告与配对修正都保留。

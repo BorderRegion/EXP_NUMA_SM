@@ -1,0 +1,15 @@
+执行附件 T10_FINAL_GPC_CAPACITY_AND_ARCHIVE_20261021，仅当前T10本机。
+
+这是最后一次长程且有边界的尝试：先实际落实100W下可维持的受支持频率与A/A，再测同一真实GPC内2/4/6/8/10/12SM的总容量和每SM服务率；然后将实测容量用于第19阶段向量GQA的完整worker静态分工。最后整理全部历史与新信息。
+
+不要重开Softmax配对/邮箱搜索、0x33拟合、10/46共置、q/k搜索或新ML选择器。按SM数分工、GPC均分、容量分工、错误容量、同体全设备、原N19都要比较。没有过强基线，就不把普通工程改善叫NUMA成功。
+
+资源名单只用于初始化；kernel只增加begin/count或同语义常量，保留原head/worker/page序列、16B搬运、partial布局和merge顺序。无逐任务调度LUT、小planner、额外搬运、调度D2H、中间CPU等待。BLIND保留强基线，不偷偷拆改队列。五个实质producer相对原单producer的额外成本也必须入账。
+
+先读START_HERE、CODEX_MASTER_TASK及docs/01–04。正常工程问题连续处理，不逐步请示；但管理入口不存在就明确交接，不能再声称固定频率已实施。最多三档保守频率，只按状态可维持性选，保留保护和恢复，不提升功耗、改sudo/driver或绕权限。
+
+计划16小时、硬墙时24小时；GPU-worker新预算6小时且包含在墙时内，不要求花满。管理控制未落地按明确缩减分支，GPU最多60分钟，其余完成CPU复算和归档。离线，不SSH/下载/安装/租卡/换卡/上传。
+
+无论正负完成：FINAL_RESEARCH_REPORT.md、GPC_CAPACITY_REPORT.md、APPLICATION_REPORT.md、ADMIN_AND_STATE.md、stage_catalog.jsonl、claims_and_evidence.jsonl、可复用快核说明、导师简报，以及审阅小包/完整本地复现索引。
+
+最后恢复自己改过的设置，结束自己启动的worker，保留所有原始正负结果、失败和NA。不要用“再试一个参数”代替最终决策。

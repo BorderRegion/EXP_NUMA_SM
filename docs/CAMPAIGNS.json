@@ -223,5 +223,32 @@
     "archive": "topology-real-t10",
     "result": "BASE54 复验热输入 +0.8318%、重写 +0.3346%，各6/6正；TUNED 对 BASE 净 −0.2728%/−0.2563%。",
     "boundary": "未扣校准平均也无正收益；保留 BASE54，停止当前 Softmax 同类搜索。"
+  },
+  {
+    "id": "26",
+    "date": "10-19",
+    "title": "GPC竞争、地址相关性与GQA共置",
+    "report": "gpc-contention-gqa-t10/runs/20261019T041515Z/reports/T10_GPC_CONTENTION_GQA_REPORT.md",
+    "archive": "gpc-contention-gqa-t10",
+    "result": "局部竞争效应明显，但10/46完整GQA共置未胜强基线。",
+    "boundary": "动态100W；局部变化不等于NUMA或全算子净收益。"
+  },
+  {
+    "id": "27",
+    "date": "10-19",
+    "title": "资源份额与尾部释放收束",
+    "report": "quota-tail-closure-t10/runs/20261019T064852Z/reports/T10_QUOTA_TAIL_CLOSURE_REPORT.md",
+    "archive": "quota-tail-closure-t10",
+    "result": "LONG RELEASE/FIXED耗时−24.972%；JOINT/强串行+0.633%，区间跨零。",
+    "boundary": "PACK局部正值保留，不在确认后改选；RAGGED串行alias。"
+  },
+  {
+    "id": "28",
+    "date": "10-21",
+    "title": "同GPC容量、完整worker静态分工与归档",
+    "report": "../research-final/FINAL_RESEARCH_REPORT.md",
+    "archive": "T10_RESEARCH_FINAL_REPRODUCE_FULL_20261021.zip",
+    "result": "三档固定状态未达标；48容量条件、四锚六动作两块完成；CAP配对ready约慢2.0%–19.6%。",
+    "boundary": "CONTROL_LIMITED；完整固定状态与长程矩阵NA；不是证明NUMA不存在。"
   }
 ]

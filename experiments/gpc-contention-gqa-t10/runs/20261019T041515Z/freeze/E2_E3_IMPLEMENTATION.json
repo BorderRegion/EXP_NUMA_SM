@@ -1,0 +1,253 @@
+{
+  "frozen_before_formal": true,
+  "hashes": {
+    "src/bridge.cu": "c5ca6de093e91de105ffaaf678856f1105fd722a972fa90ea3f9ff0ccc26fdcd",
+    "src/measure.py": "1c01eb231eceaa6a2b1ac71fe1e5d11a0fb9db33a204d6a797a2a9c65679a616",
+    "src/micro.cu": "b412ae3f7bfcebeaf865442378d87a31e404d3a05f6ee46c41784771c9f57ff6",
+    "src/common.py": "d76067a1ac595798e6f38834f970d31a75e4b45578c4ac54fbd2142330ea5a6f",
+    "src/gqa_data.py": "cb953c918785c4c4b400f933141ec9aca2312714af59e3d9146ae27a9e90f964",
+    "src/control.py": "7a515084ece9bcd2453507eba1caf342ddbec30f5dabeb82e0ca6ecbcc227de8",
+    "src/reanalyze_history.py": "0727d1142a3280467cf5184c07919395d5f7d36545119523252880125b97a8ff",
+    "src/qualify_resources.py": "47e23843efd39b39c9d2fd61d62727d4ce9c384145025ebd5646262489019017",
+    "src/qualify_ops.py": "4044c9703dc616ea5c291748ff4c58fb98ce16e40bbb5705dddbd622c4af0ddd",
+    "src/gqa.cu": "1c2aac2ef0d290b0c7b4093f486f5749e5941b455694c506adf6c903245131b7",
+    "src/worker.py": "50c82f15d1a83af00cc683b3b304ed550b1659cd70c199e581a2e81a4154f671",
+    "src/build.py": "132fa0b296d557ab51609567979ae7ab555c52212eb67d4042244ef0ae560b36",
+    "src/micro_runtime.py": "d18393bf7989e0412f8d01f4f9e7f6d6b74033537ed161681bb110c574ad4efb",
+    "src/formal_single.py": "9979f4598e120d27f09ed5699bb2041cac00de8a6ad555fdab156d09ffb4c375",
+    "src/gqa_append.cu": "9b21caa8426e595d0874e94f0275807a72cc3ddc033217381e17eda4cf7afb42",
+    "src/run_single.py": "f20349f240a41844cae5d14c3a45c4b2ff652ac58caa955834139387fa387cc3",
+    "src/gqa_runtime.py": "21fee72817dadab5820eb148a0dbcec67130e70599c92e736c8abbd1742b0387",
+    "build/micro.so": "d2801bf6cfcc9de22f0c738ffce1591828bb46d94301f2453d0d0e7bd5962c32",
+    "build/bridge.so": "7594b6372cd2d97382552b631664fa6dec5956d1fd9d837afe54ffab761e0f51",
+    "build/gqa.so": "62e089cb50b851b613118fd4f09415ece037fb93870c08da0aee59a802cded47",
+    "build/gqa_append.so": "4500d5a436a5d7195b12f1cb233478821ec824fb7ba8862c83082e2bdeea5b98"
+  },
+  "formal_no_smid_clock": [
+    {
+      "binary": "gqa",
+      "function": "_ZN7stage266decodeILi256ELi4ELb1ELb0ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa",
+      "function": "_ZN7stage266decodeILi256ELi4ELb0ELb0ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa",
+      "function": "_ZN7stage266decodeILi256ELi4ELb1ELb1ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa",
+      "function": "_ZN7stage266decodeILi256ELi4ELb0ELb1ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa",
+      "function": "_ZN7stage266decodeILi128ELi8ELb1ELb0ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa",
+      "function": "_ZN7stage266decodeILi128ELi8ELb0ELb0ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa",
+      "function": "_ZN7stage266decodeILi128ELi8ELb1ELb1ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa",
+      "function": "_ZN7stage266decodeILi128ELi8ELb0ELb1ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa",
+      "function": "_ZN7stage266decodeILi128ELi4ELb1ELb0ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa",
+      "function": "_ZN7stage266decodeILi128ELi4ELb0ELb0ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa",
+      "function": "_ZN7stage266decodeILi128ELi4ELb1ELb1ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa",
+      "function": "_ZN7stage266decodeILi128ELi4ELb0ELb1ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa",
+      "function": "_ZN7stage266decodeILi128ELi1ELb1ELb0ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa",
+      "function": "_ZN7stage266decodeILi128ELi1ELb0ELb0ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa",
+      "function": "_ZN7stage266decodeILi128ELi1ELb1ELb1ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa",
+      "function": "_ZN7stage266decodeILi128ELi1ELb0ELb1ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa_append",
+      "function": "_ZN7stage266decodeILi256ELi4ELb1ELb0ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa_append",
+      "function": "_ZN7stage266decodeILi256ELi4ELb0ELb0ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa_append",
+      "function": "_ZN7stage266decodeILi256ELi4ELb1ELb1ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa_append",
+      "function": "_ZN7stage266decodeILi256ELi4ELb0ELb1ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa_append",
+      "function": "_ZN7stage266decodeILi128ELi8ELb1ELb0ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa_append",
+      "function": "_ZN7stage266decodeILi128ELi8ELb0ELb0ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa_append",
+      "function": "_ZN7stage266decodeILi128ELi8ELb1ELb1ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa_append",
+      "function": "_ZN7stage266decodeILi128ELi8ELb0ELb1ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa_append",
+      "function": "_ZN7stage266decodeILi128ELi4ELb1ELb0ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa_append",
+      "function": "_ZN7stage266decodeILi128ELi4ELb0ELb0ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa_append",
+      "function": "_ZN7stage266decodeILi128ELi4ELb1ELb1ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa_append",
+      "function": "_ZN7stage266decodeILi128ELi4ELb0ELb1ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa_append",
+      "function": "_ZN7stage266decodeILi128ELi1ELb1ELb0ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa_append",
+      "function": "_ZN7stage266decodeILi128ELi1ELb0ELb0ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa_append",
+      "function": "_ZN7stage266decodeILi128ELi1ELb1ELb1ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    },
+    {
+      "binary": "gqa_append",
+      "function": "_ZN7stage266decodeILi128ELi1ELb0ELb1ELb0EEEv6Params",
+      "smid_present": false,
+      "clock_present": false,
+      "vector128_load": true
+    }
+  ],
+  "math_change": "Remove unused SM preference selection for DIRECT/BLIND; diagnostic Trace variants keep smid; same numerical body, grid, W, vector loads. Original N19 retained."
+}

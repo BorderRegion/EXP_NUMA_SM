@@ -1,0 +1,142 @@
+{
+  "schema": "T10_FINAL_V1",
+  "date": "2026-10-21",
+  "status": "DESIGN_ONLY",
+  "target": "T10_current_local",
+  "wall_minutes_plan": 960,
+  "wall_minutes_hard": 1440,
+  "gpu_worker_minutes_cap": 360,
+  "control_limited_gpu_minutes_cap": 60,
+  "power_limit_w": 100,
+  "max_frequency_candidates": 3,
+  "network": false,
+  "new_paid_resources": false,
+  "gpc_order": [
+    0,
+    1,
+    2,
+    3,
+    5
+  ],
+  "expected_sm_counts": [
+    10,
+    12,
+    12,
+    10,
+    12
+  ],
+  "calibration_processes": 2,
+  "confirmation_processes": 6,
+  "confirmation_sessions": [
+    3,
+    3
+  ],
+  "micro_ctas": [
+    120,
+    240
+  ],
+  "micro_threads": 128,
+  "micro_subsets_per_block": 28,
+  "micro_workloads": [
+    "HOT2_DEFAULT",
+    "HOT2_CG",
+    "STREAM32_CG",
+    "STREAM128_CG",
+    "REG_FMA"
+  ],
+  "address_offsets_bytes": [
+    0,
+    32,
+    64,
+    128,
+    256,
+    4096,
+    69632,
+    69760
+  ],
+  "actions": [
+    "N19",
+    "E56_DIRECT",
+    "SM_PROP",
+    "EQUAL_GPC",
+    "CAP",
+    "WRONG_CAP"
+  ],
+  "weights_source": "plans/cases.json explicit weights_from; no test nearest-anchor reselection",
+  "phase_caps": {
+    "micro_main": 1680,
+    "micro_primary_reference": 60,
+    "address_sensitivity": 96,
+    "gqa_capacity_calibration": 96,
+    "application_main": 864,
+    "growth_sequences": 96,
+    "native_bypass": 24,
+    "restored_dynamic_sensitivity": 36
+  },
+  "long_run": {
+    "cases": [
+      "A02",
+      "A04"
+    ],
+    "segments_each": 3,
+    "segment_seconds": 600,
+    "actions": [
+      "N19",
+      "BEST_SIMPLE",
+      "CAP",
+      "WRONG_CAP"
+    ]
+  },
+  "shrink_order": [
+    "omit_address_sensitivity",
+    "omit_STREAM32",
+    "omit_REG_FMA_grid240",
+    "holdouts_keep_V01_V03_V05_V08_all_6_blocks",
+    "long_run_segments_each_2"
+  ],
+  "priority_nonremovable": [
+    "actual_state_report",
+    "within_12SM_GPC_10_vs12",
+    "all_4_application_anchors",
+    "N19_and_samebody_strong_controls",
+    "wrong_capacity_control",
+    "archive_and_restore"
+  ],
+  "phases": [
+    {
+      "id": "P0",
+      "wall_minutes": 60,
+      "worker_minutes": 10
+    },
+    {
+      "id": "P1",
+      "wall_minutes": 120,
+      "worker_minutes": 40
+    },
+    {
+      "id": "P2",
+      "wall_minutes": 150,
+      "worker_minutes": 75
+    },
+    {
+      "id": "P3",
+      "wall_minutes": 240,
+      "worker_minutes": 90
+    },
+    {
+      "id": "P4",
+      "wall_minutes": 210,
+      "worker_minutes": 90
+    },
+    {
+      "id": "P5",
+      "wall_minutes": 120,
+      "worker_minutes": 15
+    },
+    {
+      "id": "reserve",
+      "wall_minutes": 60,
+      "worker_minutes": 40
+    }
+  ]
+}

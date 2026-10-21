@@ -1,0 +1,645 @@
+{
+  "utc": "2026-10-21T05:02:52.495604+00:00",
+  "manifests": [
+    {
+      "manifest": "GPU_COMPUTE_TOPOLOGY_DUAL_20261014.jsonl",
+      "counts": {
+        "PRESENT": 34
+      }
+    },
+    {
+      "manifest": "address-gemm-t10.jsonl",
+      "counts": {
+        "PRESENT": 2715
+      }
+    },
+    {
+      "manifest": "address-gemm-v2-t10.jsonl",
+      "counts": {
+        "PRESENT": 1647
+      }
+    },
+    {
+      "manifest": "assets.jsonl",
+      "counts": {
+        "PRESENT": 33
+      }
+    },
+    {
+      "manifest": "build.jsonl",
+      "counts": {
+        "PRESENT": 178
+      }
+    },
+    {
+      "manifest": "config.jsonl",
+      "counts": {
+        "PRESENT": 1
+      }
+    },
+    {
+      "manifest": "derived.jsonl",
+      "counts": {
+        "PRESENT": 37
+      }
+    },
+    {
+      "manifest": "environment.jsonl",
+      "counts": {
+        "PRESENT": 54
+      }
+    },
+    {
+      "manifest": "exports.jsonl",
+      "counts": {
+        "PRESENT": 20143
+      }
+    },
+    {
+      "manifest": "gpc-mask-t10.jsonl",
+      "counts": {
+        "PRESENT": 3828
+      }
+    },
+    {
+      "manifest": "handoff-desktop.jsonl",
+      "counts": {
+        "EXTERNAL_HANDOFF_REFERENCE_NOT_RELOCATED": 414
+      }
+    },
+    {
+      "manifest": "handoff-downloads.jsonl",
+      "counts": {
+        "EXTERNAL_HANDOFF_REFERENCE_NOT_RELOCATED": 57
+      }
+    },
+    {
+      "manifest": "incoming.jsonl",
+      "counts": {
+        "PRESENT": 21
+      }
+    },
+    {
+      "manifest": "llm-decode-locality-t10.jsonl",
+      "counts": {
+        "PRESENT": 1678
+      }
+    },
+    {
+      "manifest": "matched-pacing-t10.jsonl",
+      "counts": {
+        "PRESENT": 209
+      }
+    },
+    {
+      "manifest": "numa-affinity-causal-t10.jsonl",
+      "counts": {
+        "PRESENT": 2640
+      }
+    },
+    {
+      "manifest": "numa-affinity-fastpath-t10.jsonl",
+      "counts": {
+        "PRESENT": 3913
+      }
+    },
+    {
+      "manifest": "numa-first-v3.jsonl",
+      "counts": {
+        "PRESENT": 7650
+      }
+    },
+    {
+      "manifest": "numa-locality-scheduling-t10.jsonl",
+      "counts": {
+        "PRESENT": 2204
+      }
+    },
+    {
+      "manifest": "op-fused.jsonl",
+      "counts": {
+        "PRESENT": 57872
+      }
+    },
+    {
+      "manifest": "pc-handoff-t10.jsonl",
+      "counts": {
+        "PRESENT": 2759
+      }
+    },
+    {
+      "manifest": "preregistration.jsonl",
+      "counts": {
+        "PRESENT": 96
+      }
+    },
+    {
+      "manifest": "reports.jsonl",
+      "counts": {
+        "PRESENT": 39
+      }
+    },
+    {
+      "manifest": "root.jsonl",
+      "counts": {
+        "PRESENT": 8
+      }
+    },
+    {
+      "manifest": "runs.jsonl",
+      "counts": {
+        "PRESENT": 8937
+      }
+    },
+    {
+      "manifest": "selective-reorder-repair-v2-t10.jsonl",
+      "counts": {
+        "PRESENT": 1077
+      }
+    },
+    {
+      "manifest": "selective-reorder-t10.jsonl",
+      "counts": {
+        "PRESENT": 682
+      }
+    },
+    {
+      "manifest": "sm-topology-t10.jsonl",
+      "counts": {
+        "PRESENT": 583
+      }
+    },
+    {
+      "manifest": "src.jsonl",
+      "counts": {
+        "PRESENT": 15
+      }
+    },
+    {
+      "manifest": "state-causality-t10.jsonl",
+      "counts": {
+        "PRESENT": 597
+      }
+    },
+    {
+      "manifest": "tools.jsonl",
+      "counts": {
+        "PRESENT": 37
+      }
+    },
+    {
+      "manifest": "topology-affinity-t10.jsonl",
+      "counts": {
+        "PRESENT": 2608
+      }
+    },
+    {
+      "manifest": "topology-real-t10.jsonl",
+      "counts": {
+        "PRESENT": 2686
+      }
+    },
+    {
+      "manifest": "topology-tail-t10.jsonl",
+      "counts": {
+        "PRESENT": 2480
+      }
+    },
+    {
+      "manifest": "transient-f4-diag-t10.jsonl",
+      "counts": {
+        "PRESENT": 1222
+      }
+    },
+    {
+      "manifest": "vendor.jsonl",
+      "counts": {
+        "PRESENT": 3356,
+        "MISSING": 1
+      }
+    }
+  ],
+  "spot_checks": [
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/address-gemm-t10/runs/20261017T130625Z/formal_0/R_G002/correctness.json",
+      "actual_sha256": "262f6abcdf6a4f7eb31cef26f5833ab663a5cb223cce6b8adb9b6ea184da0083",
+      "expected_sha256": "262f6abcdf6a4f7eb31cef26f5833ab663a5cb223cce6b8adb9b6ea184da0083",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/address-gemm-t10/runs/20261017T130625Z/formal_v2_3/D13/offset_0/after_SHUFFLED_1_placement.npy",
+      "actual_sha256": "3cd50382306a3b1ff752e57a8c841ab8d96ee76057b945fcf3bf4dc0ac9d9fda",
+      "expected_sha256": "3cd50382306a3b1ff752e57a8c841ab8d96ee76057b945fcf3bf4dc0ac9d9fda",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/address-gemm-t10/runs/20261017T130625Z/synccheck/telemetry.jsonl",
+      "actual_sha256": "b8b0e86eea9f0073044eb1c0ed552e6b0b3edda6be8d35e71dc70facd1d84fa8",
+      "expected_sha256": "b8b0e86eea9f0073044eb1c0ed552e6b0b3edda6be8d35e71dc70facd1d84fa8",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/address-gemm-v2-t10/runs/20261017T134730Z/confirmation_0/D13/o0_c1024_g112/FUSED_placement.npy",
+      "actual_sha256": "70006561ff98e08733710a77f6c4a0c0ba70e2d5e14ad8ed80a62822a328a848",
+      "expected_sha256": "70006561ff98e08733710a77f6c4a0c0ba70e2d5e14ad8ed80a62822a328a848",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/address-gemm-v2-t10/runs/20261017T134730Z/development_0/V13/o0_c1024_g56/mapping.json",
+      "actual_sha256": "ee984d97235e78f04c7b154b127480a96e0e0be641a98a5a2b95b083bedde79a",
+      "expected_sha256": "ee984d97235e78f04c7b154b127480a96e0e0be641a98a5a2b95b083bedde79a",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/address-gemm-v2-t10/runs/20261017T134730Z/tune_development_1/telemetry.jsonl",
+      "actual_sha256": "2a108d25f1d30b4d5c7522b745f960f7aedef07a75cc93baafbbd27a227ec990",
+      "expected_sha256": "2a108d25f1d30b4d5c7522b745f960f7aedef07a75cc93baafbbd27a227ec990",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/exports/GPU_TOPOLOGY_T10_20261014/runs/t10/E0_qualification/t10_20261014T134550Z_743e952f/config.resolved.json",
+      "actual_sha256": "9cb8d79bfe27e86d878757f45299dcc673e2261c87ca305f746ce72019f762a5",
+      "expected_sha256": "9cb8d79bfe27e86d878757f45299dcc673e2261c87ca305f746ce72019f762a5",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/exports/T10_SUPPLEMENT_GPT_20261015/runs/t10/S2_sanitizer/t10_20261015T050359Z_984c3f5c/correctness.json",
+      "actual_sha256": "9486bb7ec7ed1887287d329b1ea0f1fdf98ffdd760936c10845e7a08b423532d",
+      "expected_sha256": "9486bb7ec7ed1887287d329b1ea0f1fdf98ffdd760936c10845e7a08b423532d",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/exports/T10_实验结果与质疑_20261015/runs/t10/W2_sanitizer/t10_20261014T141037Z_11feeb4b/summary.json",
+      "actual_sha256": "2c5b19c8dc86960bed563636600c11b544d29a66e17556c905661380135ab524",
+      "expected_sha256": "2c5b19c8dc86960bed563636600c11b544d29a66e17556c905661380135ab524",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/llm-decode-locality-t10/runs/20261017T143113Z/append_confirmation_0/BATCH4_RAGGED/offset_0/complete.json",
+      "actual_sha256": "b9711de5d156dc10e18b9c33fa13374eb48dc707e26d9ffc9d2462637d63a5ae",
+      "expected_sha256": "b9711de5d156dc10e18b9c33fa13374eb48dc707e26d9ffc9d2462637d63a5ae",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/llm-decode-locality-t10/runs/20261017T143113Z/confirmation_2/GQA4_LONG/offset_0/complete.json",
+      "actual_sha256": "d30e2c4b861f7dc0d0d9bb4681073c2c29dbd92155d89e9d40904c4a34b8ee9f",
+      "expected_sha256": "d30e2c4b861f7dc0d0d9bb4681073c2c29dbd92155d89e9d40904c4a34b8ee9f",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/llm-decode-locality-t10/runs/20261017T143113Z/verify_public_api/verification.json",
+      "actual_sha256": "2d95397e70e2804fd8370044e5e81d62a31f0b15fe52dfac732df648ed123809",
+      "expected_sha256": "2d95397e70e2804fd8370044e5e81d62a31f0b15fe52dfac732df648ed123809",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/matched-pacing-t10/runs/20261017T105920Z/derived/results.json",
+      "actual_sha256": "8b4e93bc68c0cb2152ee0cd069571403dae50d4465f55d2c6966e7a9cdda7829",
+      "expected_sha256": "8b4e93bc68c0cb2152ee0cd069571403dae50d4465f55d2c6966e7a9cdda7829",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/matched-pacing-t10/runs/20261017T105920Z/raw/M1_block_1/condition.requests.csv.gz",
+      "actual_sha256": "3207a3e58951cad81a70c7575ba54b282d7d3a23c630b0cfd78d3d38ccd3b63e",
+      "expected_sha256": "3207a3e58951cad81a70c7575ba54b282d7d3a23c630b0cfd78d3d38ccd3b63e",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/matched-pacing-t10/runs/20261017T105920Z/raw/M1_block_3/telemetry_hz.txt",
+      "actual_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "expected_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-affinity-causal-t10/runs/20261018T050207Z/confirm_0/V129024/BAL/batch/page17/complete.json",
+      "actual_sha256": "b4e2030369ce6be0c11f823ac1b21b58d973c2c7f3db0ecfcc33c48a1bbae37b",
+      "expected_sha256": "b4e2030369ce6be0c11f823ac1b21b58d973c2c7f3db0ecfcc33c48a1bbae37b",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-affinity-causal-t10/runs/20261018T050207Z/confirm_5/V129024/BOTH/batch/page257/graphs.json",
+      "actual_sha256": "8c010695a7baf35f7ed8dd48e1422f7e91408eac9dc4750de03517145761edea",
+      "expected_sha256": "8c010695a7baf35f7ed8dd48e1422f7e91408eac9dc4750de03517145761edea",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-affinity-causal-t10/runs/20261018T050207Z/synccheck/telemetry.jsonl",
+      "actual_sha256": "8f511995f3ddff49a1484ba9ea9151ae374357e0a9b2ce93d2d05f4d03442e6a",
+      "expected_sha256": "8f511995f3ddff49a1484ba9ea9151ae374357e0a9b2ce93d2d05f4d03442e6a",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-affinity-fastpath-t10/runs/20261018T025123Z/api_0/api.json",
+      "actual_sha256": "3405245f4393cbd52c35185d4ce871e083d239a91570b14a2945bf0007aca3bb",
+      "expected_sha256": "3405245f4393cbd52c35185d4ce871e083d239a91570b14a2945bf0007aca3bb",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-affinity-fastpath-t10/runs/20261018T025123Z/soft_common_1/VOCAB_262144/offset_17/complete.json",
+      "actual_sha256": "759a34e8ca573968a5226028b0a275a42b869f585097d00b1facfca58a778bd8",
+      "expected_sha256": "759a34e8ca573968a5226028b0a275a42b869f585097d00b1facfca58a778bd8",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-affinity-fastpath-t10/runs/20261018T025123Z/soft_tensor_3/telemetry.jsonl",
+      "actual_sha256": "14dc75110422d6689431e98ac05c8d91efa8e0f7e76a286c633cc99e1f87dcb1",
+      "expected_sha256": "14dc75110422d6689431e98ac05c8d91efa8e0f7e76a286c633cc99e1f87dcb1",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-first-v3/runs/t10/20261016T021032Z/B_STAR_DEVELOPMENT_SOURCE.json",
+      "actual_sha256": "31afe5fe75da287056ef4846175d7f15c24c24b70820f2489cef4286589d70a7",
+      "expected_sha256": "31afe5fe75da287056ef4846175d7f15c24c24b70820f2489cef4286589d70a7",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-first-v3/runs/t10/20261016T021032Z/review_package/compact_raw/p4_native_b2/render_bonsai_1920x1080_q1/stdout.log",
+      "actual_sha256": "114cb19192cee57b69cdaec6479d14188b2ca2917dc5ece8fb7e4ffaa591d229",
+      "expected_sha256": "114cb19192cee57b69cdaec6479d14188b2ca2917dc5ece8fb7e4ffaa591d229",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-first-v3/runs/t10/frozen_rule_20261016T084603Z/review_package/src/telemetry.py",
+      "actual_sha256": "78e97f288811651cc4227269ec7dcd6667b123774518f16a0ac3f5655b2575ff",
+      "expected_sha256": "78e97f288811651cc4227269ec7dcd6667b123774518f16a0ac3f5655b2575ff",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-locality-scheduling-t10/runs/20261017T160348Z/append_0/BATCH4_RAGGED/offset_0/complete.json",
+      "actual_sha256": "fc716254b851ebd632e041887c4d899750d5e7a4afc158544a5b204a81d68a76",
+      "expected_sha256": "fc716254b851ebd632e041887c4d899750d5e7a4afc158544a5b204a81d68a76",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-locality-scheduling-t10/runs/20261017T160348Z/development_0/BATCH4_RAGGED/offset_65536/graphs.json",
+      "actual_sha256": "8b56026d4fc230250138094474f6c799f45b02fac203f575c8119a67bbd44af1",
+      "expected_sha256": "8b56026d4fc230250138094474f6c799f45b02fac203f575c8119a67bbd44af1",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-locality-scheduling-t10/runs/20261017T160348Z/verify_public_api/verification.json",
+      "actual_sha256": "309ea282c08b0ddcc68562cbd82559b7f110912b6ef49574a19b9126837a0929",
+      "expected_sha256": "309ea282c08b0ddcc68562cbd82559b7f110912b6ef49574a19b9126837a0929",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/op-fused/recovery_20261015/input_review/source_evidence/runs/20261015T094345Z_89855f78/grouped-025.json",
+      "actual_sha256": "5b52814bc7ae8c4ebeedf58a3c5848fea120da2724f347d86772fe8b47a6c1f2",
+      "expected_sha256": "5b52814bc7ae8c4ebeedf58a3c5848fea120da2724f347d86772fe8b47a6c1f2",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/op-fused/runs/20261015T153929Z_2a4216df/frozen/op-fused/vendor/cutlass/include/cute/layout_composed.hpp",
+      "actual_sha256": "c149170ddd4f42e6d5b4ba54b7f2150ef1a380a9915e562978a9355cdcf1c79d",
+      "expected_sha256": "c149170ddd4f42e6d5b4ba54b7f2150ef1a380a9915e562978a9355cdcf1c79d",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/op-fused/runs/20261015T181012Z_a2fa421d/telemetry.csv",
+      "actual_sha256": "6dd8c702e6c080f528a4ae9f06d6cf79bb93ae0fe67380d5d5956ba84b71c69c",
+      "expected_sha256": "6dd8c702e6c080f528a4ae9f06d6cf79bb93ae0fe67380d5d5956ba84b71c69c",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/pc-handoff-t10/review_staging/20261016_223458/data/run/raw/E1_block_0/complete.json",
+      "actual_sha256": "3eb61083d48fc50395631cbc9952139080dc26be72d13728c3df16812bebec27",
+      "expected_sha256": "3eb61083d48fc50395631cbc9952139080dc26be72d13728c3df16812bebec27",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/pc-handoff-t10/runs/20261016T112633Z/raw/E1_block_1/stdout.log",
+      "actual_sha256": "522d422836c066fda44c11a657e4a08e4999e96f594deead38988c86a3ac54b7",
+      "expected_sha256": "522d422836c066fda44c11a657e4a08e4999e96f594deead38988c86a3ac54b7",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/pc-handoff-t10/runs/20261016T112633Z/raw/sanitizer_production/telemetry.csv",
+      "actual_sha256": "bfbe928856a374990b4618b1084d5031f2fdc39365bba46e924d449d15c99886",
+      "expected_sha256": "bfbe928856a374990b4618b1084d5031f2fdc39365bba46e924d449d15c99886",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/runs/t10/E0_qualification/t10_20261014T134550Z_743e952f/config.resolved.json",
+      "actual_sha256": "9cb8d79bfe27e86d878757f45299dcc673e2261c87ca305f746ce72019f762a5",
+      "expected_sha256": "9cb8d79bfe27e86d878757f45299dcc673e2261c87ca305f746ce72019f762a5",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/runs/t10/E3/t10_20261014T135716Z_bc582c45/health_after.csv",
+      "actual_sha256": "3a41dee84e82384730a0e9a992dc8710b3ab5edca0a6eece4cbb8ceab4675c3d",
+      "expected_sha256": "3a41dee84e82384730a0e9a992dc8710b3ab5edca0a6eece4cbb8ceab4675c3d",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/runs/t10/W2_sanitizer/t10_20261014T141037Z_11feeb4b/summary.json",
+      "actual_sha256": "2c5b19c8dc86960bed563636600c11b544d29a66e17556c905661380135ab524",
+      "expected_sha256": "2c5b19c8dc86960bed563636600c11b544d29a66e17556c905661380135ab524",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/selective-reorder-repair-v2-t10/runs/20261017T021630Z/derived/action_block_table.json",
+      "actual_sha256": "30ddbd9054c109111bece3ec6e7e65d0f412e9fc47355288963b216910b164cb",
+      "expected_sha256": "30ddbd9054c109111bece3ec6e7e65d0f412e9fc47355288963b216910b164cb",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/selective-reorder-repair-v2-t10/runs/20261017T021630Z/raw/S4_pairs_4/conditioning.jsonl",
+      "actual_sha256": "281dbfc41b58609c4c309d2c80864577547b9e37ba2080feac9c125052482efa",
+      "expected_sha256": "281dbfc41b58609c4c309d2c80864577547b9e37ba2080feac9c125052482efa",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/selective-reorder-repair-v2-t10/runs/20261017T021630Z/raw/S6_profiles/telemetry.csv",
+      "actual_sha256": "f43a106928f85033c24ecbf98838cba603c910e2318426f6e95c62529bcaef78",
+      "expected_sha256": "f43a106928f85033c24ecbf98838cba603c910e2318426f6e95c62529bcaef78",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/selective-reorder-t10/runs/20261016T170348Z/CALIBRATION_COMPLETE.json",
+      "actual_sha256": "dd85217a73a3cf95d337fb34c6e05188da2e812d4faa32cc9c2026d879ad4518",
+      "expected_sha256": "dd85217a73a3cf95d337fb34c6e05188da2e812d4faa32cc9c2026d879ad4518",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/selective-reorder-t10/runs/20261016T170348Z/raw/S4_block_5/phases.jsonl",
+      "actual_sha256": "a8ca1b14a17a880b4caa05543d333f09f7704fcb0cfc8ad0b0995fa69485378e",
+      "expected_sha256": "a8ca1b14a17a880b4caa05543d333f09f7704fcb0cfc8ad0b0995fa69485378e",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/selective-reorder-t10/runs/20261016T170348Z/raw/S6_profiles/telemetry.csv",
+      "actual_sha256": "5eaa2a9802f07f050df77cebe091c3566ee87bf1f140eff3bef3d2f374ccfa9c",
+      "expected_sha256": "5eaa2a9802f07f050df77cebe091c3566ee87bf1f140eff3bef3d2f374ccfa9c",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/sm-topology-t10/runs/20261017T121101Z/development_arrays_0.npz",
+      "actual_sha256": "7ce755016a4d4d1417290bed0ed0fe38d34b3826d2926c36c2e6593b98953764",
+      "expected_sha256": "7ce755016a4d4d1417290bed0ed0fe38d34b3826d2926c36c2e6593b98953764",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/sm-topology-t10/runs/20261017T121101Z/raw/matrix_1/last_downloaded_batch.bin",
+      "actual_sha256": "7e5191f8308830f6e0399232fea2695c152ed8bf5a84279a9312a55cb437791f",
+      "expected_sha256": "7e5191f8308830f6e0399232fea2695c152ed8bf5a84279a9312a55cb437791f",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/sm-topology-t10/runs/20261017T121101Z/raw/tensor_dev_1/telemetry.jsonl",
+      "actual_sha256": "cbf8d352fe3ce7883383358e9fa92bc76e1d568af06827a11b2e8da24ceeea61",
+      "expected_sha256": "cbf8d352fe3ce7883383358e9fa92bc76e1d568af06827a11b2e8da24ceeea61",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/state-causality-t10/runs/20261017T092352Z/ledger.jsonl",
+      "actual_sha256": "acc00d147c02b3cab562bd1707d1df0c0ca993d93fedffd3714e4a44bd04de25",
+      "expected_sha256": "acc00d147c02b3cab562bd1707d1df0c0ca993d93fedffd3714e4a44bd04de25",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/state-causality-t10/runs/20261017T092352Z/raw/S1_main_4/compute_apps_after.csv",
+      "actual_sha256": "5fbc3486d8e29e7f4dce44b0dc6a591956bf9a6dfa907098d44e6fa038ba789d",
+      "expected_sha256": "5fbc3486d8e29e7f4dce44b0dc6a591956bf9a6dfa907098d44e6fa038ba789d",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/state-causality-t10/runs/20261017T092352Z/raw/S4_confirm_1/telemetry_hz.txt",
+      "actual_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "expected_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/topology-affinity-t10/runs/20261018T075145Z/confirm_0/V131072/page0/batch/complete.json",
+      "actual_sha256": "42cba661f648d52a6000df25166dbccf0f46ca145601a3a3feed99b96d545584",
+      "expected_sha256": "42cba661f648d52a6000df25166dbccf0f46ca145601a3a3feed99b96d545584",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/topology-affinity-t10/runs/20261018T075145Z/fast_2/net/batch/b08_RND07.npy",
+      "actual_sha256": "ee0c7c6c997edfdbf80ea831b1b192bcf88a9426f77bfa920073cb38019d38e7",
+      "expected_sha256": "ee0c7c6c997edfdbf80ea831b1b192bcf88a9426f77bfa920073cb38019d38e7",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/topology-affinity-t10/runs/20261018T075145Z/synccheck/topology_query.log",
+      "actual_sha256": "3fb9d89c8fe772198887cd3e4c888f82b8a9ccec98c2f26fda6665f3f6288dab",
+      "expected_sha256": "3fb9d89c8fe772198887cd3e4c888f82b8a9ccec98c2f26fda6665f3f6288dab",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/topology-real-t10/runs/20261018T123848Z/confirm_0/allocations.json",
+      "actual_sha256": "7c522e5799977c380adf53a1be3f2101df7afe8e989873acfdf69c6e9fd9ae3b",
+      "expected_sha256": "7c522e5799977c380adf53a1be3f2101df7afe8e989873acfdf69c6e9fd9ae3b",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/topology-real-t10/runs/20261018T123848Z/confirm_3/batch/net/b07_FROZEN.npy",
+      "actual_sha256": "650d24d7a0d7dd2fe639414af963665a54932250b15f81a03f912d820d4a8c0c",
+      "expected_sha256": "650d24d7a0d7dd2fe639414af963665a54932250b15f81a03f912d820d4a8c0c",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/topology-real-t10/runs/20261018T123848Z/synccheck/topology_query.log",
+      "actual_sha256": "e46a622d8b2a4da820a8094b52b1e148966e5074b3a0160ee204628d7876e2d6",
+      "expected_sha256": "e46a622d8b2a4da820a8094b52b1e148966e5074b3a0160ee204628d7876e2d6",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/topology-tail-t10/runs/20261018T084714Z/confirm_0/allocations.json",
+      "actual_sha256": "ad3e0a95a451386c139d1813ecc5db054cef45445c8868cb5bf816a2a460552e",
+      "expected_sha256": "ad3e0a95a451386c139d1813ecc5db054cef45445c8868cb5bf816a2a460552e",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/topology-tail-t10/runs/20261018T084714Z/confirm_3/batch/net/b12_BLIND.npy",
+      "actual_sha256": "c7929401b2a07b2c828dc1a26445251640b914ef3c1869fc20eec41b8ea005cf",
+      "expected_sha256": "c7929401b2a07b2c828dc1a26445251640b914ef3c1869fc20eec41b8ea005cf",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/topology-tail-t10/runs/20261018T084714Z/synccheck_v3/topology_query.log",
+      "actual_sha256": "f9f5d2eaf467b1d0708feb9183eedad5f67dff987d8683288a6ca9d2efac5632",
+      "expected_sha256": "f9f5d2eaf467b1d0708feb9183eedad5f67dff987d8683288a6ca9d2efac5632",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/transient-f4-diag-t10/runs/20261017T063433Z/derived/diagnostic_results.json",
+      "actual_sha256": "d9eae2d0de92909b6a4f9fd68b203cbdf92368c144e2361a79a33deb85bbef81",
+      "expected_sha256": "d9eae2d0de92909b6a4f9fd68b203cbdf92368c144e2361a79a33deb85bbef81",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/transient-f4-diag-t10/runs/20261017T063433Z/raw/D2_SLOT_2_R_G017/setup.jsonl",
+      "actual_sha256": "cb4f44f6719a7d4739501be52dd395413ae26503cf5c1433aad85133d70d0328",
+      "expected_sha256": "cb4f44f6719a7d4739501be52dd395413ae26503cf5c1433aad85133d70d0328",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    },
+    {
+      "path": "/home/ubuntu/文档/ChatGPT/numa_gpu/transient-f4-diag-t10/runs/20261017T063433Z/raw/D5_PROFILES/telemetry.csv",
+      "actual_sha256": "8b078f177047143e11e68076e6a016340319174e965957119fc9733ce989d78b",
+      "expected_sha256": "8b078f177047143e11e68076e6a016340319174e965957119fc9733ce989d78b",
+      "status": "MATCH",
+      "sampling": "deterministic first/middle/last eligible <=5MiB historical run file per manifest"
+    }
+  ],
+  "not_claimed": "Existence and inherited hashes are not numerical validation; external handoffs not guessed"
+}

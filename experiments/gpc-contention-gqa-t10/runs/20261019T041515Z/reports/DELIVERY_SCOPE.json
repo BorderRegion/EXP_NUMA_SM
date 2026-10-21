@@ -1,0 +1,31 @@
+{
+  "required_primary_cells_missing": 0,
+  "optional_or_scope_limits": [
+    {
+      "item": "memory/interconnect hardware counters",
+      "status": "NA",
+      "reason": "No existing compatible capture used; four CUPTI activity traces only"
+    },
+    {
+      "item": "dedicated paged-decode backend timing",
+      "status": "NA",
+      "reason": "No directly reusable backend found in current Python modules or prior campaign implementation; no new installs authorized"
+    },
+    {
+      "item": "E2/E3 independent resource construction cost",
+      "status": "NA",
+      "reason": "Not separately instrumented; graph/input preparation retained"
+    },
+    {
+      "item": "historical stage15 simultaneous RM map",
+      "status": "NA",
+      "reason": "Map joined from stage22/current, boot predates both, driver reset absence unproven"
+    },
+    {
+      "item": "cold process lifetime, real dynamic KV, multi-day/multi-GPU generalization",
+      "status": "NOT_TESTED",
+      "reason": "Outside fixed finite campaign"
+    }
+  ],
+  "new_performance_data_policy": "All planned primary cells and negative outcomes retained; no corrected timing replacing original measurements."
+}

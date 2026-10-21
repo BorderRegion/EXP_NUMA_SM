@@ -1,0 +1,40 @@
+--- gqa_append.cu
++++ range_gqa.cu
+@@ -7,8 +7,8 @@
+ #include <map>
+ #include <chrono>
+ #include <stdexcept>
+-struct Params {const half *q,*k,*v;const int *table,*length,*list;unsigned *counter;float *partial;half *out;int *trace;int B,HK,NP,W,mode;const half *new_k,*new_v;};
+-namespace stage26 {
++struct Params {const half *q,*k,*v;const int *table,*length,*list;unsigned *counter;float *partial;half *out;int *trace;int B,HK,NP,W,mode;const half *new_k,*new_v;int task_begin=0;};
++namespace final_capacity {
+ __device__ __forceinline__ unsigned smid(){unsigned x;asm volatile("mov.u32 %0, %%smid;":"=r"(x));return x;}
+ __device__ __forceinline__ float wmax(float x){for(int d=16;d;d/=2)x=fmaxf(x,__shfl_xor_sync(0xffffffff,x,d));return x;}
+ __device__ __forceinline__ float wsum(float x){for(int d=16;d;d/=2)x+=__shfl_xor_sync(0xffffffff,x,d);return x;}
+@@ -28,7 +28,8 @@
+  __syncthreads();if(threadIdx.x==0){p.counter[head*3]=0;p.counter[head*3+1]=0;p.counter[head*3+2]=0;}
+ }
+ template<int D,int G,bool Queue,bool Fused,bool Trace> __global__ void decode(Params p){
+- const int head=blockIdx.x/p.W,worker=blockIdx.x%p.W,b=head/p.HK,hk=head%p.HK;
++ const int task=p.task_begin+int(blockIdx.x);
++ const int head=task/p.W,worker=task%p.W,b=head/p.HK,hk=head%p.HK;
+  int lane=threadIdx.x%32,g=threadIdx.x/32,sm=Trace?smid():0;int pref=worker&1;
+  __shared__ int page,source,last;
+  extern __shared__ unsigned char buf[];half*ks=(half*)buf;half*vs=ks+16*(D+8);float* score=(float*)(vs+16*(D+8));
+@@ -119,4 +120,16 @@
+ __global__ void append_only(half*k,half*v,const half*nk,const half*nv,const int*table,const int*len,int HK,int NP,int D){int head=blockIdx.x,b=head/HK,h=head%HK,pos=len[b]-1,physical=table[b*NP+pos/16];long long base=((long long)physical*HK+h)*16*D+(pos%16)*D;for(int d=threadIdx.x;d<D;d+=blockDim.x){k[base+d]=nk[head*D+d];v[base+d]=nv[head*D+d];}}
+ extern "C" int ll_append(void**a,const int*c,unsigned long long stream){append_only<<<c[2]*c[3],128,0,(cudaStream_t)stream>>>((half*)a[1],(half*)a[2],(half*)a[10],(half*)a[11],(int*)a[3],(int*)a[4],c[3],c[4],c[0]);auto e=cudaGetLastError();if(e!=cudaSuccess){err=cudaGetErrorString(e);return -1;}return 0;}
+ 
++template<int D,int G,bool Trace> void range_stage(Params p,int stage,int count,cudaStream_t stream){
++ if(stage==0)decode<D,G,false,false,Trace><<<count,32*G,16*(D+8)*4+G*128*4,stream>>>(p);
++ else merge<D,G><<<p.B*p.HK,32*G,0,stream>>>(p);
+ }
++extern "C" int ll_range(void**a,const int*c,int stage,int begin,int count,int trace,unsigned long long stream){
++ if(c[6]!=0||c[7]!=0||begin<0||count<=0||begin+count>c[2]*c[3]*c[5]||stage<0||stage>1){err="Invalid DIRECT range";return -1;}
++ Params p{(half*)a[0],(half*)a[1],(half*)a[2],(int*)a[3],(int*)a[4],nullptr,(unsigned*)a[6],(float*)a[7],(half*)a[8],(int*)a[9],c[2],c[3],c[4],c[5],0,(half*)a[10],(half*)a[11],begin};
++ #define RR(D,G) if(c[0]==D&&c[1]==G){if(trace)range_stage<D,G,true>(p,stage,count,(cudaStream_t)stream);else range_stage<D,G,false>(p,stage,count,(cudaStream_t)stream);}
++ RR(128,4)else RR(128,8)else {err="Unsupported controlled D/G";return -1;}
++ auto e=cudaGetLastError();if(e){err=cudaGetErrorString(e);return -1;}return 0;
++}
++
++}

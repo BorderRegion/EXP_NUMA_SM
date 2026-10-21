@@ -1,0 +1,27 @@
+执行附件 T10_QUOTA_TAIL_CLOSURE_20261019，仅当前T10本机。
+
+这是一次限定收束实验，不是重启NUMA大项目。先读CODEX_MASTER_TASK.md。
+
+目标：确定上一轮失败是否主要来自固定10/46份额和背景完成后的GQA长尾；并检查在合理份额与阶段组织之上，真实GPC位置是否仍有增量。
+
+复用E56/N19向量GQA、现有cuBLAS背景、实际RM/Green资源和Graph。
+前景32次GQA，LONG背景7次、RAGGED9次，工作和数学不变。
+只测前景10/20/28/36/46SM，背景精确互补。
+固定NEUTRAL/PACK/SPREAD，不搜索新mask、Softmax配对、tile配方或ML。
+
+先测相同任务的独立资源曲线，特别区分PRIMARY56/GREEN56/GREEN46背景时间。
+再做FIXED与RELEASE：前缀k次GQA与全部背景并发，两者都结束后，剩余GQA由PRIMARY56执行。
+k只用独立曲线公式确定，不能看并发赢家再调。
+不迁移活跃kernel，不在线扩容Green，不新增调度kernel、运行时LUT或中间CPU等待。
+输入槽和KV顺序跨前后阶段连续，所有费用和实际依赖入账。
+
+两个开发块后冻结Q_ONLY、SIMPLE_SPREAD、JOINT_POOL；六个新块与未分区并发、两种串行一起比较。
+必须做同份额/同mode/同k的位置消融及FIXED/RELEASE消融。
+保留两前台/后台完成时间，不只报前景，不用事后最佳点充当冻结方法。
+
+总墙时240分钟，GPU-worker最多90分钟且受原180分钟剩余额度限制；历史账本不清零，不要求花满。
+100W与既有安全控制保持；离线，不SSH/安装/下载/付费/改驱动或保护。
+正常工程小修连续处理，最后一次性交付T10_QUOTA_TAIL_CLOSURE_REPORT.md与可复算结果。
+
+若完整任务没有胜过强简单参照，就暂停这一T10共置切入点；若只靠份额或尾部释放变快，按工程成果，不写NUMA成功。
+CPU工具不等于CUDA实现或实际绑SM已完成。

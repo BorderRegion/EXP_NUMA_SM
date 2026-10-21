@@ -1,0 +1,28 @@
+{
+  "run_id": "20261019T041515Z",
+  "created_at": "2026-10-19T04:15:15.490546+00:00",
+  "wall_budget_started_utc": "2026-10-19T04:10:00+00:00",
+  "wall_hard_deadline_utc": "2026-10-19T13:10:00+00:00",
+  "gpu_worker_cap_seconds": 10800,
+  "input_zip_sha256": "866fcb8a48dc1dd9c7354e9bb2050f594c0a6878471ad380d1c26cc224949e29",
+  "input_manifest_verified": [
+    "CODEX_MASTER_TASK.md",
+    "COPY_TO_CODEX.txt",
+    "README.md",
+    "VALIDATION_REPORT.md",
+    "plans/HISTORICAL_RESOURCE_SETS.json",
+    "plans/experiment_plan.json",
+    "support/GPC_AFFINITY_CROSS_STAGE.md",
+    "support/HISTORICAL_SM_TO_GPC_TPC.csv",
+    "support/PROVENANCE.json",
+    "support/STAGE15.md",
+    "support/STAGE19.md",
+    "support/STAGE22.md",
+    "support/STAGE25.md",
+    "tools/build_resource_sets.py",
+    "tools/test_resource_sets.py"
+  ],
+  "new_downloads": false,
+  "new_paid_resources": 0,
+  "preserve_existing_git_index": true
+}

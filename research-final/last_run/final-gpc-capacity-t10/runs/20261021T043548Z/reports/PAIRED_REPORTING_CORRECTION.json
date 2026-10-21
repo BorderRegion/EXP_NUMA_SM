@@ -1,0 +1,9 @@
+{
+  "status": "CPU_REPORTING_CORRECTION_NO_GPU_RERUN",
+  "reason": "The main CAP/N19 contrast must use its own ABBA/BAAB native window. Initial summary pooled N19 windows from all five candidate comparisons, exposing between-window drift.",
+  "primary": "PAIRED_PRIMARY_COMPARISONS.json",
+  "secondary_unchanged": "APPLICATION_COMPARISONS.json and ALL_PHASES.json preserve pooled phase means",
+  "effect": "All eight blockwise CAP/N19 directions remain slower. A02 magnitude changes substantially.",
+  "frozen_weights_unchanged": true,
+  "raw_unchanged": true
+}

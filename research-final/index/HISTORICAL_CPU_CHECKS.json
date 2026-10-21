@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-21T05:00:22.648800+00:00",
+  "checks": [
+    {
+      "stage": "22",
+      "verification_level": "RAW_RECOMPUTED",
+      "scope": "all three original RM JSON snapshots agree, masks/order join and 56 exported SM rows; not historical performance rerun",
+      "records": 56,
+      "files": [
+        "/home/ubuntu/文档/ChatGPT/numa_gpu/gpc-mask-t10/evidence/topology_1.json",
+        "/home/ubuntu/文档/ChatGPT/numa_gpu/gpc-mask-t10/evidence/topology_2.json",
+        "/home/ubuntu/文档/ChatGPT/numa_gpu/gpc-mask-t10/evidence/topology_3.json"
+      ]
+    },
+    {
+      "stage": "26",
+      "verification_level": "AGGREGATES_RECOMPUTED",
+      "scope": "all signed SM->GPC block means; no original load instructions/tensors/communication periods rerun",
+      "rows": 2688,
+      "files": [
+        "/home/ubuntu/文档/ChatGPT/numa_gpu/gpc-contention-gqa-t10/runs/20261019T041515Z/derived/E1/address_signed_by_sm.csv.gz",
+        "/home/ubuntu/文档/ChatGPT/numa_gpu/gpc-contention-gqa-t10/runs/20261019T041515Z/derived/E1/SUMMARY.json"
+      ]
+    }
+  ],
+  "not_claimed": "No blanket validation of 27 historical stages; report-only stages retain that status"
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "GPC1_N10",
+    "kernel_count": 4,
+    "max_simultaneous_kernel_activities": 1,
+    "producer_count": 0,
+    "merge_count": 0
+  },
+  {
+    "name": "GPC1_N12",
+    "kernel_count": 4,
+    "max_simultaneous_kernel_activities": 1,
+    "producer_count": 0,
+    "merge_count": 0
+  },
+  {
+    "name": "E56_DIRECT",
+    "kernel_count": 8,
+    "max_simultaneous_kernel_activities": 1,
+    "producer_count": 4,
+    "merge_count": 4
+  },
+  {
+    "name": "CAP",
+    "kernel_count": 24,
+    "max_simultaneous_kernel_activities": 5,
+    "producer_count": 20,
+    "merge_count": 4
+  }
+]

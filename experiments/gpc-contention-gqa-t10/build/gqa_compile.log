@@ -1,0 +1,145 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi256ELi4ELb1ELb0ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi256ELi4ELb1ELb0ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 127 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi256ELi4ELb0ELb0ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi256ELi4ELb0ELb0ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 127 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi256ELi4ELb1ELb0ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi256ELi4ELb1ELb0ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 127 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi256ELi4ELb0ELb0ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi256ELi4ELb0ELb0ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 127 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi256ELi4ELb1ELb1ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi256ELi4ELb1ELb1ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 154 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi256ELi4ELb0ELb1ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi256ELi4ELb0ELb1ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 128 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage265mergeILi256ELi4EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage265mergeILi256ELi4EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 51 registers, 2048 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi256ELi4ELb1ELb1ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi256ELi4ELb1ELb1ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 156 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi256ELi4ELb0ELb1ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi256ELi4ELb0ELb1ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 127 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi8ELb1ELb0ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi8ELb1ELb0ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi8ELb0ELb0ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi8ELb0ELb0ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi8ELb1ELb0ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi8ELb1ELb0ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi8ELb0ELb0ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi8ELb0ELb0ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi8ELb1ELb1ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi8ELb1ELb1ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 94 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi8ELb0ELb1ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi8ELb0ELb1ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 95 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage265mergeILi128ELi8EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage265mergeILi128ELi8EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 43 registers, 4096 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi8ELb1ELb1ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi8ELb1ELb1ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 114 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi8ELb0ELb1ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi8ELb0ELb1ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 92 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi4ELb1ELb0ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi4ELb1ELb0ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi4ELb0ELb0ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi4ELb0ELb0ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi4ELb1ELb0ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi4ELb1ELb0ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi4ELb0ELb0ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi4ELb0ELb0ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi4ELb1ELb1ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi4ELb1ELb1ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 94 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi4ELb0ELb1ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi4ELb0ELb1ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 95 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage265mergeILi128ELi4EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage265mergeILi128ELi4EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 43 registers, 2048 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi4ELb1ELb1ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi4ELb1ELb1ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 114 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi4ELb0ELb1ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi4ELb0ELb1ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 92 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi1ELb1ELb0ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi1ELb1ELb0ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi1ELb0ELb0ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi1ELb0ELb0ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi1ELb1ELb0ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi1ELb1ELb0ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi1ELb0ELb0ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi1ELb0ELb0ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi1ELb1ELb1ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi1ELb1ELb1ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi1ELb0ELb1ELb0EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi1ELb0ELb1ELb0EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 80 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage265mergeILi128ELi1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage265mergeILi128ELi1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 45 registers, 512 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi1ELb1ELb1ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi1ELb1ELb1ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 78 registers, 16 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN7stage266decodeILi128ELi1ELb0ELb1ELb1EEEv6Params' for 'sm_75'
+ptxas info    : Function properties for _ZN7stage266decodeILi128ELi1ELb0ELb1ELb1EEEv6Params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 80 registers, 16 bytes smem, 456 bytes cmem[0]

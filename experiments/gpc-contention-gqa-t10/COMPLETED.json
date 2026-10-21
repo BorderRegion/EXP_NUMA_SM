@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETED",
+  "completed_utc": "2026-10-19T04:50:19.898191+00:00",
+  "primary_phases": {
+    "E2": 792,
+    "E3": 576,
+    "E4": 168
+  },
+  "gpu_worker_seconds": 1110.5208800506662,
+  "full_package_verified": true,
+  "lite_package": {
+    "zip": "/home/ubuntu/\u4e0b\u8f7d/T10_GPC_CONTENTION_GQA_WEBGPT_20261019.zip",
+    "bytes": 8127046,
+    "sha256": "b42bb38b0ddfdd220be02efa867c8bb7c2c0e73d9705fa8ff950954e3c2a7236",
+    "request_sample_rows": 15204,
+    "cpu_recompute_pass": true,
+    "manifest_entries": 367
+  },
+  "lite_manifest_verified": 367,
+  "production_default_changed": false,
+  "new_gpu_runs_pending": false
+}

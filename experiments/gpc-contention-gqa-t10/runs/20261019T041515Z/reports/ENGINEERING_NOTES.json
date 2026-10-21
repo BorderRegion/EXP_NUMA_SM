@@ -1,0 +1,28 @@
+[
+  {
+    "stage": "E0",
+    "issue": "Default nvcc include order used an older driver cuda.h without Green APIs",
+    "fix": "Use installed CUDA runtime 12.8 driver header explicitly; no install or ABI invention",
+    "original_log": "raw/E0/bridge_initial_header_failure.log"
+  },
+  {
+    "stage": "E1",
+    "issue": "Initial CPU assertion accidentally used historical balanced 28/28 map instead of reported natural 34/22 preference",
+    "fix": "Use fixed reported SM%10 natural rule; preserve old balanced map and original failed script. No refit or GPU rerun."
+  },
+  {
+    "stage": "E4 engineering during E2",
+    "issue": "Optional library filename selector was briefly added to control.py while E2 ran; no environment override was set, so bridge.so and behavior remained unchanged.",
+    "resolution": "Restored exact E2-frozen control.py; E4 uses separate control_e4.py. Transitional source saved, no performance results discarded."
+  },
+  {
+    "stage": "E4 freeze",
+    "issue": "Added detailed preparation cost fields before first E4 formal block",
+    "resolution": "Preserved previous freeze files; final E4_IMPLEMENTATION.json records the executed source."
+  },
+  {
+    "stage": "E5 audit",
+    "issue": "Late attempt to add per-formal-phase Graph audits was rejected by pre-edit running-state assertion once E4 started.",
+    "resolution": "No active formal code changed. Separate E5 GEMM Graph diagnostics cover resource configurations but do not retroactively prove every formal phase body."
+  }
+]

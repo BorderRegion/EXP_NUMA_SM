@@ -1,0 +1,1162 @@
+[
+  {
+    "case": "A01",
+    "scope": "append",
+    "candidate": "E56_DIRECT",
+    "reference": "N19",
+    "metric": "ready_us",
+    "ratio": 1.0771262691718395,
+    "time_change_percent": 7.712626917183951,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 36.71423046875,
+        "reference": 34.26705078125,
+        "ratio": 1.071414949104375,
+        "requests_per_arm": 256
+      },
+      {
+        "block": 1,
+        "candidate": 37.495109375,
+        "reference": 34.6257421875,
+        "ratio": 1.0828680341915053,
+        "requests_per_arm": 256
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A01",
+    "scope": "append",
+    "candidate": "E56_DIRECT",
+    "reference": "N19",
+    "metric": "gpu_us",
+    "ratio": 1.0917033241729945,
+    "time_change_percent": 9.170332417299454,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 32.05525007843971,
+        "reference": 29.656750038266182,
+        "ratio": 1.0808753500325807,
+        "requests_per_arm": 256
+      },
+      {
+        "block": 1,
+        "candidate": 32.78975024074316,
+        "reference": 29.737500056624413,
+        "ratio": 1.102639770603004,
+        "requests_per_arm": 256
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A01",
+    "scope": "append",
+    "candidate": "SM_PROP",
+    "reference": "N19",
+    "metric": "ready_us",
+    "ratio": 1.2009356177944066,
+    "time_change_percent": 20.093561779440662,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 40.3044921875,
+        "reference": 33.86483984375,
+        "ratio": 1.1901574722769135,
+        "requests_per_arm": 256
+      },
+      {
+        "block": 1,
+        "candidate": 40.2783046875,
+        "reference": 33.23809765625,
+        "ratio": 1.2118113709171974,
+        "requests_per_arm": 256
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A01",
+    "scope": "append",
+    "candidate": "SM_PROP",
+    "reference": "N19",
+    "metric": "gpu_us",
+    "ratio": 1.227151099742795,
+    "time_change_percent": 22.7151099742795,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 35.6323751360178,
+        "reference": 29.021625071763992,
+        "ratio": 1.2277870397645514,
+        "requests_per_arm": 256
+      },
+      {
+        "block": 1,
+        "candidate": 35.385125175118446,
+        "reference": 28.85012499988079,
+        "ratio": 1.226515489110174,
+        "requests_per_arm": 256
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A01",
+    "scope": "append",
+    "candidate": "EQUAL_GPC",
+    "reference": "N19",
+    "metric": "ready_us",
+    "ratio": 1.2570664274205967,
+    "time_change_percent": 25.70664274205967,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 40.91784375,
+        "reference": 32.982625,
+        "ratio": 1.2405878473893452,
+        "requests_per_arm": 256
+      },
+      {
+        "block": 1,
+        "candidate": 43.327203125,
+        "reference": 34.01509765625,
+        "ratio": 1.2737638904599462,
+        "requests_per_arm": 256
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A01",
+    "scope": "append",
+    "candidate": "EQUAL_GPC",
+    "reference": "N19",
+    "metric": "gpu_us",
+    "ratio": 1.2845756186961328,
+    "time_change_percent": 28.45756186961328,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 36.19675037264824,
+        "reference": 28.60162502527237,
+        "ratio": 1.265548735103856,
+        "requests_per_arm": 256
+      },
+      {
+        "block": 1,
+        "candidate": 37.80250032246113,
+        "reference": 28.992125116288662,
+        "ratio": 1.3038885618364875,
+        "requests_per_arm": 256
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A01",
+    "scope": "append",
+    "candidate": "CAP",
+    "reference": "N19",
+    "metric": "ready_us",
+    "ratio": 1.195554397555573,
+    "time_change_percent": 19.55543975555729,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 40.5373046875,
+        "reference": 33.43925,
+        "ratio": 1.212267161718639,
+        "requests_per_arm": 256
+      },
+      {
+        "block": 1,
+        "candidate": 40.35642578125,
+        "reference": 34.22727734375,
+        "ratio": 1.1790720417503264,
+        "requests_per_arm": 256
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A01",
+    "scope": "append",
+    "candidate": "CAP",
+    "reference": "N19",
+    "metric": "gpu_us",
+    "ratio": 1.2282459943431385,
+    "time_change_percent": 22.824599434313853,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 35.639000460505486,
+        "reference": 28.897125117480755,
+        "ratio": 1.2333060924093922,
+        "requests_per_arm": 256
+      },
+      {
+        "block": 1,
+        "candidate": 35.775125205516815,
+        "reference": 29.247000083327293,
+        "ratio": 1.2232066572157936,
+        "requests_per_arm": 256
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A01",
+    "scope": "append",
+    "candidate": "WRONG_CAP",
+    "reference": "N19",
+    "metric": "ready_us",
+    "ratio": 1.2250061077574985,
+    "time_change_percent": 22.500610775749852,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 41.0666875,
+        "reference": 33.5561328125,
+        "ratio": 1.2238206270509884,
+        "requests_per_arm": 256
+      },
+      {
+        "block": 1,
+        "candidate": 41.0645625,
+        "reference": 33.489484374999996,
+        "ratio": 1.2261927368059098,
+        "requests_per_arm": 256
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A01",
+    "scope": "append",
+    "candidate": "WRONG_CAP",
+    "reference": "N19",
+    "metric": "gpu_us",
+    "ratio": 1.2772409845748416,
+    "time_change_percent": 27.72409845748416,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 36.435250014066696,
+        "reference": 28.669500067830086,
+        "ratio": 1.2708714811162864,
+        "requests_per_arm": 256
+      },
+      {
+        "block": 1,
+        "candidate": 36.53150036931038,
+        "reference": 28.459250055253506,
+        "ratio": 1.2836424114614629,
+        "requests_per_arm": 256
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A02",
+    "scope": "append",
+    "candidate": "E56_DIRECT",
+    "reference": "N19",
+    "metric": "ready_us",
+    "ratio": 1.0039512456618043,
+    "time_change_percent": 0.395124566180427,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 196.239140625,
+        "reference": 195.16953125,
+        "ratio": 1.005480411661336,
+        "requests_per_arm": 64
+      },
+      {
+        "block": 1,
+        "candidate": 199.248421875,
+        "reference": 198.76653124999999,
+        "ratio": 1.0024244052656628,
+        "requests_per_arm": 64
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A02",
+    "scope": "append",
+    "candidate": "E56_DIRECT",
+    "reference": "N19",
+    "metric": "gpu_us",
+    "ratio": 1.0037181827691095,
+    "time_change_percent": 0.37181827691095126,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 190.74250030517578,
+        "reference": 189.55550003051758,
+        "ratio": 1.006262019695905,
+        "requests_per_arm": 64
+      },
+      {
+        "block": 1,
+        "candidate": 193.32300090789795,
+        "reference": 193.09499883651733,
+        "ratio": 1.0011807766786007,
+        "requests_per_arm": 64
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A02",
+    "scope": "append",
+    "candidate": "SM_PROP",
+    "reference": "N19",
+    "metric": "ready_us",
+    "ratio": 1.0151679518803485,
+    "time_change_percent": 1.5167951880348474,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 202.72537499999999,
+        "reference": 198.485640625,
+        "ratio": 1.0213604085497052,
+        "requests_per_arm": 64
+      },
+      {
+        "block": 1,
+        "candidate": 199.128203125,
+        "reference": 197.349484375,
+        "ratio": 1.009013039763611,
+        "requests_per_arm": 64
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A02",
+    "scope": "append",
+    "candidate": "SM_PROP",
+    "reference": "N19",
+    "metric": "gpu_us",
+    "ratio": 1.0197483909226035,
+    "time_change_percent": 1.9748390922603498,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 197.14850044250488,
+        "reference": 192.7064983844757,
+        "ratio": 1.0230506085433964,
+        "requests_per_arm": 64
+      },
+      {
+        "block": 1,
+        "candidate": 193.23200178146362,
+        "reference": 190.10350036621094,
+        "ratio": 1.0164568322478336,
+        "requests_per_arm": 64
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A02",
+    "scope": "append",
+    "candidate": "EQUAL_GPC",
+    "reference": "N19",
+    "metric": "ready_us",
+    "ratio": 1.250846235505705,
+    "time_change_percent": 25.084623550570505,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 206.21653125,
+        "reference": 165.470265625,
+        "ratio": 1.246245242135176,
+        "requests_per_arm": 64
+      },
+      {
+        "block": 1,
+        "candidate": 205.3813125,
+        "reference": 163.5899375,
+        "ratio": 1.2554642152118924,
+        "requests_per_arm": 64
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A02",
+    "scope": "append",
+    "candidate": "EQUAL_GPC",
+    "reference": "N19",
+    "metric": "gpu_us",
+    "ratio": 1.2596937056105983,
+    "time_change_percent": 25.969370561059833,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 200.41500091552734,
+        "reference": 159.471999168396,
+        "ratio": 1.2567410075789995,
+        "requests_per_arm": 64
+      },
+      {
+        "block": 1,
+        "candidate": 200.00050044059753,
+        "reference": 158.39699935913086,
+        "ratio": 1.2626533409710607,
+        "requests_per_arm": 64
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A02",
+    "scope": "append",
+    "candidate": "CAP",
+    "reference": "N19",
+    "metric": "ready_us",
+    "ratio": 1.0196107429572103,
+    "time_change_percent": 1.9610742957210325,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 206.358171875,
+        "reference": 201.621078125,
+        "ratio": 1.0234950323351764,
+        "requests_per_arm": 64
+      },
+      {
+        "block": 1,
+        "candidate": 200.470046875,
+        "reference": 197.3633125,
+        "ratio": 1.0157411949345956,
+        "requests_per_arm": 64
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A02",
+    "scope": "append",
+    "candidate": "CAP",
+    "reference": "N19",
+    "metric": "gpu_us",
+    "ratio": 1.022394124190041,
+    "time_change_percent": 2.2394124190040943,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 200.75300121307373,
+        "reference": 195.76450181007385,
+        "ratio": 1.0254821449081692,
+        "requests_per_arm": 64
+      },
+      {
+        "block": 1,
+        "candidate": 193.96399974822998,
+        "reference": 190.28850078582764,
+        "ratio": 1.0193154023875524,
+        "requests_per_arm": 64
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A02",
+    "scope": "append",
+    "candidate": "WRONG_CAP",
+    "reference": "N19",
+    "metric": "ready_us",
+    "ratio": 1.2339257157387675,
+    "time_change_percent": 23.39257157387675,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 203.012828125,
+        "reference": 165.558328125,
+        "ratio": 1.2262314461868753,
+        "requests_per_arm": 64
+      },
+      {
+        "block": 1,
+        "candidate": 209.115890625,
+        "reference": 168.415265625,
+        "ratio": 1.2416682647440382,
+        "requests_per_arm": 64
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A02",
+    "scope": "append",
+    "candidate": "WRONG_CAP",
+    "reference": "N19",
+    "metric": "gpu_us",
+    "ratio": 1.2408056513736057,
+    "time_change_percent": 24.080565137360566,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 197.42949986457825,
+        "reference": 160.41599822044373,
+        "ratio": 1.230734478198805,
+        "requests_per_arm": 64
+      },
+      {
+        "block": 1,
+        "candidate": 203.44099950790405,
+        "reference": 162.628000497818,
+        "ratio": 1.2509592375553658,
+        "requests_per_arm": 64
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A03",
+    "scope": "append",
+    "candidate": "E56_DIRECT",
+    "reference": "N19",
+    "metric": "ready_us",
+    "ratio": 1.1510675386034979,
+    "time_change_percent": 15.106753860349787,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 158.969775,
+        "reference": 136.7901875,
+        "ratio": 1.1621431179045645,
+        "requests_per_arm": 80
+      },
+      {
+        "block": 1,
+        "candidate": 160.0718,
+        "reference": 140.40185,
+        "ratio": 1.1400975129601212,
+        "requests_per_arm": 80
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A03",
+    "scope": "append",
+    "candidate": "E56_DIRECT",
+    "reference": "N19",
+    "metric": "gpu_us",
+    "ratio": 1.1571629972192128,
+    "time_change_percent": 15.716299721921278,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 153.69040031433104,
+        "reference": 131.8972023010254,
+        "ratio": 1.165228660146768,
+        "requests_per_arm": 80
+      },
+      {
+        "block": 1,
+        "candidate": 154.69440193176268,
+        "reference": 134.6159996032715,
+        "ratio": 1.1491531644653274,
+        "requests_per_arm": 80
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A03",
+    "scope": "append",
+    "candidate": "SM_PROP",
+    "reference": "N19",
+    "metric": "ready_us",
+    "ratio": 1.163634056881025,
+    "time_change_percent": 16.363405688102507,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 160.3054,
+        "reference": 136.831025,
+        "ratio": 1.1715574008160794,
+        "requests_per_arm": 80
+      },
+      {
+        "block": 1,
+        "candidate": 161.658125,
+        "reference": 139.8711875,
+        "ratio": 1.1557642992056532,
+        "requests_per_arm": 80
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A03",
+    "scope": "append",
+    "candidate": "SM_PROP",
+    "reference": "N19",
+    "metric": "gpu_us",
+    "ratio": 1.1711401898868634,
+    "time_change_percent": 17.11401898868634,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 155.08159923553467,
+        "reference": 131.7708013534546,
+        "ratio": 1.1769041217223266,
+        "requests_per_arm": 80
+      },
+      {
+        "block": 1,
+        "candidate": 156.4107992172241,
+        "reference": 134.21159858703612,
+        "ratio": 1.1654044871225628,
+        "requests_per_arm": 80
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A03",
+    "scope": "append",
+    "candidate": "EQUAL_GPC",
+    "reference": "N19",
+    "metric": "ready_us",
+    "ratio": 1.1646304821257611,
+    "time_change_percent": 16.463048212576116,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 160.161225,
+        "reference": 136.3982625,
+        "ratio": 1.1742174868246582,
+        "requests_per_arm": 80
+      },
+      {
+        "block": 1,
+        "candidate": 163.125875,
+        "reference": 141.2196375,
+        "ratio": 1.155121751392401,
+        "requests_per_arm": 80
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A03",
+    "scope": "append",
+    "candidate": "EQUAL_GPC",
+    "reference": "N19",
+    "metric": "gpu_us",
+    "ratio": 1.1686051014409273,
+    "time_change_percent": 16.860510144092732,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 155.05720100402831,
+        "reference": 131.46600227355958,
+        "ratio": 1.1794471446798789,
+        "requests_per_arm": 80
+      },
+      {
+        "block": 1,
+        "candidate": 157.65319957733155,
+        "reference": 136.1588005065918,
+        "ratio": 1.1578627234579608,
+        "requests_per_arm": 80
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A03",
+    "scope": "append",
+    "candidate": "CAP",
+    "reference": "N19",
+    "metric": "ready_us",
+    "ratio": 1.12208168003716,
+    "time_change_percent": 12.208168003716002,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 156.6364625,
+        "reference": 139.8411875,
+        "ratio": 1.1201024912635271,
+        "requests_per_arm": 80
+      },
+      {
+        "block": 1,
+        "candidate": 156.941375,
+        "reference": 139.6195625,
+        "ratio": 1.1240643659802327,
+        "requests_per_arm": 80
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A03",
+    "scope": "append",
+    "candidate": "CAP",
+    "reference": "N19",
+    "metric": "gpu_us",
+    "ratio": 1.1254174828971013,
+    "time_change_percent": 12.541748289710132,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 151.18360157012938,
+        "reference": 134.57159786224366,
+        "ratio": 1.1234436089916302,
+        "requests_per_arm": 80
+      },
+      {
+        "block": 1,
+        "candidate": 151.7744010925293,
+        "reference": 134.62400016784667,
+        "ratio": 1.127394824870007,
+        "requests_per_arm": 80
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A03",
+    "scope": "append",
+    "candidate": "WRONG_CAP",
+    "reference": "N19",
+    "metric": "ready_us",
+    "ratio": 1.1667328111906705,
+    "time_change_percent": 16.673281119067052,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 162.361575,
+        "reference": 138.2594125,
+        "ratio": 1.1743256539586409,
+        "requests_per_arm": 80
+      },
+      {
+        "block": 1,
+        "candidate": 162.519625,
+        "reference": 140.2011375,
+        "ratio": 1.1591890615010167,
+        "requests_per_arm": 80
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A03",
+    "scope": "append",
+    "candidate": "WRONG_CAP",
+    "reference": "N19",
+    "metric": "gpu_us",
+    "ratio": 1.1747392812294526,
+    "time_change_percent": 17.47392812294526,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 157.16919918060302,
+        "reference": 133.27159976959229,
+        "ratio": 1.1793150187461268,
+        "requests_per_arm": 80
+      },
+      {
+        "block": 1,
+        "candidate": 157.55040073394775,
+        "reference": 134.63759937286378,
+        "ratio": 1.1701812975558896,
+        "requests_per_arm": 80
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A04",
+    "scope": "append",
+    "candidate": "E56_DIRECT",
+    "reference": "N19",
+    "metric": "ready_us",
+    "ratio": 1.0018336595841406,
+    "time_change_percent": 0.18336595841406123,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 269.6459107142857,
+        "reference": 269.1897142857143,
+        "ratio": 1.0016947023023592,
+        "requests_per_arm": 56
+      },
+      {
+        "block": 1,
+        "candidate": 269.6776607142857,
+        "reference": 269.14673214285716,
+        "ratio": 1.0019726361423802,
+        "requests_per_arm": 56
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A04",
+    "scope": "append",
+    "candidate": "E56_DIRECT",
+    "reference": "N19",
+    "metric": "gpu_us",
+    "ratio": 1.0018143925912633,
+    "time_change_percent": 0.18143925912632586,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 263.89942823137557,
+        "reference": 263.1782853262765,
+        "ratio": 1.0027401307224302,
+        "requests_per_arm": 56
+      },
+      {
+        "block": 1,
+        "candidate": 263.619998386928,
+        "reference": 263.38571439470564,
+        "ratio": 1.0008895091093333,
+        "requests_per_arm": 56
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A04",
+    "scope": "append",
+    "candidate": "SM_PROP",
+    "reference": "N19",
+    "metric": "ready_us",
+    "ratio": 1.1015133610964385,
+    "time_change_percent": 10.15133610964385,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 272.0899464285714,
+        "reference": 243.247375,
+        "ratio": 1.1185730017788327,
+        "requests_per_arm": 56
+      },
+      {
+        "block": 1,
+        "candidate": 266.7630892857143,
+        "reference": 245.92944642857142,
+        "ratio": 1.0847139013228895,
+        "requests_per_arm": 56
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A04",
+    "scope": "append",
+    "candidate": "SM_PROP",
+    "reference": "N19",
+    "metric": "gpu_us",
+    "ratio": 1.1020015337486924,
+    "time_change_percent": 10.200153374869236,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 266.04685974121094,
+        "reference": 237.6142861502511,
+        "ratio": 1.1196585190714543,
+        "requests_per_arm": 56
+      },
+      {
+        "block": 1,
+        "candidate": 260.5902827126639,
+        "reference": 240.25885772705078,
+        "ratio": 1.0846229986188933,
+        "requests_per_arm": 56
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A04",
+    "scope": "append",
+    "candidate": "EQUAL_GPC",
+    "reference": "N19",
+    "metric": "ready_us",
+    "ratio": 1.18306880464255,
+    "time_change_percent": 18.306880464254995,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 270.37175,
+        "reference": 229.91707142857143,
+        "ratio": 1.1759533483967357,
+        "requests_per_arm": 56
+      },
+      {
+        "block": 1,
+        "candidate": 270.89414285714287,
+        "reference": 227.59866071428573,
+        "ratio": 1.1902273150772527,
+        "requests_per_arm": 56
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A04",
+    "scope": "append",
+    "candidate": "EQUAL_GPC",
+    "reference": "N19",
+    "metric": "gpu_us",
+    "ratio": 1.1854893911352429,
+    "time_change_percent": 18.548939113524288,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 263.98114122663225,
+        "reference": 223.6902858189174,
+        "ratio": 1.1801189321217607,
+        "requests_per_arm": 56
+      },
+      {
+        "block": 1,
+        "candidate": 264.0285737173898,
+        "reference": 221.70799963814872,
+        "ratio": 1.1908842899142693,
+        "requests_per_arm": 56
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A04",
+    "scope": "append",
+    "candidate": "CAP",
+    "reference": "N19",
+    "metric": "ready_us",
+    "ratio": 1.1418562878578766,
+    "time_change_percent": 14.185628785787664,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 268.040625,
+        "reference": 234.84492857142857,
+        "ratio": 1.1413515575171336,
+        "requests_per_arm": 56
+      },
+      {
+        "block": 1,
+        "candidate": 268.55807142857145,
+        "reference": 235.09032142857143,
+        "ratio": 1.1423612414012914,
+        "requests_per_arm": 56
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A04",
+    "scope": "append",
+    "candidate": "CAP",
+    "reference": "N19",
+    "metric": "gpu_us",
+    "ratio": 1.1443744692580327,
+    "time_change_percent": 14.437446925803265,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 262.39714540754045,
+        "reference": 229.20228549412317,
+        "ratio": 1.1448277875670154,
+        "requests_per_arm": 56
+      },
+      {
+        "block": 1,
+        "candidate": 262.369142804827,
+        "reference": 229.3594286782401,
+        "ratio": 1.1439213304498372,
+        "requests_per_arm": 56
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A04",
+    "scope": "append",
+    "candidate": "WRONG_CAP",
+    "reference": "N19",
+    "metric": "ready_us",
+    "ratio": 1.1991796392172782,
+    "time_change_percent": 19.91796392172782,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 279.79553571428573,
+        "reference": 231.15326785714285,
+        "ratio": 1.2104329664385483,
+        "requests_per_arm": 56
+      },
+      {
+        "block": 1,
+        "candidate": 270.6628928571429,
+        "reference": 227.82478571428572,
+        "ratio": 1.1880309335463626,
+        "requests_per_arm": 56
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  },
+  {
+    "case": "A04",
+    "scope": "append",
+    "candidate": "WRONG_CAP",
+    "reference": "N19",
+    "metric": "gpu_us",
+    "ratio": 1.2029326950948294,
+    "time_change_percent": 20.293269509482936,
+    "blocks": [
+      {
+        "block": 0,
+        "candidate": 273.7434310913086,
+        "reference": 225.3091422489711,
+        "ratio": 1.2149681471372191,
+        "requests_per_arm": 56
+      },
+      {
+        "block": 1,
+        "candidate": 264.413140978132,
+        "reference": 222.0062849862235,
+        "ratio": 1.1910164660182483,
+        "requests_per_arm": 56
+      }
+    ],
+    "faster_blocks": 0,
+    "ci": null,
+    "inference": "TWO_DYNAMIC_BLOCKS_DESCRIPTIVE_ONLY",
+    "pairing": "same comparison ABBA/BAAB window; all-native pooled phase means retained as secondary"
+  }
+]

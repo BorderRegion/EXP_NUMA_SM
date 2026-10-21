@@ -1,0 +1,30 @@
+test_12_10_exclusion_rotates (test_cpu.Tests.test_12_10_exclusion_rotates) ... ok
+test_block_structure (test_cpu.Tests.test_block_structure) ... ok
+test_budgets (test_cpu.Tests.test_budgets) ... ok
+test_case_splits (test_cpu.Tests.test_case_splits) ... ok
+test_cost_tail (test_cpu.Tests.test_cost_tail) ... ok
+test_costs_count (test_cpu.Tests.test_costs_count) ... ok
+test_csv_reader (test_cpu.Tests.test_csv_reader) ... ok
+test_decoder_validation (test_cpu.Tests.test_decoder_validation) ... ok
+test_empty_workers_still_have_cost (test_cpu.Tests.test_empty_workers_still_have_cost) ... ok
+test_growth_last_page_owner (test_cpu.Tests.test_growth_last_page_owner) ... ok
+test_ideal_example (test_cpu.Tests.test_ideal_example) ... ok
+test_ideal_matching_rates (test_cpu.Tests.test_ideal_matching_rates) ... ok
+test_invalid_replication (test_cpu.Tests.test_invalid_replication) ... ok
+test_lengths_match_batch (test_cpu.Tests.test_lengths_match_batch) ... ok
+test_matrix_sizes (test_cpu.Tests.test_matrix_sizes) ... ok
+test_page_visits_exactly_once (test_cpu.Tests.test_page_visits_exactly_once) ... ok
+test_partition_coverage (test_cpu.Tests.test_partition_coverage) ... ok
+test_partition_min_tasks (test_cpu.Tests.test_partition_min_tasks) ... ok
+test_partition_proxy_sum (test_cpu.Tests.test_partition_proxy_sum) ... ok
+test_partition_rejects_bad_weights (test_cpu.Tests.test_partition_rejects_bad_weights) ... ok
+test_partition_scale_invariance (test_cpu.Tests.test_partition_scale_invariance) ... ok
+test_subset_complement (test_cpu.Tests.test_subset_complement) ... ok
+test_subset_count (test_cpu.Tests.test_subset_count) ... ok
+test_subset_full_tpc (test_cpu.Tests.test_subset_full_tpc) ... ok
+test_worker_identity_preserved (test_cpu.Tests.test_worker_identity_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.017s
+
+OK

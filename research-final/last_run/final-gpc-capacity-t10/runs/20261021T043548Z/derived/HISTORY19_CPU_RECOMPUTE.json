@@ -1,0 +1,14 @@
+{
+  "start_utc": "2026-10-21T05:00:22.906715+00:00",
+  "end_utc": "2026-10-21T05:00:43.700254+00:00",
+  "returncode": 0,
+  "isolated_copy": "/tmp/t10-history19-cpu-4dypwzw0/numa-locality-scheduling-t10",
+  "raw_reference": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-locality-scheduling-t10/runs",
+  "source_outputs_unchanged": true,
+  "recomputed_matches": {
+    "APPEND_STAGE.json": true,
+    "RESULTS.json": true,
+    "VECTOR_RESULTS.json": true
+  },
+  "scope": "all original stage19 CPU arithmetic, frozen selections, stored checks and hashes; no GPU/tensor rerun"
+}

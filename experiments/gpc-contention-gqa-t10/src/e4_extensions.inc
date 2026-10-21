@@ -1,0 +1,19 @@
+#include "/home/ubuntu/projects/leetgpu-lab/.venv/lib/python3.12/site-packages/nvidia/cublas/include/cublas_v2.h"
+void bk(cublasStatus_t x,const char*s){if(x!=CUBLAS_STATUS_SUCCESS)throw std::runtime_error(std::string(s)+":"+std::to_string((int)x));}
+extern "C" int gc_primary_stream(){TRY{Resource p;p.ctx=primary;ck(cuCtxSetCurrent(primary),"primary");ck(cuStreamCreate(&p.stream,CU_STREAM_NON_BLOCKING),"additional primary stream");groups.push_back(p);return groups.size()-1;}CATCH}
+struct Gemm{cublasHandle_t handle;CUdeviceptr workspace;int group;};
+extern "C" void*gc_gemm_create(int group){try{auto*p=new Gemm;p->group=group;ck(cuCtxSetCurrent(groups.at(group).ctx),"gemm current");bk(cublasCreate(&p->handle),"cublasCreate");bk(cublasSetStream(p->handle,(cudaStream_t)groups.at(group).stream),"cublas stream");ck(cuMemAlloc(&p->workspace,64ull<<20),"cublas workspace");bk(cublasSetWorkspace(p->handle,(void*)p->workspace,64ull<<20),"cublas workspace install");bk(cublasSetMathMode(p->handle,CUBLAS_DEFAULT_MATH),"math mode");ck(cuCtxSetCurrent(primary),"restore primary");return p;}catch(std::exception&e){error=e.what();return nullptr;}}
+extern "C" int gc_gemm_launch(void*ptr,void*A,void*B,void*Cout,int M,int N,int K){TRY{auto*p=(Gemm*)ptr;const float alpha=1,beta=0;bk(cublasGemmEx(p->handle,CUBLAS_OP_N,CUBLAS_OP_N,N,M,K,&alpha,B,CUDA_R_16F,N,A,CUDA_R_16F,K,&beta,Cout,CUDA_R_32F,N,CUBLAS_COMPUTE_32F,CUBLAS_GEMM_DEFAULT_TENSOR_OP),"cublasGemmEx");return 0;}CATCH}
+extern "C" int gc_gemm_drop(void*ptr){TRY{auto*p=(Gemm*)ptr;ck(cuCtxSetCurrent(groups.at(p->group).ctx),"gemm drop current");bk(cublasDestroy(p->handle),"cublas destroy");ck(cuMemFree(p->workspace),"workspace free");delete p;ck(cuCtxSetCurrent(primary),"restore primary");return 0;}CATCH}
+struct Mixed{CUevent begin,fgend,bgend,end;int serial;};
+extern "C" void*gc_mixed_create(int serial){try{auto*p=new Mixed;p->serial=serial;ck(cuCtxSetCurrent(primary),"mixed primary");for(auto*x:{&p->begin,&p->fgend,&p->bgend,&p->end})ck(cuEventCreate(x,0),"mixed event");return p;}catch(std::exception&e){error=e.what();return nullptr;}}
+extern "C" int gc_mixed_run(void*ptr,void**fgs,void**bgs,int ring,int n,double*out){TRY{auto*p=(Mixed*)ptr;
+ for(int i=0;i<n;i++){Graph*f=(Graph*)fgs[i%ring];Graph*b=(Graph*)bgs[i%ring];auto&fg=groups.at(f->group);auto&bg=groups.at(b->group);auto&parent=groups.at(0);
+  ck(cuCtxSetCurrent(primary),"mixed primary");auto t=std::chrono::steady_clock::now();ck(cuEventRecord(p->begin,parent.stream),"mixed start");
+  auto issue=[&](Graph*q,Resource&g,CUevent end,CUevent wait){ck(cuCtxSetCurrent(g.ctx),"mixed context");ck(cuStreamWaitEvent(g.stream,wait,0),"mixed start dependency");ck(cuGraphLaunch(q->exec,g.stream),"mixed graph launch");ck(cuEventRecord(end,g.stream),"chain end");};
+  if(p->serial==2){issue(b,bg,p->bgend,p->begin);issue(f,fg,p->fgend,p->bgend);}
+  else{issue(f,fg,p->fgend,p->begin);issue(b,bg,p->bgend,p->serial==1?p->fgend:p->begin);}
+  ck(cuCtxSetCurrent(primary),"join primary");ck(cuStreamWaitEvent(parent.stream,p->fgend,0),"join fg");ck(cuStreamWaitEvent(parent.stream,p->bgend,0),"join bg");ck(cuEventRecord(p->end,parent.stream),"mixed end");ck(cuStreamSynchronize(parent.stream),"both outputs ready");out[4*i+3]=std::chrono::duration<double,std::micro>(std::chrono::steady_clock::now()-t).count();
+  float total,ft,bt;ck(cuEventElapsedTime(&total,p->begin,p->end),"mixed total elapsed");ck(cuEventElapsedTime(&ft,p->begin,p->fgend),"fg completion elapsed");ck(cuEventElapsedTime(&bt,p->begin,p->bgend),"bg completion elapsed");out[4*i]=total*1000;out[4*i+1]=ft*1000;out[4*i+2]=bt*1000;
+ }return 0;}CATCH}
+extern "C" int gc_mixed_drop(void*ptr){TRY{auto*p=(Mixed*)ptr;cuEventDestroy(p->begin);cuEventDestroy(p->fgend);cuEventDestroy(p->bgend);cuEventDestroy(p->end);delete p;return 0;}CATCH}

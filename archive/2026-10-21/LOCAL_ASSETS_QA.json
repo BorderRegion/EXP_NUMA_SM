@@ -1,0 +1,46 @@
+[
+  {
+    "name": "T10_GPC_CONTENTION_GQA_REVIEW_20261019.zip",
+    "path": "/home/ubuntu/下载/T10_GPC_CONTENTION_GQA_REVIEW_20261019.zip",
+    "bytes": 30283659,
+    "sha256": "86bb79edd9cc7cf75e6ef9cef060a8cd8192741a2e707e24972eabd94e59aa29",
+    "files_checked": 385,
+    "crc": "PASS",
+    "manifest": "PASS",
+    "high_confidence_credential_scan": "PASS",
+    "scope": "stage26 complete current raw"
+  },
+  {
+    "name": "T10_QUOTA_TAIL_CLOSURE_REVIEW_20261019.zip",
+    "path": "/home/ubuntu/下载/T10_QUOTA_TAIL_CLOSURE_REVIEW_20261019.zip",
+    "bytes": 12755118,
+    "sha256": "6ae23e8e03038088724a59561059ec8675f97fb4fd409c72389ea4af5756fc4c",
+    "files_checked": 328,
+    "crc": "PASS",
+    "manifest": "PASS",
+    "high_confidence_credential_scan": "PASS",
+    "scope": "stage27 complete current raw"
+  },
+  {
+    "name": "T10_RESEARCH_FINAL_REVIEW_SMALL_20261021.zip",
+    "path": "/home/ubuntu/下载/T10_RESEARCH_FINAL_REVIEW_SMALL_20261021.zip",
+    "bytes": 24552116,
+    "sha256": "053b67f41ff1de36f22f721a5bc4e4b74746d9d2baaa42a509a167921527a2e0",
+    "files_checked": 511,
+    "crc": "PASS",
+    "manifest": "PASS",
+    "high_confidence_credential_scan": "PASS",
+    "scope": "stage28 and 28-stage summary, historical large raw references"
+  },
+  {
+    "name": "T10_RESEARCH_FINAL_REPRODUCE_FULL_20261021.zip",
+    "path": "/home/ubuntu/下载/T10_RESEARCH_FINAL_REPRODUCE_FULL_20261021.zip",
+    "bytes": 35497474,
+    "sha256": "60ab1be49878f8a5bc43609666c764193bd7c2c9e13210035f3cd709216e03ac",
+    "files_checked": 526,
+    "crc": "PASS",
+    "manifest": "PASS",
+    "high_confidence_credential_scan": "PASS",
+    "scope": "stage28 and 28-stage summary, historical large raw references"
+  }
+]

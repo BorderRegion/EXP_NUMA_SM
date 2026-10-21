@@ -1,0 +1,14 @@
+{
+  "run": "20261019T064852Z",
+  "wall_budget_started_utc": "2026-10-19T06:40:00+00:00",
+  "wall_start_note": "Conservative clock boundary earlier than initialization",
+  "wall_hard_deadline_utc": "2026-10-19T10:40:00+00:00",
+  "worker_cap_seconds": 5400,
+  "prior_run": "/home/ubuntu/\u6587\u6863/ChatGPT/numa_gpu/gpc-contention-gqa-t10/runs/20261019T041515Z",
+  "prior_worker_seconds": 1110.5208800506662,
+  "old_cap_seconds": 10800,
+  "zip_sha256": "c2cfcf651f5c1001fa1def2a189ae5df4cb5706b1c4118acb74190b244d18cbc",
+  "offline": true,
+  "power_limit_w": 100,
+  "temperature_stop_c": 82
+}

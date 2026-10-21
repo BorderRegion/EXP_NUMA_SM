@@ -1,0 +1,10 @@
+--- previous/bridge_e4.cu
++++ current/bridge_e4.cu
+@@ -46,3 +46,7 @@
+   float total,ft,bt;ck(cuEventElapsedTime(&total,p->begin,p->end),"mixed total elapsed");ck(cuEventElapsedTime(&ft,p->begin,p->fgend),"fg completion elapsed");ck(cuEventElapsedTime(&bt,p->begin,p->bgend),"bg completion elapsed");out[4*i]=total*1000;out[4*i+1]=ft*1000;out[4*i+2]=bt*1000;
+  }return 0;}CATCH}
+ extern "C" int gc_mixed_drop(void*ptr){TRY{auto*p=(Mixed*)ptr;cuEventDestroy(p->begin);cuEventDestroy(p->fgend);cuEventDestroy(p->bgend);cuEventDestroy(p->end);delete p;return 0;}CATCH}
++
++#include "tail_extensions.inc"
++
++extern "C" int qt_sm_count(int group){TRY{CUdevResource r{};auto&g=groups.at(group);if(g.green)ck(cuGreenCtxGetDevResource(g.green,&r,CU_DEV_RESOURCE_TYPE_SM),"green resource attributes");else ck(cuCtxGetDevResource(g.ctx,&r,CU_DEV_RESOURCE_TYPE_SM),"primary resource attributes");return r.sm.smCount;}CATCH}

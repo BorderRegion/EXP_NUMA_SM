@@ -1,0 +1,21 @@
+[Unit]
+Description=Tesla T10 temperature based CHA_FAN quiet curve
+Wants=t10-quiet-power.service
+After=t10-quiet-power.service
+StartLimitIntervalSec=0
+
+[Service]
+Type=notify
+NotifyAccess=main
+ExecStartPre=/usr/sbin/modprobe nct6775
+ExecStart=/usr/bin/python3 -u /usr/local/sbin/t10_quiet_fan.py
+ExecStopPost=/usr/bin/python3 -u /usr/local/sbin/t10_quiet_fan.py --restore
+Restart=always
+RestartSec=3
+WatchdogSec=8
+WatchdogSignal=SIGKILL
+TimeoutStartSec=30
+TimeoutStopSec=6
+
+[Install]
+WantedBy=multi-user.target

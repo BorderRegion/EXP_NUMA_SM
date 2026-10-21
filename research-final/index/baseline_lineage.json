@@ -1,0 +1,163 @@
+{
+  "default": "N19 LocalityPlan DEPLOY unchanged; CAP experimental",
+  "compiler_versions": "last_run/final-gpc-capacity-t10/runs/20261021T043548Z/environment/COMPILER_VERSIONS.json",
+  "environment_limit": "third-party toolchain/runtime and all old raw are not bundled",
+  "N19": {
+    "source": [
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-locality-scheduling-t10/src/common.py",
+        "sha256": "b17fa3a27ab31ab646bbed02b8ce560b9bc36e98057db788934e76b96eee7bf4",
+        "bytes": 644
+      },
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-locality-scheduling-t10/src/locality_plan.py",
+        "sha256": "bed3402d219c1dfa2f7b674d03170c9651668b29e55e4f007f39c61ed6a330eb",
+        "bytes": 5304
+      },
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-locality-scheduling-t10/src/attention.cu",
+        "sha256": "c555ab969ba7a01434bcdf9532137428cc338979eb4aacf1fc6293a230c80581",
+        "bytes": 10691
+      },
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-locality-scheduling-t10/src/legacy_attention.cu",
+        "sha256": "d01e563ceaf67b442a18d84d67c79d917a9837710836a55d399481e40b38d253",
+        "bytes": 9029
+      },
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-locality-scheduling-t10/src/vector_attention.cu",
+        "sha256": "de56e97ef424d14da68df1e9dc8e88abb80307633484af850184fd5caa199cea",
+        "bytes": 9113
+      },
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-locality-scheduling-t10/src/vector_append.cu",
+        "sha256": "fcdc0c8a06fd1676a0a9ab8b4afacf2aa26cff09a0393ae6fb538b29fd1bb050",
+        "bytes": 10216
+      },
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-locality-scheduling-t10/src/build.py",
+        "sha256": "203a2dfb10384dc0b2085da212fcb471a9926ed6620aa205f287f075e8311a2f",
+        "bytes": 1321
+      },
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-locality-scheduling-t10/src/build_vector.py",
+        "sha256": "e1c3eae6e7b94de2384ec4c297b69562253f3dc6c6cf3dad391fb2778f56cead",
+        "bytes": 1337
+      },
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-locality-scheduling-t10/src/build_vector_append.py",
+        "sha256": "377c2694181ec216451e990583b512b9a2687068a5b89b2ab022ff29ad82e06f",
+        "bytes": 1373
+      }
+    ],
+    "binary": [
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-locality-scheduling-t10/build/attention.so",
+        "sha256": "836d77ce4f6105f2d36d5fd47f6d88e8a8ec0b27b58387f188aa0ea19078bda3",
+        "bytes": 4147136
+      },
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-locality-scheduling-t10/build/legacy/append.so",
+        "sha256": "19740b9b695f2c3726885904e2b0004f8a1739ec7971a002027eb3ccb8e64b71",
+        "bytes": 4347288
+      },
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-locality-scheduling-t10/build/legacy/attention.so",
+        "sha256": "a9cc45689f3df8e923129775c7c5d1abef976c8ba6abed5b10a78a0c687cabdd",
+        "bytes": 4257184
+      },
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-locality-scheduling-t10/build/vector.so",
+        "sha256": "f6c34ac7361379dc4e0bf29a4240f34e411601fe48a16e2a6cfa83003e2e0d44",
+        "bytes": 4248992
+      },
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-locality-scheduling-t10/build/vector_append.so",
+        "sha256": "b9fd4b4e464bc7ec3e7a425ba670aa4603f83b02d13fd9f7b7dbd33cac15382a",
+        "bytes": 4343192
+      }
+    ],
+    "policy": {
+      "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/numa-locality-scheduling-t10/freeze/DEPLOYMENT_POLICY.json",
+      "sha256": "ded8fbca4bbb52f0235972dd5f1835ab4ce2d849de2eb79c9302c71a0b10ae74",
+      "bytes": 644
+    },
+    "selection_scope": "post-confirmation deployment gate, no independent routing holdout"
+  },
+  "E56_inherited": {
+    "source": [
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/final-gpc-capacity-t10/src/gqa.cu",
+        "sha256": "1c2aac2ef0d290b0c7b4093f486f5749e5941b455694c506adf6c903245131b7",
+        "bytes": 9161
+      },
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/final-gpc-capacity-t10/src/gqa_append.cu",
+        "sha256": "9b21caa8426e595d0874e94f0275807a72cc3ddc033217381e17eda4cf7afb42",
+        "bytes": 10264
+      }
+    ],
+    "binary": [
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/final-gpc-capacity-t10/build/gqa.so",
+        "sha256": "62e089cb50b851b613118fd4f09415ece037fb93870c08da0aee59a802cded47",
+        "bytes": 4233112
+      },
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/final-gpc-capacity-t10/build/gqa_append.so",
+        "sha256": "4500d5a436a5d7195b12f1cb233478821ec824fb7ba8862c83082e2bdeea5b98",
+        "bytes": 4335496
+      }
+    ],
+    "origin": "stage26 direct port of N19 math with resource-compatible launcher; not identical compiled entry"
+  },
+  "E56_DIRECT_range_and_CAP": {
+    "source": [
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/final-gpc-capacity-t10/src/range_gqa.cu",
+        "sha256": "fd87a7597fe2d71676a67324843bc40c7afa1582b131e1d99df3dd72c47d2ade",
+        "bytes": 11314
+      },
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/final-gpc-capacity-t10/src/range_extensions.inc",
+        "sha256": "8301dc203e20848224e2e62410edf65f4928b84b23dcc0e17cdb37b2fb1f37e9",
+        "bytes": 3209
+      },
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/final-gpc-capacity-t10/src/bridge_e4.cu",
+        "sha256": "89a1e1de00e00dbd2fd716863434f754e32931ef1d2c82c4746ab76e055683f5",
+        "bytes": 8996
+      },
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/final-gpc-capacity-t10/src/range_runtime.py",
+        "sha256": "cada25b1d9586fa9acf6df8ae3bf714e074b1c9fc67ea5c6ac5a8a1187c26899",
+        "bytes": 6391
+      }
+    ],
+    "binary": [
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/final-gpc-capacity-t10/build/range_gqa.so",
+        "sha256": "333d7c9aff2d25a115ef838b951ae1d32b699e38ddfcf86dd56c69779f83d9bd",
+        "bytes": 4356408
+      },
+      {
+        "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/final-gpc-capacity-t10/build/bridge_capacity.so",
+        "sha256": "94d6c5579ba1f3d1c5482b1834621c5e686fa78e874289d0c360b097ff336d95",
+        "bytes": 345096
+      }
+    ],
+    "math": "DIRECT original QK/softmax/partial/merge and W; task range visitor only",
+    "difference": "E56_DIRECT one full56 producer; CAP five disjoint full workers plus original merge and dependency join",
+    "N19_difference": "SHORT last-arriver fusion and LONG/GQA8 BLIND retained in baseline; no claim five-launch overhead explains whole N19 gap"
+  },
+  "repairs": [
+    "freeze/DIAGNOSTIC_EVENT_REPAIR.json",
+    "freeze/CAP_WEIGHTS_PROVENANCE_CORRECTION.json",
+    "freeze/PORTABLE_CPU_PATH_FIX.json"
+  ],
+  "topology_reader": {
+    "original_path": "/home/ubuntu/文档/ChatGPT/numa_gpu/gpc-mask-t10/read_topology",
+    "sha256": "ead50a53c50fcbfd42d5167c2b840492b533d1171520f749352f7c768468a3ac",
+    "bytes": 16776
+  }
+}

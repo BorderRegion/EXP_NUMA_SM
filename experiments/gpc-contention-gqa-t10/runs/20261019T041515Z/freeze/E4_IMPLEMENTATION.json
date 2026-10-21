@@ -1,0 +1,56 @@
+{
+  "frozen_before_formal": true,
+  "hashes": {
+    "src/bridge.cu": "c5ca6de093e91de105ffaaf678856f1105fd722a972fa90ea3f9ff0ccc26fdcd",
+    "src/e4_extensions.inc": "cc27d770af045387c45fb8d180babffa36c349614d1f1b0721c6d5fe2649565c",
+    "src/measure.py": "1c01eb231eceaa6a2b1ac71fe1e5d11a0fb9db33a204d6a797a2a9c65679a616",
+    "src/micro.cu": "b412ae3f7bfcebeaf865442378d87a31e404d3a05f6ee46c41784771c9f57ff6",
+    "src/common.py": "d76067a1ac595798e6f38834f970d31a75e4b45578c4ac54fbd2142330ea5a6f",
+    "src/gqa_data.py": "cb953c918785c4c4b400f933141ec9aca2312714af59e3d9146ae27a9e90f964",
+    "src/control.py": "7a515084ece9bcd2453507eba1caf342ddbec30f5dabeb82e0ca6ecbcc227de8",
+    "src/profile_coexecution.py": "ac5a5456fcefd6ae933c68a6274b6f19f7e72fd8bb42fd78a075c4aa1ce9c09e",
+    "src/qualify_coexecution.py": "5d0232d42bcaf4d0c00e7d4a005ef656f5d1b0aafa46ae025a426e1ada24f889",
+    "src/run_coexecution.py": "2838e3c12a7246bef9dcce21f5f5aafa5a0a9aae0d7e701e72f93a0aba27ad30",
+    "src/formal_coexecution.py": "2d81b0ba74137fead1540dd4bf3441c7c1385aadceaccbb21ac3b8021d31c5bf",
+    "src/reanalyze_history.py": "0727d1142a3280467cf5184c07919395d5f7d36545119523252880125b97a8ff",
+    "src/qualify_resources.py": "47e23843efd39b39c9d2fd61d62727d4ce9c384145025ebd5646262489019017",
+    "src/gemm_runtime.py": "fa20e52e8097cc6aa064226774ca6533ff8f6e7e63a2ad5d614acac9d9479b0e",
+    "src/qualify_ops.py": "4044c9703dc616ea5c291748ff4c58fb98ce16e40bbb5705dddbd622c4af0ddd",
+    "src/gqa.cu": "1c2aac2ef0d290b0c7b4093f486f5749e5941b455694c506adf6c903245131b7",
+    "src/worker.py": "50c82f15d1a83af00cc683b3b304ed550b1659cd70c199e581a2e81a4154f671",
+    "src/build_e4.py": "c888c78cb4361616d2fcf2961ca313967841f1dd3be283d1c132bd498ff7d995",
+    "src/build.py": "132fa0b296d557ab51609567979ae7ab555c52212eb67d4042244ef0ae560b36",
+    "src/micro_runtime.py": "d18393bf7989e0412f8d01f4f9e7f6d6b74033537ed161681bb110c574ad4efb",
+    "src/formal_single.py": "9979f4598e120d27f09ed5699bb2041cac00de8a6ad555fdab156d09ffb4c375",
+    "src/gqa_append.cu": "9b21caa8426e595d0874e94f0275807a72cc3ddc033217381e17eda4cf7afb42",
+    "src/run_single.py": "f20349f240a41844cae5d14c3a45c4b2ff652ac58caa955834139387fa387cc3",
+    "src/control_e4.py": "a38a7e96037d0149e8a684cb6b6cf2b035851f6da083de3d1e9b5c5414b966fd",
+    "src/gqa_runtime.py": "21fee72817dadab5820eb148a0dbcec67130e70599c92e736c8abbd1742b0387",
+    "src/analyze.py": "59a658b015cc38b8e02e63043ddba796f74f4e6fc237f7f4f7c537d9391efd77",
+    "src/bridge_e4.cu": "deb4b76b8d9c37a4e2808a812cf0bc64fc324a634832c8177b6a4f0a5b1bd165",
+    "build/micro.so": "d2801bf6cfcc9de22f0c738ffce1591828bb46d94301f2453d0d0e7bd5962c32",
+    "build/bridge.so": "7594b6372cd2d97382552b631664fa6dec5956d1fd9d837afe54ffab761e0f51",
+    "build/gqa.so": "62e089cb50b851b613118fd4f09415ece037fb93870c08da0aee59a802cded47",
+    "build/gqa_append.so": "4500d5a436a5d7195b12f1cb233478821ec824fb7ba8862c83082e2bdeea5b98",
+    "build/bridge_e4.so": "1011b9fc002963717149746f86173b2cbcb101a0382e7862b76651666548ea32"
+  },
+  "extra_body_control": "SHARED56_E56 uses new body on native unpartitioned streams; 12 auxiliary phases outside 168 primary phases to measure the SM-read removal/compilation difference, not selected by outcomes.",
+  "native_only_fixed_job": {
+    "GQA4_LONG": {
+      "fg_requests": 32,
+      "bg_gemms": 7,
+      "native_fg_gpu_us": 194.5760040283203,
+      "native_bg_gpu_us": 925.6640319824219,
+      "foreground_mode": "VALUE_CHANGING_FIXED_LENGTH_APPEND_ATTENTION"
+    },
+    "BATCH4_RAGGED": {
+      "fg_requests": 32,
+      "bg_gemms": 9,
+      "native_fg_gpu_us": 256.99200439453125,
+      "native_bg_gpu_us": 925.6640319824219,
+      "foreground_mode": "VALUE_CHANGING_FIXED_LENGTH_APPEND_ATTENTION"
+    }
+  },
+  "updated_before_formal_utc": "2026-10-19T04:32:59.898723+00:00",
+  "addition": "Before any E4 primary run, separately instrument cuBLAS handle/workspace and full phase setup including diagnostics. No policy/count change."
+}

@@ -1,0 +1,8 @@
+{
+  "correction": "CAP_WEIGHTS.json input_files first path says P3_DEV_0 due metadata typo; freeze_capacity.py actually reads P3_DEV_0_retry2. Frozen numerical values were not changed after confirmation.",
+  "actual_inputs": [
+    "raw/P3_DEV_0_retry2",
+    "raw/P3_DEV_1"
+  ],
+  "proof": "freeze_capacity.py file-read loop and recompute_final.py reconstruct every capacity and selection from complete workers"
+}

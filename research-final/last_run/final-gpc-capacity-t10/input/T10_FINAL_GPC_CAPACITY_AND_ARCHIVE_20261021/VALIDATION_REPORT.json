@@ -1,0 +1,38 @@
+{
+  "status": "CPU_DESIGN_VALIDATED_NOT_GPU_EXECUTED",
+  "date": "2026-10-21",
+  "python_unittest_count": 25,
+  "python_unittest_result": "PASS",
+  "cpp_compiled": true,
+  "cpp_run_result": "CPU mapping checks=17472",
+  "topology_source": "historical CSV from provided archive; not current hardware query",
+  "subset_plans": 168,
+  "subset_plans_per_block": 28,
+  "live_cuda_resource_binding_tested": false,
+  "CUDA_compiled": false,
+  "GPU_ran": false,
+  "power_or_clock_changed": false,
+  "new_performance_results": false,
+  "budget_wall_minutes_plan": 960,
+  "budget_wall_minutes_hard": 1440,
+  "GPU_worker_minutes_cap": 360,
+  "validation_scope": [
+    "Python plan logic",
+    "contiguous task coverage",
+    "unchanged worker/page identity",
+    "exact integer last-page owner",
+    "hypothetical opportunity arithmetic",
+    "CPU coordinate decoding",
+    "JSON and source syntax",
+    "history CSV consistency"
+  ],
+  "not_validated": [
+    "live RM mapping",
+    "Green resource binding/concurrency",
+    "GQA adapter",
+    "clock stability",
+    "numerical outputs on GPU",
+    "hardware NUMA",
+    "new method performance"
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "archive": "T10_25_STAGE_CUMULATIVE_REVIEW_20261019.zip",
+    "entry": "T10_25_STAGE_CUMULATIVE_REVIEW_20261019/evidence/SM_TO_GPC_TPC.csv",
+    "copied_to": "support/HISTORICAL_SM_TO_GPC_TPC.csv",
+    "sha256": "ecab18bb38c673c6b3804494a808897e06d61750752046cb367c5e202f99a045",
+    "scope": "历史报告/结构快照，不是新测量，也不是当前硬件状态保证"
+  },
+  {
+    "archive": "T10_25_STAGE_CUMULATIVE_REVIEW_20261019.zip",
+    "entry": "T10_25_STAGE_CUMULATIVE_REVIEW_20261019/GPC_AFFINITY_CROSS_STAGE.md",
+    "copied_to": "support/GPC_AFFINITY_CROSS_STAGE.md",
+    "sha256": "e54dc8aa3f918ee04fe0eef1ec40d9efbeb179de1582ff7959ecff58249e49d1",
+    "scope": "历史报告/结构快照，不是新测量，也不是当前硬件状态保证"
+  },
+  {
+    "archive": "T10_25_STAGE_CUMULATIVE_REVIEW_20261019.zip",
+    "entry": "T10_25_STAGE_CUMULATIVE_REVIEW_20261019/sources/15.md",
+    "copied_to": "support/STAGE15.md",
+    "sha256": "e4f94e43c309201ed49a265cb2201210081bb8e222f0c7f024d033ad4767f781",
+    "scope": "历史报告/结构快照，不是新测量，也不是当前硬件状态保证"
+  },
+  {
+    "archive": "T10_25_STAGE_CUMULATIVE_REVIEW_20261019.zip",
+    "entry": "T10_25_STAGE_CUMULATIVE_REVIEW_20261019/sources/19.md",
+    "copied_to": "support/STAGE19.md",
+    "sha256": "69c2410ba0b01aa3f93f3f0ccdf4abd81d6f4f3b3f3d4ef12af451421d9386c4",
+    "scope": "历史报告/结构快照，不是新测量，也不是当前硬件状态保证"
+  },
+  {
+    "archive": "T10_25_STAGE_CUMULATIVE_REVIEW_20261019.zip",
+    "entry": "T10_25_STAGE_CUMULATIVE_REVIEW_20261019/sources/22.md",
+    "copied_to": "support/STAGE22.md",
+    "sha256": "441a0dd34791834e4c140d8c0239f2ab14f3058be3cb60fc612c9e9e8a338279",
+    "scope": "历史报告/结构快照，不是新测量，也不是当前硬件状态保证"
+  },
+  {
+    "archive": "T10_25_STAGE_CUMULATIVE_REVIEW_20261019.zip",
+    "entry": "T10_25_STAGE_CUMULATIVE_REVIEW_20261019/sources/25.md",
+    "copied_to": "support/STAGE25.md",
+    "sha256": "dbf8c14e447611fe270240eea5484bdd37acac3b01c046c8422ad1c3b5c5312c",
+    "scope": "历史报告/结构快照，不是新测量，也不是当前硬件状态保证"
+  }
+]

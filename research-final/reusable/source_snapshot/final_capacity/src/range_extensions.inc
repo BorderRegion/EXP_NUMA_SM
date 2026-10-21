@@ -1,0 +1,16 @@
+// Build-time fork/join only. Formal graph has no stage-timing events.
+struct RangeCapture {CUevent fork;std::vector<CUevent> done,starts,ends;bool diagnostic;};
+extern "C" void*rc_create(int n,int diagnostic){try{
+ auto*p=new RangeCapture;p->diagnostic=diagnostic;ck(cuCtxSetCurrent(primary),"range primary");
+ ck(cuEventCreate(&p->fork,CU_EVENT_DISABLE_TIMING),"range fork");p->done.resize(n);
+ for(auto&e:p->done)ck(cuEventCreate(&e,CU_EVENT_DISABLE_TIMING),"range join");
+ if(diagnostic){p->starts.resize(n);p->ends.resize(n);for(auto&e:p->starts)ck(cuEventCreate(&e,0),"diag start");for(auto&e:p->ends)ck(cuEventCreate(&e,0),"diag end");}return p;
+}catch(std::exception&e){error=e.what();return nullptr;}}
+extern "C" int rc_begin(void*ptr){TRY{auto*p=(RangeCapture*)ptr;ck(cuCtxSetCurrent(primary),"range capture primary");ck(cuStreamBeginCapture(groups.at(0).stream,CU_STREAM_CAPTURE_MODE_THREAD_LOCAL),"range capture begin");ck(cuEventRecord(p->fork,groups.at(0).stream),"range capture fork");return 0;}CATCH}
+extern "C" int rc_group_begin(void*ptr,int i,int group){TRY{auto*p=(RangeCapture*)ptr;auto&g=groups.at(group);ck(cuCtxSetCurrent(g.ctx),"range group context");ck(cuStreamWaitEvent(g.stream,p->fork,0),"range group dependency");if(p->diagnostic)ck(cuEventRecordWithFlags(p->starts.at(i),g.stream,CU_EVENT_RECORD_EXTERNAL),"range diagnostic begin");return 0;}CATCH}
+extern "C" int rc_group_end(void*ptr,int i,int group){TRY{auto*p=(RangeCapture*)ptr;auto&g=groups.at(group);if(p->diagnostic)ck(cuEventRecordWithFlags(p->ends.at(i),g.stream,CU_EVENT_RECORD_EXTERNAL),"range diagnostic end");ck(cuEventRecord(p->done.at(i),g.stream),"range producer done");return 0;}CATCH}
+extern "C" int rc_join(void*ptr){TRY{auto*p=(RangeCapture*)ptr;ck(cuCtxSetCurrent(primary),"range merge primary");for(auto e:p->done)ck(cuStreamWaitEvent(groups.at(0).stream,e,0),"range merge dependency");return 0;}CATCH}
+extern "C" int rc_spans(void*ptr,double*out){TRY{auto*p=(RangeCapture*)ptr;for(int i=0;i<int(p->starts.size());i++){float x;ck(cuEventElapsedTime(&x,p->starts[i],p->ends[i]),"range own stream service span");out[i]=x*1000;}return 0;}CATCH}
+extern "C" int rc_drop(void*ptr){TRY{auto*p=(RangeCapture*)ptr;cuEventDestroy(p->fork);for(auto e:p->done)cuEventDestroy(e);for(auto e:p->starts)cuEventDestroy(e);for(auto e:p->ends)cuEventDestroy(e);delete p;return 0;}CATCH}
+// Distinct BATCH measurement: one ready wait for 32/64 genuine ring-rotated requests.
+extern "C" int gc_batch(void**graphs,int ring,int n,double*out){TRY{auto*q=(Graph*)graphs[0];int id=q->group;auto&g=groups.at(id);ck(cuCtxSetCurrent(g.ctx),"batch context");auto t=std::chrono::steady_clock::now();ck(cuEventRecord(q->a,g.stream),"batch begin");for(int i=0;i<n;i++){auto*p=(Graph*)graphs[i%ring];if(p->group!=id)throw std::runtime_error("batch group mismatch");ck(cuGraphLaunch(p->exec,g.stream),"batch launch");}ck(cuEventRecord(q->b,g.stream),"batch end");ck(cuStreamSynchronize(g.stream),"batch ready");out[1]=std::chrono::duration<double,std::micro>(std::chrono::steady_clock::now()-t).count();float ms;ck(cuEventElapsedTime(&ms,q->a,q->b),"batch span");out[0]=ms*1000;ck(cuCtxSetCurrent(primary),"batch restore");return 0;}CATCH}

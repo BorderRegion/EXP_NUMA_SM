@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "timing_rows": 140988,
+  "per_worker": {
+    "E2_block_0": 12506,
+    "E2_block_1": 12506,
+    "E2_block_2": 12506,
+    "E2_block_3": 12506,
+    "E2_block_4": 12506,
+    "E2_block_5": 12506,
+    "E3_block_0": 8944,
+    "E3_block_1": 8944,
+    "E3_block_2": 8944,
+    "E3_block_3": 8944,
+    "E3_block_4": 8944,
+    "E3_block_5": 8944,
+    "E4_block_0": 2048,
+    "E4_block_1": 2048,
+    "E4_block_2": 2048,
+    "E4_block_3": 2048,
+    "E4_block_4": 2048,
+    "E4_block_5": 2048
+  },
+  "checks": [
+    "Every raw sample maps to exact phase",
+    "All primary phases contain 64 complete requests/jobs",
+    "Each warmup at least32 requests/jobs and50ms host interval",
+    "Contiguous sample IDs",
+    "Positive output-ready values"
+  ],
+  "not_claimed": "Per-request output checking was not interleaved with timing"
+}

@@ -1,0 +1,27 @@
+{"stage": "E0", "worker": "RM_GET", "seconds": 0.0034813910024240613, "returncode": 0}
+{"worker": "E0_resources", "start_utc": "2026-10-19T04:18:09.214574+00:00", "end_utc": "2026-10-19T04:18:18.464389+00:00", "seconds": 9.249424743989948, "returncode": 0, "stop_reason": null}
+{"worker": "E0_ops", "start_utc": "2026-10-19T04:22:19.504634+00:00", "end_utc": "2026-10-19T04:22:27.715898+00:00", "seconds": 8.210872077965178, "returncode": 0, "stop_reason": null}
+{"worker": "E2_block_0", "start_utc": "2026-10-19T04:23:37.360877+00:00", "end_utc": "2026-10-19T04:24:32.719163+00:00", "seconds": 55.357862130971625, "returncode": 0, "stop_reason": null}
+{"worker": "E2_block_1", "start_utc": "2026-10-19T04:24:32.778655+00:00", "end_utc": "2026-10-19T04:25:28.149697+00:00", "seconds": 55.370562841999345, "returncode": 0, "stop_reason": null}
+{"worker": "E2_block_2", "start_utc": "2026-10-19T04:25:28.208809+00:00", "end_utc": "2026-10-19T04:26:24.606030+00:00", "seconds": 56.39680246595526, "returncode": 0, "stop_reason": null}
+{"worker": "E2_block_3", "start_utc": "2026-10-19T04:26:24.665936+00:00", "end_utc": "2026-10-19T04:27:22.045371+00:00", "seconds": 57.378975003026426, "returncode": 0, "stop_reason": null}
+{"worker": "E2_block_4", "start_utc": "2026-10-19T04:27:22.109099+00:00", "end_utc": "2026-10-19T04:28:19.527213+00:00", "seconds": 57.417771805019584, "returncode": 0, "stop_reason": null}
+{"worker": "E2_block_5", "start_utc": "2026-10-19T04:28:19.587831+00:00", "end_utc": "2026-10-19T04:29:17.238839+00:00", "seconds": 57.650835146021564, "returncode": 0, "stop_reason": null}
+{"worker": "E4_qualification", "start_utc": "2026-10-19T04:29:34.742109+00:00", "end_utc": "2026-10-19T04:29:46.031874+00:00", "seconds": 11.289400439010933, "returncode": 0, "stop_reason": null}
+{"worker": "E3_block_0", "start_utc": "2026-10-19T04:30:04.218088+00:00", "end_utc": "2026-10-19T04:30:41.158301+00:00", "seconds": 36.93976479599951, "returncode": 0, "stop_reason": null}
+{"worker": "E3_block_1", "start_utc": "2026-10-19T04:30:41.212198+00:00", "end_utc": "2026-10-19T04:31:18.203460+00:00", "seconds": 36.990709783975035, "returncode": 0, "stop_reason": null}
+{"worker": "E3_block_2", "start_utc": "2026-10-19T04:31:18.262602+00:00", "end_utc": "2026-10-19T04:31:56.220077+00:00", "seconds": 37.95705894997809, "returncode": 0, "stop_reason": null}
+{"worker": "E3_block_3", "start_utc": "2026-10-19T04:31:56.278292+00:00", "end_utc": "2026-10-19T04:32:34.257096+00:00", "seconds": 37.978406800015364, "returncode": 0, "stop_reason": null}
+{"worker": "E3_block_4", "start_utc": "2026-10-19T04:32:34.316549+00:00", "end_utc": "2026-10-19T04:33:11.286396+00:00", "seconds": 36.96938382496592, "returncode": 0, "stop_reason": null}
+{"worker": "E3_block_5", "start_utc": "2026-10-19T04:33:11.340067+00:00", "end_utc": "2026-10-19T04:33:49.308173+00:00", "seconds": 37.96793786296621, "returncode": 0, "stop_reason": null}
+{"worker": "E4_block_0", "start_utc": "2026-10-19T04:33:49.394544+00:00", "end_utc": "2026-10-19T04:35:07.580866+00:00", "seconds": 78.18591645197012, "returncode": 0, "stop_reason": null}
+{"worker": "E4_block_1", "start_utc": "2026-10-19T04:35:07.633509+00:00", "end_utc": "2026-10-19T04:36:26.828561+00:00", "seconds": 79.19457389198942, "returncode": 0, "stop_reason": null}
+{"worker": "E4_block_2", "start_utc": "2026-10-19T04:36:26.889053+00:00", "end_utc": "2026-10-19T04:37:46.062228+00:00", "seconds": 79.17275153496303, "returncode": 0, "stop_reason": null}
+{"worker": "E4_block_3", "start_utc": "2026-10-19T04:37:46.123012+00:00", "end_utc": "2026-10-19T04:39:05.418944+00:00", "seconds": 79.29573928500758, "returncode": 0, "stop_reason": null}
+{"worker": "E4_block_4", "start_utc": "2026-10-19T04:39:05.472869+00:00", "end_utc": "2026-10-19T04:40:24.673991+00:00", "seconds": 79.20097280998016, "returncode": 0, "stop_reason": null}
+{"worker": "E4_block_5", "start_utc": "2026-10-19T04:40:24.715722+00:00", "end_utc": "2026-10-19T04:41:44.961371+00:00", "seconds": 80.24518924194854, "returncode": 0, "stop_reason": null}
+{"worker": "E5_profiles", "start_utc": "2026-10-19T04:41:45.024125+00:00", "end_utc": "2026-10-19T04:41:51.188886+00:00", "seconds": 6.164601098978892, "returncode": 0, "stop_reason": null}
+{"worker": "E5_gqa_placement", "start_utc": "2026-10-19T04:42:58.256838+00:00", "end_utc": "2026-10-19T04:43:14.676082+00:00", "seconds": 16.419099544989876, "returncode": 0, "stop_reason": null}
+{"worker": "E5_gemm_graph", "start_utc": "2026-10-19T04:43:21.432808+00:00", "end_utc": "2026-10-19T04:43:28.619819+00:00", "seconds": 7.1868470390327275, "returncode": 0, "stop_reason": null}
+{"worker": "E5_memcheck", "start_utc": "2026-10-19T04:43:41.726034+00:00", "end_utc": "2026-10-19T04:43:47.891181+00:00", "seconds": 6.164732200966682, "returncode": 0, "stop_reason": null}
+{"worker": "E5_synccheck", "start_utc": "2026-10-19T04:43:57.985043+00:00", "end_utc": "2026-10-19T04:44:04.146718+00:00", "seconds": 6.161206887976732, "returncode": 0, "stop_reason": null}

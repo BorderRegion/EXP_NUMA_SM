@@ -1,0 +1,87 @@
+{
+  "micro": {
+    "HOT2_DEFAULT_40": {
+      "gpu_us": 102.23999786376953,
+      "batch": 4
+    },
+    "HOT2_DEFAULT_160": {
+      "gpu_us": 28.479999542236328,
+      "batch": 16
+    },
+    "HOT2_CG_40": {
+      "gpu_us": 122.83200073242188,
+      "batch": 4
+    },
+    "HOT2_CG_160": {
+      "gpu_us": 49.167999267578125,
+      "batch": 8
+    },
+    "STREAM32_DEFAULT_40": {
+      "gpu_us": 191.63199615478516,
+      "batch": 2
+    },
+    "STREAM32_DEFAULT_160": {
+      "gpu_us": 103.56800079345703,
+      "batch": 4
+    },
+    "STREAM32_CG_40": {
+      "gpu_us": 192.3679962158203,
+      "batch": 2
+    },
+    "STREAM32_CG_160": {
+      "gpu_us": 103.05599594116211,
+      "batch": 4
+    },
+    "STREAM128_CG_40": {
+      "gpu_us": 751.1679992675781,
+      "batch": 1
+    },
+    "STREAM128_CG_160": {
+      "gpu_us": 400.7040100097656,
+      "batch": 1
+    },
+    "REG_FMA_40": {
+      "gpu_us": 9.967999935150146,
+      "batch": 32
+    },
+    "REG_FMA_160": {
+      "gpu_us": 17.600000381469727,
+      "batch": 16
+    }
+  },
+  "gqa": {
+    "GQA4_SHORT_0": {
+      "gpu_us": 35.50399971008301,
+      "batch": 8
+    },
+    "GQA4_SHORT_1": {
+      "gpu_us": 35.03999710083008,
+      "batch": 8
+    },
+    "GQA4_LONG_0": {
+      "gpu_us": 141.88800048828125,
+      "batch": 2
+    },
+    "GQA4_LONG_1": {
+      "gpu_us": 137.0240020751953,
+      "batch": 2
+    },
+    "GQA8_LONG_0": {
+      "gpu_us": 90.97599792480469,
+      "batch": 4
+    },
+    "GQA8_LONG_1": {
+      "gpu_us": 92.88000106811523,
+      "batch": 4
+    },
+    "BATCH4_RAGGED_0": {
+      "gpu_us": 149.83999633789062,
+      "batch": 2
+    },
+    "BATCH4_RAGGED_1": {
+      "gpu_us": 151.343994140625,
+      "batch": 2
+    }
+  },
+  "source": "All-resource native-only pilots, prior to placement performance; same counts shared by policies"
+}

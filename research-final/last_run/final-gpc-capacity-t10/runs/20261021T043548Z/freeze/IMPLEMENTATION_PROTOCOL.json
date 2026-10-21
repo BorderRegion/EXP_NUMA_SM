@@ -1,0 +1,248 @@
+{
+  "utc": "2026-10-21T04:53:29.882296+00:00",
+  "branch": "CONTROL_LIMITED",
+  "cases": [
+    {
+      "id": "A01",
+      "B": 1,
+      "Hq": 32,
+      "Hkv": 8,
+      "D": 128,
+      "lengths": [
+        1024
+      ],
+      "split": "calibration_anchor",
+      "weights_from": "A01",
+      "workers_from": "N19_GQA4_SHORT",
+      "provenance": "historical_shape_new_inputs",
+      "measured": false
+    },
+    {
+      "id": "A02",
+      "B": 1,
+      "Hq": 32,
+      "Hkv": 8,
+      "D": 128,
+      "lengths": [
+        8192
+      ],
+      "split": "calibration_anchor",
+      "weights_from": "A02",
+      "workers_from": "N19_GQA4_LONG",
+      "provenance": "historical_shape_new_inputs",
+      "measured": false
+    },
+    {
+      "id": "A03",
+      "B": 1,
+      "Hq": 32,
+      "Hkv": 4,
+      "D": 128,
+      "lengths": [
+        8192
+      ],
+      "split": "calibration_anchor",
+      "weights_from": "A03",
+      "workers_from": "N19_GQA8_LONG",
+      "provenance": "historical_shape_new_inputs",
+      "measured": false
+    },
+    {
+      "id": "A04",
+      "B": 4,
+      "Hq": 32,
+      "Hkv": 8,
+      "D": 128,
+      "lengths": [
+        4096,
+        3073,
+        2049,
+        1027
+      ],
+      "split": "calibration_anchor",
+      "weights_from": "A04",
+      "workers_from": "N19_BATCH4_RAGGED",
+      "provenance": "historical_shape_new_inputs",
+      "measured": false
+    },
+    {
+      "id": "V01",
+      "B": 1,
+      "Hq": 32,
+      "Hkv": 8,
+      "D": 128,
+      "lengths": [
+        2048
+      ],
+      "split": "holdout",
+      "weights_from": "A01",
+      "workers_from": "N19_GQA4_SHORT",
+      "provenance": "new_design",
+      "measured": false
+    },
+    {
+      "id": "V02",
+      "B": 1,
+      "Hq": 32,
+      "Hkv": 8,
+      "D": 128,
+      "lengths": [
+        4096
+      ],
+      "split": "holdout",
+      "weights_from": "A02",
+      "workers_from": "N19_GQA4_LONG",
+      "provenance": "new_design",
+      "measured": false
+    },
+    {
+      "id": "V03",
+      "B": 1,
+      "Hq": 32,
+      "Hkv": 4,
+      "D": 128,
+      "lengths": [
+        2048
+      ],
+      "split": "holdout",
+      "weights_from": "A03",
+      "workers_from": "N19_GQA8_LONG",
+      "provenance": "new_design",
+      "measured": false
+    },
+    {
+      "id": "V04",
+      "B": 1,
+      "Hq": 32,
+      "Hkv": 4,
+      "D": 128,
+      "lengths": [
+        4096
+      ],
+      "split": "holdout",
+      "weights_from": "A03",
+      "workers_from": "N19_GQA8_LONG",
+      "provenance": "new_design",
+      "measured": false
+    },
+    {
+      "id": "V05",
+      "B": 4,
+      "Hq": 32,
+      "Hkv": 8,
+      "D": 128,
+      "lengths": [
+        6144,
+        4609,
+        3073,
+        1537
+      ],
+      "split": "holdout",
+      "weights_from": "A04",
+      "workers_from": "N19_BATCH4_RAGGED",
+      "provenance": "new_design",
+      "measured": false
+    },
+    {
+      "id": "V06",
+      "B": 2,
+      "Hq": 32,
+      "Hkv": 8,
+      "D": 128,
+      "lengths": [
+        4096,
+        2049
+      ],
+      "split": "holdout",
+      "weights_from": "A04",
+      "workers_from": "N19_BATCH4_RAGGED",
+      "provenance": "new_design",
+      "measured": false
+    },
+    {
+      "id": "V07",
+      "B": 8,
+      "Hq": 32,
+      "Hkv": 8,
+      "D": 128,
+      "lengths": [
+        2048,
+        1793,
+        1537,
+        1281,
+        1025,
+        769,
+        513,
+        257
+      ],
+      "split": "holdout",
+      "weights_from": "A04",
+      "workers_from": "N19_BATCH4_RAGGED",
+      "provenance": "new_design",
+      "measured": false
+    },
+    {
+      "id": "V08",
+      "B": 1,
+      "Hq": 32,
+      "Hkv": 8,
+      "D": 128,
+      "lengths": [
+        16384
+      ],
+      "split": "holdout",
+      "weights_from": "A02",
+      "workers_from": "N19_GQA4_LONG",
+      "provenance": "new_design",
+      "measured": false
+    }
+  ],
+  "formal_scope": [
+    "append"
+  ],
+  "formal_blocks": 2,
+  "micro_grid_limited": 240,
+  "micro_limited_scope": "48 labels: 6 resources x (HOT2_CG,STREAM128_CG,REG_FMA,GQA4_LONG) x 2 blocks; repeated paired PRIMARY56 serves as one aggregated resource label",
+  "limited_capacity_preparation": "Only four existing anchors, append scope, two developer processes, five isolated groups plus one concurrent diagnostic. Necessary calibration to instantiate fixed CAP/WRONG; not additional confirmation or finer hardware inference.",
+  "development_weight": "one concurrent proxy-work / OWN producer event span correction, geometric mean of 2 processes; isolated retained; no iteration",
+  "replay_rule": "N19 pilot 8 requests -> ceil(5000us/median), clamp [8,128], round up multiple of4; freeze developer maximum and inherit anchors",
+  "formal_order": "paired ABBA/BAAB against N19, full ring rotation; no numeric checks in pair; native sampling counts disclosed",
+  "metric": "host C++ submit-to-output-ready us; outer GPU event us secondary; batch32 separate",
+  "control_limited_inference": "descriptive only, no fine percent or hardware-null claim",
+  "early_late": "FULL only, 3+3 fresh processes; CPU archive between sessions",
+  "native_default": "N19 unchanged",
+  "source_sha256": {
+    "src/opportunity.py": "79cb4435b5cf07ab2aa40dfde912cbf2ea8ce3776f0c37fea24ca9f0e1d020a6",
+    "src/limited_micro_gqa.py": "0d0f98700fd0e436225cbdd0b94624825d0f6b24aef14f170ac9d01f9f798805",
+    "src/micro.cu": "b412ae3f7bfcebeaf865442378d87a31e404d3a05f6ee46c41784771c9f57ff6",
+    "src/common.py": "d76067a1ac595798e6f38834f970d31a75e4b45578c4ac54fbd2142330ea5a6f",
+    "src/state_load.py": "f45a0d5184ad4b1eb18a2c311cfaa2e515ecb0a27d3cefb9191416f7b33c6b05",
+    "src/gqa_data.py": "cb953c918785c4c4b400f933141ec9aca2312714af59e3d9146ae27a9e90f964",
+    "src/measure_application.py": "acf2c95073dbefda1135c9d0ef8a78779006c2d53737be75e0150eac54599af1",
+    "src/protocol_freeze.py": "b0461927e5a7781ecbadc8e14281cdabafa712fefd090bdda6f1f59de2011a6b",
+    "src/control.py": "6b592c50f24d841f94cb732ce61f658303f17fd479a2edddc8f89895e63db658",
+    "src/run_limited.py": "b2c0243318ad1ac6109b3380e6b6b1178410c96e6e18f055dc865a5ccca63de3",
+    "src/range_runtime.py": "cada25b1d9586fa9acf6df8ae3bf714e074b1c9fc67ea5c6ac5a8a1187c26899",
+    "src/range_gqa.cu": "fd87a7597fe2d71676a67324843bc40c7afa1582b131e1d99df3dd72c47d2ade",
+    "src/archive_history.py": "5f863f68dfbfad5e682a6ba52e529b3a81f19c5adc1367c0a67b8fc86c368508",
+    "src/state_control.py": "537f50d68e9d85be1eacb9df45d14993bb73e37f4e8138ff05b4cd483cc62636",
+    "src/qualify_range.py": "7047fa40871266f7df8aa90ba2098fc86293b7b43f88fe4ffd628fe44a7976b3",
+    "src/gemm_runtime.py": "fa20e52e8097cc6aa064226774ca6533ff8f6e7e63a2ad5d614acac9d9479b0e",
+    "src/gqa.cu": "1c2aac2ef0d290b0c7b4093f486f5749e5941b455694c506adf6c903245131b7",
+    "src/worker.py": "9a2036374f9fd9403cd215c0dc45e6f3a1d20a35c3377110f3976ee04238f5ea",
+    "src/build_e4.py": "c888c78cb4361616d2fcf2961ca313967841f1dd3be283d1c132bd498ff7d995",
+    "src/build.py": "132fa0b296d557ab51609567979ae7ab555c52212eb67d4042244ef0ae560b36",
+    "src/sanitize_range.py": "575f2bd53f0a121a9ecd0c47789544acac8f7a351bb0cf31c32a434900b05717",
+    "src/micro_runtime.py": "d18393bf7989e0412f8d01f4f9e7f6d6b74033537ed161681bb110c574ad4efb",
+    "src/freeze_capacity.py": "987f67af88c1da92d6c7cc196c9e4d40b1027d4e57e5fb88c0ddf09c9abaa492",
+    "src/archive_cpu_checks.py": "a5b72aadf0f851ed945d2735d08ad9ed8b0dbf3f1e0fca6e27c4f9ff26e18549",
+    "src/gqa_append.cu": "9b21caa8426e595d0874e94f0275807a72cc3ddc033217381e17eda4cf7afb42",
+    "src/measure_capacity.py": "8fc0c49e0563d68b9a2f87b31212c76a3c1df1001797bfd0b106b708fdf97840",
+    "src/clock_client.py": "c0dbfabae315a9301eb4055fce62525ddfdd9ab0241352bf3a00c50875924997",
+    "src/range_extensions.inc": "e37e0a2b05b8fb370254674b3f5daecace8ba03538ba0e7839156f3a14a8e4e4",
+    "src/build_range.py": "dabb7a51f69d8946730c940470805446056ba8f557166afee2f109ae2e41049c",
+    "src/gqa_runtime.py": "21fee72817dadab5820eb148a0dbcec67130e70599c92e736c8abbd1742b0387",
+    "src/admin_clock.py": "d2be02e58aefa7bcaa1dd6b0ce24d545009c5e6f5c3988d2078715d031828200",
+    "src/bridge_e4.cu": "89a1e1de00e00dbd2fd716863434f754e32931ef1d2c82c4746ab76e055683f5"
+  }
+}
