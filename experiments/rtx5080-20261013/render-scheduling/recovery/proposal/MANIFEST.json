@@ -1,0 +1,21 @@
+{
+  "purpose": "resource recovery instructions only; no GPU execution or dependency payload",
+  "source_report_sha256": "ac97dc59e44d374a79c3984db877984a0de9257e0b90ae2e87272e7182b903f5",
+  "files": [
+    {
+      "path": "CODEX_RESOURCE_RECOVERY.md",
+      "size": 11870,
+      "sha256": "fe1474370a7c6d39eea140a4a44c2149c12a719539a0b546c724e9c109724ec2"
+    },
+    {
+      "path": "COPY_TO_CODEX.txt",
+      "size": 1533,
+      "sha256": "e3e222aa436aaffa05cc703dea9ba048b92e03ee62fa24758f6b4b0212fb6052"
+    },
+    {
+      "path": "OFFLINE_RESOURCE_CHECKLIST.md",
+      "size": 3461,
+      "sha256": "d87057fde09f3dc8b81ad0de591e218174ef8aec89647bbcdc870a5b6ebac882"
+    }
+  ]
+}

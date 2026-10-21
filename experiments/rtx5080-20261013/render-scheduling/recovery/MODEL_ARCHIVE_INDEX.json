@@ -1,0 +1,941 @@
+{
+  "url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/pretrained/models.zip",
+  "files": [
+    {
+      "filename": "bicycle/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 0,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "bicycle/cameras.json",
+      "file_size": 77427,
+      "compress_size": 25147,
+      "header_offset": 38,
+      "compress_type": 8,
+      "CRC": 4246566099
+    },
+    {
+      "filename": "bicycle/cfg_args",
+      "file_size": 169,
+      "compress_size": 137,
+      "header_offset": 25235,
+      "compress_type": 8,
+      "CRC": 2928427706
+    },
+    {
+      "filename": "bicycle/input.ply",
+      "file_size": 2768290,
+      "compress_size": 1445398,
+      "header_offset": 25418,
+      "compress_type": 8,
+      "CRC": 2711765162
+    },
+    {
+      "filename": "bicycle/point_cloud/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 1470863,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "bicycle/point_cloud/iteration_30000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 1470913,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "bicycle/point_cloud/iteration_30000/point_cloud.ply",
+      "file_size": 1520726124,
+      "compress_size": 1353363151,
+      "header_offset": 1470979,
+      "compress_type": 8,
+      "CRC": 3958523722
+    },
+    {
+      "filename": "bicycle/point_cloud/iteration_7000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 1354834211,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "bicycle/point_cloud/iteration_7000/point_cloud.ply",
+      "file_size": 896795076,
+      "compress_size": 788231303,
+      "header_offset": 1354834276,
+      "compress_type": 8,
+      "CRC": 1923512846
+    },
+    {
+      "filename": "bonsai/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 2143065659,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "bonsai/cameras.json",
+      "file_size": 116695,
+      "compress_size": 37076,
+      "header_offset": 2143065696,
+      "compress_type": 8,
+      "CRC": 4184061788
+    },
+    {
+      "filename": "bonsai/cfg_args",
+      "file_size": 167,
+      "compress_size": 136,
+      "header_offset": 2143102821,
+      "compress_type": 8,
+      "CRC": 1928646367
+    },
+    {
+      "filename": "bonsai/input.ply",
+      "file_size": 5578785,
+      "compress_size": 2979168,
+      "header_offset": 2143103002,
+      "compress_type": 8,
+      "CRC": 3149816790
+    },
+    {
+      "filename": "bonsai/point_cloud/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 2146082216,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "bonsai/point_cloud/iteration_30000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 2146082265,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "bonsai/point_cloud/iteration_30000/point_cloud.ply",
+      "file_size": 308716644,
+      "compress_size": 260603022,
+      "header_offset": 2146082330,
+      "compress_type": 8,
+      "CRC": 814284708
+    },
+    {
+      "filename": "bonsai/point_cloud/iteration_7000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 2406685432,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "bonsai/point_cloud/iteration_7000/point_cloud.ply",
+      "file_size": 286972500,
+      "compress_size": 235568440,
+      "header_offset": 2406685496,
+      "compress_type": 8,
+      "CRC": 1486021698
+    },
+    {
+      "filename": "counter/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 2642254015,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "counter/cameras.json",
+      "file_size": 95501,
+      "compress_size": 30633,
+      "header_offset": 2642254053,
+      "compress_type": 8,
+      "CRC": 2750938862
+    },
+    {
+      "filename": "counter/cfg_args",
+      "file_size": 169,
+      "compress_size": 135,
+      "header_offset": 2642284736,
+      "compress_type": 8,
+      "CRC": 656031991
+    },
+    {
+      "filename": "counter/input.ply",
+      "file_size": 4205943,
+      "compress_size": 2259094,
+      "header_offset": 2642284917,
+      "compress_type": 8,
+      "CRC": 3709343254
+    },
+    {
+      "filename": "counter/point_cloud/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 2644544058,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "counter/point_cloud/iteration_30000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 2644544108,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "counter/point_cloud/iteration_30000/point_cloud.ply",
+      "file_size": 303294620,
+      "compress_size": 261431049,
+      "header_offset": 2644544174,
+      "compress_type": 8,
+      "CRC": 4079281069
+    },
+    {
+      "filename": "counter/point_cloud/iteration_7000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 2905975304,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "counter/point_cloud/iteration_7000/point_cloud.ply",
+      "file_size": 255294220,
+      "compress_size": 217208680,
+      "header_offset": 2905975369,
+      "compress_type": 8,
+      "CRC": 1018514780
+    },
+    {
+      "filename": "drjohnson/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 3123184129,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "drjohnson/cameras.json",
+      "file_size": 105635,
+      "compress_size": 33890,
+      "header_offset": 3123184169,
+      "compress_type": 8,
+      "CRC": 3170125014
+    },
+    {
+      "filename": "drjohnson/cfg_args",
+      "file_size": 167,
+      "compress_size": 131,
+      "header_offset": 3123218111,
+      "compress_type": 8,
+      "CRC": 2849128500
+    },
+    {
+      "filename": "drjohnson/input.ply",
+      "file_size": 2183480,
+      "compress_size": 1189671,
+      "header_offset": 3123218290,
+      "compress_type": 8,
+      "CRC": 1477605870
+    },
+    {
+      "filename": "drjohnson/point_cloud/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 3124408010,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "drjohnson/point_cloud/iteration_30000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 3124408062,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "drjohnson/point_cloud/iteration_30000/point_cloud.ply",
+      "file_size": 844479476,
+      "compress_size": 735160560,
+      "header_offset": 3124408130,
+      "compress_type": 8,
+      "CRC": 1725780362
+    },
+    {
+      "filename": "drjohnson/point_cloud/iteration_7000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 3859568773,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "drjohnson/point_cloud/iteration_7000/point_cloud.ply",
+      "file_size": 471760276,
+      "compress_size": 402536070,
+      "header_offset": 3859568840,
+      "compress_type": 8,
+      "CRC": 2623781693
+    },
+    {
+      "filename": "flowers/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 4262104992,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "flowers/cameras.json",
+      "file_size": 69212,
+      "compress_size": 22533,
+      "header_offset": 4262105030,
+      "compress_type": 8,
+      "CRC": 2708819719
+    },
+    {
+      "filename": "flowers/cfg_args",
+      "file_size": 169,
+      "compress_size": 137,
+      "header_offset": 4262127613,
+      "compress_type": 8,
+      "CRC": 4032762055
+    },
+    {
+      "filename": "flowers/input.ply",
+      "file_size": 1955962,
+      "compress_size": 1017132,
+      "header_offset": 4262127796,
+      "compress_type": 8,
+      "CRC": 2204779205
+    },
+    {
+      "filename": "flowers/point_cloud/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 4263144975,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "flowers/point_cloud/iteration_30000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 4263145025,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "flowers/point_cloud/iteration_30000/point_cloud.ply",
+      "file_size": 901840636,
+      "compress_size": 810228197,
+      "header_offset": 4263145091,
+      "compress_type": 8,
+      "CRC": 1521399811
+    },
+    {
+      "filename": "flowers/point_cloud/iteration_7000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 5073373369,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "flowers/point_cloud/iteration_7000/point_cloud.ply",
+      "file_size": 610467172,
+      "compress_size": 545513746,
+      "header_offset": 5073373434,
+      "compress_type": 8,
+      "CRC": 418679192
+    },
+    {
+      "filename": "garden/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 5618887260,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "garden/cameras.json",
+      "file_size": 73600,
+      "compress_size": 23981,
+      "header_offset": 5618887297,
+      "compress_type": 8,
+      "CRC": 59367207
+    },
+    {
+      "filename": "garden/cfg_args",
+      "file_size": 167,
+      "compress_size": 136,
+      "header_offset": 5618911327,
+      "compress_type": 8,
+      "CRC": 3804091675
+    },
+    {
+      "filename": "garden/input.ply",
+      "file_size": 3746916,
+      "compress_size": 2045232,
+      "header_offset": 5618911508,
+      "compress_type": 8,
+      "CRC": 651718087
+    },
+    {
+      "filename": "garden/point_cloud/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 5620956786,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "garden/point_cloud/iteration_30000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 5620956835,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "garden/point_cloud/iteration_30000/point_cloud.ply",
+      "file_size": 1447027964,
+      "compress_size": 1290779747,
+      "header_offset": 5620956900,
+      "compress_type": 8,
+      "CRC": 755632622
+    },
+    {
+      "filename": "garden/point_cloud/iteration_7000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 6911736727,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "garden/point_cloud/iteration_7000/point_cloud.ply",
+      "file_size": 1087764748,
+      "compress_size": 963573984,
+      "header_offset": 6911736791,
+      "compress_type": 8,
+      "CRC": 1390090003
+    },
+    {
+      "filename": "kitchen/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 7875310854,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "kitchen/cameras.json",
+      "file_size": 111500,
+      "compress_size": 35453,
+      "header_offset": 7875310892,
+      "compress_type": 8,
+      "CRC": 414891714
+    },
+    {
+      "filename": "kitchen/cfg_args",
+      "file_size": 169,
+      "compress_size": 137,
+      "header_offset": 7875346395,
+      "compress_type": 8,
+      "CRC": 4238327954
+    },
+    {
+      "filename": "kitchen/input.ply",
+      "file_size": 6517143,
+      "compress_size": 3430830,
+      "header_offset": 7875346578,
+      "compress_type": 8,
+      "CRC": 1802717750
+    },
+    {
+      "filename": "kitchen/point_cloud/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 7878777455,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "kitchen/point_cloud/iteration_30000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 7878777505,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "kitchen/point_cloud/iteration_30000/point_cloud.ply",
+      "file_size": 459380612,
+      "compress_size": 406623576,
+      "header_offset": 7878777571,
+      "compress_type": 8,
+      "CRC": 2230157765
+    },
+    {
+      "filename": "kitchen/point_cloud/iteration_7000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 8285401228,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "kitchen/point_cloud/iteration_7000/point_cloud.ply",
+      "file_size": 417794236,
+      "compress_size": 369010240,
+      "header_offset": 8285401293,
+      "compress_type": 8,
+      "CRC": 3496025090
+    },
+    {
+      "filename": "playroom/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 8654411613,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "playroom/cameras.json",
+      "file_size": 89710,
+      "compress_size": 29048,
+      "header_offset": 8654411652,
+      "compress_type": 8,
+      "CRC": 3772973777
+    },
+    {
+      "filename": "playroom/cfg_args",
+      "file_size": 165,
+      "compress_size": 131,
+      "header_offset": 8654440751,
+      "compress_type": 8,
+      "CRC": 35255289
+    },
+    {
+      "filename": "playroom/input.ply",
+      "file_size": 999368,
+      "compress_size": 547361,
+      "header_offset": 8654440929,
+      "compress_type": 8,
+      "CRC": 797449101
+    },
+    {
+      "filename": "playroom/point_cloud/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 8654988338,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "playroom/point_cloud/iteration_30000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 8654988389,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "playroom/point_cloud/iteration_30000/point_cloud.ply",
+      "file_size": 631438300,
+      "compress_size": 523887782,
+      "header_offset": 8654988456,
+      "compress_type": 8,
+      "CRC": 4172466146
+    },
+    {
+      "filename": "playroom/point_cloud/iteration_7000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 9178876320,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "playroom/point_cloud/iteration_7000/point_cloud.ply",
+      "file_size": 430184068,
+      "compress_size": 350902708,
+      "header_offset": 9178876386,
+      "compress_type": 8,
+      "CRC": 3050077550
+    },
+    {
+      "filename": "room/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 9529779175,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "room/cameras.json",
+      "file_size": 124668,
+      "compress_size": 39535,
+      "header_offset": 9529779210,
+      "compress_type": 8,
+      "CRC": 1473962118
+    },
+    {
+      "filename": "room/cfg_args",
+      "file_size": 163,
+      "compress_size": 134,
+      "header_offset": 9529818792,
+      "compress_type": 8,
+      "CRC": 3333790933
+    },
+    {
+      "filename": "room/input.ply",
+      "file_size": 3041163,
+      "compress_size": 1647781,
+      "header_offset": 9529818969,
+      "compress_type": 8,
+      "CRC": 3645173947
+    },
+    {
+      "filename": "room/point_cloud/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 9531466794,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "room/point_cloud/iteration_30000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 9531466841,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "room/point_cloud/iteration_30000/point_cloud.ply",
+      "file_size": 395158780,
+      "compress_size": 329909932,
+      "header_offset": 9531466904,
+      "compress_type": 8,
+      "CRC": 442712988
+    },
+    {
+      "filename": "room/point_cloud/iteration_7000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 9861376914,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "room/point_cloud/iteration_7000/point_cloud.ply",
+      "file_size": 280272532,
+      "compress_size": 229229636,
+      "header_offset": 9861376976,
+      "compress_type": 8,
+      "CRC": 2098178400
+    },
+    {
+      "filename": "stump/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 10090606689,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "stump/cameras.json",
+      "file_size": 49776,
+      "compress_size": 16302,
+      "header_offset": 10090606725,
+      "compress_type": 8,
+      "CRC": 1362149549
+    },
+    {
+      "filename": "stump/cfg_args",
+      "file_size": 165,
+      "compress_size": 135,
+      "header_offset": 10090623075,
+      "compress_type": 8,
+      "CRC": 1113376676
+    },
+    {
+      "filename": "stump/input.ply",
+      "file_size": 1634764,
+      "compress_size": 843405,
+      "header_offset": 10090623254,
+      "compress_type": 8,
+      "CRC": 353790815
+    },
+    {
+      "filename": "stump/point_cloud/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 10091466704,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "stump/point_cloud/iteration_30000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 10091466752,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "stump/point_cloud/iteration_30000/point_cloud.ply",
+      "file_size": 1230527188,
+      "compress_size": 1109420591,
+      "header_offset": 10091466816,
+      "compress_type": 8,
+      "CRC": 2055489910
+    },
+    {
+      "filename": "stump/point_cloud/iteration_7000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 11200887486,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "stump/point_cloud/iteration_7000/point_cloud.ply",
+      "file_size": 944270460,
+      "compress_size": 849135568,
+      "header_offset": 11200887549,
+      "compress_type": 8,
+      "CRC": 3143294029
+    },
+    {
+      "filename": "train/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 12050023195,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "train/cameras.json",
+      "file_size": 120800,
+      "compress_size": 38454,
+      "header_offset": 12050023231,
+      "compress_type": 8,
+      "CRC": 2571170576
+    },
+    {
+      "filename": "train/cfg_args",
+      "file_size": 162,
+      "compress_size": 130,
+      "header_offset": 12050061733,
+      "compress_type": 8,
+      "CRC": 3421537960
+    },
+    {
+      "filename": "train/input.ply",
+      "file_size": 4932756,
+      "compress_size": 2757120,
+      "header_offset": 12050061907,
+      "compress_type": 8,
+      "CRC": 2995478327
+    },
+    {
+      "filename": "train/point_cloud/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 12052819072,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "train/point_cloud/iteration_30000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 12052819120,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "train/point_cloud/iteration_30000/point_cloud.ply",
+      "file_size": 254575516,
+      "compress_size": 219441845,
+      "header_offset": 12052819184,
+      "compress_type": 8,
+      "CRC": 2245448906
+    },
+    {
+      "filename": "train/point_cloud/iteration_7000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 12272261108,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "train/point_cloud/iteration_7000/point_cloud.ply",
+      "file_size": 138698755,
+      "compress_size": 116242519,
+      "header_offset": 12272261171,
+      "compress_type": 8,
+      "CRC": 3413038492
+    },
+    {
+      "filename": "treehill/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 12388503768,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "treehill/cameras.json",
+      "file_size": 56201,
+      "compress_size": 18444,
+      "header_offset": 12388503807,
+      "compress_type": 8,
+      "CRC": 4231213547
+    },
+    {
+      "filename": "treehill/cfg_args",
+      "file_size": 171,
+      "compress_size": 137,
+      "header_offset": 12388522302,
+      "compress_type": 8,
+      "CRC": 507935044
+    },
+    {
+      "filename": "treehill/input.ply",
+      "file_size": 2670778,
+      "compress_size": 1382981,
+      "header_offset": 12388522486,
+      "compress_type": 8,
+      "CRC": 2888673584
+    },
+    {
+      "filename": "treehill/point_cloud/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 12389905515,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "treehill/point_cloud/iteration_30000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 12389905566,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "treehill/point_cloud/iteration_30000/point_cloud.ply",
+      "file_size": 938374260,
+      "compress_size": 829119730,
+      "header_offset": 12389905633,
+      "compress_type": 8,
+      "CRC": 2844879570
+    },
+    {
+      "filename": "treehill/point_cloud/iteration_7000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 13219025445,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "treehill/point_cloud/iteration_7000/point_cloud.ply",
+      "file_size": 595164084,
+      "compress_size": 520327422,
+      "header_offset": 13219025511,
+      "compress_type": 8,
+      "CRC": 550126624
+    },
+    {
+      "filename": "truck/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 13739353014,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "truck/cameras.json",
+      "file_size": 100406,
+      "compress_size": 32225,
+      "header_offset": 13739353050,
+      "compress_type": 8,
+      "CRC": 2182053221
+    },
+    {
+      "filename": "truck/cfg_args",
+      "file_size": 162,
+      "compress_size": 130,
+      "header_offset": 13739385323,
+      "compress_type": 8,
+      "CRC": 1816678722
+    },
+    {
+      "filename": "truck/input.ply",
+      "file_size": 3673017,
+      "compress_size": 2060867,
+      "header_offset": 13739385497,
+      "compress_type": 8,
+      "CRC": 2776140867
+    },
+    {
+      "filename": "truck/point_cloud/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 13741446409,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "truck/point_cloud/iteration_30000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 13741446457,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "truck/point_cloud/iteration_30000/point_cloud.ply",
+      "file_size": 630225580,
+      "compress_size": 550481900,
+      "header_offset": 13741446521,
+      "compress_type": 8,
+      "CRC": 1141012615
+    },
+    {
+      "filename": "truck/point_cloud/iteration_7000/",
+      "file_size": 0,
+      "compress_size": 0,
+      "header_offset": 14291928500,
+      "compress_type": 0,
+      "CRC": 0
+    },
+    {
+      "filename": "truck/point_cloud/iteration_7000/point_cloud.ply",
+      "file_size": 429631276,
+      "compress_size": 368688552,
+      "header_offset": 14291928563,
+      "compress_type": 8,
+      "CRC": 244285263
+    }
+  ]
+}

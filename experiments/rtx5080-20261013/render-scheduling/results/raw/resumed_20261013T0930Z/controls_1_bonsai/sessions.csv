@@ -1,0 +1,5 @@
+policy,q,k,alpha,warmup_frames,warmup_seconds,measured_frames,workers,executor
+8,8,4,1,366,2.0012,128,504,1
+7,8,4,1,361,2.0012,128,504,1
+6,8,4,1,364,2.00288,128,504,1
+5,8,4,0.5,476,2.00305,128,504,1

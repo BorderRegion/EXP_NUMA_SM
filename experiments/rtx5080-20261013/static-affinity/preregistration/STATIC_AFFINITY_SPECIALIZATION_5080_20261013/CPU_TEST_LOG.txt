@@ -1,0 +1,37 @@
+test_additive_only_no_interaction (test_offline_helpers.Helpers.test_additive_only_no_interaction) ... ok
+test_anchor_order (test_offline_helpers.Helpers.test_anchor_order) ... ok
+test_cross_affinity_retained (test_offline_helpers.Helpers.test_cross_affinity_retained) ... ok
+test_decimal_break_even (test_offline_helpers.Helpers.test_decimal_break_even) ... ok
+test_duplicate_not_permutation (test_offline_helpers.Helpers.test_duplicate_not_permutation) ... ok
+test_empty_tasks (test_offline_helpers.Helpers.test_empty_tasks) ... ok
+test_equal_speed_no_break_even (test_offline_helpers.Helpers.test_equal_speed_no_break_even) ... ok
+test_exact_permutation (test_offline_helpers.Helpers.test_exact_permutation) ... ok
+test_fingerprint_generation (test_offline_helpers.Helpers.test_fingerprint_generation) ... ok
+test_fingerprint_unknown_rejected (test_offline_helpers.Helpers.test_fingerprint_unknown_rejected) ... ok
+test_finite_break_even (test_offline_helpers.Helpers.test_finite_break_even) ... ok
+test_invalid_ratio (test_offline_helpers.Helpers.test_invalid_ratio) ... ok
+test_missing_group_still_once (test_offline_helpers.Helpers.test_missing_group_still_once) ... ok
+test_missing_rejected (test_offline_helpers.Helpers.test_missing_rejected) ... ok
+test_nan_rejected (test_offline_helpers.Helpers.test_nan_rejected) ... ok
+test_no_speed_no_break_even (test_offline_helpers.Helpers.test_no_speed_no_break_even) ... ok
+test_no_worker_error (test_offline_helpers.Helpers.test_no_worker_error) ... ok
+test_order_reproducible (test_offline_helpers.Helpers.test_order_reproducible) ... ok
+test_ragged_rejected (test_offline_helpers.Helpers.test_ragged_rejected) ... ok
+test_ratio (test_offline_helpers.Helpers.test_ratio) ... ok
+test_roster_small_domain_enumeration (test_offline_helpers.Helpers.test_roster_small_domain_enumeration) ... ok
+test_single_active_group (test_offline_helpers.Helpers.test_single_active_group) ... ok
+test_single_sm_rejected (test_offline_helpers.Helpers.test_single_sm_rejected) ... ok
+test_wrong_extent (test_offline_helpers.Helpers.test_wrong_extent) ... ok
+test_zero_init (test_offline_helpers.Helpers.test_zero_init) ... ok
+test_matrix_consistent (test_offline_helpers.Plan.test_matrix_consistent) ... ok
+test_no_extra_budget (test_offline_helpers.Plan.test_no_extra_budget) ... ok
+test_no_network (test_offline_helpers.Plan.test_no_network) ... ok
+test_no_second_algorithm (test_offline_helpers.Plan.test_no_second_algorithm) ... ok
+test_no_unsafe_wait (test_offline_helpers.Plan.test_no_unsafe_wait) ... ok
+test_plan (test_offline_helpers.Plan.test_plan) ... ok
+test_unique_policy (test_offline_helpers.Plan.test_unique_policy) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.033s
+
+OK

@@ -1,0 +1,9 @@
+# Supervisor brief
+
+The new static-affinity campaign is complete on its stop-and-report branch. Five fresh allocation processes covered all 84 SMs; broad SM × region coverage was complete, while denser sampling had explicit holes. A map frozen before two independent allocations predicted a small 0.331% local timing benefit (exploratory 95% interval 0.253–0.382%). It exceeded the arithmetic-control proxy but failed the frozen 3% actionability gate. This is weak positive evidence, not evidence that the GPU lacks nonuniformity.
+
+Public Green Contexts provided disjoint 40/40/4 execution groups; a supported cooperative roster also passed exact-output/ownership qualification. An initial stream/context API mismatch was repaired, with failure evidence preserved; final memcheck, synccheck and racecheck passed. No new GPU fault occurred. For a fixed uint gather, ordinary/Green/roster identity paths averaged 0.122/0.124/0.133 ms including host/event overhead. These are executor costs, not renderer outcomes.
+
+The learned map was not deployed and did not become a renderer policy. Full mechanism, snapshots, dynamic rendering, Truck, 1440p and lifecycle matrices were not run. The main limitations are two confirmation allocations, incomplete denser cell coverage, consumer sector footprint below L2 even for the largest allocation span, no physical-domain/traffic counters, and no calibrated deployment-cost model. Reallocation timing predictions do not validate production generation guards.
+
+The work used 0.477 of a separate 24 GPU-worker-hour cap, with zero spend and no downloads/system changes. Source, binaries, raw samples, figures, failures, hashes and missing-stage tables are preserved. The defensible result is experimental infrastructure plus a bounded lack of an actionable candidate; no new scheduling-method or paper-level gain is established.

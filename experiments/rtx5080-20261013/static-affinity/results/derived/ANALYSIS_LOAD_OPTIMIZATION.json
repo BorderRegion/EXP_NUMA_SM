@@ -1,0 +1,6 @@
+{
+  "change": "Eagerly load each existing compressed array once instead of decompressing on every index access. Numeric functions, parameter selection, source data and the frozen map are unchanged.",
+  "original_source_retained": "tools/select_map_at_freeze.py",
+  "original_sha256": "815d9b47e4a333b9e2eced4f6534d15a85077c0289ccd2b48b0693a4f0964d95",
+  "current_sha256": "67826dfda910ca9d1a166affb462147f1d85e318eb7ee49bcd0d6f42452f7809"
+}

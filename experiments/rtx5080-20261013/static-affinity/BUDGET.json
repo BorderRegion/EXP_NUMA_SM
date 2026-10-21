@@ -1,0 +1,15 @@
+{
+  "cap_worker_hours": 24,
+  "paid_spend": 0,
+  "worker_started": "2026-10-13T18:57:35.492531+08:00",
+  "worker_released": "2026-10-13T19:26:12.347113+08:00",
+  "conservative_reserved_worker_hours": 0.4769040505555555,
+  "elapsed_command_seconds_by_phase": {
+    "E0": 1.1761564329972316,
+    "E1": 8.717904714005272,
+    "E2": 4.347260140009894
+  },
+  "accounting": "Single worker wall time includes development and idle gaps from first GPU command through last GPU command. Command phase times are subsets, not additive to reservation. Later CPU analysis/build/package work charged separately as CPU work; no old budget pooled.",
+  "measured_deployment_initialization_cost": null,
+  "reason": "No deployed affinity renderer or complete device/allocation/scene calibration implementation."
+}

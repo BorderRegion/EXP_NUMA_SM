@@ -1,0 +1,529 @@
+{
+  "schema_version": 1,
+  "source_kind": "SYNTHETIC",
+  "evidence_role": "CPU_SANITY_ONLY",
+  "automatic_E2_authorization": false,
+  "required_additional_evidence": [
+    "three new processes/allocation epochs",
+    "unseen address validation",
+    "same-allocation reuse",
+    "legal control audit",
+    "GPU safety/manifest audit"
+  ],
+  "maps": [
+    {
+      "identity": {
+        "gpu_uuid": "SYNTHETIC_NO_GPU",
+        "driver_version": "NONE",
+        "process_id": "CPU_FIXTURE",
+        "context_id": "NONE",
+        "allocation_generation": "SYNTHETIC_0",
+        "allocation_base": "NONE",
+        "allocation_range_bytes": "32768",
+        "cache_regime": "SYNTHETIC",
+        "load_kind": "SYNTHETIC",
+        "workset_bytes": "32768",
+        "epoch_id": "CPU_0"
+      },
+      "rows": 1024,
+      "migrated_rows": 0,
+      "calibration_runs": [
+        "CPU_calibration"
+      ],
+      "validation_runs": [
+        "CPU_validation"
+      ],
+      "observed_sm_ids": [
+        0,
+        3,
+        11,
+        24,
+        38,
+        57,
+        63,
+        79
+      ],
+      "observed_region_ids": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "train_cells": 64,
+      "validation_cells": 64,
+      "paired_cells": 64,
+      "validation_unseen_cells": 0,
+      "missing_cells": [],
+      "within_allocation_signal_candidate": true,
+      "cross_address_generalization_proven": false,
+      "physical_domains_proven": false,
+      "additive_rmse_cycles_per_load": 24.977330919001655,
+      "interaction_rmse_cycles_per_load": 0.1713194390005977,
+      "heldout_rmse_improvement_fraction": 0.9931410029535915,
+      "heldout_relative_interaction": 0.4564283178349226,
+      "validation_dispatch_relative_noise": 0.002053776098315833,
+      "minimum_dispatches_per_paired_cell_split": 8,
+      "complete_cross_matrix": true,
+      "connected": true,
+      "additive_fit_converged": true,
+      "permutation_count": 199,
+      "permutation_p": 0.015,
+      "within_allocation_screen_eligible": true,
+      "screen_state": "WITHIN_ALLOCATION_SCREEN_ONLY",
+      "matrix": [
+        {
+          "sm_id": 0,
+          "region_id": "0",
+          "calibration": 103.17102024529835,
+          "validation": 103.12009427010082,
+          "calibration_residual": 25.155236211834122
+        },
+        {
+          "sm_id": 0,
+          "region_id": "1",
+          "calibration": 102.88470278986739,
+          "validation": 102.95668357475104,
+          "calibration_residual": 24.846600149156842
+        },
+        {
+          "sm_id": 0,
+          "region_id": "2",
+          "calibration": 103.06502908753112,
+          "validation": 102.85194786856016,
+          "calibration_residual": 25.025131241134375
+        },
+        {
+          "sm_id": 0,
+          "region_id": "3",
+          "calibration": 102.90633997871069,
+          "validation": 102.8847916384633,
+          "calibration_residual": 24.898936371837863
+        },
+        {
+          "sm_id": 0,
+          "region_id": "4",
+          "calibration": 122.99722601776074,
+          "validation": 123.12685976397594,
+          "calibration_residual": -25.096284572183748
+        },
+        {
+          "sm_id": 0,
+          "region_id": "5",
+          "calibration": 123.1408346338759,
+          "validation": 122.96408687958163,
+          "calibration_residual": -24.8993970713845
+        },
+        {
+          "sm_id": 0,
+          "region_id": "6",
+          "calibration": 122.97990167452969,
+          "validation": 122.95100067871269,
+          "calibration_residual": -24.99937610269609
+        },
+        {
+          "sm_id": 0,
+          "region_id": "7",
+          "calibration": 123.04398145781602,
+          "validation": 123.04669066454895,
+          "calibration_residual": -24.93084622769888
+        },
+        {
+          "sm_id": 3,
+          "region_id": "0",
+          "calibration": 105.09527457398788,
+          "validation": 104.92009416421828,
+          "calibration_residual": 24.99356932778393
+        },
+        {
+          "sm_id": 3,
+          "region_id": "1",
+          "calibration": 105.15311249541217,
+          "validation": 104.87403736612099,
+          "calibration_residual": 25.02908864196192
+        },
+        {
+          "sm_id": 3,
+          "region_id": "2",
+          "calibration": 105.2017677336406,
+          "validation": 104.88993883546276,
+          "calibration_residual": 25.07594867450416
+        },
+        {
+          "sm_id": 3,
+          "region_id": "3",
+          "calibration": 105.15944158586768,
+          "validation": 105.14113749140199,
+          "calibration_residual": 25.066116766255135
+        },
+        {
+          "sm_id": 3,
+          "region_id": "4",
+          "calibration": 125.12043890570396,
+          "validation": 124.97254778679898,
+          "calibration_residual": -25.058992896980243
+        },
+        {
+          "sm_id": 3,
+          "region_id": "5",
+          "calibration": 124.99401417192055,
+          "validation": 125.0737296244505,
+          "calibration_residual": -25.132138746079534
+        },
+        {
+          "sm_id": 3,
+          "region_id": "6",
+          "calibration": 125.12620886325567,
+          "validation": 125.22147575844465,
+          "calibration_residual": -24.938990126709825
+        },
+        {
+          "sm_id": 3,
+          "region_id": "7",
+          "calibration": 125.02614725751897,
+          "validation": 124.98363340077867,
+          "calibration_residual": -25.034601640735616
+        },
+        {
+          "sm_id": 11,
+          "region_id": "0",
+          "calibration": 107.22361084345914,
+          "validation": 107.0732918336339,
+          "calibration_residual": 25.18354504567128
+        },
+        {
+          "sm_id": 11,
+          "region_id": "1",
+          "calibration": 106.83959438812471,
+          "validation": 106.84884900520728,
+          "calibration_residual": 24.777209983090543
+        },
+        {
+          "sm_id": 11,
+          "region_id": "2",
+          "calibration": 107.09208178499661,
+          "validation": 106.83036938778886,
+          "calibration_residual": 25.027902174276264
+        },
+        {
+          "sm_id": 11,
+          "region_id": "3",
+          "calibration": 107.09683258670744,
+          "validation": 106.95416716788611,
+          "calibration_residual": 25.065147215510976
+        },
+        {
+          "sm_id": 11,
+          "region_id": "4",
+          "calibration": 127.05837267699826,
+          "validation": 127.10340095522159,
+          "calibration_residual": -25.059419677269858
+        },
+        {
+          "sm_id": 11,
+          "region_id": "5",
+          "calibration": 127.04585782437064,
+          "validation": 127.10446331394573,
+          "calibration_residual": -25.018655645213357
+        },
+        {
+          "sm_id": 11,
+          "region_id": "6",
+          "calibration": 127.08032567328351,
+          "validation": 126.82646731258055,
+          "calibration_residual": -24.923233868265896
+        },
+        {
+          "sm_id": 11,
+          "region_id": "7",
+          "calibration": 126.94661422203852,
+          "validation": 126.7793824157958,
+          "calibration_residual": -25.05249522779998
+        },
+        {
+          "sm_id": 24,
+          "region_id": "0",
+          "calibration": 108.85124372872532,
+          "validation": 109.00839148105733,
+          "calibration_residual": 24.78244005357861
+        },
+        {
+          "sm_id": 24,
+          "region_id": "1",
+          "calibration": 109.04729580976966,
+          "validation": 109.06854346210538,
+          "calibration_residual": 24.95617352737665
+        },
+        {
+          "sm_id": 24,
+          "region_id": "2",
+          "calibration": 109.14104717769604,
+          "validation": 108.89680185041269,
+          "calibration_residual": 25.048129689616843
+        },
+        {
+          "sm_id": 24,
+          "region_id": "3",
+          "calibration": 108.99838256678868,
+          "validation": 108.87942699512953,
+          "calibration_residual": 24.937959318233368
+        },
+        {
+          "sm_id": 24,
+          "region_id": "4",
+          "calibration": 129.2419061472262,
+          "validation": 128.99561670826057,
+          "calibration_residual": -24.90462408440078
+        },
+        {
+          "sm_id": 24,
+          "region_id": "5",
+          "calibration": 129.14483910947274,
+          "validation": 129.13358647252397,
+          "calibration_residual": -24.94841223747011
+        },
+        {
+          "sm_id": 24,
+          "region_id": "6",
+          "calibration": 128.92621648699668,
+          "validation": 128.7989984990907,
+          "calibration_residual": -25.10608093191155
+        },
+        {
+          "sm_id": 24,
+          "region_id": "7",
+          "calibration": 129.26226199217436,
+          "validation": 129.08204839151531,
+          "calibration_residual": -24.76558533502299
+        },
+        {
+          "sm_id": 38,
+          "region_id": "0",
+          "calibration": 60.89439629630801,
+          "validation": 60.98769888972402,
+          "calibration_residual": -25.176315929391414
+        },
+        {
+          "sm_id": 38,
+          "region_id": "1",
+          "calibration": 61.2158785726578,
+          "validation": 60.99347999243675,
+          "calibration_residual": -24.87715226028793
+        },
+        {
+          "sm_id": 38,
+          "region_id": "2",
+          "calibration": 61.00266873834586,
+          "validation": 61.04439817056753,
+          "calibration_residual": -25.092157300286047
+        },
+        {
+          "sm_id": 38,
+          "region_id": "3",
+          "calibration": 61.28342972933859,
+          "validation": 61.013168106677895,
+          "calibration_residual": -24.77890206976943
+        },
+        {
+          "sm_id": 38,
+          "region_id": "4",
+          "calibration": 181.09862866748085,
+          "validation": 181.1034191366966,
+          "calibration_residual": 24.95018988530117
+        },
+        {
+          "sm_id": 38,
+          "region_id": "5",
+          "calibration": 181.06825607193383,
+          "validation": 180.8680987807426,
+          "calibration_residual": 24.97309617443827
+        },
+        {
+          "sm_id": 38,
+          "region_id": "6",
+          "calibration": 181.0014782599736,
+          "validation": 180.80832987073575,
+          "calibration_residual": 24.967272290512625
+        },
+        {
+          "sm_id": 38,
+          "region_id": "7",
+          "calibration": 181.0637250872328,
+          "validation": 180.78958277662866,
+          "calibration_residual": 25.033969209482734
+        },
+        {
+          "sm_id": 57,
+          "region_id": "0",
+          "calibration": 63.15468138399085,
+          "validation": 63.04706967363626,
+          "calibration_residual": -24.9138592141543
+        },
+        {
+          "sm_id": 57,
+          "region_id": "1",
+          "calibration": 63.08657653147462,
+          "validation": 62.98770732166739,
+          "calibration_residual": -25.004282673916848
+        },
+        {
+          "sm_id": 57,
+          "region_id": "2",
+          "calibration": 63.07852081794856,
+          "validation": 62.96469935254042,
+          "calibration_residual": -25.014133593129102
+        },
+        {
+          "sm_id": 57,
+          "region_id": "3",
+          "calibration": 63.016604065873224,
+          "validation": 63.08623295468375,
+          "calibration_residual": -25.043556105680523
+        },
+        {
+          "sm_id": 57,
+          "region_id": "4",
+          "calibration": 183.32338675683093,
+          "validation": 182.96445673809092,
+          "calibration_residual": 25.177119602205522
+        },
+        {
+          "sm_id": 57,
+          "region_id": "5",
+          "calibration": 183.12618300616245,
+          "validation": 182.93447681420122,
+          "calibration_residual": 25.033194736221134
+        },
+        {
+          "sm_id": 57,
+          "region_id": "6",
+          "calibration": 183.01749339688158,
+          "validation": 183.04018932270517,
+          "calibration_residual": 24.985459054974882
+        },
+        {
+          "sm_id": 57,
+          "region_id": "7",
+          "calibration": 182.8076424436751,
+          "validation": 183.19570502950916,
+          "calibration_residual": 24.780058193479277
+        },
+        {
+          "sm_id": 63,
+          "region_id": "0",
+          "calibration": 64.85766104421245,
+          "validation": 65.07863882328019,
+          "calibration_residual": -25.08693804960484
+        },
+        {
+          "sm_id": 63,
+          "region_id": "1",
+          "calibration": 65.03353648638645,
+          "validation": 64.87810527649401,
+          "calibration_residual": -24.93338121467714
+        },
+        {
+          "sm_id": 63,
+          "region_id": "2",
+          "calibration": 64.9597916407873,
+          "validation": 64.91017640746409,
+          "calibration_residual": -25.00892126596247
+        },
+        {
+          "sm_id": 63,
+          "region_id": "3",
+          "calibration": 64.82754967293445,
+          "validation": 64.99980453741196,
+          "calibration_residual": -25.108668994291435
+        },
+        {
+          "sm_id": 63,
+          "region_id": "4",
+          "calibration": 184.9469193835265,
+          "validation": 184.759491627317,
+          "calibration_residual": 24.92459373322896
+        },
+        {
+          "sm_id": 63,
+          "region_id": "5",
+          "calibration": 185.09175493595407,
+          "validation": 185.0767157422061,
+          "calibration_residual": 25.122708170340644
+        },
+        {
+          "sm_id": 63,
+          "region_id": "6",
+          "calibration": 184.98962643004046,
+          "validation": 185.00209175557524,
+          "calibration_residual": 25.081533592461653
+        },
+        {
+          "sm_id": 63,
+          "region_id": "7",
+          "calibration": 184.91271677437254,
+          "validation": 184.9055120754552,
+          "calibration_residual": 25.009074028504614
+        },
+        {
+          "sm_id": 79,
+          "region_id": "0",
+          "calibration": 67.05341598942108,
+          "validation": 66.83406356939956,
+          "calibration_residual": -24.937677445717398
+        },
+        {
+          "sm_id": 79,
+          "region_id": "1",
+          "calibration": 67.21915588968078,
+          "validation": 66.96463505845333,
+          "calibration_residual": -24.79425615270401
+        },
+        {
+          "sm_id": 79,
+          "region_id": "2",
+          "calibration": 66.95330762791696,
+          "validation": 66.83526024710216,
+          "calibration_residual": -25.06189962015401
+        },
+        {
+          "sm_id": 79,
+          "region_id": "3",
+          "calibration": 66.94568050645108,
+          "validation": 67.26560757421557,
+          "calibration_residual": -25.037032502095997
+        },
+        {
+          "sm_id": 79,
+          "region_id": "4",
+          "calibration": 187.1362380017177,
+          "validation": 186.95386427654304,
+          "calibration_residual": 25.067418010098947
+        },
+        {
+          "sm_id": 79,
+          "region_id": "5",
+          "calibration": 186.88514572608204,
+          "validation": 187.07307636500974,
+          "calibration_residual": 24.869604619147424
+        },
+        {
+          "sm_id": 79,
+          "region_id": "6",
+          "calibration": 186.88800327053423,
+          "validation": 187.05847161925107,
+          "calibration_residual": 24.93341609163423
+        },
+        {
+          "sm_id": 79,
+          "region_id": "7",
+          "calibration": 186.91056408698,
+          "validation": 186.84742486275147,
+          "calibration_residual": 24.960426999790883
+        }
+      ]
+    }
+  ]
+}

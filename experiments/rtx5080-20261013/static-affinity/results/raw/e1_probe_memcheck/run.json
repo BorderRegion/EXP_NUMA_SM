@@ -1,0 +1,22 @@
+{
+  "label": "e1_probe_memcheck",
+  "phase": "E1",
+  "argv": [
+    "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/toolchain/packages/cuda_sanitizer_api-linux-x86_64-13.2.23-archive/compute-sanitizer/compute-sanitizer",
+    "--tool",
+    "memcheck",
+    "--error-exitcode",
+    "90",
+    "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/static-affinity-5080/build/affinity_probe",
+    "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/static-affinity-5080/results/raw/e1_probe_memcheck",
+    "0",
+    "smoke"
+  ],
+  "started": "2026-10-13T19:03:26.015867+08:00",
+  "gpu_worker_reserved": true,
+  "returncode": 0,
+  "xid_events": [],
+  "status": "PASS",
+  "finished": "2026-10-13T19:03:26.506230+08:00",
+  "seconds": 0.4903702660012641
+}

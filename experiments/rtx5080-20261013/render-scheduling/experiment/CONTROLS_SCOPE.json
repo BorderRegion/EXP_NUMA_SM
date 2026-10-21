@@ -1,0 +1,6 @@
+{
+  "purpose": "Fixed calibration-only mechanism diagnostics for B5/M/shuffled/no-cap, two process repeats per scene, 128 measured frames. Not used for parameter or branch selection, not included as formal negative-confirmation sessions.",
+  "method_settings_frozen": true,
+  "footprint_validation": "Unavailable; capacity-aware claim remains UNKNOWN.",
+  "no_new_candidate": true
+}

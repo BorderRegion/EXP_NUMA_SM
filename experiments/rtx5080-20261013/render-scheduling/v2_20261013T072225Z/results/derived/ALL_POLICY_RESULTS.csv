@@ -1,0 +1,11 @@
+policy,applicable_branch,implemented,compiled,qualified,measured,sessions,gpu_frame_ms,cpu_frame_ms,time_reduction_pct,status,reason
+B0_NATIVE,A_OR_B,false,false,false,false,0,,,,BLOCKED_LOCAL_RESOURCE,No renderer/toolchain/assets; not a performance negative
+B1_MATCHED_BLIND,A_OR_B,false,false,false,false,0,,,,BLOCKED_LOCAL_RESOURCE,No renderer/toolchain/assets; not a performance negative
+B2_SPATIAL,A_OR_B,false,false,false,false,0,,,,BLOCKED_LOCAL_RESOURCE,No renderer/toolchain/assets; not a performance negative
+B3_LOAD,A_OR_B,false,false,false,false,0,,,,BLOCKED_LOCAL_RESOURCE,No renderer/toolchain/assets; not a performance negative
+B4_RESOURCE,A_OR_B,false,false,false,false,0,,,,BLOCKED_LOCAL_RESOURCE,No renderer/toolchain/assets; not a performance negative
+B5_GROUP_BALANCE,A_OR_B,false,false,false,false,0,,,,BLOCKED_LOCAL_RESOURCE,No renderer/toolchain/assets; not a performance negative
+M_JOINT,A_OR_B,false,false,false,false,0,,,,BLOCKED_LOCAL_RESOURCE,No renderer/toolchain/assets; not a performance negative
+C1_SHUFFLED_FEATURE,A_OR_B,false,false,false,false,0,,,,BLOCKED_LOCAL_RESOURCE,No renderer/toolchain/assets; not a performance negative
+C2_MECHANISM,A_OR_B,false,false,false,false,0,,,,BLOCKED_LOCAL_RESOURCE,No renderer/toolchain/assets; not a performance negative
+B6_STATIC_DOMAIN,A_ONLY,false,false,false,false,0,,,,NOT_APPLICABLE_ROUTE_C,No usable topology evidence/control

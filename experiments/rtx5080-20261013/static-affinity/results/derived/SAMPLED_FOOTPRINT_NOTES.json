@@ -1,0 +1,4 @@
+{
+  "method": "Enumerate every pre-load x in all 64 region/lane chains. Repeated CTAs and references deduplicate. Logical offsets only.",
+  "scope": "Consumer-only union; excludes full-pool warmup and scratch eviction. Virtual sector/line proxies are not physical cache residency, traffic, transactions or DRAM measurements."
+}

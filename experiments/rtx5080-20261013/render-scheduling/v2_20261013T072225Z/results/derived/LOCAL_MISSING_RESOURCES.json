@@ -1,0 +1,116 @@
+[
+  {
+    "resource": "CUDA compiler, official headers and runtime development files",
+    "required_by": "E0/E1/E2",
+    "local_search_scope": [
+      "/home/ws/work",
+      "/home/ws/下载",
+      "/home/ws/文档/ChatGPT/EXP_NUMA",
+      "/opt",
+      "/usr/local",
+      "/usr/include",
+      "/usr/lib",
+      "/usr/share/doc",
+      "/home/ws/.local/lib",
+      "/home/ws/.cache/pip"
+    ],
+    "evidence": "nvcc/ptxas not in PATH or recorded search; no NVIDIA cuda.h/cuda_runtime.h; no NVRTC/cudart in ldconfig results",
+    "alternatives": "Provide existing offline toolkit location, then check target support and compile the supplied inventory template",
+    "blocked_claim": "Compiled/qualified sm_120 or compatible PTX path; SM/L2/shared-memory device inventory; GPU microbenchmarks"
+  },
+  {
+    "resource": "Modifiable CUDA tile renderer with offline dependencies",
+    "required_by": "E0-E5",
+    "local_search_scope": [
+      "/home/ws/work",
+      "/home/ws/下载",
+      "/home/ws/文档/ChatGPT/EXP_NUMA",
+      "/opt",
+      "/usr/local",
+      "/usr/include",
+      "/usr/lib",
+      "/usr/share/doc",
+      "/home/ws/.local/lib",
+      "/home/ws/.cache/pip"
+    ],
+    "evidence": "No renderer source or binaries found; /home/ws/work/projects empty",
+    "alternatives": "Provide a complete local checkout and existing dependencies; inspect its build for downloads first",
+    "blocked_claim": "Native B0, evaluator invariants, policy timings, frame correctness"
+  },
+  {
+    "resource": "Pretrained scene assets and cameras",
+    "required_by": "E0/E3-E5",
+    "local_search_scope": [
+      "/home/ws/work",
+      "/home/ws/下载",
+      "/home/ws/文档/ChatGPT/EXP_NUMA",
+      "/opt",
+      "/usr/local",
+      "/usr/include",
+      "/usr/lib",
+      "/usr/share/doc",
+      "/home/ws/.local/lib",
+      "/home/ws/.cache/pip"
+    ],
+    "evidence": "No matched scene assets/cameras; /home/ws/work/data empty",
+    "alternatives": "At least one local model/camera package; full design needs two development scenes and one optional heldout",
+    "blocked_claim": "Calibration, test/heldout splits, real end-to-end rendering"
+  },
+  {
+    "resource": "Validated GPU probe/executor runner",
+    "required_by": "E1/E2",
+    "local_search_scope": [
+      "/home/ws/work",
+      "/home/ws/下载",
+      "/home/ws/文档/ChatGPT/EXP_NUMA",
+      "/opt",
+      "/usr/local",
+      "/usr/include",
+      "/usr/lib",
+      "/usr/share/doc",
+      "/home/ws/.local/lib",
+      "/home/ws/.cache/pip"
+    ],
+    "evidence": "Archive contains only plan.py and optional inventory.cu; no probe/evaluator/scheduler implementation",
+    "alternatives": "Implement bounded probes and at most two executors after development path exists",
+    "blocked_claim": "Affinity, cache/load mechanism and GPU exactly-once correctness"
+  },
+  {
+    "resource": "Nsight Compute/Systems",
+    "required_by": "E1/E5",
+    "local_search_scope": [
+      "/home/ws/work",
+      "/home/ws/下载",
+      "/home/ws/文档/ChatGPT/EXP_NUMA",
+      "/opt",
+      "/usr/local",
+      "/usr/include",
+      "/usr/lib",
+      "/usr/share/doc",
+      "/home/ws/.local/lib",
+      "/home/ws/.cache/pip"
+    ],
+    "evidence": "ncu/nsys absent from PATH and package records",
+    "alternatives": "Optional existing local profiler; missing counters alone do not block future timing",
+    "blocked_claim": "Hardware traffic/cache/stall attribution"
+  },
+  {
+    "resource": "Primary research papers and matching local API documentation",
+    "required_by": "E6 novelty assessment",
+    "local_search_scope": [
+      "/home/ws/work",
+      "/home/ws/下载",
+      "/home/ws/文档/ChatGPT/EXP_NUMA",
+      "/opt",
+      "/usr/local",
+      "/usr/include",
+      "/usr/lib",
+      "/usr/share/doc",
+      "/home/ws/.local/lib",
+      "/home/ws/.cache/pip"
+    ],
+    "evidence": "Only supplied source summaries/URLs, no relevant full texts located",
+    "alternatives": "Supply offline papers/API docs; source list retained without browsing",
+    "blocked_claim": "Verified related-work distinctions or novelty claims"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "plan_valid": true,
+  "gpu_experiments_executed": false,
+  "counts": {
+    "A_topology": {
+      "main_policies": 10,
+      "main_sessions": 200,
+      "heldout_sessions": 30,
+      "secondary_sessions": 18,
+      "full_application_sessions": 248,
+      "negative_application_sessions": 36,
+      "micro_configurations": 96,
+      "main_measured_frames_planned": 102400
+    },
+    "B_cache": {
+      "main_policies": 9,
+      "main_sessions": 180,
+      "heldout_sessions": 30,
+      "secondary_sessions": 18,
+      "full_application_sessions": 228,
+      "negative_application_sessions": 36,
+      "micro_configurations": 96,
+      "main_measured_frames_planned": 92160
+    }
+  },
+  "worker_hours_cap": 12,
+  "reference_values_are_measurements": false
+}

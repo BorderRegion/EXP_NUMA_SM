@@ -1,0 +1,17 @@
+{
+  "label": "e2_control_small",
+  "phase": "E2",
+  "argv": [
+    "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/static-affinity-5080/build/control_cost",
+    "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/static-affinity-5080/results/raw/e2_control_small",
+    "0",
+    "small"
+  ],
+  "started": "2026-10-13T19:23:41.516120+08:00",
+  "gpu_worker_reserved": true,
+  "returncode": 0,
+  "xid_events": [],
+  "status": "PASS",
+  "finished": "2026-10-13T19:23:41.924138+08:00",
+  "seconds": 0.408022213003278
+}

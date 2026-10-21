@@ -1,0 +1,3242 @@
+[
+  {
+    "dispatch": 0,
+    "mean_reference_ticks": 851.000744047619,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 1,
+    "mean_reference_ticks": 27910.10714285714,
+    "p95_reference_ticks": 30895.15
+  },
+  {
+    "dispatch": 2,
+    "mean_reference_ticks": 27556.383928571428,
+    "p95_reference_ticks": 30341.65
+  },
+  {
+    "dispatch": 3,
+    "mean_reference_ticks": 163086.73214285713,
+    "p95_reference_ticks": 180325.8
+  },
+  {
+    "dispatch": 4,
+    "mean_reference_ticks": 5825.074404761905,
+    "p95_reference_ticks": 5944.0
+  },
+  {
+    "dispatch": 5,
+    "mean_reference_ticks": 164436.08407738095,
+    "p95_reference_ticks": 181421.3
+  },
+  {
+    "dispatch": 6,
+    "mean_reference_ticks": 175496.08854166666,
+    "p95_reference_ticks": 188291.94999999998
+  },
+  {
+    "dispatch": 7,
+    "mean_reference_ticks": 231793.36979166666,
+    "p95_reference_ticks": 268315.7
+  },
+  {
+    "dispatch": 8,
+    "mean_reference_ticks": 21988.252976190477,
+    "p95_reference_ticks": 23559.7
+  },
+  {
+    "dispatch": 9,
+    "mean_reference_ticks": 175582.02901785713,
+    "p95_reference_ticks": 188303.35
+  },
+  {
+    "dispatch": 10,
+    "mean_reference_ticks": 25682.76488095238,
+    "p95_reference_ticks": 27493.3
+  },
+  {
+    "dispatch": 11,
+    "mean_reference_ticks": 6354.334077380952,
+    "p95_reference_ticks": 20935.949999999993
+  },
+  {
+    "dispatch": 12,
+    "mean_reference_ticks": 5805.694940476191,
+    "p95_reference_ticks": 5917.0
+  },
+  {
+    "dispatch": 13,
+    "mean_reference_ticks": 5806.243303571428,
+    "p95_reference_ticks": 5921.0
+  },
+  {
+    "dispatch": 14,
+    "mean_reference_ticks": 25760.302083333332,
+    "p95_reference_ticks": 27467.0
+  },
+  {
+    "dispatch": 15,
+    "mean_reference_ticks": 21982.392113095237,
+    "p95_reference_ticks": 23566.7
+  },
+  {
+    "dispatch": 16,
+    "mean_reference_ticks": 6428.822916666667,
+    "p95_reference_ticks": 20849.649999999998
+  },
+  {
+    "dispatch": 17,
+    "mean_reference_ticks": 27749.92931547619,
+    "p95_reference_ticks": 30987.5
+  },
+  {
+    "dispatch": 18,
+    "mean_reference_ticks": 952968.5550595238,
+    "p95_reference_ticks": 970554.8
+  },
+  {
+    "dispatch": 19,
+    "mean_reference_ticks": 25724.771949404763,
+    "p95_reference_ticks": 27462.65
+  },
+  {
+    "dispatch": 20,
+    "mean_reference_ticks": 957080.9479166666,
+    "p95_reference_ticks": 974426.8
+  },
+  {
+    "dispatch": 21,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 22,
+    "mean_reference_ticks": 21984.040922619046,
+    "p95_reference_ticks": 23544.85
+  },
+  {
+    "dispatch": 23,
+    "mean_reference_ticks": 228483.80505952382,
+    "p95_reference_ticks": 262634.49999999994
+  },
+  {
+    "dispatch": 24,
+    "mean_reference_ticks": 940449.953125,
+    "p95_reference_ticks": 965670.7
+  },
+  {
+    "dispatch": 25,
+    "mean_reference_ticks": 5823.780505952381,
+    "p95_reference_ticks": 5935.0
+  },
+  {
+    "dispatch": 26,
+    "mean_reference_ticks": 5825.888392857143,
+    "p95_reference_ticks": 5951.85
+  },
+  {
+    "dispatch": 27,
+    "mean_reference_ticks": 241617.72098214287,
+    "p95_reference_ticks": 293711.85
+  },
+  {
+    "dispatch": 28,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 29,
+    "mean_reference_ticks": 162546.2857142857,
+    "p95_reference_ticks": 181199.59999999998
+  },
+  {
+    "dispatch": 30,
+    "mean_reference_ticks": 835.000744047619,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 31,
+    "mean_reference_ticks": 835.0022321428571,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 32,
+    "mean_reference_ticks": 175607.09970238095,
+    "p95_reference_ticks": 188189.1
+  },
+  {
+    "dispatch": 33,
+    "mean_reference_ticks": 835.0048363095239,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 34,
+    "mean_reference_ticks": 5806.008184523809,
+    "p95_reference_ticks": 5916.85
+  },
+  {
+    "dispatch": 35,
+    "mean_reference_ticks": 6359.757440476191,
+    "p95_reference_ticks": 21168.749999999996
+  },
+  {
+    "dispatch": 36,
+    "mean_reference_ticks": 25651.956101190477,
+    "p95_reference_ticks": 27495.6
+  },
+  {
+    "dispatch": 37,
+    "mean_reference_ticks": 5821.4047619047615,
+    "p95_reference_ticks": 5940.7
+  },
+  {
+    "dispatch": 38,
+    "mean_reference_ticks": 27835.81287202381,
+    "p95_reference_ticks": 31034.250000000004
+  },
+  {
+    "dispatch": 39,
+    "mean_reference_ticks": 236700.57217261905,
+    "p95_reference_ticks": 276137.89999999997
+  },
+  {
+    "dispatch": 40,
+    "mean_reference_ticks": 5808.883184523809,
+    "p95_reference_ticks": 5927.7
+  },
+  {
+    "dispatch": 41,
+    "mean_reference_ticks": 6198.962053571428,
+    "p95_reference_ticks": 21027.999999999993
+  },
+  {
+    "dispatch": 42,
+    "mean_reference_ticks": 959816.5550595238,
+    "p95_reference_ticks": 977929.55
+  },
+  {
+    "dispatch": 43,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 44,
+    "mean_reference_ticks": 6282.200148809524,
+    "p95_reference_ticks": 20829.25
+  },
+  {
+    "dispatch": 45,
+    "mean_reference_ticks": 953958.4360119047,
+    "p95_reference_ticks": 975295.9
+  },
+  {
+    "dispatch": 46,
+    "mean_reference_ticks": 164388.97544642858,
+    "p95_reference_ticks": 180907.35
+  },
+  {
+    "dispatch": 47,
+    "mean_reference_ticks": 5805.586309523809,
+    "p95_reference_ticks": 5917.85
+  },
+  {
+    "dispatch": 48,
+    "mean_reference_ticks": 229929.77157738095,
+    "p95_reference_ticks": 261847.04999999996
+  },
+  {
+    "dispatch": 49,
+    "mean_reference_ticks": 6522.590029761905,
+    "p95_reference_ticks": 21274.6
+  },
+  {
+    "dispatch": 50,
+    "mean_reference_ticks": 939747.5052083334,
+    "p95_reference_ticks": 961325.9
+  },
+  {
+    "dispatch": 51,
+    "mean_reference_ticks": 5807.627232142857,
+    "p95_reference_ticks": 5920.0
+  },
+  {
+    "dispatch": 52,
+    "mean_reference_ticks": 27888.04724702381,
+    "p95_reference_ticks": 31105.6
+  },
+  {
+    "dispatch": 53,
+    "mean_reference_ticks": 835.0037202380952,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 54,
+    "mean_reference_ticks": 21989.33035714286,
+    "p95_reference_ticks": 23564.55
+  },
+  {
+    "dispatch": 55,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 56,
+    "mean_reference_ticks": 835.0048363095239,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 57,
+    "mean_reference_ticks": 162767.4732142857,
+    "p95_reference_ticks": 181297.55
+  },
+  {
+    "dispatch": 58,
+    "mean_reference_ticks": 25745.536458333332,
+    "p95_reference_ticks": 27514.55
+  },
+  {
+    "dispatch": 59,
+    "mean_reference_ticks": 175458.14657738095,
+    "p95_reference_ticks": 188175.0
+  },
+  {
+    "dispatch": 60,
+    "mean_reference_ticks": 230510.73735119047,
+    "p95_reference_ticks": 262473.39999999997
+  },
+  {
+    "dispatch": 61,
+    "mean_reference_ticks": 5822.186755952381,
+    "p95_reference_ticks": 5940.0
+  },
+  {
+    "dispatch": 62,
+    "mean_reference_ticks": 5822.215773809524,
+    "p95_reference_ticks": 5934.85
+  },
+  {
+    "dispatch": 63,
+    "mean_reference_ticks": 25741.889508928572,
+    "p95_reference_ticks": 27507.0
+  },
+  {
+    "dispatch": 64,
+    "mean_reference_ticks": 21988.40550595238,
+    "p95_reference_ticks": 23574.7
+  },
+  {
+    "dispatch": 65,
+    "mean_reference_ticks": 21990.542410714286,
+    "p95_reference_ticks": 23561.35
+  },
+  {
+    "dispatch": 66,
+    "mean_reference_ticks": 27804.62574404762,
+    "p95_reference_ticks": 30909.55
+  },
+  {
+    "dispatch": 67,
+    "mean_reference_ticks": 164117.97023809524,
+    "p95_reference_ticks": 180332.65
+  },
+  {
+    "dispatch": 68,
+    "mean_reference_ticks": 175483.54538690476,
+    "p95_reference_ticks": 188285.55
+  },
+  {
+    "dispatch": 69,
+    "mean_reference_ticks": 175635.71949404763,
+    "p95_reference_ticks": 188195.7
+  },
+  {
+    "dispatch": 70,
+    "mean_reference_ticks": 835.0033482142857,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 71,
+    "mean_reference_ticks": 851.000744047619,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 72,
+    "mean_reference_ticks": 21990.587053571428,
+    "p95_reference_ticks": 23560.8
+  },
+  {
+    "dispatch": 73,
+    "mean_reference_ticks": 6436.695684523809,
+    "p95_reference_ticks": 20881.149999999998
+  },
+  {
+    "dispatch": 74,
+    "mean_reference_ticks": 945624.7261904762,
+    "p95_reference_ticks": 968021.55
+  },
+  {
+    "dispatch": 75,
+    "mean_reference_ticks": 5824.838541666667,
+    "p95_reference_ticks": 5941.85
+  },
+  {
+    "dispatch": 76,
+    "mean_reference_ticks": 959883.6168154762,
+    "p95_reference_ticks": 972854.85
+  },
+  {
+    "dispatch": 77,
+    "mean_reference_ticks": 851.000744047619,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 78,
+    "mean_reference_ticks": 175485.83035714287,
+    "p95_reference_ticks": 188188.35
+  },
+  {
+    "dispatch": 79,
+    "mean_reference_ticks": 27729.652157738095,
+    "p95_reference_ticks": 30693.75
+  },
+  {
+    "dispatch": 80,
+    "mean_reference_ticks": 21986.13839285714,
+    "p95_reference_ticks": 23553.7
+  },
+  {
+    "dispatch": 81,
+    "mean_reference_ticks": 25658.002604166668,
+    "p95_reference_ticks": 27471.5
+  },
+  {
+    "dispatch": 82,
+    "mean_reference_ticks": 230890.1130952381,
+    "p95_reference_ticks": 266219.94999999995
+  },
+  {
+    "dispatch": 83,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 84,
+    "mean_reference_ticks": 27816.925967261905,
+    "p95_reference_ticks": 30900.5
+  },
+  {
+    "dispatch": 85,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 86,
+    "mean_reference_ticks": 175450.11830357142,
+    "p95_reference_ticks": 188147.15
+  },
+  {
+    "dispatch": 87,
+    "mean_reference_ticks": 5805.177083333333,
+    "p95_reference_ticks": 5916.85
+  },
+  {
+    "dispatch": 88,
+    "mean_reference_ticks": 21990.276041666668,
+    "p95_reference_ticks": 23577.649999999998
+  },
+  {
+    "dispatch": 89,
+    "mean_reference_ticks": 942662.052827381,
+    "p95_reference_ticks": 960521.7
+  },
+  {
+    "dispatch": 90,
+    "mean_reference_ticks": 163918.5513392857,
+    "p95_reference_ticks": 180103.6
+  },
+  {
+    "dispatch": 91,
+    "mean_reference_ticks": 163177.73660714287,
+    "p95_reference_ticks": 180304.5
+  },
+  {
+    "dispatch": 92,
+    "mean_reference_ticks": 175593.91294642858,
+    "p95_reference_ticks": 188240.35
+  },
+  {
+    "dispatch": 93,
+    "mean_reference_ticks": 229194.51785714287,
+    "p95_reference_ticks": 262262.64999999997
+  },
+  {
+    "dispatch": 94,
+    "mean_reference_ticks": 6130.634672619048,
+    "p95_reference_ticks": 20192.7
+  },
+  {
+    "dispatch": 95,
+    "mean_reference_ticks": 233727.50148809524,
+    "p95_reference_ticks": 274086.85
+  },
+  {
+    "dispatch": 96,
+    "mean_reference_ticks": 5805.8764880952385,
+    "p95_reference_ticks": 5923.85
+  },
+  {
+    "dispatch": 97,
+    "mean_reference_ticks": 164074.74255952382,
+    "p95_reference_ticks": 180817.74999999997
+  },
+  {
+    "dispatch": 98,
+    "mean_reference_ticks": 835.0040922619048,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 99,
+    "mean_reference_ticks": 835.0029761904761,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 100,
+    "mean_reference_ticks": 5806.960565476191,
+    "p95_reference_ticks": 5926.85
+  },
+  {
+    "dispatch": 101,
+    "mean_reference_ticks": 27811.15625,
+    "p95_reference_ticks": 31184.65
+  },
+  {
+    "dispatch": 102,
+    "mean_reference_ticks": 835.0052083333334,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 103,
+    "mean_reference_ticks": 6179.305059523809,
+    "p95_reference_ticks": 20715.04999999999
+  },
+  {
+    "dispatch": 104,
+    "mean_reference_ticks": 5822.416666666667,
+    "p95_reference_ticks": 5941.0
+  },
+  {
+    "dispatch": 105,
+    "mean_reference_ticks": 25751.682663690477,
+    "p95_reference_ticks": 27444.95
+  },
+  {
+    "dispatch": 106,
+    "mean_reference_ticks": 5824.813244047619,
+    "p95_reference_ticks": 5940.85
+  },
+  {
+    "dispatch": 107,
+    "mean_reference_ticks": 25754.309151785714,
+    "p95_reference_ticks": 27500.3
+  },
+  {
+    "dispatch": 108,
+    "mean_reference_ticks": 164088.10863095237,
+    "p95_reference_ticks": 181540.95
+  },
+  {
+    "dispatch": 109,
+    "mean_reference_ticks": 21988.256696428572,
+    "p95_reference_ticks": 23555.4
+  },
+  {
+    "dispatch": 110,
+    "mean_reference_ticks": 963923.4166666666,
+    "p95_reference_ticks": 982126.55
+  },
+  {
+    "dispatch": 111,
+    "mean_reference_ticks": 27867.255208333332,
+    "p95_reference_ticks": 30706.850000000002
+  },
+  {
+    "dispatch": 112,
+    "mean_reference_ticks": 27878.888020833332,
+    "p95_reference_ticks": 31318.9
+  },
+  {
+    "dispatch": 113,
+    "mean_reference_ticks": 5809.763392857143,
+    "p95_reference_ticks": 5940.0
+  },
+  {
+    "dispatch": 114,
+    "mean_reference_ticks": 164483.96354166666,
+    "p95_reference_ticks": 180185.35
+  },
+  {
+    "dispatch": 115,
+    "mean_reference_ticks": 835.0040922619048,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 116,
+    "mean_reference_ticks": 6428.150297619048,
+    "p95_reference_ticks": 20818.049999999992
+  },
+  {
+    "dispatch": 117,
+    "mean_reference_ticks": 27793.23400297619,
+    "p95_reference_ticks": 30678.0
+  },
+  {
+    "dispatch": 118,
+    "mean_reference_ticks": 25699.097842261905,
+    "p95_reference_ticks": 27489.0
+  },
+  {
+    "dispatch": 119,
+    "mean_reference_ticks": 5821.972470238095,
+    "p95_reference_ticks": 5946.85
+  },
+  {
+    "dispatch": 120,
+    "mean_reference_ticks": 5825.453869047619,
+    "p95_reference_ticks": 5950.85
+  },
+  {
+    "dispatch": 121,
+    "mean_reference_ticks": 233983.8169642857,
+    "p95_reference_ticks": 276804.4
+  },
+  {
+    "dispatch": 122,
+    "mean_reference_ticks": 163607.2455357143,
+    "p95_reference_ticks": 181926.69999999998
+  },
+  {
+    "dispatch": 123,
+    "mean_reference_ticks": 851.000744047619,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 124,
+    "mean_reference_ticks": 175468.8169642857,
+    "p95_reference_ticks": 188191.5
+  },
+  {
+    "dispatch": 125,
+    "mean_reference_ticks": 835.0040922619048,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 126,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 127,
+    "mean_reference_ticks": 943702.4449404762,
+    "p95_reference_ticks": 963068.25
+  },
+  {
+    "dispatch": 128,
+    "mean_reference_ticks": 948850.2239583334,
+    "p95_reference_ticks": 969658.25
+  },
+  {
+    "dispatch": 129,
+    "mean_reference_ticks": 175603.7857142857,
+    "p95_reference_ticks": 188252.2
+  },
+  {
+    "dispatch": 130,
+    "mean_reference_ticks": 228013.99479166666,
+    "p95_reference_ticks": 258950.49999999997
+  },
+  {
+    "dispatch": 131,
+    "mean_reference_ticks": 5807.252976190476,
+    "p95_reference_ticks": 5921.85
+  },
+  {
+    "dispatch": 132,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 133,
+    "mean_reference_ticks": 21990.135416666668,
+    "p95_reference_ticks": 23555.4
+  },
+  {
+    "dispatch": 134,
+    "mean_reference_ticks": 6428.522321428572,
+    "p95_reference_ticks": 21276.0
+  },
+  {
+    "dispatch": 135,
+    "mean_reference_ticks": 21991.77901785714,
+    "p95_reference_ticks": 23555.85
+  },
+  {
+    "dispatch": 136,
+    "mean_reference_ticks": 6564.540922619048,
+    "p95_reference_ticks": 21136.499999999993
+  },
+  {
+    "dispatch": 137,
+    "mean_reference_ticks": 25755.669270833332,
+    "p95_reference_ticks": 27476.6
+  },
+  {
+    "dispatch": 138,
+    "mean_reference_ticks": 25751.047991071428,
+    "p95_reference_ticks": 27487.65
+  },
+  {
+    "dispatch": 139,
+    "mean_reference_ticks": 237365.56473214287,
+    "p95_reference_ticks": 275184.85
+  },
+  {
+    "dispatch": 140,
+    "mean_reference_ticks": 175471.20163690476,
+    "p95_reference_ticks": 188173.8
+  },
+  {
+    "dispatch": 141,
+    "mean_reference_ticks": 835.0022321428571,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 142,
+    "mean_reference_ticks": 5806.539434523809,
+    "p95_reference_ticks": 5928.7
+  },
+  {
+    "dispatch": 143,
+    "mean_reference_ticks": 5822.073660714285,
+    "p95_reference_ticks": 5947.0
+  },
+  {
+    "dispatch": 144,
+    "mean_reference_ticks": 958888.9464285715,
+    "p95_reference_ticks": 976475.8
+  },
+  {
+    "dispatch": 145,
+    "mean_reference_ticks": 230804.76860119047,
+    "p95_reference_ticks": 270990.3
+  },
+  {
+    "dispatch": 146,
+    "mean_reference_ticks": 175481.55282738095,
+    "p95_reference_ticks": 188198.25
+  },
+  {
+    "dispatch": 147,
+    "mean_reference_ticks": 235466.35119047618,
+    "p95_reference_ticks": 274215.55
+  },
+  {
+    "dispatch": 148,
+    "mean_reference_ticks": 6297.743303571428,
+    "p95_reference_ticks": 20879.25
+  },
+  {
+    "dispatch": 149,
+    "mean_reference_ticks": 162672.8318452381,
+    "p95_reference_ticks": 180533.25
+  },
+  {
+    "dispatch": 150,
+    "mean_reference_ticks": 164433.07291666666,
+    "p95_reference_ticks": 181226.75
+  },
+  {
+    "dispatch": 151,
+    "mean_reference_ticks": 162343.19791666666,
+    "p95_reference_ticks": 181561.15
+  },
+  {
+    "dispatch": 152,
+    "mean_reference_ticks": 835.0018601190476,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 153,
+    "mean_reference_ticks": 943790.6294642857,
+    "p95_reference_ticks": 966309.05
+  },
+  {
+    "dispatch": 154,
+    "mean_reference_ticks": 5820.033482142857,
+    "p95_reference_ticks": 5923.7
+  },
+  {
+    "dispatch": 155,
+    "mean_reference_ticks": 5805.308035714285,
+    "p95_reference_ticks": 5927.0
+  },
+  {
+    "dispatch": 156,
+    "mean_reference_ticks": 27755.376860119046,
+    "p95_reference_ticks": 30946.75
+  },
+  {
+    "dispatch": 157,
+    "mean_reference_ticks": 21987.91369047619,
+    "p95_reference_ticks": 23563.0
+  },
+  {
+    "dispatch": 158,
+    "mean_reference_ticks": 5806.651041666667,
+    "p95_reference_ticks": 5925.0
+  },
+  {
+    "dispatch": 159,
+    "mean_reference_ticks": 175624.07514880953,
+    "p95_reference_ticks": 188419.25
+  },
+  {
+    "dispatch": 160,
+    "mean_reference_ticks": 938707.6852678572,
+    "p95_reference_ticks": 959423.9
+  },
+  {
+    "dispatch": 161,
+    "mean_reference_ticks": 835.0026041666666,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 162,
+    "mean_reference_ticks": 27817.518601190477,
+    "p95_reference_ticks": 30968.0
+  },
+  {
+    "dispatch": 163,
+    "mean_reference_ticks": 25750.279389880954,
+    "p95_reference_ticks": 27570.0
+  },
+  {
+    "dispatch": 164,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 165,
+    "mean_reference_ticks": 27811.462053571428,
+    "p95_reference_ticks": 30651.55
+  },
+  {
+    "dispatch": 166,
+    "mean_reference_ticks": 175428.14285714287,
+    "p95_reference_ticks": 188196.19999999998
+  },
+  {
+    "dispatch": 167,
+    "mean_reference_ticks": 6213.140625,
+    "p95_reference_ticks": 20746.19999999999
+  },
+  {
+    "dispatch": 168,
+    "mean_reference_ticks": 835.0014880952381,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 169,
+    "mean_reference_ticks": 5821.955357142857,
+    "p95_reference_ticks": 5931.85
+  },
+  {
+    "dispatch": 170,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 171,
+    "mean_reference_ticks": 6447.809523809524,
+    "p95_reference_ticks": 21155.0
+  },
+  {
+    "dispatch": 172,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 173,
+    "mean_reference_ticks": 21987.848214285714,
+    "p95_reference_ticks": 23551.85
+  },
+  {
+    "dispatch": 174,
+    "mean_reference_ticks": 5805.881696428572,
+    "p95_reference_ticks": 5918.85
+  },
+  {
+    "dispatch": 175,
+    "mean_reference_ticks": 25646.731026785714,
+    "p95_reference_ticks": 27419.25
+  },
+  {
+    "dispatch": 176,
+    "mean_reference_ticks": 21989.295386904763,
+    "p95_reference_ticks": 23575.95
+  },
+  {
+    "dispatch": 177,
+    "mean_reference_ticks": 25664.737723214286,
+    "p95_reference_ticks": 27400.25
+  },
+  {
+    "dispatch": 178,
+    "mean_reference_ticks": 5826.209077380952,
+    "p95_reference_ticks": 5959.4
+  },
+  {
+    "dispatch": 179,
+    "mean_reference_ticks": 228678.59375,
+    "p95_reference_ticks": 259761.59999999986
+  },
+  {
+    "dispatch": 180,
+    "mean_reference_ticks": 6298.311755952381,
+    "p95_reference_ticks": 20622.399999999994
+  },
+  {
+    "dispatch": 181,
+    "mean_reference_ticks": 5806.035714285715,
+    "p95_reference_ticks": 5921.0
+  },
+  {
+    "dispatch": 182,
+    "mean_reference_ticks": 954969.8110119047,
+    "p95_reference_ticks": 974370.8
+  },
+  {
+    "dispatch": 183,
+    "mean_reference_ticks": 5824.0922619047615,
+    "p95_reference_ticks": 5951.85
+  },
+  {
+    "dispatch": 184,
+    "mean_reference_ticks": 5822.1264880952385,
+    "p95_reference_ticks": 5938.85
+  },
+  {
+    "dispatch": 185,
+    "mean_reference_ticks": 164266.73139880953,
+    "p95_reference_ticks": 180786.8
+  },
+  {
+    "dispatch": 186,
+    "mean_reference_ticks": 5823.628720238095,
+    "p95_reference_ticks": 5948.0
+  },
+  {
+    "dispatch": 187,
+    "mean_reference_ticks": 163060.11755952382,
+    "p95_reference_ticks": 182185.15
+  },
+  {
+    "dispatch": 188,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 189,
+    "mean_reference_ticks": 21989.392113095237,
+    "p95_reference_ticks": 23554.7
+  },
+  {
+    "dispatch": 190,
+    "mean_reference_ticks": 175456.8325892857,
+    "p95_reference_ticks": 188229.95
+  },
+  {
+    "dispatch": 191,
+    "mean_reference_ticks": 27819.118303571428,
+    "p95_reference_ticks": 30913.95
+  },
+  {
+    "dispatch": 192,
+    "mean_reference_ticks": 835.0044642857143,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 193,
+    "mean_reference_ticks": 25707.76636904762,
+    "p95_reference_ticks": 27486.15
+  },
+  {
+    "dispatch": 194,
+    "mean_reference_ticks": 835.0014880952381,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 195,
+    "mean_reference_ticks": 25679.186011904763,
+    "p95_reference_ticks": 27451.65
+  },
+  {
+    "dispatch": 196,
+    "mean_reference_ticks": 943318.4308035715,
+    "p95_reference_ticks": 965659.35
+  },
+  {
+    "dispatch": 197,
+    "mean_reference_ticks": 5805.0171130952385,
+    "p95_reference_ticks": 5916.0
+  },
+  {
+    "dispatch": 198,
+    "mean_reference_ticks": 21984.771577380954,
+    "p95_reference_ticks": 23556.55
+  },
+  {
+    "dispatch": 199,
+    "mean_reference_ticks": 27899.26599702381,
+    "p95_reference_ticks": 30987.95
+  },
+  {
+    "dispatch": 200,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 201,
+    "mean_reference_ticks": 5803.2671130952385,
+    "p95_reference_ticks": 5908.85
+  },
+  {
+    "dispatch": 202,
+    "mean_reference_ticks": 228452.02380952382,
+    "p95_reference_ticks": 261908.25
+  },
+  {
+    "dispatch": 203,
+    "mean_reference_ticks": 237798.22619047618,
+    "p95_reference_ticks": 278746.8
+  },
+  {
+    "dispatch": 204,
+    "mean_reference_ticks": 961795.4598214285,
+    "p95_reference_ticks": 975698.2
+  },
+  {
+    "dispatch": 205,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 206,
+    "mean_reference_ticks": 6425.996279761905,
+    "p95_reference_ticks": 20941.55
+  },
+  {
+    "dispatch": 207,
+    "mean_reference_ticks": 6389.177083333333,
+    "p95_reference_ticks": 21150.8
+  },
+  {
+    "dispatch": 208,
+    "mean_reference_ticks": 175629.1607142857,
+    "p95_reference_ticks": 188249.05
+  },
+  {
+    "dispatch": 209,
+    "mean_reference_ticks": 175471.16294642858,
+    "p95_reference_ticks": 188199.75
+  },
+  {
+    "dispatch": 210,
+    "mean_reference_ticks": 27787.99962797619,
+    "p95_reference_ticks": 31233.65
+  },
+  {
+    "dispatch": 211,
+    "mean_reference_ticks": 163581.18824404763,
+    "p95_reference_ticks": 178440.05
+  },
+  {
+    "dispatch": 212,
+    "mean_reference_ticks": 835.0011160714286,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 213,
+    "mean_reference_ticks": 236332.97767857142,
+    "p95_reference_ticks": 277596.25
+  },
+  {
+    "dispatch": 214,
+    "mean_reference_ticks": 25758.863467261905,
+    "p95_reference_ticks": 27517.9
+  },
+  {
+    "dispatch": 215,
+    "mean_reference_ticks": 21989.11681547619,
+    "p95_reference_ticks": 23559.85
+  },
+  {
+    "dispatch": 216,
+    "mean_reference_ticks": 6489.296875,
+    "p95_reference_ticks": 20999.649999999998
+  },
+  {
+    "dispatch": 217,
+    "mean_reference_ticks": 835.0022321428571,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 218,
+    "mean_reference_ticks": 26062.858258928572,
+    "p95_reference_ticks": 27991.95
+  },
+  {
+    "dispatch": 219,
+    "mean_reference_ticks": 28210.9296875,
+    "p95_reference_ticks": 31907.65
+  },
+  {
+    "dispatch": 220,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 221,
+    "mean_reference_ticks": 119577.38020833333,
+    "p95_reference_ticks": 183624.55
+  },
+  {
+    "dispatch": 222,
+    "mean_reference_ticks": 170229.9732142857,
+    "p95_reference_ticks": 187615.35
+  },
+  {
+    "dispatch": 223,
+    "mean_reference_ticks": 175014.2142857143,
+    "p95_reference_ticks": 187627.25
+  },
+  {
+    "dispatch": 224,
+    "mean_reference_ticks": 6510.402529761905,
+    "p95_reference_ticks": 21162.1
+  },
+  {
+    "dispatch": 225,
+    "mean_reference_ticks": 5806.043898809524,
+    "p95_reference_ticks": 5919.7
+  },
+  {
+    "dispatch": 226,
+    "mean_reference_ticks": 989807.8407738095,
+    "p95_reference_ticks": 1012907.1
+  },
+  {
+    "dispatch": 227,
+    "mean_reference_ticks": 976078.75,
+    "p95_reference_ticks": 994869.55
+  },
+  {
+    "dispatch": 228,
+    "mean_reference_ticks": 5822.046875,
+    "p95_reference_ticks": 5943.0
+  },
+  {
+    "dispatch": 229,
+    "mean_reference_ticks": 835.0055803571429,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 230,
+    "mean_reference_ticks": 21725.771577380954,
+    "p95_reference_ticks": 23281.25
+  },
+  {
+    "dispatch": 231,
+    "mean_reference_ticks": 6549.194940476191,
+    "p95_reference_ticks": 20973.349999999995
+  },
+  {
+    "dispatch": 232,
+    "mean_reference_ticks": 28438.57254464286,
+    "p95_reference_ticks": 33000.6
+  },
+  {
+    "dispatch": 233,
+    "mean_reference_ticks": 174956.15401785713,
+    "p95_reference_ticks": 187879.55
+  },
+  {
+    "dispatch": 234,
+    "mean_reference_ticks": 975214.6004464285,
+    "p95_reference_ticks": 997697.1
+  },
+  {
+    "dispatch": 235,
+    "mean_reference_ticks": 851.000744047619,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 236,
+    "mean_reference_ticks": 21729.127976190477,
+    "p95_reference_ticks": 23291.4
+  },
+  {
+    "dispatch": 237,
+    "mean_reference_ticks": 21724.475446428572,
+    "p95_reference_ticks": 23286.0
+  },
+  {
+    "dispatch": 238,
+    "mean_reference_ticks": 835.0026041666666,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 239,
+    "mean_reference_ticks": 25874.027529761905,
+    "p95_reference_ticks": 27755.95
+  },
+  {
+    "dispatch": 240,
+    "mean_reference_ticks": 168640.015625,
+    "p95_reference_ticks": 184441.8
+  },
+  {
+    "dispatch": 241,
+    "mean_reference_ticks": 28447.06808035714,
+    "p95_reference_ticks": 32870.8
+  },
+  {
+    "dispatch": 242,
+    "mean_reference_ticks": 244196.68898809524,
+    "p95_reference_ticks": 277283.39999999997
+  },
+  {
+    "dispatch": 243,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 244,
+    "mean_reference_ticks": 174883.22767857142,
+    "p95_reference_ticks": 187767.65
+  },
+  {
+    "dispatch": 245,
+    "mean_reference_ticks": 26043.7265625,
+    "p95_reference_ticks": 27898.850000000002
+  },
+  {
+    "dispatch": 246,
+    "mean_reference_ticks": 5805.084077380952,
+    "p95_reference_ticks": 5925.0
+  },
+  {
+    "dispatch": 247,
+    "mean_reference_ticks": 267124.0349702381,
+    "p95_reference_ticks": 320511.1
+  },
+  {
+    "dispatch": 248,
+    "mean_reference_ticks": 5821.007440476191,
+    "p95_reference_ticks": 5940.85
+  },
+  {
+    "dispatch": 249,
+    "mean_reference_ticks": 5823.648065476191,
+    "p95_reference_ticks": 5943.0
+  },
+  {
+    "dispatch": 250,
+    "mean_reference_ticks": 251006.41517857142,
+    "p95_reference_ticks": 289374.55
+  },
+  {
+    "dispatch": 251,
+    "mean_reference_ticks": 5807.664434523809,
+    "p95_reference_ticks": 5917.85
+  },
+  {
+    "dispatch": 252,
+    "mean_reference_ticks": 241627.40625,
+    "p95_reference_ticks": 276870.05
+  },
+  {
+    "dispatch": 253,
+    "mean_reference_ticks": 21724.74255952381,
+    "p95_reference_ticks": 23281.4
+  },
+  {
+    "dispatch": 254,
+    "mean_reference_ticks": 174890.671875,
+    "p95_reference_ticks": 187717.6
+  },
+  {
+    "dispatch": 255,
+    "mean_reference_ticks": 25851.849702380954,
+    "p95_reference_ticks": 27687.65
+  },
+  {
+    "dispatch": 256,
+    "mean_reference_ticks": 6470.394345238095,
+    "p95_reference_ticks": 20604.1
+  },
+  {
+    "dispatch": 257,
+    "mean_reference_ticks": 6456.773065476191,
+    "p95_reference_ticks": 20987.95
+  },
+  {
+    "dispatch": 258,
+    "mean_reference_ticks": 264442.1592261905,
+    "p95_reference_ticks": 316562.6499999999
+  },
+  {
+    "dispatch": 259,
+    "mean_reference_ticks": 28392.837425595237,
+    "p95_reference_ticks": 32567.0
+  },
+  {
+    "dispatch": 260,
+    "mean_reference_ticks": 835.0022321428571,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 261,
+    "mean_reference_ticks": 5807.025297619048,
+    "p95_reference_ticks": 5921.0
+  },
+  {
+    "dispatch": 262,
+    "mean_reference_ticks": 5825.0014880952385,
+    "p95_reference_ticks": 5944.0
+  },
+  {
+    "dispatch": 263,
+    "mean_reference_ticks": 166957.91369047618,
+    "p95_reference_ticks": 187608.3
+  },
+  {
+    "dispatch": 264,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 265,
+    "mean_reference_ticks": 166977.9494047619,
+    "p95_reference_ticks": 187225.45
+  },
+  {
+    "dispatch": 266,
+    "mean_reference_ticks": 169512.24330357142,
+    "p95_reference_ticks": 184790.1
+  },
+  {
+    "dispatch": 267,
+    "mean_reference_ticks": 990773.8921130953,
+    "p95_reference_ticks": 1008745.4
+  },
+  {
+    "dispatch": 268,
+    "mean_reference_ticks": 835.0018601190476,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 269,
+    "mean_reference_ticks": 835.0026041666666,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 270,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 271,
+    "mean_reference_ticks": 258156.27827380953,
+    "p95_reference_ticks": 297684.2
+  },
+  {
+    "dispatch": 272,
+    "mean_reference_ticks": 21725.525297619046,
+    "p95_reference_ticks": 23283.85
+  },
+  {
+    "dispatch": 273,
+    "mean_reference_ticks": 26066.253348214286,
+    "p95_reference_ticks": 27884.9
+  },
+  {
+    "dispatch": 274,
+    "mean_reference_ticks": 977764.9151785715,
+    "p95_reference_ticks": 1000820.25
+  },
+  {
+    "dispatch": 275,
+    "mean_reference_ticks": 6717.848958333333,
+    "p95_reference_ticks": 21295.7
+  },
+  {
+    "dispatch": 276,
+    "mean_reference_ticks": 28285.519345238095,
+    "p95_reference_ticks": 32306.9
+  },
+  {
+    "dispatch": 277,
+    "mean_reference_ticks": 5805.084821428572,
+    "p95_reference_ticks": 5920.549999999999
+  },
+  {
+    "dispatch": 278,
+    "mean_reference_ticks": 21728.69568452381,
+    "p95_reference_ticks": 23289.4
+  },
+  {
+    "dispatch": 279,
+    "mean_reference_ticks": 5825.209077380952,
+    "p95_reference_ticks": 5946.0
+  },
+  {
+    "dispatch": 280,
+    "mean_reference_ticks": 28395.467261904763,
+    "p95_reference_ticks": 32918.6
+  },
+  {
+    "dispatch": 281,
+    "mean_reference_ticks": 5823.84375,
+    "p95_reference_ticks": 5945.85
+  },
+  {
+    "dispatch": 282,
+    "mean_reference_ticks": 26040.004464285714,
+    "p95_reference_ticks": 27817.65
+  },
+  {
+    "dispatch": 283,
+    "mean_reference_ticks": 976983.3883928572,
+    "p95_reference_ticks": 997612.0
+  },
+  {
+    "dispatch": 284,
+    "mean_reference_ticks": 175044.70833333334,
+    "p95_reference_ticks": 187653.4
+  },
+  {
+    "dispatch": 285,
+    "mean_reference_ticks": 174951.3950892857,
+    "p95_reference_ticks": 187818.6
+  },
+  {
+    "dispatch": 286,
+    "mean_reference_ticks": 5805.145833333333,
+    "p95_reference_ticks": 5919.0
+  },
+  {
+    "dispatch": 287,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 288,
+    "mean_reference_ticks": 175036.34895833334,
+    "p95_reference_ticks": 187727.55
+  },
+  {
+    "dispatch": 289,
+    "mean_reference_ticks": 280516.7723214286,
+    "p95_reference_ticks": 339272.3
+  },
+  {
+    "dispatch": 290,
+    "mean_reference_ticks": 170282.11458333334,
+    "p95_reference_ticks": 187225.59999999998
+  },
+  {
+    "dispatch": 291,
+    "mean_reference_ticks": 21727.776041666668,
+    "p95_reference_ticks": 23288.85
+  },
+  {
+    "dispatch": 292,
+    "mean_reference_ticks": 835.0063244047619,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 293,
+    "mean_reference_ticks": 6366.530505952381,
+    "p95_reference_ticks": 20184.149999999998
+  },
+  {
+    "dispatch": 294,
+    "mean_reference_ticks": 6587.7485119047615,
+    "p95_reference_ticks": 20927.649999999998
+  },
+  {
+    "dispatch": 295,
+    "mean_reference_ticks": 5807.668154761905,
+    "p95_reference_ticks": 5919.85
+  },
+  {
+    "dispatch": 296,
+    "mean_reference_ticks": 835.0018601190476,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 297,
+    "mean_reference_ticks": 157290.01413690476,
+    "p95_reference_ticks": 183578.19999999998
+  },
+  {
+    "dispatch": 298,
+    "mean_reference_ticks": 5823.442708333333,
+    "p95_reference_ticks": 5941.0
+  },
+  {
+    "dispatch": 299,
+    "mean_reference_ticks": 240202.98288690476,
+    "p95_reference_ticks": 274880.89999999997
+  },
+  {
+    "dispatch": 300,
+    "mean_reference_ticks": 25901.228050595237,
+    "p95_reference_ticks": 27837.0
+  },
+  {
+    "dispatch": 301,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 302,
+    "mean_reference_ticks": 851.000744047619,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 303,
+    "mean_reference_ticks": 5822.671875,
+    "p95_reference_ticks": 5936.7
+  },
+  {
+    "dispatch": 304,
+    "mean_reference_ticks": 174915.88318452382,
+    "p95_reference_ticks": 187669.55
+  },
+  {
+    "dispatch": 305,
+    "mean_reference_ticks": 979012.197172619,
+    "p95_reference_ticks": 997437.4
+  },
+  {
+    "dispatch": 306,
+    "mean_reference_ticks": 168275.70089285713,
+    "p95_reference_ticks": 184132.8
+  },
+  {
+    "dispatch": 307,
+    "mean_reference_ticks": 5805.572172619048,
+    "p95_reference_ticks": 5924.0
+  },
+  {
+    "dispatch": 308,
+    "mean_reference_ticks": 26047.564360119046,
+    "p95_reference_ticks": 27913.3
+  },
+  {
+    "dispatch": 309,
+    "mean_reference_ticks": 21725.260416666668,
+    "p95_reference_ticks": 23287.55
+  },
+  {
+    "dispatch": 310,
+    "mean_reference_ticks": 28403.315848214286,
+    "p95_reference_ticks": 32725.9
+  },
+  {
+    "dispatch": 311,
+    "mean_reference_ticks": 986070.650297619,
+    "p95_reference_ticks": 1005955.4
+  },
+  {
+    "dispatch": 312,
+    "mean_reference_ticks": 5825.477678571428,
+    "p95_reference_ticks": 5954.0
+  },
+  {
+    "dispatch": 313,
+    "mean_reference_ticks": 5804.631696428572,
+    "p95_reference_ticks": 5920.0
+  },
+  {
+    "dispatch": 314,
+    "mean_reference_ticks": 25839.274925595237,
+    "p95_reference_ticks": 27759.55
+  },
+  {
+    "dispatch": 315,
+    "mean_reference_ticks": 21726.32886904762,
+    "p95_reference_ticks": 23280.0
+  },
+  {
+    "dispatch": 316,
+    "mean_reference_ticks": 28324.646949404763,
+    "p95_reference_ticks": 32201.15
+  },
+  {
+    "dispatch": 317,
+    "mean_reference_ticks": 6412.683779761905,
+    "p95_reference_ticks": 20795.55
+  },
+  {
+    "dispatch": 318,
+    "mean_reference_ticks": 174951.82738095237,
+    "p95_reference_ticks": 187626.25
+  },
+  {
+    "dispatch": 319,
+    "mean_reference_ticks": 835.0022321428571,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 320,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 321,
+    "mean_reference_ticks": 28486.165922619046,
+    "p95_reference_ticks": 32970.65
+  },
+  {
+    "dispatch": 322,
+    "mean_reference_ticks": 242940.38839285713,
+    "p95_reference_ticks": 276617.25
+  },
+  {
+    "dispatch": 323,
+    "mean_reference_ticks": 989541.2991071428,
+    "p95_reference_ticks": 1013643.4
+  },
+  {
+    "dispatch": 324,
+    "mean_reference_ticks": 978017.4397321428,
+    "p95_reference_ticks": 999830.7
+  },
+  {
+    "dispatch": 325,
+    "mean_reference_ticks": 175043.32291666666,
+    "p95_reference_ticks": 187689.75
+  },
+  {
+    "dispatch": 326,
+    "mean_reference_ticks": 990679.0483630953,
+    "p95_reference_ticks": 1012322.15
+  },
+  {
+    "dispatch": 327,
+    "mean_reference_ticks": 21723.494047619046,
+    "p95_reference_ticks": 23280.0
+  },
+  {
+    "dispatch": 328,
+    "mean_reference_ticks": 270300.7693452381,
+    "p95_reference_ticks": 326678.0
+  },
+  {
+    "dispatch": 329,
+    "mean_reference_ticks": 5808.433779761905,
+    "p95_reference_ticks": 5927.85
+  },
+  {
+    "dispatch": 330,
+    "mean_reference_ticks": 6504.593005952381,
+    "p95_reference_ticks": 20857.55
+  },
+  {
+    "dispatch": 331,
+    "mean_reference_ticks": 5805.094494047619,
+    "p95_reference_ticks": 5914.85
+  },
+  {
+    "dispatch": 332,
+    "mean_reference_ticks": 28265.51785714286,
+    "p95_reference_ticks": 32103.850000000002
+  },
+  {
+    "dispatch": 333,
+    "mean_reference_ticks": 169888.83630952382,
+    "p95_reference_ticks": 185876.95
+  },
+  {
+    "dispatch": 334,
+    "mean_reference_ticks": 26121.808407738095,
+    "p95_reference_ticks": 28091.95
+  },
+  {
+    "dispatch": 335,
+    "mean_reference_ticks": 28460.73400297619,
+    "p95_reference_ticks": 32977.3
+  },
+  {
+    "dispatch": 336,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 337,
+    "mean_reference_ticks": 21724.661458333332,
+    "p95_reference_ticks": 23286.7
+  },
+  {
+    "dispatch": 338,
+    "mean_reference_ticks": 167239.96949404763,
+    "p95_reference_ticks": 187507.85
+  },
+  {
+    "dispatch": 339,
+    "mean_reference_ticks": 5803.210565476191,
+    "p95_reference_ticks": 5908.7
+  },
+  {
+    "dispatch": 340,
+    "mean_reference_ticks": 174936.28645833334,
+    "p95_reference_ticks": 187674.94999999998
+  },
+  {
+    "dispatch": 341,
+    "mean_reference_ticks": 170500.52306547618,
+    "p95_reference_ticks": 187534.3
+  },
+  {
+    "dispatch": 342,
+    "mean_reference_ticks": 267910.5275297619,
+    "p95_reference_ticks": 329125.3
+  },
+  {
+    "dispatch": 343,
+    "mean_reference_ticks": 989558.1227678572,
+    "p95_reference_ticks": 1010800.3
+  },
+  {
+    "dispatch": 344,
+    "mean_reference_ticks": 21727.315476190477,
+    "p95_reference_ticks": 23286.55
+  },
+  {
+    "dispatch": 345,
+    "mean_reference_ticks": 6485.165178571428,
+    "p95_reference_ticks": 20818.04999999999
+  },
+  {
+    "dispatch": 346,
+    "mean_reference_ticks": 851.000744047619,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 347,
+    "mean_reference_ticks": 5824.025297619048,
+    "p95_reference_ticks": 5944.4
+  },
+  {
+    "dispatch": 348,
+    "mean_reference_ticks": 243629.125,
+    "p95_reference_ticks": 275786.55
+  },
+  {
+    "dispatch": 349,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 350,
+    "mean_reference_ticks": 835.0029761904761,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 351,
+    "mean_reference_ticks": 835.0037202380952,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 352,
+    "mean_reference_ticks": 5823.314732142857,
+    "p95_reference_ticks": 5940.7
+  },
+  {
+    "dispatch": 353,
+    "mean_reference_ticks": 26104.170014880954,
+    "p95_reference_ticks": 27862.3
+  },
+  {
+    "dispatch": 354,
+    "mean_reference_ticks": 6648.113839285715,
+    "p95_reference_ticks": 21294.049999999996
+  },
+  {
+    "dispatch": 355,
+    "mean_reference_ticks": 28414.453125,
+    "p95_reference_ticks": 32647.95
+  },
+  {
+    "dispatch": 356,
+    "mean_reference_ticks": 25882.888764880954,
+    "p95_reference_ticks": 27726.6
+  },
+  {
+    "dispatch": 357,
+    "mean_reference_ticks": 5823.199404761905,
+    "p95_reference_ticks": 5939.85
+  },
+  {
+    "dispatch": 358,
+    "mean_reference_ticks": 174939.78422619047,
+    "p95_reference_ticks": 187714.34999999998
+  },
+  {
+    "dispatch": 359,
+    "mean_reference_ticks": 835.0014880952381,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 360,
+    "mean_reference_ticks": 5823.111607142857,
+    "p95_reference_ticks": 5938.0
+  },
+  {
+    "dispatch": 361,
+    "mean_reference_ticks": 28372.385788690477,
+    "p95_reference_ticks": 32878.65
+  },
+  {
+    "dispatch": 362,
+    "mean_reference_ticks": 835.0037202380952,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 363,
+    "mean_reference_ticks": 25961.74962797619,
+    "p95_reference_ticks": 27746.850000000002
+  },
+  {
+    "dispatch": 364,
+    "mean_reference_ticks": 174937.26264880953,
+    "p95_reference_ticks": 187799.3
+  },
+  {
+    "dispatch": 365,
+    "mean_reference_ticks": 835.0040922619048,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 366,
+    "mean_reference_ticks": 21725.6875,
+    "p95_reference_ticks": 23292.7
+  },
+  {
+    "dispatch": 367,
+    "mean_reference_ticks": 25879.792038690477,
+    "p95_reference_ticks": 27723.55
+  },
+  {
+    "dispatch": 368,
+    "mean_reference_ticks": 28292.890625,
+    "p95_reference_ticks": 32185.3
+  },
+  {
+    "dispatch": 369,
+    "mean_reference_ticks": 167706.97916666666,
+    "p95_reference_ticks": 184286.25
+  },
+  {
+    "dispatch": 370,
+    "mean_reference_ticks": 6547.600446428572,
+    "p95_reference_ticks": 21279.5
+  },
+  {
+    "dispatch": 371,
+    "mean_reference_ticks": 5826.416666666667,
+    "p95_reference_ticks": 5951.4
+  },
+  {
+    "dispatch": 372,
+    "mean_reference_ticks": 5804.547619047619,
+    "p95_reference_ticks": 5914.7
+  },
+  {
+    "dispatch": 373,
+    "mean_reference_ticks": 26052.369791666668,
+    "p95_reference_ticks": 27983.9
+  },
+  {
+    "dispatch": 374,
+    "mean_reference_ticks": 174984.5974702381,
+    "p95_reference_ticks": 187807.55
+  },
+  {
+    "dispatch": 375,
+    "mean_reference_ticks": 5820.569196428572,
+    "p95_reference_ticks": 5929.85
+  },
+  {
+    "dispatch": 376,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 377,
+    "mean_reference_ticks": 835.0014880952381,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 378,
+    "mean_reference_ticks": 21725.356398809523,
+    "p95_reference_ticks": 23299.55
+  },
+  {
+    "dispatch": 379,
+    "mean_reference_ticks": 258224.23139880953,
+    "p95_reference_ticks": 296027.95
+  },
+  {
+    "dispatch": 380,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 381,
+    "mean_reference_ticks": 6403.261160714285,
+    "p95_reference_ticks": 20930.95
+  },
+  {
+    "dispatch": 382,
+    "mean_reference_ticks": 166501.70833333334,
+    "p95_reference_ticks": 184856.95
+  },
+  {
+    "dispatch": 383,
+    "mean_reference_ticks": 165167.32068452382,
+    "p95_reference_ticks": 187142.9
+  },
+  {
+    "dispatch": 384,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 385,
+    "mean_reference_ticks": 5804.90625,
+    "p95_reference_ticks": 5920.0
+  },
+  {
+    "dispatch": 386,
+    "mean_reference_ticks": 981558.4144345238,
+    "p95_reference_ticks": 1002679.6
+  },
+  {
+    "dispatch": 387,
+    "mean_reference_ticks": 5805.662202380952,
+    "p95_reference_ticks": 5919.0
+  },
+  {
+    "dispatch": 388,
+    "mean_reference_ticks": 21727.86755952381,
+    "p95_reference_ticks": 23271.7
+  },
+  {
+    "dispatch": 389,
+    "mean_reference_ticks": 262439.5863095238,
+    "p95_reference_ticks": 321660.95
+  },
+  {
+    "dispatch": 390,
+    "mean_reference_ticks": 175012.59598214287,
+    "p95_reference_ticks": 187663.0
+  },
+  {
+    "dispatch": 391,
+    "mean_reference_ticks": 6219.424107142857,
+    "p95_reference_ticks": 20801.94999999999
+  },
+  {
+    "dispatch": 392,
+    "mean_reference_ticks": 274592.36086309527,
+    "p95_reference_ticks": 329203.35
+  },
+  {
+    "dispatch": 393,
+    "mean_reference_ticks": 979265.5238095238,
+    "p95_reference_ticks": 1000480.15
+  },
+  {
+    "dispatch": 394,
+    "mean_reference_ticks": 990756.1160714285,
+    "p95_reference_ticks": 1010810.85
+  },
+  {
+    "dispatch": 395,
+    "mean_reference_ticks": 28347.93005952381,
+    "p95_reference_ticks": 32712.2
+  },
+  {
+    "dispatch": 396,
+    "mean_reference_ticks": 28457.0078125,
+    "p95_reference_ticks": 32637.55
+  },
+  {
+    "dispatch": 397,
+    "mean_reference_ticks": 25940.020833333332,
+    "p95_reference_ticks": 27710.65
+  },
+  {
+    "dispatch": 398,
+    "mean_reference_ticks": 6609.0453869047615,
+    "p95_reference_ticks": 20976.95
+  },
+  {
+    "dispatch": 399,
+    "mean_reference_ticks": 175057.43601190476,
+    "p95_reference_ticks": 187819.55
+  },
+  {
+    "dispatch": 400,
+    "mean_reference_ticks": 281068.5126488095,
+    "p95_reference_ticks": 338569.1
+  },
+  {
+    "dispatch": 401,
+    "mean_reference_ticks": 5806.354166666667,
+    "p95_reference_ticks": 5925.7
+  },
+  {
+    "dispatch": 402,
+    "mean_reference_ticks": 166657.19717261905,
+    "p95_reference_ticks": 186550.5
+  },
+  {
+    "dispatch": 403,
+    "mean_reference_ticks": 169142.42410714287,
+    "p95_reference_ticks": 184828.5
+  },
+  {
+    "dispatch": 404,
+    "mean_reference_ticks": 21724.370535714286,
+    "p95_reference_ticks": 23280.95
+  },
+  {
+    "dispatch": 405,
+    "mean_reference_ticks": 165479.76860119047,
+    "p95_reference_ticks": 187050.19999999998
+  },
+  {
+    "dispatch": 406,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 407,
+    "mean_reference_ticks": 21726.109375,
+    "p95_reference_ticks": 23311.55
+  },
+  {
+    "dispatch": 408,
+    "mean_reference_ticks": 5824.639880952381,
+    "p95_reference_ticks": 5946.85
+  },
+  {
+    "dispatch": 409,
+    "mean_reference_ticks": 21725.938988095237,
+    "p95_reference_ticks": 23289.7
+  },
+  {
+    "dispatch": 410,
+    "mean_reference_ticks": 835.0014880952381,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 411,
+    "mean_reference_ticks": 5807.245535714285,
+    "p95_reference_ticks": 5919.0
+  },
+  {
+    "dispatch": 412,
+    "mean_reference_ticks": 6297.299851190476,
+    "p95_reference_ticks": 20486.85
+  },
+  {
+    "dispatch": 413,
+    "mean_reference_ticks": 5806.103422619048,
+    "p95_reference_ticks": 5917.7
+  },
+  {
+    "dispatch": 414,
+    "mean_reference_ticks": 988507.2239583334,
+    "p95_reference_ticks": 1010682.85
+  },
+  {
+    "dispatch": 415,
+    "mean_reference_ticks": 835.0014880952381,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 416,
+    "mean_reference_ticks": 979065.5141369047,
+    "p95_reference_ticks": 995682.6
+  },
+  {
+    "dispatch": 417,
+    "mean_reference_ticks": 28456.109375,
+    "p95_reference_ticks": 32963.55
+  },
+  {
+    "dispatch": 418,
+    "mean_reference_ticks": 25859.050223214286,
+    "p95_reference_ticks": 27699.7
+  },
+  {
+    "dispatch": 419,
+    "mean_reference_ticks": 985634.5208333334,
+    "p95_reference_ticks": 1008358.8
+  },
+  {
+    "dispatch": 420,
+    "mean_reference_ticks": 835.0029761904761,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 421,
+    "mean_reference_ticks": 28240.74293154762,
+    "p95_reference_ticks": 32035.65
+  },
+  {
+    "dispatch": 422,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 423,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 424,
+    "mean_reference_ticks": 26038.933779761905,
+    "p95_reference_ticks": 27816.0
+  },
+  {
+    "dispatch": 425,
+    "mean_reference_ticks": 265095.45163690473,
+    "p95_reference_ticks": 312007.39999999997
+  },
+  {
+    "dispatch": 426,
+    "mean_reference_ticks": 5824.630952380952,
+    "p95_reference_ticks": 5940.7
+  },
+  {
+    "dispatch": 427,
+    "mean_reference_ticks": 6575.540178571428,
+    "p95_reference_ticks": 20899.949999999997
+  },
+  {
+    "dispatch": 428,
+    "mean_reference_ticks": 174938.14880952382,
+    "p95_reference_ticks": 187749.7
+  },
+  {
+    "dispatch": 429,
+    "mean_reference_ticks": 273291.89211309527,
+    "p95_reference_ticks": 337125.7
+  },
+  {
+    "dispatch": 430,
+    "mean_reference_ticks": 5824.828125,
+    "p95_reference_ticks": 5939.0
+  },
+  {
+    "dispatch": 431,
+    "mean_reference_ticks": 174891.70535714287,
+    "p95_reference_ticks": 187625.7
+  },
+  {
+    "dispatch": 432,
+    "mean_reference_ticks": 851.000744047619,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 433,
+    "mean_reference_ticks": 5803.639880952381,
+    "p95_reference_ticks": 5919.85
+  },
+  {
+    "dispatch": 434,
+    "mean_reference_ticks": 835.000744047619,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 435,
+    "mean_reference_ticks": 389058.046875,
+    "p95_reference_ticks": 409256.35
+  },
+  {
+    "dispatch": 436,
+    "mean_reference_ticks": 28481.470610119046,
+    "p95_reference_ticks": 32035.55
+  },
+  {
+    "dispatch": 437,
+    "mean_reference_ticks": 1063045.2038690476,
+    "p95_reference_ticks": 1081804.2
+  },
+  {
+    "dispatch": 438,
+    "mean_reference_ticks": 835.0018601190476,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 439,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 440,
+    "mean_reference_ticks": 170597.21577380953,
+    "p95_reference_ticks": 187012.65
+  },
+  {
+    "dispatch": 441,
+    "mean_reference_ticks": 174870.14732142858,
+    "p95_reference_ticks": 187541.75
+  },
+  {
+    "dispatch": 442,
+    "mean_reference_ticks": 21839.325148809523,
+    "p95_reference_ticks": 23418.25
+  },
+  {
+    "dispatch": 443,
+    "mean_reference_ticks": 1068828.3586309524,
+    "p95_reference_ticks": 1085768.85
+  },
+  {
+    "dispatch": 444,
+    "mean_reference_ticks": 28565.501860119046,
+    "p95_reference_ticks": 32026.65
+  },
+  {
+    "dispatch": 445,
+    "mean_reference_ticks": 835.0022321428571,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 446,
+    "mean_reference_ticks": 6241.634672619048,
+    "p95_reference_ticks": 21275.949999999997
+  },
+  {
+    "dispatch": 447,
+    "mean_reference_ticks": 174896.83035714287,
+    "p95_reference_ticks": 187465.2
+  },
+  {
+    "dispatch": 448,
+    "mean_reference_ticks": 174990.5111607143,
+    "p95_reference_ticks": 187576.75
+  },
+  {
+    "dispatch": 449,
+    "mean_reference_ticks": 6223.647321428572,
+    "p95_reference_ticks": 21264.4
+  },
+  {
+    "dispatch": 450,
+    "mean_reference_ticks": 1079217.0669642857,
+    "p95_reference_ticks": 1094002.0
+  },
+  {
+    "dispatch": 451,
+    "mean_reference_ticks": 21840.433035714286,
+    "p95_reference_ticks": 23415.1
+  },
+  {
+    "dispatch": 452,
+    "mean_reference_ticks": 120577.93303571429,
+    "p95_reference_ticks": 178536.34999999998
+  },
+  {
+    "dispatch": 453,
+    "mean_reference_ticks": 5823.779017857143,
+    "p95_reference_ticks": 5947.0
+  },
+  {
+    "dispatch": 454,
+    "mean_reference_ticks": 5823.953125,
+    "p95_reference_ticks": 5932.85
+  },
+  {
+    "dispatch": 455,
+    "mean_reference_ticks": 394558.95386904763,
+    "p95_reference_ticks": 418894.6
+  },
+  {
+    "dispatch": 456,
+    "mean_reference_ticks": 25758.407366071428,
+    "p95_reference_ticks": 27711.0
+  },
+  {
+    "dispatch": 457,
+    "mean_reference_ticks": 5822.854910714285,
+    "p95_reference_ticks": 5951.85
+  },
+  {
+    "dispatch": 458,
+    "mean_reference_ticks": 25834.014136904763,
+    "p95_reference_ticks": 27643.55
+  },
+  {
+    "dispatch": 459,
+    "mean_reference_ticks": 5804.9203869047615,
+    "p95_reference_ticks": 5923.85
+  },
+  {
+    "dispatch": 460,
+    "mean_reference_ticks": 169836.85044642858,
+    "p95_reference_ticks": 185783.75
+  },
+  {
+    "dispatch": 461,
+    "mean_reference_ticks": 28575.8203125,
+    "p95_reference_ticks": 32016.95
+  },
+  {
+    "dispatch": 462,
+    "mean_reference_ticks": 393158.93601190473,
+    "p95_reference_ticks": 421707.39999999997
+  },
+  {
+    "dispatch": 463,
+    "mean_reference_ticks": 5808.608630952381,
+    "p95_reference_ticks": 5920.0
+  },
+  {
+    "dispatch": 464,
+    "mean_reference_ticks": 5885.552827380952,
+    "p95_reference_ticks": 20235.14999999998
+  },
+  {
+    "dispatch": 465,
+    "mean_reference_ticks": 25750.115327380954,
+    "p95_reference_ticks": 27720.6
+  },
+  {
+    "dispatch": 466,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 467,
+    "mean_reference_ticks": 21839.12723214286,
+    "p95_reference_ticks": 23413.95
+  },
+  {
+    "dispatch": 468,
+    "mean_reference_ticks": 398426.8087797619,
+    "p95_reference_ticks": 420551.55
+  },
+  {
+    "dispatch": 469,
+    "mean_reference_ticks": 364083.9293154762,
+    "p95_reference_ticks": 386375.8
+  },
+  {
+    "dispatch": 470,
+    "mean_reference_ticks": 1037488.1138392857,
+    "p95_reference_ticks": 1058671.0
+  },
+  {
+    "dispatch": 471,
+    "mean_reference_ticks": 174894.67038690476,
+    "p95_reference_ticks": 187645.25
+  },
+  {
+    "dispatch": 472,
+    "mean_reference_ticks": 21842.971726190477,
+    "p95_reference_ticks": 23409.8
+  },
+  {
+    "dispatch": 473,
+    "mean_reference_ticks": 5806.002976190476,
+    "p95_reference_ticks": 5924.85
+  },
+  {
+    "dispatch": 474,
+    "mean_reference_ticks": 851.000744047619,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 475,
+    "mean_reference_ticks": 25833.907366071428,
+    "p95_reference_ticks": 27655.3
+  },
+  {
+    "dispatch": 476,
+    "mean_reference_ticks": 21839.984375,
+    "p95_reference_ticks": 23409.7
+  },
+  {
+    "dispatch": 477,
+    "mean_reference_ticks": 5825.580357142857,
+    "p95_reference_ticks": 5951.0
+  },
+  {
+    "dispatch": 478,
+    "mean_reference_ticks": 6150.4546130952385,
+    "p95_reference_ticks": 20973.499999999996
+  },
+  {
+    "dispatch": 479,
+    "mean_reference_ticks": 6047.261160714285,
+    "p95_reference_ticks": 20678.35
+  },
+  {
+    "dispatch": 480,
+    "mean_reference_ticks": 28460.97098214286,
+    "p95_reference_ticks": 31950.3
+  },
+  {
+    "dispatch": 481,
+    "mean_reference_ticks": 5805.3735119047615,
+    "p95_reference_ticks": 5919.4
+  },
+  {
+    "dispatch": 482,
+    "mean_reference_ticks": 6128.671875,
+    "p95_reference_ticks": 20687.949999999997
+  },
+  {
+    "dispatch": 483,
+    "mean_reference_ticks": 1043058.9464285715,
+    "p95_reference_ticks": 1061233.95
+  },
+  {
+    "dispatch": 484,
+    "mean_reference_ticks": 5823.177083333333,
+    "p95_reference_ticks": 5940.85
+  },
+  {
+    "dispatch": 485,
+    "mean_reference_ticks": 25750.71019345238,
+    "p95_reference_ticks": 27679.800000000003
+  },
+  {
+    "dispatch": 486,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 487,
+    "mean_reference_ticks": 1069273.247767857,
+    "p95_reference_ticks": 1090164.8
+  },
+  {
+    "dispatch": 488,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 489,
+    "mean_reference_ticks": 835.0026041666666,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 490,
+    "mean_reference_ticks": 120852.32589285714,
+    "p95_reference_ticks": 178474.8
+  },
+  {
+    "dispatch": 491,
+    "mean_reference_ticks": 172541.74255952382,
+    "p95_reference_ticks": 189272.45
+  },
+  {
+    "dispatch": 492,
+    "mean_reference_ticks": 397215.1160714286,
+    "p95_reference_ticks": 419270.05
+  },
+  {
+    "dispatch": 493,
+    "mean_reference_ticks": 21841.443452380954,
+    "p95_reference_ticks": 23414.85
+  },
+  {
+    "dispatch": 494,
+    "mean_reference_ticks": 835.0059523809524,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 495,
+    "mean_reference_ticks": 28571.39136904762,
+    "p95_reference_ticks": 32070.65
+  },
+  {
+    "dispatch": 496,
+    "mean_reference_ticks": 5804.509672619048,
+    "p95_reference_ticks": 5915.85
+  },
+  {
+    "dispatch": 497,
+    "mean_reference_ticks": 171028.13988095237,
+    "p95_reference_ticks": 185888.44999999998
+  },
+  {
+    "dispatch": 498,
+    "mean_reference_ticks": 25772.332961309523,
+    "p95_reference_ticks": 27651.6
+  },
+  {
+    "dispatch": 499,
+    "mean_reference_ticks": 174977.13839285713,
+    "p95_reference_ticks": 187597.4
+  },
+  {
+    "dispatch": 500,
+    "mean_reference_ticks": 174735.80431547618,
+    "p95_reference_ticks": 187399.5
+  },
+  {
+    "dispatch": 501,
+    "mean_reference_ticks": 835.0040922619048,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 502,
+    "mean_reference_ticks": 5822.351190476191,
+    "p95_reference_ticks": 5937.0
+  },
+  {
+    "dispatch": 503,
+    "mean_reference_ticks": 28533.378348214286,
+    "p95_reference_ticks": 32056.45
+  },
+  {
+    "dispatch": 504,
+    "mean_reference_ticks": 399832.3824404762,
+    "p95_reference_ticks": 419303.35
+  },
+  {
+    "dispatch": 505,
+    "mean_reference_ticks": 835.0022321428571,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 506,
+    "mean_reference_ticks": 5824.921130952381,
+    "p95_reference_ticks": 5951.85
+  },
+  {
+    "dispatch": 507,
+    "mean_reference_ticks": 21841.255952380954,
+    "p95_reference_ticks": 23407.7
+  },
+  {
+    "dispatch": 508,
+    "mean_reference_ticks": 1046637.1897321428,
+    "p95_reference_ticks": 1062992.95
+  },
+  {
+    "dispatch": 509,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 510,
+    "mean_reference_ticks": 835.0052083333334,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 511,
+    "mean_reference_ticks": 174990.34375,
+    "p95_reference_ticks": 187611.55
+  },
+  {
+    "dispatch": 512,
+    "mean_reference_ticks": 120450.84672619047,
+    "p95_reference_ticks": 177384.65
+  },
+  {
+    "dispatch": 513,
+    "mean_reference_ticks": 5806.278273809524,
+    "p95_reference_ticks": 5932.85
+  },
+  {
+    "dispatch": 514,
+    "mean_reference_ticks": 25773.427827380954,
+    "p95_reference_ticks": 27750.55
+  },
+  {
+    "dispatch": 515,
+    "mean_reference_ticks": 5824.465773809524,
+    "p95_reference_ticks": 5945.0
+  },
+  {
+    "dispatch": 516,
+    "mean_reference_ticks": 170099.3630952381,
+    "p95_reference_ticks": 186532.55
+  },
+  {
+    "dispatch": 517,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 518,
+    "mean_reference_ticks": 5925.822916666667,
+    "p95_reference_ticks": 19978.6
+  },
+  {
+    "dispatch": 519,
+    "mean_reference_ticks": 5824.196428571428,
+    "p95_reference_ticks": 5947.0
+  },
+  {
+    "dispatch": 520,
+    "mean_reference_ticks": 25817.206473214286,
+    "p95_reference_ticks": 27817.45
+  },
+  {
+    "dispatch": 521,
+    "mean_reference_ticks": 387103.0967261905,
+    "p95_reference_ticks": 412100.1
+  },
+  {
+    "dispatch": 522,
+    "mean_reference_ticks": 1033578.390625,
+    "p95_reference_ticks": 1051527.85
+  },
+  {
+    "dispatch": 523,
+    "mean_reference_ticks": 5807.564732142857,
+    "p95_reference_ticks": 5914.0
+  },
+  {
+    "dispatch": 524,
+    "mean_reference_ticks": 171175.99330357142,
+    "p95_reference_ticks": 186293.8
+  },
+  {
+    "dispatch": 525,
+    "mean_reference_ticks": 28460.409598214286,
+    "p95_reference_ticks": 31935.3
+  },
+  {
+    "dispatch": 526,
+    "mean_reference_ticks": 395348.9449404762,
+    "p95_reference_ticks": 418423.5
+  },
+  {
+    "dispatch": 527,
+    "mean_reference_ticks": 1065039.700892857,
+    "p95_reference_ticks": 1082376.85
+  },
+  {
+    "dispatch": 528,
+    "mean_reference_ticks": 835.0044642857143,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 529,
+    "mean_reference_ticks": 5625.2671130952385,
+    "p95_reference_ticks": 18427.75
+  },
+  {
+    "dispatch": 530,
+    "mean_reference_ticks": 28551.74144345238,
+    "p95_reference_ticks": 32123.0
+  },
+  {
+    "dispatch": 531,
+    "mean_reference_ticks": 5802.622767857143,
+    "p95_reference_ticks": 5909.0
+  },
+  {
+    "dispatch": 532,
+    "mean_reference_ticks": 174876.65625,
+    "p95_reference_ticks": 187558.0
+  },
+  {
+    "dispatch": 533,
+    "mean_reference_ticks": 6042.3764880952385,
+    "p95_reference_ticks": 20571.099999999995
+  },
+  {
+    "dispatch": 534,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 535,
+    "mean_reference_ticks": 25824.3203125,
+    "p95_reference_ticks": 27720.65
+  },
+  {
+    "dispatch": 536,
+    "mean_reference_ticks": 28609.268973214286,
+    "p95_reference_ticks": 31943.6
+  },
+  {
+    "dispatch": 537,
+    "mean_reference_ticks": 21840.06994047619,
+    "p95_reference_ticks": 23417.85
+  },
+  {
+    "dispatch": 538,
+    "mean_reference_ticks": 174884.65773809524,
+    "p95_reference_ticks": 187478.1
+  },
+  {
+    "dispatch": 539,
+    "mean_reference_ticks": 21841.521577380954,
+    "p95_reference_ticks": 23411.4
+  },
+  {
+    "dispatch": 540,
+    "mean_reference_ticks": 398938.81845238095,
+    "p95_reference_ticks": 423139.85
+  },
+  {
+    "dispatch": 541,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 542,
+    "mean_reference_ticks": 5826.040178571428,
+    "p95_reference_ticks": 5955.549999999999
+  },
+  {
+    "dispatch": 543,
+    "mean_reference_ticks": 21841.29910714286,
+    "p95_reference_ticks": 23421.35
+  },
+  {
+    "dispatch": 544,
+    "mean_reference_ticks": 6213.411458333333,
+    "p95_reference_ticks": 21011.35
+  },
+  {
+    "dispatch": 545,
+    "mean_reference_ticks": 1057615.5386904762,
+    "p95_reference_ticks": 1074890.15
+  },
+  {
+    "dispatch": 546,
+    "mean_reference_ticks": 5809.770089285715,
+    "p95_reference_ticks": 5936.0
+  },
+  {
+    "dispatch": 547,
+    "mean_reference_ticks": 28568.175967261905,
+    "p95_reference_ticks": 32060.9
+  },
+  {
+    "dispatch": 548,
+    "mean_reference_ticks": 835.0022321428571,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 549,
+    "mean_reference_ticks": 21841.64880952381,
+    "p95_reference_ticks": 23414.649999999998
+  },
+  {
+    "dispatch": 550,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 551,
+    "mean_reference_ticks": 1065711.2254464286,
+    "p95_reference_ticks": 1083448.95
+  },
+  {
+    "dispatch": 552,
+    "mean_reference_ticks": 124345.64211309524,
+    "p95_reference_ticks": 179645.5
+  },
+  {
+    "dispatch": 553,
+    "mean_reference_ticks": 390304.46428571426,
+    "p95_reference_ticks": 415071.35
+  },
+  {
+    "dispatch": 554,
+    "mean_reference_ticks": 5932.651785714285,
+    "p95_reference_ticks": 20337.399999999998
+  },
+  {
+    "dispatch": 555,
+    "mean_reference_ticks": 5806.550595238095,
+    "p95_reference_ticks": 5925.85
+  },
+  {
+    "dispatch": 556,
+    "mean_reference_ticks": 28493.1640625,
+    "p95_reference_ticks": 32048.95
+  },
+  {
+    "dispatch": 557,
+    "mean_reference_ticks": 1067660.581845238,
+    "p95_reference_ticks": 1083782.2
+  },
+  {
+    "dispatch": 558,
+    "mean_reference_ticks": 5807.347470238095,
+    "p95_reference_ticks": 5924.0
+  },
+  {
+    "dispatch": 559,
+    "mean_reference_ticks": 25778.316964285714,
+    "p95_reference_ticks": 27693.6
+  },
+  {
+    "dispatch": 560,
+    "mean_reference_ticks": 835.0018601190476,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 561,
+    "mean_reference_ticks": 21842.0625,
+    "p95_reference_ticks": 23403.85
+  },
+  {
+    "dispatch": 562,
+    "mean_reference_ticks": 6480.944940476191,
+    "p95_reference_ticks": 21462.899999999998
+  },
+  {
+    "dispatch": 563,
+    "mean_reference_ticks": 25833.981026785714,
+    "p95_reference_ticks": 27651.350000000002
+  },
+  {
+    "dispatch": 564,
+    "mean_reference_ticks": 174864.82886904763,
+    "p95_reference_ticks": 187446.65
+  },
+  {
+    "dispatch": 565,
+    "mean_reference_ticks": 5822.578125,
+    "p95_reference_ticks": 5933.0
+  },
+  {
+    "dispatch": 566,
+    "mean_reference_ticks": 25817.238095238095,
+    "p95_reference_ticks": 27697.65
+  },
+  {
+    "dispatch": 567,
+    "mean_reference_ticks": 174924.26488095237,
+    "p95_reference_ticks": 187578.35
+  },
+  {
+    "dispatch": 568,
+    "mean_reference_ticks": 396117.12276785716,
+    "p95_reference_ticks": 419061.7
+  },
+  {
+    "dispatch": 569,
+    "mean_reference_ticks": 155766.96056547618,
+    "p95_reference_ticks": 181498.69999999998
+  },
+  {
+    "dispatch": 570,
+    "mean_reference_ticks": 5826.497023809524,
+    "p95_reference_ticks": 5955.85
+  },
+  {
+    "dispatch": 571,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 572,
+    "mean_reference_ticks": 28574.149553571428,
+    "p95_reference_ticks": 32097.3
+  },
+  {
+    "dispatch": 573,
+    "mean_reference_ticks": 170825.7537202381,
+    "p95_reference_ticks": 185800.9
+  },
+  {
+    "dispatch": 574,
+    "mean_reference_ticks": 174975.38020833334,
+    "p95_reference_ticks": 187526.95
+  },
+  {
+    "dispatch": 575,
+    "mean_reference_ticks": 835.0044642857143,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 576,
+    "mean_reference_ticks": 21839.543154761905,
+    "p95_reference_ticks": 23403.95
+  },
+  {
+    "dispatch": 577,
+    "mean_reference_ticks": 385929.7083333333,
+    "p95_reference_ticks": 412435.55
+  },
+  {
+    "dispatch": 578,
+    "mean_reference_ticks": 25790.68787202381,
+    "p95_reference_ticks": 27656.5
+  },
+  {
+    "dispatch": 579,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 580,
+    "mean_reference_ticks": 835.000744047619,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 581,
+    "mean_reference_ticks": 1044123.1436011905,
+    "p95_reference_ticks": 1062131.5
+  },
+  {
+    "dispatch": 582,
+    "mean_reference_ticks": 5805.153273809524,
+    "p95_reference_ticks": 5911.85
+  },
+  {
+    "dispatch": 583,
+    "mean_reference_ticks": 401158.22470238095,
+    "p95_reference_ticks": 421632.85
+  },
+  {
+    "dispatch": 584,
+    "mean_reference_ticks": 174940.15922619047,
+    "p95_reference_ticks": 187525.65
+  },
+  {
+    "dispatch": 585,
+    "mean_reference_ticks": 5822.0766369047615,
+    "p95_reference_ticks": 5945.85
+  },
+  {
+    "dispatch": 586,
+    "mean_reference_ticks": 1070990.5654761905,
+    "p95_reference_ticks": 1089542.25
+  },
+  {
+    "dispatch": 587,
+    "mean_reference_ticks": 5804.133928571428,
+    "p95_reference_ticks": 5916.85
+  },
+  {
+    "dispatch": 588,
+    "mean_reference_ticks": 5823.089285714285,
+    "p95_reference_ticks": 5950.85
+  },
+  {
+    "dispatch": 589,
+    "mean_reference_ticks": 28601.118675595237,
+    "p95_reference_ticks": 32197.800000000003
+  },
+  {
+    "dispatch": 590,
+    "mean_reference_ticks": 375182.5230654762,
+    "p95_reference_ticks": 399532.95
+  },
+  {
+    "dispatch": 591,
+    "mean_reference_ticks": 174844.93824404763,
+    "p95_reference_ticks": 187524.05
+  },
+  {
+    "dispatch": 592,
+    "mean_reference_ticks": 28475.01004464286,
+    "p95_reference_ticks": 31983.95
+  },
+  {
+    "dispatch": 593,
+    "mean_reference_ticks": 169545.40029761905,
+    "p95_reference_ticks": 185836.6
+  },
+  {
+    "dispatch": 594,
+    "mean_reference_ticks": 6203.473214285715,
+    "p95_reference_ticks": 21290.149999999998
+  },
+  {
+    "dispatch": 595,
+    "mean_reference_ticks": 21841.82068452381,
+    "p95_reference_ticks": 23404.55
+  },
+  {
+    "dispatch": 596,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 597,
+    "mean_reference_ticks": 25814.11495535714,
+    "p95_reference_ticks": 27696.95
+  },
+  {
+    "dispatch": 598,
+    "mean_reference_ticks": 174967.90625,
+    "p95_reference_ticks": 187537.6
+  },
+  {
+    "dispatch": 599,
+    "mean_reference_ticks": 28591.5390625,
+    "p95_reference_ticks": 32252.9
+  },
+  {
+    "dispatch": 600,
+    "mean_reference_ticks": 1064369.53125,
+    "p95_reference_ticks": 1077803.9
+  },
+  {
+    "dispatch": 601,
+    "mean_reference_ticks": 835.0014880952381,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 602,
+    "mean_reference_ticks": 21839.735863095237,
+    "p95_reference_ticks": 23403.85
+  },
+  {
+    "dispatch": 603,
+    "mean_reference_ticks": 6356.930059523809,
+    "p95_reference_ticks": 21327.1
+  },
+  {
+    "dispatch": 604,
+    "mean_reference_ticks": 25828.368675595237,
+    "p95_reference_ticks": 27670.800000000003
+  },
+  {
+    "dispatch": 605,
+    "mean_reference_ticks": 5825.783482142857,
+    "p95_reference_ticks": 5952.7
+  },
+  {
+    "dispatch": 606,
+    "mean_reference_ticks": 124463.38839285714,
+    "p95_reference_ticks": 179121.24999999997
+  },
+  {
+    "dispatch": 607,
+    "mean_reference_ticks": 5832.918154761905,
+    "p95_reference_ticks": 18373.99999999992
+  },
+  {
+    "dispatch": 608,
+    "mean_reference_ticks": 835.0040922619048,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 609,
+    "mean_reference_ticks": 5809.367559523809,
+    "p95_reference_ticks": 5923.85
+  },
+  {
+    "dispatch": 610,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 611,
+    "mean_reference_ticks": 120448.67410714286,
+    "p95_reference_ticks": 178128.5
+  },
+  {
+    "dispatch": 612,
+    "mean_reference_ticks": 1049210.25,
+    "p95_reference_ticks": 1067939.95
+  },
+  {
+    "dispatch": 613,
+    "mean_reference_ticks": 28584.14025297619,
+    "p95_reference_ticks": 32336.65
+  },
+  {
+    "dispatch": 614,
+    "mean_reference_ticks": 5823.712797619048,
+    "p95_reference_ticks": 5944.85
+  },
+  {
+    "dispatch": 615,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 616,
+    "mean_reference_ticks": 28480.213541666668,
+    "p95_reference_ticks": 32043.65
+  },
+  {
+    "dispatch": 617,
+    "mean_reference_ticks": 835.0018601190476,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 618,
+    "mean_reference_ticks": 835.0048363095239,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 619,
+    "mean_reference_ticks": 386280.71428571426,
+    "p95_reference_ticks": 409127.5
+  },
+  {
+    "dispatch": 620,
+    "mean_reference_ticks": 149177.79761904763,
+    "p95_reference_ticks": 181149.85
+  },
+  {
+    "dispatch": 621,
+    "mean_reference_ticks": 6236.104166666667,
+    "p95_reference_ticks": 21103.1
+  },
+  {
+    "dispatch": 622,
+    "mean_reference_ticks": 25768.142485119046,
+    "p95_reference_ticks": 27661.0
+  },
+  {
+    "dispatch": 623,
+    "mean_reference_ticks": 21837.75223214286,
+    "p95_reference_ticks": 23423.55
+  },
+  {
+    "dispatch": 624,
+    "mean_reference_ticks": 174933.45535714287,
+    "p95_reference_ticks": 187564.44999999998
+  },
+  {
+    "dispatch": 625,
+    "mean_reference_ticks": 1067553.747767857,
+    "p95_reference_ticks": 1083503.8
+  },
+  {
+    "dispatch": 626,
+    "mean_reference_ticks": 5807.8422619047615,
+    "p95_reference_ticks": 5924.85
+  },
+  {
+    "dispatch": 627,
+    "mean_reference_ticks": 5843.819940476191,
+    "p95_reference_ticks": 20322.85
+  },
+  {
+    "dispatch": 628,
+    "mean_reference_ticks": 5823.997023809524,
+    "p95_reference_ticks": 5940.0
+  },
+  {
+    "dispatch": 629,
+    "mean_reference_ticks": 25830.105282738095,
+    "p95_reference_ticks": 27657.350000000002
+  },
+  {
+    "dispatch": 630,
+    "mean_reference_ticks": 21839.970238095237,
+    "p95_reference_ticks": 23410.0
+  },
+  {
+    "dispatch": 631,
+    "mean_reference_ticks": 21842.191220238095,
+    "p95_reference_ticks": 23415.85
+  },
+  {
+    "dispatch": 632,
+    "mean_reference_ticks": 174994.328125,
+    "p95_reference_ticks": 187625.85
+  },
+  {
+    "dispatch": 633,
+    "mean_reference_ticks": 122406.65699404762,
+    "p95_reference_ticks": 177582.5
+  },
+  {
+    "dispatch": 634,
+    "mean_reference_ticks": 6328.930059523809,
+    "p95_reference_ticks": 21092.549999999996
+  },
+  {
+    "dispatch": 635,
+    "mean_reference_ticks": 835.0040922619048,
+    "p95_reference_ticks": 835.0
+  },
+  {
+    "dispatch": 636,
+    "mean_reference_ticks": 400393.03199404763,
+    "p95_reference_ticks": 428089.05
+  },
+  {
+    "dispatch": 637,
+    "mean_reference_ticks": 28549.811383928572,
+    "p95_reference_ticks": 32182.65
+  },
+  {
+    "dispatch": 638,
+    "mean_reference_ticks": 5810.382440476191,
+    "p95_reference_ticks": 5939.0
+  },
+  {
+    "dispatch": 639,
+    "mean_reference_ticks": 5804.9858630952385,
+    "p95_reference_ticks": 5921.85
+  },
+  {
+    "dispatch": 640,
+    "mean_reference_ticks": 851.000744047619,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 641,
+    "mean_reference_ticks": 174861.24851190476,
+    "p95_reference_ticks": 187516.65
+  },
+  {
+    "dispatch": 642,
+    "mean_reference_ticks": 394914.00595238095,
+    "p95_reference_ticks": 414581.64999999997
+  },
+  {
+    "dispatch": 643,
+    "mean_reference_ticks": 851.0,
+    "p95_reference_ticks": 851.0
+  },
+  {
+    "dispatch": 644,
+    "mean_reference_ticks": 25824.885416666668,
+    "p95_reference_ticks": 27712.350000000002
+  },
+  {
+    "dispatch": 645,
+    "mean_reference_ticks": 170880.29985119047,
+    "p95_reference_ticks": 186563.55
+  },
+  {
+    "dispatch": 646,
+    "mean_reference_ticks": 1049984.7663690476,
+    "p95_reference_ticks": 1064040.3
+  },
+  {
+    "dispatch": 647,
+    "mean_reference_ticks": 5825.909226190476,
+    "p95_reference_ticks": 5959.7
+  }
+]

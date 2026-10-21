@@ -1,0 +1,17 @@
+{
+  "argv": [
+    "nvcc",
+    "-O3",
+    "-lineinfo",
+    "-std=c++17",
+    "-gencode",
+    "arch=compute_120,code=sm_120",
+    "static-affinity-causal-5080/src/causal.cu",
+    "-lcuda",
+    "-o",
+    "static-affinity-causal-5080/build/causal"
+  ],
+  "seconds": 2.486907605001761,
+  "returncode": 0,
+  "source_sha256": "1cb5b421828b7c8110c96027c0362f84210a42840947aa59cdbb381628051c33"
+}

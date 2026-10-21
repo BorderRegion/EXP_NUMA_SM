@@ -1,0 +1,130 @@
+{
+  "frozen_condition": {
+    "pool_span_bytes": 67108864,
+    "recipe": 0,
+    "active_lanes": 32,
+    "cache": 1,
+    "steps": 512
+  },
+  "K": 2,
+  "confirmation": [
+    {
+      "epoch": 3,
+      "regions": "fit_addresses",
+      "benefit_percent_by_round": [
+        0.20849634748137946,
+        0.41997599780350114,
+        0.2623005011137103
+      ],
+      "mean_benefit_percent": 0.29692428213286365,
+      "arithmetic_control_benefit_percent": [
+        0.021400262491289013,
+        -0.006586222057469726,
+        -0.007698461709737536
+      ],
+      "stale_map_benefit_percent_by_round": [
+        0.2189127554445891,
+        0.46335091229765535,
+        0.15242764609495474
+      ],
+      "mean_stale_map_benefit_percent": 0.27823043794573304,
+      "residual_rank_correlation": 0.10775367689285127,
+      "early_late_joint_cell_coverage": 0.9024849397590361,
+      "group_task_counts": [
+        16,
+        16
+      ]
+    },
+    {
+      "epoch": 3,
+      "regions": "new_addresses_with_own_initialization",
+      "benefit_percent_by_round": [
+        0.28460709690559804,
+        0.3492485834094228,
+        0.30454734887962465
+      ],
+      "mean_benefit_percent": 0.3128010097315485,
+      "arithmetic_control_benefit_percent": [
+        0.04119590944332563,
+        -0.029658039931357294,
+        0.06347224490563796
+      ],
+      "stale_map_benefit_percent_by_round": [
+        0.3038603897151937,
+        0.3624017659096701,
+        0.3638376486587047
+      ],
+      "mean_stale_map_benefit_percent": 0.3433666014278562,
+      "residual_rank_correlation": 0.12869383178262364,
+      "early_late_joint_cell_coverage": 0.9167921686746988,
+      "group_task_counts": [
+        16,
+        16
+      ]
+    },
+    {
+      "epoch": 4,
+      "regions": "fit_addresses",
+      "benefit_percent_by_round": [
+        0.35229230048607896,
+        0.35276462805232667,
+        0.3880089371729345
+      ],
+      "mean_benefit_percent": 0.3643552885704467,
+      "arithmetic_control_benefit_percent": [
+        -0.0520538847597285,
+        0.004646461726798279,
+        -0.037569003271786805
+      ],
+      "stale_map_benefit_percent_by_round": [
+        0.3819205665082426,
+        0.29467096991507846,
+        0.49311529023753353
+      ],
+      "mean_stale_map_benefit_percent": 0.38990227555361817,
+      "residual_rank_correlation": 0.11658800217965853,
+      "early_late_joint_cell_coverage": 0.9028614457831325,
+      "group_task_counts": [
+        16,
+        16
+      ]
+    },
+    {
+      "epoch": 4,
+      "regions": "new_addresses_with_own_initialization",
+      "benefit_percent_by_round": [
+        0.3568708973413437,
+        0.41761687289403326,
+        0.25237211538394755
+      ],
+      "mean_benefit_percent": 0.3422866285397748,
+      "arithmetic_control_benefit_percent": [
+        -0.025360484428693653,
+        0.013228147831123582,
+        0.02776747256402201
+      ],
+      "stale_map_benefit_percent_by_round": [
+        0.32116007242155575,
+        0.36610156085449264,
+        0.2766588605131459
+      ],
+      "mean_stale_map_benefit_percent": 0.32130683126306475,
+      "residual_rank_correlation": 0.13204959403116084,
+      "early_late_joint_cell_coverage": 0.9220632530120482,
+      "group_task_counts": [
+        16,
+        16
+      ]
+    }
+  ],
+  "fit_address_mean_benefit_percent": 0.33063978535165517,
+  "hierarchical_exploratory_ci95_percent": [
+    0.2527103148071216,
+    0.38205813242331776
+  ],
+  "control_absolute_noise_p95_percent": 0.05719214682538775,
+  "bootstrap_unit": "Allocation, then heldout round. Only two confirmation allocations; descriptive exploratory interval.",
+  "actionable": false,
+  "outcome": "NO_ACTIONABLE_AFFINITY_IN_TESTED_SCOPE",
+  "scope": "This pointer-chase sampling and cache/concurrency scope; not a proof that RTX 5080 lacks any memory nonuniformity. Predicted local timing benefit is not measured end-to-end speedup."
+}

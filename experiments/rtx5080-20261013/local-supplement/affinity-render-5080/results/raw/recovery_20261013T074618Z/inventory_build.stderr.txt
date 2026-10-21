@@ -1,0 +1,5 @@
+affinity-render-5080/preregistration/RTX5080_RENDER_SCHEDULING_V2/templates/device_inventory.cu(65): error: class "cudaDeviceProp" has no member "kernelExecTimeoutEnabled"
+              << "  \"kernel_timeout_enabled\": " << prop.kernelExecTimeoutEnabled << ",\n"
+                                                          ^
+
+1 error detected in the compilation of "affinity-render-5080/preregistration/RTX5080_RENDER_SCHEDULING_V2/templates/device_inventory.cu".

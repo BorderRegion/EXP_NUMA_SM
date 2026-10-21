@@ -1,0 +1,1 @@
+/usr/bin/g++ @CMakeFiles/scheduled_renderer.dir/objects1.rsp -o scheduled_renderer @CMakeFiles/scheduled_renderer.dir/linkLibs.rsp -L"/home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/toolchain/cuda-13.2/lib64/stubs" -L"/home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/toolchain/cuda-13.2/lib64"

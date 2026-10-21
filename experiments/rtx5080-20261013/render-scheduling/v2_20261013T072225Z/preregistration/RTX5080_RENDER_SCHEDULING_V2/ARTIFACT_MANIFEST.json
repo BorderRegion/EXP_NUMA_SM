@@ -1,0 +1,106 @@
+{
+  "package": "RTX5080_RENDER_SCHEDULING_V2",
+  "design_date": "2026-10-13",
+  "scope": "design_and_cpu_helpers_only",
+  "gpu_experiments_executed": false,
+  "cuda_inventory_compiled": false,
+  "cpu_unit_tests_passed": 20,
+  "manifest_excludes_itself": true,
+  "files": [
+    {
+      "path": "BUILD_STATUS.md",
+      "bytes": 1018,
+      "sha256": "d1aa4a0bff26814b98337bcb9258839d977dcc71c13a5bac5a89fb5cff9de66f"
+    },
+    {
+      "path": "CODEX_MASTER_TASK.md",
+      "bytes": 14301,
+      "sha256": "b27a4318788fcc948fde60b581f90ea55fb92c210f79d63b3b0b094d348c7f85"
+    },
+    {
+      "path": "CONTRIBUTION_CARD_TEMPLATE.md",
+      "bytes": 1594,
+      "sha256": "c7d4c7978caf7013b6eaf6e26d822436eeab85c64ebb0a62e6524a65f0028a7b"
+    },
+    {
+      "path": "COPY_TO_CODEX.txt",
+      "bytes": 2157,
+      "sha256": "c835d2d48ff538312c6b5946b11fbdeb17d4e5d8fab6c38bc6f33feb1e63f239"
+    },
+    {
+      "path": "CORRECTNESS_AND_RUNTIME.md",
+      "bytes": 4649,
+      "sha256": "36a2bd189e8b8c027e8daab4b86956b32a2594c1b6716ae18b0ef5a3eafe602e"
+    },
+    {
+      "path": "CPU_TEST_RESULTS.txt",
+      "bytes": 1715,
+      "sha256": "1069f193bd9b8e12d345ba9a1829390be199c3f6072296dfdb4a3fe8c16a0ab7"
+    },
+    {
+      "path": "EXPERIMENTS_AND_STATISTICS.md",
+      "bytes": 8044,
+      "sha256": "f498dda46d3dfee2c69493a4871e8d2031374aee354267a1ad364c7ef7278480"
+    },
+    {
+      "path": "HARDWARE_5080_AND_BRANCHES.md",
+      "bytes": 6166,
+      "sha256": "dd97d15ccace9db984ca9047dcf9287fe290dff39a016912cb8051e140a95375"
+    },
+    {
+      "path": "METHOD_AND_BASELINES.md",
+      "bytes": 8503,
+      "sha256": "99c4f2f1a7ffadc9dd12712c0bd12d76620278dcf8d529fd547caba72a93cb31"
+    },
+    {
+      "path": "OFFLINE_RESOURCES_AND_LOGGING.md",
+      "bytes": 3829,
+      "sha256": "557e5f6834a68110444ae65b042a7eef89a1709e70a166415abfa6124db8098a"
+    },
+    {
+      "path": "PLAN_CHECK_RESULT.json",
+      "bytes": 759,
+      "sha256": "08d3372146936d4417bbbc8e1afea34a382d74fae8c2c46e296104010907e625"
+    },
+    {
+      "path": "RELATED_WORK_AND_SCOPE.md",
+      "bytes": 5513,
+      "sha256": "f6795ae5fa4bb990ba167e86559b70ccb09671f6b13d261a865c1c47afd56b69"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 2642,
+      "sha256": "433be613226cb387e5d86c2857799a939e29760f2441ec356c41cc358815d597"
+    },
+    {
+      "path": "campaign.json",
+      "bytes": 3572,
+      "sha256": "6c009997c443dfdaa4417407a6abd37b465d8e4b94580644295d8f47476338fd"
+    },
+    {
+      "path": "schemas/campaign_results_schema.json",
+      "bytes": 1041,
+      "sha256": "e405d47d49059cfc06ebb6f1ddaeb24e8aa3414d2497d589c30a5e556a1c836f"
+    },
+    {
+      "path": "templates/device_inventory.cu",
+      "bytes": 3766,
+      "sha256": "5c4e9eac16564b176ef4f84282e0c8ec6c62d1b41e60c13968e95b64d89f649b"
+    },
+    {
+      "path": "templates/run_manifest.json",
+      "bytes": 1374,
+      "sha256": "087947aa369ad4d0b7db06d71dbc87d83fe8f6c68514cf28acd44ba2af2c356d"
+    },
+    {
+      "path": "tests/test_plan.py",
+      "bytes": 3851,
+      "sha256": "d52a110bb7bd9c2d0d47470dbf43dad10f0b361217f4d721dfe75718380374cb"
+    },
+    {
+      "path": "tools/plan.py",
+      "bytes": 8059,
+      "sha256": "0950d2fd6337070429dff2f7fce3e44cef41fa85221f186234d8cf11ee3e8e19"
+    }
+  ]
+}

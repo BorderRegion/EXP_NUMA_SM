@@ -1,0 +1,123 @@
+{
+  "frozen_at": "2026-10-13T20:22:45.012852+08:00",
+  "source_sha256": "1cb5b421828b7c8110c96027c0362f84210a42840947aa59cdbb381628051c33",
+  "binary_sha256": "49c9bf62540610c00a287c9e11d2e6b6a6c1efbbb4e334db7d795ffc405d1fdb",
+  "contract_sha256": "4af9371d0a6bdbc542d713d7b63a91f78ced1a336df4ae468cd9dc73c95daefe",
+  "segmentation_changes": 0,
+  "full_scope_qualified": true,
+  "formal_processes_not_started": true,
+  "qualification": [
+    {
+      "label": "f1_fixed_small_0",
+      "tasks": 256,
+      "seed": 2026101510,
+      "block": 0,
+      "recipe": 0,
+      "quota": [
+        121,
+        121,
+        14
+      ],
+      "explicit_GPU_bytes": 16791040,
+      "observed_group_SM_counts": [
+        40,
+        40,
+        4
+      ],
+      "group_unknown": 0,
+      "group_mismatch": 0,
+      "context_ms": 107.183,
+      "allocation_init_ms": 0.279144,
+      "cpu_reference_ms": 2.51408,
+      "calibration_ms": 4.78382,
+      "plan_ms": 0.184503,
+      "max_diagnostic_kernel_ms": 0.382496,
+      "formal_diagnostics": false,
+      "output_errors": 0
+    },
+    {
+      "label": "f1_fixed_small_1",
+      "tasks": 256,
+      "seed": 2026101511,
+      "block": 0,
+      "recipe": 1,
+      "quota": [
+        121,
+        121,
+        14
+      ],
+      "explicit_GPU_bytes": 16791040,
+      "observed_group_SM_counts": [
+        40,
+        40,
+        4
+      ],
+      "group_unknown": 0,
+      "group_mismatch": 0,
+      "context_ms": 115.65,
+      "allocation_init_ms": 0.201516,
+      "cpu_reference_ms": 2.56984,
+      "calibration_ms": 4.92233,
+      "plan_ms": 0.220613,
+      "max_diagnostic_kernel_ms": 0.394848,
+      "formal_diagnostics": false,
+      "output_errors": 0
+    },
+    {
+      "label": "f1_fixed_pressure_0",
+      "tasks": 3072,
+      "seed": 2026101510,
+      "block": 0,
+      "recipe": 0,
+      "quota": [
+        1462,
+        1462,
+        148
+      ],
+      "explicit_GPU_bytes": 201486848,
+      "observed_group_SM_counts": [
+        40,
+        40,
+        4
+      ],
+      "group_unknown": 0,
+      "group_mismatch": 0,
+      "context_ms": 109.861,
+      "allocation_init_ms": 0.37592,
+      "cpu_reference_ms": 30.1853,
+      "calibration_ms": 61.9799,
+      "plan_ms": 1.82719,
+      "max_diagnostic_kernel_ms": 1.04528,
+      "formal_diagnostics": false,
+      "output_errors": 0
+    },
+    {
+      "label": "f1_fixed_pressure_1",
+      "tasks": 3072,
+      "seed": 2026101511,
+      "block": 0,
+      "recipe": 1,
+      "quota": [
+        1462,
+        1462,
+        148
+      ],
+      "explicit_GPU_bytes": 201486848,
+      "observed_group_SM_counts": [
+        40,
+        40,
+        4
+      ],
+      "group_unknown": 0,
+      "group_mismatch": 0,
+      "context_ms": 104.472,
+      "allocation_init_ms": 0.368576,
+      "cpu_reference_ms": 30.1049,
+      "calibration_ms": 63.3118,
+      "plan_ms": 1.81389,
+      "max_diagnostic_kernel_ms": 1.21558,
+      "formal_diagnostics": false,
+      "output_errors": 0
+    }
+  ]
+}

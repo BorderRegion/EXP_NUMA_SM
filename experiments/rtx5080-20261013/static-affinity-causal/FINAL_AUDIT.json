@@ -1,0 +1,114 @@
+{
+  "status": "PASS_WITH_DISCLOSED_PROTOCOL_DEVIATION",
+  "checks": {
+    "contract_unchanged": true,
+    "source_and_executable_unchanged": true,
+    "all_24_formal_processes_complete": true,
+    "all_final_binary_and_freeze_before_run": true,
+    "process_sequence_matches_frozen_plan": true,
+    "144_sessions_18432_epochs_exact_outputs": true,
+    "Latin_positions_and_policy_order_verified": true,
+    "placement_ownership_and_remainder_verified": true,
+    "no_formal_diagnostics": true,
+    "f1_fixed_memcheck_0": true,
+    "f1_fixed_memcheck_1": true,
+    "f1_fixed_synccheck_1": true,
+    "f1_fixed_racecheck_0": true,
+    "no_new_GPU_fault": true,
+    "worker_budget_within_4h": true,
+    "prior_campaign_manifest_files_unchanged": true,
+    "input_overlap_disclosed": true,
+    "all_report_links_exist": true
+  },
+  "prior_campaign_manifest_files_verified": 293,
+  "formal_sessions": 144,
+  "measured_epochs": 18432,
+  "max_CPU_epoch_ms": 1.7477,
+  "manifest_sha256": "9977dda59d44b2fb70b7e606ea36ac5d850f6043f85baf71210f39e6011aa898",
+  "protocol_deviation": {
+    "status": "DISCLOSED_PROTOCOL_DEVIATION",
+    "formal_seeds_mutually_distinct": true,
+    "overlaps": [
+      {
+        "formal": "f3_pressure_r1_b0",
+        "seed": 2026101510,
+        "qualification_overlap": [
+          {
+            "run": "f1_fixed_small_0",
+            "tasks": 256,
+            "seed": 2026101510,
+            "recipe": 0
+          },
+          {
+            "run": "f1_fixed_pressure_0",
+            "tasks": 3072,
+            "seed": 2026101510,
+            "recipe": 0
+          }
+        ]
+      },
+      {
+        "formal": "f3_pressure_r0_b0",
+        "seed": 2026101500,
+        "qualification_overlap": [
+          {
+            "run": "f1_fixed_racecheck_0",
+            "tasks": 8,
+            "seed": 2026101500,
+            "recipe": 0
+          },
+          {
+            "run": "f1_fixed_memcheck_0",
+            "tasks": 8,
+            "seed": 2026101500,
+            "recipe": 0
+          }
+        ]
+      },
+      {
+        "formal": "f3_pressure_r1_b1",
+        "seed": 2026101511,
+        "qualification_overlap": [
+          {
+            "run": "f1_fixed_small_1",
+            "tasks": 256,
+            "seed": 2026101511,
+            "recipe": 1
+          },
+          {
+            "run": "f1_fixed_pressure_1",
+            "tasks": 3072,
+            "seed": 2026101511,
+            "recipe": 1
+          }
+        ]
+      },
+      {
+        "formal": "f3_pressure_r0_b1",
+        "seed": 2026101501,
+        "qualification_overlap": [
+          {
+            "run": "f1_fixed_memcheck_1",
+            "tasks": 8,
+            "seed": 2026101501,
+            "recipe": 1
+          },
+          {
+            "run": "f1_fixed_synccheck_1",
+            "tasks": 8,
+            "seed": 2026101501,
+            "recipe": 1
+          }
+        ]
+      }
+    ],
+    "impact": "Four PRESSURE formal seeds overlap correctness/duration qualification: two only 8-task prefixes and two full-size inputs. Fresh allocations and fresh calibration per formal process remain. Qualification was not used to select a performance winner or change the frozen algorithm, but untouched-input holdout must not be claimed for those blocks. All 144 sessions retained; no post-result replacements.",
+    "corrective_action": "Disclose and retain; do not exceed session cap or select favorable reruns."
+  },
+  "limitations": [
+    "CACHE_PRESSURE_SUPPORTED not unambiguously established; no DRAM counters.",
+    "Formal placement inferred from unchanged context/table binding and before/after diagnostics, not per-task formal tracing.",
+    "Six block exploratory intervals without multiplicity correction.",
+    "Deployment-only initialization and renderer benefit not measured."
+  ]
+}

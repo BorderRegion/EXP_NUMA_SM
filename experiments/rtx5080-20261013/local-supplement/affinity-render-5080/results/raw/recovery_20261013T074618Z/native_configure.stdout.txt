@@ -1,0 +1,15 @@
+-- The CXX compiler identification is GNU 15.2.0
+-- The CUDA compiler identification is NVIDIA 13.2.51 with host compiler GNU 15.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting CUDA compiler ABI info
+-- Detecting CUDA compiler ABI info - done
+-- Check for working CUDA compiler: /home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/toolchain/cuda-13.2/bin/nvcc - skipped
+-- Detecting CUDA compile features
+-- Detecting CUDA compile features - done
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/build/native

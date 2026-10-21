@@ -1,0 +1,2 @@
+timestamp, name, temperature.gpu, memory.free [MiB], memory.total [MiB], gpu_recovery_action
+2026/10/13 17:28:05.891, NVIDIA GeForce RTX 5080, 41, 15238 MiB, 16303 MiB, None

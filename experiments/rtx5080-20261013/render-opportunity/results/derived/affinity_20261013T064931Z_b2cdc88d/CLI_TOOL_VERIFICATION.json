@@ -1,0 +1,26 @@
+[
+  {
+    "i": 0,
+    "chunk_id": "fbbd12",
+    "wall_time_seconds": 1.1322e-05,
+    "exit_code": 0,
+    "original_token_count": 34,
+    "output": "{\"output\": \"results/derived/affinity_20261013T064931Z_b2cdc88d/cpu_sanity_v2/CLI_affinity_analysis.json\", \"source_kind\": \"SYNTHETIC\"}\n"
+  },
+  {
+    "i": 1,
+    "chunk_id": "1e4c84",
+    "wall_time_seconds": 0.015414012,
+    "exit_code": 0,
+    "original_token_count": 34,
+    "output": "{\"output\": \"results/derived/affinity_20261013T064931Z_b2cdc88d/cpu_sanity_v2/CLI_sessions_analysis.json\", \"source_kind\": \"SYNTHETIC\"}\n"
+  },
+  {
+    "i": 2,
+    "chunk_id": "ad78cc",
+    "wall_time_seconds": 1.5099e-05,
+    "exit_code": 0,
+    "original_token_count": 19,
+    "output": "{\"python_files_parsed\": 3, \"latest_cpu_checks_passed\": true, \"checks\": 10}\n"
+  }
+]

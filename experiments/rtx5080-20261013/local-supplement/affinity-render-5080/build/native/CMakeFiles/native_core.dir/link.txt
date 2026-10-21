@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnative_core.a "CMakeFiles/native_core.dir/offline_inbox/renderer/diff-gaussian-rasterization/cuda_rasterizer/forward.cu.o" "CMakeFiles/native_core.dir/offline_inbox/renderer/diff-gaussian-rasterization/cuda_rasterizer/backward.cu.o" "CMakeFiles/native_core.dir/offline_inbox/renderer/diff-gaussian-rasterization/cuda_rasterizer/rasterizer_impl.cu.o"
+/usr/bin/ranlib libnative_core.a

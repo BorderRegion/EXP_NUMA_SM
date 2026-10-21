@@ -1,0 +1,87 @@
+{
+  "aggregate": [
+    {
+      "baseline_id": 0,
+      "baseline": "B0 Native",
+      "M_over_baseline": 1.424081551382489,
+      "ratio_ci95": [
+        1.422737556747517,
+        1.425400950793991
+      ],
+      "time_reduction_percent": -42.408155138248894,
+      "time_reduction_ci95": [
+        -42.54009507939911,
+        -42.27375567475169
+      ],
+      "throughput_gain_percent": -29.779302384108085,
+      "strata": 4,
+      "process_blocks": 12,
+      "bootstrap_draws": 20000,
+      "unit": "Complete paired process block; within scene/track strata. Frames are not independent replicates."
+    },
+    {
+      "baseline_id": 3,
+      "baseline": "B3 Load",
+      "M_over_baseline": 1.2689012129789325,
+      "ratio_ci95": [
+        1.2674184153930779,
+        1.270317469909394
+      ],
+      "time_reduction_percent": -26.890121297893256,
+      "time_reduction_ci95": [
+        -27.031746990939396,
+        -26.741841539307785
+      ],
+      "throughput_gain_percent": -21.19165859631006,
+      "strata": 4,
+      "process_blocks": 12,
+      "bootstrap_draws": 20000,
+      "unit": "Complete paired process block; within scene/track strata. Frames are not independent replicates."
+    }
+  ],
+  "formal_sessions": 36,
+  "formal_frames": 18432,
+  "formal_process_blocks": 12,
+  "formal_hash_rows": 18432,
+  "formal_hash_mismatches": 0,
+  "qualification": [
+    {
+      "run": "qualification_bonsai_fast",
+      "rows": 288,
+      "raw_mismatches": 0,
+      "nonfinite": 0,
+      "reference_frames": 32
+    },
+    {
+      "run": "qualification_bonsai_slow",
+      "rows": 288,
+      "raw_mismatches": 0,
+      "nonfinite": 0,
+      "reference_frames": 32
+    },
+    {
+      "run": "qualification_train_fast",
+      "rows": 288,
+      "raw_mismatches": 0,
+      "nonfinite": 0,
+      "reference_frames": 32
+    },
+    {
+      "run": "qualification_train_slow",
+      "rows": 288,
+      "raw_mismatches": 0,
+      "nonfinite": 0,
+      "reference_frames": 32
+    }
+  ],
+  "new_xid_events": [],
+  "process_worker_seconds": 693.9527936759878,
+  "max_measured_render_ms": 8.86339188,
+  "max_measured_preprocess_ms": 0.759296,
+  "finite_contract": "Every formal frame checked; qualification additionally compares every raw output word. Native repeat checks executed twice after each reference.",
+  "limitations": [
+    "Three blocks per stratum in negative branch yield exploratory intervals.",
+    "Bootstrap measures process-repeat variation on this captured-camera sample, not generalization to other renderers or GPUs.",
+    "No hardware L2/DRAM counters or validated footprint model."
+  ]
+}

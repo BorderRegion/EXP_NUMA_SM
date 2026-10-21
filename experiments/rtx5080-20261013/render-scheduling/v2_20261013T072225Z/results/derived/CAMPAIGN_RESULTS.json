@@ -1,0 +1,56 @@
+{
+  "campaign_id": "RTX5080_RENDER_SCHEDULING_V2_20261013",
+  "run_id": "v2_20261013T072225Z",
+  "route": "CPU_OR_MICRO_ONLY",
+  "status": "BLOCKED_LOCAL_RESOURCE",
+  "measured": false,
+  "measured_definition": "GPU mechanism/performance/application experiments; successful device inventory is recorded separately",
+  "phases": {
+    "E0": "INVENTORY_AND_PLAN_CHECK_COMPLETE; NATIVE_BASELINE_BLOCKED",
+    "E1": "BLOCKED_TOOLCHAIN_AND_RENDERER",
+    "E2": "BLOCKED_GPU_RUNNER; CPU_PLAN_HELPERS_PASSED",
+    "E3": "BLOCKED_RENDERER_AND_ASSETS; NO_CALIBRATION",
+    "E4": "NOT_RUN_RESOURCE_BLOCKED",
+    "E5": "NOT_RUN_RESOURCE_BLOCKED",
+    "E6": "RESOURCE_BLOCKED_REPORT_COMPLETE"
+  },
+  "evidence": {
+    "environment": "results/raw/v2_20261013T072225Z/environment.json",
+    "resource_search": "results/raw/v2_20261013T072225Z/resource_checks.json",
+    "assessment": "results/raw/v2_20261013T072225Z/resource_assessment.json",
+    "cpu_tests": "results/raw/v2_20261013T072225Z/CPU_EXECUTION.json",
+    "input_verification": "results/raw/v2_20261013T072225Z/INPUT_VERIFICATION.json"
+  },
+  "limitations": [
+    "No qualified CUDA development route in searched locations",
+    "No real renderer or assets found",
+    "Affinity/cache/load/performance not evaluated",
+    "Provided bibliography summaries not independently verified offline"
+  ],
+  "baseline_b0": null,
+  "baseline_b_star": null,
+  "candidate_implemented": false,
+  "speedup": null,
+  "time_reduction_pct": null,
+  "confidence_interval": null,
+  "gpu_kernel_count": 0,
+  "application_sessions": 0,
+  "application_frames": 0,
+  "micro_configurations_executed": 0,
+  "baseline_ready_tag_created": false,
+  "rq_status": {
+    "RQ1": "blocked",
+    "RQ2": "blocked",
+    "RQ3": "blocked",
+    "RQ4": "blocked",
+    "RQ5": "blocked",
+    "RQ6": "blocked"
+  },
+  "claims": {
+    "PHYSICAL_OR_EMPIRICAL_AFFINITY": "not_evaluated",
+    "CACHE_REUSE": "not_evaluated",
+    "LOAD_BALANCE": "not_evaluated",
+    "END_TO_END_EFFECT": "not_evaluated",
+    "NOVEL_METHOD": "not_evaluated"
+  }
+}

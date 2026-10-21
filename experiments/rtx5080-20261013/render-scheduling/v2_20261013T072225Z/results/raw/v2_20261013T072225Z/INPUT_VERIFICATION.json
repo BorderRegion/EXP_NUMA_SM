@@ -1,0 +1,101 @@
+{
+  "all_passed": true,
+  "checked_files": 19,
+  "checks": [
+    {
+      "path": "BUILD_STATUS.md",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "CODEX_MASTER_TASK.md",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "CONTRIBUTION_CARD_TEMPLATE.md",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "COPY_TO_CODEX.txt",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "CORRECTNESS_AND_RUNTIME.md",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "CPU_TEST_RESULTS.txt",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "EXPERIMENTS_AND_STATISTICS.md",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "HARDWARE_5080_AND_BRANCHES.md",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "METHOD_AND_BASELINES.md",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "OFFLINE_RESOURCES_AND_LOGGING.md",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "PLAN_CHECK_RESULT.json",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "RELATED_WORK_AND_SCOPE.md",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "START_HERE.md",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "campaign.json",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "schemas/campaign_results_schema.json",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "templates/device_inventory.cu",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "templates/run_manifest.json",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "tests/test_plan.py",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "tools/plan.py",
+      "size_matches": true,
+      "sha256_matches": true
+    }
+  ]
+}

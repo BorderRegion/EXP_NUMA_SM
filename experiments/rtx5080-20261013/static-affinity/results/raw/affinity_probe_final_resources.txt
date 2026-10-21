@@ -1,0 +1,34 @@
+
+Fatbin elf code:
+================
+arch = sm_120
+code version = [1,8]
+host = linux
+compile_size = 64bit
+identifier = static-affinity-5080/src/affinity_probe.cu 
+
+Resource usage:
+ Common:
+  GLOBAL:0
+
+Fatbin elf code:
+================
+arch = sm_120
+code version = [1,8]
+host = linux
+compile_size = 64bit
+identifier = static-affinity-5080/src/affinity_probe.cu
+
+Resource usage:
+ Common:
+  GLOBAL:0
+ Function _Z5probeILi2EEvPKjjjS1_iiiiP6Sample:
+  REG:24 STACK:0 SHARED:0 LOCAL:0 CONSTANT[0]:944 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function _Z5probeILi1EEvPKjjjS1_iiiiP6Sample:
+  REG:28 STACK:0 SHARED:0 LOCAL:0 CONSTANT[0]:944 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function _Z5probeILi0EEvPKjjjS1_iiiiP6Sample:
+  REG:30 STACK:0 SHARED:0 LOCAL:0 CONSTANT[0]:944 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function _Z5touchPKjjPj:
+  REG:14 STACK:0 SHARED:0 LOCAL:0 CONSTANT[0]:920 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function _Z10initializePjjjj:
+  REG:10 STACK:0 SHARED:0 LOCAL:0 CONSTANT[0]:916 TEXTURE:0 SURFACE:0 SAMPLER:0

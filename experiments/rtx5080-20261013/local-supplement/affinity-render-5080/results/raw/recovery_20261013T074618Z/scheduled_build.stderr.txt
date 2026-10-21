@@ -1,0 +1,27 @@
+/home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/src/scheduler.cu(15): error: calling a constexpr __host__ function("max") from a __global__ function("features") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+  __attribute__((global)) void features(int n,const uint2* ranges,const uint32_t* list,int q,Meta* m){int t=blockIdx.x*blockDim.x+threadIdx.x;if(t>=n)return;uint2 r=ranges[t];uint32_t len=r.y-r.x;m[t].len=len;for(int j=0;j<16;j++){uint32_t at=j<q/2?j:((uint64_t)(j-q/2)*(len?len-1:0))/std::max(1,q/2-1);m[t].keys[j]=(j<q&&at<len)?list[r.x+at]:
+                                                                                                                                                                                                                                                                                             ^
+
+1 error detected in the compilation of "/home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/src/scheduler.cu".
+gmake[2]: *** [CMakeFiles/scheduled_core.dir/build.make:125: CMakeFiles/scheduled_core.dir/src/scheduler.cu.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+/home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/src/core/auxiliary.h(151): warning #177-D: variable "p_proj" was declared but never referenced
+   float3 p_proj = { p_hom.x * p_w, p_hom.y * p_w, p_hom.z * p_w };
+          ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+/home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/src/core/auxiliary.h(151): warning #177-D: variable "p_proj" was declared but never referenced
+   float3 p_proj = { p_hom.x * p_w, p_hom.y * p_w, p_hom.z * p_w };
+          ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+/home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/src/core/auxiliary.h(151): warning #177-D: variable "p_proj" was declared but never referenced
+   float3 p_proj = { p_hom.x * p_w, p_hom.y * p_w, p_hom.z * p_w };
+          ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+gmake[1]: *** [CMakeFiles/Makefile2:160: CMakeFiles/scheduled_core.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

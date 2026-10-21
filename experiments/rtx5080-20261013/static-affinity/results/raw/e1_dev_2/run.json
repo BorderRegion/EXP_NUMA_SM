@@ -1,0 +1,17 @@
+{
+  "label": "e1_dev_2",
+  "phase": "E1",
+  "argv": [
+    "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/static-affinity-5080/build/affinity_probe",
+    "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/static-affinity-5080/results/raw/e1_dev_2",
+    "2",
+    "atlas"
+  ],
+  "started": "2026-10-13T19:11:58.889416+08:00",
+  "gpu_worker_reserved": true,
+  "returncode": 0,
+  "xid_events": [],
+  "status": "PASS",
+  "finished": "2026-10-13T19:11:59.910499+08:00",
+  "seconds": 1.0210914899980708
+}

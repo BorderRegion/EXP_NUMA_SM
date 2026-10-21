@@ -1,0 +1,22 @@
+{
+  "old_learned_to_green_cross_counts": {
+    "(0, 1)": 16,
+    "(1, 0)": 17,
+    "(1, 1)": 23,
+    "(0, 0)": 24,
+    "(2, 0)": 1,
+    "(2, 'MISSING')": 1,
+    "(2, 1)": 2
+  },
+  "missing_learned_smid": 79,
+  "remainder_sms": [
+    78,
+    79,
+    80,
+    81
+  ],
+  "prior_all_groups_submitted_before_join": true,
+  "prior_formal_SM_writes": true,
+  "old_report_sha256": "4b082a38cfedb7eccd9aeaed8329770e2aeec2b3738d6f50ad7a34ef592ab23d",
+  "original_threshold_preserved": true
+}

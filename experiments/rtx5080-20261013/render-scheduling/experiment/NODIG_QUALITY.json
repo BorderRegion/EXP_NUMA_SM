@@ -1,0 +1,26 @@
+[
+  {
+    "run": "nodig_0_bonsai",
+    "final_frame_hashes_equal": true,
+    "policies": 3,
+    "unchecked_intermediate_frames_per_policy": 511
+  },
+  {
+    "run": "nodig_0_train",
+    "final_frame_hashes_equal": true,
+    "policies": 3,
+    "unchecked_intermediate_frames_per_policy": 511
+  },
+  {
+    "run": "nodig_1_bonsai",
+    "final_frame_hashes_equal": true,
+    "policies": 3,
+    "unchecked_intermediate_frames_per_policy": 511
+  },
+  {
+    "run": "nodig_1_train",
+    "final_frame_hashes_equal": true,
+    "policies": 3,
+    "unchecked_intermediate_frames_per_policy": 511
+  }
+]

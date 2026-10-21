@@ -66,10 +66,16 @@ python3 tools/verify_archive.py --assets /path/to/release-assets --extract /path
 
 ## 五、前史（RTX 5080，2026-10-13）
 
-本仓库只保存四份报告与配图，**没有**代码、数据或归档包，因此这里没有可执行的复算入口。
+源码与小型记录见 [5080 实验目录](../experiments/rtx5080-20261013/)，五个原始交付包与补充原始输出的下载、逐文件校验和分片恢复见 [5080 归档说明](../archive/rtx5080/README.md)。
 
-- 报告里写的 CPU 复算命令与路径（`tools/matrices.py`、`tools/analyze.py` 等）都在本机原始项目里；需要复算时用原件，并按报告写明的边界解释结果。
-- 报告里的绝对路径和“下一步”保留原样，只适用于当时的机器。
+```bash
+python3 tools/download_archives.py --dest /path/to/rtx5080-assets --index archive/rtx5080/INDEX.json
+python3 tools/verify_rtx5080_release.py --assets /path/to/rtx5080-assets
+```
+
+- R1/R2/R3/R4 原包分开恢复，保留 R2 早期与最终版本；原包未覆盖的 R2 渲染输出和其他记录在补充包中。
+- `tools/matrices.py`、`tools/analyze.py` 等历史分析脚本随实验保存，绝对路径需要在复算副本中调整。外部 CUDA/renderer/场景资产和绘图库不包含在此次发布中。
+- 本次完成文件和压缩包校验，没有重新执行历史分析或 GPU 测量。文件一致不等于已在新环境复现结果。
 - 前史的数字不能与 T10 阶段合并或互相外推。
 
 

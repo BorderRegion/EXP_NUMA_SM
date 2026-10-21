@@ -1,0 +1,15 @@
+{
+  "label": "micro_0",
+  "phase": "E1_E2",
+  "started": "2026-10-13T17:29:31.535245+08:00",
+  "argv": [
+    "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/micro",
+    "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/resumed_20261013T0930Z/micro_0"
+  ],
+  "output": "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/resumed_20261013T0930Z/micro_0",
+  "returncode": 0,
+  "new_xid_events": [],
+  "status": "PASS",
+  "finished": "2026-10-13T17:29:32.095244+08:00",
+  "worker_seconds": 0.5600040419994912
+}

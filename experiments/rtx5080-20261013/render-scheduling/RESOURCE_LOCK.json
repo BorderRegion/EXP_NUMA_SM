@@ -1,0 +1,182 @@
+{
+  "created_at_utc": "2026-10-13T08:05:14.265622+00:00",
+  "toolchain": [
+    {
+      "component": "cuda_nvcc",
+      "version": "13.2.51",
+      "url": "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-13.2.51-archive.tar.xz",
+      "path": "offline_inbox/toolchain/cuda_nvcc-linux-x86_64-13.2.51-archive.tar.xz",
+      "bytes": 31097904,
+      "sha256": "706b996fefc59dc8d64d317fdf48d0aa84c4ae004eff43009dd918f40c5cc66a"
+    },
+    {
+      "component": "cuda_cudart",
+      "version": "13.2.51",
+      "url": "https://developer.download.nvidia.com/compute/cuda/redist/cuda_cudart/linux-x86_64/cuda_cudart-linux-x86_64-13.2.51-archive.tar.xz",
+      "path": "offline_inbox/toolchain/cuda_cudart-linux-x86_64-13.2.51-archive.tar.xz",
+      "bytes": 1539216,
+      "sha256": "539edc1056e44d319f2112e9971c6415d78d4dde04b3f6ffbd20ec808e718526"
+    },
+    {
+      "component": "cuda_crt",
+      "version": "13.2.51",
+      "url": "https://developer.download.nvidia.com/compute/cuda/redist/cuda_crt/linux-x86_64/cuda_crt-linux-x86_64-13.2.51-archive.tar.xz",
+      "path": "offline_inbox/toolchain/cuda_crt-linux-x86_64-13.2.51-archive.tar.xz",
+      "bytes": 80208,
+      "sha256": "fbc31fed55b7255591f3a19f575ca078827f5e6757d317d009f7ec1e69fcde4b"
+    },
+    {
+      "component": "cuda_cccl",
+      "version": "13.2.27",
+      "url": "https://developer.download.nvidia.com/compute/cuda/redist/cuda_cccl/linux-x86_64/cuda_cccl-linux-x86_64-13.2.27-archive.tar.xz",
+      "path": "offline_inbox/toolchain/cuda_cccl-linux-x86_64-13.2.27-archive.tar.xz",
+      "bytes": 1218316,
+      "sha256": "56e1bafb29faa87375b0484814870046530b88c0a421909096892f027ec1927b"
+    },
+    {
+      "component": "libnvvm",
+      "version": "13.2.51",
+      "url": "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/linux-x86_64/libnvvm-linux-x86_64-13.2.51-archive.tar.xz",
+      "path": "offline_inbox/toolchain/libnvvm-linux-x86_64-13.2.51-archive.tar.xz",
+      "bytes": 45458632,
+      "sha256": "e013fce38130d2337ea695aadc5ddd5dcfb78f9107903d72492b9819539749bb"
+    },
+    {
+      "component": "cuda_cuobjdump",
+      "version": "13.2.51",
+      "url": "https://developer.download.nvidia.com/compute/cuda/redist/cuda_cuobjdump/linux-x86_64/cuda_cuobjdump-linux-x86_64-13.2.51-archive.tar.xz",
+      "path": "offline_inbox/toolchain/cuda_cuobjdump-linux-x86_64-13.2.51-archive.tar.xz",
+      "bytes": 275444,
+      "sha256": "f0fb475dfc5b08a0e77cdcd05e7ea15402756ad8418898f4e93ada8b19661271"
+    },
+    {
+      "component": "cuda_nvdisasm",
+      "version": "13.2.51",
+      "url": "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvdisasm/linux-x86_64/cuda_nvdisasm-linux-x86_64-13.2.51-archive.tar.xz",
+      "path": "offline_inbox/toolchain/cuda_nvdisasm-linux-x86_64-13.2.51-archive.tar.xz",
+      "bytes": 4282196,
+      "sha256": "0eff70c711a579efa95e141d6e7476a0c041dfb9976a545afca20b555a9fb4a4"
+    }
+  ],
+  "assets": [
+    {
+      "path": "offline_inbox/assets/bonsai/cameras.json",
+      "source_url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/pretrained/models.zip",
+      "archive_member": "bonsai/cameras.json",
+      "bytes": 116695,
+      "sha256": "41e623748141d5b1a292c2bcafbf9e897a3876f90c11a14618e9ac6190b05af3",
+      "crc32": 4184061788,
+      "role": "development_indoor",
+      "verification_wall_seconds": 0.0006295660004980164
+    },
+    {
+      "path": "offline_inbox/assets/bonsai/cfg_args",
+      "source_url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/pretrained/models.zip",
+      "archive_member": "bonsai/cfg_args",
+      "bytes": 167,
+      "sha256": "5a557dd442a4127b7531afe0b6ffee1e3a9aa14e2be667271f73f0b2e9f8bbcc",
+      "crc32": 1928646367,
+      "role": "development_indoor",
+      "verification_wall_seconds": 0.00032023899984778836
+    },
+    {
+      "path": "offline_inbox/assets/bonsai/point_cloud/iteration_30000/point_cloud.ply",
+      "source_url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/pretrained/models.zip",
+      "archive_member": "bonsai/point_cloud/iteration_30000/point_cloud.ply",
+      "bytes": 308716644,
+      "sha256": "a16af6d8815498ffbf9eb5d5ee93f5bcc9dca34c4e3eb6f7a796ef9e97c0d273",
+      "crc32": 814284708,
+      "role": "development_indoor",
+      "verification_wall_seconds": 0.181863912001063
+    },
+    {
+      "path": "offline_inbox/assets/train/cameras.json",
+      "source_url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/pretrained/models.zip",
+      "archive_member": "train/cameras.json",
+      "bytes": 120800,
+      "sha256": "f54e605c11aa577e3cd83702ce69385577da07eb9ae150f0f195116018506563",
+      "crc32": 2571170576,
+      "role": "development_outdoor",
+      "verification_wall_seconds": 0.0001482659990870161
+    },
+    {
+      "path": "offline_inbox/assets/train/cfg_args",
+      "source_url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/pretrained/models.zip",
+      "archive_member": "train/cfg_args",
+      "bytes": 162,
+      "sha256": "de85dea658139c0e2a887504292baa9426ad9c5834bbba530dfa2e41d5496d7f",
+      "crc32": 3421537960,
+      "role": "development_outdoor",
+      "verification_wall_seconds": 2.8094000299461186e-05
+    },
+    {
+      "path": "offline_inbox/assets/train/point_cloud/iteration_30000/point_cloud.ply",
+      "source_url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/pretrained/models.zip",
+      "archive_member": "train/point_cloud/iteration_30000/point_cloud.ply",
+      "bytes": 254575516,
+      "sha256": "70e055d46f53636c83547a59c4998a0a27f64e42fceba45c6b78dfc77f52958d",
+      "crc32": 2245448906,
+      "role": "development_outdoor",
+      "verification_wall_seconds": 151.80098732899933
+    },
+    {
+      "path": "offline_inbox/assets/truck/cameras.json",
+      "source_url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/pretrained/models.zip",
+      "archive_member": "truck/cameras.json",
+      "bytes": 100406,
+      "sha256": "802e9eb9ee7deb034309baecca6d7de2a02b0cb70897a06bdb9ae36ba5bfd5c6",
+      "crc32": 2182053221,
+      "role": "heldout_outdoor",
+      "verification_wall_seconds": 0.00016528900050616357
+    },
+    {
+      "path": "offline_inbox/assets/truck/cfg_args",
+      "source_url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/pretrained/models.zip",
+      "archive_member": "truck/cfg_args",
+      "bytes": 162,
+      "sha256": "ce4b69ffe38781c93921aa590fe5698ee3b531100e9d7522841fa45f7827758e",
+      "crc32": 1816678722,
+      "role": "heldout_outdoor",
+      "verification_wall_seconds": 2.7433001378085464e-05
+    },
+    {
+      "path": "offline_inbox/assets/truck/point_cloud/iteration_30000/point_cloud.ply",
+      "source_url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/pretrained/models.zip",
+      "archive_member": "truck/point_cloud/iteration_30000/point_cloud.ply",
+      "bytes": 630225580,
+      "sha256": "65ecf4058135a030cddd2198326f67172a4101344b0b54a3fa370cf45ea9688c",
+      "crc32": 1141012615,
+      "role": "heldout_outdoor",
+      "verification_wall_seconds": 403.1896946249999
+    }
+  ],
+  "renderer": {
+    "url": "https://github.com/graphdeco-inria/diff-gaussian-rasterization.git",
+    "commit": "59f5f77e3ddbac3ed9db93ec2cfe99ed6c5d121d",
+    "glm_commit": "5c46b9c07008ae65cb81ab79cd677ecc1934b903",
+    "upstream_files_modified": false
+  },
+  "native_smoke": {
+    "errors": 0,
+    "count": 32768,
+    "driver": 13020,
+    "runtime": 13020,
+    "native_arch": "sm_120"
+  },
+  "limitations": [
+    "Exact Ubuntu26.04/CUDA13.2 OS pair is not vendor-listed; locally qualified",
+    "Headless adapter, not full official Python application",
+    "Original reference renderer, not an established fastest modern baseline",
+    "No physical NUMA control established"
+  ],
+  "optional_sanitizer": {
+    "component": "cuda_sanitizer_api",
+    "version": "13.2.23",
+    "url": "https://developer.download.nvidia.com/compute/cuda/redist/cuda_sanitizer_api/linux-x86_64/cuda_sanitizer_api-linux-x86_64-13.2.23-archive.tar.xz",
+    "path": "offline_inbox/toolchain/cuda_sanitizer_api-linux-x86_64-13.2.23-archive.tar.xz",
+    "bytes": 10385500,
+    "sha256": "cd283331a133e19dd974f7b472c3f5970289b065bbf69c92924189387eefa34a",
+    "gpu_diagnostic_executed": false,
+    "extracted_root": "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/toolchain/packages/cuda_sanitizer_api-linux-x86_64-13.2.23-archive"
+  }
+}

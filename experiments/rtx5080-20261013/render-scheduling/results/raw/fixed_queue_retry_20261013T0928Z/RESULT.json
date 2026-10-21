@@ -1,0 +1,166 @@
+{
+  "attempt": "fixed_queue_retry_20261013T0928Z",
+  "started": "2026-10-13T17:28:01.917389+08:00",
+  "authorization": "User: Retry the fixed executor",
+  "scope": "Four small-image checks, then one Bonsai 1080p check; stop on any failure. Resume original experiments only if all pass.",
+  "prior_worker_hours": 0.31444444444444447,
+  "binary_sha256": "b1f7489918ccd900b1a1ba6c9e64f676a2a618a6cde80aad78f5d85b99bca1b8",
+  "source_sha256": "ae35c536219e6dcf79af44fa5ef3613464db941b25136ae24bfba2a25e5f8dc8",
+  "checks": [
+    {
+      "label": "bonsai_320x180_Q1",
+      "argv": [
+        "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/scheduled_renderer",
+        "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/bonsai",
+        "320",
+        "180",
+        "0",
+        "3",
+        "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/fixed_queue_retry_20261013T0928Z/bonsai_320x180_Q1",
+        "8",
+        "1",
+        "1"
+      ],
+      "returncode": 0,
+      "wall_seconds": 2.0924475849969895,
+      "new_xid_events": [],
+      "raw_sha256": {
+        "color.raw": "8be294f9d44d43ef36fcfb071c9c95ece5ec3a5d0e68fd94fcb9634e4591feda",
+        "final_T.raw": "4132c326b8578f6bbdada51fe4b888ff6f0c0757b022f9b6e9cc361379fb6e65",
+        "n_contrib.raw": "31d0e620ec2c19398b401beb77c6d4ff7f89eee03a0383351085cc3414a2c2a6"
+      },
+      "reference_sha256": {
+        "color.raw": "8be294f9d44d43ef36fcfb071c9c95ece5ec3a5d0e68fd94fcb9634e4591feda",
+        "final_T.raw": "4132c326b8578f6bbdada51fe4b888ff6f0c0757b022f9b6e9cc361379fb6e65",
+        "n_contrib.raw": "31d0e620ec2c19398b401beb77c6d4ff7f89eee03a0383351085cc3414a2c2a6"
+      },
+      "full_first_frame_bitwise_equal": true,
+      "all_three_color_hashes_equal": true
+    },
+    {
+      "label": "bonsai_320x180_Q6",
+      "argv": [
+        "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/scheduled_renderer",
+        "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/bonsai",
+        "320",
+        "180",
+        "0",
+        "3",
+        "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/fixed_queue_retry_20261013T0928Z/bonsai_320x180_Q6",
+        "8",
+        "6",
+        "1"
+      ],
+      "returncode": 0,
+      "wall_seconds": 1.8286505119976937,
+      "new_xid_events": [],
+      "raw_sha256": {
+        "color.raw": "8be294f9d44d43ef36fcfb071c9c95ece5ec3a5d0e68fd94fcb9634e4591feda",
+        "final_T.raw": "4132c326b8578f6bbdada51fe4b888ff6f0c0757b022f9b6e9cc361379fb6e65",
+        "n_contrib.raw": "31d0e620ec2c19398b401beb77c6d4ff7f89eee03a0383351085cc3414a2c2a6"
+      },
+      "reference_sha256": {
+        "color.raw": "8be294f9d44d43ef36fcfb071c9c95ece5ec3a5d0e68fd94fcb9634e4591feda",
+        "final_T.raw": "4132c326b8578f6bbdada51fe4b888ff6f0c0757b022f9b6e9cc361379fb6e65",
+        "n_contrib.raw": "31d0e620ec2c19398b401beb77c6d4ff7f89eee03a0383351085cc3414a2c2a6"
+      },
+      "full_first_frame_bitwise_equal": true,
+      "all_three_color_hashes_equal": true
+    },
+    {
+      "label": "train_640x360_Q1",
+      "argv": [
+        "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/scheduled_renderer",
+        "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/train",
+        "640",
+        "360",
+        "0",
+        "3",
+        "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/fixed_queue_retry_20261013T0928Z/train_640x360_Q1",
+        "8",
+        "1",
+        "1"
+      ],
+      "returncode": 0,
+      "wall_seconds": 1.6973670389998006,
+      "new_xid_events": [],
+      "raw_sha256": {
+        "color.raw": "790c00b1a6c0f494568c284967186561e6d11bab97b8fb1ddcd1a2ebe3c6d11a",
+        "final_T.raw": "81b31d5db41f445d703ed97327c52a7c0e17268d98fe69e9fbcd36577c9771d2",
+        "n_contrib.raw": "95024ec130453ccfbd99d0562440b59e275a0d56e81b22472737bb68c8a5ed94"
+      },
+      "reference_sha256": {
+        "color.raw": "790c00b1a6c0f494568c284967186561e6d11bab97b8fb1ddcd1a2ebe3c6d11a",
+        "final_T.raw": "81b31d5db41f445d703ed97327c52a7c0e17268d98fe69e9fbcd36577c9771d2",
+        "n_contrib.raw": "95024ec130453ccfbd99d0562440b59e275a0d56e81b22472737bb68c8a5ed94"
+      },
+      "full_first_frame_bitwise_equal": true,
+      "all_three_color_hashes_equal": true
+    },
+    {
+      "label": "train_640x360_Q6",
+      "argv": [
+        "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/scheduled_renderer",
+        "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/train",
+        "640",
+        "360",
+        "0",
+        "3",
+        "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/fixed_queue_retry_20261013T0928Z/train_640x360_Q6",
+        "8",
+        "6",
+        "1"
+      ],
+      "returncode": 0,
+      "wall_seconds": 1.6028727699995216,
+      "new_xid_events": [],
+      "raw_sha256": {
+        "color.raw": "790c00b1a6c0f494568c284967186561e6d11bab97b8fb1ddcd1a2ebe3c6d11a",
+        "final_T.raw": "81b31d5db41f445d703ed97327c52a7c0e17268d98fe69e9fbcd36577c9771d2",
+        "n_contrib.raw": "95024ec130453ccfbd99d0562440b59e275a0d56e81b22472737bb68c8a5ed94"
+      },
+      "reference_sha256": {
+        "color.raw": "790c00b1a6c0f494568c284967186561e6d11bab97b8fb1ddcd1a2ebe3c6d11a",
+        "final_T.raw": "81b31d5db41f445d703ed97327c52a7c0e17268d98fe69e9fbcd36577c9771d2",
+        "n_contrib.raw": "95024ec130453ccfbd99d0562440b59e275a0d56e81b22472737bb68c8a5ed94"
+      },
+      "full_first_frame_bitwise_equal": true,
+      "all_three_color_hashes_equal": true
+    },
+    {
+      "label": "bonsai_1920x1080_Q1",
+      "argv": [
+        "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/scheduled_renderer",
+        "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/bonsai",
+        "1920",
+        "1080",
+        "0",
+        "3",
+        "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/fixed_queue_retry_20261013T0928Z/bonsai_1920x1080_Q1",
+        "8",
+        "1",
+        "1"
+      ],
+      "returncode": 0,
+      "wall_seconds": 2.0055659120007476,
+      "new_xid_events": [],
+      "raw_sha256": {
+        "color.raw": "71fa9db56399e64f78332cfa4c07a64f0e0d412210f2c03c149bc8cc9b7d89e2",
+        "final_T.raw": "497786a1d49333a182a16b551c9511e5ea4de4fc60e981677c210352af5d1777",
+        "n_contrib.raw": "4fc0ad9238dfe2e7709dc71ecc84d5a7963751dc294224f0bd632eae4aa78499"
+      },
+      "reference_sha256": {
+        "color.raw": "71fa9db56399e64f78332cfa4c07a64f0e0d412210f2c03c149bc8cc9b7d89e2",
+        "final_T.raw": "497786a1d49333a182a16b551c9511e5ea4de4fc60e981677c210352af5d1777",
+        "n_contrib.raw": "4fc0ad9238dfe2e7709dc71ecc84d5a7963751dc294224f0bd632eae4aa78499"
+      },
+      "full_first_frame_bitwise_equal": true,
+      "all_three_color_hashes_equal": true
+    }
+  ],
+  "state": "PASS",
+  "elapsed_seconds": 9.374851343000046,
+  "resumption_authorized": true,
+  "finished": "2026-10-13T17:28:11.292244+08:00",
+  "total_worker_hours": 0.3170485692580557
+}

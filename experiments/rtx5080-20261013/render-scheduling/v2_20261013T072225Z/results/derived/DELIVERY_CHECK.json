@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-13T07:30:10.976349+00:00",
+  "input_manifest_files_verified": 19,
+  "legacy_files_unchanged": 53,
+  "legacy_changed": [],
+  "json_files_parsed": 17,
+  "cpu_tests_passed": 20,
+  "summary_cli_returncode": 0,
+  "route_recomputed": "CPU_OR_MICRO_ONLY",
+  "policy_rows": 10,
+  "performance_claimed": false,
+  "local_document_links_valid": true,
+  "future_index_link": "CONTENT_INDEX.json generated at final packaging",
+  "gpu_correctness_verified": false,
+  "gpu_performance_verified": false
+}

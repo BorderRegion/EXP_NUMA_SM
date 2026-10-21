@@ -1,0 +1,297 @@
+{
+  "status": "ACCESS_SET_QUALIFIED",
+  "proof": "For each task, odd affine multiplier modulo 2^14 is invertible; 128 lanes \u00d7 128 loop steps enumerate i=0..16383 exactly once. CPU reference traverses x monotonically using inverse permutation, checking both sum and index-weighted sum. Regions are disjoint 64KiB intervals; there is no padding in data allocation.",
+  "time_window": "One full measured consumption epoch: one Native grid or three independently submitted Green grids followed by joins. Per-task 64KiB; per-group and epoch unions are distinct. Not all data is asserted resident simultaneously.",
+  "strata": [
+    {
+      "scope": "SMALL",
+      "tasks": 256,
+      "per_task_bytes": 65536,
+      "epoch_unique_words": 4194304,
+      "epoch_unique_virtual_32B_sectors": 524288,
+      "epoch_unique_virtual_128B_lines": 131072,
+      "epoch_consumer_bytes": 16777216,
+      "group_tasks": [
+        121,
+        121,
+        14
+      ],
+      "group_epoch_consumer_bytes": [
+        7929856,
+        7929856,
+        917504
+      ],
+      "task_address_overlap_bytes": 0,
+      "word_read_multiplicity_per_epoch": 1,
+      "dispatch_segmentation": false
+    },
+    {
+      "scope": "PRESSURE",
+      "tasks": 3072,
+      "per_task_bytes": 65536,
+      "epoch_unique_words": 50331648,
+      "epoch_unique_virtual_32B_sectors": 6291456,
+      "epoch_unique_virtual_128B_lines": 1572864,
+      "epoch_consumer_bytes": 201326592,
+      "group_tasks": [
+        1462,
+        1462,
+        148
+      ],
+      "group_epoch_consumer_bytes": [
+        95813632,
+        95813632,
+        9699328
+      ],
+      "task_address_overlap_bytes": 0,
+      "word_read_multiplicity_per_epoch": 1,
+      "dispatch_segmentation": false
+    }
+  ],
+  "source_level_reuse_proxy": [
+    {
+      "seed": 2026101510,
+      "representative_task": 0,
+      "odd": 3091626379,
+      "offset": 14730,
+      "min_access_gap": 337,
+      "median_access_gap": 2805.0,
+      "max_access_gap": 3142,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101410,
+      "representative_task": 0,
+      "odd": 2998229609,
+      "offset": 6761,
+      "min_access_gap": 395,
+      "median_access_gap": 395.0,
+      "max_access_gap": 4803,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101504,
+      "representative_task": 0,
+      "odd": 3908258791,
+      "offset": 3046,
+      "min_access_gap": 1925,
+      "median_access_gap": 1925.0,
+      "max_access_gap": 2253,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101513,
+      "representative_task": 0,
+      "odd": 704282855,
+      "offset": 231,
+      "min_access_gap": 993,
+      "median_access_gap": 1915.0,
+      "max_access_gap": 2908,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101503,
+      "representative_task": 0,
+      "odd": 791338199,
+      "offset": 7383,
+      "min_access_gap": 1205,
+      "median_access_gap": 1205.0,
+      "max_access_gap": 3453,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101403,
+      "representative_task": 0,
+      "odd": 3784808331,
+      "offset": 6026,
+      "min_access_gap": 1873,
+      "median_access_gap": 2153.0,
+      "max_access_gap": 2153,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101413,
+      "representative_task": 0,
+      "odd": 2046670161,
+      "offset": 13648,
+      "min_access_gap": 629,
+      "median_access_gap": 2522.0,
+      "max_access_gap": 3151,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101411,
+      "representative_task": 0,
+      "odd": 1600132247,
+      "offset": 5270,
+      "min_access_gap": 373,
+      "median_access_gap": 373.0,
+      "max_access_gap": 4964,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101405,
+      "representative_task": 0,
+      "odd": 891378577,
+      "offset": 7057,
+      "min_access_gap": 1393,
+      "median_access_gap": 1393.0,
+      "max_access_gap": 6633,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101414,
+      "representative_task": 0,
+      "odd": 1261977865,
+      "offset": 265,
+      "min_access_gap": 1422,
+      "median_access_gap": 1422.0,
+      "max_access_gap": 4637,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101514,
+      "representative_task": 0,
+      "odd": 455375645,
+      "offset": 15133,
+      "min_access_gap": 406,
+      "median_access_gap": 406.0,
+      "max_access_gap": 7177,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101401,
+      "representative_task": 0,
+      "odd": 723736089,
+      "offset": 5657,
+      "min_access_gap": 307,
+      "median_access_gap": 2847.0,
+      "max_access_gap": 3154,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101515,
+      "representative_task": 0,
+      "odd": 4080378773,
+      "offset": 9109,
+      "min_access_gap": 268,
+      "median_access_gap": 268.0,
+      "max_access_gap": 4029,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101505,
+      "representative_task": 0,
+      "odd": 1789852487,
+      "offset": 15175,
+      "min_access_gap": 393,
+      "median_access_gap": 393.0,
+      "max_access_gap": 13633,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101512,
+      "representative_task": 0,
+      "odd": 2421867927,
+      "offset": 1430,
+      "min_access_gap": 790,
+      "median_access_gap": 2599.0,
+      "max_access_gap": 2599,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101400,
+      "representative_task": 0,
+      "odd": 2380386895,
+      "offset": 4686,
+      "min_access_gap": 1199,
+      "median_access_gap": 1199.0,
+      "max_access_gap": 7991,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101502,
+      "representative_task": 0,
+      "odd": 1894531157,
+      "offset": 85,
+      "min_access_gap": 771,
+      "median_access_gap": 771.0,
+      "max_access_gap": 10987,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101402,
+      "representative_task": 0,
+      "odd": 4223599871,
+      "offset": 1279,
+      "min_access_gap": 1281,
+      "median_access_gap": 1281.0,
+      "max_access_gap": 7417,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101500,
+      "representative_task": 0,
+      "odd": 712346481,
+      "offset": 2929,
+      "min_access_gap": 179,
+      "median_access_gap": 179.0,
+      "max_access_gap": 5163,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101412,
+      "representative_task": 0,
+      "odd": 1541959621,
+      "offset": 12228,
+      "min_access_gap": 347,
+      "median_access_gap": 2291.0,
+      "max_access_gap": 2291,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101415,
+      "representative_task": 0,
+      "odd": 2719272013,
+      "offset": 3148,
+      "min_access_gap": 359,
+      "median_access_gap": 2846.0,
+      "max_access_gap": 3205,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101511,
+      "representative_task": 0,
+      "odd": 453966353,
+      "offset": 14864,
+      "min_access_gap": 151,
+      "median_access_gap": 2319.0,
+      "max_access_gap": 2319,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101501,
+      "representative_task": 0,
+      "odd": 269249527,
+      "offset": 11254,
+      "min_access_gap": 1479,
+      "median_access_gap": 1479.0,
+      "max_access_gap": 6031,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    },
+    {
+      "seed": 2026101404,
+      "representative_task": 0,
+      "odd": 2949197789,
+      "offset": 12252,
+      "min_access_gap": 234,
+      "median_access_gap": 234.0,
+      "max_access_gap": 7607,
+      "scope": "Source scalarization i=0..16383, successive accesses to same virtual 32B sector; access-count gap, not hardware ordering or distinct-sector stack distance."
+    }
+  ],
+  "cache_pressure_status": "NOT_UNAMBIGUOUSLY_ESTABLISHED",
+  "cache_pressure_reason": "192MiB unique epoch and 91.375MiB per equal Green group exceed nominal L2 capacity, and pressure per-byte time is higher, but scheduling/task-count/local-cache effects are confounded; no hardware counters.",
+  "DRAM_service_status": "NOT_MEASURED",
+  "counter_runs": 0
+}

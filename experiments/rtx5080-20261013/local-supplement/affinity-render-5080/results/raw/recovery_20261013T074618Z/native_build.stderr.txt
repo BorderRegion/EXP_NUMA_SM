@@ -1,0 +1,55 @@
+/home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/renderer/diff-gaussian-rasterization/cuda_rasterizer/rasterizer_impl.h(24): error: namespace "std" has no member "uintptr_t"
+    std::size_t offset = (reinterpret_cast<std::uintptr_t>(chunk) + alignment - 1) & ~(alignment - 1);
+                                                ^
+
+/home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/renderer/diff-gaussian-rasterization/cuda_rasterizer/rasterizer_impl.h(40): error: identifier "uint32_t" is undefined
+    uint32_t* point_offsets;
+    ^
+
+/home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/renderer/diff-gaussian-rasterization/cuda_rasterizer/rasterizer_impl.h(41): error: identifier "uint32_t" is undefined
+    uint32_t* tiles_touched;
+    ^
+
+/home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/renderer/diff-gaussian-rasterization/cuda_rasterizer/rasterizer_impl.h(49): error: identifier "uint32_t" is undefined
+    uint32_t* n_contrib;
+    ^
+
+/home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/renderer/diff-gaussian-rasterization/cuda_rasterizer/rasterizer_impl.h(58): error: identifier "uint64_t" is undefined
+    uint64_t* point_list_keys_unsorted;
+    ^
+
+/home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/renderer/diff-gaussian-rasterization/cuda_rasterizer/rasterizer_impl.h(59): error: identifier "uint64_t" is undefined
+    uint64_t* point_list_keys;
+    ^
+
+/home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/renderer/diff-gaussian-rasterization/cuda_rasterizer/rasterizer_impl.h(60): error: identifier "uint32_t" is undefined
+    uint32_t* point_list_unsorted;
+    ^
+
+/home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/renderer/diff-gaussian-rasterization/cuda_rasterizer/rasterizer_impl.h(61): error: identifier "uint32_t" is undefined
+    uint32_t* point_list;
+    ^
+
+/home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/renderer/diff-gaussian-rasterization/cuda_rasterizer/auxiliary.h(151): warning #177-D: variable "p_proj" was declared but never referenced
+   float3 p_proj = { p_hom.x * p_w, p_hom.y * p_w, p_hom.z * p_w };
+          ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+/home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/renderer/diff-gaussian-rasterization/cuda_rasterizer/auxiliary.h(151): warning #177-D: variable "p_proj" was declared but never referenced
+   float3 p_proj = { p_hom.x * p_w, p_hom.y * p_w, p_hom.z * p_w };
+          ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+/home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/renderer/diff-gaussian-rasterization/cuda_rasterizer/rasterizer_impl.cu(184): warning #549-D: variable "binning" is used before its value is set
+   obtain(chunk, binning.point_list, P, 128);
+                 ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+8 errors detected in the compilation of "/home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/renderer/diff-gaussian-rasterization/cuda_rasterizer/rasterizer_impl.cu".
+gmake[2]: *** [CMakeFiles/native_core.dir/build.make:110: CMakeFiles/native_core.dir/offline_inbox/renderer/diff-gaussian-rasterization/cuda_rasterizer/rasterizer_impl.cu.o] Error 2
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:90: CMakeFiles/native_core.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

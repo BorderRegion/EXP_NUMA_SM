@@ -1,0 +1,29 @@
+{
+  "route": "B",
+  "declared_cc": "12.0",
+  "measured_sm_count": 84,
+  "measured_l2_bytes": 67108864,
+  "locality_domain_api": "No matching declarations in installed CUDA 13.2 headers; not a proof of hardware absence.",
+  "allocation_processes": 3,
+  "working_set_bytes": [
+    16777216,
+    50331648,
+    100663296,
+    268435456
+  ],
+  "chain_launches": 384,
+  "chain_correct": true,
+  "chain_sm_ids": [
+    0
+  ],
+  "gather_configurations_per_process": 96,
+  "gather_launches": 864,
+  "gather_cpu_errors": 0,
+  "gather_sm_coverage_min": 84,
+  "gather_sm_coverage_max": 84,
+  "gather_migrations": 0,
+  "max_chain_ms": 1.74579,
+  "max_gather_ms": 0.351104,
+  "topology_claim": "UNKNOWN. These launches do not cross physical position by address region with controlled assignment. No inferred NUMA domains or affinity benefit.",
+  "memory_regime": "Process-owned initialized array; natural cache state, no global cache flush. Ordinary and .cg single-chain measurements are diagnostics, not renderer benchmarks."
+}

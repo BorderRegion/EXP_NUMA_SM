@@ -1,0 +1,19 @@
+{
+  "label": "e0_sanitizer_smoke",
+  "phase": "E0",
+  "argv": [
+    "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/toolchain/packages/cuda_sanitizer_api-linux-x86_64-13.2.23-archive/compute-sanitizer/compute-sanitizer",
+    "--tool",
+    "memcheck",
+    "--error-exitcode",
+    "90",
+    "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/smoke"
+  ],
+  "started": "2026-10-13T18:57:47.883040+08:00",
+  "gpu_worker_reserved": true,
+  "returncode": 0,
+  "xid_events": [],
+  "status": "PASS",
+  "finished": "2026-10-13T18:57:48.377905+08:00",
+  "seconds": 0.49486576699928264
+}

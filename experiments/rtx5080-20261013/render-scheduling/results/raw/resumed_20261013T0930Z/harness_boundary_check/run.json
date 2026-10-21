@@ -1,0 +1,25 @@
+{
+  "label": "harness_boundary_check",
+  "phase": "qual",
+  "started": "2026-10-13T17:32:34.285211+08:00",
+  "argv": [
+    "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/benchmark",
+    "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/bonsai",
+    "321",
+    "181",
+    "calib",
+    "1:8:4:0.5,6:8:4:0.5",
+    "2",
+    "8",
+    "0",
+    "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/resumed_20261013T0930Z/harness_boundary_check",
+    "qual",
+    "1"
+  ],
+  "output": "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/resumed_20261013T0930Z/harness_boundary_check",
+  "returncode": 0,
+  "new_xid_events": [],
+  "status": "PASS",
+  "finished": "2026-10-13T17:32:36.492050+08:00",
+  "worker_seconds": 2.2068331460031914
+}

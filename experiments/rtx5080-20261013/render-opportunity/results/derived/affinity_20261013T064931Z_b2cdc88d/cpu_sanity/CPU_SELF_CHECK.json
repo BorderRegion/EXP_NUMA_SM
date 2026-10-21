@@ -1,0 +1,12 @@
+{
+  "source_kind": "SYNTHETIC",
+  "evidence_role": "ANALYSIS_SOFTWARE_CHECK_ONLY",
+  "checks_run": 10,
+  "failures": 0,
+  "errors": 0,
+  "success": true,
+  "wall_seconds": 0.20959319000030519,
+  "test_log": "test_additive_bimodal_addresses_are_not_affinity (__main__.ScientificChecks.test_additive_bimodal_addresses_are_not_affinity) ... ok\ntest_baseline_is_calibration_choice_not_test_winner (__main__.ScientificChecks.test_baseline_is_calibration_choice_not_test_winner) ... ok\ntest_failed_checksum_rejects_input (__main__.ScientificChecks.test_failed_checksum_rejects_input) ... ok\ntest_independent_heldout_interaction_is_detected (__main__.ScientificChecks.test_independent_heldout_interaction_is_detected) ... ok\ntest_lifecycle_no_saving_and_unmeasured_1000_frames (__main__.ScientificChecks.test_lifecycle_no_saving_and_unmeasured_1000_frames) ... ok\ntest_migrated_sample_separate_from_matrix (__main__.ScientificChecks.test_migrated_sample_separate_from_matrix) ... ok\ntest_overlapping_runs_and_out_of_range_rejected (__main__.ScientificChecks.test_overlapping_runs_and_out_of_range_rejected) ... ok\ntest_pairing_missing_block_rejected (__main__.ScientificChecks.test_pairing_missing_block_rejected) ... ok\ntest_reversed_heldout_mapping_fails (__main__.ScientificChecks.test_reversed_heldout_mapping_fails) ... ok\ntest_sparse_sm_labels_and_missing_cells_not_imputed (__main__.ScientificChecks.test_sparse_sm_labels_and_missing_cells_not_imputed) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.075s\n\nOK\n",
+  "GPU_kernel_count": 0,
+  "fixture_generation_seed": 20261013
+}

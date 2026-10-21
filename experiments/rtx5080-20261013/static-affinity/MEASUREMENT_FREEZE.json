@@ -1,0 +1,123 @@
+{
+  "frozen_at": "2026-10-13T19:11:56.645274+08:00",
+  "allocation_epochs": 5,
+  "development_epochs": [
+    0,
+    1,
+    2
+  ],
+  "confirmation_epochs": [
+    3,
+    4
+  ],
+  "scout_allocations_separate": true,
+  "real_strata": 60,
+  "subconditions_per_stratum": {
+    "cache": [
+      "NONE",
+      "WARMED_FULL_POOL",
+      "EVICTION_CONDITIONED_3xL2_SCRATCH"
+    ],
+    "sampling": [
+      "DENSE_COVERAGE_64_REGIONS_64_STEPS",
+      "DENSER_ACCESSES_4_REGIONS_512_STEPS"
+    ]
+  },
+  "extra_control_recipe": "No data-dependent loads, same recurrence/timer, analyzed separately; not a third memory-load stratum.",
+  "rounds": 6,
+  "fit_rounds": [
+    0,
+    1,
+    2
+  ],
+  "later_validation_rounds": [
+    3,
+    4,
+    5
+  ],
+  "fit_regions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "new_regions": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+  ],
+  "region_model": "64 contiguous non-overlapping virtual windows covering each 0.25/1/4 L2-sized pool span; fixed same logical chains across SMs and rounds; no physical-page claim.",
+  "cache_pressure_definition": "Allocation span, exact sampled unique words and 32B/128B address spans reported separately. No claim that the entire allocation is read or resident during the consumer.",
+  "sample_order": "Case order randomized within chronological rounds; region permutation changes each round; block-ID hash selects cyclic start, never interpreted as SM assignment. Reference region interleaved.",
+  "concurrency": "32-thread CTA; one or 32 active dependent chains. Dense grid=2 or 4 times SM count; denser-access grid=16 times SM count. Neither is contention-free latency.",
+  "sm_group_candidates": [
+    1,
+    2,
+    4
+  ],
+  "affinity_model": "Per-dispatch log cycles/step corrected by categorical SM, region, slot and block-wave effects using alternating weighted demeaning; observed-cell residuals only. SM clustering is fit on first 32 regions of development allocations. No missing-cell imputation.",
+  "assignment": "Balanced region-to-group selection from early rounds; later-round comparison to a cyclic group-label permutation preserving group task counts. New-region home requires its own early-round measurements.",
+  "selection": "Select one K/condition using mean later-round development benefit minus twice its across-allocation standard deviation; require positive independent confirmation in both heldout allocations and >=3% mean, above arithmetic-control noise. K=1 is null. No significance claim from individual loads.",
+  "transfer": "Stale old-region assignment evaluated only against new owned allocations; no old pointer reuse.",
+  "source_sha256": "19ed713c85d0a8368be88f3a57dcb8733d62a0fb1399886862e27efe31f30fa7",
+  "binary_sha256": "1dc9f815eeb06a4ee62e2463ea723116e2d12d34d25bb4fce55ae211f9c98d95",
+  "cpu_analysis_runtime": "/home/ws/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "plot_packages_read_only": "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/.analysis_libs"
+}

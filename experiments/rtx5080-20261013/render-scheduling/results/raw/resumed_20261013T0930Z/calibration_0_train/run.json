@@ -1,0 +1,25 @@
+{
+  "label": "calibration_0_train",
+  "phase": "calibration",
+  "started": "2026-10-13T17:34:47.095529+08:00",
+  "argv": [
+    "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/benchmark",
+    "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/train",
+    "1920",
+    "1080",
+    "calib",
+    "6:16:4:1,5:16:4:0.5,6:8:4:0.25,6:16:4:0.5,4:16:4:0.5,0:8:4:0.5,2:8:4:0.5,4:8:4:0.5,5:8:4:0.5,3:8:4:0.5,6:8:4:1,6:8:4:0.5,1:8:4:0.5,6:16:4:0.25",
+    "128",
+    "256",
+    "2",
+    "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/resumed_20261013T0930Z/calibration_0_train",
+    "calib",
+    "1"
+  ],
+  "output": "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/resumed_20261013T0930Z/calibration_0_train",
+  "returncode": 0,
+  "new_xid_events": [],
+  "status": "PASS",
+  "finished": "2026-10-13T17:35:35.557276+08:00",
+  "worker_seconds": 48.461748958998214
+}

@@ -1,0 +1,6 @@
+/home/ws/文档/ChatGPT/EXP_NUMA/affinity-render-5080/src/benchmark.cu(29): warning #177-D: function "hash64" was declared but never referenced
+  static uint64_t hash64(const void* p,size_t bytes){auto b=(const unsigned char*)p;uint64_t h=1469598103934665603ull;for(size_t i=0;i<bytes;i++)h=(h^b[i])*1099511628211ull;return h;}
+                  ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+

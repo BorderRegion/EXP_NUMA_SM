@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-13T19:43:49.692990+08:00",
+  "checks": {
+    "probe_source_matches_measurement_freeze": true,
+    "measured_probe_binary_matches_freeze": true,
+    "selection_source_at_freeze_retained": true,
+    "only_known_repaired_API_failure": true,
+    "no_new_Xid_in_runner_records": true,
+    "no_GPU_stop_file": true,
+    "freeze_precedes_all_confirmation": true,
+    "measurement_freeze_precedes_development": true,
+    "formal_counts_offsets_and_CPU_checks": true,
+    "formal_migration_free": true,
+    "formal_kernel_under_preferred_2ms": true,
+    "complete_broad_SM_region_coverage": true,
+    "denser_holes_disclosed": true,
+    "control_54_exact_ownership_cases_and_3456_replays": true,
+    "all_full_control_blocks_use_84_observed_SMs": true,
+    "e2_control_memcheck_fixed_zero_errors": true,
+    "e2_control_synccheck_fixed_zero_errors": true,
+    "e2_control_racecheck_fixed_zero_errors": true,
+    "final_health_readable_no_new_Xid": true,
+    "independent_budget_under_24_hours": true,
+    "renderer_not_measured_or_claimed": true,
+    "gate_failed": true
+  },
+  "command_runs": 23,
+  "known_failed_runs": [
+    "e2_control_memcheck"
+  ],
+  "files_hashed": 293,
+  "manifest_sha256": "c348249bf194e7533f4d02537f7ffd2937fab479f6d6d7e37f8f8f4d47ff77c6",
+  "limitations": [
+    "Learned map is predictive only; no causal matched versus shuffled execution.",
+    "No renderer sessions or deployment lifetime tests.",
+    "Only two confirmation allocations and three control process blocks.",
+    "Denser SM-region coverage incomplete; consumer 32B-sector footprint below L2.",
+    "Per-run executable hash not captured at launch; final measured probe binary matches preregistered hash, and invocations identify unchanged executable path.",
+    "No physical-address, cache-hit, traffic or actual occupancy counters.",
+    "Literature full texts not independently verified.",
+    "Initial sanitizer API failure retained and repaired; final small-case checks passed."
+  ]
+}

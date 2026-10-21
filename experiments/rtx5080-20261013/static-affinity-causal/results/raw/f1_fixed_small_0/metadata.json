@@ -1,0 +1,1 @@
+{"tasks":256,"seed":2026101510,"block":0,"recipe":0,"quota":[121,121,14],"explicit_GPU_bytes":16791040,"observed_group_SM_counts":[40,40,4],"group_unknown":0,"group_mismatch":0,"context_ms":107.183,"allocation_init_ms":0.279144,"cpu_reference_ms":2.51408,"calibration_ms":4.78382,"plan_ms":0.184503,"max_diagnostic_kernel_ms":0.382496,"formal_diagnostics":false,"output_errors":0}

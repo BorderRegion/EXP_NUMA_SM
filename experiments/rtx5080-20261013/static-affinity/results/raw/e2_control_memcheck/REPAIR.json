@@ -1,0 +1,7 @@
+{
+  "observed": "2026-10-13T19:25:00.161317+08:00",
+  "failure": "Compute Sanitizer memcheck reported 12 stream/context API mismatches, despite passing output checks. No memory-access fault or Xid observed.",
+  "repair": "Explicitly make each converted Green Context current for its launch, synchronize and stream destruction, then restore the primary context.",
+  "raw_preserved": true,
+  "performance_data_before_repair": false
+}

@@ -1,0 +1,42 @@
+{
+  "recorded_at_utc": "2026-10-13T07:25:17.618573+00:00",
+  "scope": "Explicit local project/data and conventional tool/library locations; not an exhaustive disk search",
+  "search_evidence": "results/raw/v2_20261013T072225Z/resource_checks.json",
+  "real_renderer_ready": false,
+  "qualified_cuda_build_route": false,
+  "renderer_candidates_found": [],
+  "scene_assets_found": [],
+  "calibration_scenes_frozen": [],
+  "heldout_scenes_frozen": [],
+  "compiler_sm120_support": null,
+  "ptx_compatibility_qualified": false,
+  "locality_api_support": null,
+  "stable_interaction": null,
+  "legal_control": null,
+  "useful_control_test": null,
+  "matches_reviewed": [
+    {
+      "match": "templates/device_inventory.cu",
+      "classification": "Supplied device-query template, not renderer; uncompiled"
+    },
+    {
+      "match": "/usr/include/linux/cuda.h",
+      "classification": "Apple CUDA microcontroller ABI, not NVIDIA CUDA toolkit"
+    },
+    {
+      "match": "distutils-precedence.pth",
+      "classification": "Python path configuration, not model checkpoint"
+    },
+    {
+      "match": "/usr/share/doc/printer-driver-foo2zjs/manual.pdf",
+      "classification": "Printer manual, not research literature"
+    },
+    {
+      "match": "/usr/share/doc/shared-mime-info/shared-mime-info-spec.pdf",
+      "classification": "MIME specification, not research literature"
+    }
+  ],
+  "jit_note": "Driver PTX JIT library found. No qualified PTX program, compiler/runtime development route or renderer found. Library presence does not establish a runnable application or optimal sm_120 build.",
+  "user_path_response": "i dont know",
+  "source_preservation": "All original workspace files retained; V2 is a new child directory."
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "campaign_id": null,
+  "run_id": null,
+  "stage": null,
+  "status": "PLANNED",
+  "start_utc": null,
+  "end_utc": null,
+  "source": {
+    "git_commit": null,
+    "git_dirty": null,
+    "patch_sha256": null,
+    "untracked_manifest": null
+  },
+  "environment": {
+    "gpu_name": null,
+    "gpu_uuid": null,
+    "compute_capability": null,
+    "actual_sm_count": null,
+    "l2_bytes": null,
+    "vram_bytes": null,
+    "driver": null,
+    "cuda_toolkit": null,
+    "os": null,
+    "compile_recipe": null,
+    "code_form_native_or_ptx": null
+  },
+  "workload": {
+    "renderer_commit": null,
+    "scene_hash": null,
+    "camera_hash": null,
+    "resolution": null,
+    "seed": null,
+    "quality_contract": null
+  },
+  "strategy": {
+    "id": null,
+    "executor": null,
+    "route": null,
+    "parameters": null,
+    "frozen_baseline_id": null,
+    "allocation_generation": null,
+    "topology_map_id": null
+  },
+  "timing": {
+    "scope_file": null,
+    "gpu_frame_ms": null,
+    "cpu_result_ready_ms": null,
+    "occupied_worker_seconds": null,
+    "profile_run": false
+  },
+  "evidence": {
+    "correctness_status": "NOT_RUN",
+    "hash_screening_only": null,
+    "full_raw_frame_ids": [],
+    "resource_preconditions": "UNKNOWN",
+    "actual_assignment_collected": false,
+    "native_counters": null
+  },
+  "artifacts": [],
+  "limitations": []
+}

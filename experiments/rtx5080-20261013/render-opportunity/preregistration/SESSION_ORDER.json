@@ -1,0 +1,1700 @@
+{
+  "schema_version": 1,
+  "seed": 20261018,
+  "state": "PENDING_ASSET_AND_RENDERER_BINDING",
+  "hardware_sessions_executed": 0,
+  "base_order": [
+    "B1",
+    "M",
+    "B4",
+    "B5",
+    "C",
+    "B0",
+    "B2",
+    "B3"
+  ],
+  "position_counts": {
+    "B1": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3
+    ],
+    "M": [
+      3,
+      3,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    "B4": [
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "B5": [
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2
+    ],
+    "C": [
+      2,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2
+    ],
+    "B0": [
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2
+    ],
+    "B2": [
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      2
+    ],
+    "B3": [
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "sessions": [
+    {
+      "session_id": "session_001",
+      "process_block": 1,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 1,
+      "strategy": "B1",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_002",
+      "process_block": 1,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 2,
+      "strategy": "M",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_003",
+      "process_block": 1,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 3,
+      "strategy": "B4",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_004",
+      "process_block": 1,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 4,
+      "strategy": "B5",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_005",
+      "process_block": 1,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 5,
+      "strategy": "C",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_006",
+      "process_block": 1,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 6,
+      "strategy": "B0",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_007",
+      "process_block": 1,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 7,
+      "strategy": "B2",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_008",
+      "process_block": 1,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 8,
+      "strategy": "B3",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_009",
+      "process_block": 1,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 1,
+      "strategy": "M",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_010",
+      "process_block": 1,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 2,
+      "strategy": "B4",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_011",
+      "process_block": 1,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 3,
+      "strategy": "B5",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_012",
+      "process_block": 1,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 4,
+      "strategy": "C",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_013",
+      "process_block": 1,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 5,
+      "strategy": "B0",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_014",
+      "process_block": 1,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 6,
+      "strategy": "B2",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_015",
+      "process_block": 1,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 7,
+      "strategy": "B3",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_016",
+      "process_block": 1,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 8,
+      "strategy": "B1",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_017",
+      "process_block": 1,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 1,
+      "strategy": "B4",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_018",
+      "process_block": 1,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 2,
+      "strategy": "B5",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_019",
+      "process_block": 1,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 3,
+      "strategy": "C",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_020",
+      "process_block": 1,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 4,
+      "strategy": "B0",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_021",
+      "process_block": 1,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 5,
+      "strategy": "B2",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_022",
+      "process_block": 1,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 6,
+      "strategy": "B3",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_023",
+      "process_block": 1,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 7,
+      "strategy": "B1",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_024",
+      "process_block": 1,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 8,
+      "strategy": "M",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_025",
+      "process_block": 1,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 1,
+      "strategy": "B5",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_026",
+      "process_block": 1,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 2,
+      "strategy": "C",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_027",
+      "process_block": 1,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 3,
+      "strategy": "B0",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_028",
+      "process_block": 1,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 4,
+      "strategy": "B2",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_029",
+      "process_block": 1,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 5,
+      "strategy": "B3",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_030",
+      "process_block": 1,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 6,
+      "strategy": "B1",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_031",
+      "process_block": 1,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 7,
+      "strategy": "M",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_032",
+      "process_block": 1,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 8,
+      "strategy": "B4",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_033",
+      "process_block": 2,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 1,
+      "strategy": "C",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_034",
+      "process_block": 2,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 2,
+      "strategy": "B0",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_035",
+      "process_block": 2,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 3,
+      "strategy": "B2",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_036",
+      "process_block": 2,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 4,
+      "strategy": "B3",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_037",
+      "process_block": 2,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 5,
+      "strategy": "B1",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_038",
+      "process_block": 2,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 6,
+      "strategy": "M",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_039",
+      "process_block": 2,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 7,
+      "strategy": "B4",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_040",
+      "process_block": 2,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 8,
+      "strategy": "B5",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_041",
+      "process_block": 2,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 1,
+      "strategy": "B0",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_042",
+      "process_block": 2,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 2,
+      "strategy": "B2",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_043",
+      "process_block": 2,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 3,
+      "strategy": "B3",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_044",
+      "process_block": 2,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 4,
+      "strategy": "B1",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_045",
+      "process_block": 2,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 5,
+      "strategy": "M",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_046",
+      "process_block": 2,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 6,
+      "strategy": "B4",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_047",
+      "process_block": 2,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 7,
+      "strategy": "B5",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_048",
+      "process_block": 2,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 8,
+      "strategy": "C",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_049",
+      "process_block": 2,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 1,
+      "strategy": "B2",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_050",
+      "process_block": 2,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 2,
+      "strategy": "B3",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_051",
+      "process_block": 2,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 3,
+      "strategy": "B1",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_052",
+      "process_block": 2,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 4,
+      "strategy": "M",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_053",
+      "process_block": 2,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 5,
+      "strategy": "B4",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_054",
+      "process_block": 2,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 6,
+      "strategy": "B5",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_055",
+      "process_block": 2,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 7,
+      "strategy": "C",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_056",
+      "process_block": 2,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 8,
+      "strategy": "B0",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_057",
+      "process_block": 2,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 1,
+      "strategy": "B3",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_058",
+      "process_block": 2,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 2,
+      "strategy": "B1",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_059",
+      "process_block": 2,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 3,
+      "strategy": "M",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_060",
+      "process_block": 2,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 4,
+      "strategy": "B4",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_061",
+      "process_block": 2,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 5,
+      "strategy": "B5",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_062",
+      "process_block": 2,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 6,
+      "strategy": "C",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_063",
+      "process_block": 2,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 7,
+      "strategy": "B0",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_064",
+      "process_block": 2,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 8,
+      "strategy": "B2",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_065",
+      "process_block": 3,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 1,
+      "strategy": "B1",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_066",
+      "process_block": 3,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 2,
+      "strategy": "M",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_067",
+      "process_block": 3,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 3,
+      "strategy": "B4",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_068",
+      "process_block": 3,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 4,
+      "strategy": "B5",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_069",
+      "process_block": 3,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 5,
+      "strategy": "C",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_070",
+      "process_block": 3,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 6,
+      "strategy": "B0",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_071",
+      "process_block": 3,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 7,
+      "strategy": "B2",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_072",
+      "process_block": 3,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 8,
+      "strategy": "B3",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_073",
+      "process_block": 3,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 1,
+      "strategy": "M",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_074",
+      "process_block": 3,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 2,
+      "strategy": "B4",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_075",
+      "process_block": 3,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 3,
+      "strategy": "B5",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_076",
+      "process_block": 3,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 4,
+      "strategy": "C",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_077",
+      "process_block": 3,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 5,
+      "strategy": "B0",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_078",
+      "process_block": 3,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 6,
+      "strategy": "B2",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_079",
+      "process_block": 3,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 7,
+      "strategy": "B3",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_080",
+      "process_block": 3,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 8,
+      "strategy": "B1",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_081",
+      "process_block": 3,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 1,
+      "strategy": "B4",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_082",
+      "process_block": 3,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 2,
+      "strategy": "B5",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_083",
+      "process_block": 3,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 3,
+      "strategy": "C",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_084",
+      "process_block": 3,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 4,
+      "strategy": "B0",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_085",
+      "process_block": 3,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 5,
+      "strategy": "B2",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_086",
+      "process_block": 3,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 6,
+      "strategy": "B3",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_087",
+      "process_block": 3,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 7,
+      "strategy": "B1",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_088",
+      "process_block": 3,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 8,
+      "strategy": "M",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_089",
+      "process_block": 3,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 1,
+      "strategy": "B5",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_090",
+      "process_block": 3,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 2,
+      "strategy": "C",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_091",
+      "process_block": 3,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 3,
+      "strategy": "B0",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_092",
+      "process_block": 3,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 4,
+      "strategy": "B2",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_093",
+      "process_block": 3,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 5,
+      "strategy": "B3",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_094",
+      "process_block": 3,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 6,
+      "strategy": "B1",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_095",
+      "process_block": 3,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 7,
+      "strategy": "M",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_096",
+      "process_block": 3,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 8,
+      "strategy": "B4",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_097",
+      "process_block": 4,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 1,
+      "strategy": "C",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_098",
+      "process_block": 4,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 2,
+      "strategy": "B0",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_099",
+      "process_block": 4,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 3,
+      "strategy": "B2",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_100",
+      "process_block": 4,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 4,
+      "strategy": "B3",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_101",
+      "process_block": 4,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 5,
+      "strategy": "B1",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_102",
+      "process_block": 4,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 6,
+      "strategy": "M",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_103",
+      "process_block": 4,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 7,
+      "strategy": "B4",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_104",
+      "process_block": 4,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 8,
+      "strategy": "B5",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_105",
+      "process_block": 4,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 1,
+      "strategy": "B0",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_106",
+      "process_block": 4,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 2,
+      "strategy": "B2",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_107",
+      "process_block": 4,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 3,
+      "strategy": "B3",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_108",
+      "process_block": 4,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 4,
+      "strategy": "B1",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_109",
+      "process_block": 4,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 5,
+      "strategy": "M",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_110",
+      "process_block": 4,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 6,
+      "strategy": "B4",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_111",
+      "process_block": 4,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 7,
+      "strategy": "B5",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_112",
+      "process_block": 4,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 8,
+      "strategy": "C",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_113",
+      "process_block": 4,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 1,
+      "strategy": "B2",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_114",
+      "process_block": 4,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 2,
+      "strategy": "B3",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_115",
+      "process_block": 4,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 3,
+      "strategy": "B1",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_116",
+      "process_block": 4,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 4,
+      "strategy": "M",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_117",
+      "process_block": 4,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 5,
+      "strategy": "B4",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_118",
+      "process_block": 4,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 6,
+      "strategy": "B5",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_119",
+      "process_block": 4,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 7,
+      "strategy": "C",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_120",
+      "process_block": 4,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 8,
+      "strategy": "B0",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_121",
+      "process_block": 4,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 1,
+      "strategy": "B3",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_122",
+      "process_block": 4,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 2,
+      "strategy": "B1",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_123",
+      "process_block": 4,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 3,
+      "strategy": "M",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_124",
+      "process_block": 4,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 4,
+      "strategy": "B4",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_125",
+      "process_block": 4,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 5,
+      "strategy": "B5",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_126",
+      "process_block": 4,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 6,
+      "strategy": "C",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_127",
+      "process_block": 4,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 7,
+      "strategy": "B0",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_128",
+      "process_block": 4,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 8,
+      "strategy": "B2",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_129",
+      "process_block": 5,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 1,
+      "strategy": "B1",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_130",
+      "process_block": 5,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 2,
+      "strategy": "M",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_131",
+      "process_block": 5,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 3,
+      "strategy": "B4",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_132",
+      "process_block": 5,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 4,
+      "strategy": "B5",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_133",
+      "process_block": 5,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 5,
+      "strategy": "C",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_134",
+      "process_block": 5,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 6,
+      "strategy": "B0",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_135",
+      "process_block": 5,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 7,
+      "strategy": "B2",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_136",
+      "process_block": 5,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "fast_test_slot",
+      "position": 8,
+      "strategy": "B3",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_137",
+      "process_block": 5,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 1,
+      "strategy": "M",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_138",
+      "process_block": 5,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 2,
+      "strategy": "B4",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_139",
+      "process_block": 5,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 3,
+      "strategy": "B5",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_140",
+      "process_block": 5,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 4,
+      "strategy": "C",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_141",
+      "process_block": 5,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 5,
+      "strategy": "B0",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_142",
+      "process_block": 5,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 6,
+      "strategy": "B2",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_143",
+      "process_block": 5,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 7,
+      "strategy": "B3",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_144",
+      "process_block": 5,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "slow_test_slot",
+      "position": 8,
+      "strategy": "B1",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_145",
+      "process_block": 5,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 1,
+      "strategy": "B4",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_146",
+      "process_block": 5,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 2,
+      "strategy": "B5",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_147",
+      "process_block": 5,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 3,
+      "strategy": "C",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_148",
+      "process_block": 5,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 4,
+      "strategy": "B0",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_149",
+      "process_block": 5,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 5,
+      "strategy": "B2",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_150",
+      "process_block": 5,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 6,
+      "strategy": "B3",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_151",
+      "process_block": 5,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 7,
+      "strategy": "B1",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_152",
+      "process_block": 5,
+      "scene_slot": "scene_slot_1",
+      "trajectory_slot": "fast_test_slot",
+      "position": 8,
+      "strategy": "M",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_153",
+      "process_block": 5,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 1,
+      "strategy": "B5",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_154",
+      "process_block": 5,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 2,
+      "strategy": "C",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_155",
+      "process_block": 5,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 3,
+      "strategy": "B0",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_156",
+      "process_block": 5,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 4,
+      "strategy": "B2",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_157",
+      "process_block": 5,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 5,
+      "strategy": "B3",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_158",
+      "process_block": 5,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 6,
+      "strategy": "B1",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_159",
+      "process_block": 5,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 7,
+      "strategy": "M",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    },
+    {
+      "session_id": "session_160",
+      "process_block": 5,
+      "scene_slot": "scene_slot_2",
+      "trajectory_slot": "slow_test_slot",
+      "position": 8,
+      "strategy": "B4",
+      "warmup_frames": 256,
+      "measurement_frames": 512
+    }
+  ]
+}

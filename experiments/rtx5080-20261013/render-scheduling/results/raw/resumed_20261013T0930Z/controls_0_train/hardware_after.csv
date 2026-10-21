@@ -1,0 +1,2 @@
+timestamp, uuid, temperature.gpu, clocks.current.sm [MHz], clocks.current.memory [MHz], power.draw [W], memory.used [MiB], memory.free [MiB], gpu_recovery_action
+2026/10/13 17:46:39.501, GPU-b864b6c3-6dad-2596-5e83-3b15d32a13b5, 63, 2835 MHz, 14801 MHz, 253.46 W, 605 MiB, 15235 MiB, None

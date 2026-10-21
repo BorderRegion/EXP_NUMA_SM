@@ -1,0 +1,8 @@
+{
+  "frozen_at": "2026-10-13T17:38:40.152132+08:00",
+  "branch": "negative",
+  "pilot_M_B0_ratio": 1.481105190998214,
+  "pilot_M_Bstar_ratio": 1.3196419626413893,
+  "rule": "Full only if geometric mean CPU time improves at least 3% versus both B0 and frozen B*. Otherwise the registered 36-session negative confirmation.",
+  "pilot_not_used_for_intervals": true
+}

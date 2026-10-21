@@ -1,0 +1,12 @@
+{
+  "run_id": "recovery_20261013T074618Z",
+  "started_at_utc": "2026-10-13T07:46:18.583062+00:00",
+  "user_authorization": "ok,anyway you can download anything :)",
+  "network_downloads_allowed": true,
+  "workspace_local_setup": true,
+  "system_or_driver_changes": false,
+  "prior_gpu_worker_hours_charged": 0.06666666666666667,
+  "gpu_worker_hours_cap_original": 12,
+  "recovery_input_sha256": "ababb35120d60527842be348c42d2589681e2928e9c3228ffb2a98ca666025a2",
+  "state": "RECOVERING_RESOURCES"
+}

@@ -1,0 +1,27 @@
+{
+  "review_date": "2026-10-13",
+  "input": {
+    "name": "STATIC_AFFINITY_SPECIALIZATION_REPORT.md",
+    "bytes": 22220,
+    "sha256": "4b082a38cfedb7eccd9aeaed8329770e2aeec2b3738d6f50ad7a34ef592ab23d"
+  },
+  "scope": "Report and prior-plan review; no raw experiment or GPU independently reproduced.",
+  "gpu_experiments_executed_by_reviewer": false,
+  "files": [
+    {
+      "path": "CODEX_BOUNDED_CAUSAL_COMPLETION.md",
+      "bytes": 15415,
+      "sha256": "1f04ce982c615e1fb617266df02e57957ad14e5bcaa2b5c0b59066bfb7092e70"
+    },
+    {
+      "path": "COPY_TO_CODEX.txt",
+      "bytes": 1376,
+      "sha256": "0826c21243b962459066ad3105294a3d051a1f1ad77be11dfab02aae8e9d4752"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 4941,
+      "sha256": "c753f956945cd5e31625309b7c67928d487e45c5254842d17b4b750a92f562b9"
+    }
+  ]
+}

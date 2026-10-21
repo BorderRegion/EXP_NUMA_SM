@@ -1,0 +1,16 @@
+{
+  "only_own_partial_downloads_removed_after_complete_payload_verification": [
+    {
+      "path": "offline_inbox/assets/bonsai/point_cloud/iteration_30000/point_cloud.ply.part",
+      "bytes": 50674716
+    },
+    {
+      "path": "offline_inbox/assets/train/point_cloud/iteration_30000/point_cloud.ply.part",
+      "bytes": 26191416
+    },
+    {
+      "path": "offline_inbox/assets/truck/point_cloud/iteration_30000/point_cloud.ply.part",
+      "bytes": 221271898
+    }
+  ]
+}

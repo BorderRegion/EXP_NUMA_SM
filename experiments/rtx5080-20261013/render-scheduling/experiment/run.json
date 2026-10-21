@@ -1,0 +1,10 @@
+{
+  "run_id": "resumed_20261013T0930Z",
+  "created": "2026-10-13T17:29:31.486986+08:00",
+  "original_budget_hours": 12,
+  "prior_worker_hours": 0.3170485692580557,
+  "route": "B",
+  "reason": "No verified controllable topology. Q used for sequential whole tiles in a bundle.",
+  "resume_authorization": "Retry the fixed executor; resume original experiments only if passed. Five checks passed.",
+  "gpu_events_stop_immediately": true
+}

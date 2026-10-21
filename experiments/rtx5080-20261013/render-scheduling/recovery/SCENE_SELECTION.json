@@ -1,0 +1,11 @@
+{
+  "selected_before_performance": true,
+  "scenes": {
+    "train": "development_outdoor",
+    "bonsai": "development_indoor",
+    "truck": "heldout_outdoor"
+  },
+  "iteration": 30000,
+  "reason": "One smaller outdoor scene and one smaller indoor scene by published asset size; independent outdoor heldout. No candidate performance observed.",
+  "holdout_performance_access": "Only after method freeze; file integrity/format inspection allowed"
+}

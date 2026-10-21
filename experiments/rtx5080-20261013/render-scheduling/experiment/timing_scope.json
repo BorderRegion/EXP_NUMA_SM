@@ -1,0 +1,46 @@
+{
+  "cpu_result_ready_ms": {
+    "start": "Before camera-input host-to-device copy/submit",
+    "end": "cudaEventSynchronize(end) after full forward pipeline; output resident on GPU",
+    "includes": [
+      "camera upload",
+      "upstream preprocess",
+      "scan and instance-count D2H",
+      "allocation growth during frame if needed",
+      "binning and depth sort",
+      "metadata extraction and D2H",
+      "CPU plan",
+      "schedule upload",
+      "native or scheduled render"
+    ],
+    "excludes": [
+      "initial PLY parsing/model upload",
+      "diagnostic digest/readback",
+      "raw storage",
+      "application display/encoding/presentation"
+    ]
+  },
+  "gpu_span_ms": "CUDA events around camera transfer and the complete pipeline. Can include GPU idle gaps caused by CPU planning and host synchronization; not sum of GPU busy kernel time.",
+  "preprocess_ms": "Events bounding original per-Gaussian preprocessing",
+  "scan_ms": "Prefix scan + CPU instance readback/allocation interval",
+  "sort_ms": "Duplicate/bucket generation, CUB sort, range identification",
+  "build_ms": "Feature kernel + metadata D2H + host plan + schedule H2D/queue reset. Combined interval; separate device feature/copy durations unavailable.",
+  "render_ms": "Native tile grid or bounded queue render kernel event interval",
+  "cpu_plan_ms": "Host planning interval only; excludes features/readback and schedule upload",
+  "finite": "1 means per-frame finite checked. -1 in nodig sensitivity means unchecked except final frame.",
+  "hash_x_hash_sum": "Two 64-bit reductions over color, final_T and n_contrib, out of timed interval. Shared mix primitive; collision probability not formally derived. Qualification uses full raw bit comparison.",
+  "memory": "Model/scratch buffer sizes reported after each process; scheduler buffers add 76*tile_count+8 bytes. Peak allocator residency and external GPU use are not isolated; telemetry snapshots are inclusive GPU usage.",
+  "unmeasured_fields": {
+    "feature_kernel_ms": null,
+    "H2D_only_ms": null,
+    "D2H_only_ms": null,
+    "hardware_L2_bytes": null,
+    "hardware_DRAM_bytes": null,
+    "hardware_L2_hit_rate": null,
+    "exact_peak_memory": null,
+    "actual_Q_task_order": null,
+    "actual_inflight_bundles": null,
+    "true_working_set_bytes": null
+  },
+  "observer_effect": "Every timed formal frame followed by untimed digest and readback; it may change next-frame cache state. Predeclared no-digest pairs use only final-frame checking."
+}

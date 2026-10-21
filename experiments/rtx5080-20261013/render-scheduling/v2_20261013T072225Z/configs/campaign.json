@@ -1,0 +1,143 @@
+{
+  "campaign_id": "RTX5080_RENDER_SCHEDULING_V2_20261013",
+  "schema_version": 2,
+  "design_date": "2026-10-13",
+  "target_gpu": "NVIDIA GeForce RTX 5080",
+  "execution": "local_offline",
+  "expected_hardware_reference": {
+    "compute_capability": "12.0",
+    "sm_count": 84,
+    "l2_bytes": 67108864,
+    "vram_class_gb": 16,
+    "physical_numa_domains": null,
+    "measured": false
+  },
+  "authorization": {
+    "network": false,
+    "ssh": false,
+    "download": false,
+    "driver_change": false,
+    "rent_gpu": false,
+    "paid_budget": 0,
+    "system_privilege_change": false,
+    "cache_load_branch_preapproved": true,
+    "topology_required_for_cache_branch": false
+  },
+  "budget": {
+    "gpu_worker_hours_total": 12,
+    "stage_hours": {
+      "E0": 0.5,
+      "E1": 1,
+      "E2": 1.5,
+      "E3": 2,
+      "E4": 4,
+      "E5": 1.5,
+      "reserve": 1.5
+    },
+    "topology_worker_minutes_cap": 45,
+    "gpu_workers": 1,
+    "diagnostic_buffer_cap_mib": 512,
+    "diagnostic_free_fraction_cap": 0.1,
+    "application_headroom_gib_min": 2,
+    "application_headroom_total_fraction": 0.15,
+    "outputs_soft_gib": 12,
+    "outputs_hard_gib": 24,
+    "diagnostic_kernel_target_ms": 20
+  },
+  "application": {
+    "primary_backend": "existing_local_cuda_tile_renderer",
+    "preferred_workload": "3dgs_forward_full_tile",
+    "dev_scenes_max": 2,
+    "heldout_scenes_max": 1,
+    "test_trajectories_per_scene": 2,
+    "primary_resolution": [
+      1920,
+      1080
+    ],
+    "secondary_resolution": [
+      2560,
+      1440
+    ],
+    "full_blocks": 5,
+    "negative_blocks": 3,
+    "secondary_blocks": 3,
+    "warmup_frames_min": 256,
+    "warmup_seconds_min": 2,
+    "measured_frames": 512,
+    "executor_forms_max": 2,
+    "new_candidate_algorithms_max": 1
+  },
+  "policies": {
+    "common": [
+      "B0_NATIVE",
+      "B1_MATCHED_BLIND",
+      "B2_SPATIAL",
+      "B3_LOAD",
+      "B4_RESOURCE",
+      "B5_GROUP_BALANCE",
+      "M_JOINT",
+      "C1_SHUFFLED_FEATURE",
+      "C2_MECHANISM"
+    ],
+    "topology_extra": [
+      "B6_STATIC_DOMAIN"
+    ],
+    "extension_policies": [
+      "B0_NATIVE",
+      "B_STAR_FROZEN",
+      "M_JOINT"
+    ]
+  },
+  "calibration": {
+    "configs_per_policy_max": 12,
+    "independent_repeats": 2,
+    "samples_per_tile_choices": [
+      8,
+      16
+    ],
+    "bundle_size_choices": [
+      4,
+      8
+    ],
+    "cap_fraction_choices": [
+      0.25,
+      0.5,
+      1
+    ],
+    "test_data_tuning": false,
+    "capacity_model": "per_concurrent_window_proxy_not_per_CTA_full_L2",
+    "exact_footprint_diagnostic_tiles_per_calibration_frame_max": 256
+  },
+  "micro": {
+    "working_set_l2_multipliers": [
+      0.25,
+      0.75,
+      1.5,
+      4.0
+    ],
+    "reuse_levels": 3,
+    "skew_levels": 2,
+    "schedule_modes": 4
+  },
+  "limits": {
+    "main_sessions_max": 200,
+    "heldout_sessions_max": 30,
+    "secondary_sessions_max": 18,
+    "full_application_sessions_max": 248,
+    "negative_application_sessions_max": 36,
+    "profile_captures_max": 6
+  },
+  "decision": {
+    "continuous_through_report": true,
+    "no_affinity_action": "continue_cache_load_branch",
+    "missing_real_renderer_action": "micro_and_cpu_report_only",
+    "pilot_no_incremental_signal_action": "negative_confirmation_then_report",
+    "formal_no_incremental_signal_action": "close_current_candidate",
+    "allow_more_algorithms_after_negative": false
+  },
+  "output": {
+    "report": "reports/RTX5080_RENDER_SCHEDULING_REPORT.md",
+    "contribution": "reports/CONTRIBUTION_CARD.md",
+    "runtime_actuals_must_be_recorded": true
+  }
+}

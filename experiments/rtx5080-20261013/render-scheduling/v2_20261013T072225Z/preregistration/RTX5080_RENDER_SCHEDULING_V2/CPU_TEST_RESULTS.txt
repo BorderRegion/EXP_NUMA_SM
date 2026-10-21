@@ -1,0 +1,25 @@
+test_break_even (test_plan.TestPlan.test_break_even) ... ok
+test_budget_sum (test_plan.TestPlan.test_budget_sum) ... ok
+test_cache_count (test_plan.TestPlan.test_cache_count) ... ok
+test_invalid_permutation (test_plan.TestPlan.test_invalid_permutation) ... ok
+test_micro_count (test_plan.TestPlan.test_micro_count) ... ok
+test_missing_renderer_does_not_become_app_result (test_plan.TestPlan.test_missing_renderer_does_not_become_app_result) ... ok
+test_negative_count (test_plan.TestPlan.test_negative_count) ... ok
+test_network_rejected (test_plan.TestPlan.test_network_rejected) ... ok
+test_no_more_algorithms_to_rescue_negative (test_plan.TestPlan.test_no_more_algorithms_to_rescue_negative) ... ok
+test_nonfinite_time_rejected (test_plan.TestPlan.test_nonfinite_time_rejected) ... ok
+test_paid_rejected (test_plan.TestPlan.test_paid_rejected) ... ok
+test_reference_not_measurement (test_plan.TestPlan.test_reference_not_measurement) ... ok
+test_signal_without_control_uses_cache (test_plan.TestPlan.test_signal_without_control_uses_cache) ... ok
+test_string_evidence_not_accepted (test_plan.TestPlan.test_string_evidence_not_accepted) ... ok
+test_time_vs_speed (test_plan.TestPlan.test_time_vs_speed) ... ok
+test_topology_count (test_plan.TestPlan.test_topology_count) ... ok
+test_topology_requires_all_evidence (test_plan.TestPlan.test_topology_requires_all_evidence) ... ok
+test_unmeasured_topology_uses_cache (test_plan.TestPlan.test_unmeasured_topology_uses_cache) ... ok
+test_valid_permutations (test_plan.TestPlan.test_valid_permutations) ... ok
+test_valid_plan (test_plan.TestPlan.test_valid_plan) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.002s
+
+OK

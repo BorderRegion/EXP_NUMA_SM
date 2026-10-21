@@ -1,0 +1,117 @@
+{
+  "snapshot_utc": "2026-10-21T06:35:26.449966+00:00",
+  "source_root": "/home/ws/文档/ChatGPT/EXP_NUMA",
+  "destination": "https://github.com/BorderRegion/EXP_NUMA_SM",
+  "release_tag": "records-2026-10-13",
+  "archives": [
+    {
+      "asset": "CAMPAIGN_PACKAGE_affinity_20261013T064931Z_b2cdc88d.tar.gz",
+      "manifest": "archive/manifests/rtx5080-render-opportunity.jsonl",
+      "files": 50,
+      "source_bytes": 4230820,
+      "compressed_bytes": 187962,
+      "sha256": "9dfda054562f7b48c9f9665c8127fa606174ac3f8a84bffd17ec5e761df58b46",
+      "git_files": 50,
+      "git_bytes": 4230820,
+      "format": "tar.gz",
+      "scope": "original_delivery_package"
+    },
+    {
+      "asset": "RTX5080_V2_LOCAL_REPORT_v2_20261013T072225Z.zip",
+      "manifest": "archive/manifests/rtx5080-render-scheduling-v2.jsonl",
+      "files": 59,
+      "source_bytes": 179774,
+      "compressed_bytes": 94514,
+      "sha256": "c566fb7db0bee6f043f017af10e48e7278f0bfc8f4ab27f823bc0bf1c8759234",
+      "git_files": 59,
+      "git_bytes": 179774,
+      "format": "zip",
+      "scope": "original_delivery_package"
+    },
+    {
+      "asset": "RTX5080_COMPLETED_resumed_20261013T0930Z.zip",
+      "manifest": "archive/manifests/rtx5080-render-scheduling.jsonl",
+      "files": 523,
+      "source_bytes": 14051227,
+      "compressed_bytes": 4290772,
+      "sha256": "b787af759e1eb4db7e5ffba9246a2752510141af9875194f7301ea60503a016f",
+      "git_files": 523,
+      "git_bytes": 14051227,
+      "format": "zip",
+      "scope": "original_delivery_package"
+    },
+    {
+      "asset": "STATIC_AFFINITY_5080_COMPLETED_20261013.zip",
+      "manifest": "archive/manifests/rtx5080-static-affinity.jsonl",
+      "files": 295,
+      "source_bytes": 1955883539,
+      "compressed_bytes": 641988135,
+      "sha256": "d4a5b2ea921a02448d9ee1ebda3d8d37b2cd345db9861db1ae2853daeda9b969",
+      "git_files": 279,
+      "git_bytes": 14185622,
+      "format": "zip",
+      "scope": "original_delivery_package"
+    },
+    {
+      "asset": "STATIC_AFFINITY_CAUSAL_COMPLETION_20261013.zip",
+      "manifest": "archive/manifests/rtx5080-static-affinity-causal.jsonl",
+      "files": 727,
+      "source_bytes": 72917051,
+      "compressed_bytes": 17580940,
+      "sha256": "bfb1da61b5c392869ed4869c8bd09a6ae1ab0773200972e0148a6f7a3654c059",
+      "git_files": 727,
+      "git_bytes": 72917051,
+      "format": "zip",
+      "scope": "original_delivery_package"
+    },
+    {
+      "asset": "RTX5080_LOCAL_SUPPLEMENT_20261021.tar.zst",
+      "format": "tar.zst",
+      "scope": "current_local_files_missing_from_original_packages",
+      "manifest": "archive/manifests/rtx5080-local-supplement.jsonl",
+      "files": 457,
+      "source_bytes": 5380190139,
+      "compressed_bytes": 3987983120,
+      "sha256": "cfb6fbba85a7f0f04ae4e23f2b8bb0bf01d8b925f09e904a2e31ae75570c0a8a",
+      "parts": [
+        {
+          "asset": "RTX5080_LOCAL_SUPPLEMENT_20261021.tar.zst.part001",
+          "sha256": "bd9f0077b6611b85cba87b39c38fedb964c8e33a99a1b15781eb6a988e2f7a40",
+          "bytes": 1073741824
+        },
+        {
+          "asset": "RTX5080_LOCAL_SUPPLEMENT_20261021.tar.zst.part002",
+          "sha256": "6fac088f2ea31622f636d55f1b12ec9bf9c9d757f2ec42aeb812deabef8e341b",
+          "bytes": 1073741824
+        },
+        {
+          "asset": "RTX5080_LOCAL_SUPPLEMENT_20261021.tar.zst.part003",
+          "sha256": "36f9705ad2744c51f12857a716b223286a3f5d838f0b06b349881970e61b8936",
+          "bytes": 1073741824
+        },
+        {
+          "asset": "RTX5080_LOCAL_SUPPLEMENT_20261021.tar.zst.part004",
+          "sha256": "364b31de3d5b3b9d3e5dbf4b3dcf7d9e4cfe96ad0568c6c606f23a7b3b1ea24f",
+          "bytes": 766757648
+        }
+      ],
+      "git_files": 224,
+      "git_bytes": 15449747
+    }
+  ],
+  "exclusions": [
+    "Source .git internal database",
+    "Python bytecode and regenerable interpreter/test caches",
+    "affinity-render-5080/offline_inbox/: third-party CUDA toolchain, renderer checkout, and Train/Bonsai scene assets (source and version records retained; dependencies must be acquired separately)",
+    "affinity-render-5080/.analysis_libs/: external plotting runtime",
+    "artifacts/ distribution and extracted duplicate directories: the five original delivery packages are preserved separately; redundant local distribution copies are not re-archived",
+    "Symbolic links are not followed or restored; their external targets are not bundled"
+  ],
+  "total_entries": 2111,
+  "total_source_bytes": 7427452550,
+  "total_archive_bytes": 4652125443,
+  "git_evidence_files": 1862,
+  "git_evidence_bytes": 121014241,
+  "archive_file_limit_bytes": 1073741824,
+  "gpu_experiments_run": 0
+}

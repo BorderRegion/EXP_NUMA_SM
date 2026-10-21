@@ -1,0 +1,11 @@
+{
+  "original_cap_hours": 12,
+  "prior_including_bounded_retry_hours": 0.3170485692580557,
+  "resumed_conservative_reserved_hours": 0.2964875216666667,
+  "resumed_interval_start": "2026-10-13T17:29:31.535245+08:00",
+  "resumed_interval_end": "2026-10-13T17:47:18.890323+08:00",
+  "resumed_process_duration_hours": 0.1927646649099966,
+  "total_worker_hours": 0.6135360909247224,
+  "remaining_cap_hours": 11.386463909075278,
+  "accounting": "Full elapsed resumed interval includes CPU builds/setup, gaps, analysis preparation and plotting dependency setup while experiments reserved. Process durations are a subset, not added again. User-decision wait before retry and analysis after last GPU process are excluded. Actual GPU busy hours not measured."
+}

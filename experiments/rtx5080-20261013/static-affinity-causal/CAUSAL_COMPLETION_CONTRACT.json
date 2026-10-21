@@ -1,0 +1,447 @@
+{
+  "created": "2026-10-13T20:14:14.250063+08:00",
+  "user_authorization": "Execute the bounded follow-up",
+  "input_package_sha256": "84eb87426ec9c1f018cd6273966a8437b5c74e8e201b81cd429aa991615bf2c2",
+  "old_results_read_only": "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/static-affinity-5080",
+  "worker_hour_cap": 4,
+  "paid_spend": 0,
+  "offline": true,
+  "max_explicit_GPU_bytes": 536870912,
+  "minimum_free_headroom": "max(2 GiB, 15% device total)",
+  "target_kernel_ms": 2,
+  "stop_kernel_ms": 20,
+  "task_bytes": 65536,
+  "threads": 128,
+  "loads_per_thread": 128,
+  "small_tasks": 256,
+  "pressure_tasks": 3072,
+  "small_consumer_bytes": 16777216,
+  "pressure_consumer_bytes": 201326592,
+  "access_algorithm": "Each task owns a disjoint 64KiB region. i=128*j+lane; x=(i*odd+offset)&16383. Runtime-seeded odd and offset make a full bijection over all region words. uint value and weighted checksums depend on every consumed value. One full epoch is all tasks, no repeated small chain. All policies consume same multiset.",
+  "temporal_scope": "Per task 64KiB; union over concurrently submitted full epoch 16/192MiB. No claim all sectors resident simultaneously or of DRAM service.",
+  "recipes": [
+    "ordinary",
+    "ld.global.cg"
+  ],
+  "green_resource_recipe": [
+    40,
+    40,
+    4
+  ],
+  "quota": "q=floor(tasks*40/84) each equal group; remainder tasks-2q, fixed blind-selected remainder IDs across I/A/P",
+  "calibration": {
+    "rounds": 4,
+    "batch_tasks": 128,
+    "method": "Each identical task on every actual Green group; randomized batches and rotated group order; per-task clock64+actual SM diagnostics. Mean log ticks adjusted for group and task main effects. Rank C0-C1 over exchangeable tasks; exact quota cheapest group0 then group1. All initialization charged."
+  },
+  "policies": [
+    "N",
+    "I",
+    "A",
+    "P0",
+    "P1",
+    "P2"
+  ],
+  "permutation_seeds": [
+    2026101312,
+    2026101313
+  ],
+  "permutations": "P0 swaps groups0/1 of A; P1/P2 independently shuffle A exchangeable slots with frozen seeds; remainder unchanged; ascending logical task ID within each group for all Green policies",
+  "warmup_epochs": 32,
+  "measured_epochs": 128,
+  "latin_orders": [
+    [
+      4,
+      1,
+      3,
+      0,
+      2,
+      5
+    ],
+    [
+      1,
+      3,
+      0,
+      2,
+      5,
+      4
+    ],
+    [
+      3,
+      0,
+      2,
+      5,
+      4,
+      1
+    ],
+    [
+      0,
+      2,
+      5,
+      4,
+      1,
+      3
+    ],
+    [
+      2,
+      5,
+      4,
+      1,
+      3,
+      0
+    ],
+    [
+      5,
+      4,
+      1,
+      3,
+      0,
+      2
+    ]
+  ],
+  "process_plan": [
+    {
+      "scope": "PRESSURE",
+      "recipe": 1,
+      "block": 0,
+      "seed": 2026101510,
+      "order": [
+        4,
+        1,
+        3,
+        0,
+        2,
+        5
+      ]
+    },
+    {
+      "scope": "SMALL",
+      "recipe": 1,
+      "block": 0,
+      "seed": 2026101410,
+      "order": [
+        4,
+        1,
+        3,
+        0,
+        2,
+        5
+      ]
+    },
+    {
+      "scope": "PRESSURE",
+      "recipe": 0,
+      "block": 4,
+      "seed": 2026101504,
+      "order": [
+        2,
+        5,
+        4,
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "scope": "PRESSURE",
+      "recipe": 1,
+      "block": 3,
+      "seed": 2026101513,
+      "order": [
+        0,
+        2,
+        5,
+        4,
+        1,
+        3
+      ]
+    },
+    {
+      "scope": "PRESSURE",
+      "recipe": 0,
+      "block": 3,
+      "seed": 2026101503,
+      "order": [
+        0,
+        2,
+        5,
+        4,
+        1,
+        3
+      ]
+    },
+    {
+      "scope": "SMALL",
+      "recipe": 0,
+      "block": 3,
+      "seed": 2026101403,
+      "order": [
+        0,
+        2,
+        5,
+        4,
+        1,
+        3
+      ]
+    },
+    {
+      "scope": "SMALL",
+      "recipe": 1,
+      "block": 3,
+      "seed": 2026101413,
+      "order": [
+        0,
+        2,
+        5,
+        4,
+        1,
+        3
+      ]
+    },
+    {
+      "scope": "SMALL",
+      "recipe": 1,
+      "block": 1,
+      "seed": 2026101411,
+      "order": [
+        1,
+        3,
+        0,
+        2,
+        5,
+        4
+      ]
+    },
+    {
+      "scope": "SMALL",
+      "recipe": 0,
+      "block": 5,
+      "seed": 2026101405,
+      "order": [
+        5,
+        4,
+        1,
+        3,
+        0,
+        2
+      ]
+    },
+    {
+      "scope": "SMALL",
+      "recipe": 1,
+      "block": 4,
+      "seed": 2026101414,
+      "order": [
+        2,
+        5,
+        4,
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "scope": "PRESSURE",
+      "recipe": 1,
+      "block": 4,
+      "seed": 2026101514,
+      "order": [
+        2,
+        5,
+        4,
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "scope": "SMALL",
+      "recipe": 0,
+      "block": 1,
+      "seed": 2026101401,
+      "order": [
+        1,
+        3,
+        0,
+        2,
+        5,
+        4
+      ]
+    },
+    {
+      "scope": "PRESSURE",
+      "recipe": 1,
+      "block": 5,
+      "seed": 2026101515,
+      "order": [
+        5,
+        4,
+        1,
+        3,
+        0,
+        2
+      ]
+    },
+    {
+      "scope": "PRESSURE",
+      "recipe": 0,
+      "block": 5,
+      "seed": 2026101505,
+      "order": [
+        5,
+        4,
+        1,
+        3,
+        0,
+        2
+      ]
+    },
+    {
+      "scope": "PRESSURE",
+      "recipe": 1,
+      "block": 2,
+      "seed": 2026101512,
+      "order": [
+        3,
+        0,
+        2,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "scope": "SMALL",
+      "recipe": 0,
+      "block": 0,
+      "seed": 2026101400,
+      "order": [
+        4,
+        1,
+        3,
+        0,
+        2,
+        5
+      ]
+    },
+    {
+      "scope": "PRESSURE",
+      "recipe": 0,
+      "block": 2,
+      "seed": 2026101502,
+      "order": [
+        3,
+        0,
+        2,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "scope": "SMALL",
+      "recipe": 0,
+      "block": 2,
+      "seed": 2026101402,
+      "order": [
+        3,
+        0,
+        2,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "scope": "PRESSURE",
+      "recipe": 0,
+      "block": 0,
+      "seed": 2026101500,
+      "order": [
+        4,
+        1,
+        3,
+        0,
+        2,
+        5
+      ]
+    },
+    {
+      "scope": "SMALL",
+      "recipe": 1,
+      "block": 2,
+      "seed": 2026101412,
+      "order": [
+        3,
+        0,
+        2,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "scope": "SMALL",
+      "recipe": 1,
+      "block": 5,
+      "seed": 2026101415,
+      "order": [
+        5,
+        4,
+        1,
+        3,
+        0,
+        2
+      ]
+    },
+    {
+      "scope": "PRESSURE",
+      "recipe": 1,
+      "block": 1,
+      "seed": 2026101511,
+      "order": [
+        1,
+        3,
+        0,
+        2,
+        5,
+        4
+      ]
+    },
+    {
+      "scope": "PRESSURE",
+      "recipe": 0,
+      "block": 1,
+      "seed": 2026101501,
+      "order": [
+        1,
+        3,
+        0,
+        2,
+        5,
+        4
+      ]
+    },
+    {
+      "scope": "SMALL",
+      "recipe": 0,
+      "block": 4,
+      "seed": 2026101404,
+      "order": [
+        2,
+        5,
+        4,
+        1,
+        3,
+        0
+      ]
+    }
+  ],
+  "formal_sessions": 144,
+  "diagnostics": "Separate template DIAG=true for qualification and placement. Formal DIAG=false has no SM reads, timers or ownership atomic. Full uint2 CPU comparison after every measured epoch, outside timing; same checks all policies.",
+  "timer": "CPU immediately before launch/context submission through all joins and restore. No cross-context GPU event subtraction. Same-context event diagnostics qualify duration separately.",
+  "statistics": "Per-process means, paired A/I A/N and each A/P; P summary geometric mean of all three. 20000 block-bootstrap draws seed2026101314; 6 independent processes per stratum. Exploratory 95% intervals; all blocks retained unless correctness/safety fails, no favorable reruns.",
+  "decision": "No early gate on calibration size. Stable benefit requires ratio CI upper<1 and positive speedup in >=4/6 blocks for A/I,A/P_geomean,A/N. >=3% net benefit: CAUSAL_DEPLOYABLE_OPPORTUNITY, smaller: WEAK_CAUSAL_GAIN. A/I and A/P stable but not A/N: AFFINITY_EFFECT_COST_DOMINATED; otherwise NO_DEPLOYABLE_GAIN_ON_TESTED_GROUPS. Unsupported scope flagged independently.",
+  "refinements": "At most one evidence-based segmentation change before final binary freeze; no third address algorithm or executor.",
+  "application_work": "NOT_RUN by scope"
+}

@@ -1,0 +1,21 @@
+{
+  "label": "f1_small_full_cg",
+  "argv": [
+    "static-affinity-causal-5080/build/causal",
+    "static-affinity-causal-5080/results/raw/f1_small_full_cg",
+    "256",
+    "0",
+    "2026101397",
+    "1",
+    "012345",
+    "qualify"
+  ],
+  "started": "2026-10-13T20:19:58.693100+08:00",
+  "binary_sha256": "cdb8c41906408b4b11a50a1a5baff762ad537a276173f6280649d8095149dddf",
+  "source_sha256": "0103c5533120f37824aecfd13136852068b92cf8e3b05364feeea4b4358a3e1d",
+  "returncode": 0,
+  "new_xid": [],
+  "status": "PASS",
+  "finished": "2026-10-13T20:19:58.962214+08:00",
+  "seconds": 0.2691281629995501
+}

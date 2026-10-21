@@ -1,0 +1,386 @@
+[
+  {
+    "scene": "bonsai",
+    "width": 320,
+    "height": 180,
+    "label": "native",
+    "returncode": 0,
+    "wall_seconds": 1.9994432129988127,
+    "argv": [
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/native_renderer",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/bonsai",
+      "320",
+      "180",
+      "0",
+      "3",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/recovery_20261013T074618Z/executor_checks_r2/bonsai_320x180_native",
+      "8"
+    ],
+    "sha256": {
+      "color.raw": "8be294f9d44d43ef36fcfb071c9c95ece5ec3a5d0e68fd94fcb9634e4591feda",
+      "final_T.raw": "4132c326b8578f6bbdada51fe4b888ff6f0c0757b022f9b6e9cc361379fb6e65",
+      "n_contrib.raw": "31d0e620ec2c19398b401beb77c6d4ff7f89eee03a0383351085cc3414a2c2a6"
+    },
+    "raw_bitwise_equal": true
+  },
+  {
+    "scene": "bonsai",
+    "width": 320,
+    "height": 180,
+    "label": "instrumented",
+    "returncode": 0,
+    "wall_seconds": 1.9316090920001443,
+    "argv": [
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/scheduled_renderer",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/bonsai",
+      "320",
+      "180",
+      "0",
+      "3",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/recovery_20261013T074618Z/executor_checks_r2/bonsai_320x180_instrumented",
+      "8",
+      "0",
+      "0"
+    ],
+    "sha256": {
+      "color.raw": "8be294f9d44d43ef36fcfb071c9c95ece5ec3a5d0e68fd94fcb9634e4591feda",
+      "final_T.raw": "4132c326b8578f6bbdada51fe4b888ff6f0c0757b022f9b6e9cc361379fb6e65",
+      "n_contrib.raw": "31d0e620ec2c19398b401beb77c6d4ff7f89eee03a0383351085cc3414a2c2a6"
+    },
+    "raw_bitwise_equal": true
+  },
+  {
+    "scene": "bonsai",
+    "width": 320,
+    "height": 180,
+    "label": "identity_I",
+    "returncode": 0,
+    "wall_seconds": 1.9136640219985566,
+    "argv": [
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/scheduled_renderer",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/bonsai",
+      "320",
+      "180",
+      "0",
+      "3",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/recovery_20261013T074618Z/executor_checks_r2/bonsai_320x180_identity_I",
+      "8",
+      "1",
+      "0"
+    ],
+    "sha256": {
+      "color.raw": "8be294f9d44d43ef36fcfb071c9c95ece5ec3a5d0e68fd94fcb9634e4591feda",
+      "final_T.raw": "4132c326b8578f6bbdada51fe4b888ff6f0c0757b022f9b6e9cc361379fb6e65",
+      "n_contrib.raw": "31d0e620ec2c19398b401beb77c6d4ff7f89eee03a0383351085cc3414a2c2a6"
+    },
+    "raw_bitwise_equal": true
+  },
+  {
+    "scene": "bonsai",
+    "width": 320,
+    "height": 180,
+    "label": "identity_Q",
+    "returncode": 0,
+    "wall_seconds": 1.928311687999667,
+    "argv": [
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/scheduled_renderer",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/bonsai",
+      "320",
+      "180",
+      "0",
+      "3",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/recovery_20261013T074618Z/executor_checks_r2/bonsai_320x180_identity_Q",
+      "8",
+      "1",
+      "1"
+    ],
+    "sha256": {
+      "color.raw": "8be294f9d44d43ef36fcfb071c9c95ece5ec3a5d0e68fd94fcb9634e4591feda",
+      "final_T.raw": "4132c326b8578f6bbdada51fe4b888ff6f0c0757b022f9b6e9cc361379fb6e65",
+      "n_contrib.raw": "31d0e620ec2c19398b401beb77c6d4ff7f89eee03a0383351085cc3414a2c2a6"
+    },
+    "raw_bitwise_equal": true
+  },
+  {
+    "scene": "bonsai",
+    "width": 320,
+    "height": 180,
+    "label": "joint_I",
+    "returncode": 0,
+    "wall_seconds": 1.8797855250013527,
+    "argv": [
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/scheduled_renderer",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/bonsai",
+      "320",
+      "180",
+      "0",
+      "3",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/recovery_20261013T074618Z/executor_checks_r2/bonsai_320x180_joint_I",
+      "8",
+      "6",
+      "0"
+    ],
+    "sha256": {
+      "color.raw": "8be294f9d44d43ef36fcfb071c9c95ece5ec3a5d0e68fd94fcb9634e4591feda",
+      "final_T.raw": "4132c326b8578f6bbdada51fe4b888ff6f0c0757b022f9b6e9cc361379fb6e65",
+      "n_contrib.raw": "31d0e620ec2c19398b401beb77c6d4ff7f89eee03a0383351085cc3414a2c2a6"
+    },
+    "raw_bitwise_equal": true
+  },
+  {
+    "scene": "bonsai",
+    "width": 320,
+    "height": 180,
+    "label": "joint_Q",
+    "returncode": 0,
+    "wall_seconds": 1.9217157380007848,
+    "argv": [
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/scheduled_renderer",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/bonsai",
+      "320",
+      "180",
+      "0",
+      "3",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/recovery_20261013T074618Z/executor_checks_r2/bonsai_320x180_joint_Q",
+      "8",
+      "6",
+      "1"
+    ],
+    "sha256": {
+      "color.raw": "8be294f9d44d43ef36fcfb071c9c95ece5ec3a5d0e68fd94fcb9634e4591feda",
+      "final_T.raw": "4132c326b8578f6bbdada51fe4b888ff6f0c0757b022f9b6e9cc361379fb6e65",
+      "n_contrib.raw": "31d0e620ec2c19398b401beb77c6d4ff7f89eee03a0383351085cc3414a2c2a6"
+    },
+    "raw_bitwise_equal": true
+  },
+  {
+    "scene": "train",
+    "width": 640,
+    "height": 360,
+    "label": "native",
+    "returncode": 0,
+    "wall_seconds": 1.6036822980004217,
+    "argv": [
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/native_renderer",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/train",
+      "640",
+      "360",
+      "0",
+      "3",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/recovery_20261013T074618Z/executor_checks_r2/train_640x360_native",
+      "8"
+    ],
+    "sha256": {
+      "color.raw": "790c00b1a6c0f494568c284967186561e6d11bab97b8fb1ddcd1a2ebe3c6d11a",
+      "final_T.raw": "81b31d5db41f445d703ed97327c52a7c0e17268d98fe69e9fbcd36577c9771d2",
+      "n_contrib.raw": "95024ec130453ccfbd99d0562440b59e275a0d56e81b22472737bb68c8a5ed94"
+    },
+    "raw_bitwise_equal": true
+  },
+  {
+    "scene": "train",
+    "width": 640,
+    "height": 360,
+    "label": "instrumented",
+    "returncode": 0,
+    "wall_seconds": 1.5841601890006132,
+    "argv": [
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/scheduled_renderer",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/train",
+      "640",
+      "360",
+      "0",
+      "3",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/recovery_20261013T074618Z/executor_checks_r2/train_640x360_instrumented",
+      "8",
+      "0",
+      "0"
+    ],
+    "sha256": {
+      "color.raw": "790c00b1a6c0f494568c284967186561e6d11bab97b8fb1ddcd1a2ebe3c6d11a",
+      "final_T.raw": "81b31d5db41f445d703ed97327c52a7c0e17268d98fe69e9fbcd36577c9771d2",
+      "n_contrib.raw": "95024ec130453ccfbd99d0562440b59e275a0d56e81b22472737bb68c8a5ed94"
+    },
+    "raw_bitwise_equal": true
+  },
+  {
+    "scene": "train",
+    "width": 640,
+    "height": 360,
+    "label": "identity_I",
+    "returncode": 0,
+    "wall_seconds": 1.6470809839993308,
+    "argv": [
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/scheduled_renderer",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/train",
+      "640",
+      "360",
+      "0",
+      "3",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/recovery_20261013T074618Z/executor_checks_r2/train_640x360_identity_I",
+      "8",
+      "1",
+      "0"
+    ],
+    "sha256": {
+      "color.raw": "790c00b1a6c0f494568c284967186561e6d11bab97b8fb1ddcd1a2ebe3c6d11a",
+      "final_T.raw": "81b31d5db41f445d703ed97327c52a7c0e17268d98fe69e9fbcd36577c9771d2",
+      "n_contrib.raw": "95024ec130453ccfbd99d0562440b59e275a0d56e81b22472737bb68c8a5ed94"
+    },
+    "raw_bitwise_equal": true
+  },
+  {
+    "scene": "train",
+    "width": 640,
+    "height": 360,
+    "label": "identity_Q",
+    "returncode": 0,
+    "wall_seconds": 1.649291768000694,
+    "argv": [
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/scheduled_renderer",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/train",
+      "640",
+      "360",
+      "0",
+      "3",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/recovery_20261013T074618Z/executor_checks_r2/train_640x360_identity_Q",
+      "8",
+      "1",
+      "1"
+    ],
+    "sha256": {
+      "color.raw": "790c00b1a6c0f494568c284967186561e6d11bab97b8fb1ddcd1a2ebe3c6d11a",
+      "final_T.raw": "81b31d5db41f445d703ed97327c52a7c0e17268d98fe69e9fbcd36577c9771d2",
+      "n_contrib.raw": "95024ec130453ccfbd99d0562440b59e275a0d56e81b22472737bb68c8a5ed94"
+    },
+    "raw_bitwise_equal": true
+  },
+  {
+    "scene": "train",
+    "width": 640,
+    "height": 360,
+    "label": "joint_I",
+    "returncode": 0,
+    "wall_seconds": 1.6332959700011997,
+    "argv": [
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/scheduled_renderer",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/train",
+      "640",
+      "360",
+      "0",
+      "3",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/recovery_20261013T074618Z/executor_checks_r2/train_640x360_joint_I",
+      "8",
+      "6",
+      "0"
+    ],
+    "sha256": {
+      "color.raw": "790c00b1a6c0f494568c284967186561e6d11bab97b8fb1ddcd1a2ebe3c6d11a",
+      "final_T.raw": "81b31d5db41f445d703ed97327c52a7c0e17268d98fe69e9fbcd36577c9771d2",
+      "n_contrib.raw": "95024ec130453ccfbd99d0562440b59e275a0d56e81b22472737bb68c8a5ed94"
+    },
+    "raw_bitwise_equal": true
+  },
+  {
+    "scene": "train",
+    "width": 640,
+    "height": 360,
+    "label": "joint_Q",
+    "returncode": 0,
+    "wall_seconds": 1.561616265000339,
+    "argv": [
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/scheduled_renderer",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/train",
+      "640",
+      "360",
+      "0",
+      "3",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/recovery_20261013T074618Z/executor_checks_r2/train_640x360_joint_Q",
+      "8",
+      "6",
+      "1"
+    ],
+    "sha256": {
+      "color.raw": "790c00b1a6c0f494568c284967186561e6d11bab97b8fb1ddcd1a2ebe3c6d11a",
+      "final_T.raw": "81b31d5db41f445d703ed97327c52a7c0e17268d98fe69e9fbcd36577c9771d2",
+      "n_contrib.raw": "95024ec130453ccfbd99d0562440b59e275a0d56e81b22472737bb68c8a5ed94"
+    },
+    "raw_bitwise_equal": true
+  },
+  {
+    "scene": "bonsai",
+    "width": 1920,
+    "height": 1080,
+    "label": "native",
+    "returncode": 0,
+    "wall_seconds": 1.983522920998439,
+    "argv": [
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/native_renderer",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/bonsai",
+      "1920",
+      "1080",
+      "0",
+      "3",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/recovery_20261013T074618Z/executor_checks_r2/bonsai_1920x1080_native",
+      "8"
+    ],
+    "sha256": {
+      "color.raw": "71fa9db56399e64f78332cfa4c07a64f0e0d412210f2c03c149bc8cc9b7d89e2",
+      "final_T.raw": "497786a1d49333a182a16b551c9511e5ea4de4fc60e981677c210352af5d1777",
+      "n_contrib.raw": "4fc0ad9238dfe2e7709dc71ecc84d5a7963751dc294224f0bd632eae4aa78499"
+    },
+    "raw_bitwise_equal": true
+  },
+  {
+    "scene": "bonsai",
+    "width": 1920,
+    "height": 1080,
+    "label": "instrumented",
+    "returncode": 0,
+    "wall_seconds": 1.9295829920010874,
+    "argv": [
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/scheduled_renderer",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/bonsai",
+      "1920",
+      "1080",
+      "0",
+      "3",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/recovery_20261013T074618Z/executor_checks_r2/bonsai_1920x1080_instrumented",
+      "8",
+      "0",
+      "0"
+    ],
+    "sha256": {
+      "color.raw": "71fa9db56399e64f78332cfa4c07a64f0e0d412210f2c03c149bc8cc9b7d89e2",
+      "final_T.raw": "497786a1d49333a182a16b551c9511e5ea4de4fc60e981677c210352af5d1777",
+      "n_contrib.raw": "4fc0ad9238dfe2e7709dc71ecc84d5a7963751dc294224f0bd632eae4aa78499"
+    },
+    "raw_bitwise_equal": true
+  },
+  {
+    "scene": "bonsai",
+    "width": 1920,
+    "height": 1080,
+    "label": "identity_I",
+    "returncode": 0,
+    "wall_seconds": 1.9690322360002028,
+    "argv": [
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/build/native/scheduled_renderer",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/offline_inbox/assets/bonsai",
+      "1920",
+      "1080",
+      "0",
+      "3",
+      "/home/ws/\u6587\u6863/ChatGPT/EXP_NUMA/affinity-render-5080/results/raw/recovery_20261013T074618Z/executor_checks_r2/bonsai_1920x1080_identity_I",
+      "8",
+      "1",
+      "0"
+    ],
+    "sha256": {
+      "color.raw": "71fa9db56399e64f78332cfa4c07a64f0e0d412210f2c03c149bc8cc9b7d89e2",
+      "final_T.raw": "497786a1d49333a182a16b551c9511e5ea4de4fc60e981677c210352af5d1777",
+      "n_contrib.raw": "4fc0ad9238dfe2e7709dc71ecc84d5a7963751dc294224f0bd632eae4aa78499"
+    },
+    "raw_bitwise_equal": true
+  }
+]

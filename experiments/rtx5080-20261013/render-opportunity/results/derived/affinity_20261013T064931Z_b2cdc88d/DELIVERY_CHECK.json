@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "evidence_role": "DELIVERY_INTEGRITY_ONLY",
+  "state": "PASS",
+  "cpu_checks": 10,
+  "current_source_hashes_match_checks": true,
+  "CLI_matches_inprocess_analysis": true,
+  "schedule_sessions_planned": 160,
+  "schedule_sessions_run": 0,
+  "input_task_hash_preserved": true,
+  "required_documents_present": true,
+  "hardware_data_not_fabricated": true,
+  "json_files_validated": 22,
+  "old_raw_preserved": true
+}

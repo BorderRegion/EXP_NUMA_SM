@@ -1,0 +1,13 @@
+{
+  "upstream_render_body_unchanged": true,
+  "scheduled_evaluator_body_identical_after_two_logical_index_substitutions": true,
+  "upstream_render_body_sha256": "87561cca823d09895829ff76edfd1e9bceabb093b5c701b283df633b6dbe5c34",
+  "reference_repo_commit": "59f5f77e3ddbac3ed9db93ec2cfe99ed6c5d121d",
+  "scope": "Textual body equality, not a formal equivalence proof; device output qualification follows.",
+  "matplotlib": {
+    "version": "3.10.7",
+    "installed_workspace_only": true,
+    "directory": ".analysis_libs",
+    "source": "PyPI binary wheels"
+  }
+}

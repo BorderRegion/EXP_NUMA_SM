@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "run_id": "affinity_20261013T064931Z_b2cdc88d",
+  "created_at": "2026-10-13T06:49:31.134217+00:00",
+  "timezone": "Asia/Shanghai",
+  "input_sha256": "2b1bbc898df0c2457cb5724b85ce873c9b96968d6a5c9a53c3f7a70e55ce4858",
+  "network_allowed": false,
+  "extra_spend_authorized": 0,
+  "state": "BLOCKED_LOCAL_RESOURCE",
+  "gpu_worker_hours_used": 0,
+  "hardware_measurements": 0,
+  "E6_report_completed_at": "2026-10-13T07:10:09.629938+00:00",
+  "phases": {
+    "E0": "COMPLETE_RESOURCE_INVENTORY_AND_PREREGISTRATION",
+    "E1": "BLOCKED_LOCAL_RESOURCE",
+    "E2": "NOT_ENTERED",
+    "E3": "APPLICATION_RESOURCES_MISSING_IN_PREFLIGHT",
+    "E4": "PROTOCOL_ONLY_NOT_IMPLEMENTED",
+    "E5": "NOT_RUN",
+    "E6": "COMPLETE_BLOCKED_RESOURCE_REPORT"
+  },
+  "latest_cpu_self_check": "results/derived/affinity_20261013T064931Z_b2cdc88d/cpu_sanity_v2/CPU_SELF_CHECK.json",
+  "result_summary": "results/derived/affinity_20261013T064931Z_b2cdc88d/CAMPAIGN_RESULTS.json"
+}

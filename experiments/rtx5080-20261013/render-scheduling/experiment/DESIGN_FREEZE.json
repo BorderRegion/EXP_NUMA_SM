@@ -1,0 +1,29 @@
+{
+  "frozen_at": "2026-10-13T17:33:21.541144+08:00",
+  "pilot_branch_rule": "Full only if equal-weight geometric mean CPU result-ready time improves >=3% versus both B0 and frozen B*. Otherwise 36-session negative confirmation.",
+  "primary_metric": "CPU input-submit to GPU output-ready; includes online CPU planning and transfers; excludes diagnostic hash/readback, setup, model loading.",
+  "baseline_pool": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "executor_calibration": "Q bundle maximum 4 or 8 on identity and Morton; 2 fresh processes per scene, 128 frames/session, warmup >=256 frames and >=2 seconds.",
+  "method_calibration": "After common K freeze, q=8/16 x alpha=.25/.5/1; 6 configurations, 2 fresh process repeats per scene.",
+  "frozen_coefficients": [
+    1,
+    4,
+    4
+  ],
+  "calibration_metric": "Geometric mean of scene/repeat session mean CPU times.",
+  "formal_order": "Seeded base permutation per scene/track; cyclic shift by block. Negative 3-block Latin rotation.",
+  "capacity_claim": "UNKNOWN unvalidated footprint; relative sampled-reuse heuristic only.",
+  "limitations": [
+    "Reference upstream backend, not current fastest backend.",
+    "CPU planner, not GPU-only scheduler.",
+    "Captured-camera discrete replay; speed names refer to index strides.",
+    "No controllable physical-domain evidence.",
+    "No hardware profiler counters collected."
+  ]
+}

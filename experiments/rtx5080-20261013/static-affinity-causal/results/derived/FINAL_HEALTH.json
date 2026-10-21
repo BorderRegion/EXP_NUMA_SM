@@ -1,0 +1,13 @@
+{
+  "device": {
+    "returncode": 0,
+    "stdout": "timestamp, uuid, temperature.gpu, memory.free [MiB], gpu_recovery_action\n2026/10/13 20:28:36.532, GPU-b864b6c3-6dad-2596-5e83-3b15d32a13b5, 38, 14969 MiB, None\n",
+    "stderr": ""
+  },
+  "kernel": {
+    "returncode": 0,
+    "stdout": "-- No entries --\n",
+    "stderr": ""
+  },
+  "new_Xid": []
+}

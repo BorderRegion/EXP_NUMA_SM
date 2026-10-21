@@ -1,0 +1,11 @@
+stage,unit,cap,actual,status,reason
+E1,real strata,60,60,COMPLETE_WITH_LIMITS,Broad coverage complete; denser holes and cache footprint limits reported
+E2,controlled backends,2,2,PARTIAL,Capability and 27 cost sessions completed; no learned-map causal execution
+E3_fixed,sessions,270,0,NOT_RUN,Affinity gate not met
+E4_snapshot,sessions,320,0,NOT_RUN,No actionable candidate
+E5_dynamic,sessions,180,0,NOT_RUN,No qualified application plan
+E6_Truck,sessions,30,0,NOT_RUN,No main result; heldout not used for tuning
+E6_1440p,sessions,18,0,NOT_RUN,No main result
+E6_lifecycle,sessions,45,0,NOT_RUN,No deployed plan
+negative_application_substitute,sessions,36,0,NOT_RUN,No deployed affinity plan
+E7_profiles,profiles,6,0,NOT_RUN,No application gain to explain; no counters collected
